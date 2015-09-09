@@ -10,7 +10,7 @@
    alternative algorithms that may be available on the system.
   </p>
   <p>
-   The <code class="parameter">salt</code> parameter is optional. However, <span><strong>crypt()</strong></span> creates a weak password without the <code class="parameter">salt</code>. PHP 5.6 or later raise an E_NOTICE error without it. Make sure to specify a strong enough salt for better security. 
+   The <code>salt</code> parameter is optional. However, <span><strong>crypt()</strong></span> creates a weak password without the <code>salt</code>. PHP 5.6 or later raise an E_NOTICE error without it. Make sure to specify a strong enough salt for better security. 
   </p>
   <p>
    <span><a href="function.password-hash.php" class="function">password_hash()</a></span> uses a strong hash, generates a strong salt, and applies proper rounds automatically. <span><a href="function.password-hash.php" class="function">password_hash()</a></span> is a simple <span><strong>crypt()</strong></span> wrapper and compatible with existing password hashes. Use of <span><a href="function.password-hash.php" class="function">password_hash()</a></span> is encouraged.
@@ -29,7 +29,7 @@
   <p>
    The standard DES-based <span><strong>crypt()</strong></span> returns the
    salt as the first two characters of the output. It also only uses the
-   first eight characters of <code class="parameter">str</code>, so longer strings
+   first eight characters of <code>str</code>, so longer strings
    that start with the same eight characters will generate the same result
    (when the same salt is used).
   </p>
@@ -113,7 +113,7 @@
    <dl>
 
      <dt>
-<code class="parameter">str</code></dt>
+<code>str</code></dt>
 
      <dd>
 
@@ -123,14 +123,14 @@
       <div class="caution"><strong class="caution">Caution</strong>
        <p>
         Using the <strong><code>CRYPT_BLOWFISH</code></strong> algorithm, will result
-        in the <code class="parameter">str</code> parameter being truncated to a
+        in the <code>str</code> parameter being truncated to a
         maximum length of 72 characters.
        </p>
       </div>
      </dd>
 
      <dt>
-<code class="parameter">salt</code></dt>
+<code>salt</code></dt>
 
      <dd>
 

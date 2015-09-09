@@ -6,7 +6,7 @@
  <div>
   <p>
    This function tries to return a string with all NULL bytes, HTML and PHP tags stripped
-   from a given <code class="parameter">str</code>.  It uses the same tag stripping
+   from a given <code>str</code>.  It uses the same tag stripping
    state machine as the <span><a href="function.fgetss.php" class="function">fgetss()</a></span> function.
   </p>
  </div>
@@ -17,7 +17,7 @@
    <dl>
 
      <dt>
-<code class="parameter">str</code></dt>
+<code>str</code></dt>
 
      <dd>
 
@@ -27,7 +27,7 @@
      </dd>
 
      <dt>
-<code class="parameter">allowable_tags</code></dt>
+<code>allowable_tags</code></dt>
 
      <dd>
 
@@ -38,14 +38,14 @@
       <blockquote><p><strong>Note</strong>: 
        <p>
         HTML comments and PHP tags are also stripped. This is hardcoded and
-        can not be changed with <code class="parameter">allowable_tags</code>.
+        can not be changed with <code>allowable_tags</code>.
        </p>
       </p></blockquote>
       <blockquote><p><strong>Note</strong>: 
        <p>
         In PHP 5.3.4 and later, self-closing
         XHTML tags are ignored and only non-self-closing tags should be used in
-        <code class="parameter">str</code>. For example,
+        <code>str</code>. For example,
         to allow both <em>&lt;br&gt;</em> and
         <em>&lt;br/&gt;</em>, you should use:
        </p>
@@ -106,7 +106,7 @@ Test paragraph. Other text
   <div class="warning"><strong class="warning">Warning</strong>
    <p>
     This function does not modify any attributes on the tags that you allow
-    using <code class="parameter">allowable_tags</code>, including the
+    using <code>allowable_tags</code>, including the
     <em>style</em> and <em>onmouseover</em> attributes
     that a mischievous user may abuse when posting text that will be shown
     to other users.
@@ -116,7 +116,7 @@ Test paragraph. Other text
    <p>
     Tag names within the input HTML that are greater than 1023 bytes in length
     will be treated as though they are invalid, regardless of the
-    <code class="parameter">allowable_tags</code> parameter.
+    <code>allowable_tags</code> parameter.
    </p>
   </p></blockquote>
  </div>

@@ -4,7 +4,7 @@
  </div>
  <div>
   <p>
-   Searches <code class="parameter">haystack</code> for <code class="parameter">needle</code>.
+   Searches <code>haystack</code> for <code>needle</code>.
   </p>
  </div>
 
@@ -14,7 +14,7 @@
    <dl>
 
      <dt>
-<code class="parameter">needle</code></dt>
+<code>needle</code></dt>
 
      <dd>
 
@@ -23,14 +23,14 @@
       </p>
       <blockquote><p><strong>Note</strong>: 
        <p>
-        If <code class="parameter">needle</code> is a string, the comparison is done
+        If <code>needle</code> is a string, the comparison is done
         in a case-sensitive manner.
        </p>
       </p></blockquote>
      </dd>
 
      <dt>
-<code class="parameter">haystack</code></dt>
+<code>haystack</code></dt>
 
      <dd>
 
@@ -40,17 +40,17 @@
      </dd>
 
      <dt>
-<code class="parameter">strict</code></dt>
+<code>strict</code></dt>
 
      <dd>
 
       <p>
-       If the third parameter <code class="parameter">strict</code> is set to <strong><code>TRUE</code></strong>
+       If the third parameter <code>strict</code> is set to <strong><code>TRUE</code></strong>
        then the <span><strong>search()</strong></span> function will search for
        <em>identical</em> elements in the
-       <code class="parameter">haystack</code>. This means it will also check the
+       <code>haystack</code>. This means it will also check the
        <a href="language.types.php" class="link">types</a> of the
-       <code class="parameter">needle</code> in the <code class="parameter">haystack</code>,
+       <code>needle</code> in the <code>haystack</code>,
        and objects must be the same instance.
       </p>
      </dd>
@@ -63,14 +63,14 @@
  <div class="returnvalues">
   <h3>Return Values</h3>
   <p>
-   Returns the key for <code class="parameter">needle</code> if it is found in the
+   Returns the key for <code>needle</code> if it is found in the
    array, <strong><code>FALSE</code></strong> otherwise.
   </p>
   <p>
-   If <code class="parameter">needle</code> is found in <code class="parameter">haystack</code>
+   If <code>needle</code> is found in <code>haystack</code>
    more than once, the first matching key is returned. To return the keys for
    all matching values, use <span><a href="function.array-keys.php" class="function">array_keys()</a></span> with the optional
-   <code class="parameter">search_value</code> parameter instead.
+   <code>search_value</code> parameter instead.
   </p>
   <div class="warning"><strong class="warning">Warning</strong><p>This function may
 return Boolean <strong><code>FALSE</code></strong>, but may also return a non-Boolean value which

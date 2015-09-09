@@ -62,7 +62,7 @@
    <dl>
 
      <dt>
-<code class="parameter">string</code></dt>
+<code>string</code></dt>
 
      <dd>
 
@@ -72,7 +72,7 @@
      </dd>
 
      <dt>
-<code class="parameter">flags</code></dt>
+<code>flags</code></dt>
 
      <dd>
 
@@ -81,7 +81,7 @@
        invalid code unit sequences and the used document type. The default is
        <em>ENT_COMPAT | ENT_HTML401</em>.
        <table class="doctable table">
-        <caption><strong>Available <code class="parameter">flags</code> constants</strong></caption>
+        <caption><strong>Available <code>flags</code> constants</strong></caption>
 
          <thead>
           <tr>
@@ -171,7 +171,7 @@
      </dd>
 
      <dt>
-<code class="parameter">encoding</code></dt>
+<code>encoding</code></dt>
 
      <dd>
 
@@ -180,7 +180,7 @@
  </p>
 
  <p>
-  If omitted, the default value of the <code class="parameter">encoding</code> varies
+  If omitted, the default value of the <code>encoding</code> varies
   depending on the PHP version in use. In PHP 5.6 and later, the
   <a href="ini.core.php#ini.default-charset" class="link">default_charset</a> configuration
   option is used as the default value. PHP 5.4 and 5.5 will use
@@ -201,7 +201,7 @@
        <em>UTF-8</em>, <em>cp866</em>,
        <em>cp1251</em>, <em>cp1252</em>, and
        <em>KOI8-R</em> are effectively equivalent, provided the
-       <code class="parameter">string</code> itself is valid for the encoding, as
+       <code>string</code> itself is valid for the encoding, as
        the characters affected by <span><strong>htmlCharEncode()</strong></span> occupy
        the same positions in all of these encodings.
       </p>
@@ -360,12 +360,12 @@
      </dd>
 
      <dt>
-<code class="parameter">double_encode</code></dt>
+<code>double_encode</code></dt>
 
      <dd>
 
       <p>
-       When <code class="parameter">double_encode</code> is turned off PHP will not
+       When <code>double_encode</code> is turned off PHP will not
        encode existing html entities, the default is to convert everything.
       </p>
      </dd>
@@ -381,8 +381,8 @@
    The converted <span><a href="language.types.string.php" class="type string">string</a></span>.
   </p>
   <p>
-   If the input <code class="parameter">string</code> contains an invalid code unit
-   sequence within the given <code class="parameter">encoding</code> an empty string
+   If the input <code>string</code> contains an invalid code unit
+   sequence within the given <code>encoding</code> an empty string
    will be returned, unless either the <strong><code>ENT_IGNORE</code></strong> or
    <strong><code>ENT_SUBSTITUTE</code></strong> flags are set.
   </p>

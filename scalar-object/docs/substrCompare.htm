@@ -5,9 +5,9 @@
 
  <div>
   <p>
-   <span><strong>substrCompare()</strong></span> compares <code class="parameter">main_str</code>
-   from position <code class="parameter">offset</code> with <code class="parameter">str</code>
-   up to <code class="parameter">length</code> characters.
+   <span><strong>substrCompare()</strong></span> compares <code>main_str</code>
+   from position <code>offset</code> with <code>str</code>
+   up to <code>length</code> characters.
   </p>
  </div>
 
@@ -17,7 +17,7 @@
    <dl>
 
      <dt>
-<code class="parameter">main_str</code></dt>
+<code>main_str</code></dt>
 
      <dd>
 
@@ -27,7 +27,7 @@
      </dd>
 
      <dt>
-<code class="parameter">str</code></dt>
+<code>str</code></dt>
 
      <dd>
 
@@ -37,7 +37,7 @@
      </dd>
 
      <dt>
-<code class="parameter">offset</code></dt>
+<code>offset</code></dt>
 
      <dd>
 
@@ -48,25 +48,25 @@
      </dd>
 
      <dt>
-<code class="parameter">length</code></dt>
+<code>length</code></dt>
 
      <dd>
 
       <p>
        The length of the comparison. The default value is the largest of the
-       length of the <code class="parameter">str</code> compared to the length of
-       <code class="parameter">main_str</code> less the
-       <code class="parameter">offset</code>.
+       length of the <code>str</code> compared to the length of
+       <code>main_str</code> less the
+       <code>offset</code>.
       </p>
      </dd>
 
      <dt>
-<code class="parameter">case_insensitivity</code></dt>
+<code>case_insensitivity</code></dt>
 
      <dd>
 
       <p>
-       If <code class="parameter">case_insensitivity</code> is <strong><code>TRUE</code></strong>, comparison is
+       If <code>case_insensitivity</code> is <strong><code>TRUE</code></strong>, comparison is
        case insensitive.
       </p>
      </dd>
@@ -79,11 +79,11 @@
  <div class="returnvalues">
   <h3>Return Values</h3>
   <p>
-   Returns &lt; 0 if <code class="parameter">main_str</code> from position
-   <code class="parameter">offset</code> is less than <code class="parameter">str</code>, &gt;
-   0 if it is greater than <code class="parameter">str</code>, and 0 if they are equal.
-   If <code class="parameter">offset</code> is equal to or greater than the length of
-   <code class="parameter">main_str</code>, or the <code class="parameter">length</code> is
+   Returns &lt; 0 if <code>main_str</code> from position
+   <code>offset</code> is less than <code>str</code>, &gt;
+   0 if it is greater than <code>str</code>, and 0 if they are equal.
+   If <code>offset</code> is equal to or greater than the length of
+   <code>main_str</code>, or the <code>length</code> is
    set and is less than 1 (prior to PHP 5.6),
    <span><strong>substrCompare()</strong></span> prints a warning and returns
    <strong><code>FALSE</code></strong>.

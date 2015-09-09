@@ -5,12 +5,12 @@
 
  <div>
   <p>
-   Finds the length of the initial segment of <code class="parameter">subject</code>
-   that contains <em>only</em> characters from <code class="parameter">mask</code>.
+   Finds the length of the initial segment of <code>subject</code>
+   that contains <em>only</em> characters from <code>mask</code>.
   </p>
   <p>
-   If <code class="parameter">start</code> and <code class="parameter">length</code>
-   are omitted, then all of <code class="parameter">subject</code> will be
+   If <code>start</code> and <code>length</code>
+   are omitted, then all of <code>subject</code> will be
    examined. If they are included, then the effect will be the same as
    calling <em>matchingMaskLength(substr($subject, $start, $length),
    $mask)</em> (see <a href="function.substr.php" class="xref">substr</a>
@@ -29,7 +29,7 @@
    </div>
    will assign <em>2</em> to <var class="varname"><var class="varname">$var</var></var>,
    because the string &quot;42&quot; is the initial segment
-   of <code class="parameter">subject</code> that consists only of characters
+   of <code>subject</code> that consists only of characters
    contained within &quot;1234567890&quot;.
   </p>
  </div>
@@ -40,7 +40,7 @@
    <dl>
 
      <dt>
-<code class="parameter">subject</code></dt>
+<code>subject</code></dt>
 
      <dd>
 
@@ -50,7 +50,7 @@
      </dd>
 
      <dt>
-<code class="parameter">mask</code></dt>
+<code>mask</code></dt>
 
      <dd>
 
@@ -60,53 +60,53 @@
      </dd>
 
      <dt>
-<code class="parameter">start</code></dt>
+<code>start</code></dt>
 
      <dd>
 
       <p>
-       The position in <code class="parameter">subject</code> to
+       The position in <code>subject</code> to
        start searching.
       </p>
       <p>
-       If <code class="parameter">start</code> is given and is non-negative,
+       If <code>start</code> is given and is non-negative,
        then <span><strong>matchingMaskLength()</strong></span> will begin
-       examining <code class="parameter">subject</code> at
-       the <code class="parameter">start</code>&#039;th position. For instance, in
+       examining <code>subject</code> at
+       the <code>start</code>&#039;th position. For instance, in
        the string &#039;<em>abcdef</em>&#039;, the character at
        position <em>0</em> is &#039;<em>a</em>&#039;, the
        character at position <em>2</em> is
        &#039;<em>c</em>&#039;, and so forth.
       </p>
       <p>
-       If <code class="parameter">start</code> is given and is negative,
+       If <code>start</code> is given and is negative,
        then <span><strong>matchingMaskLength()</strong></span> will begin
-       examining <code class="parameter">subject</code> at
-       the <code class="parameter">start</code>&#039;th position from the end
-       of <code class="parameter">subject</code>.
+       examining <code>subject</code> at
+       the <code>start</code>&#039;th position from the end
+       of <code>subject</code>.
       </p>
      </dd>
 
      <dt>
-<code class="parameter">length</code></dt>
+<code>length</code></dt>
 
      <dd>
 
       <p>
-       The length of the segment from <code class="parameter">subject</code>
+       The length of the segment from <code>subject</code>
        to examine. 
       </p>
       <p>
-       If <code class="parameter">length</code> is given and is non-negative,
-       then <code class="parameter">subject</code> will be examined
-       for <code class="parameter">length</code> characters after the starting
+       If <code>length</code> is given and is non-negative,
+       then <code>subject</code> will be examined
+       for <code>length</code> characters after the starting
        position.
       </p>
       <p>
-        If <code class="parameter">length</code> is given and is negative,
-        then <code class="parameter">subject</code> will be examined from the
-        starting position up to <code class="parameter">length</code>
-        characters from the end of <code class="parameter">subject</code>.
+        If <code>length</code> is given and is negative,
+        then <code>subject</code> will be examined from the
+        starting position up to <code>length</code>
+        characters from the end of <code>subject</code>.
       </p>
      </dd>
 
@@ -118,14 +118,14 @@
  <div class="returnvalues">
   <h3>Return Values</h3>
   <p>
-   Returns the length of the initial segment of <code class="parameter">subject</code>
-   which consists entirely of characters in <code class="parameter">mask</code>.
+   Returns the length of the initial segment of <code>subject</code>
+   which consists entirely of characters in <code>mask</code>.
   </p>
   <blockquote><p><strong>Note</strong>: 
    <p>
-    When a <code class="parameter">start</code> parameter is set, the returned length
+    When a <code>start</code> parameter is set, the returned length
     is counted starting from this position, not from the beginning of
-    <code class="parameter">subject</code>.
+    <code>subject</code>.
    </p>
   </p></blockquote>
  </div>

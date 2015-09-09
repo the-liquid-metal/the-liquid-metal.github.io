@@ -6,10 +6,10 @@
  <div>
   <p>
    <span><strong>substrReplace()</strong></span> replaces a copy of
-   <code class="parameter">string</code> delimited by the
-   <code class="parameter">start</code> and (optionally)
-   <code class="parameter">length</code> parameters with the string given in
-   <code class="parameter">replacement</code>. 
+   <code>string</code> delimited by the
+   <code>start</code> and (optionally)
+   <code>length</code> parameters with the string given in
+   <code>replacement</code>. 
   </p>
  </div>
 
@@ -19,7 +19,7 @@
    <dl>
 
      <dt>
-<code class="parameter">string</code></dt>
+<code>string</code></dt>
 
      <dd>
 
@@ -29,8 +29,8 @@
       <p>
        An <span><a href="language.types.array.php" class="type array">array</a></span> of <span><a href="language.types.string.php" class="type string">string</a></span>s can be provided, in which
        case the replacements will occur on each string in turn. In this case,
-       the <code class="parameter">replacement</code>, <code class="parameter">start</code>
-       and <code class="parameter">length</code> parameters may be provided either as
+       the <code>replacement</code>, <code>start</code>
+       and <code>length</code> parameters may be provided either as
        scalar values to be applied to each input string in turn, or as
        <span><a href="language.types.array.php" class="type array">array</a></span>s, in which case the corresponding array element will
        be used for each input string.
@@ -38,7 +38,7 @@
      </dd>
 
      <dt>
-<code class="parameter">replacement</code></dt>
+<code>replacement</code></dt>
 
      <dd>
 
@@ -48,39 +48,39 @@
      </dd>
 
      <dt>
-<code class="parameter">start</code></dt>
+<code>start</code></dt>
 
      <dd>
 
       <p>
-       If <code class="parameter">start</code> is positive, the replacing will
-       begin at the <code class="parameter">start</code>&#039;th offset into
-       <code class="parameter">string</code>.
+       If <code>start</code> is positive, the replacing will
+       begin at the <code>start</code>&#039;th offset into
+       <code>string</code>.
       </p>
       <p>
-       If <code class="parameter">start</code> is negative, the replacing will
-       begin at the <code class="parameter">start</code>&#039;th character from the
-       end of <code class="parameter">string</code>.
+       If <code>start</code> is negative, the replacing will
+       begin at the <code>start</code>&#039;th character from the
+       end of <code>string</code>.
       </p>
      </dd>
 
      <dt>
-<code class="parameter">length</code></dt>
+<code>length</code></dt>
 
      <dd>
 
       <p>
        If given and is positive, it represents the length of the portion of
-       <code class="parameter">string</code> which is to be replaced. If it is
+       <code>string</code> which is to be replaced. If it is
        negative, it represents the number of characters from the end of
-       <code class="parameter">string</code> at which to stop replacing. If it
+       <code>string</code> at which to stop replacing. If it
        is not given, then it will default to strlen(
-       <code class="parameter">string</code> ); i.e. end the replacing at the
-       end of <code class="parameter">string</code>. Of course, if
-       <code class="parameter">length</code> is zero then this function will have the
-       effect of inserting <code class="parameter">replacement</code> into
-       <code class="parameter">string</code> at the given
-       <code class="parameter">start</code> offset.
+       <code>string</code> ); i.e. end the replacing at the
+       end of <code>string</code>. Of course, if
+       <code>length</code> is zero then this function will have the
+       effect of inserting <code>replacement</code> into
+       <code>string</code> at the given
+       <code>start</code> offset.
       </p>
      </dd>
 
@@ -92,7 +92,7 @@
  <div class="returnvalues">
   <h3>Return Values</h3>
   <p>
-   The result string is returned. If <code class="parameter">string</code> is an
+   The result string is returned. If <code>string</code> is an
    array then array is returned.
   </p>
  </div>

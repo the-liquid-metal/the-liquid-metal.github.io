@@ -6,7 +6,7 @@
  <div>
   <p>
    Returns a string with backslashes before characters that are
-   listed in <code class="parameter">charlist</code> parameter. 
+   listed in <code>charlist</code> parameter. 
   </p>
  </div>
 
@@ -16,7 +16,7 @@
    <dl>
 
      <dt>
-<code class="parameter">str</code></dt>
+<code>str</code></dt>
 
      <dd>
 
@@ -26,13 +26,13 @@
      </dd>
 
      <dt>
-<code class="parameter">charlist</code></dt>
+<code>charlist</code></dt>
 
      <dd>
 
       <p>
        A list of characters to be escaped. If
-       <code class="parameter">charlist</code> contains characters
+       <code>charlist</code> contains characters
        <em>\n</em>, <em>\r</em> etc., they are
        converted in C-like style, while other non-alphanumeric characters
        with ASCII codes lower than 32 and higher than 126 converted to
@@ -73,7 +73,7 @@
        also defined in other C-derived languages, including PHP, meaning that
        you may not get the desired result if you use the output of
        <span><strong>addCSlashes()</strong></span> to generate code in those languages
-       with these characters defined in <code class="parameter">charlist</code>.
+       with these characters defined in <code>charlist</code>.
       </p>
      </dd>
 
@@ -91,7 +91,7 @@
 
  <div class="examples">
   <p>
-    <code class="parameter">charlist</code> like &quot;\0..\37&quot;, which would
+    <code>charlist</code> like &quot;\0..\37&quot;, which would
     escape all characters with ASCII code between 0 and 31.
    <div>
     <p><strong>Example #1 <span><strong>addCSlashes()</strong></span> example</strong></p>

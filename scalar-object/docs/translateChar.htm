@@ -6,17 +6,17 @@
  <div>
   <p>
    If given three arguments, this function returns a copy of
-   <code class="parameter">str</code> where all occurrences of each (single-byte)
-   character in <code class="parameter">from</code> have been translated to the
-   corresponding character in <code class="parameter">to</code>, i.e., every
+   <code>str</code> where all occurrences of each (single-byte)
+   character in <code>from</code> have been translated to the
+   corresponding character in <code>to</code>, i.e., every
    occurrence of <em>$from[$n]</em> has been replaced with
    <em>$to[$n]</em>, where <em>$n</em> is a valid
    offset in both arguments.
   </p>
   <p>
-   If <code class="parameter">from</code> and <code class="parameter">to</code> have
+   If <code>from</code> and <code>to</code> have
    different lengths, the extra characters in the longer of the two
-   are ignored. The length of <code class="parameter">str</code> will be the same as
+   are ignored. The length of <code>str</code> will be the same as
    the return value&#039;s.
   </p>
   <p>
@@ -30,7 +30,7 @@
   <p>
    In this case, the keys and the values may have any length, provided that
    there is no empty key; additionally, the length of the return value may
-   differ from that of <code class="parameter">str</code>.
+   differ from that of <code>str</code>.
    However, this function will be the most efficient when all the keys have the
    same size.
   </p>
@@ -42,7 +42,7 @@
    <dl>
 
      <dt>
-<code class="parameter">str</code></dt>
+<code>str</code></dt>
 
      <dd>
 
@@ -52,33 +52,33 @@
      </dd>
 
      <dt>
-<code class="parameter">from</code></dt>
+<code>from</code></dt>
 
      <dd>
 
       <p>
-       The <span><a href="language.types.string.php" class="type string">string</a></span> being translated to <code class="parameter">to</code>.
+       The <span><a href="language.types.string.php" class="type string">string</a></span> being translated to <code>to</code>.
       </p>
      </dd>
 
      <dt>
-<code class="parameter">to</code></dt>
+<code>to</code></dt>
 
      <dd>
 
       <p>
-       The <span><a href="language.types.string.php" class="type string">string</a></span> replacing <code class="parameter">from</code>.
+       The <span><a href="language.types.string.php" class="type string">string</a></span> replacing <code>from</code>.
       </p>
      </dd>
 
      <dt>
-<code class="parameter">replace_pairs</code></dt>
+<code>replace_pairs</code></dt>
 
      <dd>
 
       <p>
-       The <code class="parameter">replace_pairs</code> parameter may be used instead of 
-       <code class="parameter">to</code> and <code class="parameter">from</code>, in which case it&#039;s an
+       The <code>replace_pairs</code> parameter may be used instead of 
+       <code>to</code> and <code>from</code>, in which case it&#039;s an
        <span><a href="language.types.array.php" class="type array">array</a></span> in the form <em>array(&#039;from&#039; =&gt; &#039;to&#039;, ...)</em>. 
       </p>
      </dd>
@@ -94,9 +94,9 @@
    Returns the translated <span><a href="language.types.string.php" class="type string">string</a></span>.
   </p>
   <p>
-   If <code class="parameter">replace_pairs</code> contains a key which
+   If <code>replace_pairs</code> contains a key which
    is an empty <span><a href="language.types.string.php" class="type string">string</a></span> (<em>&quot;&quot;</em>),
-   <strong><code>FALSE</code></strong> will be returned. If the <code class="parameter">str</code> is not a scalar
+   <strong><code>FALSE</code></strong> will be returned. If the <code>str</code> is not a scalar
    then it is not typecasted into a string, instead a warning is raised and 
    <strong><code>NULL</code></strong> is returned. 
   </p>

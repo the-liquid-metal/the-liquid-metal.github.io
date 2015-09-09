@@ -4,20 +4,20 @@
  </div>
  <div>
   <p>
-   Removes the elements designated by <code class="parameter">offset</code> and
-   <code class="parameter">length</code> from the <code class="parameter">input</code> array,
+   Removes the elements designated by <code>offset</code> and
+   <code>length</code> from the <code>input</code> array,
    and replaces them with the elements of the
-   <code class="parameter">replacement</code> array, if supplied.
+   <code>replacement</code> array, if supplied.
   </p>
   <p>
-   Note that numeric keys in <code class="parameter">input</code> are not preserved.
+   Note that numeric keys in <code>input</code> are not preserved.
   </p>
   <blockquote><p><strong>Note</strong>: 
    <span>
-    If <code class="parameter">replacement</code> is not an array, it will be
+    If <code>replacement</code> is not an array, it will be
     <a href="language.types.array.php#language.types.array.casting" class="link">typecast</a>
     to one (i.e. <code class="code">(array) $parameter</code>). This may result in unexpected
-    behavior when using an object or <strong><code>NULL</code></strong> <code class="parameter">replacement</code>.
+    behavior when using an object or <strong><code>NULL</code></strong> <code>replacement</code>.
    </span>
   </p></blockquote>
  </div>
@@ -28,7 +28,7 @@
    <dl>
 
      <dt>
-<code class="parameter">input</code></dt>
+<code>input</code></dt>
 
      <dd>
 
@@ -38,59 +38,59 @@
      </dd>
 
      <dt>
-<code class="parameter">offset</code></dt>
+<code>offset</code></dt>
 
      <dd>
 
       <p>
-       If <code class="parameter">offset</code> is positive then the start of removed
+       If <code>offset</code> is positive then the start of removed
        portion is at that offset from the beginning of the
-       <code class="parameter">input</code> array.  If <code class="parameter">offset</code>
+       <code>input</code> array.  If <code>offset</code>
        is negative then it starts that far from the end of the
-       <code class="parameter">input</code> array.
+       <code>input</code> array.
       </p>
      </dd>
 
      <dt>
-<code class="parameter">length</code></dt>
+<code>length</code></dt>
 
      <dd>
 
       <p>
-       If <code class="parameter">length</code> is omitted, removes everything
-       from <code class="parameter">offset</code> to the end of the array.  If
-       <code class="parameter">length</code> is specified and is positive, then
+       If <code>length</code> is omitted, removes everything
+       from <code>offset</code> to the end of the array.  If
+       <code>length</code> is specified and is positive, then
        that many elements will be removed. If
-       <code class="parameter">length</code> is specified and is negative then
+       <code>length</code> is specified and is negative then
        the end of the removed portion will be that many elements from
-       the end of the array.  If <code class="parameter">length</code> is
+       the end of the array.  If <code>length</code> is
        specified and is zero, no elements will be removed.
        Tip: to remove everything from
-       <code class="parameter">offset</code> to the end of the array when
-       <code class="parameter">replacement</code> is also specified, use
+       <code>offset</code> to the end of the array when
+       <code>replacement</code> is also specified, use
        <em>count($input)</em> for
-       <code class="parameter">length</code>.
+       <code>length</code>.
       </p>
      </dd>
 
      <dt>
-<code class="parameter">replacement</code></dt>
+<code>replacement</code></dt>
 
      <dd>
 
       <p>
-       If <code class="parameter">replacement</code> array is specified, then the
+       If <code>replacement</code> array is specified, then the
        removed elements are replaced with elements from this array.
       </p>
       <p>
-       If <code class="parameter">offset</code> and <code class="parameter">length</code>
+       If <code>offset</code> and <code>length</code>
        are such that nothing is removed, then the elements from the
-       <code class="parameter">replacement</code> array are inserted in the place
-       specified by the <code class="parameter">offset</code>. Note that keys in
+       <code>replacement</code> array are inserted in the place
+       specified by the <code>offset</code>. Note that keys in
        replacement array are not preserved.
       </p>
       <p>
-       If <code class="parameter">replacement</code> is just one element it is
+       If <code>replacement</code> is just one element it is
        not necessary to put <em>array()</em>
        around it, unless the element is an array itself, an object or <strong><code>NULL</code></strong>.
       </p>

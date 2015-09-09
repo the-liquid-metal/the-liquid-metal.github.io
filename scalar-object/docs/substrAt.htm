@@ -5,8 +5,8 @@
 
  <div>
   <p>
-   Returns the portion of <code class="parameter">string</code> specified by the
-   <code class="parameter">start</code> and <code class="parameter">length</code> parameters.
+   Returns the portion of <code>string</code> specified by the
+   <code>start</code> and <code>length</code> parameters.
   </p>
  </div>
 
@@ -16,7 +16,7 @@
    <dl>
 
      <dt>
-<code class="parameter">string</code></dt>
+<code>string</code></dt>
 
      <dd>
 
@@ -26,31 +26,31 @@
      </dd>
 
      <dt>
-<code class="parameter">start</code></dt>
+<code>start</code></dt>
 
      <dd>
 
       <p>
-       If <code class="parameter">start</code> is non-negative, the returned string
-       will start at the <code class="parameter">start</code>&#039;th position in
-       <code class="parameter">string</code>, counting from zero. For instance,
+       If <code>start</code> is non-negative, the returned string
+       will start at the <code>start</code>&#039;th position in
+       <code>string</code>, counting from zero. For instance,
        in the string &#039;<em>abcdef</em>&#039;, the character at
        position <em>0</em> is &#039;<em>a</em>&#039;, the
        character at position <em>2</em> is
        &#039;<em>c</em>&#039;, and so forth.
       </p>
       <p>
-       If <code class="parameter">start</code> is negative, the returned string
-       will start at the <code class="parameter">start</code>&#039;th character
-       from the end of <code class="parameter">string</code>.
+       If <code>start</code> is negative, the returned string
+       will start at the <code>start</code>&#039;th character
+       from the end of <code>string</code>.
       </p>
       <p>
-       If <code class="parameter">string</code> is less than
-       <code class="parameter">start</code> characters long, <strong><code>FALSE</code></strong> will be returned.
+       If <code>string</code> is less than
+       <code>start</code> characters long, <strong><code>FALSE</code></strong> will be returned.
       </p>
       <p>
        <div>
-        <p><strong>Example #1 Using a negative <code class="parameter">start</code></strong></p>
+        <p><strong>Example #1 Using a negative <code>start</code></strong></p>
         <div>
 <div><code><span style="color: #000000">
 <span style="color: #0000BB">&lt;?php<br />$rest&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #0000BB">substrAt</span><span style="color: #007700">(</span><span style="color: #DD0000">"abcdef"</span><span style="color: #007700">,&nbsp;-</span><span style="color: #0000BB">1</span><span style="color: #007700">);&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #FF8000">//&nbsp;returns&nbsp;"f"<br /></span><span style="color: #0000BB">$rest&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #0000BB">substrAt</span><span style="color: #007700">(</span><span style="color: #DD0000">"abcdef"</span><span style="color: #007700">,&nbsp;-</span><span style="color: #0000BB">2</span><span style="color: #007700">);&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #FF8000">//&nbsp;returns&nbsp;"ef"<br /></span><span style="color: #0000BB">$rest&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #0000BB">substrAt</span><span style="color: #007700">(</span><span style="color: #DD0000">"abcdef"</span><span style="color: #007700">,&nbsp;-</span><span style="color: #0000BB">3</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">1</span><span style="color: #007700">);&nbsp;</span><span style="color: #FF8000">//&nbsp;returns&nbsp;"d"<br /></span><span style="color: #0000BB">?&gt;</span>
@@ -63,35 +63,35 @@
      </dd>
 
      <dt>
-<code class="parameter">length</code></dt>
+<code>length</code></dt>
 
      <dd>
 
       <p>
-       If <code class="parameter">length</code> is given and is positive, the string
-       returned will contain at most <code class="parameter">length</code> characters
-       beginning from <code class="parameter">start</code> (depending on the length of
-       <code class="parameter">string</code>).
+       If <code>length</code> is given and is positive, the string
+       returned will contain at most <code>length</code> characters
+       beginning from <code>start</code> (depending on the length of
+       <code>string</code>).
       </p>
       <p>
-       If <code class="parameter">length</code> is given and is negative, then that many
-       characters will be omitted from the end of <code class="parameter">string</code>
+       If <code>length</code> is given and is negative, then that many
+       characters will be omitted from the end of <code>string</code>
        (after the start position has been calculated when a
-       <code class="parameter">start</code> is negative).  If
-       <code class="parameter">start</code> denotes the position of this truncation or
+       <code>start</code> is negative).  If
+       <code>start</code> denotes the position of this truncation or
        beyond, <strong><code>FALSE</code></strong> will be returned.
       </p>
       <p>
-       If <code class="parameter">length</code> is given and is <em>0</em>,
+       If <code>length</code> is given and is <em>0</em>,
        <strong><code>FALSE</code></strong> or <strong><code>NULL</code></strong>, an empty string will be returned.
       </p>
       <p>
-       If <code class="parameter">length</code> is omitted, the substring starting from
-       <code class="parameter">start</code> until the end of the string will be
+       If <code>length</code> is omitted, the substring starting from
+       <code>start</code> until the end of the string will be
        returned.
       </p>
       <div>
-       <p><strong>Example #2 Using a negative <code class="parameter">length</code></strong></p>
+       <p><strong>Example #2 Using a negative <code>length</code></strong></p>
        <div>
 <div><code><span style="color: #000000">
 <span style="color: #0000BB">&lt;?php<br />$rest&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #0000BB">substrAt</span><span style="color: #007700">(</span><span style="color: #DD0000">"abcdef"</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">0</span><span style="color: #007700">,&nbsp;-</span><span style="color: #0000BB">1</span><span style="color: #007700">);&nbsp;&nbsp;</span><span style="color: #FF8000">//&nbsp;returns&nbsp;"abcde"<br /></span><span style="color: #0000BB">$rest&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #0000BB">substrAt</span><span style="color: #007700">(</span><span style="color: #DD0000">"abcdef"</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">2</span><span style="color: #007700">,&nbsp;-</span><span style="color: #0000BB">1</span><span style="color: #007700">);&nbsp;&nbsp;</span><span style="color: #FF8000">//&nbsp;returns&nbsp;"cde"<br /></span><span style="color: #0000BB">$rest&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #0000BB">substrAt</span><span style="color: #007700">(</span><span style="color: #DD0000">"abcdef"</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">4</span><span style="color: #007700">,&nbsp;-</span><span style="color: #0000BB">4</span><span style="color: #007700">);&nbsp;&nbsp;</span><span style="color: #FF8000">//&nbsp;returns&nbsp;false<br /></span><span style="color: #0000BB">$rest&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #0000BB">substrAt</span><span style="color: #007700">(</span><span style="color: #DD0000">"abcdef"</span><span style="color: #007700">,&nbsp;-</span><span style="color: #0000BB">3</span><span style="color: #007700">,&nbsp;-</span><span style="color: #0000BB">1</span><span style="color: #007700">);&nbsp;</span><span style="color: #FF8000">//&nbsp;returns&nbsp;"de"<br /></span><span style="color: #0000BB">?&gt;</span>
@@ -110,7 +110,7 @@
  <div class="returnvalues">
   <h3>Return Values</h3>
   <p>
-   Returns the extracted part of <code class="parameter">string</code>;  or <strong><code>FALSE</code></strong> on failure, or
+   Returns the extracted part of <code>string</code>;  or <strong><code>FALSE</code></strong> on failure, or
    an empty string.
   </p>
  </div>

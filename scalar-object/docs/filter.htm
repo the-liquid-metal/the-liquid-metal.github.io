@@ -5,10 +5,10 @@
 
  <div>
   <p>
-   Iterates over each value in the <code class="parameter">array</code>
-   passing them to the <code class="parameter">callback</code> function.
-   If the <code class="parameter">callback</code> function returns true, the
-   current value from <code class="parameter">array</code> is returned into
+   Iterates over each value in the <code>array</code>
+   passing them to the <code>callback</code> function.
+   If the <code>callback</code> function returns true, the
+   current value from <code>array</code> is returned into
    the result array. Array keys are preserved.
   </p>
 </div>
@@ -19,7 +19,7 @@
    <dl>
 
      <dt>
-<code class="parameter">array</code></dt>
+<code>array</code></dt>
 
      <dd>
 
@@ -29,7 +29,7 @@
      </dd>
 
      <dt>
-<code class="parameter">callback</code></dt>
+<code>callback</code></dt>
 
      <dd>
 
@@ -37,28 +37,28 @@
        The callback function to use
       </p>
       <p>
-       If no <code class="parameter">callback</code> is supplied, all entries of
-       <code class="parameter">array</code> equal to <strong><code>FALSE</code></strong> (see
+       If no <code>callback</code> is supplied, all entries of
+       <code>array</code> equal to <strong><code>FALSE</code></strong> (see
        <a href="language.types.boolean.php#language.types.boolean.casting" class="link">converting to
         boolean</a>) will be removed.
       </p>
      </dd>
 
      <dt>
-<code class="parameter">flag</code></dt>
+<code>flag</code></dt>
 
      <dd>
 
       <p>
-       Flag determining what arguments are sent to <code class="parameter">callback</code>:
+       Flag determining what arguments are sent to <code>callback</code>:
        <ul class="itemizedlist">
         <li class="listitem">
          <span><strong><code>ARRAY_FILTER_USE_KEY</code></strong> - pass key as the only argument
-         to <code class="parameter">callback</code> instead of the value</span>
+         to <code>callback</code> instead of the value</span>
         </li>
         <li class="listitem">
          <span><strong><code>ARRAY_FILTER_USE_BOTH</code></strong> - pass both value and key as
-         arguments to <code class="parameter">callback</code> instead of the value</span>
+         arguments to <code>callback</code> instead of the value</span>
         </li>
        </ul>
       </p>
@@ -110,7 +110,7 @@ Array
    </div>
    <div>
     <p><strong>Example #2 <span><strong>filter()</strong></span> without
-    <code class="parameter">callback</code></strong></p>
+    <code>callback</code></strong></p>
     <div>
 <div><code><span style="color: #000000">
 <span style="color: #0000BB">&lt;?php<br /><br />$entry&nbsp;</span><span style="color: #007700">=&nbsp;array(<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #0000BB">0&nbsp;</span><span style="color: #007700">=&gt;&nbsp;</span><span style="color: #DD0000">'foo'</span><span style="color: #007700">,<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #0000BB">1&nbsp;</span><span style="color: #007700">=&gt;&nbsp;</span><span style="color: #0000BB">false</span><span style="color: #007700">,<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #0000BB">2&nbsp;</span><span style="color: #007700">=&gt;&nbsp;-</span><span style="color: #0000BB">1</span><span style="color: #007700">,<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #0000BB">3&nbsp;</span><span style="color: #007700">=&gt;&nbsp;</span><span style="color: #0000BB">null</span><span style="color: #007700">,<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #0000BB">4&nbsp;</span><span style="color: #007700">=&gt;&nbsp;</span><span style="color: #DD0000">''<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">);<br /><br /></span><span style="color: #0000BB">print_r</span><span style="color: #007700">(</span><span style="color: #0000BB">filter</span><span style="color: #007700">(</span><span style="color: #0000BB">$entry</span><span style="color: #007700">));<br /></span><span style="color: #0000BB">?&gt;</span>
@@ -131,7 +131,7 @@ Array
    </div>
    <div>
     <p><strong>Example #3 <span><strong>filter()</strong></span> with 
-    <code class="parameter">flag</code></strong></p>
+    <code>flag</code></strong></p>
     <div>
 <div><code><span style="color: #000000">
 <span style="color: #0000BB">&lt;?php<br /><br />$arr&nbsp;</span><span style="color: #007700">=&nbsp;[</span><span style="color: #DD0000">'a'&nbsp;</span><span style="color: #007700">=&gt;&nbsp;</span><span style="color: #0000BB">1</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">'b'&nbsp;</span><span style="color: #007700">=&gt;&nbsp;</span><span style="color: #0000BB">2</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">'c'&nbsp;</span><span style="color: #007700">=&gt;&nbsp;</span><span style="color: #0000BB">3</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">'d'&nbsp;</span><span style="color: #007700">=&gt;&nbsp;</span><span style="color: #0000BB">4</span><span style="color: #007700">];<br /><br /></span><span style="color: #0000BB">var_dump</span><span style="color: #007700">(</span><span style="color: #0000BB">filter</span><span style="color: #007700">(</span><span style="color: #0000BB">$arr</span><span style="color: #007700">,&nbsp;function(</span><span style="color: #0000BB">$k</span><span style="color: #007700">)&nbsp;{<br />&nbsp;&nbsp;&nbsp;&nbsp;return&nbsp;</span><span style="color: #0000BB">$k&nbsp;</span><span style="color: #007700">==&nbsp;</span><span style="color: #DD0000">'b'</span><span style="color: #007700">;<br />},&nbsp;</span><span style="color: #0000BB">ARRAY_FILTER_USE_KEY</span><span style="color: #007700">));<br /><br /></span><span style="color: #0000BB">var_dump</span><span style="color: #007700">(</span><span style="color: #0000BB">filter</span><span style="color: #007700">(</span><span style="color: #0000BB">$arr</span><span style="color: #007700">,&nbsp;function(</span><span style="color: #0000BB">$v</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">$k</span><span style="color: #007700">)&nbsp;{<br />&nbsp;&nbsp;&nbsp;&nbsp;return&nbsp;</span><span style="color: #0000BB">$k&nbsp;</span><span style="color: #007700">==&nbsp;</span><span style="color: #DD0000">'b'&nbsp;</span><span style="color: #007700">||&nbsp;</span><span style="color: #0000BB">$v&nbsp;</span><span style="color: #007700">==&nbsp;</span><span style="color: #0000BB">4</span><span style="color: #007700">;<br />},&nbsp;</span><span style="color: #0000BB">ARRAY_FILTER_USE_BOTH</span><span style="color: #007700">));<br /></span><span style="color: #0000BB">?&gt;</span>
