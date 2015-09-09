@@ -9,7 +9,7 @@ $(document).ready(function(){
             $a.remove();
         }
     };
-    $.get("_.htm", modifPage).fail(modifPage);
+    $.get("AJAX_MARKER.htm", modifPage).fail(modifPage);
 
     $(".description.detailed").find("h4, div").remove();
 
