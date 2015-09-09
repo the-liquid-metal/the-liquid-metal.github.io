@@ -13,6 +13,7 @@ blockquote {
 	margin-top: 1em;
 }
 .ajax-area .warning {
+	margin-top: 1em;
 	background: #F4DFDF;
 	border: 1px solid #EABFBF;
 	border-radius: 8px;
