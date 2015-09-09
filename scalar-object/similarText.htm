@@ -1,1 +1,85 @@
-.
+
+ <div class="refnamediv">
+  <h1 class="refname">similar_text</h1>
+  <p class="refpurpose"><span class="refname">similar_text</span> &mdash; <span class="dc-title">Calculate the similarity between two strings</span></p>
+
+ </div>
+ 
+ <div class="refsect1 description" id="refsect1-function.similar-text-description">
+  <h3 class="title">Description</h3>
+  <div class="methodsynopsis dc-description">
+   <span class="type">int</span> <span class="methodname"><strong>similar_text</strong></span>
+    ( <span class="methodparam"><span class="type">string</span> <code class="parameter">$first</code></span>
+   , <span class="methodparam"><span class="type">string</span> <code class="parameter">$second</code></span>
+   [, <span class="methodparam"><span class="type">float</span> <code class="parameter reference">&$percent</code></span>
+  ] )</div>
+
+  <p class="para rdfs-comment">
+   This calculates the similarity between two strings as described in
+   Programming Classics: Implementing the World&#039;s Best Algorithms by Oliver (ISBN 0-131-00413-1). Note that this implementation does not use a
+   stack as in Oliver&#039;s pseudo code, but recursive calls which may or may not
+   speed up the whole process. Note also that the complexity of this algorithm
+   is O(N**3) where N is the length of the longest string.
+  </p>
+ </div>
+
+
+ <div class="refsect1 parameters" id="refsect1-function.similar-text-parameters">
+  <h3 class="title">Parameters</h3>
+  <p class="para">
+   <dl>
+
+    
+     <dt>
+<code class="parameter">first</code></dt>
+
+     <dd>
+
+      <p class="para">
+       The first string.
+      </p>
+     </dd>
+
+    
+    
+     <dt>
+<code class="parameter">second</code></dt>
+
+     <dd>
+
+      <p class="para">
+       The second string.
+      </p>
+     </dd>
+
+    
+    
+     <dt>
+<code class="parameter">percent</code></dt>
+
+     <dd>
+
+      <p class="para">
+       By passing a reference as third argument,
+       <span class="function"><strong>similar_text()</strong></span> will calculate the similarity in
+       percent for you. 
+      </p>
+     </dd>
+
+    
+   </dl>
+
+  </p>
+ </div>
+
+
+ <div class="refsect1 returnvalues" id="refsect1-function.similar-text-returnvalues">
+  <h3 class="title">Return Values</h3>
+  <p class="para">
+   Returns the number of matching chars in both strings.
+  </p>
+ </div>
+
+
+ <div class="refsect1 seealso" id="refsect1-function.similar-text-seealso">
+  

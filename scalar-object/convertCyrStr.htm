@@ -1,1 +1,124 @@
-.
+
+ <div class="refnamediv">
+  <h1 class="refname">convert_cyr_string</h1>
+  <p class="refpurpose"><span class="refname">convert_cyr_string</span> &mdash; <span class="dc-title">Convert from one Cyrillic character set to another</span></p>
+
+ </div>
+ 
+ <div class="refsect1 description" id="refsect1-function.convert-cyr-string-description">
+  <h3 class="title">Description</h3>
+  <div class="methodsynopsis dc-description">
+   <span class="type">string</span> <span class="methodname"><strong>convert_cyr_string</strong></span>
+    ( <span class="methodparam"><span class="type">string</span> <code class="parameter">$str</code></span>
+   , <span class="methodparam"><span class="type">string</span> <code class="parameter">$from</code></span>
+   , <span class="methodparam"><span class="type">string</span> <code class="parameter">$to</code></span>
+   )</div>
+
+  <p class="para rdfs-comment">
+   Converts from one Cyrillic character set to another.  
+  </p>
+ </div>
+
+
+ <div class="refsect1 parameters" id="refsect1-function.convert-cyr-string-parameters">
+  <h3 class="title">Parameters</h3>
+  <p class="para">
+   <dl>
+
+    
+     <dt>
+<code class="parameter">str</code></dt>
+
+     <dd>
+
+      <p class="para">
+       The string to be converted.
+      </p>
+     </dd>
+
+    
+    
+     <dt>
+<code class="parameter">from</code></dt>
+
+     <dd>
+
+      <p class="para">
+       The source Cyrillic character set, as a single character.
+      </p>
+     </dd>
+
+    
+    
+     <dt>
+<code class="parameter">to</code></dt>
+
+     <dd>
+
+      <p class="para">
+       The target Cyrillic character set, as a single character.
+      </p>
+     </dd>
+
+    
+   </dl>
+
+  </p>
+  <p class="para">
+   Supported characters are:
+   <ul class="itemizedlist">
+    <li class="listitem">
+     <span class="simpara">
+      k - koi8-r
+     </span>
+    </li>
+    <li class="listitem">
+     <span class="simpara">
+      w - windows-1251
+     </span>
+    </li>
+    <li class="listitem">
+     <span class="simpara">
+      i - iso8859-5
+     </span>
+    </li>
+    <li class="listitem">
+     <span class="simpara">
+      a - x-cp866
+     </span>
+    </li>
+    <li class="listitem">
+     <span class="simpara">
+      d - x-cp866
+     </span>
+    </li>
+    <li class="listitem">
+     <span class="simpara">
+      m - x-mac-cyrillic
+     </span>
+    </li>
+   </ul>
+  </p>
+ </div>
+
+
+ <div class="refsect1 returnvalues" id="refsect1-function.convert-cyr-string-returnvalues">
+  <h3 class="title">Return Values</h3>
+  <p class="para">
+   Returns the converted string.
+  </p>
+ </div>
+
+
+ <div class="refsect1 notes" id="refsect1-function.convert-cyr-string-notes">
+  <h3 class="title">Notes</h3>
+  <blockquote class="note"><p><strong class="note">Note</strong>: <span class="simpara">This function is
+binary-safe.</span></p></blockquote>
+ </div>
+
+
+</div>
+<section id="usernotes">
+ <div class="head">
+  <span class="action"><a href="/manual/add-note.php?sect=function.convert-cyr-string&amp;redirect=http://php.net/manual/en/function.convert-cyr-string.php"><img src='/images/notes-add@2x.png' alt='add a note' width='12' height='12'> <small>add a note</small></a></span>
+  

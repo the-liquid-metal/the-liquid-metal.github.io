@@ -1,1 +1,63 @@
-.
+
+ <div class="refnamediv">
+  <h1 class="refname">quotemeta</h1>
+  <p class="refpurpose"><span class="refname">quotemeta</span> &mdash; <span class="dc-title">Quote meta characters</span></p>
+
+ </div>
+ 
+ <div class="refsect1 description" id="refsect1-function.quotemeta-description">
+  <h3 class="title">Description</h3>
+  <div class="methodsynopsis dc-description">
+   <span class="type">string</span> <span class="methodname"><strong>quotemeta</strong></span>
+    ( <span class="methodparam"><span class="type">string</span> <code class="parameter">$str</code></span>
+   )</div>
+
+  <p class="para rdfs-comment">
+   Returns a version of str with a backslash character (<em>\</em>)
+   before every character that is among these: 
+   <div class="example-contents screen">. \ + * ? [ ^ ] ( $ )</div>
+  </p>
+ </div>
+
+
+ <div class="refsect1 parameters" id="refsect1-function.quotemeta-parameters">
+  <h3 class="title">Parameters</h3>
+  <p class="para">
+   <dl>
+
+    
+     <dt>
+<code class="parameter">str</code></dt>
+
+     <dd>
+
+      <p class="para">
+       The input string.
+      </p>
+     </dd>
+
+    
+   </dl>
+
+  </p>
+ </div>
+
+
+ <div class="refsect1 returnvalues" id="refsect1-function.quotemeta-returnvalues">
+  <h3 class="title">Return Values</h3>
+  <p class="para">
+   Returns the string with meta characters quoted, or <strong><code>FALSE</code></strong> if an empty
+   string is given as <code class="parameter">str</code>.
+  </p>
+ </div>
+
+
+ <div class="refsect1 notes" id="refsect1-function.quotemeta-notes">
+  <h3 class="title">Notes</h3>
+  <blockquote class="note"><p><strong class="note">Note</strong>: <span class="simpara">This function is
+binary-safe.</span></p></blockquote>
+ </div>
+
+
+ <div class="refsect1 seealso" id="refsect1-function.quotemeta-seealso">
+  

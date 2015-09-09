@@ -1,1 +1,57 @@
-.
+
+ <div class="refnamediv">
+  <h1 class="refname">quoted_printable_encode</h1>
+  <p class="refpurpose"><span class="refname">quoted_printable_encode</span> &mdash; <span class="dc-title">Convert a 8 bit string to a quoted-printable string</span></p>
+
+ </div>
+ 
+ <div class="refsect1 description" id="refsect1-function.quoted-printable-encode-description">
+  <h3 class="title">Description</h3>
+  <div class="methodsynopsis dc-description">
+   <span class="type">string</span> <span class="methodname"><strong>quoted_printable_encode</strong></span>
+    ( <span class="methodparam"><span class="type">string</span> <code class="parameter">$str</code></span>
+   )</div>
+
+  <p class="para rdfs-comment">
+   Returns a quoted printable string created according to <a href="http://www.faqs.org/rfcs/rfc2045" class="link external">&raquo;&nbsp;RFC2045</a>, section 6.7.
+  </p>
+  <p class="para">
+   This function is similar to <span class="function"><a href="function.imap-8bit.php" class="function">imap_8bit()</a></span>, except this
+   one does not require the IMAP module to work.
+  </p>
+ </div>
+
+
+ <div class="refsect1 parameters" id="refsect1-function.quoted-printable-encode-parameters">
+  <h3 class="title">Parameters</h3>
+  <p class="para">
+   <dl>
+
+    
+     <dt>
+<code class="parameter">str</code></dt>
+
+     <dd>
+
+      <p class="para">
+       The input string.
+      </p>
+     </dd>
+
+    
+   </dl>
+
+  </p>
+ </div>
+
+
+ <div class="refsect1 returnvalues" id="refsect1-function.quoted-printable-encode-returnvalues">
+  <h3 class="title">Return Values</h3>
+  <p class="para">
+   Returns the encoded string.
+  </p>
+ </div>
+
+
+ <div class="refsect1 seealso" id="refsect1-function.quoted-printable-encode-seealso">
+  

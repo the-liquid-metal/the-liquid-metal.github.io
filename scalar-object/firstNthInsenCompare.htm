@@ -1,1 +1,83 @@
-.
+
+ <div class="refnamediv">
+  <h1 class="refname">strncasecmp</h1>
+  <p class="refpurpose"><span class="refname">strncasecmp</span> &mdash; <span class="dc-title">Binary safe case-insensitive string comparison of the first n characters</span></p>
+
+ </div>
+ 
+ <div class="refsect1 description" id="refsect1-function.strncasecmp-description">
+  <h3 class="title">Description</h3>
+  <div class="methodsynopsis dc-description">
+   <span class="type">int</span> <span class="methodname"><strong>strncasecmp</strong></span>
+    ( <span class="methodparam"><span class="type">string</span> <code class="parameter">$str1</code></span>
+   , <span class="methodparam"><span class="type">string</span> <code class="parameter">$str2</code></span>
+   , <span class="methodparam"><span class="type">int</span> <code class="parameter">$len</code></span>
+   )</div>
+
+  <p class="para rdfs-comment">
+   This function is similar to <span class="function"><a href="function.strcasecmp.php" class="function">strcasecmp()</a></span>, with the
+   difference that you can specify the (upper limit of the) number of
+   characters from each string to be used in the comparison.
+  </p>
+ </div>
+
+
+ <div class="refsect1 parameters" id="refsect1-function.strncasecmp-parameters">
+  <h3 class="title">Parameters</h3>
+  <p class="para">
+   <dl>
+
+    
+     <dt>
+<code class="parameter">str1</code></dt>
+
+     <dd>
+
+      <p class="para">
+       The first string.
+      </p>
+     </dd>
+
+    
+    
+     <dt>
+<code class="parameter">str2</code></dt>
+
+     <dd>
+
+      <p class="para">
+       The second string.
+      </p>
+     </dd>
+
+    
+    
+     <dt>
+<code class="parameter">len</code></dt>
+
+     <dd>
+
+      <p class="para">
+       The length of strings to be used in the comparison.
+      </p>
+     </dd>
+
+    
+   </dl>
+
+  </p>
+ </div>
+
+
+ <div class="refsect1 returnvalues" id="refsect1-function.strncasecmp-returnvalues">
+  <h3 class="title">Return Values</h3>
+  <p class="para">
+   Returns &lt; 0 if <code class="parameter">str1</code> is less than
+   <code class="parameter">str2</code>; &gt; 0 if <code class="parameter">str1</code> is
+   greater than <code class="parameter">str2</code>, and 0 if they are equal.
+  </p>
+ </div>
+
+
+ <div class="refsect1 seealso" id="refsect1-function.strncasecmp-seealso">
+  
