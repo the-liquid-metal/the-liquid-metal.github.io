@@ -28,12 +28,8 @@ $(document).ready(function(){
         $.get(path, insertDetail).fail(insertDetail);
     });
 
-    var protocol = document.URL.replace(/:.+/, ':');
-    if (protocol !== 'file:') {
-        $('.description a').each(function(){
-            var $a = $(this);
-            var href = $a.attr("href");
-            $a.attr("href", href.replace('file:', ''));
-        });
-    }
+    $('.description a').each(function(){
+        var $a = $(this);
+        $a.attr("target", "_blank");
+    });
 });
