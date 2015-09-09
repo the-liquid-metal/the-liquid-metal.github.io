@@ -9,3 +9,6 @@ blockquote {
 h1.refname {
 	font-size: 1.5em;
 }
+div.examples {
+	margin-top: 1em;
+}
