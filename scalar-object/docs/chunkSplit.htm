@@ -6,7 +6,7 @@
  <div class="refsect1 description">
   <p class="para rdfs-comment">
    Can be used to split a string into smaller chunks which is useful for
-   e.g. converting <span class="function"><a href="function.base64-encode.php" class="function">base64_encode()</a></span> output to match RFC
+   e.g. converting <span><a href="function.base64-encode.php" class="function">base64_encode()</a></span> output to match RFC
    2045 semantics. It inserts <code class="parameter">end</code> every 
    <code class="parameter">chunklen</code> characters.
   </p>
@@ -71,9 +71,9 @@
  <div class="refsect1 examples">
   <p class="para">
    <div class="example">
-    <p><strong>Example #1 <span class="function"><strong>chunkSplit()</strong></span> example</strong></p>
-    <div class="example-contents">
-<div class="phpcode"><code><span style="color: #000000">
+    <p><strong>Example #1 <span><strong>chunkSplit()</strong></span> example</strong></p>
+    <div>
+<div><code><span style="color: #000000">
 <span style="color: #0000BB">&lt;?php<br /></span><span style="color: #FF8000">//&nbsp;format&nbsp;$data&nbsp;using&nbsp;RFC&nbsp;2045&nbsp;semantics<br /></span><span style="color: #0000BB">$new_string&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #0000BB">chunkSplit</span><span style="color: #007700">(</span><span style="color: #0000BB">base64_encode</span><span style="color: #007700">(</span><span style="color: #0000BB">$data</span><span style="color: #007700">));<br /></span><span style="color: #0000BB">?&gt;</span>
 </span>
 </code></div>

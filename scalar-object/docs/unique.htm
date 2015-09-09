@@ -9,7 +9,7 @@
    without duplicate values.
   </p>
   <p class="para">
-   Note that keys are preserved. <span class="function"><strong>unique()</strong></span> sorts
+   Note that keys are preserved. <span><strong>unique()</strong></span> sorts
    the values treated as string at first, then will keep the first key
    encountered for every value, and ignore all following keys. It does not
    mean that the key of the first related value from the unsorted
@@ -95,17 +95,17 @@
  <div class="refsect1 examples">
   <p class="para">
    <div class="example">
-    <p><strong>Example #1 <span class="function"><strong>unique()</strong></span> example</strong></p>
-    <div class="example-contents">
-<div class="phpcode"><code><span style="color: #000000">
+    <p><strong>Example #1 <span><strong>unique()</strong></span> example</strong></p>
+    <div>
+<div><code><span style="color: #000000">
 <span style="color: #0000BB">&lt;?php<br />$input&nbsp;</span><span style="color: #007700">=&nbsp;array(</span><span style="color: #DD0000">"a"&nbsp;</span><span style="color: #007700">=&gt;&nbsp;</span><span style="color: #DD0000">"green"</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">"red"</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">"b"&nbsp;</span><span style="color: #007700">=&gt;&nbsp;</span><span style="color: #DD0000">"green"</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">"blue"</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">"red"</span><span style="color: #007700">);<br /></span><span style="color: #0000BB">$result&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #0000BB">unique</span><span style="color: #007700">(</span><span style="color: #0000BB">$input</span><span style="color: #007700">);<br /></span><span style="color: #0000BB">print_r</span><span style="color: #007700">(</span><span style="color: #0000BB">$result</span><span style="color: #007700">);<br /></span><span style="color: #0000BB">?&gt;</span>
 </span>
 </code></div>
     </div>
 
-    <div class="example-contents"><p>The above example will output:</p></div>
-    <div class="example-contents screen">
-<div class="cdata"><pre>
+    <div><p>The above example will output:</p></div>
+    <div>
+<div><pre>
 Array
 (
     [a] =&gt; green
@@ -118,17 +118,17 @@ Array
   </p>
   <p class="para">
    <div class="example">
-    <p><strong>Example #2 <span class="function"><strong>unique()</strong></span> and types</strong></p>
-    <div class="example-contents">
-<div class="phpcode"><code><span style="color: #000000">
+    <p><strong>Example #2 <span><strong>unique()</strong></span> and types</strong></p>
+    <div>
+<div><code><span style="color: #000000">
 <span style="color: #0000BB">&lt;?php<br />$input&nbsp;</span><span style="color: #007700">=&nbsp;array(</span><span style="color: #0000BB">4</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">"4"</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">"3"</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">4</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">3</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">"3"</span><span style="color: #007700">);<br /></span><span style="color: #0000BB">$result&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #0000BB">unique</span><span style="color: #007700">(</span><span style="color: #0000BB">$input</span><span style="color: #007700">);<br /></span><span style="color: #0000BB">var_dump</span><span style="color: #007700">(</span><span style="color: #0000BB">$result</span><span style="color: #007700">);<br /></span><span style="color: #0000BB">?&gt;</span>
 </span>
 </code></div>
     </div>
 
-    <div class="example-contents"><p>The above example will output:</p></div>
-    <div class="example-contents screen">
-<div class="cdata"><pre>
+    <div><p>The above example will output:</p></div>
+    <div>
+<div><pre>
 array(2) {
   [0] =&gt; int(4)
   [2] =&gt; string(1) &quot;3&quot;

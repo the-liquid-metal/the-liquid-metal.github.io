@@ -9,7 +9,7 @@
    <code class="parameter">needle</code> in the <code class="parameter">haystack</code> string.
   </p>
   <p class="para"> 
-   Unlike the <span class="function"><a href="function.strrpos.php" class="function">strrpos()</a></span>, <span class="function"><strong>lastOccurInsenPosition()</strong></span> is
+   Unlike the <span><a href="function.strrpos.php" class="function">strrpos()</a></span>, <span><strong>lastOccurInsenPosition()</strong></span> is
    case-insensitive.
   </p>
  </div>
@@ -88,17 +88,17 @@ function.</p></div>
  <div class="refsect1 examples">
   <p class="para">
    <div class="example">
-    <p><strong>Example #1 A simple <span class="function"><strong>lastOccurInsenPosition()</strong></span> example</strong></p>
-    <div class="example-contents">
-<div class="phpcode"><code><span style="color: #000000">
+    <p><strong>Example #1 A simple <span><strong>lastOccurInsenPosition()</strong></span> example</strong></p>
+    <div>
+<div><code><span style="color: #000000">
 <span style="color: #0000BB">&lt;?php<br />$haystack&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #DD0000">'ababcd'</span><span style="color: #007700">;<br /></span><span style="color: #0000BB">$needle&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #DD0000">'aB'</span><span style="color: #007700">;<br /><br /></span><span style="color: #0000BB">$pos&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #0000BB">lastOccurInsenPosition</span><span style="color: #007700">(</span><span style="color: #0000BB">$haystack</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">$needle</span><span style="color: #007700">);<br /><br />if&nbsp;(</span><span style="color: #0000BB">$pos&nbsp;</span><span style="color: #007700">===&nbsp;</span><span style="color: #0000BB">false</span><span style="color: #007700">)&nbsp;{<br />&nbsp;&nbsp;&nbsp;&nbsp;echo&nbsp;</span><span style="color: #DD0000">"Sorry,&nbsp;we&nbsp;did&nbsp;not&nbsp;find&nbsp;(</span><span style="color: #0000BB">$needle</span><span style="color: #DD0000">)&nbsp;in&nbsp;(</span><span style="color: #0000BB">$haystack</span><span style="color: #DD0000">)"</span><span style="color: #007700">;<br />}&nbsp;else&nbsp;{<br />&nbsp;&nbsp;&nbsp;&nbsp;echo&nbsp;</span><span style="color: #DD0000">"Congratulations!\n"</span><span style="color: #007700">;<br />&nbsp;&nbsp;&nbsp;&nbsp;echo&nbsp;</span><span style="color: #DD0000">"We&nbsp;found&nbsp;the&nbsp;last&nbsp;(</span><span style="color: #0000BB">$needle</span><span style="color: #DD0000">)&nbsp;in&nbsp;(</span><span style="color: #0000BB">$haystack</span><span style="color: #DD0000">)&nbsp;at&nbsp;position&nbsp;(</span><span style="color: #0000BB">$pos</span><span style="color: #DD0000">)"</span><span style="color: #007700">;<br />}<br /></span><span style="color: #0000BB">?&gt;</span>
 </span>
 </code></div>
     </div>
 
-    <div class="example-contents"><p>The above example will output:</p></div>
-    <div class="example-contents screen">
-<div class="cdata"><pre>
+    <div><p>The above example will output:</p></div>
+    <div>
+<div><pre>
    Congratulations!
    We found the last (aB) in (ababcd) at position (2)
 </pre></div>

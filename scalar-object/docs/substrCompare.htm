@@ -5,7 +5,7 @@
  
  <div class="refsect1 description">
   <p class="para rdfs-comment">
-   <span class="function"><strong>substrCompare()</strong></span> compares <code class="parameter">main_str</code>
+   <span><strong>substrCompare()</strong></span> compares <code class="parameter">main_str</code>
    from position <code class="parameter">offset</code> with <code class="parameter">str</code>
    up to <code class="parameter">length</code> characters.
   </p>
@@ -97,7 +97,7 @@
    If <code class="parameter">offset</code> is equal to or greater than the length of
    <code class="parameter">main_str</code>, or the <code class="parameter">length</code> is
    set and is less than 1 (prior to PHP 5.6),
-   <span class="function"><strong>substrCompare()</strong></span> prints a warning and returns
+   <span><strong>substrCompare()</strong></span> prints a warning and returns
    <strong><code>FALSE</code></strong>.
   </p>
  </div>
@@ -109,9 +109,9 @@
  <div class="refsect1 examples">
   <p class="para">
    <div class="example">
-    <p><strong>Example #1 A <span class="function"><strong>substrCompare()</strong></span> example</strong></p>
-    <div class="example-contents">
-<div class="phpcode"><code><span style="color: #000000">
+    <p><strong>Example #1 A <span><strong>substrCompare()</strong></span> example</strong></p>
+    <div>
+<div><code><span style="color: #000000">
 <span style="color: #0000BB">&lt;?php<br /></span><span style="color: #007700">echo&nbsp;</span><span style="color: #0000BB">substrCompare</span><span style="color: #007700">(</span><span style="color: #DD0000">"abcde"</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">"bc"</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">1</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">2</span><span style="color: #007700">);&nbsp;</span><span style="color: #FF8000">//&nbsp;0<br /></span><span style="color: #007700">echo&nbsp;</span><span style="color: #0000BB">substrCompare</span><span style="color: #007700">(</span><span style="color: #DD0000">"abcde"</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">"de"</span><span style="color: #007700">,&nbsp;-</span><span style="color: #0000BB">2</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">2</span><span style="color: #007700">);&nbsp;</span><span style="color: #FF8000">//&nbsp;0<br /></span><span style="color: #007700">echo&nbsp;</span><span style="color: #0000BB">substrCompare</span><span style="color: #007700">(</span><span style="color: #DD0000">"abcde"</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">"bcg"</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">1</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">2</span><span style="color: #007700">);&nbsp;</span><span style="color: #FF8000">//&nbsp;0<br /></span><span style="color: #007700">echo&nbsp;</span><span style="color: #0000BB">substrCompare</span><span style="color: #007700">(</span><span style="color: #DD0000">"abcde"</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">"BC"</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">1</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">2</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">true</span><span style="color: #007700">);&nbsp;</span><span style="color: #FF8000">//&nbsp;0<br /></span><span style="color: #007700">echo&nbsp;</span><span style="color: #0000BB">substrCompare</span><span style="color: #007700">(</span><span style="color: #DD0000">"abcde"</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">"bc"</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">1</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">3</span><span style="color: #007700">);&nbsp;</span><span style="color: #FF8000">//&nbsp;1<br /></span><span style="color: #007700">echo&nbsp;</span><span style="color: #0000BB">substrCompare</span><span style="color: #007700">(</span><span style="color: #DD0000">"abcde"</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">"cd"</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">1</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">2</span><span style="color: #007700">);&nbsp;</span><span style="color: #FF8000">//&nbsp;-1<br /></span><span style="color: #007700">echo&nbsp;</span><span style="color: #0000BB">substrCompare</span><span style="color: #007700">(</span><span style="color: #DD0000">"abcde"</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">"abc"</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">5</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">1</span><span style="color: #007700">);&nbsp;</span><span style="color: #FF8000">//&nbsp;warning<br /></span><span style="color: #0000BB">?&gt;</span>
 </span>
 </code></div>

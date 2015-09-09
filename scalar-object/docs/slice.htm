@@ -4,7 +4,7 @@
  </div>
  <div class="refsect1 description">
   <p class="para rdfs-comment">
-   <span class="function"><strong>slice()</strong></span> returns the sequence of elements
+   <span><strong>slice()</strong></span> returns the sequence of elements
    from the array <code class="parameter">array</code> as specified by the
    <code class="parameter">offset</code> and <code class="parameter">length</code>
    parameters.
@@ -70,7 +70,7 @@
      <dd>
 
       <p class="para">
-       Note that <span class="function"><strong>slice()</strong></span> will reorder and reset the
+       Note that <span><strong>slice()</strong></span> will reorder and reset the
        numeric array indices by default. You can change this behaviour by setting
        <code class="parameter">preserve_keys</code> to <strong><code>TRUE</code></strong>.
       </p>
@@ -94,17 +94,17 @@
  <div class="refsect1 examples">
   <p class="para">
    <div class="example">
-    <p><strong>Example #1 <span class="function"><strong>slice()</strong></span> examples</strong></p>
-    <div class="example-contents">
-<div class="phpcode"><code><span style="color: #000000">
+    <p><strong>Example #1 <span><strong>slice()</strong></span> examples</strong></p>
+    <div>
+<div><code><span style="color: #000000">
 <span style="color: #0000BB">&lt;?php<br />$input&nbsp;</span><span style="color: #007700">=&nbsp;array(</span><span style="color: #DD0000">"a"</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">"b"</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">"c"</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">"d"</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">"e"</span><span style="color: #007700">);<br /><br /></span><span style="color: #0000BB">$output&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #0000BB">slice</span><span style="color: #007700">(</span><span style="color: #0000BB">$input</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">2</span><span style="color: #007700">);&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #FF8000">//&nbsp;returns&nbsp;"c",&nbsp;"d",&nbsp;and&nbsp;"e"<br /></span><span style="color: #0000BB">$output&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #0000BB">slice</span><span style="color: #007700">(</span><span style="color: #0000BB">$input</span><span style="color: #007700">,&nbsp;-</span><span style="color: #0000BB">2</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">1</span><span style="color: #007700">);&nbsp;&nbsp;</span><span style="color: #FF8000">//&nbsp;returns&nbsp;"d"<br /></span><span style="color: #0000BB">$output&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #0000BB">slice</span><span style="color: #007700">(</span><span style="color: #0000BB">$input</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">0</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">3</span><span style="color: #007700">);&nbsp;&nbsp;&nbsp;</span><span style="color: #FF8000">//&nbsp;returns&nbsp;"a",&nbsp;"b",&nbsp;and&nbsp;"c"<br /><br />//&nbsp;note&nbsp;the&nbsp;differences&nbsp;in&nbsp;the&nbsp;array&nbsp;keys<br /></span><span style="color: #0000BB">print_r</span><span style="color: #007700">(</span><span style="color: #0000BB">slice</span><span style="color: #007700">(</span><span style="color: #0000BB">$input</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">2</span><span style="color: #007700">,&nbsp;-</span><span style="color: #0000BB">1</span><span style="color: #007700">));<br /></span><span style="color: #0000BB">print_r</span><span style="color: #007700">(</span><span style="color: #0000BB">slice</span><span style="color: #007700">(</span><span style="color: #0000BB">$input</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">2</span><span style="color: #007700">,&nbsp;-</span><span style="color: #0000BB">1</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">true</span><span style="color: #007700">));<br /></span><span style="color: #0000BB">?&gt;</span>
 </span>
 </code></div>
     </div>
 
-    <div class="example-contents"><p>The above example will output:</p></div>
-    <div class="example-contents screen">
-<div class="cdata"><pre>
+    <div><p>The above example will output:</p></div>
+    <div>
+<div><pre>
 Array
 (
     [0] =&gt; c

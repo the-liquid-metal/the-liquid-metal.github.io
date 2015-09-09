@@ -4,7 +4,7 @@
  </div>
  <div class="refsect1 description">
   <p class="para rdfs-comment">
-   <span class="function"><strong>recursiveReplace()</strong></span> replaces the values of
+   <span><strong>recursiveReplace()</strong></span> replaces the values of
    <code class="parameter">array1</code> with the same values from all the following
    arrays. If a key from the first array exists in the second array, its value
    will be replaced by the value from the second array. If the key exists in the
@@ -14,14 +14,14 @@
    in order, the later array overwriting the previous values.
   </p>
   <p class="para">
-   <span class="function"><strong>recursiveReplace()</strong></span> is recursive : it will recurse into
+   <span><strong>recursiveReplace()</strong></span> is recursive : it will recurse into
    arrays and apply the same process to the inner value.
   </p>
   <p class="para">
    When the value in <code class="parameter">array1</code> is scalar, it will be replaced
    by the value in <code class="parameter">array2</code>, may it be scalar or array.
    When the value in <code class="parameter">array1</code> and <code class="parameter">array2</code>
-   are both arrays, <span class="function"><strong>recursiveReplace()</strong></span> will replace
+   are both arrays, <span><strong>recursiveReplace()</strong></span> will replace
    their respective value recursively.
   </p>
  </div>
@@ -82,17 +82,17 @@
  <div class="refsect1 examples">
   <p class="para">
    <div class="example">
-    <p><strong>Example #1 <span class="function"><strong>recursiveReplace()</strong></span> example</strong></p>
-    <div class="example-contents">
-<div class="phpcode"><code><span style="color: #000000">
+    <p><strong>Example #1 <span><strong>recursiveReplace()</strong></span> example</strong></p>
+    <div>
+<div><code><span style="color: #000000">
 <span style="color: #0000BB">&lt;?php<br />$base&nbsp;</span><span style="color: #007700">=&nbsp;array(</span><span style="color: #DD0000">'citrus'&nbsp;</span><span style="color: #007700">=&gt;&nbsp;array(&nbsp;</span><span style="color: #DD0000">"orange"</span><span style="color: #007700">)&nbsp;,&nbsp;</span><span style="color: #DD0000">'berries'&nbsp;</span><span style="color: #007700">=&gt;&nbsp;array(</span><span style="color: #DD0000">"blackberry"</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">"raspberry"</span><span style="color: #007700">),&nbsp;);<br /></span><span style="color: #0000BB">$replacements&nbsp;</span><span style="color: #007700">=&nbsp;array(</span><span style="color: #DD0000">'citrus'&nbsp;</span><span style="color: #007700">=&gt;&nbsp;array(</span><span style="color: #DD0000">'pineapple'</span><span style="color: #007700">),&nbsp;</span><span style="color: #DD0000">'berries'&nbsp;</span><span style="color: #007700">=&gt;&nbsp;array(</span><span style="color: #DD0000">'blueberry'</span><span style="color: #007700">));<br /><br /></span><span style="color: #0000BB">$basket&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #0000BB">recursiveReplace</span><span style="color: #007700">(</span><span style="color: #0000BB">$base</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">$replacements</span><span style="color: #007700">);<br /></span><span style="color: #0000BB">print_r</span><span style="color: #007700">(</span><span style="color: #0000BB">$basket</span><span style="color: #007700">);<br /><br /></span><span style="color: #0000BB">$basket&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #0000BB">array_replace</span><span style="color: #007700">(</span><span style="color: #0000BB">$base</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">$replacements</span><span style="color: #007700">);<br /></span><span style="color: #0000BB">print_r</span><span style="color: #007700">(</span><span style="color: #0000BB">$basket</span><span style="color: #007700">);<br /></span><span style="color: #0000BB">?&gt;</span>
 </span>
 </code></div>
     </div>
 
-    <div class="example-contents"><p>The above example will output:</p></div>
-    <div class="example-contents screen">
-<div class="cdata"><pre>
+    <div><p>The above example will output:</p></div>
+    <div>
+<div><pre>
 Array
 (
     [citrus] =&gt; Array
@@ -125,17 +125,17 @@ Array
     </div>
    </div>
    <div class="example">
-    <p><strong>Example #2 <span class="function"><strong>recursiveReplace()</strong></span> and recursive behavior</strong></p>
-    <div class="example-contents">
-<div class="phpcode"><code><span style="color: #000000">
+    <p><strong>Example #2 <span><strong>recursiveReplace()</strong></span> and recursive behavior</strong></p>
+    <div>
+<div><code><span style="color: #000000">
 <span style="color: #0000BB">&lt;?php<br />$base&nbsp;</span><span style="color: #007700">=&nbsp;array(</span><span style="color: #DD0000">'citrus'&nbsp;</span><span style="color: #007700">=&gt;&nbsp;array(</span><span style="color: #DD0000">"orange"</span><span style="color: #007700">)&nbsp;,&nbsp;</span><span style="color: #DD0000">'berries'&nbsp;</span><span style="color: #007700">=&gt;&nbsp;array(</span><span style="color: #DD0000">"blackberry"</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">"raspberry"</span><span style="color: #007700">),&nbsp;</span><span style="color: #DD0000">'others'&nbsp;</span><span style="color: #007700">=&gt;&nbsp;</span><span style="color: #DD0000">'banana'&nbsp;</span><span style="color: #007700">);<br /></span><span style="color: #0000BB">$replacements&nbsp;</span><span style="color: #007700">=&nbsp;array(</span><span style="color: #DD0000">'citrus'&nbsp;</span><span style="color: #007700">=&gt;&nbsp;</span><span style="color: #DD0000">'pineapple'</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">'berries'&nbsp;</span><span style="color: #007700">=&gt;&nbsp;array(</span><span style="color: #DD0000">'blueberry'</span><span style="color: #007700">),&nbsp;</span><span style="color: #DD0000">'others'&nbsp;</span><span style="color: #007700">=&gt;&nbsp;array(</span><span style="color: #DD0000">'litchis'</span><span style="color: #007700">));<br /></span><span style="color: #0000BB">$replacements2&nbsp;</span><span style="color: #007700">=&nbsp;array(</span><span style="color: #DD0000">'citrus'&nbsp;</span><span style="color: #007700">=&gt;&nbsp;array(</span><span style="color: #DD0000">'pineapple'</span><span style="color: #007700">),&nbsp;</span><span style="color: #DD0000">'berries'&nbsp;</span><span style="color: #007700">=&gt;&nbsp;array(</span><span style="color: #DD0000">'blueberry'</span><span style="color: #007700">),&nbsp;</span><span style="color: #DD0000">'others'&nbsp;</span><span style="color: #007700">=&gt;&nbsp;</span><span style="color: #DD0000">'litchis'</span><span style="color: #007700">);<br /><br /></span><span style="color: #0000BB">$basket&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #0000BB">recursiveReplace</span><span style="color: #007700">(</span><span style="color: #0000BB">$base</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">$replacements</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">$replacements2</span><span style="color: #007700">);<br /></span><span style="color: #0000BB">print_r</span><span style="color: #007700">(</span><span style="color: #0000BB">$basket</span><span style="color: #007700">);<br /><br /></span><span style="color: #0000BB">?&gt;</span>
 </span>
 </code></div>
     </div>
 
-    <div class="example-contents"><p>The above example will output:</p></div>
-    <div class="example-contents screen">
-<div class="cdata"><pre>
+    <div><p>The above example will output:</p></div>
+    <div>
+<div><pre>
 Array
 (
     [citrus] =&gt; Array

@@ -5,13 +5,13 @@
  
  <div class="refsect1 description">
   <p class="para rdfs-comment">
-   This function is identical to <span class="function"><a href="function.htmlspecialchars.php" class="function">htmlspecialchars()</a></span> in all
-   ways, except with <span class="function"><strong>htmlEntitiesEncode()</strong></span>, all characters which
+   This function is identical to <span><a href="function.htmlspecialchars.php" class="function">htmlspecialchars()</a></span> in all
+   ways, except with <span><strong>htmlEntitiesEncode()</strong></span>, all characters which
    have HTML character entity equivalents are translated into these entities.
   </p>
   <p class="para">
    If you want to decode instead (the reverse) you can use
-   <span class="function"><a href="function.html-entity-decode.php" class="function">html_entity_decode()</a></span>.
+   <span><a href="function.html-entity-decode.php" class="function">html_entity_decode()</a></span>.
   </p>
  </div>
 
@@ -297,8 +297,8 @@
      <td>
       An empty string activates detection from script encoding (Zend multibyte),
       <a href="ini.core.php#ini.default-charset" class="link">default_charset</a> and current
-      locale (see <span class="function"><a href="function.nl-langinfo.php" class="function">nl_langinfo()</a></span> and
-      <span class="function"><a href="function.setlocale.php" class="function">setlocale()</a></span>), in this order. Not recommended.
+      locale (see <span><a href="function.nl-langinfo.php" class="function">nl_langinfo()</a></span> and
+      <span><a href="function.setlocale.php" class="function">setlocale()</a></span>), in this order. Not recommended.
      </td>
     </tr>
 
@@ -357,9 +357,9 @@
  <div class="refsect1 examples">
   <p class="para">
    <div class="example">
-    <p><strong>Example #1 A <span class="function"><strong>htmlEntitiesEncode()</strong></span> example</strong></p>
-    <div class="example-contents">
-<div class="phpcode"><code><span style="color: #000000">
+    <p><strong>Example #1 A <span><strong>htmlEntitiesEncode()</strong></span> example</strong></p>
+    <div>
+<div><code><span style="color: #000000">
 <span style="color: #0000BB">&lt;?php<br />$str&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #DD0000">"A&nbsp;'quote'&nbsp;is&nbsp;&lt;b&gt;bold&lt;/b&gt;"</span><span style="color: #007700">;<br /><br /></span><span style="color: #FF8000">//&nbsp;Outputs:&nbsp;A&nbsp;'quote'&nbsp;is&nbsp;&amp;lt;b&amp;gt;bold&amp;lt;/b&amp;gt;<br /></span><span style="color: #007700">echo&nbsp;</span><span style="color: #0000BB">htmlEntitiesEncode</span><span style="color: #007700">(</span><span style="color: #0000BB">$str</span><span style="color: #007700">);<br /><br /></span><span style="color: #FF8000">//&nbsp;Outputs:&nbsp;A&nbsp;&amp;#039;quote&amp;#039;&nbsp;is&nbsp;&amp;lt;b&amp;gt;bold&amp;lt;/b&amp;gt;<br /></span><span style="color: #007700">echo&nbsp;</span><span style="color: #0000BB">htmlEntitiesEncode</span><span style="color: #007700">(</span><span style="color: #0000BB">$str</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">ENT_QUOTES</span><span style="color: #007700">);<br /></span><span style="color: #0000BB">?&gt;</span>
 </span>
 </code></div>
@@ -371,8 +371,8 @@
   <p class="para">
    <div class="example">
     <p><strong>Example #2 Usage of <strong><code>ENT_IGNORE</code></strong></strong></p>
-    <div class="example-contents">
-<div class="phpcode"><code><span style="color: #000000">
+    <div>
+<div><code><span style="color: #000000">
 <span style="color: #0000BB">&lt;?php<br />$str&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #DD0000">"\x8F!!!"</span><span style="color: #007700">;<br /><br /></span><span style="color: #FF8000">//&nbsp;Outputs&nbsp;an&nbsp;empty&nbsp;string<br /></span><span style="color: #007700">echo&nbsp;</span><span style="color: #0000BB">htmlEntitiesEncode</span><span style="color: #007700">(</span><span style="color: #0000BB">$str</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">ENT_QUOTES</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">"UTF-8"</span><span style="color: #007700">);<br /><br /></span><span style="color: #FF8000">//&nbsp;Outputs&nbsp;"!!!"<br /></span><span style="color: #007700">echo&nbsp;</span><span style="color: #0000BB">htmlEntitiesEncode</span><span style="color: #007700">(</span><span style="color: #0000BB">$str</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">ENT_QUOTES&nbsp;</span><span style="color: #007700">|&nbsp;</span><span style="color: #0000BB">ENT_IGNORE</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">"UTF-8"</span><span style="color: #007700">);<br /></span><span style="color: #0000BB">?&gt;</span>
 </span>
 </code></div>

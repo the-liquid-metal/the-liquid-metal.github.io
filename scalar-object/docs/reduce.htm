@@ -4,7 +4,7 @@
  </div>
  <div class="refsect1 description">
   <p class="para rdfs-comment">
-   <span class="function"><strong>reduce()</strong></span> applies iteratively the
+   <span><strong>reduce()</strong></span> applies iteratively the
    <code class="parameter">callback</code> function to the elements of the
    <code class="parameter">array</code>, so as to reduce the array to
    a single value.
@@ -93,7 +93,7 @@
   </p>
   <p class="para">
    If the array is empty and <code class="parameter">initial</code> is not passed,
-   <span class="function"><strong>reduce()</strong></span> returns <strong><code>NULL</code></strong>.
+   <span><strong>reduce()</strong></span> returns <strong><code>NULL</code></strong>.
   </p>
  </div>
 
@@ -102,9 +102,9 @@
  <div class="refsect1 examples">
   <p class="para">
    <div class="example">
-    <p><strong>Example #1 <span class="function"><strong>reduce()</strong></span> example</strong></p>
-    <div class="example-contents">
-<div class="phpcode"><code><span style="color: #000000">
+    <p><strong>Example #1 <span><strong>reduce()</strong></span> example</strong></p>
+    <div>
+<div><code><span style="color: #000000">
 <span style="color: #0000BB">&lt;?php<br /></span><span style="color: #007700">function&nbsp;</span><span style="color: #0000BB">sum</span><span style="color: #007700">(</span><span style="color: #0000BB">$carry</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">$item</span><span style="color: #007700">)<br />{<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #0000BB">$carry&nbsp;</span><span style="color: #007700">+=&nbsp;</span><span style="color: #0000BB">$item</span><span style="color: #007700">;<br />&nbsp;&nbsp;&nbsp;&nbsp;return&nbsp;</span><span style="color: #0000BB">$carry</span><span style="color: #007700">;<br />}<br /><br />function&nbsp;</span><span style="color: #0000BB">product</span><span style="color: #007700">(</span><span style="color: #0000BB">$carry</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">$item</span><span style="color: #007700">)<br />{<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #0000BB">$carry&nbsp;</span><span style="color: #007700">*=&nbsp;</span><span style="color: #0000BB">$item</span><span style="color: #007700">;<br />&nbsp;&nbsp;&nbsp;&nbsp;return&nbsp;</span><span style="color: #0000BB">$carry</span><span style="color: #007700">;<br />}<br /><br /></span><span style="color: #0000BB">$a&nbsp;</span><span style="color: #007700">=&nbsp;array(</span><span style="color: #0000BB">1</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">2</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">3</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">4</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">5</span><span style="color: #007700">);<br /></span><span style="color: #0000BB">$x&nbsp;</span><span style="color: #007700">=&nbsp;array();<br /><br /></span><span style="color: #0000BB">var_dump</span><span style="color: #007700">(</span><span style="color: #0000BB">reduce</span><span style="color: #007700">(</span><span style="color: #0000BB">$a</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">"sum"</span><span style="color: #007700">));&nbsp;</span><span style="color: #FF8000">//&nbsp;int(15)<br /></span><span style="color: #0000BB">var_dump</span><span style="color: #007700">(</span><span style="color: #0000BB">reduce</span><span style="color: #007700">(</span><span style="color: #0000BB">$a</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">"product"</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">10</span><span style="color: #007700">));&nbsp;</span><span style="color: #FF8000">//&nbsp;int(1200),&nbsp;because:&nbsp;10*1*2*3*4*5<br /></span><span style="color: #0000BB">var_dump</span><span style="color: #007700">(</span><span style="color: #0000BB">reduce</span><span style="color: #007700">(</span><span style="color: #0000BB">$x</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">"sum"</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">"No&nbsp;data&nbsp;to&nbsp;reduce"</span><span style="color: #007700">));&nbsp;</span><span style="color: #FF8000">//&nbsp;string(17)&nbsp;"No&nbsp;data&nbsp;to&nbsp;reduce"<br /></span><span style="color: #0000BB">?&gt;</span>
 </span>
 </code></div>

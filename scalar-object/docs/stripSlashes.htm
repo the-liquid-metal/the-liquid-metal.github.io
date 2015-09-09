@@ -15,7 +15,7 @@
    </p>
   </p></blockquote>
   <p class="para">
-   An example use of <span class="function"><strong>stripSlashes()</strong></span> is when the PHP
+   An example use of <span><strong>stripSlashes()</strong></span> is when the PHP
    directive <a href="info.configuration.php#ini.magic-quotes-gpc" class="link">magic_quotes_gpc</a>
    is <em>on</em> (it was on by default before PHP 5.4), and you aren&#039;t inserting
    this data into a place (such as a database) that requires escaping.
@@ -61,9 +61,9 @@
  <div class="refsect1 examples">
   <p class="para">
    <div class="example">
-    <p><strong>Example #1 A <span class="function"><strong>stripSlashes()</strong></span> example</strong></p>
-    <div class="example-contents">
-<div class="phpcode"><code><span style="color: #000000">
+    <p><strong>Example #1 A <span><strong>stripSlashes()</strong></span> example</strong></p>
+    <div>
+<div><code><span style="color: #000000">
 <span style="color: #0000BB">&lt;?php<br />$str&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #DD0000">"Is&nbsp;your&nbsp;name&nbsp;O\'reilly?"</span><span style="color: #007700">;<br /><br /></span><span style="color: #FF8000">//&nbsp;Outputs:&nbsp;Is&nbsp;your&nbsp;name&nbsp;O'reilly?<br /></span><span style="color: #007700">echo&nbsp;</span><span style="color: #0000BB">stripSlashes</span><span style="color: #007700">(</span><span style="color: #0000BB">$str</span><span style="color: #007700">);<br /></span><span style="color: #0000BB">?&gt;</span>
 </span>
 </code></div>
@@ -73,24 +73,24 @@
   </p>
   <blockquote><p><strong>Note</strong>: 
    <p class="para">
-    <span class="function"><strong>stripSlashes()</strong></span> is not recursive. If you want to apply
+    <span><strong>stripSlashes()</strong></span> is not recursive. If you want to apply
     this function to a multi-dimensional array, you need to use a recursive
     function.
    </p>
   </p></blockquote>
   <p class="para">
    <div class="example">
-    <p><strong>Example #2 Using <span class="function"><strong>stripSlashes()</strong></span> on an array</strong></p>
-    <div class="example-contents">
-<div class="phpcode"><code><span style="color: #000000">
+    <p><strong>Example #2 Using <span><strong>stripSlashes()</strong></span> on an array</strong></p>
+    <div>
+<div><code><span style="color: #000000">
 <span style="color: #0000BB">&lt;?php<br /></span><span style="color: #007700">function&nbsp;</span><span style="color: #0000BB">stripslashes_deep</span><span style="color: #007700">(</span><span style="color: #0000BB">$value</span><span style="color: #007700">)<br />{<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #0000BB">$value&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #0000BB">is_array</span><span style="color: #007700">(</span><span style="color: #0000BB">$value</span><span style="color: #007700">)&nbsp;?<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #0000BB">array_map</span><span style="color: #007700">(</span><span style="color: #DD0000">'stripslashes_deep'</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">$value</span><span style="color: #007700">)&nbsp;:<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #0000BB">stripSlashes</span><span style="color: #007700">(</span><span style="color: #0000BB">$value</span><span style="color: #007700">);<br /><br />&nbsp;&nbsp;&nbsp;&nbsp;return&nbsp;</span><span style="color: #0000BB">$value</span><span style="color: #007700">;<br />}<br /><br /></span><span style="color: #FF8000">//&nbsp;Example<br /></span><span style="color: #0000BB">$array&nbsp;</span><span style="color: #007700">=&nbsp;array(</span><span style="color: #DD0000">"f\\'oo"</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">"b\\'ar"</span><span style="color: #007700">,&nbsp;array(</span><span style="color: #DD0000">"fo\\'o"</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">"b\\'ar"</span><span style="color: #007700">));<br /></span><span style="color: #0000BB">$array&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #0000BB">stripslashes_deep</span><span style="color: #007700">(</span><span style="color: #0000BB">$array</span><span style="color: #007700">);<br /><br /></span><span style="color: #FF8000">//&nbsp;Output<br /></span><span style="color: #0000BB">print_r</span><span style="color: #007700">(</span><span style="color: #0000BB">$array</span><span style="color: #007700">);<br /></span><span style="color: #0000BB">?&gt;</span>
 </span>
 </code></div>
     </div>
 
-    <div class="example-contents"><p>The above example will output:</p></div>
-    <div class="example-contents screen">
-<div class="cdata"><pre>
+    <div><p>The above example will output:</p></div>
+    <div>
+<div><pre>
 Array
 (
     [0] =&gt; f&#039;oo

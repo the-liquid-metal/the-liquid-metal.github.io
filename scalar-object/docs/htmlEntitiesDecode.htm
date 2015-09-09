@@ -5,8 +5,8 @@
  
  <div class="refsect1 description">
   <p class="para rdfs-comment">
-   <span class="function"><strong>htmlEntitiesDecode()</strong></span> is the opposite of
-   <span class="function"><a href="function.htmlentities.php" class="function">htmlentities()</a></span> in that it converts all HTML entities
+   <span><strong>htmlEntitiesDecode()</strong></span> is the opposite of
+   <span><a href="function.htmlentities.php" class="function">htmlentities()</a></span> in that it converts all HTML entities
    in the <code class="parameter">string</code> to their applicable characters.
   </p>
   <p class="para">
@@ -272,8 +272,8 @@
      <td>
       An empty string activates detection from script encoding (Zend multibyte),
       <a href="ini.core.php#ini.default-charset" class="link">default_charset</a> and current
-      locale (see <span class="function"><a href="function.nl-langinfo.php" class="function">nl_langinfo()</a></span> and
-      <span class="function"><a href="function.setlocale.php" class="function">setlocale()</a></span>), in this order. Not recommended.
+      locale (see <span><a href="function.nl-langinfo.php" class="function">nl_langinfo()</a></span> and
+      <span><a href="function.setlocale.php" class="function">setlocale()</a></span>), in this order. Not recommended.
      </td>
     </tr>
 
@@ -314,8 +314,8 @@
   <p class="para">
    <div class="example">
     <p><strong>Example #1 Decoding HTML entities</strong></p>
-    <div class="example-contents">
-<div class="phpcode"><code><span style="color: #000000">
+    <div>
+<div><code><span style="color: #000000">
 <span style="color: #0000BB">&lt;?php<br />$orig&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #DD0000">"I'll&nbsp;\"walk\"&nbsp;the&nbsp;&lt;b&gt;dog&lt;/b&gt;&nbsp;now"</span><span style="color: #007700">;<br /><br /></span><span style="color: #0000BB">$a&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #0000BB">htmlentities</span><span style="color: #007700">(</span><span style="color: #0000BB">$orig</span><span style="color: #007700">);<br /><br /></span><span style="color: #0000BB">$b&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #0000BB">htmlEntitiesDecode</span><span style="color: #007700">(</span><span style="color: #0000BB">$a</span><span style="color: #007700">);<br /><br />echo&nbsp;</span><span style="color: #0000BB">$a</span><span style="color: #007700">;&nbsp;</span><span style="color: #FF8000">//&nbsp;I'll&nbsp;&amp;quot;walk&amp;quot;&nbsp;the&nbsp;&amp;lt;b&amp;gt;dog&amp;lt;/b&amp;gt;&nbsp;now<br /><br /></span><span style="color: #007700">echo&nbsp;</span><span style="color: #0000BB">$b</span><span style="color: #007700">;&nbsp;</span><span style="color: #FF8000">//&nbsp;I'll&nbsp;"walk"&nbsp;the&nbsp;&lt;b&gt;dog&lt;/b&gt;&nbsp;now<br /></span><span style="color: #0000BB">?&gt;</span>
 </span>
 </code></div>
@@ -332,7 +332,7 @@
     You might wonder why trim(htmlEntitiesDecode(&#039;&amp;nbsp;&#039;)); doesn&#039;t
     reduce the string to an empty string, that&#039;s because the &#039;&amp;nbsp;&#039;
     entity is not ASCII code 32 (which is stripped by
-    <span class="function"><a href="function.trim.php" class="function">trim()</a></span>) but ASCII code 160 (0xa0) in the default ISO
+    <span><a href="function.trim.php" class="function">trim()</a></span>) but ASCII code 160 (0xa0) in the default ISO
     8859-1 encoding.
    </p>
   </p></blockquote>

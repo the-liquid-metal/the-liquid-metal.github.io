@@ -66,9 +66,9 @@
   </p>
   <blockquote><p><strong>Note</strong>: 
    <p class="para">
-    Although <span class="function"><a href="function.implode.php" class="function">implode()</a></span> can, for historical reasons,
+    Although <span><a href="function.implode.php" class="function">implode()</a></span> can, for historical reasons,
     accept its parameters in either order,
-    <span class="function"><strong>explode()</strong></span> cannot. You must ensure that the
+    <span><strong>explode()</strong></span> cannot. You must ensure that the
     <code class="parameter">delimiter</code> argument comes before the
     <code class="parameter">string</code> argument.
    </p>
@@ -85,7 +85,7 @@
   </p>
   <p class="para">
    If <code class="parameter">delimiter</code> is an empty <span class="type"><a href="language.types.string.php" class="type string">string</a></span> (&quot;&quot;),
-   <span class="function"><strong>explode()</strong></span> will return <strong><code>FALSE</code></strong>.
+   <span><strong>explode()</strong></span> will return <strong><code>FALSE</code></strong>.
    If <code class="parameter">delimiter</code> contains a value that is not
    contained in <code class="parameter">string</code> and a negative
    <code class="parameter">limit</code> is used, then an empty <span class="type"><a href="language.types.array.php" class="type array">array</a></span> will be
@@ -101,9 +101,9 @@
  <div class="refsect1 examples">
   <p class="para">
    <div class="example">
-    <p><strong>Example #1 <span class="function"><strong>explode()</strong></span> examples</strong></p>
-    <div class="example-contents">
-<div class="phpcode"><code><span style="color: #000000">
+    <p><strong>Example #1 <span><strong>explode()</strong></span> examples</strong></p>
+    <div>
+<div><code><span style="color: #000000">
 <span style="color: #0000BB">&lt;?php<br /></span><span style="color: #FF8000">//&nbsp;Example&nbsp;1<br /></span><span style="color: #0000BB">$pizza&nbsp;&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #DD0000">"piece1&nbsp;piece2&nbsp;piece3&nbsp;piece4&nbsp;piece5&nbsp;piece6"</span><span style="color: #007700">;<br /></span><span style="color: #0000BB">$pieces&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #0000BB">explode</span><span style="color: #007700">(</span><span style="color: #DD0000">"&nbsp;"</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">$pizza</span><span style="color: #007700">);<br />echo&nbsp;</span><span style="color: #0000BB">$pieces</span><span style="color: #007700">[</span><span style="color: #0000BB">0</span><span style="color: #007700">];&nbsp;</span><span style="color: #FF8000">//&nbsp;piece1<br /></span><span style="color: #007700">echo&nbsp;</span><span style="color: #0000BB">$pieces</span><span style="color: #007700">[</span><span style="color: #0000BB">1</span><span style="color: #007700">];&nbsp;</span><span style="color: #FF8000">//&nbsp;piece2<br /><br />//&nbsp;Example&nbsp;2<br /></span><span style="color: #0000BB">$data&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #DD0000">"foo:*:1023:1000::/home/foo:/bin/sh"</span><span style="color: #007700">;<br />list(</span><span style="color: #0000BB">$user</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">$pass</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">$uid</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">$gid</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">$gecos</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">$home</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">$shell</span><span style="color: #007700">)&nbsp;=&nbsp;</span><span style="color: #0000BB">explode</span><span style="color: #007700">(</span><span style="color: #DD0000">":"</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">$data</span><span style="color: #007700">);<br />echo&nbsp;</span><span style="color: #0000BB">$user</span><span style="color: #007700">;&nbsp;</span><span style="color: #FF8000">//&nbsp;foo<br /></span><span style="color: #007700">echo&nbsp;</span><span style="color: #0000BB">$pass</span><span style="color: #007700">;&nbsp;</span><span style="color: #FF8000">//&nbsp;*<br /><br /></span><span style="color: #0000BB">?&gt;</span>
 </span>
 </code></div>
@@ -113,17 +113,17 @@
   </p>
   <p class="para">
    <div class="example">
-    <p><strong>Example #2 <span class="function"><strong>explode()</strong></span> return examples</strong></p>
-    <div class="example-contents">
-<div class="phpcode"><code><span style="color: #000000">
+    <p><strong>Example #2 <span><strong>explode()</strong></span> return examples</strong></p>
+    <div>
+<div><code><span style="color: #000000">
 <span style="color: #0000BB">&lt;?php<br /></span><span style="color: #FF8000">/*&nbsp;<br />&nbsp;&nbsp;&nbsp;A&nbsp;string&nbsp;that&nbsp;doesn't&nbsp;contain&nbsp;the&nbsp;delimiter&nbsp;will&nbsp;simply<br />&nbsp;&nbsp;&nbsp;return&nbsp;a&nbsp;one-length&nbsp;array&nbsp;of&nbsp;the&nbsp;original&nbsp;string.<br />*/<br /></span><span style="color: #0000BB">$input1&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #DD0000">"hello"</span><span style="color: #007700">;<br /></span><span style="color: #0000BB">$input2&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #DD0000">"hello,there"</span><span style="color: #007700">;<br /></span><span style="color: #0000BB">var_dump</span><span style="color: #007700">(&nbsp;</span><span style="color: #0000BB">explode</span><span style="color: #007700">(&nbsp;</span><span style="color: #DD0000">','</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">$input1&nbsp;</span><span style="color: #007700">)&nbsp;);<br /></span><span style="color: #0000BB">var_dump</span><span style="color: #007700">(&nbsp;</span><span style="color: #0000BB">explode</span><span style="color: #007700">(&nbsp;</span><span style="color: #DD0000">','</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">$input2&nbsp;</span><span style="color: #007700">)&nbsp;);<br /><br /></span><span style="color: #0000BB">?&gt;</span>
 </span>
 </code></div>
     </div>
 
-    <div class="example-contents"><p>The above example will output:</p></div>
-    <div class="example-contents screen">
-<div class="cdata"><pre>
+    <div><p>The above example will output:</p></div>
+    <div>
+<div><pre>
 array(1)
 (
     [0] =&gt; string(5) &quot;hello&quot;
@@ -140,16 +140,16 @@ array(2)
   <p class="para">
    <div class="example">
     <p><strong>Example #3 <code class="parameter">limit</code> parameter examples</strong></p>
-    <div class="example-contents">
-<div class="phpcode"><code><span style="color: #000000">
+    <div>
+<div><code><span style="color: #000000">
 <span style="color: #0000BB">&lt;?php<br />$str&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #DD0000">'one|two|three|four'</span><span style="color: #007700">;<br /><br /></span><span style="color: #FF8000">//&nbsp;positive&nbsp;limit<br /></span><span style="color: #0000BB">print_r</span><span style="color: #007700">(</span><span style="color: #0000BB">explode</span><span style="color: #007700">(</span><span style="color: #DD0000">'|'</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">$str</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">2</span><span style="color: #007700">));<br /><br /></span><span style="color: #FF8000">//&nbsp;negative&nbsp;limit&nbsp;(since&nbsp;PHP&nbsp;5.1)<br /></span><span style="color: #0000BB">print_r</span><span style="color: #007700">(</span><span style="color: #0000BB">explode</span><span style="color: #007700">(</span><span style="color: #DD0000">'|'</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">$str</span><span style="color: #007700">,&nbsp;-</span><span style="color: #0000BB">1</span><span style="color: #007700">));<br /></span><span style="color: #0000BB">?&gt;</span>
 </span>
 </code></div>
     </div>
 
-    <div class="example-contents"><p>The above example will output:</p></div>
-    <div class="example-contents screen">
-<div class="cdata"><pre>
+    <div><p>The above example will output:</p></div>
+    <div>
+<div><pre>
 Array
 (
     [0] =&gt; one

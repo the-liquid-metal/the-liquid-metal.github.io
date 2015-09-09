@@ -116,9 +116,9 @@
  <div class="refsect1 examples">
   <p class="para">
    <div class="example">
-    <p><strong>Example #1 <span class="function"><strong>translateChar()</strong></span> example</strong></p>
-    <div class="example-contents">
-<div class="phpcode"><code><span style="color: #000000">
+    <p><strong>Example #1 <span><strong>translateChar()</strong></span> example</strong></p>
+    <div>
+<div><code><span style="color: #000000">
 <span style="color: #0000BB">&lt;?php<br /></span><span style="color: #FF8000">//In&nbsp;this&nbsp;form,&nbsp;translateChar()&nbsp;does&nbsp;byte-by-byte&nbsp;translation<br />//Therefore,&nbsp;we&nbsp;are&nbsp;assuming&nbsp;a&nbsp;single-byte&nbsp;encoding&nbsp;here:<br /></span><span style="color: #0000BB">$addr&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #0000BB">translateChar</span><span style="color: #007700">(</span><span style="color: #0000BB">$addr</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">"äåö"</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">"aao"</span><span style="color: #007700">);<br /></span><span style="color: #0000BB">?&gt;</span>
 </span>
 </code></div>
@@ -127,44 +127,44 @@
    </div>
   </p>
   <p class="para">
-   The next example shows the behavior of <span class="function"><strong>translateChar()</strong></span> when
+   The next example shows the behavior of <span><strong>translateChar()</strong></span> when
    called with only two arguments. Note the preference of the replacements
    (<em>&quot;h&quot;</em> is not picked because there are longer matches)
    and how replaced text was not searched again.
   </p>
   <div class="example">
-   <p><strong>Example #2 <span class="function"><strong>translateChar()</strong></span> example with two arguments</strong></p>
-    <div class="example-contents">
-<div class="phpcode"><code><span style="color: #000000">
+   <p><strong>Example #2 <span><strong>translateChar()</strong></span> example with two arguments</strong></p>
+    <div>
+<div><code><span style="color: #000000">
 <span style="color: #0000BB">&lt;?php<br />$trans&nbsp;</span><span style="color: #007700">=&nbsp;array(</span><span style="color: #DD0000">"h"&nbsp;</span><span style="color: #007700">=&gt;&nbsp;</span><span style="color: #DD0000">"-"</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">"hello"&nbsp;</span><span style="color: #007700">=&gt;&nbsp;</span><span style="color: #DD0000">"hi"</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">"hi"&nbsp;</span><span style="color: #007700">=&gt;&nbsp;</span><span style="color: #DD0000">"hello"</span><span style="color: #007700">);<br />echo&nbsp;</span><span style="color: #0000BB">translateChar</span><span style="color: #007700">(</span><span style="color: #DD0000">"hi&nbsp;all,&nbsp;I&nbsp;said&nbsp;hello"</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">$trans</span><span style="color: #007700">);<br /></span><span style="color: #0000BB">?&gt;</span>
 </span>
 </code></div>
     </div>
 
-    <div class="example-contents"><p>The above example will output:</p></div>
-    <div class="example-contents screen">
-<div class="cdata"><pre>
+    <div><p>The above example will output:</p></div>
+    <div>
+<div><pre>
 hello all, I said hi
 </pre></div>
     </div>
   </div>
   <p class="para">
    The two modes of behavior are substantially different. With three arguments,
-   <span class="function"><strong>translateChar()</strong></span> will replace bytes; with two, it may replace
+   <span><strong>translateChar()</strong></span> will replace bytes; with two, it may replace
    longer substrings.
   </p>
   <div class="example">
-   <p><strong>Example #3 <span class="function"><strong>translateChar()</strong></span> behavior comparison</strong></p>
-    <div class="example-contents">
-<div class="phpcode"><code><span style="color: #000000">
+   <p><strong>Example #3 <span><strong>translateChar()</strong></span> behavior comparison</strong></p>
+    <div>
+<div><code><span style="color: #000000">
 <span style="color: #0000BB">&lt;?php<br /></span><span style="color: #007700">echo&nbsp;</span><span style="color: #0000BB">translateChar</span><span style="color: #007700">(</span><span style="color: #DD0000">"baab"</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">"ab"</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">"01"</span><span style="color: #007700">),</span><span style="color: #DD0000">"\n"</span><span style="color: #007700">;<br /><br /></span><span style="color: #0000BB">$trans&nbsp;</span><span style="color: #007700">=&nbsp;array(</span><span style="color: #DD0000">"ab"&nbsp;</span><span style="color: #007700">=&gt;&nbsp;</span><span style="color: #DD0000">"01"</span><span style="color: #007700">);<br />echo&nbsp;</span><span style="color: #0000BB">translateChar</span><span style="color: #007700">(</span><span style="color: #DD0000">"baab"</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">$trans</span><span style="color: #007700">);<br /></span><span style="color: #0000BB">?&gt;</span>
 </span>
 </code></div>
     </div>
 
-    <div class="example-contents"><p>The above example will output:</p></div>
-    <div class="example-contents screen">
-<div class="cdata"><pre>
+    <div><p>The above example will output:</p></div>
+    <div>
+<div><pre>
 1001
 ba01
 </pre></div>

@@ -5,7 +5,7 @@
  
  <div class="refsect1 description">
   <p class="para rdfs-comment">
-   <span class="function"><strong>tokenize()</strong></span> splits a string (<code class="parameter">str</code>)
+   <span><strong>tokenize()</strong></span> splits a string (<code class="parameter">str</code>)
    into smaller strings (tokens), with each token being delimited by any
    character from <code class="parameter">token</code>.
    That is, if you have a string like &quot;This is an example string&quot; you
@@ -71,9 +71,9 @@
  <div class="refsect1 examples">
   <p class="para">
    <div class="example">
-    <p><strong>Example #1 <span class="function"><strong>tokenize()</strong></span> example</strong></p>
-    <div class="example-contents">
-<div class="phpcode"><code><span style="color: #000000">
+    <p><strong>Example #1 <span><strong>tokenize()</strong></span> example</strong></p>
+    <div>
+<div><code><span style="color: #000000">
 <span style="color: #0000BB">&lt;?php<br />$string&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #DD0000">"This&nbsp;is\tan&nbsp;example\nstring"</span><span style="color: #007700">;<br /></span><span style="color: #FF8000">/*&nbsp;Use&nbsp;tab&nbsp;and&nbsp;newline&nbsp;as&nbsp;tokenizing&nbsp;characters&nbsp;as&nbsp;well&nbsp;&nbsp;*/<br /></span><span style="color: #0000BB">$tok&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #0000BB">tokenize</span><span style="color: #007700">(</span><span style="color: #0000BB">$string</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">"&nbsp;\n\t"</span><span style="color: #007700">);<br /><br />while&nbsp;(</span><span style="color: #0000BB">$tok&nbsp;</span><span style="color: #007700">!==&nbsp;</span><span style="color: #0000BB">false</span><span style="color: #007700">)&nbsp;{<br />&nbsp;&nbsp;&nbsp;&nbsp;echo&nbsp;</span><span style="color: #DD0000">"Word=</span><span style="color: #0000BB">$tok</span><span style="color: #DD0000">&lt;br&nbsp;/&gt;"</span><span style="color: #007700">;<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #0000BB">$tok&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #0000BB">tokenize</span><span style="color: #007700">(</span><span style="color: #DD0000">"&nbsp;\n\t"</span><span style="color: #007700">);<br />}<br /></span><span style="color: #0000BB">?&gt;</span>
 </span>
 </code></div>
@@ -88,34 +88,34 @@
   </p>
   <p class="para">
    <div class="example">
-    <p><strong>Example #2 Old <span class="function"><strong>tokenize()</strong></span> behavior</strong></p>
-    <div class="example-contents">
-<div class="phpcode"><code><span style="color: #000000">
+    <p><strong>Example #2 Old <span><strong>tokenize()</strong></span> behavior</strong></p>
+    <div>
+<div><code><span style="color: #000000">
 <span style="color: #0000BB">&lt;?php<br />$first_token&nbsp;&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #0000BB">tokenize</span><span style="color: #007700">(</span><span style="color: #DD0000">'/something'</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">'/'</span><span style="color: #007700">);<br /></span><span style="color: #0000BB">$second_token&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #0000BB">tokenize</span><span style="color: #007700">(</span><span style="color: #DD0000">'/'</span><span style="color: #007700">);<br /></span><span style="color: #0000BB">var_dump</span><span style="color: #007700">(</span><span style="color: #0000BB">$first_token</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">$second_token</span><span style="color: #007700">);<br /></span><span style="color: #0000BB">?&gt;</span>
 </span>
 </code></div>
     </div>
 
-    <div class="example-contents"><p>The above example will output:</p></div>
-    <div class="example-contents screen">
-<div class="cdata"><pre>
+    <div><p>The above example will output:</p></div>
+    <div>
+<div><pre>
     string(0) &quot;&quot;
     string(9) &quot;something&quot;
 </pre></div>
     </div>
    </div>
    <div class="example">
-    <p><strong>Example #3 New <span class="function"><strong>tokenize()</strong></span> behavior</strong></p>
-    <div class="example-contents">
-<div class="phpcode"><code><span style="color: #000000">
+    <p><strong>Example #3 New <span><strong>tokenize()</strong></span> behavior</strong></p>
+    <div>
+<div><code><span style="color: #000000">
 <span style="color: #0000BB">&lt;?php<br />$first_token&nbsp;&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #0000BB">tokenize</span><span style="color: #007700">(</span><span style="color: #DD0000">'/something'</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">'/'</span><span style="color: #007700">);<br /></span><span style="color: #0000BB">$second_token&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #0000BB">tokenize</span><span style="color: #007700">(</span><span style="color: #DD0000">'/'</span><span style="color: #007700">);<br /></span><span style="color: #0000BB">var_dump</span><span style="color: #007700">(</span><span style="color: #0000BB">$first_token</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">$second_token</span><span style="color: #007700">);<br /></span><span style="color: #0000BB">?&gt;</span>
 </span>
 </code></div>
     </div>
 
-    <div class="example-contents"><p>The above example will output:</p></div>
-    <div class="example-contents screen">
-<div class="cdata"><pre>
+    <div><p>The above example will output:</p></div>
+    <div>
+<div><pre>
     string(9) &quot;something&quot;
     bool(false)
 </pre></div>

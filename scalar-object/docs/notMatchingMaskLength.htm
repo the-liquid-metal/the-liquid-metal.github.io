@@ -6,7 +6,7 @@
  <div class="refsect1 description">
   <p class="para rdfs-comment">
    Returns the length of the initial segment of
-   <code class="parameter">subject</code> which does <em class="emphasis">not</em>
+   <code class="parameter">subject</code> which does <em>not</em>
    contain any of the characters in <code class="parameter">mask</code>.
   </p>
   <p class="para">
@@ -61,7 +61,7 @@
       </p>
       <p class="para">
        If <code class="parameter">start</code> is given and is non-negative,
-       then <span class="function"><strong>notMatchingMaskLength()</strong></span> will begin
+       then <span><strong>notMatchingMaskLength()</strong></span> will begin
        examining <code class="parameter">subject</code> at
        the <code class="parameter">start</code>&#039;th position. For instance, in
        the string &#039;<em>abcdef</em>&#039;, the character at
@@ -71,7 +71,7 @@
       </p>
       <p class="para">
        If <code class="parameter">start</code> is given and is negative,
-       then <span class="function"><a href="function.strspn.php" class="function">strspn()</a></span> will begin
+       then <span><a href="function.strspn.php" class="function">strspn()</a></span> will begin
        examining <code class="parameter">subject</code> at
        the <code class="parameter">start</code>&#039;th position from the end
        of <code class="parameter">subject</code>.
@@ -114,7 +114,7 @@
   <h3 class="title">Return Values</h3>
   <p class="para">
    Returns the length of the initial segment of <code class="parameter">subject</code>
-   which consists entirely of characters <em class="emphasis">not</em> in <code class="parameter">mask</code>.
+   which consists entirely of characters <em>not</em> in <code class="parameter">mask</code>.
   </p>
   <blockquote><p><strong>Note</strong>: 
    <p class="para">
@@ -128,17 +128,17 @@
  
  <div class="refsect1 examples">
   <div class="example">
-   <p><strong>Example #1 <span class="function"><strong>notMatchingMaskLength()</strong></span> example</strong></p>
-   <div class="example-contents">
-<div class="phpcode"><code><span style="color: #000000">
+   <p><strong>Example #1 <span><strong>notMatchingMaskLength()</strong></span> example</strong></p>
+   <div>
+<div><code><span style="color: #000000">
 <span style="color: #0000BB">&lt;?php<br />$a&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #0000BB">notMatchingMaskLength</span><span style="color: #007700">(</span><span style="color: #DD0000">'abcd'</span><span style="color: #007700">,&nbsp;&nbsp;</span><span style="color: #DD0000">'apple'</span><span style="color: #007700">);<br /></span><span style="color: #0000BB">$b&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #0000BB">notMatchingMaskLength</span><span style="color: #007700">(</span><span style="color: #DD0000">'abcd'</span><span style="color: #007700">,&nbsp;&nbsp;</span><span style="color: #DD0000">'banana'</span><span style="color: #007700">);<br /></span><span style="color: #0000BB">$c&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #0000BB">notMatchingMaskLength</span><span style="color: #007700">(</span><span style="color: #DD0000">'hello'</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">'l'</span><span style="color: #007700">);<br /></span><span style="color: #0000BB">$d&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #0000BB">notMatchingMaskLength</span><span style="color: #007700">(</span><span style="color: #DD0000">'hello'</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">'world'</span><span style="color: #007700">);<br /></span><span style="color: #0000BB">$e&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #0000BB">notMatchingMaskLength</span><span style="color: #007700">(</span><span style="color: #DD0000">'abcdhelloabcd'</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">'abcd'</span><span style="color: #007700">,&nbsp;-</span><span style="color: #0000BB">9</span><span style="color: #007700">);<br /></span><span style="color: #0000BB">$f&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #0000BB">notMatchingMaskLength</span><span style="color: #007700">(</span><span style="color: #DD0000">'abcdhelloabcd'</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">'abcd'</span><span style="color: #007700">,&nbsp;-</span><span style="color: #0000BB">9</span><span style="color: #007700">,&nbsp;-</span><span style="color: #0000BB">5</span><span style="color: #007700">);<br /><br /></span><span style="color: #0000BB">var_dump</span><span style="color: #007700">(</span><span style="color: #0000BB">$a</span><span style="color: #007700">);<br /></span><span style="color: #0000BB">var_dump</span><span style="color: #007700">(</span><span style="color: #0000BB">$b</span><span style="color: #007700">);<br /></span><span style="color: #0000BB">var_dump</span><span style="color: #007700">(</span><span style="color: #0000BB">$c</span><span style="color: #007700">);<br /></span><span style="color: #0000BB">var_dump</span><span style="color: #007700">(</span><span style="color: #0000BB">$d</span><span style="color: #007700">);<br /></span><span style="color: #0000BB">var_dump</span><span style="color: #007700">(</span><span style="color: #0000BB">$e</span><span style="color: #007700">);<br /></span><span style="color: #0000BB">var_dump</span><span style="color: #007700">(</span><span style="color: #0000BB">$f</span><span style="color: #007700">);<br /></span><span style="color: #0000BB">?&gt;</span>
 </span>
 </code></div>
    </div>
 
-   <div class="example-contents"><p>The above example will output:</p></div>
-   <div class="example-contents screen">
-<div class="cdata"><pre>
+   <div><p>The above example will output:</p></div>
+   <div>
+<div><pre>
 int(0)
 int(0)
 int(2)

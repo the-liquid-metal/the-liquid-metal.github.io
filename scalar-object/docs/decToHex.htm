@@ -12,7 +12,7 @@
    <strong><code>PHP_INT_MAX</code></strong><em> * 2 + 1</em> (or
    <em>-1</em>): on 32-bit platforms, this will be
    <em>4294967295</em> in decimal, which results in
-   <span class="function"><strong>decToHex()</strong></span> returning <em>ffffffff</em>.
+   <span><strong>decToHex()</strong></span> returning <em>ffffffff</em>.
   </p>
  </div>
 
@@ -32,7 +32,7 @@
       </p>
       <p class="para">
        As PHP&#039;s <span class="type"><a href="language.types.integer.php" class="type integer">integer</a></span> type is signed, but
-       <span class="function"><strong>decToHex()</strong></span> deals with unsigned integers, negative
+       <span><strong>decToHex()</strong></span> deals with unsigned integers, negative
        integers will be treated as though they were unsigned.
       </p>
      </dd>
@@ -53,17 +53,17 @@
  <div class="refsect1 examples">
   <p class="para">
    <div class="example">
-    <p><strong>Example #1 <span class="function"><strong>decToHex()</strong></span> example</strong></p>
-    <div class="example-contents">
-<div class="phpcode"><code><span style="color: #000000">
+    <p><strong>Example #1 <span><strong>decToHex()</strong></span> example</strong></p>
+    <div>
+<div><code><span style="color: #000000">
 <span style="color: #0000BB">&lt;?php<br /></span><span style="color: #007700">echo&nbsp;</span><span style="color: #0000BB">decToHex</span><span style="color: #007700">(</span><span style="color: #0000BB">10</span><span style="color: #007700">)&nbsp;.&nbsp;</span><span style="color: #DD0000">"\n"</span><span style="color: #007700">;<br />echo&nbsp;</span><span style="color: #0000BB">decToHex</span><span style="color: #007700">(</span><span style="color: #0000BB">47</span><span style="color: #007700">);<br /></span><span style="color: #0000BB">?&gt;</span>
 </span>
 </code></div>
     </div>
 
-    <div class="example-contents"><p>The above example will output:</p></div>
-    <div class="example-contents screen">
-<div class="cdata"><pre>
+    <div><p>The above example will output:</p></div>
+    <div>
+<div><pre>
 a
 2f
 </pre></div>
@@ -72,17 +72,17 @@ a
   </p>
   <p class="para">
    <div class="example">
-    <p><strong>Example #2 <span class="function"><strong>decToHex()</strong></span> example with large integers</strong></p>
-    <div class="example-contents">
-<div class="phpcode"><code><span style="color: #000000">
+    <p><strong>Example #2 <span><strong>decToHex()</strong></span> example with large integers</strong></p>
+    <div>
+<div><code><span style="color: #000000">
 <span style="color: #0000BB">&lt;?php<br /></span><span style="color: #FF8000">//&nbsp;The&nbsp;output&nbsp;below&nbsp;assumes&nbsp;a&nbsp;32-bit&nbsp;platform.<br />//&nbsp;Note&nbsp;that&nbsp;the&nbsp;output&nbsp;is&nbsp;the&nbsp;same&nbsp;for&nbsp;all&nbsp;values.<br /></span><span style="color: #007700">echo&nbsp;</span><span style="color: #0000BB">decToHex</span><span style="color: #007700">(-</span><span style="color: #0000BB">1</span><span style="color: #007700">).</span><span style="color: #DD0000">"\n"</span><span style="color: #007700">;<br />echo&nbsp;</span><span style="color: #0000BB">decToHex</span><span style="color: #007700">(</span><span style="color: #0000BB">PHP_INT_MAX&nbsp;</span><span style="color: #007700">*&nbsp;</span><span style="color: #0000BB">2&nbsp;</span><span style="color: #007700">+&nbsp;</span><span style="color: #0000BB">1</span><span style="color: #007700">).</span><span style="color: #DD0000">"\n"</span><span style="color: #007700">;<br />echo&nbsp;</span><span style="color: #0000BB">decToHex</span><span style="color: #007700">(</span><span style="color: #0000BB">pow</span><span style="color: #007700">(</span><span style="color: #0000BB">2</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">32</span><span style="color: #007700">)&nbsp;-&nbsp;</span><span style="color: #0000BB">1</span><span style="color: #007700">).</span><span style="color: #DD0000">"\n"</span><span style="color: #007700">;<br /></span><span style="color: #0000BB">?&gt;</span>
 </span>
 </code></div>
     </div>
 
-    <div class="example-contents"><p>The above example will output:</p></div>
-    <div class="example-contents screen">
-<div class="cdata"><pre>
+    <div><p>The above example will output:</p></div>
+    <div>
+<div><pre>
 ffffffff
 ffffffff
 ffffffff

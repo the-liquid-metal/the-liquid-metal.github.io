@@ -9,9 +9,9 @@
   </p>
   <blockquote><p><strong>Note</strong>: 
    <p class="para">
-    <span class="function"><strong>implode()</strong></span> can, for historical reasons, accept
+    <span><strong>implode()</strong></span> can, for historical reasons, accept
     its parameters in either order. For consistency with
-    <span class="function"><a href="function.explode.php" class="function">explode()</a></span>, however, it may be less confusing
+    <span><a href="function.explode.php" class="function">explode()</a></span>, however, it may be less confusing
     to use the documented order of arguments.
    </p>
   </p></blockquote>
@@ -65,9 +65,9 @@
  <div class="refsect1 examples">
   <p class="para">
    <div class="example">
-    <p><strong>Example #1 <span class="function"><strong>implode()</strong></span> example</strong></p>
-    <div class="example-contents">
-<div class="phpcode"><code><span style="color: #000000">
+    <p><strong>Example #1 <span><strong>implode()</strong></span> example</strong></p>
+    <div>
+<div><code><span style="color: #000000">
 <span style="color: #0000BB">&lt;?php<br /><br />$array&nbsp;</span><span style="color: #007700">=&nbsp;array(</span><span style="color: #DD0000">'lastname'</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">'email'</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">'phone'</span><span style="color: #007700">);<br /></span><span style="color: #0000BB">$comma_separated&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #0000BB">implode</span><span style="color: #007700">(</span><span style="color: #DD0000">","</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">$array</span><span style="color: #007700">);<br /><br />echo&nbsp;</span><span style="color: #0000BB">$comma_separated</span><span style="color: #007700">;&nbsp;</span><span style="color: #FF8000">//&nbsp;lastname,email,phone<br /><br />//&nbsp;Empty&nbsp;string&nbsp;when&nbsp;using&nbsp;an&nbsp;empty&nbsp;array:<br /></span><span style="color: #0000BB">var_dump</span><span style="color: #007700">(</span><span style="color: #0000BB">implode</span><span style="color: #007700">(</span><span style="color: #DD0000">'hello'</span><span style="color: #007700">,&nbsp;array()));&nbsp;</span><span style="color: #FF8000">//&nbsp;string(0)&nbsp;""<br /><br /></span><span style="color: #0000BB">?&gt;</span>
 </span>
 </code></div>

@@ -6,7 +6,7 @@
  <div class="refsect1 description">
   <p class="para rdfs-comment">
    Compares <code class="parameter">array1</code> against <code class="parameter">array2</code> and
-   returns the difference. Unlike <span class="function"><a href="function.array-diff.php" class="function">array_diff()</a></span> the array
+   returns the difference. Unlike <span><a href="function.array-diff.php" class="function">array_diff()</a></span> the array
    keys are also used in the comparison.
   </p>
  </div>
@@ -77,24 +77,24 @@
  <div class="refsect1 examples">
   <p class="para">
    <div class="example">
-    <p><strong>Example #1 <span class="function"><strong>assocDiff()</strong></span> example</strong></p>
-    <div class="example-contents"><p>
+    <p><strong>Example #1 <span><strong>assocDiff()</strong></span> example</strong></p>
+    <div><p>
      In this example you see the <em>&quot;a&quot; =&gt; &quot;green&quot;</em>
      pair is present in both arrays and thus it is not in the output from the
      function. Unlike this, the pair <em>0 =&gt; &quot;red&quot;</em>
      is in the output because in the second argument <em>&quot;red&quot;</em>
      has key which is <em>1</em>.
     </p></div>
-    <div class="example-contents">
-<div class="phpcode"><code><span style="color: #000000">
+    <div>
+<div><code><span style="color: #000000">
 <span style="color: #0000BB">&lt;?php<br />$array1&nbsp;</span><span style="color: #007700">=&nbsp;array(</span><span style="color: #DD0000">"a"&nbsp;</span><span style="color: #007700">=&gt;&nbsp;</span><span style="color: #DD0000">"green"</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">"b"&nbsp;</span><span style="color: #007700">=&gt;&nbsp;</span><span style="color: #DD0000">"brown"</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">"c"&nbsp;</span><span style="color: #007700">=&gt;&nbsp;</span><span style="color: #DD0000">"blue"</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">"red"</span><span style="color: #007700">);<br /></span><span style="color: #0000BB">$array2&nbsp;</span><span style="color: #007700">=&nbsp;array(</span><span style="color: #DD0000">"a"&nbsp;</span><span style="color: #007700">=&gt;&nbsp;</span><span style="color: #DD0000">"green"</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">"yellow"</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">"red"</span><span style="color: #007700">);<br /></span><span style="color: #0000BB">$result&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #0000BB">assocDiff</span><span style="color: #007700">(</span><span style="color: #0000BB">$array1</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">$array2</span><span style="color: #007700">);<br /></span><span style="color: #0000BB">print_r</span><span style="color: #007700">(</span><span style="color: #0000BB">$result</span><span style="color: #007700">);<br /></span><span style="color: #0000BB">?&gt;</span>
 </span>
 </code></div>
     </div>
 
-    <div class="example-contents"><p>The above example will output:</p></div>
-    <div class="example-contents screen">
-<div class="cdata"><pre>
+    <div><p>The above example will output:</p></div>
+    <div>
+<div><pre>
 Array
 (
     [b] =&gt; brown
@@ -107,23 +107,23 @@ Array
   </p>
   <p class="para">
    <div class="example">
-    <p><strong>Example #2 <span class="function"><strong>assocDiff()</strong></span> example</strong></p>
-    <div class="example-contents"><p>
-     Two values from <em class="emphasis">key =&gt; value</em> pairs are
+    <p><strong>Example #2 <span><strong>assocDiff()</strong></span> example</strong></p>
+    <div><p>
+     Two values from <em>key =&gt; value</em> pairs are
      considered equal only if <em>(string) $elem1 === (string)
      $elem2 </em>. In other words a strict check takes place so
      the string representations must be the same.
     </p></div>
-    <div class="example-contents">
-<div class="phpcode"><code><span style="color: #000000">
+    <div>
+<div><code><span style="color: #000000">
 <span style="color: #0000BB">&lt;?php<br />$array1&nbsp;</span><span style="color: #007700">=&nbsp;array(</span><span style="color: #0000BB">0</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">1</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">2</span><span style="color: #007700">);<br /></span><span style="color: #0000BB">$array2&nbsp;</span><span style="color: #007700">=&nbsp;array(</span><span style="color: #DD0000">"00"</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">"01"</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">"2"</span><span style="color: #007700">);<br /></span><span style="color: #0000BB">$result&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #0000BB">assocDiff</span><span style="color: #007700">(</span><span style="color: #0000BB">$array1</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">$array2</span><span style="color: #007700">);<br /></span><span style="color: #0000BB">print_r</span><span style="color: #007700">(</span><span style="color: #0000BB">$result</span><span style="color: #007700">);<br /></span><span style="color: #0000BB">?&gt;</span>
 </span>
 </code></div>
     </div>
 
-    <div class="example-contents"><p>The above example will output:</p></div>
-    <div class="example-contents screen">
-<div class="cdata"><pre>
+    <div><p>The above example will output:</p></div>
+    <div>
+<div><pre>
 Array
 (
     [0] =&gt; 0

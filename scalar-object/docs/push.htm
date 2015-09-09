@@ -4,12 +4,12 @@
  </div>
  <div class="refsect1 description">
   <p class="para rdfs-comment">
-   <span class="function"><strong>push()</strong></span> treats <code class="parameter">array</code> as a
+   <span><strong>push()</strong></span> treats <code class="parameter">array</code> as a
    stack, and pushes the passed variables onto the end of
    <code class="parameter">array</code>. The length of <code class="parameter">array</code>
    increases by the number of variables pushed. Has the same effect as:
-   <div class="example-contents">
-<div class="phpcode"><code><span style="color: #000000">
+   <div>
+<div><code><span style="color: #000000">
 <span style="color: #0000BB">&lt;?php<br />$array</span><span style="color: #007700">[]&nbsp;=&nbsp;</span><span style="color: #0000BB">$var</span><span style="color: #007700">;<br /></span><span style="color: #0000BB">?&gt;</span>
 </span>
 </code></div>
@@ -19,14 +19,14 @@
   </p>
   <blockquote><p><strong>Note</strong>: 
    <span>
-    If you use <span class="function"><strong>push()</strong></span> to add one element to the
+    If you use <span><strong>push()</strong></span> to add one element to the
     array it&#039;s better to use <em>$array[] = </em> because in that
     way there is no overhead of calling a function.
    </span>
   </p></blockquote>
   <blockquote><p><strong>Note</strong>: 
    <span>
-    <span class="function"><strong>push()</strong></span> will raise a warning if the first
+    <span><strong>push()</strong></span> will raise a warning if the first
     argument is not an array. This differs from the
     <em>$var[]</em> behaviour where a new array is created.
    </span>
@@ -77,17 +77,17 @@
  <div class="refsect1 examples">
   <p class="para">
    <div class="example">
-    <p><strong>Example #1 <span class="function"><strong>push()</strong></span> example</strong></p>
-    <div class="example-contents">
-<div class="phpcode"><code><span style="color: #000000">
+    <p><strong>Example #1 <span><strong>push()</strong></span> example</strong></p>
+    <div>
+<div><code><span style="color: #000000">
 <span style="color: #0000BB">&lt;?php<br />$stack&nbsp;</span><span style="color: #007700">=&nbsp;array(</span><span style="color: #DD0000">"orange"</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">"banana"</span><span style="color: #007700">);<br /></span><span style="color: #0000BB">push</span><span style="color: #007700">(</span><span style="color: #0000BB">$stack</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">"apple"</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">"raspberry"</span><span style="color: #007700">);<br /></span><span style="color: #0000BB">print_r</span><span style="color: #007700">(</span><span style="color: #0000BB">$stack</span><span style="color: #007700">);<br /></span><span style="color: #0000BB">?&gt;</span>
 </span>
 </code></div>
     </div>
 
-    <div class="example-contents"><p>The above example will output:</p></div>
-    <div class="example-contents screen">
-<div class="cdata"><pre>
+    <div><p>The above example will output:</p></div>
+    <div>
+<div><pre>
 Array
 (
     [0] =&gt; orange

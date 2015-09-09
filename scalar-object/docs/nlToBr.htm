@@ -58,17 +58,17 @@
  <div class="refsect1 examples">
   <p class="para">
    <div class="example">
-    <p><strong>Example #1 Using <span class="function"><strong>nlToBr()</strong></span></strong></p>
-    <div class="example-contents">
-<div class="phpcode"><code><span style="color: #000000">
+    <p><strong>Example #1 Using <span><strong>nlToBr()</strong></span></strong></p>
+    <div>
+<div><code><span style="color: #000000">
 <span style="color: #0000BB">&lt;?php<br /></span><span style="color: #007700">echo&nbsp;</span><span style="color: #0000BB">nlToBr</span><span style="color: #007700">(</span><span style="color: #DD0000">"foo&nbsp;isn't\n&nbsp;bar"</span><span style="color: #007700">);<br /></span><span style="color: #0000BB">?&gt;</span>
 </span>
 </code></div>
     </div>
 
-    <div class="example-contents"><p>The above example will output:</p></div>
-    <div class="example-contents screen">
-<div class="cdata"><pre>
+    <div><p>The above example will output:</p></div>
+    <div>
+<div><pre>
 foo isn&#039;t&lt;br /&gt;
  bar
 </pre></div>
@@ -76,16 +76,16 @@ foo isn&#039;t&lt;br /&gt;
    </div>
    <div class="example">
     <p><strong>Example #2 Generating valid HTML markup using the <code class="parameter">is_xhtml</code> parameter</strong></p>
-    <div class="example-contents">
-<div class="phpcode"><code><span style="color: #000000">
+    <div>
+<div><code><span style="color: #000000">
 <span style="color: #0000BB">&lt;?php<br /></span><span style="color: #007700">echo&nbsp;</span><span style="color: #0000BB">nlToBr</span><span style="color: #007700">(</span><span style="color: #DD0000">"Welcome\r\nThis&nbsp;is&nbsp;my&nbsp;HTML&nbsp;document"</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">false</span><span style="color: #007700">);<br /></span><span style="color: #0000BB">?&gt;</span>
 </span>
 </code></div>
     </div>
 
-    <div class="example-contents"><p>The above example will output:</p></div>
-    <div class="example-contents screen">
-<div class="cdata"><pre>
+    <div><p>The above example will output:</p></div>
+    <div>
+<div><pre>
 Welcome&lt;br&gt;
 This is my HTML document
 </pre></div>
@@ -93,16 +93,16 @@ This is my HTML document
    </div>
    <div class="example">
     <p><strong>Example #3 Various newline separators</strong></p>
-    <div class="example-contents">
-<div class="phpcode"><code><span style="color: #000000">
+    <div>
+<div><code><span style="color: #000000">
 <span style="color: #0000BB">&lt;?php<br />$string&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #DD0000">"This\r\nis\n\ra\nstring\r"</span><span style="color: #007700">;<br />echo&nbsp;</span><span style="color: #0000BB">nlToBr</span><span style="color: #007700">(</span><span style="color: #0000BB">$string</span><span style="color: #007700">);<br /></span><span style="color: #0000BB">?&gt;</span>
 </span>
 </code></div>
     </div>
 
-    <div class="example-contents"><p>The above example will output:</p></div>
-    <div class="example-contents screen">
-<div class="cdata"><pre>
+    <div><p>The above example will output:</p></div>
+    <div>
+<div><pre>
 This&lt;br /&gt;
 is&lt;br /&gt;
 a&lt;br /&gt;

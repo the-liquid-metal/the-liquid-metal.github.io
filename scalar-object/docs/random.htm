@@ -46,7 +46,7 @@
  <div class="refsect1 returnvalues">
   <h3 class="title">Return Values</h3>
   <p class="para">
-   When picking only one entry, <span class="function"><strong>random()</strong></span> returns
+   When picking only one entry, <span><strong>random()</strong></span> returns
    the key for a random entry. Otherwise, an array of keys for the random
    entries is returned. This is done so that random keys can be picked
    from the array as well as random values. Trying to pick more elements
@@ -60,9 +60,9 @@
  <div class="refsect1 examples">
   <p class="para">
    <div class="example">
-    <p><strong>Example #1 <span class="function"><strong>random()</strong></span> example</strong></p>
-    <div class="example-contents">
-<div class="phpcode"><code><span style="color: #000000">
+    <p><strong>Example #1 <span><strong>random()</strong></span> example</strong></p>
+    <div>
+<div><code><span style="color: #000000">
 <span style="color: #0000BB">&lt;?php<br />$input&nbsp;</span><span style="color: #007700">=&nbsp;array(</span><span style="color: #DD0000">"Neo"</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">"Morpheus"</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">"Trinity"</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">"Cypher"</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">"Tank"</span><span style="color: #007700">);<br /></span><span style="color: #0000BB">$rand_keys&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #0000BB">random</span><span style="color: #007700">(</span><span style="color: #0000BB">$input</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">2</span><span style="color: #007700">);<br />echo&nbsp;</span><span style="color: #0000BB">$input</span><span style="color: #007700">[</span><span style="color: #0000BB">$rand_keys</span><span style="color: #007700">[</span><span style="color: #0000BB">0</span><span style="color: #007700">]]&nbsp;.&nbsp;</span><span style="color: #DD0000">"\n"</span><span style="color: #007700">;<br />echo&nbsp;</span><span style="color: #0000BB">$input</span><span style="color: #007700">[</span><span style="color: #0000BB">$rand_keys</span><span style="color: #007700">[</span><span style="color: #0000BB">1</span><span style="color: #007700">]]&nbsp;.&nbsp;</span><span style="color: #DD0000">"\n"</span><span style="color: #007700">;<br /></span><span style="color: #0000BB">?&gt;</span>
 </span>
 </code></div>

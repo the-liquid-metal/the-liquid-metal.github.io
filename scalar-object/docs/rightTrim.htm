@@ -9,7 +9,7 @@
   </p>
   <p class="para">
    Without the second parameter,
-   <span class="function"><strong>rightTrim()</strong></span> will strip these characters:
+   <span><strong>rightTrim()</strong></span> will strip these characters:
    
    <ul class="itemizedlist">
     <li class="listitem">
@@ -102,17 +102,17 @@
  <div class="refsect1 examples">
   <p class="para">
    <div class="example">
-    <p><strong>Example #1 Usage example of <span class="function"><strong>rightTrim()</strong></span></strong></p>
-    <div class="example-contents">
-<div class="phpcode"><code><span style="color: #000000">
+    <p><strong>Example #1 Usage example of <span><strong>rightTrim()</strong></span></strong></p>
+    <div>
+<div><code><span style="color: #000000">
 <span style="color: #0000BB">&lt;?php<br /><br />$text&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #DD0000">"\t\tThese&nbsp;are&nbsp;a&nbsp;few&nbsp;words&nbsp;:)&nbsp;...&nbsp;&nbsp;"</span><span style="color: #007700">;<br /></span><span style="color: #0000BB">$binary&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #DD0000">"\x09Example&nbsp;string\x0A"</span><span style="color: #007700">;<br /></span><span style="color: #0000BB">$hello&nbsp;&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #DD0000">"Hello&nbsp;World"</span><span style="color: #007700">;<br /></span><span style="color: #0000BB">var_dump</span><span style="color: #007700">(</span><span style="color: #0000BB">$text</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">$binary</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">$hello</span><span style="color: #007700">);<br /><br />print&nbsp;</span><span style="color: #DD0000">"\n"</span><span style="color: #007700">;<br /><br /></span><span style="color: #0000BB">$trimmed&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #0000BB">rightTrim</span><span style="color: #007700">(</span><span style="color: #0000BB">$text</span><span style="color: #007700">);<br /></span><span style="color: #0000BB">var_dump</span><span style="color: #007700">(</span><span style="color: #0000BB">$trimmed</span><span style="color: #007700">);<br /><br /></span><span style="color: #0000BB">$trimmed&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #0000BB">rightTrim</span><span style="color: #007700">(</span><span style="color: #0000BB">$text</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">"&nbsp;\t."</span><span style="color: #007700">);<br /></span><span style="color: #0000BB">var_dump</span><span style="color: #007700">(</span><span style="color: #0000BB">$trimmed</span><span style="color: #007700">);<br /><br /></span><span style="color: #0000BB">$trimmed&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #0000BB">rightTrim</span><span style="color: #007700">(</span><span style="color: #0000BB">$hello</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">"Hdle"</span><span style="color: #007700">);<br /></span><span style="color: #0000BB">var_dump</span><span style="color: #007700">(</span><span style="color: #0000BB">$trimmed</span><span style="color: #007700">);<br /><br /></span><span style="color: #FF8000">//&nbsp;trim&nbsp;the&nbsp;ASCII&nbsp;control&nbsp;characters&nbsp;at&nbsp;the&nbsp;end&nbsp;of&nbsp;$binary<br />//&nbsp;(from&nbsp;0&nbsp;to&nbsp;31&nbsp;inclusive)<br /></span><span style="color: #0000BB">$clean&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #0000BB">rightTrim</span><span style="color: #007700">(</span><span style="color: #0000BB">$binary</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">"\x00..\x1F"</span><span style="color: #007700">);<br /></span><span style="color: #0000BB">var_dump</span><span style="color: #007700">(</span><span style="color: #0000BB">$clean</span><span style="color: #007700">);<br /><br /></span><span style="color: #0000BB">?&gt;</span>
 </span>
 </code></div>
     </div>
 
-    <div class="example-contents"><p>The above example will output:</p></div>
-    <div class="example-contents screen">
-<div class="cdata"><pre>
+    <div><p>The above example will output:</p></div>
+    <div>
+<div><pre>
 string(32) &quot;        These are a few words :) ...  &quot;
 string(16) &quot;    Example string
 &quot;

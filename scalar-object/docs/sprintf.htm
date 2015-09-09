@@ -25,10 +25,10 @@
       <p class="para">
        The format string is composed of zero or more directives:
        ordinary characters (excluding <em>%</em>) that are
-       copied directly to the result, and <em class="emphasis">conversion
+       copied directly to the result, and <em>conversion
        specifications</em>, each of which results in fetching its
-       own parameter.  This applies to both <span class="function"><strong>sprintf()</strong></span>
-       and <span class="function"><a href="function.printf.php" class="function">printf()</a></span>.
+       own parameter.  This applies to both <span><strong>sprintf()</strong></span>
+       and <span><a href="function.printf.php" class="function">printf()</a></span>.
       </p>
       <p class="para">
        Each conversion specification consists of a percent sign
@@ -37,7 +37,7 @@
        <ol type="1">
         <li class="listitem">
          <span>
-          An optional <em class="emphasis">sign specifier</em> that forces a sign
+          An optional <em>sign specifier</em> that forces a sign
           (- or +) to be used on a number. By default, only the - sign is used
           on a number if it&#039;s negative. This specifier forces positive numbers
           to have the + sign attached as well, and was added in PHP 4.3.0.
@@ -45,7 +45,7 @@
         </li>
         <li class="listitem">
          <span>
-          An optional <em class="emphasis">padding specifier</em> that says
+          An optional <em>padding specifier</em> that says
           what character will be used for padding the results to the
           right string size.  This may be a space character or a
           <em>0</em> (zero character).  The default is to pad
@@ -56,7 +56,7 @@
         </li>
         <li class="listitem">
          <span>
-          An optional <em class="emphasis">alignment specifier</em> that says
+          An optional <em>alignment specifier</em> that says
           if the result should be left-justified or right-justified.
           The default is right-justified; a <em>-</em>
           character here will make it left-justified.
@@ -64,14 +64,14 @@
         </li>
         <li class="listitem">
          <span>
-          An optional number, a <em class="emphasis">width specifier</em>
+          An optional number, a <em>width specifier</em>
           that says how many characters (minimum) this conversion should
           result in.
          </span>
         </li>
         <li class="listitem">
          <span>
-          An optional <em class="emphasis">precision specifier</em> in the form
+          An optional <em>precision specifier</em> in the form
           of a period (<em>.</em>) followed by an optional decimal digit string
           that says how many decimal digits should be displayed for
           floating-point numbers. When using this specifier on a string,
@@ -83,7 +83,7 @@
         </li>
         <li class="listitem">
          <p class="para">
-          A <em class="emphasis">type specifier</em> that says what type the
+          A <em>type specifier</em> that says what type the
           argument data should be treated as.  Possible types:
           <ul class="simplelist">
            <li class="member">
@@ -217,8 +217,8 @@
        example:
        <div class="example">
         <p><strong>Example #1 Argument swapping</strong></p>
-        <div class="example-contents">
-<div class="phpcode"><code><span style="color: #000000">
+        <div>
+<div><code><span style="color: #000000">
 <span style="color: #0000BB">&lt;?php<br />$num&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #0000BB">5</span><span style="color: #007700">;<br /></span><span style="color: #0000BB">$location&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #DD0000">'tree'</span><span style="color: #007700">;<br /><br /></span><span style="color: #0000BB">$format&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #DD0000">'There&nbsp;are&nbsp;%d&nbsp;monkeys&nbsp;in&nbsp;the&nbsp;%s'</span><span style="color: #007700">;<br />echo&nbsp;</span><span style="color: #0000BB">sprintf</span><span style="color: #007700">(</span><span style="color: #0000BB">$format</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">$num</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">$location</span><span style="color: #007700">);<br /></span><span style="color: #0000BB">?&gt;</span>
 </span>
 </code></div>
@@ -231,8 +231,8 @@
        rewrite it as:
        <div class="example">
         <p><strong>Example #2 Argument swapping</strong></p>
-        <div class="example-contents">
-<div class="phpcode"><code><span style="color: #000000">
+        <div>
+<div><code><span style="color: #000000">
 <span style="color: #0000BB">&lt;?php<br />$format&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #DD0000">'The&nbsp;%s&nbsp;contains&nbsp;%d&nbsp;monkeys'</span><span style="color: #007700">;<br />echo&nbsp;</span><span style="color: #0000BB">sprintf</span><span style="color: #007700">(</span><span style="color: #0000BB">$format</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">$num</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">$location</span><span style="color: #007700">);<br /></span><span style="color: #0000BB">?&gt;</span>
 </span>
 </code></div>
@@ -246,8 +246,8 @@
        We would write the format string like this instead:
        <div class="example">
         <p><strong>Example #3 Argument swapping</strong></p>
-        <div class="example-contents">
-<div class="phpcode"><code><span style="color: #000000">
+        <div>
+<div><code><span style="color: #000000">
 <span style="color: #0000BB">&lt;?php<br />$format&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #DD0000">'The&nbsp;%2$s&nbsp;contains&nbsp;%1$d&nbsp;monkeys'</span><span style="color: #007700">;<br />echo&nbsp;</span><span style="color: #0000BB">sprintf</span><span style="color: #007700">(</span><span style="color: #0000BB">$format</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">$num</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">$location</span><span style="color: #007700">);<br /></span><span style="color: #0000BB">?&gt;</span>
 </span>
 </code></div>
@@ -258,8 +258,8 @@
        adding more arguments in the code.  For example:
        <div class="example">
         <p><strong>Example #4 Argument swapping</strong></p>
-        <div class="example-contents">
-<div class="phpcode"><code><span style="color: #000000">
+        <div>
+<div><code><span style="color: #000000">
 <span style="color: #0000BB">&lt;?php<br />$format&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #DD0000">'The&nbsp;%2$s&nbsp;contains&nbsp;%1$d&nbsp;monkeys.<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;That\'s&nbsp;a&nbsp;nice&nbsp;%2$s&nbsp;full&nbsp;of&nbsp;%1$d&nbsp;monkeys.'</span><span style="color: #007700">;<br />echo&nbsp;</span><span style="color: #0000BB">sprintf</span><span style="color: #007700">(</span><span style="color: #0000BB">$format</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">$num</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">$location</span><span style="color: #007700">);<br /></span><span style="color: #0000BB">?&gt;</span>
 </span>
 </code></div>
@@ -267,21 +267,21 @@
 
        </div>
        When using argument swapping, the <em>n$</em>
-       <em class="emphasis">position specifier</em> must come immediately
+       <em>position specifier</em> must come immediately
        after the percent sign (<em>%</em>), before any other
        specifiers, as shown in the example below.
        <div class="example">
         <p><strong>Example #5 Specifying padding character</strong></p>
-        <div class="example-contents">
-         <div class="phpcode"><code><span style="color: #000000">
+        <div>
+         <div><code><span style="color: #000000">
 <span style="color: #0000BB">&lt;?php<br /></span><span style="color: #007700">echo&nbsp;</span><span style="color: #0000BB">sprintf</span><span style="color: #007700">(</span><span style="color: #DD0000">"%'.9d\n"</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">123</span><span style="color: #007700">);<br />echo&nbsp;</span><span style="color: #0000BB">sprintf</span><span style="color: #007700">(</span><span style="color: #DD0000">"%'.09d\n"</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">123</span><span style="color: #007700">);<br /></span><span style="color: #0000BB">?&gt;</span>
 </span>
 </code></div>
         </div>
 
-        <div class="example-contents"><p>The above example will output:</p></div>
-        <div class="example-contents screen">
-         <div class="cdata"><pre>
+        <div><p>The above example will output:</p></div>
+        <div>
+         <div><pre>
 ......123
 000000123
 </pre></div>
@@ -289,16 +289,16 @@
        </div>
        <div class="example">
         <p><strong>Example #6 Position specifier with other specifiers</strong></p>
-        <div class="example-contents">
-<div class="phpcode"><code><span style="color: #000000">
+        <div>
+<div><code><span style="color: #000000">
 <span style="color: #0000BB">&lt;?php<br />$format&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #DD0000">'The&nbsp;%2$s&nbsp;contains&nbsp;%1$04d&nbsp;monkeys'</span><span style="color: #007700">;<br />echo&nbsp;</span><span style="color: #0000BB">sprintf</span><span style="color: #007700">(</span><span style="color: #0000BB">$format</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">$num</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">$location</span><span style="color: #007700">);<br /></span><span style="color: #0000BB">?&gt;</span>
 </span>
 </code></div>
         </div>
 
-        <div class="example-contents"><p>The above example will output:</p></div>
-        <div class="example-contents screen">
-<div class="cdata"><pre>
+        <div><p>The above example will output:</p></div>
+        <div>
+<div><pre>
 The tree contains 0005 monkeys
 </pre></div>
         </div>
@@ -308,7 +308,7 @@ The tree contains 0005 monkeys
        <p class="para">
         Attempting to use a position specifier greater than
         <strong><code>PHP_INT_MAX</code></strong> will result in
-        <span class="function"><strong>sprintf()</strong></span> generating warnings.
+        <span><strong>sprintf()</strong></span> generating warnings.
        </p>
       </p></blockquote>
       <div class="warning"><strong class="warning">Warning</strong>
@@ -358,17 +358,17 @@ The tree contains 0005 monkeys
 
  <div class="refsect1 examples">
   <div class="example">
-   <p><strong>Example #7 <span class="function"><a href="function.printf.php" class="function">printf()</a></span>: various examples</strong></p>
-   <div class="example-contents">
-<div class="phpcode"><code><span style="color: #000000">
+   <p><strong>Example #7 <span><a href="function.printf.php" class="function">printf()</a></span>: various examples</strong></p>
+   <div>
+<div><code><span style="color: #000000">
 <span style="color: #0000BB">&lt;?php<br />$n&nbsp;</span><span style="color: #007700">=&nbsp;&nbsp;</span><span style="color: #0000BB">43951789</span><span style="color: #007700">;<br /></span><span style="color: #0000BB">$u&nbsp;</span><span style="color: #007700">=&nbsp;-</span><span style="color: #0000BB">43951789</span><span style="color: #007700">;<br /></span><span style="color: #0000BB">$c&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #0000BB">65</span><span style="color: #007700">;&nbsp;</span><span style="color: #FF8000">//&nbsp;ASCII&nbsp;65&nbsp;is&nbsp;'A'<br /><br />//&nbsp;notice&nbsp;the&nbsp;double&nbsp;%%,&nbsp;this&nbsp;prints&nbsp;a&nbsp;literal&nbsp;'%'&nbsp;character<br /></span><span style="color: #0000BB">printf</span><span style="color: #007700">(</span><span style="color: #DD0000">"%%b&nbsp;=&nbsp;'%b'\n"</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">$n</span><span style="color: #007700">);&nbsp;</span><span style="color: #FF8000">//&nbsp;binary&nbsp;representation<br /></span><span style="color: #0000BB">printf</span><span style="color: #007700">(</span><span style="color: #DD0000">"%%c&nbsp;=&nbsp;'%c'\n"</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">$c</span><span style="color: #007700">);&nbsp;</span><span style="color: #FF8000">//&nbsp;print&nbsp;the&nbsp;ascii&nbsp;character,&nbsp;same&nbsp;as&nbsp;chr()&nbsp;function<br /></span><span style="color: #0000BB">printf</span><span style="color: #007700">(</span><span style="color: #DD0000">"%%d&nbsp;=&nbsp;'%d'\n"</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">$n</span><span style="color: #007700">);&nbsp;</span><span style="color: #FF8000">//&nbsp;standard&nbsp;integer&nbsp;representation<br /></span><span style="color: #0000BB">printf</span><span style="color: #007700">(</span><span style="color: #DD0000">"%%e&nbsp;=&nbsp;'%e'\n"</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">$n</span><span style="color: #007700">);&nbsp;</span><span style="color: #FF8000">//&nbsp;scientific&nbsp;notation<br /></span><span style="color: #0000BB">printf</span><span style="color: #007700">(</span><span style="color: #DD0000">"%%u&nbsp;=&nbsp;'%u'\n"</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">$n</span><span style="color: #007700">);&nbsp;</span><span style="color: #FF8000">//&nbsp;unsigned&nbsp;integer&nbsp;representation&nbsp;of&nbsp;a&nbsp;positive&nbsp;integer<br /></span><span style="color: #0000BB">printf</span><span style="color: #007700">(</span><span style="color: #DD0000">"%%u&nbsp;=&nbsp;'%u'\n"</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">$u</span><span style="color: #007700">);&nbsp;</span><span style="color: #FF8000">//&nbsp;unsigned&nbsp;integer&nbsp;representation&nbsp;of&nbsp;a&nbsp;negative&nbsp;integer<br /></span><span style="color: #0000BB">printf</span><span style="color: #007700">(</span><span style="color: #DD0000">"%%f&nbsp;=&nbsp;'%f'\n"</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">$n</span><span style="color: #007700">);&nbsp;</span><span style="color: #FF8000">//&nbsp;floating&nbsp;point&nbsp;representation<br /></span><span style="color: #0000BB">printf</span><span style="color: #007700">(</span><span style="color: #DD0000">"%%o&nbsp;=&nbsp;'%o'\n"</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">$n</span><span style="color: #007700">);&nbsp;</span><span style="color: #FF8000">//&nbsp;octal&nbsp;representation<br /></span><span style="color: #0000BB">printf</span><span style="color: #007700">(</span><span style="color: #DD0000">"%%s&nbsp;=&nbsp;'%s'\n"</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">$n</span><span style="color: #007700">);&nbsp;</span><span style="color: #FF8000">//&nbsp;string&nbsp;representation<br /></span><span style="color: #0000BB">printf</span><span style="color: #007700">(</span><span style="color: #DD0000">"%%x&nbsp;=&nbsp;'%x'\n"</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">$n</span><span style="color: #007700">);&nbsp;</span><span style="color: #FF8000">//&nbsp;hexadecimal&nbsp;representation&nbsp;(lower-case)<br /></span><span style="color: #0000BB">printf</span><span style="color: #007700">(</span><span style="color: #DD0000">"%%X&nbsp;=&nbsp;'%X'\n"</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">$n</span><span style="color: #007700">);&nbsp;</span><span style="color: #FF8000">//&nbsp;hexadecimal&nbsp;representation&nbsp;(upper-case)<br /><br /></span><span style="color: #0000BB">printf</span><span style="color: #007700">(</span><span style="color: #DD0000">"%%+d&nbsp;=&nbsp;'%+d'\n"</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">$n</span><span style="color: #007700">);&nbsp;</span><span style="color: #FF8000">//&nbsp;sign&nbsp;specifier&nbsp;on&nbsp;a&nbsp;positive&nbsp;integer<br /></span><span style="color: #0000BB">printf</span><span style="color: #007700">(</span><span style="color: #DD0000">"%%+d&nbsp;=&nbsp;'%+d'\n"</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">$u</span><span style="color: #007700">);&nbsp;</span><span style="color: #FF8000">//&nbsp;sign&nbsp;specifier&nbsp;on&nbsp;a&nbsp;negative&nbsp;integer<br /></span><span style="color: #0000BB">?&gt;</span>
 </span>
 </code></div>
    </div>
 
-   <div class="example-contents"><p>The above example will output:</p></div>
-   <div class="example-contents screen">
-<div class="cdata"><pre>
+   <div><p>The above example will output:</p></div>
+   <div>
+<div><pre>
 %b = &#039;10100111101010011010101101&#039;
 %c = &#039;A&#039;
 %d = &#039;43951789&#039;
@@ -386,17 +386,17 @@ The tree contains 0005 monkeys
    </div>
   </div>
   <div class="example">
-   <p><strong>Example #8 <span class="function"><a href="function.printf.php" class="function">printf()</a></span>: string specifiers</strong></p>
-   <div class="example-contents">
-<div class="phpcode"><code><span style="color: #000000">
+   <p><strong>Example #8 <span><a href="function.printf.php" class="function">printf()</a></span>: string specifiers</strong></p>
+   <div>
+<div><code><span style="color: #000000">
 <span style="color: #0000BB">&lt;?php<br />$s&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #DD0000">'monkey'</span><span style="color: #007700">;<br /></span><span style="color: #0000BB">$t&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #DD0000">'many&nbsp;monkeys'</span><span style="color: #007700">;<br /><br /></span><span style="color: #0000BB">printf</span><span style="color: #007700">(</span><span style="color: #DD0000">"[%s]\n"</span><span style="color: #007700">,&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #0000BB">$s</span><span style="color: #007700">);&nbsp;</span><span style="color: #FF8000">//&nbsp;standard&nbsp;string&nbsp;output<br /></span><span style="color: #0000BB">printf</span><span style="color: #007700">(</span><span style="color: #DD0000">"[%10s]\n"</span><span style="color: #007700">,&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #0000BB">$s</span><span style="color: #007700">);&nbsp;</span><span style="color: #FF8000">//&nbsp;right-justification&nbsp;with&nbsp;spaces<br /></span><span style="color: #0000BB">printf</span><span style="color: #007700">(</span><span style="color: #DD0000">"[%-10s]\n"</span><span style="color: #007700">,&nbsp;&nbsp;&nbsp;</span><span style="color: #0000BB">$s</span><span style="color: #007700">);&nbsp;</span><span style="color: #FF8000">//&nbsp;left-justification&nbsp;with&nbsp;spaces<br /></span><span style="color: #0000BB">printf</span><span style="color: #007700">(</span><span style="color: #DD0000">"[%010s]\n"</span><span style="color: #007700">,&nbsp;&nbsp;&nbsp;</span><span style="color: #0000BB">$s</span><span style="color: #007700">);&nbsp;</span><span style="color: #FF8000">//&nbsp;zero-padding&nbsp;works&nbsp;on&nbsp;strings&nbsp;too<br /></span><span style="color: #0000BB">printf</span><span style="color: #007700">(</span><span style="color: #DD0000">"[%'#10s]\n"</span><span style="color: #007700">,&nbsp;&nbsp;</span><span style="color: #0000BB">$s</span><span style="color: #007700">);&nbsp;</span><span style="color: #FF8000">//&nbsp;use&nbsp;the&nbsp;custom&nbsp;padding&nbsp;character&nbsp;'#'<br /></span><span style="color: #0000BB">printf</span><span style="color: #007700">(</span><span style="color: #DD0000">"[%10.10s]\n"</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">$t</span><span style="color: #007700">);&nbsp;</span><span style="color: #FF8000">//&nbsp;left-justification&nbsp;but&nbsp;with&nbsp;a&nbsp;cutoff&nbsp;of&nbsp;10&nbsp;characters<br /></span><span style="color: #0000BB">?&gt;</span>
 </span>
 </code></div>
    </div>
 
-   <div class="example-contents"><p>The above example will output:</p></div>
-   <div class="example-contents screen">
-<div class="cdata"><pre>
+   <div><p>The above example will output:</p></div>
+   <div>
+<div><pre>
 [monkey]
 [    monkey]
 [monkey    ]
@@ -407,9 +407,9 @@ The tree contains 0005 monkeys
    </div>
   </div>
   <div class="example">
-   <p><strong>Example #9 <span class="function"><strong>sprintf()</strong></span>: zero-padded integers</strong></p>
-   <div class="example-contents">
-<div class="phpcode"><code><span style="color: #000000">
+   <p><strong>Example #9 <span><strong>sprintf()</strong></span>: zero-padded integers</strong></p>
+   <div>
+<div><code><span style="color: #000000">
 <span style="color: #0000BB">&lt;?php<br />$isodate&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #0000BB">sprintf</span><span style="color: #007700">(</span><span style="color: #DD0000">"%04d-%02d-%02d"</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">$year</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">$month</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">$day</span><span style="color: #007700">);<br /></span><span style="color: #0000BB">?&gt;</span>
 </span>
 </code></div>
@@ -417,9 +417,9 @@ The tree contains 0005 monkeys
 
   </div>
   <div class="example">
-   <p><strong>Example #10 <span class="function"><strong>sprintf()</strong></span>: formatting currency</strong></p>
-   <div class="example-contents">
-<div class="phpcode"><code><span style="color: #000000">
+   <p><strong>Example #10 <span><strong>sprintf()</strong></span>: formatting currency</strong></p>
+   <div>
+<div><code><span style="color: #000000">
 <span style="color: #0000BB">&lt;?php<br />$money1&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #0000BB">68.75</span><span style="color: #007700">;<br /></span><span style="color: #0000BB">$money2&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #0000BB">54.35</span><span style="color: #007700">;<br /></span><span style="color: #0000BB">$money&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #0000BB">$money1&nbsp;</span><span style="color: #007700">+&nbsp;</span><span style="color: #0000BB">$money2</span><span style="color: #007700">;<br /></span><span style="color: #FF8000">//&nbsp;echo&nbsp;$money&nbsp;will&nbsp;output&nbsp;"123.1";<br /></span><span style="color: #0000BB">$formatted&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #0000BB">sprintf</span><span style="color: #007700">(</span><span style="color: #DD0000">"%01.2f"</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">$money</span><span style="color: #007700">);<br /></span><span style="color: #FF8000">//&nbsp;echo&nbsp;$formatted&nbsp;will&nbsp;output&nbsp;"123.10"<br /></span><span style="color: #0000BB">?&gt;</span>
 </span>
 </code></div>
@@ -427,9 +427,9 @@ The tree contains 0005 monkeys
 
   </div>
   <div class="example">
-   <p><strong>Example #11 <span class="function"><strong>sprintf()</strong></span>: scientific notation</strong></p>
-   <div class="example-contents">
-<div class="phpcode"><code><span style="color: #000000">
+   <p><strong>Example #11 <span><strong>sprintf()</strong></span>: scientific notation</strong></p>
+   <div>
+<div><code><span style="color: #000000">
 <span style="color: #0000BB">&lt;?php<br />$number&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #0000BB">362525200</span><span style="color: #007700">;<br /><br />echo&nbsp;</span><span style="color: #0000BB">sprintf</span><span style="color: #007700">(</span><span style="color: #DD0000">"%.3e"</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">$number</span><span style="color: #007700">);&nbsp;</span><span style="color: #FF8000">//&nbsp;outputs&nbsp;3.625e+8<br /></span><span style="color: #0000BB">?&gt;</span>
 </span>
 </code></div>

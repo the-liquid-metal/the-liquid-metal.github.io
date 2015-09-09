@@ -4,7 +4,7 @@
  </div>
  <div class="refsect1 description">
   <p class="para rdfs-comment">
-   <span class="function"><strong>replace()</strong></span> replaces the values of
+   <span><strong>replace()</strong></span> replaces the values of
    <code class="parameter">array1</code> with values having the same keys in each of the following
    arrays. If a key from the first array exists in the second array, its value
    will be replaced by the value from the second array. If the key exists in the
@@ -14,7 +14,7 @@
    in order, the later arrays overwriting the previous values.
   </p>
   <p class="para">
-   <span class="function"><strong>replace()</strong></span> is not recursive : it will replace
+   <span><strong>replace()</strong></span> is not recursive : it will replace
    values in the first array by whatever type is in the second array.
   </p>
  </div>
@@ -76,17 +76,17 @@
  <div class="refsect1 examples">
   <p class="para">
    <div class="example">
-    <p><strong>Example #1 <span class="function"><strong>replace()</strong></span> example</strong></p>
-    <div class="example-contents">
-<div class="phpcode"><code><span style="color: #000000">
+    <p><strong>Example #1 <span><strong>replace()</strong></span> example</strong></p>
+    <div>
+<div><code><span style="color: #000000">
 <span style="color: #0000BB">&lt;?php<br />$base&nbsp;</span><span style="color: #007700">=&nbsp;array(</span><span style="color: #DD0000">"orange"</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">"banana"</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">"apple"</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">"raspberry"</span><span style="color: #007700">);<br /></span><span style="color: #0000BB">$replacements&nbsp;</span><span style="color: #007700">=&nbsp;array(</span><span style="color: #0000BB">0&nbsp;</span><span style="color: #007700">=&gt;&nbsp;</span><span style="color: #DD0000">"pineapple"</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">4&nbsp;</span><span style="color: #007700">=&gt;&nbsp;</span><span style="color: #DD0000">"cherry"</span><span style="color: #007700">);<br /></span><span style="color: #0000BB">$replacements2&nbsp;</span><span style="color: #007700">=&nbsp;array(</span><span style="color: #0000BB">0&nbsp;</span><span style="color: #007700">=&gt;&nbsp;</span><span style="color: #DD0000">"grape"</span><span style="color: #007700">);<br /><br /></span><span style="color: #0000BB">$basket&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #0000BB">replace</span><span style="color: #007700">(</span><span style="color: #0000BB">$base</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">$replacements</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">$replacements2</span><span style="color: #007700">);<br /></span><span style="color: #0000BB">print_r</span><span style="color: #007700">(</span><span style="color: #0000BB">$basket</span><span style="color: #007700">);<br /></span><span style="color: #0000BB">?&gt;</span>
 </span>
 </code></div>
     </div>
 
-    <div class="example-contents"><p>The above example will output:</p></div>
-    <div class="example-contents screen">
-<div class="cdata"><pre>
+    <div><p>The above example will output:</p></div>
+    <div>
+<div><pre>
 Array
 (
     [0] =&gt; grape
