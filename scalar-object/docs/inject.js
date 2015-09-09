@@ -34,4 +34,9 @@ $(document).ready(function(){
         var $a = $(this);
         $a.attr("target", "_blank");
     });
+
+    $('#magicMethods').on('click', '.ajax-area', function(event){
+        event.preventDefault();
+        return false;
+    });
 });
