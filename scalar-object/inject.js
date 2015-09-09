@@ -2,7 +2,7 @@ $(document).ready(function(){
     var modifPage = function(response){
         console.log(response);
         var $a;
-        if (response.responseText === "ajax is available") {
+        if (response === "ajax is available" || response.responseText === "ajax is available") {
             $a = $(".description").find("a:contains('detail')");
             $a.map(function(){
                 $(this.previousSibling).remove();
@@ -18,7 +18,11 @@ $(document).ready(function(){
         var $tr = $(this);
         var insertDetail = function(response){
             console.log(response);
-            $tr.find('.description.detailed').append(response.responseText);
+            if ($.isString(response)) {
+                $tr.find('.description.detailed').append(response);
+            } else {
+                $tr.find('.description.detailed').append(response.responseText);
+            }
             $tr.data('isLoaded', true);
         };
         if ($tr.data('isLoaded') === true) return;
