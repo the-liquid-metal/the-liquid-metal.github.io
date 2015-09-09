@@ -1,12 +1,14 @@
 .ajax-area {
+	margin-top: 1em;
 	background: white;
 	border-radius: 8px;
 	padding: 8px;
 }
-blockquote {
+.ajax-area blockquote {
 	font-size: 1em;
 }
 .ajax-area h1 {
+	margin-top: 0px;
 	font-size: 1.5em;
 }
 .ajax-area .examples {
