@@ -1,5 +1,4 @@
 $(document).ready(function(){
-    console.log(document.URL);
     var modifPage = function(response){
         var $a;
         if (response.responseText === "ajax is available") {
@@ -24,4 +23,13 @@ $(document).ready(function(){
         var path = $tr.attr('id').replace('m_', '')+'.htm';
         $.get(path, insertDetail).fail(insertDetail);
     });
+
+    var protocol = document.URL.replace(/:.+/, ':');
+    if (protocol !== 'file:') {
+        $('.description a').each(function(){
+            var $a = $(this);
+            var href = $a.attr("href");
+            $a.attr("href", href.replace('file:', ''));
+        });
+    }
 });
