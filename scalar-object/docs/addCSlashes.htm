@@ -13,7 +13,7 @@
 
  <div class="refsect1 parameters">
   <h3 class="title">Parameters</h3>
-  <p class="para">
+  <p>
    <dl>
 
     
@@ -22,7 +22,7 @@
 
      <dd>
 
-      <p class="para">
+      <p>
        The string to be escaped.
       </p>
      </dd>
@@ -34,7 +34,7 @@
 
      <dd>
 
-      <p class="para">
+      <p>
        A list of characters to be escaped. If
        <code class="parameter">charlist</code> contains characters
        <em>\n</em>, <em>\r</em> etc., they are
@@ -42,7 +42,7 @@
        with ASCII codes lower than 32 and higher than 126 converted to
        octal representation.
       </p>
-      <p class="para">
+      <p>
        When you define a sequence of characters in the charlist argument
        make sure that you know what characters come between the
        characters that you set as the start and end of the range.
@@ -70,7 +70,7 @@
 
        </div>
       </p>
-      <p class="para">
+      <p>
        Be careful if you choose to escape characters 0, a, b, f, n, r, t and
        v. They will be converted to \0, \a, \b, \f, \n, \r, \t and \v, all of
        which are predefined escape sequences in C. Many of these sequences are
@@ -90,7 +90,7 @@
 
  <div class="refsect1 returnvalues">
   <h3 class="title">Return Values</h3>
-  <p class="para">
+  <p>
    Returns the escaped string.
   </p>
  </div>
@@ -100,10 +100,10 @@
 
  
  <div class="refsect1 examples">
-  <p class="para">
+  <p>
     <code class="parameter">charlist</code> like &quot;\0..\37&quot;, which would
     escape all characters with ASCII code between 0 and 31.
-   <div class="example">
+   <div>
     <p><strong>Example #1 <span><strong>addCSlashes()</strong></span> example</strong></p>
     <div>
 <div><code><span style="color: #000000">

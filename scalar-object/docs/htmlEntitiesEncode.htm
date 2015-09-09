@@ -9,7 +9,7 @@
    ways, except with <span><strong>htmlEntitiesEncode()</strong></span>, all characters which
    have HTML character entity equivalents are translated into these entities.
   </p>
-  <p class="para">
+  <p>
    If you want to decode instead (the reverse) you can use
    <span><a href="function.html-entity-decode.php" class="function">html_entity_decode()</a></span>.
   </p>
@@ -18,7 +18,7 @@
 
  <div class="refsect1 parameters">
   <h3 class="title">Parameters</h3>
-  <p class="para">
+  <p>
    <dl>
 
     
@@ -27,7 +27,7 @@
 
      <dd>
 
-      <p class="para">
+      <p>
        The input string.
       </p>
      </dd>
@@ -39,7 +39,7 @@
 
      <dd>
 
-      <p class="para">
+      <p>
        A bitmask of one or more of the following flags, which specify how to handle quotes,
        invalid code unit sequences and the used document type. The default is
        <em>ENT_COMPAT | ENT_HTML401</em>.
@@ -141,11 +141,11 @@
      <dd>
 
       
- <p class="para">
+ <p>
   An optional argument defining the encoding used when converting characters.
  </p>
 
- <p class="para">
+ <p>
   If omitted, the default value of the <code class="parameter">encoding</code> varies
   depending on the PHP version in use. In PHP 5.6 and later, the
   <a href="ini.core.php#ini.default-charset" class="link">default_charset</a> configuration
@@ -154,7 +154,7 @@
   <em>ISO-8859-1</em>.
  </p>
 
- <p class="para">
+ <p>
   Although this argument is technically optional, you are highly encouraged to
   specify the correct value for your code if you are using PHP 5.5 or earlier,
   or if your <a href="ini.core.php#ini.default-charset" class="link">default_charset</a>
@@ -163,7 +163,7 @@
 
       
 
-<p class="para">
+<p>
  The following character sets are supported:
  <table class="doctable table">
   <caption><strong>Supported charsets</strong></caption>
@@ -324,7 +324,7 @@
 
      <dd>
 
-      <p class="para">
+      <p>
        When <code class="parameter">double_encode</code> is turned off PHP will not
        encode existing html entities. The default is to convert everything.
       </p>
@@ -339,10 +339,10 @@
 
  <div class="refsect1 returnvalues">
   <h3 class="title">Return Values</h3>
-  <p class="para">
+  <p>
    Returns the encoded string.
   </p>
-  <p class="para">
+  <p>
    If the input <code class="parameter">string</code> contains an invalid code unit
    sequence within the given <code class="parameter">encoding</code> an empty string
    will be returned, unless either the <strong><code>ENT_IGNORE</code></strong> or
@@ -355,8 +355,8 @@
 
 
  <div class="refsect1 examples">
-  <p class="para">
-   <div class="example">
+  <p>
+   <div>
     <p><strong>Example #1 A <span><strong>htmlEntitiesEncode()</strong></span> example</strong></p>
     <div>
 <div><code><span style="color: #000000">
@@ -368,8 +368,8 @@
    </div>
   </p>
   
-  <p class="para">
-   <div class="example">
+  <p>
+   <div>
     <p><strong>Example #2 Usage of <strong><code>ENT_IGNORE</code></strong></strong></p>
     <div>
 <div><code><span style="color: #000000">

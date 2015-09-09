@@ -12,7 +12,7 @@
    named entities to be translated, use <span><a href="function.htmlentities.php" class="function">htmlentities()</a></span>
    instead.
   </p>
-  <p class="para">
+  <p>
    If the input string passed to this function and the final document share the
    same character set, this function is sufficient to prepare input for
    inclusion in most contexts of an HTML document. If, however, the input can
@@ -22,7 +22,7 @@
    substrings that have named entity equivalents) may be insufficient.
    You may have to use <span><a href="function.mb-encode-numericentity.php" class="function">mb_encode_numericentity()</a></span> instead.
   </p>
-  <p class="para">
+  <p>
    The translations performed are:
    <ul class="itemizedlist">
     <li class="listitem">
@@ -59,7 +59,7 @@
 
  <div class="refsect1 parameters">
   <h3 class="title">Parameters</h3>
-  <p class="para">
+  <p>
    <dl>
 
     
@@ -68,7 +68,7 @@
 
      <dd>
 
-      <p class="para">
+      <p>
        The <span class="type"><a href="language.types.string.php" class="type string">string</a></span> being converted.
       </p>
      </dd>
@@ -80,7 +80,7 @@
 
      <dd>
 
-      <p class="para">
+      <p>
        A bitmask of one or more of the following flags, which specify how to handle quotes,
        invalid code unit sequences and the used document type. The default is
        <em>ENT_COMPAT | ENT_HTML401</em>.
@@ -182,11 +182,11 @@
      <dd>
 
       
- <p class="para">
+ <p>
   An optional argument defining the encoding used when converting characters.
  </p>
 
- <p class="para">
+ <p>
   If omitted, the default value of the <code class="parameter">encoding</code> varies
   depending on the PHP version in use. In PHP 5.6 and later, the
   <a href="ini.core.php#ini.default-charset" class="link">default_charset</a> configuration
@@ -195,14 +195,14 @@
   <em>ISO-8859-1</em>.
  </p>
 
- <p class="para">
+ <p>
   Although this argument is technically optional, you are highly encouraged to
   specify the correct value for your code if you are using PHP 5.5 or earlier,
   or if your <a href="ini.core.php#ini.default-charset" class="link">default_charset</a>
   configuration option may be set incorrectly for the given input.
  </p>
 
-      <p class="para">
+      <p>
        For the purposes of this function, the encodings
        <em>ISO-8859-1</em>, <em>ISO-8859-15</em>,
        <em>UTF-8</em>, <em>cp866</em>,
@@ -214,7 +214,7 @@
       </p>
       
 
-<p class="para">
+<p>
  The following character sets are supported:
  <table class="doctable table">
   <caption><strong>Supported charsets</strong></caption>
@@ -375,7 +375,7 @@
 
      <dd>
 
-      <p class="para">
+      <p>
        When <code class="parameter">double_encode</code> is turned off PHP will not
        encode existing html entities, the default is to convert everything.
       </p>
@@ -390,10 +390,10 @@
 
  <div class="refsect1 returnvalues">
   <h3 class="title">Return Values</h3>
-  <p class="para">
+  <p>
    The converted <span class="type"><a href="language.types.string.php" class="type string">string</a></span>.
   </p>
-  <p class="para">
+  <p>
    If the input <code class="parameter">string</code> contains an invalid code unit
    sequence within the given <code class="parameter">encoding</code> an empty string
    will be returned, unless either the <strong><code>ENT_IGNORE</code></strong> or
@@ -406,8 +406,8 @@
 
 
  <div class="refsect1 examples">
-  <p class="para">
-   <div class="example">
+  <p>
+   <div>
     <p><strong>Example #1 <span><strong>htmlCharEncode()</strong></span> example</strong></p>
     <div>
 <div><code><span style="color: #000000">
@@ -423,7 +423,7 @@
 
  <div>
   <blockquote><p><strong>Note</strong>: 
-   <p class="para">
+   <p>
     Note that this function does not translate anything beyond what
     is listed above. For full entity translation, see
     <span><a href="function.htmlentities.php" class="function">htmlentities()</a></span>.

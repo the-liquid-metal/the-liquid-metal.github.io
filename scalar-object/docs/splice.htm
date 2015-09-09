@@ -9,7 +9,7 @@
    and replaces them with the elements of the
    <code class="parameter">replacement</code> array, if supplied.
   </p>
-  <p class="para">
+  <p>
    Note that numeric keys in <code class="parameter">input</code> are not preserved.
   </p>
   <blockquote><p><strong>Note</strong>: 
@@ -24,7 +24,7 @@
 
   <div class="refsect1 parameters">
   <h3 class="title">Parameters</h3>
-  <p class="para">
+  <p>
    <dl>
 
     
@@ -33,7 +33,7 @@
 
      <dd>
 
-      <p class="para">
+      <p>
        The input array.
       </p>
      </dd>
@@ -45,7 +45,7 @@
 
      <dd>
 
-      <p class="para">
+      <p>
        If <code class="parameter">offset</code> is positive then the start of removed
        portion is at that offset from the beginning of the
        <code class="parameter">input</code> array.  If <code class="parameter">offset</code>
@@ -61,7 +61,7 @@
 
      <dd>
 
-      <p class="para">
+      <p>
        If <code class="parameter">length</code> is omitted, removes everything
        from <code class="parameter">offset</code> to the end of the array.  If
        <code class="parameter">length</code> is specified and is positive, then
@@ -85,18 +85,18 @@
 
      <dd>
 
-      <p class="para">
+      <p>
        If <code class="parameter">replacement</code> array is specified, then the
        removed elements are replaced with elements from this array.
       </p>
-      <p class="para">
+      <p>
        If <code class="parameter">offset</code> and <code class="parameter">length</code>
        are such that nothing is removed, then the elements from the
        <code class="parameter">replacement</code> array are inserted in the place
        specified by the <code class="parameter">offset</code>. Note that keys in
        replacement array are not preserved.
       </p>
-      <p class="para">
+      <p>
        If <code class="parameter">replacement</code> is just one element it is
        not necessary to put <em>array()</em>
        around it, unless the element is an array itself, an object or <strong><code>NULL</code></strong>.
@@ -111,14 +111,14 @@
 
  <div class="refsect1 returnvalues">
   <h3 class="title">Return Values</h3>
-  <p class="para">
+  <p>
    Returns the array consisting of the extracted elements.
   </p>
  </div>
 
  <div class="refsect1 examples">
-  <p class="para">
-   <div class="example">
+  <p>
+   <div>
     <p><strong>Example #1 <span><strong>splice()</strong></span> examples</strong></p>
     <div>
 <div><code><span style="color: #000000">
@@ -129,8 +129,8 @@
 
    </div>
   </p>
-  <p class="para">
-   <div class="example">
+  <p>
+   <div>
     <p><strong>Example #2 <span><strong>splice()</strong></span> examples</strong></p>
     <div><p>
      The following statements change the values of <var class="varname"><var class="varname">$input</var></var>

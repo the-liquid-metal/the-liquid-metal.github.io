@@ -12,7 +12,7 @@
    could tokenize this string into its individual words by using the
    space character as the token.
   </p>
-  <p class="para">
+  <p>
    Note that only the first call to tokenize uses the string argument.
    Every subsequent call to tokenize only needs the token to use, as
    it keeps track of where it is in the current string.  To start
@@ -27,7 +27,7 @@
 
  <div class="refsect1 parameters">
   <h3 class="title">Parameters</h3>
-  <p class="para">
+  <p>
    <dl>
 
     
@@ -36,7 +36,7 @@
 
      <dd>
 
-      <p class="para">
+      <p>
        The <span class="type"><a href="language.types.string.php" class="type string">string</a></span> being split up into smaller strings (tokens).
       </p>
      </dd>
@@ -48,7 +48,7 @@
 
      <dd>
 
-      <p class="para">
+      <p>
        The delimiter used when splitting up <code class="parameter">str</code>.
       </p>
      </dd>
@@ -62,15 +62,15 @@
  
  <div class="refsect1 returnvalues">
   <h3 class="title">Return Values</h3>
-  <p class="para">
+  <p>
    A <span class="type"><a href="language.types.string.php" class="type string">string</a></span> token.
   </p>
  </div>
 
 
  <div class="refsect1 examples">
-  <p class="para">
-   <div class="example">
+  <p>
+   <div>
     <p><strong>Example #1 <span><strong>tokenize()</strong></span> example</strong></p>
     <div>
 <div><code><span style="color: #000000">
@@ -81,13 +81,13 @@
 
    </div>
   </p> 
-  <p class="para">
+  <p>
    The behavior when an empty part was found changed with PHP 4.1.0. The old
    behavior returned an empty string, while the new, correct, behavior
    simply skips the part of the string:
   </p>
-  <p class="para">
-   <div class="example">
+  <p>
+   <div>
     <p><strong>Example #2 Old <span><strong>tokenize()</strong></span> behavior</strong></p>
     <div>
 <div><code><span style="color: #000000">
@@ -104,7 +104,7 @@
 </pre></div>
     </div>
    </div>
-   <div class="example">
+   <div>
     <p><strong>Example #3 New <span><strong>tokenize()</strong></span> behavior</strong></p>
     <div>
 <div><code><span style="color: #000000">
@@ -127,7 +127,7 @@
 
  <div>
   
-  <div class="warning"><strong class="warning">Warning</strong><p class="simpara">This function may
+  <div class="warning"><strong class="warning">Warning</strong><p>This function may
 return Boolean <strong><code>FALSE</code></strong>, but may also return a non-Boolean value which
 evaluates to <strong><code>FALSE</code></strong>. Please read the section on <a href="language.types.boolean.php" class="link">Booleans</a> for more
 information. Use <a href="language.operators.comparison.php" class="link">the ===

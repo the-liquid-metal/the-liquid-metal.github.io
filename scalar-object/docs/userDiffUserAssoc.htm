@@ -7,7 +7,7 @@
    Computes the difference of arrays with additional index check, compares
    data and indexes by a callback function.
   </p>
-  <p class="para">
+  <p>
    Note that the keys are used in the comparison unlike
    <span><a href="function.array-diff.php" class="function">array_diff()</a></span> and <span><a href="function.array-udiff.php" class="function">array_udiff()</a></span>.
   </p>
@@ -15,7 +15,7 @@
 
  <div class="refsect1 parameters">
   <h3 class="title">Parameters</h3>
-  <p class="para">
+  <p>
    <dl>
 
     
@@ -24,7 +24,7 @@
 
      <dd>
 
-      <p class="para">
+      <p>
        The first array.
       </p>
      </dd>
@@ -36,7 +36,7 @@
 
      <dd>
 
-      <p class="para">
+      <p>
        The second array.
       </p>
      </dd>
@@ -48,7 +48,7 @@
 
      <dd>
 
-      <p class="para">
+      <p>
        The comparison function must return an integer less than, equal to, or greater than zero if the first argument is considered to be respectively less than, equal to, or greater than the second.
       </p>
         </dd>
@@ -60,7 +60,7 @@
 
      <dd>
 
-      <p class="para">
+      <p>
        The comparison of keys (indices) is done also by the callback function
        <code class="parameter">key_compare_func</code>. This behaviour is unlike what
        <span><a href="function.array-udiff-assoc.php" class="function">array_udiff_assoc()</a></span> does, since the latter compares
@@ -76,7 +76,7 @@
 
  <div class="refsect1 returnvalues">
   <h3 class="title">Return Values</h3>
-  <p class="para">
+  <p>
    Returns an <span class="type"><a href="language.types.array.php" class="type array">array</a></span> containing all the values from
    <code class="parameter">array1</code> that are not present in any of the other
    arguments.
@@ -84,8 +84,8 @@
  </div>
 
  <div class="refsect1 examples">
-  <p class="para">
-   <div class="example">
+  <p>
+   <div>
     <p><strong>Example #1 <span><strong>userDiffUserAssoc()</strong></span> example</strong></p>
     <div>
 <div><code><span style="color: #000000">
@@ -118,7 +118,7 @@ Array
     </div>
    </div>
   </p>
-  <p class="simpara">
+  <p>
    In our example above you see the <em>&quot;1&quot; =&gt; new cr(4)</em>
    pair is present in both arrays and thus it is not in the output from the
    function. Keep in mind that you have to supply 2 callback functions.

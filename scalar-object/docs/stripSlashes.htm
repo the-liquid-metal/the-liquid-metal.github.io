@@ -8,13 +8,13 @@
    Un-quotes a quoted string.
   </p>
   <blockquote><p><strong>Note</strong>: 
-   <p class="para">
+   <p>
     If <a href="sybase.configuration.php#ini.magic-quotes-sybase" class="link">magic_quotes_sybase</a> is
     on, no backslashes are stripped off but two apostrophes are replaced by
     one instead.
    </p>
   </p></blockquote>
-  <p class="para">
+  <p>
    An example use of <span><strong>stripSlashes()</strong></span> is when the PHP
    directive <a href="info.configuration.php#ini.magic-quotes-gpc" class="link">magic_quotes_gpc</a>
    is <em>on</em> (it was on by default before PHP 5.4), and you aren&#039;t inserting
@@ -26,7 +26,7 @@
 
  <div class="refsect1 parameters">
   <h3 class="title">Parameters</h3>
-  <p class="para">
+  <p>
    <dl>
 
     
@@ -35,7 +35,7 @@
 
      <dd>
 
-      <p class="para">
+      <p>
        The input string.
       </p>
      </dd>
@@ -49,7 +49,7 @@
 
  <div class="refsect1 returnvalues">
   <h3 class="title">Return Values</h3>
-  <p class="para">
+  <p>
    Returns a string with backslashes stripped off.
    (<em>\&#039;</em> becomes <em>&#039;</em> and so on.)
    Double backslashes (<em>\\</em>) are made into a single
@@ -59,8 +59,8 @@
 
 
  <div class="refsect1 examples">
-  <p class="para">
-   <div class="example">
+  <p>
+   <div>
     <p><strong>Example #1 A <span><strong>stripSlashes()</strong></span> example</strong></p>
     <div>
 <div><code><span style="color: #000000">
@@ -72,14 +72,14 @@
    </div>
   </p>
   <blockquote><p><strong>Note</strong>: 
-   <p class="para">
+   <p>
     <span><strong>stripSlashes()</strong></span> is not recursive. If you want to apply
     this function to a multi-dimensional array, you need to use a recursive
     function.
    </p>
   </p></blockquote>
-  <p class="para">
-   <div class="example">
+  <p>
+   <div>
     <p><strong>Example #2 Using <span><strong>stripSlashes()</strong></span> on an array</strong></p>
     <div>
 <div><code><span style="color: #000000">

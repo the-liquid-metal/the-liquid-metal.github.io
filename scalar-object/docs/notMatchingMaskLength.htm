@@ -9,7 +9,7 @@
    <code class="parameter">subject</code> which does <em>not</em>
    contain any of the characters in <code class="parameter">mask</code>.
   </p>
-  <p class="para">
+  <p>
    If <code class="parameter">start</code> and <code class="parameter">length</code>
    are omitted, then all of <code class="parameter">subject</code> will be
    examined. If they are included, then the effect will be the same as
@@ -22,7 +22,7 @@
  
  <div class="refsect1 parameters">
   <h3 class="title">Parameters</h3>
-  <p class="para">
+  <p>
    <dl>
 
     
@@ -31,7 +31,7 @@
 
      <dd>
 
-      <p class="para">
+      <p>
        The string to examine.
       </p>
      </dd>
@@ -43,7 +43,7 @@
 
      <dd>
 
-      <p class="para">
+      <p>
        The string containing every disallowed character.
       </p>
      </dd>
@@ -55,11 +55,11 @@
 
      <dd>
 
-      <p class="para">
+      <p>
        The position in <code class="parameter">subject</code> to
        start searching.
       </p>
-      <p class="para">
+      <p>
        If <code class="parameter">start</code> is given and is non-negative,
        then <span><strong>notMatchingMaskLength()</strong></span> will begin
        examining <code class="parameter">subject</code> at
@@ -69,7 +69,7 @@
        character at position <em>2</em> is
        &#039;<em>c</em>&#039;, and so forth.
       </p>
-      <p class="para">
+      <p>
        If <code class="parameter">start</code> is given and is negative,
        then <span><a href="function.strspn.php" class="function">strspn()</a></span> will begin
        examining <code class="parameter">subject</code> at
@@ -85,17 +85,17 @@
 
      <dd>
 
-      <p class="para">
+      <p>
        The length of the segment from <code class="parameter">subject</code>
        to examine. 
       </p>
-      <p class="para">
+      <p>
        If <code class="parameter">length</code> is given and is non-negative,
        then <code class="parameter">subject</code> will be examined
        for <code class="parameter">length</code> characters after the starting
        position.
       </p>
-      <p class="para">
+      <p>
        If <code class="parameter">length</code> is given and is negative,
        then <code class="parameter">subject</code> will be examined from the
        starting position up to <code class="parameter">length</code>
@@ -112,12 +112,12 @@
  
  <div class="refsect1 returnvalues">
   <h3 class="title">Return Values</h3>
-  <p class="para">
+  <p>
    Returns the length of the initial segment of <code class="parameter">subject</code>
    which consists entirely of characters <em>not</em> in <code class="parameter">mask</code>.
   </p>
   <blockquote><p><strong>Note</strong>: 
-   <p class="para">
+   <p>
     When a <code class="parameter">start</code> parameter is set, the returned length
     is counted starting from this position, not from the beginning of
     <code class="parameter">subject</code>.
@@ -127,7 +127,7 @@
 
  
  <div class="refsect1 examples">
-  <div class="example">
+  <div>
    <p><strong>Example #1 <span><strong>notMatchingMaskLength()</strong></span> example</strong></p>
    <div>
 <div><code><span style="color: #000000">

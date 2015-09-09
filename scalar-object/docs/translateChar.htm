@@ -13,13 +13,13 @@
    <em>$to[$n]</em>, where <em>$n</em> is a valid
    offset in both arguments.
   </p>
-  <p class="para">
+  <p>
    If <code class="parameter">from</code> and <code class="parameter">to</code> have
    different lengths, the extra characters in the longer of the two
    are ignored. The length of <code class="parameter">str</code> will be the same as
    the return value&#039;s.
   </p>
-  <p class="para">
+  <p>
    If given two arguments, the second should be an <span class="type"><a href="language.types.array.php" class="type array">array</a></span> in the
    form <em>array(&#039;from&#039; =&gt; &#039;to&#039;, ...)</em>. The return value is
    a <span class="type"><a href="language.types.string.php" class="type string">string</a></span> where all the occurrences of the array keys have been
@@ -27,7 +27,7 @@
    Once a substring has been replaced, its new value will not be searched
    again.
   </p>
-  <p class="para">
+  <p>
    In this case, the keys and the values may have any length, provided that
    there is no empty key; additionally, the length of the return value may
    differ from that of <code class="parameter">str</code>.
@@ -39,7 +39,7 @@
 
  <div class="refsect1 parameters">
   <h3 class="title">Parameters</h3>
-  <p class="para">
+  <p>
    <dl>
 
     
@@ -48,7 +48,7 @@
 
      <dd>
 
-      <p class="para">
+      <p>
        The <span class="type"><a href="language.types.string.php" class="type string">string</a></span> being translated.
       </p>
      </dd>
@@ -60,7 +60,7 @@
 
      <dd>
 
-      <p class="para">
+      <p>
        The <span class="type"><a href="language.types.string.php" class="type string">string</a></span> being translated to <code class="parameter">to</code>.
       </p>
      </dd>
@@ -72,7 +72,7 @@
 
      <dd>
 
-      <p class="para">
+      <p>
        The <span class="type"><a href="language.types.string.php" class="type string">string</a></span> replacing <code class="parameter">from</code>.
       </p>
      </dd>
@@ -84,7 +84,7 @@
 
      <dd>
 
-      <p class="para">
+      <p>
        The <code class="parameter">replace_pairs</code> parameter may be used instead of 
        <code class="parameter">to</code> and <code class="parameter">from</code>, in which case it&#039;s an
        <span class="type"><a href="language.types.array.php" class="type array">array</a></span> in the form <em>array(&#039;from&#039; =&gt; &#039;to&#039;, ...)</em>. 
@@ -100,10 +100,10 @@
  
  <div class="refsect1 returnvalues">
   <h3 class="title">Return Values</h3>
-  <p class="para">
+  <p>
    Returns the translated <span class="type"><a href="language.types.string.php" class="type string">string</a></span>.
   </p>
-  <p class="para">
+  <p>
    If <code class="parameter">replace_pairs</code> contains a key which
    is an empty <span class="type"><a href="language.types.string.php" class="type string">string</a></span> (<em>&quot;&quot;</em>),
    <strong><code>FALSE</code></strong> will be returned. If the <code class="parameter">str</code> is not a scalar
@@ -114,8 +114,8 @@
 
 
  <div class="refsect1 examples">
-  <p class="para">
-   <div class="example">
+  <p>
+   <div>
     <p><strong>Example #1 <span><strong>translateChar()</strong></span> example</strong></p>
     <div>
 <div><code><span style="color: #000000">
@@ -126,13 +126,13 @@
 
    </div>
   </p>
-  <p class="para">
+  <p>
    The next example shows the behavior of <span><strong>translateChar()</strong></span> when
    called with only two arguments. Note the preference of the replacements
    (<em>&quot;h&quot;</em> is not picked because there are longer matches)
    and how replaced text was not searched again.
   </p>
-  <div class="example">
+  <div>
    <p><strong>Example #2 <span><strong>translateChar()</strong></span> example with two arguments</strong></p>
     <div>
 <div><code><span style="color: #000000">
@@ -148,12 +148,12 @@ hello all, I said hi
 </pre></div>
     </div>
   </div>
-  <p class="para">
+  <p>
    The two modes of behavior are substantially different. With three arguments,
    <span><strong>translateChar()</strong></span> will replace bytes; with two, it may replace
    longer substrings.
   </p>
-  <div class="example">
+  <div>
    <p><strong>Example #3 <span><strong>translateChar()</strong></span> behavior comparison</strong></p>
     <div>
 <div><code><span style="color: #000000">

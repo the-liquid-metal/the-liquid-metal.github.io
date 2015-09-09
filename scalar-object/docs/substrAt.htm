@@ -13,7 +13,7 @@
 
  <div class="refsect1 parameters">
   <h3 class="title">Parameters</h3>
-  <p class="para">
+  <p>
    <dl>
 
     
@@ -22,7 +22,7 @@
 
      <dd>
 
-      <p class="para">
+      <p>
        The input string. Must be one character or longer.
       </p>
      </dd>
@@ -34,7 +34,7 @@
 
      <dd>
 
-      <p class="para">
+      <p>
        If <code class="parameter">start</code> is non-negative, the returned string
        will start at the <code class="parameter">start</code>&#039;th position in
        <code class="parameter">string</code>, counting from zero. For instance,
@@ -43,17 +43,17 @@
        character at position <em>2</em> is
        &#039;<em>c</em>&#039;, and so forth.
       </p>
-      <p class="para">
+      <p>
        If <code class="parameter">start</code> is negative, the returned string
        will start at the <code class="parameter">start</code>&#039;th character
        from the end of <code class="parameter">string</code>.
       </p>
-      <p class="para">
+      <p>
        If <code class="parameter">string</code> is less than
        <code class="parameter">start</code> characters long, <strong><code>FALSE</code></strong> will be returned.
       </p>
-      <p class="para">
-       <div class="example">
+      <p>
+       <div>
         <p><strong>Example #1 Using a negative <code class="parameter">start</code></strong></p>
         <div>
 <div><code><span style="color: #000000">
@@ -73,13 +73,13 @@
 
      <dd>
 
-      <p class="para">
+      <p>
        If <code class="parameter">length</code> is given and is positive, the string
        returned will contain at most <code class="parameter">length</code> characters
        beginning from <code class="parameter">start</code> (depending on the length of
        <code class="parameter">string</code>).
       </p>
-      <p class="para">
+      <p>
        If <code class="parameter">length</code> is given and is negative, then that many
        characters will be omitted from the end of <code class="parameter">string</code>
        (after the start position has been calculated when a
@@ -87,16 +87,16 @@
        <code class="parameter">start</code> denotes the position of this truncation or
        beyond, <strong><code>FALSE</code></strong> will be returned.
       </p>
-      <p class="para">
+      <p>
        If <code class="parameter">length</code> is given and is <em>0</em>,
        <strong><code>FALSE</code></strong> or <strong><code>NULL</code></strong>, an empty string will be returned.
       </p>
-      <p class="para">
+      <p>
        If <code class="parameter">length</code> is omitted, the substring starting from
        <code class="parameter">start</code> until the end of the string will be
        returned.
       </p>
-      <div class="example">
+      <div>
        <p><strong>Example #2 Using a negative <code class="parameter">length</code></strong></p>
        <div>
 <div><code><span style="color: #000000">
@@ -117,7 +117,7 @@
 
  <div class="refsect1 returnvalues">
   <h3 class="title">Return Values</h3>
-  <p class="para">
+  <p>
    Returns the extracted part of <code class="parameter">string</code>;  or <strong><code>FALSE</code></strong> on failure, or
    an empty string.
   </p>
@@ -128,8 +128,8 @@
 
 
  <div class="refsect1 examples">
-  <p class="para">
-   <div class="example">
+  <p>
+   <div>
     <p><strong>Example #3 Basic <span><strong>substrAt()</strong></span> usage</strong></p>
     <div>
 <div><code><span style="color: #000000">
@@ -139,7 +139,7 @@
     </div>
 
    </div> 
-   <div class="example">
+   <div>
     <p><strong>Example #4 <span><strong>substrAt()</strong></span> casting behaviour</strong></p>
     <div>
 <div><code><span style="color: #000000">
@@ -179,9 +179,9 @@
 
  <div class="refsect1 errors">
   <h3 class="title">Errors/Exceptions</h3>
-  <p class="para">
+  <p>
    Returns <strong><code>FALSE</code></strong> on error.
-   <div class="example">
+   <div>
     <div>
 <div><code><span style="color: #000000">
 <span style="color: #0000BB">&lt;?php<br />var_dump</span><span style="color: #007700">(</span><span style="color: #0000BB">substrAt</span><span style="color: #007700">(</span><span style="color: #DD0000">'a'</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">2</span><span style="color: #007700">));&nbsp;</span><span style="color: #FF8000">//&nbsp;bool(false)<br /></span><span style="color: #0000BB">?&gt;</span>

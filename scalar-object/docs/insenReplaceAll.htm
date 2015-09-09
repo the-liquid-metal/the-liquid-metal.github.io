@@ -17,7 +17,7 @@
 
  <div class="refsect1 parameters">
   <h3 class="title">Parameters</h3>
-  <p class="para">
+  <p>
    If <code class="parameter">search</code> and <code class="parameter">replace</code> are
    arrays, then <span><strong>insenReplaceAll()</strong></span> takes a value from each
    array and uses them to search and replace on
@@ -28,11 +28,11 @@
    string is used for every value of <code class="parameter">search</code>. The
    converse would not make sense, though.
   </p>
-  <p class="para">
+  <p>
    If <code class="parameter">search</code> or <code class="parameter">replace</code>
    are arrays, their elements are processed first to last.
   </p>
-  <p class="para">
+  <p>
    <dl>
 
     
@@ -41,7 +41,7 @@
 
      <dd>
 
-      <p class="para">
+      <p>
        The value being searched for, otherwise known as the
        <em>needle</em>.  An array may be used to designate
        multiple needles.
@@ -55,7 +55,7 @@
 
      <dd>
 
-      <p class="para">
+      <p>
        The replacement value that replaces found <code class="parameter">search</code>
        values. An array may be used to designate multiple replacements.
       </p>
@@ -68,11 +68,11 @@
 
      <dd>
 
-      <p class="para">
+      <p>
        The string or array being searched and replaced on,
        otherwise known as the <em>haystack</em>.
       </p>
-      <p class="para">
+      <p>
        If <code class="parameter">subject</code> is an array, then the search and
        replace is performed with every entry of 
        <code class="parameter">subject</code>, and the return value is an array as
@@ -87,7 +87,7 @@
 
      <dd>
 
-      <p class="para">
+      <p>
        If passed, this will be set to the number of replacements performed.
       </p>
      </dd>
@@ -101,15 +101,15 @@
 
  <div class="refsect1 returnvalues">
   <h3 class="title">Return Values</h3>
-  <p class="para">
+  <p>
    Returns a string or an array of replacements.
   </p>
  </div>
 
 
  <div class="refsect1 examples">
-  <p class="para">
-   <div class="example">
+  <p>
+   <div>
     <p><strong>Example #1 <span><strong>insenReplaceAll()</strong></span> example</strong></p>
     <div>
 <div><code><span style="color: #000000">
@@ -128,7 +128,7 @@
 binary-safe.</span></p></blockquote>
   <div class="caution"><strong class="caution">Caution</strong>
    <h1 class="title">Replacement order gotcha</h1>
-   <p class="para">
+   <p>
     Because <span><strong>insenReplaceAll()</strong></span> replaces left to right, it might
     replace a previously inserted value when doing multiple replacements.
     Example #2 in the <span><a href="function.str-replace.php" class="function">str_replace()</a></span> documentation

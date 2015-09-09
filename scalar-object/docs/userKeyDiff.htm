@@ -10,7 +10,7 @@
    This function is like <span><a href="function.array-diff.php" class="function">array_diff()</a></span> except the
    comparison is done on the keys instead of the values.
   </p>
-  <p class="para">
+  <p>
    Unlike <span><a href="function.array-diff-key.php" class="function">array_diff_key()</a></span> a user supplied callback
    function is used for the indices comparison, not internal function.
   </p>
@@ -19,7 +19,7 @@
 
  <div class="refsect1 parameters">
   <h3 class="title">Parameters</h3>
-  <p class="para">
+  <p>
    <dl>
 
 
@@ -29,7 +29,7 @@
 
      <dd>
 
-      <p class="para">
+      <p>
        The array to compare from
       </p>
      </dd>
@@ -42,7 +42,7 @@
 
      <dd>
 
-      <p class="para">
+      <p>
        An array to compare against
       </p>
      </dd>
@@ -55,7 +55,7 @@
 
      <dd>
 
-      <p class="para">
+      <p>
        More arrays to compare against
       </p>
      </dd>
@@ -68,7 +68,7 @@
 
      <dd>
 
-      <p class="para">
+      <p>
        The comparison function must return an integer less than, equal to, or greater than zero if the first argument is considered to be respectively less than, equal to, or greater than the second.
       </p>
         </dd>
@@ -83,7 +83,7 @@
 
  <div class="refsect1 returnvalues">
   <h3 class="title">Return Values</h3>
-  <p class="para">
+  <p>
    Returns an <span class="type"><a href="language.types.array.php" class="type array">array</a></span> containing all the entries from
    <code class="parameter">array1</code> that are not present in any of the other arrays.
   </p>
@@ -93,8 +93,8 @@
 
  
  <div class="refsect1 examples">
-  <p class="para">
-   <div class="example">
+  <p>
+   <div>
     <p><strong>Example #1 <span><strong>userKeyDiff()</strong></span> example</strong></p>
     <div>
 <div><code><span style="color: #000000">
@@ -121,7 +121,7 @@ array(2) {
 
  <div>
   <blockquote><p><strong>Note</strong>: 
-   <p class="para">
+   <p>
     This function only checks one dimension of a n-dimensional
     array. Of course you can check deeper dimensions by using
     <em>userKeyDiff($array1[0], $array2[0], &#039;callback_func&#039;);</em>.

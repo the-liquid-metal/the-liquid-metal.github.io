@@ -9,13 +9,13 @@
    standard Unix <abbr class="abbrev">DES</abbr>-based algorithm or
    alternative algorithms that may be available on the system.
   </p>
-  <p class="para">
+  <p>
    The <code class="parameter">salt</code> parameter is optional. However, <span><strong>crypt()</strong></span> creates a weak password without the <code class="parameter">salt</code>. PHP 5.6 or later raise an E_NOTICE error without it. Make sure to specify a strong enough salt for better security. 
   </p>
-  <p class="para">
+  <p>
    <span><a href="function.password-hash.php" class="function">password_hash()</a></span> uses a strong hash, generates a strong salt, and applies proper rounds automatically. <span><a href="function.password-hash.php" class="function">password_hash()</a></span> is a simple <span><strong>crypt()</strong></span> wrapper and compatible with existing password hashes. Use of <span><a href="function.password-hash.php" class="function">password_hash()</a></span> is encouraged.
   </p>
-  <p class="para">
+  <p>
    Some operating systems support more than one type of hash.  In
    fact, sometimes the standard DES-based algorithm is replaced by an
    MD5-based algorithm.  The hash type is triggered by the salt argument.
@@ -26,14 +26,14 @@
    constant named <strong><code>CRYPT_SALT_LENGTH</code></strong> which indicates the
    longest valid salt allowed by the available hashes.
   </p>
-  <p class="para">
+  <p>
    The standard DES-based <span><strong>crypt()</strong></span> returns the
    salt as the first two characters of the output. It also only uses the
    first eight characters of <code class="parameter">str</code>, so longer strings
    that start with the same eight characters will generate the same result
    (when the same salt is used).
   </p>
-  <p class="simpara">
+  <p>
    On systems where the crypt() function supports multiple
    hash types, the following constants are set to 0 or 1
    depending on whether the given type is available:
@@ -100,7 +100,7 @@
    </li>
   </ul>
   <blockquote><p><strong>Note</strong>: 
-   <p class="para">
+   <p>
     As of PHP 5.3.0, PHP contains its own implementation and will use that
     if the system lacks of support for one or more of the algorithms.
    </p>
@@ -110,7 +110,7 @@
  
  <div class="refsect1 parameters">
   <h3 class="title">Parameters</h3>
-  <p class="para">
+  <p>
    <dl>
 
     
@@ -119,11 +119,11 @@
 
      <dd>
 
-      <p class="para">
+      <p>
        The string to be hashed.
       </p>
       <div class="caution"><strong class="caution">Caution</strong>
-       <p class="para">
+       <p>
         Using the <strong><code>CRYPT_BLOWFISH</code></strong> algorithm, will result
         in the <code class="parameter">str</code> parameter being truncated to a
         maximum length of 72 characters.
@@ -138,7 +138,7 @@
 
      <dd>
 
-      <p class="para">
+      <p>
        An optional salt string to base the hashing on. If not provided, the
        behaviour is defined by the algorithm implementation and can lead to
        unexpected results.
@@ -154,12 +154,12 @@
  
  <div class="refsect1 returnvalues">
   <h3 class="title">Return Values</h3>
-  <p class="para">
+  <p>
    Returns the hashed string or a string that is shorter than 13 characters
    and is guaranteed to differ from the salt on failure.
   </p>
   <div class="warning"><strong class="warning">Warning</strong>
-   <p class="simpara">
+   <p>
     When validating passwords, a string comparison function that isn&#039;t
     vulnerable to timing attacks should be used to compare the output of
     <span><strong>crypt()</strong></span> to the previously known hash. PHP 5.6 onwards
@@ -173,8 +173,8 @@
 
  
  <div class="refsect1 examples">
-  <p class="para">
-   <div class="example">
+  <p>
+   <div>
     <p><strong>Example #1 <span><strong>crypt()</strong></span> examples</strong></p>
     <div>
 <div><code><span style="color: #000000">
@@ -185,8 +185,8 @@
 
    </div>
   </p>
-  <p class="para">
-   <div class="example">
+  <p>
+   <div>
     <p><strong>Example #2 Using <span><strong>crypt()</strong></span> with htpasswd</strong></p>
     <div>
 <div><code><span style="color: #000000">
@@ -197,8 +197,8 @@
 
    </div>
   </p>
-  <p class="para">
-   <div class="example">
+  <p>
+   <div>
     <p><strong>Example #3 Using <span><strong>crypt()</strong></span> with different hash types</strong></p>
     <div>
 <div><code><span style="color: #000000">

@@ -13,7 +13,7 @@
 
  <div class="refsect1 parameters">
   <h3 class="title">Parameters</h3>
-  <p class="para">
+  <p>
    <dl>
 
     
@@ -22,7 +22,7 @@
 
      <dd>
 
-      <p class="para">
+      <p>
        The boundary string.
       </p>
      </dd>
@@ -34,7 +34,7 @@
 
      <dd>
 
-      <p class="para">
+      <p>
        The input string.
       </p>
      </dd>
@@ -46,16 +46,16 @@
 
      <dd>
 
-      <p class="para">
+      <p>
        If <code class="parameter">limit</code> is set and positive, the returned array will contain
        a maximum of <code class="parameter">limit</code> elements with the last
        element containing the rest of <code class="parameter">string</code>.
       </p>
-      <p class="para">
+      <p>
        If the <code class="parameter">limit</code> parameter is negative, all components
        except the last -<code class="parameter">limit</code> are returned.
       </p>
-      <p class="para">
+      <p>
        If the <code class="parameter">limit</code> parameter is zero, then this is treated as 1.
       </p>
      </dd>
@@ -65,7 +65,7 @@
 
   </p>
   <blockquote><p><strong>Note</strong>: 
-   <p class="para">
+   <p>
     Although <span><a href="function.implode.php" class="function">implode()</a></span> can, for historical reasons,
     accept its parameters in either order,
     <span><strong>explode()</strong></span> cannot. You must ensure that the
@@ -78,12 +78,12 @@
 
  <div class="refsect1 returnvalues">
   <h3 class="title">Return Values</h3>
-  <p class="para">
+  <p>
    Returns an <span class="type"><a href="language.types.array.php" class="type array">array</a></span> of <span class="type"><a href="language.types.string.php" class="type string">string</a></span>s
    created by splitting the <code class="parameter">string</code> parameter on
    boundaries formed by the <code class="parameter">delimiter</code>.
   </p>
-  <p class="para">
+  <p>
    If <code class="parameter">delimiter</code> is an empty <span class="type"><a href="language.types.string.php" class="type string">string</a></span> (&quot;&quot;),
    <span><strong>explode()</strong></span> will return <strong><code>FALSE</code></strong>.
    If <code class="parameter">delimiter</code> contains a value that is not
@@ -99,8 +99,8 @@
 
 
  <div class="refsect1 examples">
-  <p class="para">
-   <div class="example">
+  <p>
+   <div>
     <p><strong>Example #1 <span><strong>explode()</strong></span> examples</strong></p>
     <div>
 <div><code><span style="color: #000000">
@@ -111,8 +111,8 @@
 
    </div>
   </p>
-  <p class="para">
-   <div class="example">
+  <p>
+   <div>
     <p><strong>Example #2 <span><strong>explode()</strong></span> return examples</strong></p>
     <div>
 <div><code><span style="color: #000000">
@@ -137,8 +137,8 @@ array(2)
     </div>
    </div>
   </p>
-  <p class="para">
-   <div class="example">
+  <p>
+   <div>
     <p><strong>Example #3 <code class="parameter">limit</code> parameter examples</strong></p>
     <div>
 <div><code><span style="color: #000000">

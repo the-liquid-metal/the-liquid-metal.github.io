@@ -18,7 +18,7 @@
 
  <div class="refsect1 parameters">
   <h3 class="title">Parameters</h3>
-  <p class="para">
+  <p>
    <dl>
 
     
@@ -27,7 +27,7 @@
 
      <dd>
 
-      <p class="para">
+      <p>
        Callback function to run for each element in each array.
       </p>
      </dd>
@@ -39,7 +39,7 @@
 
      <dd>
 
-      <p class="para">
+      <p>
        An array to run through the <code class="parameter">callback</code> function.
       </p>
      </dd>
@@ -51,7 +51,7 @@
 
      <dd>
 
-      <p class="para">
+      <p>
        Variable list of array arguments to run through the
        <code class="parameter">callback</code> function.
       </p>
@@ -66,7 +66,7 @@
 
  <div class="refsect1 returnvalues">
   <h3 class="title">Return Values</h3>
-  <p class="para">
+  <p>
    Returns an array containing all the elements of <code class="parameter">array1</code>
    after applying the <code class="parameter">callback</code> function to each one.
   </p>
@@ -74,8 +74,8 @@
 
 
  <div class="refsect1 examples">
-  <p class="para">
-   <div class="example">
+  <p>
+   <div>
     <p><strong>Example #1 <span><strong>map()</strong></span> example</strong></p>
     <div>
 <div><code><span style="color: #000000">
@@ -101,8 +101,8 @@ Array
     </div>
    </div>
   </p>
-  <p class="para">
-   <div class="example">
+  <p>
+   <div>
     <p><strong>Example #2 <span><strong>map()</strong></span> using a lambda function (as of PHP 5.3.0)</strong></p>
     <div>
 <div><code><span style="color: #000000">
@@ -125,8 +125,8 @@ Array
     </div>
    </div>
   </p>
-  <p class="para">
-   <div class="example">
+  <p>
+   <div>
     <p><strong>Example #3 <span><strong>map()</strong></span> - using more arrays</strong></p>
     <div>
 <div><code><span style="color: #000000">
@@ -181,20 +181,20 @@ Array
     </div>
    </div>
   </p>
-  <p class="para">
+  <p>
    Usually when using two or more arrays, they should be of equal length
    because the callback function is applied in parallel to the corresponding
    elements.
    If the arrays are of unequal length, shorter ones will be extended with empty
    elements to match the length of the longest.
   </p>
-  <p class="para">
+  <p>
    An interesting use of this function is to construct an array of arrays,
    which can be easily performed by using <strong><code>NULL</code></strong>
    as the name of the callback function
   </p>
-  <p class="para">
-   <div class="example">
+  <p>
+   <div>
     <p><strong>Example #4 Creating an array of arrays</strong></p>
     <div>
 <div><code><span style="color: #000000">
@@ -248,14 +248,14 @@ Array
     </div>
    </div>
   </p>
-  <p class="para">
+  <p>
    If the array argument contains string keys then the returned array
    will contain string keys if and only if exactly one array is passed. If 
    more than one argument is passed then the returned array always has 
    integer keys.
   </p>
-  <p class="para">
-   <div class="example">
+  <p>
+   <div>
     <p><strong>Example #5 <span><strong>map()</strong></span> - with string keys</strong></p>
     <div>
 <div><code><span style="color: #000000">

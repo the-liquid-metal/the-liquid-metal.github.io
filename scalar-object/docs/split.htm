@@ -12,7 +12,7 @@
 
  <div class="refsect1 parameters">
   <h3 class="title">Parameters</h3>
-  <p class="para">
+  <p>
    <dl>
 
     
@@ -21,7 +21,7 @@
 
      <dd>
 
-      <p class="para">
+      <p>
        The input string.
       </p>
      </dd>
@@ -33,7 +33,7 @@
 
      <dd>
 
-      <p class="para">
+      <p>
        Maximum length of the chunk.
       </p>
      </dd>
@@ -47,13 +47,13 @@
 
  <div class="refsect1 returnvalues">
   <h3 class="title">Return Values</h3>
-  <p class="para">
+  <p>
    If the optional <code class="parameter">split_length</code> parameter is
    specified, the returned array will be broken down into chunks with each
    being <code class="parameter">split_length</code> in length, otherwise each chunk
    will be one character in length.
   </p>
-  <p class="para">
+  <p>
    <strong><code>FALSE</code></strong> is returned if <code class="parameter">split_length</code> is less than 1.
    If the <code class="parameter">split_length</code> length exceeds the length of
    <code class="parameter">string</code>, the entire string is returned as the first
@@ -63,8 +63,8 @@
 
 
  <div class="refsect1 examples">
-  <p class="para">
-   <div class="example">
+  <p>
+   <div>
     <p><strong>Example #1 Example uses of <span><strong>split()</strong></span></strong></p>
     <div>
 <div><code><span style="color: #000000">
@@ -108,7 +108,7 @@ Array
 
  <div>
   <blockquote><p><strong>Note</strong>: 
-   <p class="para">
+   <p>
     <span><strong>split()</strong></span> will split into bytes, rather than characters when dealing with a multi-byte encoded string.
    </p>
   </p></blockquote>

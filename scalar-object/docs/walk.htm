@@ -3,11 +3,11 @@
   <h1 class="refname">walk</h1>
  </div>
  <div class="refsect1 description">
-  <p class="simpara">
+  <p>
    Applies the user-defined <code class="parameter">callback</code> function to each
    element of the <code class="parameter">array</code> array.
   </p>
-  <p class="para">
+  <p>
    <span><strong>walk()</strong></span> is not affected by the internal array
    pointer of <code class="parameter">array</code>.  <span><strong>walk()</strong></span>
    will walk through the entire array regardless of pointer position.
@@ -16,7 +16,7 @@
 
  <div class="refsect1 parameters">
   <h3 class="title">Parameters</h3>
-  <p class="para">
+  <p>
    <dl>
 
     
@@ -25,7 +25,7 @@
 
      <dd>
 
-      <p class="para">
+      <p>
        The input array.
       </p>
      </dd>
@@ -37,13 +37,13 @@
 
      <dd>
 
-      <p class="para">
+      <p>
        Typically, <code class="parameter">callback</code> takes on two parameters.
        The <code class="parameter">array</code> parameter&#039;s value being the first, and
        the key/index second.
       </p>
       <blockquote><p><strong>Note</strong>: 
-       <p class="para">
+       <p>
         If <code class="parameter">callback</code> needs to be working with the
         actual values of the array, specify the first parameter of
         <code class="parameter">callback</code> as a
@@ -53,14 +53,14 @@
        </p>
       </p></blockquote>
       <blockquote><p><strong>Note</strong>: 
-        <p class="para">
+        <p>
           Many internal functions (for example <span><a href="function.strtolower.php" class="function">strtolower()</a></span>)
           will throw a warning if more than the expected number of argument
           are passed in and are not usable directly as a
           <code class="parameter">callback</code>.
         </p>
       </p></blockquote>
-      <p class="para">
+      <p>
        Only the values of the <code class="parameter">array</code> may potentially be
        changed; its structure cannot be altered, i.e., the programmer cannot
        add, unset or reorder elements. If the callback does not respect this
@@ -76,7 +76,7 @@
 
      <dd>
 
-      <p class="para">
+      <p>
        If the optional <code class="parameter">userdata</code> parameter is supplied,
        it will be passed as the third parameter to the
        <code class="parameter">callback</code>.
@@ -91,14 +91,14 @@
 
  <div class="refsect1 returnvalues">
   <h3 class="title">Return Values</h3>
-  <p class="para">
+  <p>
    Returns <strong><code>TRUE</code></strong> on success or <strong><code>FALSE</code></strong> on failure.
   </p>
  </div>
 
  <div class="refsect1 errors">
   <h3 class="title">Errors/Exceptions</h3>
-  <p class="para">
+  <p>
    If function <code class="parameter">callback</code> requires more parameters than
    given to it, an error of level <a href="errorfunc.constants.php" class="link">
    E_WARNING</a> will be generated each time <span><strong>walk()</strong></span>
@@ -107,8 +107,8 @@
  </div>
 
  <div class="refsect1 examples">
-  <p class="para">
-   <div class="example">
+  <p>
+   <div>
     <p><strong>Example #1 <span><strong>walk()</strong></span> example</strong></p>
     <div>
 <div><code><span style="color: #000000">

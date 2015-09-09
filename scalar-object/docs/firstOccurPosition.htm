@@ -13,7 +13,7 @@
 
  <div class="refsect1 parameters">
   <h3 class="title">Parameters</h3>
-  <p class="para">
+  <p>
    <dl>
 
     
@@ -22,7 +22,7 @@
 
      <dd>
 
-      <p class="para">
+      <p>
        The string to search in.
       </p>
      </dd>
@@ -34,7 +34,7 @@
 
      <dd>
 
-      <p class="para">
+      <p>
        If <code class="parameter">needle</code> is not a string, it is converted
        to an integer and applied as the ordinal value of a character.
       </p>
@@ -47,7 +47,7 @@
 
      <dd>
 
-      <p class="para">
+      <p>
        If specified, search will start this number of characters counted from
        the beginning of the string. Unlike <span><a href="function.strrpos.php" class="function">strrpos()</a></span> and
        <span><a href="function.strripos.php" class="function">strripos()</a></span>, the offset cannot be negative.
@@ -63,15 +63,15 @@
 
  <div class="refsect1 returnvalues">
   <h3 class="title">Return Values</h3>
-  <p class="para">
+  <p>
    Returns the position of where the needle exists relative to the beginning of
    the <code class="parameter">haystack</code> string (independent of offset).
    Also note that string positions start at 0, and not 1.
   </p>
-  <p class="para">
+  <p>
    Returns <strong><code>FALSE</code></strong> if the needle was not found.
   </p>
-  <div class="warning"><strong class="warning">Warning</strong><p class="simpara">This function may
+  <div class="warning"><strong class="warning">Warning</strong><p>This function may
 return Boolean <strong><code>FALSE</code></strong>, but may also return a non-Boolean value which
 evaluates to <strong><code>FALSE</code></strong>. Please read the section on <a href="language.types.boolean.php" class="link">Booleans</a> for more
 information. Use <a href="language.operators.comparison.php" class="link">the ===
@@ -81,8 +81,8 @@ function.</p></div>
 
 
  <div class="refsect1 examples">
-  <p class="para">
-   <div class="example">
+  <p>
+   <div>
     <p><strong>Example #1 Using <em>===</em></strong></p>
     <div>
 <div><code><span style="color: #000000">
@@ -93,7 +93,7 @@ function.</p></div>
 
    </div>
 
-   <div class="example">
+   <div>
     <p><strong>Example #2 Using !==</strong></p>
     <div>
 <div><code><span style="color: #000000">
@@ -104,7 +104,7 @@ function.</p></div>
 
    </div>
 
-   <div class="example">
+   <div>
     <p><strong>Example #3 Using an offset</strong></p>
     <div>
 <div><code><span style="color: #000000">

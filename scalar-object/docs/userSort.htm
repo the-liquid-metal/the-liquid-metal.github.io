@@ -9,7 +9,7 @@
    some non-trivial criteria, you should use this function.
   </p>
   <blockquote><p><strong>Note</strong>: 
-   <p class="para">
+   <p>
     If two members compare as equal, their relative order in the sorted array is undefined.
    </p>
   </p></blockquote>
@@ -21,7 +21,7 @@ than just reordering the keys.</span></p></blockquote>
 
  <div class="refsect1 parameters">
   <h3 class="title">Parameters</h3>
-  <p class="para">
+  <p>
    <dl>
 
     
@@ -30,7 +30,7 @@ than just reordering the keys.</span></p></blockquote>
 
      <dd>
 
-      <p class="para">
+      <p>
        The input array.
       </p>
      </dd>
@@ -42,11 +42,11 @@ than just reordering the keys.</span></p></blockquote>
 
      <dd>
 
-      <p class="para">
+      <p>
        The comparison function must return an integer less than, equal to, or greater than zero if the first argument is considered to be respectively less than, equal to, or greater than the second.
       </p>
          <div class="caution"><strong class="caution">Caution</strong>
-       <p class="para">
+       <p>
         Returning <em>non-integer</em> values from the comparison
         function, such as <span class="type"><a href="language.types.float.php" class="type float">float</a></span>, will result in an internal cast to
         <span class="type"><a href="language.types.integer.php" class="type integer">integer</a></span> of the callback&#039;s return value. So values such as
@@ -64,14 +64,14 @@ than just reordering the keys.</span></p></blockquote>
 
  <div class="refsect1 returnvalues">
   <h3 class="title">Return Values</h3>
-  <p class="para">
+  <p>
    Returns <strong><code>TRUE</code></strong> on success or <strong><code>FALSE</code></strong> on failure.
   </p>
  </div>
 
  <div class="refsect1 examples">
-  <p class="para">
-   <div class="example">
+  <p>
+   <div>
     <p><strong>Example #1 <span><strong>userSort()</strong></span> example</strong></p>
     <div>
 <div><code><span style="color: #000000">
@@ -93,13 +93,13 @@ than just reordering the keys.</span></p></blockquote>
    </div>
   </p>
   <blockquote><p><strong>Note</strong>: 
-   <p class="para">
+   <p>
     Obviously in this trivial case the <span><a href="function.sort.php" class="function">sort()</a></span>
     function would be more appropriate.
    </p>
   </p></blockquote>
-  <p class="para">
-   <div class="example">
+  <p>
+   <div>
     <p><strong>Example #2 
      <span><strong>userSort()</strong></span> example using multi-dimensional array
     </strong></p>
@@ -124,8 +124,8 @@ $fruits[2]: lemons
     </div>
    </div>
   </p>
-  <p class="para">
-   <div class="example">
+  <p>
+   <div>
     <p><strong>Example #3 
      <span><strong>userSort()</strong></span> example using a member function of an object
     </strong></p>
@@ -145,7 +145,7 @@ d
 </pre></div>
     </div>
    </div>
-   <div class="example">
+   <div>
     <p><strong>Example #4 
      <span><strong>userSort()</strong></span> example using a <a href="functions.anonymous.php" class="link">closure</a>
      to sort a multi-dimensional array

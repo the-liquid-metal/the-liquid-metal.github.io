@@ -8,7 +8,7 @@
    arrays at once, or a multi-dimensional array by one or more
    dimensions.
   </p>
-  <p class="para">
+  <p>
    Associative (<span class="type"><a href="language.types.string.php" class="type string">string</a></span>) keys will be maintained, but numeric
    keys will be re-indexed.
   </p>
@@ -17,7 +17,7 @@
 
  <div class="refsect1 parameters">
   <h3 class="title">Parameters</h3>
-  <p class="para">
+  <p>
    <dl>
 
     
@@ -26,7 +26,7 @@
 
      <dd>
 
-      <p class="para">
+      <p>
        An <span class="type"><a href="language.types.array.php" class="type array">array</a></span> being sorted.
       </p>
      </dd>
@@ -38,12 +38,12 @@
 
      <dd>
 
-      <p class="para">
+      <p>
        The order used to sort the previous <span class="type"><a href="language.types.array.php" class="type array">array</a></span> argument. Either
        <strong><code>SORT_ASC</code></strong> to sort ascendingly or <strong><code>SORT_DESC</code></strong>
        to sort descendingly.
       </p>
-      <p class="para">
+      <p>
        This argument can be swapped with <code class="parameter">array1_sort_flags</code>
        or omitted entirely, in which case <strong><code>SORT_ASC</code></strong> is assumed.
       </p>
@@ -56,10 +56,10 @@
 
      <dd>
 
-      <p class="para">
+      <p>
        Sort options for the previous <span class="type"><a href="language.types.array.php" class="type array">array</a></span> argument:
       </p>
-      <p class="para">
+      <p>
        Sorting type flags:
        <ul class="itemizedlist">
         <li class="listitem">
@@ -95,7 +95,7 @@
         </li>
        </ul>
       </p>
-      <p class="para">
+      <p>
        This argument can be swapped with <code class="parameter">array1_sort_order</code>
        or omitted entirely, in which case <strong><code>SORT_REGULAR</code></strong> is assumed.
       </p>
@@ -108,7 +108,7 @@
 
      <dd>
 
-      <p class="para">
+      <p>
        More arrays, optionally followed by sort order and flags. Only elements
        corresponding to equivalent elements in previous arrays are compared.
        In other words, the sort is lexicographical.
@@ -124,7 +124,7 @@
 
  <div class="refsect1 returnvalues">
   <h3 class="title">Return Values</h3>
-  <p class="para">
+  <p>
    Returns <strong><code>TRUE</code></strong> on success or <strong><code>FALSE</code></strong> on failure.
   </p>
  </div>
@@ -134,8 +134,8 @@
 
 
  <div class="refsect1 examples">
-  <p class="para">
-   <div class="example">
+  <p>
+   <div>
     <p><strong>Example #1 Sorting multiple arrays</strong></p>
     <div>
 <div><code><span style="color: #000000">
@@ -168,8 +168,8 @@ array(4) {
     </div>
    </div>
   </p>
-  <p class="para">
-   <div class="example">
+  <p>
+   <div>
     <p><strong>Example #2 Sorting multi-dimensional array</strong></p>
     <div>
 <div><code><span style="color: #000000">
@@ -206,8 +206,8 @@ array(2) {
     </div>
    </div>
   </p>
-  <p class="para">
-   <div class="example">
+  <p>
+   <div>
     <p><strong>Example #3 Sorting database results</strong></p>
     <div><p>
      For this example, each element in the <var class="varname"><var class="varname">data</var></var>
@@ -273,8 +273,8 @@ volume | edition
     </div>
    </div>
   </p>
-  <p class="para">
-   <div class="example">
+  <p>
+   <div>
     <p><strong>Example #4 Case insensitive sorting</strong></p>
     <div><p>
      Both <strong><code>SORT_STRING</code></strong> and
