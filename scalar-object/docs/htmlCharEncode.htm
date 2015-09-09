@@ -64,7 +64,7 @@
      <dd><p>A bitmask of one or more of the following flags, which specify how to handle quotes,
        invalid code unit sequences and the used document type. The default is
        <em>ENT_COMPAT | ENT_HTML401</em>.
-       <table class="doctable table">
+       <table class="table">
         <caption><strong>Available <code>flags</code> constants</strong></caption>
 
          <thead>
@@ -96,7 +96,7 @@
            <td>
             Silently discard invalid code unit sequences instead of returning
             an empty string. Using this flag is discouraged as it
-            <a href="http://unicode.org/reports/tr36/#Deletion_of_Noncharacters" class="link external">&raquo;&nbsp;may have security implications</a>.
+            <a href="http://unicode.org/reports/tr36/#Deletion_of_Noncharacters">&raquo;&nbsp;may have security implications</a>.
            </td>
           </tr>
 
@@ -188,7 +188,7 @@
 
 <p>
  The following character sets are supported:
- <table class="doctable table">
+ <table class="table">
   <caption><strong>Supported charsets</strong></caption>
 
    <thead>
@@ -228,7 +228,7 @@
 
     <tr>
      <td>UTF-8</td>
-     <td class="empty">&nbsp;</td>
+     <td>&nbsp;</td>
      <td>
       ASCII compatible multi-byte 8-bit Unicode.
      </td>
@@ -284,7 +284,7 @@
 
     <tr>
      <td>BIG5-HKSCS</td>
-     <td class="empty">&nbsp;</td>
+     <td>&nbsp;</td>
      <td>
       Big5 with Hong Kong extensions, Traditional Chinese.
      </td>
@@ -308,7 +308,7 @@
 
     <tr>
      <td>MacRoman</td>
-     <td class="empty">&nbsp;</td>
+     <td>&nbsp;</td>
      <td>
       Charset that was used by Mac OS.
      </td>
@@ -316,7 +316,7 @@
 
     <tr>
      <td><em>&#039;&#039;</em></td>
-     <td class="empty">&nbsp;</td>
+     <td>&nbsp;</td>
      <td>
       An empty string activates detection from script encoding (Zend multibyte),
       <a href="ini.core.php#ini.default-charset">default_charset</a> and current

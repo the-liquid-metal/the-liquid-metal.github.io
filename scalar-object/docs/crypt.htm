@@ -70,7 +70,7 @@
      Versions of PHP before 5.3.7 only support &quot;$2a$&quot; as the salt prefix: PHP
      5.3.7 introduced the new prefixes to fix a security weakness in the
      Blowfish implementation.  Please refer to
-     <a href="http://www.php.net/security/crypt_blowfish.php" class="link external">&raquo;&nbsp;this document</a> for full
+     <a href="http://www.php.net/security/crypt_blowfish.php">&raquo;&nbsp;this document</a> for full
      details of the security fix, but to summarise, developers targeting only
      PHP 5.3.7 and later should use &quot;$2y$&quot; in preference to &quot;$2a$&quot;.
     </span>
@@ -111,7 +111,7 @@
      <dt><code>str</code></dt>
      <dd><p>The string to be hashed.
       </p>
-      <div class="caution"><strong class="caution">Caution</strong>
+      <div class="caution"><strong>Caution</strong>
        <p>
         Using the <strong><code>CRYPT_BLOWFISH</code></strong> algorithm, will result
         in the <code>str</code> parameter being truncated to a
