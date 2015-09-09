@@ -20,9 +20,9 @@
    the return value&#039;s.
   </p>
   <p>
-   If given two arguments, the second should be an <span class="type"><a href="language.types.array.php" class="type array">array</a></span> in the
+   If given two arguments, the second should be an <span><a href="language.types.array.php" class="type array">array</a></span> in the
    form <em>array(&#039;from&#039; =&gt; &#039;to&#039;, ...)</em>. The return value is
-   a <span class="type"><a href="language.types.string.php" class="type string">string</a></span> where all the occurrences of the array keys have been
+   a <span><a href="language.types.string.php" class="type string">string</a></span> where all the occurrences of the array keys have been
    replaced by the corresponding values. The longest keys will be tried first.
    Once a substring has been replaced, its new value will not be searched
    again.
@@ -49,7 +49,7 @@
      <dd>
 
       <p>
-       The <span class="type"><a href="language.types.string.php" class="type string">string</a></span> being translated.
+       The <span><a href="language.types.string.php" class="type string">string</a></span> being translated.
       </p>
      </dd>
 
@@ -61,7 +61,7 @@
      <dd>
 
       <p>
-       The <span class="type"><a href="language.types.string.php" class="type string">string</a></span> being translated to <code class="parameter">to</code>.
+       The <span><a href="language.types.string.php" class="type string">string</a></span> being translated to <code class="parameter">to</code>.
       </p>
      </dd>
 
@@ -73,7 +73,7 @@
      <dd>
 
       <p>
-       The <span class="type"><a href="language.types.string.php" class="type string">string</a></span> replacing <code class="parameter">from</code>.
+       The <span><a href="language.types.string.php" class="type string">string</a></span> replacing <code class="parameter">from</code>.
       </p>
      </dd>
 
@@ -87,7 +87,7 @@
       <p>
        The <code class="parameter">replace_pairs</code> parameter may be used instead of 
        <code class="parameter">to</code> and <code class="parameter">from</code>, in which case it&#039;s an
-       <span class="type"><a href="language.types.array.php" class="type array">array</a></span> in the form <em>array(&#039;from&#039; =&gt; &#039;to&#039;, ...)</em>. 
+       <span><a href="language.types.array.php" class="type array">array</a></span> in the form <em>array(&#039;from&#039; =&gt; &#039;to&#039;, ...)</em>. 
       </p>
      </dd>
 
@@ -98,14 +98,14 @@
  </div>
 
  
- <div class="refsect1 returnvalues">
+ <div class="returnvalues">
   <h3 class="title">Return Values</h3>
   <p>
-   Returns the translated <span class="type"><a href="language.types.string.php" class="type string">string</a></span>.
+   Returns the translated <span><a href="language.types.string.php" class="type string">string</a></span>.
   </p>
   <p>
    If <code class="parameter">replace_pairs</code> contains a key which
-   is an empty <span class="type"><a href="language.types.string.php" class="type string">string</a></span> (<em>&quot;&quot;</em>),
+   is an empty <span><a href="language.types.string.php" class="type string">string</a></span> (<em>&quot;&quot;</em>),
    <strong><code>FALSE</code></strong> will be returned. If the <code class="parameter">str</code> is not a scalar
    then it is not typecasted into a string, instead a warning is raised and 
    <strong><code>NULL</code></strong> is returned. 
@@ -113,7 +113,7 @@
  </div>
 
 
- <div class="refsect1 examples">
+ <div class="examples">
   <p>
    <div>
     <p><strong>Example #1 <span><strong>translateChar()</strong></span> example</strong></p>
