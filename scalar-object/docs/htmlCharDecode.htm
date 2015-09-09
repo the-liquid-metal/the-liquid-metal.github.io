@@ -97,17 +97,13 @@
   <p>
    <div>
     <p><strong>Example #1 A <span><strong>htmlCharDecode()</strong></span> example</strong></p>
-    <div>
-     <pre><span style="color: #0000BB">&lt;?php<br />$str&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #DD0000">"&lt;p&gt;this&nbsp;-&amp;gt;&nbsp;&amp;quot;&lt;/p&gt;\n"</span><span style="color: #007700">;<br /><br />echo&nbsp;</span><span style="color: #0000BB">htmlCharDecode</span><span style="color: #007700">(</span><span style="color: #0000BB">$str</span><span style="color: #007700">);<br /><br /></span><span style="color: #FF8000">//&nbsp;note&nbsp;that&nbsp;here&nbsp;the&nbsp;quotes&nbsp;aren't&nbsp;converted<br /></span><span style="color: #007700">echo&nbsp;</span><span style="color: #0000BB">htmlCharDecode</span><span style="color: #007700">(</span><span style="color: #0000BB">$str</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">ENT_NOQUOTES</span><span style="color: #007700">);<br /></span><span style="color: #0000BB">?&gt;</span></pre>
-    </div>
+    <pre><span style="color: #0000BB">&lt;?php<br />$str&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #DD0000">"&lt;p&gt;this&nbsp;-&amp;gt;&nbsp;&amp;quot;&lt;/p&gt;\n"</span><span style="color: #007700">;<br /><br />echo&nbsp;</span><span style="color: #0000BB">htmlCharDecode</span><span style="color: #007700">(</span><span style="color: #0000BB">$str</span><span style="color: #007700">);<br /><br /></span><span style="color: #FF8000">//&nbsp;note&nbsp;that&nbsp;here&nbsp;the&nbsp;quotes&nbsp;aren't&nbsp;converted<br /></span><span style="color: #007700">echo&nbsp;</span><span style="color: #0000BB">htmlCharDecode</span><span style="color: #007700">(</span><span style="color: #0000BB">$str</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">ENT_NOQUOTES</span><span style="color: #007700">);<br /></span><span style="color: #0000BB">?&gt;</span></pre>
 
     <div><p>The above example will output:</p></div>
-    <div>
 <pre>
 &lt;p&gt;this -&gt; &quot;&lt;/p&gt;
 &lt;p&gt;this -&gt; &amp;quot;&lt;/p&gt;
 </pre>
-    </div>
    </div>
   </p>
  </div>
