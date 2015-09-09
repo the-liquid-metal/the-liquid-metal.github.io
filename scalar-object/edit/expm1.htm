@@ -1,1 +1,71 @@
-.
+
+ <div class="refnamediv">
+  <h1 class="refname">expm1</h1>
+ </div>
+ <div class="refsect1 description" id="refsect1-function.expm1-description">
+  <h3 class="title">Description</h3>
+  <p class="para rdfs-comment">
+   <span class="function"><strong>expm1()</strong></span> returns the equivalent to
+   &#039;exp(<code class="parameter">arg</code>) -  1&#039; computed in a way that is
+   accurate even if the value of <code class="parameter">arg</code> is near zero,
+   a case where &#039;exp (<code class="parameter">arg</code>) - 1&#039; would be
+   inaccurate due to subtraction of two numbers that are nearly equal.
+  </p>
+ </div>
+
+ <div class="refsect1 parameters" id="refsect1-function.expm1-parameters">
+  <h3 class="title">Parameters</h3>
+  <p class="para">
+   <dl>
+
+    
+     <dt>
+<code class="parameter">arg</code></dt>
+
+     <dd>
+
+      <p class="para">
+       The argument to process
+      </p>
+     </dd>
+
+    
+   </dl>
+
+  </p>
+ </div>
+
+ <div class="refsect1 returnvalues" id="refsect1-function.expm1-returnvalues">
+  <h3 class="title">Return Values</h3>
+  <p class="para">
+   &#039;e&#039; to the power of <code class="parameter">arg</code> minus one
+  </p>
+ </div>
+
+ <div class="refsect1 changelog" id="refsect1-function.expm1-changelog">
+  <h3 class="title">Changelog</h3>
+  <p class="para">
+   <table class="doctable informaltable">
+    
+     <thead>
+      <tr>
+       <th>Version</th>
+       <th>Description</th>
+      </tr>
+
+     </thead>
+
+     <tbody class="tbody">
+      <tr>
+       <td>5.3.0</td>
+       <td>
+         This function is now available on all platforms
+       </td>
+      </tr>
+
+     </tbody>
+    
+   </table>
+
+  </p>
+ </div>

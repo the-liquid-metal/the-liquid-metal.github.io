@@ -1,1 +1,76 @@
-.
+
+ <div class="refnamediv">
+  <h1 class="refname">fmod</h1>
+ </div>
+ <div class="refsect1 description" id="refsect1-function.fmod-description">
+  <h3 class="title">Description</h3>
+  <p class="para rdfs-comment">
+   Returns the floating point remainder of dividing the dividend
+   (<code class="parameter">x</code>) by the divisor (<code class="parameter">y</code>).
+   The remainder (<var class="varname"><var class="varname">r</var></var>) is defined as: x = i * y + r, for 
+   some integer <var class="varname"><var class="varname">i</var></var>. If <code class="parameter">y</code> is
+   non-zero, <var class="varname"><var class="varname">r</var></var> has the same sign as
+   <code class="parameter">x</code> and a magnitude less than the magnitude of
+   <code class="parameter">y</code>.
+  </p>
+ </div>
+
+ <div class="refsect1 parameters" id="refsect1-function.fmod-parameters">
+  <h3 class="title">Parameters</h3>
+  <p class="para">
+   <dl>
+
+    
+     <dt>
+<code class="parameter">x</code></dt>
+
+     <dd>
+
+      <p class="para">
+       The dividend
+      </p>
+     </dd>
+
+    
+    
+     <dt>
+<code class="parameter">y</code></dt>
+
+     <dd>
+
+      <p class="para">
+       The divisor
+      </p>
+     </dd>
+
+    
+   </dl>
+
+  </p>
+ </div>
+
+ <div class="refsect1 returnvalues" id="refsect1-function.fmod-returnvalues">
+  <h3 class="title">Return Values</h3>
+  <p class="para">
+   The floating point remainder of 
+   <code class="parameter">x</code>/<code class="parameter">y</code>
+  </p>
+ </div>
+
+ <div class="refsect1 examples" id="refsect1-function.fmod-examples">
+  <h3 class="title">Examples</h3>
+  <p class="para">
+   <div class="example" id="example-3949">
+    <p><strong>Example #1 Using <span class="function"><strong>fmod()</strong></span></strong></p>
+    <div class="example-contents">
+<div class="phpcode"><code><span style="color: #000000">
+<span style="color: #0000BB">&lt;?php<br />$x&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #0000BB">5.7</span><span style="color: #007700">;<br /></span><span style="color: #0000BB">$y&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #0000BB">1.3</span><span style="color: #007700">;<br /></span><span style="color: #0000BB">$r&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #0000BB">fmod</span><span style="color: #007700">(</span><span style="color: #0000BB">$x</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">$y</span><span style="color: #007700">);<br /></span><span style="color: #FF8000">//&nbsp;$r&nbsp;equals&nbsp;0.5,&nbsp;because&nbsp;4&nbsp;*&nbsp;1.3&nbsp;+&nbsp;0.5&nbsp;=&nbsp;5.7<br /></span><span style="color: #0000BB">?&gt;</span>
+</span>
+</code></div>
+    </div>
+
+   </div>
+  </p>
+ </div>
+
+</div>

@@ -1,1 +1,71 @@
-.
+
+ <div class="refnamediv">
+  <h1 class="refname">log1p</h1>
+ </div>
+ <div class="refsect1 description" id="refsect1-function.log1p-description">
+  <h3 class="title">Description</h3>
+  <p class="para rdfs-comment">
+   <span class="function"><strong>log1p()</strong></span> returns log(1 +
+   <code class="parameter">number</code>) computed in a way that is accurate even
+   when the value of <code class="parameter">number</code> is close to zero.
+   <span class="function"><a href="function.log.php" class="function">log()</a></span> might only return log(1) in this case
+   due to lack of precision.
+  </p>
+ </div>
+
+ <div class="refsect1 parameters" id="refsect1-function.log1p-parameters">
+  <h3 class="title">Parameters</h3>
+  <p class="para">
+   <dl>
+
+    
+     <dt>
+<code class="parameter">number</code></dt>
+
+     <dd>
+
+      <p class="para">
+       The argument to process
+      </p>
+     </dd>
+
+    
+   </dl>
+
+  </p>
+ </div>
+
+ <div class="refsect1 returnvalues" id="refsect1-function.log1p-returnvalues">
+  <h3 class="title">Return Values</h3>
+  <p class="para">
+   log(1 + <code class="parameter">number</code>)
+  </p>
+ </div>
+
+ <div class="refsect1 changelog" id="refsect1-function.log1p-changelog">
+  <h3 class="title">Changelog</h3>
+  <p class="para">
+   <table class="doctable informaltable">
+    
+     <thead>
+      <tr>
+       <th>Version</th>
+       <th>Description</th>
+      </tr>
+
+     </thead>
+
+     <tbody class="tbody">
+      <tr>
+       <td>5.3.0</td>
+       <td>
+         This function is now available on all platforms
+       </td>
+      </tr>
+
+     </tbody>
+    
+   </table>
+
+  </p>
+ </div>
