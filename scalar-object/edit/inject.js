@@ -1,5 +1,7 @@
 $(document).ready(function(){
+    console.log("OK");
     var modifPage = function(response){
+        console.log(response);
         var $a;
         if (response === "ajax is available" || response.responseText === "ajax is available") {
             $a = $(".description").find("a:contains('detail')");
@@ -9,7 +11,7 @@ $(document).ready(function(){
             $a.remove();
         }
     };
-    $.get("AJAX_MARKER.htm", modifPage).fail(modifPage);
+    $.get("../edit/AJAX_MARKER.htm", modifPage).fail(modifPage);
 
     $(".description.detailed").find("h4, div").remove();
 
@@ -24,7 +26,7 @@ $(document).ready(function(){
             $tr.data('isLoaded', true);
         };
         if ($tr.data('isLoaded') === true) return;
-        var path = $tr.attr('id').replace('m_', '')+'.htm';
+        var path = $tr.attr('id').replace('m_', '../edit/')+'.htm';
         $.get(path, insertDetail).fail(insertDetail);
     });
 
