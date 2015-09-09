@@ -1,9 +1,9 @@
 
  <div class="refnamediv">
-  <h1 class="refname">addslashes</h1>
+  <h1 class="refname">addSlashes</h1>
  </div>
  
- <div class="refsect1 description" id="refsect1-function.addslashes-description">
+ <div class="refsect1 description" id="refsect1-function.addSlashes-description">
   <h3 class="title">Description</h3>
   <p class="para rdfs-comment">
    Returns a string with backslashes before characters that need to be
@@ -12,10 +12,10 @@
    (<em>\</em>) and NUL (the <strong><code>NULL</code></strong> byte).
   </p>
   <p class="para">
-   An example use of <span class="function"><strong>addslashes()</strong></span> is when you&#039;re
+   An example use of <span class="function"><strong>addSlashes()</strong></span> is when you&#039;re
    entering data into string that is evaluated by PHP. For example,
    <em>O&#039;Reilly</em> is stored in $str, you need to escape
-   $str. (e.g.  eval(&quot;echo &#039;&quot;.addslashes($str).&quot;&#039;;&quot;); )
+   $str. (e.g.  eval(&quot;echo &#039;&quot;.addSlashes($str).&quot;&#039;;&quot;); )
   </p>
   <p class="para">
    To escape database parameters, DBMS specific escape function
@@ -34,15 +34,15 @@
    uses <em>\</em> to escape special chars, you might be
    able to use this function only when this escape method is adequate for
    your database. Please note that use
-   of <span class="function"><strong>addslashes()</strong></span> for database parameter escaping
+   of <span class="function"><strong>addSlashes()</strong></span> for database parameter escaping
    can be cause of security issues on most databases.
   </p>
   <p class="para">
    The PHP directive <a href="info.configuration.php#ini.magic-quotes-gpc" class="link">
    magic_quotes_gpc</a> was <em>on</em> by default before
-   PHP 5.4, and it essentially ran <span class="function"><strong>addslashes()</strong></span> on
+   PHP 5.4, and it essentially ran <span class="function"><strong>addSlashes()</strong></span> on
    all GET, POST, and COOKIE data.  Do not
-   use <span class="function"><strong>addslashes()</strong></span> on strings that have already
+   use <span class="function"><strong>addSlashes()</strong></span> on strings that have already
    been escaped with
    <a href="info.configuration.php#ini.magic-quotes-gpc" class="link">magic_quotes_gpc</a> as you&#039;ll
    then do double escaping.  The function
@@ -52,7 +52,7 @@
  </div>
 
 
- <div class="refsect1 parameters" id="refsect1-function.addslashes-parameters">
+ <div class="refsect1 parameters" id="refsect1-function.addSlashes-parameters">
   <h3 class="title">Parameters</h3>
   <p class="para">
    <dl>
@@ -75,7 +75,7 @@
  </div>
 
 
- <div class="refsect1 returnvalues" id="refsect1-function.addslashes-returnvalues">
+ <div class="refsect1 returnvalues" id="refsect1-function.addSlashes-returnvalues">
   <h3 class="title">Return Values</h3>
   <p class="para">
    Returns the escaped string.
@@ -83,14 +83,14 @@
  </div>
 
 
- <div class="refsect1 examples" id="refsect1-function.addslashes-examples">
+ <div class="refsect1 examples" id="refsect1-function.addSlashes-examples">
   <h3 class="title">Examples</h3>
   <p class="para">
    <div class="example" id="example-5356">
-    <p><strong>Example #1 An <span class="function"><strong>addslashes()</strong></span> example</strong></p>
+    <p><strong>Example #1 An <span class="function"><strong>addSlashes()</strong></span> example</strong></p>
     <div class="example-contents">
 <div class="phpcode"><code><span style="color: #000000">
-<span style="color: #0000BB">&lt;?php<br />$str&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #DD0000">"Is&nbsp;your&nbsp;name&nbsp;O'Reilly?"</span><span style="color: #007700">;<br /><br /></span><span style="color: #FF8000">//&nbsp;Outputs:&nbsp;Is&nbsp;your&nbsp;name&nbsp;O\'Reilly?<br /></span><span style="color: #007700">echo&nbsp;</span><span style="color: #0000BB">addslashes</span><span style="color: #007700">(</span><span style="color: #0000BB">$str</span><span style="color: #007700">);<br /></span><span style="color: #0000BB">?&gt;</span>
+<span style="color: #0000BB">&lt;?php<br />$str&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #DD0000">"Is&nbsp;your&nbsp;name&nbsp;O'Reilly?"</span><span style="color: #007700">;<br /><br /></span><span style="color: #FF8000">//&nbsp;Outputs:&nbsp;Is&nbsp;your&nbsp;name&nbsp;O\'Reilly?<br /></span><span style="color: #007700">echo&nbsp;</span><span style="color: #0000BB">addSlashes</span><span style="color: #007700">(</span><span style="color: #0000BB">$str</span><span style="color: #007700">);<br /></span><span style="color: #0000BB">?&gt;</span>
 </span>
 </code></div>
     </div>
@@ -100,5 +100,5 @@
  </div>
 
 
- <div class="refsect1 seealso" id="refsect1-function.addslashes-seealso">
+ <div class="refsect1 seealso" id="refsect1-function.addSlashes-seealso">
   

@@ -1,6 +1,6 @@
 
  <div class="refnamediv">
-  <h1 class="refname">str_ireplace</h1>
+  <h1 class="refname">insenReplaceAll</h1>
  </div>
  
  <div class="refsect1 description" id="refsect1-function.str-ireplace-description">
@@ -20,7 +20,7 @@
   <h3 class="title">Parameters</h3>
   <p class="para">
    If <code class="parameter">search</code> and <code class="parameter">replace</code> are
-   arrays, then <span class="function"><strong>str_ireplace()</strong></span> takes a value from each
+   arrays, then <span class="function"><strong>insenReplaceAll()</strong></span> takes a value from each
    array and uses them to search and replace on
    <code class="parameter">subject</code>. If <code class="parameter">replace</code> has fewer
    values than <code class="parameter">search</code>, then an empty string is used for
@@ -112,10 +112,10 @@
   <h3 class="title">Examples</h3>
   <p class="para">
    <div class="example" id="example-5415">
-    <p><strong>Example #1 <span class="function"><strong>str_ireplace()</strong></span> example</strong></p>
+    <p><strong>Example #1 <span class="function"><strong>insenReplaceAll()</strong></span> example</strong></p>
     <div class="example-contents">
 <div class="phpcode"><code><span style="color: #000000">
-<span style="color: #0000BB">&lt;?php<br />$bodytag&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #0000BB">str_ireplace</span><span style="color: #007700">(</span><span style="color: #DD0000">"%body%"</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">"black"</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">"&lt;body&nbsp;text=%BODY%&gt;"</span><span style="color: #007700">);<br /></span><span style="color: #0000BB">?&gt;</span>
+<span style="color: #0000BB">&lt;?php<br />$bodytag&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #0000BB">insenReplaceAll</span><span style="color: #007700">(</span><span style="color: #DD0000">"%body%"</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">"black"</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">"&lt;body&nbsp;text=%BODY%&gt;"</span><span style="color: #007700">);<br /></span><span style="color: #0000BB">?&gt;</span>
 </span>
 </code></div>
     </div>
@@ -132,7 +132,7 @@ binary-safe.</span></p></blockquote>
   <div class="caution"><strong class="caution">Caution</strong>
    <h1 class="title">Replacement order gotcha</h1>
    <p class="para">
-    Because <span class="function"><strong>str_ireplace()</strong></span> replaces left to right, it might
+    Because <span class="function"><strong>insenReplaceAll()</strong></span> replaces left to right, it might
     replace a previously inserted value when doing multiple replacements.
     Example #2 in the <span class="function"><a href="function.str-replace.php" class="function">str_replace()</a></span> documentation
     demonstrates how this may affect you in practice.

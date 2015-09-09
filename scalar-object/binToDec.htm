@@ -1,27 +1,27 @@
 
  <div class="refnamediv">
-  <h1 class="refname">bindec</h1>
+  <h1 class="refname">binToDec</h1>
  </div>
- <div class="refsect1 description" id="refsect1-function.bindec-description">
+ <div class="refsect1 description" id="refsect1-function.binToDec-description">
   <h3 class="title">Description</h3>
   <p class="para rdfs-comment">
    Returns the decimal equivalent of the binary number represented by
    the <code class="parameter">binary_string</code> argument.
   </p>
   <p class="para">
-   <span class="function"><strong>bindec()</strong></span> converts a binary number to an
+   <span class="function"><strong>binToDec()</strong></span> converts a binary number to an
    <span class="type"><a href="language.types.integer.php" class="type integer">integer</a></span> or, if needed for size reasons, <span class="type"><a href="language.types.float.php" class="type float">float</a></span>.
   </p>
   <p class="para">
-   <span class="function"><strong>bindec()</strong></span> interprets all
+   <span class="function"><strong>binToDec()</strong></span> interprets all
    <code class="parameter">binary_string</code> values as unsigned
-   integers. This is because <span class="function"><strong>bindec()</strong></span> sees
+   integers. This is because <span class="function"><strong>binToDec()</strong></span> sees
    the most significant bit as another order of magnitude
    rather than as the sign bit.
   </p>
  </div>
 
- <div class="refsect1 parameters" id="refsect1-function.bindec-parameters">
+ <div class="refsect1 parameters" id="refsect1-function.binToDec-parameters">
   <h3 class="title">Parameters</h3>
   <p class="para">
    <dl>
@@ -49,21 +49,21 @@
   </div>
  </div>
 
- <div class="refsect1 returnvalues" id="refsect1-function.bindec-returnvalues">
+ <div class="refsect1 returnvalues" id="refsect1-function.binToDec-returnvalues">
   <h3 class="title">Return Values</h3>
   <p class="para">
    The decimal value of <code class="parameter">binary_string</code>
   </p>
  </div>
 
- <div class="refsect1 examples" id="refsect1-function.bindec-examples">
+ <div class="refsect1 examples" id="refsect1-function.binToDec-examples">
   <h3 class="title">Examples</h3>
   <p class="para">
    <div class="example" id="example-3938">
-    <p><strong>Example #1 <span class="function"><strong>bindec()</strong></span> example</strong></p>
+    <p><strong>Example #1 <span class="function"><strong>binToDec()</strong></span> example</strong></p>
     <div class="example-contents">
 <div class="phpcode"><code><span style="color: #000000">
-<span style="color: #0000BB">&lt;?php<br /></span><span style="color: #007700">echo&nbsp;</span><span style="color: #0000BB">bindec</span><span style="color: #007700">(</span><span style="color: #DD0000">'110011'</span><span style="color: #007700">)&nbsp;.&nbsp;</span><span style="color: #DD0000">"\n"</span><span style="color: #007700">;<br />echo&nbsp;</span><span style="color: #0000BB">bindec</span><span style="color: #007700">(</span><span style="color: #DD0000">'000110011'</span><span style="color: #007700">)&nbsp;.&nbsp;</span><span style="color: #DD0000">"\n"</span><span style="color: #007700">;<br /><br />echo&nbsp;</span><span style="color: #0000BB">bindec</span><span style="color: #007700">(</span><span style="color: #DD0000">'111'</span><span style="color: #007700">);<br /></span><span style="color: #0000BB">?&gt;</span>
+<span style="color: #0000BB">&lt;?php<br /></span><span style="color: #007700">echo&nbsp;</span><span style="color: #0000BB">binToDec</span><span style="color: #007700">(</span><span style="color: #DD0000">'110011'</span><span style="color: #007700">)&nbsp;.&nbsp;</span><span style="color: #DD0000">"\n"</span><span style="color: #007700">;<br />echo&nbsp;</span><span style="color: #0000BB">binToDec</span><span style="color: #007700">(</span><span style="color: #DD0000">'000110011'</span><span style="color: #007700">)&nbsp;.&nbsp;</span><span style="color: #DD0000">"\n"</span><span style="color: #007700">;<br /><br />echo&nbsp;</span><span style="color: #0000BB">binToDec</span><span style="color: #007700">(</span><span style="color: #DD0000">'111'</span><span style="color: #007700">);<br /></span><span style="color: #0000BB">?&gt;</span>
 </span>
 </code></div>
     </div>
@@ -80,10 +80,10 @@
   </p>
   <p class="para">
    <div class="example" id="example-3939">
-    <p><strong>Example #2 <span class="function"><strong>bindec()</strong></span> interprets input as unsigned integers</strong></p>
+    <p><strong>Example #2 <span class="function"><strong>binToDec()</strong></span> interprets input as unsigned integers</strong></p>
     <div class="example-contents">
 <div class="phpcode"><code><span style="color: #000000">
-<span style="color: #0000BB">&lt;?php<br /></span><span style="color: #FF8000">/*<br />&nbsp;*&nbsp;The&nbsp;lesson&nbsp;from&nbsp;this&nbsp;example&nbsp;is&nbsp;in&nbsp;the&nbsp;output<br />&nbsp;*&nbsp;rather&nbsp;than&nbsp;the&nbsp;PHP&nbsp;code&nbsp;itself.<br />&nbsp;*/<br /><br /></span><span style="color: #0000BB">$magnitude_lower&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #0000BB">pow</span><span style="color: #007700">(</span><span style="color: #0000BB">2</span><span style="color: #007700">,&nbsp;(</span><span style="color: #0000BB">PHP_INT_SIZE&nbsp;</span><span style="color: #007700">*&nbsp;</span><span style="color: #0000BB">8</span><span style="color: #007700">)&nbsp;-&nbsp;</span><span style="color: #0000BB">2</span><span style="color: #007700">);<br /></span><span style="color: #0000BB">p</span><span style="color: #007700">(</span><span style="color: #0000BB">$magnitude_lower&nbsp;</span><span style="color: #007700">-&nbsp;</span><span style="color: #0000BB">1</span><span style="color: #007700">);<br /></span><span style="color: #0000BB">p</span><span style="color: #007700">(</span><span style="color: #0000BB">$magnitude_lower</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">'See&nbsp;the&nbsp;rollover?&nbsp;&nbsp;Watch&nbsp;it&nbsp;next&nbsp;time&nbsp;around...'</span><span style="color: #007700">);<br /><br /></span><span style="color: #0000BB">p</span><span style="color: #007700">(</span><span style="color: #0000BB">PHP_INT_MAX</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">'PHP_INT_MAX'</span><span style="color: #007700">);<br /></span><span style="color: #0000BB">p</span><span style="color: #007700">(~</span><span style="color: #0000BB">PHP_INT_MAX</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">'interpreted&nbsp;to&nbsp;be&nbsp;one&nbsp;more&nbsp;than&nbsp;PHP_INT_MAX'</span><span style="color: #007700">);<br /><br />if&nbsp;(</span><span style="color: #0000BB">PHP_INT_SIZE&nbsp;</span><span style="color: #007700">==&nbsp;</span><span style="color: #0000BB">4</span><span style="color: #007700">)&nbsp;{<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #0000BB">$note&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #DD0000">'interpreted&nbsp;to&nbsp;be&nbsp;the&nbsp;largest&nbsp;unsigned&nbsp;integer'</span><span style="color: #007700">;<br />}&nbsp;else&nbsp;{<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #0000BB">$note&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #DD0000">'interpreted&nbsp;to&nbsp;be&nbsp;the&nbsp;largest&nbsp;unsigned&nbsp;integer<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(18446744073709551615)&nbsp;but&nbsp;skewed&nbsp;by&nbsp;float&nbsp;precision'</span><span style="color: #007700">;<br />}<br /></span><span style="color: #0000BB">p</span><span style="color: #007700">(-</span><span style="color: #0000BB">1</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">$note</span><span style="color: #007700">);<br /><br /><br />function&nbsp;</span><span style="color: #0000BB">p</span><span style="color: #007700">(</span><span style="color: #0000BB">$input</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">$note&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #DD0000">''</span><span style="color: #007700">)&nbsp;{<br />&nbsp;&nbsp;&nbsp;&nbsp;echo&nbsp;</span><span style="color: #DD0000">"input:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #0000BB">$input</span><span style="color: #DD0000">\n"</span><span style="color: #007700">;<br /><br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #0000BB">$format&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #DD0000">'%0'&nbsp;</span><span style="color: #007700">.&nbsp;(</span><span style="color: #0000BB">PHP_INT_SIZE&nbsp;</span><span style="color: #007700">*&nbsp;</span><span style="color: #0000BB">8</span><span style="color: #007700">)&nbsp;.&nbsp;</span><span style="color: #DD0000">'b'</span><span style="color: #007700">;<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #0000BB">$bin&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #0000BB">sprintf</span><span style="color: #007700">(</span><span style="color: #0000BB">$format</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">$input</span><span style="color: #007700">);<br />&nbsp;&nbsp;&nbsp;&nbsp;echo&nbsp;</span><span style="color: #DD0000">"binary:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #0000BB">$bin</span><span style="color: #DD0000">\n"</span><span style="color: #007700">;<br /><br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #0000BB">ini_set</span><span style="color: #007700">(</span><span style="color: #DD0000">'precision'</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">20</span><span style="color: #007700">);&nbsp;&nbsp;</span><span style="color: #FF8000">//&nbsp;For&nbsp;readability&nbsp;on&nbsp;64&nbsp;bit&nbsp;boxes.<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #0000BB">$dec&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #0000BB">bindec</span><span style="color: #007700">(</span><span style="color: #0000BB">$bin</span><span style="color: #007700">);<br />&nbsp;&nbsp;&nbsp;&nbsp;echo&nbsp;</span><span style="color: #DD0000">'bindec():&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;'&nbsp;</span><span style="color: #007700">.&nbsp;</span><span style="color: #0000BB">$dec&nbsp;</span><span style="color: #007700">.&nbsp;</span><span style="color: #DD0000">"\n"</span><span style="color: #007700">;<br /><br />&nbsp;&nbsp;&nbsp;&nbsp;if&nbsp;(</span><span style="color: #0000BB">$note</span><span style="color: #007700">)&nbsp;{<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;echo&nbsp;</span><span style="color: #DD0000">"NOTE:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #0000BB">$note</span><span style="color: #DD0000">\n"</span><span style="color: #007700">;<br />&nbsp;&nbsp;&nbsp;&nbsp;}<br /><br />&nbsp;&nbsp;&nbsp;&nbsp;echo&nbsp;</span><span style="color: #DD0000">"\n"</span><span style="color: #007700">;<br />}<br /></span><span style="color: #0000BB">?&gt;</span>
+<span style="color: #0000BB">&lt;?php<br /></span><span style="color: #FF8000">/*<br />&nbsp;*&nbsp;The&nbsp;lesson&nbsp;from&nbsp;this&nbsp;example&nbsp;is&nbsp;in&nbsp;the&nbsp;output<br />&nbsp;*&nbsp;rather&nbsp;than&nbsp;the&nbsp;PHP&nbsp;code&nbsp;itself.<br />&nbsp;*/<br /><br /></span><span style="color: #0000BB">$magnitude_lower&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #0000BB">pow</span><span style="color: #007700">(</span><span style="color: #0000BB">2</span><span style="color: #007700">,&nbsp;(</span><span style="color: #0000BB">PHP_INT_SIZE&nbsp;</span><span style="color: #007700">*&nbsp;</span><span style="color: #0000BB">8</span><span style="color: #007700">)&nbsp;-&nbsp;</span><span style="color: #0000BB">2</span><span style="color: #007700">);<br /></span><span style="color: #0000BB">p</span><span style="color: #007700">(</span><span style="color: #0000BB">$magnitude_lower&nbsp;</span><span style="color: #007700">-&nbsp;</span><span style="color: #0000BB">1</span><span style="color: #007700">);<br /></span><span style="color: #0000BB">p</span><span style="color: #007700">(</span><span style="color: #0000BB">$magnitude_lower</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">'See&nbsp;the&nbsp;rollover?&nbsp;&nbsp;Watch&nbsp;it&nbsp;next&nbsp;time&nbsp;around...'</span><span style="color: #007700">);<br /><br /></span><span style="color: #0000BB">p</span><span style="color: #007700">(</span><span style="color: #0000BB">PHP_INT_MAX</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">'PHP_INT_MAX'</span><span style="color: #007700">);<br /></span><span style="color: #0000BB">p</span><span style="color: #007700">(~</span><span style="color: #0000BB">PHP_INT_MAX</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">'interpreted&nbsp;to&nbsp;be&nbsp;one&nbsp;more&nbsp;than&nbsp;PHP_INT_MAX'</span><span style="color: #007700">);<br /><br />if&nbsp;(</span><span style="color: #0000BB">PHP_INT_SIZE&nbsp;</span><span style="color: #007700">==&nbsp;</span><span style="color: #0000BB">4</span><span style="color: #007700">)&nbsp;{<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #0000BB">$note&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #DD0000">'interpreted&nbsp;to&nbsp;be&nbsp;the&nbsp;largest&nbsp;unsigned&nbsp;integer'</span><span style="color: #007700">;<br />}&nbsp;else&nbsp;{<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #0000BB">$note&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #DD0000">'interpreted&nbsp;to&nbsp;be&nbsp;the&nbsp;largest&nbsp;unsigned&nbsp;integer<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(18446744073709551615)&nbsp;but&nbsp;skewed&nbsp;by&nbsp;float&nbsp;precision'</span><span style="color: #007700">;<br />}<br /></span><span style="color: #0000BB">p</span><span style="color: #007700">(-</span><span style="color: #0000BB">1</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">$note</span><span style="color: #007700">);<br /><br /><br />function&nbsp;</span><span style="color: #0000BB">p</span><span style="color: #007700">(</span><span style="color: #0000BB">$input</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">$note&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #DD0000">''</span><span style="color: #007700">)&nbsp;{<br />&nbsp;&nbsp;&nbsp;&nbsp;echo&nbsp;</span><span style="color: #DD0000">"input:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #0000BB">$input</span><span style="color: #DD0000">\n"</span><span style="color: #007700">;<br /><br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #0000BB">$format&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #DD0000">'%0'&nbsp;</span><span style="color: #007700">.&nbsp;(</span><span style="color: #0000BB">PHP_INT_SIZE&nbsp;</span><span style="color: #007700">*&nbsp;</span><span style="color: #0000BB">8</span><span style="color: #007700">)&nbsp;.&nbsp;</span><span style="color: #DD0000">'b'</span><span style="color: #007700">;<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #0000BB">$bin&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #0000BB">sprintf</span><span style="color: #007700">(</span><span style="color: #0000BB">$format</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">$input</span><span style="color: #007700">);<br />&nbsp;&nbsp;&nbsp;&nbsp;echo&nbsp;</span><span style="color: #DD0000">"binary:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #0000BB">$bin</span><span style="color: #DD0000">\n"</span><span style="color: #007700">;<br /><br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #0000BB">ini_set</span><span style="color: #007700">(</span><span style="color: #DD0000">'precision'</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">20</span><span style="color: #007700">);&nbsp;&nbsp;</span><span style="color: #FF8000">//&nbsp;For&nbsp;readability&nbsp;on&nbsp;64&nbsp;bit&nbsp;boxes.<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #0000BB">$dec&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #0000BB">binToDec</span><span style="color: #007700">(</span><span style="color: #0000BB">$bin</span><span style="color: #007700">);<br />&nbsp;&nbsp;&nbsp;&nbsp;echo&nbsp;</span><span style="color: #DD0000">'binToDec():&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;'&nbsp;</span><span style="color: #007700">.&nbsp;</span><span style="color: #0000BB">$dec&nbsp;</span><span style="color: #007700">.&nbsp;</span><span style="color: #DD0000">"\n"</span><span style="color: #007700">;<br /><br />&nbsp;&nbsp;&nbsp;&nbsp;if&nbsp;(</span><span style="color: #0000BB">$note</span><span style="color: #007700">)&nbsp;{<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;echo&nbsp;</span><span style="color: #DD0000">"NOTE:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #0000BB">$note</span><span style="color: #DD0000">\n"</span><span style="color: #007700">;<br />&nbsp;&nbsp;&nbsp;&nbsp;}<br /><br />&nbsp;&nbsp;&nbsp;&nbsp;echo&nbsp;</span><span style="color: #DD0000">"\n"</span><span style="color: #007700">;<br />}<br /></span><span style="color: #0000BB">?&gt;</span>
 </span>
 </code></div>
     </div>
@@ -93,26 +93,26 @@
 <div class="cdata"><pre>
 input:        1073741823
 binary:       00111111111111111111111111111111
-bindec():     1073741823
+binToDec():     1073741823
 
 input:        1073741824
 binary:       01000000000000000000000000000000
-bindec():     1073741824
+binToDec():     1073741824
 NOTE:         See the rollover?  Watch it next time around...
 
 input:        2147483647
 binary:       01111111111111111111111111111111
-bindec():     2147483647
+binToDec():     2147483647
 NOTE:         PHP_INT_MAX
 
 input:        -2147483648
 binary:       10000000000000000000000000000000
-bindec():     2147483648
+binToDec():     2147483648
 NOTE:         interpreted to be one more than PHP_INT_MAX
 
 input:        -1
 binary:       11111111111111111111111111111111
-bindec():     4294967295
+binToDec():     4294967295
 NOTE:         interpreted to be the largest unsigned integer
 </pre></div>
     </div>
@@ -121,26 +121,26 @@ NOTE:         interpreted to be the largest unsigned integer
 <div class="cdata"><pre>
 input:        4611686018427387903
 binary:       0011111111111111111111111111111111111111111111111111111111111111
-bindec():     4611686018427387903
+binToDec():     4611686018427387903
 
 input:        4611686018427387904
 binary:       0100000000000000000000000000000000000000000000000000000000000000
-bindec():     4611686018427387904
+binToDec():     4611686018427387904
 NOTE:         See the rollover?  Watch it next time around...
 
 input:        9223372036854775807
 binary:       0111111111111111111111111111111111111111111111111111111111111111
-bindec():     9223372036854775807
+binToDec():     9223372036854775807
 NOTE:         PHP_INT_MAX
 
 input:        -9223372036854775808
 binary:       1000000000000000000000000000000000000000000000000000000000000000
-bindec():     9223372036854775808
+binToDec():     9223372036854775808
 NOTE:         interpreted to be one more than PHP_INT_MAX
 
 input:        -1
 binary:       1111111111111111111111111111111111111111111111111111111111111111
-bindec():     18446744073709551616
+binToDec():     18446744073709551616
 NOTE:         interpreted to be the largest unsigned integer
               (18446744073709551615) but skewed by float precision
 </pre></div>
@@ -149,7 +149,7 @@ NOTE:         interpreted to be the largest unsigned integer
   </p>
  </div>
 
- <div class="refsect1 notes" id="refsect1-function.bindec-notes">
+ <div class="refsect1 notes" id="refsect1-function.binToDec-notes">
   <h3 class="title">Notes</h3>
   <blockquote class="note"><p><strong class="note">Note</strong>: 
    <p class="para">
@@ -160,5 +160,5 @@ NOTE:         interpreted to be the largest unsigned integer
   </p></blockquote>
  </div>
 
- <div class="refsect1 seealso" id="refsect1-function.bindec-seealso">
+ <div class="refsect1 seealso" id="refsect1-function.binToDec-seealso">
   

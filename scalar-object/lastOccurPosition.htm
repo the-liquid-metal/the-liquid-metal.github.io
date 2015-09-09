@@ -1,9 +1,9 @@
 
  <div class="refnamediv">
-  <h1 class="refname">strrpos</h1>
+  <h1 class="refname">lastOccurPosition</h1>
  </div>
  
- <div class="refsect1 description" id="refsect1-function.strrpos-description">
+ <div class="refsect1 description" id="refsect1-function.lastOccurPosition-description">
   <h3 class="title">Description</h3>
   <p class="para rdfs-comment">
    Find the numeric position of the last occurrence of
@@ -12,7 +12,7 @@
  </div>
 
 
- <div class="refsect1 parameters" id="refsect1-function.strrpos-parameters">
+ <div class="refsect1 parameters" id="refsect1-function.lastOccurPosition-parameters">
   <h3 class="title">Parameters</h3>
   <p class="para">
    <dl>
@@ -62,7 +62,7 @@
  </div>
 
 
- <div class="refsect1 returnvalues" id="refsect1-function.strrpos-returnvalues">
+ <div class="refsect1 returnvalues" id="refsect1-function.lastOccurPosition-returnvalues">
   <h3 class="title">Return Values</h3>
   <p class="para">
    Returns the position where the needle exists relative to the beginnning of
@@ -82,7 +82,7 @@ function.</p></div>
  </div>
 
  
- <div class="refsect1 changelog" id="refsect1-function.strrpos-changelog">
+ <div class="refsect1 changelog" id="refsect1-function.lastOccurPosition-changelog">
   <h3 class="title">Changelog</h3>
   <p class="para">
    <table class="doctable informaltable">
@@ -112,7 +112,7 @@ function.</p></div>
  </div>
 
  
- <div class="refsect1 examples" id="refsect1-function.strrpos-examples">
+ <div class="refsect1 examples" id="refsect1-function.lastOccurPosition-examples">
   <h3 class="title">Examples</h3>
   <p class="para">
    <div class="example" id="example-5442">
@@ -124,7 +124,7 @@ function.</p></div>
     </p></div>
     <div class="example-contents">
 <div class="phpcode"><code><span style="color: #000000">
-<span style="color: #0000BB">&lt;?php<br /><br />$pos&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #0000BB">strrpos</span><span style="color: #007700">(</span><span style="color: #0000BB">$mystring</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">"b"</span><span style="color: #007700">);<br />if&nbsp;(</span><span style="color: #0000BB">$pos&nbsp;</span><span style="color: #007700">===&nbsp;</span><span style="color: #0000BB">false</span><span style="color: #007700">)&nbsp;{&nbsp;</span><span style="color: #FF8000">//&nbsp;note:&nbsp;three&nbsp;equal&nbsp;signs<br />&nbsp;&nbsp;&nbsp;&nbsp;//&nbsp;not&nbsp;found...<br /></span><span style="color: #007700">}<br /><br /></span><span style="color: #0000BB">?&gt;</span>
+<span style="color: #0000BB">&lt;?php<br /><br />$pos&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #0000BB">lastOccurPosition</span><span style="color: #007700">(</span><span style="color: #0000BB">$mystring</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">"b"</span><span style="color: #007700">);<br />if&nbsp;(</span><span style="color: #0000BB">$pos&nbsp;</span><span style="color: #007700">===&nbsp;</span><span style="color: #0000BB">false</span><span style="color: #007700">)&nbsp;{&nbsp;</span><span style="color: #FF8000">//&nbsp;note:&nbsp;three&nbsp;equal&nbsp;signs<br />&nbsp;&nbsp;&nbsp;&nbsp;//&nbsp;not&nbsp;found...<br /></span><span style="color: #007700">}<br /><br /></span><span style="color: #0000BB">?&gt;</span>
 </span>
 </code></div>
     </div>
@@ -136,7 +136,7 @@ function.</p></div>
     <p><strong>Example #2 Searching with offsets</strong></p>
     <div class="example-contents">
 <div class="phpcode"><code><span style="color: #000000">
-<span style="color: #0000BB">&lt;?php<br />$foo&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #DD0000">"0123456789a123456789b123456789c"</span><span style="color: #007700">;<br /><br /></span><span style="color: #0000BB">var_dump</span><span style="color: #007700">(</span><span style="color: #0000BB">strrpos</span><span style="color: #007700">(</span><span style="color: #0000BB">$foo</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">'7'</span><span style="color: #007700">,&nbsp;-</span><span style="color: #0000BB">5</span><span style="color: #007700">));&nbsp;&nbsp;</span><span style="color: #FF8000">//&nbsp;Starts&nbsp;looking&nbsp;backwards&nbsp;five&nbsp;positions<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;//&nbsp;from&nbsp;the&nbsp;end.&nbsp;Result:&nbsp;int(17)<br /><br /></span><span style="color: #0000BB">var_dump</span><span style="color: #007700">(</span><span style="color: #0000BB">strrpos</span><span style="color: #007700">(</span><span style="color: #0000BB">$foo</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">'7'</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">20</span><span style="color: #007700">));&nbsp;&nbsp;</span><span style="color: #FF8000">//&nbsp;Starts&nbsp;searching&nbsp;20&nbsp;positions&nbsp;into&nbsp;the<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;//&nbsp;string.&nbsp;Result:&nbsp;int(27)<br /><br /></span><span style="color: #0000BB">var_dump</span><span style="color: #007700">(</span><span style="color: #0000BB">strrpos</span><span style="color: #007700">(</span><span style="color: #0000BB">$foo</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">'7'</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">28</span><span style="color: #007700">));&nbsp;&nbsp;</span><span style="color: #FF8000">//&nbsp;Result:&nbsp;bool(false)<br /></span><span style="color: #0000BB">?&gt;</span>
+<span style="color: #0000BB">&lt;?php<br />$foo&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #DD0000">"0123456789a123456789b123456789c"</span><span style="color: #007700">;<br /><br /></span><span style="color: #0000BB">var_dump</span><span style="color: #007700">(</span><span style="color: #0000BB">lastOccurPosition</span><span style="color: #007700">(</span><span style="color: #0000BB">$foo</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">'7'</span><span style="color: #007700">,&nbsp;-</span><span style="color: #0000BB">5</span><span style="color: #007700">));&nbsp;&nbsp;</span><span style="color: #FF8000">//&nbsp;Starts&nbsp;looking&nbsp;backwards&nbsp;five&nbsp;positions<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;//&nbsp;from&nbsp;the&nbsp;end.&nbsp;Result:&nbsp;int(17)<br /><br /></span><span style="color: #0000BB">var_dump</span><span style="color: #007700">(</span><span style="color: #0000BB">lastOccurPosition</span><span style="color: #007700">(</span><span style="color: #0000BB">$foo</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">'7'</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">20</span><span style="color: #007700">));&nbsp;&nbsp;</span><span style="color: #FF8000">//&nbsp;Starts&nbsp;searching&nbsp;20&nbsp;positions&nbsp;into&nbsp;the<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;//&nbsp;string.&nbsp;Result:&nbsp;int(27)<br /><br /></span><span style="color: #0000BB">var_dump</span><span style="color: #007700">(</span><span style="color: #0000BB">lastOccurPosition</span><span style="color: #007700">(</span><span style="color: #0000BB">$foo</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">'7'</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">28</span><span style="color: #007700">));&nbsp;&nbsp;</span><span style="color: #FF8000">//&nbsp;Result:&nbsp;bool(false)<br /></span><span style="color: #0000BB">?&gt;</span>
 </span>
 </code></div>
     </div>
@@ -146,5 +146,5 @@ function.</p></div>
  </div>
 
 
- <div class="refsect1 seealso" id="refsect1-function.strrpos-seealso">
+ <div class="refsect1 seealso" id="refsect1-function.lastOccurPosition-seealso">
   

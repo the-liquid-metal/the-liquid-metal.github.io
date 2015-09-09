@@ -1,9 +1,9 @@
 
  <div class="refnamediv">
-  <h1 class="refname">htmlspecialchars</h1>
+  <h1 class="refname">htmlCharEncode</h1>
  </div>
 
- <div class="refsect1 description" id="refsect1-function.htmlspecialchars-description">
+ <div class="refsect1 description" id="refsect1-function.htmlCharEncode-description">
   <h3 class="title">Description</h3>
   <p class="para rdfs-comment">
    Certain characters have special significance in HTML, and should
@@ -58,7 +58,7 @@
  </div>
 
 
- <div class="refsect1 parameters" id="refsect1-function.htmlspecialchars-parameters">
+ <div class="refsect1 parameters" id="refsect1-function.htmlCharEncode-parameters">
   <h3 class="title">Parameters</h3>
   <p class="para">
    <dl>
@@ -210,7 +210,7 @@
        <em>cp1251</em>, <em>cp1252</em>, and
        <em>KOI8-R</em> are effectively equivalent, provided the
        <code class="parameter">string</code> itself is valid for the encoding, as
-       the characters affected by <span class="function"><strong>htmlspecialchars()</strong></span> occupy
+       the characters affected by <span class="function"><strong>htmlCharEncode()</strong></span> occupy
        the same positions in all of these encodings.
       </p>
       
@@ -389,7 +389,7 @@
  </div>
 
 
- <div class="refsect1 returnvalues" id="refsect1-function.htmlspecialchars-returnvalues">
+ <div class="refsect1 returnvalues" id="refsect1-function.htmlCharEncode-returnvalues">
   <h3 class="title">Return Values</h3>
   <p class="para">
    The converted <span class="type"><a href="language.types.string.php" class="type string">string</a></span>.
@@ -403,7 +403,7 @@
  </div>
 
 
- <div class="refsect1 changelog" id="refsect1-function.htmlspecialchars-changelog">
+ <div class="refsect1 changelog" id="refsect1-function.htmlCharEncode-changelog">
   <h3 class="title">Changelog</h3>
   <p class="para">
    <table class="doctable informaltable">
@@ -468,14 +468,14 @@
  </div>
 
 
- <div class="refsect1 examples" id="refsect1-function.htmlspecialchars-examples">
+ <div class="refsect1 examples" id="refsect1-function.htmlCharEncode-examples">
   <h3 class="title">Examples</h3>
   <p class="para">
    <div class="example" id="example-5378">
-    <p><strong>Example #1 <span class="function"><strong>htmlspecialchars()</strong></span> example</strong></p>
+    <p><strong>Example #1 <span class="function"><strong>htmlCharEncode()</strong></span> example</strong></p>
     <div class="example-contents">
 <div class="phpcode"><code><span style="color: #000000">
-<span style="color: #0000BB">&lt;?php<br />$new&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #0000BB">htmlspecialchars</span><span style="color: #007700">(</span><span style="color: #DD0000">"&lt;a&nbsp;href='test'&gt;Test&lt;/a&gt;"</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">ENT_QUOTES</span><span style="color: #007700">);<br />echo&nbsp;</span><span style="color: #0000BB">$new</span><span style="color: #007700">;&nbsp;</span><span style="color: #FF8000">//&nbsp;&amp;lt;a&nbsp;href=&amp;#039;test&amp;#039;&amp;gt;Test&amp;lt;/a&amp;gt;<br /></span><span style="color: #0000BB">?&gt;</span>
+<span style="color: #0000BB">&lt;?php<br />$new&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #0000BB">htmlCharEncode</span><span style="color: #007700">(</span><span style="color: #DD0000">"&lt;a&nbsp;href='test'&gt;Test&lt;/a&gt;"</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">ENT_QUOTES</span><span style="color: #007700">);<br />echo&nbsp;</span><span style="color: #0000BB">$new</span><span style="color: #007700">;&nbsp;</span><span style="color: #FF8000">//&nbsp;&amp;lt;a&nbsp;href=&amp;#039;test&amp;#039;&amp;gt;Test&amp;lt;/a&amp;gt;<br /></span><span style="color: #0000BB">?&gt;</span>
 </span>
 </code></div>
     </div>
@@ -485,7 +485,7 @@
  </div>
 
 
- <div class="refsect1 notes" id="refsect1-function.htmlspecialchars-notes">
+ <div class="refsect1 notes" id="refsect1-function.htmlCharEncode-notes">
   <h3 class="title">Notes</h3>
   <blockquote class="note"><p><strong class="note">Note</strong>: 
    <p class="para">
@@ -497,5 +497,5 @@
  </div>
 
 
- <div class="refsect1 seealso" id="refsect1-function.htmlspecialchars-seealso">
+ <div class="refsect1 seealso" id="refsect1-function.htmlCharEncode-seealso">
   

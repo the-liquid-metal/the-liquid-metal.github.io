@@ -1,22 +1,22 @@
 
  <div class="refnamediv">
-  <h1 class="refname">stripos</h1>
+  <h1 class="refname">firstOccurInsenPosition</h1>
  </div>
  
- <div class="refsect1 description" id="refsect1-function.stripos-description">
+ <div class="refsect1 description" id="refsect1-function.firstOccurInsenPosition-description">
   <h3 class="title">Description</h3>
   <p class="para rdfs-comment">
    Find the numeric position of the first occurrence of
    <code class="parameter">needle</code> in the <code class="parameter">haystack</code> string.
   </p>
   <p class="para">
-   Unlike the <span class="function"><a href="function.strpos.php" class="function">strpos()</a></span>, <span class="function"><strong>stripos()</strong></span> is
+   Unlike the <span class="function"><a href="function.strpos.php" class="function">strpos()</a></span>, <span class="function"><strong>firstOccurInsenPosition()</strong></span> is
    case-insensitive.
   </p>
  </div>
 
 
- <div class="refsect1 parameters" id="refsect1-function.stripos-parameters">
+ <div class="refsect1 parameters" id="refsect1-function.firstOccurInsenPosition-parameters">
   <h3 class="title">Parameters</h3>
   <p class="para">
    <dl>
@@ -70,7 +70,7 @@
  </div>
 
 
- <div class="refsect1 returnvalues" id="refsect1-function.stripos-returnvalues">
+ <div class="refsect1 returnvalues" id="refsect1-function.firstOccurInsenPosition-returnvalues">
   <h3 class="title">Return Values</h3>
   <p class="para">
    Returns the position of where the needle exists relative to the beginnning of
@@ -89,14 +89,14 @@ function.</p></div>
  </div>
 
 
- <div class="refsect1 examples" id="refsect1-function.stripos-examples">
+ <div class="refsect1 examples" id="refsect1-function.firstOccurInsenPosition-examples">
   <h3 class="title">Examples</h3>
   <p class="para">
    <div class="example" id="example-5428">
-   <p><strong>Example #1 <span class="function"><strong>stripos()</strong></span> examples</strong></p>
+   <p><strong>Example #1 <span class="function"><strong>firstOccurInsenPosition()</strong></span> examples</strong></p>
     <div class="example-contents">
 <div class="phpcode"><code><span style="color: #000000">
-<span style="color: #0000BB">&lt;?php<br />$findme&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #DD0000">'a'</span><span style="color: #007700">;<br /></span><span style="color: #0000BB">$mystring1&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #DD0000">'xyz'</span><span style="color: #007700">;<br /></span><span style="color: #0000BB">$mystring2&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #DD0000">'ABC'</span><span style="color: #007700">;<br /><br /></span><span style="color: #0000BB">$pos1&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #0000BB">stripos</span><span style="color: #007700">(</span><span style="color: #0000BB">$mystring1</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">$findme</span><span style="color: #007700">);<br /></span><span style="color: #0000BB">$pos2&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #0000BB">stripos</span><span style="color: #007700">(</span><span style="color: #0000BB">$mystring2</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">$findme</span><span style="color: #007700">);<br /><br /></span><span style="color: #FF8000">//&nbsp;Nope,&nbsp;'a'&nbsp;is&nbsp;certainly&nbsp;not&nbsp;in&nbsp;'xyz'<br /></span><span style="color: #007700">if&nbsp;(</span><span style="color: #0000BB">$pos1&nbsp;</span><span style="color: #007700">===&nbsp;</span><span style="color: #0000BB">false</span><span style="color: #007700">)&nbsp;{<br />&nbsp;&nbsp;&nbsp;&nbsp;echo&nbsp;</span><span style="color: #DD0000">"The&nbsp;string&nbsp;'</span><span style="color: #0000BB">$findme</span><span style="color: #DD0000">'&nbsp;was&nbsp;not&nbsp;found&nbsp;in&nbsp;the&nbsp;string&nbsp;'</span><span style="color: #0000BB">$mystring1</span><span style="color: #DD0000">'"</span><span style="color: #007700">;<br />}<br /><br /></span><span style="color: #FF8000">//&nbsp;Note&nbsp;our&nbsp;use&nbsp;of&nbsp;===.&nbsp;&nbsp;Simply&nbsp;==&nbsp;would&nbsp;not&nbsp;work&nbsp;as&nbsp;expected<br />//&nbsp;because&nbsp;the&nbsp;position&nbsp;of&nbsp;'a'&nbsp;is&nbsp;the&nbsp;0th&nbsp;(first)&nbsp;character.<br /></span><span style="color: #007700">if&nbsp;(</span><span style="color: #0000BB">$pos2&nbsp;</span><span style="color: #007700">!==&nbsp;</span><span style="color: #0000BB">false</span><span style="color: #007700">)&nbsp;{<br />&nbsp;&nbsp;&nbsp;&nbsp;echo&nbsp;</span><span style="color: #DD0000">"We&nbsp;found&nbsp;'</span><span style="color: #0000BB">$findme</span><span style="color: #DD0000">'&nbsp;in&nbsp;'</span><span style="color: #0000BB">$mystring2</span><span style="color: #DD0000">'&nbsp;at&nbsp;position&nbsp;</span><span style="color: #0000BB">$pos2</span><span style="color: #DD0000">"</span><span style="color: #007700">;<br />}<br /></span><span style="color: #0000BB">?&gt;</span>
+<span style="color: #0000BB">&lt;?php<br />$findme&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #DD0000">'a'</span><span style="color: #007700">;<br /></span><span style="color: #0000BB">$mystring1&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #DD0000">'xyz'</span><span style="color: #007700">;<br /></span><span style="color: #0000BB">$mystring2&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #DD0000">'ABC'</span><span style="color: #007700">;<br /><br /></span><span style="color: #0000BB">$pos1&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #0000BB">firstOccurInsenPosition</span><span style="color: #007700">(</span><span style="color: #0000BB">$mystring1</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">$findme</span><span style="color: #007700">);<br /></span><span style="color: #0000BB">$pos2&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #0000BB">firstOccurInsenPosition</span><span style="color: #007700">(</span><span style="color: #0000BB">$mystring2</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">$findme</span><span style="color: #007700">);<br /><br /></span><span style="color: #FF8000">//&nbsp;Nope,&nbsp;'a'&nbsp;is&nbsp;certainly&nbsp;not&nbsp;in&nbsp;'xyz'<br /></span><span style="color: #007700">if&nbsp;(</span><span style="color: #0000BB">$pos1&nbsp;</span><span style="color: #007700">===&nbsp;</span><span style="color: #0000BB">false</span><span style="color: #007700">)&nbsp;{<br />&nbsp;&nbsp;&nbsp;&nbsp;echo&nbsp;</span><span style="color: #DD0000">"The&nbsp;string&nbsp;'</span><span style="color: #0000BB">$findme</span><span style="color: #DD0000">'&nbsp;was&nbsp;not&nbsp;found&nbsp;in&nbsp;the&nbsp;string&nbsp;'</span><span style="color: #0000BB">$mystring1</span><span style="color: #DD0000">'"</span><span style="color: #007700">;<br />}<br /><br /></span><span style="color: #FF8000">//&nbsp;Note&nbsp;our&nbsp;use&nbsp;of&nbsp;===.&nbsp;&nbsp;Simply&nbsp;==&nbsp;would&nbsp;not&nbsp;work&nbsp;as&nbsp;expected<br />//&nbsp;because&nbsp;the&nbsp;position&nbsp;of&nbsp;'a'&nbsp;is&nbsp;the&nbsp;0th&nbsp;(first)&nbsp;character.<br /></span><span style="color: #007700">if&nbsp;(</span><span style="color: #0000BB">$pos2&nbsp;</span><span style="color: #007700">!==&nbsp;</span><span style="color: #0000BB">false</span><span style="color: #007700">)&nbsp;{<br />&nbsp;&nbsp;&nbsp;&nbsp;echo&nbsp;</span><span style="color: #DD0000">"We&nbsp;found&nbsp;'</span><span style="color: #0000BB">$findme</span><span style="color: #DD0000">'&nbsp;in&nbsp;'</span><span style="color: #0000BB">$mystring2</span><span style="color: #DD0000">'&nbsp;at&nbsp;position&nbsp;</span><span style="color: #0000BB">$pos2</span><span style="color: #DD0000">"</span><span style="color: #007700">;<br />}<br /></span><span style="color: #0000BB">?&gt;</span>
 </span>
 </code></div>
     </div>
@@ -106,12 +106,12 @@ function.</p></div>
  </div>
 
 
- <div class="refsect1 notes" id="refsect1-function.stripos-notes">
+ <div class="refsect1 notes" id="refsect1-function.firstOccurInsenPosition-notes">
   <h3 class="title">Notes</h3>
   <blockquote class="note"><p><strong class="note">Note</strong>: <span class="simpara">This function is
 binary-safe.</span></p></blockquote>
  </div>
 
 
- <div class="refsect1 seealso" id="refsect1-function.stripos-seealso">
+ <div class="refsect1 seealso" id="refsect1-function.firstOccurInsenPosition-seealso">
   

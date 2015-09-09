@@ -1,6 +1,6 @@
 
  <div class="refnamediv">
-  <h1 class="refname">array_search</h1>
+  <h1 class="refname">search</h1>
  </div>
  <div class="refsect1 description" id="refsect1-function.array-search-description">
   <h3 class="title">Description</h3>
@@ -52,7 +52,7 @@
 
       <p class="para">
        If the third parameter <code class="parameter">strict</code> is set to <strong><code>TRUE</code></strong>
-       then the <span class="function"><strong>array_search()</strong></span> function will search for
+       then the <span class="function"><strong>search()</strong></span> function will search for
        <em class="emphasis">identical</em> elements in the
        <code class="parameter">haystack</code>. This means it will also check the
        <a href="language.types.php" class="link">types</a> of the
@@ -105,7 +105,7 @@ function.</p></div>
        <td>5.3.0</td>
        <td>
         As with all internal PHP functions as of 5.3.0,
-        <span class="function"><strong>array_search()</strong></span> returns <strong><code>NULL</code></strong> if invalid parameters
+        <span class="function"><strong>search()</strong></span> returns <strong><code>NULL</code></strong> if invalid parameters
         are passed to it.
        </td>
       </tr>
@@ -113,7 +113,7 @@ function.</p></div>
       <tr>
        <td>4.2.0</td>
        <td>
-        Prior to PHP 4.2.0, <span class="function"><strong>array_search()</strong></span> returns <strong><code>NULL</code></strong>
+        Prior to PHP 4.2.0, <span class="function"><strong>search()</strong></span> returns <strong><code>NULL</code></strong>
         on failure instead of <strong><code>FALSE</code></strong>.
        </td>
       </tr>
@@ -129,10 +129,10 @@ function.</p></div>
   <h3 class="title">Examples</h3>
   <p class="para">
    <div class="example" id="example-5524">
-    <p><strong>Example #1 <span class="function"><strong>array_search()</strong></span> example</strong></p>
+    <p><strong>Example #1 <span class="function"><strong>search()</strong></span> example</strong></p>
     <div class="example-contents">
 <div class="phpcode"><code><span style="color: #000000">
-<span style="color: #0000BB">&lt;?php<br />$array&nbsp;</span><span style="color: #007700">=&nbsp;array(</span><span style="color: #0000BB">0&nbsp;</span><span style="color: #007700">=&gt;&nbsp;</span><span style="color: #DD0000">'blue'</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">1&nbsp;</span><span style="color: #007700">=&gt;&nbsp;</span><span style="color: #DD0000">'red'</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">2&nbsp;</span><span style="color: #007700">=&gt;&nbsp;</span><span style="color: #DD0000">'green'</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">3&nbsp;</span><span style="color: #007700">=&gt;&nbsp;</span><span style="color: #DD0000">'red'</span><span style="color: #007700">);<br /><br /></span><span style="color: #0000BB">$key&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #0000BB">array_search</span><span style="color: #007700">(</span><span style="color: #DD0000">'green'</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">$array</span><span style="color: #007700">);&nbsp;</span><span style="color: #FF8000">//&nbsp;$key&nbsp;=&nbsp;2;<br /></span><span style="color: #0000BB">$key&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #0000BB">array_search</span><span style="color: #007700">(</span><span style="color: #DD0000">'red'</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">$array</span><span style="color: #007700">);&nbsp;&nbsp;&nbsp;</span><span style="color: #FF8000">//&nbsp;$key&nbsp;=&nbsp;1;<br /></span><span style="color: #0000BB">?&gt;</span>
+<span style="color: #0000BB">&lt;?php<br />$array&nbsp;</span><span style="color: #007700">=&nbsp;array(</span><span style="color: #0000BB">0&nbsp;</span><span style="color: #007700">=&gt;&nbsp;</span><span style="color: #DD0000">'blue'</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">1&nbsp;</span><span style="color: #007700">=&gt;&nbsp;</span><span style="color: #DD0000">'red'</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">2&nbsp;</span><span style="color: #007700">=&gt;&nbsp;</span><span style="color: #DD0000">'green'</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">3&nbsp;</span><span style="color: #007700">=&gt;&nbsp;</span><span style="color: #DD0000">'red'</span><span style="color: #007700">);<br /><br /></span><span style="color: #0000BB">$key&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #0000BB">search</span><span style="color: #007700">(</span><span style="color: #DD0000">'green'</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">$array</span><span style="color: #007700">);&nbsp;</span><span style="color: #FF8000">//&nbsp;$key&nbsp;=&nbsp;2;<br /></span><span style="color: #0000BB">$key&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #0000BB">search</span><span style="color: #007700">(</span><span style="color: #DD0000">'red'</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">$array</span><span style="color: #007700">);&nbsp;&nbsp;&nbsp;</span><span style="color: #FF8000">//&nbsp;$key&nbsp;=&nbsp;1;<br /></span><span style="color: #0000BB">?&gt;</span>
 </span>
 </code></div>
     </div>

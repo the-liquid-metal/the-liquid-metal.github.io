@@ -1,9 +1,9 @@
 
  <div class="refnamediv">
-  <h1 class="refname">strspn</h1>
+  <h1 class="refname">matchingMaskLength</h1>
  </div>
  
- <div class="refsect1 description" id="refsect1-function.strspn-description">
+ <div class="refsect1 description" id="refsect1-function.matchingMaskLength-description">
   <h3 class="title">Description</h3>
   <p class="para rdfs-comment">
    Finds the length of the initial segment of <code class="parameter">subject</code>
@@ -13,7 +13,7 @@
    If <code class="parameter">start</code> and <code class="parameter">length</code>
    are omitted, then all of <code class="parameter">subject</code> will be
    examined. If they are included, then the effect will be the same as
-   calling <em>strspn(substr($subject, $start, $length),
+   calling <em>matchingMaskLength(substr($subject, $start, $length),
    $mask)</em> (see <a href="function.substr.php" class="xref">substr</a>
    for more information).
   </p>
@@ -22,7 +22,7 @@
    <div class="informalexample">
     <div class="example-contents">
 <div class="phpcode"><code><span style="color: #000000">
-<span style="color: #0000BB">&lt;?php<br />$var&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #0000BB">strspn</span><span style="color: #007700">(</span><span style="color: #DD0000">"42&nbsp;is&nbsp;the&nbsp;answer&nbsp;to&nbsp;the&nbsp;128th&nbsp;question."</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">"1234567890"</span><span style="color: #007700">);<br /></span><span style="color: #0000BB">?&gt;</span>
+<span style="color: #0000BB">&lt;?php<br />$var&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #0000BB">matchingMaskLength</span><span style="color: #007700">(</span><span style="color: #DD0000">"42&nbsp;is&nbsp;the&nbsp;answer&nbsp;to&nbsp;the&nbsp;128th&nbsp;question."</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">"1234567890"</span><span style="color: #007700">);<br /></span><span style="color: #0000BB">?&gt;</span>
 </span>
 </code></div>
     </div>
@@ -36,7 +36,7 @@
  </div>
 
 
- <div class="refsect1 parameters" id="refsect1-function.strspn-parameters">
+ <div class="refsect1 parameters" id="refsect1-function.matchingMaskLength-parameters">
   <h3 class="title">Parameters</h3>
   <p class="para">
    <dl>
@@ -77,7 +77,7 @@
       </p>
       <p class="para">
        If <code class="parameter">start</code> is given and is non-negative,
-       then <span class="function"><strong>strspn()</strong></span> will begin
+       then <span class="function"><strong>matchingMaskLength()</strong></span> will begin
        examining <code class="parameter">subject</code> at
        the <code class="parameter">start</code>&#039;th position. For instance, in
        the string &#039;<em>abcdef</em>&#039;, the character at
@@ -87,7 +87,7 @@
       </p>
       <p class="para">
        If <code class="parameter">start</code> is given and is negative,
-       then <span class="function"><strong>strspn()</strong></span> will begin
+       then <span class="function"><strong>matchingMaskLength()</strong></span> will begin
        examining <code class="parameter">subject</code> at
        the <code class="parameter">start</code>&#039;th position from the end
        of <code class="parameter">subject</code>.
@@ -126,7 +126,7 @@
  </div>
 
 
- <div class="refsect1 returnvalues" id="refsect1-function.strspn-returnvalues">
+ <div class="refsect1 returnvalues" id="refsect1-function.matchingMaskLength-returnvalues">
   <h3 class="title">Return Values</h3>
   <p class="para">
    Returns the length of the initial segment of <code class="parameter">subject</code>
@@ -142,14 +142,14 @@
  </div>
 
 
- <div class="refsect1 examples" id="refsect1-function.strspn-examples">
+ <div class="refsect1 examples" id="refsect1-function.matchingMaskLength-examples">
   <h3 class="title">Examples</h3>
   <p class="para">
    <div class="example" id="example-5444">
-    <p><strong>Example #1 <span class="function"><strong>strspn()</strong></span> example</strong></p>
+    <p><strong>Example #1 <span class="function"><strong>matchingMaskLength()</strong></span> example</strong></p>
     <div class="example-contents">
 <div class="phpcode"><code><span style="color: #000000">
-<span style="color: #0000BB">&lt;?php<br /></span><span style="color: #FF8000">//&nbsp;subject&nbsp;does&nbsp;not&nbsp;start&nbsp;with&nbsp;any&nbsp;characters&nbsp;from&nbsp;mask<br /></span><span style="color: #0000BB">var_dump</span><span style="color: #007700">(</span><span style="color: #0000BB">strspn</span><span style="color: #007700">(</span><span style="color: #DD0000">"foo"</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">"o"</span><span style="color: #007700">));<br /><br /></span><span style="color: #FF8000">//&nbsp;examine&nbsp;two&nbsp;characters&nbsp;from&nbsp;subject&nbsp;starting&nbsp;at&nbsp;offset&nbsp;1<br /></span><span style="color: #0000BB">var_dump</span><span style="color: #007700">(</span><span style="color: #0000BB">strspn</span><span style="color: #007700">(</span><span style="color: #DD0000">"foo"</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">"o"</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">1</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">2</span><span style="color: #007700">));<br /><br /></span><span style="color: #FF8000">//&nbsp;examine&nbsp;one&nbsp;character&nbsp;from&nbsp;subject&nbsp;starting&nbsp;at&nbsp;offset&nbsp;1<br /></span><span style="color: #0000BB">var_dump</span><span style="color: #007700">(</span><span style="color: #0000BB">strspn</span><span style="color: #007700">(</span><span style="color: #DD0000">"foo"</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">"o"</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">1</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">1</span><span style="color: #007700">));<br /></span><span style="color: #0000BB">?&gt;</span>
+<span style="color: #0000BB">&lt;?php<br /></span><span style="color: #FF8000">//&nbsp;subject&nbsp;does&nbsp;not&nbsp;start&nbsp;with&nbsp;any&nbsp;characters&nbsp;from&nbsp;mask<br /></span><span style="color: #0000BB">var_dump</span><span style="color: #007700">(</span><span style="color: #0000BB">matchingMaskLength</span><span style="color: #007700">(</span><span style="color: #DD0000">"foo"</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">"o"</span><span style="color: #007700">));<br /><br /></span><span style="color: #FF8000">//&nbsp;examine&nbsp;two&nbsp;characters&nbsp;from&nbsp;subject&nbsp;starting&nbsp;at&nbsp;offset&nbsp;1<br /></span><span style="color: #0000BB">var_dump</span><span style="color: #007700">(</span><span style="color: #0000BB">matchingMaskLength</span><span style="color: #007700">(</span><span style="color: #DD0000">"foo"</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">"o"</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">1</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">2</span><span style="color: #007700">));<br /><br /></span><span style="color: #FF8000">//&nbsp;examine&nbsp;one&nbsp;character&nbsp;from&nbsp;subject&nbsp;starting&nbsp;at&nbsp;offset&nbsp;1<br /></span><span style="color: #0000BB">var_dump</span><span style="color: #007700">(</span><span style="color: #0000BB">matchingMaskLength</span><span style="color: #007700">(</span><span style="color: #DD0000">"foo"</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">"o"</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">1</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">1</span><span style="color: #007700">));<br /></span><span style="color: #0000BB">?&gt;</span>
 </span>
 </code></div>
     </div>
@@ -167,12 +167,12 @@ int(1)
  </div>
 
 
- <div class="refsect1 notes" id="refsect1-function.strspn-notes">
+ <div class="refsect1 notes" id="refsect1-function.matchingMaskLength-notes">
   <h3 class="title">Notes</h3>
   <blockquote class="note"><p><strong class="note">Note</strong>: <span class="simpara">This function is
 binary-safe.</span></p></blockquote>
  </div>
 
 
- <div class="refsect1 seealso" id="refsect1-function.strspn-seealso">
+ <div class="refsect1 seealso" id="refsect1-function.matchingMaskLength-seealso">
   

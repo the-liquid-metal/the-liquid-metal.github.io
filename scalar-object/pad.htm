@@ -1,12 +1,12 @@
 
  <div class="refnamediv">
-  <h1 class="refname">array_pad</h1>
+  <h1 class="refname">pad</h1>
  </div>
  
  <div class="refsect1 description" id="refsect1-function.array-pad-description">
   <h3 class="title">Description</h3>
   <p class="para rdfs-comment">
-   <span class="function"><strong>array_pad()</strong></span> returns a copy of the
+   <span class="function"><strong>pad()</strong></span> returns a copy of the
    <code class="parameter">array</code> padded to size specified by
    <code class="parameter">size</code> with value
    <code class="parameter">value</code>. If
@@ -86,10 +86,10 @@
   <h3 class="title">Examples</h3>
   <p class="para">
    <div class="example" id="example-5514">
-    <p><strong>Example #1 <span class="function"><strong>array_pad()</strong></span> example</strong></p>
+    <p><strong>Example #1 <span class="function"><strong>pad()</strong></span> example</strong></p>
     <div class="example-contents">
 <div class="phpcode"><code><span style="color: #000000">
-<span style="color: #0000BB">&lt;?php<br />$input&nbsp;</span><span style="color: #007700">=&nbsp;array(</span><span style="color: #0000BB">12</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">10</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">9</span><span style="color: #007700">);<br /><br /></span><span style="color: #0000BB">$result&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #0000BB">array_pad</span><span style="color: #007700">(</span><span style="color: #0000BB">$input</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">5</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">0</span><span style="color: #007700">);<br /></span><span style="color: #FF8000">//&nbsp;result&nbsp;is&nbsp;array(12,&nbsp;10,&nbsp;9,&nbsp;0,&nbsp;0)<br /><br /></span><span style="color: #0000BB">$result&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #0000BB">array_pad</span><span style="color: #007700">(</span><span style="color: #0000BB">$input</span><span style="color: #007700">,&nbsp;-</span><span style="color: #0000BB">7</span><span style="color: #007700">,&nbsp;-</span><span style="color: #0000BB">1</span><span style="color: #007700">);<br /></span><span style="color: #FF8000">//&nbsp;result&nbsp;is&nbsp;array(-1,&nbsp;-1,&nbsp;-1,&nbsp;-1,&nbsp;12,&nbsp;10,&nbsp;9)<br /><br /></span><span style="color: #0000BB">$result&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #0000BB">array_pad</span><span style="color: #007700">(</span><span style="color: #0000BB">$input</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">2</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">"noop"</span><span style="color: #007700">);<br /></span><span style="color: #FF8000">//&nbsp;not&nbsp;padded<br /></span><span style="color: #0000BB">?&gt;</span>
+<span style="color: #0000BB">&lt;?php<br />$input&nbsp;</span><span style="color: #007700">=&nbsp;array(</span><span style="color: #0000BB">12</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">10</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">9</span><span style="color: #007700">);<br /><br /></span><span style="color: #0000BB">$result&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #0000BB">pad</span><span style="color: #007700">(</span><span style="color: #0000BB">$input</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">5</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">0</span><span style="color: #007700">);<br /></span><span style="color: #FF8000">//&nbsp;result&nbsp;is&nbsp;array(12,&nbsp;10,&nbsp;9,&nbsp;0,&nbsp;0)<br /><br /></span><span style="color: #0000BB">$result&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #0000BB">pad</span><span style="color: #007700">(</span><span style="color: #0000BB">$input</span><span style="color: #007700">,&nbsp;-</span><span style="color: #0000BB">7</span><span style="color: #007700">,&nbsp;-</span><span style="color: #0000BB">1</span><span style="color: #007700">);<br /></span><span style="color: #FF8000">//&nbsp;result&nbsp;is&nbsp;array(-1,&nbsp;-1,&nbsp;-1,&nbsp;-1,&nbsp;12,&nbsp;10,&nbsp;9)<br /><br /></span><span style="color: #0000BB">$result&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #0000BB">pad</span><span style="color: #007700">(</span><span style="color: #0000BB">$input</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">2</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">"noop"</span><span style="color: #007700">);<br /></span><span style="color: #FF8000">//&nbsp;not&nbsp;padded<br /></span><span style="color: #0000BB">?&gt;</span>
 </span>
 </code></div>
     </div>

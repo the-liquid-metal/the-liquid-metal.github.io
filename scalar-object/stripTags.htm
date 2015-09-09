@@ -1,6 +1,6 @@
 
  <div class="refnamediv">
-  <h1 class="refname">strip_tags</h1>
+  <h1 class="refname">stripTags</h1>
  </div>
  
  <div class="refsect1 description" id="refsect1-function.strip-tags-description">
@@ -57,7 +57,7 @@
        <div class="informalexample">
         <div class="example-contents">
 <div class="phpcode"><code><span style="color: #000000">
-<span style="color: #0000BB">&lt;?php<br />strip_tags</span><span style="color: #007700">(</span><span style="color: #0000BB">$input</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">'&lt;br&gt;'</span><span style="color: #007700">);<br /></span><span style="color: #0000BB">?&gt;</span>
+<span style="color: #0000BB">&lt;?php<br />stripTags</span><span style="color: #007700">(</span><span style="color: #0000BB">$input</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">'&lt;br&gt;'</span><span style="color: #007700">);<br /></span><span style="color: #0000BB">?&gt;</span>
 </span>
 </code></div>
         </div>
@@ -98,7 +98,7 @@
       <tr>
        <td>5.3.4</td>
        <td>
-        <span class="function"><strong>strip_tags()</strong></span> ignores self-closing XHTML
+        <span class="function"><strong>stripTags()</strong></span> ignores self-closing XHTML
         tags in
         <code class="parameter">allowable_tags</code>.
        </td>
@@ -107,7 +107,7 @@
       <tr>
        <td>5.0.0</td>
        <td>
-        <span class="function"><strong>strip_tags()</strong></span> is now binary safe.
+        <span class="function"><strong>stripTags()</strong></span> is now binary safe.
        </td>
       </tr>
 
@@ -123,10 +123,10 @@
   <h3 class="title">Examples</h3>
   <p class="para">
    <div class="example" id="example-5427">
-    <p><strong>Example #1 <span class="function"><strong>strip_tags()</strong></span> example</strong></p>
+    <p><strong>Example #1 <span class="function"><strong>stripTags()</strong></span> example</strong></p>
     <div class="example-contents">
 <div class="phpcode"><code><span style="color: #000000">
-<span style="color: #0000BB">&lt;?php<br />$text&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #DD0000">'&lt;p&gt;Test&nbsp;paragraph.&lt;/p&gt;&lt;!--&nbsp;Comment&nbsp;--&gt;&nbsp;&lt;a&nbsp;href="#fragment"&gt;Other&nbsp;text&lt;/a&gt;'</span><span style="color: #007700">;<br />echo&nbsp;</span><span style="color: #0000BB">strip_tags</span><span style="color: #007700">(</span><span style="color: #0000BB">$text</span><span style="color: #007700">);<br />echo&nbsp;</span><span style="color: #DD0000">"\n"</span><span style="color: #007700">;<br /><br /></span><span style="color: #FF8000">//&nbsp;Allow&nbsp;&lt;p&gt;&nbsp;and&nbsp;&lt;a&gt;<br /></span><span style="color: #007700">echo&nbsp;</span><span style="color: #0000BB">strip_tags</span><span style="color: #007700">(</span><span style="color: #0000BB">$text</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">'&lt;p&gt;&lt;a&gt;'</span><span style="color: #007700">);<br /></span><span style="color: #0000BB">?&gt;</span>
+<span style="color: #0000BB">&lt;?php<br />$text&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #DD0000">'&lt;p&gt;Test&nbsp;paragraph.&lt;/p&gt;&lt;!--&nbsp;Comment&nbsp;--&gt;&nbsp;&lt;a&nbsp;href="#fragment"&gt;Other&nbsp;text&lt;/a&gt;'</span><span style="color: #007700">;<br />echo&nbsp;</span><span style="color: #0000BB">stripTags</span><span style="color: #007700">(</span><span style="color: #0000BB">$text</span><span style="color: #007700">);<br />echo&nbsp;</span><span style="color: #DD0000">"\n"</span><span style="color: #007700">;<br /><br /></span><span style="color: #FF8000">//&nbsp;Allow&nbsp;&lt;p&gt;&nbsp;and&nbsp;&lt;a&gt;<br /></span><span style="color: #007700">echo&nbsp;</span><span style="color: #0000BB">stripTags</span><span style="color: #007700">(</span><span style="color: #0000BB">$text</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">'&lt;p&gt;&lt;a&gt;'</span><span style="color: #007700">);<br /></span><span style="color: #0000BB">?&gt;</span>
 </span>
 </code></div>
     </div>
@@ -147,7 +147,7 @@ Test paragraph. Other text
   <h3 class="title">Notes</h3>
   <div class="warning"><strong class="warning">Warning</strong>
    <p class="para">
-    Because <span class="function"><strong>strip_tags()</strong></span> does not actually validate the
+    Because <span class="function"><strong>stripTags()</strong></span> does not actually validate the
     HTML, partial or broken tags can result in the removal of more
     text/data than expected.
    </p>

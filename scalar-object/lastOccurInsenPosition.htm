@@ -1,22 +1,22 @@
 
  <div class="refnamediv">
-  <h1 class="refname">strripos</h1>
+  <h1 class="refname">lastOccurInsenPosition</h1>
  </div>
  
- <div class="refsect1 description" id="refsect1-function.strripos-description">
+ <div class="refsect1 description" id="refsect1-function.lastOccurInsenPosition-description">
   <h3 class="title">Description</h3>
   <p class="para rdfs-comment">
    Find the numeric position of the last occurrence of
    <code class="parameter">needle</code> in the <code class="parameter">haystack</code> string.
   </p>
   <p class="para"> 
-   Unlike the <span class="function"><a href="function.strrpos.php" class="function">strrpos()</a></span>, <span class="function"><strong>strripos()</strong></span> is
+   Unlike the <span class="function"><a href="function.strrpos.php" class="function">strrpos()</a></span>, <span class="function"><strong>lastOccurInsenPosition()</strong></span> is
    case-insensitive.
   </p>
  </div>
 
 
- <div class="refsect1 parameters" id="refsect1-function.strripos-parameters">
+ <div class="refsect1 parameters" id="refsect1-function.lastOccurInsenPosition-parameters">
   <h3 class="title">Parameters</h3>
   <p class="para">
    <dl>
@@ -66,7 +66,7 @@
  </div>
 
 
- <div class="refsect1 returnvalues" id="refsect1-function.strripos-returnvalues">
+ <div class="refsect1 returnvalues" id="refsect1-function.lastOccurInsenPosition-returnvalues">
   <h3 class="title">Return Values</h3>
   <p class="para">
    Returns the position where the needle exists relative to the beginnning of
@@ -86,14 +86,14 @@ function.</p></div>
  </div>
 
 
- <div class="refsect1 examples" id="refsect1-function.strripos-examples">
+ <div class="refsect1 examples" id="refsect1-function.lastOccurInsenPosition-examples">
   <h3 class="title">Examples</h3>
   <p class="para">
    <div class="example" id="example-5441">
-    <p><strong>Example #1 A simple <span class="function"><strong>strripos()</strong></span> example</strong></p>
+    <p><strong>Example #1 A simple <span class="function"><strong>lastOccurInsenPosition()</strong></span> example</strong></p>
     <div class="example-contents">
 <div class="phpcode"><code><span style="color: #000000">
-<span style="color: #0000BB">&lt;?php<br />$haystack&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #DD0000">'ababcd'</span><span style="color: #007700">;<br /></span><span style="color: #0000BB">$needle&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #DD0000">'aB'</span><span style="color: #007700">;<br /><br /></span><span style="color: #0000BB">$pos&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #0000BB">strripos</span><span style="color: #007700">(</span><span style="color: #0000BB">$haystack</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">$needle</span><span style="color: #007700">);<br /><br />if&nbsp;(</span><span style="color: #0000BB">$pos&nbsp;</span><span style="color: #007700">===&nbsp;</span><span style="color: #0000BB">false</span><span style="color: #007700">)&nbsp;{<br />&nbsp;&nbsp;&nbsp;&nbsp;echo&nbsp;</span><span style="color: #DD0000">"Sorry,&nbsp;we&nbsp;did&nbsp;not&nbsp;find&nbsp;(</span><span style="color: #0000BB">$needle</span><span style="color: #DD0000">)&nbsp;in&nbsp;(</span><span style="color: #0000BB">$haystack</span><span style="color: #DD0000">)"</span><span style="color: #007700">;<br />}&nbsp;else&nbsp;{<br />&nbsp;&nbsp;&nbsp;&nbsp;echo&nbsp;</span><span style="color: #DD0000">"Congratulations!\n"</span><span style="color: #007700">;<br />&nbsp;&nbsp;&nbsp;&nbsp;echo&nbsp;</span><span style="color: #DD0000">"We&nbsp;found&nbsp;the&nbsp;last&nbsp;(</span><span style="color: #0000BB">$needle</span><span style="color: #DD0000">)&nbsp;in&nbsp;(</span><span style="color: #0000BB">$haystack</span><span style="color: #DD0000">)&nbsp;at&nbsp;position&nbsp;(</span><span style="color: #0000BB">$pos</span><span style="color: #DD0000">)"</span><span style="color: #007700">;<br />}<br /></span><span style="color: #0000BB">?&gt;</span>
+<span style="color: #0000BB">&lt;?php<br />$haystack&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #DD0000">'ababcd'</span><span style="color: #007700">;<br /></span><span style="color: #0000BB">$needle&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #DD0000">'aB'</span><span style="color: #007700">;<br /><br /></span><span style="color: #0000BB">$pos&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #0000BB">lastOccurInsenPosition</span><span style="color: #007700">(</span><span style="color: #0000BB">$haystack</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">$needle</span><span style="color: #007700">);<br /><br />if&nbsp;(</span><span style="color: #0000BB">$pos&nbsp;</span><span style="color: #007700">===&nbsp;</span><span style="color: #0000BB">false</span><span style="color: #007700">)&nbsp;{<br />&nbsp;&nbsp;&nbsp;&nbsp;echo&nbsp;</span><span style="color: #DD0000">"Sorry,&nbsp;we&nbsp;did&nbsp;not&nbsp;find&nbsp;(</span><span style="color: #0000BB">$needle</span><span style="color: #DD0000">)&nbsp;in&nbsp;(</span><span style="color: #0000BB">$haystack</span><span style="color: #DD0000">)"</span><span style="color: #007700">;<br />}&nbsp;else&nbsp;{<br />&nbsp;&nbsp;&nbsp;&nbsp;echo&nbsp;</span><span style="color: #DD0000">"Congratulations!\n"</span><span style="color: #007700">;<br />&nbsp;&nbsp;&nbsp;&nbsp;echo&nbsp;</span><span style="color: #DD0000">"We&nbsp;found&nbsp;the&nbsp;last&nbsp;(</span><span style="color: #0000BB">$needle</span><span style="color: #DD0000">)&nbsp;in&nbsp;(</span><span style="color: #0000BB">$haystack</span><span style="color: #DD0000">)&nbsp;at&nbsp;position&nbsp;(</span><span style="color: #0000BB">$pos</span><span style="color: #DD0000">)"</span><span style="color: #007700">;<br />}<br /></span><span style="color: #0000BB">?&gt;</span>
 </span>
 </code></div>
     </div>
@@ -110,5 +110,5 @@ function.</p></div>
  </div>
 
 
- <div class="refsect1 seealso" id="refsect1-function.strripos-seealso">
+ <div class="refsect1 seealso" id="refsect1-function.lastOccurInsenPosition-seealso">
   

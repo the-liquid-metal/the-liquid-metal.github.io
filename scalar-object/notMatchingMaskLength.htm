@@ -1,9 +1,9 @@
 
  <div class="refnamediv">
-  <h1 class="refname">strcspn</h1>
+  <h1 class="refname">notMatchingMaskLength</h1>
  </div>
  
- <div class="refsect1 description" id="refsect1-function.strcspn-description">
+ <div class="refsect1 description" id="refsect1-function.notMatchingMaskLength-description">
   <h3 class="title">Description</h3>
   <p class="para rdfs-comment">
    Returns the length of the initial segment of
@@ -14,14 +14,14 @@
    If <code class="parameter">start</code> and <code class="parameter">length</code>
    are omitted, then all of <code class="parameter">subject</code> will be
    examined. If they are included, then the effect will be the same as
-   calling <em>strcspn(substr($subject, $start, $length),
+   calling <em>notMatchingMaskLength(substr($subject, $start, $length),
    $mask)</em> (see <a href="function.substr.php" class="xref">substr</a>
    for more information).
   </p>
  </div>
 
  
- <div class="refsect1 parameters" id="refsect1-function.strcspn-parameters">
+ <div class="refsect1 parameters" id="refsect1-function.notMatchingMaskLength-parameters">
   <h3 class="title">Parameters</h3>
   <p class="para">
    <dl>
@@ -62,7 +62,7 @@
       </p>
       <p class="para">
        If <code class="parameter">start</code> is given and is non-negative,
-       then <span class="function"><strong>strcspn()</strong></span> will begin
+       then <span class="function"><strong>notMatchingMaskLength()</strong></span> will begin
        examining <code class="parameter">subject</code> at
        the <code class="parameter">start</code>&#039;th position. For instance, in
        the string &#039;<em>abcdef</em>&#039;, the character at
@@ -111,7 +111,7 @@
  </div>
 
  
- <div class="refsect1 returnvalues" id="refsect1-function.strcspn-returnvalues">
+ <div class="refsect1 returnvalues" id="refsect1-function.notMatchingMaskLength-returnvalues">
   <h3 class="title">Return Values</h3>
   <p class="para">
    Returns the length of the initial segment of <code class="parameter">subject</code>
@@ -127,13 +127,13 @@
  </div>
 
  
- <div class="refsect1 examples" id="refsect1-function.strcspn-examples">
+ <div class="refsect1 examples" id="refsect1-function.notMatchingMaskLength-examples">
   <h3 class="title">Examples</h3>
-  <div class="example" id="strcspn.example">
-   <p><strong>Example #1 <span class="function"><strong>strcspn()</strong></span> example</strong></p>
+  <div class="example" id="notMatchingMaskLength.example">
+   <p><strong>Example #1 <span class="function"><strong>notMatchingMaskLength()</strong></span> example</strong></p>
    <div class="example-contents">
 <div class="phpcode"><code><span style="color: #000000">
-<span style="color: #0000BB">&lt;?php<br />$a&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #0000BB">strcspn</span><span style="color: #007700">(</span><span style="color: #DD0000">'abcd'</span><span style="color: #007700">,&nbsp;&nbsp;</span><span style="color: #DD0000">'apple'</span><span style="color: #007700">);<br /></span><span style="color: #0000BB">$b&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #0000BB">strcspn</span><span style="color: #007700">(</span><span style="color: #DD0000">'abcd'</span><span style="color: #007700">,&nbsp;&nbsp;</span><span style="color: #DD0000">'banana'</span><span style="color: #007700">);<br /></span><span style="color: #0000BB">$c&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #0000BB">strcspn</span><span style="color: #007700">(</span><span style="color: #DD0000">'hello'</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">'l'</span><span style="color: #007700">);<br /></span><span style="color: #0000BB">$d&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #0000BB">strcspn</span><span style="color: #007700">(</span><span style="color: #DD0000">'hello'</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">'world'</span><span style="color: #007700">);<br /></span><span style="color: #0000BB">$e&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #0000BB">strcspn</span><span style="color: #007700">(</span><span style="color: #DD0000">'abcdhelloabcd'</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">'abcd'</span><span style="color: #007700">,&nbsp;-</span><span style="color: #0000BB">9</span><span style="color: #007700">);<br /></span><span style="color: #0000BB">$f&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #0000BB">strcspn</span><span style="color: #007700">(</span><span style="color: #DD0000">'abcdhelloabcd'</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">'abcd'</span><span style="color: #007700">,&nbsp;-</span><span style="color: #0000BB">9</span><span style="color: #007700">,&nbsp;-</span><span style="color: #0000BB">5</span><span style="color: #007700">);<br /><br /></span><span style="color: #0000BB">var_dump</span><span style="color: #007700">(</span><span style="color: #0000BB">$a</span><span style="color: #007700">);<br /></span><span style="color: #0000BB">var_dump</span><span style="color: #007700">(</span><span style="color: #0000BB">$b</span><span style="color: #007700">);<br /></span><span style="color: #0000BB">var_dump</span><span style="color: #007700">(</span><span style="color: #0000BB">$c</span><span style="color: #007700">);<br /></span><span style="color: #0000BB">var_dump</span><span style="color: #007700">(</span><span style="color: #0000BB">$d</span><span style="color: #007700">);<br /></span><span style="color: #0000BB">var_dump</span><span style="color: #007700">(</span><span style="color: #0000BB">$e</span><span style="color: #007700">);<br /></span><span style="color: #0000BB">var_dump</span><span style="color: #007700">(</span><span style="color: #0000BB">$f</span><span style="color: #007700">);<br /></span><span style="color: #0000BB">?&gt;</span>
+<span style="color: #0000BB">&lt;?php<br />$a&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #0000BB">notMatchingMaskLength</span><span style="color: #007700">(</span><span style="color: #DD0000">'abcd'</span><span style="color: #007700">,&nbsp;&nbsp;</span><span style="color: #DD0000">'apple'</span><span style="color: #007700">);<br /></span><span style="color: #0000BB">$b&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #0000BB">notMatchingMaskLength</span><span style="color: #007700">(</span><span style="color: #DD0000">'abcd'</span><span style="color: #007700">,&nbsp;&nbsp;</span><span style="color: #DD0000">'banana'</span><span style="color: #007700">);<br /></span><span style="color: #0000BB">$c&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #0000BB">notMatchingMaskLength</span><span style="color: #007700">(</span><span style="color: #DD0000">'hello'</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">'l'</span><span style="color: #007700">);<br /></span><span style="color: #0000BB">$d&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #0000BB">notMatchingMaskLength</span><span style="color: #007700">(</span><span style="color: #DD0000">'hello'</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">'world'</span><span style="color: #007700">);<br /></span><span style="color: #0000BB">$e&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #0000BB">notMatchingMaskLength</span><span style="color: #007700">(</span><span style="color: #DD0000">'abcdhelloabcd'</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">'abcd'</span><span style="color: #007700">,&nbsp;-</span><span style="color: #0000BB">9</span><span style="color: #007700">);<br /></span><span style="color: #0000BB">$f&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #0000BB">notMatchingMaskLength</span><span style="color: #007700">(</span><span style="color: #DD0000">'abcdhelloabcd'</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">'abcd'</span><span style="color: #007700">,&nbsp;-</span><span style="color: #0000BB">9</span><span style="color: #007700">,&nbsp;-</span><span style="color: #0000BB">5</span><span style="color: #007700">);<br /><br /></span><span style="color: #0000BB">var_dump</span><span style="color: #007700">(</span><span style="color: #0000BB">$a</span><span style="color: #007700">);<br /></span><span style="color: #0000BB">var_dump</span><span style="color: #007700">(</span><span style="color: #0000BB">$b</span><span style="color: #007700">);<br /></span><span style="color: #0000BB">var_dump</span><span style="color: #007700">(</span><span style="color: #0000BB">$c</span><span style="color: #007700">);<br /></span><span style="color: #0000BB">var_dump</span><span style="color: #007700">(</span><span style="color: #0000BB">$d</span><span style="color: #007700">);<br /></span><span style="color: #0000BB">var_dump</span><span style="color: #007700">(</span><span style="color: #0000BB">$e</span><span style="color: #007700">);<br /></span><span style="color: #0000BB">var_dump</span><span style="color: #007700">(</span><span style="color: #0000BB">$f</span><span style="color: #007700">);<br /></span><span style="color: #0000BB">?&gt;</span>
 </span>
 </code></div>
    </div>
@@ -153,12 +153,12 @@ int(4)
  </div>
 
  
- <div class="refsect1 notes" id="refsect1-function.strcspn-notes">
+ <div class="refsect1 notes" id="refsect1-function.notMatchingMaskLength-notes">
   <h3 class="title">Notes</h3>
   <blockquote class="note"><p><strong class="note">Note</strong>: <span class="simpara">This function is
 binary-safe.</span></p></blockquote>
  </div>
 
  
- <div class="refsect1 seealso" id="refsect1-function.strcspn-seealso">
+ <div class="refsect1 seealso" id="refsect1-function.notMatchingMaskLength-seealso">
   

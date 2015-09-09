@@ -1,18 +1,18 @@
 
  <div class="refnamediv">
-  <h1 class="refname">strpbrk</h1>
+  <h1 class="refname">searchFirstInSet</h1>
  </div>
  
- <div class="refsect1 description" id="refsect1-function.strpbrk-description">
+ <div class="refsect1 description" id="refsect1-function.searchFirstInSet-description">
   <h3 class="title">Description</h3>
   <p class="para rdfs-comment">
-   <span class="function"><strong>strpbrk()</strong></span> searches the <code class="parameter">haystack</code>
+   <span class="function"><strong>searchFirstInSet()</strong></span> searches the <code class="parameter">haystack</code>
    string for a <code class="parameter">char_list</code>.
   </p>
  </div>
 
 
- <div class="refsect1 parameters" id="refsect1-function.strpbrk-parameters">
+ <div class="refsect1 parameters" id="refsect1-function.searchFirstInSet-parameters">
   <h3 class="title">Parameters</h3>
   <p class="para">
    <dl>
@@ -47,7 +47,7 @@
  </div>
 
 
- <div class="refsect1 returnvalues" id="refsect1-function.strpbrk-returnvalues">
+ <div class="refsect1 returnvalues" id="refsect1-function.searchFirstInSet-returnvalues">
   <h3 class="title">Return Values</h3>
   <p class="para">
    Returns a string starting from the character found, or <strong><code>FALSE</code></strong> if it is
@@ -56,14 +56,14 @@
  </div>
 
 
- <div class="refsect1 examples" id="refsect1-function.strpbrk-examples">
+ <div class="refsect1 examples" id="refsect1-function.searchFirstInSet-examples">
   <h3 class="title">Examples</h3>
   <p class="para">
    <div class="example" id="example-5435">
-    <p><strong>Example #1 <span class="function"><strong>strpbrk()</strong></span> example</strong></p>
+    <p><strong>Example #1 <span class="function"><strong>searchFirstInSet()</strong></span> example</strong></p>
     <div class="example-contents">
 <div class="phpcode"><code><span style="color: #000000">
-<span style="color: #0000BB">&lt;?php<br /><br />$text&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #DD0000">'This&nbsp;is&nbsp;a&nbsp;Simple&nbsp;text.'</span><span style="color: #007700">;<br /><br /></span><span style="color: #FF8000">//&nbsp;this&nbsp;echoes&nbsp;"is&nbsp;is&nbsp;a&nbsp;Simple&nbsp;text."&nbsp;because&nbsp;'i'&nbsp;is&nbsp;matched&nbsp;first<br /></span><span style="color: #007700">echo&nbsp;</span><span style="color: #0000BB">strpbrk</span><span style="color: #007700">(</span><span style="color: #0000BB">$text</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">'mi'</span><span style="color: #007700">);<br /><br /></span><span style="color: #FF8000">//&nbsp;this&nbsp;echoes&nbsp;"Simple&nbsp;text."&nbsp;because&nbsp;chars&nbsp;are&nbsp;case&nbsp;sensitive<br /></span><span style="color: #007700">echo&nbsp;</span><span style="color: #0000BB">strpbrk</span><span style="color: #007700">(</span><span style="color: #0000BB">$text</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">'S'</span><span style="color: #007700">);<br /></span><span style="color: #0000BB">?&gt;</span>
+<span style="color: #0000BB">&lt;?php<br /><br />$text&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #DD0000">'This&nbsp;is&nbsp;a&nbsp;Simple&nbsp;text.'</span><span style="color: #007700">;<br /><br /></span><span style="color: #FF8000">//&nbsp;this&nbsp;echoes&nbsp;"is&nbsp;is&nbsp;a&nbsp;Simple&nbsp;text."&nbsp;because&nbsp;'i'&nbsp;is&nbsp;matched&nbsp;first<br /></span><span style="color: #007700">echo&nbsp;</span><span style="color: #0000BB">searchFirstInSet</span><span style="color: #007700">(</span><span style="color: #0000BB">$text</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">'mi'</span><span style="color: #007700">);<br /><br /></span><span style="color: #FF8000">//&nbsp;this&nbsp;echoes&nbsp;"Simple&nbsp;text."&nbsp;because&nbsp;chars&nbsp;are&nbsp;case&nbsp;sensitive<br /></span><span style="color: #007700">echo&nbsp;</span><span style="color: #0000BB">searchFirstInSet</span><span style="color: #007700">(</span><span style="color: #0000BB">$text</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">'S'</span><span style="color: #007700">);<br /></span><span style="color: #0000BB">?&gt;</span>
 </span>
 </code></div>
     </div>
@@ -73,5 +73,5 @@
  </div>
 
 
- <div class="refsect1 seealso" id="refsect1-function.strpbrk-seealso">
+ <div class="refsect1 seealso" id="refsect1-function.searchFirstInSet-seealso">
   

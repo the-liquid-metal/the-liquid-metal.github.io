@@ -1,9 +1,9 @@
 
  <div class="refnamediv">
-  <h1 class="refname">wordwrap</h1>
+  <h1 class="refname">wordWrap</h1>
  </div>
  
- <div class="refsect1 description" id="refsect1-function.wordwrap-description">
+ <div class="refsect1 description" id="refsect1-function.wordWrap-description">
   <h3 class="title">Description</h3>
   <p class="para rdfs-comment">
    Wraps a string to a given number of characters using a string break
@@ -12,7 +12,7 @@
  </div>
 
 
- <div class="refsect1 parameters" id="refsect1-function.wordwrap-parameters">
+ <div class="refsect1 parameters" id="refsect1-function.wordWrap-parameters">
   <h3 class="title">Parameters</h3>
   <p class="para">
    <dl>
@@ -76,7 +76,7 @@
  </div>
 
 
- <div class="refsect1 returnvalues" id="refsect1-function.wordwrap-returnvalues">
+ <div class="refsect1 returnvalues" id="refsect1-function.wordWrap-returnvalues">
   <h3 class="title">Return Values</h3>
   <p class="para">
    Returns the given string wrapped at the specified length.
@@ -84,14 +84,14 @@
  </div>
 
 
- <div class="refsect1 examples" id="refsect1-function.wordwrap-examples">
+ <div class="refsect1 examples" id="refsect1-function.wordWrap-examples">
   <h3 class="title">Examples</h3>
   <p class="para">
    <div class="example" id="example-5471">
-    <p><strong>Example #1 <span class="function"><strong>wordwrap()</strong></span> example</strong></p>
+    <p><strong>Example #1 <span class="function"><strong>wordWrap()</strong></span> example</strong></p>
     <div class="example-contents">
 <div class="phpcode"><code><span style="color: #000000">
-<span style="color: #0000BB">&lt;?php<br />$text&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #DD0000">"The&nbsp;quick&nbsp;brown&nbsp;fox&nbsp;jumped&nbsp;over&nbsp;the&nbsp;lazy&nbsp;dog."</span><span style="color: #007700">;<br /></span><span style="color: #0000BB">$newtext&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #0000BB">wordwrap</span><span style="color: #007700">(</span><span style="color: #0000BB">$text</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">20</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">"&lt;br&nbsp;/&gt;\n"</span><span style="color: #007700">);<br /><br />echo&nbsp;</span><span style="color: #0000BB">$newtext</span><span style="color: #007700">;<br /></span><span style="color: #0000BB">?&gt;</span>
+<span style="color: #0000BB">&lt;?php<br />$text&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #DD0000">"The&nbsp;quick&nbsp;brown&nbsp;fox&nbsp;jumped&nbsp;over&nbsp;the&nbsp;lazy&nbsp;dog."</span><span style="color: #007700">;<br /></span><span style="color: #0000BB">$newtext&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #0000BB">wordWrap</span><span style="color: #007700">(</span><span style="color: #0000BB">$text</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">20</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">"&lt;br&nbsp;/&gt;\n"</span><span style="color: #007700">);<br /><br />echo&nbsp;</span><span style="color: #0000BB">$newtext</span><span style="color: #007700">;<br /></span><span style="color: #0000BB">?&gt;</span>
 </span>
 </code></div>
     </div>
@@ -106,10 +106,10 @@ dog.
     </div>
    </div>
    <div class="example" id="example-5472">
-    <p><strong>Example #2 <span class="function"><strong>wordwrap()</strong></span> example</strong></p>
+    <p><strong>Example #2 <span class="function"><strong>wordWrap()</strong></span> example</strong></p>
     <div class="example-contents">
 <div class="phpcode"><code><span style="color: #000000">
-<span style="color: #0000BB">&lt;?php<br />$text&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #DD0000">"A&nbsp;very&nbsp;long&nbsp;woooooooooooord."</span><span style="color: #007700">;<br /></span><span style="color: #0000BB">$newtext&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #0000BB">wordwrap</span><span style="color: #007700">(</span><span style="color: #0000BB">$text</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">8</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">"\n"</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">true</span><span style="color: #007700">);<br /><br />echo&nbsp;</span><span style="color: #DD0000">"</span><span style="color: #0000BB">$newtext</span><span style="color: #DD0000">\n"</span><span style="color: #007700">;<br /></span><span style="color: #0000BB">?&gt;</span>
+<span style="color: #0000BB">&lt;?php<br />$text&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #DD0000">"A&nbsp;very&nbsp;long&nbsp;woooooooooooord."</span><span style="color: #007700">;<br /></span><span style="color: #0000BB">$newtext&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #0000BB">wordWrap</span><span style="color: #007700">(</span><span style="color: #0000BB">$text</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">8</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">"\n"</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">true</span><span style="color: #007700">);<br /><br />echo&nbsp;</span><span style="color: #DD0000">"</span><span style="color: #0000BB">$newtext</span><span style="color: #DD0000">\n"</span><span style="color: #007700">;<br /></span><span style="color: #0000BB">?&gt;</span>
 </span>
 </code></div>
     </div>
@@ -125,10 +125,10 @@ ooooord.
     </div>
    </div>
    <div class="example" id="example-5473">
-    <p><strong>Example #3 <span class="function"><strong>wordwrap()</strong></span> example</strong></p>
+    <p><strong>Example #3 <span class="function"><strong>wordWrap()</strong></span> example</strong></p>
     <div class="example-contents">
 <div class="phpcode"><code><span style="color: #000000">
-<span style="color: #0000BB">&lt;?php<br />$text&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #DD0000">"A&nbsp;very&nbsp;long&nbsp;woooooooooooooooooord.&nbsp;and&nbsp;something"</span><span style="color: #007700">;<br /></span><span style="color: #0000BB">$newtext&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #0000BB">wordwrap</span><span style="color: #007700">(</span><span style="color: #0000BB">$text</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">8</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">"\n"</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">false</span><span style="color: #007700">);<br /><br />echo&nbsp;</span><span style="color: #DD0000">"</span><span style="color: #0000BB">$newtext</span><span style="color: #DD0000">\n"</span><span style="color: #007700">;<br /></span><span style="color: #0000BB">?&gt;</span>
+<span style="color: #0000BB">&lt;?php<br />$text&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #DD0000">"A&nbsp;very&nbsp;long&nbsp;woooooooooooooooooord.&nbsp;and&nbsp;something"</span><span style="color: #007700">;<br /></span><span style="color: #0000BB">$newtext&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #0000BB">wordWrap</span><span style="color: #007700">(</span><span style="color: #0000BB">$text</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">8</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">"\n"</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">false</span><span style="color: #007700">);<br /><br />echo&nbsp;</span><span style="color: #DD0000">"</span><span style="color: #0000BB">$newtext</span><span style="color: #DD0000">\n"</span><span style="color: #007700">;<br /></span><span style="color: #0000BB">?&gt;</span>
 </span>
 </code></div>
     </div>
@@ -148,5 +148,5 @@ something
  </div>
 
 
- <div class="refsect1 seealso" id="refsect1-function.wordwrap-seealso">
+ <div class="refsect1 seealso" id="refsect1-function.wordWrap-seealso">
   
