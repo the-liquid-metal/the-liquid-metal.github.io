@@ -22,14 +22,6 @@ $(document).ready(function(){
             } else {
                 $ajaxArea.append(response.responseText);
             }
-            $ajaxArea.find("code").each(function(){
-                var $code = $(this);
-                var $parent = $code.parent();
-                console.log($parent.prop('tagName'));
-                if ($parent.prop('tagName') === 'DIV') {
-                    $parent.addClass('code');
-                }
-            });
             $tr.find('.description.detailed').append($ajaxArea);
             $tr.data('isLoaded', true);
         };
