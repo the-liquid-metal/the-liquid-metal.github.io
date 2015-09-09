@@ -1,8 +1,8 @@
 
  <div class="refnamediv">
-  <h1 class="refname">rtrim</h1>
+  <h1 class="refname">rightTrim</h1>
  </div>
- <div class="refsect1 description" id="refsect1-function.rtrim-description">
+ <div class="refsect1 description" id="refsect1-function.rightTrim-description">
   <h3 class="title">Description</h3>
   <p class="para rdfs-comment">
    This function returns a string with whitespace stripped from the
@@ -10,7 +10,7 @@
   </p>
   <p class="para">
    Without the second parameter,
-   <span class="function"><strong>rtrim()</strong></span> will strip these characters:
+   <span class="function"><strong>rightTrim()</strong></span> will strip these characters:
    
    <ul class="itemizedlist">
     <li class="listitem">
@@ -54,7 +54,7 @@
  </div>
 
 
- <div class="refsect1 parameters" id="refsect1-function.rtrim-parameters">
+ <div class="refsect1 parameters" id="refsect1-function.rightTrim-parameters">
   <h3 class="title">Parameters</h3>
   <p class="para">
    <dl>
@@ -92,7 +92,7 @@
  </div>
 
 
- <div class="refsect1 returnvalues" id="refsect1-function.rtrim-returnvalues">
+ <div class="refsect1 returnvalues" id="refsect1-function.rightTrim-returnvalues">
   <h3 class="title">Return Values</h3>
   <p class="para">
    Returns the modified string.
@@ -100,14 +100,14 @@
  </div>
 
 
- <div class="refsect1 examples" id="refsect1-function.rtrim-examples">
+ <div class="refsect1 examples" id="refsect1-function.rightTrim-examples">
   <h3 class="title">Examples</h3>
   <p class="para">
    <div class="example" id="example-5396">
-    <p><strong>Example #1 Usage example of <span class="function"><strong>rtrim()</strong></span></strong></p>
+    <p><strong>Example #1 Usage example of <span class="function"><strong>rightTrim()</strong></span></strong></p>
     <div class="example-contents">
 <div class="phpcode"><code><span style="color: #000000">
-<span style="color: #0000BB">&lt;?php<br /><br />$text&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #DD0000">"\t\tThese&nbsp;are&nbsp;a&nbsp;few&nbsp;words&nbsp;:)&nbsp;...&nbsp;&nbsp;"</span><span style="color: #007700">;<br /></span><span style="color: #0000BB">$binary&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #DD0000">"\x09Example&nbsp;string\x0A"</span><span style="color: #007700">;<br /></span><span style="color: #0000BB">$hello&nbsp;&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #DD0000">"Hello&nbsp;World"</span><span style="color: #007700">;<br /></span><span style="color: #0000BB">var_dump</span><span style="color: #007700">(</span><span style="color: #0000BB">$text</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">$binary</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">$hello</span><span style="color: #007700">);<br /><br />print&nbsp;</span><span style="color: #DD0000">"\n"</span><span style="color: #007700">;<br /><br /></span><span style="color: #0000BB">$trimmed&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #0000BB">rtrim</span><span style="color: #007700">(</span><span style="color: #0000BB">$text</span><span style="color: #007700">);<br /></span><span style="color: #0000BB">var_dump</span><span style="color: #007700">(</span><span style="color: #0000BB">$trimmed</span><span style="color: #007700">);<br /><br /></span><span style="color: #0000BB">$trimmed&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #0000BB">rtrim</span><span style="color: #007700">(</span><span style="color: #0000BB">$text</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">"&nbsp;\t."</span><span style="color: #007700">);<br /></span><span style="color: #0000BB">var_dump</span><span style="color: #007700">(</span><span style="color: #0000BB">$trimmed</span><span style="color: #007700">);<br /><br /></span><span style="color: #0000BB">$trimmed&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #0000BB">rtrim</span><span style="color: #007700">(</span><span style="color: #0000BB">$hello</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">"Hdle"</span><span style="color: #007700">);<br /></span><span style="color: #0000BB">var_dump</span><span style="color: #007700">(</span><span style="color: #0000BB">$trimmed</span><span style="color: #007700">);<br /><br /></span><span style="color: #FF8000">//&nbsp;trim&nbsp;the&nbsp;ASCII&nbsp;control&nbsp;characters&nbsp;at&nbsp;the&nbsp;end&nbsp;of&nbsp;$binary<br />//&nbsp;(from&nbsp;0&nbsp;to&nbsp;31&nbsp;inclusive)<br /></span><span style="color: #0000BB">$clean&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #0000BB">rtrim</span><span style="color: #007700">(</span><span style="color: #0000BB">$binary</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">"\x00..\x1F"</span><span style="color: #007700">);<br /></span><span style="color: #0000BB">var_dump</span><span style="color: #007700">(</span><span style="color: #0000BB">$clean</span><span style="color: #007700">);<br /><br /></span><span style="color: #0000BB">?&gt;</span>
+<span style="color: #0000BB">&lt;?php<br /><br />$text&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #DD0000">"\t\tThese&nbsp;are&nbsp;a&nbsp;few&nbsp;words&nbsp;:)&nbsp;...&nbsp;&nbsp;"</span><span style="color: #007700">;<br /></span><span style="color: #0000BB">$binary&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #DD0000">"\x09Example&nbsp;string\x0A"</span><span style="color: #007700">;<br /></span><span style="color: #0000BB">$hello&nbsp;&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #DD0000">"Hello&nbsp;World"</span><span style="color: #007700">;<br /></span><span style="color: #0000BB">var_dump</span><span style="color: #007700">(</span><span style="color: #0000BB">$text</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">$binary</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">$hello</span><span style="color: #007700">);<br /><br />print&nbsp;</span><span style="color: #DD0000">"\n"</span><span style="color: #007700">;<br /><br /></span><span style="color: #0000BB">$trimmed&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #0000BB">rightTrim</span><span style="color: #007700">(</span><span style="color: #0000BB">$text</span><span style="color: #007700">);<br /></span><span style="color: #0000BB">var_dump</span><span style="color: #007700">(</span><span style="color: #0000BB">$trimmed</span><span style="color: #007700">);<br /><br /></span><span style="color: #0000BB">$trimmed&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #0000BB">rightTrim</span><span style="color: #007700">(</span><span style="color: #0000BB">$text</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">"&nbsp;\t."</span><span style="color: #007700">);<br /></span><span style="color: #0000BB">var_dump</span><span style="color: #007700">(</span><span style="color: #0000BB">$trimmed</span><span style="color: #007700">);<br /><br /></span><span style="color: #0000BB">$trimmed&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #0000BB">rightTrim</span><span style="color: #007700">(</span><span style="color: #0000BB">$hello</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">"Hdle"</span><span style="color: #007700">);<br /></span><span style="color: #0000BB">var_dump</span><span style="color: #007700">(</span><span style="color: #0000BB">$trimmed</span><span style="color: #007700">);<br /><br /></span><span style="color: #FF8000">//&nbsp;trim&nbsp;the&nbsp;ASCII&nbsp;control&nbsp;characters&nbsp;at&nbsp;the&nbsp;end&nbsp;of&nbsp;$binary<br />//&nbsp;(from&nbsp;0&nbsp;to&nbsp;31&nbsp;inclusive)<br /></span><span style="color: #0000BB">$clean&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #0000BB">rightTrim</span><span style="color: #007700">(</span><span style="color: #0000BB">$binary</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">"\x00..\x1F"</span><span style="color: #007700">);<br /></span><span style="color: #0000BB">var_dump</span><span style="color: #007700">(</span><span style="color: #0000BB">$clean</span><span style="color: #007700">);<br /><br /></span><span style="color: #0000BB">?&gt;</span>
 </span>
 </code></div>
     </div>
