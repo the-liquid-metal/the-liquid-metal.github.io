@@ -11,14 +11,14 @@
 </head>
 
 <body>
-	<nav class="navbar navbar-default navbar-fixed-top">
+	<nav id="navigation" class="navbar navbar-default navbar-fixed-top">
 		<div class="container-fluid">
 			<div class="navbar-header">
 				<a href="index.html" class="navbar-brand"> </a>
 			</div>
 			<div class="collapse navbar-collapse">
 
-                <form class="navbar-form navbar-left" role="search">
+                <form id="search" class="navbar-form navbar-left" role="search">
                     <input type="hidden" name="cx" value="">
                     <input type="hidden" name="ie" value="UTF-8">
                     <div class="form-group">
@@ -39,14 +39,14 @@
 		</div>
 	</nav>
 
-	<div>
-	<div>
+	<div id="left">
+	<div id="menu">
 
-		<div>
+		<div id="groups">
 		</div>
 
 
-		<div>
+		<div id="elements">
 			<h3>Classes</h3>
 			<ul>
 				<li class="active"><a href="class-ScalarObject.html">ScalarObject</a></li>
@@ -60,11 +60,11 @@
 	</div>
 </div>
 
-<div></div>
+<div id="splitter"></div>
 
-<div>
-	<div>
-<div class="class">
+<div id="right">
+	<div id="rightInner">
+<div id="content" class="class">
 	<h1>Class ScalarObject</h1>
 
 
@@ -96,8 +96,8 @@
 
 		<div class="panel panel-default">
 	        <div class="panel-heading"><h3>Magic methods summary</h3></div>
-			<table class="summary table table-bordered table-striped methods">
-		<tr data-order="assocDiff">
+			<table class="summary table table-bordered table-striped methods" id="magicMethods">
+		<tr data-order="assocDiff" id="m_assocDiff">
 
 			<td class="attributes"><code>
 				 public 
@@ -139,7 +139,7 @@
 			</div>
 			</div></td>
 		</tr>
-		<tr data-order="assocIntersect">
+		<tr data-order="assocIntersect" id="m_assocIntersect">
 
 			<td class="attributes"><code>
 				 public 
@@ -181,7 +181,7 @@
 			</div>
 			</div></td>
 		</tr>
-		<tr data-order="assocSort">
+		<tr data-order="assocSort" id="m_assocSort">
 
 			<td class="attributes"><code>
 				 public 
@@ -219,7 +219,7 @@
 			</div>
 			</div></td>
 		</tr>
-		<tr data-order="changeKeyCase">
+		<tr data-order="changeKeyCase" id="m_changeKeyCase">
 
 			<td class="attributes"><code>
 				 public 
@@ -257,7 +257,7 @@
 			</div>
 			</div></td>
 		</tr>
-		<tr data-order="chunk">
+		<tr data-order="chunk" id="m_chunk">
 
 			<td class="attributes"><code>
 				 public 
@@ -297,7 +297,7 @@
 			</div>
 			</div></td>
 		</tr>
-		<tr data-order="column">
+		<tr data-order="column" id="m_column">
 
 			<td class="attributes"><code>
 				 public 
@@ -337,7 +337,7 @@
 			</div>
 			</div></td>
 		</tr>
-		<tr data-order="combine">
+		<tr data-order="combine" id="m_combine">
 
 			<td class="attributes"><code>
 				 public 
@@ -375,7 +375,7 @@
 			</div>
 			</div></td>
 		</tr>
-		<tr data-order="count">
+		<tr data-order="count" id="m_count">
 
 			<td class="attributes"><code>
 				 public 
@@ -413,7 +413,7 @@
 			</div>
 			</div></td>
 		</tr>
-		<tr data-order="countValues">
+		<tr data-order="countValues" id="m_countValues">
 
 			<td class="attributes"><code>
 				 public 
@@ -446,7 +446,7 @@
 			</div>
 			</div></td>
 		</tr>
-		<tr data-order="diff">
+		<tr data-order="diff" id="m_diff">
 
 			<td class="attributes"><code>
 				 public 
@@ -488,7 +488,7 @@
 			</div>
 			</div></td>
 		</tr>
-		<tr data-order="fillKeys">
+		<tr data-order="fillKeys" id="m_fillKeys">
 
 			<td class="attributes"><code>
 				 public 
@@ -526,7 +526,7 @@
 			</div>
 			</div></td>
 		</tr>
-		<tr data-order="filter">
+		<tr data-order="filter" id="m_filter">
 
 			<td class="attributes"><code>
 				 public 
@@ -566,7 +566,7 @@
 			</div>
 			</div></td>
 		</tr>
-		<tr data-order="flip">
+		<tr data-order="flip" id="m_flip">
 
 			<td class="attributes"><code>
 				 public 
@@ -599,7 +599,7 @@
 			</div>
 			</div></td>
 		</tr>
-		<tr data-order="implode">
+		<tr data-order="implode" id="m_implode">
 
 			<td class="attributes"><code>
 				 public 
@@ -637,7 +637,7 @@
 			</div>
 			</div></td>
 		</tr>
-		<tr data-order="inArray">
+		<tr data-order="inArray" id="m_inArray">
 
 			<td class="attributes"><code>
 				 public 
@@ -677,7 +677,7 @@
 			</div>
 			</div></td>
 		</tr>
-		<tr data-order="insenNaturalSort">
+		<tr data-order="insenNaturalSort" id="m_insenNaturalSort">
 
 			<td class="attributes"><code>
 				 public 
@@ -710,7 +710,7 @@
 			</div>
 			</div></td>
 		</tr>
-		<tr data-order="intersect">
+		<tr data-order="intersect" id="m_intersect">
 
 			<td class="attributes"><code>
 				 public 
@@ -752,7 +752,7 @@
 			</div>
 			</div></td>
 		</tr>
-		<tr data-order="keyDiff">
+		<tr data-order="keyDiff" id="m_keyDiff">
 
 			<td class="attributes"><code>
 				 public 
@@ -794,7 +794,7 @@
 			</div>
 			</div></td>
 		</tr>
-		<tr data-order="keyExists">
+		<tr data-order="keyExists" id="m_keyExists">
 
 			<td class="attributes"><code>
 				 public 
@@ -832,7 +832,7 @@
 			</div>
 			</div></td>
 		</tr>
-		<tr data-order="keyIntersect">
+		<tr data-order="keyIntersect" id="m_keyIntersect">
 
 			<td class="attributes"><code>
 				 public 
@@ -874,7 +874,7 @@
 			</div>
 			</div></td>
 		</tr>
-		<tr data-order="keys">
+		<tr data-order="keys" id="m_keys">
 
 			<td class="attributes"><code>
 				 public 
@@ -914,7 +914,7 @@
 			</div>
 			</div></td>
 		</tr>
-		<tr data-order="keySort">
+		<tr data-order="keySort" id="m_keySort">
 
 			<td class="attributes"><code>
 				 public 
@@ -952,7 +952,7 @@
 			</div>
 			</div></td>
 		</tr>
-		<tr data-order="map">
+		<tr data-order="map" id="m_map">
 
 			<td class="attributes"><code>
 				 public 
@@ -990,7 +990,7 @@
 			</div>
 			</div></td>
 		</tr>
-		<tr data-order="max">
+		<tr data-order="max" id="m_max">
 
 			<td class="attributes"><code>
 				 public 
@@ -1023,7 +1023,7 @@
 			</div>
 			</div></td>
 		</tr>
-		<tr data-order="merge">
+		<tr data-order="merge" id="m_merge">
 
 			<td class="attributes"><code>
 				 public 
@@ -1065,7 +1065,7 @@
 			</div>
 			</div></td>
 		</tr>
-		<tr data-order="min">
+		<tr data-order="min" id="m_min">
 
 			<td class="attributes"><code>
 				 public 
@@ -1098,7 +1098,7 @@
 			</div>
 			</div></td>
 		</tr>
-		<tr data-order="multisort">
+		<tr data-order="multisort" id="m_multisort">
 
 			<td class="attributes"><code>
 				 public 
@@ -1138,7 +1138,7 @@
 			</div>
 			</div></td>
 		</tr>
-		<tr data-order="naturalSort">
+		<tr data-order="naturalSort" id="m_naturalSort">
 
 			<td class="attributes"><code>
 				 public 
@@ -1171,7 +1171,7 @@
 			</div>
 			</div></td>
 		</tr>
-		<tr data-order="pad">
+		<tr data-order="pad" id="m_pad">
 
 			<td class="attributes"><code>
 				 public 
@@ -1211,7 +1211,7 @@
 			</div>
 			</div></td>
 		</tr>
-		<tr data-order="pop">
+		<tr data-order="pop" id="m_pop">
 
 			<td class="attributes"><code>
 				 public 
@@ -1244,7 +1244,7 @@
 			</div>
 			</div></td>
 		</tr>
-		<tr data-order="product">
+		<tr data-order="product" id="m_product">
 
 			<td class="attributes"><code>
 				 public 
@@ -1277,7 +1277,7 @@
 			</div>
 			</div></td>
 		</tr>
-		<tr data-order="push">
+		<tr data-order="push" id="m_push">
 
 			<td class="attributes"><code>
 				 public 
@@ -1319,7 +1319,7 @@
 			</div>
 			</div></td>
 		</tr>
-		<tr data-order="random">
+		<tr data-order="random" id="m_random">
 
 			<td class="attributes"><code>
 				 public 
@@ -1357,7 +1357,7 @@
 			</div>
 			</div></td>
 		</tr>
-		<tr data-order="recursiveMerge">
+		<tr data-order="recursiveMerge" id="m_recursiveMerge">
 
 			<td class="attributes"><code>
 				 public 
@@ -1399,7 +1399,7 @@
 			</div>
 			</div></td>
 		</tr>
-		<tr data-order="recursiveReplace">
+		<tr data-order="recursiveReplace" id="m_recursiveReplace">
 
 			<td class="attributes"><code>
 				 public 
@@ -1441,7 +1441,7 @@
 			</div>
 			</div></td>
 		</tr>
-		<tr data-order="recursiveWalk">
+		<tr data-order="recursiveWalk" id="m_recursiveWalk">
 
 			<td class="attributes"><code>
 				 public 
@@ -1481,7 +1481,7 @@
 			</div>
 			</div></td>
 		</tr>
-		<tr data-order="reduce">
+		<tr data-order="reduce" id="m_reduce">
 
 			<td class="attributes"><code>
 				 public 
@@ -1521,7 +1521,7 @@
 			</div>
 			</div></td>
 		</tr>
-		<tr data-order="replace">
+		<tr data-order="replace" id="m_replace">
 
 			<td class="attributes"><code>
 				 public 
@@ -1563,7 +1563,7 @@
 			</div>
 			</div></td>
 		</tr>
-		<tr data-order="reverse">
+		<tr data-order="reverse" id="m_reverse">
 
 			<td class="attributes"><code>
 				 public 
@@ -1601,7 +1601,7 @@
 			</div>
 			</div></td>
 		</tr>
-		<tr data-order="reverseAssocSort">
+		<tr data-order="reverseAssocSort" id="m_reverseAssocSort">
 
 			<td class="attributes"><code>
 				 public 
@@ -1639,7 +1639,7 @@
 			</div>
 			</div></td>
 		</tr>
-		<tr data-order="reverseKeySort">
+		<tr data-order="reverseKeySort" id="m_reverseKeySort">
 
 			<td class="attributes"><code>
 				 public 
@@ -1677,7 +1677,7 @@
 			</div>
 			</div></td>
 		</tr>
-		<tr data-order="reverseSort">
+		<tr data-order="reverseSort" id="m_reverseSort">
 
 			<td class="attributes"><code>
 				 public 
@@ -1715,7 +1715,7 @@
 			</div>
 			</div></td>
 		</tr>
-		<tr data-order="search">
+		<tr data-order="search" id="m_search">
 
 			<td class="attributes"><code>
 				 public 
@@ -1755,7 +1755,7 @@
 			</div>
 			</div></td>
 		</tr>
-		<tr data-order="shift">
+		<tr data-order="shift" id="m_shift">
 
 			<td class="attributes"><code>
 				 public 
@@ -1788,7 +1788,7 @@
 			</div>
 			</div></td>
 		</tr>
-		<tr data-order="shuffle">
+		<tr data-order="shuffle" id="m_shuffle">
 
 			<td class="attributes"><code>
 				 public 
@@ -1821,7 +1821,7 @@
 			</div>
 			</div></td>
 		</tr>
-		<tr data-order="slice">
+		<tr data-order="slice" id="m_slice">
 
 			<td class="attributes"><code>
 				 public 
@@ -1863,7 +1863,7 @@
 			</div>
 			</div></td>
 		</tr>
-		<tr data-order="sort">
+		<tr data-order="sort" id="m_sort">
 
 			<td class="attributes"><code>
 				 public 
@@ -1901,7 +1901,7 @@
 			</div>
 			</div></td>
 		</tr>
-		<tr data-order="splice">
+		<tr data-order="splice" id="m_splice">
 
 			<td class="attributes"><code>
 				 public 
@@ -1943,7 +1943,7 @@
 			</div>
 			</div></td>
 		</tr>
-		<tr data-order="sum">
+		<tr data-order="sum" id="m_sum">
 
 			<td class="attributes"><code>
 				 public 
@@ -1976,7 +1976,7 @@
 			</div>
 			</div></td>
 		</tr>
-		<tr data-order="unique">
+		<tr data-order="unique" id="m_unique">
 
 			<td class="attributes"><code>
 				 public 
@@ -2014,7 +2014,7 @@
 			</div>
 			</div></td>
 		</tr>
-		<tr data-order="unshift">
+		<tr data-order="unshift" id="m_unshift">
 
 			<td class="attributes"><code>
 				 public 
@@ -2056,7 +2056,7 @@
 			</div>
 			</div></td>
 		</tr>
-		<tr data-order="userAssocDiff">
+		<tr data-order="userAssocDiff" id="m_userAssocDiff">
 
 			<td class="attributes"><code>
 				 public 
@@ -2100,7 +2100,7 @@
 			</div>
 			</div></td>
 		</tr>
-		<tr data-order="userAssocIntersect">
+		<tr data-order="userAssocIntersect" id="m_userAssocIntersect">
 
 			<td class="attributes"><code>
 				 public 
@@ -2144,7 +2144,7 @@
 			</div>
 			</div></td>
 		</tr>
-		<tr data-order="userAssocSort">
+		<tr data-order="userAssocSort" id="m_userAssocSort">
 
 			<td class="attributes"><code>
 				 public 
@@ -2182,7 +2182,7 @@
 			</div>
 			</div></td>
 		</tr>
-		<tr data-order="userDiff">
+		<tr data-order="userDiff" id="m_userDiff">
 
 			<td class="attributes"><code>
 				 public 
@@ -2226,7 +2226,7 @@
 			</div>
 			</div></td>
 		</tr>
-		<tr data-order="userDiffAssoc">
+		<tr data-order="userDiffAssoc" id="m_userDiffAssoc">
 
 			<td class="attributes"><code>
 				 public 
@@ -2270,7 +2270,7 @@
 			</div>
 			</div></td>
 		</tr>
-		<tr data-order="userDiffUserAssoc">
+		<tr data-order="userDiffUserAssoc" id="m_userDiffUserAssoc">
 
 			<td class="attributes"><code>
 				 public 
@@ -2316,7 +2316,7 @@
 			</div>
 			</div></td>
 		</tr>
-		<tr data-order="userIntersect">
+		<tr data-order="userIntersect" id="m_userIntersect">
 
 			<td class="attributes"><code>
 				 public 
@@ -2360,7 +2360,7 @@
 			</div>
 			</div></td>
 		</tr>
-		<tr data-order="userIntersectAssoc">
+		<tr data-order="userIntersectAssoc" id="m_userIntersectAssoc">
 
 			<td class="attributes"><code>
 				 public 
@@ -2404,7 +2404,7 @@
 			</div>
 			</div></td>
 		</tr>
-		<tr data-order="userIntersectUserAssoc">
+		<tr data-order="userIntersectUserAssoc" id="m_userIntersectUserAssoc">
 
 			<td class="attributes"><code>
 				 public 
@@ -2450,7 +2450,7 @@
 			</div>
 			</div></td>
 		</tr>
-		<tr data-order="userKeyDiff">
+		<tr data-order="userKeyDiff" id="m_userKeyDiff">
 
 			<td class="attributes"><code>
 				 public 
@@ -2494,7 +2494,7 @@
 			</div>
 			</div></td>
 		</tr>
-		<tr data-order="userKeyIntersect">
+		<tr data-order="userKeyIntersect" id="m_userKeyIntersect">
 
 			<td class="attributes"><code>
 				 public 
@@ -2538,7 +2538,7 @@
 			</div>
 			</div></td>
 		</tr>
-		<tr data-order="userKeySort">
+		<tr data-order="userKeySort" id="m_userKeySort">
 
 			<td class="attributes"><code>
 				 public 
@@ -2576,7 +2576,7 @@
 			</div>
 			</div></td>
 		</tr>
-		<tr data-order="userSort">
+		<tr data-order="userSort" id="m_userSort">
 
 			<td class="attributes"><code>
 				 public 
@@ -2614,7 +2614,7 @@
 			</div>
 			</div></td>
 		</tr>
-		<tr data-order="values">
+		<tr data-order="values" id="m_values">
 
 			<td class="attributes"><code>
 				 public 
@@ -2647,7 +2647,7 @@
 			</div>
 			</div></td>
 		</tr>
-		<tr data-order="walk">
+		<tr data-order="walk" id="m_walk">
 
 			<td class="attributes"><code>
 				 public 
@@ -2687,7 +2687,7 @@
 			</div>
 			</div></td>
 		</tr>
-		<tr data-order="abs">
+		<tr data-order="abs" id="m_abs">
 
 			<td class="attributes"><code>
 				 public 
@@ -2720,7 +2720,7 @@
 			</div>
 			</div></td>
 		</tr>
-		<tr data-order="acos">
+		<tr data-order="acos" id="m_acos">
 
 			<td class="attributes"><code>
 				 public 
@@ -2753,7 +2753,7 @@
 			</div>
 			</div></td>
 		</tr>
-		<tr data-order="acosh">
+		<tr data-order="acosh" id="m_acosh">
 
 			<td class="attributes"><code>
 				 public 
@@ -2786,7 +2786,7 @@
 			</div>
 			</div></td>
 		</tr>
-		<tr data-order="asin">
+		<tr data-order="asin" id="m_asin">
 
 			<td class="attributes"><code>
 				 public 
@@ -2819,7 +2819,7 @@
 			</div>
 			</div></td>
 		</tr>
-		<tr data-order="asinh">
+		<tr data-order="asinh" id="m_asinh">
 
 			<td class="attributes"><code>
 				 public 
@@ -2852,7 +2852,7 @@
 			</div>
 			</div></td>
 		</tr>
-		<tr data-order="atan">
+		<tr data-order="atan" id="m_atan">
 
 			<td class="attributes"><code>
 				 public 
@@ -2885,7 +2885,7 @@
 			</div>
 			</div></td>
 		</tr>
-		<tr data-order="atan2">
+		<tr data-order="atan2" id="m_atan2">
 
 			<td class="attributes"><code>
 				 public 
@@ -2918,7 +2918,7 @@
 			</div>
 			</div></td>
 		</tr>
-		<tr data-order="atanh">
+		<tr data-order="atanh" id="m_atanh">
 
 			<td class="attributes"><code>
 				 public 
@@ -2951,7 +2951,7 @@
 			</div>
 			</div></td>
 		</tr>
-		<tr data-order="ceil">
+		<tr data-order="ceil" id="m_ceil">
 
 			<td class="attributes"><code>
 				 public 
@@ -2984,7 +2984,7 @@
 			</div>
 			</div></td>
 		</tr>
-		<tr data-order="cos">
+		<tr data-order="cos" id="m_cos">
 
 			<td class="attributes"><code>
 				 public 
@@ -3017,7 +3017,7 @@
 			</div>
 			</div></td>
 		</tr>
-		<tr data-order="cosh">
+		<tr data-order="cosh" id="m_cosh">
 
 			<td class="attributes"><code>
 				 public 
@@ -3050,7 +3050,7 @@
 			</div>
 			</div></td>
 		</tr>
-		<tr data-order="decToBin">
+		<tr data-order="decToBin" id="m_decToBin">
 
 			<td class="attributes"><code>
 				 public 
@@ -3083,7 +3083,7 @@
 			</div>
 			</div></td>
 		</tr>
-		<tr data-order="decToHex">
+		<tr data-order="decToHex" id="m_decToHex">
 
 			<td class="attributes"><code>
 				 public 
@@ -3116,7 +3116,7 @@
 			</div>
 			</div></td>
 		</tr>
-		<tr data-order="decToOct">
+		<tr data-order="decToOct" id="m_decToOct">
 
 			<td class="attributes"><code>
 				 public 
@@ -3149,7 +3149,7 @@
 			</div>
 			</div></td>
 		</tr>
-		<tr data-order="degToRad">
+		<tr data-order="degToRad" id="m_degToRad">
 
 			<td class="attributes"><code>
 				 public 
@@ -3182,7 +3182,7 @@
 			</div>
 			</div></td>
 		</tr>
-		<tr data-order="exp">
+		<tr data-order="exp" id="m_exp">
 
 			<td class="attributes"><code>
 				 public 
@@ -3215,7 +3215,7 @@
 			</div>
 			</div></td>
 		</tr>
-		<tr data-order="expm1">
+		<tr data-order="expm1" id="m_expm1">
 
 			<td class="attributes"><code>
 				 public 
@@ -3252,7 +3252,7 @@
 			</div>
 			</div></td>
 		</tr>
-		<tr data-order="floor">
+		<tr data-order="floor" id="m_floor">
 
 			<td class="attributes"><code>
 				 public 
@@ -3285,7 +3285,7 @@
 			</div>
 			</div></td>
 		</tr>
-		<tr data-order="fmod">
+		<tr data-order="fmod" id="m_fmod">
 
 			<td class="attributes"><code>
 				 public 
@@ -3318,7 +3318,7 @@
 			</div>
 			</div></td>
 		</tr>
-		<tr data-order="hypotenuse">
+		<tr data-order="hypotenuse" id="m_hypotenuse">
 
 			<td class="attributes"><code>
 				 public 
@@ -3356,7 +3356,7 @@
 			</div>
 			</div></td>
 		</tr>
-		<tr data-order="intDivision">
+		<tr data-order="intDivision" id="m_intDivision">
 
 			<td class="attributes"><code>
 				 public 
@@ -3394,7 +3394,7 @@
 			</div>
 			</div></td>
 		</tr>
-		<tr data-order="intToChar">
+		<tr data-order="intToChar" id="m_intToChar">
 
 			<td class="attributes"><code>
 				 public 
@@ -3427,7 +3427,7 @@
 			</div>
 			</div></td>
 		</tr>
-		<tr data-order="isFinite">
+		<tr data-order="isFinite" id="m_isFinite">
 
 			<td class="attributes"><code>
 				 public 
@@ -3460,7 +3460,7 @@
 			</div>
 			</div></td>
 		</tr>
-		<tr data-order="isInfinite">
+		<tr data-order="isInfinite" id="m_isInfinite">
 
 			<td class="attributes"><code>
 				 public 
@@ -3493,7 +3493,7 @@
 			</div>
 			</div></td>
 		</tr>
-		<tr data-order="isNan">
+		<tr data-order="isNan" id="m_isNan">
 
 			<td class="attributes"><code>
 				 public 
@@ -3526,7 +3526,7 @@
 			</div>
 			</div></td>
 		</tr>
-		<tr data-order="log">
+		<tr data-order="log" id="m_log">
 
 			<td class="attributes"><code>
 				 public 
@@ -3564,7 +3564,7 @@
 			</div>
 			</div></td>
 		</tr>
-		<tr data-order="log10">
+		<tr data-order="log10" id="m_log10">
 
 			<td class="attributes"><code>
 				 public 
@@ -3597,7 +3597,7 @@
 			</div>
 			</div></td>
 		</tr>
-		<tr data-order="log1p">
+		<tr data-order="log1p" id="m_log1p">
 
 			<td class="attributes"><code>
 				 public 
@@ -3630,7 +3630,7 @@
 			</div>
 			</div></td>
 		</tr>
-		<tr data-order="moneyFormat">
+		<tr data-order="moneyFormat" id="m_moneyFormat">
 
 			<td class="attributes"><code>
 				 public 
@@ -3668,7 +3668,7 @@
 			</div>
 			</div></td>
 		</tr>
-		<tr data-order="numberFormat">
+		<tr data-order="numberFormat" id="m_numberFormat">
 
 			<td class="attributes"><code>
 				 public 
@@ -3710,7 +3710,7 @@
 			</div>
 			</div></td>
 		</tr>
-		<tr data-order="pow">
+		<tr data-order="pow" id="m_pow">
 
 			<td class="attributes"><code>
 				 public 
@@ -3748,7 +3748,7 @@
 			</div>
 			</div></td>
 		</tr>
-		<tr data-order="radToDeg">
+		<tr data-order="radToDeg" id="m_radToDeg">
 
 			<td class="attributes"><code>
 				 public 
@@ -3781,7 +3781,7 @@
 			</div>
 			</div></td>
 		</tr>
-		<tr data-order="round">
+		<tr data-order="round" id="m_round">
 
 			<td class="attributes"><code>
 				 public 
@@ -3821,7 +3821,7 @@
 			</div>
 			</div></td>
 		</tr>
-		<tr data-order="sin">
+		<tr data-order="sin" id="m_sin">
 
 			<td class="attributes"><code>
 				 public 
@@ -3854,7 +3854,7 @@
 			</div>
 			</div></td>
 		</tr>
-		<tr data-order="sinh">
+		<tr data-order="sinh" id="m_sinh">
 
 			<td class="attributes"><code>
 				 public 
@@ -3887,7 +3887,7 @@
 			</div>
 			</div></td>
 		</tr>
-		<tr data-order="sqrt">
+		<tr data-order="sqrt" id="m_sqrt">
 
 			<td class="attributes"><code>
 				 public 
@@ -3920,7 +3920,7 @@
 			</div>
 			</div></td>
 		</tr>
-		<tr data-order="tan">
+		<tr data-order="tan" id="m_tan">
 
 			<td class="attributes"><code>
 				 public 
@@ -3953,7 +3953,7 @@
 			</div>
 			</div></td>
 		</tr>
-		<tr data-order="tanh">
+		<tr data-order="tanh" id="m_tanh">
 
 			<td class="attributes"><code>
 				 public 
@@ -3986,7 +3986,7 @@
 			</div>
 			</div></td>
 		</tr>
-		<tr data-order="addCSlashes">
+		<tr data-order="addCSlashes" id="m_addCSlashes">
 
 			<td class="attributes"><code>
 				 public 
@@ -4024,7 +4024,7 @@
 			</div>
 			</div></td>
 		</tr>
-		<tr data-order="addSlashes">
+		<tr data-order="addSlashes" id="m_addSlashes">
 
 			<td class="attributes"><code>
 				 public 
@@ -4057,7 +4057,7 @@
 			</div>
 			</div></td>
 		</tr>
-		<tr data-order="baseConvert">
+		<tr data-order="baseConvert" id="m_baseConvert">
 
 			<td class="attributes"><code>
 				 public 
@@ -4097,7 +4097,7 @@
 			</div>
 			</div></td>
 		</tr>
-		<tr data-order="binToDec">
+		<tr data-order="binToDec" id="m_binToDec">
 
 			<td class="attributes"><code>
 				 public 
@@ -4130,7 +4130,7 @@
 			</div>
 			</div></td>
 		</tr>
-		<tr data-order="binToHex">
+		<tr data-order="binToHex" id="m_binToHex">
 
 			<td class="attributes"><code>
 				 public 
@@ -4163,7 +4163,7 @@
 			</div>
 			</div></td>
 		</tr>
-		<tr data-order="charCount">
+		<tr data-order="charCount" id="m_charCount">
 
 			<td class="attributes"><code>
 				 public 
@@ -4201,7 +4201,7 @@
 			</div>
 			</div></td>
 		</tr>
-		<tr data-order="charToInt">
+		<tr data-order="charToInt" id="m_charToInt">
 
 			<td class="attributes"><code>
 				 public 
@@ -4234,7 +4234,7 @@
 			</div>
 			</div></td>
 		</tr>
-		<tr data-order="chunkSplit">
+		<tr data-order="chunkSplit" id="m_chunkSplit">
 
 			<td class="attributes"><code>
 				 public 
@@ -4274,7 +4274,7 @@
 			</div>
 			</div></td>
 		</tr>
-		<tr data-order="compare">
+		<tr data-order="compare" id="m_compare">
 
 			<td class="attributes"><code>
 				 public 
@@ -4312,7 +4312,7 @@
 			</div>
 			</div></td>
 		</tr>
-		<tr data-order="convertCyrStr">
+		<tr data-order="convertCyrStr" id="m_convertCyrStr">
 
 			<td class="attributes"><code>
 				 public 
@@ -4352,7 +4352,7 @@
 			</div>
 			</div></td>
 		</tr>
-		<tr data-order="convertUudecode">
+		<tr data-order="convertUudecode" id="m_convertUudecode">
 
 			<td class="attributes"><code>
 				 public 
@@ -4385,7 +4385,7 @@
 			</div>
 			</div></td>
 		</tr>
-		<tr data-order="convertUuencode">
+		<tr data-order="convertUuencode" id="m_convertUuencode">
 
 			<td class="attributes"><code>
 				 public 
@@ -4418,7 +4418,7 @@
 			</div>
 			</div></td>
 		</tr>
-		<tr data-order="crc32">
+		<tr data-order="crc32" id="m_crc32">
 
 			<td class="attributes"><code>
 				 public 
@@ -4451,7 +4451,7 @@
 			</div>
 			</div></td>
 		</tr>
-		<tr data-order="crypt">
+		<tr data-order="crypt" id="m_crypt">
 
 			<td class="attributes"><code>
 				 public 
@@ -4489,7 +4489,7 @@
 			</div>
 			</div></td>
 		</tr>
-		<tr data-order="csvToArray">
+		<tr data-order="csvToArray" id="m_csvToArray">
 
 			<td class="attributes"><code>
 				 public 
@@ -4531,7 +4531,7 @@
 			</div>
 			</div></td>
 		</tr>
-		<tr data-order="explode">
+		<tr data-order="explode" id="m_explode">
 
 			<td class="attributes"><code>
 				 public 
@@ -4571,7 +4571,7 @@
 			</div>
 			</div></td>
 		</tr>
-		<tr data-order="firstNthCompare">
+		<tr data-order="firstNthCompare" id="m_firstNthCompare">
 
 			<td class="attributes"><code>
 				 public 
@@ -4611,7 +4611,7 @@
 			</div>
 			</div></td>
 		</tr>
-		<tr data-order="firstNthInsenCompare">
+		<tr data-order="firstNthInsenCompare" id="m_firstNthInsenCompare">
 
 			<td class="attributes"><code>
 				 public 
@@ -4651,7 +4651,7 @@
 			</div>
 			</div></td>
 		</tr>
-		<tr data-order="firstOccurInsenPosition">
+		<tr data-order="firstOccurInsenPosition" id="m_firstOccurInsenPosition">
 
 			<td class="attributes"><code>
 				 public 
@@ -4691,7 +4691,7 @@
 			</div>
 			</div></td>
 		</tr>
-		<tr data-order="firstOccurInsenSubstr">
+		<tr data-order="firstOccurInsenSubstr" id="m_firstOccurInsenSubstr">
 
 			<td class="attributes"><code>
 				 public 
@@ -4731,7 +4731,7 @@
 			</div>
 			</div></td>
 		</tr>
-		<tr data-order="firstOccurPosition">
+		<tr data-order="firstOccurPosition" id="m_firstOccurPosition">
 
 			<td class="attributes"><code>
 				 public 
@@ -4771,7 +4771,7 @@
 			</div>
 			</div></td>
 		</tr>
-		<tr data-order="firstOccurSubstr">
+		<tr data-order="firstOccurSubstr" id="m_firstOccurSubstr">
 
 			<td class="attributes"><code>
 				 public 
@@ -4811,7 +4811,7 @@
 			</div>
 			</div></td>
 		</tr>
-		<tr data-order="hebrev">
+		<tr data-order="hebrev" id="m_hebrev">
 
 			<td class="attributes"><code>
 				 public 
@@ -4849,7 +4849,7 @@
 			</div>
 			</div></td>
 		</tr>
-		<tr data-order="hebrevWithNewline">
+		<tr data-order="hebrevWithNewline" id="m_hebrevWithNewline">
 
 			<td class="attributes"><code>
 				 public 
@@ -4887,7 +4887,7 @@
 			</div>
 			</div></td>
 		</tr>
-		<tr data-order="hexToBin">
+		<tr data-order="hexToBin" id="m_hexToBin">
 
 			<td class="attributes"><code>
 				 public 
@@ -4920,7 +4920,7 @@
 			</div>
 			</div></td>
 		</tr>
-		<tr data-order="hexToDec">
+		<tr data-order="hexToDec" id="m_hexToDec">
 
 			<td class="attributes"><code>
 				 public 
@@ -4953,7 +4953,7 @@
 			</div>
 			</div></td>
 		</tr>
-		<tr data-order="htmlCharDecode">
+		<tr data-order="htmlCharDecode" id="m_htmlCharDecode">
 
 			<td class="attributes"><code>
 				 public 
@@ -4991,7 +4991,7 @@
 			</div>
 			</div></td>
 		</tr>
-		<tr data-order="htmlCharEncode">
+		<tr data-order="htmlCharEncode" id="m_htmlCharEncode">
 
 			<td class="attributes"><code>
 				 public 
@@ -5033,7 +5033,7 @@
 			</div>
 			</div></td>
 		</tr>
-		<tr data-order="htmlEntitiesDecode">
+		<tr data-order="htmlEntitiesDecode" id="m_htmlEntitiesDecode">
 
 			<td class="attributes"><code>
 				 public 
@@ -5073,7 +5073,7 @@
 			</div>
 			</div></td>
 		</tr>
-		<tr data-order="htmlEntitiesEncode">
+		<tr data-order="htmlEntitiesEncode" id="m_htmlEntitiesEncode">
 
 			<td class="attributes"><code>
 				 public 
@@ -5115,7 +5115,7 @@
 			</div>
 			</div></td>
 		</tr>
-		<tr data-order="insenCompare">
+		<tr data-order="insenCompare" id="m_insenCompare">
 
 			<td class="attributes"><code>
 				 public 
@@ -5153,7 +5153,7 @@
 			</div>
 			</div></td>
 		</tr>
-		<tr data-order="insenReplaceAll">
+		<tr data-order="insenReplaceAll" id="m_insenReplaceAll">
 
 			<td class="attributes"><code>
 				 public 
@@ -5193,7 +5193,7 @@
 			</div>
 			</div></td>
 		</tr>
-		<tr data-order="lastOccurInsenPosition">
+		<tr data-order="lastOccurInsenPosition" id="m_lastOccurInsenPosition">
 
 			<td class="attributes"><code>
 				 public 
@@ -5233,7 +5233,7 @@
 			</div>
 			</div></td>
 		</tr>
-		<tr data-order="lastOccurPosition">
+		<tr data-order="lastOccurPosition" id="m_lastOccurPosition">
 
 			<td class="attributes"><code>
 				 public 
@@ -5273,7 +5273,7 @@
 			</div>
 			</div></td>
 		</tr>
-		<tr data-order="lastOccurSubstr">
+		<tr data-order="lastOccurSubstr" id="m_lastOccurSubstr">
 
 			<td class="attributes"><code>
 				 public 
@@ -5311,7 +5311,7 @@
 			</div>
 			</div></td>
 		</tr>
-		<tr data-order="length">
+		<tr data-order="length" id="m_length">
 
 			<td class="attributes"><code>
 				 public 
@@ -5344,7 +5344,7 @@
 			</div>
 			</div></td>
 		</tr>
-		<tr data-order="levenshtein">
+		<tr data-order="levenshtein" id="m_levenshtein">
 
 			<td class="attributes"><code>
 				 public 
@@ -5388,7 +5388,7 @@
 			</div>
 			</div></td>
 		</tr>
-		<tr data-order="localCompare">
+		<tr data-order="localCompare" id="m_localCompare">
 
 			<td class="attributes"><code>
 				 public 
@@ -5426,7 +5426,7 @@
 			</div>
 			</div></td>
 		</tr>
-		<tr data-order="lowercase">
+		<tr data-order="lowercase" id="m_lowercase">
 
 			<td class="attributes"><code>
 				 public 
@@ -5459,7 +5459,7 @@
 			</div>
 			</div></td>
 		</tr>
-		<tr data-order="lowercaseFirst">
+		<tr data-order="lowercaseFirst" id="m_lowercaseFirst">
 
 			<td class="attributes"><code>
 				 public 
@@ -5492,7 +5492,7 @@
 			</div>
 			</div></td>
 		</tr>
-		<tr data-order="matchingMaskLength">
+		<tr data-order="matchingMaskLength" id="m_matchingMaskLength">
 
 			<td class="attributes"><code>
 				 public 
@@ -5534,7 +5534,7 @@
 			</div>
 			</div></td>
 		</tr>
-		<tr data-order="md5">
+		<tr data-order="md5" id="m_md5">
 
 			<td class="attributes"><code>
 				 public 
@@ -5572,7 +5572,7 @@
 			</div>
 			</div></td>
 		</tr>
-		<tr data-order="md5File">
+		<tr data-order="md5File" id="m_md5File">
 
 			<td class="attributes"><code>
 				 public 
@@ -5610,7 +5610,7 @@
 			</div>
 			</div></td>
 		</tr>
-		<tr data-order="metaphone">
+		<tr data-order="metaphone" id="m_metaphone">
 
 			<td class="attributes"><code>
 				 public 
@@ -5648,7 +5648,7 @@
 			</div>
 			</div></td>
 		</tr>
-		<tr data-order="naturalCompare">
+		<tr data-order="naturalCompare" id="m_naturalCompare">
 
 			<td class="attributes"><code>
 				 public 
@@ -5686,7 +5686,7 @@
 			</div>
 			</div></td>
 		</tr>
-		<tr data-order="naturalInsenCompare">
+		<tr data-order="naturalInsenCompare" id="m_naturalInsenCompare">
 
 			<td class="attributes"><code>
 				 public 
@@ -5724,7 +5724,7 @@
 			</div>
 			</div></td>
 		</tr>
-		<tr data-order="nlToBr">
+		<tr data-order="nlToBr" id="m_nlToBr">
 
 			<td class="attributes"><code>
 				 public 
@@ -5762,7 +5762,7 @@
 			</div>
 			</div></td>
 		</tr>
-		<tr data-order="notMatchingMaskLength">
+		<tr data-order="notMatchingMaskLength" id="m_notMatchingMaskLength">
 
 			<td class="attributes"><code>
 				 public 
@@ -5804,7 +5804,7 @@
 			</div>
 			</div></td>
 		</tr>
-		<tr data-order="octToDec">
+		<tr data-order="octToDec" id="m_octToDec">
 
 			<td class="attributes"><code>
 				 public 
@@ -5837,7 +5837,7 @@
 			</div>
 			</div></td>
 		</tr>
-		<tr data-order="quotedPrintableDecode">
+		<tr data-order="quotedPrintableDecode" id="m_quotedPrintableDecode">
 
 			<td class="attributes"><code>
 				 public 
@@ -5870,7 +5870,7 @@
 			</div>
 			</div></td>
 		</tr>
-		<tr data-order="quotedPrintableEncode">
+		<tr data-order="quotedPrintableEncode" id="m_quotedPrintableEncode">
 
 			<td class="attributes"><code>
 				 public 
@@ -5903,7 +5903,7 @@
 			</div>
 			</div></td>
 		</tr>
-		<tr data-order="quoteMeta">
+		<tr data-order="quoteMeta" id="m_quoteMeta">
 
 			<td class="attributes"><code>
 				 public 
@@ -5936,7 +5936,7 @@
 			</div>
 			</div></td>
 		</tr>
-		<tr data-order="repeat">
+		<tr data-order="repeat" id="m_repeat">
 
 			<td class="attributes"><code>
 				 public 
@@ -5974,7 +5974,7 @@
 			</div>
 			</div></td>
 		</tr>
-		<tr data-order="replaceAll">
+		<tr data-order="replaceAll" id="m_replaceAll">
 
 			<td class="attributes"><code>
 				 public 
@@ -6014,7 +6014,7 @@
 			</div>
 			</div></td>
 		</tr>
-		<tr data-order="rot13">
+		<tr data-order="rot13" id="m_rot13">
 
 			<td class="attributes"><code>
 				 public 
@@ -6047,7 +6047,7 @@
 			</div>
 			</div></td>
 		</tr>
-		<tr data-order="searchFirstInSet">
+		<tr data-order="searchFirstInSet" id="m_searchFirstInSet">
 
 			<td class="attributes"><code>
 				 public 
@@ -6085,7 +6085,7 @@
 			</div>
 			</div></td>
 		</tr>
-		<tr data-order="sha1">
+		<tr data-order="sha1" id="m_sha1">
 
 			<td class="attributes"><code>
 				 public 
@@ -6123,7 +6123,7 @@
 			</div>
 			</div></td>
 		</tr>
-		<tr data-order="sha1File">
+		<tr data-order="sha1File" id="m_sha1File">
 
 			<td class="attributes"><code>
 				 public 
@@ -6161,7 +6161,7 @@
 			</div>
 			</div></td>
 		</tr>
-		<tr data-order="similarText">
+		<tr data-order="similarText" id="m_similarText">
 
 			<td class="attributes"><code>
 				 public 
@@ -6201,7 +6201,7 @@
 			</div>
 			</div></td>
 		</tr>
-		<tr data-order="soundex">
+		<tr data-order="soundex" id="m_soundex">
 
 			<td class="attributes"><code>
 				 public 
@@ -6234,7 +6234,7 @@
 			</div>
 			</div></td>
 		</tr>
-		<tr data-order="split">
+		<tr data-order="split" id="m_split">
 
 			<td class="attributes"><code>
 				 public 
@@ -6272,7 +6272,7 @@
 			</div>
 			</div></td>
 		</tr>
-		<tr data-order="sprintf">
+		<tr data-order="sprintf" id="m_sprintf">
 
 			<td class="attributes"><code>
 				 public 
@@ -6312,7 +6312,7 @@
 			</div>
 			</div></td>
 		</tr>
-		<tr data-order="stripCSlashes">
+		<tr data-order="stripCSlashes" id="m_stripCSlashes">
 
 			<td class="attributes"><code>
 				 public 
@@ -6345,7 +6345,7 @@
 			</div>
 			</div></td>
 		</tr>
-		<tr data-order="stripSlashes">
+		<tr data-order="stripSlashes" id="m_stripSlashes">
 
 			<td class="attributes"><code>
 				 public 
@@ -6378,7 +6378,7 @@
 			</div>
 			</div></td>
 		</tr>
-		<tr data-order="stripTags">
+		<tr data-order="stripTags" id="m_stripTags">
 
 			<td class="attributes"><code>
 				 public 
@@ -6416,7 +6416,7 @@
 			</div>
 			</div></td>
 		</tr>
-		<tr data-order="substrAt">
+		<tr data-order="substrAt" id="m_substrAt">
 
 			<td class="attributes"><code>
 				 public 
@@ -6456,7 +6456,7 @@
 			</div>
 			</div></td>
 		</tr>
-		<tr data-order="substrCompare">
+		<tr data-order="substrCompare" id="m_substrCompare">
 
 			<td class="attributes"><code>
 				 public 
@@ -6500,7 +6500,7 @@
 			</div>
 			</div></td>
 		</tr>
-		<tr data-order="substrCount">
+		<tr data-order="substrCount" id="m_substrCount">
 
 			<td class="attributes"><code>
 				 public 
@@ -6542,7 +6542,7 @@
 			</div>
 			</div></td>
 		</tr>
-		<tr data-order="substrReplace">
+		<tr data-order="substrReplace" id="m_substrReplace">
 
 			<td class="attributes"><code>
 				 public 
@@ -6584,7 +6584,7 @@
 			</div>
 			</div></td>
 		</tr>
-		<tr data-order="tokenize">
+		<tr data-order="tokenize" id="m_tokenize">
 
 			<td class="attributes"><code>
 				 public 
@@ -6622,7 +6622,7 @@
 			</div>
 			</div></td>
 		</tr>
-		<tr data-order="translateChar">
+		<tr data-order="translateChar" id="m_translateChar">
 
 			<td class="attributes"><code>
 				 public 
@@ -6662,7 +6662,7 @@
 			</div>
 			</div></td>
 		</tr>
-		<tr data-order="uppercase">
+		<tr data-order="uppercase" id="m_uppercase">
 
 			<td class="attributes"><code>
 				 public 
@@ -6695,7 +6695,7 @@
 			</div>
 			</div></td>
 		</tr>
-		<tr data-order="uppercaseFirst">
+		<tr data-order="uppercaseFirst" id="m_uppercaseFirst">
 
 			<td class="attributes"><code>
 				 public 
@@ -6728,7 +6728,7 @@
 			</div>
 			</div></td>
 		</tr>
-		<tr data-order="uppercaseWords">
+		<tr data-order="uppercaseWords" id="m_uppercaseWords">
 
 			<td class="attributes"><code>
 				 public 
@@ -6761,7 +6761,7 @@
 			</div>
 			</div></td>
 		</tr>
-		<tr data-order="wordCount">
+		<tr data-order="wordCount" id="m_wordCount">
 
 			<td class="attributes"><code>
 				 public 
@@ -6801,7 +6801,7 @@
 			</div>
 			</div></td>
 		</tr>
-		<tr data-order="wordWrap">
+		<tr data-order="wordWrap" id="m_wordWrap">
 
 			<td class="attributes"><code>
 				 public 
@@ -6856,7 +6856,7 @@
 </div>
 	</div>
 
-	<div>
+	<div id="footer">
 		  API documentation generated by <a href="http://apigen.org">ApiGen</a>
 	</div>
 </div>
