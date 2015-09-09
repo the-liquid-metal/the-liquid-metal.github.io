@@ -16,7 +16,7 @@ $(document).ready(function(){
     $('#magicMethods').on('click', 'tr', function(){
         var $tr = $(this);
         var insertDetail = function(response){
-            var prefix = '<div style="background:white">';
+            var prefix = '<div class="ajax-area">';
             var sufix = '</div>';
             if (typeof response === 'string') {
                 $tr.find('.description.detailed').append(prefix + response + sufix);
