@@ -15,4 +15,6 @@ blockquote {
 .ajax-area .warning {
 	background: #F4DFDF;
 	border: 1px solid #EABFBF;
+	border-radius: 8px;
+	padding: 8px;
 }
