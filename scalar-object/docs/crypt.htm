@@ -40,14 +40,14 @@
   </p>
   <ul class="itemizedlist">
    <li class="listitem">
-    <span class="simpara">
+    <span>
      <strong><code>CRYPT_STD_DES</code></strong> - Standard DES-based hash with a two character salt
        from the alphabet &quot;./0-9A-Za-z&quot;. Using invalid characters in the salt will cause
        crypt() to fail.
     </span>
    </li>
    <li class="listitem">
-    <span class="simpara">
+    <span>
      <strong><code>CRYPT_EXT_DES</code></strong> - Extended DES-based hash. The &quot;salt&quot; is a
      9-character string consisting of an underscore followed by 4 bytes of iteration count and
      4 bytes of salt. These are encoded as printable characters, 6 bits per character, least
@@ -56,13 +56,13 @@
     </span>
    </li>
    <li class="listitem">
-    <span class="simpara">
+    <span>
      <strong><code>CRYPT_MD5</code></strong> - MD5 hashing with a twelve character salt starting with
      $1$
     </span>
    </li>
    <li class="listitem">
-    <span class="simpara">
+    <span>
      <strong><code>CRYPT_BLOWFISH</code></strong> - Blowfish hashing with a salt as
      follows: &quot;$2a$&quot;, &quot;$2x$&quot; or &quot;$2y$&quot;, a two digit cost parameter, &quot;$&quot;, and
      22 characters from the alphabet &quot;./0-9A-Za-z&quot;. Using characters outside of
@@ -79,7 +79,7 @@
     </span>
    </li>
    <li class="listitem">
-    <span class="simpara">
+    <span>
      <strong><code>CRYPT_SHA256</code></strong> - SHA-256 hash with a sixteen character salt
      prefixed with $5$. If the salt string starts with &#039;rounds=&lt;N&gt;$&#039;, the numeric value of N
      is used to indicate how many times the hashing loop should be executed, much like the cost
@@ -89,7 +89,7 @@
     </span>
    </li>
    <li class="listitem">
-    <span class="simpara">
+    <span>
      <strong><code>CRYPT_SHA512</code></strong> - SHA-512 hash with a sixteen character salt
      prefixed with $6$. If the salt string starts with &#039;rounds=&lt;N&gt;$&#039;, the numeric value of N
      is used to indicate how many times the hashing loop should be executed, much like the cost
@@ -99,7 +99,7 @@
     </span>
    </li>
   </ul>
-  <blockquote class="note"><p><strong class="note">Note</strong>: 
+  <blockquote><p><strong>Note</strong>: 
    <p class="para">
     As of PHP 5.3.0, PHP contains its own implementation and will use that
     if the system lacks of support for one or more of the algorithms.
@@ -224,9 +224,9 @@ SHA-512:      $6$rounds=5000$usesomesillystri$D4IrlXatmP7rx3P3InaxBeoomnAihCKRVQ
  </div>
 
  
- <div class="refsect1 notes">
-  <blockquote class="note"><p><strong class="note">Note</strong>: 
-   <span class="simpara">
+ <div>
+  <blockquote><p><strong>Note</strong>: 
+   <span>
     There is no decrypt function, since <span class="function"><strong>crypt()</strong></span> uses a
     one-way algorithm.
    </span>
