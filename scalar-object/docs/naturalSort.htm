@@ -31,12 +31,12 @@
    <div>
     <p><strong>Example #1 <span><strong>naturalSort()</strong></span> examples demonstrating basic usage</strong></p>
     <div>
-     <pre><span style="color: #000000"><span style="color: #0000BB">&lt;?php<br />$array1&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #0000BB">$array2&nbsp;</span><span style="color: #007700">=&nbsp;array(</span><span style="color: #DD0000">"img12.png"</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">"img10.png"</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">"img2.png"</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">"img1.png"</span><span style="color: #007700">);<br /><br /></span><span style="color: #0000BB">asort</span><span style="color: #007700">(</span><span style="color: #0000BB">$array1</span><span style="color: #007700">);<br />echo&nbsp;</span><span style="color: #DD0000">"Standard&nbsp;sorting\n"</span><span style="color: #007700">;<br /></span><span style="color: #0000BB">print_r</span><span style="color: #007700">(</span><span style="color: #0000BB">$array1</span><span style="color: #007700">);<br /><br /></span><span style="color: #0000BB">naturalSort</span><span style="color: #007700">(</span><span style="color: #0000BB">$array2</span><span style="color: #007700">);<br />echo&nbsp;</span><span style="color: #DD0000">"\nNatural&nbsp;order&nbsp;sorting\n"</span><span style="color: #007700">;<br /></span><span style="color: #0000BB">print_r</span><span style="color: #007700">(</span><span style="color: #0000BB">$array2</span><span style="color: #007700">);<br /></span><span style="color: #0000BB">?&gt;</span></span></pre>
+     <pre><span style="color: #0000BB">&lt;?php<br />$array1&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #0000BB">$array2&nbsp;</span><span style="color: #007700">=&nbsp;array(</span><span style="color: #DD0000">"img12.png"</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">"img10.png"</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">"img2.png"</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">"img1.png"</span><span style="color: #007700">);<br /><br /></span><span style="color: #0000BB">asort</span><span style="color: #007700">(</span><span style="color: #0000BB">$array1</span><span style="color: #007700">);<br />echo&nbsp;</span><span style="color: #DD0000">"Standard&nbsp;sorting\n"</span><span style="color: #007700">;<br /></span><span style="color: #0000BB">print_r</span><span style="color: #007700">(</span><span style="color: #0000BB">$array1</span><span style="color: #007700">);<br /><br /></span><span style="color: #0000BB">naturalSort</span><span style="color: #007700">(</span><span style="color: #0000BB">$array2</span><span style="color: #007700">);<br />echo&nbsp;</span><span style="color: #DD0000">"\nNatural&nbsp;order&nbsp;sorting\n"</span><span style="color: #007700">;<br /></span><span style="color: #0000BB">print_r</span><span style="color: #007700">(</span><span style="color: #0000BB">$array2</span><span style="color: #007700">);<br /></span><span style="color: #0000BB">?&gt;</span></pre>
     </div>
 
     <div><p>The above example will output:</p></div>
     <div>
-<div><pre>
+<pre>
 Standard sorting
 Array
 (
@@ -54,7 +54,7 @@ Array
     [1] =&gt; img10.png
     [0] =&gt; img12.png
 )
-</pre></div>
+</pre>
     </div>
     <div><p>
      For more information see: Martin Pool&#039;s <a href="http://sourcefrog.net/projects/naturalSort/">&raquo;&nbsp;Natural Order String Comparison</a>
@@ -64,12 +64,12 @@ Array
    <div>
     <p><strong>Example #2 <span><strong>naturalSort()</strong></span> examples demonstrating potential gotchas</strong></p>
     <div>
-     <pre><span style="color: #000000"><span style="color: #0000BB">&lt;?php<br /></span><span style="color: #007700">echo&nbsp;</span><span style="color: #DD0000">"Negative&nbsp;numbers\n"</span><span style="color: #007700">;<br /></span><span style="color: #0000BB">$negative&nbsp;</span><span style="color: #007700">=&nbsp;array(</span><span style="color: #DD0000">'-5'</span><span style="color: #007700">,</span><span style="color: #DD0000">'3'</span><span style="color: #007700">,</span><span style="color: #DD0000">'-2'</span><span style="color: #007700">,</span><span style="color: #DD0000">'0'</span><span style="color: #007700">,</span><span style="color: #DD0000">'-1000'</span><span style="color: #007700">,</span><span style="color: #DD0000">'9'</span><span style="color: #007700">,</span><span style="color: #DD0000">'1'</span><span style="color: #007700">);<br /></span><span style="color: #0000BB">print_r</span><span style="color: #007700">(</span><span style="color: #0000BB">$negative</span><span style="color: #007700">);<br /></span><span style="color: #0000BB">naturalSort</span><span style="color: #007700">(</span><span style="color: #0000BB">$negative</span><span style="color: #007700">);<br /></span><span style="color: #0000BB">print_r</span><span style="color: #007700">(</span><span style="color: #0000BB">$negative</span><span style="color: #007700">);<br /><br />echo&nbsp;</span><span style="color: #DD0000">"Zero&nbsp;padding\n"</span><span style="color: #007700">;<br /></span><span style="color: #0000BB">$zeros&nbsp;</span><span style="color: #007700">=&nbsp;array(</span><span style="color: #DD0000">'09'</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">'8'</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">'10'</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">'009'</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">'011'</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">'0'</span><span style="color: #007700">);&nbsp;<br /></span><span style="color: #0000BB">print_r</span><span style="color: #007700">(</span><span style="color: #0000BB">$zeros</span><span style="color: #007700">);<br /></span><span style="color: #0000BB">naturalSort</span><span style="color: #007700">(</span><span style="color: #0000BB">$zeros</span><span style="color: #007700">);<br /></span><span style="color: #0000BB">print_r</span><span style="color: #007700">(</span><span style="color: #0000BB">$zeros</span><span style="color: #007700">);<br /></span><span style="color: #0000BB">?&gt;</span></span></pre>
+     <pre><span style="color: #0000BB">&lt;?php<br /></span><span style="color: #007700">echo&nbsp;</span><span style="color: #DD0000">"Negative&nbsp;numbers\n"</span><span style="color: #007700">;<br /></span><span style="color: #0000BB">$negative&nbsp;</span><span style="color: #007700">=&nbsp;array(</span><span style="color: #DD0000">'-5'</span><span style="color: #007700">,</span><span style="color: #DD0000">'3'</span><span style="color: #007700">,</span><span style="color: #DD0000">'-2'</span><span style="color: #007700">,</span><span style="color: #DD0000">'0'</span><span style="color: #007700">,</span><span style="color: #DD0000">'-1000'</span><span style="color: #007700">,</span><span style="color: #DD0000">'9'</span><span style="color: #007700">,</span><span style="color: #DD0000">'1'</span><span style="color: #007700">);<br /></span><span style="color: #0000BB">print_r</span><span style="color: #007700">(</span><span style="color: #0000BB">$negative</span><span style="color: #007700">);<br /></span><span style="color: #0000BB">naturalSort</span><span style="color: #007700">(</span><span style="color: #0000BB">$negative</span><span style="color: #007700">);<br /></span><span style="color: #0000BB">print_r</span><span style="color: #007700">(</span><span style="color: #0000BB">$negative</span><span style="color: #007700">);<br /><br />echo&nbsp;</span><span style="color: #DD0000">"Zero&nbsp;padding\n"</span><span style="color: #007700">;<br /></span><span style="color: #0000BB">$zeros&nbsp;</span><span style="color: #007700">=&nbsp;array(</span><span style="color: #DD0000">'09'</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">'8'</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">'10'</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">'009'</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">'011'</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">'0'</span><span style="color: #007700">);&nbsp;<br /></span><span style="color: #0000BB">print_r</span><span style="color: #007700">(</span><span style="color: #0000BB">$zeros</span><span style="color: #007700">);<br /></span><span style="color: #0000BB">naturalSort</span><span style="color: #007700">(</span><span style="color: #0000BB">$zeros</span><span style="color: #007700">);<br /></span><span style="color: #0000BB">print_r</span><span style="color: #007700">(</span><span style="color: #0000BB">$zeros</span><span style="color: #007700">);<br /></span><span style="color: #0000BB">?&gt;</span></pre>
     </div>
 
     <div><p>The above example will output:</p></div>
     <div>
-<div><pre>
+<pre>
 Negative numbers
 Array
 (
@@ -111,7 +111,7 @@ Array
     [2] =&gt; 10
     [4] =&gt; 011
 )
-</pre></div>
+</pre>
     </div>
    </div>
   </p>

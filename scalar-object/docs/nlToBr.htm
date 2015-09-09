@@ -33,45 +33,45 @@
    <div>
     <p><strong>Example #1 Using <span><strong>nlToBr()</strong></span></strong></p>
     <div>
-     <pre><span style="color: #000000"><span style="color: #0000BB">&lt;?php<br /></span><span style="color: #007700">echo&nbsp;</span><span style="color: #0000BB">nlToBr</span><span style="color: #007700">(</span><span style="color: #DD0000">"foo&nbsp;isn't\n&nbsp;bar"</span><span style="color: #007700">);<br /></span><span style="color: #0000BB">?&gt;</span></span></pre>
+     <pre><span style="color: #0000BB">&lt;?php<br /></span><span style="color: #007700">echo&nbsp;</span><span style="color: #0000BB">nlToBr</span><span style="color: #007700">(</span><span style="color: #DD0000">"foo&nbsp;isn't\n&nbsp;bar"</span><span style="color: #007700">);<br /></span><span style="color: #0000BB">?&gt;</span></pre>
     </div>
 
     <div><p>The above example will output:</p></div>
     <div>
-<div><pre>
+<pre>
 foo isn&#039;t&lt;br /&gt;
  bar
-</pre></div>
+</pre>
     </div>
    </div>
    <div>
     <p><strong>Example #2 Generating valid HTML markup using the <code>is_xhtml</code> parameter</strong></p>
     <div>
-     <pre><span style="color: #000000"><span style="color: #0000BB">&lt;?php<br /></span><span style="color: #007700">echo&nbsp;</span><span style="color: #0000BB">nlToBr</span><span style="color: #007700">(</span><span style="color: #DD0000">"Welcome\r\nThis&nbsp;is&nbsp;my&nbsp;HTML&nbsp;document"</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">false</span><span style="color: #007700">);<br /></span><span style="color: #0000BB">?&gt;</span></span></pre>
+     <pre><span style="color: #0000BB">&lt;?php<br /></span><span style="color: #007700">echo&nbsp;</span><span style="color: #0000BB">nlToBr</span><span style="color: #007700">(</span><span style="color: #DD0000">"Welcome\r\nThis&nbsp;is&nbsp;my&nbsp;HTML&nbsp;document"</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">false</span><span style="color: #007700">);<br /></span><span style="color: #0000BB">?&gt;</span></pre>
     </div>
 
     <div><p>The above example will output:</p></div>
     <div>
-<div><pre>
+<pre>
 Welcome&lt;br&gt;
 This is my HTML document
-</pre></div>
+</pre>
     </div>
    </div>
    <div>
     <p><strong>Example #3 Various newline separators</strong></p>
     <div>
-     <pre><span style="color: #000000"><span style="color: #0000BB">&lt;?php<br />$string&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #DD0000">"This\r\nis\n\ra\nstring\r"</span><span style="color: #007700">;<br />echo&nbsp;</span><span style="color: #0000BB">nlToBr</span><span style="color: #007700">(</span><span style="color: #0000BB">$string</span><span style="color: #007700">);<br /></span><span style="color: #0000BB">?&gt;</span></span></pre>
+     <pre><span style="color: #0000BB">&lt;?php<br />$string&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #DD0000">"This\r\nis\n\ra\nstring\r"</span><span style="color: #007700">;<br />echo&nbsp;</span><span style="color: #0000BB">nlToBr</span><span style="color: #007700">(</span><span style="color: #0000BB">$string</span><span style="color: #007700">);<br /></span><span style="color: #0000BB">?&gt;</span></pre>
     </div>
 
     <div><p>The above example will output:</p></div>
     <div>
-<div><pre>
+<pre>
 This&lt;br /&gt;
 is&lt;br /&gt;
 a&lt;br /&gt;
 string&lt;br /&gt;
-</pre></div>
+</pre>
     </div>
    </div>
   </p>

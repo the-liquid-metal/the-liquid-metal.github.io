@@ -35,7 +35,7 @@
        </p>
        <div>
         <div>
-         <pre><span style="color: #000000"><span style="color: #0000BB">&lt;?php<br />stripTags</span><span style="color: #007700">(</span><span style="color: #0000BB">$input</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">'&lt;br&gt;'</span><span style="color: #007700">);<br /></span><span style="color: #0000BB">?&gt;</span></span></pre>
+         <pre><span style="color: #0000BB">&lt;?php<br />stripTags</span><span style="color: #007700">(</span><span style="color: #0000BB">$input</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">'&lt;br&gt;'</span><span style="color: #007700">);<br /></span><span style="color: #0000BB">?&gt;</span></pre>
         </div>
 
        </div>
@@ -57,15 +57,15 @@
    <div>
     <p><strong>Example #1 <span><strong>stripTags()</strong></span> example</strong></p>
     <div>
-     <pre><span style="color: #000000"><span style="color: #0000BB">&lt;?php<br />$text&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #DD0000">'&lt;p&gt;Test&nbsp;paragraph.&lt;/p&gt;&lt;!--&nbsp;Comment&nbsp;--&gt;&nbsp;&lt;a&nbsp;href="#fragment"&gt;Other&nbsp;text&lt;/a&gt;'</span><span style="color: #007700">;<br />echo&nbsp;</span><span style="color: #0000BB">stripTags</span><span style="color: #007700">(</span><span style="color: #0000BB">$text</span><span style="color: #007700">);<br />echo&nbsp;</span><span style="color: #DD0000">"\n"</span><span style="color: #007700">;<br /><br /></span><span style="color: #FF8000">//&nbsp;Allow&nbsp;&lt;p&gt;&nbsp;and&nbsp;&lt;a&gt;<br /></span><span style="color: #007700">echo&nbsp;</span><span style="color: #0000BB">stripTags</span><span style="color: #007700">(</span><span style="color: #0000BB">$text</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">'&lt;p&gt;&lt;a&gt;'</span><span style="color: #007700">);<br /></span><span style="color: #0000BB">?&gt;</span></span></pre>
+     <pre><span style="color: #0000BB">&lt;?php<br />$text&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #DD0000">'&lt;p&gt;Test&nbsp;paragraph.&lt;/p&gt;&lt;!--&nbsp;Comment&nbsp;--&gt;&nbsp;&lt;a&nbsp;href="#fragment"&gt;Other&nbsp;text&lt;/a&gt;'</span><span style="color: #007700">;<br />echo&nbsp;</span><span style="color: #0000BB">stripTags</span><span style="color: #007700">(</span><span style="color: #0000BB">$text</span><span style="color: #007700">);<br />echo&nbsp;</span><span style="color: #DD0000">"\n"</span><span style="color: #007700">;<br /><br /></span><span style="color: #FF8000">//&nbsp;Allow&nbsp;&lt;p&gt;&nbsp;and&nbsp;&lt;a&gt;<br /></span><span style="color: #007700">echo&nbsp;</span><span style="color: #0000BB">stripTags</span><span style="color: #007700">(</span><span style="color: #0000BB">$text</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">'&lt;p&gt;&lt;a&gt;'</span><span style="color: #007700">);<br /></span><span style="color: #0000BB">?&gt;</span></pre>
     </div>
 
     <div><p>The above example will output:</p></div>
     <div>
-<div><pre>
+<pre>
 Test paragraph. Other text
 &lt;p&gt;Test paragraph.&lt;/p&gt; &lt;a href=&quot;#fragment&quot;&gt;Other text&lt;/a&gt;
-</pre></div>
+</pre>
     </div>
    </div>
   </p>

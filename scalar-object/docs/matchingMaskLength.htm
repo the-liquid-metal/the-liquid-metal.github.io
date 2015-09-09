@@ -17,7 +17,7 @@
    The line of code:
    <div>
     <div>
-     <pre><span style="color: #000000"><span style="color: #0000BB">&lt;?php<br />$var&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #0000BB">matchingMaskLength</span><span style="color: #007700">(</span><span style="color: #DD0000">"42&nbsp;is&nbsp;the&nbsp;answer&nbsp;to&nbsp;the&nbsp;128th&nbsp;question."</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">"1234567890"</span><span style="color: #007700">);<br /></span><span style="color: #0000BB">?&gt;</span></span></pre>
+     <pre><span style="color: #0000BB">&lt;?php<br />$var&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #0000BB">matchingMaskLength</span><span style="color: #007700">(</span><span style="color: #DD0000">"42&nbsp;is&nbsp;the&nbsp;answer&nbsp;to&nbsp;the&nbsp;128th&nbsp;question."</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">"1234567890"</span><span style="color: #007700">);<br /></span><span style="color: #0000BB">?&gt;</span></pre>
     </div>
 
    </div>
@@ -98,16 +98,16 @@
    <div>
     <p><strong>Example #1 <span><strong>matchingMaskLength()</strong></span> example</strong></p>
     <div>
-     <pre><span style="color: #000000"><span style="color: #0000BB">&lt;?php<br /></span><span style="color: #FF8000">//&nbsp;subject&nbsp;does&nbsp;not&nbsp;start&nbsp;with&nbsp;any&nbsp;characters&nbsp;from&nbsp;mask<br /></span><span style="color: #0000BB">var_dump</span><span style="color: #007700">(</span><span style="color: #0000BB">matchingMaskLength</span><span style="color: #007700">(</span><span style="color: #DD0000">"foo"</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">"o"</span><span style="color: #007700">));<br /><br /></span><span style="color: #FF8000">//&nbsp;examine&nbsp;two&nbsp;characters&nbsp;from&nbsp;subject&nbsp;starting&nbsp;at&nbsp;offset&nbsp;1<br /></span><span style="color: #0000BB">var_dump</span><span style="color: #007700">(</span><span style="color: #0000BB">matchingMaskLength</span><span style="color: #007700">(</span><span style="color: #DD0000">"foo"</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">"o"</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">1</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">2</span><span style="color: #007700">));<br /><br /></span><span style="color: #FF8000">//&nbsp;examine&nbsp;one&nbsp;character&nbsp;from&nbsp;subject&nbsp;starting&nbsp;at&nbsp;offset&nbsp;1<br /></span><span style="color: #0000BB">var_dump</span><span style="color: #007700">(</span><span style="color: #0000BB">matchingMaskLength</span><span style="color: #007700">(</span><span style="color: #DD0000">"foo"</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">"o"</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">1</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">1</span><span style="color: #007700">));<br /></span><span style="color: #0000BB">?&gt;</span></span></pre>
+     <pre><span style="color: #0000BB">&lt;?php<br /></span><span style="color: #FF8000">//&nbsp;subject&nbsp;does&nbsp;not&nbsp;start&nbsp;with&nbsp;any&nbsp;characters&nbsp;from&nbsp;mask<br /></span><span style="color: #0000BB">var_dump</span><span style="color: #007700">(</span><span style="color: #0000BB">matchingMaskLength</span><span style="color: #007700">(</span><span style="color: #DD0000">"foo"</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">"o"</span><span style="color: #007700">));<br /><br /></span><span style="color: #FF8000">//&nbsp;examine&nbsp;two&nbsp;characters&nbsp;from&nbsp;subject&nbsp;starting&nbsp;at&nbsp;offset&nbsp;1<br /></span><span style="color: #0000BB">var_dump</span><span style="color: #007700">(</span><span style="color: #0000BB">matchingMaskLength</span><span style="color: #007700">(</span><span style="color: #DD0000">"foo"</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">"o"</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">1</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">2</span><span style="color: #007700">));<br /><br /></span><span style="color: #FF8000">//&nbsp;examine&nbsp;one&nbsp;character&nbsp;from&nbsp;subject&nbsp;starting&nbsp;at&nbsp;offset&nbsp;1<br /></span><span style="color: #0000BB">var_dump</span><span style="color: #007700">(</span><span style="color: #0000BB">matchingMaskLength</span><span style="color: #007700">(</span><span style="color: #DD0000">"foo"</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">"o"</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">1</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">1</span><span style="color: #007700">));<br /></span><span style="color: #0000BB">?&gt;</span></pre>
     </div>
 
     <div><p>The above example will output:</p></div>
     <div>
-<div><pre>
+<pre>
 int(0)
 int(2)
 int(1)
-</pre></div>
+</pre>
     </div>
    </div>
   </p>

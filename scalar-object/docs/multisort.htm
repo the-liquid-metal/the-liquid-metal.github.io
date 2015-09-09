@@ -90,7 +90,7 @@
    <div>
     <p><strong>Example #1 Sorting multiple arrays</strong></p>
     <div>
-     <pre><span style="color: #000000"><span style="color: #0000BB">&lt;?php<br />$ar1&nbsp;</span><span style="color: #007700">=&nbsp;array(</span><span style="color: #0000BB">10</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">100</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">100</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">0</span><span style="color: #007700">);<br /></span><span style="color: #0000BB">$ar2&nbsp;</span><span style="color: #007700">=&nbsp;array(</span><span style="color: #0000BB">1</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">3</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">2</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">4</span><span style="color: #007700">);<br /></span><span style="color: #0000BB">multisort</span><span style="color: #007700">(</span><span style="color: #0000BB">$ar1</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">$ar2</span><span style="color: #007700">);<br /><br /></span><span style="color: #0000BB">var_dump</span><span style="color: #007700">(</span><span style="color: #0000BB">$ar1</span><span style="color: #007700">);<br /></span><span style="color: #0000BB">var_dump</span><span style="color: #007700">(</span><span style="color: #0000BB">$ar2</span><span style="color: #007700">);<br /></span><span style="color: #0000BB">?&gt;</span></span></pre>
+     <pre><span style="color: #0000BB">&lt;?php<br />$ar1&nbsp;</span><span style="color: #007700">=&nbsp;array(</span><span style="color: #0000BB">10</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">100</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">100</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">0</span><span style="color: #007700">);<br /></span><span style="color: #0000BB">$ar2&nbsp;</span><span style="color: #007700">=&nbsp;array(</span><span style="color: #0000BB">1</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">3</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">2</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">4</span><span style="color: #007700">);<br /></span><span style="color: #0000BB">multisort</span><span style="color: #007700">(</span><span style="color: #0000BB">$ar1</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">$ar2</span><span style="color: #007700">);<br /><br /></span><span style="color: #0000BB">var_dump</span><span style="color: #007700">(</span><span style="color: #0000BB">$ar1</span><span style="color: #007700">);<br /></span><span style="color: #0000BB">var_dump</span><span style="color: #007700">(</span><span style="color: #0000BB">$ar2</span><span style="color: #007700">);<br /></span><span style="color: #0000BB">?&gt;</span></pre>
     </div>
 
     <div><p>
@@ -100,7 +100,7 @@
      entries in the first array (100 and 100) were sorted as well.
     </p></div>
     <div>
-<div><pre>
+<pre>
 array(4) {
   [0]=&gt; int(0)
   [1]=&gt; int(10)
@@ -113,7 +113,7 @@ array(4) {
   [2]=&gt; int(2)
   [3]=&gt; int(3)
 }
-</pre></div>
+</pre>
     </div>
    </div>
   </p>
@@ -121,7 +121,7 @@ array(4) {
    <div>
     <p><strong>Example #2 Sorting multi-dimensional array</strong></p>
     <div>
-     <pre><span style="color: #000000"><span style="color: #0000BB">&lt;?php<br />$ar&nbsp;</span><span style="color: #007700">=&nbsp;array(<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;array(</span><span style="color: #DD0000">"10"</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">11</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">100</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">100</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">"a"</span><span style="color: #007700">),<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;array(&nbsp;&nbsp;&nbsp;</span><span style="color: #0000BB">1</span><span style="color: #007700">,&nbsp;&nbsp;</span><span style="color: #0000BB">2</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">"2"</span><span style="color: #007700">,&nbsp;&nbsp;&nbsp;</span><span style="color: #0000BB">3</span><span style="color: #007700">,&nbsp;&nbsp;&nbsp;</span><span style="color: #0000BB">1</span><span style="color: #007700">)<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;);<br /></span><span style="color: #0000BB">multisort</span><span style="color: #007700">(</span><span style="color: #0000BB">$ar</span><span style="color: #007700">[</span><span style="color: #0000BB">0</span><span style="color: #007700">],&nbsp;</span><span style="color: #0000BB">SORT_ASC</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">SORT_STRING</span><span style="color: #007700">,<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #0000BB">$ar</span><span style="color: #007700">[</span><span style="color: #0000BB">1</span><span style="color: #007700">],&nbsp;</span><span style="color: #0000BB">SORT_NUMERIC</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">SORT_DESC</span><span style="color: #007700">);<br /></span><span style="color: #0000BB">var_dump</span><span style="color: #007700">(</span><span style="color: #0000BB">$ar</span><span style="color: #007700">);<br /></span><span style="color: #0000BB">?&gt;</span></span></pre>
+     <pre><span style="color: #0000BB">&lt;?php<br />$ar&nbsp;</span><span style="color: #007700">=&nbsp;array(<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;array(</span><span style="color: #DD0000">"10"</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">11</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">100</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">100</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">"a"</span><span style="color: #007700">),<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;array(&nbsp;&nbsp;&nbsp;</span><span style="color: #0000BB">1</span><span style="color: #007700">,&nbsp;&nbsp;</span><span style="color: #0000BB">2</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">"2"</span><span style="color: #007700">,&nbsp;&nbsp;&nbsp;</span><span style="color: #0000BB">3</span><span style="color: #007700">,&nbsp;&nbsp;&nbsp;</span><span style="color: #0000BB">1</span><span style="color: #007700">)<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;);<br /></span><span style="color: #0000BB">multisort</span><span style="color: #007700">(</span><span style="color: #0000BB">$ar</span><span style="color: #007700">[</span><span style="color: #0000BB">0</span><span style="color: #007700">],&nbsp;</span><span style="color: #0000BB">SORT_ASC</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">SORT_STRING</span><span style="color: #007700">,<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #0000BB">$ar</span><span style="color: #007700">[</span><span style="color: #0000BB">1</span><span style="color: #007700">],&nbsp;</span><span style="color: #0000BB">SORT_NUMERIC</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">SORT_DESC</span><span style="color: #007700">);<br /></span><span style="color: #0000BB">var_dump</span><span style="color: #007700">(</span><span style="color: #0000BB">$ar</span><span style="color: #007700">);<br /></span><span style="color: #0000BB">?&gt;</span></pre>
     </div>
 
     <div><p>
@@ -131,7 +131,7 @@ array(4) {
      in descending order).
     </p></div>
     <div>
-<div><pre>
+<pre>
 array(2) {
   [0]=&gt; array(5) {
     [0]=&gt; string(2) &quot;10&quot;
@@ -148,7 +148,7 @@ array(2) {
     [4]=&gt; int(1)
   }
 }
-</pre></div>
+</pre>
     </div>
    </div>
   </p>
@@ -164,7 +164,7 @@ array(2) {
      Example data:
     </p></div>
     <div>
-<div><pre>
+<pre>
 volume | edition
 -------+--------
     67 |       2
@@ -173,14 +173,14 @@ volume | edition
     98 |       2
     86 |       6
     67 |       7
-</pre></div>
+</pre>
     </div>
     <div><p>
      The data as an array, called <var><var>data</var></var>. This would usually,
      for example, be obtained by looping with <span><a href="function.mysql-fetch-assoc.php">mysql_fetch_assoc()</a></span>.
     </p></div>
     <div>
-     <pre><span style="color: #000000"><span style="color: #0000BB">&lt;?php<br />$data</span><span style="color: #007700">[]&nbsp;=&nbsp;array(</span><span style="color: #DD0000">'volume'&nbsp;</span><span style="color: #007700">=&gt;&nbsp;</span><span style="color: #0000BB">67</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">'edition'&nbsp;</span><span style="color: #007700">=&gt;&nbsp;</span><span style="color: #0000BB">2</span><span style="color: #007700">);<br /></span><span style="color: #0000BB">$data</span><span style="color: #007700">[]&nbsp;=&nbsp;array(</span><span style="color: #DD0000">'volume'&nbsp;</span><span style="color: #007700">=&gt;&nbsp;</span><span style="color: #0000BB">86</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">'edition'&nbsp;</span><span style="color: #007700">=&gt;&nbsp;</span><span style="color: #0000BB">1</span><span style="color: #007700">);<br /></span><span style="color: #0000BB">$data</span><span style="color: #007700">[]&nbsp;=&nbsp;array(</span><span style="color: #DD0000">'volume'&nbsp;</span><span style="color: #007700">=&gt;&nbsp;</span><span style="color: #0000BB">85</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">'edition'&nbsp;</span><span style="color: #007700">=&gt;&nbsp;</span><span style="color: #0000BB">6</span><span style="color: #007700">);<br /></span><span style="color: #0000BB">$data</span><span style="color: #007700">[]&nbsp;=&nbsp;array(</span><span style="color: #DD0000">'volume'&nbsp;</span><span style="color: #007700">=&gt;&nbsp;</span><span style="color: #0000BB">98</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">'edition'&nbsp;</span><span style="color: #007700">=&gt;&nbsp;</span><span style="color: #0000BB">2</span><span style="color: #007700">);<br /></span><span style="color: #0000BB">$data</span><span style="color: #007700">[]&nbsp;=&nbsp;array(</span><span style="color: #DD0000">'volume'&nbsp;</span><span style="color: #007700">=&gt;&nbsp;</span><span style="color: #0000BB">86</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">'edition'&nbsp;</span><span style="color: #007700">=&gt;&nbsp;</span><span style="color: #0000BB">6</span><span style="color: #007700">);<br /></span><span style="color: #0000BB">$data</span><span style="color: #007700">[]&nbsp;=&nbsp;array(</span><span style="color: #DD0000">'volume'&nbsp;</span><span style="color: #007700">=&gt;&nbsp;</span><span style="color: #0000BB">67</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">'edition'&nbsp;</span><span style="color: #007700">=&gt;&nbsp;</span><span style="color: #0000BB">7</span><span style="color: #007700">);<br /></span><span style="color: #0000BB">?&gt;</span></span></pre>
+     <pre><span style="color: #0000BB">&lt;?php<br />$data</span><span style="color: #007700">[]&nbsp;=&nbsp;array(</span><span style="color: #DD0000">'volume'&nbsp;</span><span style="color: #007700">=&gt;&nbsp;</span><span style="color: #0000BB">67</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">'edition'&nbsp;</span><span style="color: #007700">=&gt;&nbsp;</span><span style="color: #0000BB">2</span><span style="color: #007700">);<br /></span><span style="color: #0000BB">$data</span><span style="color: #007700">[]&nbsp;=&nbsp;array(</span><span style="color: #DD0000">'volume'&nbsp;</span><span style="color: #007700">=&gt;&nbsp;</span><span style="color: #0000BB">86</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">'edition'&nbsp;</span><span style="color: #007700">=&gt;&nbsp;</span><span style="color: #0000BB">1</span><span style="color: #007700">);<br /></span><span style="color: #0000BB">$data</span><span style="color: #007700">[]&nbsp;=&nbsp;array(</span><span style="color: #DD0000">'volume'&nbsp;</span><span style="color: #007700">=&gt;&nbsp;</span><span style="color: #0000BB">85</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">'edition'&nbsp;</span><span style="color: #007700">=&gt;&nbsp;</span><span style="color: #0000BB">6</span><span style="color: #007700">);<br /></span><span style="color: #0000BB">$data</span><span style="color: #007700">[]&nbsp;=&nbsp;array(</span><span style="color: #DD0000">'volume'&nbsp;</span><span style="color: #007700">=&gt;&nbsp;</span><span style="color: #0000BB">98</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">'edition'&nbsp;</span><span style="color: #007700">=&gt;&nbsp;</span><span style="color: #0000BB">2</span><span style="color: #007700">);<br /></span><span style="color: #0000BB">$data</span><span style="color: #007700">[]&nbsp;=&nbsp;array(</span><span style="color: #DD0000">'volume'&nbsp;</span><span style="color: #007700">=&gt;&nbsp;</span><span style="color: #0000BB">86</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">'edition'&nbsp;</span><span style="color: #007700">=&gt;&nbsp;</span><span style="color: #0000BB">6</span><span style="color: #007700">);<br /></span><span style="color: #0000BB">$data</span><span style="color: #007700">[]&nbsp;=&nbsp;array(</span><span style="color: #DD0000">'volume'&nbsp;</span><span style="color: #007700">=&gt;&nbsp;</span><span style="color: #0000BB">67</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">'edition'&nbsp;</span><span style="color: #007700">=&gt;&nbsp;</span><span style="color: #0000BB">7</span><span style="color: #007700">);<br /></span><span style="color: #0000BB">?&gt;</span></pre>
     </div>
 
     <div><p>
@@ -193,14 +193,14 @@ volume | edition
      columns, then perform the sorting.
     </p></div>
     <div>
-     <pre><span style="color: #000000"><span style="color: #0000BB">&lt;?php<br /></span><span style="color: #FF8000">//&nbsp;Obtain&nbsp;a&nbsp;list&nbsp;of&nbsp;columns<br /></span><span style="color: #007700">foreach&nbsp;(</span><span style="color: #0000BB">$data&nbsp;</span><span style="color: #007700">as&nbsp;</span><span style="color: #0000BB">$key&nbsp;</span><span style="color: #007700">=&gt;&nbsp;</span><span style="color: #0000BB">$row</span><span style="color: #007700">)&nbsp;{<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #0000BB">$volume</span><span style="color: #007700">[</span><span style="color: #0000BB">$key</span><span style="color: #007700">]&nbsp;&nbsp;=&nbsp;</span><span style="color: #0000BB">$row</span><span style="color: #007700">[</span><span style="color: #DD0000">'volume'</span><span style="color: #007700">];<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #0000BB">$edition</span><span style="color: #007700">[</span><span style="color: #0000BB">$key</span><span style="color: #007700">]&nbsp;=&nbsp;</span><span style="color: #0000BB">$row</span><span style="color: #007700">[</span><span style="color: #DD0000">'edition'</span><span style="color: #007700">];<br />}<br /><br /></span><span style="color: #FF8000">//&nbsp;Sort&nbsp;the&nbsp;data&nbsp;with&nbsp;volume&nbsp;descending,&nbsp;edition&nbsp;ascending<br />//&nbsp;Add&nbsp;$data&nbsp;as&nbsp;the&nbsp;last&nbsp;parameter,&nbsp;to&nbsp;sort&nbsp;by&nbsp;the&nbsp;common&nbsp;key<br /></span><span style="color: #0000BB">multisort</span><span style="color: #007700">(</span><span style="color: #0000BB">$volume</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">SORT_DESC</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">$edition</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">SORT_ASC</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">$data</span><span style="color: #007700">);<br /></span><span style="color: #0000BB">?&gt;</span></span></pre>
+     <pre><span style="color: #0000BB">&lt;?php<br /></span><span style="color: #FF8000">//&nbsp;Obtain&nbsp;a&nbsp;list&nbsp;of&nbsp;columns<br /></span><span style="color: #007700">foreach&nbsp;(</span><span style="color: #0000BB">$data&nbsp;</span><span style="color: #007700">as&nbsp;</span><span style="color: #0000BB">$key&nbsp;</span><span style="color: #007700">=&gt;&nbsp;</span><span style="color: #0000BB">$row</span><span style="color: #007700">)&nbsp;{<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #0000BB">$volume</span><span style="color: #007700">[</span><span style="color: #0000BB">$key</span><span style="color: #007700">]&nbsp;&nbsp;=&nbsp;</span><span style="color: #0000BB">$row</span><span style="color: #007700">[</span><span style="color: #DD0000">'volume'</span><span style="color: #007700">];<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #0000BB">$edition</span><span style="color: #007700">[</span><span style="color: #0000BB">$key</span><span style="color: #007700">]&nbsp;=&nbsp;</span><span style="color: #0000BB">$row</span><span style="color: #007700">[</span><span style="color: #DD0000">'edition'</span><span style="color: #007700">];<br />}<br /><br /></span><span style="color: #FF8000">//&nbsp;Sort&nbsp;the&nbsp;data&nbsp;with&nbsp;volume&nbsp;descending,&nbsp;edition&nbsp;ascending<br />//&nbsp;Add&nbsp;$data&nbsp;as&nbsp;the&nbsp;last&nbsp;parameter,&nbsp;to&nbsp;sort&nbsp;by&nbsp;the&nbsp;common&nbsp;key<br /></span><span style="color: #0000BB">multisort</span><span style="color: #007700">(</span><span style="color: #0000BB">$volume</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">SORT_DESC</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">$edition</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">SORT_ASC</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">$data</span><span style="color: #007700">);<br /></span><span style="color: #0000BB">?&gt;</span></pre>
     </div>
 
     <div><p>
      The dataset is now sorted, and will look like this:
     </p></div>
     <div>
-<div><pre>
+<pre>
 volume | edition
 -------+--------
     98 |       2
@@ -209,7 +209,7 @@ volume | edition
     85 |       6
     67 |       2
     67 |       7
-</pre></div>
+</pre>
     </div>
    </div>
   </p>
@@ -227,12 +227,12 @@ volume | edition
      determined by a lowercase copy of the original array.
     </p></div>
     <div>
-     <pre><span style="color: #000000"><span style="color: #0000BB">&lt;?php<br />$array&nbsp;</span><span style="color: #007700">=&nbsp;array(</span><span style="color: #DD0000">'Alpha'</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">'atomic'</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">'Beta'</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">'bank'</span><span style="color: #007700">);<br /></span><span style="color: #0000BB">$array_lowercase&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #0000BB">array_map</span><span style="color: #007700">(</span><span style="color: #DD0000">'strtolower'</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">$array</span><span style="color: #007700">);<br /><br /></span><span style="color: #0000BB">multisort</span><span style="color: #007700">(</span><span style="color: #0000BB">$array_lowercase</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">SORT_ASC</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">SORT_STRING</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">$array</span><span style="color: #007700">);<br /><br /></span><span style="color: #0000BB">print_r</span><span style="color: #007700">(</span><span style="color: #0000BB">$array</span><span style="color: #007700">);<br /></span><span style="color: #0000BB">?&gt;</span></span></pre>
+     <pre><span style="color: #0000BB">&lt;?php<br />$array&nbsp;</span><span style="color: #007700">=&nbsp;array(</span><span style="color: #DD0000">'Alpha'</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">'atomic'</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">'Beta'</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">'bank'</span><span style="color: #007700">);<br /></span><span style="color: #0000BB">$array_lowercase&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #0000BB">array_map</span><span style="color: #007700">(</span><span style="color: #DD0000">'strtolower'</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">$array</span><span style="color: #007700">);<br /><br /></span><span style="color: #0000BB">multisort</span><span style="color: #007700">(</span><span style="color: #0000BB">$array_lowercase</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">SORT_ASC</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">SORT_STRING</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">$array</span><span style="color: #007700">);<br /><br /></span><span style="color: #0000BB">print_r</span><span style="color: #007700">(</span><span style="color: #0000BB">$array</span><span style="color: #007700">);<br /></span><span style="color: #0000BB">?&gt;</span></pre>
     </div>
 
     <div><p>The above example will output:</p></div>
     <div>
-<div><pre>
+<pre>
 Array
 (
     [0] =&gt; Alpha
@@ -240,7 +240,7 @@ Array
     [2] =&gt; bank
     [3] =&gt; Beta
 )
-</pre></div>
+</pre>
     </div>
    </div>
   </p>
