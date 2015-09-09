@@ -17,6 +17,7 @@ $(document).ready(function(){
     $('#magicMethods').on('click', 'tr', function(){
         var $tr = $(this);
         var insertDetail = function(response){
+            console.log(response);
             $tr.find('.description.detailed').append(response.responseText);
             $tr.data('isLoaded', true);
         };
