@@ -1,8 +1,5 @@
 .ajax-area {
 	background: white;
-	border-top-left-radius: 3px;
-	border-top-right-radius: 3px;
-	border-bottom-left-radius: 3px;
-	border-bottom-right-radius: 3px;
+	border-radius: 8px;
 	padding: 8px;
 }
