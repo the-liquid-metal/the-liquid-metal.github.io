@@ -9,7 +9,7 @@ $(document).ready(function(){
             $a.remove();
         }
     };
-    $.get("../edit/AJAX_MARKER.htm", modifPage).fail(modifPage);
+    $.get("AJAX_MARKER.htm", modifPage).fail(modifPage);
 
     $(".description.detailed").find("h4, div").remove();
 
@@ -24,7 +24,7 @@ $(document).ready(function(){
             $tr.data('isLoaded', true);
         };
         if ($tr.data('isLoaded') === true) return;
-        var path = $tr.attr('id').replace('m_', '../edit/')+'.htm';
+        var path = $tr.attr('id').replace('m_', '')+'.htm';
         $.get(path, insertDetail).fail(insertDetail);
     });
 
