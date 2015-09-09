@@ -1,7 +1,5 @@
 $(document).ready(function(){
-    console.log("OK");
     var modifPage = function(response){
-        console.log(response);
         var $a;
         if (response === "ajax is available" || response.responseText === "ajax is available") {
             $a = $(".description").find("a:contains('detail')");
