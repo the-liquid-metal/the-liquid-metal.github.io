@@ -170,86 +170,7 @@
  </div>
 
  
- <div class="refsect1 changelog" id="refsect1-function.crypt-changelog">
-  <h3 class="title">Changelog</h3>
-  <p class="para">
-   <table class="doctable informaltable">
-    
-     <thead>
-      <tr>
-       <th>Version</th>
-       <th>Description</th>
-      </tr>
 
-     </thead>
-
-     <tbody class="tbody">
-      <tr>
-       <td>5.6.5</td>
-       <td>
-        When the failure string &quot;*0&quot; is given as the
-        <code class="parameter">salt</code>, &quot;*1&quot; will now be returned for consistency
-        with other crypt implementations. Prior to this version, PHP 5.6 would
-        incorrectly return a DES hash.
-       </td>
-      </tr>
-
-      <tr>
-       <td>5.6.0</td>
-       <td>
-        Raise E_NOTICE security warning if <code class="parameter">salt</code> is omitted.
-       </td>
-      </tr>
-
-      <tr>
-       <td>5.5.21</td>
-       <td>
-        When the failure string &quot;*0&quot; is given as the
-        <code class="parameter">salt</code>, &quot;*1&quot; will now be returned for consistency
-        with other crypt implementations. Prior to this version, PHP 5.5 (and
-        earlier branches) would incorrectly return a DES hash.
-       </td>
-      </tr>
-
-      <tr>
-       <td>5.3.7</td>
-       <td>
-        Added <em>$2x$</em> and <em>$2y$</em> Blowfish
-        modes to deal with potential high-bit attacks.
-       </td>
-      </tr>
-
-      <tr>
-       <td>5.3.2</td>
-       <td>
-        Added SHA-256 and SHA-512 crypt based on Ulrich Drepper&#039;s 
-        <a href="http://people.redhat.com/drepper/SHA-crypt.txt" class="link external">&raquo;&nbsp;implementation</a>.
-       </td>
-      </tr>
-
-      <tr>
-       <td>5.3.2</td>
-       <td>
-        Fixed Blowfish behaviour on invalid rounds to return &quot;failure&quot; 
-        string (&quot;*0&quot; or &quot;*1&quot;), instead of falling back to DES.
-       </td>
-      </tr>
-
-      <tr>
-       <td>5.3.0</td>
-       <td>
-        PHP now contains its own implementation for the MD5 crypt, Standard DES,
-        Extended DES and the Blowfish algorithms and will use that if the system
-        lacks of support for one or more of the algorithms.
-       </td>
-      </tr>
-
-     </tbody>
-    
-   </table>
-
-  </p>
- </div>
 
  
  <div class="refsect1 examples" id="refsect1-function.crypt-examples">
@@ -314,7 +235,3 @@ SHA-512:      $6$rounds=5000$usesomesillystri$D4IrlXatmP7rx3P3InaxBeoomnAihCKRVQ
    </span>
   </p></blockquote>
  </div>
-
- 
- <div class="refsect1 seealso" id="refsect1-function.crypt-seealso">
-  
