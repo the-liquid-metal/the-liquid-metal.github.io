@@ -16,7 +16,7 @@ $(document).ready(function(){
     $('#magicMethods').on('click', 'tr', function(){
         var $tr = $(this);
         var insertDetail = function(response){
-            if (response typeof 'string') {
+            if (typeof response === 'string') {
                 $tr.find('.description.detailed').append(response);
             } else {
                 $tr.find('.description.detailed').append(response.responseText);
