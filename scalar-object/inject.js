@@ -1,6 +1,5 @@
 $(document).ready(function(){
     var modifPage = function(response){
-        console.log(response);
         var $a;
         if (response === "ajax is available" || response.responseText === "ajax is available") {
             $a = $(".description").find("a:contains('detail')");
@@ -17,8 +16,7 @@ $(document).ready(function(){
     $('#magicMethods').on('click', 'tr', function(){
         var $tr = $(this);
         var insertDetail = function(response){
-            console.log(response);
-            if ($.isString(response)) {
+            if (response typeof 'string') {
                 $tr.find('.description.detailed').append(response);
             } else {
                 $tr.find('.description.detailed').append(response.responseText);
