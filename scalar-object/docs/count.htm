@@ -7,8 +7,8 @@
    For objects, if you have
    <a href="ref.spl.php">SPL</a> installed, you can hook into
    <span><strong>count()</strong></span> by implementing interface
-   <a href="class.countable.php" class="classname">Countable</a>. The interface has exactly one method,
-   <span class="methodname"><a href="countable.count.php" class="methodname">Countable::count()</a></span>, which returns the return value for the
+   <a href="class.countable.php">Countable</a>. The interface has exactly one method,
+   <span><a href="countable.count.php">Countable::count()</a></span>, which returns the return value for the
    <span><strong>count()</strong></span> function.
   </p>
   <p>
@@ -23,7 +23,7 @@
   <p>
    <dl>
      <dt><code>array_or_countable</code></dt>
-     <dd><p>An array or <a href="class.countable.php" class="classname">Countable</a> object.</p></dd>
+     <dd><p>An array or <a href="class.countable.php">Countable</a> object.</p></dd>
 
      <dt><code>mode</code></dt>
      <dd><p>If the optional <code>mode</code> parameter is set to
@@ -49,7 +49,7 @@
   <p>
    Returns the number of elements in <code>array_or_countable</code>.
    If the parameter is not an array or not an object with
-   implemented <a href="class.countable.php" class="classname">Countable</a> interface,
+   implemented <a href="class.countable.php">Countable</a> interface,
    <em>1</em> will be returned.
    There is one exception, if <code>array_or_countable</code> is <strong><code>NULL</code></strong>,
    <em>0</em> will be returned.

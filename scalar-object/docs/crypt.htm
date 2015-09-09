@@ -35,15 +35,15 @@
    hash types, the following constants are set to 0 or 1
    depending on whether the given type is available:
   </p>
-  <ul class="itemizedlist">
-   <li class="listitem">
+  <ul>
+   <li>
     <span>
      <strong><code>CRYPT_STD_DES</code></strong> - Standard DES-based hash with a two character salt
        from the alphabet &quot;./0-9A-Za-z&quot;. Using invalid characters in the salt will cause
        crypt() to fail.
     </span>
    </li>
-   <li class="listitem">
+   <li>
     <span>
      <strong><code>CRYPT_EXT_DES</code></strong> - Extended DES-based hash. The &quot;salt&quot; is a
      9-character string consisting of an underscore followed by 4 bytes of iteration count and
@@ -52,13 +52,13 @@
      characters in the salt will cause crypt() to fail.
     </span>
    </li>
-   <li class="listitem">
+   <li>
     <span>
      <strong><code>CRYPT_MD5</code></strong> - MD5 hashing with a twelve character salt starting with
      $1$
     </span>
    </li>
-   <li class="listitem">
+   <li>
     <span>
      <strong><code>CRYPT_BLOWFISH</code></strong> - Blowfish hashing with a salt as
      follows: &quot;$2a$&quot;, &quot;$2x$&quot; or &quot;$2y$&quot;, a two digit cost parameter, &quot;$&quot;, and
@@ -75,7 +75,7 @@
      PHP 5.3.7 and later should use &quot;$2y$&quot; in preference to &quot;$2a$&quot;.
     </span>
    </li>
-   <li class="listitem">
+   <li>
     <span>
      <strong><code>CRYPT_SHA256</code></strong> - SHA-256 hash with a sixteen character salt
      prefixed with $5$. If the salt string starts with &#039;rounds=&lt;N&gt;$&#039;, the numeric value of N
@@ -85,7 +85,7 @@
      the nearest limit.
     </span>
    </li>
-   <li class="listitem">
+   <li>
     <span>
      <strong><code>CRYPT_SHA512</code></strong> - SHA-512 hash with a sixteen character salt
      prefixed with $6$. If the salt string starts with &#039;rounds=&lt;N&gt;$&#039;, the numeric value of N

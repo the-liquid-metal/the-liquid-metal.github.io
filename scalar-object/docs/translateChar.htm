@@ -19,7 +19,7 @@
   <p>
    If given two arguments, the second should be an <span><a href="language.types.array.php">array</a></span> in the
    form <em>array(&#039;from&#039; =&gt; &#039;to&#039;, ...)</em>. The return value is
-   a <span><a href="language.types.string.php" class="type string">string</a></span> where all the occurrences of the array keys have been
+   a <span><a href="language.types.string.php">string</a></span> where all the occurrences of the array keys have been
    replaced by the corresponding values. The longest keys will be tried first.
    Once a substring has been replaced, its new value will not be searched
    again.
@@ -38,13 +38,13 @@
   <p>
    <dl>
      <dt><code>str</code></dt>
-     <dd><p>The <span><a href="language.types.string.php" class="type string">string</a></span> being translated.</p></dd>
+     <dd><p>The <span><a href="language.types.string.php">string</a></span> being translated.</p></dd>
 
      <dt><code>from</code></dt>
-     <dd><p>The <span><a href="language.types.string.php" class="type string">string</a></span> being translated to <code>to</code>.</p></dd>
+     <dd><p>The <span><a href="language.types.string.php">string</a></span> being translated to <code>to</code>.</p></dd>
 
      <dt><code>to</code></dt>
-     <dd><p>The <span><a href="language.types.string.php" class="type string">string</a></span> replacing <code>from</code>.</p></dd>
+     <dd><p>The <span><a href="language.types.string.php">string</a></span> replacing <code>from</code>.</p></dd>
 
      <dt><code>replace_pairs</code></dt>
      <dd><p>The <code>replace_pairs</code> parameter may be used instead of 
@@ -57,11 +57,11 @@
  <div>
   <h3>Return Values</h3>
   <p>
-   Returns the translated <span><a href="language.types.string.php" class="type string">string</a></span>.
+   Returns the translated <span><a href="language.types.string.php">string</a></span>.
   </p>
   <p>
    If <code>replace_pairs</code> contains a key which
-   is an empty <span><a href="language.types.string.php" class="type string">string</a></span> (<em>&quot;&quot;</em>),
+   is an empty <span><a href="language.types.string.php">string</a></span> (<em>&quot;&quot;</em>),
    <strong><code>FALSE</code></strong> will be returned. If the <code>str</code> is not a scalar
    then it is not typecasted into a string, instead a warning is raised and 
    <strong><code>NULL</code></strong> is returned. 

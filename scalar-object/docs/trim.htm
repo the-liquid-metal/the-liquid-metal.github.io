@@ -6,38 +6,38 @@
    Without the second parameter,
    <span><strong>trim()</strong></span> will strip these characters:
 
-   <ul class="itemizedlist">
-    <li class="listitem">
+   <ul>
+    <li>
      <span>
       &quot; &quot; (<acronym title="American Standard Code for Information Interchange">ASCII</acronym> <em>32</em> 
       (<em>0x20</em>)), an ordinary space.
      </span>
     </li>
-    <li class="listitem">
+    <li>
      <span>
       &quot;\t&quot; (<acronym title="American Standard Code for Information Interchange">ASCII</acronym> <em>9</em> 
       (<em>0x09</em>)), a tab.
      </span>
     </li>
-    <li class="listitem">
+    <li>
      <span>
       &quot;\n&quot; (<acronym title="American Standard Code for Information Interchange">ASCII</acronym> <em>10</em> 
       (<em>0x0A</em>)), a new line (line feed).
      </span>
     </li>
-    <li class="listitem">
+    <li>
      <span>
       &quot;\r&quot; (<acronym title="American Standard Code for Information Interchange">ASCII</acronym> <em>13</em> 
       (<em>0x0D</em>)), a carriage return.
      </span>
     </li>
-    <li class="listitem">
+    <li>
      <span>
       &quot;\0&quot; (<acronym title="American Standard Code for Information Interchange">ASCII</acronym> <em>0</em> 
       (<em>0x00</em>)), the <em>NUL</em>-byte.
      </span>
     </li>
-    <li class="listitem">
+    <li>
      <span> 
       &quot;\x0B&quot; (<acronym title="American Standard Code for Information Interchange">ASCII</acronym> <em>11</em> 
       (<em>0x0B</em>)), a vertical tab.
@@ -52,7 +52,7 @@
   <p>
    <dl>
      <dt><code>str</code></dt>
-     <dd><p>The <span><a href="language.types.string.php" class="type string">string</a></span> that will be trimmed.</p></dd>
+     <dd><p>The <span><a href="language.types.string.php">string</a></span> that will be trimmed.</p></dd>
 
      <dt><code>character_mask</code></dt>
      <dd><p>Optionally, the stripped characters can also be specified using
@@ -139,7 +139,7 @@ array(3) {
    <strong>Possible gotcha: removing middle characters</strong><br />
    <p>
     Because <span><strong>trim()</strong></span> trims characters from the beginning and end of
-    a <span><a href="language.types.string.php" class="type string">string</a></span>, it may be confusing when characters are (or are not) removed from
+    a <span><a href="language.types.string.php">string</a></span>, it may be confusing when characters are (or are not) removed from
     the middle. <em>trim(&#039;abc&#039;, &#039;bad&#039;)</em> removes both &#039;a&#039; and &#039;b&#039; because it
     trims &#039;a&#039; thus moving &#039;b&#039; to the beginning to also be trimmed. So, this is why it &quot;works&quot;
     whereas <em>trim(&#039;abc&#039;, &#039;b&#039;)</em> seemingly does not.

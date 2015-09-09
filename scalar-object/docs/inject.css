@@ -21,3 +21,10 @@
 	border-radius: 8px;
 	padding: 8px;
 }
+.ajax-area .warning {
+	margin-top: 1em;
+	background: #FCFCE9;
+	border: 1px solid #E2E2D1;
+	border-radius: 8px;
+	padding: 8px;
+}
