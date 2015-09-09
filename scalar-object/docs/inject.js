@@ -16,10 +16,12 @@ $(document).ready(function(){
     $('#magicMethods').on('click', 'tr', function(){
         var $tr = $(this);
         var insertDetail = function(response){
+            var prefix = '<div style="background:white">';
+            var sufix = '</div>';
             if (typeof response === 'string') {
-                $tr.find('.description.detailed').append(response);
+                $tr.find('.description.detailed').append(prefix + response + sufix);
             } else {
-                $tr.find('.description.detailed').append(response.responseText);
+                $tr.find('.description.detailed').append(prefix + response.responseText + sufix);
             }
             $tr.data('isLoaded', true);
         };
