@@ -1,7 +1,4 @@
-
- <div>
-  <h1>userDiffUserAssoc</h1>
- </div>
+<h1>userDiffUserAssoc</h1>
  <div>
   <p>
    Computes the difference of arrays with additional index check, compares
@@ -9,7 +6,7 @@
   </p>
   <p>
    Note that the keys are used in the comparison unlike
-   <span><a href="function.array-diff.php" class="function">array_diff()</a></span> and <span><a href="function.array-udiff.php" class="function">array_udiff()</a></span>.
+   <span><a href="function.array-diff.php">array_diff()</a></span> and <span><a href="function.array-udiff.php">array_udiff()</a></span>.
   </p>
  </div>
 
@@ -17,59 +14,30 @@
   <h3>Parameters</h3>
   <p>
    <dl>
+     <dt><code>array1</code></dt>
+     <dd><p>The first array.</p></dd>
 
-     <dt>
-<code>array1</code></dt>
+     <dt><code>array2</code></dt>
+     <dd><p>The second array.</p></dd>
 
-     <dd>
-
-      <p>
-       The first array.
-      </p>
-     </dd>
-
-     <dt>
-<code>array2</code></dt>
-
-     <dd>
-
-      <p>
-       The second array.
-      </p>
-     </dd>
-
-     <dt>
-<code>value_compare_func</code></dt>
-
-     <dd>
-
-      <p>
-       The comparison function must return an integer less than, equal to, or greater than zero if the first argument is considered to be respectively less than, equal to, or greater than the second.
+     <dt><code>value_compare_func</code></dt>
+     <dd><p>The comparison function must return an integer less than, equal to, or greater than zero if the first argument is considered to be respectively less than, equal to, or greater than the second.
       </p>
         </dd>
 
-     <dt>
-<code>key_compare_func</code></dt>
-
-     <dd>
-
-      <p>
-       The comparison of keys (indices) is done also by the callback function
+     <dt><code>key_compare_func</code></dt>
+     <dd><p>The comparison of keys (indices) is done also by the callback function
        <code>key_compare_func</code>. This behaviour is unlike what
-       <span><a href="function.array-udiff-assoc.php" class="function">array_udiff_assoc()</a></span> does, since the latter compares
-       the indices by using an internal function.
-      </p>
-     </dd>
-
+       <span><a href="function.array-udiff-assoc.php">array_udiff_assoc()</a></span> does, since the latter compares
+       the indices by using an internal function.</p></dd>
    </dl>
-
   </p>
  </div>
 
  <div>
   <h3>Return Values</h3>
   <p>
-   Returns an <span><a href="language.types.array.php" class="type array">array</a></span> containing all the values from
+   Returns an <span><a href="language.types.array.php">array</a></span> containing all the values from
    <code>array1</code> that are not present in any of the other
    arguments.
   </p>

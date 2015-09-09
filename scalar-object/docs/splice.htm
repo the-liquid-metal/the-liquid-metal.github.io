@@ -1,7 +1,4 @@
-
- <div>
-  <h1>splice</h1>
- </div>
+<h1>splice</h1>
  <div>
   <p>
    Removes the elements designated by <code>offset</code> and
@@ -15,7 +12,7 @@
   <blockquote><p><strong>Note</strong>: 
    <span>
     If <code>replacement</code> is not an array, it will be
-    <a href="language.types.array.php#language.types.array.casting" class="link">typecast</a>
+    <a href="language.types.array.php#language.types.array.casting">typecast</a>
     to one (i.e. <code class="code">(array) $parameter</code>). This may result in unexpected
     behavior when using an object or <strong><code>NULL</code></strong> <code>replacement</code>.
    </span>
@@ -26,38 +23,18 @@
   <h3>Parameters</h3>
   <p>
    <dl>
+     <dt><code>input</code></dt>
+     <dd><p>The input array.</p></dd>
 
-     <dt>
-<code>input</code></dt>
-
-     <dd>
-
-      <p>
-       The input array.
-      </p>
-     </dd>
-
-     <dt>
-<code>offset</code></dt>
-
-     <dd>
-
-      <p>
-       If <code>offset</code> is positive then the start of removed
+     <dt><code>offset</code></dt>
+     <dd><p>If <code>offset</code> is positive then the start of removed
        portion is at that offset from the beginning of the
        <code>input</code> array.  If <code>offset</code>
        is negative then it starts that far from the end of the
-       <code>input</code> array.
-      </p>
-     </dd>
+       <code>input</code> array.</p></dd>
 
-     <dt>
-<code>length</code></dt>
-
-     <dd>
-
-      <p>
-       If <code>length</code> is omitted, removes everything
+     <dt><code>length</code></dt>
+     <dd><p>If <code>length</code> is omitted, removes everything
        from <code>offset</code> to the end of the array.  If
        <code>length</code> is specified and is positive, then
        that many elements will be removed. If
@@ -69,17 +46,10 @@
        <code>offset</code> to the end of the array when
        <code>replacement</code> is also specified, use
        <em>count($input)</em> for
-       <code>length</code>.
-      </p>
-     </dd>
+       <code>length</code>.</p></dd>
 
-     <dt>
-<code>replacement</code></dt>
-
-     <dd>
-
-      <p>
-       If <code>replacement</code> array is specified, then the
+     <dt><code>replacement</code></dt>
+     <dd><p>If <code>replacement</code> array is specified, then the
        removed elements are replaced with elements from this array.
       </p>
       <p>
@@ -92,12 +62,8 @@
       <p>
        If <code>replacement</code> is just one element it is
        not necessary to put <em>array()</em>
-       around it, unless the element is an array itself, an object or <strong><code>NULL</code></strong>.
-      </p>
-     </dd>
-
+       around it, unless the element is an array itself, an object or <strong><code>NULL</code></strong>.</p></dd>
    </dl>
-
   </p>
  </div>
 

@@ -1,7 +1,4 @@
-
- <div>
-  <h1>matchingMaskLength</h1>
- </div>
+<h1>matchingMaskLength</h1>
 
  <div>
   <p>
@@ -18,7 +15,7 @@
   </p>
   <p>
    The line of code:
-   <div class="informalexample">
+   <div>
     <div>
 <div><code><span style="color: #000000">
 <span style="color: #0000BB">&lt;?php<br />$var&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #0000BB">matchingMaskLength</span><span style="color: #007700">(</span><span style="color: #DD0000">"42&nbsp;is&nbsp;the&nbsp;answer&nbsp;to&nbsp;the&nbsp;128th&nbsp;question."</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">"1234567890"</span><span style="color: #007700">);<br /></span><span style="color: #0000BB">?&gt;</span>
@@ -38,34 +35,14 @@
   <h3>Parameters</h3>
   <p>
    <dl>
+     <dt><code>subject</code></dt>
+     <dd><p>The string to examine.</p></dd>
 
-     <dt>
-<code>subject</code></dt>
+     <dt><code>mask</code></dt>
+     <dd><p>The list of allowable characters.</p></dd>
 
-     <dd>
-
-      <p>
-       The string to examine.
-      </p>
-     </dd>
-
-     <dt>
-<code>mask</code></dt>
-
-     <dd>
-
-      <p>
-       The list of allowable characters.
-      </p>
-     </dd>
-
-     <dt>
-<code>start</code></dt>
-
-     <dd>
-
-      <p>
-       The position in <code>subject</code> to
+     <dt><code>start</code></dt>
+     <dd><p>The position in <code>subject</code> to
        start searching.
       </p>
       <p>
@@ -83,17 +60,10 @@
        then <span><strong>matchingMaskLength()</strong></span> will begin
        examining <code>subject</code> at
        the <code>start</code>&#039;th position from the end
-       of <code>subject</code>.
-      </p>
-     </dd>
+       of <code>subject</code>.</p></dd>
 
-     <dt>
-<code>length</code></dt>
-
-     <dd>
-
-      <p>
-       The length of the segment from <code>subject</code>
+     <dt><code>length</code></dt>
+     <dd><p>The length of the segment from <code>subject</code>
        to examine. 
       </p>
       <p>
@@ -106,12 +76,8 @@
         If <code>length</code> is given and is negative,
         then <code>subject</code> will be examined from the
         starting position up to <code>length</code>
-        characters from the end of <code>subject</code>.
-      </p>
-     </dd>
-
+        characters from the end of <code>subject</code>.</p></dd>
    </dl>
-
   </p>
  </div>
 

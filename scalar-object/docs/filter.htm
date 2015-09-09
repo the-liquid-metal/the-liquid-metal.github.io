@@ -1,7 +1,4 @@
-
- <div>
-  <h1>filter</h1>
- </div>
+<h1>filter</h1>
 
  <div>
   <p>
@@ -17,40 +14,20 @@
   <h3>Parameters</h3>
   <p>
    <dl>
+     <dt><code>array</code></dt>
+     <dd><p>The array to iterate over</p></dd>
 
-     <dt>
-<code>array</code></dt>
-
-     <dd>
-
-      <p>
-       The array to iterate over
-      </p>
-     </dd>
-
-     <dt>
-<code>callback</code></dt>
-
-     <dd>
-
-      <p>
-       The callback function to use
+     <dt><code>callback</code></dt>
+     <dd><p>The callback function to use
       </p>
       <p>
        If no <code>callback</code> is supplied, all entries of
        <code>array</code> equal to <strong><code>FALSE</code></strong> (see
-       <a href="language.types.boolean.php#language.types.boolean.casting" class="link">converting to
-        boolean</a>) will be removed.
-      </p>
-     </dd>
+       <a href="language.types.boolean.php#language.types.boolean.casting">converting to
+        boolean</a>) will be removed.</p></dd>
 
-     <dt>
-<code>flag</code></dt>
-
-     <dd>
-
-      <p>
-       Flag determining what arguments are sent to <code>callback</code>:
+     <dt><code>flag</code></dt>
+     <dd><p>Flag determining what arguments are sent to <code>callback</code>:
        <ul class="itemizedlist">
         <li class="listitem">
          <span><strong><code>ARRAY_FILTER_USE_KEY</code></strong> - pass key as the only argument
@@ -60,12 +37,8 @@
          <span><strong><code>ARRAY_FILTER_USE_BOTH</code></strong> - pass both value and key as
          arguments to <code>callback</code> instead of the value</span>
         </li>
-       </ul>
-      </p>
-     </dd>
-
+       </ul></p></dd>
    </dl>
-
   </p>
  </div>
 

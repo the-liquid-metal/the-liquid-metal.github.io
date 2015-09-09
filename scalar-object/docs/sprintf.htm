@@ -1,7 +1,4 @@
-
- <div>
-  <h1>sprintf</h1>
- </div>
+<h1>sprintf</h1>
 
  <div>
   <p>
@@ -14,19 +11,13 @@
   <h3>Parameters</h3>
   <p>
    <dl>
-
-     <dt>
-<code>format</code></dt>
-
-     <dd>
-
-      <p>
-       The format string is composed of zero or more directives:
+     <dt><code>format</code></dt>
+     <dd><p>The format string is composed of zero or more directives:
        ordinary characters (excluding <em>%</em>) that are
        copied directly to the result, and <em>conversion
        specifications</em>, each of which results in fetching its
        own parameter.  This applies to both <span><strong>sprintf()</strong></span>
-       and <span><a href="function.printf.php" class="function">printf()</a></span>.
+       and <span><a href="function.printf.php">printf()</a></span>.
       </p>
       <p>
        Each conversion specification consists of a percent sign
@@ -316,26 +307,12 @@ The tree contains 0005 monkeys
       </div>
      </dd>
 
-     <dt>
-<code>args</code></dt>
+     <dt><code>args</code></dt>
+     <dd><p></p></dd>
 
-     <dd>
-
-      <p>
-      </p>
-     </dd>
-
-     <dt>
-<code>...</code></dt>
-
-     <dd>
-
-      <p>
-      </p>
-     </dd>
-
+     <dt><code>...</code></dt>
+     <dd><p></p></dd>
    </dl>
-
   </p>
  </div>
 
@@ -349,7 +326,7 @@ The tree contains 0005 monkeys
 
  <div class="examples">
   <div>
-   <p><strong>Example #7 <span><a href="function.printf.php" class="function">printf()</a></span>: various examples</strong></p>
+   <p><strong>Example #7 <span><a href="function.printf.php">printf()</a></span>: various examples</strong></p>
    <div>
 <div><code><span style="color: #000000">
 <span style="color: #0000BB">&lt;?php<br />$n&nbsp;</span><span style="color: #007700">=&nbsp;&nbsp;</span><span style="color: #0000BB">43951789</span><span style="color: #007700">;<br /></span><span style="color: #0000BB">$u&nbsp;</span><span style="color: #007700">=&nbsp;-</span><span style="color: #0000BB">43951789</span><span style="color: #007700">;<br /></span><span style="color: #0000BB">$c&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #0000BB">65</span><span style="color: #007700">;&nbsp;</span><span style="color: #FF8000">//&nbsp;ASCII&nbsp;65&nbsp;is&nbsp;'A'<br /><br />//&nbsp;notice&nbsp;the&nbsp;double&nbsp;%%,&nbsp;this&nbsp;prints&nbsp;a&nbsp;literal&nbsp;'%'&nbsp;character<br /></span><span style="color: #0000BB">printf</span><span style="color: #007700">(</span><span style="color: #DD0000">"%%b&nbsp;=&nbsp;'%b'\n"</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">$n</span><span style="color: #007700">);&nbsp;</span><span style="color: #FF8000">//&nbsp;binary&nbsp;representation<br /></span><span style="color: #0000BB">printf</span><span style="color: #007700">(</span><span style="color: #DD0000">"%%c&nbsp;=&nbsp;'%c'\n"</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">$c</span><span style="color: #007700">);&nbsp;</span><span style="color: #FF8000">//&nbsp;print&nbsp;the&nbsp;ascii&nbsp;character,&nbsp;same&nbsp;as&nbsp;chr()&nbsp;function<br /></span><span style="color: #0000BB">printf</span><span style="color: #007700">(</span><span style="color: #DD0000">"%%d&nbsp;=&nbsp;'%d'\n"</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">$n</span><span style="color: #007700">);&nbsp;</span><span style="color: #FF8000">//&nbsp;standard&nbsp;integer&nbsp;representation<br /></span><span style="color: #0000BB">printf</span><span style="color: #007700">(</span><span style="color: #DD0000">"%%e&nbsp;=&nbsp;'%e'\n"</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">$n</span><span style="color: #007700">);&nbsp;</span><span style="color: #FF8000">//&nbsp;scientific&nbsp;notation<br /></span><span style="color: #0000BB">printf</span><span style="color: #007700">(</span><span style="color: #DD0000">"%%u&nbsp;=&nbsp;'%u'\n"</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">$n</span><span style="color: #007700">);&nbsp;</span><span style="color: #FF8000">//&nbsp;unsigned&nbsp;integer&nbsp;representation&nbsp;of&nbsp;a&nbsp;positive&nbsp;integer<br /></span><span style="color: #0000BB">printf</span><span style="color: #007700">(</span><span style="color: #DD0000">"%%u&nbsp;=&nbsp;'%u'\n"</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">$u</span><span style="color: #007700">);&nbsp;</span><span style="color: #FF8000">//&nbsp;unsigned&nbsp;integer&nbsp;representation&nbsp;of&nbsp;a&nbsp;negative&nbsp;integer<br /></span><span style="color: #0000BB">printf</span><span style="color: #007700">(</span><span style="color: #DD0000">"%%f&nbsp;=&nbsp;'%f'\n"</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">$n</span><span style="color: #007700">);&nbsp;</span><span style="color: #FF8000">//&nbsp;floating&nbsp;point&nbsp;representation<br /></span><span style="color: #0000BB">printf</span><span style="color: #007700">(</span><span style="color: #DD0000">"%%o&nbsp;=&nbsp;'%o'\n"</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">$n</span><span style="color: #007700">);&nbsp;</span><span style="color: #FF8000">//&nbsp;octal&nbsp;representation<br /></span><span style="color: #0000BB">printf</span><span style="color: #007700">(</span><span style="color: #DD0000">"%%s&nbsp;=&nbsp;'%s'\n"</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">$n</span><span style="color: #007700">);&nbsp;</span><span style="color: #FF8000">//&nbsp;string&nbsp;representation<br /></span><span style="color: #0000BB">printf</span><span style="color: #007700">(</span><span style="color: #DD0000">"%%x&nbsp;=&nbsp;'%x'\n"</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">$n</span><span style="color: #007700">);&nbsp;</span><span style="color: #FF8000">//&nbsp;hexadecimal&nbsp;representation&nbsp;(lower-case)<br /></span><span style="color: #0000BB">printf</span><span style="color: #007700">(</span><span style="color: #DD0000">"%%X&nbsp;=&nbsp;'%X'\n"</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">$n</span><span style="color: #007700">);&nbsp;</span><span style="color: #FF8000">//&nbsp;hexadecimal&nbsp;representation&nbsp;(upper-case)<br /><br /></span><span style="color: #0000BB">printf</span><span style="color: #007700">(</span><span style="color: #DD0000">"%%+d&nbsp;=&nbsp;'%+d'\n"</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">$n</span><span style="color: #007700">);&nbsp;</span><span style="color: #FF8000">//&nbsp;sign&nbsp;specifier&nbsp;on&nbsp;a&nbsp;positive&nbsp;integer<br /></span><span style="color: #0000BB">printf</span><span style="color: #007700">(</span><span style="color: #DD0000">"%%+d&nbsp;=&nbsp;'%+d'\n"</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">$u</span><span style="color: #007700">);&nbsp;</span><span style="color: #FF8000">//&nbsp;sign&nbsp;specifier&nbsp;on&nbsp;a&nbsp;negative&nbsp;integer<br /></span><span style="color: #0000BB">?&gt;</span>
@@ -377,7 +354,7 @@ The tree contains 0005 monkeys
    </div>
   </div>
   <div>
-   <p><strong>Example #8 <span><a href="function.printf.php" class="function">printf()</a></span>: string specifiers</strong></p>
+   <p><strong>Example #8 <span><a href="function.printf.php">printf()</a></span>: string specifiers</strong></p>
    <div>
 <div><code><span style="color: #000000">
 <span style="color: #0000BB">&lt;?php<br />$s&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #DD0000">'monkey'</span><span style="color: #007700">;<br /></span><span style="color: #0000BB">$t&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #DD0000">'many&nbsp;monkeys'</span><span style="color: #007700">;<br /><br /></span><span style="color: #0000BB">printf</span><span style="color: #007700">(</span><span style="color: #DD0000">"[%s]\n"</span><span style="color: #007700">,&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #0000BB">$s</span><span style="color: #007700">);&nbsp;</span><span style="color: #FF8000">//&nbsp;standard&nbsp;string&nbsp;output<br /></span><span style="color: #0000BB">printf</span><span style="color: #007700">(</span><span style="color: #DD0000">"[%10s]\n"</span><span style="color: #007700">,&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #0000BB">$s</span><span style="color: #007700">);&nbsp;</span><span style="color: #FF8000">//&nbsp;right-justification&nbsp;with&nbsp;spaces<br /></span><span style="color: #0000BB">printf</span><span style="color: #007700">(</span><span style="color: #DD0000">"[%-10s]\n"</span><span style="color: #007700">,&nbsp;&nbsp;&nbsp;</span><span style="color: #0000BB">$s</span><span style="color: #007700">);&nbsp;</span><span style="color: #FF8000">//&nbsp;left-justification&nbsp;with&nbsp;spaces<br /></span><span style="color: #0000BB">printf</span><span style="color: #007700">(</span><span style="color: #DD0000">"[%010s]\n"</span><span style="color: #007700">,&nbsp;&nbsp;&nbsp;</span><span style="color: #0000BB">$s</span><span style="color: #007700">);&nbsp;</span><span style="color: #FF8000">//&nbsp;zero-padding&nbsp;works&nbsp;on&nbsp;strings&nbsp;too<br /></span><span style="color: #0000BB">printf</span><span style="color: #007700">(</span><span style="color: #DD0000">"[%'#10s]\n"</span><span style="color: #007700">,&nbsp;&nbsp;</span><span style="color: #0000BB">$s</span><span style="color: #007700">);&nbsp;</span><span style="color: #FF8000">//&nbsp;use&nbsp;the&nbsp;custom&nbsp;padding&nbsp;character&nbsp;'#'<br /></span><span style="color: #0000BB">printf</span><span style="color: #007700">(</span><span style="color: #DD0000">"[%10.10s]\n"</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">$t</span><span style="color: #007700">);&nbsp;</span><span style="color: #FF8000">//&nbsp;left-justification&nbsp;but&nbsp;with&nbsp;a&nbsp;cutoff&nbsp;of&nbsp;10&nbsp;characters<br /></span><span style="color: #0000BB">?&gt;</span>

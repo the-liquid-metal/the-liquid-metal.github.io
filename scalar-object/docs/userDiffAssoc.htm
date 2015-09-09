@@ -1,7 +1,4 @@
-
- <div>
-  <h1>userDiffAssoc</h1>
- </div>
+<h1>userDiffAssoc</h1>
  <div>
   <p>
    Computes the difference of arrays with additional index check, compares
@@ -20,53 +17,31 @@
   <h3>Parameters</h3>
   <p>
    <dl>
+     <dt><code>array1</code></dt>
+     <dd><p>The first array.</p></dd>
 
-     <dt>
-<code>array1</code></dt>
+     <dt><code>array2</code></dt>
+     <dd><p>The second array.</p></dd>
 
-     <dd>
-
-      <p>
-       The first array.
-      </p>
-     </dd>
-
-     <dt>
-<code>array2</code></dt>
-
-     <dd>
-
-      <p>
-       The second array.
-      </p>
-     </dd>
-
-     <dt>
-<code>value_compare_func</code></dt>
-
-     <dd>
-
-      <p>
-       The comparison function must return an integer less than, equal to, or greater than zero if the first argument is considered to be respectively less than, equal to, or greater than the second.
+     <dt><code>value_compare_func</code></dt>
+     <dd><p>The comparison function must return an integer less than, equal to, or greater than zero if the first argument is considered to be respectively less than, equal to, or greater than the second.
       </p>
         </dd>
-
    </dl>
-
   </p>
  </div>
 
  <div>
   <h3>Return Values</h3>
   <p>
-   <span><strong>userDiffAssoc()</strong></span> returns an <span><a href="language.types.array.php" class="type array">array</a></span>
+   <span><strong>userDiffAssoc()</strong></span> returns an <span><a href="language.types.array.php">array</a></span>
    containing all the values from <code>array1</code>
    that are not present in any of the other arguments.
    Note that the keys are used in the comparison unlike
-   <span><a href="function.array-diff.php" class="function">array_diff()</a></span> and <span><a href="function.array-udiff.php" class="function">array_udiff()</a></span>.
+   <span><a href="function.array-diff.php">array_diff()</a></span> and <span><a href="function.array-udiff.php">array_udiff()</a></span>.
    The comparison of arrays&#039; data is performed by using an user-supplied
    callback. In this aspect the behaviour is opposite to the behaviour of
-   <span><a href="function.array-diff-assoc.php" class="function">array_diff_assoc()</a></span> which uses internal function for
+   <span><a href="function.array-diff-assoc.php">array_diff_assoc()</a></span> which uses internal function for
    comparison.
   </p>
  </div>

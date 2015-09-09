@@ -1,7 +1,4 @@
-
- <div>
-  <h1>crypt</h1>
- </div>
+<h1>crypt</h1>
 
  <div>
   <p>
@@ -13,7 +10,7 @@
    The <code>salt</code> parameter is optional. However, <span><strong>crypt()</strong></span> creates a weak password without the <code>salt</code>. PHP 5.6 or later raise an E_NOTICE error without it. Make sure to specify a strong enough salt for better security. 
   </p>
   <p>
-   <span><a href="function.password-hash.php" class="function">password_hash()</a></span> uses a strong hash, generates a strong salt, and applies proper rounds automatically. <span><a href="function.password-hash.php" class="function">password_hash()</a></span> is a simple <span><strong>crypt()</strong></span> wrapper and compatible with existing password hashes. Use of <span><a href="function.password-hash.php" class="function">password_hash()</a></span> is encouraged.
+   <span><a href="function.password-hash.php">password_hash()</a></span> uses a strong hash, generates a strong salt, and applies proper rounds automatically. <span><a href="function.password-hash.php">password_hash()</a></span> is a simple <span><strong>crypt()</strong></span> wrapper and compatible with existing password hashes. Use of <span><a href="function.password-hash.php">password_hash()</a></span> is encouraged.
   </p>
   <p>
    Some operating systems support more than one type of hash.  In
@@ -111,14 +108,8 @@
   <h3>Parameters</h3>
   <p>
    <dl>
-
-     <dt>
-<code>str</code></dt>
-
-     <dd>
-
-      <p>
-       The string to be hashed.
+     <dt><code>str</code></dt>
+     <dd><p>The string to be hashed.
       </p>
       <div class="caution"><strong class="caution">Caution</strong>
        <p>
@@ -129,20 +120,11 @@
       </div>
      </dd>
 
-     <dt>
-<code>salt</code></dt>
-
-     <dd>
-
-      <p>
-       An optional salt string to base the hashing on. If not provided, the
+     <dt><code>salt</code></dt>
+     <dd><p>An optional salt string to base the hashing on. If not provided, the
        behaviour is defined by the algorithm implementation and can lead to
-       unexpected results.
-      </p>
-     </dd>
-
+       unexpected results.</p></dd>
    </dl>
-
   </p>
  </div>
 
@@ -157,7 +139,7 @@
     When validating passwords, a string comparison function that isn&#039;t
     vulnerable to timing attacks should be used to compare the output of
     <span><strong>crypt()</strong></span> to the previously known hash. PHP 5.6 onwards
-    provides <span><a href="function.hash-equals.php" class="function">hash_equals()</a></span> for this purpose.
+    provides <span><a href="function.hash-equals.php">hash_equals()</a></span> for this purpose.
    </p>
   </div>
  </div>

@@ -1,7 +1,4 @@
-
- <div>
-  <h1>crc32</h1>
- </div>
+<h1>crc32</h1>
 
  <div>
   <p>
@@ -16,14 +13,14 @@
     all <span><strong>crc32()</strong></span> results will be positive integers though.
    </p>
    <p>
-    So you need to use the &quot;%u&quot; formatter of <span><a href="function.sprintf.php" class="function">sprintf()</a></span> or 
-    <span><a href="function.printf.php" class="function">printf()</a></span> to get the string representation of the 
+    So you need to use the &quot;%u&quot; formatter of <span><a href="function.sprintf.php">sprintf()</a></span> or 
+    <span><a href="function.printf.php">printf()</a></span> to get the string representation of the 
     unsigned <span><strong>crc32()</strong></span> checksum in decimal format.
    </p>
    <p>
     For a hexadecimal representation of the checksum you can either use the 
-    &quot;%x&quot; formatter of <span><a href="function.sprintf.php" class="function">sprintf()</a></span> or <span><a href="function.printf.php" class="function">printf()</a></span> 
-    or the <span><a href="function.dechex.php" class="function">dechex()</a></span> conversion functions, both of these
+    &quot;%x&quot; formatter of <span><a href="function.sprintf.php">sprintf()</a></span> or <span><a href="function.printf.php">printf()</a></span> 
+    or the <span><a href="function.dechex.php">dechex()</a></span> conversion functions, both of these
     also take care of converting the <span><strong>crc32()</strong></span> result to
     an unsigned integer.
    </p>
@@ -38,12 +35,12 @@
    <p>
     In retrospect having the function return an integer maybe wasn&#039;t the 
     best idea and returning a hex string representation right away (as 
-    e.g. <span><a href="function.md5.php" class="function">md5()</a></span> does) might have been a better plan to
+    e.g. <span><a href="function.md5.php">md5()</a></span> does) might have been a better plan to
     begin with.
    </p>
    <p>
     For a more portable solution you may also consider the generic 
-    <span><a href="function.hash.php" class="function">hash()</a></span>. <code class="code">hash(&quot;crc32b&quot;, $str)</code> will 
+    <span><a href="function.hash.php">hash()</a></span>. <code class="code">hash(&quot;crc32b&quot;, $str)</code> will 
     return the same string as <code class="code">str_pad(dechex(crc32($str)), 8, &#039;0&#039;, STR_PAD_LEFT)</code>.
    </p>
   </div>
@@ -53,19 +50,9 @@
   <h3>Parameters</h3>
   <p>
    <dl>
-
-     <dt>
-<code>str</code></dt>
-
-     <dd>
-
-      <p>
-       The data.
-      </p>
-     </dd>
-
+     <dt><code>str</code></dt>
+     <dd><p>The data.</p></dd>
    </dl>
-
   </p>
  </div>
 
@@ -82,7 +69,7 @@
     <p><strong>Example #1 Displaying a crc32 checksum</strong></p>
     <div><p>
      This example shows how to print a converted checksum with the
-     <span><a href="function.printf.php" class="function">printf()</a></span> function:
+     <span><a href="function.printf.php">printf()</a></span> function:
     </p></div>
     <div>
 <div><code><span style="color: #000000">

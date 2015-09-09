@@ -1,7 +1,4 @@
-
- <div>
-  <h1>lastOccurPosition</h1>
- </div>
+<h1>lastOccurPosition</h1>
 
  <div>
   <p>
@@ -14,42 +11,18 @@
   <h3>Parameters</h3>
   <p>
    <dl>
+     <dt><code>haystack</code></dt>
+     <dd><p>The string to search in.</p></dd>
 
-     <dt>
-<code>haystack</code></dt>
+     <dt><code>needle</code></dt>
+     <dd><p>If <code>needle</code> is not a string, it is converted
+       to an integer and applied as the ordinal value of a character.</p></dd>
 
-     <dd>
-
-      <p>
-       The string to search in.
-      </p>
-     </dd>
-
-     <dt>
-<code>needle</code></dt>
-
-     <dd>
-
-      <p>
-       If <code>needle</code> is not a string, it is converted
-       to an integer and applied as the ordinal value of a character.
-      </p>
-     </dd>
-
-     <dt>
-<code>offset</code></dt>
-
-     <dd>
-
-      <p>
-       If specified, search will start this number of characters counted from the
+     <dt><code>offset</code></dt>
+     <dd><p>If specified, search will start this number of characters counted from the
        beginning of the string. If the value is negative, search will instead start
-       from that many characters from the end of the string, searching backwards.
-      </p>
-     </dd>
-
+       from that many characters from the end of the string, searching backwards.</p></dd>
    </dl>
-
   </p>
  </div>
 
@@ -66,8 +39,8 @@
   </p>
   <div class="warning"><strong class="warning">Warning</strong><p>This function may
 return Boolean <strong><code>FALSE</code></strong>, but may also return a non-Boolean value which
-evaluates to <strong><code>FALSE</code></strong>. Please read the section on <a href="language.types.boolean.php" class="link">Booleans</a> for more
-information. Use <a href="language.operators.comparison.php" class="link">the ===
+evaluates to <strong><code>FALSE</code></strong>. Please read the section on <a href="language.types.boolean.php">Booleans</a> for more
+information. Use <a href="language.operators.comparison.php">the ===
 operator</a> for testing the return value of this
 function.</p></div>
  </div>

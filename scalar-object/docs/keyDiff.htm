@@ -1,13 +1,10 @@
-
- <div>
-  <h1>keyDiff</h1>
- </div>
+<h1>keyDiff</h1>
 
  <div>
   <p>
    Compares the keys from <code>array1</code> against the keys
    from <code>array2</code> and returns the difference.
-   This function is like <span><a href="function.array-diff.php" class="function">array_diff()</a></span> except the
+   This function is like <span><a href="function.array-diff.php">array_diff()</a></span> except the
    comparison is done on the keys instead of the values.
   </p>
  </div>
@@ -16,46 +13,22 @@
   <h3>Parameters</h3>
   <p>
    <dl>
+     <dt><code>array1</code></dt>
+     <dd><p>The array to compare from</p></dd>
 
-     <dt>
-<code>array1</code></dt>
+     <dt><code>array2</code></dt>
+     <dd><p>An array to compare against</p></dd>
 
-     <dd>
-
-      <p>
-       The array to compare from
-      </p>
-     </dd>
-
-     <dt>
-<code>array2</code></dt>
-
-     <dd>
-
-      <p>
-       An array to compare against
-      </p>
-     </dd>
-
-     <dt>
-<code>...</code></dt>
-
-     <dd>
-
-      <p>
-       More arrays to compare against
-      </p>
-     </dd>
-
+     <dt><code>...</code></dt>
+     <dd><p>More arrays to compare against</p></dd>
    </dl>
-
   </p>
  </div>
 
  <div>
   <h3>Return Values</h3>
   <p>
-   Returns an <span><a href="language.types.array.php" class="type array">array</a></span> containing all the entries from
+   Returns an <span><a href="language.types.array.php">array</a></span> containing all the entries from
    <code>array1</code> whose keys are not present in any of the
    other arrays.
   </p>

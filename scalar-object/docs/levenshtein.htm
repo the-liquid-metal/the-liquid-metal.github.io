@@ -1,7 +1,4 @@
-
- <div>
-  <h1>levenshtein</h1>
- </div>
+<h1>levenshtein</h1>
 
  <div>
   <p>
@@ -12,7 +9,7 @@
    where <em>n</em> and <em>m</em> are the
    length of <code>str1</code> and
    <code>str2</code> (rather good when compared to
-   <span><a href="function.similar-text.php" class="function">similar_text()</a></span>, which is O(max(n,m)**3),
+   <span><a href="function.similar-text.php">similar_text()</a></span>, which is O(max(n,m)**3),
    but still expensive).
   </p>
   <p>
@@ -33,59 +30,21 @@
   <h3>Parameters</h3>
   <p>
    <dl>
+     <dt><code>str1</code></dt>
+     <dd><p>One of the strings being evaluated for Levenshtein distance.</p></dd>
 
-     <dt>
-<code>str1</code></dt>
+     <dt><code>str2</code></dt>
+     <dd><p>One of the strings being evaluated for Levenshtein distance.</p></dd>
 
-     <dd>
+     <dt><code>cost_ins</code></dt>
+     <dd><p>Defines the cost of insertion.</p></dd>
 
-      <p>
-       One of the strings being evaluated for Levenshtein distance.
-      </p>
-     </dd>
+     <dt><code>cost_rep</code></dt>
+     <dd><p>Defines the cost of replacement.</p></dd>
 
-     <dt>
-<code>str2</code></dt>
-
-     <dd>
-
-      <p>
-       One of the strings being evaluated for Levenshtein distance.
-      </p>
-     </dd>
-
-     <dt>
-<code>cost_ins</code></dt>
-
-     <dd>
-
-      <p>
-       Defines the cost of insertion.
-      </p>
-     </dd>
-
-     <dt>
-<code>cost_rep</code></dt>
-
-     <dd>
-
-      <p>
-       Defines the cost of replacement.
-      </p>
-     </dd>
-
-     <dt>
-<code>cost_del</code></dt>
-
-     <dd>
-
-      <p>
-       Defines the cost of deletion.
-      </p>
-     </dd>
-
+     <dt><code>cost_del</code></dt>
+     <dd><p>Defines the cost of deletion.</p></dd>
    </dl>
-
   </p>
  </div>
 

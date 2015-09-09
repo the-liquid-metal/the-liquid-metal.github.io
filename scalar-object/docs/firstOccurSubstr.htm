@@ -1,7 +1,4 @@
-
- <div>
-  <h1>firstOccurSubstr</h1>
- </div>
+<h1>firstOccurSubstr</h1>
 
  <div>
   <p>
@@ -12,14 +9,14 @@
   <blockquote><p><strong>Note</strong>: 
    <p>
     This function is case-sensitive. For case-insensitive searches, use
-    <span><a href="function.stristr.php" class="function">stristr()</a></span>.
+    <span><a href="function.stristr.php">stristr()</a></span>.
    </p>
   </p></blockquote>
   <blockquote><p><strong>Note</strong>: 
    <p>
     If you only want to determine if a particular <code>needle</code>
     occurs within <code>haystack</code>, use the faster and less memory
-    intensive function <span><a href="function.strpos.php" class="function">strpos()</a></span> instead.
+    intensive function <span><a href="function.strpos.php">strpos()</a></span> instead.
    </p>
   </p></blockquote>
  </div>
@@ -28,42 +25,18 @@
   <h3>Parameters</h3>
   <p>
    <dl>
+     <dt><code>haystack</code></dt>
+     <dd><p>The input string.</p></dd>
 
-     <dt>
-<code>haystack</code></dt>
+     <dt><code>needle</code></dt>
+     <dd><p>If <code>needle</code> is not a string, it is converted to
+       an integer and applied as the ordinal value of a character.</p></dd>
 
-     <dd>
-
-      <p>
-       The input string.
-      </p>
-     </dd>
-
-     <dt>
-<code>needle</code></dt>
-
-     <dd>
-
-      <p>
-       If <code>needle</code> is not a string, it is converted to
-       an integer and applied as the ordinal value of a character.
-      </p>
-     </dd>
-
-     <dt>
-<code>before_needle</code></dt>
-
-     <dd>
-
-      <p>
-       If <strong><code>TRUE</code></strong>, <span><strong>firstOccurSubstr()</strong></span> returns
+     <dt><code>before_needle</code></dt>
+     <dd><p>If <strong><code>TRUE</code></strong>, <span><strong>firstOccurSubstr()</strong></span> returns
        the part of the <code>haystack</code> before the first
-       occurrence of the <code>needle</code> (excluding the needle).
-      </p>
-     </dd>
-
+       occurrence of the <code>needle</code> (excluding the needle).</p></dd>
    </dl>
-
   </p>
  </div>
 

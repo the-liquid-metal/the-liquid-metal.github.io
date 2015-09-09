@@ -1,17 +1,14 @@
-
- <div>
-  <h1>userKeyDiff</h1>
- </div>
+<h1>userKeyDiff</h1>
 
  <div>
   <p>
    Compares the keys from <code>array1</code> against the keys
    from <code>array2</code> and returns the difference.
-   This function is like <span><a href="function.array-diff.php" class="function">array_diff()</a></span> except the
+   This function is like <span><a href="function.array-diff.php">array_diff()</a></span> except the
    comparison is done on the keys instead of the values.
   </p>
   <p>
-   Unlike <span><a href="function.array-diff-key.php" class="function">array_diff_key()</a></span> a user supplied callback
+   Unlike <span><a href="function.array-diff-key.php">array_diff_key()</a></span> a user supplied callback
    function is used for the indices comparison, not internal function.
   </p>
  </div>
@@ -20,56 +17,27 @@
   <h3>Parameters</h3>
   <p>
    <dl>
+     <dt><code>array1</code></dt>
+     <dd><p>The array to compare from</p></dd>
 
-     <dt>
-<code>array1</code></dt>
+     <dt><code>array2</code></dt>
+     <dd><p>An array to compare against</p></dd>
 
-     <dd>
+     <dt><code>...</code></dt>
+     <dd><p>More arrays to compare against</p></dd>
 
-      <p>
-       The array to compare from
-      </p>
-     </dd>
-
-     <dt>
-<code>array2</code></dt>
-
-     <dd>
-
-      <p>
-       An array to compare against
-      </p>
-     </dd>
-
-     <dt>
-<code>...</code></dt>
-
-     <dd>
-
-      <p>
-       More arrays to compare against
-      </p>
-     </dd>
-
-     <dt>
-<code>key_compare_func</code></dt>
-
-     <dd>
-
-      <p>
-       The comparison function must return an integer less than, equal to, or greater than zero if the first argument is considered to be respectively less than, equal to, or greater than the second.
+     <dt><code>key_compare_func</code></dt>
+     <dd><p>The comparison function must return an integer less than, equal to, or greater than zero if the first argument is considered to be respectively less than, equal to, or greater than the second.
       </p>
         </dd>
-
    </dl>
-
   </p>
  </div>
 
  <div>
   <h3>Return Values</h3>
   <p>
-   Returns an <span><a href="language.types.array.php" class="type array">array</a></span> containing all the entries from
+   Returns an <span><a href="language.types.array.php">array</a></span> containing all the entries from
    <code>array1</code> that are not present in any of the other arrays.
   </p>
  </div>

@@ -1,7 +1,4 @@
-
- <div>
-  <h1>firstOccurInsenPosition</h1>
- </div>
+<h1>firstOccurInsenPosition</h1>
 
  <div>
   <p>
@@ -9,7 +6,7 @@
    <code>needle</code> in the <code>haystack</code> string.
   </p>
   <p>
-   Unlike the <span><a href="function.strpos.php" class="function">strpos()</a></span>, <span><strong>firstOccurInsenPosition()</strong></span> is
+   Unlike the <span><a href="function.strpos.php">strpos()</a></span>, <span><strong>firstOccurInsenPosition()</strong></span> is
    case-insensitive.
   </p>
  </div>
@@ -18,46 +15,22 @@
   <h3>Parameters</h3>
   <p>
    <dl>
+     <dt><code>haystack</code></dt>
+     <dd><p>The string to search in.</p></dd>
 
-     <dt>
-<code>haystack</code></dt>
-
-     <dd>
-
-      <p>
-       The string to search in.
-      </p>
-     </dd>
-
-     <dt>
-<code>needle</code></dt>
-
-     <dd>
-
-      <p>
-       Note that the <code>needle</code> may be a string of one or
+     <dt><code>needle</code></dt>
+     <dd><p>Note that the <code>needle</code> may be a string of one or
        more characters.
       </p>
       <p>
        If <code>needle</code> is not a string, it is converted to
-       an integer and applied as the ordinal value of a character.
-      </p>
-     </dd>
+       an integer and applied as the ordinal value of a character.</p></dd>
 
-     <dt>
-<code>offset</code></dt>
-
-     <dd>
-
-      <p>
-       If specified, search will start this number of characters counted from
-       the beginning of the string. Unlike <span><a href="function.strrpos.php" class="function">strrpos()</a></span> and
-       <span><a href="function.strripos.php" class="function">strripos()</a></span>, the offset cannot be negative.
-      </p>
-     </dd>
-
+     <dt><code>offset</code></dt>
+     <dd><p>If specified, search will start this number of characters counted from
+       the beginning of the string. Unlike <span><a href="function.strrpos.php">strrpos()</a></span> and
+       <span><a href="function.strripos.php">strripos()</a></span>, the offset cannot be negative.</p></dd>
    </dl>
-
   </p>
  </div>
 
@@ -73,8 +46,8 @@
   </p>
   <div class="warning"><strong class="warning">Warning</strong><p>This function may
 return Boolean <strong><code>FALSE</code></strong>, but may also return a non-Boolean value which
-evaluates to <strong><code>FALSE</code></strong>. Please read the section on <a href="language.types.boolean.php" class="link">Booleans</a> for more
-information. Use <a href="language.operators.comparison.php" class="link">the ===
+evaluates to <strong><code>FALSE</code></strong>. Please read the section on <a href="language.types.boolean.php">Booleans</a> for more
+information. Use <a href="language.operators.comparison.php">the ===
 operator</a> for testing the return value of this
 function.</p></div>
  </div>

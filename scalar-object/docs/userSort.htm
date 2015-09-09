@@ -1,7 +1,4 @@
-
- <div>
-  <h1>userSort</h1>
- </div>
+<h1>userSort</h1>
  <div>
   <p>
    This function will sort an array by its values using a user-supplied
@@ -23,38 +20,23 @@ than just reordering the keys.</span></p></blockquote>
   <h3>Parameters</h3>
   <p>
    <dl>
+     <dt><code>array</code></dt>
+     <dd><p>The input array.</p></dd>
 
-     <dt>
-<code>array</code></dt>
-
-     <dd>
-
-      <p>
-       The input array.
-      </p>
-     </dd>
-
-     <dt>
-<code>value_compare_func</code></dt>
-
-     <dd>
-
-      <p>
-       The comparison function must return an integer less than, equal to, or greater than zero if the first argument is considered to be respectively less than, equal to, or greater than the second.
+     <dt><code>value_compare_func</code></dt>
+     <dd><p>The comparison function must return an integer less than, equal to, or greater than zero if the first argument is considered to be respectively less than, equal to, or greater than the second.
       </p>
          <div class="caution"><strong class="caution">Caution</strong>
        <p>
         Returning <em>non-integer</em> values from the comparison
-        function, such as <span><a href="language.types.float.php" class="type float">float</a></span>, will result in an internal cast to
-        <span><a href="language.types.integer.php" class="type integer">integer</a></span> of the callback&#039;s return value. So values such as
+        function, such as <span><a href="language.types.float.php">float</a></span>, will result in an internal cast to
+        <span><a href="language.types.integer.php">integer</a></span> of the callback&#039;s return value. So values such as
         0.99 and 0.1 will both be cast to an integer value of 0, which will
         compare such values as equal.
        </p>
       </div>
      </dd>
-
    </dl>
-
   </p>
  </div>
 
@@ -90,7 +72,7 @@ than just reordering the keys.</span></p></blockquote>
   </p>
   <blockquote><p><strong>Note</strong>: 
    <p>
-    Obviously in this trivial case the <span><a href="function.sort.php" class="function">sort()</a></span>
+    Obviously in this trivial case the <span><a href="function.sort.php">sort()</a></span>
     function would be more appropriate.
    </p>
   </p></blockquote>
@@ -143,7 +125,7 @@ d
    </div>
    <div>
     <p><strong>Example #4 
-     <span><strong>userSort()</strong></span> example using a <a href="functions.anonymous.php" class="link">closure</a>
+     <span><strong>userSort()</strong></span> example using a <a href="functions.anonymous.php">closure</a>
      to sort a multi-dimensional array
     </strong></p>
     <div>

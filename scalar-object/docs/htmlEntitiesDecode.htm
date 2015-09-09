@@ -1,12 +1,9 @@
-
- <div>
-  <h1>htmlEntitiesDecode</h1>
- </div>
+<h1>htmlEntitiesDecode</h1>
 
  <div>
   <p>
    <span><strong>htmlEntitiesDecode()</strong></span> is the opposite of
-   <span><a href="function.htmlentities.php" class="function">htmlentities()</a></span> in that it converts all HTML entities
+   <span><a href="function.htmlentities.php">htmlentities()</a></span> in that it converts all HTML entities
    in the <code>string</code> to their applicable characters.
   </p>
   <p>
@@ -23,24 +20,11 @@
   <h3>Parameters</h3>
   <p>
    <dl>
+     <dt><code>string</code></dt>
+     <dd><p>The input string.</p></dd>
 
-     <dt>
-<code>string</code></dt>
-
-     <dd>
-
-      <p>
-       The input string.
-      </p>
-     </dd>
-
-     <dt>
-<code>flags</code></dt>
-
-     <dd>
-
-      <p>
-       A bitmask of one or more of the following flags, which specify how to handle quotes and
+     <dt><code>flags</code></dt>
+     <dd><p>A bitmask of one or more of the following flags, which specify how to handle quotes and
        which document type to use. The default is <em>ENT_COMPAT | ENT_HTML401</em>.
        <table class="doctable table">
         <caption><strong>Available <code>flags</code> constants</strong></caption>
@@ -100,13 +84,9 @@
          </tbody>
 
        </table>
+</p></dd>
 
-      </p>
-     </dd>
-
-     <dt>
-<code>encoding</code></dt>
-
+     <dt><code>encoding</code></dt>
      <dd>
 
  <p>
@@ -116,7 +96,7 @@
  <p>
   If omitted, the default value of the <code>encoding</code> varies
   depending on the PHP version in use. In PHP 5.6 and later, the
-  <a href="ini.core.php#ini.default-charset" class="link">default_charset</a> configuration
+  <a href="ini.core.php#ini.default-charset">default_charset</a> configuration
   option is used as the default value. PHP 5.4 and 5.5 will use
   <em>UTF-8</em> as the default. Earlier versions of PHP use
   <em>ISO-8859-1</em>.
@@ -125,7 +105,7 @@
  <p>
   Although this argument is technically optional, you are highly encouraged to
   specify the correct value for your code if you are using PHP 5.5 or earlier,
-  or if your <a href="ini.core.php#ini.default-charset" class="link">default_charset</a>
+  or if your <a href="ini.core.php#ini.default-charset">default_charset</a>
   configuration option may be set incorrectly for the given input.
  </p>
 
@@ -262,9 +242,9 @@
      <td class="empty">&nbsp;</td>
      <td>
       An empty string activates detection from script encoding (Zend multibyte),
-      <a href="ini.core.php#ini.default-charset" class="link">default_charset</a> and current
-      locale (see <span><a href="function.nl-langinfo.php" class="function">nl_langinfo()</a></span> and
-      <span><a href="function.setlocale.php" class="function">setlocale()</a></span>), in this order. Not recommended.
+      <a href="ini.core.php#ini.default-charset">default_charset</a> and current
+      locale (see <span><a href="function.nl-langinfo.php">nl_langinfo()</a></span> and
+      <span><a href="function.setlocale.php">setlocale()</a></span>), in this order. Not recommended.
      </td>
     </tr>
 
@@ -281,9 +261,7 @@
 </p>
 
      </dd>
-
    </dl>
-
   </p>
  </div>
 
@@ -315,7 +293,7 @@
     You might wonder why trim(htmlEntitiesDecode(&#039;&amp;nbsp;&#039;)); doesn&#039;t
     reduce the string to an empty string, that&#039;s because the &#039;&amp;nbsp;&#039;
     entity is not ASCII code 32 (which is stripped by
-    <span><a href="function.trim.php" class="function">trim()</a></span>) but ASCII code 160 (0xa0) in the default ISO
+    <span><a href="function.trim.php">trim()</a></span>) but ASCII code 160 (0xa0) in the default ISO
     8859-1 encoding.
    </p>
   </p></blockquote>

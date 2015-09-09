@@ -1,17 +1,14 @@
-
- <div>
-  <h1>htmlEntitiesEncode</h1>
- </div>
+<h1>htmlEntitiesEncode</h1>
 
  <div>
   <p>
-   This function is identical to <span><a href="function.htmlspecialchars.php" class="function">htmlspecialchars()</a></span> in all
+   This function is identical to <span><a href="function.htmlspecialchars.php">htmlspecialchars()</a></span> in all
    ways, except with <span><strong>htmlEntitiesEncode()</strong></span>, all characters which
    have HTML character entity equivalents are translated into these entities.
   </p>
   <p>
    If you want to decode instead (the reverse) you can use
-   <span><a href="function.html-entity-decode.php" class="function">html_entity_decode()</a></span>.
+   <span><a href="function.html-entity-decode.php">html_entity_decode()</a></span>.
   </p>
  </div>
 
@@ -19,24 +16,11 @@
   <h3>Parameters</h3>
   <p>
    <dl>
+     <dt><code>string</code></dt>
+     <dd><p>The input string.</p></dd>
 
-     <dt>
-<code>string</code></dt>
-
-     <dd>
-
-      <p>
-       The input string.
-      </p>
-     </dd>
-
-     <dt>
-<code>flags</code></dt>
-
-     <dd>
-
-      <p>
-       A bitmask of one or more of the following flags, which specify how to handle quotes,
+     <dt><code>flags</code></dt>
+     <dd><p>A bitmask of one or more of the following flags, which specify how to handle quotes,
        invalid code unit sequences and the used document type. The default is
        <em>ENT_COMPAT | ENT_HTML401</em>.
        <table class="doctable table">
@@ -125,13 +109,9 @@
          </tbody>
 
        </table>
+</p></dd>
 
-      </p>
-     </dd>
-
-     <dt>
-<code>encoding</code></dt>
-
+     <dt><code>encoding</code></dt>
      <dd>
 
  <p>
@@ -141,7 +121,7 @@
  <p>
   If omitted, the default value of the <code>encoding</code> varies
   depending on the PHP version in use. In PHP 5.6 and later, the
-  <a href="ini.core.php#ini.default-charset" class="link">default_charset</a> configuration
+  <a href="ini.core.php#ini.default-charset">default_charset</a> configuration
   option is used as the default value. PHP 5.4 and 5.5 will use
   <em>UTF-8</em> as the default. Earlier versions of PHP use
   <em>ISO-8859-1</em>.
@@ -150,7 +130,7 @@
  <p>
   Although this argument is technically optional, you are highly encouraged to
   specify the correct value for your code if you are using PHP 5.5 or earlier,
-  or if your <a href="ini.core.php#ini.default-charset" class="link">default_charset</a>
+  or if your <a href="ini.core.php#ini.default-charset">default_charset</a>
   configuration option may be set incorrectly for the given input.
  </p>
 
@@ -287,9 +267,9 @@
      <td class="empty">&nbsp;</td>
      <td>
       An empty string activates detection from script encoding (Zend multibyte),
-      <a href="ini.core.php#ini.default-charset" class="link">default_charset</a> and current
-      locale (see <span><a href="function.nl-langinfo.php" class="function">nl_langinfo()</a></span> and
-      <span><a href="function.setlocale.php" class="function">setlocale()</a></span>), in this order. Not recommended.
+      <a href="ini.core.php#ini.default-charset">default_charset</a> and current
+      locale (see <span><a href="function.nl-langinfo.php">nl_langinfo()</a></span> and
+      <span><a href="function.setlocale.php">setlocale()</a></span>), in this order. Not recommended.
      </td>
     </tr>
 
@@ -307,19 +287,10 @@
 
      </dd>
 
-     <dt>
-<code>double_encode</code></dt>
-
-     <dd>
-
-      <p>
-       When <code>double_encode</code> is turned off PHP will not
-       encode existing html entities. The default is to convert everything.
-      </p>
-     </dd>
-
+     <dt><code>double_encode</code></dt>
+     <dd><p>When <code>double_encode</code> is turned off PHP will not
+       encode existing html entities. The default is to convert everything.</p></dd>
    </dl>
-
   </p>
  </div>
 

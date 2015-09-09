@@ -1,7 +1,4 @@
-
- <div>
-  <h1>addCSlashes</h1>
- </div>
+<h1>addCSlashes</h1>
 
  <div>
   <p>
@@ -14,24 +11,11 @@
   <h3>Parameters</h3>
   <p>
    <dl>
+     <dt><code>str</code></dt>
+     <dd><p>The string to be escaped.</p></dd>
 
-     <dt>
-<code>str</code></dt>
-
-     <dd>
-
-      <p>
-       The string to be escaped.
-      </p>
-     </dd>
-
-     <dt>
-<code>charlist</code></dt>
-
-     <dd>
-
-      <p>
-       A list of characters to be escaped. If
+     <dt><code>charlist</code></dt>
+     <dd><p>A list of characters to be escaped. If
        <code>charlist</code> contains characters
        <em>\n</em>, <em>\r</em> etc., they are
        converted in C-like style, while other non-alphanumeric characters
@@ -42,7 +26,7 @@
        When you define a sequence of characters in the charlist argument
        make sure that you know what characters come between the
        characters that you set as the start and end of the range.
-       <div class="informalexample">
+       <div>
         <div>
 <div><code><span style="color: #000000">
 <span style="color: #0000BB">&lt;?php<br /></span><span style="color: #007700">echo&nbsp;</span><span style="color: #0000BB">addCSlashes</span><span style="color: #007700">(</span><span style="color: #DD0000">'foo[&nbsp;]'</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">'A..z'</span><span style="color: #007700">);<br /></span><span style="color: #FF8000">//&nbsp;output:&nbsp;&nbsp;\f\o\o\[&nbsp;\]<br />//&nbsp;All&nbsp;upper&nbsp;and&nbsp;lower-case&nbsp;letters&nbsp;will&nbsp;be&nbsp;escaped<br />//&nbsp;...&nbsp;but&nbsp;so&nbsp;will&nbsp;the&nbsp;[\]^_`<br /></span><span style="color: #0000BB">?&gt;</span>
@@ -54,9 +38,9 @@
        Also, if the first character in a range has a higher ASCII value
        than the second character in the range, no range will be
        constructed.  Only the start, end and period characters will be
-       escaped. Use the <span><a href="function.ord.php" class="function">ord()</a></span> function to find the
+       escaped. Use the <span><a href="function.ord.php">ord()</a></span> function to find the
        ASCII value for a character.
-       <div class="informalexample">
+       <div>
         <div>
 <div><code><span style="color: #000000">
 <span style="color: #0000BB">&lt;?php<br /></span><span style="color: #007700">echo&nbsp;</span><span style="color: #0000BB">addCSlashes</span><span style="color: #007700">(</span><span style="color: #DD0000">"zoo['.']"</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">'z..A'</span><span style="color: #007700">);<br /></span><span style="color: #FF8000">//&nbsp;output:&nbsp;&nbsp;\zoo['\.']<br /></span><span style="color: #0000BB">?&gt;</span>
@@ -73,12 +57,8 @@
        also defined in other C-derived languages, including PHP, meaning that
        you may not get the desired result if you use the output of
        <span><strong>addCSlashes()</strong></span> to generate code in those languages
-       with these characters defined in <code>charlist</code>.
-      </p>
-     </dd>
-
+       with these characters defined in <code>charlist</code>.</p></dd>
    </dl>
-
   </p>
  </div>
 

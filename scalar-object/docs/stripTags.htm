@@ -1,13 +1,10 @@
-
- <div>
-  <h1>stripTags</h1>
- </div>
+<h1>stripTags</h1>
 
  <div>
   <p>
    This function tries to return a string with all NULL bytes, HTML and PHP tags stripped
    from a given <code>str</code>.  It uses the same tag stripping
-   state machine as the <span><a href="function.fgetss.php" class="function">fgetss()</a></span> function.
+   state machine as the <span><a href="function.fgetss.php">fgetss()</a></span> function.
   </p>
  </div>
 
@@ -15,24 +12,11 @@
   <h3>Parameters</h3>
   <p>
    <dl>
+     <dt><code>str</code></dt>
+     <dd><p>The input string.</p></dd>
 
-     <dt>
-<code>str</code></dt>
-
-     <dd>
-
-      <p>
-       The input string.
-      </p>
-     </dd>
-
-     <dt>
-<code>allowable_tags</code></dt>
-
-     <dd>
-
-      <p>
-       You can use the optional second parameter to specify tags which should
+     <dt><code>allowable_tags</code></dt>
+     <dd><p>You can use the optional second parameter to specify tags which should
        not be stripped.
       </p>
       <blockquote><p><strong>Note</strong>: 
@@ -49,7 +33,7 @@
         to allow both <em>&lt;br&gt;</em> and
         <em>&lt;br/&gt;</em>, you should use:
        </p>
-       <div class="informalexample">
+       <div>
         <div>
 <div><code><span style="color: #000000">
 <span style="color: #0000BB">&lt;?php<br />stripTags</span><span style="color: #007700">(</span><span style="color: #0000BB">$input</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">'&lt;br&gt;'</span><span style="color: #007700">);<br /></span><span style="color: #0000BB">?&gt;</span>
@@ -60,9 +44,7 @@
        </div>
       </p></blockquote>
      </dd>
-
    </dl>
-
   </p>
  </div>
 

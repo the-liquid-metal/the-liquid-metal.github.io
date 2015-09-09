@@ -1,7 +1,4 @@
-
- <div>
-  <h1>multisort</h1>
- </div>
+<h1>multisort</h1>
  <div>
   <p>
    <span><strong>multisort()</strong></span> can be used to sort several
@@ -18,40 +15,20 @@
   <h3>Parameters</h3>
   <p>
    <dl>
+     <dt><code>array1</code></dt>
+     <dd><p>An <span><a href="language.types.array.php">array</a></span> being sorted.</p></dd>
 
-     <dt>
-<code>array1</code></dt>
-
-     <dd>
-
-      <p>
-       An <span><a href="language.types.array.php" class="type array">array</a></span> being sorted.
-      </p>
-     </dd>
-
-     <dt>
-<code>array1_sort_order</code></dt>
-
-     <dd>
-
-      <p>
-       The order used to sort the previous <span><a href="language.types.array.php" class="type array">array</a></span> argument. Either
+     <dt><code>array1_sort_order</code></dt>
+     <dd><p>The order used to sort the previous <span><a href="language.types.array.php">array</a></span> argument. Either
        <strong><code>SORT_ASC</code></strong> to sort ascendingly or <strong><code>SORT_DESC</code></strong>
        to sort descendingly.
       </p>
       <p>
        This argument can be swapped with <code>array1_sort_flags</code>
-       or omitted entirely, in which case <strong><code>SORT_ASC</code></strong> is assumed.
-      </p>
-     </dd>
+       or omitted entirely, in which case <strong><code>SORT_ASC</code></strong> is assumed.</p></dd>
 
-     <dt>
-<code>array1_sort_flags</code></dt>
-
-     <dd>
-
-      <p>
-       Sort options for the previous <span><a href="language.types.array.php" class="type array">array</a></span> argument:
+     <dt><code>array1_sort_flags</code></dt>
+     <dd><p>Sort options for the previous <span><a href="language.types.array.php">array</a></span> argument:
       </p>
       <p>
        Sorting type flags:
@@ -70,13 +47,13 @@
          <span>
           <strong><code>SORT_LOCALE_STRING</code></strong> - compare items as
           strings, based on the current locale. It uses the locale,
-          which can be changed using <span><a href="function.setlocale.php" class="function">setlocale()</a></span>
+          which can be changed using <span><a href="function.setlocale.php">setlocale()</a></span>
          </span>
         </li>
         <li class="listitem">
          <span>
           <strong><code>SORT_NATURAL</code></strong> - compare items as strings
-          using &quot;natural ordering&quot; like <span><a href="function.natsort.php" class="function">natsort()</a></span>
+          using &quot;natural ordering&quot; like <span><a href="function.natsort.php">natsort()</a></span>
          </span>
         </li>
         <li class="listitem">
@@ -91,24 +68,13 @@
       </p>
       <p>
        This argument can be swapped with <code>array1_sort_order</code>
-       or omitted entirely, in which case <strong><code>SORT_REGULAR</code></strong> is assumed.
-      </p>
-     </dd>
+       or omitted entirely, in which case <strong><code>SORT_REGULAR</code></strong> is assumed.</p></dd>
 
-     <dt>
-<code>...</code></dt>
-
-     <dd>
-
-      <p>
-       More arrays, optionally followed by sort order and flags. Only elements
+     <dt><code>...</code></dt>
+     <dd><p>More arrays, optionally followed by sort order and flags. Only elements
        corresponding to equivalent elements in previous arrays are compared.
-       In other words, the sort is lexicographical.
-      </p>
-     </dd>
-
+       In other words, the sort is lexicographical.</p></dd>
    </dl>
-
   </p>
  </div>
 
@@ -217,7 +183,7 @@ volume | edition
     </div>
     <div><p>
      The data as an array, called <var><var>data</var></var>. This would usually,
-     for example, be obtained by looping with <span><a href="function.mysql-fetch-assoc.php" class="function">mysql_fetch_assoc()</a></span>.
+     for example, be obtained by looping with <span><a href="function.mysql-fetch-assoc.php">mysql_fetch_assoc()</a></span>.
     </p></div>
     <div>
 <div><code><span style="color: #000000">

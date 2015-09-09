@@ -1,7 +1,4 @@
-
- <div>
-  <h1>substrReplace</h1>
- </div>
+<h1>substrReplace</h1>
 
  <div>
   <p>
@@ -17,60 +14,33 @@
   <h3>Parameters</h3>
   <p>
    <dl>
-
-     <dt>
-<code>string</code></dt>
-
-     <dd>
-
-      <p>
-       The input string.
+     <dt><code>string</code></dt>
+     <dd><p>The input string.
       </p>
       <p>
-       An <span><a href="language.types.array.php" class="type array">array</a></span> of <span><a href="language.types.string.php" class="type string">string</a></span>s can be provided, in which
+       An <span><a href="language.types.array.php">array</a></span> of <span><a href="language.types.string.php" class="type string">string</a></span>s can be provided, in which
        case the replacements will occur on each string in turn. In this case,
        the <code>replacement</code>, <code>start</code>
        and <code>length</code> parameters may be provided either as
        scalar values to be applied to each input string in turn, or as
-       <span><a href="language.types.array.php" class="type array">array</a></span>s, in which case the corresponding array element will
-       be used for each input string.
-      </p>
-     </dd>
+       <span><a href="language.types.array.php">array</a></span>s, in which case the corresponding array element will
+       be used for each input string.</p></dd>
 
-     <dt>
-<code>replacement</code></dt>
+     <dt><code>replacement</code></dt>
+     <dd><p>The replacement string.</p></dd>
 
-     <dd>
-
-      <p>
-       The replacement string.
-      </p>
-     </dd>
-
-     <dt>
-<code>start</code></dt>
-
-     <dd>
-
-      <p>
-       If <code>start</code> is positive, the replacing will
+     <dt><code>start</code></dt>
+     <dd><p>If <code>start</code> is positive, the replacing will
        begin at the <code>start</code>&#039;th offset into
        <code>string</code>.
       </p>
       <p>
        If <code>start</code> is negative, the replacing will
        begin at the <code>start</code>&#039;th character from the
-       end of <code>string</code>.
-      </p>
-     </dd>
+       end of <code>string</code>.</p></dd>
 
-     <dt>
-<code>length</code></dt>
-
-     <dd>
-
-      <p>
-       If given and is positive, it represents the length of the portion of
+     <dt><code>length</code></dt>
+     <dd><p>If given and is positive, it represents the length of the portion of
        <code>string</code> which is to be replaced. If it is
        negative, it represents the number of characters from the end of
        <code>string</code> at which to stop replacing. If it
@@ -80,12 +50,8 @@
        <code>length</code> is zero then this function will have the
        effect of inserting <code>replacement</code> into
        <code>string</code> at the given
-       <code>start</code> offset.
-      </p>
-     </dd>
-
+       <code>start</code> offset.</p></dd>
    </dl>
-
   </p>
  </div>
 

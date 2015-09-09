@@ -9,6 +9,10 @@ blockquote {
 .ajax-area h1 {
 	font-size: 1.5em;
 }
-div.examples {
+.ajax-area .examples {
 	margin-top: 1em;
+}
+.ajax-area .warning {
+	background: #F4DFDF;
+	border: 1px solid #EABFBF;
 }

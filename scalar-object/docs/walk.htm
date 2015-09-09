@@ -1,7 +1,4 @@
-
- <div>
-  <h1>walk</h1>
- </div>
+<h1>walk</h1>
  <div>
   <p>
    Applies the user-defined <code>callback</code> function to each
@@ -18,24 +15,11 @@
   <h3>Parameters</h3>
   <p>
    <dl>
+     <dt><code>array</code></dt>
+     <dd><p>The input array.</p></dd>
 
-     <dt>
-<code>array</code></dt>
-
-     <dd>
-
-      <p>
-       The input array.
-      </p>
-     </dd>
-
-     <dt>
-<code>callback</code></dt>
-
-     <dd>
-
-      <p>
-       Typically, <code>callback</code> takes on two parameters.
+     <dt><code>callback</code></dt>
+     <dd><p>Typically, <code>callback</code> takes on two parameters.
        The <code>array</code> parameter&#039;s value being the first, and
        the key/index second.
       </p>
@@ -44,14 +28,14 @@
         If <code>callback</code> needs to be working with the
         actual values of the array, specify the first parameter of
         <code>callback</code> as a
-        <a href="language.references.php" class="link">reference</a>. Then,
+        <a href="language.references.php">reference</a>. Then,
         any changes made to those elements will be made in the
         original array itself.
        </p>
       </p></blockquote>
       <blockquote><p><strong>Note</strong>: 
         <p>
-          Many internal functions (for example <span><a href="function.strtolower.php" class="function">strtolower()</a></span>)
+          Many internal functions (for example <span><a href="function.strtolower.php">strtolower()</a></span>)
           will throw a warning if more than the expected number of argument
           are passed in and are not usable directly as a
           <code>callback</code>.
@@ -62,24 +46,13 @@
        changed; its structure cannot be altered, i.e., the programmer cannot
        add, unset or reorder elements. If the callback does not respect this
        requirement, the behavior of this function is undefined, and      
-       unpredictable.
-      </p>
-     </dd>
+       unpredictable.</p></dd>
 
-     <dt>
-<code>userdata</code></dt>
-
-     <dd>
-
-      <p>
-       If the optional <code>userdata</code> parameter is supplied,
+     <dt><code>userdata</code></dt>
+     <dd><p>If the optional <code>userdata</code> parameter is supplied,
        it will be passed as the third parameter to the
-       <code>callback</code>.
-      </p>
-     </dd>
-
+       <code>callback</code>.</p></dd>
    </dl>
-
   </p>
  </div>
 
@@ -94,7 +67,7 @@
   <h3>Errors/Exceptions</h3>
   <p>
    If function <code>callback</code> requires more parameters than
-   given to it, an error of level <a href="errorfunc.constants.php" class="link">
+   given to it, an error of level <a href="errorfunc.constants.php">
    E_WARNING</a> will be generated each time <span><strong>walk()</strong></span>
    calls <code>callback</code>.
   </p>

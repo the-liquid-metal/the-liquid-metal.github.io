@@ -1,7 +1,4 @@
-
- <div>
-  <h1>search</h1>
- </div>
+<h1>search</h1>
  <div>
   <p>
    Searches <code>haystack</code> for <code>needle</code>.
@@ -12,14 +9,8 @@
   <h3>Parameters</h3>
   <p>
    <dl>
-
-     <dt>
-<code>needle</code></dt>
-
-     <dd>
-
-      <p>
-       The searched value.
+     <dt><code>needle</code></dt>
+     <dd><p>The searched value.
       </p>
       <blockquote><p><strong>Note</strong>: 
        <p>
@@ -29,34 +20,18 @@
       </p></blockquote>
      </dd>
 
-     <dt>
-<code>haystack</code></dt>
+     <dt><code>haystack</code></dt>
+     <dd><p>The array.</p></dd>
 
-     <dd>
-
-      <p>
-       The array.
-      </p>
-     </dd>
-
-     <dt>
-<code>strict</code></dt>
-
-     <dd>
-
-      <p>
-       If the third parameter <code>strict</code> is set to <strong><code>TRUE</code></strong>
+     <dt><code>strict</code></dt>
+     <dd><p>If the third parameter <code>strict</code> is set to <strong><code>TRUE</code></strong>
        then the <span><strong>search()</strong></span> function will search for
        <em>identical</em> elements in the
        <code>haystack</code>. This means it will also check the
-       <a href="language.types.php" class="link">types</a> of the
+       <a href="language.types.php">types</a> of the
        <code>needle</code> in the <code>haystack</code>,
-       and objects must be the same instance.
-      </p>
-     </dd>
-
+       and objects must be the same instance.</p></dd>
    </dl>
-
   </p>
  </div>
 
@@ -69,13 +44,13 @@
   <p>
    If <code>needle</code> is found in <code>haystack</code>
    more than once, the first matching key is returned. To return the keys for
-   all matching values, use <span><a href="function.array-keys.php" class="function">array_keys()</a></span> with the optional
+   all matching values, use <span><a href="function.array-keys.php">array_keys()</a></span> with the optional
    <code>search_value</code> parameter instead.
   </p>
   <div class="warning"><strong class="warning">Warning</strong><p>This function may
 return Boolean <strong><code>FALSE</code></strong>, but may also return a non-Boolean value which
-evaluates to <strong><code>FALSE</code></strong>. Please read the section on <a href="language.types.boolean.php" class="link">Booleans</a> for more
-information. Use <a href="language.operators.comparison.php" class="link">the ===
+evaluates to <strong><code>FALSE</code></strong>. Please read the section on <a href="language.types.boolean.php">Booleans</a> for more
+information. Use <a href="language.operators.comparison.php">the ===
 operator</a> for testing the return value of this
 function.</p></div>
  </div>

@@ -1,7 +1,4 @@
-
- <div>
-  <h1>translateChar</h1>
- </div>
+<h1>translateChar</h1>
 
  <div>
   <p>
@@ -20,7 +17,7 @@
    the return value&#039;s.
   </p>
   <p>
-   If given two arguments, the second should be an <span><a href="language.types.array.php" class="type array">array</a></span> in the
+   If given two arguments, the second should be an <span><a href="language.types.array.php">array</a></span> in the
    form <em>array(&#039;from&#039; =&gt; &#039;to&#039;, ...)</em>. The return value is
    a <span><a href="language.types.string.php" class="type string">string</a></span> where all the occurrences of the array keys have been
    replaced by the corresponding values. The longest keys will be tried first.
@@ -40,51 +37,20 @@
   <h3>Parameters</h3>
   <p>
    <dl>
+     <dt><code>str</code></dt>
+     <dd><p>The <span><a href="language.types.string.php" class="type string">string</a></span> being translated.</p></dd>
 
-     <dt>
-<code>str</code></dt>
+     <dt><code>from</code></dt>
+     <dd><p>The <span><a href="language.types.string.php" class="type string">string</a></span> being translated to <code>to</code>.</p></dd>
 
-     <dd>
+     <dt><code>to</code></dt>
+     <dd><p>The <span><a href="language.types.string.php" class="type string">string</a></span> replacing <code>from</code>.</p></dd>
 
-      <p>
-       The <span><a href="language.types.string.php" class="type string">string</a></span> being translated.
-      </p>
-     </dd>
-
-     <dt>
-<code>from</code></dt>
-
-     <dd>
-
-      <p>
-       The <span><a href="language.types.string.php" class="type string">string</a></span> being translated to <code>to</code>.
-      </p>
-     </dd>
-
-     <dt>
-<code>to</code></dt>
-
-     <dd>
-
-      <p>
-       The <span><a href="language.types.string.php" class="type string">string</a></span> replacing <code>from</code>.
-      </p>
-     </dd>
-
-     <dt>
-<code>replace_pairs</code></dt>
-
-     <dd>
-
-      <p>
-       The <code>replace_pairs</code> parameter may be used instead of 
+     <dt><code>replace_pairs</code></dt>
+     <dd><p>The <code>replace_pairs</code> parameter may be used instead of 
        <code>to</code> and <code>from</code>, in which case it&#039;s an
-       <span><a href="language.types.array.php" class="type array">array</a></span> in the form <em>array(&#039;from&#039; =&gt; &#039;to&#039;, ...)</em>. 
-      </p>
-     </dd>
-
+       <span><a href="language.types.array.php">array</a></span> in the form <em>array(&#039;from&#039; =&gt; &#039;to&#039;, ...)</em>. </p></dd>
    </dl>
-
   </p>
  </div>
 
