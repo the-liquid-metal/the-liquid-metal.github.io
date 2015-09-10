@@ -10,18 +10,16 @@
 
  <div>
   <h3>Parameters</h3>
-  <p>
    <dl>
-     <dt><code>array1</code></dt>
+     <dt>array1</dt>
      <dd>The array with master keys to check.</dd>
 
-     <dt><code>array2</code></dt>
+     <dt>array2</dt>
      <dd>An array to compare keys against.</dd>
 
-     <dt><code>...</code></dt>
+     <dt>...</dt>
      <dd>A variable list of arrays to compare.</dd>
    </dl>
-  </p>
  </div>
 
  <div>
@@ -34,11 +32,8 @@
  </div>
 
  <div class="examples">
-  <p>
-   <div>
     <p><strong>Example #1 keyIntersect() example</strong></p>
     <pre><span style="color: #0000BB">&lt;?php<br />$array1&nbsp;</span><span style="color: #007700">=&nbsp;array(</span><span style="color: #DD0000">'blue'&nbsp;&nbsp;</span><span style="color: #007700">=&gt;&nbsp;</span><span style="color: #0000BB">1</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">'red'&nbsp;&nbsp;</span><span style="color: #007700">=&gt;&nbsp;</span><span style="color: #0000BB">2</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">'green'&nbsp;&nbsp;</span><span style="color: #007700">=&gt;&nbsp;</span><span style="color: #0000BB">3</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">'purple'&nbsp;</span><span style="color: #007700">=&gt;&nbsp;</span><span style="color: #0000BB">4</span><span style="color: #007700">);<br /></span><span style="color: #0000BB">$array2&nbsp;</span><span style="color: #007700">=&nbsp;array(</span><span style="color: #DD0000">'green'&nbsp;</span><span style="color: #007700">=&gt;&nbsp;</span><span style="color: #0000BB">5</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">'blue'&nbsp;</span><span style="color: #007700">=&gt;&nbsp;</span><span style="color: #0000BB">6</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">'yellow'&nbsp;</span><span style="color: #007700">=&gt;&nbsp;</span><span style="color: #0000BB">7</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">'cyan'&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">=&gt;&nbsp;</span><span style="color: #0000BB">8</span><span style="color: #007700">);<br /><br /></span><span style="color: #0000BB">var_dump</span><span style="color: #007700">(</span><span style="color: #0000BB">keyIntersect</span><span style="color: #007700">(</span><span style="color: #0000BB">$array1</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">$array2</span><span style="color: #007700">));<br /></span><span style="color: #0000BB">?&gt;</span></pre>
-
     <div>The above example will output:</div>
 <pre>
 array(2) {
@@ -48,8 +43,7 @@ array(2) {
   int(3)
 }
 </pre>
-   </div>
-  </p>
+
   <p>
    In our example you see that only the keys <em>&#039;blue&#039;</em>
    and <em>&#039;green&#039;</em> are present in both arrays and thus

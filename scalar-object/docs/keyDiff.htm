@@ -1,28 +1,24 @@
 <h1>keyDiff</h1>
 
  <div>
-  <p>
    Compares the keys from <code>array1</code> against the keys
    from <code>array2</code> and returns the difference.
    This function is like <a href="function.array-diff.php">array_diff()</a> except the
    comparison is done on the keys instead of the values.
-  </p>
  </div>
 
  <div>
   <h3>Parameters</h3>
-  <p>
    <dl>
-     <dt><code>array1</code></dt>
+     <dt>array1</dt>
      <dd>The array to compare from</dd>
 
-     <dt><code>array2</code></dt>
+     <dt>array2</dt>
      <dd>An array to compare against</dd>
 
-     <dt><code>...</code></dt>
+     <dt>...</dt>
      <dd>More arrays to compare against</dd>
    </dl>
-  </p>
  </div>
 
  <div>
@@ -35,16 +31,14 @@
  </div>
 
  <div class="examples">
-  <p>
-   <div>
     <p><strong>Example #1 keyDiff() example</strong></p>
-    <div><p>
+    <div>
      The two keys from the <em>key =&gt; value</em> pairs are
      considered equal only if
      <em>(string) $key1 === (string) $key2 </em>. In other words
      a strict type check is executed so the string representation must be
      the same.
-    </p></div>
+    </div>
     <pre><span style="color: #0000BB">&lt;?php<br />$array1&nbsp;</span><span style="color: #007700">=&nbsp;array(</span><span style="color: #DD0000">'blue'&nbsp;&nbsp;</span><span style="color: #007700">=&gt;&nbsp;</span><span style="color: #0000BB">1</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">'red'&nbsp;&nbsp;</span><span style="color: #007700">=&gt;&nbsp;</span><span style="color: #0000BB">2</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">'green'&nbsp;&nbsp;</span><span style="color: #007700">=&gt;&nbsp;</span><span style="color: #0000BB">3</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">'purple'&nbsp;</span><span style="color: #007700">=&gt;&nbsp;</span><span style="color: #0000BB">4</span><span style="color: #007700">);<br /></span><span style="color: #0000BB">$array2&nbsp;</span><span style="color: #007700">=&nbsp;array(</span><span style="color: #DD0000">'green'&nbsp;</span><span style="color: #007700">=&gt;&nbsp;</span><span style="color: #0000BB">5</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">'blue'&nbsp;</span><span style="color: #007700">=&gt;&nbsp;</span><span style="color: #0000BB">6</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">'yellow'&nbsp;</span><span style="color: #007700">=&gt;&nbsp;</span><span style="color: #0000BB">7</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">'cyan'&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">=&gt;&nbsp;</span><span style="color: #0000BB">8</span><span style="color: #007700">);<br /><br /></span><span style="color: #0000BB">var_dump</span><span style="color: #007700">(</span><span style="color: #0000BB">keyDiff</span><span style="color: #007700">(</span><span style="color: #0000BB">$array1</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">$array2</span><span style="color: #007700">));<br /></span><span style="color: #0000BB">?&gt;</span></pre>
 
     <div>The above example will output:</div>
@@ -56,12 +50,10 @@ array(2) {
   int(4)
 }
 </pre>
-   </div>
-  </p>
  </div>
 
   <blockquote><strong>Note</strong>:
     This function only checks one dimension of a n-dimensional
     array. Of course you can check deeper dimensions by using
     <em>keyDiff($array1[0], $array2[0]);</em>.
-   </blockquote>
+  </blockquote>

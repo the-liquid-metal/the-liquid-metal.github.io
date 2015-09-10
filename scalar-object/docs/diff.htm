@@ -10,18 +10,16 @@
 
  <div>
   <h3>Parameters</h3>
-  <p>
    <dl>
-     <dt><code>array1</code></dt>
+     <dt>array1</dt>
      <dd>The array to compare from</dd>
 
-     <dt><code>array2</code></dt>
+     <dt>array2</dt>
      <dd>An array to compare against</dd>
 
-     <dt><code>...</code></dt>
+     <dt>...</dt>
      <dd>More arrays to compare against</dd>
    </dl>
-  </p>
  </div>
 
  <div>
@@ -56,9 +54,10 @@ Array
     Two elements are considered equal if and only if
     <em>(string) $elem1 === (string) $elem2</em>. In words:
     when the string representation is the same.
-   </blockquote>
+  </blockquote>
+
   <blockquote><strong>Note</strong>:
     This function only checks one dimension of a n-dimensional
     array. Of course you can check deeper dimensions by using
     <em>diff($array1[0], $array2[0]);</em>.
-   </blockquote>
+  </blockquote>

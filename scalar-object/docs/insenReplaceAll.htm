@@ -1,14 +1,12 @@
 <h1>insenReplaceAll</h1>
 
  <div>
-  <p>
    This function returns a string or an array with all occurrences of
    <code>search</code> in <code>subject</code>
    (ignoring case) replaced with the given <code>replace</code>
    value.  If you don&#039;t need fancy replacing rules, you should generally
    use this function instead of
    <a href="function.preg-replace.php">preg_replace()</a> with the <em>i</em> modifier.
-  </p>
  </div>
 
  <div>
@@ -28,18 +26,17 @@
    If <code>search</code> or <code>replace</code>
    are arrays, their elements are processed first to last.
   </p>
-  <p>
    <dl>
-     <dt><code>search</code></dt>
+     <dt>search</dt>
      <dd>The value being searched for, otherwise known as the
        <em>needle</em>.  An array may be used to designate
        multiple needles.</dd>
 
-     <dt><code>replace</code></dt>
+     <dt>replace</dt>
      <dd>The replacement value that replaces found <code>search</code>
        values. An array may be used to designate multiple replacements.</dd>
 
-     <dt><code>subject</code></dt>
+     <dt>subject</dt>
      <dd><p>The string or array being searched and replaced on,
        otherwise known as the <em>haystack</em>.
       </p>
@@ -49,27 +46,19 @@
        <code>subject</code>, and the return value is an array as
        well.</p></dd>
 
-     <dt><code>count</code></dt>
+     <dt>count</dt>
      <dd>If passed, this will be set to the number of replacements performed.</dd>
    </dl>
-  </p>
  </div>
 
  <div>
   <h3>Return Values</h3>
-  <p>
-   Returns a string or an array of replacements.
-  </p>
+  <p>Returns a string or an array of replacements.</p>
  </div>
 
  <div class="examples">
-  <p>
-   <div>
     <p><strong>Example #1 insenReplaceAll() example</strong></p>
     <pre><span style="color: #0000BB">&lt;?php<br />$bodytag&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #0000BB">insenReplaceAll</span><span style="color: #007700">(</span><span style="color: #DD0000">"%body%"</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">"black"</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">"&lt;body&nbsp;text=%BODY%&gt;"</span><span style="color: #007700">);<br /></span><span style="color: #0000BB">?&gt;</span></pre>
-
-   </div>
-  </p>
  </div>
 
   <blockquote><strong>Note</strong>:This function is binary-safe.</blockquote>

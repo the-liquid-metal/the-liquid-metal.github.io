@@ -20,51 +20,36 @@
 
  <div>
   <h3>Parameters</h3>
-  <p>
    <dl>
-     <dt><code>str</code></dt>
+     <dt>str</dt>
      <dd>The input string.</dd>
 
-     <dt><code>phonemes</code></dt>
+     <dt>phonemes</dt>
      <dd>This parameter restricts the returned metaphone key to 
        <code>phonemes</code> characters in length.
        The default value of <em>0</em> means no restriction.</dd>
    </dl>
-  </p>
  </div>
 
  <div>
   <h3>Return Values</h3>
-  <p>
-   Returns the metaphone key as a string,  or <strong><code>FALSE</code></strong> on failure.
-  </p>
+  <p>Returns the metaphone key as a string,  or <strong><code>FALSE</code></strong> on failure.</p>
  </div>
 
  <div class="examples">
-  <p>
-   <div>
     <p><strong>Example #1 metaphone() basic example</strong></p>
     <pre><span style="color: #0000BB">&lt;?php<br />var_dump</span><span style="color: #007700">(</span><span style="color: #0000BB">metaphone</span><span style="color: #007700">(</span><span style="color: #DD0000">'programming'</span><span style="color: #007700">));<br /></span><span style="color: #0000BB">var_dump</span><span style="color: #007700">(</span><span style="color: #0000BB">metaphone</span><span style="color: #007700">(</span><span style="color: #DD0000">'programmer'</span><span style="color: #007700">));<br /></span><span style="color: #0000BB">?&gt;</span></pre>
-
-    <div><p>The above example will output
-something similar to:</p></div>
+    <div>The above example will output something similar to:</div>
 <pre>
 string(7) &quot;PRKRMNK&quot;
 string(6) &quot;PRKRMR&quot;
 </pre>
-   </div>
-  </p>
-  <p>
-   <div>
+
     <p><strong>Example #2 Using the <code>phonemes</code> parameter</strong></p>
     <pre><span style="color: #0000BB">&lt;?php<br />var_dump</span><span style="color: #007700">(</span><span style="color: #0000BB">metaphone</span><span style="color: #007700">(</span><span style="color: #DD0000">'programming'</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">5</span><span style="color: #007700">));<br /></span><span style="color: #0000BB">var_dump</span><span style="color: #007700">(</span><span style="color: #0000BB">metaphone</span><span style="color: #007700">(</span><span style="color: #DD0000">'programmer'</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">5</span><span style="color: #007700">));<br /></span><span style="color: #0000BB">?&gt;</span></pre>
-
-    <div><p>The above example will output
-something similar to:</p></div>
+    <div>The above example will output something similar to:</div>
 <pre>
 string(5) &quot;PRKRM&quot;
 string(5) &quot;PRKRM&quot;
 </pre>
-   </div>
-  </p>
  </div>

@@ -14,33 +14,24 @@
 
  <div>
   <h3>Parameters</h3>
-  <p>
    <dl>
-     <dt><code>hex_string</code></dt>
+     <dt>hex_string</dt>
      <dd>The hexadecimal string to convert</dd>
    </dl>
-  </p>
  </div>
 
  <div>
   <h3>Return Values</h3>
-  <p>
-   The decimal representation of <code>hex_string</code>
-  </p>
+  <p>The decimal representation of <code>hex_string</code></p>
  </div>
 
  <div class="examples">
-  <p>
-   <div>
     <p><strong>Example #1 hexToDec() example</strong></p>
     <pre><span style="color: #0000BB">&lt;?php<br />var_dump</span><span style="color: #007700">(</span><span style="color: #0000BB">hexToDec</span><span style="color: #007700">(</span><span style="color: #DD0000">"See"</span><span style="color: #007700">));<br /></span><span style="color: #0000BB">var_dump</span><span style="color: #007700">(</span><span style="color: #0000BB">hexToDec</span><span style="color: #007700">(</span><span style="color: #DD0000">"ee"</span><span style="color: #007700">));<br /></span><span style="color: #FF8000">//&nbsp;both&nbsp;print&nbsp;"int(238)"<br /><br /></span><span style="color: #0000BB">var_dump</span><span style="color: #007700">(</span><span style="color: #0000BB">hexToDec</span><span style="color: #007700">(</span><span style="color: #DD0000">"that"</span><span style="color: #007700">));&nbsp;</span><span style="color: #FF8000">//&nbsp;print&nbsp;"int(10)"<br /></span><span style="color: #0000BB">var_dump</span><span style="color: #007700">(</span><span style="color: #0000BB">hexToDec</span><span style="color: #007700">(</span><span style="color: #DD0000">"a0"</span><span style="color: #007700">));&nbsp;</span><span style="color: #FF8000">//&nbsp;print&nbsp;"int(160)"<br /></span><span style="color: #0000BB">?&gt;</span></pre>
-
-   </div>
-  </p>
  </div>
 
   <blockquote><strong>Note</strong>:
     The function can convert numbers that are too large to fit into the platforms
     <a href="language.types.integer.php">integer</a> type, larger values are returned as <a href="language.types.float.php">float</a> in
     that case.
-   </blockquote>
+  </blockquote>

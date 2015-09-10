@@ -1,9 +1,7 @@
 <h1>stripSlashes</h1>
 
  <div>
-  <p>
-   Un-quotes a quoted string.
-  </p>
+  <p>Un-quotes a quoted string.</p>
   <blockquote><strong>Note</strong>:
     If <a href="sybase.configuration.php#ini.magic-quotes-sybase">magic_quotes_sybase</a> is
     on, no backslashes are stripped off but two apostrophes are replaced by
@@ -20,12 +18,10 @@
 
  <div>
   <h3>Parameters</h3>
-  <p>
    <dl>
-     <dt><code>str</code></dt>
+     <dt>str</dt>
      <dd>The input string.</dd>
    </dl>
-  </p>
  </div>
 
  <div>
@@ -39,23 +35,17 @@
  </div>
 
  <div class="examples">
-  <p>
-   <div>
     <p><strong>Example #1 A stripSlashes() example</strong></p>
     <pre><span style="color: #0000BB">&lt;?php<br />$str&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #DD0000">"Is&nbsp;your&nbsp;name&nbsp;O\'reilly?"</span><span style="color: #007700">;<br /><br /></span><span style="color: #FF8000">//&nbsp;Outputs:&nbsp;Is&nbsp;your&nbsp;name&nbsp;O'reilly?<br /></span><span style="color: #007700">echo&nbsp;</span><span style="color: #0000BB">stripSlashes</span><span style="color: #007700">(</span><span style="color: #0000BB">$str</span><span style="color: #007700">);<br /></span><span style="color: #0000BB">?&gt;</span></pre>
-
-   </div>
-  </p>
+  
   <blockquote><strong>Note</strong>:
     <strong>stripSlashes()</strong> is not recursive. If you want to apply
     this function to a multi-dimensional array, you need to use a recursive
     function.
-   </blockquote>
-  <p>
-   <div>
+  </blockquote>
+
     <p><strong>Example #2 Using stripSlashes() on an array</strong></p>
     <pre><span style="color: #0000BB">&lt;?php<br /></span><span style="color: #007700">function&nbsp;</span><span style="color: #0000BB">stripslashes_deep</span><span style="color: #007700">(</span><span style="color: #0000BB">$value</span><span style="color: #007700">)<br />{<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #0000BB">$value&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #0000BB">is_array</span><span style="color: #007700">(</span><span style="color: #0000BB">$value</span><span style="color: #007700">)&nbsp;?<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #0000BB">array_map</span><span style="color: #007700">(</span><span style="color: #DD0000">'stripslashes_deep'</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">$value</span><span style="color: #007700">)&nbsp;:<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #0000BB">stripSlashes</span><span style="color: #007700">(</span><span style="color: #0000BB">$value</span><span style="color: #007700">);<br /><br />&nbsp;&nbsp;&nbsp;&nbsp;return&nbsp;</span><span style="color: #0000BB">$value</span><span style="color: #007700">;<br />}<br /><br /></span><span style="color: #FF8000">//&nbsp;Example<br /></span><span style="color: #0000BB">$array&nbsp;</span><span style="color: #007700">=&nbsp;array(</span><span style="color: #DD0000">"f\\'oo"</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">"b\\'ar"</span><span style="color: #007700">,&nbsp;array(</span><span style="color: #DD0000">"fo\\'o"</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">"b\\'ar"</span><span style="color: #007700">));<br /></span><span style="color: #0000BB">$array&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #0000BB">stripslashes_deep</span><span style="color: #007700">(</span><span style="color: #0000BB">$array</span><span style="color: #007700">);<br /><br /></span><span style="color: #FF8000">//&nbsp;Output<br /></span><span style="color: #0000BB">print_r</span><span style="color: #007700">(</span><span style="color: #0000BB">$array</span><span style="color: #007700">);<br /></span><span style="color: #0000BB">?&gt;</span></pre>
-
     <div>The above example will output:</div>
 <pre>
 Array
@@ -69,6 +59,4 @@ Array
         )
 )
 </pre>
-   </div>
-  </p>
  </div>

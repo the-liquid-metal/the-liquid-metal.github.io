@@ -13,38 +13,29 @@
 
  <div>
   <h3>Parameters</h3>
-  <p>
    <dl>
-     <dt><code>haystack</code></dt>
+     <dt>haystack</dt>
      <dd>The string to search in</dd>
 
-     <dt><code>needle</code></dt>
+     <dt>needle</dt>
      <dd>The substring to search for</dd>
 
-     <dt><code>offset</code></dt>
+     <dt>offset</dt>
      <dd>The offset where to start counting</dd>
 
-     <dt><code>length</code></dt>
+     <dt>length</dt>
      <dd>The maximum length after the specified offset to search for the
        substring. It outputs a warning if the offset plus the length is
        greater than the <code>haystack</code> length.</dd>
    </dl>
-  </p>
  </div>
 
  <div>
   <h3>Return Values</h3>
-  <p>
-   This function returns an <a href="language.types.integer.php">integer</a>.
-  </p>
+  <p>This function returns an <a href="language.types.integer.php">integer</a>.</p>
  </div>
 
  <div class="examples">
-  <p>
-   <div>
     <p><strong>Example #1 A substrCount() example</strong></p>
     <pre><span style="color: #0000BB">&lt;?php<br />$text&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #DD0000">'This&nbsp;is&nbsp;a&nbsp;test'</span><span style="color: #007700">;<br />echo&nbsp;</span><span style="color: #0000BB">strlen</span><span style="color: #007700">(</span><span style="color: #0000BB">$text</span><span style="color: #007700">);&nbsp;</span><span style="color: #FF8000">//&nbsp;14<br /><br /></span><span style="color: #007700">echo&nbsp;</span><span style="color: #0000BB">substrCount</span><span style="color: #007700">(</span><span style="color: #0000BB">$text</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">'is'</span><span style="color: #007700">);&nbsp;</span><span style="color: #FF8000">//&nbsp;2<br /><br />//&nbsp;the&nbsp;string&nbsp;is&nbsp;reduced&nbsp;to&nbsp;'s&nbsp;is&nbsp;a&nbsp;test',&nbsp;so&nbsp;it&nbsp;prints&nbsp;1<br /></span><span style="color: #007700">echo&nbsp;</span><span style="color: #0000BB">substrCount</span><span style="color: #007700">(</span><span style="color: #0000BB">$text</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">'is'</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">3</span><span style="color: #007700">);<br /><br /></span><span style="color: #FF8000">//&nbsp;the&nbsp;text&nbsp;is&nbsp;reduced&nbsp;to&nbsp;'s&nbsp;i',&nbsp;so&nbsp;it&nbsp;prints&nbsp;0<br /></span><span style="color: #007700">echo&nbsp;</span><span style="color: #0000BB">substrCount</span><span style="color: #007700">(</span><span style="color: #0000BB">$text</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">'is'</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">3</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">3</span><span style="color: #007700">);<br /><br /></span><span style="color: #FF8000">//&nbsp;generates&nbsp;a&nbsp;warning&nbsp;because&nbsp;5+10&nbsp;&gt;&nbsp;14<br /></span><span style="color: #007700">echo&nbsp;</span><span style="color: #0000BB">substrCount</span><span style="color: #007700">(</span><span style="color: #0000BB">$text</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">'is'</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">5</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">10</span><span style="color: #007700">);<br /><br /><br /></span><span style="color: #FF8000">//&nbsp;prints&nbsp;only&nbsp;1,&nbsp;because&nbsp;it&nbsp;doesn't&nbsp;count&nbsp;overlapped&nbsp;substrings<br /></span><span style="color: #0000BB">$text2&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #DD0000">'gcdgcdgcd'</span><span style="color: #007700">;<br />echo&nbsp;</span><span style="color: #0000BB">substrCount</span><span style="color: #007700">(</span><span style="color: #0000BB">$text2</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">'gcdgcd'</span><span style="color: #007700">);<br /></span><span style="color: #0000BB">?&gt;</span></pre>
-
-   </div>
-  </p>
  </div>

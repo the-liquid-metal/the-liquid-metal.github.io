@@ -1,9 +1,7 @@
 <h1>implode</h1>
 
  <div>
-  <p>
-   Join array elements with a <code>glue</code> string.
-  </p>
+  <p>Join array elements with a <code>glue</code> string.</p>
   <blockquote><strong>Note</strong>:
     <strong>implode()</strong> can, for historical reasons, accept
     its parameters in either order. For consistency with
@@ -14,15 +12,13 @@
 
  <div>
   <h3>Parameters</h3>
-  <p>
    <dl>
-     <dt><code>glue</code></dt>
+     <dt>glue</dt>
      <dd>Defaults to an empty string.</dd>
 
-     <dt><code>pieces</code></dt>
+     <dt>pieces</dt>
      <dd>The array of strings to implode.</dd>
    </dl>
-  </p>
  </div>
 
  <div>
@@ -34,13 +30,8 @@
  </div>
 
  <div class="examples">
-  <p>
-   <div>
     <p><strong>Example #1 implode() example</strong></p>
     <pre><span style="color: #0000BB">&lt;?php<br /><br />$array&nbsp;</span><span style="color: #007700">=&nbsp;array(</span><span style="color: #DD0000">'lastname'</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">'email'</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">'phone'</span><span style="color: #007700">);<br /></span><span style="color: #0000BB">$comma_separated&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #0000BB">implode</span><span style="color: #007700">(</span><span style="color: #DD0000">","</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">$array</span><span style="color: #007700">);<br /><br />echo&nbsp;</span><span style="color: #0000BB">$comma_separated</span><span style="color: #007700">;&nbsp;</span><span style="color: #FF8000">//&nbsp;lastname,email,phone<br /><br />//&nbsp;Empty&nbsp;string&nbsp;when&nbsp;using&nbsp;an&nbsp;empty&nbsp;array:<br /></span><span style="color: #0000BB">var_dump</span><span style="color: #007700">(</span><span style="color: #0000BB">implode</span><span style="color: #007700">(</span><span style="color: #DD0000">'hello'</span><span style="color: #007700">,&nbsp;array()));&nbsp;</span><span style="color: #FF8000">//&nbsp;string(0)&nbsp;""<br /><br /></span><span style="color: #0000BB">?&gt;</span></pre>
-
-   </div>   
-  </p>
  </div>
 
   <blockquote><strong>Note</strong>:This function is binary-safe.</blockquote>

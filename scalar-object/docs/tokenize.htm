@@ -23,67 +23,51 @@
 
  <div>
   <h3>Parameters</h3>
-  <p>
    <dl>
-     <dt><code>str</code></dt>
+     <dt>str</dt>
      <dd>The <a href="language.types.string.php">string</a> being split up into smaller strings (tokens).</dd>
 
-     <dt><code>token</code></dt>
+     <dt>token</dt>
      <dd>The delimiter used when splitting up <code>str</code>.</dd>
    </dl>
-  </p>
  </div>
 
  <div>
   <h3>Return Values</h3>
-  <p>
-   A <a href="language.types.string.php">string</a> token.
-  </p>
+  <p>A <a href="language.types.string.php">string</a> token.</p>
  </div>
 
  <div class="examples">
-  <p>
-   <div>
     <p><strong>Example #1 tokenize() example</strong></p>
     <pre><span style="color: #0000BB">&lt;?php<br />$string&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #DD0000">"This&nbsp;is\tan&nbsp;example\nstring"</span><span style="color: #007700">;<br /></span><span style="color: #FF8000">/*&nbsp;Use&nbsp;tab&nbsp;and&nbsp;newline&nbsp;as&nbsp;tokenizing&nbsp;characters&nbsp;as&nbsp;well&nbsp;&nbsp;*/<br /></span><span style="color: #0000BB">$tok&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #0000BB">tokenize</span><span style="color: #007700">(</span><span style="color: #0000BB">$string</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">"&nbsp;\n\t"</span><span style="color: #007700">);<br /><br />while&nbsp;(</span><span style="color: #0000BB">$tok&nbsp;</span><span style="color: #007700">!==&nbsp;</span><span style="color: #0000BB">false</span><span style="color: #007700">)&nbsp;{<br />&nbsp;&nbsp;&nbsp;&nbsp;echo&nbsp;</span><span style="color: #DD0000">"Word=</span><span style="color: #0000BB">$tok</span><span style="color: #DD0000">&lt;br&nbsp;/&gt;"</span><span style="color: #007700">;<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #0000BB">$tok&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #0000BB">tokenize</span><span style="color: #007700">(</span><span style="color: #DD0000">"&nbsp;\n\t"</span><span style="color: #007700">);<br />}<br /></span><span style="color: #0000BB">?&gt;</span></pre>
 
-   </div>
-  </p> 
   <p>
    The behavior when an empty part was found changed with PHP 4.1.0. The old
    behavior returned an empty string, while the new, correct, behavior
    simply skips the part of the string:
   </p>
-  <p>
-   <div>
+
     <p><strong>Example #2 Old tokenize() behavior</strong></p>
     <pre><span style="color: #0000BB">&lt;?php<br />$first_token&nbsp;&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #0000BB">tokenize</span><span style="color: #007700">(</span><span style="color: #DD0000">'/something'</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">'/'</span><span style="color: #007700">);<br /></span><span style="color: #0000BB">$second_token&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #0000BB">tokenize</span><span style="color: #007700">(</span><span style="color: #DD0000">'/'</span><span style="color: #007700">);<br /></span><span style="color: #0000BB">var_dump</span><span style="color: #007700">(</span><span style="color: #0000BB">$first_token</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">$second_token</span><span style="color: #007700">);<br /></span><span style="color: #0000BB">?&gt;</span></pre>
-
     <div>The above example will output:</div>
 <pre>
 string(0) &quot;&quot;
 string(9) &quot;something&quot;
 </pre>
-   </div>
-   <div>
+
     <p><strong>Example #3 New tokenize() behavior</strong></p>
     <pre><span style="color: #0000BB">&lt;?php<br />$first_token&nbsp;&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #0000BB">tokenize</span><span style="color: #007700">(</span><span style="color: #DD0000">'/something'</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">'/'</span><span style="color: #007700">);<br /></span><span style="color: #0000BB">$second_token&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #0000BB">tokenize</span><span style="color: #007700">(</span><span style="color: #DD0000">'/'</span><span style="color: #007700">);<br /></span><span style="color: #0000BB">var_dump</span><span style="color: #007700">(</span><span style="color: #0000BB">$first_token</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">$second_token</span><span style="color: #007700">);<br /></span><span style="color: #0000BB">?&gt;</span></pre>
-
     <div>The above example will output:</div>
 <pre>
 string(9) &quot;something&quot;
 bool(false)
 </pre>
-   </div>
-  </p>
  </div>
-
- <div>
 
   <div class="warning"><strong>Warning</strong><p>This function may
-return Boolean <strong><code>FALSE</code></strong>, but may also return a non-Boolean value which
-evaluates to <strong><code>FALSE</code></strong>. Please read the section on <a href="language.types.boolean.php">Booleans</a> for more
-information. Use <a href="language.operators.comparison.php">the ===
-operator</a> for testing the return value of this
-function.</p></div>
- </div>
+    return Boolean <strong><code>FALSE</code></strong>, but may also return a non-Boolean value which
+    evaluates to <strong><code>FALSE</code></strong>. Please read the section on <a href="language.types.boolean.php">Booleans</a> for more
+    information. Use <a href="language.operators.comparison.php">the ===
+    operator</a> for testing the return value of this
+    function.</p>
+  </div>

@@ -1,15 +1,10 @@
 <h1>search</h1>
- <div>
-  <p>
-   Searches <code>haystack</code> for <code>needle</code>.
-  </p>
- </div>
+ <div>Searches <code>haystack</code> for <code>needle</code>.</div>
 
  <div>
   <h3>Parameters</h3>
-  <p>
    <dl>
-     <dt><code>needle</code></dt>
+     <dt>needle</dt>
      <dd><p>The searched value.</p>
       <blockquote><strong>Note</strong>:
         If <code>needle</code> is a string, the comparison is done
@@ -17,10 +12,10 @@
        </blockquote>
      </dd>
 
-     <dt><code>haystack</code></dt>
+     <dt>haystack</dt>
      <dd>The array.</dd>
 
-     <dt><code>strict</code></dt>
+     <dt>strict</dt>
      <dd>If the third parameter <code>strict</code> is set to <strong><code>TRUE</code></strong>
        then the <strong>search()</strong> function will search for
        <em>identical</em> elements in the
@@ -29,7 +24,6 @@
        <code>needle</code> in the <code>haystack</code>,
        and objects must be the same instance.</dd>
    </dl>
-  </p>
  </div>
 
  <div>
@@ -44,20 +38,17 @@
    all matching values, use <a href="function.array-keys.php">array_keys()</a> with the optional
    <code>search_value</code> parameter instead.
   </p>
-  <div class="warning"><strong>Warning</strong><p>This function may
-return Boolean <strong><code>FALSE</code></strong>, but may also return a non-Boolean value which
-evaluates to <strong><code>FALSE</code></strong>. Please read the section on <a href="language.types.boolean.php">Booleans</a> for more
-information. Use <a href="language.operators.comparison.php">the ===
-operator</a> for testing the return value of this
-function.</p></div>
+  <div class="warning"><strong>Warning</strong>
+    <p>This function may return Boolean <strong><code>FALSE</code></strong>, but may also return
+       a non-Boolean value which evaluates to <strong><code>FALSE</code></strong>. Please read the
+       section on <a href="language.types.boolean.php">Booleans</a> for more information. Use 
+       <a href="language.operators.comparison.php">the === operator</a> for testing the return
+       value of this function.
+    </p>
+  </div>
  </div>
 
  <div class="examples">
-  <p>
-   <div>
     <p><strong>Example #1 search() example</strong></p>
     <pre><span style="color: #0000BB">&lt;?php<br />$array&nbsp;</span><span style="color: #007700">=&nbsp;array(</span><span style="color: #0000BB">0&nbsp;</span><span style="color: #007700">=&gt;&nbsp;</span><span style="color: #DD0000">'blue'</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">1&nbsp;</span><span style="color: #007700">=&gt;&nbsp;</span><span style="color: #DD0000">'red'</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">2&nbsp;</span><span style="color: #007700">=&gt;&nbsp;</span><span style="color: #DD0000">'green'</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">3&nbsp;</span><span style="color: #007700">=&gt;&nbsp;</span><span style="color: #DD0000">'red'</span><span style="color: #007700">);<br /><br /></span><span style="color: #0000BB">$key&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #0000BB">search</span><span style="color: #007700">(</span><span style="color: #DD0000">'green'</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">$array</span><span style="color: #007700">);&nbsp;</span><span style="color: #FF8000">//&nbsp;$key&nbsp;=&nbsp;2;<br /></span><span style="color: #0000BB">$key&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #0000BB">search</span><span style="color: #007700">(</span><span style="color: #DD0000">'red'</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">$array</span><span style="color: #007700">);&nbsp;&nbsp;&nbsp;</span><span style="color: #FF8000">//&nbsp;$key&nbsp;=&nbsp;1;<br /></span><span style="color: #0000BB">?&gt;</span></pre>
-
-   </div>
-  </p>
  </div>

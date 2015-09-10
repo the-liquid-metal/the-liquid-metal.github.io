@@ -1,9 +1,6 @@
 <h1>pow</h1>
  <div>
-  <p>
-   Returns <code>base</code> raised to the power of
-   <code>exp</code>. 
-  </p>
+  <p>Returns <code>base</code> raised to the power of<code>exp</code>.</p>
   <blockquote><strong>Note</strong>:
     In PHP 5.6 onwards, you may prefer to use the
     <a href="language.operators.arithmetic.php">**</a> operator.
@@ -12,15 +9,13 @@
 
  <div>
   <h3>Parameters</h3>
-  <p>
    <dl>
-     <dt><code>base</code></dt>
+     <dt>base</dt>
      <dd>The base to use</dd>
 
-     <dt><code>exp</code></dt>
+     <dt>exp</dt>
      <dd>The exponent</dd>
    </dl>
-  </p>
  </div>
 
  <div>
@@ -34,16 +29,11 @@
  </div>
 
  <div class="examples">
-  <p>
-   <div>
     <p><strong>Example #1 Some examples of <strong>pow()</strong></strong></p>
     <pre><span style="color: #0000BB">&lt;?php<br /><br />var_dump</span><span style="color: #007700">(</span><span style="color: #0000BB">pow</span><span style="color: #007700">(</span><span style="color: #0000BB">2</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">8</span><span style="color: #007700">));&nbsp;</span><span style="color: #FF8000">//&nbsp;int(256)<br /></span><span style="color: #007700">echo&nbsp;</span><span style="color: #0000BB">pow</span><span style="color: #007700">(-</span><span style="color: #0000BB">1</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">20</span><span style="color: #007700">);&nbsp;</span><span style="color: #FF8000">//&nbsp;1<br /></span><span style="color: #007700">echo&nbsp;</span><span style="color: #0000BB">pow</span><span style="color: #007700">(</span><span style="color: #0000BB">0</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">0</span><span style="color: #007700">);&nbsp;</span><span style="color: #FF8000">//&nbsp;1<br /><br /></span><span style="color: #007700">echo&nbsp;</span><span style="color: #0000BB">pow</span><span style="color: #007700">(-</span><span style="color: #0000BB">1</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">5.5</span><span style="color: #007700">);&nbsp;</span><span style="color: #FF8000">//&nbsp;PHP&nbsp;&gt;4.0.6&nbsp;&nbsp;NAN<br /></span><span style="color: #007700">echo&nbsp;</span><span style="color: #0000BB">pow</span><span style="color: #007700">(-</span><span style="color: #0000BB">1</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">5.5</span><span style="color: #007700">);&nbsp;</span><span style="color: #FF8000">//&nbsp;PHP&nbsp;&lt;=4.0.6&nbsp;1.#IND<br /></span><span style="color: #0000BB">?&gt;</span></pre>
-
-   </div>
-  </p>
  </div>
 
   <blockquote><strong>Note</strong>:
     This function will convert all input to a number, even non-scalar values,
     which could lead to <em>weird</em> results.
-   </blockquote>
+  </blockquote>

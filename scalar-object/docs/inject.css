@@ -1,3 +1,6 @@
+code {
+	font-size: 1em;
+}
 .ajax-area {
 	margin-top: 1em;
 	background: white;
@@ -7,6 +10,11 @@
 .ajax-area h1 {
 	margin-top: 0px;
 	font-size: 1.5em;
+}
+.ajax-area dt {
+	color: #468847;
+	white-space: nowrap;
+	font-family: Menlo,Monaco,Consolas,"Courier New",monospace;
 }
 .ajax-area blockquote {
 	margin-top: 1em;

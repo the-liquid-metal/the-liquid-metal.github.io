@@ -12,9 +12,8 @@
 
  <div>
   <h3>Parameters</h3>
-  <p>
    <dl>
-     <dt><code>string</code></dt>
+     <dt>string</dt>
      <dd><p>The input string.</p>
       <p>
        An <a href="language.types.array.php">array</a> of <a href="language.types.string.php">string</a>s can be provided, in which
@@ -25,10 +24,10 @@
        <a href="language.types.array.php">array</a>s, in which case the corresponding array element will
        be used for each input string.</p></dd>
 
-     <dt><code>replacement</code></dt>
+     <dt>replacement</dt>
      <dd>The replacement string.</dd>
 
-     <dt><code>start</code></dt>
+     <dt>start</dt>
      <dd><p>If <code>start</code> is positive, the replacing will
        begin at the <code>start</code>&#039;th offset into
        <code>string</code>.
@@ -38,7 +37,7 @@
        begin at the <code>start</code>&#039;th character from the
        end of <code>string</code>.</p></dd>
 
-     <dt><code>length</code></dt>
+     <dt>length</dt>
      <dd>If given and is positive, it represents the length of the portion of
        <code>string</code> which is to be replaced. If it is
        negative, it represents the number of characters from the end of
@@ -51,41 +50,25 @@
        <code>string</code> at the given
        <code>start</code> offset.</dd>
    </dl>
-  </p>
  </div>
 
  <div>
   <h3>Return Values</h3>
-  <p>
-   The result string is returned. If <code>string</code> is an
-   array then array is returned.
-  </p>
+  <p>The result string is returned. If <code>string</code> is an array then array is returned.</p>
  </div>
 
  <div class="examples">
-  <p>
-   <div>
     <p><strong>Example #1 Simple substrReplace() examples</strong></p>
     <pre><span style="color: #0000BB">&lt;?php<br />$var&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #DD0000">'ABCDEFGH:/MNRPQR/'</span><span style="color: #007700">;<br />echo&nbsp;</span><span style="color: #DD0000">"Original:&nbsp;</span><span style="color: #0000BB">$var</span><span style="color: #DD0000">&lt;hr&nbsp;/&gt;\n"</span><span style="color: #007700">;<br /><br /></span><span style="color: #FF8000">/*&nbsp;These&nbsp;two&nbsp;examples&nbsp;replace&nbsp;all&nbsp;of&nbsp;$var&nbsp;with&nbsp;'bob'.&nbsp;*/<br /></span><span style="color: #007700">echo&nbsp;</span><span style="color: #0000BB">substrReplace</span><span style="color: #007700">(</span><span style="color: #0000BB">$var</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">'bob'</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">0</span><span style="color: #007700">)&nbsp;.&nbsp;</span><span style="color: #DD0000">"&lt;br&nbsp;/&gt;\n"</span><span style="color: #007700">;<br />echo&nbsp;</span><span style="color: #0000BB">substrReplace</span><span style="color: #007700">(</span><span style="color: #0000BB">$var</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">'bob'</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">0</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">strlen</span><span style="color: #007700">(</span><span style="color: #0000BB">$var</span><span style="color: #007700">))&nbsp;.&nbsp;</span><span style="color: #DD0000">"&lt;br&nbsp;/&gt;\n"</span><span style="color: #007700">;<br /><br /></span><span style="color: #FF8000">/*&nbsp;Insert&nbsp;'bob'&nbsp;right&nbsp;at&nbsp;the&nbsp;beginning&nbsp;of&nbsp;$var.&nbsp;*/<br /></span><span style="color: #007700">echo&nbsp;</span><span style="color: #0000BB">substrReplace</span><span style="color: #007700">(</span><span style="color: #0000BB">$var</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">'bob'</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">0</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">0</span><span style="color: #007700">)&nbsp;.&nbsp;</span><span style="color: #DD0000">"&lt;br&nbsp;/&gt;\n"</span><span style="color: #007700">;<br /><br /></span><span style="color: #FF8000">/*&nbsp;These&nbsp;next&nbsp;two&nbsp;replace&nbsp;'MNRPQR'&nbsp;in&nbsp;$var&nbsp;with&nbsp;'bob'.&nbsp;*/<br /></span><span style="color: #007700">echo&nbsp;</span><span style="color: #0000BB">substrReplace</span><span style="color: #007700">(</span><span style="color: #0000BB">$var</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">'bob'</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">10</span><span style="color: #007700">,&nbsp;-</span><span style="color: #0000BB">1</span><span style="color: #007700">)&nbsp;.&nbsp;</span><span style="color: #DD0000">"&lt;br&nbsp;/&gt;\n"</span><span style="color: #007700">;<br />echo&nbsp;</span><span style="color: #0000BB">substrReplace</span><span style="color: #007700">(</span><span style="color: #0000BB">$var</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">'bob'</span><span style="color: #007700">,&nbsp;-</span><span style="color: #0000BB">7</span><span style="color: #007700">,&nbsp;-</span><span style="color: #0000BB">1</span><span style="color: #007700">)&nbsp;.&nbsp;</span><span style="color: #DD0000">"&lt;br&nbsp;/&gt;\n"</span><span style="color: #007700">;<br /><br /></span><span style="color: #FF8000">/*&nbsp;Delete&nbsp;'MNRPQR'&nbsp;from&nbsp;$var.&nbsp;*/<br /></span><span style="color: #007700">echo&nbsp;</span><span style="color: #0000BB">substrReplace</span><span style="color: #007700">(</span><span style="color: #0000BB">$var</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">''</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">10</span><span style="color: #007700">,&nbsp;-</span><span style="color: #0000BB">1</span><span style="color: #007700">)&nbsp;.&nbsp;</span><span style="color: #DD0000">"&lt;br&nbsp;/&gt;\n"</span><span style="color: #007700">;<br /></span><span style="color: #0000BB">?&gt;</span></pre>
 
-   </div>
-  </p>
-  <p>
-   <div>
-    <p><strong>Example #2 
-     Using <strong>substrReplace()</strong> to replace multiple strings at
-     once
-    </strong></p>
+    <p><strong>Example #2 Using <strong>substrReplace()</strong> to replace multiple strings at once</strong></p>
     <pre><span style="color: #0000BB">&lt;?php<br />$input&nbsp;</span><span style="color: #007700">=&nbsp;array(</span><span style="color: #DD0000">'A:&nbsp;XXX'</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">'B:&nbsp;XXX'</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">'C:&nbsp;XXX'</span><span style="color: #007700">);<br /><br /></span><span style="color: #FF8000">//&nbsp;A&nbsp;simple&nbsp;case:&nbsp;replace&nbsp;XXX&nbsp;in&nbsp;each&nbsp;string&nbsp;with&nbsp;YYY.<br /></span><span style="color: #007700">echo&nbsp;</span><span style="color: #0000BB">implode</span><span style="color: #007700">(</span><span style="color: #DD0000">';&nbsp;'</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">substrReplace</span><span style="color: #007700">(</span><span style="color: #0000BB">$input</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">'YYY'</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">3</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">3</span><span style="color: #007700">)).</span><span style="color: #DD0000">"\n"</span><span style="color: #007700">;<br /><br /></span><span style="color: #FF8000">//&nbsp;A&nbsp;more&nbsp;complicated&nbsp;case&nbsp;where&nbsp;each&nbsp;replacement&nbsp;is&nbsp;different.<br /></span><span style="color: #0000BB">$replace&nbsp;</span><span style="color: #007700">=&nbsp;array(</span><span style="color: #DD0000">'AAA'</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">'BBB'</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">'CCC'</span><span style="color: #007700">);<br />echo&nbsp;</span><span style="color: #0000BB">implode</span><span style="color: #007700">(</span><span style="color: #DD0000">';&nbsp;'</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">substrReplace</span><span style="color: #007700">(</span><span style="color: #0000BB">$input</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">$replace</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">3</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">3</span><span style="color: #007700">)).</span><span style="color: #DD0000">"\n"</span><span style="color: #007700">;<br /><br /></span><span style="color: #FF8000">//&nbsp;Replace&nbsp;a&nbsp;different&nbsp;number&nbsp;of&nbsp;characters&nbsp;each&nbsp;time.<br /></span><span style="color: #0000BB">$length&nbsp;</span><span style="color: #007700">=&nbsp;array(</span><span style="color: #0000BB">1</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">2</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">3</span><span style="color: #007700">);<br />echo&nbsp;</span><span style="color: #0000BB">implode</span><span style="color: #007700">(</span><span style="color: #DD0000">';&nbsp;'</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">substrReplace</span><span style="color: #007700">(</span><span style="color: #0000BB">$input</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">$replace</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">3</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">$length</span><span style="color: #007700">)).</span><span style="color: #DD0000">"\n"</span><span style="color: #007700">;<br /></span><span style="color: #0000BB">?&gt;</span></pre>
-
     <div>The above example will output:</div>
 <pre>
 A: YYY; B: YYY; C: YYY
 A: AAA; B: BBB; C: CCC
 A: AAAXX; B: BBBX; C: CCC
 </pre>
-   </div>
-  </p>
  </div>
 
   <blockquote><strong>Note</strong>:This function is binary-safe.</blockquote>

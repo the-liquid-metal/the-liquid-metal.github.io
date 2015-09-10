@@ -1,28 +1,24 @@
 <h1>intersect</h1>
 
  <div>
-  <p>
    <strong>intersect()</strong> returns an array
    containing all the values of <code>array1</code>
    that are present in all the arguments.
    Note that keys are preserved.
-  </p>
  </div>
 
  <div>
   <h3>Parameters</h3>
-  <p>
    <dl>
-     <dt><code>array1</code></dt>
+     <dt>array1</dt>
      <dd>The array with master values to check.</dd>
 
-     <dt><code>array2</code></dt>
+     <dt>array2</dt>
      <dd>An array to compare values against.</dd>
 
-     <dt><code>...</code></dt>
+     <dt>...</dt>
      <dd>A variable list of arrays to compare.</dd>
    </dl>
-  </p>
  </div>
 
  <div>
@@ -34,11 +30,8 @@
  </div>
 
  <div class="examples">
-  <p>
-   <div>
     <p><strong>Example #1 intersect() example</strong></p>
     <pre><span style="color: #0000BB">&lt;?php<br />$array1&nbsp;</span><span style="color: #007700">=&nbsp;array(</span><span style="color: #DD0000">"a"&nbsp;</span><span style="color: #007700">=&gt;&nbsp;</span><span style="color: #DD0000">"green"</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">"red"</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">"blue"</span><span style="color: #007700">);<br /></span><span style="color: #0000BB">$array2&nbsp;</span><span style="color: #007700">=&nbsp;array(</span><span style="color: #DD0000">"b"&nbsp;</span><span style="color: #007700">=&gt;&nbsp;</span><span style="color: #DD0000">"green"</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">"yellow"</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">"red"</span><span style="color: #007700">);<br /></span><span style="color: #0000BB">$result&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #0000BB">intersect</span><span style="color: #007700">(</span><span style="color: #0000BB">$array1</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">$array2</span><span style="color: #007700">);<br /></span><span style="color: #0000BB">print_r</span><span style="color: #007700">(</span><span style="color: #0000BB">$result</span><span style="color: #007700">);<br /></span><span style="color: #0000BB">?&gt;</span></pre>
-
     <div>The above example will output:</div>
 <pre>
 Array
@@ -47,12 +40,10 @@ Array
     [0] =&gt; red
 )
 </pre>
-   </div>
-  </p>
  </div>
 
   <blockquote><strong>Note</strong>:
     Two elements are considered equal if and only if
     <em>(string) $elem1 === (string) $elem2</em>. In words:
     when the string representation is the same.
-   </blockquote>
+  </blockquote>

@@ -18,12 +18,11 @@
 
  <div>
   <h3>Parameters</h3>
-  <p>
    <dl>
-     <dt><code>string</code></dt>
+     <dt>string</dt>
      <dd>The string</dd>
 
-     <dt><code>format</code></dt>
+     <dt>format</dt>
      <dd><p>Specify the return value of this function. The current supported values are:</p>
        <ul>
         <li>0 - returns the number of words found</li>
@@ -39,10 +38,9 @@
        </ul>
      </dd>
 
-     <dt><code>charlist</code></dt>
+     <dt>charlist</dt>
      <dd>A list of additional characters which will be considered as &#039;word&#039;</dd>
    </dl>
-  </p>
  </div>
 
  <div>
@@ -51,11 +49,8 @@
  </div>
 
  <div class="examples">
-  <p>
-   <div>
     <p><strong>Example #1 A wordCount() example</strong></p>
     <pre><span style="color: #0000BB">&lt;?php<br /><br />$str&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #DD0000">"Hello&nbsp;fri3nd,&nbsp;you're<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;looking&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;good&nbsp;today!"</span><span style="color: #007700">;<br /><br /></span><span style="color: #0000BB">print_r</span><span style="color: #007700">(</span><span style="color: #0000BB">wordCount</span><span style="color: #007700">(</span><span style="color: #0000BB">$str</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">1</span><span style="color: #007700">));<br /></span><span style="color: #0000BB">print_r</span><span style="color: #007700">(</span><span style="color: #0000BB">wordCount</span><span style="color: #007700">(</span><span style="color: #0000BB">$str</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">2</span><span style="color: #007700">));<br /></span><span style="color: #0000BB">print_r</span><span style="color: #007700">(</span><span style="color: #0000BB">wordCount</span><span style="color: #007700">(</span><span style="color: #0000BB">$str</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">1</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">'àáãç3'</span><span style="color: #007700">));<br /><br />echo&nbsp;</span><span style="color: #0000BB">wordCount</span><span style="color: #007700">(</span><span style="color: #0000BB">$str</span><span style="color: #007700">);<br /><br /></span><span style="color: #0000BB">?&gt;</span></pre>
-
     <div>The above example will output:</div>
 <pre>
 Array
@@ -92,6 +87,4 @@ Array
 
 7
 </pre>
-   </div>
-  </p>
  </div>

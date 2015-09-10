@@ -18,12 +18,11 @@
 
  <div>
   <h3>Parameters</h3>
-  <p>
    <dl>
-     <dt><code>string</code></dt>
+     <dt>string</dt>
      <dd>The input string.</dd>
 
-     <dt><code>flags</code></dt>
+     <dt>flags</dt>
      <dd><p>A bitmask of one or more of the following flags, which specify how to handle quotes and
        which document type to use. The default is <em>ENT_COMPAT | ENT_HTML401</em>.
        <table class="table">
@@ -34,7 +33,6 @@
            <th>Constant Name</th>
            <th>Description</th>
           </tr>
-
          </thead>
 
          <tbody>
@@ -55,38 +53,28 @@
 
           <tr>
            <td><strong><code>ENT_HTML401</code></strong></td>
-           <td>
-            Handle code as HTML 4.01.
-           </td>
+           <td>Handle code as HTML 4.01.</td>
           </tr>
 
           <tr>
            <td><strong><code>ENT_XML1</code></strong></td>
-           <td>
-            Handle code as XML 1.
-           </td>
+           <td>Handle code as XML 1.</td>
           </tr>
 
           <tr>
            <td><strong><code>ENT_XHTML</code></strong></td>
-           <td>
-            Handle code as XHTML.
-           </td>
+           <td>Handle code as XHTML.</td>
           </tr>
 
           <tr>
            <td><strong><code>ENT_HTML5</code></strong></td>
-           <td>
-            Handle code as HTML 5.
-           </td>
+           <td>Handle code as HTML 5.</td>
           </tr>
-
          </tbody>
-
        </table>
 </p></dd>
 
-     <dt><code>encoding</code></dt>
+     <dt>encoding</dt>
      <dd>
 
  <p>
@@ -120,24 +108,19 @@
      <th>Aliases</th>
      <th>Description</th>
     </tr>
-
    </thead>
 
    <tbody>
     <tr>
      <td>ISO-8859-1</td>
      <td>ISO8859-1</td>
-     <td>
-      Western European, Latin-1.
-     </td>
+     <td>Western European, Latin-1.</td>
     </tr>
 
     <tr>
      <td>ISO-8859-5</td>
      <td>ISO8859-5</td>
-     <td>
-      Little used cyrillic charset (Latin/Cyrillic).
-     </td>
+     <td>Little used cyrillic charset (Latin/Cyrillic).</td>
     </tr>
 
     <tr>
@@ -152,89 +135,67 @@
     <tr>
      <td>UTF-8</td>
      <td>&nbsp;</td>
-     <td>
-      ASCII compatible multi-byte 8-bit Unicode.
-     </td>
+     <td>ASCII compatible multi-byte 8-bit Unicode.</td>
     </tr>
 
     <tr>
      <td>cp866</td>
      <td>ibm866, 866</td>
-     <td>
-      DOS-specific Cyrillic charset.
-     </td>
+     <td>DOS-specific Cyrillic charset.</td>
     </tr>
 
     <tr>
      <td>cp1251</td>
      <td>Windows-1251, win-1251, 1251</td>
-     <td>
-      Windows-specific Cyrillic charset.
-     </td>
+     <td>Windows-specific Cyrillic charset.</td>
     </tr>
 
     <tr>
      <td>cp1252</td>
      <td>Windows-1252, 1252</td>
-     <td>
-      Windows specific charset for Western European.
-     </td>
+     <td>Windows specific charset for Western European.</td>
     </tr>
 
     <tr>
      <td>KOI8-R</td>
      <td>koi8-ru, koi8r</td>
-     <td>
-      Russian.
-     </td>
+     <td>Russian.</td>
     </tr>
 
     <tr>
      <td>BIG5</td>
      <td>950</td>
-     <td>
-      Traditional Chinese, mainly used in Taiwan.
-     </td>
+     <td>Traditional Chinese, mainly used in Taiwan.</td>
     </tr>
 
     <tr>
      <td>GB2312</td>
      <td>936</td>
-     <td>
-      Simplified Chinese, national standard character set.
-     </td>
+     <td>Simplified Chinese, national standard character set.</td>
     </tr>
 
     <tr>
      <td>BIG5-HKSCS</td>
      <td>&nbsp;</td>
-     <td>
-      Big5 with Hong Kong extensions, Traditional Chinese.
-     </td>
+     <td>Big5 with Hong Kong extensions, Traditional Chinese.</td>
     </tr>
 
     <tr>
      <td>Shift_JIS</td>
      <td>SJIS, SJIS-win, cp932, 932</td>
-     <td>
-      Japanese
-     </td>
+     <td>Japanese</td>
     </tr>
 
     <tr>
      <td>EUC-JP</td>
      <td>EUCJP, eucJP-win</td>
-     <td>
-      Japanese
-     </td>
+     <td>Japanese</td>
     </tr>
 
     <tr>
      <td>MacRoman</td>
      <td>&nbsp;</td>
-     <td>
-      Charset that was used by Mac OS.
-     </td>
+     <td>Charset that was used by Mac OS.</td>
     </tr>
 
     <tr>
@@ -247,9 +208,7 @@
       <a href="function.setlocale.php">setlocale()</a>), in this order. Not recommended.
      </td>
     </tr>
-
    </tbody>
-
  </table>
 
  <blockquote><strong>Note</strong>:
@@ -260,24 +219,16 @@
 
      </dd>
    </dl>
-  </p>
  </div>
 
  <div>
   <h3>Return Values</h3>
-  <p>
-   Returns the decoded string.
-  </p>
+  <p>Returns the decoded string.</p>
  </div>
 
  <div class="examples">
-  <p>
-   <div>
     <p><strong>Example #1 Decoding HTML entities</strong></p>
     <pre><span style="color: #0000BB">&lt;?php<br />$orig&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #DD0000">"I'll&nbsp;\"walk\"&nbsp;the&nbsp;&lt;b&gt;dog&lt;/b&gt;&nbsp;now"</span><span style="color: #007700">;<br /><br /></span><span style="color: #0000BB">$a&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #0000BB">htmlentities</span><span style="color: #007700">(</span><span style="color: #0000BB">$orig</span><span style="color: #007700">);<br /><br /></span><span style="color: #0000BB">$b&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #0000BB">htmlEntitiesDecode</span><span style="color: #007700">(</span><span style="color: #0000BB">$a</span><span style="color: #007700">);<br /><br />echo&nbsp;</span><span style="color: #0000BB">$a</span><span style="color: #007700">;&nbsp;</span><span style="color: #FF8000">//&nbsp;I'll&nbsp;&amp;quot;walk&amp;quot;&nbsp;the&nbsp;&amp;lt;b&amp;gt;dog&amp;lt;/b&amp;gt;&nbsp;now<br /><br /></span><span style="color: #007700">echo&nbsp;</span><span style="color: #0000BB">$b</span><span style="color: #007700">;&nbsp;</span><span style="color: #FF8000">//&nbsp;I'll&nbsp;"walk"&nbsp;the&nbsp;&lt;b&gt;dog&lt;/b&gt;&nbsp;now<br /></span><span style="color: #0000BB">?&gt;</span></pre>
-
-   </div>   
-  </p>
  </div>
 
   <blockquote><strong>Note</strong>:
@@ -286,4 +237,4 @@
     entity is not ASCII code 32 (which is stripped by
     <a href="function.trim.php">trim()</a>) but ASCII code 160 (0xa0) in the default ISO
     8859-1 encoding.
-   </blockquote>
+  </blockquote>

@@ -19,21 +19,19 @@
 
  <div>
   <h3>Parameters</h3>
-  <p>
    <dl>
-     <dt><code>haystack</code></dt>
+     <dt>haystack</dt>
      <dd>The input string.</dd>
 
-     <dt><code>needle</code></dt>
+     <dt>needle</dt>
      <dd>If <code>needle</code> is not a string, it is converted to
        an integer and applied as the ordinal value of a character.</dd>
 
-     <dt><code>before_needle</code></dt>
+     <dt>before_needle</dt>
      <dd>If <strong><code>TRUE</code></strong>, <strong>firstOccurSubstr()</strong> returns
        the part of the <code>haystack</code> before the first
        occurrence of the <code>needle</code> (excluding the needle).</dd>
    </dl>
-  </p>
  </div>
 
  <div>
@@ -45,11 +43,6 @@
  </div>
 
  <div class="examples">
-  <p>
-   <div>
     <p><strong>Example #1 firstOccurSubstr() example</strong></p>
     <pre><span style="color: #0000BB">&lt;?php<br />$email&nbsp;&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #DD0000">'name@example.com'</span><span style="color: #007700">;<br /></span><span style="color: #0000BB">$domain&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #0000BB">firstOccurSubstr</span><span style="color: #007700">(</span><span style="color: #0000BB">$email</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">'@'</span><span style="color: #007700">);<br />echo&nbsp;</span><span style="color: #0000BB">$domain</span><span style="color: #007700">;&nbsp;</span><span style="color: #FF8000">//&nbsp;prints&nbsp;@example.com<br /><br /></span><span style="color: #0000BB">$user&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #0000BB">firstOccurSubstr</span><span style="color: #007700">(</span><span style="color: #0000BB">$email</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">'@'</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">true</span><span style="color: #007700">);&nbsp;</span><span style="color: #FF8000">//&nbsp;As&nbsp;of&nbsp;PHP&nbsp;5.3.0<br /></span><span style="color: #007700">echo&nbsp;</span><span style="color: #0000BB">$user</span><span style="color: #007700">;&nbsp;</span><span style="color: #FF8000">//&nbsp;prints&nbsp;name<br /></span><span style="color: #0000BB">?&gt;</span></pre>
-
-   </div>
-  </p>
  </div>

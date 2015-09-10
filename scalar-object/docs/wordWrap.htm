@@ -9,25 +9,23 @@
 
  <div>
   <h3>Parameters</h3>
-  <p>
    <dl>
-     <dt><code>str</code></dt>
+     <dt>str</dt>
      <dd>The input string.</dd>
 
-     <dt><code>width</code></dt>
+     <dt>width</dt>
      <dd>The number of characters at which the string will be wrapped.</dd>
 
-     <dt><code>break</code></dt>
+     <dt>break</dt>
      <dd>The line is broken using the optional <code>break</code> parameter.</dd>
 
-     <dt><code>cut</code></dt>
+     <dt>cut</dt>
      <dd>If the <code>cut</code> is set to <strong><code>TRUE</code></strong>, the string is
        always wrapped at or before the specified <code>width</code>.  So if you have
        a word that is larger than the given width, it is broken apart.
        (See second example). When <strong><code>FALSE</code></strong> the function does not split the word
        even if the <code>width</code> is smaller than the word width.</dd>
    </dl>
-  </p>
  </div>
 
  <div>
@@ -36,22 +34,17 @@
  </div>
 
  <div class="examples">
-  <p>
-   <div>
     <p><strong>Example #1 wordWrap() example</strong></p>
     <pre><span style="color: #0000BB">&lt;?php<br />$text&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #DD0000">"The&nbsp;quick&nbsp;brown&nbsp;fox&nbsp;jumped&nbsp;over&nbsp;the&nbsp;lazy&nbsp;dog."</span><span style="color: #007700">;<br /></span><span style="color: #0000BB">$newtext&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #0000BB">wordWrap</span><span style="color: #007700">(</span><span style="color: #0000BB">$text</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">20</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">"&lt;br&nbsp;/&gt;\n"</span><span style="color: #007700">);<br /><br />echo&nbsp;</span><span style="color: #0000BB">$newtext</span><span style="color: #007700">;<br /></span><span style="color: #0000BB">?&gt;</span></pre>
-
     <div>The above example will output:</div>
 <pre>
 The quick brown fox&lt;br /&gt;
 jumped over the lazy&lt;br /&gt;
 dog.
 </pre>
-   </div>
-   <div>
+
     <p><strong>Example #2 wordWrap() example</strong></p>
     <pre><span style="color: #0000BB">&lt;?php<br />$text&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #DD0000">"A&nbsp;very&nbsp;long&nbsp;woooooooooooord."</span><span style="color: #007700">;<br /></span><span style="color: #0000BB">$newtext&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #0000BB">wordWrap</span><span style="color: #007700">(</span><span style="color: #0000BB">$text</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">8</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">"\n"</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">true</span><span style="color: #007700">);<br /><br />echo&nbsp;</span><span style="color: #DD0000">"</span><span style="color: #0000BB">$newtext</span><span style="color: #DD0000">\n"</span><span style="color: #007700">;<br /></span><span style="color: #0000BB">?&gt;</span></pre>
-
     <div>The above example will output:</div>
 <pre>
 A very
@@ -59,11 +52,9 @@ long
 wooooooo
 ooooord.
 </pre>
-   </div>
-   <div>
+
     <p><strong>Example #3 wordWrap() example</strong></p>
     <pre><span style="color: #0000BB">&lt;?php<br />$text&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #DD0000">"A&nbsp;very&nbsp;long&nbsp;woooooooooooooooooord.&nbsp;and&nbsp;something"</span><span style="color: #007700">;<br /></span><span style="color: #0000BB">$newtext&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #0000BB">wordWrap</span><span style="color: #007700">(</span><span style="color: #0000BB">$text</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">8</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">"\n"</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">false</span><span style="color: #007700">);<br /><br />echo&nbsp;</span><span style="color: #DD0000">"</span><span style="color: #0000BB">$newtext</span><span style="color: #DD0000">\n"</span><span style="color: #007700">;<br /></span><span style="color: #0000BB">?&gt;</span></pre>
-
     <div>The above example will output:</div>
 <pre>
 A very
@@ -72,6 +63,4 @@ woooooooooooooooooord.
 and
 something
 </pre>
-   </div>
-  </p>
  </div>

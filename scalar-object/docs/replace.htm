@@ -18,34 +18,27 @@
 
  <div>
   <h3>Parameters</h3>
-  <p>
    <dl>
-     <dt><code>array1</code></dt>
+     <dt>array1</dt>
      <dd>The array in which elements are replaced.</dd>
 
-     <dt><code>array2</code></dt>
+     <dt>array2</dt>
      <dd>The array from which elements will be extracted.</dd>
 
-     <dt><code>...</code></dt>
+     <dt>...</dt>
      <dd>More arrays from which elements will be extracted.
        Values from later arrays overwrite the previous values.</dd>
    </dl>
-  </p>
  </div>
 
  <div>
   <h3>Return Values</h3>
-  <p>
-   Returns an <a href="language.types.array.php">array</a>, or <strong><code>NULL</code></strong> if an error occurs.
-  </p>
+  <p>Returns an <a href="language.types.array.php">array</a>, or <strong><code>NULL</code></strong> if an error occurs.</p>
  </div>
 
  <div class="examples">
-  <p>
-   <div>
     <p><strong>Example #1 replace() example</strong></p>
     <pre><span style="color: #0000BB">&lt;?php<br />$base&nbsp;</span><span style="color: #007700">=&nbsp;array(</span><span style="color: #DD0000">"orange"</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">"banana"</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">"apple"</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">"raspberry"</span><span style="color: #007700">);<br /></span><span style="color: #0000BB">$replacements&nbsp;</span><span style="color: #007700">=&nbsp;array(</span><span style="color: #0000BB">0&nbsp;</span><span style="color: #007700">=&gt;&nbsp;</span><span style="color: #DD0000">"pineapple"</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">4&nbsp;</span><span style="color: #007700">=&gt;&nbsp;</span><span style="color: #DD0000">"cherry"</span><span style="color: #007700">);<br /></span><span style="color: #0000BB">$replacements2&nbsp;</span><span style="color: #007700">=&nbsp;array(</span><span style="color: #0000BB">0&nbsp;</span><span style="color: #007700">=&gt;&nbsp;</span><span style="color: #DD0000">"grape"</span><span style="color: #007700">);<br /><br /></span><span style="color: #0000BB">$basket&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #0000BB">replace</span><span style="color: #007700">(</span><span style="color: #0000BB">$base</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">$replacements</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">$replacements2</span><span style="color: #007700">);<br /></span><span style="color: #0000BB">print_r</span><span style="color: #007700">(</span><span style="color: #0000BB">$basket</span><span style="color: #007700">);<br /></span><span style="color: #0000BB">?&gt;</span></pre>
-
     <div>The above example will output:</div>
 <pre>
 Array
@@ -57,6 +50,4 @@ Array
     [4] =&gt; cherry
 )
 </pre>
-   </div>
-  </p>
  </div>

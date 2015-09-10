@@ -1,26 +1,22 @@
 <h1>intDivision</h1>
  <div>
-  <p>
-   Returns the integer division of <code>numerator</code> by <code>divisor</code>.
-  </p>
+  <p>Returns the integer division of <code>numerator</code> by <code>divisor</code>.</p>
  </div>
 
  <div>
   <h3>Parameters</h3>
   <dl>
-    <dt><code>numerator</code></dt>
+    <dt>numerator</dt>
     <dd>Number to be divided.</dd>
 
-    <dt><code>divisor</code></dt>
+    <dt>divisor</dt>
     <dd>Number which divides the <code>numerator</code>.</dd>
   </dl>
  </div>
 
  <div>
   <h3>Return Values</h3>
-  <p>
-   The integer division of <code>numerator</code> by <code>divisor</code>.
-  </p>
+  <p>The integer division of <code>numerator</code> by <code>divisor</code>.</p>
  </div>
 
  <div>
@@ -34,11 +30,8 @@
  </div>
 
  <div class="examples">
-  <p>
-   <div>
     <p><strong>Example #1 intDivision() example</strong></p>
     <pre><span style="color: #0000BB">&lt;?php<br />var_dump</span><span style="color: #007700">(</span><span style="color: #0000BB">intDivision</span><span style="color: #007700">(</span><span style="color: #0000BB">3</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">2</span><span style="color: #007700">));<br /></span><span style="color: #0000BB">var_dump</span><span style="color: #007700">(</span><span style="color: #0000BB">intDivision</span><span style="color: #007700">(-</span><span style="color: #0000BB">3</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">2</span><span style="color: #007700">));<br /></span><span style="color: #0000BB">var_dump</span><span style="color: #007700">(</span><span style="color: #0000BB">intDivision</span><span style="color: #007700">(</span><span style="color: #0000BB">3</span><span style="color: #007700">,&nbsp;-</span><span style="color: #0000BB">2</span><span style="color: #007700">));<br /></span><span style="color: #0000BB">var_dump</span><span style="color: #007700">(</span><span style="color: #0000BB">intDivision</span><span style="color: #007700">(-</span><span style="color: #0000BB">3</span><span style="color: #007700">,&nbsp;-</span><span style="color: #0000BB">2</span><span style="color: #007700">));<br /></span><span style="color: #0000BB">var_dump</span><span style="color: #007700">(</span><span style="color: #0000BB">intDivision</span><span style="color: #007700">(</span><span style="color: #0000BB">PHP_INT_MAX</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">PHP_INT_MAX</span><span style="color: #007700">));<br /></span><span style="color: #0000BB">var_dump</span><span style="color: #007700">(</span><span style="color: #0000BB">intDivision</span><span style="color: #007700">(</span><span style="color: #0000BB">PHP_INT_MIN</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">PHP_INT_MIN</span><span style="color: #007700">));<br /></span><span style="color: #0000BB">var_dump</span><span style="color: #007700">(</span><span style="color: #0000BB">intDivision</span><span style="color: #007700">(</span><span style="color: #0000BB">PHP_INT_MIN</span><span style="color: #007700">,&nbsp;-</span><span style="color: #0000BB">1</span><span style="color: #007700">));<br /></span><span style="color: #0000BB">var_dump</span><span style="color: #007700">(</span><span style="color: #0000BB">intDivision</span><span style="color: #007700">(</span><span style="color: #0000BB">1</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">0</span><span style="color: #007700">));<br /></span><span style="color: #0000BB">?&gt;</span></pre>
-
 <pre>
 int(1)
 int(-1)
@@ -50,6 +43,4 @@ int(1)
 Fatal error: Uncaught ArithmeticError: Division of PHP_INT_MIN by -1 is not an integer in %s on line 8
 Fatal error: Uncaught DivisionByZeroError: Division by zero in %s on line 9
 </pre>
-   </div>
-  </p>
  </div>

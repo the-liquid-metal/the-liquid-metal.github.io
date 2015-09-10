@@ -1,31 +1,26 @@
 <h1>map</h1>
 
  <div>
-  <p>
    <strong>map()</strong> returns an array containing all
    the elements of <code>array1</code> after applying the
    <code>callback</code> function to each one.
    The number of parameters that the <code>callback</code>
-   function accepts
-   should match the number of arrays
+   function accepts should match the number of arrays
    passed to the <strong>map()</strong>
-  </p>
  </div>
 
  <div>
   <h3>Parameters</h3>
-  <p>
    <dl>
-     <dt><code>callback</code></dt>
+     <dt>callback</dt>
      <dd>Callback function to run for each element in each array.</dd>
 
-     <dt><code>array1</code></dt>
+     <dt>array1</dt>
      <dd>An array to run through the <code>callback</code> function.</dd>
 
-     <dt><code>...</code></dt>
+     <dt>...</dt>
      <dd>Variable list of array arguments to run through the <code>callback</code> function.</dd>
    </dl>
-  </p>
  </div>
 
  <div>
@@ -37,14 +32,9 @@
  </div>
 
  <div class="examples">
-  <p>
-   <div>
     <p><strong>Example #1 map() example</strong></p>
     <pre><span style="color: #0000BB">&lt;?php<br /></span><span style="color: #007700">function&nbsp;</span><span style="color: #0000BB">cube</span><span style="color: #007700">(</span><span style="color: #0000BB">$n</span><span style="color: #007700">)<br />{<br />&nbsp;&nbsp;&nbsp;&nbsp;return(</span><span style="color: #0000BB">$n&nbsp;</span><span style="color: #007700">*&nbsp;</span><span style="color: #0000BB">$n&nbsp;</span><span style="color: #007700">*&nbsp;</span><span style="color: #0000BB">$n</span><span style="color: #007700">);<br />}<br /><br /></span><span style="color: #0000BB">$a&nbsp;</span><span style="color: #007700">=&nbsp;array(</span><span style="color: #0000BB">1</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">2</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">3</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">4</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">5</span><span style="color: #007700">);<br /></span><span style="color: #0000BB">$b&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #0000BB">map</span><span style="color: #007700">(</span><span style="color: #DD0000">"cube"</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">$a</span><span style="color: #007700">);<br /></span><span style="color: #0000BB">print_r</span><span style="color: #007700">(</span><span style="color: #0000BB">$b</span><span style="color: #007700">);<br /></span><span style="color: #0000BB">?&gt;</span></pre>
-
-    <div><p>
-     This makes <var><var>$b</var></var> have:
-    </p></div>
+    <div>This makes <var><var>$b</var></var> have:</div>
 <pre>
 Array
 (
@@ -55,13 +45,9 @@ Array
     [4] =&gt; 125
 )
 </pre>
-   </div>
-  </p>
-  <p>
-   <div>
+
     <p><strong>Example #2 map() using a lambda function (as of PHP 5.3.0)</strong></p>
     <pre><span style="color: #0000BB">&lt;?php<br />$func&nbsp;</span><span style="color: #007700">=&nbsp;function(</span><span style="color: #0000BB">$value</span><span style="color: #007700">)&nbsp;{<br />&nbsp;&nbsp;&nbsp;&nbsp;return&nbsp;</span><span style="color: #0000BB">$value&nbsp;</span><span style="color: #007700">*&nbsp;</span><span style="color: #0000BB">2</span><span style="color: #007700">;<br />};<br /><br /></span><span style="color: #0000BB">print_r</span><span style="color: #007700">(</span><span style="color: #0000BB">map</span><span style="color: #007700">(</span><span style="color: #0000BB">$func</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">range</span><span style="color: #007700">(</span><span style="color: #0000BB">1</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">5</span><span style="color: #007700">)));<br /></span><span style="color: #0000BB">?&gt;</span></pre>
-
 <pre>
 Array
 (
@@ -72,13 +58,9 @@ Array
     [4] =&gt; 10
 )
 </pre>
-   </div>
-  </p>
-  <p>
-   <div>
+
     <p><strong>Example #3 map() - using more arrays</strong></p>
     <pre><span style="color: #0000BB">&lt;?php<br /></span><span style="color: #007700">function&nbsp;</span><span style="color: #0000BB">show_Spanish</span><span style="color: #007700">(</span><span style="color: #0000BB">$n</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">$m</span><span style="color: #007700">)<br />{<br />&nbsp;&nbsp;&nbsp;&nbsp;return(</span><span style="color: #DD0000">"The&nbsp;number&nbsp;</span><span style="color: #0000BB">$n</span><span style="color: #DD0000">&nbsp;is&nbsp;called&nbsp;</span><span style="color: #0000BB">$m</span><span style="color: #DD0000">&nbsp;in&nbsp;Spanish"</span><span style="color: #007700">);<br />}<br /><br />function&nbsp;</span><span style="color: #0000BB">map_Spanish</span><span style="color: #007700">(</span><span style="color: #0000BB">$n</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">$m</span><span style="color: #007700">)<br />{<br />&nbsp;&nbsp;&nbsp;&nbsp;return(array(</span><span style="color: #0000BB">$n&nbsp;</span><span style="color: #007700">=&gt;&nbsp;</span><span style="color: #0000BB">$m</span><span style="color: #007700">));<br />}<br /><br /></span><span style="color: #0000BB">$a&nbsp;</span><span style="color: #007700">=&nbsp;array(</span><span style="color: #0000BB">1</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">2</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">3</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">4</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">5</span><span style="color: #007700">);<br /></span><span style="color: #0000BB">$b&nbsp;</span><span style="color: #007700">=&nbsp;array(</span><span style="color: #DD0000">"uno"</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">"dos"</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">"tres"</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">"cuatro"</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">"cinco"</span><span style="color: #007700">);<br /><br /></span><span style="color: #0000BB">$c&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #0000BB">map</span><span style="color: #007700">(</span><span style="color: #DD0000">"show_Spanish"</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">$a</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">$b</span><span style="color: #007700">);<br /></span><span style="color: #0000BB">print_r</span><span style="color: #007700">(</span><span style="color: #0000BB">$c</span><span style="color: #007700">);<br /><br /></span><span style="color: #0000BB">$d&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #0000BB">map</span><span style="color: #007700">(</span><span style="color: #DD0000">"map_Spanish"</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">$a&nbsp;</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">$b</span><span style="color: #007700">);<br /></span><span style="color: #0000BB">print_r</span><span style="color: #007700">(</span><span style="color: #0000BB">$d</span><span style="color: #007700">);<br /></span><span style="color: #0000BB">?&gt;</span></pre>
-
     <div>The above example will output:</div>
 <pre>
 // printout of $c
@@ -116,8 +98,7 @@ Array
         )
 )
 </pre>
-   </div>
-  </p>
+
   <p>
    Usually when using two or more arrays, they should be of equal length
    because the callback function is applied in parallel to the corresponding
@@ -125,16 +106,15 @@ Array
    If the arrays are of unequal length, shorter ones will be extended with empty
    elements to match the length of the longest.
   </p>
+
   <p>
    An interesting use of this function is to construct an array of arrays,
    which can be easily performed by using <strong><code>NULL</code></strong>
    as the name of the callback function
   </p>
-  <p>
-   <div>
+
     <p><strong>Example #4 Creating an array of arrays</strong></p>
     <pre><span style="color: #0000BB">&lt;?php<br />$a&nbsp;</span><span style="color: #007700">=&nbsp;array(</span><span style="color: #0000BB">1</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">2</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">3</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">4</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">5</span><span style="color: #007700">);<br /></span><span style="color: #0000BB">$b&nbsp;</span><span style="color: #007700">=&nbsp;array(</span><span style="color: #DD0000">"one"</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">"two"</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">"three"</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">"four"</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">"five"</span><span style="color: #007700">);<br /></span><span style="color: #0000BB">$c&nbsp;</span><span style="color: #007700">=&nbsp;array(</span><span style="color: #DD0000">"uno"</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">"dos"</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">"tres"</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">"cuatro"</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">"cinco"</span><span style="color: #007700">);<br /><br /></span><span style="color: #0000BB">$d&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #0000BB">map</span><span style="color: #007700">(</span><span style="color: #0000BB">null</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">$a</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">$b</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">$c</span><span style="color: #007700">);<br /></span><span style="color: #0000BB">print_r</span><span style="color: #007700">(</span><span style="color: #0000BB">$d</span><span style="color: #007700">);<br /></span><span style="color: #0000BB">?&gt;</span></pre>
-
     <div>The above example will output:</div>
 <pre>
 Array
@@ -171,19 +151,16 @@ Array
         )
 )
 </pre>
-   </div>
-  </p>
+
   <p>
    If the array argument contains string keys then the returned array
    will contain string keys if and only if exactly one array is passed. If 
    more than one argument is passed then the returned array always has 
    integer keys.
   </p>
-  <p>
-   <div>
+
     <p><strong>Example #5 map() - with string keys</strong></p>
     <pre><span style="color: #0000BB">&lt;?php<br />$arr&nbsp;</span><span style="color: #007700">=&nbsp;array(</span><span style="color: #DD0000">"stringkey"&nbsp;</span><span style="color: #007700">=&gt;&nbsp;</span><span style="color: #DD0000">"value"</span><span style="color: #007700">);<br />function&nbsp;</span><span style="color: #0000BB">cb1</span><span style="color: #007700">(</span><span style="color: #0000BB">$a</span><span style="color: #007700">)&nbsp;{<br />&nbsp;&nbsp;&nbsp;&nbsp;return&nbsp;array&nbsp;(</span><span style="color: #0000BB">$a</span><span style="color: #007700">);<br />}<br />function&nbsp;</span><span style="color: #0000BB">cb2</span><span style="color: #007700">(</span><span style="color: #0000BB">$a</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">$b</span><span style="color: #007700">)&nbsp;{<br />&nbsp;&nbsp;&nbsp;&nbsp;return&nbsp;array&nbsp;(</span><span style="color: #0000BB">$a</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">$b</span><span style="color: #007700">);<br />}<br /></span><span style="color: #0000BB">var_dump</span><span style="color: #007700">(</span><span style="color: #0000BB">map</span><span style="color: #007700">(</span><span style="color: #DD0000">"cb1"</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">$arr</span><span style="color: #007700">));<br /></span><span style="color: #0000BB">var_dump</span><span style="color: #007700">(</span><span style="color: #0000BB">map</span><span style="color: #007700">(</span><span style="color: #DD0000">"cb2"</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">$arr</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">$arr</span><span style="color: #007700">));<br /></span><span style="color: #0000BB">var_dump</span><span style="color: #007700">(</span><span style="color: #0000BB">map</span><span style="color: #007700">(</span><span style="color: #0000BB">null</span><span style="color: #007700">,&nbsp;&nbsp;</span><span style="color: #0000BB">$arr</span><span style="color: #007700">));<br /></span><span style="color: #0000BB">var_dump</span><span style="color: #007700">(</span><span style="color: #0000BB">map</span><span style="color: #007700">(</span><span style="color: #0000BB">null</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">$arr</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">$arr</span><span style="color: #007700">));<br /></span><span style="color: #0000BB">?&gt;</span></pre>
-
     <div>The above example will output:</div>
 <pre>
 array(1) {
@@ -216,6 +193,4 @@ array(1) {
   }
 }
 </pre>
-   </div>
-  </p>
  </div>

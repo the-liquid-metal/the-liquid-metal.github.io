@@ -14,22 +14,20 @@
 
  <div>
   <h3>Parameters</h3>
-  <p>
    <dl>
-     <dt><code>array1</code></dt>
+     <dt>array1</dt>
      <dd>The array to compare from</dd>
 
-     <dt><code>array2</code></dt>
+     <dt>array2</dt>
      <dd>An array to compare against</dd>
 
-     <dt><code>...</code></dt>
+     <dt>...</dt>
      <dd>More arrays to compare against</dd>
 
-     <dt><code>key_compare_func</code></dt>
+     <dt>key_compare_func</dt>
      <dd>The comparison function must return an integer less than, equal to, or greater than
        zero if the first argument is considered to be respectively less than, equal to, or greater than the second.</dd>
    </dl>
-  </p>
  </div>
 
  <div>
@@ -41,16 +39,14 @@
  </div>
 
  <div class="examples">
-  <p>
-   <div>
     <p><strong>Example #1 userAssocDiff() example</strong></p>
-    <div><p>
+    <div>
      The <em>&quot;a&quot; =&gt; &quot;green&quot;</em>
      pair is present in both arrays and thus it is not in the output from the
      function. Unlike this, the pair <em>0 =&gt; &quot;red&quot;</em>
      is in the output because in the second argument <em>&quot;red&quot;</em>
      has key which is <em>1</em>.
-    </p></div>
+    </div>
     <pre><span style="color: #0000BB">&lt;?php<br /></span><span style="color: #007700">function&nbsp;</span><span style="color: #0000BB">key_compare_func</span><span style="color: #007700">(</span><span style="color: #0000BB">$a</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">$b</span><span style="color: #007700">)<br />{<br />&nbsp;&nbsp;&nbsp;&nbsp;if&nbsp;(</span><span style="color: #0000BB">$a&nbsp;</span><span style="color: #007700">===&nbsp;</span><span style="color: #0000BB">$b</span><span style="color: #007700">)&nbsp;{<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return&nbsp;</span><span style="color: #0000BB">0</span><span style="color: #007700">;<br />&nbsp;&nbsp;&nbsp;&nbsp;}<br />&nbsp;&nbsp;&nbsp;&nbsp;return&nbsp;(</span><span style="color: #0000BB">$a&nbsp;</span><span style="color: #007700">&gt;&nbsp;</span><span style="color: #0000BB">$b</span><span style="color: #007700">)?&nbsp;</span><span style="color: #0000BB">1</span><span style="color: #007700">:-</span><span style="color: #0000BB">1</span><span style="color: #007700">;<br />}<br /><br /></span><span style="color: #0000BB">$array1&nbsp;</span><span style="color: #007700">=&nbsp;array(</span><span style="color: #DD0000">"a"&nbsp;</span><span style="color: #007700">=&gt;&nbsp;</span><span style="color: #DD0000">"green"</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">"b"&nbsp;</span><span style="color: #007700">=&gt;&nbsp;</span><span style="color: #DD0000">"brown"</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">"c"&nbsp;</span><span style="color: #007700">=&gt;&nbsp;</span><span style="color: #DD0000">"blue"</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">"red"</span><span style="color: #007700">);<br /></span><span style="color: #0000BB">$array2&nbsp;</span><span style="color: #007700">=&nbsp;array(</span><span style="color: #DD0000">"a"&nbsp;</span><span style="color: #007700">=&gt;&nbsp;</span><span style="color: #DD0000">"green"</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">"yellow"</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">"red"</span><span style="color: #007700">);<br /></span><span style="color: #0000BB">$result&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #0000BB">userAssocDiff</span><span style="color: #007700">(</span><span style="color: #0000BB">$array1</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">$array2</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">"key_compare_func"</span><span style="color: #007700">);<br /></span><span style="color: #0000BB">print_r</span><span style="color: #007700">(</span><span style="color: #0000BB">$result</span><span style="color: #007700">);<br /></span><span style="color: #0000BB">?&gt;</span></pre>
 
     <div>The above example will output:</div>
@@ -62,11 +58,7 @@ Array
     [0] =&gt; red
 )
 </pre>
-    <div><p>
-     The equality of 2 indices is checked by the user supplied callback function.
-    </p></div>
-   </div>
-  </p>
+    <div>The equality of 2 indices is checked by the user supplied callback function.</div>
  </div>
 
   <blockquote><strong>Note</strong>:

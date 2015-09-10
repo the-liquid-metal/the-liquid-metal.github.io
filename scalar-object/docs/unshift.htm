@@ -1,40 +1,31 @@
 <h1>unshift</h1>
  <div>
-  <p>
    <strong>unshift()</strong> prepends passed elements to the front
    of the <code>array</code>. Note that the list of elements is
    prepended as a whole, so that the prepended elements stay in the same
    order.  All numerical array keys will be modified to start counting from
    zero while literal keys won&#039;t be touched.
-  </p>
  </div>
 
  <div>
   <h3>Parameters</h3>
-  <p>
    <dl>
-     <dt><code>array</code></dt>
+     <dt>array</dt>
      <dd>The input array.</dd>
 
-     <dt><code>value1</code></dt>
+     <dt>value1</dt>
      <dd>First value to prepend.</dd>
    </dl>
-  </p>
  </div>
 
  <div>
   <h3>Return Values</h3>
-  <p>
-   Returns the new number of elements in the <code>array</code>.
-  </p>
+  <p>Returns the new number of elements in the <code>array</code>.</p>
  </div>
 
  <div class="examples">
-  <p>
-   <div>
     <p><strong>Example #1 unshift() example</strong></p>
     <pre><span style="color: #0000BB">&lt;?php<br />$queue&nbsp;</span><span style="color: #007700">=&nbsp;array(</span><span style="color: #DD0000">"orange"</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">"banana"</span><span style="color: #007700">);<br /></span><span style="color: #0000BB">unshift</span><span style="color: #007700">(</span><span style="color: #0000BB">$queue</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">"apple"</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">"raspberry"</span><span style="color: #007700">);<br /></span><span style="color: #0000BB">print_r</span><span style="color: #007700">(</span><span style="color: #0000BB">$queue</span><span style="color: #007700">);<br /></span><span style="color: #0000BB">?&gt;</span></pre>
-
     <div>The above example will output:</div>
 <pre>
 Array
@@ -45,6 +36,4 @@ Array
     [3] =&gt; banana
 )
 </pre>
-   </div>
-  </p>
  </div>

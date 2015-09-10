@@ -13,12 +13,11 @@
 
  <div>
   <h3>Parameters</h3>
-  <p>
    <dl>
-     <dt><code>array1</code></dt>
+     <dt>array1</dt>
      <dd>An <a href="language.types.array.php">array</a> being sorted.</dd>
 
-     <dt><code>array1_sort_order</code></dt>
+     <dt>array1_sort_order</dt>
      <dd><p>The order used to sort the previous <a href="language.types.array.php">array</a> argument. Either
        <strong><code>SORT_ASC</code></strong> to sort ascendingly or <strong><code>SORT_DESC</code></strong>
        to sort descendingly.
@@ -27,7 +26,7 @@
        This argument can be swapped with <code>array1_sort_flags</code>
        or omitted entirely, in which case <strong><code>SORT_ASC</code></strong> is assumed.</p></dd>
 
-     <dt><code>array1_sort_flags</code></dt>
+     <dt>array1_sort_flags</dt>
      <dd><p>Sort options for the previous <a href="language.types.array.php">array</a> argument:</p>
       <p>
        Sorting type flags:
@@ -63,33 +62,28 @@
        This argument can be swapped with <code>array1_sort_order</code>
        or omitted entirely, in which case <strong><code>SORT_REGULAR</code></strong> is assumed.</p></dd>
 
-     <dt><code>...</code></dt>
+     <dt>...</dt>
      <dd><p>More arrays, optionally followed by sort order and flags. Only elements
        corresponding to equivalent elements in previous arrays are compared.
        In other words, the sort is lexicographical.</p></dd>
    </dl>
-  </p>
  </div>
 
  <div>
   <h3>Return Values</h3>
-  <p>
-   Returns <strong><code>TRUE</code></strong> on success or <strong><code>FALSE</code></strong> on failure.
-  </p>
+  <p>Returns <strong><code>TRUE</code></strong> on success or <strong><code>FALSE</code></strong> on failure.</p>
  </div>
 
  <div class="examples">
-  <p>
-   <div>
     <p><strong>Example #1 Sorting multiple arrays</strong></p>
     <pre><span style="color: #0000BB">&lt;?php<br />$ar1&nbsp;</span><span style="color: #007700">=&nbsp;array(</span><span style="color: #0000BB">10</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">100</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">100</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">0</span><span style="color: #007700">);<br /></span><span style="color: #0000BB">$ar2&nbsp;</span><span style="color: #007700">=&nbsp;array(</span><span style="color: #0000BB">1</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">3</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">2</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">4</span><span style="color: #007700">);<br /></span><span style="color: #0000BB">multisort</span><span style="color: #007700">(</span><span style="color: #0000BB">$ar1</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">$ar2</span><span style="color: #007700">);<br /><br /></span><span style="color: #0000BB">var_dump</span><span style="color: #007700">(</span><span style="color: #0000BB">$ar1</span><span style="color: #007700">);<br /></span><span style="color: #0000BB">var_dump</span><span style="color: #007700">(</span><span style="color: #0000BB">$ar2</span><span style="color: #007700">);<br /></span><span style="color: #0000BB">?&gt;</span></pre>
 
-    <div><p>
+    <div>
      In this example, after sorting, the first array will contain 0,
      10, 100, 100. The second array will contain 4, 1, 2, 3. The
      entries in the second array corresponding to the identical
      entries in the first array (100 and 100) were sorted as well.
-    </p></div>
+    </div>
 <pre>
 array(4) {
   [0]=&gt; int(0)
@@ -104,19 +98,16 @@ array(4) {
   [3]=&gt; int(3)
 }
 </pre>
-   </div>
-  </p>
-  <p>
-   <div>
+
     <p><strong>Example #2 Sorting multi-dimensional array</strong></p>
     <pre><span style="color: #0000BB">&lt;?php<br />$ar&nbsp;</span><span style="color: #007700">=&nbsp;array(<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;array(</span><span style="color: #DD0000">"10"</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">11</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">100</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">100</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">"a"</span><span style="color: #007700">),<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;array(&nbsp;&nbsp;&nbsp;</span><span style="color: #0000BB">1</span><span style="color: #007700">,&nbsp;&nbsp;</span><span style="color: #0000BB">2</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">"2"</span><span style="color: #007700">,&nbsp;&nbsp;&nbsp;</span><span style="color: #0000BB">3</span><span style="color: #007700">,&nbsp;&nbsp;&nbsp;</span><span style="color: #0000BB">1</span><span style="color: #007700">)<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;);<br /></span><span style="color: #0000BB">multisort</span><span style="color: #007700">(</span><span style="color: #0000BB">$ar</span><span style="color: #007700">[</span><span style="color: #0000BB">0</span><span style="color: #007700">],&nbsp;</span><span style="color: #0000BB">SORT_ASC</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">SORT_STRING</span><span style="color: #007700">,<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #0000BB">$ar</span><span style="color: #007700">[</span><span style="color: #0000BB">1</span><span style="color: #007700">],&nbsp;</span><span style="color: #0000BB">SORT_NUMERIC</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">SORT_DESC</span><span style="color: #007700">);<br /></span><span style="color: #0000BB">var_dump</span><span style="color: #007700">(</span><span style="color: #0000BB">$ar</span><span style="color: #007700">);<br /></span><span style="color: #0000BB">?&gt;</span></pre>
 
-    <div><p>
+    <div>
      In this example, after sorting, the first array will transform to
      &quot;10&quot;, 100, 100, 11, &quot;a&quot; (it was sorted as strings in ascending
      order). The second will contain 1, 3, &quot;2&quot;, 2, 1 (sorted as numbers,
      in descending order).
-    </p></div>
+    </div>
 <pre>
 array(2) {
   [0]=&gt; array(5) {
@@ -135,19 +126,14 @@ array(2) {
   }
 }
 </pre>
-   </div>
-  </p>
-  <p>
-   <div>
+
     <p><strong>Example #3 Sorting database results</strong></p>
-    <div><p>
-     For this example, each element in the <var><var>data</var></var>
+    <div>For this example, each element in the <var><var>data</var></var>
      array represents one row in a table. This type of dataset is typical
      of database records.
-    </p></div>
-    <div><p>
-     Example data:
-    </p></div>
+    </div>
+
+    <div>Example data:</div>
 <pre>
 volume | edition
 -------+--------
@@ -158,26 +144,23 @@ volume | edition
     86 |       6
     67 |       7
 </pre>
-    <div><p>
-     The data as an array, called <var><var>data</var></var>. This would usually,
+    <div>The data as an array, called <var><var>data</var></var>. This would usually,
      for example, be obtained by looping with <a href="function.mysql-fetch-assoc.php">mysql_fetch_assoc()</a>.
-    </p></div>
+    </div>
     <pre><span style="color: #0000BB">&lt;?php<br />$data</span><span style="color: #007700">[]&nbsp;=&nbsp;array(</span><span style="color: #DD0000">'volume'&nbsp;</span><span style="color: #007700">=&gt;&nbsp;</span><span style="color: #0000BB">67</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">'edition'&nbsp;</span><span style="color: #007700">=&gt;&nbsp;</span><span style="color: #0000BB">2</span><span style="color: #007700">);<br /></span><span style="color: #0000BB">$data</span><span style="color: #007700">[]&nbsp;=&nbsp;array(</span><span style="color: #DD0000">'volume'&nbsp;</span><span style="color: #007700">=&gt;&nbsp;</span><span style="color: #0000BB">86</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">'edition'&nbsp;</span><span style="color: #007700">=&gt;&nbsp;</span><span style="color: #0000BB">1</span><span style="color: #007700">);<br /></span><span style="color: #0000BB">$data</span><span style="color: #007700">[]&nbsp;=&nbsp;array(</span><span style="color: #DD0000">'volume'&nbsp;</span><span style="color: #007700">=&gt;&nbsp;</span><span style="color: #0000BB">85</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">'edition'&nbsp;</span><span style="color: #007700">=&gt;&nbsp;</span><span style="color: #0000BB">6</span><span style="color: #007700">);<br /></span><span style="color: #0000BB">$data</span><span style="color: #007700">[]&nbsp;=&nbsp;array(</span><span style="color: #DD0000">'volume'&nbsp;</span><span style="color: #007700">=&gt;&nbsp;</span><span style="color: #0000BB">98</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">'edition'&nbsp;</span><span style="color: #007700">=&gt;&nbsp;</span><span style="color: #0000BB">2</span><span style="color: #007700">);<br /></span><span style="color: #0000BB">$data</span><span style="color: #007700">[]&nbsp;=&nbsp;array(</span><span style="color: #DD0000">'volume'&nbsp;</span><span style="color: #007700">=&gt;&nbsp;</span><span style="color: #0000BB">86</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">'edition'&nbsp;</span><span style="color: #007700">=&gt;&nbsp;</span><span style="color: #0000BB">6</span><span style="color: #007700">);<br /></span><span style="color: #0000BB">$data</span><span style="color: #007700">[]&nbsp;=&nbsp;array(</span><span style="color: #DD0000">'volume'&nbsp;</span><span style="color: #007700">=&gt;&nbsp;</span><span style="color: #0000BB">67</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">'edition'&nbsp;</span><span style="color: #007700">=&gt;&nbsp;</span><span style="color: #0000BB">7</span><span style="color: #007700">);<br /></span><span style="color: #0000BB">?&gt;</span></pre>
 
-    <div><p>
+    <div>
      In this example, we will order by <var><var>volume</var></var> descending,
      <var><var>edition</var></var> ascending.
-    </p></div>
-    <div><p>
+    </div>
+
+    <div>
      We have an array of rows, but <strong>multisort()</strong>
      requires an array of columns, so we use the below code to obtain the
      columns, then perform the sorting.
-    </p></div>
+    </div>
     <pre><span style="color: #0000BB">&lt;?php<br /></span><span style="color: #FF8000">//&nbsp;Obtain&nbsp;a&nbsp;list&nbsp;of&nbsp;columns<br /></span><span style="color: #007700">foreach&nbsp;(</span><span style="color: #0000BB">$data&nbsp;</span><span style="color: #007700">as&nbsp;</span><span style="color: #0000BB">$key&nbsp;</span><span style="color: #007700">=&gt;&nbsp;</span><span style="color: #0000BB">$row</span><span style="color: #007700">)&nbsp;{<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #0000BB">$volume</span><span style="color: #007700">[</span><span style="color: #0000BB">$key</span><span style="color: #007700">]&nbsp;&nbsp;=&nbsp;</span><span style="color: #0000BB">$row</span><span style="color: #007700">[</span><span style="color: #DD0000">'volume'</span><span style="color: #007700">];<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #0000BB">$edition</span><span style="color: #007700">[</span><span style="color: #0000BB">$key</span><span style="color: #007700">]&nbsp;=&nbsp;</span><span style="color: #0000BB">$row</span><span style="color: #007700">[</span><span style="color: #DD0000">'edition'</span><span style="color: #007700">];<br />}<br /><br /></span><span style="color: #FF8000">//&nbsp;Sort&nbsp;the&nbsp;data&nbsp;with&nbsp;volume&nbsp;descending,&nbsp;edition&nbsp;ascending<br />//&nbsp;Add&nbsp;$data&nbsp;as&nbsp;the&nbsp;last&nbsp;parameter,&nbsp;to&nbsp;sort&nbsp;by&nbsp;the&nbsp;common&nbsp;key<br /></span><span style="color: #0000BB">multisort</span><span style="color: #007700">(</span><span style="color: #0000BB">$volume</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">SORT_DESC</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">$edition</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">SORT_ASC</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">$data</span><span style="color: #007700">);<br /></span><span style="color: #0000BB">?&gt;</span></pre>
-
-    <div><p>
-     The dataset is now sorted, and will look like this:
-    </p></div>
+    <div>The dataset is now sorted, and will look like this:</div>
 <pre>
 volume | edition
 -------+--------
@@ -188,23 +171,20 @@ volume | edition
     67 |       2
     67 |       7
 </pre>
-   </div>
-  </p>
-  <p>
-   <div>
+
     <p><strong>Example #4 Case insensitive sorting</strong></p>
-    <div><p>
+    <div>
      Both <strong><code>SORT_STRING</code></strong> and
      <strong><code>SORT_REGULAR</code></strong> are case sensitive, strings
      starting with a capital letter will come before strings starting
      with a lowercase letter.
-    </p></div>
-    <div><p>
+    </div>
+
+    <div>
      To perform a case insensitive search, force the sorting order to be
      determined by a lowercase copy of the original array.
-    </p></div>
+    </div>
     <pre><span style="color: #0000BB">&lt;?php<br />$array&nbsp;</span><span style="color: #007700">=&nbsp;array(</span><span style="color: #DD0000">'Alpha'</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">'atomic'</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">'Beta'</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">'bank'</span><span style="color: #007700">);<br /></span><span style="color: #0000BB">$array_lowercase&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #0000BB">array_map</span><span style="color: #007700">(</span><span style="color: #DD0000">'strtolower'</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">$array</span><span style="color: #007700">);<br /><br /></span><span style="color: #0000BB">multisort</span><span style="color: #007700">(</span><span style="color: #0000BB">$array_lowercase</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">SORT_ASC</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">SORT_STRING</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">$array</span><span style="color: #007700">);<br /><br /></span><span style="color: #0000BB">print_r</span><span style="color: #007700">(</span><span style="color: #0000BB">$array</span><span style="color: #007700">);<br /></span><span style="color: #0000BB">?&gt;</span></pre>
-
     <div>The above example will output:</div>
 <pre>
 Array
@@ -215,6 +195,4 @@ Array
     [3] =&gt; Beta
 )
 </pre>
-   </div>
-  </p>
  </div>

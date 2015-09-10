@@ -1,45 +1,35 @@
 <h1>octToDec</h1>
+
  <div>
-  <p>
    Returns the decimal equivalent of the octal number
    represented by the <code>octal_string</code> argument.
-  </p>
  </div>
 
  <div>
   <h3>Parameters</h3>
-  <p>
    <dl>
-     <dt><code>octal_string</code></dt>
+     <dt>octal_string</dt>
      <dd>The octal string to convert</dd>
    </dl>
-  </p>
  </div>
 
  <div>
   <h3>Return Values</h3>
-  <p>
-   The decimal representation of <code>octal_string</code>
-  </p>
+  <p>The decimal representation of <code>octal_string</code></p>
  </div>
 
  <div class="examples">
-  <p>
-   <div>
     <p><strong>Example #1 octToDec() example</strong></p>
     <pre><span style="color: #0000BB">&lt;?php<br /></span><span style="color: #007700">echo&nbsp;</span><span style="color: #0000BB">octToDec</span><span style="color: #007700">(</span><span style="color: #DD0000">'77'</span><span style="color: #007700">)&nbsp;.&nbsp;</span><span style="color: #DD0000">"\n"</span><span style="color: #007700">;<br />echo&nbsp;</span><span style="color: #0000BB">octToDec</span><span style="color: #007700">(</span><span style="color: #0000BB">decoct</span><span style="color: #007700">(</span><span style="color: #0000BB">45</span><span style="color: #007700">));<br /></span><span style="color: #0000BB">?&gt;</span></pre>
-
     <div>The above example will output:</div>
 <pre>
 63
 45
 </pre>
-   </div>
-  </p>
  </div>
 
   <blockquote><strong>Note</strong>:
     The function can convert numbers that are too large to fit into the platforms
     <a href="language.types.integer.php">integer</a> type, larger values are returned as <a href="language.types.float.php">float</a> in
     that case.
-   </blockquote>
+  </blockquote>

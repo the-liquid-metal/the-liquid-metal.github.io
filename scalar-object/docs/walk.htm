@@ -13,12 +13,11 @@
 
  <div>
   <h3>Parameters</h3>
-  <p>
    <dl>
-     <dt><code>array</code></dt>
+     <dt>array</dt>
      <dd>The input array.</dd>
 
-     <dt><code>callback</code></dt>
+     <dt>callback</dt>
      <dd><p>Typically, <code>callback</code> takes on two parameters.
        The <code>array</code> parameter&#039;s value being the first, and
        the key/index second.
@@ -44,19 +43,16 @@
        requirement, the behavior of this function is undefined, and      
        unpredictable.</p></dd>
 
-     <dt><code>userdata</code></dt>
+     <dt>userdata</dt>
      <dd>If the optional <code>userdata</code> parameter is supplied,
        it will be passed as the third parameter to the
        <code>callback</code>.</dd>
    </dl>
-  </p>
  </div>
 
  <div>
   <h3>Return Values</h3>
-  <p>
-   Returns <strong><code>TRUE</code></strong> on success or <strong><code>FALSE</code></strong> on failure.
-  </p>
+  <p>Returns <strong><code>TRUE</code></strong> on success or <strong><code>FALSE</code></strong> on failure.</p>
  </div>
 
  <div>
@@ -70,11 +66,8 @@
  </div>
 
  <div class="examples">
-  <p>
-   <div>
     <p><strong>Example #1 walk() example</strong></p>
     <pre><span style="color: #0000BB">&lt;?php<br />$fruits&nbsp;</span><span style="color: #007700">=&nbsp;array(</span><span style="color: #DD0000">"d"&nbsp;</span><span style="color: #007700">=&gt;&nbsp;</span><span style="color: #DD0000">"lemon"</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">"a"&nbsp;</span><span style="color: #007700">=&gt;&nbsp;</span><span style="color: #DD0000">"orange"</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">"b"&nbsp;</span><span style="color: #007700">=&gt;&nbsp;</span><span style="color: #DD0000">"banana"</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">"c"&nbsp;</span><span style="color: #007700">=&gt;&nbsp;</span><span style="color: #DD0000">"apple"</span><span style="color: #007700">);<br /><br />function&nbsp;</span><span style="color: #0000BB">test_alter</span><span style="color: #007700">(&amp;</span><span style="color: #0000BB">$item1</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">$key</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">$prefix</span><span style="color: #007700">)<br />{<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #0000BB">$item1&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #DD0000">"</span><span style="color: #0000BB">$prefix</span><span style="color: #DD0000">:&nbsp;</span><span style="color: #0000BB">$item1</span><span style="color: #DD0000">"</span><span style="color: #007700">;<br />}<br /><br />function&nbsp;</span><span style="color: #0000BB">test_print</span><span style="color: #007700">(</span><span style="color: #0000BB">$item2</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">$key</span><span style="color: #007700">)<br />{<br />&nbsp;&nbsp;&nbsp;&nbsp;echo&nbsp;</span><span style="color: #DD0000">"</span><span style="color: #0000BB">$key</span><span style="color: #DD0000">.&nbsp;</span><span style="color: #0000BB">$item2</span><span style="color: #DD0000">&lt;br&nbsp;/&gt;\n"</span><span style="color: #007700">;<br />}<br /><br />echo&nbsp;</span><span style="color: #DD0000">"Before&nbsp;...:\n"</span><span style="color: #007700">;<br /></span><span style="color: #0000BB">walk</span><span style="color: #007700">(</span><span style="color: #0000BB">$fruits</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">'test_print'</span><span style="color: #007700">);<br /><br /></span><span style="color: #0000BB">walk</span><span style="color: #007700">(</span><span style="color: #0000BB">$fruits</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">'test_alter'</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">'fruit'</span><span style="color: #007700">);<br />echo&nbsp;</span><span style="color: #DD0000">"...&nbsp;and&nbsp;after:\n"</span><span style="color: #007700">;<br /><br /></span><span style="color: #0000BB">walk</span><span style="color: #007700">(</span><span style="color: #0000BB">$fruits</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">'test_print'</span><span style="color: #007700">);<br /></span><span style="color: #0000BB">?&gt;</span></pre>
-
     <div>The above example will output:</div>
 <pre>
 Before ...:
@@ -88,6 +81,4 @@ a. fruit: orange
 b. fruit: banana
 c. fruit: apple
 </pre>
-   </div>
-  </p>
  </div>

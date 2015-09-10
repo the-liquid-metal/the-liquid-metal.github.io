@@ -35,30 +35,26 @@
 
  <div>
   <h3>Parameters</h3>
-  <p>
    <dl>
-     <dt><code>str</code></dt>
+     <dt>str</dt>
      <dd>The <a href="language.types.string.php">string</a> being translated.</dd>
 
-     <dt><code>from</code></dt>
+     <dt>from</dt>
      <dd>The <a href="language.types.string.php">string</a> being translated to <code>to</code>.</dd>
 
-     <dt><code>to</code></dt>
+     <dt>to</dt>
      <dd>The <a href="language.types.string.php">string</a> replacing <code>from</code>.</dd>
 
-     <dt><code>replace_pairs</code></dt>
+     <dt>replace_pairs</dt>
      <dd>The <code>replace_pairs</code> parameter may be used instead of 
        <code>to</code> and <code>from</code>, in which case it&#039;s an
        <a href="language.types.array.php">array</a> in the form <em>array(&#039;from&#039; =&gt; &#039;to&#039;, ...)</em>.</dd>
    </dl>
-  </p>
  </div>
 
  <div>
   <h3>Return Values</h3>
-  <p>
-   Returns the translated <a href="language.types.string.php">string</a>.
-  </p>
+  <p>Returns the translated <a href="language.types.string.php">string</a>.</p>
   <p>
    If <code>replace_pairs</code> contains a key which
    is an empty <a href="language.types.string.php">string</a> (<em>&quot;&quot;</em>),
@@ -69,41 +65,32 @@
  </div>
 
  <div class="examples">
-  <p>
-   <div>
     <p><strong>Example #1 translateChar() example</strong></p>
     <pre><span style="color: #0000BB">&lt;?php<br /></span><span style="color: #FF8000">//In&nbsp;this&nbsp;form,&nbsp;translateChar()&nbsp;does&nbsp;byte-by-byte&nbsp;translation<br />//Therefore,&nbsp;we&nbsp;are&nbsp;assuming&nbsp;a&nbsp;single-byte&nbsp;encoding&nbsp;here:<br /></span><span style="color: #0000BB">$addr&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #0000BB">translateChar</span><span style="color: #007700">(</span><span style="color: #0000BB">$addr</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">"äåö"</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">"aao"</span><span style="color: #007700">);<br /></span><span style="color: #0000BB">?&gt;</span></pre>
 
-   </div>
-  </p>
   <p>
    The next example shows the behavior of <strong>translateChar()</strong> when
    called with only two arguments. Note the preference of the replacements
    (<em>&quot;h&quot;</em> is not picked because there are longer matches)
    and how replaced text was not searched again.
   </p>
-  <div>
-   <p><strong>Example #2 translateChar() example with two arguments</strong></p>
-    <pre><span style="color: #0000BB">&lt;?php<br />$trans&nbsp;</span><span style="color: #007700">=&nbsp;array(</span><span style="color: #DD0000">"h"&nbsp;</span><span style="color: #007700">=&gt;&nbsp;</span><span style="color: #DD0000">"-"</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">"hello"&nbsp;</span><span style="color: #007700">=&gt;&nbsp;</span><span style="color: #DD0000">"hi"</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">"hi"&nbsp;</span><span style="color: #007700">=&gt;&nbsp;</span><span style="color: #DD0000">"hello"</span><span style="color: #007700">);<br />echo&nbsp;</span><span style="color: #0000BB">translateChar</span><span style="color: #007700">(</span><span style="color: #DD0000">"hi&nbsp;all,&nbsp;I&nbsp;said&nbsp;hello"</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">$trans</span><span style="color: #007700">);<br /></span><span style="color: #0000BB">?&gt;</span></pre>
 
-    <div>The above example will output:</div>
-<pre>
-hello all, I said hi
-</pre>
-  </div>
+   <p><strong>Example #2 translateChar() example with two arguments</strong></p>
+   <pre><span style="color: #0000BB">&lt;?php<br />$trans&nbsp;</span><span style="color: #007700">=&nbsp;array(</span><span style="color: #DD0000">"h"&nbsp;</span><span style="color: #007700">=&gt;&nbsp;</span><span style="color: #DD0000">"-"</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">"hello"&nbsp;</span><span style="color: #007700">=&gt;&nbsp;</span><span style="color: #DD0000">"hi"</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">"hi"&nbsp;</span><span style="color: #007700">=&gt;&nbsp;</span><span style="color: #DD0000">"hello"</span><span style="color: #007700">);<br />echo&nbsp;</span><span style="color: #0000BB">translateChar</span><span style="color: #007700">(</span><span style="color: #DD0000">"hi&nbsp;all,&nbsp;I&nbsp;said&nbsp;hello"</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">$trans</span><span style="color: #007700">);<br /></span><span style="color: #0000BB">?&gt;</span></pre>
+   <div>The above example will output:</div>
+   <pre>hello all, I said hi</pre>
+
   <p>
    The two modes of behavior are substantially different. With three arguments,
    <strong>translateChar()</strong> will replace bytes; with two, it may replace
    longer substrings.
   </p>
-  <div>
-   <p><strong>Example #3 translateChar() behavior comparison</strong></p>
-    <pre><span style="color: #0000BB">&lt;?php<br /></span><span style="color: #007700">echo&nbsp;</span><span style="color: #0000BB">translateChar</span><span style="color: #007700">(</span><span style="color: #DD0000">"baab"</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">"ab"</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">"01"</span><span style="color: #007700">),</span><span style="color: #DD0000">"\n"</span><span style="color: #007700">;<br /><br /></span><span style="color: #0000BB">$trans&nbsp;</span><span style="color: #007700">=&nbsp;array(</span><span style="color: #DD0000">"ab"&nbsp;</span><span style="color: #007700">=&gt;&nbsp;</span><span style="color: #DD0000">"01"</span><span style="color: #007700">);<br />echo&nbsp;</span><span style="color: #0000BB">translateChar</span><span style="color: #007700">(</span><span style="color: #DD0000">"baab"</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">$trans</span><span style="color: #007700">);<br /></span><span style="color: #0000BB">?&gt;</span></pre>
 
-    <div>The above example will output:</div>
+   <p><strong>Example #3 translateChar() behavior comparison</strong></p>
+   <pre><span style="color: #0000BB">&lt;?php<br /></span><span style="color: #007700">echo&nbsp;</span><span style="color: #0000BB">translateChar</span><span style="color: #007700">(</span><span style="color: #DD0000">"baab"</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">"ab"</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">"01"</span><span style="color: #007700">),</span><span style="color: #DD0000">"\n"</span><span style="color: #007700">;<br /><br /></span><span style="color: #0000BB">$trans&nbsp;</span><span style="color: #007700">=&nbsp;array(</span><span style="color: #DD0000">"ab"&nbsp;</span><span style="color: #007700">=&gt;&nbsp;</span><span style="color: #DD0000">"01"</span><span style="color: #007700">);<br />echo&nbsp;</span><span style="color: #0000BB">translateChar</span><span style="color: #007700">(</span><span style="color: #DD0000">"baab"</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">$trans</span><span style="color: #007700">);<br /></span><span style="color: #0000BB">?&gt;</span></pre>
+   <div>The above example will output:</div>
 <pre>
 1001
 ba01
 </pre>
-  </div>
  </div>

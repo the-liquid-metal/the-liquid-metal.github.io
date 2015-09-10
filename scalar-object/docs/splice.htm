@@ -19,19 +19,18 @@
 
   <div>
   <h3>Parameters</h3>
-  <p>
    <dl>
-     <dt><code>input</code></dt>
+     <dt>input</dt>
      <dd>The input array.</dd>
 
-     <dt><code>offset</code></dt>
+     <dt>offset</dt>
      <dd>If <code>offset</code> is positive then the start of removed
        portion is at that offset from the beginning of the
        <code>input</code> array.  If <code>offset</code>
        is negative then it starts that far from the end of the
        <code>input</code> array.</dd>
 
-     <dt><code>length</code></dt>
+     <dt>length</dt>
      <dd>If <code>length</code> is omitted, removes everything
        from <code>offset</code> to the end of the array.  If
        <code>length</code> is specified and is positive, then
@@ -46,7 +45,7 @@
        <em>count($input)</em> for
        <code>length</code>.</dd>
 
-     <dt><code>replacement</code></dt>
+     <dt>replacement</dt>
      <dd><p>If <code>replacement</code> array is specified, then the
        removed elements are replaced with elements from this array.
       </p>
@@ -62,33 +61,18 @@
        not necessary to put <em>array()</em>
        around it, unless the element is an array itself, an object or <strong><code>NULL</code></strong>.</p></dd>
    </dl>
-  </p>
  </div>
 
  <div>
   <h3>Return Values</h3>
-  <p>
-   Returns the array consisting of the extracted elements.
-  </p>
+  <p>Returns the array consisting of the extracted elements.</p>
  </div>
 
  <div class="examples">
-  <p>
-   <div>
     <p><strong>Example #1 splice() examples</strong></p>
     <pre><span style="color: #0000BB">&lt;?php<br />$input&nbsp;</span><span style="color: #007700">=&nbsp;array(</span><span style="color: #DD0000">"red"</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">"green"</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">"blue"</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">"yellow"</span><span style="color: #007700">);<br /></span><span style="color: #0000BB">splice</span><span style="color: #007700">(</span><span style="color: #0000BB">$input</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">2</span><span style="color: #007700">);<br /></span><span style="color: #FF8000">//&nbsp;$input&nbsp;is&nbsp;now&nbsp;array("red",&nbsp;"green")<br /><br /></span><span style="color: #0000BB">$input&nbsp;</span><span style="color: #007700">=&nbsp;array(</span><span style="color: #DD0000">"red"</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">"green"</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">"blue"</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">"yellow"</span><span style="color: #007700">);<br /></span><span style="color: #0000BB">splice</span><span style="color: #007700">(</span><span style="color: #0000BB">$input</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">1</span><span style="color: #007700">,&nbsp;-</span><span style="color: #0000BB">1</span><span style="color: #007700">);<br /></span><span style="color: #FF8000">//&nbsp;$input&nbsp;is&nbsp;now&nbsp;array("red",&nbsp;"yellow")<br /><br /></span><span style="color: #0000BB">$input&nbsp;</span><span style="color: #007700">=&nbsp;array(</span><span style="color: #DD0000">"red"</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">"green"</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">"blue"</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">"yellow"</span><span style="color: #007700">);<br /></span><span style="color: #0000BB">splice</span><span style="color: #007700">(</span><span style="color: #0000BB">$input</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">1</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">count</span><span style="color: #007700">(</span><span style="color: #0000BB">$input</span><span style="color: #007700">),&nbsp;</span><span style="color: #DD0000">"orange"</span><span style="color: #007700">);<br /></span><span style="color: #FF8000">//&nbsp;$input&nbsp;is&nbsp;now&nbsp;array("red",&nbsp;"orange")<br /><br /></span><span style="color: #0000BB">$input&nbsp;</span><span style="color: #007700">=&nbsp;array(</span><span style="color: #DD0000">"red"</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">"green"</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">"blue"</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">"yellow"</span><span style="color: #007700">);<br /></span><span style="color: #0000BB">splice</span><span style="color: #007700">(</span><span style="color: #0000BB">$input</span><span style="color: #007700">,&nbsp;-</span><span style="color: #0000BB">1</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">1</span><span style="color: #007700">,&nbsp;array(</span><span style="color: #DD0000">"black"</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">"maroon"</span><span style="color: #007700">));<br /></span><span style="color: #FF8000">//&nbsp;$input&nbsp;is&nbsp;now&nbsp;array("red",&nbsp;"green",<br />//&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"blue",&nbsp;"black",&nbsp;"maroon")<br /><br /></span><span style="color: #0000BB">$input&nbsp;</span><span style="color: #007700">=&nbsp;array(</span><span style="color: #DD0000">"red"</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">"green"</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">"blue"</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">"yellow"</span><span style="color: #007700">);<br /></span><span style="color: #0000BB">splice</span><span style="color: #007700">(</span><span style="color: #0000BB">$input</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">3</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">0</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">"purple"</span><span style="color: #007700">);<br /></span><span style="color: #FF8000">//&nbsp;$input&nbsp;is&nbsp;now&nbsp;array("red",&nbsp;"green",<br />//&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"blue",&nbsp;"purple",&nbsp;"yellow");<br /></span><span style="color: #0000BB">?&gt;</span></pre>
 
-   </div>
-  </p>
-  <p>
-   <div>
     <p><strong>Example #2 splice() examples</strong></p>
-    <div><p>
-     The following statements change the values of <var><var>$input</var></var>
-     the same way:
-    </p></div>
+    <div>The following statements change the values of <var>$input</var> the same way:</div>
     <pre><span style="color: #0000BB">&lt;?php<br />array_push</span><span style="color: #007700">(</span><span style="color: #0000BB">$input</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">$x</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">$y</span><span style="color: #007700">);<br /></span><span style="color: #0000BB">splice</span><span style="color: #007700">(</span><span style="color: #0000BB">$input</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">count</span><span style="color: #007700">(</span><span style="color: #0000BB">$input</span><span style="color: #007700">),&nbsp;</span><span style="color: #0000BB">0</span><span style="color: #007700">,&nbsp;array(</span><span style="color: #0000BB">$x</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">$y</span><span style="color: #007700">));<br /></span><span style="color: #0000BB">array_pop</span><span style="color: #007700">(</span><span style="color: #0000BB">$input</span><span style="color: #007700">);<br /></span><span style="color: #0000BB">splice</span><span style="color: #007700">(</span><span style="color: #0000BB">$input</span><span style="color: #007700">,&nbsp;-</span><span style="color: #0000BB">1</span><span style="color: #007700">);<br /></span><span style="color: #0000BB">array_shift</span><span style="color: #007700">(</span><span style="color: #0000BB">$input</span><span style="color: #007700">);<br /></span><span style="color: #0000BB">splice</span><span style="color: #007700">(</span><span style="color: #0000BB">$input</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">0</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">1</span><span style="color: #007700">);<br /></span><span style="color: #0000BB">array_unshift</span><span style="color: #007700">(</span><span style="color: #0000BB">$input</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">$x</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">$y</span><span style="color: #007700">);<br /></span><span style="color: #0000BB">splice</span><span style="color: #007700">(</span><span style="color: #0000BB">$input</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">0</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">0</span><span style="color: #007700">,&nbsp;array(</span><span style="color: #0000BB">$x</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">$y</span><span style="color: #007700">));<br /></span><span style="color: #0000BB">$input</span><span style="color: #007700">[</span><span style="color: #0000BB">$x</span><span style="color: #007700">]&nbsp;=&nbsp;</span><span style="color: #0000BB">$y</span><span style="color: #007700">;&nbsp;</span><span style="color: #FF8000">//&nbsp;for&nbsp;arrays&nbsp;where&nbsp;key&nbsp;equals&nbsp;offset<br /></span><span style="color: #0000BB">splice</span><span style="color: #007700">(</span><span style="color: #0000BB">$input</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">$x</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">1</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">$y</span><span style="color: #007700">);<br /></span><span style="color: #0000BB">?&gt;</span></pre>
-
-   </div>
-  </p>
  </div>

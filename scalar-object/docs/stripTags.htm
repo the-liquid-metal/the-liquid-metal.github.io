@@ -1,21 +1,18 @@
 <h1>stripTags</h1>
 
  <div>
-  <p>
    This function tries to return a string with all NULL bytes, HTML and PHP tags stripped
    from a given <code>str</code>.  It uses the same tag stripping
    state machine as the <a href="function.fgetss.php">fgetss()</a> function.
-  </p>
  </div>
 
  <div>
   <h3>Parameters</h3>
-  <p>
    <dl>
-     <dt><code>str</code></dt>
+     <dt>str</dt>
      <dd>The input string.</dd>
 
-     <dt><code>allowable_tags</code></dt>
+     <dt>allowable_tags</dt>
      <dd><p>You can use the optional second parameter to specify tags which should not be stripped.</p>
       <blockquote><strong>Note</strong>:
         HTML comments and PHP tags are also stripped. This is hardcoded and
@@ -31,29 +28,21 @@
       </blockquote>
      </dd>
    </dl>
-  </p>
  </div>
 
  <div>
   <h3>Return Values</h3>
-  <p>
-   Returns the stripped string.
-  </p>
+  <p>Returns the stripped string.</p>
  </div>
 
  <div class="examples">
-  <p>
-   <div>
     <p><strong>Example #1 stripTags() example</strong></p>
     <pre><span style="color: #0000BB">&lt;?php<br />$text&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #DD0000">'&lt;p&gt;Test&nbsp;paragraph.&lt;/p&gt;&lt;!--&nbsp;Comment&nbsp;--&gt;&nbsp;&lt;a&nbsp;href="#fragment"&gt;Other&nbsp;text&lt;/a&gt;'</span><span style="color: #007700">;<br />echo&nbsp;</span><span style="color: #0000BB">stripTags</span><span style="color: #007700">(</span><span style="color: #0000BB">$text</span><span style="color: #007700">);<br />echo&nbsp;</span><span style="color: #DD0000">"\n"</span><span style="color: #007700">;<br /><br /></span><span style="color: #FF8000">//&nbsp;Allow&nbsp;&lt;p&gt;&nbsp;and&nbsp;&lt;a&gt;<br /></span><span style="color: #007700">echo&nbsp;</span><span style="color: #0000BB">stripTags</span><span style="color: #007700">(</span><span style="color: #0000BB">$text</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">'&lt;p&gt;&lt;a&gt;'</span><span style="color: #007700">);<br /></span><span style="color: #0000BB">?&gt;</span></pre>
-
     <div>The above example will output:</div>
 <pre>
 Test paragraph. Other text
 &lt;p&gt;Test paragraph.&lt;/p&gt; &lt;a href=&quot;#fragment&quot;&gt;Other text&lt;/a&gt;
 </pre>
-   </div>
-  </p>
  </div>
 
  <div>
@@ -64,6 +53,7 @@ Test paragraph. Other text
     text/data than expected.
    </p>
   </div>
+
   <div class="warning"><strong>Warning</strong>
    <p>
     This function does not modify any attributes on the tags that you allow
@@ -73,6 +63,7 @@ Test paragraph. Other text
     to other users.
    </p>
   </div>
+
   <blockquote><strong>Note</strong>:
     Tag names within the input HTML that are greater than 1023 bytes in length
     will be treated as though they are invalid, regardless of the

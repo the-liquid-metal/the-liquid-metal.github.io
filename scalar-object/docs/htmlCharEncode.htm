@@ -45,12 +45,11 @@
 
  <div>
   <h3>Parameters</h3>
-  <p>
    <dl>
-     <dt><code>string</code></dt>
+     <dt>string</dt>
      <dd>The <a href="language.types.string.php">string</a> being converted.</dd>
 
-     <dt><code>flags</code></dt>
+     <dt>flags</dt>
      <dd><p>A bitmask of one or more of the following flags, which specify how to handle quotes,
        invalid code unit sequences and the used document type. The default is
        <em>ENT_COMPAT | ENT_HTML401</em>.
@@ -62,7 +61,6 @@
            <th>Constant Name</th>
            <th>Description</th>
           </tr>
-
          </thead>
 
          <tbody>
@@ -111,38 +109,28 @@
 
           <tr>
            <td><strong><code>ENT_HTML401</code></strong></td>
-           <td>
-            Handle code as HTML 4.01.
-           </td>
+           <td>Handle code as HTML 4.01.</td>
           </tr>
 
           <tr>
            <td><strong><code>ENT_XML1</code></strong></td>
-           <td>
-            Handle code as XML 1.
-           </td>
+           <td>Handle code as XML 1.</td>
           </tr>
 
           <tr>
            <td><strong><code>ENT_XHTML</code></strong></td>
-           <td>
-            Handle code as XHTML.
-           </td>
+           <td>Handle code as XHTML.</td>
           </tr>
 
           <tr>
            <td><strong><code>ENT_HTML5</code></strong></td>
-           <td>
-            Handle code as HTML 5.
-           </td>
+           <td>Handle code as HTML 5.</td>
           </tr>
-
          </tbody>
-
        </table>
 </p></dd>
 
-     <dt><code>encoding</code></dt>
+     <dt>encoding</dt>
      <dd>
 
  <p>
@@ -176,8 +164,7 @@
        the same positions in all of these encodings.
       </p>
 
-<p>
- The following character sets are supported:
+<p>The following character sets are supported:</p>
  <table class="table">
   <caption><strong>Supported charsets</strong></caption>
 
@@ -187,24 +174,19 @@
      <th>Aliases</th>
      <th>Description</th>
     </tr>
-
    </thead>
 
    <tbody>
     <tr>
      <td>ISO-8859-1</td>
      <td>ISO8859-1</td>
-     <td>
-      Western European, Latin-1.
-     </td>
+     <td>Western European, Latin-1.</td>
     </tr>
 
     <tr>
      <td>ISO-8859-5</td>
      <td>ISO8859-5</td>
-     <td>
-      Little used cyrillic charset (Latin/Cyrillic).
-     </td>
+     <td>Little used cyrillic charset (Latin/Cyrillic).</td>
     </tr>
 
     <tr>
@@ -219,89 +201,67 @@
     <tr>
      <td>UTF-8</td>
      <td>&nbsp;</td>
-     <td>
-      ASCII compatible multi-byte 8-bit Unicode.
-     </td>
+     <td>ASCII compatible multi-byte 8-bit Unicode.</td>
     </tr>
 
     <tr>
      <td>cp866</td>
      <td>ibm866, 866</td>
-     <td>
-      DOS-specific Cyrillic charset.
-     </td>
+     <td>DOS-specific Cyrillic charset.</td>
     </tr>
 
     <tr>
      <td>cp1251</td>
      <td>Windows-1251, win-1251, 1251</td>
-     <td>
-      Windows-specific Cyrillic charset.
-     </td>
+     <td>Windows-specific Cyrillic charset.</td>
     </tr>
 
     <tr>
      <td>cp1252</td>
      <td>Windows-1252, 1252</td>
-     <td>
-      Windows specific charset for Western European.
-     </td>
+     <td>Windows specific charset for Western European.</td>
     </tr>
 
     <tr>
      <td>KOI8-R</td>
      <td>koi8-ru, koi8r</td>
-     <td>
-      Russian.
-     </td>
+     <td>Russian.</td>
     </tr>
 
     <tr>
      <td>BIG5</td>
      <td>950</td>
-     <td>
-      Traditional Chinese, mainly used in Taiwan.
-     </td>
+     <td>Traditional Chinese, mainly used in Taiwan.</td>
     </tr>
 
     <tr>
      <td>GB2312</td>
      <td>936</td>
-     <td>
-      Simplified Chinese, national standard character set.
-     </td>
+     <td>Simplified Chinese, national standard character set.</td>
     </tr>
 
     <tr>
      <td>BIG5-HKSCS</td>
      <td>&nbsp;</td>
-     <td>
-      Big5 with Hong Kong extensions, Traditional Chinese.
-     </td>
+     <td>Big5 with Hong Kong extensions, Traditional Chinese.</td>
     </tr>
 
     <tr>
      <td>Shift_JIS</td>
      <td>SJIS, SJIS-win, cp932, 932</td>
-     <td>
-      Japanese
-     </td>
+     <td>Japanese</td>
     </tr>
 
     <tr>
      <td>EUC-JP</td>
      <td>EUCJP, eucJP-win</td>
-     <td>
-      Japanese
-     </td>
+     <td>Japanese</td>
     </tr>
 
     <tr>
      <td>MacRoman</td>
      <td>&nbsp;</td>
-     <td>
-      Charset that was used by Mac OS.
-     </td>
+     <td>Charset that was used by Mac OS.</td>
     </tr>
 
     <tr>
@@ -323,22 +283,18 @@
    Any other character sets are not recognized. The default encoding will be
    used instead and a warning will be emitted.
   </blockquote>
-</p>
 
      </dd>
 
-     <dt><code>double_encode</code></dt>
+     <dt>double_encode</dt>
      <dd><p>When <code>double_encode</code> is turned off PHP will not
        encode existing html entities, the default is to convert everything.</p></dd>
    </dl>
-  </p>
  </div>
 
  <div>
   <h3>Return Values</h3>
-  <p>
-   The converted <a href="language.types.string.php">string</a>.
-  </p>
+  <p>The converted <a href="language.types.string.php">string</a>.</p>
   <p>
    If the input <code>string</code> contains an invalid code unit
    sequence within the given <code>encoding</code> an empty string
@@ -348,17 +304,12 @@
  </div>
 
  <div class="examples">
-  <p>
-   <div>
     <p><strong>Example #1 htmlCharEncode() example</strong></p>
     <pre><span style="color: #0000BB">&lt;?php<br />$new&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #0000BB">htmlCharEncode</span><span style="color: #007700">(</span><span style="color: #DD0000">"&lt;a&nbsp;href='test'&gt;Test&lt;/a&gt;"</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">ENT_QUOTES</span><span style="color: #007700">);<br />echo&nbsp;</span><span style="color: #0000BB">$new</span><span style="color: #007700">;&nbsp;</span><span style="color: #FF8000">//&nbsp;&amp;lt;a&nbsp;href=&amp;#039;test&amp;#039;&amp;gt;Test&amp;lt;/a&amp;gt;<br /></span><span style="color: #0000BB">?&gt;</span></pre>
-
-   </div>
-  </p>
  </div>
 
   <blockquote><strong>Note</strong>:
     Note that this function does not translate anything beyond what
     is listed above. For full entity translation, see
     <a href="function.htmlentities.php">htmlentities()</a>.
-   </blockquote>
+  </blockquote>

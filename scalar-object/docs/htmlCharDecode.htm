@@ -1,6 +1,6 @@
 <h1>htmlCharDecode</h1>
- <div>
 
+ <div>
   <p>
    This function is the opposite of <a href="function.htmlspecialchars.php">htmlspecialchars()</a>. It
    converts special HTML entities back to characters.
@@ -15,12 +15,11 @@
 
  <div>
   <h3>Parameters</h3>
-  <p>
    <dl>
-     <dt><code>string</code></dt>
+     <dt>string</dt>
      <dd>The string to decode.</dd>
 
-     <dt><code>flags</code></dt>
+     <dt>flags</dt>
      <dd><p>A bitmask of one or more of the following flags, which specify how to handle quotes and
        which document type to use. The default is <em>ENT_COMPAT | ENT_HTML401</em>.
        <table class="table">
@@ -31,7 +30,6 @@
            <th>Constant Name</th>
            <th>Description</th>
           </tr>
-
          </thead>
 
          <tbody>
@@ -52,58 +50,40 @@
 
           <tr>
            <td><strong><code>ENT_HTML401</code></strong></td>
-           <td>
-            Handle code as HTML 4.01.
-           </td>
+           <td>Handle code as HTML 4.01.</td>
           </tr>
 
           <tr>
            <td><strong><code>ENT_XML1</code></strong></td>
-           <td>
-            Handle code as XML 1.
-           </td>
+           <td>Handle code as XML 1.</td>
           </tr>
 
           <tr>
            <td><strong><code>ENT_XHTML</code></strong></td>
-           <td>
-            Handle code as XHTML.
-           </td>
+           <td>Handle code as XHTML.</td>
           </tr>
 
           <tr>
            <td><strong><code>ENT_HTML5</code></strong></td>
-           <td>
-            Handle code as HTML 5.
-           </td>
+           <td>Handle code as HTML 5.</td>
           </tr>
-
          </tbody>
-
        </table>
 </p></dd>
    </dl>
-  </p>
  </div>
 
  <div>
   <h3>Return Values</h3>
-  <p>
-   Returns the decoded string.
-  </p>
+  <p>Returns the decoded string.</p>
  </div>
 
  <div class="examples">
-  <p>
-   <div>
     <p><strong>Example #1 A htmlCharDecode() example</strong></p>
     <pre><span style="color: #0000BB">&lt;?php<br />$str&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #DD0000">"&lt;p&gt;this&nbsp;-&amp;gt;&nbsp;&amp;quot;&lt;/p&gt;\n"</span><span style="color: #007700">;<br /><br />echo&nbsp;</span><span style="color: #0000BB">htmlCharDecode</span><span style="color: #007700">(</span><span style="color: #0000BB">$str</span><span style="color: #007700">);<br /><br /></span><span style="color: #FF8000">//&nbsp;note&nbsp;that&nbsp;here&nbsp;the&nbsp;quotes&nbsp;aren't&nbsp;converted<br /></span><span style="color: #007700">echo&nbsp;</span><span style="color: #0000BB">htmlCharDecode</span><span style="color: #007700">(</span><span style="color: #0000BB">$str</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">ENT_NOQUOTES</span><span style="color: #007700">);<br /></span><span style="color: #0000BB">?&gt;</span></pre>
-
     <div>The above example will output:</div>
 <pre>
 &lt;p&gt;this -&gt; &quot;&lt;/p&gt;
 &lt;p&gt;this -&gt; &amp;quot;&lt;/p&gt;
 </pre>
-   </div>
-  </p>
  </div>

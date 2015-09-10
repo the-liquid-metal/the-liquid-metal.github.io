@@ -37,33 +37,26 @@
 
  <div>
   <h3>Parameters</h3>
-  <p>
    <dl>
-     <dt><code>str</code></dt>
+     <dt>str</dt>
      <dd>The <a href="language.types.string.php">string</a> that will be trimmed.</dd>
 
-     <dt><code>character_mask</code></dt>
+     <dt>character_mask</dt>
      <dd>Optionally, the stripped characters can also be specified using
        the <code>character_mask</code> parameter.
        Simply list all characters that you want to be stripped. With
        <em>..</em> you can specify a range of characters.</dd>
    </dl>
-  </p>
  </div>
 
  <div>
   <h3>Return Values</h3>
-  <p>
-   The trimmed string.
-  </p>
+  <p>The trimmed string.</p>
  </div>
 
  <div class="examples">
-  <p>
-   <div>
     <p><strong>Example #1 Usage example of <strong>trim()</strong></strong></p>
     <pre><span style="color: #0000BB">&lt;?php<br /><br />$text&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #DD0000">"\t\tThese&nbsp;are&nbsp;a&nbsp;few&nbsp;words&nbsp;:)&nbsp;...&nbsp;&nbsp;"</span><span style="color: #007700">;<br /></span><span style="color: #0000BB">$binary&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #DD0000">"\x09Example&nbsp;string\x0A"</span><span style="color: #007700">;<br /></span><span style="color: #0000BB">$hello&nbsp;&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #DD0000">"Hello&nbsp;World"</span><span style="color: #007700">;<br /></span><span style="color: #0000BB">var_dump</span><span style="color: #007700">(</span><span style="color: #0000BB">$text</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">$binary</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">$hello</span><span style="color: #007700">);<br /><br />print&nbsp;</span><span style="color: #DD0000">"\n"</span><span style="color: #007700">;<br /><br /></span><span style="color: #0000BB">$trimmed&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #0000BB">trim</span><span style="color: #007700">(</span><span style="color: #0000BB">$text</span><span style="color: #007700">);<br /></span><span style="color: #0000BB">var_dump</span><span style="color: #007700">(</span><span style="color: #0000BB">$trimmed</span><span style="color: #007700">);<br /><br /></span><span style="color: #0000BB">$trimmed&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #0000BB">trim</span><span style="color: #007700">(</span><span style="color: #0000BB">$text</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">"&nbsp;\t."</span><span style="color: #007700">);<br /></span><span style="color: #0000BB">var_dump</span><span style="color: #007700">(</span><span style="color: #0000BB">$trimmed</span><span style="color: #007700">);<br /><br /></span><span style="color: #0000BB">$trimmed&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #0000BB">trim</span><span style="color: #007700">(</span><span style="color: #0000BB">$hello</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">"Hdle"</span><span style="color: #007700">);<br /></span><span style="color: #0000BB">var_dump</span><span style="color: #007700">(</span><span style="color: #0000BB">$trimmed</span><span style="color: #007700">);<br /><br /></span><span style="color: #0000BB">$trimmed&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #0000BB">trim</span><span style="color: #007700">(</span><span style="color: #0000BB">$hello</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">'HdWr'</span><span style="color: #007700">);<br /></span><span style="color: #0000BB">var_dump</span><span style="color: #007700">(</span><span style="color: #0000BB">$trimmed</span><span style="color: #007700">);<br /><br /></span><span style="color: #FF8000">//&nbsp;trim&nbsp;the&nbsp;ASCII&nbsp;control&nbsp;characters&nbsp;at&nbsp;the&nbsp;beginning&nbsp;and&nbsp;end&nbsp;of&nbsp;$binary<br />//&nbsp;(from&nbsp;0&nbsp;to&nbsp;31&nbsp;inclusive)<br /></span><span style="color: #0000BB">$clean&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #0000BB">trim</span><span style="color: #007700">(</span><span style="color: #0000BB">$binary</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">"\x00..\x1F"</span><span style="color: #007700">);<br /></span><span style="color: #0000BB">var_dump</span><span style="color: #007700">(</span><span style="color: #0000BB">$clean</span><span style="color: #007700">);<br /><br /></span><span style="color: #0000BB">?&gt;</span></pre>
-
     <div>The above example will output:</div>
 <pre>
 string(32) &quot;        These are a few words :) ...  &quot;
@@ -77,13 +70,9 @@ string(5) &quot;o Wor&quot;
 string(9) &quot;ello Worl&quot;
 string(14) &quot;Example string&quot;
 </pre>
-   </div>
-  </p>
-  <p>
-   <div>
+
     <p><strong>Example #2 Trimming array values with <strong>trim()</strong></strong></p>
     <pre><span style="color: #0000BB">&lt;?php<br /></span><span style="color: #007700">function&nbsp;</span><span style="color: #0000BB">trim_value</span><span style="color: #007700">(&amp;</span><span style="color: #0000BB">$value</span><span style="color: #007700">)&nbsp;<br />{&nbsp;<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #0000BB">$value&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #0000BB">trim</span><span style="color: #007700">(</span><span style="color: #0000BB">$value</span><span style="color: #007700">);&nbsp;<br />}<br /><br /></span><span style="color: #0000BB">$fruit&nbsp;</span><span style="color: #007700">=&nbsp;array(</span><span style="color: #DD0000">'apple'</span><span style="color: #007700">,</span><span style="color: #DD0000">'banana&nbsp;'</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">'&nbsp;cranberry&nbsp;'</span><span style="color: #007700">);<br /></span><span style="color: #0000BB">var_dump</span><span style="color: #007700">(</span><span style="color: #0000BB">$fruit</span><span style="color: #007700">);<br /><br /></span><span style="color: #0000BB">array_walk</span><span style="color: #007700">(</span><span style="color: #0000BB">$fruit</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">'trim_value'</span><span style="color: #007700">);<br /></span><span style="color: #0000BB">var_dump</span><span style="color: #007700">(</span><span style="color: #0000BB">$fruit</span><span style="color: #007700">);<br /><br /></span><span style="color: #0000BB">?&gt;</span></pre>
-
     <div>The above example will output:</div>
 <pre>
 array(3) {
@@ -103,8 +92,6 @@ array(3) {
   string(9) &quot;cranberry&quot;
 }
 </pre>
-   </div>
-  </p>
  </div>
 
   <blockquote><strong>Note</strong>: 
