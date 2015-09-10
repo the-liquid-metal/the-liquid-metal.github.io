@@ -1,0 +1,79 @@
+<h1>min</h1>
+ <div>
+  <p>
+   If the first and only parameter is an array, <strong>min()</strong>
+   returns the lowest value in that array. If at least two parameters are 
+   provided, <strong>min()</strong> returns the smallest of these values.
+  </p>
+  <blockquote><strong>Note</strong>:
+    Values of different types will be compared using the <a href="language.operators.comparison.php">
+    standard comparison rules</a>. For instance, a non-numeric <a href="language.types.string.php">string</a> will be
+    compared to an <a href="language.types.integer.php">integer</a> as though it were <em>0</em>, but multiple
+    <a href="language.types.string.php">string</a> values will be compared alphanumerically. The actual value returned will be of the
+    original type with no conversion applied.
+   </blockquote>
+ </div>
+
+ <div>
+  <h3>Parameters</h3>
+   <dl>
+     <dt>values</dt>
+     <dd>An array containing the values.</dd>
+
+     <dt>value1</dt>
+     <dd>Any <a href="language.operators.comparison.php">comparable</a> value.</dd>
+
+     <dt>value2</dt>
+     <dd>Any <a href="language.operators.comparison.php">comparable</a> value.</dd>
+
+     <dt>...</dt>
+     <dd>Any <a href="language.operators.comparison.php">comparable</a> value.</dd>
+   </dl>
+ </div>
+
+ <div>
+  <h3>Return Values</h3>
+  <p>
+   <strong>min()</strong> returns the parameter value considered "lowest" according to standard
+   comparisons. If multiple values of different types evaluate as equal (e.g. <em>0</em>
+   and <em>'abc'</em>) the first provided to the function will be returned.
+  </p>
+ </div>
+
+ <div class="examples">
+    <p><strong>Example #1 Example uses of <strong>min()</strong></strong></p>
+<pre class="php-code">
+<?php
+echo min(2, 3, 1, 6, 7);  // 1
+echo min(array(2, 4, 5)); // 2
+
+// The string 'hello' when compared to an int is treated as 0
+// Since the two values are equal, the order they are provided determines the result
+echo min(0, 'hello');     // 0
+echo min('hello', 0);     // hello
+
+// Here we are comparing -1 &lt; 0, so -1 is the lowest value
+echo min('hello', -1);    // -1
+
+// With multiple arrays of different lengths, min returns the shortest
+$val = min(array(2, 2, 2), array(1, 1, 1, 1)); // array(2, 2, 2)
+
+// Multiple arrays of the same length are compared from left to right
+// so in our example: 2 == 2, but 4 &lt; 5
+$val = min(array(2, 4, 8), array(2, 5, 1)); // array(2, 4, 8)
+
+// If both an array and non-array are given, the array is never returned
+// as comparisons treat arrays as greater than any other value
+$val = min('string', array(2, 5, 7), 42);   // string
+
+// If one argument is NULL or a boolean, it will be compared against
+// other values using the rule FALSE &lt; TRUE regardless of the other types involved
+// In the below examples, both -10 and 10 are treated as TRUE in the comparison
+$val = min(-10, FALSE, 10); // FALSE
+$val = min(-10, NULL, 10);  // NULL
+
+// 0, on the other hand, is treated as FALSE, so is "lower than" TRUE
+$val = min(0, TRUE); // 0
+?>
+</pre>
+ </div>

@@ -1,0 +1,34 @@
+<h1>floor</h1>
+ <div>
+  <p>
+   Returns the next lowest integer value (as float) by rounding down
+   <code>value</code> if necessary. 
+  </p>
+ </div>
+
+ <div>
+  <h3>Parameters</h3>
+   <dl>
+     <dt>value</dt>
+     <dd>The numeric value to round</dd>
+   </dl>
+ </div>
+
+ <div>
+  <h3>Return Values</h3>
+  <p>
+   <code>value</code> rounded to the next lowest integer.
+   The return value of <strong>floor()</strong> is still of type
+   <a href="language.types.float.php">float</a> because the value range of <a href="language.types.float.php">float</a> is 
+   usually bigger than that of <a href="language.types.integer.php">integer</a>. This function returns FALSE in case of an error (e.g. passing an array).
+  </p>
+ </div>
+
+ <div class="examples">
+    <p><strong>Example #1 floor() example</strong></p>
+<pre class="php-code">&lt;?php
+echo floor(4.3);   // 4
+echo floor(9.999); // 9
+echo floor(-3.14); // -4
+?></pre>
+ </div>

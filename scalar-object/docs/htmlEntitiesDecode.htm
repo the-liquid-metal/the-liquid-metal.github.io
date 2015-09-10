@@ -1,0 +1,252 @@
+<h1>htmlEntitiesDecode</h1>
+
+ <div>
+  <p>
+   <strong>htmlEntitiesDecode()</strong> is the opposite of
+   <a href="function.htmlentities.php">htmlentities()</a> in that it converts all HTML entities
+   in the <code>string</code> to their applicable characters.
+  </p>
+  <p>
+   More precisely, this function decodes all the entities (including all numeric
+   entities) that a) are necessarily valid for the chosen document type — i.e.,
+   for XML, this function does not decode named entities that might be defined
+   in some DTD — and b) whose character or characters are in the coded character
+   set associated with the chosen encoding and are permitted in the chosen
+   document type. All other entities are left as is.
+  </p>
+ </div>
+
+ <div>
+  <h3>Parameters</h3>
+   <dl>
+     <dt>string</dt>
+     <dd>The input string.</dd>
+
+     <dt>flags</dt>
+     <dd><p>A bitmask of one or more of the following flags, which specify how to handle quotes and
+       which document type to use. The default is <em>ENT_COMPAT | ENT_HTML401</em>.
+       <table class="table">
+        <caption><strong>Available <code>flags</code> constants</strong></caption>
+
+         <thead>
+          <tr>
+           <th>Constant Name</th>
+           <th>Description</th>
+          </tr>
+         </thead>
+
+         <tbody>
+          <tr>
+           <td><code>ENT_COMPAT</code></td>
+           <td>Will convert double-quotes and leave single-quotes alone.</td>
+          </tr>
+
+          <tr>
+           <td><code>ENT_QUOTES</code></td>
+           <td>Will convert both double and single quotes.</td>
+          </tr>
+
+          <tr>
+           <td><code>ENT_NOQUOTES</code></td>
+           <td>Will leave both double and single quotes unconverted.</td>
+          </tr>
+
+          <tr>
+           <td><code>ENT_HTML401</code></td>
+           <td>Handle code as HTML 4.01.</td>
+          </tr>
+
+          <tr>
+           <td><code>ENT_XML1</code></td>
+           <td>Handle code as XML 1.</td>
+          </tr>
+
+          <tr>
+           <td><code>ENT_XHTML</code></td>
+           <td>Handle code as XHTML.</td>
+          </tr>
+
+          <tr>
+           <td><code>ENT_HTML5</code></td>
+           <td>Handle code as HTML 5.</td>
+          </tr>
+         </tbody>
+       </table>
+</p></dd>
+
+     <dt>encoding</dt>
+     <dd>
+
+ <p>
+  An optional argument defining the encoding used when converting characters.
+ </p>
+
+ <p>
+  If omitted, the default value of the <code>encoding</code> varies
+  depending on the PHP version in use. In PHP 5.6 and later, the
+  <a href="ini.core.php#ini.default-charset">default_charset</a> configuration
+  option is used as the default value. PHP 5.4 and 5.5 will use
+  <em>UTF-8</em> as the default. Earlier versions of PHP use
+  <em>ISO-8859-1</em>.
+ </p>
+
+ <p>
+  Although this argument is technically optional, you are highly encouraged to
+  specify the correct value for your code if you are using PHP 5.5 or earlier,
+  or if your <a href="ini.core.php#ini.default-charset">default_charset</a>
+  configuration option may be set incorrectly for the given input.
+ </p>
+
+<p>
+ The following character sets are supported:
+ <table class="table">
+  <caption><strong>Supported charsets</strong></caption>
+
+   <thead>
+    <tr>
+     <th>Charset</th>
+     <th>Aliases</th>
+     <th>Description</th>
+    </tr>
+   </thead>
+
+   <tbody>
+    <tr>
+     <td>ISO-8859-1</td>
+     <td>ISO8859-1</td>
+     <td>Western European, Latin-1.</td>
+    </tr>
+
+    <tr>
+     <td>ISO-8859-5</td>
+     <td>ISO8859-5</td>
+     <td>Little used cyrillic charset (Latin/Cyrillic).</td>
+    </tr>
+
+    <tr>
+     <td>ISO-8859-15</td>
+     <td>ISO8859-15</td>
+     <td>
+      Western European, Latin-9. Adds the Euro sign, French and Finnish
+      letters missing in Latin-1 (ISO-8859-1).
+     </td>
+    </tr>
+
+    <tr>
+     <td>UTF-8</td>
+     <td> </td>
+     <td>ASCII compatible multi-byte 8-bit Unicode.</td>
+    </tr>
+
+    <tr>
+     <td>cp866</td>
+     <td>ibm866, 866</td>
+     <td>DOS-specific Cyrillic charset.</td>
+    </tr>
+
+    <tr>
+     <td>cp1251</td>
+     <td>Windows-1251, win-1251, 1251</td>
+     <td>Windows-specific Cyrillic charset.</td>
+    </tr>
+
+    <tr>
+     <td>cp1252</td>
+     <td>Windows-1252, 1252</td>
+     <td>Windows specific charset for Western European.</td>
+    </tr>
+
+    <tr>
+     <td>KOI8-R</td>
+     <td>koi8-ru, koi8r</td>
+     <td>Russian.</td>
+    </tr>
+
+    <tr>
+     <td>BIG5</td>
+     <td>950</td>
+     <td>Traditional Chinese, mainly used in Taiwan.</td>
+    </tr>
+
+    <tr>
+     <td>GB2312</td>
+     <td>936</td>
+     <td>Simplified Chinese, national standard character set.</td>
+    </tr>
+
+    <tr>
+     <td>BIG5-HKSCS</td>
+     <td> </td>
+     <td>Big5 with Hong Kong extensions, Traditional Chinese.</td>
+    </tr>
+
+    <tr>
+     <td>Shift_JIS</td>
+     <td>SJIS, SJIS-win, cp932, 932</td>
+     <td>Japanese</td>
+    </tr>
+
+    <tr>
+     <td>EUC-JP</td>
+     <td>EUCJP, eucJP-win</td>
+     <td>Japanese</td>
+    </tr>
+
+    <tr>
+     <td>MacRoman</td>
+     <td> </td>
+     <td>Charset that was used by Mac OS.</td>
+    </tr>
+
+    <tr>
+     <td><em>''</em></td>
+     <td> </td>
+     <td>
+      An empty string activates detection from script encoding (Zend multibyte),
+      <a href="ini.core.php#ini.default-charset">default_charset</a> and current
+      locale (see <a href="function.nl-langinfo.php">nl_langinfo()</a> and
+      <a href="function.setlocale.php">setlocale()</a>), in this order. Not recommended.
+     </td>
+    </tr>
+   </tbody>
+ </table>
+
+ <blockquote><strong>Note</strong>:
+   Any other character sets are not recognized. The default encoding will be
+   used instead and a warning will be emitted.
+  </blockquote>
+</p>
+
+     </dd>
+   </dl>
+ </div>
+
+ <div>
+  <h3>Return Values</h3>
+  <p>Returns the decoded string.</p>
+ </div>
+
+ <div class="examples">
+    <p><strong>Example #1 Decoding HTML entities</strong></p>
+<pre class="php-code">
+<?php
+$orig = "I'll \"walk\" the &lt;b>dog&lt;/b> now";
+
+$a = htmlentities($orig);
+
+$b = htmlEntitiesDecode($a);
+
+echo $a; // I'll &amp;quot;walk&amp;quot; the &amp;lt;b&amp;gt;dog&amp;lt;/b&amp;gt; now
+
+echo $b; // I'll "walk" the &lt;b>dog&lt;/b> now
+?>
+</pre>
+ </div>
+
+  <blockquote><strong>Note</strong>:
+    You might wonder why trim(htmlEntitiesDecode('&amp;nbsp;')); doesn't
+    reduce the string to an empty string, that's because the '&amp;nbsp;'
+    entity is not ASCII code 32 (which is stripped by
+    <a href="function.trim.php">trim()</a>) but ASCII code 160 (0xa0) in the default ISO
+    8859-1 encoding.
+  </blockquote>

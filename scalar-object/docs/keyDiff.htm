@@ -1,0 +1,64 @@
+<h1>keyDiff</h1>
+
+ <div>
+   Compares the keys from <code>array1</code> against the keys
+   from <code>array2</code> and returns the difference.
+   This function is like <a href="function.array-diff.php">array_diff()</a> except the
+   comparison is done on the keys instead of the values.
+ </div>
+
+ <div>
+  <h3>Parameters</h3>
+   <dl>
+     <dt>array1</dt>
+     <dd>The array to compare from</dd>
+
+     <dt>array2</dt>
+     <dd>An array to compare against</dd>
+
+     <dt>...</dt>
+     <dd>More arrays to compare against</dd>
+   </dl>
+ </div>
+
+ <div>
+  <h3>Return Values</h3>
+  <p>
+   Returns an <a href="language.types.array.php">array</a> containing all the entries from
+   <code>array1</code> whose keys are not present in any of the
+   other arrays.
+  </p>
+ </div>
+
+ <div class="examples">
+    <p><strong>Example #1 keyDiff() example</strong></p>
+    <div>
+     The two keys from the <em>key => value</em> pairs are
+     considered equal only if
+     <em>(string) $key1 === (string) $key2 </em>. In other words
+     a strict type check is executed so the string representation must be
+     the same.
+    </div>
+<pre class="php-code">&lt;?php
+$array1 = array('blue'  => 1, 'red'  => 2, 'green'  => 3, 'purple' => 4);
+$array2 = array('green' => 5, 'blue' => 6, 'yellow' => 7, 'cyan'   => 8);
+
+var_dump(keyDiff($array1, $array2));
+?></pre>
+
+    <div>The above example will output:</div>
+<pre>
+array(2) {
+  ["red"]=>
+  int(2)
+  ["purple"]=>
+  int(4)
+}
+</pre>
+ </div>
+
+  <blockquote><strong>Note</strong>:
+    This function only checks one dimension of a n-dimensional
+    array. Of course you can check deeper dimensions by using
+    <em>keyDiff($array1[0], $array2[0]);</em>.
+  </blockquote>

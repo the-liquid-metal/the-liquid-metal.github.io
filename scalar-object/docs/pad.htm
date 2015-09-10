@@ -1,0 +1,59 @@
+<h1>pad</h1>
+
+ <div>
+   <strong>pad()</strong> returns a copy of the
+   <code>array</code> padded to size specified by
+   <code>size</code> with value
+   <code>value</code>. If
+   <code>size</code> is positive then the array is
+   padded on the right, if it's negative then on the left. If the
+   absolute value of <code>size</code> is less than or
+   equal to the length of the <code>array</code> then no
+   padding takes place.
+   It is possible to add at most 1048576 elements at a time.
+ </div>
+
+ <div>
+  <h3>Parameters</h3>
+   <dl>
+     <dt>array</dt>
+     <dd>Initial array of values to pad.</dd>
+
+     <dt>size</dt>
+     <dd>New size of the array.</dd>
+
+     <dt>value</dt>
+     <dd>Value to pad if <code>array</code> is less than <code>size</code>.</dd>
+   </dl>
+ </div>
+
+ <div>
+  <h3>Return Values</h3>
+  <p>
+   Returns a copy of the <code>array</code> padded to size specified
+   by <code>size</code> with value 
+   <code>value</code>. If <code>size</code> is 
+   positive then the array is padded on the right, if it's negative then 
+   on the left. If the absolute value of <code>size</code> is less
+   than or equal to the length of the <code>array</code> then no
+   padding takes place.
+  </p>
+ </div>
+
+ <div class="examples">
+    <p><strong>Example #1 pad() example</strong></p>
+<pre class="php-code">
+<?php
+$input = array(12, 10, 9);
+
+$result = pad($input, 5, 0);
+// result is array(12, 10, 9, 0, 0)
+
+$result = pad($input, -7, -1);
+// result is array(-1, -1, -1, -1, 12, 10, 9)
+
+$result = pad($input, 2, "noop");
+// not padded
+?>
+</pre>
+ </div>

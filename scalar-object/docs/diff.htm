@@ -1,0 +1,69 @@
+<h1>diff</h1>
+
+ <div>
+  <p>
+   Compares <code>array1</code> against one or more other arrays and
+   returns the values in <code>array1</code> that are not present in
+   any of the other arrays.
+  </p>
+ </div>
+
+ <div>
+  <h3>Parameters</h3>
+   <dl>
+     <dt>array1</dt>
+     <dd>The array to compare from</dd>
+
+     <dt>array2</dt>
+     <dd>An array to compare against</dd>
+
+     <dt>...</dt>
+     <dd>More arrays to compare against</dd>
+   </dl>
+ </div>
+
+ <div>
+  <h3>Return Values</h3>
+  <p>
+   Returns an <a href="language.types.array.php">array</a> containing all the entries from
+   <code>array1</code> that are not present in any of the other arrays.
+  </p>
+ </div>
+
+ <div class="examples">
+  <p>
+   <div>
+    <p><strong>Example #1 diff() example</strong></p>
+<pre class="php-code">&lt;?php
+$array1 = array("a" => "green", "red", "blue", "red");
+$array2 = array("b" => "green", "yellow", "red");
+$result = diff($array1, $array2);
+
+print_r($result);
+?></pre>
+
+    <div>
+     Multiple occurrences in <var><var>$array1</var></var> are all
+     treated the same way. This will output :
+    </div>
+<pre>
+Array
+(
+    [1] => blue
+)
+</pre>
+   </div>
+  </p>
+ </div>
+
+  <blockquote><strong>Note</strong>:
+    Two elements are considered equal if and only if
+    <em>(string) $elem1 === (string) $elem2</em>. In words:
+    when the string representation is the same.
+  </blockquote>
+
+  <blockquote><strong>Note</strong>:
+    This function only checks one dimension of a n-dimensional
+    array. Of course you can check deeper dimensions by using
+    <em>diff($array1[0], $array2[0]);</em>.
+  </blockquote>

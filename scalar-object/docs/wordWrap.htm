@@ -1,0 +1,84 @@
+  <h1>wordWrap</h1>
+
+  <div>Wraps a string to a given number of characters using a string break character.</div>
+
+  <div>
+    <h3>Parameters</h3>
+      <dl>
+        <dt>str</dt>
+        <dd>The input string.</dd>
+
+        <dt>width</dt>
+        <dd>The number of characters at which the string will be wrapped.</dd>
+
+        <dt>break</dt>
+        <dd>The line is broken using the optional <code>break</code> parameter.</dd>
+
+        <dt>cut</dt>
+        <dd>If the <code>cut</code> is set to <code>TRUE</code>, the string is
+          always wrapped at or before the specified <code>width</code>.  So if you have
+          a word that is larger than the given width, it is broken apart.
+          (See second example). When <code>FALSE</code> the function does not split the word
+          even if the <code>width</code> is smaller than the word width.</dd>
+      </dl>
+  </div>
+
+  <div>
+    <h3>Return Values</h3>
+    <p>Returns the given string wrapped at the specified length.</p>
+  </div>
+
+  <div class="examples">
+    <p><strong>Example #1 wordWrap() example</strong></p>
+    <pre class="php-code">
+      <?php
+      $text = "The quick brown fox jumped over the lazy dog.";
+      $newtext = wordWrap($text, 20, "&lt;br />\n");
+
+      echo $newtext;
+      ?>
+    </pre>
+    <div>The above example will output:</div>
+    <pre class="output">
+      The quick brown fox&lt;br />
+      jumped over the lazy&lt;br />
+      dog.
+    </pre>
+
+    <p><strong>Example #2 wordWrap() example</strong></p>
+    <pre class="php-code">
+      <?php
+      $text = "A very long woooooooooooord.";
+      $newtext = wordWrap($text, 8, "\n", true);
+
+      echo "$newtext\n";
+      ?>
+    </pre>
+
+    <div>The above example will output:</div>
+    <pre class="output">
+      A very
+      long
+      wooooooo
+      ooooord.
+    </pre>
+
+    <p><strong>Example #3 wordWrap() example</strong></p>
+    <pre class="php-code">
+      <?php
+      $text = "A very long woooooooooooooooooord. and something";
+      $newtext = wordWrap($text, 8, "\n", false);
+
+      echo "$newtext\n";
+      ?>
+    </pre>
+
+    <div>The above example will output:</div>
+    <pre class="output">
+      A very
+      long
+      woooooooooooooooooord.
+      and
+      something
+    </pre>
+  </div>

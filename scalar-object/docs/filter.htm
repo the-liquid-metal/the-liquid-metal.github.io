@@ -1,0 +1,153 @@
+<h1>filter</h1>
+
+ <div>
+  <p>
+   Iterates over each value in the <code>array</code>
+   passing them to the <code>callback</code> function.
+   If the <code>callback</code> function returns true, the
+   current value from <code>array</code> is returned into
+   the result array. Array keys are preserved.
+  </p>
+</div>
+
+ <div>
+  <h3>Parameters</h3>
+   <dl>
+     <dt>array</dt>
+     <dd>The array to iterate over</dd>
+
+     <dt>callback</dt>
+     <dd><p>The callback function to use</p>
+      <p>
+       If no <code>callback</code> is supplied, all entries of
+       <code>array</code> equal to <code>FALSE</code> (see
+       <a href="language.types.boolean.php#language.types.boolean.casting">converting to
+        boolean</a>) will be removed.</p></dd>
+
+     <dt>flag</dt>
+     <dd><p>Flag determining what arguments are sent to <code>callback</code>:</p>
+       <ul>
+        <li>
+         <code>ARRAY_FILTER_USE_KEY</code> - pass key as the only argument
+         to <code>callback</code> instead of the value
+        </li>
+        <li>
+         <code>ARRAY_FILTER_USE_BOTH</code> - pass both value and key as
+         arguments to <code>callback</code> instead of the value
+        </li>
+       </ul></dd>
+   </dl>
+ </div>
+
+ <div>
+  <h3>Return Values</h3>
+  <p>Returns the filtered array.</p>
+ </div>
+
+ <div class="examples">
+    <p><strong>Example #1 filter() example</strong></p>
+<pre class="php-code">&lt;?php
+function odd($var)
+{
+    // returns whether the input integer is odd
+    return($var &amp; 1);
+}
+
+function even($var)
+{
+    // returns whether the input integer is even
+    return(!($var &amp; 1));
+}
+
+$array1 = array("a"=>1, "b"=>2, "c"=>3, "d"=>4, "e"=>5);
+$array2 = array(6, 7, 8, 9, 10, 11, 12);
+
+echo "Odd :\n";
+print_r(filter($array1, "odd"));
+echo "Even:\n";
+print_r(filter($array2, "even"));
+?></pre>
+
+    <div>The above example will output:</div>
+<pre>
+Odd :
+Array
+(
+    [a] => 1
+    [c] => 3
+    [e] => 5
+)
+Even:
+Array
+(
+    [0] => 6
+    [2] => 8
+    [4] => 10
+    [6] => 12
+)
+</pre>
+   </div>
+   <div>
+    <p><strong>Example #2 <strong>filter()</strong> without
+    <code>callback</code></strong></p>
+<pre class="php-code">&lt;?php
+
+$entry = array(
+             0 => 'foo',
+             1 => false,
+             2 => -1,
+             3 => null,
+             4 => ''
+          );
+
+print_r(filter($entry));
+?></pre>
+
+    <div>The above example will output:</div>
+<pre>
+Array
+(
+    [0] => foo
+    [2] => -1
+)
+</pre>
+   </div>
+   <div>
+    <p><strong>Example #3 <strong>filter()</strong> with 
+    <code>flag</code></strong></p>
+<pre class="php-code">&lt;?php
+
+$arr = ['a' => 1, 'b' => 2, 'c' => 3, 'd' => 4];
+
+var_dump(filter($arr, function($k) {
+    return $k == 'b';
+}, ARRAY_FILTER_USE_KEY));
+
+var_dump(filter($arr, function($v, $k) {
+    return $k == 'b' || $v == 4;
+}, ARRAY_FILTER_USE_BOTH));
+?></pre>
+
+    <div>The above example will output:</div>
+<pre>
+array(1) {
+  ["b"]=>
+  int(2)
+}
+array(2) {
+  ["b"]=>
+  int(2)
+  ["d"]=>
+  int(4)
+}
+</pre>
+ </div>
+
+ <div>
+  <div class="caution"><strong>Caution</strong>
+   <p>
+    If the array is changed from the callback function (e.g. element
+    added, deleted or unset) the behavior of this function is undefined.
+   </p>
+  </div>
+ </div>

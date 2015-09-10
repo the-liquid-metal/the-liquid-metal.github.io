@@ -1,0 +1,38 @@
+<h1>random</h1>
+ <div>
+   Picks one or more random entries out of an array, and returns the
+   key (or keys) of the random entries.
+ </div>
+
+ <div>
+  <h3>Parameters</h3>
+   <dl>
+     <dt>array</dt>
+     <dd>The input array.</dd>
+
+     <dt>num</dt>
+     <dd>Specifies how many entries should be picked.</dd>
+   </dl>
+ </div>
+
+ <div>
+  <h3>Return Values</h3>
+  <p>
+   When picking only one entry, <strong>random()</strong> returns
+   the key for a random entry. Otherwise, an array of keys for the random
+   entries is returned. This is done so that random keys can be picked
+   from the array as well as random values. Trying to pick more elements
+   than there are in the array will result in an
+   <code>E_WARNING</code> level error, and NULL will be returned.
+  </p>
+ </div>
+
+ <div class="examples">
+    <p><strong>Example #1 random() example</strong></p>
+<pre class="php-code">&lt;?php
+$input = array("Neo", "Morpheus", "Trinity", "Cypher", "Tank");
+$rand_keys = random($input, 2);
+echo $input[$rand_keys[0]] . "\n";
+echo $input[$rand_keys[1]] . "\n";
+?></pre>
+ </div>

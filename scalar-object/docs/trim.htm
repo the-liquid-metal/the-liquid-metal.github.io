@@ -1,0 +1,146 @@
+<h1>trim</h1>
+ <div>
+  <p>
+   This function returns a string with whitespace stripped from the
+   beginning and end of <code>str</code>.
+   Without the second parameter,
+   <strong>trim()</strong> will strip these characters:
+
+   <ul>
+    <li>
+      " " (<acronym title="American Standard Code for Information Interchange">ASCII</acronym> <em>32</em> 
+      (<em>0x20</em>)), an ordinary space.
+    </li>
+    <li>
+      "\t" (<acronym title="American Standard Code for Information Interchange">ASCII</acronym> <em>9</em> 
+      (<em>0x09</em>)), a tab.
+    </li>
+    <li>
+      "\n" (<acronym title="American Standard Code for Information Interchange">ASCII</acronym> <em>10</em> 
+      (<em>0x0A</em>)), a new line (line feed).
+    </li>
+    <li>
+      "\r" (<acronym title="American Standard Code for Information Interchange">ASCII</acronym> <em>13</em> 
+      (<em>0x0D</em>)), a carriage return.
+    </li>
+    <li>
+      "\0" (<acronym title="American Standard Code for Information Interchange">ASCII</acronym> <em>0</em> 
+      (<em>0x00</em>)), the <em>NUL</em>-byte.
+    </li>
+    <li>
+      "\x0B" (<acronym title="American Standard Code for Information Interchange">ASCII</acronym> <em>11</em> 
+      (<em>0x0B</em>)), a vertical tab.
+    </li>
+   </ul>
+  </p>
+ </div>
+
+ <div>
+  <h3>Parameters</h3>
+   <dl>
+     <dt>str</dt>
+     <dd>The <a href="language.types.string.php">string</a> that will be trimmed.</dd>
+
+     <dt>character_mask</dt>
+     <dd>Optionally, the stripped characters can also be specified using
+       the <code>character_mask</code> parameter.
+       Simply list all characters that you want to be stripped. With
+       <em>..</em> you can specify a range of characters.</dd>
+   </dl>
+ </div>
+
+ <div>
+  <h3>Return Values</h3>
+  <p>The trimmed string.</p>
+ </div>
+
+ <div class="examples">
+    <p><strong>Example #1 Usage example of <strong>trim()</strong></strong></p>
+<pre class="php-code">
+<?php
+
+$text   = "\t\tThese are a few words :) ...  ";
+$binary = "\x09Example string\x0A";
+$hello  = "Hello World";
+var_dump($text, $binary, $hello);
+
+print "\n";
+
+$trimmed = trim($text);
+var_dump($trimmed);
+
+$trimmed = trim($text, " \t.");
+var_dump($trimmed);
+
+$trimmed = trim($hello, "Hdle");
+var_dump($trimmed);
+
+$trimmed = trim($hello, 'HdWr');
+var_dump($trimmed);
+
+// trim the ASCII control characters at the beginning and end of $binary
+// (from 0 to 31 inclusive)
+$clean = trim($binary, "\x00..\x1F");
+var_dump($clean);
+
+?>
+</pre>
+    <div>The above example will output:</div>
+<pre class="output">
+string(32) "        These are a few words :) ...  "
+string(16) "    Example string
+"
+string(11) "Hello World"
+
+string(28) "These are a few words :) ..."
+string(24) "These are a few words :)"
+string(5) "o Wor"
+string(9) "ello Worl"
+string(14) "Example string"
+</pre>
+
+    <p><strong>Example #2 Trimming array values with <strong>trim()</strong></strong></p>
+<pre class="php-code">
+<?php
+function trim_value(&amp;$value) 
+{ 
+    $value = trim($value); 
+}
+
+$fruit = array('apple','banana ', ' cranberry ');
+var_dump($fruit);
+
+array_walk($fruit, 'trim_value');
+var_dump($fruit);
+
+?>
+</pre>
+    <div>The above example will output:</div>
+<pre class="output">
+array(3) {
+  [0]=>
+  string(5) "apple"
+  [1]=>
+  string(7) "banana "
+  [2]=>
+  string(11) " cranberry "
+}
+array(3) {
+  [0]=>
+  string(5) "apple"
+  [1]=>
+  string(6) "banana"
+  [2]=>
+  string(9) "cranberry"
+}
+</pre>
+ </div>
+
+  <blockquote>
+    <strong>Note</strong>: <strong>Possible gotcha: removing middle characters</strong><br/>
+    Because <strong>trim()</strong> trims characters from the beginning and end of
+    a <a href="language.types.string.php">string</a>, it may be confusing when characters are (or are not) removed from
+    the middle. <em>trim('abc', 'bad')</em> removes both 'a' and 'b' because it
+    trims 'a' thus moving 'b' to the beginning to also be trimmed. So, this is why it "works"
+    whereas <em>trim('abc', 'b')</em> seemingly does not.
+  </blockquote>

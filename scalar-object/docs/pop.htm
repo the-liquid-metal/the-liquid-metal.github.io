@@ -1,0 +1,56 @@
+<h1>pop</h1>
+
+ <div>
+  <p>
+   <strong>pop()</strong> pops and returns the last value of
+   the <code>array</code>, shortening the
+   <code>array</code> by one element.
+  </p>
+  <blockquote><strong>Note</strong>:This function will
+   <a href="function.reset.php">reset()</a> the <a href="language.types.array.php">array</a> pointer of the input array after use.
+  </blockquote>
+ </div>
+
+ <div>
+  <h3>Parameters</h3>
+   <dl>
+     <dt>array</dt>
+     <dd>The array to get the value from.</dd>
+   </dl>
+ </div>
+
+ <div>
+  <h3>Return Values</h3>
+  <p>
+   Returns the last value of <code>array</code>.
+   If <code>array</code> is empty (or is not an array),
+   <code>NULL</code> will be returned.
+  </p>
+ </div>
+
+ <div>
+  <h3>Errors/Exceptions</h3>
+  <p>
+   This function will produce an error of level <a href="errorfunc.constants.php">
+   E_WARNING</a> when called on a non-array.
+  </p>
+ </div>
+
+ <div class="examples">
+    <p><strong>Example #1 pop() example</strong></p>
+<pre class="php-code">&lt;?php
+$stack = array("orange", "banana", "apple", "raspberry");
+$fruit = pop($stack);
+print_r($stack);
+?></pre>
+    <div>After this, <var><var>$stack</var></var> will have only 3 elements:</div>
+<pre>
+Array
+(
+    [0] => orange
+    [1] => banana
+    [2] => apple
+)
+</pre>
+    <div>and <em>raspberry</em> will be assigned to <var><var>$fruit</var></var>.</div>
+ </div>

@@ -1,0 +1,65 @@
+<h1>reverse</h1>
+ <div>Takes an input <code>array</code> and returns a new array with the order of the elements reversed.</div>
+
+ <div>
+  <h3>Parameters</h3>
+   <dl>
+     <dt>array</dt>
+     <dd>The input array.</dd>
+
+     <dt>preserve_keys</dt>
+     <dd>If set to <code>TRUE</code> numeric keys are preserved. 
+       Non-numeric keys are not affected by this setting and will always be preserved.</dd>
+   </dl>
+ </div>
+
+ <div>
+  <h3>Return Values</h3>
+  <p>Returns the reversed array.</p>
+ </div>
+
+ <div class="examples">
+    <p><strong>Example #1 reverse() example</strong></p>
+<pre class="php-code">&lt;?php
+$input  = array("php", 4.0, array("green", "red"));
+$reversed = reverse($input);
+$preserved = reverse($input, true);
+
+print_r($input);
+print_r($reversed);
+print_r($preserved);
+?></pre>
+    <div>The above example will output:</div>
+<pre>
+Array
+(
+    [0] => php
+    [1] => 4
+    [2] => Array
+        (
+            [0] => green
+            [1] => red
+        )
+)
+Array
+(
+    [0] => Array
+        (
+            [0] => green
+            [1] => red
+        )
+    [1] => 4
+    [2] => php
+)
+Array
+(
+    [2] => Array
+        (
+            [0] => green
+            [1] => red
+        )
+    [1] => 4
+    [0] => php
+)
+</pre>
+ </div>

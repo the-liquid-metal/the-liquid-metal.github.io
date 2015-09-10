@@ -1,0 +1,75 @@
+<h1>split</h1>
+
+ <div>Converts a string to an array.</div>
+
+ <div>
+   <h3>Parameters</h3>
+   <dl>
+     <dt>string</dt>
+     <dd>The input string.</dd>
+
+     <dt>split_length</dt>
+     <dd>Maximum length of the chunk.</dd>
+   </dl>
+ </div>
+
+ <div>
+  <h3>Return Values</h3>
+  <p>
+   If the optional <code>split_length</code> parameter is
+   specified, the returned array will be broken down into chunks with each
+   being <code>split_length</code> in length, otherwise each chunk
+   will be one character in length.
+  </p>
+  <p>
+   <code>FALSE</code> is returned if <code>split_length</code> is less than 1.
+   If the <code>split_length</code> length exceeds the length of
+   <code>string</code>, the entire string is returned as the first
+   (and only) array element.
+  </p>
+ </div>
+
+ <div class="examples">
+    <p><strong>Example #1 Example uses of <strong>split()</strong></strong></p>
+<pre class="php-code">&lt;?php
+
+$str = "Hello Friend";
+
+$arr1 = split($str);
+$arr2 = split($str, 3);
+
+print_r($arr1);
+print_r($arr2);
+
+?></pre>
+    <div>The above example will output:</div>
+<pre>
+Array
+(
+    [0] => H
+    [1] => e
+    [2] => l
+    [3] => l
+    [4] => o
+    [5] =>
+    [6] => F
+    [7] => r
+    [8] => i
+    [9] => e
+    [10] => n
+    [11] => d
+)
+
+Array
+(
+    [0] => Hel
+    [1] => lo
+    [2] => Fri
+    [3] => end
+)
+</pre>
+ </div>
+
+  <blockquote><strong>Note</strong>:
+    <strong>split()</strong> will split into bytes, rather than characters when dealing with a multi-byte encoded string.
+  </blockquote>

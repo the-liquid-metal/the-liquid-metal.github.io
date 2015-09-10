@@ -1,0 +1,45 @@
+<h1>unshift</h1>
+ <div>
+   <strong>unshift()</strong> prepends passed elements to the front
+   of the <code>array</code>. Note that the list of elements is
+   prepended as a whole, so that the prepended elements stay in the same
+   order.  All numerical array keys will be modified to start counting from
+   zero while literal keys won't be touched.
+ </div>
+
+ <div>
+  <h3>Parameters</h3>
+   <dl>
+     <dt>array</dt>
+     <dd>The input array.</dd>
+
+     <dt>value1</dt>
+     <dd>First value to prepend.</dd>
+   </dl>
+ </div>
+
+ <div>
+  <h3>Return Values</h3>
+  <p>Returns the new number of elements in the <code>array</code>.</p>
+ </div>
+
+ <div class="examples">
+    <p><strong>Example #1 unshift() example</strong></p>
+<pre class="php-code">
+<?php
+$queue = array("orange", "banana");
+unshift($queue, "apple", "raspberry");
+print_r($queue);
+?>
+</pre>
+    <div>The above example will output:</div>
+<pre class="output">
+Array
+(
+    [0] => apple
+    [1] => raspberry
+    [2] => orange
+    [3] => banana
+)
+</pre>
+ </div>

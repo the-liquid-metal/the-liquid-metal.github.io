@@ -1,0 +1,67 @@
+<h1>flip</h1>
+ <div>
+  <p>
+   <strong>flip()</strong> returns an <a href="language.types.array.php">array</a> in flip
+   order, i.e. keys from <code>array</code> become values and values
+   from <code>array</code> become keys.
+  </p>
+  <p>
+   Note that the values of <code>array</code> need to be valid
+   keys, i.e. they need to be either <a href="language.types.integer.php">integer</a> or
+   <a href="language.types.string.php">string</a>. A warning will be emitted if a value has the wrong
+   type, and the key/value pair in question <em>will not be included
+   in the result</em>.
+  </p>
+  <p>
+   If a value has several occurrences, the latest key will be
+   used as its value, and all others will be lost.
+  </p>
+ </div>
+
+ <div>
+  <h3>Parameters</h3>
+   <dl>
+     <dt>array</dt>
+     <dd>An array of key/value pairs to be flipped.</dd>
+   </dl>
+ </div>
+
+ <div>
+  <h3>Return Values</h3>
+  <p>Returns the flipped array on success and <code>NULL</code> on failure.</p>
+ </div>
+
+ <div class="examples">
+    <p><strong>Example #1 flip() example</strong></p>
+<pre class="php-code">&lt;?php
+$input = array("oranges", "apples", "pears");
+$flipped = flip($input);
+
+print_r($flipped);
+?></pre>
+    <div>The above example will output:</div>
+<pre>
+Array
+(
+    [oranges] => 0
+    [apples] => 1
+    [pears] => 2
+)
+</pre>
+
+    <p><strong>Example #2 flip() example : collision</strong></p>
+<pre class="php-code">&lt;?php
+$input = array("a" => 1, "b" => 1, "c" => 2);
+$flipped = flip($input);
+
+print_r($flipped);
+?></pre>
+    <div>The above example will output:</div>
+<pre>
+Array
+(
+    [1] => b
+    [2] => c
+)
+</pre>
+ </div>

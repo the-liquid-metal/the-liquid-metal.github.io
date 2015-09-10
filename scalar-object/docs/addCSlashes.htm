@@ -1,0 +1,74 @@
+<h1>addCSlashes</h1>
+
+ <div>
+  <p>
+   Returns a string with backslashes before characters that are
+   listed in <code>charlist</code> parameter. 
+  </p>
+ </div>
+
+ <div>
+  <h3>Parameters</h3>
+   <dl>
+     <dt>str</dt>
+     <dd>The string to be escaped.</dd>
+
+     <dt>charlist</dt>
+     <dd><p>A list of characters to be escaped. If
+       <code>charlist</code> contains characters
+       <em>\n</em>, <em>\r</em> etc., they are
+       converted in C-like style, while other non-alphanumeric characters
+       with ASCII codes lower than 32 and higher than 126 converted to
+       octal representation.
+      </p>
+      <p>
+       When you define a sequence of characters in the charlist argument
+       make sure that you know what characters come between the
+       characters that you set as the start and end of the range.
+<pre class="php-code">&lt;?php
+echo addCSlashes('foo[ ]', 'A..z');
+// output:  \f\o\o\[ \]
+// All upper and lower-case letters will be escaped
+// ... but so will the [\]^_`
+?></pre>
+       Also, if the first character in a range has a higher ASCII value
+       than the second character in the range, no range will be
+       constructed.  Only the start, end and period characters will be
+       escaped. Use the <a href="function.ord.php">ord()</a> function to find the
+       ASCII value for a character.
+<pre class="php-code">&lt;?php
+echo addCSlashes("zoo['.']", 'z..A');
+// output:  \zoo['\.']
+?></pre>
+      </p>
+      <p>
+       Be careful if you choose to escape characters 0, a, b, f, n, r, t and
+       v. They will be converted to \0, \a, \b, \f, \n, \r, \t and \v, all of
+       which are predefined escape sequences in C. Many of these sequences are
+       also defined in other C-derived languages, including PHP, meaning that
+       you may not get the desired result if you use the output of
+       <strong>addCSlashes()</strong> to generate code in those languages
+       with these characters defined in <code>charlist</code>.</p></dd>
+   </dl>
+ </div>
+
+ <div>
+  <h3>Return Values</h3>
+  <p>
+   Returns the escaped string.
+  </p>
+ </div>
+
+ <div class="examples">
+  <p>
+    <code>charlist</code> like "\0..\37", which would
+    escape all characters with ASCII code between 0 and 31.
+   <div>
+    <p><strong>Example #1 addCSlashes() example</strong></p>
+<pre class="php-code">&lt;?php
+$escaped = addCSlashes($not_escaped, "\0..\37!@\177..\377");
+?></pre>
+
+   </div>
+  </p>
+ </div>

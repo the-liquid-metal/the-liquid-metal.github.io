@@ -1,0 +1,38 @@
+<h1>octToDec</h1>
+
+ <div>
+   Returns the decimal equivalent of the octal number
+   represented by the <code>octal_string</code> argument.
+ </div>
+
+ <div>
+  <h3>Parameters</h3>
+   <dl>
+     <dt>octal_string</dt>
+     <dd>The octal string to convert</dd>
+   </dl>
+ </div>
+
+ <div>
+  <h3>Return Values</h3>
+  <p>The decimal representation of <code>octal_string</code></p>
+ </div>
+
+ <div class="examples">
+    <p><strong>Example #1 octToDec() example</strong></p>
+<pre class="php-code">&lt;?php
+echo octToDec('77') . "\n";
+echo octToDec(decoct(45));
+?></pre>
+    <div>The above example will output:</div>
+<pre>
+63
+45
+</pre>
+ </div>
+
+  <blockquote><strong>Note</strong>:
+    The function can convert numbers that are too large to fit into the platforms
+    <a href="language.types.integer.php">integer</a> type, larger values are returned as <a href="language.types.float.php">float</a> in
+    that case.
+  </blockquote>

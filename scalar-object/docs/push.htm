@@ -1,0 +1,64 @@
+<h1>push</h1>
+ <div>
+  <p>
+   <strong>push()</strong> treats <code>array</code> as a
+   stack, and pushes the passed variables onto the end of
+   <code>array</code>. The length of <code>array</code>
+   increases by the number of variables pushed. Has the same effect as:
+<pre class="php-code">
+<?php
+$array[] = $var;
+?>
+</pre>
+
+   repeated for each passed value.
+  </p>
+  <blockquote><strong>Note</strong>:
+    If you use <strong>push()</strong> to add one element to the
+    array it's better to use <em>$array[] = </em> because in that
+    way there is no overhead of calling a function.
+  </blockquote>
+
+  <blockquote><strong>Note</strong>:
+    <strong>push()</strong> will raise a warning if the first
+    argument is not an array. This differs from the
+    <em>$var[]</em> behaviour where a new array is created.
+   </blockquote>
+ </div>
+
+ <div>
+  <h3>Parameters</h3>
+   <dl>
+     <dt>array</dt>
+     <dd>The input array.</dd>
+
+     <dt>value1</dt>
+     <dd>The first value to push onto the end of the <code>array</code>.</dd>
+   </dl>
+ </div>
+
+ <div>
+  <h3>Return Values</h3>
+  <p>Returns the new number of elements in the array.</p>
+ </div>
+
+ <div class="examples">
+    <p><strong>Example #1 push() example</strong></p>
+<pre class="php-code">
+<?php
+$stack = array("orange", "banana");
+push($stack, "apple", "raspberry");
+print_r($stack);
+?>
+</pre>
+    <div>The above example will output:</div>
+<pre class="output">
+Array
+(
+    [0] => orange
+    [1] => banana
+    [2] => apple
+    [3] => raspberry
+)
+</pre>
+ </div>

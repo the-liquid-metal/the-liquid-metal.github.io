@@ -1,0 +1,160 @@
+  <h1>binToDec</h1>
+
+  <div>
+    <p>
+      Returns the decimal equivalent of the binary number represented by
+      the <code>binary_string</code> argument.
+    </p>
+    <p>
+      <strong>binToDec()</strong> converts a binary number to an
+      <a href="language.types.integer.php">integer</a> or, if needed for size reasons, <a href="language.types.float.php">float</a>.
+    </p>
+    <p>
+      <strong>binToDec()</strong> interprets all
+      <code>binary_string</code> values as unsigned
+      integers. This is because <strong>binToDec()</strong> sees
+      the most significant bit as another order of magnitude
+      rather than as the sign bit.
+    </p>
+  </div>
+
+  <div>
+    <h3>Parameters</h3>
+    <dl>
+      <dt>binary_string</dt>
+      <dd>The binary string to convert</dd>
+    </dl>
+
+    <div class="warning">
+      <strong>Warning</strong><br/>
+      The parameter must be a string. Using other data types will produce unexpected results.
+    </div>
+  </div>
+
+  <div>
+    <h3>Return Values</h3>
+    <p>The decimal value of <code>binary_string</code></p>
+  </div>
+
+  <div class="examples">
+    <p><strong>Example #1 binToDec() example</strong></p>
+    <pre class="php-code">
+      <?php
+      echo binToDec('110011') . "\n";
+      echo binToDec('000110011') . "\n";
+
+      echo binToDec('111');
+      ?>
+    </pre>
+
+    <div>The above example will output:</div>
+    <pre class="output">
+      51
+      51
+      7
+    </pre>
+
+    <p><strong>Example #2 binToDec() interprets input as unsigned integers</strong></p>
+    <pre class="php-code">
+      <?php
+      /*
+       * The lesson from this example is in the output
+       * rather than the PHP code itself.
+       */
+
+      $magnitude_lower = pow(2, (PHP_INT_SIZE * 8) - 2);
+      p($magnitude_lower - 1);
+      p($magnitude_lower, 'See the rollover?  Watch it next time around...');
+
+      p(PHP_INT_MAX, 'PHP_INT_MAX');
+      p(~PHP_INT_MAX, 'interpreted to be one more than PHP_INT_MAX');
+
+      if (PHP_INT_SIZE == 4) {
+          $note = 'interpreted to be the largest unsigned integer';
+      } else {
+          $note = 'interpreted to be the largest unsigned integer
+                    (18446744073709551615) but skewed by float precision';
+      }
+      p(-1, $note);
+
+      function p($input, $note = '') {
+          echo "input:        $input\n";
+
+          $format = '%0' . (PHP_INT_SIZE * 8) . 'b';
+          $bin = sprintf($format, $input);
+          echo "binary:       $bin\n";
+
+          ini_set('precision', 20);  // For readability on 64 bit boxes.
+          $dec = binToDec($bin);
+          echo 'binToDec():     ' . $dec . "\n";
+
+          if ($note) {
+              echo "NOTE:         $note\n";
+          }
+
+          echo "\n";
+      }
+      ?>
+    </pre>
+
+    <div>Output of the above example on 32 bit machines:</div>
+    <pre class="output">
+      input:        1073741823
+      binary:       00111111111111111111111111111111
+      binToDec():   1073741823
+
+      input:        1073741824
+      binary:       01000000000000000000000000000000
+      binToDec():   1073741824
+      NOTE:         See the rollover?  Watch it next time around...
+
+      input:        2147483647
+      binary:       01111111111111111111111111111111
+      binToDec():   2147483647
+      NOTE:         PHP_INT_MAX
+
+      input:        -2147483648
+      binary:       10000000000000000000000000000000
+      binToDec():   2147483648
+      NOTE:         interpreted to be one more than PHP_INT_MAX
+
+      input:        -1
+      binary:       11111111111111111111111111111111
+      binToDec():   4294967295
+      NOTE:         interpreted to be the largest unsigned integer
+    </pre>
+
+    <div>Output of the above example on 64 bit machines:</div>
+    <pre class="output">
+      input:        4611686018427387903
+      binary:       0011111111111111111111111111111111111111111111111111111111111111
+      binToDec():   4611686018427387903
+
+      input:        4611686018427387904
+      binary:       0100000000000000000000000000000000000000000000000000000000000000
+      binToDec():   4611686018427387904
+      NOTE:         See the rollover?  Watch it next time around...
+
+      input:        9223372036854775807
+      binary:       0111111111111111111111111111111111111111111111111111111111111111
+      binToDec():   9223372036854775807
+      NOTE:         PHP_INT_MAX
+
+      input:        -9223372036854775808
+      binary:       1000000000000000000000000000000000000000000000000000000000000000
+      binToDec():   9223372036854775808
+      NOTE:         interpreted to be one more than PHP_INT_MAX
+
+      input:        -1
+      binary:       1111111111111111111111111111111111111111111111111111111111111111
+      binToDec():   18446744073709551616
+      NOTE:         interpreted to be the largest unsigned integer
+                    (18446744073709551615) but skewed by float precision
+    </pre>
+  </div>
+
+  <blockquote>
+    <strong>Note</strong>: The function can convert numbers that are too large to fit
+    into the platforms <a href="language.types.integer.php">integer</a> type, larger
+    values are returned as <a href="language.types.float.php">float</a> in that case.
+  </blockquote>

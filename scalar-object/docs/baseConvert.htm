@@ -1,0 +1,59 @@
+<h1>baseConvert</h1>
+ <div>
+  <p>
+   Returns a string containing <code>number</code>
+   represented in base <code>tobase</code>.  The base in
+   which <code>number</code> is given is specified in
+   <code>frombase</code>.  Both
+   <code>frombase</code> and <code>tobase</code>
+   have to be between 2 and 36, inclusive.  Digits in numbers with a
+   base higher than 10 will be represented with the letters a-z,
+   with a meaning 10, b meaning 11 and z meaning 35.
+  </p>
+
+  <div class="warning">
+    <strong>Warning</strong><br/>
+    <strong>baseConvert()</strong> may lose precision on large numbers
+    due to properties related to the internal "double" or "float" type used.
+    Please see the <a href="language.types.float.php">Floating point numbers</a>
+    section in the manual for more specific information and limitations.
+  </div>
+ </div>
+
+ <div>
+  <h3>Parameters</h3>
+   <dl>
+     <dt>number</dt>
+     <dd>The number to convert</dd>
+
+     <dt>frombase</dt>
+     <dd>The base <code>number</code> is in</dd>
+
+     <dt>tobase</dt>
+     <dd>The base to convert <code>number</code> to</dd>
+   </dl>
+ </div>
+
+ <div>
+  <h3>Return Values</h3>
+  <p>
+   <code>number</code> converted to base <code>tobase</code>
+  </p>
+ </div>
+
+ <div class="examples">
+  <p>
+   <div>
+    <p><strong>Example #1 baseConvert() example</strong></p>
+<pre class="php-code">&lt;?php
+$hexadecimal = 'A37334';
+echo baseConvert($hexadecimal, 16, 2);
+?></pre>
+
+    <div>The above example will output:</div>
+<pre>
+101000110111001100110100
+</pre>
+   </div>
+  </p>
+ </div>

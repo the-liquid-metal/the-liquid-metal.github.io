@@ -1,0 +1,67 @@
+<h1>reduce</h1>
+ <div>
+   <strong>reduce()</strong> applies iteratively the
+   <code>callback</code> function to the elements of the
+   <code>array</code>, so as to reduce the array to
+   a single value.
+ </div>
+
+ <div>
+  <h3>Parameters</h3>
+   <dl>
+     <dt>array</dt>
+     <dd>The input array.</dd>
+
+     <dt>callback</dt>
+     <dd>
+      <dl>
+        <dt>carry</dt>
+        <dd>Holds the return value of the previous iteration; in the case of the
+          first iteration it instead holds the value of 
+          <code>initial</code>.
+        </dd>
+
+        <dt>item</dt>
+        <dd>Holds the value of the current iteration.</dd>
+      </dl>
+     </dd>
+
+     <dt>initial</dt>
+     <dd>If the optional <code>initial</code> is available, it will
+       be used at the beginning of the process, or as a final result in case
+       the array is empty.</dd>
+   </dl>
+ </div>
+
+ <div>
+  <h3>Return Values</h3>
+  <p>Returns the resulting value.</p>
+  <p>
+   If the array is empty and <code>initial</code> is not passed,
+   <strong>reduce()</strong> returns <code>NULL</code>.
+  </p>
+ </div>
+
+ <div class="examples">
+    <p><strong>Example #1 reduce() example</strong></p>
+<pre class="php-code">&lt;?php
+function sum($carry, $item)
+{
+    $carry += $item;
+    return $carry;
+}
+
+function product($carry, $item)
+{
+    $carry *= $item;
+    return $carry;
+}
+
+$a = array(1, 2, 3, 4, 5);
+$x = array();
+
+var_dump(reduce($a, "sum")); // int(15)
+var_dump(reduce($a, "product", 10)); // int(1200), because: 10*1*2*3*4*5
+var_dump(reduce($x, "sum", "No data to reduce")); // string(17) "No data to reduce"
+?></pre>
+ </div>

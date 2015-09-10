@@ -1,0 +1,39 @@
+<h1>lowercase</h1>
+
+ <div>
+  <p>
+   Returns <code>string</code> with all alphabetic characters
+   converted to lowercase.
+  </p>
+  <p>
+   Note that 'alphabetic' is determined by the current locale. This means
+   that e.g. in the default "C" locale, characters such as umlaut-A
+   (Ä) will not be converted.
+  </p>
+ </div>
+
+ <div>
+  <h3>Parameters</h3>
+   <dl>
+     <dt>string</dt>
+     <dd>The input string.</dd>
+   </dl>
+ </div>
+
+ <div>
+  <h3>Return Values</h3>
+  <p>Returns the lowercased string.</p>
+ </div>
+
+ <div class="examples">
+    <p><strong>Example #1 lowercase() example</strong></p>
+<pre class="php-code">
+<?php
+$str = "Mary Had A Little Lamb and She LOVED It So";
+$str = lowercase($str);
+echo $str; // Prints mary had a little lamb and she loved it so
+?>
+</pre>
+ </div>
+
+ <blockquote><strong>Note</strong>:This function is binary-safe.</blockquote>

@@ -1,0 +1,65 @@
+<h1>decToHex</h1>
+ <div>
+  <p>
+   Returns a string containing a hexadecimal representation of the given
+   unsigned <code>number</code> argument.
+  </p>
+  <p>
+   The largest number that can be converted is
+   <code>PHP_INT_MAX</code><em> * 2 + 1</em> (or
+   <em>-1</em>): on 32-bit platforms, this will be
+   <em>4294967295</em> in decimal, which results in
+   <strong>decToHex()</strong> returning <em>ffffffff</em>.
+  </p>
+ </div>
+
+ <div>
+  <h3>Parameters</h3>
+   <dl>
+     <dt>number</dt>
+     <dd><p>The decimal value to convert.</p>
+      <p>
+       As PHP's <a href="language.types.integer.php">integer</a> type is signed, but
+       <strong>decToHex()</strong> deals with unsigned integers, negative
+       integers will be treated as though they were unsigned.</p></dd>
+   </dl>
+ </div>
+
+ <div>
+  <h3>Return Values</h3>
+  <p>Hexadecimal string representation of <code>number</code>.</p>
+ </div>
+
+ <div class="examples">
+    <p><strong>Example #1 decToHex() example</strong></p>
+<pre class="php-code">
+<?php
+echo decToHex(10) . "\n";
+echo decToHex(47);
+?>
+</pre>
+
+    <div>The above example will output:</div>
+<pre class="output">
+a
+2f
+</pre>
+
+    <p><strong>Example #2 decToHex() example with large integers</strong></p>
+<pre class="php-code">
+<?php
+// The output below assumes a 32-bit platform.
+// Note that the output is the same for all values.
+echo decToHex(-1)."\n";
+echo decToHex(PHP_INT_MAX * 2 + 1)."\n";
+echo decToHex(pow(2, 32) - 1)."\n";
+?>
+</pre>
+
+    <div>The above example will output:</div>
+<pre class="output">
+ffffffff
+ffffffff
+ffffffff
+</pre>
+ </div>

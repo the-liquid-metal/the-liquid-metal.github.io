@@ -1,0 +1,40 @@
+<h1>length</h1>
+
+ <div>Returns the length of the given <code>string</code>.</div>
+
+ <div>
+  <h3>Parameters</h3>
+   <dl>
+     <dt>string</dt>
+     <dd>The <a href="language.types.string.php">string</a> being measured for length.</dd>
+   </dl>
+ </div>
+
+ <div>
+  <h3>Return Values</h3>
+  <p>
+   The length of the <code>string</code> on success, 
+   and <em>0</em> if the <code>string</code> is empty.
+  </p>
+ </div>
+
+ <div class="examples">
+    <p><strong>Example #1 A length() example</strong></p>
+<pre class="php-code">&lt;?php
+$str = 'abcdef';
+echo length($str); // 6
+
+$str = ' ab cd ';
+echo length($str); // 7
+?></pre>
+ </div>
+
+  <blockquote><strong>Note</strong>:
+    <strong>length()</strong> returns the number of bytes rather than the number 
+    of characters in a string.
+  </blockquote>
+
+  <blockquote><strong>Note</strong>:
+    <strong>length()</strong> returns <code>NULL</code> when executed on arrays, and
+    an <code>E_WARNING</code> level error is emitted.
+  </blockquote>  

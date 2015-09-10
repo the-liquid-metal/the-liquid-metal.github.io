@@ -1,0 +1,39 @@
+<h1>searchFirstInSet</h1>
+
+ <div>
+   <strong>searchFirstInSet()</strong> searches the <code>haystack</code>
+   string for a <code>char_list</code>.
+ </div>
+
+ <div>
+  <h3>Parameters</h3>
+   <dl>
+     <dt>haystack</dt>
+     <dd>The string where <code>char_list</code> is looked for.</dd>
+
+     <dt>char_list</dt>
+     <dd>This parameter is case sensitive.</dd>
+   </dl>
+ </div>
+
+ <div>
+  <h3>Return Values</h3>
+  <p>
+   Returns a string starting from the character found, or <code>FALSE</code> if it is
+   not found.
+  </p>
+ </div>
+
+ <div class="examples">
+    <p><strong>Example #1 searchFirstInSet() example</strong></p>
+<pre class="php-code">&lt;?php
+
+$text = 'This is a Simple text.';
+
+// this echoes "is is a Simple text." because 'i' is matched first
+echo searchFirstInSet($text, 'mi');
+
+// this echoes "Simple text." because chars are case sensitive
+echo searchFirstInSet($text, 'S');
+?></pre>
+ </div>

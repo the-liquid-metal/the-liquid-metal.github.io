@@ -1,0 +1,103 @@
+  <h1>wordCount</h1>
+
+  <div>
+    <p>
+      Counts the number of words inside <code>string</code>. 
+      If the optional <code>format</code> is not specified, then 
+      the return value will be an integer representing the number of words 
+      found. In the event the <code>format</code> is specified, the return
+      value will be an array, content of which is dependent on the 
+      <code>format</code>. The possible value for the 
+      <code>format</code> and the resultant outputs are listed below.
+    </p>
+    <p>
+      For the purpose of this function, 'word' is defined as a locale dependent
+      string containing alphabetic characters, which also may contain, but not start
+      with "'" and "-" characters.
+    </p>
+  </div>
+
+  <div>
+    <h3>Parameters</h3>
+    <dl>
+      <dt>string</dt>
+      <dd>The string</dd>
+
+      <dt>format</dt>
+      <dd><p>Specify the return value of this function. The current supported values are:</p>
+        <ul>
+          <li>0 - returns the number of words found</li>
+          <li>
+            1 - returns an array containing all the words found inside the
+            <code>string</code>
+          </li>
+          <li>
+            2 - returns an associative array, where the key is the numeric
+            position of the word inside the <code>string</code> and
+            the value is the actual word itself
+          </li> 
+        </ul>
+      </dd>
+  
+      <dt>charlist</dt>
+      <dd>A list of additional characters which will be considered as 'word'</dd>
+    </dl>
+  </div>
+
+  <div>
+    <h3>Return Values</h3>
+    <p>Returns an array or an integer, depending on the <code>format</code> chosen.</p>
+  </div>
+
+  <div class="examples">
+    <p><strong>Example #1 A wordCount() example</strong></p>
+    <pre class="php-code">
+      <?php
+      $str = "Hello fri3nd, you're
+             looking          good today!";
+
+      print_r(wordCount($str, 1));
+      print_r(wordCount($str, 2));
+      print_r(wordCount($str, 1, 'àáãç3'));
+
+      echo wordCount($str);
+      ?>
+    </pre>
+
+    <div>The above example will output:</div>
+    <pre class="output">
+      Array
+      (
+          [0] => Hello
+          [1] => fri
+          [2] => nd
+          [3] => you're
+          [4] => looking
+          [5] => good
+          [6] => today
+      )
+
+      Array
+      (
+          [0] => Hello
+          [6] => fri
+          [10] => nd
+          [14] => you're
+          [29] => looking
+          [46] => good
+          [51] => today
+      )
+
+      Array
+      (
+          [0] => Hello
+          [1] => fri3nd
+          [2] => you're
+          [3] => looking
+          [4] => good
+          [5] => today
+      )
+
+      7
+    </pre>
+  </div>

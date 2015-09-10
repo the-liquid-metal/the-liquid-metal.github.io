@@ -1,0 +1,89 @@
+  <h1>tokenize</h1>
+
+  <div>
+    <p>
+      <strong>tokenize()</strong> splits a string (<code>str</code>)
+      into smaller strings (tokens), with each token being delimited by any
+      character from <code>token</code>. That is, if you have a string like
+      "This is an example string" you could tokenize this string
+      into its individual words by using the space character as the token.
+    </p>
+    <p>
+      Note that only the first call to tokenize uses the string argument.
+      Every subsequent call to tokenize only needs the token to use, as
+      it keeps track of where it is in the current string.  To start
+      over, or to tokenize a new string you simply call tokenize with the
+      string argument again to initialize it.  Note that you may put
+      multiple tokens in the token parameter.  The string will be
+      tokenized when any one of the characters in the argument are found.
+    </p>
+  </div>
+
+  <div>
+    <h3>Parameters</h3>
+    <dl>
+      <dt>str</dt>
+      <dd>The <a href="language.types.string.php">string</a> being split up into smaller strings (tokens).</dd>
+
+      <dt>token</dt>
+      <dd>The delimiter used when splitting up <code>str</code>.</dd>
+    </dl>
+  </div>
+
+  <div>
+    <h3>Return Values</h3>
+    <p>A <a href="language.types.string.php">string</a> token.</p>
+  </div>
+
+  <div class="examples">
+    <p><strong>Example #1 tokenize() example</strong></p>
+<pre class="php-code">&lt;?php
+$string = "This is\tan example\nstring";
+/* Use tab and newline as tokenizing characters as well  */
+$tok = tokenize($string, " \n\t");
+
+while ($tok !== false) {
+    echo "Word=$tok&lt;br />";
+    $tok = tokenize(" \n\t");
+}
+?></pre>
+
+    <p>
+      The behavior when an empty part was found changed with PHP 4.1.0. The old
+      behavior returned an empty string, while the new, correct, behavior
+      simply skips the part of the string:
+    </p>
+
+    <p><strong>Example #2 Old tokenize() behavior</strong></p>
+<pre class="php-code">&lt;?php
+$first_token  = tokenize('/something', '/');
+$second_token = tokenize('/');
+var_dump($first_token, $second_token);
+?></pre>
+    <div>The above example will output:</div>
+<pre>
+string(0) ""
+string(9) "something"
+</pre>
+
+    <p><strong>Example #3 New tokenize() behavior</strong></p>
+<pre class="php-code">&lt;?php
+$first_token  = tokenize('/something', '/');
+$second_token = tokenize('/');
+var_dump($first_token, $second_token);
+?></pre>
+    <div>The above example will output:</div>
+<pre>
+string(9) "something"
+bool(false)
+</pre>
+  </div>
+
+  <div class="warning">
+    <strong>Warning</strong><br/>
+    This function may return Boolean <code>FALSE</code>, but may also return a non-Boolean
+    value which evaluates to <code>FALSE</code>. Please read the section on
+    <a href="language.types.boolean.php">Booleans</a> for more information. Use
+    <a href="language.operators.comparison.php">the === operator</a> for testing
+    the return value of this function.
+  </div>

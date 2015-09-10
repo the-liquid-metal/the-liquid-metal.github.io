@@ -1,0 +1,60 @@
+<h1>recursiveMerge</h1>
+
+ <div>
+  <p>
+   <strong>recursiveMerge()</strong> merges the elements of
+   one or more arrays together so that the values of one are appended
+   to the end of the previous one.  It returns the resulting array.
+  </p>
+  <p>
+   If the input arrays have the same string keys, then the values for
+   these keys are merged together into an array, and this is done
+   recursively, so that if one of the values is an array itself, the
+   function will merge it with a corresponding entry in another array
+   too. If, however, the arrays have the same numeric key, the later
+   value will not overwrite the original value, but will be appended.
+  </p>
+ </div>
+
+ <div>
+  <h3>Parameters</h3>
+   <dl>
+     <dt>array1</dt>
+     <dd>Initial array to merge.</dd>
+
+     <dt>...</dt>
+     <dd>Variable list of arrays to recursively merge.</dd>
+   </dl>
+ </div>
+
+ <div>
+  <h3>Return Values</h3>
+  <p>An array of values resulted from merging the arguments together.</p>
+ </div>
+
+ <div class="examples">
+    <p><strong>Example #1 recursiveMerge() example</strong></p>
+<pre class="php-code">&lt;?php
+$ar1 = array("color" => array("favorite" => "red"), 5);
+$ar2 = array(10, "color" => array("favorite" => "green", "blue"));
+$result = recursiveMerge($ar1, $ar2);
+print_r($result);
+?></pre>
+    <div>The above example will output:</div>
+<pre>
+Array
+(
+    [color] => Array
+        (
+            [favorite] => Array
+                (
+                    [0] => red
+                    [1] => green
+                )
+            [0] => blue
+        )
+    [0] => 5
+    [1] => 10
+)
+</pre>
+ </div>

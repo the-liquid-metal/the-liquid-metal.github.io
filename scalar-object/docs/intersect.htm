@@ -1,0 +1,54 @@
+<h1>intersect</h1>
+
+ <div>
+   <strong>intersect()</strong> returns an array
+   containing all the values of <code>array1</code>
+   that are present in all the arguments.
+   Note that keys are preserved.
+ </div>
+
+ <div>
+  <h3>Parameters</h3>
+   <dl>
+     <dt>array1</dt>
+     <dd>The array with master values to check.</dd>
+
+     <dt>array2</dt>
+     <dd>An array to compare values against.</dd>
+
+     <dt>...</dt>
+     <dd>A variable list of arrays to compare.</dd>
+   </dl>
+ </div>
+
+ <div>
+  <h3>Return Values</h3>
+  <p>
+   Returns an array containing all of the values in 
+   <code>array1</code> whose values exist in all of the parameters.
+  </p>
+ </div>
+
+ <div class="examples">
+    <p><strong>Example #1 intersect() example</strong></p>
+<pre class="php-code">&lt;?php
+$array1 = array("a" => "green", "red", "blue");
+$array2 = array("b" => "green", "yellow", "red");
+$result = intersect($array1, $array2);
+print_r($result);
+?></pre>
+    <div>The above example will output:</div>
+<pre>
+Array
+(
+    [a] => green
+    [0] => red
+)
+</pre>
+ </div>
+
+  <blockquote><strong>Note</strong>:
+    Two elements are considered equal if and only if
+    <em>(string) $elem1 === (string) $elem2</em>. In words:
+    when the string representation is the same.
+  </blockquote>

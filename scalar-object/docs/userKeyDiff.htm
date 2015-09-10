@@ -1,0 +1,77 @@
+<h1>userKeyDiff</h1>
+
+ <div>
+  <p>
+   Compares the keys from <code>array1</code> against the keys
+   from <code>array2</code> and returns the difference.
+   This function is like <a href="function.array-diff.php">array_diff()</a> except the
+   comparison is done on the keys instead of the values.
+  </p>
+  <p>
+   Unlike <a href="function.array-diff-key.php">array_diff_key()</a> a user supplied callback
+   function is used for the indices comparison, not internal function.
+  </p>
+ </div>
+
+ <div>
+  <h3>Parameters</h3>
+   <dl>
+     <dt>array1</dt>
+     <dd>The array to compare from</dd>
+
+     <dt>array2</dt>
+     <dd>An array to compare against</dd>
+
+     <dt>...</dt>
+     <dd>More arrays to compare against</dd>
+
+     <dt>key_compare_func</dt>
+     <dd>The comparison function must return an integer less than, equal to, or greater than zero if
+       the first argument is considered to be respectively less than, equal to, or greater than the second.</dd>
+   </dl>
+ </div>
+
+ <div>
+  <h3>Return Values</h3>
+  <p>
+   Returns an <a href="language.types.array.php">array</a> containing all the entries from
+   <code>array1</code> that are not present in any of the other arrays.
+  </p>
+ </div>
+
+ <div class="examples">
+    <p><strong>Example #1 userKeyDiff() example</strong></p>
+<pre class="php-code">
+<?php
+function key_compare_func($key1, $key2)
+{
+    if ($key1 == $key2)
+        return 0;
+    else if ($key1 > $key2)
+        return 1;
+    else
+        return -1;
+}
+
+$array1 = array('blue'  => 1, 'red'  => 2, 'green'  => 3, 'purple' => 4);
+$array2 = array('green' => 5, 'blue' => 6, 'yellow' => 7, 'cyan'   => 8);
+
+var_dump(userKeyDiff($array1, $array2, 'key_compare_func'));
+?>
+</pre>
+    <div>The above example will output:</div>
+<pre class="output">
+array(2) {
+  ["red"]=>
+  int(2)
+  ["purple"]=>
+  int(4)
+}
+</pre>
+ </div>
+
+  <blockquote><strong>Note</strong>:
+    This function only checks one dimension of a n-dimensional
+    array. Of course you can check deeper dimensions by using
+    <em>userKeyDiff($array1[0], $array2[0], 'callback_func');</em>.
+  </blockquote>

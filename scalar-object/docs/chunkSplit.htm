@@ -1,0 +1,44 @@
+<h1>chunkSplit</h1>
+
+ <div>
+  <p>
+   Can be used to split a string into smaller chunks which is useful for
+   e.g. converting <a href="function.base64-encode.php">base64_encode()</a> output to match RFC
+   2045 semantics. It inserts <code>end</code> every 
+   <code>chunklen</code> characters.
+  </p>
+ </div>
+
+ <div>
+  <h3>Parameters</h3>
+   <dl>
+     <dt>body</dt>
+     <dd>The string to be chunked.</dd>
+
+     <dt>chunklen</dt>
+     <dd>The chunk length.</dd>
+
+     <dt>end</dt>
+     <dd>The line ending sequence.</dd>
+   </dl>
+ </div>
+
+ <div>
+  <h3>Return Values</h3>
+  <p>
+   Returns the chunked string.
+  </p>
+ </div>
+
+ <div class="examples">
+  <p>
+   <div>
+    <p><strong>Example #1 chunkSplit() example</strong></p>
+<pre class="php-code">&lt;?php
+// format $data using RFC 2045 semantics
+$new_string = chunkSplit(base64_encode($data));
+?></pre>
+
+   </div>
+  </p>
+ </div>

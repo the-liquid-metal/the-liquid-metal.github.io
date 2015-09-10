@@ -1,0 +1,33 @@
+<h1>md5File</h1>
+ <div>
+   Calculates the MD5 hash of the file specified by the
+   <code>filename</code> parameter using the
+   <a href="http://www.faqs.org/rfcs/rfc1321">&raquo; RSA Data Security, Inc. 
+   MD5 Message-Digest Algorithm</a>, and returns that hash.
+   The hash is a 32-character hexadecimal number.
+ </div>
+
+ <div>
+  <h3>Parameters</h3>
+   <dl>
+     <dt>filename</dt>
+     <dd>The filename</dd>
+
+     <dt>raw_output</dt>
+     <dd>When <code>TRUE</code>, returns the digest in raw binary format with a length of 16.</dd>
+   </dl>
+ </div>
+
+ <div>
+  <h3>Return Values</h3>
+  <p>Returns a string on success, <code>FALSE</code> otherwise.</p>
+ </div>
+
+ <div class="examples">
+    <p><strong>Example #1 Usage example of <strong>md5File()</strong></strong></p>
+<pre class="php-code">&lt;?php
+$file = 'php-5.3.0alpha2-Win32-VC9-x64.zip';
+
+echo 'MD5 file hash of ' . $file . ': ' . md5File($file);
+?></pre>
+ </div>

@@ -1,0 +1,113 @@
+  <h1>walk</h1>
+
+  <div>
+    <p>
+      Applies the user-defined <code>callback</code> function to each
+      element of the <code>array</code> array.
+    </p>
+    <p>
+      <strong>walk()</strong> is not affected by the internal array
+      pointer of <code>array</code>.  <strong>walk()</strong>
+      will walk through the entire array regardless of pointer position.
+    </p>
+  </div>
+
+  <div>
+    <h3>Parameters</h3>
+    <dl>
+      <dt>array</dt>
+      <dd>The input array.</dd>
+
+      <dt>callback</dt>
+      <dd>
+        <p>
+          Typically, <code>callback</code> takes on two parameters.
+          The <code>array</code> parameter's value being the first, and
+          the key/index second.
+        </p>
+        <blockquote>
+          <strong>Note</strong>:
+          If <code>callback</code> needs to be working with the
+          actual values of the array, specify the first parameter of
+          <code>callback</code> as a
+          <a href="language.references.php">reference</a>. Then,
+          any changes made to those elements will be made in the
+          original array itself.
+        </blockquote>
+        <blockquote>
+          <strong>Note</strong>: Many internal functions (for example
+          <a href="function.strtolower.php">strtolower()</a>) will throw a warning
+          if more than the expected number of argument are passed in and are not
+          usable directly as a <code>callback</code>.
+        </blockquote>
+        <p>
+          Only the values of the <code>array</code> may potentially be
+          changed; its structure cannot be altered, i.e., the programmer cannot
+          add, unset or reorder elements. If the callback does not respect this
+          requirement, the behavior of this function is undefined, and      
+          unpredictable.
+        </p>
+      </dd>
+  
+      <dt>userdata</dt>
+      <dd>If the optional <code>userdata</code> parameter is supplied,
+        it will be passed as the third parameter to the
+        <code>callback</code>.</dd>
+    </dl>
+  </div>
+
+  <div>
+    <h3>Return Values</h3>
+    <p>Returns <code>TRUE</code> on success or <code>FALSE</code> on failure.</p>
+  </div>
+
+  <div>
+    <h3>Errors/Exceptions</h3>
+    <p>
+      If function <code>callback</code> requires more parameters than
+      given to it, an error of level <a href="errorfunc.constants.php">
+      E_WARNING</a> will be generated each time <strong>walk()</strong>
+      calls <code>callback</code>.
+    </p>
+  </div>
+
+  <div class="examples">
+    <p><strong>Example #1 walk() example</strong></p>
+    <pre class="php-code">
+      <?php
+      $fruits = array("d" => "lemon", "a" => "orange", "b" => "banana", "c" => "apple");
+  
+      function test_alter(&amp;$item1, $key, $prefix)
+      {
+          $item1 = "$prefix: $item1";
+      }
+
+      function test_print($item2, $key)
+      {
+          echo "$key. $item2&lt;br />\n";
+      }
+
+      echo "Before ...:\n";
+      walk($fruits, 'test_print');
+
+      walk($fruits, 'test_alter', 'fruit');
+      echo "... and after:\n";
+
+      walk($fruits, 'test_print');
+      ?>
+    </pre>
+
+    <div>The above example will output:</div>
+    <pre class="output">
+      Before ...:
+      d. lemon
+      a. orange
+      b. banana
+      c. apple
+      ... and after:
+      d. fruit: lemon
+      a. fruit: orange
+      b. fruit: banana
+      c. fruit: apple
+    </pre>
+  </div>

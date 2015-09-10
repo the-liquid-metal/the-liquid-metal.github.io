@@ -1,0 +1,40 @@
+<h1>isNan</h1>
+
+ <div>
+   Checks whether <code>val</code> is 'not a number', 
+   like the result of <em>acos(1.01)</em>.
+ </div>
+
+ <div>
+  <h3>Parameters</h3>
+   <dl>
+     <dt>val</dt>
+     <dd>The value to check</dd>
+   </dl>
+ </div>
+
+ <div>
+  <h3>Return Values</h3>
+  <p>
+   Returns <code>TRUE</code> if <code>val</code> is 'not a number',
+   else <code>FALSE</code>.
+  </p>
+ </div>
+
+ <div class="examples">
+    <p><strong>Example #1 isNan() example</strong></p>
+<pre class="php-code">
+<?php
+// Invalid calculation, will return a 
+// NaN value
+$nan = acos(8);
+
+var_dump($nan, isNan($nan));
+?>
+</pre>
+    <div>The above example will output:</div>
+<pre class="output">
+float(NAN)
+bool(true)
+</pre>
+ </div>

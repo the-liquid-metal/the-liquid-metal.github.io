@@ -1,0 +1,38 @@
+<h1>fmod</h1>
+ <div>
+  <p>
+   Returns the floating point remainder of dividing the dividend
+   (<code>x</code>) by the divisor (<code>y</code>).
+   The remainder (<var><var>r</var></var>) is defined as: x = i * y + r, for 
+   some integer <var><var>i</var></var>. If <code>y</code> is
+   non-zero, <var><var>r</var></var> has the same sign as
+   <code>x</code> and a magnitude less than the magnitude of
+   <code>y</code>.
+  </p>
+ </div>
+
+ <div>
+  <h3>Parameters</h3>
+   <dl>
+     <dt>x</dt>
+     <dd>The dividend</dd>
+
+     <dt>y</dt>
+     <dd>The divisor</dd>
+   </dl>
+ </div>
+
+ <div>
+  <h3>Return Values</h3>
+  <p>The floating point remainder of <code>x</code>/<code>y</code></p>
+ </div>
+
+ <div class="examples">
+    <p><strong>Example #1 Using <strong>fmod()</strong></strong></p>
+<pre class="php-code">&lt;?php
+$x = 5.7;
+$y = 1.3;
+$r = fmod($x, $y);
+// $r equals 0.5, because 4 * 1.3 + 0.5 = 5.7
+?></pre>
+ </div>

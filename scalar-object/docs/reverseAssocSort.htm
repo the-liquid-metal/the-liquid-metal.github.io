@@ -1,0 +1,51 @@
+<h1>reverseAssocSort</h1>
+ <div>
+  <p>
+   This function sorts an array such that array indices maintain their
+   correlation with the array elements they are associated with.
+  </p>
+  <p>
+   This is used mainly when sorting associative arrays where the actual
+   element order is significant.
+  </p>
+ </div>
+
+ <div>
+  <h3>Parameters</h3>
+   <dl>
+     <dt>array</dt>
+     <dd>The input array.</dd>
+
+     <dt>sort_flags</dt>
+     <dd>You may modify the behavior of the sort using the optional parameter
+       <code>sort_flags</code>, for details see
+       <a href="function.sort.php">sort()</a>.</dd>
+   </dl>
+ </div>
+
+ <div>
+  <h3>Return Values</h3>
+  <p>Returns <code>TRUE</code> on success or <code>FALSE</code> on failure.</p>
+ </div>
+
+ <div class="examples">
+    <p><strong>Example #1 reverseAssocSort() example</strong></p>
+<pre class="php-code">&lt;?php
+$fruits = array("d" => "lemon", "a" => "orange", "b" => "banana", "c" => "apple");
+reverseAssocSort($fruits);
+foreach ($fruits as $key => $val) {
+    echo "$key = $val\n";
+}
+?></pre>
+    <div>The above example will output:</div>
+<pre>
+a = orange
+d = lemon
+b = banana
+c = apple
+</pre>
+    <div>
+     The fruits have been sorted in reverse alphabetical order, and
+     the index associated with each element has been maintained.
+    </div>
+ </div>

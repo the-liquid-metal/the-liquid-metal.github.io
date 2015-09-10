@@ -1,0 +1,73 @@
+<h1>naturalCompare</h1>
+
+ <div>
+   This function implements a comparison algorithm that orders
+   alphanumeric strings in the way a human being would, this is
+   described as a "natural ordering".  
+   Note that this comparison is case sensitive.
+ </div>
+
+ <div>
+  <h3>Parameters</h3>
+   <dl>
+     <dt>str1</dt>
+     <dd>The first string.</dd>
+
+     <dt>str2</dt>
+     <dd>The second string.</dd>
+   </dl>
+ </div>
+
+ <div>
+  <h3>Return Values</h3>
+  <p>
+   Similar to other string comparison functions, this one returns &lt; 0 if
+   <code>str1</code> is less than <code>str2</code>; >
+   0 if <code>str1</code> is greater than
+   <code>str2</code>, and 0 if they are equal.
+  </p>
+ </div>
+
+ <div class="examples">
+  <p>
+   An example of the difference between this algorithm and the regular
+   computer string sorting algorithms (used in <a href="function.strcmp.php">strcmp()</a>)
+   can be seen below:
+   <div>
+<pre class="php-code">
+<?php
+$arr1 = $arr2 = array("img12.png", "img10.png", "img2.png", "img1.png");
+echo "Standard string comparison\n";
+usort($arr1, "strcmp");
+print_r($arr1);
+echo "\nNatural order string comparison\n";
+usort($arr2, "naturalCompare");
+print_r($arr2);
+?>
+</pre>
+
+    <p>The above example will output:</p>
+<pre class="output">
+Standard string comparison
+Array
+(
+    [0] => img1.png
+    [1] => img10.png
+    [2] => img12.png
+    [3] => img2.png
+)
+
+Natural order string comparison
+Array
+(
+    [0] => img1.png
+    [1] => img2.png
+    [2] => img10.png
+    [3] => img12.png
+)
+</pre>
+   </div>
+   For more information see: Martin Pool's <a href="http://sourcefrog.net/projects/natsort/">&raquo; Natural Order String Comparison</a>
+   page.
+  </p>
+ </div>

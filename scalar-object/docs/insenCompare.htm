@@ -1,0 +1,35 @@
+<h1>insenCompare</h1>
+
+ <div>Binary safe case-insensitive string comparison.</div>
+
+ <div>
+  <h3>Parameters</h3>
+   <dl>
+     <dt>str1</dt>
+     <dd>The first string</dd>
+
+     <dt>str2</dt>
+     <dd>The second string</dd>
+   </dl>
+ </div>
+
+ <div>
+  <h3>Return Values</h3>
+  <p>
+   Returns &lt; 0 if <code>str1</code> is less than
+   <code>str2</code>; > 0 if <code>str1</code>
+   is greater than <code>str2</code>, and 0 if they are
+   equal.
+  </p>
+ </div>
+
+ <div class="examples">
+    <p><strong>Example #1 insenCompare() example</strong></p>
+<pre class="php-code">&lt;?php
+$var1 = "Hello";
+$var2 = "hello";
+if (insenCompare($var1, $var2) == 0) {
+    echo '$var1 is equal to $var2 in a case-insensitive string comparison';
+}
+?></pre>
+ </div>

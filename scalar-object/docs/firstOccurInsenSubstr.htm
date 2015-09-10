@@ -1,0 +1,64 @@
+<h1>firstOccurInsenSubstr</h1>
+
+ <div>
+  <p>
+   Returns all of <code>haystack</code> starting from and including the first
+   occurrence of <code>needle</code> to the end.
+  </p>
+ </div>
+
+ <div>
+  <h3>Parameters</h3>
+   <dl>
+     <dt>haystack</dt>
+     <dd>The string to search in</dd>
+
+     <dt>needle</dt>
+     <dd>If <code>needle</code> is not a string, it is converted to
+       an integer and applied as the ordinal value of a character.</dd>
+
+     <dt>before_needle</dt>
+     <dd>If <code>TRUE</code>, <strong>firstOccurInsenSubstr()</strong>
+       returns the part of the <code>haystack</code> before the
+       first occurrence of the <code>needle</code> (excluding needle).</dd>
+   </dl>
+  <p>
+   <code>needle</code> and <code>haystack</code>
+   are examined in a case-insensitive manner.
+  </p>
+ </div>
+
+ <div>
+  <h3>Return Values</h3>
+  <p>
+   Returns the matched substring. If <code>needle</code> is not
+   found, returns <code>FALSE</code>.
+  </p>
+ </div>
+
+ <div class="examples">
+    <p><strong>Example #1 firstOccurInsenSubstr() example</strong></p>
+<pre class="php-code">&lt;?php
+  $email = 'USER@EXAMPLE.com';
+  echo firstOccurInsenSubstr($email, 'e'); // outputs ER@EXAMPLE.com
+  echo firstOccurInsenSubstr($email, 'e', true); // As of PHP 5.3.0, outputs US
+?></pre>
+
+    <p><strong>Example #2 Testing if a string is found or not</strong></p>
+<pre class="php-code">&lt;?php
+  $string = 'Hello World!';
+  if(firstOccurInsenSubstr($string, 'earth') === FALSE) {
+    echo '"earth" not found in string';
+  }
+// outputs: "earth" not found in string
+?></pre>
+
+    <p><strong>Example #3 Using a non "string" needle</strong></p>
+<pre class="php-code">&lt;?php
+  $string = 'APPLE';
+  echo firstOccurInsenSubstr($string, 97); // 97 = lowercase a
+// outputs: APPLE
+?></pre>
+ </div>
+
+  <blockquote><strong>Note</strong>:This function is binary-safe.</blockquote>

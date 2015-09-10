@@ -1,0 +1,67 @@
+<h1>recursiveWalk</h1>
+ <div>
+   Applies the user-defined <code>callback</code> function to each
+   element of the <code>array</code>. This function will recurse
+   into deeper arrays.
+ </div>
+
+ <div>
+  <h3>Parameters</h3>
+   <dl>
+     <dt>array</dt>
+     <dd>The input array.</dd>
+
+     <dt>callback</dt>
+     <dd><p>Typically, <code>callback</code> takes on two parameters.
+       The <code>array</code> parameter's value being the first, and
+       the key/index second.
+      </p>
+      <blockquote><strong>Note</strong>:
+        If <code>callback</code> needs to be working with the
+        actual values of the array, specify the first parameter of
+        <code>callback</code> as a
+        <a href="language.references.php">reference</a>. Then,
+        any changes made to those elements will be made in the
+        original array itself.
+       </blockquote>
+     </dd>
+
+     <dt>userdata</dt>
+     <dd>If the optional <code>userdata</code> parameter is supplied,
+       it will be passed as the third parameter to the
+       <code>callback</code>.</dd>
+   </dl>
+ </div>
+
+ <div>
+  <h3>Return Values</h3>
+  <p>Returns <code>TRUE</code> on success or <code>FALSE</code> on failure.</p>
+ </div>
+
+ <div class="examples">
+    <p><strong>Example #1 recursiveWalk() example</strong></p>
+<pre class="php-code">
+<?php
+$sweet = array('a' => 'apple', 'b' => 'banana');
+$fruits = array('sweet' => $sweet, 'sour' => 'lemon');
+
+function test_print($item, $key)
+{
+    echo "$key holds $item\n";
+}
+
+recursiveWalk($fruits, 'test_print');
+?>
+</pre>
+    <div>The above example will output:</div>
+<pre class="output">
+a holds apple
+b holds banana
+sour holds lemon
+</pre>
+
+    <div>
+     You may notice that the key '<em>sweet</em>' is never displayed. Any key that holds an
+     <a href="language.types.array.php">array</a> will not be passed to the function.
+    </div>
+ </div>
