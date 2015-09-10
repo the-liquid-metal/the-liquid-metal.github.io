@@ -20,7 +20,7 @@
    based on the system&#039;s crypt(). If no salt is provided, PHP will
    auto-generate either a standard two character (DES) salt, or a twelve
    character (MD5), depending on the availability of MD5 crypt().  PHP sets a
-   constant named <strong><code>CRYPT_SALT_LENGTH</code></strong> which indicates the
+   constant named <code>CRYPT_SALT_LENGTH</code> which indicates the
    longest valid salt allowed by the available hashes.
   </p>
   <p>
@@ -37,23 +37,23 @@
   </p>
   <ul>
    <li>
-     <strong><code>CRYPT_STD_DES</code></strong> - Standard DES-based hash with a two character salt
+     <code>CRYPT_STD_DES</code> - Standard DES-based hash with a two character salt
        from the alphabet &quot;./0-9A-Za-z&quot;. Using invalid characters in the salt will cause
        crypt() to fail.
    </li>
    <li>
-     <strong><code>CRYPT_EXT_DES</code></strong> - Extended DES-based hash. The &quot;salt&quot; is a
+     <code>CRYPT_EXT_DES</code> - Extended DES-based hash. The &quot;salt&quot; is a
      9-character string consisting of an underscore followed by 4 bytes of iteration count and
      4 bytes of salt. These are encoded as printable characters, 6 bits per character, least
      significant character first. The values 0 to 63 are encoded as &quot;./0-9A-Za-z&quot;. Using invalid
      characters in the salt will cause crypt() to fail.
    </li>
    <li>
-     <strong><code>CRYPT_MD5</code></strong> - MD5 hashing with a twelve character salt starting with
+     <code>CRYPT_MD5</code> - MD5 hashing with a twelve character salt starting with
      $1$
    </li>
    <li>
-     <strong><code>CRYPT_BLOWFISH</code></strong> - Blowfish hashing with a salt as
+     <code>CRYPT_BLOWFISH</code> - Blowfish hashing with a salt as
      follows: &quot;$2a$&quot;, &quot;$2x$&quot; or &quot;$2y$&quot;, a two digit cost parameter, &quot;$&quot;, and
      22 characters from the alphabet &quot;./0-9A-Za-z&quot;. Using characters outside of
      this range in the salt will cause crypt() to return a zero-length string.
@@ -68,7 +68,7 @@
      PHP 5.3.7 and later should use &quot;$2y$&quot; in preference to &quot;$2a$&quot;.
    </li>
    <li>
-     <strong><code>CRYPT_SHA256</code></strong> - SHA-256 hash with a sixteen character salt
+     <code>CRYPT_SHA256</code> - SHA-256 hash with a sixteen character salt
      prefixed with $5$. If the salt string starts with &#039;rounds=&lt;N&gt;$&#039;, the numeric value of N
      is used to indicate how many times the hashing loop should be executed, much like the cost
      parameter on Blowfish. The default number of rounds is 5000, there is a minimum of
@@ -76,7 +76,7 @@
      the nearest limit.
    </li>
    <li>
-     <strong><code>CRYPT_SHA512</code></strong> - SHA-512 hash with a sixteen character salt
+     <code>CRYPT_SHA512</code> - SHA-512 hash with a sixteen character salt
      prefixed with $6$. If the salt string starts with &#039;rounds=&lt;N&gt;$&#039;, the numeric value of N
      is used to indicate how many times the hashing loop should be executed, much like the cost
      parameter on Blowfish. The default number of rounds is 5000, there is a minimum of
@@ -97,7 +97,7 @@
      <dd><p>The string to be hashed.</p>
       <div class="caution"><strong>Caution</strong>
        <p>
-        Using the <strong><code>CRYPT_BLOWFISH</code></strong> algorithm, will result
+        Using the <code>CRYPT_BLOWFISH</code> algorithm, will result
         in the <code>str</code> parameter being truncated to a
         maximum length of 72 characters.
        </p>
@@ -117,13 +117,12 @@
    Returns the hashed string or a string that is shorter than 13 characters
    and is guaranteed to differ from the salt on failure.
   </p>
-  <div class="warning"><strong>Warning</strong>
-   <p>
+  <div class="warning">
+   <strong>Warning</strong><br/>
     When validating passwords, a string comparison function that isn&#039;t
     vulnerable to timing attacks should be used to compare the output of
     <strong>crypt()</strong> to the previously known hash. PHP 5.6 onwards
     provides <a href="function.hash-equals.php">hash_equals()</a> for this purpose.
-   </p>
   </div>
  </div>
 

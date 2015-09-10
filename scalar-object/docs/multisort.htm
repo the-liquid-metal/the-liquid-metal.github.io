@@ -19,12 +19,12 @@
 
      <dt>array1_sort_order</dt>
      <dd><p>The order used to sort the previous <a href="language.types.array.php">array</a> argument. Either
-       <strong><code>SORT_ASC</code></strong> to sort ascendingly or <strong><code>SORT_DESC</code></strong>
+       <code>SORT_ASC</code> to sort ascendingly or <code>SORT_DESC</code>
        to sort descendingly.
       </p>
       <p>
        This argument can be swapped with <code>array1_sort_flags</code>
-       or omitted entirely, in which case <strong><code>SORT_ASC</code></strong> is assumed.</p></dd>
+       or omitted entirely, in which case <code>SORT_ASC</code> is assumed.</p></dd>
 
      <dt>array1_sort_flags</dt>
      <dd><p>Sort options for the previous <a href="language.types.array.php">array</a> argument:</p>
@@ -32,35 +32,35 @@
        Sorting type flags:
        <ul>
         <li>
-         <strong><code>SORT_REGULAR</code></strong> - compare items normally
+         <code>SORT_REGULAR</code> - compare items normally
          (don&#039;t change types)
         </li>
         <li>
-         <strong><code>SORT_NUMERIC</code></strong> - compare items numerically
+         <code>SORT_NUMERIC</code> - compare items numerically
         </li>
         <li>
-         <strong><code>SORT_STRING</code></strong> - compare items as strings
+         <code>SORT_STRING</code> - compare items as strings
         </li>
         <li>
-          <strong><code>SORT_LOCALE_STRING</code></strong> - compare items as
+          <code>SORT_LOCALE_STRING</code> - compare items as
           strings, based on the current locale. It uses the locale,
           which can be changed using <a href="function.setlocale.php">setlocale()</a>
         </li>
         <li>
-          <strong><code>SORT_NATURAL</code></strong> - compare items as strings
+          <code>SORT_NATURAL</code> - compare items as strings
           using &quot;natural ordering&quot; like <a href="function.natsort.php">natsort()</a>
         </li>
         <li>
-          <strong><code>SORT_FLAG_CASE</code></strong> - can be combined
+          <code>SORT_FLAG_CASE</code> - can be combined
           (bitwise OR) with
-          <strong><code>SORT_STRING</code></strong> or
-          <strong><code>SORT_NATURAL</code></strong> to sort strings case-insensitively
+          <code>SORT_STRING</code> or
+          <code>SORT_NATURAL</code> to sort strings case-insensitively
         </li>
        </ul>
       </p>
       <p>
        This argument can be swapped with <code>array1_sort_order</code>
-       or omitted entirely, in which case <strong><code>SORT_REGULAR</code></strong> is assumed.</p></dd>
+       or omitted entirely, in which case <code>SORT_REGULAR</code> is assumed.</p></dd>
 
      <dt>...</dt>
      <dd><p>More arrays, optionally followed by sort order and flags. Only elements
@@ -71,7 +71,7 @@
 
  <div>
   <h3>Return Values</h3>
-  <p>Returns <strong><code>TRUE</code></strong> on success or <strong><code>FALSE</code></strong> on failure.</p>
+  <p>Returns <code>TRUE</code> on success or <code>FALSE</code> on failure.</p>
  </div>
 
  <div class="examples">
@@ -174,8 +174,8 @@ volume | edition
 
     <p><strong>Example #4 Case insensitive sorting</strong></p>
     <div>
-     Both <strong><code>SORT_STRING</code></strong> and
-     <strong><code>SORT_REGULAR</code></strong> are case sensitive, strings
+     Both <code>SORT_STRING</code> and
+     <code>SORT_REGULAR</code> are case sensitive, strings
      starting with a capital letter will come before strings starting
      with a lowercase letter.
     </div>

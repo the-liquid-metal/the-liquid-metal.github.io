@@ -27,7 +27,7 @@
       </p>
       <p>
        If <code>string</code> is less than
-       <code>start</code> characters long, <strong><code>FALSE</code></strong> will be returned.
+       <code>start</code> characters long, <code>FALSE</code> will be returned.
       </p>
       <p>
        <div>
@@ -48,11 +48,11 @@
        (after the start position has been calculated when a
        <code>start</code> is negative).  If
        <code>start</code> denotes the position of this truncation or
-       beyond, <strong><code>FALSE</code></strong> will be returned.
+       beyond, <code>FALSE</code> will be returned.
       </p>
       <p>
        If <code>length</code> is given and is <em>0</em>,
-       <strong><code>FALSE</code></strong> or <strong><code>NULL</code></strong>, an empty string will be returned.
+       <code>FALSE</code> or <code>NULL</code>, an empty string will be returned.
       </p>
       <p>
        If <code>length</code> is omitted, the substring starting from
@@ -71,7 +71,7 @@
  <div>
   <h3>Return Values</h3>
   <p>
-   Returns the extracted part of <code>string</code>;  or <strong><code>FALSE</code></strong>
+   Returns the extracted part of <code>string</code>;  or <code>FALSE</code>
    on failure, or an empty string.
   </p>
  </div>
@@ -107,7 +107,7 @@
  <div>
   <h3>Errors/Exceptions</h3>
   <p>
-   Returns <strong><code>FALSE</code></strong> on error.
+   Returns <code>FALSE</code> on error.
    <pre><span style="color: #0000BB">&lt;?php<br />var_dump</span><span style="color: #007700">(</span><span style="color: #0000BB">substrAt</span><span style="color: #007700">(</span><span style="color: #DD0000">'a'</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">2</span><span style="color: #007700">));&nbsp;</span><span style="color: #FF8000">//&nbsp;bool(false)<br /></span><span style="color: #0000BB">?&gt;</span></pre>   
   </p>
  </div>

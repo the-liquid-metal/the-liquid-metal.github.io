@@ -18,29 +18,29 @@
        Sorting type flags:
        <ul>
         <li>
-         <strong><code>SORT_REGULAR</code></strong> - compare items normally
+         <code>SORT_REGULAR</code> - compare items normally
          (don&#039;t change types)
         </li>
         <li>
-         <strong><code>SORT_NUMERIC</code></strong> - compare items numerically
+         <code>SORT_NUMERIC</code> - compare items numerically
         </li>
         <li>
-         <strong><code>SORT_STRING</code></strong> - compare items as strings
+         <code>SORT_STRING</code> - compare items as strings
         </li>
         <li>
-          <strong><code>SORT_LOCALE_STRING</code></strong> - compare items as
+          <code>SORT_LOCALE_STRING</code> - compare items as
           strings, based on the current locale. It uses the locale,
           which can be changed using <a href="function.setlocale.php">setlocale()</a>
         </li>
         <li>
-          <strong><code>SORT_NATURAL</code></strong> - compare items as strings
+          <code>SORT_NATURAL</code> - compare items as strings
           using &quot;natural ordering&quot; like <a href="function.natsort.php">natsort()</a>
         </li>
         <li>
-          <strong><code>SORT_FLAG_CASE</code></strong> - can be combined
+          <code>SORT_FLAG_CASE</code> - can be combined
           (bitwise OR) with
-          <strong><code>SORT_STRING</code></strong> or
-          <strong><code>SORT_NATURAL</code></strong> to sort strings case-insensitively
+          <code>SORT_STRING</code> or
+          <code>SORT_NATURAL</code> to sort strings case-insensitively
         </li>
        </ul></p></dd>
    </dl>
@@ -48,7 +48,7 @@
 
  <div>
   <h3>Return Values</h3>
-  <p>Returns <strong><code>TRUE</code></strong> on success or <strong><code>FALSE</code></strong> on failure.</p>
+  <p>Returns <code>TRUE</code> on success or <code>FALSE</code> on failure.</p>
  </div>
 
  <div class="examples">
@@ -77,23 +77,21 @@ fruits[3] = orange20
   <p>The fruits have been sorted like <a href="function.natcasesort.php">natcasesort()</a>.</p>
  </div>
 
-  <blockquote><strong>Note</strong>:This function
-    assigns new keys to the elements in <code>array</code>.
-    It will remove any existing keys that may have been assigned, rather
-    than just reordering the keys.
+  <blockquote>
+    <strong>Note</strong>: This function assigns new keys to the elements in
+    <code>array</code>. It will remove any existing keys that may have been
+    assigned, rather than just reordering the keys.
   </blockquote>
 
-  <blockquote><strong>Note</strong>:
-    Like most PHP sorting functions, <strong>sort()</strong> uses an
+  <blockquote>
+    <strong>Note</strong>: Like most PHP sorting functions, <strong>sort()</strong> uses an
     implementation of <a href="http://en.wikipedia.org/wiki/Quicksort">&raquo;&nbsp;Quicksort</a>.
-    The pivot is chosen in the middle of the partition resulting in an optimal
-    time for already sorted arrays. This is however an implementation detail you
-    shouldn&#039;t rely on.
+    The pivot is chosen in the middle of the partition resulting in an optimal time for already
+    sorted arrays. This is however an implementation detail you shouldn&#039;t rely on.
    </blockquote>
 
-  <div class="warning"><strong>Warning</strong>
-   <p>
+  <div class="warning">
+    <strong>Warning</strong><br/>
     Be careful when sorting arrays with mixed types values because
     <strong>sort()</strong> can produce unpredictable results.
-   </p>
   </div>
