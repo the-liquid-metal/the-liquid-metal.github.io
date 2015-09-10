@@ -13,10 +13,10 @@
   <p>
    <dl>
      <dt><code>string</code></dt>
-     <dd><p>The input string.</p></dd>
+     <dd>The input string.</dd>
 
      <dt><code>is_xhtml</code></dt>
-     <dd><p>Whether to use XHTML compatible line breaks or not.</p></dd>
+     <dd>Whether to use XHTML compatible line breaks or not.</dd>
    </dl>
   </p>
  </div>
@@ -31,10 +31,10 @@
  <div class="examples">
   <p>
    <div>
-    <p><strong>Example #1 Using <span><strong>nlToBr()</strong></span></strong></p>
+    <p><strong>Example #1 Using <strong>nlToBr()</strong></strong></p>
     <pre><span style="color: #0000BB">&lt;?php<br /></span><span style="color: #007700">echo&nbsp;</span><span style="color: #0000BB">nlToBr</span><span style="color: #007700">(</span><span style="color: #DD0000">"foo&nbsp;isn't\n&nbsp;bar"</span><span style="color: #007700">);<br /></span><span style="color: #0000BB">?&gt;</span></pre>
 
-    <div><p>The above example will output:</p></div>
+    <div>The above example will output:</div>
 <pre>
 foo isn&#039;t&lt;br /&gt;
  bar
@@ -44,7 +44,7 @@ foo isn&#039;t&lt;br /&gt;
     <p><strong>Example #2 Generating valid HTML markup using the <code>is_xhtml</code> parameter</strong></p>
     <pre><span style="color: #0000BB">&lt;?php<br /></span><span style="color: #007700">echo&nbsp;</span><span style="color: #0000BB">nlToBr</span><span style="color: #007700">(</span><span style="color: #DD0000">"Welcome\r\nThis&nbsp;is&nbsp;my&nbsp;HTML&nbsp;document"</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">false</span><span style="color: #007700">);<br /></span><span style="color: #0000BB">?&gt;</span></pre>
 
-    <div><p>The above example will output:</p></div>
+    <div>The above example will output:</div>
 <pre>
 Welcome&lt;br&gt;
 This is my HTML document
@@ -54,7 +54,7 @@ This is my HTML document
     <p><strong>Example #3 Various newline separators</strong></p>
     <pre><span style="color: #0000BB">&lt;?php<br />$string&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #DD0000">"This\r\nis\n\ra\nstring\r"</span><span style="color: #007700">;<br />echo&nbsp;</span><span style="color: #0000BB">nlToBr</span><span style="color: #007700">(</span><span style="color: #0000BB">$string</span><span style="color: #007700">);<br /></span><span style="color: #0000BB">?&gt;</span></pre>
 
-    <div><p>The above example will output:</p></div>
+    <div>The above example will output:</div>
 <pre>
 This&lt;br /&gt;
 is&lt;br /&gt;

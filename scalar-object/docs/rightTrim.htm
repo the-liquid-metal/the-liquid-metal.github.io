@@ -6,44 +6,32 @@
   </p>
   <p>
    Without the second parameter,
-   <span><strong>rightTrim()</strong></span> will strip these characters:
+   <strong>rightTrim()</strong> will strip these characters:
 
    <ul>
     <li>
-     <span>
       &quot; &quot; (<acronym title="American Standard Code for Information Interchange">ASCII</acronym> <em>32</em>
       (<em>0x20</em>)), an ordinary space.
-     </span>
     </li>
     <li>
-     <span>
       &quot;\t&quot; (<acronym title="American Standard Code for Information Interchange">ASCII</acronym> <em>9</em>
       (<em>0x09</em>)), a tab.
-     </span>
     </li>
     <li>
-     <span>
       &quot;\n&quot; (<acronym title="American Standard Code for Information Interchange">ASCII</acronym> <em>10</em>
       (<em>0x0A</em>)), a new line (line feed).
-     </span>
     </li>
     <li>
-     <span>
       &quot;\r&quot; (<acronym title="American Standard Code for Information Interchange">ASCII</acronym> <em>13</em>
       (<em>0x0D</em>)), a carriage return.
-     </span>
     </li>
     <li>
-     <span>
       &quot;\0&quot; (<acronym title="American Standard Code for Information Interchange">ASCII</acronym> <em>0</em>
       (<em>0x00</em>)), the <em>NULL</em>-byte.
-     </span>
     </li>
     <li>
-     <span> 
       &quot;\x0B&quot; (<acronym title="American Standard Code for Information Interchange">ASCII</acronym> <em>11</em>
       (<em>0x0B</em>)), a vertical tab.
-     </span>
     </li>
    </ul>
   </p>
@@ -54,13 +42,13 @@
   <p>
    <dl>
      <dt><code>str</code></dt>
-     <dd><p>The input string.</p></dd>
+     <dd>The input string.</dd>
 
      <dt><code>character_mask</code></dt>
-     <dd><p>You can also specify the characters you want to strip, by means
+     <dd>You can also specify the characters you want to strip, by means
        of the <code>character_mask</code> parameter.
        Simply list all characters that you want to be stripped. With
-       <em>..</em> you can specify a range of characters.</p></dd>
+       <em>..</em> you can specify a range of characters.</dd>
    </dl>
   </p>
  </div>
@@ -75,10 +63,10 @@
  <div class="examples">
   <p>
    <div>
-    <p><strong>Example #1 Usage example of <span><strong>rightTrim()</strong></span></strong></p>
+    <p><strong>Example #1 Usage example of <strong>rightTrim()</strong></strong></p>
     <pre><span style="color: #0000BB">&lt;?php<br /><br />$text&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #DD0000">"\t\tThese&nbsp;are&nbsp;a&nbsp;few&nbsp;words&nbsp;:)&nbsp;...&nbsp;&nbsp;"</span><span style="color: #007700">;<br /></span><span style="color: #0000BB">$binary&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #DD0000">"\x09Example&nbsp;string\x0A"</span><span style="color: #007700">;<br /></span><span style="color: #0000BB">$hello&nbsp;&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #DD0000">"Hello&nbsp;World"</span><span style="color: #007700">;<br /></span><span style="color: #0000BB">var_dump</span><span style="color: #007700">(</span><span style="color: #0000BB">$text</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">$binary</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">$hello</span><span style="color: #007700">);<br /><br />print&nbsp;</span><span style="color: #DD0000">"\n"</span><span style="color: #007700">;<br /><br /></span><span style="color: #0000BB">$trimmed&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #0000BB">rightTrim</span><span style="color: #007700">(</span><span style="color: #0000BB">$text</span><span style="color: #007700">);<br /></span><span style="color: #0000BB">var_dump</span><span style="color: #007700">(</span><span style="color: #0000BB">$trimmed</span><span style="color: #007700">);<br /><br /></span><span style="color: #0000BB">$trimmed&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #0000BB">rightTrim</span><span style="color: #007700">(</span><span style="color: #0000BB">$text</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">"&nbsp;\t."</span><span style="color: #007700">);<br /></span><span style="color: #0000BB">var_dump</span><span style="color: #007700">(</span><span style="color: #0000BB">$trimmed</span><span style="color: #007700">);<br /><br /></span><span style="color: #0000BB">$trimmed&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #0000BB">rightTrim</span><span style="color: #007700">(</span><span style="color: #0000BB">$hello</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">"Hdle"</span><span style="color: #007700">);<br /></span><span style="color: #0000BB">var_dump</span><span style="color: #007700">(</span><span style="color: #0000BB">$trimmed</span><span style="color: #007700">);<br /><br /></span><span style="color: #FF8000">//&nbsp;trim&nbsp;the&nbsp;ASCII&nbsp;control&nbsp;characters&nbsp;at&nbsp;the&nbsp;end&nbsp;of&nbsp;$binary<br />//&nbsp;(from&nbsp;0&nbsp;to&nbsp;31&nbsp;inclusive)<br /></span><span style="color: #0000BB">$clean&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #0000BB">rightTrim</span><span style="color: #007700">(</span><span style="color: #0000BB">$binary</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">"\x00..\x1F"</span><span style="color: #007700">);<br /></span><span style="color: #0000BB">var_dump</span><span style="color: #007700">(</span><span style="color: #0000BB">$clean</span><span style="color: #007700">);<br /><br /></span><span style="color: #0000BB">?&gt;</span></pre>
 
-    <div><p>The above example will output:</p></div>
+    <div>The above example will output:</div>
 <pre>
 string(32) &quot;        These are a few words :) ...  &quot;
 string(16) &quot;    Example string

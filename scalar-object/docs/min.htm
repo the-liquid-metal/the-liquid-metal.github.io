@@ -1,19 +1,17 @@
 <h1>min</h1>
  <div>
   <p>
-   If the first and only parameter is an array, <span><strong>min()</strong></span>
+   If the first and only parameter is an array, <strong>min()</strong>
    returns the lowest value in that array. If at least two parameters are 
-   provided, <span><strong>min()</strong></span> returns the smallest of these values.
+   provided, <strong>min()</strong> returns the smallest of these values.
   </p>
-  <blockquote><p><strong>Note</strong>: 
-   <p>
+  <blockquote><strong>Note</strong>:
     Values of different types will be compared using the <a href="language.operators.comparison.php">
-    standard comparison rules</a>. For instance, a non-numeric <span><a href="language.types.string.php">string</a></span> will be
-    compared to an <span><a href="language.types.integer.php">integer</a></span> as though it were <em>0</em>, but multiple
-    <span><a href="language.types.string.php">string</a></span> values will be compared alphanumerically. The actual value returned will be of the
+    standard comparison rules</a>. For instance, a non-numeric <a href="language.types.string.php">string</a> will be
+    compared to an <a href="language.types.integer.php">integer</a> as though it were <em>0</em>, but multiple
+    <a href="language.types.string.php">string</a> values will be compared alphanumerically. The actual value returned will be of the
     original type with no conversion applied.
-   </p>
-  </p></blockquote>
+   </blockquote>
  </div>
 
  <div>
@@ -21,19 +19,16 @@
   <p>
    <dl>
      <dt><code>values</code></dt>
-     <dd><p>An array containing the values.</p></dd>
+     <dd>An array containing the values.</dd>
 
      <dt><code>value1</code></dt>
-     <dd><p>Any <a href="language.operators.comparison.php">comparable</a>
-       value.</p></dd>
+     <dd>Any <a href="language.operators.comparison.php">comparable</a> value.</dd>
 
      <dt><code>value2</code></dt>
-     <dd><p>Any <a href="language.operators.comparison.php">comparable</a>
-       value.</p></dd>
+     <dd>Any <a href="language.operators.comparison.php">comparable</a> value.</dd>
 
      <dt><code>...</code></dt>
-     <dd><p>Any <a href="language.operators.comparison.php">comparable</a>
-       value.</p></dd>
+     <dd>Any <a href="language.operators.comparison.php">comparable</a> value.</dd>
    </dl>
   </p>
  </div>
@@ -41,7 +36,7 @@
  <div>
   <h3>Return Values</h3>
   <p>
-   <span><strong>min()</strong></span> returns the parameter value considered &quot;lowest&quot; according to standard
+   <strong>min()</strong> returns the parameter value considered &quot;lowest&quot; according to standard
    comparisons. If multiple values of different types evaluate as equal (e.g. <em>0</em>
    and <em>&#039;abc&#039;</em>) the first provided to the function will be returned.
   </p>
@@ -50,7 +45,7 @@
  <div class="examples">
   <p>
    <div>
-    <p><strong>Example #1 Example uses of <span><strong>min()</strong></span></strong></p>
+    <p><strong>Example #1 Example uses of <strong>min()</strong></strong></p>
     <pre><span style="color: #0000BB">&lt;?php<br /></span><span style="color: #007700">echo&nbsp;</span><span style="color: #0000BB">min</span><span style="color: #007700">(</span><span style="color: #0000BB">2</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">3</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">1</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">6</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">7</span><span style="color: #007700">);&nbsp;&nbsp;</span><span style="color: #FF8000">//&nbsp;1<br /></span><span style="color: #007700">echo&nbsp;</span><span style="color: #0000BB">min</span><span style="color: #007700">(array(</span><span style="color: #0000BB">2</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">4</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">5</span><span style="color: #007700">));&nbsp;</span><span style="color: #FF8000">//&nbsp;2<br /><br />//&nbsp;The&nbsp;string&nbsp;'hello'&nbsp;when&nbsp;compared&nbsp;to&nbsp;an&nbsp;int&nbsp;is&nbsp;treated&nbsp;as&nbsp;0<br />//&nbsp;Since&nbsp;the&nbsp;two&nbsp;values&nbsp;are&nbsp;equal,&nbsp;the&nbsp;order&nbsp;they&nbsp;are&nbsp;provided&nbsp;determines&nbsp;the&nbsp;result<br /></span><span style="color: #007700">echo&nbsp;</span><span style="color: #0000BB">min</span><span style="color: #007700">(</span><span style="color: #0000BB">0</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">'hello'</span><span style="color: #007700">);&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #FF8000">//&nbsp;0<br /></span><span style="color: #007700">echo&nbsp;</span><span style="color: #0000BB">min</span><span style="color: #007700">(</span><span style="color: #DD0000">'hello'</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">0</span><span style="color: #007700">);&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #FF8000">//&nbsp;hello<br /><br />//&nbsp;Here&nbsp;we&nbsp;are&nbsp;comparing&nbsp;-1&nbsp;&lt;&nbsp;0,&nbsp;so&nbsp;-1&nbsp;is&nbsp;the&nbsp;lowest&nbsp;value<br /></span><span style="color: #007700">echo&nbsp;</span><span style="color: #0000BB">min</span><span style="color: #007700">(</span><span style="color: #DD0000">'hello'</span><span style="color: #007700">,&nbsp;-</span><span style="color: #0000BB">1</span><span style="color: #007700">);&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #FF8000">//&nbsp;-1<br /><br />//&nbsp;With&nbsp;multiple&nbsp;arrays&nbsp;of&nbsp;different&nbsp;lengths,&nbsp;min&nbsp;returns&nbsp;the&nbsp;shortest<br /></span><span style="color: #0000BB">$val&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #0000BB">min</span><span style="color: #007700">(array(</span><span style="color: #0000BB">2</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">2</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">2</span><span style="color: #007700">),&nbsp;array(</span><span style="color: #0000BB">1</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">1</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">1</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">1</span><span style="color: #007700">));&nbsp;</span><span style="color: #FF8000">//&nbsp;array(2,&nbsp;2,&nbsp;2)<br /><br />//&nbsp;Multiple&nbsp;arrays&nbsp;of&nbsp;the&nbsp;same&nbsp;length&nbsp;are&nbsp;compared&nbsp;from&nbsp;left&nbsp;to&nbsp;right<br />//&nbsp;so&nbsp;in&nbsp;our&nbsp;example:&nbsp;2&nbsp;==&nbsp;2,&nbsp;but&nbsp;4&nbsp;&lt;&nbsp;5<br /></span><span style="color: #0000BB">$val&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #0000BB">min</span><span style="color: #007700">(array(</span><span style="color: #0000BB">2</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">4</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">8</span><span style="color: #007700">),&nbsp;array(</span><span style="color: #0000BB">2</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">5</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">1</span><span style="color: #007700">));&nbsp;</span><span style="color: #FF8000">//&nbsp;array(2,&nbsp;4,&nbsp;8)<br /><br />//&nbsp;If&nbsp;both&nbsp;an&nbsp;array&nbsp;and&nbsp;non-array&nbsp;are&nbsp;given,&nbsp;the&nbsp;array&nbsp;is&nbsp;never&nbsp;returned<br />//&nbsp;as&nbsp;comparisons&nbsp;treat&nbsp;arrays&nbsp;as&nbsp;greater&nbsp;than&nbsp;any&nbsp;other&nbsp;value<br /></span><span style="color: #0000BB">$val&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #0000BB">min</span><span style="color: #007700">(</span><span style="color: #DD0000">'string'</span><span style="color: #007700">,&nbsp;array(</span><span style="color: #0000BB">2</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">5</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">7</span><span style="color: #007700">),&nbsp;</span><span style="color: #0000BB">42</span><span style="color: #007700">);&nbsp;&nbsp;&nbsp;</span><span style="color: #FF8000">//&nbsp;string<br /><br />//&nbsp;If&nbsp;one&nbsp;argument&nbsp;is&nbsp;NULL&nbsp;or&nbsp;a&nbsp;boolean,&nbsp;it&nbsp;will&nbsp;be&nbsp;compared&nbsp;against<br />//&nbsp;other&nbsp;values&nbsp;using&nbsp;the&nbsp;rule&nbsp;FALSE&nbsp;&lt;&nbsp;TRUE&nbsp;regardless&nbsp;of&nbsp;the&nbsp;other&nbsp;types&nbsp;involved<br />//&nbsp;In&nbsp;the&nbsp;below&nbsp;examples,&nbsp;both&nbsp;-10&nbsp;and&nbsp;10&nbsp;are&nbsp;treated&nbsp;as&nbsp;TRUE&nbsp;in&nbsp;the&nbsp;comparison<br /></span><span style="color: #0000BB">$val&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #0000BB">min</span><span style="color: #007700">(-</span><span style="color: #0000BB">10</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">FALSE</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">10</span><span style="color: #007700">);&nbsp;</span><span style="color: #FF8000">//&nbsp;FALSE<br /></span><span style="color: #0000BB">$val&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #0000BB">min</span><span style="color: #007700">(-</span><span style="color: #0000BB">10</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">NULL</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">10</span><span style="color: #007700">);&nbsp;&nbsp;</span><span style="color: #FF8000">//&nbsp;NULL<br /><br />//&nbsp;0,&nbsp;on&nbsp;the&nbsp;other&nbsp;hand,&nbsp;is&nbsp;treated&nbsp;as&nbsp;FALSE,&nbsp;so&nbsp;is&nbsp;"lower&nbsp;than"&nbsp;TRUE<br /></span><span style="color: #0000BB">$val&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #0000BB">min</span><span style="color: #007700">(</span><span style="color: #0000BB">0</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">TRUE</span><span style="color: #007700">);&nbsp;</span><span style="color: #FF8000">//&nbsp;0<br /></span><span style="color: #0000BB">?&gt;</span></pre>
 
    </div>

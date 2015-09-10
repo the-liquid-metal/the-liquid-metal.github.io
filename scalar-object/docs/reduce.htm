@@ -1,7 +1,7 @@
 <h1>reduce</h1>
  <div>
   <p>
-   <span><strong>reduce()</strong></span> applies iteratively the
+   <strong>reduce()</strong> applies iteratively the
    <code>callback</code> function to the elements of the
    <code>array</code>, so as to reduce the array to
    a single value.
@@ -13,57 +13,43 @@
   <p>
    <dl>
      <dt><code>array</code></dt>
-     <dd><p>The input array.</p></dd>
+     <dd>The input array.</dd>
 
      <dt><code>callback</code></dt>
      <dd>
-
-         <dl>
+      <dl>
         <dt><code>carry</code></dt>
-        <dd>
-
-         <p>
-          Holds the return value of the previous iteration; in the case of the
+        <dd>Holds the return value of the previous iteration; in the case of the
           first iteration it instead holds the value of 
           <code>initial</code>.
-         </p>
         </dd>
 
         <dt><code>item</code></dt>
-        <dd>
-
-         <p>
-          Holds the value of the current iteration.
-         </p>
-        </dd>
-
+        <dd>Holds the value of the current iteration.</dd>
       </dl>
-
      </dd>
 
      <dt><code>initial</code></dt>
-     <dd><p>If the optional <code>initial</code> is available, it will
+     <dd>If the optional <code>initial</code> is available, it will
        be used at the beginning of the process, or as a final result in case
-       the array is empty.</p></dd>
+       the array is empty.</dd>
    </dl>
   </p>
  </div>
 
  <div>
   <h3>Return Values</h3>
-  <p>
-   Returns the resulting value.
-  </p>
+  <p>Returns the resulting value.</p>
   <p>
    If the array is empty and <code>initial</code> is not passed,
-   <span><strong>reduce()</strong></span> returns <strong><code>NULL</code></strong>.
+   <strong>reduce()</strong> returns <strong><code>NULL</code></strong>.
   </p>
  </div>
 
  <div class="examples">
   <p>
    <div>
-    <p><strong>Example #1 <span><strong>reduce()</strong></span> example</strong></p>
+    <p><strong>Example #1 reduce() example</strong></p>
     <pre><span style="color: #0000BB">&lt;?php<br /></span><span style="color: #007700">function&nbsp;</span><span style="color: #0000BB">sum</span><span style="color: #007700">(</span><span style="color: #0000BB">$carry</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">$item</span><span style="color: #007700">)<br />{<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #0000BB">$carry&nbsp;</span><span style="color: #007700">+=&nbsp;</span><span style="color: #0000BB">$item</span><span style="color: #007700">;<br />&nbsp;&nbsp;&nbsp;&nbsp;return&nbsp;</span><span style="color: #0000BB">$carry</span><span style="color: #007700">;<br />}<br /><br />function&nbsp;</span><span style="color: #0000BB">product</span><span style="color: #007700">(</span><span style="color: #0000BB">$carry</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">$item</span><span style="color: #007700">)<br />{<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #0000BB">$carry&nbsp;</span><span style="color: #007700">*=&nbsp;</span><span style="color: #0000BB">$item</span><span style="color: #007700">;<br />&nbsp;&nbsp;&nbsp;&nbsp;return&nbsp;</span><span style="color: #0000BB">$carry</span><span style="color: #007700">;<br />}<br /><br /></span><span style="color: #0000BB">$a&nbsp;</span><span style="color: #007700">=&nbsp;array(</span><span style="color: #0000BB">1</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">2</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">3</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">4</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">5</span><span style="color: #007700">);<br /></span><span style="color: #0000BB">$x&nbsp;</span><span style="color: #007700">=&nbsp;array();<br /><br /></span><span style="color: #0000BB">var_dump</span><span style="color: #007700">(</span><span style="color: #0000BB">reduce</span><span style="color: #007700">(</span><span style="color: #0000BB">$a</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">"sum"</span><span style="color: #007700">));&nbsp;</span><span style="color: #FF8000">//&nbsp;int(15)<br /></span><span style="color: #0000BB">var_dump</span><span style="color: #007700">(</span><span style="color: #0000BB">reduce</span><span style="color: #007700">(</span><span style="color: #0000BB">$a</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">"product"</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">10</span><span style="color: #007700">));&nbsp;</span><span style="color: #FF8000">//&nbsp;int(1200),&nbsp;because:&nbsp;10*1*2*3*4*5<br /></span><span style="color: #0000BB">var_dump</span><span style="color: #007700">(</span><span style="color: #0000BB">reduce</span><span style="color: #007700">(</span><span style="color: #0000BB">$x</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">"sum"</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">"No&nbsp;data&nbsp;to&nbsp;reduce"</span><span style="color: #007700">));&nbsp;</span><span style="color: #FF8000">//&nbsp;string(17)&nbsp;"No&nbsp;data&nbsp;to&nbsp;reduce"<br /></span><span style="color: #0000BB">?&gt;</span></pre>
 
    </div>

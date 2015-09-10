@@ -22,10 +22,10 @@
   <p>
    <dl>
      <dt><code>array1</code></dt>
-     <dd><p>Initial array to merge.</p></dd>
+     <dd>Initial array to merge.</dd>
 
      <dt><code>...</code></dt>
-     <dd><p>Variable list of arrays to merge.</p></dd>
+     <dd>Variable list of arrays to merge.</dd>
    </dl>
   </p>
  </div>
@@ -40,10 +40,10 @@
  <div class="examples">
   <p>
    <div>
-    <p><strong>Example #1 <span><strong>merge()</strong></span> example</strong></p>
+    <p><strong>Example #1 merge() example</strong></p>
     <pre><span style="color: #0000BB">&lt;?php<br />$array1&nbsp;</span><span style="color: #007700">=&nbsp;array(</span><span style="color: #DD0000">"color"&nbsp;</span><span style="color: #007700">=&gt;&nbsp;</span><span style="color: #DD0000">"red"</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">2</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">4</span><span style="color: #007700">);<br /></span><span style="color: #0000BB">$array2&nbsp;</span><span style="color: #007700">=&nbsp;array(</span><span style="color: #DD0000">"a"</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">"b"</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">"color"&nbsp;</span><span style="color: #007700">=&gt;&nbsp;</span><span style="color: #DD0000">"green"</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">"shape"&nbsp;</span><span style="color: #007700">=&gt;&nbsp;</span><span style="color: #DD0000">"trapezoid"</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">4</span><span style="color: #007700">);<br /></span><span style="color: #0000BB">$result&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #0000BB">merge</span><span style="color: #007700">(</span><span style="color: #0000BB">$array1</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">$array2</span><span style="color: #007700">);<br /></span><span style="color: #0000BB">print_r</span><span style="color: #007700">(</span><span style="color: #0000BB">$result</span><span style="color: #007700">);<br /></span><span style="color: #0000BB">?&gt;</span></pre>
 
-    <div><p>The above example will output:</p></div>
+    <div>The above example will output:</div>
 <pre>
 Array
 (
@@ -60,7 +60,7 @@ Array
   </p>
   <p>
    <div>
-    <p><strong>Example #2 Simple <span><strong>merge()</strong></span> example</strong></p>
+    <p><strong>Example #2 Simple merge() example</strong></p>
     <pre><span style="color: #0000BB">&lt;?php<br />$array1&nbsp;</span><span style="color: #007700">=&nbsp;array();<br /></span><span style="color: #0000BB">$array2&nbsp;</span><span style="color: #007700">=&nbsp;array(</span><span style="color: #0000BB">1&nbsp;</span><span style="color: #007700">=&gt;&nbsp;</span><span style="color: #DD0000">"data"</span><span style="color: #007700">);<br /></span><span style="color: #0000BB">$result&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #0000BB">merge</span><span style="color: #007700">(</span><span style="color: #0000BB">$array1</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">$array2</span><span style="color: #007700">);<br /></span><span style="color: #0000BB">?&gt;</span></pre>
 
     <div><p>
@@ -104,10 +104,10 @@ array(5) {
   </p>
   <p>
    <div>
-    <p><strong>Example #3 <span><strong>merge()</strong></span> with non-array types</strong></p>
+    <p><strong>Example #3 merge() with non-array types</strong></p>
     <pre><span style="color: #0000BB">&lt;?php<br />$beginning&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #DD0000">'foo'</span><span style="color: #007700">;<br /></span><span style="color: #0000BB">$end&nbsp;</span><span style="color: #007700">=&nbsp;array(</span><span style="color: #0000BB">1&nbsp;</span><span style="color: #007700">=&gt;&nbsp;</span><span style="color: #DD0000">'bar'</span><span style="color: #007700">);<br /></span><span style="color: #0000BB">$result&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #0000BB">merge</span><span style="color: #007700">((array)</span><span style="color: #0000BB">$beginning</span><span style="color: #007700">,&nbsp;(array)</span><span style="color: #0000BB">$end</span><span style="color: #007700">);<br /></span><span style="color: #0000BB">print_r</span><span style="color: #007700">(</span><span style="color: #0000BB">$result</span><span style="color: #007700">);<br /></span><span style="color: #0000BB">?&gt;</span></pre>
 
-    <div><p>The above example will output:</p></div>
+    <div>The above example will output:</div>
 <pre>
 Array
 (

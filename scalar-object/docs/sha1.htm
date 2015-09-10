@@ -12,41 +12,34 @@
   <p>
    <dl>
      <dt><code>str</code></dt>
-     <dd><p>The input string.</p></dd>
+     <dd>The input string.</dd>
 
      <dt><code>raw_output</code></dt>
-     <dd><p>If the optional <code>raw_output</code> is set to <strong><code>TRUE</code></strong>,
+     <dd>If the optional <code>raw_output</code> is set to <strong><code>TRUE</code></strong>,
        then the sha1 digest is instead returned in raw binary format with a
        length of 20, otherwise the returned value is a 40-character
-       hexadecimal number.</p></dd>
+       hexadecimal number.</dd>
    </dl>
   </p>
  </div>
 
  <div>
   <h3>Return Values</h3>
-  <p>
-   Returns the sha1 hash as a string.
-  </p>
+  <p>Returns the sha1 hash as a string.</p>
  </div>
 
  <div class="examples">
   <p>
    <div>
-    <p><strong>Example #1 A <span><strong>sha1()</strong></span> example</strong></p>
+    <p><strong>Example #1 A sha1() example</strong></p>
     <pre><span style="color: #0000BB">&lt;?php<br />$str&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #DD0000">'apple'</span><span style="color: #007700">;<br /><br />if&nbsp;(</span><span style="color: #0000BB">sha1</span><span style="color: #007700">(</span><span style="color: #0000BB">$str</span><span style="color: #007700">)&nbsp;===&nbsp;</span><span style="color: #DD0000">'d0be2dc421be4fcd0172e5afceea3970e2f3d940'</span><span style="color: #007700">)&nbsp;{<br />&nbsp;&nbsp;&nbsp;&nbsp;echo&nbsp;</span><span style="color: #DD0000">"Would&nbsp;you&nbsp;like&nbsp;a&nbsp;green&nbsp;or&nbsp;red&nbsp;apple?"</span><span style="color: #007700">;<br />}<br /></span><span style="color: #0000BB">?&gt;</span></pre>
 
    </div>
   </p>
  </div>
 
- <div>
-  <blockquote><p><strong>Note</strong>: 
- <strong>Secure password hashing</strong><br />
- <p>
-  It is not recommended to use this function to secure passwords, due to the fast nature of this hashing algorithm. See
-  <a href="faq.passwords.php#faq.passwords.fasthash">here</a> for details.
- </p>
-</p></blockquote>
-
- </div>
+  <blockquote><strong>Note</strong>: 
+   <s trong>Secure password hashing</strong><br />
+   It is not recommended to use this function to secure passwords, due to the fast nature of this hashing algorithm. See
+   <a href="faq.passwords.php#faq.passwords.fasthash">here</a> for details.
+  </blockquote>

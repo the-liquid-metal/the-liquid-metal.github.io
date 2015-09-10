@@ -3,7 +3,7 @@
  <div>
   <p>
    Can be used to split a string into smaller chunks which is useful for
-   e.g. converting <span><a href="function.base64-encode.php">base64_encode()</a></span> output to match RFC
+   e.g. converting <a href="function.base64-encode.php">base64_encode()</a> output to match RFC
    2045 semantics. It inserts <code>end</code> every 
    <code>chunklen</code> characters.
   </p>
@@ -14,13 +14,13 @@
   <p>
    <dl>
      <dt><code>body</code></dt>
-     <dd><p>The string to be chunked.</p></dd>
+     <dd>The string to be chunked.</dd>
 
      <dt><code>chunklen</code></dt>
-     <dd><p>The chunk length.</p></dd>
+     <dd>The chunk length.</dd>
 
      <dt><code>end</code></dt>
-     <dd><p>The line ending sequence.</p></dd>
+     <dd>The line ending sequence.</dd>
    </dl>
   </p>
  </div>
@@ -35,7 +35,7 @@
  <div class="examples">
   <p>
    <div>
-    <p><strong>Example #1 <span><strong>chunkSplit()</strong></span> example</strong></p>
+    <p><strong>Example #1 chunkSplit() example</strong></p>
     <pre><span style="color: #0000BB">&lt;?php<br /></span><span style="color: #FF8000">//&nbsp;format&nbsp;$data&nbsp;using&nbsp;RFC&nbsp;2045&nbsp;semantics<br /></span><span style="color: #0000BB">$new_string&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #0000BB">chunkSplit</span><span style="color: #007700">(</span><span style="color: #0000BB">base64_encode</span><span style="color: #007700">(</span><span style="color: #0000BB">$data</span><span style="color: #007700">));<br /></span><span style="color: #0000BB">?&gt;</span></pre>
 
    </div>

@@ -12,11 +12,11 @@
   <p>
    <dl>
      <dt><code>array</code></dt>
-     <dd><p>The array to work on</p></dd>
+     <dd>The array to work on</dd>
 
      <dt><code>case</code></dt>
-     <dd><p>Either <strong><code>CASE_UPPER</code></strong> or
-       <strong><code>CASE_LOWER</code></strong> (default)</p></dd>
+     <dd>Either <strong><code>CASE_UPPER</code></strong> or
+       <strong><code>CASE_LOWER</code></strong> (default)</dd>
    </dl>
   </p>
  </div>
@@ -40,10 +40,10 @@
  <div class="examples">
   <p>
    <div>
-    <p><strong>Example #1 <span><strong>changeKeyCase()</strong></span> example</strong></p>
+    <p><strong>Example #1 changeKeyCase() example</strong></p>
     <pre><span style="color: #0000BB">&lt;?php<br />$input_array&nbsp;</span><span style="color: #007700">=&nbsp;array(</span><span style="color: #DD0000">"FirSt"&nbsp;</span><span style="color: #007700">=&gt;&nbsp;</span><span style="color: #0000BB">1</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">"SecOnd"&nbsp;</span><span style="color: #007700">=&gt;&nbsp;</span><span style="color: #0000BB">4</span><span style="color: #007700">);<br /></span><span style="color: #0000BB">print_r</span><span style="color: #007700">(</span><span style="color: #0000BB">changeKeyCase</span><span style="color: #007700">(</span><span style="color: #0000BB">$input_array</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">CASE_UPPER</span><span style="color: #007700">));<br /></span><span style="color: #0000BB">?&gt;</span></pre>
 
-    <div><p>The above example will output:</p></div>
+    <div>The above example will output:</div>
 <pre>
 Array
 (
@@ -55,12 +55,8 @@ Array
   </p>
  </div>
 
- <div>
-  <blockquote><p><strong>Note</strong>: 
-   <p>
+  <blockquote><strong>Note</strong>:
     If an array has indices that will be the same once run through this
     function (e.g. &quot;<em>keY</em>&quot; and &quot;<em>kEY</em>&quot;), 
     the value that is later in the array will override other indices.
-   </p>
-  </p></blockquote>
- </div>
+   </blockquote>

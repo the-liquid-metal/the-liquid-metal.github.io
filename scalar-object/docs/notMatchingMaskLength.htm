@@ -21,18 +21,16 @@
   <p>
    <dl>
      <dt><code>subject</code></dt>
-     <dd><p>The string to examine.</p></dd>
+     <dd>The string to examine.</dd>
 
      <dt><code>mask</code></dt>
-     <dd><p>The string containing every disallowed character.</p></dd>
+     <dd>The string containing every disallowed character.</dd>
 
      <dt><code>start</code></dt>
-     <dd><p>The position in <code>subject</code> to
-       start searching.
-      </p>
+     <dd><p>The position in <code>subject</code> to start searching.</p>
       <p>
        If <code>start</code> is given and is non-negative,
-       then <span><strong>notMatchingMaskLength()</strong></span> will begin
+       then <strong>notMatchingMaskLength()</strong> will begin
        examining <code>subject</code> at
        the <code>start</code>&#039;th position. For instance, in
        the string &#039;<em>abcdef</em>&#039;, the character at
@@ -42,15 +40,13 @@
       </p>
       <p>
        If <code>start</code> is given and is negative,
-       then <span><a href="function.strspn.php">strspn()</a></span> will begin
+       then <a href="function.strspn.php">strspn()</a> will begin
        examining <code>subject</code> at
        the <code>start</code>&#039;th position from the end
        of <code>subject</code>.</p></dd>
 
      <dt><code>length</code></dt>
-     <dd><p>The length of the segment from <code>subject</code>
-       to examine. 
-      </p>
+     <dd><p>The length of the segment from <code>subject</code> to examine.</p>
       <p>
        If <code>length</code> is given and is non-negative,
        then <code>subject</code> will be examined
@@ -72,21 +68,19 @@
    Returns the length of the initial segment of <code>subject</code>
    which consists entirely of characters <em>not</em> in <code>mask</code>.
   </p>
-  <blockquote><p><strong>Note</strong>: 
-   <p>
+  <blockquote><strong>Note</strong>:
     When a <code>start</code> parameter is set, the returned length
     is counted starting from this position, not from the beginning of
     <code>subject</code>.
-   </p>
-  </p></blockquote>
+   </blockquote>
  </div>
 
  <div class="examples">
   <div>
-   <p><strong>Example #1 <span><strong>notMatchingMaskLength()</strong></span> example</strong></p>
+   <p><strong>Example #1 notMatchingMaskLength() example</strong></p>
    <pre><span style="color: #0000BB">&lt;?php<br />$a&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #0000BB">notMatchingMaskLength</span><span style="color: #007700">(</span><span style="color: #DD0000">'abcd'</span><span style="color: #007700">,&nbsp;&nbsp;</span><span style="color: #DD0000">'apple'</span><span style="color: #007700">);<br /></span><span style="color: #0000BB">$b&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #0000BB">notMatchingMaskLength</span><span style="color: #007700">(</span><span style="color: #DD0000">'abcd'</span><span style="color: #007700">,&nbsp;&nbsp;</span><span style="color: #DD0000">'banana'</span><span style="color: #007700">);<br /></span><span style="color: #0000BB">$c&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #0000BB">notMatchingMaskLength</span><span style="color: #007700">(</span><span style="color: #DD0000">'hello'</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">'l'</span><span style="color: #007700">);<br /></span><span style="color: #0000BB">$d&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #0000BB">notMatchingMaskLength</span><span style="color: #007700">(</span><span style="color: #DD0000">'hello'</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">'world'</span><span style="color: #007700">);<br /></span><span style="color: #0000BB">$e&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #0000BB">notMatchingMaskLength</span><span style="color: #007700">(</span><span style="color: #DD0000">'abcdhelloabcd'</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">'abcd'</span><span style="color: #007700">,&nbsp;-</span><span style="color: #0000BB">9</span><span style="color: #007700">);<br /></span><span style="color: #0000BB">$f&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #0000BB">notMatchingMaskLength</span><span style="color: #007700">(</span><span style="color: #DD0000">'abcdhelloabcd'</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">'abcd'</span><span style="color: #007700">,&nbsp;-</span><span style="color: #0000BB">9</span><span style="color: #007700">,&nbsp;-</span><span style="color: #0000BB">5</span><span style="color: #007700">);<br /><br /></span><span style="color: #0000BB">var_dump</span><span style="color: #007700">(</span><span style="color: #0000BB">$a</span><span style="color: #007700">);<br /></span><span style="color: #0000BB">var_dump</span><span style="color: #007700">(</span><span style="color: #0000BB">$b</span><span style="color: #007700">);<br /></span><span style="color: #0000BB">var_dump</span><span style="color: #007700">(</span><span style="color: #0000BB">$c</span><span style="color: #007700">);<br /></span><span style="color: #0000BB">var_dump</span><span style="color: #007700">(</span><span style="color: #0000BB">$d</span><span style="color: #007700">);<br /></span><span style="color: #0000BB">var_dump</span><span style="color: #007700">(</span><span style="color: #0000BB">$e</span><span style="color: #007700">);<br /></span><span style="color: #0000BB">var_dump</span><span style="color: #007700">(</span><span style="color: #0000BB">$f</span><span style="color: #007700">);<br /></span><span style="color: #0000BB">?&gt;</span></pre>
 
-   <div><p>The above example will output:</p></div>
+   <div>The above example will output:</div>
 <pre>
 int(0)
 int(0)
@@ -98,7 +92,4 @@ int(4)
   </div>
  </div>
 
- <div>
-  <blockquote><p><strong>Note</strong>: <span>This function is
-binary-safe.</span></p></blockquote>
- </div>
+  <blockquote><strong>Note</strong>:This function is binary-safe.</blockquote>

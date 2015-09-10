@@ -10,11 +10,9 @@
    This is used mainly when sorting associative arrays where the actual
    element order is significant.
   </p>
-  <blockquote><p><strong>Note</strong>: 
-   <p>
+  <blockquote><strong>Note</strong>:
     If two members compare as equal, their relative order in the sorted array is undefined.
-   </p>
-  </p></blockquote>
+   </blockquote>
  </div>
 
  <div>
@@ -22,11 +20,11 @@
   <p>
    <dl>
      <dt><code>array</code></dt>
-     <dd><p>The input array.</p></dd>
+     <dd>The input array.</dd>
 
      <dt><code>value_compare_func</code></dt>
-     <dd><p>See <span><a href="function.usort.php">usort()</a></span> and <span><a href="function.uksort.php">uksort()</a></span> for
-       examples of user-defined comparison functions.</p></dd>
+     <dd>See <a href="function.usort.php">usort()</a> and <a href="function.uksort.php">uksort()</a> for
+       examples of user-defined comparison functions.</dd>
    </dl>
   </p>
  </div>
@@ -41,10 +39,10 @@
  <div class="examples">
   <p>
    <div>
-    <p><strong>Example #1 Basic <span><strong>userAssocSort()</strong></span> example</strong></p>
+    <p><strong>Example #1 Basic userAssocSort() example</strong></p>
     <pre><span style="color: #0000BB">&lt;?php<br /></span><span style="color: #FF8000">//&nbsp;Comparison&nbsp;function<br /></span><span style="color: #007700">function&nbsp;</span><span style="color: #0000BB">cmp</span><span style="color: #007700">(</span><span style="color: #0000BB">$a</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">$b</span><span style="color: #007700">)&nbsp;{<br />&nbsp;&nbsp;&nbsp;&nbsp;if&nbsp;(</span><span style="color: #0000BB">$a&nbsp;</span><span style="color: #007700">==&nbsp;</span><span style="color: #0000BB">$b</span><span style="color: #007700">)&nbsp;{<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return&nbsp;</span><span style="color: #0000BB">0</span><span style="color: #007700">;<br />&nbsp;&nbsp;&nbsp;&nbsp;}<br />&nbsp;&nbsp;&nbsp;&nbsp;return&nbsp;(</span><span style="color: #0000BB">$a&nbsp;</span><span style="color: #007700">&lt;&nbsp;</span><span style="color: #0000BB">$b</span><span style="color: #007700">)&nbsp;?&nbsp;-</span><span style="color: #0000BB">1&nbsp;</span><span style="color: #007700">:&nbsp;</span><span style="color: #0000BB">1</span><span style="color: #007700">;<br />}<br /><br /></span><span style="color: #FF8000">//&nbsp;Array&nbsp;to&nbsp;be&nbsp;sorted<br /></span><span style="color: #0000BB">$array&nbsp;</span><span style="color: #007700">=&nbsp;array(</span><span style="color: #DD0000">'a'&nbsp;</span><span style="color: #007700">=&gt;&nbsp;</span><span style="color: #0000BB">4</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">'b'&nbsp;</span><span style="color: #007700">=&gt;&nbsp;</span><span style="color: #0000BB">8</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">'c'&nbsp;</span><span style="color: #007700">=&gt;&nbsp;-</span><span style="color: #0000BB">1</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">'d'&nbsp;</span><span style="color: #007700">=&gt;&nbsp;-</span><span style="color: #0000BB">9</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">'e'&nbsp;</span><span style="color: #007700">=&gt;&nbsp;</span><span style="color: #0000BB">2</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">'f'&nbsp;</span><span style="color: #007700">=&gt;&nbsp;</span><span style="color: #0000BB">5</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">'g'&nbsp;</span><span style="color: #007700">=&gt;&nbsp;</span><span style="color: #0000BB">3</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">'h'&nbsp;</span><span style="color: #007700">=&gt;&nbsp;-</span><span style="color: #0000BB">4</span><span style="color: #007700">);<br /></span><span style="color: #0000BB">print_r</span><span style="color: #007700">(</span><span style="color: #0000BB">$array</span><span style="color: #007700">);<br /><br /></span><span style="color: #FF8000">//&nbsp;Sort&nbsp;and&nbsp;print&nbsp;the&nbsp;resulting&nbsp;array<br /></span><span style="color: #0000BB">userAssocSort</span><span style="color: #007700">(</span><span style="color: #0000BB">$array</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">'cmp'</span><span style="color: #007700">);<br /></span><span style="color: #0000BB">print_r</span><span style="color: #007700">(</span><span style="color: #0000BB">$array</span><span style="color: #007700">);<br /></span><span style="color: #0000BB">?&gt;</span></pre>
 
-    <div><p>The above example will output:</p></div>
+    <div>The above example will output:</div>
 <pre>
 Array
 (

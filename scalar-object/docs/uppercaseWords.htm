@@ -17,10 +17,10 @@
   <p>
    <dl>
      <dt><code>str</code></dt>
-     <dd><p>The input string.</p></dd>
+     <dd>The input string.</dd>
 
      <dt><code>delimiters</code></dt>
-     <dd><p>The optional <code>delimiters</code> contains the word separator characters.</p></dd>
+     <dd>The optional <code>delimiters</code> contains the word separator characters.</dd>
    </dl>
   </p>
  </div>
@@ -35,7 +35,7 @@
  <div class="examples">
   <p>
    <div>
-    <p><strong>Example #1 <span><strong>uppercaseWords()</strong></span> example</strong></p>
+    <p><strong>Example #1 uppercaseWords() example</strong></p>
     <pre><span style="color: #0000BB">&lt;?php<br />$foo&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #DD0000">'hello&nbsp;world!'</span><span style="color: #007700">;<br /></span><span style="color: #0000BB">$foo&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #0000BB">uppercaseWords</span><span style="color: #007700">(</span><span style="color: #0000BB">$foo</span><span style="color: #007700">);&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #FF8000">//&nbsp;Hello&nbsp;World!<br /><br /></span><span style="color: #0000BB">$bar&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #DD0000">'HELLO&nbsp;WORLD!'</span><span style="color: #007700">;<br /></span><span style="color: #0000BB">$bar&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #0000BB">uppercaseWords</span><span style="color: #007700">(</span><span style="color: #0000BB">$bar</span><span style="color: #007700">);&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #FF8000">//&nbsp;HELLO&nbsp;WORLD!<br /></span><span style="color: #0000BB">$bar&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #0000BB">uppercaseWords</span><span style="color: #007700">(</span><span style="color: #0000BB">strtolower</span><span style="color: #007700">(</span><span style="color: #0000BB">$bar</span><span style="color: #007700">));&nbsp;</span><span style="color: #FF8000">//&nbsp;Hello&nbsp;World!<br /></span><span style="color: #0000BB">?&gt;</span></pre>
 
    </div>
@@ -43,14 +43,11 @@
 
   <p>
    <div>
-    <p><strong>Example #2 <span><strong>uppercaseWords()</strong></span> example with custom delimiter</strong></p>
+    <p><strong>Example #2 uppercaseWords() example with custom delimiter</strong></p>
     <pre><span style="color: #0000BB">&lt;?php<br />$foo&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #DD0000">'hello|world!'</span><span style="color: #007700">;<br /></span><span style="color: #0000BB">$bar&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #0000BB">uppercaseWords</span><span style="color: #007700">(</span><span style="color: #0000BB">$foo</span><span style="color: #007700">);&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #FF8000">//&nbsp;Hello|world!<br /><br /></span><span style="color: #0000BB">$baz&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #0000BB">uppercaseWords</span><span style="color: #007700">(</span><span style="color: #0000BB">$foo</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">"|"</span><span style="color: #007700">);&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #FF8000">//&nbsp;Hello|World!<br /></span><span style="color: #0000BB">?&gt;</span></pre>
 
    </div>
   </p>
  </div>
 
- <div>
-  <blockquote><p><strong>Note</strong>: <span>This function is
-binary-safe.</span></p></blockquote>
- </div>
+  <blockquote><strong>Note</strong>:This function is binary-safe.</blockquote>

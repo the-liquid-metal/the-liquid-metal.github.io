@@ -12,7 +12,7 @@
   <p>
    <dl>
      <dt><code>str</code></dt>
-     <dd><p>The string to be escaped.</p></dd>
+     <dd>The string to be escaped.</dd>
 
      <dt><code>charlist</code></dt>
      <dd><p>A list of characters to be escaped. If
@@ -30,7 +30,7 @@
        Also, if the first character in a range has a higher ASCII value
        than the second character in the range, no range will be
        constructed.  Only the start, end and period characters will be
-       escaped. Use the <span><a href="function.ord.php">ord()</a></span> function to find the
+       escaped. Use the <a href="function.ord.php">ord()</a> function to find the
        ASCII value for a character.
        <pre><span style="color: #0000BB">&lt;?php<br /></span><span style="color: #007700">echo&nbsp;</span><span style="color: #0000BB">addCSlashes</span><span style="color: #007700">(</span><span style="color: #DD0000">"zoo['.']"</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">'z..A'</span><span style="color: #007700">);<br /></span><span style="color: #FF8000">//&nbsp;output:&nbsp;&nbsp;\zoo['\.']<br /></span><span style="color: #0000BB">?&gt;</span></pre>
       </p>
@@ -40,7 +40,7 @@
        which are predefined escape sequences in C. Many of these sequences are
        also defined in other C-derived languages, including PHP, meaning that
        you may not get the desired result if you use the output of
-       <span><strong>addCSlashes()</strong></span> to generate code in those languages
+       <strong>addCSlashes()</strong> to generate code in those languages
        with these characters defined in <code>charlist</code>.</p></dd>
    </dl>
   </p>
@@ -58,7 +58,7 @@
     <code>charlist</code> like &quot;\0..\37&quot;, which would
     escape all characters with ASCII code between 0 and 31.
    <div>
-    <p><strong>Example #1 <span><strong>addCSlashes()</strong></span> example</strong></p>
+    <p><strong>Example #1 addCSlashes() example</strong></p>
     <pre><span style="color: #0000BB">&lt;?php<br />$escaped&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #0000BB">addCSlashes</span><span style="color: #007700">(</span><span style="color: #0000BB">$not_escaped</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">"\0..\37!@\177..\377"</span><span style="color: #007700">);<br /></span><span style="color: #0000BB">?&gt;</span></pre>
 
    </div>

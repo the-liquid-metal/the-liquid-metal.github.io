@@ -28,10 +28,10 @@
   <p>
    <dl>
      <dt><code>subject</code></dt>
-     <dd><p>The string to examine.</p></dd>
+     <dd>The string to examine.</dd>
 
      <dt><code>mask</code></dt>
-     <dd><p>The list of allowable characters.</p></dd>
+     <dd>The list of allowable characters.</dd>
 
      <dt><code>start</code></dt>
      <dd><p>The position in <code>subject</code> to
@@ -39,7 +39,7 @@
       </p>
       <p>
        If <code>start</code> is given and is non-negative,
-       then <span><strong>matchingMaskLength()</strong></span> will begin
+       then <strong>matchingMaskLength()</strong> will begin
        examining <code>subject</code> at
        the <code>start</code>&#039;th position. For instance, in
        the string &#039;<em>abcdef</em>&#039;, the character at
@@ -49,7 +49,7 @@
       </p>
       <p>
        If <code>start</code> is given and is negative,
-       then <span><strong>matchingMaskLength()</strong></span> will begin
+       then <strong>matchingMaskLength()</strong> will begin
        examining <code>subject</code> at
        the <code>start</code>&#039;th position from the end
        of <code>subject</code>.</p></dd>
@@ -79,22 +79,20 @@
    Returns the length of the initial segment of <code>subject</code>
    which consists entirely of characters in <code>mask</code>.
   </p>
-  <blockquote><p><strong>Note</strong>: 
-   <p>
+  <blockquote><strong>Note</strong>:
     When a <code>start</code> parameter is set, the returned length
     is counted starting from this position, not from the beginning of
     <code>subject</code>.
-   </p>
-  </p></blockquote>
+   </blockquote>
  </div>
 
  <div class="examples">
   <p>
    <div>
-    <p><strong>Example #1 <span><strong>matchingMaskLength()</strong></span> example</strong></p>
+    <p><strong>Example #1 matchingMaskLength() example</strong></p>
     <pre><span style="color: #0000BB">&lt;?php<br /></span><span style="color: #FF8000">//&nbsp;subject&nbsp;does&nbsp;not&nbsp;start&nbsp;with&nbsp;any&nbsp;characters&nbsp;from&nbsp;mask<br /></span><span style="color: #0000BB">var_dump</span><span style="color: #007700">(</span><span style="color: #0000BB">matchingMaskLength</span><span style="color: #007700">(</span><span style="color: #DD0000">"foo"</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">"o"</span><span style="color: #007700">));<br /><br /></span><span style="color: #FF8000">//&nbsp;examine&nbsp;two&nbsp;characters&nbsp;from&nbsp;subject&nbsp;starting&nbsp;at&nbsp;offset&nbsp;1<br /></span><span style="color: #0000BB">var_dump</span><span style="color: #007700">(</span><span style="color: #0000BB">matchingMaskLength</span><span style="color: #007700">(</span><span style="color: #DD0000">"foo"</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">"o"</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">1</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">2</span><span style="color: #007700">));<br /><br /></span><span style="color: #FF8000">//&nbsp;examine&nbsp;one&nbsp;character&nbsp;from&nbsp;subject&nbsp;starting&nbsp;at&nbsp;offset&nbsp;1<br /></span><span style="color: #0000BB">var_dump</span><span style="color: #007700">(</span><span style="color: #0000BB">matchingMaskLength</span><span style="color: #007700">(</span><span style="color: #DD0000">"foo"</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">"o"</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">1</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">1</span><span style="color: #007700">));<br /></span><span style="color: #0000BB">?&gt;</span></pre>
 
-    <div><p>The above example will output:</p></div>
+    <div>The above example will output:</div>
 <pre>
 int(0)
 int(2)
@@ -104,7 +102,4 @@ int(1)
   </p>
  </div>
 
- <div>
-  <blockquote><p><strong>Note</strong>: <span>This function is
-binary-safe.</span></p></blockquote>
- </div>
+  <blockquote><strong>Note</strong>:This function is binary-safe.</blockquote>

@@ -6,7 +6,7 @@
    <code>needle</code> in the <code>haystack</code> string.
   </p>
   <p> 
-   Unlike the <span><a href="function.strrpos.php">strrpos()</a></span>, <span><strong>lastOccurInsenPosition()</strong></span> is
+   Unlike the <a href="function.strrpos.php">strrpos()</a>, <strong>lastOccurInsenPosition()</strong> is
    case-insensitive.
   </p>
  </div>
@@ -16,16 +16,16 @@
   <p>
    <dl>
      <dt><code>haystack</code></dt>
-     <dd><p>The string to search in.</p></dd>
+     <dd>The string to search in.</dd>
 
      <dt><code>needle</code></dt>
-     <dd><p>If <code>needle</code> is not a string, it is converted
-       to an integer and applied as the ordinal value of a character.</p></dd>
+     <dd>If <code>needle</code> is not a string, it is converted
+       to an integer and applied as the ordinal value of a character.</dd>
 
      <dt><code>offset</code></dt>
-     <dd><p>If specified, search will start this number of characters counted from the
+     <dd>If specified, search will start this number of characters counted from the
        beginning of the string. If the value is negative, search will instead start
-       from that many characters from the end of the string, searching backwards.</p></dd>
+       from that many characters from the end of the string, searching backwards.</dd>
    </dl>
   </p>
  </div>
@@ -52,10 +52,10 @@ function.</p></div>
  <div class="examples">
   <p>
    <div>
-    <p><strong>Example #1 A simple <span><strong>lastOccurInsenPosition()</strong></span> example</strong></p>
+    <p><strong>Example #1 A simple lastOccurInsenPosition() example</strong></p>
     <pre><span style="color: #0000BB">&lt;?php<br />$haystack&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #DD0000">'ababcd'</span><span style="color: #007700">;<br /></span><span style="color: #0000BB">$needle&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #DD0000">'aB'</span><span style="color: #007700">;<br /><br /></span><span style="color: #0000BB">$pos&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #0000BB">lastOccurInsenPosition</span><span style="color: #007700">(</span><span style="color: #0000BB">$haystack</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">$needle</span><span style="color: #007700">);<br /><br />if&nbsp;(</span><span style="color: #0000BB">$pos&nbsp;</span><span style="color: #007700">===&nbsp;</span><span style="color: #0000BB">false</span><span style="color: #007700">)&nbsp;{<br />&nbsp;&nbsp;&nbsp;&nbsp;echo&nbsp;</span><span style="color: #DD0000">"Sorry,&nbsp;we&nbsp;did&nbsp;not&nbsp;find&nbsp;(</span><span style="color: #0000BB">$needle</span><span style="color: #DD0000">)&nbsp;in&nbsp;(</span><span style="color: #0000BB">$haystack</span><span style="color: #DD0000">)"</span><span style="color: #007700">;<br />}&nbsp;else&nbsp;{<br />&nbsp;&nbsp;&nbsp;&nbsp;echo&nbsp;</span><span style="color: #DD0000">"Congratulations!\n"</span><span style="color: #007700">;<br />&nbsp;&nbsp;&nbsp;&nbsp;echo&nbsp;</span><span style="color: #DD0000">"We&nbsp;found&nbsp;the&nbsp;last&nbsp;(</span><span style="color: #0000BB">$needle</span><span style="color: #DD0000">)&nbsp;in&nbsp;(</span><span style="color: #0000BB">$haystack</span><span style="color: #DD0000">)&nbsp;at&nbsp;position&nbsp;(</span><span style="color: #0000BB">$pos</span><span style="color: #DD0000">)"</span><span style="color: #007700">;<br />}<br /></span><span style="color: #0000BB">?&gt;</span></pre>
 
-    <div><p>The above example will output:</p></div>
+    <div>The above example will output:</div>
 <pre>
    Congratulations!
    We found the last (aB) in (ababcd) at position (2)

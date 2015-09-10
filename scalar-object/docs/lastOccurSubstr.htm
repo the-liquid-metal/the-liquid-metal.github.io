@@ -13,12 +13,12 @@
   <p>
    <dl>
      <dt><code>haystack</code></dt>
-     <dd><p>The string to search in</p></dd>
+     <dd>The string to search in</dd>
 
      <dt><code>needle</code></dt>
      <dd><p>If <code>needle</code> contains more than one character,
        only the first is used. This behavior is different from that of
-       <span><a href="function.strstr.php">strstr()</a></span>.
+       <a href="function.strstr.php">strstr()</a>.
       </p>
       <p>
        If <code>needle</code> is not a string, it is converted to
@@ -38,14 +38,11 @@
  <div class="examples">
   <p>
    <div>
-    <p><strong>Example #1 <span><strong>lastOccurSubstr()</strong></span> example</strong></p>
+    <p><strong>Example #1 lastOccurSubstr() example</strong></p>
     <pre><span style="color: #0000BB">&lt;?php<br /></span><span style="color: #FF8000">//&nbsp;get&nbsp;last&nbsp;directory&nbsp;in&nbsp;$PATH<br /></span><span style="color: #0000BB">$dir&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #0000BB">substr</span><span style="color: #007700">(</span><span style="color: #0000BB">lastOccurSubstr</span><span style="color: #007700">(</span><span style="color: #0000BB">$PATH</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">":"</span><span style="color: #007700">),&nbsp;</span><span style="color: #0000BB">1</span><span style="color: #007700">);<br /><br /></span><span style="color: #FF8000">//&nbsp;get&nbsp;everything&nbsp;after&nbsp;last&nbsp;newline<br /></span><span style="color: #0000BB">$text&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #DD0000">"Line&nbsp;1\nLine&nbsp;2\nLine&nbsp;3"</span><span style="color: #007700">;<br /></span><span style="color: #0000BB">$last&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #0000BB">substr</span><span style="color: #007700">(</span><span style="color: #0000BB">lastOccurSubstr</span><span style="color: #007700">(</span><span style="color: #0000BB">$text</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">10</span><span style="color: #007700">),&nbsp;</span><span style="color: #0000BB">1&nbsp;</span><span style="color: #007700">);<br /></span><span style="color: #0000BB">?&gt;</span></pre>
 
    </div>   
   </p>
  </div>
 
- <div>
-  <blockquote><p><strong>Note</strong>: <span>This function is
-binary-safe.</span></p></blockquote>
- </div>
+  <blockquote><strong>Note</strong>:This function is binary-safe.</blockquote>

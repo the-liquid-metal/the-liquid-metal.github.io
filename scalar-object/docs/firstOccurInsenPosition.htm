@@ -6,7 +6,7 @@
    <code>needle</code> in the <code>haystack</code> string.
   </p>
   <p>
-   Unlike the <span><a href="function.strpos.php">strpos()</a></span>, <span><strong>firstOccurInsenPosition()</strong></span> is
+   Unlike the <a href="function.strpos.php">strpos()</a>, <strong>firstOccurInsenPosition()</strong> is
    case-insensitive.
   </p>
  </div>
@@ -16,20 +16,18 @@
   <p>
    <dl>
      <dt><code>haystack</code></dt>
-     <dd><p>The string to search in.</p></dd>
+     <dd>The string to search in.</dd>
 
      <dt><code>needle</code></dt>
-     <dd><p>Note that the <code>needle</code> may be a string of one or
-       more characters.
-      </p>
+     <dd><p>Note that the <code>needle</code> may be a string of one or more characters.</p>
       <p>
        If <code>needle</code> is not a string, it is converted to
        an integer and applied as the ordinal value of a character.</p></dd>
 
      <dt><code>offset</code></dt>
-     <dd><p>If specified, search will start this number of characters counted from
-       the beginning of the string. Unlike <span><a href="function.strrpos.php">strrpos()</a></span> and
-       <span><a href="function.strripos.php">strripos()</a></span>, the offset cannot be negative.</p></dd>
+     <dd>If specified, search will start this number of characters counted from
+       the beginning of the string. Unlike <a href="function.strrpos.php">strrpos()</a> and
+       <a href="function.strripos.php">strripos()</a>, the offset cannot be negative.</dd>
    </dl>
   </p>
  </div>
@@ -55,14 +53,11 @@ function.</p></div>
  <div class="examples">
   <p>
    <div>
-   <p><strong>Example #1 <span><strong>firstOccurInsenPosition()</strong></span> examples</strong></p>
+   <p><strong>Example #1 firstOccurInsenPosition() examples</strong></p>
     <pre><span style="color: #0000BB">&lt;?php<br />$findme&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #DD0000">'a'</span><span style="color: #007700">;<br /></span><span style="color: #0000BB">$mystring1&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #DD0000">'xyz'</span><span style="color: #007700">;<br /></span><span style="color: #0000BB">$mystring2&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #DD0000">'ABC'</span><span style="color: #007700">;<br /><br /></span><span style="color: #0000BB">$pos1&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #0000BB">firstOccurInsenPosition</span><span style="color: #007700">(</span><span style="color: #0000BB">$mystring1</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">$findme</span><span style="color: #007700">);<br /></span><span style="color: #0000BB">$pos2&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #0000BB">firstOccurInsenPosition</span><span style="color: #007700">(</span><span style="color: #0000BB">$mystring2</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">$findme</span><span style="color: #007700">);<br /><br /></span><span style="color: #FF8000">//&nbsp;Nope,&nbsp;'a'&nbsp;is&nbsp;certainly&nbsp;not&nbsp;in&nbsp;'xyz'<br /></span><span style="color: #007700">if&nbsp;(</span><span style="color: #0000BB">$pos1&nbsp;</span><span style="color: #007700">===&nbsp;</span><span style="color: #0000BB">false</span><span style="color: #007700">)&nbsp;{<br />&nbsp;&nbsp;&nbsp;&nbsp;echo&nbsp;</span><span style="color: #DD0000">"The&nbsp;string&nbsp;'</span><span style="color: #0000BB">$findme</span><span style="color: #DD0000">'&nbsp;was&nbsp;not&nbsp;found&nbsp;in&nbsp;the&nbsp;string&nbsp;'</span><span style="color: #0000BB">$mystring1</span><span style="color: #DD0000">'"</span><span style="color: #007700">;<br />}<br /><br /></span><span style="color: #FF8000">//&nbsp;Note&nbsp;our&nbsp;use&nbsp;of&nbsp;===.&nbsp;&nbsp;Simply&nbsp;==&nbsp;would&nbsp;not&nbsp;work&nbsp;as&nbsp;expected<br />//&nbsp;because&nbsp;the&nbsp;position&nbsp;of&nbsp;'a'&nbsp;is&nbsp;the&nbsp;0th&nbsp;(first)&nbsp;character.<br /></span><span style="color: #007700">if&nbsp;(</span><span style="color: #0000BB">$pos2&nbsp;</span><span style="color: #007700">!==&nbsp;</span><span style="color: #0000BB">false</span><span style="color: #007700">)&nbsp;{<br />&nbsp;&nbsp;&nbsp;&nbsp;echo&nbsp;</span><span style="color: #DD0000">"We&nbsp;found&nbsp;'</span><span style="color: #0000BB">$findme</span><span style="color: #DD0000">'&nbsp;in&nbsp;'</span><span style="color: #0000BB">$mystring2</span><span style="color: #DD0000">'&nbsp;at&nbsp;position&nbsp;</span><span style="color: #0000BB">$pos2</span><span style="color: #DD0000">"</span><span style="color: #007700">;<br />}<br /></span><span style="color: #0000BB">?&gt;</span></pre>
 
    </div>
   </p>
  </div>
 
- <div>
-  <blockquote><p><strong>Note</strong>: <span>This function is
-binary-safe.</span></p></blockquote>
- </div>
+  <blockquote><strong>Note</strong>:This function is binary-safe.</blockquote>

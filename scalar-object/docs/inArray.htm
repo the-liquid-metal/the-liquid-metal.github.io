@@ -11,24 +11,21 @@
   <p>
    <dl>
      <dt><code>needle</code></dt>
-     <dd><p>The searched value.
-      </p>
-      <blockquote><p><strong>Note</strong>: 
-       <p>
+     <dd><p>The searched value.</p>
+      <blockquote><strong>Note</strong>:
         If <code>needle</code> is a string, the comparison is done
         in a case-sensitive manner.
-       </p>
-      </p></blockquote>
+       </blockquote>
      </dd>
 
      <dt><code>haystack</code></dt>
-     <dd><p>The array.</p></dd>
+     <dd>The array.</dd>
 
      <dt><code>strict</code></dt>
-     <dd><p>If the third parameter <code>strict</code> is set to <strong><code>TRUE</code></strong>
-       then the <span><strong>inArray()</strong></span> function will also check the
+     <dd>If the third parameter <code>strict</code> is set to <strong><code>TRUE</code></strong>
+       then the <strong>inArray()</strong> function will also check the
        <a href="language.types.php">types</a> of the
-       <code>needle</code> in the <code>haystack</code>.</p></dd>
+       <code>needle</code> in the <code>haystack</code>.</dd>
    </dl>
   </p>
  </div>
@@ -44,11 +41,11 @@
  <div class="examples">
   <p>
    <div>
-    <p><strong>Example #1 <span><strong>inArray()</strong></span> example</strong></p>
+    <p><strong>Example #1 inArray() example</strong></p>
     <pre><span style="color: #0000BB">&lt;?php<br />$os&nbsp;</span><span style="color: #007700">=&nbsp;array(</span><span style="color: #DD0000">"Mac"</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">"NT"</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">"Irix"</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">"Linux"</span><span style="color: #007700">);<br />if&nbsp;(</span><span style="color: #0000BB">inArray</span><span style="color: #007700">(</span><span style="color: #DD0000">"Irix"</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">$os</span><span style="color: #007700">))&nbsp;{<br />&nbsp;&nbsp;&nbsp;&nbsp;echo&nbsp;</span><span style="color: #DD0000">"Got&nbsp;Irix"</span><span style="color: #007700">;<br />}<br />if&nbsp;(</span><span style="color: #0000BB">inArray</span><span style="color: #007700">(</span><span style="color: #DD0000">"mac"</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">$os</span><span style="color: #007700">))&nbsp;{<br />&nbsp;&nbsp;&nbsp;&nbsp;echo&nbsp;</span><span style="color: #DD0000">"Got&nbsp;mac"</span><span style="color: #007700">;<br />}<br /></span><span style="color: #0000BB">?&gt;</span></pre>
 
     <div><p>
-     The second condition fails because <span><strong>inArray()</strong></span>
+     The second condition fails because <strong>inArray()</strong>
      is case-sensitive, so the program above will display:
     </p></div>
 <pre>
@@ -58,10 +55,10 @@ Got Irix
   </p>
   <p>
    <div>
-    <p><strong>Example #2 <span><strong>inArray()</strong></span> with strict example</strong></p>
+    <p><strong>Example #2 inArray() with strict example</strong></p>
     <pre><span style="color: #0000BB">&lt;?php<br />$a&nbsp;</span><span style="color: #007700">=&nbsp;array(</span><span style="color: #DD0000">'1.10'</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">12.4</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">1.13</span><span style="color: #007700">);<br /><br />if&nbsp;(</span><span style="color: #0000BB">inArray</span><span style="color: #007700">(</span><span style="color: #DD0000">'12.4'</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">$a</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">true</span><span style="color: #007700">))&nbsp;{<br />&nbsp;&nbsp;&nbsp;&nbsp;echo&nbsp;</span><span style="color: #DD0000">"'12.4'&nbsp;found&nbsp;with&nbsp;strict&nbsp;check\n"</span><span style="color: #007700">;<br />}<br /><br />if&nbsp;(</span><span style="color: #0000BB">inArray</span><span style="color: #007700">(</span><span style="color: #0000BB">1.13</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">$a</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">true</span><span style="color: #007700">))&nbsp;{<br />&nbsp;&nbsp;&nbsp;&nbsp;echo&nbsp;</span><span style="color: #DD0000">"1.13&nbsp;found&nbsp;with&nbsp;strict&nbsp;check\n"</span><span style="color: #007700">;<br />}<br /></span><span style="color: #0000BB">?&gt;</span></pre>
 
-    <div><p>The above example will output:</p></div>
+    <div>The above example will output:</div>
 <pre>
 1.13 found with strict check
 </pre>
@@ -69,10 +66,10 @@ Got Irix
   </p>
   <p>
    <div>
-    <p><strong>Example #3 <span><strong>inArray()</strong></span> with an array as needle</strong></p>
+    <p><strong>Example #3 inArray() with an array as needle</strong></p>
     <pre><span style="color: #0000BB">&lt;?php<br />$a&nbsp;</span><span style="color: #007700">=&nbsp;array(array(</span><span style="color: #DD0000">'p'</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">'h'</span><span style="color: #007700">),&nbsp;array(</span><span style="color: #DD0000">'p'</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">'r'</span><span style="color: #007700">),&nbsp;</span><span style="color: #DD0000">'o'</span><span style="color: #007700">);<br /><br />if&nbsp;(</span><span style="color: #0000BB">inArray</span><span style="color: #007700">(array(</span><span style="color: #DD0000">'p'</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">'h'</span><span style="color: #007700">),&nbsp;</span><span style="color: #0000BB">$a</span><span style="color: #007700">))&nbsp;{<br />&nbsp;&nbsp;&nbsp;&nbsp;echo&nbsp;</span><span style="color: #DD0000">"'ph'&nbsp;was&nbsp;found\n"</span><span style="color: #007700">;<br />}<br /><br />if&nbsp;(</span><span style="color: #0000BB">inArray</span><span style="color: #007700">(array(</span><span style="color: #DD0000">'f'</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">'i'</span><span style="color: #007700">),&nbsp;</span><span style="color: #0000BB">$a</span><span style="color: #007700">))&nbsp;{<br />&nbsp;&nbsp;&nbsp;&nbsp;echo&nbsp;</span><span style="color: #DD0000">"'fi'&nbsp;was&nbsp;found\n"</span><span style="color: #007700">;<br />}<br /><br />if&nbsp;(</span><span style="color: #0000BB">inArray</span><span style="color: #007700">(</span><span style="color: #DD0000">'o'</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">$a</span><span style="color: #007700">))&nbsp;{<br />&nbsp;&nbsp;&nbsp;&nbsp;echo&nbsp;</span><span style="color: #DD0000">"'o'&nbsp;was&nbsp;found\n"</span><span style="color: #007700">;<br />}<br /></span><span style="color: #0000BB">?&gt;</span></pre>
 
-    <div><p>The above example will output:</p></div>
+    <div>The above example will output:</div>
 <pre>
   &#039;ph&#039; was found
   &#039;o&#039; was found

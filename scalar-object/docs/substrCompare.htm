@@ -2,7 +2,7 @@
 
  <div>
   <p>
-   <span><strong>substrCompare()</strong></span> compares <code>main_str</code>
+   <strong>substrCompare()</strong> compares <code>main_str</code>
    from position <code>offset</code> with <code>str</code>
    up to <code>length</code> characters.
   </p>
@@ -13,24 +13,24 @@
   <p>
    <dl>
      <dt><code>main_str</code></dt>
-     <dd><p>The main string being compared.</p></dd>
+     <dd>The main string being compared.</dd>
 
      <dt><code>str</code></dt>
-     <dd><p>The secondary string being compared.</p></dd>
+     <dd>The secondary string being compared.</dd>
 
      <dt><code>offset</code></dt>
-     <dd><p>The start position for the comparison. If negative, it starts counting
-       from the end of the string.</p></dd>
+     <dd>The start position for the comparison. If negative, it starts counting
+       from the end of the string.</dd>
 
      <dt><code>length</code></dt>
-     <dd><p>The length of the comparison. The default value is the largest of the
+     <dd>The length of the comparison. The default value is the largest of the
        length of the <code>str</code> compared to the length of
        <code>main_str</code> less the
-       <code>offset</code>.</p></dd>
+       <code>offset</code>.</dd>
 
      <dt><code>case_insensitivity</code></dt>
-     <dd><p>If <code>case_insensitivity</code> is <strong><code>TRUE</code></strong>, comparison is
-       case insensitive.</p></dd>
+     <dd>If <code>case_insensitivity</code> is <strong><code>TRUE</code></strong>, comparison is
+       case insensitive.</dd>
    </dl>
   </p>
  </div>
@@ -44,7 +44,7 @@
    If <code>offset</code> is equal to or greater than the length of
    <code>main_str</code>, or the <code>length</code> is
    set and is less than 1 (prior to PHP 5.6),
-   <span><strong>substrCompare()</strong></span> prints a warning and returns
+   <strong>substrCompare()</strong> prints a warning and returns
    <strong><code>FALSE</code></strong>.
   </p>
  </div>
@@ -52,7 +52,7 @@
  <div class="examples">
   <p>
    <div>
-    <p><strong>Example #1 A <span><strong>substrCompare()</strong></span> example</strong></p>
+    <p><strong>Example #1 A substrCompare() example</strong></p>
     <pre><span style="color: #0000BB">&lt;?php<br /></span><span style="color: #007700">echo&nbsp;</span><span style="color: #0000BB">substrCompare</span><span style="color: #007700">(</span><span style="color: #DD0000">"abcde"</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">"bc"</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">1</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">2</span><span style="color: #007700">);&nbsp;</span><span style="color: #FF8000">//&nbsp;0<br /></span><span style="color: #007700">echo&nbsp;</span><span style="color: #0000BB">substrCompare</span><span style="color: #007700">(</span><span style="color: #DD0000">"abcde"</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">"de"</span><span style="color: #007700">,&nbsp;-</span><span style="color: #0000BB">2</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">2</span><span style="color: #007700">);&nbsp;</span><span style="color: #FF8000">//&nbsp;0<br /></span><span style="color: #007700">echo&nbsp;</span><span style="color: #0000BB">substrCompare</span><span style="color: #007700">(</span><span style="color: #DD0000">"abcde"</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">"bcg"</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">1</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">2</span><span style="color: #007700">);&nbsp;</span><span style="color: #FF8000">//&nbsp;0<br /></span><span style="color: #007700">echo&nbsp;</span><span style="color: #0000BB">substrCompare</span><span style="color: #007700">(</span><span style="color: #DD0000">"abcde"</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">"BC"</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">1</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">2</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">true</span><span style="color: #007700">);&nbsp;</span><span style="color: #FF8000">//&nbsp;0<br /></span><span style="color: #007700">echo&nbsp;</span><span style="color: #0000BB">substrCompare</span><span style="color: #007700">(</span><span style="color: #DD0000">"abcde"</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">"bc"</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">1</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">3</span><span style="color: #007700">);&nbsp;</span><span style="color: #FF8000">//&nbsp;1<br /></span><span style="color: #007700">echo&nbsp;</span><span style="color: #0000BB">substrCompare</span><span style="color: #007700">(</span><span style="color: #DD0000">"abcde"</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">"cd"</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">1</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">2</span><span style="color: #007700">);&nbsp;</span><span style="color: #FF8000">//&nbsp;-1<br /></span><span style="color: #007700">echo&nbsp;</span><span style="color: #0000BB">substrCompare</span><span style="color: #007700">(</span><span style="color: #DD0000">"abcde"</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">"abc"</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">5</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">1</span><span style="color: #007700">);&nbsp;</span><span style="color: #FF8000">//&nbsp;warning<br /></span><span style="color: #0000BB">?&gt;</span></pre>
 
    </div>

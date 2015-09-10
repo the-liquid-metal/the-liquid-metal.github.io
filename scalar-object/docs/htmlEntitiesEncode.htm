@@ -2,13 +2,13 @@
 
  <div>
   <p>
-   This function is identical to <span><a href="function.htmlspecialchars.php">htmlspecialchars()</a></span> in all
-   ways, except with <span><strong>htmlEntitiesEncode()</strong></span>, all characters which
+   This function is identical to <a href="function.htmlspecialchars.php">htmlspecialchars()</a> in all
+   ways, except with <strong>htmlEntitiesEncode()</strong>, all characters which
    have HTML character entity equivalents are translated into these entities.
   </p>
   <p>
    If you want to decode instead (the reverse) you can use
-   <span><a href="function.html-entity-decode.php">html_entity_decode()</a></span>.
+   <a href="function.html-entity-decode.php">html_entity_decode()</a>.
   </p>
  </div>
 
@@ -17,7 +17,7 @@
   <p>
    <dl>
      <dt><code>string</code></dt>
-     <dd><p>The input string.</p></dd>
+     <dd>The input string.</dd>
 
      <dt><code>flags</code></dt>
      <dd><p>A bitmask of one or more of the following flags, which specify how to handle quotes,
@@ -113,7 +113,6 @@
 
      <dt><code>encoding</code></dt>
      <dd>
-
  <p>
   An optional argument defining the encoding used when converting characters.
  </p>
@@ -268,8 +267,8 @@
      <td>
       An empty string activates detection from script encoding (Zend multibyte),
       <a href="ini.core.php#ini.default-charset">default_charset</a> and current
-      locale (see <span><a href="function.nl-langinfo.php">nl_langinfo()</a></span> and
-      <span><a href="function.setlocale.php">setlocale()</a></span>), in this order. Not recommended.
+      locale (see <a href="function.nl-langinfo.php">nl_langinfo()</a> and
+      <a href="function.setlocale.php">setlocale()</a>), in this order. Not recommended.
      </td>
     </tr>
 
@@ -277,12 +276,10 @@
 
  </table>
 
- <blockquote><p><strong>Note</strong>: 
-  <span>
+ <blockquote><strong>Note</strong>:
    Any other character sets are not recognized. The default encoding will be
    used instead and a warning will be emitted.
-  </span>
- </p></blockquote>
+  </blockquote>
 </p>
 
      </dd>
@@ -310,7 +307,7 @@
  <div class="examples">
   <p>
    <div>
-    <p><strong>Example #1 A <span><strong>htmlEntitiesEncode()</strong></span> example</strong></p>
+    <p><strong>Example #1 A htmlEntitiesEncode() example</strong></p>
     <pre><span style="color: #0000BB">&lt;?php<br />$str&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #DD0000">"A&nbsp;'quote'&nbsp;is&nbsp;&lt;b&gt;bold&lt;/b&gt;"</span><span style="color: #007700">;<br /><br /></span><span style="color: #FF8000">//&nbsp;Outputs:&nbsp;A&nbsp;'quote'&nbsp;is&nbsp;&amp;lt;b&amp;gt;bold&amp;lt;/b&amp;gt;<br /></span><span style="color: #007700">echo&nbsp;</span><span style="color: #0000BB">htmlEntitiesEncode</span><span style="color: #007700">(</span><span style="color: #0000BB">$str</span><span style="color: #007700">);<br /><br /></span><span style="color: #FF8000">//&nbsp;Outputs:&nbsp;A&nbsp;&amp;#039;quote&amp;#039;&nbsp;is&nbsp;&amp;lt;b&amp;gt;bold&amp;lt;/b&amp;gt;<br /></span><span style="color: #007700">echo&nbsp;</span><span style="color: #0000BB">htmlEntitiesEncode</span><span style="color: #007700">(</span><span style="color: #0000BB">$str</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">ENT_QUOTES</span><span style="color: #007700">);<br /></span><span style="color: #0000BB">?&gt;</span></pre>
 
    </div>

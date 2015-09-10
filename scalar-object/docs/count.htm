@@ -6,10 +6,10 @@
   <p>
    For objects, if you have
    <a href="ref.spl.php">SPL</a> installed, you can hook into
-   <span><strong>count()</strong></span> by implementing interface
+   <strong>count()</strong> by implementing interface
    <a href="class.countable.php">Countable</a>. The interface has exactly one method,
-   <span><a href="countable.count.php">Countable::count()</a></span>, which returns the return value for the
-   <span><strong>count()</strong></span> function.
+   <a href="countable.count.php">Countable::count()</a>, which returns the return value for the
+   <strong>count()</strong> function.
   </p>
   <p>
    Please see the <a href="language.types.array.php">Array</a>
@@ -23,17 +23,17 @@
   <p>
    <dl>
      <dt><code>array_or_countable</code></dt>
-     <dd><p>An array or <a href="class.countable.php">Countable</a> object.</p></dd>
+     <dd>An array or <a href="class.countable.php">Countable</a> object.</dd>
 
      <dt><code>mode</code></dt>
      <dd><p>If the optional <code>mode</code> parameter is set to
-       <strong><code>COUNT_RECURSIVE</code></strong> (or 1), <span><strong>count()</strong></span>
+       <strong><code>COUNT_RECURSIVE</code></strong> (or 1), <strong>count()</strong>
        will recursively count the array.  This is particularly useful for
        counting all the elements of a multidimensional array.
       </p>
       <div class="caution"><strong>Caution</strong>
        <p>
-        <span><strong>count()</strong></span> can detect recursion to avoid an infinite
+        <strong>count()</strong> can detect recursion to avoid an infinite
         loop, but will emit an <strong><code>E_WARNING</code></strong> every time it
         does (in case the array contains itself more than once) and return a
         count higher than may be expected.
@@ -56,9 +56,9 @@
   </p>
   <div class="caution"><strong>Caution</strong>
    <p>
-    <span><strong>count()</strong></span> may return 0 for a variable that isn&#039;t set,
+    <strong>count()</strong> may return 0 for a variable that isn&#039;t set,
     but it may also return 0 for a variable that has been initialized with an
-    empty array. Use <span><a href="function.isset.php">isset()</a></span> to test if a variable is set.
+    empty array. Use <a href="function.isset.php">isset()</a> to test if a variable is set.
    </p>
   </div>
  </div>
@@ -66,14 +66,14 @@
  <div class="examples">
   <p>
    <div>
-    <p><strong>Example #1 <span><strong>count()</strong></span> example</strong></p>
+    <p><strong>Example #1 count() example</strong></p>
     <pre><span style="color: #0000BB">&lt;?php<br />$a</span><span style="color: #007700">[</span><span style="color: #0000BB">0</span><span style="color: #007700">]&nbsp;=&nbsp;</span><span style="color: #0000BB">1</span><span style="color: #007700">;<br /></span><span style="color: #0000BB">$a</span><span style="color: #007700">[</span><span style="color: #0000BB">1</span><span style="color: #007700">]&nbsp;=&nbsp;</span><span style="color: #0000BB">3</span><span style="color: #007700">;<br /></span><span style="color: #0000BB">$a</span><span style="color: #007700">[</span><span style="color: #0000BB">2</span><span style="color: #007700">]&nbsp;=&nbsp;</span><span style="color: #0000BB">5</span><span style="color: #007700">;<br /></span><span style="color: #0000BB">$result&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #0000BB">count</span><span style="color: #007700">(</span><span style="color: #0000BB">$a</span><span style="color: #007700">);<br /></span><span style="color: #FF8000">//&nbsp;$result&nbsp;==&nbsp;3<br /><br /></span><span style="color: #0000BB">$b</span><span style="color: #007700">[</span><span style="color: #0000BB">0</span><span style="color: #007700">]&nbsp;&nbsp;=&nbsp;</span><span style="color: #0000BB">7</span><span style="color: #007700">;<br /></span><span style="color: #0000BB">$b</span><span style="color: #007700">[</span><span style="color: #0000BB">5</span><span style="color: #007700">]&nbsp;&nbsp;=&nbsp;</span><span style="color: #0000BB">9</span><span style="color: #007700">;<br /></span><span style="color: #0000BB">$b</span><span style="color: #007700">[</span><span style="color: #0000BB">10</span><span style="color: #007700">]&nbsp;=&nbsp;</span><span style="color: #0000BB">11</span><span style="color: #007700">;<br /></span><span style="color: #0000BB">$result&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #0000BB">count</span><span style="color: #007700">(</span><span style="color: #0000BB">$b</span><span style="color: #007700">);<br /></span><span style="color: #FF8000">//&nbsp;$result&nbsp;==&nbsp;3<br /><br /></span><span style="color: #0000BB">$result&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #0000BB">count</span><span style="color: #007700">(</span><span style="color: #0000BB">null</span><span style="color: #007700">);<br /></span><span style="color: #FF8000">//&nbsp;$result&nbsp;==&nbsp;0<br /><br /></span><span style="color: #0000BB">$result&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #0000BB">count</span><span style="color: #007700">(</span><span style="color: #0000BB">false</span><span style="color: #007700">);<br /></span><span style="color: #FF8000">//&nbsp;$result&nbsp;==&nbsp;1<br /></span><span style="color: #0000BB">?&gt;</span></pre>
 
    </div>
   </p>
   <p>
    <div>
-    <p><strong>Example #2 Recursive <span><strong>count()</strong></span> example</strong></p>
+    <p><strong>Example #2 Recursive count() example</strong></p>
     <pre><span style="color: #0000BB">&lt;?php<br />$food&nbsp;</span><span style="color: #007700">=&nbsp;array(</span><span style="color: #DD0000">'fruits'&nbsp;</span><span style="color: #007700">=&gt;&nbsp;array(</span><span style="color: #DD0000">'orange'</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">'banana'</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">'apple'</span><span style="color: #007700">),<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #DD0000">'veggie'&nbsp;</span><span style="color: #007700">=&gt;&nbsp;array(</span><span style="color: #DD0000">'carrot'</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">'collard'</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">'pea'</span><span style="color: #007700">));<br /><br /></span><span style="color: #FF8000">//&nbsp;recursive&nbsp;count<br /></span><span style="color: #007700">echo&nbsp;</span><span style="color: #0000BB">count</span><span style="color: #007700">(</span><span style="color: #0000BB">$food</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">COUNT_RECURSIVE</span><span style="color: #007700">);&nbsp;</span><span style="color: #FF8000">//&nbsp;output&nbsp;8<br /><br />//&nbsp;normal&nbsp;count<br /></span><span style="color: #007700">echo&nbsp;</span><span style="color: #0000BB">count</span><span style="color: #007700">(</span><span style="color: #0000BB">$food</span><span style="color: #007700">);&nbsp;</span><span style="color: #FF8000">//&nbsp;output&nbsp;2<br /><br /></span><span style="color: #0000BB">?&gt;</span></pre>
 
    </div>

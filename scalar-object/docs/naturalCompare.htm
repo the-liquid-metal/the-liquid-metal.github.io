@@ -14,10 +14,10 @@
   <p>
    <dl>
      <dt><code>str1</code></dt>
-     <dd><p>The first string.</p></dd>
+     <dd>The first string.</dd>
 
      <dt><code>str2</code></dt>
-     <dd><p>The second string.</p></dd>
+     <dd>The second string.</dd>
    </dl>
   </p>
  </div>
@@ -35,7 +35,7 @@
  <div class="examples">
   <p>
    An example of the difference between this algorithm and the regular
-   computer string sorting algorithms (used in <span><a href="function.strcmp.php">strcmp()</a></span>)
+   computer string sorting algorithms (used in <a href="function.strcmp.php">strcmp()</a>)
    can be seen below:
    <div>
     <pre><span style="color: #0000BB">&lt;?php<br />$arr1&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #0000BB">$arr2&nbsp;</span><span style="color: #007700">=&nbsp;array(</span><span style="color: #DD0000">"img12.png"</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">"img10.png"</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">"img2.png"</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">"img1.png"</span><span style="color: #007700">);<br />echo&nbsp;</span><span style="color: #DD0000">"Standard&nbsp;string&nbsp;comparison\n"</span><span style="color: #007700">;<br /></span><span style="color: #0000BB">usort</span><span style="color: #007700">(</span><span style="color: #0000BB">$arr1</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">"strcmp"</span><span style="color: #007700">);<br /></span><span style="color: #0000BB">print_r</span><span style="color: #007700">(</span><span style="color: #0000BB">$arr1</span><span style="color: #007700">);<br />echo&nbsp;</span><span style="color: #DD0000">"\nNatural&nbsp;order&nbsp;string&nbsp;comparison\n"</span><span style="color: #007700">;<br /></span><span style="color: #0000BB">usort</span><span style="color: #007700">(</span><span style="color: #0000BB">$arr2</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">"naturalCompare"</span><span style="color: #007700">);<br /></span><span style="color: #0000BB">print_r</span><span style="color: #007700">(</span><span style="color: #0000BB">$arr2</span><span style="color: #007700">);<br /></span><span style="color: #0000BB">?&gt;</span></pre>

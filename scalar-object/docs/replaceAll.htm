@@ -8,7 +8,7 @@
   </p>
   <p>
    If you don&#039;t need fancy replacing rules (like regular expressions), you
-   should always use this function instead of <span><a href="function.preg-replace.php">preg_replace()</a></span>.
+   should always use this function instead of <a href="function.preg-replace.php">preg_replace()</a>.
   </p>
  </div>
 
@@ -16,7 +16,7 @@
   <h3>Parameters</h3>
   <p>
    If <code>search</code> and <code>replace</code> are
-   arrays, then <span><strong>replaceAll()</strong></span> takes a value from each array
+   arrays, then <strong>replaceAll()</strong> takes a value from each array
    and uses them to search and replace on <code>subject</code>. If
    <code>replace</code> has fewer values than
    <code>search</code>, then an empty string is used for the rest of
@@ -32,17 +32,16 @@
   <p>
    <dl>
      <dt><code>search</code></dt>
-     <dd><p>The value being searched for, otherwise known as the <em>needle</em>.
-       An array may be used to designate multiple needles.</p></dd>
+     <dd>The value being searched for, otherwise known as the <em>needle</em>.
+       An array may be used to designate multiple needles.</dd>
 
      <dt><code>replace</code></dt>
-     <dd><p>The replacement value that replaces found <code>search</code>
-       values. An array may be used to designate multiple replacements.</p></dd>
+     <dd>The replacement value that replaces found <code>search</code>
+       values. An array may be used to designate multiple replacements.</dd>
 
      <dt><code>subject</code></dt>
      <dd><p>The string or array being searched and replaced on,
-       otherwise known as the <em>haystack</em>.
-      </p>
+       otherwise known as the <em>haystack</em>.</p>
       <p>
        If <code>subject</code> is an array, then the search and
        replace is performed with every entry of
@@ -50,7 +49,7 @@
        well.</p></dd>
 
      <dt><code>count</code></dt>
-     <dd><p>If passed, this will be set to the number of replacements performed.</p></dd>
+     <dd>If passed, this will be set to the number of replacements performed.</dd>
    </dl>
   </p>
  </div>
@@ -65,35 +64,30 @@
  <div class="examples">
   <p>
    <div>
-    <p><strong>Example #1 Basic <span><strong>replaceAll()</strong></span> examples</strong></p>
+    <p><strong>Example #1 Basic replaceAll() examples</strong></p>
     <pre><span style="color: #0000BB">&lt;?php<br /></span><span style="color: #FF8000">//&nbsp;Provides:&nbsp;&lt;body&nbsp;text='black'&gt;<br /></span><span style="color: #0000BB">$bodytag&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #0000BB">replaceAll</span><span style="color: #007700">(</span><span style="color: #DD0000">"%body%"</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">"black"</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">"&lt;body&nbsp;text='%body%'&gt;"</span><span style="color: #007700">);<br /><br /></span><span style="color: #FF8000">//&nbsp;Provides:&nbsp;Hll&nbsp;Wrld&nbsp;f&nbsp;PHP<br /></span><span style="color: #0000BB">$vowels&nbsp;</span><span style="color: #007700">=&nbsp;array(</span><span style="color: #DD0000">"a"</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">"e"</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">"i"</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">"o"</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">"u"</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">"A"</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">"E"</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">"I"</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">"O"</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">"U"</span><span style="color: #007700">);<br /></span><span style="color: #0000BB">$onlyconsonants&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #0000BB">replaceAll</span><span style="color: #007700">(</span><span style="color: #0000BB">$vowels</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">""</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">"Hello&nbsp;World&nbsp;of&nbsp;PHP"</span><span style="color: #007700">);<br /><br /></span><span style="color: #FF8000">//&nbsp;Provides:&nbsp;You&nbsp;should&nbsp;eat&nbsp;pizza,&nbsp;beer,&nbsp;and&nbsp;ice&nbsp;cream&nbsp;every&nbsp;day<br /></span><span style="color: #0000BB">$phrase&nbsp;&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #DD0000">"You&nbsp;should&nbsp;eat&nbsp;fruits,&nbsp;vegetables,&nbsp;and&nbsp;fiber&nbsp;every&nbsp;day."</span><span style="color: #007700">;<br /></span><span style="color: #0000BB">$healthy&nbsp;</span><span style="color: #007700">=&nbsp;array(</span><span style="color: #DD0000">"fruits"</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">"vegetables"</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">"fiber"</span><span style="color: #007700">);<br /></span><span style="color: #0000BB">$yummy&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">=&nbsp;array(</span><span style="color: #DD0000">"pizza"</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">"beer"</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">"ice&nbsp;cream"</span><span style="color: #007700">);<br /><br /></span><span style="color: #0000BB">$newphrase&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #0000BB">replaceAll</span><span style="color: #007700">(</span><span style="color: #0000BB">$healthy</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">$yummy</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">$phrase</span><span style="color: #007700">);<br /><br /></span><span style="color: #FF8000">//&nbsp;Provides:&nbsp;2<br /></span><span style="color: #0000BB">$str&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #0000BB">replaceAll</span><span style="color: #007700">(</span><span style="color: #DD0000">"ll"</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">""</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">"good&nbsp;golly&nbsp;miss&nbsp;molly!"</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">$count</span><span style="color: #007700">);<br />echo&nbsp;</span><span style="color: #0000BB">$count</span><span style="color: #007700">;<br /></span><span style="color: #0000BB">?&gt;</span></pre>
 
    </div>
   </p>
   <p>
    <div>
-    <p><strong>Example #2 Examples of potential <span><strong>replaceAll()</strong></span> gotchas</strong></p>
+    <p><strong>Example #2 Examples of potential replaceAll() gotchas</strong></p>
     <pre><span style="color: #0000BB">&lt;?php<br /></span><span style="color: #FF8000">//&nbsp;Order&nbsp;of&nbsp;replacement<br /></span><span style="color: #0000BB">$str&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #DD0000">"Line&nbsp;1\nLine&nbsp;2\rLine&nbsp;3\r\nLine&nbsp;4\n"</span><span style="color: #007700">;<br /></span><span style="color: #0000BB">$order&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">=&nbsp;array(</span><span style="color: #DD0000">"\r\n"</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">"\n"</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">"\r"</span><span style="color: #007700">);<br /></span><span style="color: #0000BB">$replace&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #DD0000">'&lt;br&nbsp;/&gt;'</span><span style="color: #007700">;<br /><br /></span><span style="color: #FF8000">//&nbsp;Processes&nbsp;\r\n's&nbsp;first&nbsp;so&nbsp;they&nbsp;aren't&nbsp;converted&nbsp;twice.<br /></span><span style="color: #0000BB">$newstr&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #0000BB">replaceAll</span><span style="color: #007700">(</span><span style="color: #0000BB">$order</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">$replace</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">$str</span><span style="color: #007700">);<br /><br /></span><span style="color: #FF8000">//&nbsp;Outputs&nbsp;F&nbsp;because&nbsp;A&nbsp;is&nbsp;replaced&nbsp;with&nbsp;B,&nbsp;then&nbsp;B&nbsp;is&nbsp;replaced&nbsp;with&nbsp;C,&nbsp;and&nbsp;so&nbsp;on...<br />//&nbsp;Finally&nbsp;E&nbsp;is&nbsp;replaced&nbsp;with&nbsp;F,&nbsp;because&nbsp;of&nbsp;left&nbsp;to&nbsp;right&nbsp;replacements.<br /></span><span style="color: #0000BB">$search&nbsp;&nbsp;</span><span style="color: #007700">=&nbsp;array(</span><span style="color: #DD0000">'A'</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">'B'</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">'C'</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">'D'</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">'E'</span><span style="color: #007700">);<br /></span><span style="color: #0000BB">$replace&nbsp;</span><span style="color: #007700">=&nbsp;array(</span><span style="color: #DD0000">'B'</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">'C'</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">'D'</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">'E'</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">'F'</span><span style="color: #007700">);<br /></span><span style="color: #0000BB">$subject&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #DD0000">'A'</span><span style="color: #007700">;<br />echo&nbsp;</span><span style="color: #0000BB">replaceAll</span><span style="color: #007700">(</span><span style="color: #0000BB">$search</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">$replace</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">$subject</span><span style="color: #007700">);<br /><br /></span><span style="color: #FF8000">//&nbsp;Outputs:&nbsp;apearpearle&nbsp;pear<br />//&nbsp;For&nbsp;the&nbsp;same&nbsp;reason&nbsp;mentioned&nbsp;above<br /></span><span style="color: #0000BB">$letters&nbsp;</span><span style="color: #007700">=&nbsp;array(</span><span style="color: #DD0000">'a'</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">'p'</span><span style="color: #007700">);<br /></span><span style="color: #0000BB">$fruit&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">=&nbsp;array(</span><span style="color: #DD0000">'apple'</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">'pear'</span><span style="color: #007700">);<br /></span><span style="color: #0000BB">$text&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #DD0000">'a&nbsp;p'</span><span style="color: #007700">;<br /></span><span style="color: #0000BB">$output&nbsp;&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #0000BB">replaceAll</span><span style="color: #007700">(</span><span style="color: #0000BB">$letters</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">$fruit</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">$text</span><span style="color: #007700">);<br />echo&nbsp;</span><span style="color: #0000BB">$output</span><span style="color: #007700">;<br /></span><span style="color: #0000BB">?&gt;</span></pre>
 
    </div>
   </p>
  </div>
 
- <div>
-  <blockquote><p><strong>Note</strong>: <span>This function is
-binary-safe.</span></p></blockquote>
+  <blockquote><strong>Note</strong>:This function is binary-safe.</blockquote>
   <div class="caution"><strong>Caution</strong><br />
    <strong>Replacement order gotcha</strong>
    <p>
-    Because <span><strong>replaceAll()</strong></span> replaces left to right, it might
+    Because <strong>replaceAll()</strong> replaces left to right, it might
     replace a previously inserted value when doing multiple replacements.
     See also the examples in this document.
    </p>
   </div>
-  <blockquote><p><strong>Note</strong>: 
-   <p>
-    This function is case-sensitive. Use <span><a href="function.str-ireplace.php">str_ireplace()</a></span>
+  <blockquote><strong>Note</strong>:
+    This function is case-sensitive. Use <a href="function.str-ireplace.php">str_ireplace()</a>
     for case-insensitive replace.
-   </p>
-  </p></blockquote>
- </div>
+   </blockquote>

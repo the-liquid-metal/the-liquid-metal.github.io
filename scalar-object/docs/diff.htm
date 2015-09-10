@@ -13,13 +13,13 @@
   <p>
    <dl>
      <dt><code>array1</code></dt>
-     <dd><p>The array to compare from</p></dd>
+     <dd>The array to compare from</dd>
 
      <dt><code>array2</code></dt>
-     <dd><p>An array to compare against</p></dd>
+     <dd>An array to compare against</dd>
 
      <dt><code>...</code></dt>
-     <dd><p>More arrays to compare against</p></dd>
+     <dd>More arrays to compare against</dd>
    </dl>
   </p>
  </div>
@@ -27,7 +27,7 @@
  <div>
   <h3>Return Values</h3>
   <p>
-   Returns an <span><a href="language.types.array.php">array</a></span> containing all the entries from
+   Returns an <a href="language.types.array.php">array</a> containing all the entries from
    <code>array1</code> that are not present in any of the other arrays.
   </p>
  </div>
@@ -35,7 +35,7 @@
  <div class="examples">
   <p>
    <div>
-    <p><strong>Example #1 <span><strong>diff()</strong></span> example</strong></p>
+    <p><strong>Example #1 diff() example</strong></p>
     <pre><span style="color: #0000BB">&lt;?php<br />$array1&nbsp;</span><span style="color: #007700">=&nbsp;array(</span><span style="color: #DD0000">"a"&nbsp;</span><span style="color: #007700">=&gt;&nbsp;</span><span style="color: #DD0000">"green"</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">"red"</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">"blue"</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">"red"</span><span style="color: #007700">);<br /></span><span style="color: #0000BB">$array2&nbsp;</span><span style="color: #007700">=&nbsp;array(</span><span style="color: #DD0000">"b"&nbsp;</span><span style="color: #007700">=&gt;&nbsp;</span><span style="color: #DD0000">"green"</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">"yellow"</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">"red"</span><span style="color: #007700">);<br /></span><span style="color: #0000BB">$result&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #0000BB">diff</span><span style="color: #007700">(</span><span style="color: #0000BB">$array1</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">$array2</span><span style="color: #007700">);<br /><br /></span><span style="color: #0000BB">print_r</span><span style="color: #007700">(</span><span style="color: #0000BB">$result</span><span style="color: #007700">);<br /></span><span style="color: #0000BB">?&gt;</span></pre>
 
     <div><p>
@@ -52,20 +52,13 @@ Array
   </p>
  </div>
 
- <div>
-  <blockquote><p><strong>Note</strong>: 
-   <p>
+  <blockquote><strong>Note</strong>:
     Two elements are considered equal if and only if
     <em>(string) $elem1 === (string) $elem2</em>. In words:
     when the string representation is the same.
-
-   </p>
-  </p></blockquote>
-  <blockquote><p><strong>Note</strong>: 
-   <p>
+   </blockquote>
+  <blockquote><strong>Note</strong>:
     This function only checks one dimension of a n-dimensional
     array. Of course you can check deeper dimensions by using
     <em>diff($array1[0], $array2[0]);</em>.
-   </p>
-  </p></blockquote>
- </div>
+   </blockquote>

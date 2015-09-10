@@ -8,20 +8,20 @@
    (<em>\</em>) and NUL (the <strong><code>NULL</code></strong> byte).
   </p>
   <p>
-   An example use of <span><strong>addSlashes()</strong></span> is when you&#039;re
+   An example use of <strong>addSlashes()</strong> is when you&#039;re
    entering data into string that is evaluated by PHP. For example,
    <em>O&#039;Reilly</em> is stored in $str, you need to escape
    $str. (e.g.  eval(&quot;echo &#039;&quot;.addSlashes($str).&quot;&#039;;&quot;); )
   </p>
   <p>
    To escape database parameters, DBMS specific escape function
-   (e.g. <span><a href="mysqli.real-escape-string.php">mysqli_real_escape_string()</a></span> for MySQL or
-   <span><a href="function.pg-escape-literal.php">pg_escape_literal()</a></span>, <span><a href="function.pg-escape-string.php">pg_escape_string()</a></span>
+   (e.g. <a href="mysqli.real-escape-string.php">mysqli_real_escape_string()</a> for MySQL or
+   <a href="function.pg-escape-literal.php">pg_escape_literal()</a>, <a href="function.pg-escape-string.php">pg_escape_string()</a>
    for PostgreSQL) should be used for security reasons.  DBMSes have
    differect escape specification for identifiers (e.g. Table name,
    field name) than parameters. Some DBMS such as PostgreSQL provides
    identifier escape
-   function, <span><a href="function.pg-escape-identifier.php">pg_escape_identifier()</a></span>, but not all
+   function, <a href="function.pg-escape-identifier.php">pg_escape_identifier()</a>, but not all
    DBMS provides identifier escape API. If this is the case, refer to
    your database system manual for proper escaping method.
   </p>
@@ -30,19 +30,19 @@
    uses <em>\</em> to escape special chars, you might be
    able to use this function only when this escape method is adequate for
    your database. Please note that use
-   of <span><strong>addSlashes()</strong></span> for database parameter escaping
+   of <strong>addSlashes()</strong> for database parameter escaping
    can be cause of security issues on most databases.
   </p>
   <p>
    The PHP directive <a href="info.configuration.php#ini.magic-quotes-gpc">
    magic_quotes_gpc</a> was <em>on</em> by default before
-   PHP 5.4, and it essentially ran <span><strong>addSlashes()</strong></span> on
+   PHP 5.4, and it essentially ran <strong>addSlashes()</strong> on
    all GET, POST, and COOKIE data.  Do not
-   use <span><strong>addSlashes()</strong></span> on strings that have already
+   use <strong>addSlashes()</strong> on strings that have already
    been escaped with
    <a href="info.configuration.php#ini.magic-quotes-gpc">magic_quotes_gpc</a> as you&#039;ll
    then do double escaping.  The function
-   <span><a href="function.get-magic-quotes-gpc.php">get_magic_quotes_gpc()</a></span> may come in handy for
+   <a href="function.get-magic-quotes-gpc.php">get_magic_quotes_gpc()</a> may come in handy for
    checking this.
   </p>
  </div>
@@ -52,7 +52,7 @@
   <p>
    <dl>
      <dt><code>str</code></dt>
-     <dd><p>The string to be escaped.</p></dd>
+     <dd>The string to be escaped.</dd>
    </dl>
   </p>
  </div>
@@ -67,7 +67,7 @@
  <div class="examples">
   <p>
    <div>
-    <p><strong>Example #1 An <span><strong>addSlashes()</strong></span> example</strong></p>
+    <p><strong>Example #1 An addSlashes() example</strong></p>
     <pre><span style="color: #0000BB">&lt;?php<br />$str&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #DD0000">"Is&nbsp;your&nbsp;name&nbsp;O'Reilly?"</span><span style="color: #007700">;<br /><br /></span><span style="color: #FF8000">//&nbsp;Outputs:&nbsp;Is&nbsp;your&nbsp;name&nbsp;O\'Reilly?<br /></span><span style="color: #007700">echo&nbsp;</span><span style="color: #0000BB">addSlashes</span><span style="color: #007700">(</span><span style="color: #0000BB">$str</span><span style="color: #007700">);<br /></span><span style="color: #0000BB">?&gt;</span></pre>
 
    </div>

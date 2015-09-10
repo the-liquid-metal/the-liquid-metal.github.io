@@ -1,15 +1,15 @@
 <h1>shift</h1>
  <div>
   <p>
-   <span><strong>shift()</strong></span> shifts the first value of the
+   <strong>shift()</strong> shifts the first value of the
    <code>array</code> off and returns it, shortening the
    <code>array</code> by one element and moving everything
    down. All numerical array keys will be modified to start counting from zero
    while literal keys won&#039;t be touched.
   </p>
-  <blockquote><p><strong>Note</strong>: <span>This function will
-<span><a href="function.reset.php">reset()</a></span> the <span><a href="language.types.array.php">array</a></span> pointer of the input array after
-use.</span></p></blockquote>
+  <blockquote><strong>Note</strong>:This function will
+   <a href="function.reset.php">reset()</a> the <a href="language.types.array.php">array</a> pointer of the input array after use.
+  </blockquote>
  </div>
 
  <div>
@@ -17,7 +17,7 @@ use.</span></p></blockquote>
   <p>
    <dl>
      <dt><code>array</code></dt>
-     <dd><p>The input array.</p></dd>
+     <dd>The input array.</dd>
    </dl>
   </p>
  </div>
@@ -33,10 +33,10 @@ use.</span></p></blockquote>
  <div class="examples">
   <p>
    <div>
-    <p><strong>Example #1 <span><strong>shift()</strong></span> example</strong></p>
+    <p><strong>Example #1 shift() example</strong></p>
     <pre><span style="color: #0000BB">&lt;?php<br />$stack&nbsp;</span><span style="color: #007700">=&nbsp;array(</span><span style="color: #DD0000">"orange"</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">"banana"</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">"apple"</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">"raspberry"</span><span style="color: #007700">);<br /></span><span style="color: #0000BB">$fruit&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #0000BB">shift</span><span style="color: #007700">(</span><span style="color: #0000BB">$stack</span><span style="color: #007700">);<br /></span><span style="color: #0000BB">print_r</span><span style="color: #007700">(</span><span style="color: #0000BB">$stack</span><span style="color: #007700">);<br /></span><span style="color: #0000BB">?&gt;</span></pre>
 
-    <div><p>The above example will output:</p></div>
+    <div>The above example will output:</div>
 <pre>
 Array
 (

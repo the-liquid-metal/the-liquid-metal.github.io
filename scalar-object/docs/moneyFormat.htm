@@ -2,9 +2,9 @@
 
  <div>
   <p>
-   <span><strong>moneyFormat()</strong></span> returns a formatted version of
+   <strong>moneyFormat()</strong> returns a formatted version of
    <code>number</code>.  This function wraps the C library
-   function <span><strong>strfmon()</strong></span>, with the difference that
+   function <strong>strfmon()</strong>, with the difference that
    this implementation converts only one number at a time.
   </p>
  </div>
@@ -14,7 +14,7 @@
   <p>
    <dl>
      <dt><code>format</code></dt>
-     <dd><p>The format specification consists of the following sequence:
+     <dd><p>The format specification consists of the following sequence:</p>
        <ul>
         <li><p>a <em>%</em> character</p></li>
         <li><p>optional flags</p></li>
@@ -23,19 +23,18 @@
         <li><p>optional right precision</p></li>
         <li><p>a required conversion character</p></li>
        </ul>
-      </p>
       <p>
        <h5>Flags</h5>
        <p>
        One or more of the optional flags below can be used:
         <dl>
           <dt>
-<em>=</em><span>f</span></dt>
+<em>=</em>f</dt>
           <dd>
 
            <p>
             The character <em>=</em> followed by a (single byte)
-            character <span>f</span> to be used as the numeric fill
+            character f to be used as the numeric fill
             character. The default fill character is space.
            </p>
           </dd>
@@ -93,7 +92,7 @@
        <p>
         <dl>
           <dt>
-<span>w</span></dt>
+w</dt>
           <dd>
 
            <p>
@@ -112,16 +111,16 @@
        <p>
         <dl>
           <dt>
-<em>#</em><span>n</span></dt>
+<em>#</em>n</dt>
           <dd>
 
            <p>
-            The maximum number of digits (<span>n</span>) expected
+            The maximum number of digits (n) expected
             to the left of the decimal character (e.g. the decimal point). It is
             used usually to keep formatted output aligned in the same columns,
             using the fill character if the number of digits is less than
-            <span>n</span>. If the number of actual digits is
-            bigger than <span>n</span>, then this specification is
+            n. If the number of actual digits is
+            bigger than n, then this specification is
             ignored.
            </p>
            <p>
@@ -149,13 +148,13 @@
        <p>
         <dl>
           <dt>
-<em>.</em><span>p</span></dt>
+<em>.</em>p</dt>
           <dd>
 
            <p>
             A period followed by the number of digits
-            (<span>p</span>) after the decimal character. If the
-            value of <span>p</span> is 0 (zero), the decimal
+            (p) after the decimal character. If the
+            value of p is 0 (zero), the decimal
             character and the digits to its right will be omitted. If no right
             precision is included, the default will dictated by the current
             local in use. The amount being formatted is rounded to the specified
@@ -207,7 +206,7 @@
        </p></p></dd>
 
      <dt><code>number</code></dt>
-     <dd><p>The number to be formatted.</p></dd>
+     <dd>The number to be formatted.</dd>
    </dl>
   </p>
  </div>
@@ -222,27 +221,21 @@
   </p>
  </div>
 
- <div>
-  <blockquote><p><strong>Note</strong>: 
-   <p>
-    The function <span><strong>moneyFormat()</strong></span> is only defined if
+  <blockquote><strong>Note</strong>:
+    The function <strong>moneyFormat()</strong> is only defined if
     the system has strfmon capabilities.  For example, Windows does
-    not, so <span><strong>moneyFormat()</strong></span> is undefined in Windows.
-   </p>
-  </p></blockquote>
-  <blockquote><p><strong>Note</strong>: 
-   <p>
+    not, so <strong>moneyFormat()</strong> is undefined in Windows.
+  </blockquote>
+  <blockquote><strong>Note</strong>:
     The <strong><code>LC_MONETARY</code></strong> category of the locale settings,
-    affects the behavior of this function. Use <span><a href="function.setlocale.php">setlocale()</a></span>
+    affects the behavior of this function. Use <a href="function.setlocale.php">setlocale()</a>
     to set to the appropriate default locale before using this function.
-   </p>
-  </p></blockquote>   
- </div>
+  </blockquote>   
 
  <div class="examples">
   <p>
    <div>
-    <p><strong>Example #1 <span><strong>moneyFormat()</strong></span> Example</strong></p>
+    <p><strong>Example #1 moneyFormat() Example</strong></p>
     <div><p>
      We will use different locales and format specifications to
      illustrate the use of this function.

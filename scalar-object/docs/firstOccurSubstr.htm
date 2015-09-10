@@ -6,19 +6,15 @@
    occurrence of <code>needle</code> to the end of
    <code>haystack</code>.
   </p>
-  <blockquote><p><strong>Note</strong>: 
-   <p>
+  <blockquote><strong>Note</strong>:
     This function is case-sensitive. For case-insensitive searches, use
-    <span><a href="function.stristr.php">stristr()</a></span>.
-   </p>
-  </p></blockquote>
-  <blockquote><p><strong>Note</strong>: 
-   <p>
+    <a href="function.stristr.php">stristr()</a>.
+   </blockquote>
+  <blockquote><strong>Note</strong>:
     If you only want to determine if a particular <code>needle</code>
     occurs within <code>haystack</code>, use the faster and less memory
-    intensive function <span><a href="function.strpos.php">strpos()</a></span> instead.
-   </p>
-  </p></blockquote>
+    intensive function <a href="function.strpos.php">strpos()</a> instead.
+   </blockquote>
  </div>
 
  <div>
@@ -26,16 +22,16 @@
   <p>
    <dl>
      <dt><code>haystack</code></dt>
-     <dd><p>The input string.</p></dd>
+     <dd>The input string.</dd>
 
      <dt><code>needle</code></dt>
-     <dd><p>If <code>needle</code> is not a string, it is converted to
-       an integer and applied as the ordinal value of a character.</p></dd>
+     <dd>If <code>needle</code> is not a string, it is converted to
+       an integer and applied as the ordinal value of a character.</dd>
 
      <dt><code>before_needle</code></dt>
-     <dd><p>If <strong><code>TRUE</code></strong>, <span><strong>firstOccurSubstr()</strong></span> returns
+     <dd>If <strong><code>TRUE</code></strong>, <strong>firstOccurSubstr()</strong> returns
        the part of the <code>haystack</code> before the first
-       occurrence of the <code>needle</code> (excluding the needle).</p></dd>
+       occurrence of the <code>needle</code> (excluding the needle).</dd>
    </dl>
   </p>
  </div>
@@ -51,7 +47,7 @@
  <div class="examples">
   <p>
    <div>
-    <p><strong>Example #1 <span><strong>firstOccurSubstr()</strong></span> example</strong></p>
+    <p><strong>Example #1 firstOccurSubstr() example</strong></p>
     <pre><span style="color: #0000BB">&lt;?php<br />$email&nbsp;&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #DD0000">'name@example.com'</span><span style="color: #007700">;<br /></span><span style="color: #0000BB">$domain&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #0000BB">firstOccurSubstr</span><span style="color: #007700">(</span><span style="color: #0000BB">$email</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">'@'</span><span style="color: #007700">);<br />echo&nbsp;</span><span style="color: #0000BB">$domain</span><span style="color: #007700">;&nbsp;</span><span style="color: #FF8000">//&nbsp;prints&nbsp;@example.com<br /><br /></span><span style="color: #0000BB">$user&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #0000BB">firstOccurSubstr</span><span style="color: #007700">(</span><span style="color: #0000BB">$email</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">'@'</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">true</span><span style="color: #007700">);&nbsp;</span><span style="color: #FF8000">//&nbsp;As&nbsp;of&nbsp;PHP&nbsp;5.3.0<br /></span><span style="color: #007700">echo&nbsp;</span><span style="color: #0000BB">$user</span><span style="color: #007700">;&nbsp;</span><span style="color: #FF8000">//&nbsp;prints&nbsp;name<br /></span><span style="color: #0000BB">?&gt;</span></pre>
 
    </div>

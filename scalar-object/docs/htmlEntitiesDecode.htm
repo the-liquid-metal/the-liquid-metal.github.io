@@ -2,8 +2,8 @@
 
  <div>
   <p>
-   <span><strong>htmlEntitiesDecode()</strong></span> is the opposite of
-   <span><a href="function.htmlentities.php">htmlentities()</a></span> in that it converts all HTML entities
+   <strong>htmlEntitiesDecode()</strong> is the opposite of
+   <a href="function.htmlentities.php">htmlentities()</a> in that it converts all HTML entities
    in the <code>string</code> to their applicable characters.
   </p>
   <p>
@@ -21,7 +21,7 @@
   <p>
    <dl>
      <dt><code>string</code></dt>
-     <dd><p>The input string.</p></dd>
+     <dd>The input string.</dd>
 
      <dt><code>flags</code></dt>
      <dd><p>A bitmask of one or more of the following flags, which specify how to handle quotes and
@@ -243,8 +243,8 @@
      <td>
       An empty string activates detection from script encoding (Zend multibyte),
       <a href="ini.core.php#ini.default-charset">default_charset</a> and current
-      locale (see <span><a href="function.nl-langinfo.php">nl_langinfo()</a></span> and
-      <span><a href="function.setlocale.php">setlocale()</a></span>), in this order. Not recommended.
+      locale (see <a href="function.nl-langinfo.php">nl_langinfo()</a> and
+      <a href="function.setlocale.php">setlocale()</a>), in this order. Not recommended.
      </td>
     </tr>
 
@@ -252,12 +252,10 @@
 
  </table>
 
- <blockquote><p><strong>Note</strong>: 
-  <span>
+ <blockquote><strong>Note</strong>:
    Any other character sets are not recognized. The default encoding will be
    used instead and a warning will be emitted.
-  </span>
- </p></blockquote>
+  </blockquote>
 </p>
 
      </dd>
@@ -282,14 +280,10 @@
   </p>
  </div>
 
- <div>
-  <blockquote><p><strong>Note</strong>: 
-   <p>
+  <blockquote><strong>Note</strong>:
     You might wonder why trim(htmlEntitiesDecode(&#039;&amp;nbsp;&#039;)); doesn&#039;t
     reduce the string to an empty string, that&#039;s because the &#039;&amp;nbsp;&#039;
     entity is not ASCII code 32 (which is stripped by
-    <span><a href="function.trim.php">trim()</a></span>) but ASCII code 160 (0xa0) in the default ISO
+    <a href="function.trim.php">trim()</a>) but ASCII code 160 (0xa0) in the default ISO
     8859-1 encoding.
-   </p>
-  </p></blockquote>
- </div>
+   </blockquote>

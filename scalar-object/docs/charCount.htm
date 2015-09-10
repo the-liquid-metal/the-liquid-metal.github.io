@@ -12,10 +12,10 @@
   <p>
    <dl>
      <dt><code>string</code></dt>
-     <dd><p>The examined string.</p></dd>
+     <dd>The examined string.</dd>
 
      <dt><code>mode</code></dt>
-     <dd><p>See return values.</p></dd>
+     <dd>See return values.</dd>
    </dl>
   </p>
  </div>
@@ -24,35 +24,25 @@
   <h3>Return Values</h3>
   <p>
    Depending on <code>mode</code>
-   <span><strong>charCount()</strong></span> returns one of the following:
+   <strong>charCount()</strong> returns one of the following:
    <ul>
     <li>
-     <span>
       0 - an array with the byte-value as key and the frequency of
       every byte as value.
-     </span>
     </li>
     <li>
-     <span>
       1 - same as 0 but only byte-values with a frequency greater
       than zero are listed.
-     </span>
     </li>
     <li>
-     <span>
       2 - same as 0 but only byte-values with a frequency equal to
       zero are listed.
-     </span>
     </li>
     <li>
-     <span>
       3 - a string containing all unique characters is returned.
-     </span>
     </li>
     <li>
-     <span>
       4 - a string containing all not used characters is returned.
-     </span>
     </li>
    </ul>
   </p>
@@ -61,10 +51,10 @@
  <div class="examples">
   <p>
    <div>
-    <p><strong>Example #1 <span><strong>charCount()</strong></span> example</strong></p>
+    <p><strong>Example #1 charCount() example</strong></p>
     <pre><span style="color: #0000BB">&lt;?php<br />$data&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #DD0000">"Two&nbsp;Ts&nbsp;and&nbsp;one&nbsp;F."</span><span style="color: #007700">;<br /><br />foreach&nbsp;(</span><span style="color: #0000BB">charCount</span><span style="color: #007700">(</span><span style="color: #0000BB">$data</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">1</span><span style="color: #007700">)&nbsp;as&nbsp;</span><span style="color: #0000BB">$i&nbsp;</span><span style="color: #007700">=&gt;&nbsp;</span><span style="color: #0000BB">$val</span><span style="color: #007700">)&nbsp;{<br />&nbsp;&nbsp;&nbsp;echo&nbsp;</span><span style="color: #DD0000">"There&nbsp;were&nbsp;</span><span style="color: #0000BB">$val</span><span style="color: #DD0000">&nbsp;instance(s)&nbsp;of&nbsp;\""&nbsp;</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">chr</span><span style="color: #007700">(</span><span style="color: #0000BB">$i</span><span style="color: #007700">)&nbsp;,&nbsp;</span><span style="color: #DD0000">"\"&nbsp;in&nbsp;the&nbsp;string.\n"</span><span style="color: #007700">;<br />}<br /></span><span style="color: #0000BB">?&gt;</span></pre>
 
-    <div><p>The above example will output:</p></div>
+    <div>The above example will output:</div>
 <pre>
 There were 4 instance(s) of &quot; &quot; in the string.
 There were 1 instance(s) of &quot;.&quot; in the string.

@@ -4,7 +4,7 @@
   <p>
    This function tries to return a string with all NULL bytes, HTML and PHP tags stripped
    from a given <code>str</code>.  It uses the same tag stripping
-   state machine as the <span><a href="function.fgetss.php">fgetss()</a></span> function.
+   state machine as the <a href="function.fgetss.php">fgetss()</a> function.
   </p>
  </div>
 
@@ -13,28 +13,22 @@
   <p>
    <dl>
      <dt><code>str</code></dt>
-     <dd><p>The input string.</p></dd>
+     <dd>The input string.</dd>
 
      <dt><code>allowable_tags</code></dt>
-     <dd><p>You can use the optional second parameter to specify tags which should
-       not be stripped.
-      </p>
-      <blockquote><p><strong>Note</strong>: 
-       <p>
+     <dd><p>You can use the optional second parameter to specify tags which should not be stripped.</p>
+      <blockquote><strong>Note</strong>:
         HTML comments and PHP tags are also stripped. This is hardcoded and
         can not be changed with <code>allowable_tags</code>.
-       </p>
-      </p></blockquote>
-      <blockquote><p><strong>Note</strong>: 
-       <p>
+      </blockquote>
+      <blockquote><strong>Note</strong>:
         In PHP 5.3.4 and later, self-closing
         XHTML tags are ignored and only non-self-closing tags should be used in
         <code>str</code>. For example,
         to allow both <em>&lt;br&gt;</em> and
         <em>&lt;br/&gt;</em>, you should use:
-       </p>
        <pre><span style="color: #0000BB">&lt;?php<br />stripTags</span><span style="color: #007700">(</span><span style="color: #0000BB">$input</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">'&lt;br&gt;'</span><span style="color: #007700">);<br /></span><span style="color: #0000BB">?&gt;</span></pre>
-      </p></blockquote>
+      </blockquote>
      </dd>
    </dl>
   </p>
@@ -50,10 +44,10 @@
  <div class="examples">
   <p>
    <div>
-    <p><strong>Example #1 <span><strong>stripTags()</strong></span> example</strong></p>
+    <p><strong>Example #1 stripTags() example</strong></p>
     <pre><span style="color: #0000BB">&lt;?php<br />$text&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #DD0000">'&lt;p&gt;Test&nbsp;paragraph.&lt;/p&gt;&lt;!--&nbsp;Comment&nbsp;--&gt;&nbsp;&lt;a&nbsp;href="#fragment"&gt;Other&nbsp;text&lt;/a&gt;'</span><span style="color: #007700">;<br />echo&nbsp;</span><span style="color: #0000BB">stripTags</span><span style="color: #007700">(</span><span style="color: #0000BB">$text</span><span style="color: #007700">);<br />echo&nbsp;</span><span style="color: #DD0000">"\n"</span><span style="color: #007700">;<br /><br /></span><span style="color: #FF8000">//&nbsp;Allow&nbsp;&lt;p&gt;&nbsp;and&nbsp;&lt;a&gt;<br /></span><span style="color: #007700">echo&nbsp;</span><span style="color: #0000BB">stripTags</span><span style="color: #007700">(</span><span style="color: #0000BB">$text</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">'&lt;p&gt;&lt;a&gt;'</span><span style="color: #007700">);<br /></span><span style="color: #0000BB">?&gt;</span></pre>
 
-    <div><p>The above example will output:</p></div>
+    <div>The above example will output:</div>
 <pre>
 Test paragraph. Other text
 &lt;p&gt;Test paragraph.&lt;/p&gt; &lt;a href=&quot;#fragment&quot;&gt;Other text&lt;/a&gt;
@@ -65,7 +59,7 @@ Test paragraph. Other text
  <div>
   <div class="warning"><strong>Warning</strong>
    <p>
-    Because <span><strong>stripTags()</strong></span> does not actually validate the
+    Because <strong>stripTags()</strong> does not actually validate the
     HTML, partial or broken tags can result in the removal of more
     text/data than expected.
    </p>
@@ -79,11 +73,9 @@ Test paragraph. Other text
     to other users.
    </p>
   </div>
-  <blockquote><p><strong>Note</strong>: 
-   <p>
+  <blockquote><strong>Note</strong>:
     Tag names within the input HTML that are greater than 1023 bytes in length
     will be treated as though they are invalid, regardless of the
     <code>allowable_tags</code> parameter.
-   </p>
-  </p></blockquote>
+   </blockquote>
  </div>

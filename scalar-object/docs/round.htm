@@ -8,12 +8,10 @@
   </p>
 
   <p>
-   <blockquote><p><strong>Note</strong>: 
-    <span>
+   <blockquote><strong>Note</strong>:
      PHP doesn&#039;t handle strings like <em>&quot;12,300.2&quot;</em> correctly
      by default. See <a href="language.types.string.php#language.types.string.conversion">converting from strings</a>.
-    </span>
-   </p></blockquote>
+    </blockquote>
   </p>
  </div>
 
@@ -22,13 +20,13 @@
   <p>
    <dl>
      <dt><code>val</code></dt>
-     <dd><p>The value to round</p></dd>
+     <dd>The value to round</dd>
 
      <dt><code>precision</code></dt>
-     <dd><p>The optional number of decimal digits to round to.</p></dd>
+     <dd>The optional number of decimal digits to round to.</dd>
 
      <dt><code>mode</code></dt>
-     <dd><p>Use one of the following constants to specify the mode in which rounding occurs.
+     <dd><p>Use one of the following constants to specify the mode in which rounding occurs.</p>
        <table class="table">
 
          <thead>
@@ -36,7 +34,6 @@
            <th>Constant</th>
            <th>Description</th>
           </tr>
-
          </thead>
 
          <tbody>
@@ -71,26 +68,22 @@
             towards the next odd value.      
            </td>
           </tr>
-
          </tbody>
-
        </table>
-</p></dd>
+     </dd>
    </dl>
   </p>
  </div>
 
  <div>
   <h3>Return Values</h3>
-  <p>
-   The rounded value
-  </p>
+  <p>The rounded value</p>
  </div>
 
  <div class="examples">
   <p>
    <div>
-    <p><strong>Example #1 <span><strong>round()</strong></span> examples</strong></p>
+    <p><strong>Example #1 round() examples</strong></p>
     <pre><span style="color: #0000BB">&lt;?php<br /></span><span style="color: #007700">echo&nbsp;</span><span style="color: #0000BB">round</span><span style="color: #007700">(</span><span style="color: #0000BB">3.4</span><span style="color: #007700">);&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #FF8000">//&nbsp;3<br /></span><span style="color: #007700">echo&nbsp;</span><span style="color: #0000BB">round</span><span style="color: #007700">(</span><span style="color: #0000BB">3.5</span><span style="color: #007700">);&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #FF8000">//&nbsp;4<br /></span><span style="color: #007700">echo&nbsp;</span><span style="color: #0000BB">round</span><span style="color: #007700">(</span><span style="color: #0000BB">3.6</span><span style="color: #007700">);&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #FF8000">//&nbsp;4<br /></span><span style="color: #007700">echo&nbsp;</span><span style="color: #0000BB">round</span><span style="color: #007700">(</span><span style="color: #0000BB">3.6</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">0</span><span style="color: #007700">);&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #FF8000">//&nbsp;4<br /></span><span style="color: #007700">echo&nbsp;</span><span style="color: #0000BB">round</span><span style="color: #007700">(</span><span style="color: #0000BB">1.95583</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">2</span><span style="color: #007700">);&nbsp;&nbsp;</span><span style="color: #FF8000">//&nbsp;1.96<br /></span><span style="color: #007700">echo&nbsp;</span><span style="color: #0000BB">round</span><span style="color: #007700">(</span><span style="color: #0000BB">1241757</span><span style="color: #007700">,&nbsp;-</span><span style="color: #0000BB">3</span><span style="color: #007700">);&nbsp;</span><span style="color: #FF8000">//&nbsp;1242000<br /></span><span style="color: #007700">echo&nbsp;</span><span style="color: #0000BB">round</span><span style="color: #007700">(</span><span style="color: #0000BB">5.045</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">2</span><span style="color: #007700">);&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #FF8000">//&nbsp;5.05<br /></span><span style="color: #007700">echo&nbsp;</span><span style="color: #0000BB">round</span><span style="color: #007700">(</span><span style="color: #0000BB">5.055</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">2</span><span style="color: #007700">);&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #FF8000">//&nbsp;5.06<br /></span><span style="color: #0000BB">?&gt;</span></pre>
 
    </div>

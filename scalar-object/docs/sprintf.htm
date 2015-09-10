@@ -16,8 +16,8 @@
        ordinary characters (excluding <em>%</em>) that are
        copied directly to the result, and <em>conversion
        specifications</em>, each of which results in fetching its
-       own parameter.  This applies to both <span><strong>sprintf()</strong></span>
-       and <span><a href="function.printf.php">printf()</a></span>.
+       own parameter.  This applies to both <strong>sprintf()</strong>
+       and <a href="function.printf.php">printf()</a>.
       </p>
       <p>
        Each conversion specification consists of a percent sign
@@ -25,15 +25,12 @@
        elements, in order:
        <ol type="1">
         <li>
-         <span>
           An optional <em>sign specifier</em> that forces a sign
           (- or +) to be used on a number. By default, only the - sign is used
           on a number if it&#039;s negative. This specifier forces positive numbers
           to have the + sign attached as well, and was added in PHP 4.3.0.
-         </span>
         </li>
         <li>
-         <span>
           An optional <em>padding specifier</em> that says
           what character will be used for padding the results to the
           right string size.  This may be a space character or a
@@ -41,25 +38,19 @@
           with spaces.  An alternate padding character can be specified
           by prefixing it with a single quote (<em>&#039;</em>).
           See the examples below.
-         </span>
         </li>
         <li>
-         <span>
           An optional <em>alignment specifier</em> that says
           if the result should be left-justified or right-justified.
           The default is right-justified; a <em>-</em>
           character here will make it left-justified.
-         </span>
         </li>
         <li>
-         <span>
           An optional number, a <em>width specifier</em>
           that says how many characters (minimum) this conversion should
           result in.
-         </span>
         </li>
         <li>
-         <span>
           An optional <em>precision specifier</em> in the form
           of a period (<em>.</em>) followed by an optional decimal digit string
           that says how many decimal digits should be displayed for
@@ -68,7 +59,6 @@
           the string. Additionally, the character to use when padding a
           number may optionally be specified between the period and the
           digit.
-         </span>
         </li>
         <li>
          <p>
@@ -243,7 +233,7 @@
         <p><strong>Example #5 Specifying padding character</strong></p>
         <pre><span style="color: #0000BB">&lt;?php<br /></span><span style="color: #007700">echo&nbsp;</span><span style="color: #0000BB">sprintf</span><span style="color: #007700">(</span><span style="color: #DD0000">"%'.9d\n"</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">123</span><span style="color: #007700">);<br />echo&nbsp;</span><span style="color: #0000BB">sprintf</span><span style="color: #007700">(</span><span style="color: #DD0000">"%'.09d\n"</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">123</span><span style="color: #007700">);<br /></span><span style="color: #0000BB">?&gt;</span></pre>
 
-        <div><p>The above example will output:</p></div>
+        <div>The above example will output:</div>
 <pre>
 ......123
 000000123
@@ -253,19 +243,17 @@
         <p><strong>Example #6 Position specifier with other specifiers</strong></p>
         <pre><span style="color: #0000BB">&lt;?php<br />$format&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #DD0000">'The&nbsp;%2$s&nbsp;contains&nbsp;%1$04d&nbsp;monkeys'</span><span style="color: #007700">;<br />echo&nbsp;</span><span style="color: #0000BB">sprintf</span><span style="color: #007700">(</span><span style="color: #0000BB">$format</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">$num</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">$location</span><span style="color: #007700">);<br /></span><span style="color: #0000BB">?&gt;</span></pre>
 
-        <div><p>The above example will output:</p></div>
+        <div>The above example will output:</div>
 <pre>
 The tree contains 0005 monkeys
 </pre>
        </div>
       </p>
-      <blockquote><p><strong>Note</strong>: 
-       <p>
+      <blockquote><strong>Note</strong>:
         Attempting to use a position specifier greater than
         <strong><code>PHP_INT_MAX</code></strong> will result in
-        <span><strong>sprintf()</strong></span> generating warnings.
-       </p>
-      </p></blockquote>
+        <strong>sprintf()</strong> generating warnings.
+       </blockquote>
       <div class="warning"><strong>Warning</strong>
        <p>
         The <em>c</em> type specifier ignores padding and width
@@ -292,10 +280,10 @@ The tree contains 0005 monkeys
 
  <div class="examples">
   <div>
-   <p><strong>Example #7 <span><a href="function.printf.php">printf()</a></span>: various examples</strong></p>
+   <p><strong>Example #7 <a href="function.printf.php">printf()</a>: various examples</strong></p>
    <pre><span style="color: #0000BB">&lt;?php<br />$n&nbsp;</span><span style="color: #007700">=&nbsp;&nbsp;</span><span style="color: #0000BB">43951789</span><span style="color: #007700">;<br /></span><span style="color: #0000BB">$u&nbsp;</span><span style="color: #007700">=&nbsp;-</span><span style="color: #0000BB">43951789</span><span style="color: #007700">;<br /></span><span style="color: #0000BB">$c&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #0000BB">65</span><span style="color: #007700">;&nbsp;</span><span style="color: #FF8000">//&nbsp;ASCII&nbsp;65&nbsp;is&nbsp;'A'<br /><br />//&nbsp;notice&nbsp;the&nbsp;double&nbsp;%%,&nbsp;this&nbsp;prints&nbsp;a&nbsp;literal&nbsp;'%'&nbsp;character<br /></span><span style="color: #0000BB">printf</span><span style="color: #007700">(</span><span style="color: #DD0000">"%%b&nbsp;=&nbsp;'%b'\n"</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">$n</span><span style="color: #007700">);&nbsp;</span><span style="color: #FF8000">//&nbsp;binary&nbsp;representation<br /></span><span style="color: #0000BB">printf</span><span style="color: #007700">(</span><span style="color: #DD0000">"%%c&nbsp;=&nbsp;'%c'\n"</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">$c</span><span style="color: #007700">);&nbsp;</span><span style="color: #FF8000">//&nbsp;print&nbsp;the&nbsp;ascii&nbsp;character,&nbsp;same&nbsp;as&nbsp;chr()&nbsp;function<br /></span><span style="color: #0000BB">printf</span><span style="color: #007700">(</span><span style="color: #DD0000">"%%d&nbsp;=&nbsp;'%d'\n"</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">$n</span><span style="color: #007700">);&nbsp;</span><span style="color: #FF8000">//&nbsp;standard&nbsp;integer&nbsp;representation<br /></span><span style="color: #0000BB">printf</span><span style="color: #007700">(</span><span style="color: #DD0000">"%%e&nbsp;=&nbsp;'%e'\n"</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">$n</span><span style="color: #007700">);&nbsp;</span><span style="color: #FF8000">//&nbsp;scientific&nbsp;notation<br /></span><span style="color: #0000BB">printf</span><span style="color: #007700">(</span><span style="color: #DD0000">"%%u&nbsp;=&nbsp;'%u'\n"</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">$n</span><span style="color: #007700">);&nbsp;</span><span style="color: #FF8000">//&nbsp;unsigned&nbsp;integer&nbsp;representation&nbsp;of&nbsp;a&nbsp;positive&nbsp;integer<br /></span><span style="color: #0000BB">printf</span><span style="color: #007700">(</span><span style="color: #DD0000">"%%u&nbsp;=&nbsp;'%u'\n"</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">$u</span><span style="color: #007700">);&nbsp;</span><span style="color: #FF8000">//&nbsp;unsigned&nbsp;integer&nbsp;representation&nbsp;of&nbsp;a&nbsp;negative&nbsp;integer<br /></span><span style="color: #0000BB">printf</span><span style="color: #007700">(</span><span style="color: #DD0000">"%%f&nbsp;=&nbsp;'%f'\n"</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">$n</span><span style="color: #007700">);&nbsp;</span><span style="color: #FF8000">//&nbsp;floating&nbsp;point&nbsp;representation<br /></span><span style="color: #0000BB">printf</span><span style="color: #007700">(</span><span style="color: #DD0000">"%%o&nbsp;=&nbsp;'%o'\n"</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">$n</span><span style="color: #007700">);&nbsp;</span><span style="color: #FF8000">//&nbsp;octal&nbsp;representation<br /></span><span style="color: #0000BB">printf</span><span style="color: #007700">(</span><span style="color: #DD0000">"%%s&nbsp;=&nbsp;'%s'\n"</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">$n</span><span style="color: #007700">);&nbsp;</span><span style="color: #FF8000">//&nbsp;string&nbsp;representation<br /></span><span style="color: #0000BB">printf</span><span style="color: #007700">(</span><span style="color: #DD0000">"%%x&nbsp;=&nbsp;'%x'\n"</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">$n</span><span style="color: #007700">);&nbsp;</span><span style="color: #FF8000">//&nbsp;hexadecimal&nbsp;representation&nbsp;(lower-case)<br /></span><span style="color: #0000BB">printf</span><span style="color: #007700">(</span><span style="color: #DD0000">"%%X&nbsp;=&nbsp;'%X'\n"</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">$n</span><span style="color: #007700">);&nbsp;</span><span style="color: #FF8000">//&nbsp;hexadecimal&nbsp;representation&nbsp;(upper-case)<br /><br /></span><span style="color: #0000BB">printf</span><span style="color: #007700">(</span><span style="color: #DD0000">"%%+d&nbsp;=&nbsp;'%+d'\n"</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">$n</span><span style="color: #007700">);&nbsp;</span><span style="color: #FF8000">//&nbsp;sign&nbsp;specifier&nbsp;on&nbsp;a&nbsp;positive&nbsp;integer<br /></span><span style="color: #0000BB">printf</span><span style="color: #007700">(</span><span style="color: #DD0000">"%%+d&nbsp;=&nbsp;'%+d'\n"</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">$u</span><span style="color: #007700">);&nbsp;</span><span style="color: #FF8000">//&nbsp;sign&nbsp;specifier&nbsp;on&nbsp;a&nbsp;negative&nbsp;integer<br /></span><span style="color: #0000BB">?&gt;</span></pre>
 
-   <div><p>The above example will output:</p></div>
+   <div>The above example will output:</div>
 <pre>
 %b = &#039;10100111101010011010101101&#039;
 %c = &#039;A&#039;
@@ -313,10 +301,10 @@ The tree contains 0005 monkeys
 </pre>
   </div>
   <div>
-   <p><strong>Example #8 <span><a href="function.printf.php">printf()</a></span>: string specifiers</strong></p>
+   <p><strong>Example #8 <a href="function.printf.php">printf()</a>: string specifiers</strong></p>
    <pre><span style="color: #0000BB">&lt;?php<br />$s&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #DD0000">'monkey'</span><span style="color: #007700">;<br /></span><span style="color: #0000BB">$t&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #DD0000">'many&nbsp;monkeys'</span><span style="color: #007700">;<br /><br /></span><span style="color: #0000BB">printf</span><span style="color: #007700">(</span><span style="color: #DD0000">"[%s]\n"</span><span style="color: #007700">,&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #0000BB">$s</span><span style="color: #007700">);&nbsp;</span><span style="color: #FF8000">//&nbsp;standard&nbsp;string&nbsp;output<br /></span><span style="color: #0000BB">printf</span><span style="color: #007700">(</span><span style="color: #DD0000">"[%10s]\n"</span><span style="color: #007700">,&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #0000BB">$s</span><span style="color: #007700">);&nbsp;</span><span style="color: #FF8000">//&nbsp;right-justification&nbsp;with&nbsp;spaces<br /></span><span style="color: #0000BB">printf</span><span style="color: #007700">(</span><span style="color: #DD0000">"[%-10s]\n"</span><span style="color: #007700">,&nbsp;&nbsp;&nbsp;</span><span style="color: #0000BB">$s</span><span style="color: #007700">);&nbsp;</span><span style="color: #FF8000">//&nbsp;left-justification&nbsp;with&nbsp;spaces<br /></span><span style="color: #0000BB">printf</span><span style="color: #007700">(</span><span style="color: #DD0000">"[%010s]\n"</span><span style="color: #007700">,&nbsp;&nbsp;&nbsp;</span><span style="color: #0000BB">$s</span><span style="color: #007700">);&nbsp;</span><span style="color: #FF8000">//&nbsp;zero-padding&nbsp;works&nbsp;on&nbsp;strings&nbsp;too<br /></span><span style="color: #0000BB">printf</span><span style="color: #007700">(</span><span style="color: #DD0000">"[%'#10s]\n"</span><span style="color: #007700">,&nbsp;&nbsp;</span><span style="color: #0000BB">$s</span><span style="color: #007700">);&nbsp;</span><span style="color: #FF8000">//&nbsp;use&nbsp;the&nbsp;custom&nbsp;padding&nbsp;character&nbsp;'#'<br /></span><span style="color: #0000BB">printf</span><span style="color: #007700">(</span><span style="color: #DD0000">"[%10.10s]\n"</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">$t</span><span style="color: #007700">);&nbsp;</span><span style="color: #FF8000">//&nbsp;left-justification&nbsp;but&nbsp;with&nbsp;a&nbsp;cutoff&nbsp;of&nbsp;10&nbsp;characters<br /></span><span style="color: #0000BB">?&gt;</span></pre>
 
-   <div><p>The above example will output:</p></div>
+   <div>The above example will output:</div>
 <pre>
 [monkey]
 [    monkey]
@@ -327,17 +315,17 @@ The tree contains 0005 monkeys
 </pre>
   </div>
   <div>
-   <p><strong>Example #9 <span><strong>sprintf()</strong></span>: zero-padded integers</strong></p>
+   <p><strong>Example #9 sprintf(): zero-padded integers</strong></p>
    <pre><span style="color: #0000BB">&lt;?php<br />$isodate&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #0000BB">sprintf</span><span style="color: #007700">(</span><span style="color: #DD0000">"%04d-%02d-%02d"</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">$year</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">$month</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">$day</span><span style="color: #007700">);<br /></span><span style="color: #0000BB">?&gt;</span></pre>
 
   </div>
   <div>
-   <p><strong>Example #10 <span><strong>sprintf()</strong></span>: formatting currency</strong></p>
+   <p><strong>Example #10 sprintf(): formatting currency</strong></p>
    <pre><span style="color: #0000BB">&lt;?php<br />$money1&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #0000BB">68.75</span><span style="color: #007700">;<br /></span><span style="color: #0000BB">$money2&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #0000BB">54.35</span><span style="color: #007700">;<br /></span><span style="color: #0000BB">$money&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #0000BB">$money1&nbsp;</span><span style="color: #007700">+&nbsp;</span><span style="color: #0000BB">$money2</span><span style="color: #007700">;<br /></span><span style="color: #FF8000">//&nbsp;echo&nbsp;$money&nbsp;will&nbsp;output&nbsp;"123.1";<br /></span><span style="color: #0000BB">$formatted&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #0000BB">sprintf</span><span style="color: #007700">(</span><span style="color: #DD0000">"%01.2f"</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">$money</span><span style="color: #007700">);<br /></span><span style="color: #FF8000">//&nbsp;echo&nbsp;$formatted&nbsp;will&nbsp;output&nbsp;"123.10"<br /></span><span style="color: #0000BB">?&gt;</span></pre>
 
   </div>
   <div>
-   <p><strong>Example #11 <span><strong>sprintf()</strong></span>: scientific notation</strong></p>
+   <p><strong>Example #11 sprintf(): scientific notation</strong></p>
    <pre><span style="color: #0000BB">&lt;?php<br />$number&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #0000BB">362525200</span><span style="color: #007700">;<br /><br />echo&nbsp;</span><span style="color: #0000BB">sprintf</span><span style="color: #007700">(</span><span style="color: #DD0000">"%.3e"</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">$number</span><span style="color: #007700">);&nbsp;</span><span style="color: #FF8000">//&nbsp;outputs&nbsp;3.625e+8<br /></span><span style="color: #0000BB">?&gt;</span></pre>
 
   </div>

@@ -5,13 +5,13 @@
    the <code>binary_string</code> argument.
   </p>
   <p>
-   <span><strong>binToDec()</strong></span> converts a binary number to an
-   <span><a href="language.types.integer.php">integer</a></span> or, if needed for size reasons, <span><a href="language.types.float.php">float</a></span>.
+   <strong>binToDec()</strong> converts a binary number to an
+   <a href="language.types.integer.php">integer</a> or, if needed for size reasons, <a href="language.types.float.php">float</a>.
   </p>
   <p>
-   <span><strong>binToDec()</strong></span> interprets all
+   <strong>binToDec()</strong> interprets all
    <code>binary_string</code> values as unsigned
-   integers. This is because <span><strong>binToDec()</strong></span> sees
+   integers. This is because <strong>binToDec()</strong> sees
    the most significant bit as another order of magnitude
    rather than as the sign bit.
   </p>
@@ -22,7 +22,7 @@
   <p>
    <dl>
      <dt><code>binary_string</code></dt>
-     <dd><p>The binary string to convert</p></dd>
+     <dd>The binary string to convert</dd>
    </dl>
   </p>
   <div class="warning"><strong>Warning</strong>
@@ -43,10 +43,10 @@
  <div class="examples">
   <p>
    <div>
-    <p><strong>Example #1 <span><strong>binToDec()</strong></span> example</strong></p>
+    <p><strong>Example #1 binToDec() example</strong></p>
     <pre><span style="color: #0000BB">&lt;?php<br /></span><span style="color: #007700">echo&nbsp;</span><span style="color: #0000BB">binToDec</span><span style="color: #007700">(</span><span style="color: #DD0000">'110011'</span><span style="color: #007700">)&nbsp;.&nbsp;</span><span style="color: #DD0000">"\n"</span><span style="color: #007700">;<br />echo&nbsp;</span><span style="color: #0000BB">binToDec</span><span style="color: #007700">(</span><span style="color: #DD0000">'000110011'</span><span style="color: #007700">)&nbsp;.&nbsp;</span><span style="color: #DD0000">"\n"</span><span style="color: #007700">;<br /><br />echo&nbsp;</span><span style="color: #0000BB">binToDec</span><span style="color: #007700">(</span><span style="color: #DD0000">'111'</span><span style="color: #007700">);<br /></span><span style="color: #0000BB">?&gt;</span></pre>
 
-    <div><p>The above example will output:</p></div>
+    <div>The above example will output:</div>
 <pre>
 51
 51
@@ -56,10 +56,10 @@
   </p>
   <p>
    <div>
-    <p><strong>Example #2 <span><strong>binToDec()</strong></span> interprets input as unsigned integers</strong></p>
+    <p><strong>Example #2 binToDec() interprets input as unsigned integers</strong></p>
     <pre><span style="color: #0000BB">&lt;?php<br /></span><span style="color: #FF8000">/*<br />&nbsp;*&nbsp;The&nbsp;lesson&nbsp;from&nbsp;this&nbsp;example&nbsp;is&nbsp;in&nbsp;the&nbsp;output<br />&nbsp;*&nbsp;rather&nbsp;than&nbsp;the&nbsp;PHP&nbsp;code&nbsp;itself.<br />&nbsp;*/<br /><br /></span><span style="color: #0000BB">$magnitude_lower&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #0000BB">pow</span><span style="color: #007700">(</span><span style="color: #0000BB">2</span><span style="color: #007700">,&nbsp;(</span><span style="color: #0000BB">PHP_INT_SIZE&nbsp;</span><span style="color: #007700">*&nbsp;</span><span style="color: #0000BB">8</span><span style="color: #007700">)&nbsp;-&nbsp;</span><span style="color: #0000BB">2</span><span style="color: #007700">);<br /></span><span style="color: #0000BB">p</span><span style="color: #007700">(</span><span style="color: #0000BB">$magnitude_lower&nbsp;</span><span style="color: #007700">-&nbsp;</span><span style="color: #0000BB">1</span><span style="color: #007700">);<br /></span><span style="color: #0000BB">p</span><span style="color: #007700">(</span><span style="color: #0000BB">$magnitude_lower</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">'See&nbsp;the&nbsp;rollover?&nbsp;&nbsp;Watch&nbsp;it&nbsp;next&nbsp;time&nbsp;around...'</span><span style="color: #007700">);<br /><br /></span><span style="color: #0000BB">p</span><span style="color: #007700">(</span><span style="color: #0000BB">PHP_INT_MAX</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">'PHP_INT_MAX'</span><span style="color: #007700">);<br /></span><span style="color: #0000BB">p</span><span style="color: #007700">(~</span><span style="color: #0000BB">PHP_INT_MAX</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">'interpreted&nbsp;to&nbsp;be&nbsp;one&nbsp;more&nbsp;than&nbsp;PHP_INT_MAX'</span><span style="color: #007700">);<br /><br />if&nbsp;(</span><span style="color: #0000BB">PHP_INT_SIZE&nbsp;</span><span style="color: #007700">==&nbsp;</span><span style="color: #0000BB">4</span><span style="color: #007700">)&nbsp;{<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #0000BB">$note&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #DD0000">'interpreted&nbsp;to&nbsp;be&nbsp;the&nbsp;largest&nbsp;unsigned&nbsp;integer'</span><span style="color: #007700">;<br />}&nbsp;else&nbsp;{<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #0000BB">$note&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #DD0000">'interpreted&nbsp;to&nbsp;be&nbsp;the&nbsp;largest&nbsp;unsigned&nbsp;integer<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(18446744073709551615)&nbsp;but&nbsp;skewed&nbsp;by&nbsp;float&nbsp;precision'</span><span style="color: #007700">;<br />}<br /></span><span style="color: #0000BB">p</span><span style="color: #007700">(-</span><span style="color: #0000BB">1</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">$note</span><span style="color: #007700">);<br /><br /><br />function&nbsp;</span><span style="color: #0000BB">p</span><span style="color: #007700">(</span><span style="color: #0000BB">$input</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">$note&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #DD0000">''</span><span style="color: #007700">)&nbsp;{<br />&nbsp;&nbsp;&nbsp;&nbsp;echo&nbsp;</span><span style="color: #DD0000">"input:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #0000BB">$input</span><span style="color: #DD0000">\n"</span><span style="color: #007700">;<br /><br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #0000BB">$format&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #DD0000">'%0'&nbsp;</span><span style="color: #007700">.&nbsp;(</span><span style="color: #0000BB">PHP_INT_SIZE&nbsp;</span><span style="color: #007700">*&nbsp;</span><span style="color: #0000BB">8</span><span style="color: #007700">)&nbsp;.&nbsp;</span><span style="color: #DD0000">'b'</span><span style="color: #007700">;<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #0000BB">$bin&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #0000BB">sprintf</span><span style="color: #007700">(</span><span style="color: #0000BB">$format</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">$input</span><span style="color: #007700">);<br />&nbsp;&nbsp;&nbsp;&nbsp;echo&nbsp;</span><span style="color: #DD0000">"binary:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #0000BB">$bin</span><span style="color: #DD0000">\n"</span><span style="color: #007700">;<br /><br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #0000BB">ini_set</span><span style="color: #007700">(</span><span style="color: #DD0000">'precision'</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">20</span><span style="color: #007700">);&nbsp;&nbsp;</span><span style="color: #FF8000">//&nbsp;For&nbsp;readability&nbsp;on&nbsp;64&nbsp;bit&nbsp;boxes.<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #0000BB">$dec&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #0000BB">binToDec</span><span style="color: #007700">(</span><span style="color: #0000BB">$bin</span><span style="color: #007700">);<br />&nbsp;&nbsp;&nbsp;&nbsp;echo&nbsp;</span><span style="color: #DD0000">'binToDec():&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;'&nbsp;</span><span style="color: #007700">.&nbsp;</span><span style="color: #0000BB">$dec&nbsp;</span><span style="color: #007700">.&nbsp;</span><span style="color: #DD0000">"\n"</span><span style="color: #007700">;<br /><br />&nbsp;&nbsp;&nbsp;&nbsp;if&nbsp;(</span><span style="color: #0000BB">$note</span><span style="color: #007700">)&nbsp;{<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;echo&nbsp;</span><span style="color: #DD0000">"NOTE:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #0000BB">$note</span><span style="color: #DD0000">\n"</span><span style="color: #007700">;<br />&nbsp;&nbsp;&nbsp;&nbsp;}<br /><br />&nbsp;&nbsp;&nbsp;&nbsp;echo&nbsp;</span><span style="color: #DD0000">"\n"</span><span style="color: #007700">;<br />}<br /></span><span style="color: #0000BB">?&gt;</span></pre>
 
-    <div><p>Output of the above example on 32 bit machines:</p></div>
+    <div>Output of the above example on 32 bit machines:</div>
 <pre>
 input:        1073741823
 binary:       00111111111111111111111111111111
@@ -85,7 +85,7 @@ binary:       11111111111111111111111111111111
 binToDec():     4294967295
 NOTE:         interpreted to be the largest unsigned integer
 </pre>
-    <div><p>Output of the above example on 64 bit machines:</p></div>
+    <div>Output of the above example on 64 bit machines:</div>
 <pre>
 input:        4611686018427387903
 binary:       0011111111111111111111111111111111111111111111111111111111111111
@@ -116,12 +116,8 @@ NOTE:         interpreted to be the largest unsigned integer
   </p>
  </div>
 
- <div>
-  <blockquote><p><strong>Note</strong>: 
-   <p>
+  <blockquote><strong>Note</strong>:
     The function can convert numbers that are too large to fit into the platforms
-    <span><a href="language.types.integer.php">integer</a></span> type, larger values are returned as <span><a href="language.types.float.php">float</a></span> in
+    <a href="language.types.integer.php">integer</a> type, larger values are returned as <a href="language.types.float.php">float</a> in
     that case.
-   </p>
-  </p></blockquote>
- </div>
+   </blockquote>

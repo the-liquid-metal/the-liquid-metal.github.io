@@ -2,7 +2,7 @@
 
  <div>
   <p>
-   <span><strong>tokenize()</strong></span> splits a string (<code>str</code>)
+   <strong>tokenize()</strong> splits a string (<code>str</code>)
    into smaller strings (tokens), with each token being delimited by any
    character from <code>token</code>.
    That is, if you have a string like &quot;This is an example string&quot; you
@@ -26,10 +26,10 @@
   <p>
    <dl>
      <dt><code>str</code></dt>
-     <dd><p>The <span><a href="language.types.string.php">string</a></span> being split up into smaller strings (tokens).</p></dd>
+     <dd>The <a href="language.types.string.php">string</a> being split up into smaller strings (tokens).</dd>
 
      <dt><code>token</code></dt>
-     <dd><p>The delimiter used when splitting up <code>str</code>.</p></dd>
+     <dd>The delimiter used when splitting up <code>str</code>.</dd>
    </dl>
   </p>
  </div>
@@ -37,14 +37,14 @@
  <div>
   <h3>Return Values</h3>
   <p>
-   A <span><a href="language.types.string.php">string</a></span> token.
+   A <a href="language.types.string.php">string</a> token.
   </p>
  </div>
 
  <div class="examples">
   <p>
    <div>
-    <p><strong>Example #1 <span><strong>tokenize()</strong></span> example</strong></p>
+    <p><strong>Example #1 tokenize() example</strong></p>
     <pre><span style="color: #0000BB">&lt;?php<br />$string&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #DD0000">"This&nbsp;is\tan&nbsp;example\nstring"</span><span style="color: #007700">;<br /></span><span style="color: #FF8000">/*&nbsp;Use&nbsp;tab&nbsp;and&nbsp;newline&nbsp;as&nbsp;tokenizing&nbsp;characters&nbsp;as&nbsp;well&nbsp;&nbsp;*/<br /></span><span style="color: #0000BB">$tok&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #0000BB">tokenize</span><span style="color: #007700">(</span><span style="color: #0000BB">$string</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">"&nbsp;\n\t"</span><span style="color: #007700">);<br /><br />while&nbsp;(</span><span style="color: #0000BB">$tok&nbsp;</span><span style="color: #007700">!==&nbsp;</span><span style="color: #0000BB">false</span><span style="color: #007700">)&nbsp;{<br />&nbsp;&nbsp;&nbsp;&nbsp;echo&nbsp;</span><span style="color: #DD0000">"Word=</span><span style="color: #0000BB">$tok</span><span style="color: #DD0000">&lt;br&nbsp;/&gt;"</span><span style="color: #007700">;<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #0000BB">$tok&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #0000BB">tokenize</span><span style="color: #007700">(</span><span style="color: #DD0000">"&nbsp;\n\t"</span><span style="color: #007700">);<br />}<br /></span><span style="color: #0000BB">?&gt;</span></pre>
 
    </div>
@@ -56,20 +56,20 @@
   </p>
   <p>
    <div>
-    <p><strong>Example #2 Old <span><strong>tokenize()</strong></span> behavior</strong></p>
+    <p><strong>Example #2 Old tokenize() behavior</strong></p>
     <pre><span style="color: #0000BB">&lt;?php<br />$first_token&nbsp;&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #0000BB">tokenize</span><span style="color: #007700">(</span><span style="color: #DD0000">'/something'</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">'/'</span><span style="color: #007700">);<br /></span><span style="color: #0000BB">$second_token&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #0000BB">tokenize</span><span style="color: #007700">(</span><span style="color: #DD0000">'/'</span><span style="color: #007700">);<br /></span><span style="color: #0000BB">var_dump</span><span style="color: #007700">(</span><span style="color: #0000BB">$first_token</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">$second_token</span><span style="color: #007700">);<br /></span><span style="color: #0000BB">?&gt;</span></pre>
 
-    <div><p>The above example will output:</p></div>
+    <div>The above example will output:</div>
 <pre>
 string(0) &quot;&quot;
 string(9) &quot;something&quot;
 </pre>
    </div>
    <div>
-    <p><strong>Example #3 New <span><strong>tokenize()</strong></span> behavior</strong></p>
+    <p><strong>Example #3 New tokenize() behavior</strong></p>
     <pre><span style="color: #0000BB">&lt;?php<br />$first_token&nbsp;&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #0000BB">tokenize</span><span style="color: #007700">(</span><span style="color: #DD0000">'/something'</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">'/'</span><span style="color: #007700">);<br /></span><span style="color: #0000BB">$second_token&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #0000BB">tokenize</span><span style="color: #007700">(</span><span style="color: #DD0000">'/'</span><span style="color: #007700">);<br /></span><span style="color: #0000BB">var_dump</span><span style="color: #007700">(</span><span style="color: #0000BB">$first_token</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">$second_token</span><span style="color: #007700">);<br /></span><span style="color: #0000BB">?&gt;</span></pre>
 
-    <div><p>The above example will output:</p></div>
+    <div>The above example will output:</div>
 <pre>
 string(9) &quot;something&quot;
 bool(false)

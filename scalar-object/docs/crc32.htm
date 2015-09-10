@@ -10,18 +10,18 @@
    <p>
     Because PHP&#039;s integer type is signed many crc32 checksums will
     result in negative integers on 32bit platforms. On 64bit installations
-    all <span><strong>crc32()</strong></span> results will be positive integers though.
+    all <strong>crc32()</strong> results will be positive integers though.
    </p>
    <p>
-    So you need to use the &quot;%u&quot; formatter of <span><a href="function.sprintf.php">sprintf()</a></span> or 
-    <span><a href="function.printf.php">printf()</a></span> to get the string representation of the 
-    unsigned <span><strong>crc32()</strong></span> checksum in decimal format.
+    So you need to use the &quot;%u&quot; formatter of <a href="function.sprintf.php">sprintf()</a> or 
+    <a href="function.printf.php">printf()</a> to get the string representation of the 
+    unsigned <strong>crc32()</strong> checksum in decimal format.
    </p>
    <p>
     For a hexadecimal representation of the checksum you can either use the 
-    &quot;%x&quot; formatter of <span><a href="function.sprintf.php">sprintf()</a></span> or <span><a href="function.printf.php">printf()</a></span> 
-    or the <span><a href="function.dechex.php">dechex()</a></span> conversion functions, both of these
-    also take care of converting the <span><strong>crc32()</strong></span> result to
+    &quot;%x&quot; formatter of <a href="function.sprintf.php">sprintf()</a> or <a href="function.printf.php">printf()</a> 
+    or the <a href="function.dechex.php">dechex()</a> conversion functions, both of these
+    also take care of converting the <strong>crc32()</strong> result to
     an unsigned integer.
    </p>
    <p>
@@ -35,12 +35,12 @@
    <p>
     In retrospect having the function return an integer maybe wasn&#039;t the 
     best idea and returning a hex string representation right away (as 
-    e.g. <span><a href="function.md5.php">md5()</a></span> does) might have been a better plan to
+    e.g. <a href="function.md5.php">md5()</a> does) might have been a better plan to
     begin with.
    </p>
    <p>
     For a more portable solution you may also consider the generic 
-    <span><a href="function.hash.php">hash()</a></span>. <code>hash(&quot;crc32b&quot;, $str)</code> will 
+    <a href="function.hash.php">hash()</a>. <code>hash(&quot;crc32b&quot;, $str)</code> will 
     return the same string as <code>str_pad(dechex(crc32($str)), 8, &#039;0&#039;, STR_PAD_LEFT)</code>.
    </p>
   </div>
@@ -51,7 +51,7 @@
   <p>
    <dl>
      <dt><code>str</code></dt>
-     <dd><p>The data.</p></dd>
+     <dd>The data.</dd>
    </dl>
   </p>
  </div>
@@ -69,7 +69,7 @@
     <p><strong>Example #1 Displaying a crc32 checksum</strong></p>
     <div><p>
      This example shows how to print a converted checksum with the
-     <span><a href="function.printf.php">printf()</a></span> function:
+     <a href="function.printf.php">printf()</a> function:
     </p></div>
     <pre><span style="color: #0000BB">&lt;?php<br />$checksum&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #0000BB">crc32</span><span style="color: #007700">(</span><span style="color: #DD0000">"The&nbsp;quick&nbsp;brown&nbsp;fox&nbsp;jumped&nbsp;over&nbsp;the&nbsp;lazy&nbsp;dog."</span><span style="color: #007700">);<br /></span><span style="color: #0000BB">printf</span><span style="color: #007700">(</span><span style="color: #DD0000">"%u\n"</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">$checksum</span><span style="color: #007700">);<br /></span><span style="color: #0000BB">?&gt;</span></pre>
 

@@ -5,8 +5,8 @@
    element of the <code>array</code> array.
   </p>
   <p>
-   <span><strong>walk()</strong></span> is not affected by the internal array
-   pointer of <code>array</code>.  <span><strong>walk()</strong></span>
+   <strong>walk()</strong> is not affected by the internal array
+   pointer of <code>array</code>.  <strong>walk()</strong>
    will walk through the entire array regardless of pointer position.
   </p>
  </div>
@@ -16,31 +16,27 @@
   <p>
    <dl>
      <dt><code>array</code></dt>
-     <dd><p>The input array.</p></dd>
+     <dd>The input array.</dd>
 
      <dt><code>callback</code></dt>
      <dd><p>Typically, <code>callback</code> takes on two parameters.
        The <code>array</code> parameter&#039;s value being the first, and
        the key/index second.
       </p>
-      <blockquote><p><strong>Note</strong>: 
-       <p>
+      <blockquote><strong>Note</strong>:
         If <code>callback</code> needs to be working with the
         actual values of the array, specify the first parameter of
         <code>callback</code> as a
         <a href="language.references.php">reference</a>. Then,
         any changes made to those elements will be made in the
         original array itself.
-       </p>
-      </p></blockquote>
-      <blockquote><p><strong>Note</strong>: 
-        <p>
-          Many internal functions (for example <span><a href="function.strtolower.php">strtolower()</a></span>)
+       </blockquote>
+      <blockquote><strong>Note</strong>:
+          Many internal functions (for example <a href="function.strtolower.php">strtolower()</a>)
           will throw a warning if more than the expected number of argument
           are passed in and are not usable directly as a
           <code>callback</code>.
-        </p>
-      </p></blockquote>
+        </blockquote>
       <p>
        Only the values of the <code>array</code> may potentially be
        changed; its structure cannot be altered, i.e., the programmer cannot
@@ -49,9 +45,9 @@
        unpredictable.</p></dd>
 
      <dt><code>userdata</code></dt>
-     <dd><p>If the optional <code>userdata</code> parameter is supplied,
+     <dd>If the optional <code>userdata</code> parameter is supplied,
        it will be passed as the third parameter to the
-       <code>callback</code>.</p></dd>
+       <code>callback</code>.</dd>
    </dl>
   </p>
  </div>
@@ -68,7 +64,7 @@
   <p>
    If function <code>callback</code> requires more parameters than
    given to it, an error of level <a href="errorfunc.constants.php">
-   E_WARNING</a> will be generated each time <span><strong>walk()</strong></span>
+   E_WARNING</a> will be generated each time <strong>walk()</strong>
    calls <code>callback</code>.
   </p>
  </div>
@@ -76,10 +72,10 @@
  <div class="examples">
   <p>
    <div>
-    <p><strong>Example #1 <span><strong>walk()</strong></span> example</strong></p>
+    <p><strong>Example #1 walk() example</strong></p>
     <pre><span style="color: #0000BB">&lt;?php<br />$fruits&nbsp;</span><span style="color: #007700">=&nbsp;array(</span><span style="color: #DD0000">"d"&nbsp;</span><span style="color: #007700">=&gt;&nbsp;</span><span style="color: #DD0000">"lemon"</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">"a"&nbsp;</span><span style="color: #007700">=&gt;&nbsp;</span><span style="color: #DD0000">"orange"</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">"b"&nbsp;</span><span style="color: #007700">=&gt;&nbsp;</span><span style="color: #DD0000">"banana"</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">"c"&nbsp;</span><span style="color: #007700">=&gt;&nbsp;</span><span style="color: #DD0000">"apple"</span><span style="color: #007700">);<br /><br />function&nbsp;</span><span style="color: #0000BB">test_alter</span><span style="color: #007700">(&amp;</span><span style="color: #0000BB">$item1</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">$key</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">$prefix</span><span style="color: #007700">)<br />{<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #0000BB">$item1&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #DD0000">"</span><span style="color: #0000BB">$prefix</span><span style="color: #DD0000">:&nbsp;</span><span style="color: #0000BB">$item1</span><span style="color: #DD0000">"</span><span style="color: #007700">;<br />}<br /><br />function&nbsp;</span><span style="color: #0000BB">test_print</span><span style="color: #007700">(</span><span style="color: #0000BB">$item2</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">$key</span><span style="color: #007700">)<br />{<br />&nbsp;&nbsp;&nbsp;&nbsp;echo&nbsp;</span><span style="color: #DD0000">"</span><span style="color: #0000BB">$key</span><span style="color: #DD0000">.&nbsp;</span><span style="color: #0000BB">$item2</span><span style="color: #DD0000">&lt;br&nbsp;/&gt;\n"</span><span style="color: #007700">;<br />}<br /><br />echo&nbsp;</span><span style="color: #DD0000">"Before&nbsp;...:\n"</span><span style="color: #007700">;<br /></span><span style="color: #0000BB">walk</span><span style="color: #007700">(</span><span style="color: #0000BB">$fruits</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">'test_print'</span><span style="color: #007700">);<br /><br /></span><span style="color: #0000BB">walk</span><span style="color: #007700">(</span><span style="color: #0000BB">$fruits</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">'test_alter'</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">'fruit'</span><span style="color: #007700">);<br />echo&nbsp;</span><span style="color: #DD0000">"...&nbsp;and&nbsp;after:\n"</span><span style="color: #007700">;<br /><br /></span><span style="color: #0000BB">walk</span><span style="color: #007700">(</span><span style="color: #0000BB">$fruits</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">'test_print'</span><span style="color: #007700">);<br /></span><span style="color: #0000BB">?&gt;</span></pre>
 
-    <div><p>The above example will output:</p></div>
+    <div>The above example will output:</div>
 <pre>
 Before ...:
 d. lemon

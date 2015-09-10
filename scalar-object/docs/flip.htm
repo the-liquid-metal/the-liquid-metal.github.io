@@ -1,14 +1,14 @@
 <h1>flip</h1>
  <div>
   <p>
-   <span><strong>flip()</strong></span> returns an <span><a href="language.types.array.php">array</a></span> in flip
+   <strong>flip()</strong> returns an <a href="language.types.array.php">array</a> in flip
    order, i.e. keys from <code>array</code> become values and values
    from <code>array</code> become keys.
   </p>
   <p>
    Note that the values of <code>array</code> need to be valid
-   keys, i.e. they need to be either <span><a href="language.types.integer.php">integer</a></span> or
-   <span><a href="language.types.string.php">string</a></span>. A warning will be emitted if a value has the wrong
+   keys, i.e. they need to be either <a href="language.types.integer.php">integer</a> or
+   <a href="language.types.string.php">string</a>. A warning will be emitted if a value has the wrong
    type, and the key/value pair in question <em>will not be included
    in the result</em>.
   </p>
@@ -23,7 +23,7 @@
   <p>
    <dl>
      <dt><code>array</code></dt>
-     <dd><p>An array of key/value pairs to be flipped.</p></dd>
+     <dd>An array of key/value pairs to be flipped.</dd>
    </dl>
   </p>
  </div>
@@ -38,10 +38,10 @@
  <div class="examples">
   <p>
    <div>
-    <p><strong>Example #1 <span><strong>flip()</strong></span> example</strong></p>
+    <p><strong>Example #1 flip() example</strong></p>
     <pre><span style="color: #0000BB">&lt;?php<br />$input&nbsp;</span><span style="color: #007700">=&nbsp;array(</span><span style="color: #DD0000">"oranges"</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">"apples"</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">"pears"</span><span style="color: #007700">);<br /></span><span style="color: #0000BB">$flipped&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #0000BB">flip</span><span style="color: #007700">(</span><span style="color: #0000BB">$input</span><span style="color: #007700">);<br /><br /></span><span style="color: #0000BB">print_r</span><span style="color: #007700">(</span><span style="color: #0000BB">$flipped</span><span style="color: #007700">);<br /></span><span style="color: #0000BB">?&gt;</span></pre>
 
-    <div><p>The above example will output:</p></div>
+    <div>The above example will output:</div>
 <pre>
 Array
 (
@@ -54,10 +54,10 @@ Array
   </p>
   <p>
    <div>
-    <p><strong>Example #2 <span><strong>flip()</strong></span> example : collision</strong></p>
+    <p><strong>Example #2 flip() example : collision</strong></p>
     <pre><span style="color: #0000BB">&lt;?php<br />$input&nbsp;</span><span style="color: #007700">=&nbsp;array(</span><span style="color: #DD0000">"a"&nbsp;</span><span style="color: #007700">=&gt;&nbsp;</span><span style="color: #0000BB">1</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">"b"&nbsp;</span><span style="color: #007700">=&gt;&nbsp;</span><span style="color: #0000BB">1</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">"c"&nbsp;</span><span style="color: #007700">=&gt;&nbsp;</span><span style="color: #0000BB">2</span><span style="color: #007700">);<br /></span><span style="color: #0000BB">$flipped&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #0000BB">flip</span><span style="color: #007700">(</span><span style="color: #0000BB">$input</span><span style="color: #007700">);<br /><br /></span><span style="color: #0000BB">print_r</span><span style="color: #007700">(</span><span style="color: #0000BB">$flipped</span><span style="color: #007700">);<br /></span><span style="color: #0000BB">?&gt;</span></pre>
 
-    <div><p>The above example will output:</p></div>
+    <div>The above example will output:</div>
 <pre>
 Array
 (

@@ -2,7 +2,7 @@
  <div>
 
   <p>
-   This function is the opposite of <span><a href="function.htmlspecialchars.php">htmlspecialchars()</a></span>. It
+   This function is the opposite of <a href="function.htmlspecialchars.php">htmlspecialchars()</a>. It
    converts special HTML entities back to characters.
   </p>
   <p>
@@ -18,7 +18,7 @@
   <p>
    <dl>
      <dt><code>string</code></dt>
-     <dd><p>The string to decode.</p></dd>
+     <dd>The string to decode.</dd>
 
      <dt><code>flags</code></dt>
      <dd><p>A bitmask of one or more of the following flags, which specify how to handle quotes and
@@ -96,10 +96,10 @@
  <div class="examples">
   <p>
    <div>
-    <p><strong>Example #1 A <span><strong>htmlCharDecode()</strong></span> example</strong></p>
+    <p><strong>Example #1 A htmlCharDecode() example</strong></p>
     <pre><span style="color: #0000BB">&lt;?php<br />$str&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #DD0000">"&lt;p&gt;this&nbsp;-&amp;gt;&nbsp;&amp;quot;&lt;/p&gt;\n"</span><span style="color: #007700">;<br /><br />echo&nbsp;</span><span style="color: #0000BB">htmlCharDecode</span><span style="color: #007700">(</span><span style="color: #0000BB">$str</span><span style="color: #007700">);<br /><br /></span><span style="color: #FF8000">//&nbsp;note&nbsp;that&nbsp;here&nbsp;the&nbsp;quotes&nbsp;aren't&nbsp;converted<br /></span><span style="color: #007700">echo&nbsp;</span><span style="color: #0000BB">htmlCharDecode</span><span style="color: #007700">(</span><span style="color: #0000BB">$str</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">ENT_NOQUOTES</span><span style="color: #007700">);<br /></span><span style="color: #0000BB">?&gt;</span></pre>
 
-    <div><p>The above example will output:</p></div>
+    <div>The above example will output:</div>
 <pre>
 &lt;p&gt;this -&gt; &quot;&lt;/p&gt;
 &lt;p&gt;this -&gt; &amp;quot;&lt;/p&gt;

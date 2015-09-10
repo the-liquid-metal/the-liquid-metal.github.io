@@ -12,29 +12,27 @@
   <p>
    <dl>
      <dt><code>array</code></dt>
-     <dd><p>The input array.</p></dd>
+     <dd>The input array.</dd>
 
      <dt><code>callback</code></dt>
      <dd><p>Typically, <code>callback</code> takes on two parameters.
        The <code>array</code> parameter&#039;s value being the first, and
        the key/index second.
       </p>
-      <blockquote><p><strong>Note</strong>: 
-       <p>
+      <blockquote><strong>Note</strong>:
         If <code>callback</code> needs to be working with the
         actual values of the array, specify the first parameter of
         <code>callback</code> as a
         <a href="language.references.php">reference</a>. Then,
         any changes made to those elements will be made in the
         original array itself.
-       </p>
-      </p></blockquote>
+       </blockquote>
      </dd>
 
      <dt><code>userdata</code></dt>
-     <dd><p>If the optional <code>userdata</code> parameter is supplied,
+     <dd>If the optional <code>userdata</code> parameter is supplied,
        it will be passed as the third parameter to the
-       <code>callback</code>.</p></dd>
+       <code>callback</code>.</dd>
    </dl>
   </p>
  </div>
@@ -49,10 +47,10 @@
  <div class="examples">
   <p>
    <div>
-    <p><strong>Example #1 <span><strong>recursiveWalk()</strong></span> example</strong></p>
+    <p><strong>Example #1 recursiveWalk() example</strong></p>
     <pre><span style="color: #0000BB">&lt;?php<br />$sweet&nbsp;</span><span style="color: #007700">=&nbsp;array(</span><span style="color: #DD0000">'a'&nbsp;</span><span style="color: #007700">=&gt;&nbsp;</span><span style="color: #DD0000">'apple'</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">'b'&nbsp;</span><span style="color: #007700">=&gt;&nbsp;</span><span style="color: #DD0000">'banana'</span><span style="color: #007700">);<br /></span><span style="color: #0000BB">$fruits&nbsp;</span><span style="color: #007700">=&nbsp;array(</span><span style="color: #DD0000">'sweet'&nbsp;</span><span style="color: #007700">=&gt;&nbsp;</span><span style="color: #0000BB">$sweet</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">'sour'&nbsp;</span><span style="color: #007700">=&gt;&nbsp;</span><span style="color: #DD0000">'lemon'</span><span style="color: #007700">);<br /><br />function&nbsp;</span><span style="color: #0000BB">test_print</span><span style="color: #007700">(</span><span style="color: #0000BB">$item</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">$key</span><span style="color: #007700">)<br />{<br />&nbsp;&nbsp;&nbsp;&nbsp;echo&nbsp;</span><span style="color: #DD0000">"</span><span style="color: #0000BB">$key</span><span style="color: #DD0000">&nbsp;holds&nbsp;</span><span style="color: #0000BB">$item</span><span style="color: #DD0000">\n"</span><span style="color: #007700">;<br />}<br /><br /></span><span style="color: #0000BB">recursiveWalk</span><span style="color: #007700">(</span><span style="color: #0000BB">$fruits</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">'test_print'</span><span style="color: #007700">);<br /></span><span style="color: #0000BB">?&gt;</span></pre>
 
-    <div><p>The above example will output:</p></div>
+    <div>The above example will output:</div>
 <pre>
 a holds apple
 b holds banana
@@ -60,7 +58,7 @@ sour holds lemon
 </pre>
     <div><p>
      You may notice that the key &#039;<em>sweet</em>&#039; is never displayed. Any key that holds an
-     <span><a href="language.types.array.php">array</a></span> will not be passed to the function.
+     <a href="language.types.array.php">array</a> will not be passed to the function.
     </p></div>
    </div>
   </p>
