@@ -1,188 +1,181 @@
-<h1>decToBin</h1>
- <div>
-  <p>
-   Returns a string containing a binary representation of the given
-   <code>number</code> argument.
-  </p>
- </div>
+  <h1>decToBin</h1>
 
- <div>
-  <h3>Parameters</h3>
-   <dl>
-     <dt>number</dt>
-     <dd><p>Decimal value to convert</p>
+  <div>
+    Returns a string containing a binary representation of the given
+    <code>number</code> argument.
+  </div>
 
-      <table class="table">
-       <caption><strong>Range of inputs on 32-bit machines</strong></caption>
-        <col />
-        <col />
-        <col />
-        <thead>
-         <tr>
-          <th>positive <code>number</code></th>
-          <th>negative <code>number</code></th>
-          <th>return value</th>
-         </tr>
-        </thead>
+  <div>
+    <h3>Parameters</h3>
+    <dl>
+      <dt>number</dt>
+      <dd>
+        <p>Decimal value to convert</p>
 
-        <tbody>
-         <tr>
-          <td>0</td>
-          <td> </td>
-          <td>0</td>
-         </tr>
+        <table class="table">
+          <caption><strong>Range of inputs on 32-bit machines</strong></caption>
+          <col />
+          <col />
+          <col />
+          <thead>
+            <tr>
+              <th>positive <code>number</code></th>
+              <th>negative <code>number</code></th>
+              <th>return value</th>
+            </tr>
+          </thead>
 
-         <tr>
-          <td>1</td>
-          <td> </td>
-          <td>1</td>
-         </tr>
+          <tbody>
+            <tr>
+              <td>0</td>
+              <td> </td>
+              <td>0</td>
+            </tr>
 
-         <tr>
-          <td>2</td>
-          <td> </td>
-          <td>10</td>
-         </tr>
+            <tr>
+              <td>1</td>
+              <td> </td>
+              <td>1</td>
+            </tr>
 
-         <tr>
-          <td colspan="3">... normal progression ...</td>
-         </tr>
+            <tr>
+              <td>2</td>
+              <td> </td>
+              <td>10</td>
+            </tr>
 
-         <tr>
-          <td>2147483646</td>
-          <td> </td>
-          <td>1111111111111111111111111111110</td>
-         </tr>
+            <tr>
+              <td colspan="3">... normal progression ...</td>
+            </tr>
 
-         <tr>
-          <td>2147483647 (largest signed integer)</td>
-          <td> </td>
-          <td>1111111111111111111111111111111 (31 1's)</td>
-         </tr>
+            <tr>
+              <td>2147483646</td>
+              <td> </td>
+              <td>1111111111111111111111111111110</td>
+            </tr>
 
-         <tr>
-          <td>2147483648</td>
-          <td>-2147483648</td>
-          <td>10000000000000000000000000000000</td>
-         </tr>
+            <tr>
+              <td>2147483647 (largest signed integer)</td>
+              <td> </td>
+              <td>1111111111111111111111111111111 (31 1's)</td>
+            </tr>
 
-         <tr>
-          <td colspan="3">... normal progression ...</td>
-         </tr>
+            <tr>
+              <td>2147483648</td>
+              <td>-2147483648</td>
+              <td>10000000000000000000000000000000</td>
+            </tr>
 
-         <tr>
-          <td>4294967294</td>
-          <td>-2</td>
-          <td>11111111111111111111111111111110</td>
-         </tr>
+            <tr>
+              <td colspan="3">... normal progression ...</td>
+            </tr>
 
-         <tr>
-          <td>4294967295 (largest unsigned integer)</td>
-          <td>-1</td>
-          <td>11111111111111111111111111111111 (32 1's)</td>
-         </tr>
+            <tr>
+              <td>4294967294</td>
+              <td>-2</td>
+              <td>11111111111111111111111111111110</td>
+            </tr>
 
-        </tbody>
+            <tr>
+              <td>4294967295 (largest unsigned integer)</td>
+              <td>-1</td>
+              <td>11111111111111111111111111111111 (32 1's)</td>
+            </tr>
+          </tbody>
+        </table>
 
-      </table>
+        <table class="table">
+          <caption><strong>Range of inputs on 64-bit machines</strong></caption>
+          <col />
+          <col />
+          <col />
+          <thead>
+            <tr>
+              <th>positive <code>number</code></th>
+              <th>negative <code>number</code></th>
+              <th>return value</th>
+            </tr>
+          </thead>
 
-      <table class="table">
-       <caption><strong>Range of inputs on 64-bit machines</strong></caption>
+          <tbody>
+            <tr>
+              <td>0</td>
+              <td> </td>
+              <td>0</td>
+            </tr>
 
-        <col />
-        <col />
-        <col />
-        <thead>
-         <tr>
-          <th>positive <code>number</code></th>
-          <th>negative <code>number</code></th>
-          <th>return value</th>
-         </tr>
+            <tr>
+              <td>1</td>
+              <td> </td>
+              <td>1</td>
+            </tr>
 
-        </thead>
+            <tr>
+              <td>2</td>
+              <td> </td>
+              <td>10</td>
+            </tr>
 
-        <tbody>
-         <tr>
-          <td>0</td>
-          <td> </td>
-          <td>0</td>
-         </tr>
+            <tr>
+              <td colspan="3">... normal progression ...</td>
+            </tr>
 
-         <tr>
-          <td>1</td>
-          <td> </td>
-          <td>1</td>
-         </tr>
+            <tr>
+              <td>9223372036854775806</td>
+              <td> </td>
+              <td>111111111111111111111111111111111111111111111111111111111111110</td>
+            </tr>
 
-         <tr>
-          <td>2</td>
-          <td> </td>
-          <td>10</td>
-         </tr>
+            <tr>
+              <td>9223372036854775807 (largest signed integer)</td>
+              <td> </td>
+              <td>111111111111111111111111111111111111111111111111111111111111111 (63 1's)</td>
+            </tr>
 
-         <tr>
-          <td colspan="3">... normal progression ...</td>
-         </tr>
+            <tr>
+              <td> </td>
+              <td>-9223372036854775808</td>
+              <td>1000000000000000000000000000000000000000000000000000000000000000</td>
+            </tr>
 
-         <tr>
-          <td>9223372036854775806</td>
-          <td> </td>
-          <td>111111111111111111111111111111111111111111111111111111111111110</td>
-         </tr>
+            <tr>
+              <td colspan="3">... normal progression ...</td>
+            </tr>
 
-         <tr>
-          <td>9223372036854775807 (largest signed integer)</td>
-          <td> </td>
-          <td>111111111111111111111111111111111111111111111111111111111111111 (63 1's)</td>
-         </tr>
+            <tr>
+              <td> </td>
+              <td>-2</td>
+              <td>1111111111111111111111111111111111111111111111111111111111111110</td>
+            </tr>
 
-         <tr>
-          <td> </td>
-          <td>-9223372036854775808</td>
-          <td>1000000000000000000000000000000000000000000000000000000000000000</td>
-         </tr>
+            <tr>
+              <td> </td>
+              <td>-1</td>
+              <td>1111111111111111111111111111111111111111111111111111111111111111 (64 1's)</td>
+            </tr>
+          </tbody>
+        </table>
+      </dd>
+    </dl>
+  </div>
 
-         <tr>
-          <td colspan="3">... normal progression ...</td>
-         </tr>
+  <div>
+    <h3>Return Values</h3>
+    <p>Binary string representation of <code>number</code></p>
+  </div>
 
-         <tr>
-          <td> </td>
-          <td>-2</td>
-          <td>1111111111111111111111111111111111111111111111111111111111111110</td>
-         </tr>
-
-         <tr>
-          <td> </td>
-          <td>-1</td>
-          <td>1111111111111111111111111111111111111111111111111111111111111111 (64 1's)</td>
-         </tr>
-
-        </tbody>
-
-      </table>
-
-     </dd>
-   </dl>
- </div>
-
- <div>
-  <h3>Return Values</h3>
-  <p>Binary string representation of <code>number</code></p>
- </div>
-
- <div class="examples">
+  <div class="examples">
     <p><strong>Example #1 decToBin() example</strong></p>
-<pre class="php-code">
-<?php
-echo decToBin(12) . "\n";
-echo decToBin(26);
-?>
-</pre>
+    <pre class="php-code">
+      <?php
+      echo decToBin(12) . "\n";
+      echo decToBin(26);
+      ?>
+    </pre>
 
     <div>The above example will output:</div>
-<pre class="output">
-1100
-11010
-</pre>
- </div>
+    <pre class="output">
+      1100
+      11010
+    </pre>
+  </div>

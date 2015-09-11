@@ -33,14 +33,16 @@
 
  <div class="examples">
     <p><strong>Example #1 lastOccurSubstr() example</strong></p>
-<pre class="php-code">&lt;?php
+<pre class="php-code">
+<?php
 // get last directory in $PATH
 $dir = substr(lastOccurSubstr($PATH, ":"), 1);
 
 // get everything after last newline
 $text = "Line 1\nLine 2\nLine 3";
 $last = substr(lastOccurSubstr($text, 10), 1 );
-?></pre>
+?>
+</pre>
  </div>
 
   <blockquote><strong>Note</strong>:This function is binary-safe.</blockquote>

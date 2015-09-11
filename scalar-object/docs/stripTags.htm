@@ -24,9 +24,11 @@
          <strong>Note</strong>: In PHP 5.3.4 and later, self-closing XHTML tags are ignored and
          only non-self-closing tags should be used in <code>str</code>. For example, to allow both
          <em>&lt;br></em> and <em>&lt;br/></em>, you should use:
-<pre class="php-code">&lt;?php
+<pre class="php-code">
+<?php
 stripTags($input, '&lt;br>');
-?></pre>
+?>
+</pre>
        </blockquote>
      </dd>
    </dl>
@@ -39,14 +41,16 @@ stripTags($input, '&lt;br>');
 
   <div class="examples">
     <p><strong>Example #1 stripTags() example</strong></p>
-<pre class="php-code">&lt;?php
+<pre class="php-code">
+<?php
 $text = '&lt;p>Test paragraph.&lt;/p>&lt;!-- Comment --> &lt;a href="#fragment">Other text&lt;/a>';
 echo stripTags($text);
 echo "\n";
 
 // Allow &lt;p> and &lt;a>
 echo stripTags($text, '&lt;p>&lt;a>');
-?></pre>
+?>
+</pre>
     <div>The above example will output:</div>
 <pre>
 Test paragraph. Other text

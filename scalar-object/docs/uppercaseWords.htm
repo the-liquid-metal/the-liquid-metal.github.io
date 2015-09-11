@@ -30,22 +30,26 @@
 
  <div class="examples">
     <p><strong>Example #1 uppercaseWords() example</strong></p>
-<pre class="php-code">&lt;?php
+<pre class="php-code">
+<?php
 $foo = 'hello world!';
 $foo = uppercaseWords($foo);             // Hello World!
 
 $bar = 'HELLO WORLD!';
 $bar = uppercaseWords($bar);             // HELLO WORLD!
 $bar = uppercaseWords(strtolower($bar)); // Hello World!
-?></pre>
+?>
+</pre>
 
     <p><strong>Example #2 uppercaseWords() example with custom delimiter</strong></p>
-<pre class="php-code">&lt;?php
+<pre class="php-code">
+<?php
 $foo = 'hello|world!';
 $bar = uppercaseWords($foo);             // Hello|world!
 
 $baz = uppercaseWords($foo, "|");        // Hello|World!
-?></pre>
+?>
+</pre>
  </div>
 
   <blockquote><strong>Note</strong>:This function is binary-safe.</blockquote>

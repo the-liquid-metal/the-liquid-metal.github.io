@@ -80,14 +80,16 @@
 
  <div class="examples">
     <p><strong>Example #1 A htmlCharDecode() example</strong></p>
-<pre class="php-code">&lt;?php
+<pre class="php-code">
+<?php
 $str = "&lt;p>this -&amp;gt; &amp;quot;&lt;/p>\n";
 
 echo htmlCharDecode($str);
 
 // note that here the quotes aren't converted
 echo htmlCharDecode($str, ENT_NOQUOTES);
-?></pre>
+?>
+</pre>
     <div>The above example will output:</div>
 <pre>
 &lt;p>this -> "&lt;/p>

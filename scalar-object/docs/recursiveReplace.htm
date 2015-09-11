@@ -44,7 +44,8 @@
 
  <div class="examples">
     <p><strong>Example #1 recursiveReplace() example</strong></p>
-<pre class="php-code">&lt;?php
+<pre class="php-code">
+<?php
 $base = array('citrus' => array( "orange") , 'berries' => array("blackberry", "raspberry"), );
 $replacements = array('citrus' => array('pineapple'), 'berries' => array('blueberry'));
 
@@ -53,7 +54,8 @@ print_r($basket);
 
 $basket = array_replace($base, $replacements);
 print_r($basket);
-?></pre>
+?>
+</pre>
     <div>The above example will output:</div>
 <pre>
 Array
@@ -82,7 +84,8 @@ Array
 </pre>
 
     <p><strong>Example #2 recursiveReplace() and recursive behavior</strong></p>
-<pre class="php-code">&lt;?php
+<pre class="php-code">
+<?php
 $base = array('citrus' => array("orange") , 'berries' => array("blackberry", "raspberry"), 'others' => 'banana' );
 $replacements = array('citrus' => 'pineapple', 'berries' => array('blueberry'), 'others' => array('litchis'));
 $replacements2 = array('citrus' => array('pineapple'), 'berries' => array('blueberry'), 'others' => 'litchis');
@@ -90,7 +93,8 @@ $replacements2 = array('citrus' => array('pineapple'), 'berries' => array('blueb
 $basket = recursiveReplace($base, $replacements, $replacements2);
 print_r($basket);
 
-?></pre>
+?>
+</pre>
     <div>The above example will output:</div>
 <pre>
 Array

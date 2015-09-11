@@ -70,7 +70,8 @@
 
  <div class="examples">
     <p><strong>Example #1 splice() examples</strong></p>
-<pre class="php-code">&lt;?php
+<pre class="php-code">
+<?php
 $input = array("red", "green", "blue", "yellow");
 splice($input, 2);
 // $input is now array("red", "green")
@@ -92,11 +93,13 @@ $input = array("red", "green", "blue", "yellow");
 splice($input, 3, 0, "purple");
 // $input is now array("red", "green",
 //          "blue", "purple", "yellow");
-?></pre>
+?>
+</pre>
 
     <p><strong>Example #2 splice() examples</strong></p>
     <div>The following statements change the values of <var>$input</var> the same way:</div>
-<pre class="php-code">&lt;?php
+<pre class="php-code">
+<?php
 array_push($input, $x, $y);
 splice($input, count($input), 0, array($x, $y));
 array_pop($input);
@@ -107,5 +110,6 @@ array_unshift($input, $x, $y);
 splice($input, 0, 0, array($x, $y));
 $input[$x] = $y; // for arrays where key equals offset
 splice($input, $x, 1, $y);
-?></pre>
+?>
+</pre>
  </div>

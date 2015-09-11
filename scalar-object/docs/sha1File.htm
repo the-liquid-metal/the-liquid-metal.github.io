@@ -24,7 +24,8 @@
 
   <div class="examples">
     <p><strong>Example #1 sha1File() example</strong></p>
-<pre class="php-code">&lt;?php
+<pre class="php-code">
+<?php
 foreach(glob('/home/Kalle/myproject/*.php') as $ent)
 {
     if(is_dir($ent))
@@ -34,5 +35,6 @@ foreach(glob('/home/Kalle/myproject/*.php') as $ent)
 
     echo $ent . ' (SHA1: ' . sha1File($ent) . ')', PHP_EOL;
 }
-?></pre>
+?>
+</pre>
   </div>

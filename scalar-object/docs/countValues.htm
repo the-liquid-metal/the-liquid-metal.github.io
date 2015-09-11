@@ -1,51 +1,51 @@
-<h1>countValues</h1>
+  <h1>countValues</h1>
 
- <div>
-  <p>
-   <strong>countValues()</strong> returns an array using
-   the values of <code>array</code> as keys and
-   their frequency in <code>array</code> as values.
-  </p>
- </div>
+  <div>
+    <strong>countValues()</strong> returns an array using
+    the values of <code>array</code> as keys and
+    their frequency in <code>array</code> as values.
+  </div>
 
- <div>
-  <h3>Parameters</h3>
-   <dl>
-     <dt>array</dt>
-     <dd>The array of values to count</dd>
-   </dl>
- </div>
+  <div>
+    <h3>Parameters</h3>
+    <dl>
+      <dt>array</dt>
+      <dd>The array of values to count</dd>
+    </dl>
+  </div>
 
- <div>
-  <h3>Return Values</h3>
-  <p>
-   Returns an associative array of values from <code>array</code> as
-   keys and their count as value.
-  </p>
- </div>
+  <div>
+    <h3>Return Values</h3>
+    <p>
+      Returns an associative array of values from <code>array</code> as
+      keys and their count as value.
+    </p>
+  </div>
 
- <div>
-  <h3>Errors/Exceptions</h3>
-  <p>
-   Throws <code>E_WARNING</code> for every element which is not
-   <a href="language.types.string.php">string</a> or <a href="language.types.integer.php">integer</a>.
-  </p>
- </div>
+  <div>
+    <h3>Errors/Exceptions</h3>
+    <p>
+      Throws <code>E_WARNING</code> for every element which is not
+      <a href="language.types.string.php">string</a> or <a href="language.types.integer.php">integer</a>.
+    </p>
+  </div>
 
- <div class="examples">
+  <div class="examples">
     <p><strong>Example #1 countValues() example</strong></p>
-<pre class="php-code">&lt;?php
-$array = array(1, "hello", 1, "world", "hello");
-print_r(countValues($array));
-?></pre>
+    <pre class="php-code">
+      <?php
+      $array = array(1, "hello", 1, "world", "hello");
+      print_r(countValues($array));
+      ?>
+    </pre>
 
     <div>The above example will output:</div>
-<pre>
-Array
-(
-    [1] => 2
-    [hello] => 2
-    [world] => 1
-)
-</pre>
+    <pre>
+      Array
+      (
+          [1] => 2
+          [hello] => 2
+          [world] => 1
+      )
+    </pre>
  </div>

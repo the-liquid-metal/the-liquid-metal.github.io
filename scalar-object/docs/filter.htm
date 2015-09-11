@@ -46,7 +46,8 @@
 
  <div class="examples">
     <p><strong>Example #1 filter() example</strong></p>
-<pre class="php-code">&lt;?php
+<pre class="php-code">
+<?php
 function odd($var)
 {
     // returns whether the input integer is odd
@@ -66,7 +67,8 @@ echo "Odd :\n";
 print_r(filter($array1, "odd"));
 echo "Even:\n";
 print_r(filter($array2, "even"));
-?></pre>
+?>
+</pre>
 
     <div>The above example will output:</div>
 <pre>
@@ -90,7 +92,8 @@ Array
    <div>
     <p><strong>Example #2 <strong>filter()</strong> without
     <code>callback</code></strong></p>
-<pre class="php-code">&lt;?php
+<pre class="php-code">
+<?php
 
 $entry = array(
              0 => 'foo',
@@ -101,7 +104,8 @@ $entry = array(
           );
 
 print_r(filter($entry));
-?></pre>
+?>
+</pre>
 
     <div>The above example will output:</div>
 <pre>
@@ -115,7 +119,8 @@ Array
    <div>
     <p><strong>Example #3 <strong>filter()</strong> with 
     <code>flag</code></strong></p>
-<pre class="php-code">&lt;?php
+<pre class="php-code">
+<?php
 
 $arr = ['a' => 1, 'b' => 2, 'c' => 3, 'd' => 4];
 
@@ -126,7 +131,8 @@ var_dump(filter($arr, function($k) {
 var_dump(filter($arr, function($v, $k) {
     return $k == 'b' || $v == 4;
 }, ARRAY_FILTER_USE_BOTH));
-?></pre>
+?>
+</pre>
 
     <div>The above example will output:</div>
 <pre>

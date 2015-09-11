@@ -25,7 +25,8 @@
 
  <div class="examples">
     <p><strong>Example #1 userKeySort() example</strong></p>
-<pre class="php-code">&lt;?php
+<pre class="php-code">
+<?php
 function cmp($a, $b)
 {
     $a = preg_replace('@^(a|an|the) @', '', $a);
@@ -40,7 +41,8 @@ userKeySort($a, "cmp");
 foreach ($a as $key => $value) {
     echo "$key: $value\n";
 }
-?></pre>
+?>
+</pre>
     <div>The above example will output:</div>
 <pre>
 an apple: 3

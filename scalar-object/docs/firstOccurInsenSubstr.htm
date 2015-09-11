@@ -38,27 +38,33 @@
 
  <div class="examples">
     <p><strong>Example #1 firstOccurInsenSubstr() example</strong></p>
-<pre class="php-code">&lt;?php
+<pre class="php-code">
+<?php
   $email = 'USER@EXAMPLE.com';
   echo firstOccurInsenSubstr($email, 'e'); // outputs ER@EXAMPLE.com
   echo firstOccurInsenSubstr($email, 'e', true); // As of PHP 5.3.0, outputs US
-?></pre>
+?>
+</pre>
 
     <p><strong>Example #2 Testing if a string is found or not</strong></p>
-<pre class="php-code">&lt;?php
+<pre class="php-code">
+<?php
   $string = 'Hello World!';
   if(firstOccurInsenSubstr($string, 'earth') === FALSE) {
     echo '"earth" not found in string';
   }
 // outputs: "earth" not found in string
-?></pre>
+?>
+</pre>
 
     <p><strong>Example #3 Using a non "string" needle</strong></p>
-<pre class="php-code">&lt;?php
+<pre class="php-code">
+<?php
   $string = 'APPLE';
   echo firstOccurInsenSubstr($string, 97); // 97 = lowercase a
 // outputs: APPLE
-?></pre>
+?>
+</pre>
  </div>
 
   <blockquote><strong>Note</strong>:This function is binary-safe.</blockquote>

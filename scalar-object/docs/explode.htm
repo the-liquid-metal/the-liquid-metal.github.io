@@ -58,7 +58,8 @@
 
  <div class="examples">
     <p><strong>Example #1 explode() examples</strong></p>
-<pre class="php-code">&lt;?php
+<pre class="php-code">
+<?php
 // Example 1
 $pizza  = "piece1 piece2 piece3 piece4 piece5 piece6";
 $pieces = explode(" ", $pizza);
@@ -71,10 +72,12 @@ list($user, $pass, $uid, $gid, $gecos, $home, $shell) = explode(":", $data);
 echo $user; // foo
 echo $pass; // *
 
-?></pre>
+?>
+</pre>
 
     <p><strong>Example #2 explode() return examples</strong></p>
-<pre class="php-code">&lt;?php
+<pre class="php-code">
+<?php
 /* 
    A string that doesn't contain the delimiter will simply
    return a one-length array of the original string.
@@ -84,7 +87,8 @@ $input2 = "hello,there";
 var_dump( explode( ',', $input1 ) );
 var_dump( explode( ',', $input2 ) );
 
-?></pre>
+?>
+</pre>
 
     <div>The above example will output:</div>
 <pre>
@@ -100,7 +104,8 @@ array(2)
 </pre>
 
     <p><strong>Example #3 <code>limit</code> parameter examples</strong></p>
-<pre class="php-code">&lt;?php
+<pre class="php-code">
+<?php
 $str = 'one|two|three|four';
 
 // positive limit
@@ -108,7 +113,8 @@ print_r(explode('|', $str, 2));
 
 // negative limit (since PHP 5.1)
 print_r(explode('|', $str, -1));
-?></pre>
+?>
+</pre>
 
     <div>The above example will output:</div>
 <pre>

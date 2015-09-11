@@ -58,7 +58,8 @@
 
  <div class="examples">
     <p><strong>Example #1 Usage example of <strong>leftTrim()</strong></strong></p>
-<pre class="php-code">&lt;?php
+<pre class="php-code">
+<?php
 
 $text = "\t\tThese are a few words :) ...  ";
 $binary = "\x09Example string\x0A";
@@ -82,7 +83,8 @@ var_dump($trimmed);
 $clean = leftTrim($binary, "\x00..\x1F");
 var_dump($clean);
 
-?></pre>
+?>
+</pre>
     <div>The above example will output:</div>
 <pre>
 string(32) "        These are a few words :) ...  "

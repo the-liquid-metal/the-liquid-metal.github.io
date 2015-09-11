@@ -1,63 +1,55 @@
-<h1>changeKeyCase</h1>
+  <h1>changeKeyCase</h1>
 
- <div>
-  <p>
-   Returns an array with all keys from <code>array</code> lowercased
-   or uppercased. Numbered indices are left as is.
-  </p>
- </div>
+  <div>
+    Returns an array with all keys from <code>array</code> lowercased
+    or uppercased. Numbered indices are left as is.
+  </div>
 
- <div>
-  <h3>Parameters</h3>
-   <dl>
-     <dt>array</dt>
-     <dd>The array to work on</dd>
+  <div>
+    <h3>Parameters</h3>
+    <dl>
+      <dt>array</dt>
+      <dd>The array to work on</dd>
 
-     <dt>case</dt>
-     <dd>Either <code>CASE_UPPER</code> or
-       <code>CASE_LOWER</code> (default)</dd>
-   </dl>
- </div>
+      <dt>case</dt>
+      <dd>Either <code>CASE_UPPER</code> or <code>CASE_LOWER</code> (default)</dd>
+    </dl>
+  </div>
 
- <div>
-  <h3>Return Values</h3>
-  <p>
-   Returns an array with its keys lower or uppercased, or <code>FALSE</code> if
-   <code>array</code> is not an array.
-  </p>
- </div>
+  <div>
+    <h3>Return Values</h3>
+    <p>
+      Returns an array with its keys lower or uppercased, or <code>FALSE</code> if
+      <code>array</code> is not an array.
+    </p>
+  </div>
 
- <div>
-  <h3>Errors/Exceptions</h3>
-  <p>
-   Throws <code>E_WARNING</code> if <code>array</code> is
-   not an array.
-  </p>
- </div>
+  <div>
+    <h3>Errors/Exceptions</h3>
+    <p>Throws <code>E_WARNING</code> if <code>array</code> is not an array.</p>
+  </div>
 
- <div class="examples">
-  <p>
-   <div>
+  <div class="examples">
     <p><strong>Example #1 changeKeyCase() example</strong></p>
-<pre class="php-code">&lt;?php
-$input_array = array("FirSt" => 1, "SecOnd" => 4);
-print_r(changeKeyCase($input_array, CASE_UPPER));
-?></pre>
+    <pre class="php-code">
+      <?php
+      $input_array = array("FirSt" => 1, "SecOnd" => 4);
+      print_r(changeKeyCase($input_array, CASE_UPPER));
+      ?>
+    </pre>
 
     <div>The above example will output:</div>
-<pre>
-Array
-(
-    [FIRST] => 1
-    [SECOND] => 4
-)
-</pre>
-   </div>
-  </p>
- </div>
+    <pre>
+      Array
+      (
+          [FIRST] => 1
+          [SECOND] => 4
+      )
+    </pre>
+  </div>
 
   <blockquote><strong>Note</strong>:
     If an array has indices that will be the same once run through this
     function (e.g. "<em>keY</em>" and "<em>kEY</em>"), 
     the value that is later in the array will override other indices.
-   </blockquote>
+  </blockquote>

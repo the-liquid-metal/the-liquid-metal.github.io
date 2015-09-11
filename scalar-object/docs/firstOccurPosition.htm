@@ -44,7 +44,8 @@
 
  <div class="examples">
     <p><strong>Example #1 Using <em>===</em></strong></p>
-<pre class="php-code">&lt;?php
+<pre class="php-code">
+<?php
 $mystring = 'abc';
 $findme   = 'a';
 $pos = firstOccurPosition($mystring, $findme);
@@ -57,10 +58,12 @@ if ($pos === false) {
     echo "The string '$findme' was found in the string '$mystring'";
     echo " and exists at position $pos";
 }
-?></pre>
+?>
+</pre>
 
     <p><strong>Example #2 Using !==</strong></p>
-<pre class="php-code">&lt;?php
+<pre class="php-code">
+<?php
 $mystring = 'abc';
 $findme   = 'a';
 $pos = firstOccurPosition($mystring, $findme);
@@ -74,14 +77,17 @@ if ($pos !== false) {
 } else {
      echo "The string '$findme' was not found in the string '$mystring'";
 }
-?></pre>
+?>
+</pre>
 
     <p><strong>Example #3 Using an offset</strong></p>
-<pre class="php-code">&lt;?php
+<pre class="php-code">
+<?php
 // We can search for the character, ignoring anything before the offset
 $newstring = 'abcdef abcdef';
 $pos = firstOccurPosition($newstring, 'a', 1); // $pos = 7, not 0
-?></pre>
+?>
+</pre>
  </div>
 
   <blockquote><strong>Note</strong>:This function is binary-safe.</blockquote>

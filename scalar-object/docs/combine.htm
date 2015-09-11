@@ -1,65 +1,60 @@
-<h1>combine</h1>
+  <h1>combine</h1>
 
- <div>
-  <p>
-   Creates an <a href="language.types.array.php">array</a> by using the values from the
-   <code>keys</code> array as keys and the values from the
-   <code>values</code> array as the corresponding values.
-  </p>
- </div>
+  <div>
+    Creates an <a href="language.types.array.php">array</a> by using the
+    values from the <code>keys</code> array as keys and the values from the
+    <code>values</code> array as the corresponding values.
+  </div>
 
- <div>
-  <h3>Parameters</h3>
-   <dl>
-     <dt>keys</dt>
-     <dd>Array of keys to be used. Illegal values for key will be
-       converted to <a href="language.types.string.php">string</a>.</dd>
+  <div>
+    <h3>Parameters</h3>
+    <dl>
+      <dt>keys</dt>
+      <dd>
+        Array of keys to be used. Illegal values for key will be
+        converted to <a href="language.types.string.php">string</a>.
+      </dd>
 
-     <dt>values</dt>
-     <dd>Array of values to be used</dd>
-   </dl>
- </div>
+      <dt>values</dt>
+      <dd>Array of values to be used</dd>
+    </dl>
+  </div>
 
- <div>
-  <h3>Return Values</h3>
-  <p>
-   Returns the combined <a href="language.types.array.php">array</a>, <code>FALSE</code> if the number of elements
-   for each array isn't equal.
-  </p>
- </div>
+  <div>
+    <h3>Return Values</h3>
+    <p>
+      Returns the combined <a href="language.types.array.php">array</a>, <code>FALSE</code>
+      if the number of elements for each array isn't equal.
+    </p>
+  </div>
 
- <div>
-  <h3>Errors/Exceptions</h3>
-  <p>
-   Throws <code>E_WARNING</code> if the number of elements in
-   <code>keys</code> and <code>values</code> does not
-   match.
-  </p>
- </div>
+  <div>
+    <h3>Errors/Exceptions</h3>
+    <p>
+      Throws <code>E_WARNING</code> if the number of elements in
+      <code>keys</code> and <code>values</code> does not match.
+    </p>
+  </div>
 
  <div class="examples">
-  <p>
-   <div>
     <p><strong>Example #1 A simple combine() example</strong></p>
-<pre class="php-code">
-<?php
-$a = array('green', 'red', 'yellow');
-$b = array('avocado', 'apple', 'banana');
-$c = combine($a, $b);
+    <pre class="php-code">
+      <?php
+      $a = array('green', 'red', 'yellow');
+      $b = array('avocado', 'apple', 'banana');
+      $c = combine($a, $b);
 
-print_r($c);
-?>
-</pre>
+      print_r($c);
+      ?>
+    </pre>
 
     <div>The above example will output:</div>
-<pre class="output">
-Array
-(
-    [green]  => avocado
-    [red]    => apple
-    [yellow] => banana
-)
-</pre>
-   </div>
-  </p>
- </div>
+    <pre class="output">
+      Array
+      (
+          [green]  => avocado
+          [red]    => apple
+          [yellow] => banana
+      )
+    </pre>
+  </div>

@@ -1,39 +1,32 @@
-<h1>abs</h1>
- <div>
-  <p>
-   Returns the absolute value of <code>number</code>. 
-  </p>
- </div>
+  <h1>abs</h1>
 
- <div>
-  <h3>Parameters</h3>
-   <dl>
-     <dt>number</dt>
-     <dd>The numeric value to process</dd>
-   </dl>
- </div>
+  <div>Returns the absolute value of <code>number</code>.</div>
 
- <div>
-  <h3>Return Values</h3>
-  <p>
-   The absolute value of <code>number</code>. If the
-   argument <code>number</code> is
-   of type <a href="language.types.float.php">float</a>, the return type is also <a href="language.types.float.php">float</a>,
-   otherwise it is <a href="language.types.integer.php">integer</a> (as <a href="language.types.float.php">float</a> usually has a
-   bigger value range than <a href="language.types.integer.php">integer</a>).
-  </p>
- </div>
+  <div>
+    <h3>Parameters</h3>
+    <dl>
+      <dt>number</dt>
+      <dd>The numeric value to process</dd>
+    </dl>
+  </div>
 
- <div class="examples">
-  <p>
-   <div>
+  <div>
+    <h3>Return Values</h3>
+    <p>
+      The absolute value of <code>number</code>. If the argument <code>number</code> is
+      of type <a href="language.types.float.php">float</a>, the return type is also <a href="language.types.float.php">float</a>,
+      otherwise it is <a href="language.types.integer.php">integer</a> (as <a href="language.types.float.php">float</a> usually has a
+      bigger value range than <a href="language.types.integer.php">integer</a>).
+    </p>
+  </div>
+
+  <div class="examples">
     <p><strong>Example #1 abs() example</strong></p>
-<pre class="php-code">&lt;?php
-echo abs(-4.2); // 4.2 (double/float)
-echo abs(5);    // 5 (integer)
-echo abs(-5);   // 5 (integer)
-?></pre>
-
-   </div>
-  </p>
- </div>
+    <pre class="php-code">
+      <?php
+      echo abs(-4.2); // 4.2 (double/float)
+      echo abs(5);    // 5 (integer)
+      echo abs(-5);   // 5 (integer)
+      ?>
+    </pre>
+  </div>

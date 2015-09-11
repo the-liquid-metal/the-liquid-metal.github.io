@@ -1,90 +1,88 @@
-<h1>chunk</h1>
+  <h1>chunk</h1>
 
- <div>
-  <p>
-   Chunks an array into arrays with <code>size</code> elements.
-   The last chunk may contain less than <code>size</code> elements.
-  </p>
- </div>
+  <div>
+    Chunks an array into arrays with <code>size</code> elements.
+    The last chunk may contain less than <code>size</code> elements.
+  </div>
 
- <div>
-  <h3>Parameters</h3>
-   <dl>
-     <dt>array</dt>
-     <dd>The array to work on</dd>
+  <div>
+    <h3>Parameters</h3>
+    <dl>
+      <dt>array</dt>
+      <dd>The array to work on</dd>
 
-     <dt>size</dt>
-     <dd>The size of each chunk</dd>
+      <dt>size</dt>
+      <dd>The size of each chunk</dd>
 
-     <dt>preserve_keys</dt>
-     <dd>When set to <code>TRUE</code> keys will be preserved.
-       Default is <code>FALSE</code> which will reindex the chunk numerically</dd>
-   </dl>
- </div>
+      <dt>preserve_keys</dt>
+      <dd>
+        When set to <code>TRUE</code> keys will be preserved. Default
+        is <code>FALSE</code> which will reindex the chunk numerically
+      </dd>
+    </dl>
+  </div>
 
- <div>
-  <h3>Return Values</h3>
-  <p>
-   Returns a multidimensional numerically indexed array, starting with zero,
-   with each dimension containing <code>size</code> elements.
-  </p>
- </div>
+  <div>
+    <h3>Return Values</h3>
+    <p>
+      Returns a multidimensional numerically indexed array, starting with zero,
+      with each dimension containing <code>size</code> elements.
+    </p>
+  </div>
 
- <div>
-  <h3>Errors/Exceptions</h3>
-  <p>
-   If <code>size</code> is less than 1
-   <code>E_WARNING</code> will be thrown and <code>NULL</code> returned.
-  </p>
- </div>
+  <div>
+    <h3>Errors/Exceptions</h3>
+    <p>
+      If <code>size</code> is less than 1 <code>E_WARNING</code>
+      will be thrown and <code>NULL</code> returned.
+    </p>
+  </div>
 
  <div class="examples">
-  <p>
-   <div>
     <p><strong>Example #1 chunk() example</strong></p>
-<pre class="php-code">&lt;?php
-$input_array = array('a', 'b', 'c', 'd', 'e');
-print_r(chunk($input_array, 2));
-print_r(chunk($input_array, 2, true));
-?></pre>
+    <pre class="php-code">
+      <?php
+      $input_array = array('a', 'b', 'c', 'd', 'e');
+      print_r(chunk($input_array, 2));
+      print_r(chunk($input_array, 2, true));
+      ?>
+    </pre>
 
     <div>The above example will output:</div>
-<pre>
-Array
-(
-    [0] => Array
-        (
-            [0] => a
-            [1] => b
-        )
-    [1] => Array
-        (
-            [0] => c
-            [1] => d
-        )
-    [2] => Array
-        (
-            [0] => e
-        )
-)
-Array
-(
-    [0] => Array
-        (
-            [0] => a
-            [1] => b
-        )
-    [1] => Array
-        (
-            [2] => c
-            [3] => d
-        )
-    [2] => Array
-        (
-            [4] => e
-        )
-)
-</pre>
-   </div>
-  </p>
+    <pre>
+      Array
+      (
+          [0] => Array
+              (
+                  [0] => a
+                  [1] => b
+              )
+          [1] => Array
+              (
+                  [0] => c
+                  [1] => d
+              )
+          [2] => Array
+              (
+                  [0] => e
+              )
+      )
+      Array
+      (
+          [0] => Array
+              (
+                  [0] => a
+                  [1] => b
+              )
+          [1] => Array
+              (
+                  [2] => c
+                  [3] => d
+              )
+          [2] => Array
+              (
+                  [4] => e
+              )
+      )
+    </pre>
  </div>

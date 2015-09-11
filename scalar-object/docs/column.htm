@@ -1,107 +1,102 @@
-<h1>column</h1>
- <div>
-  <p>
-   <strong>column()</strong> returns the values from a single column of
-   the <code>array</code>, identified by the
-   <code>column_key</code>. Optionally, you may provide an
-   <code>index_key</code> to index the values in the returned array by
-   the values from the <code>index_key</code> column in the input
-   array.
-  </p>
- </div>
+  <h1>column</h1>
 
- <div>
-  <h3>Parameters</h3>
-   <dl>
-     <dt>array</dt>
-     <dd>A multi-dimensional array (record set) from which to pull a column of values.</dd>
+  <div>
+    <strong>column()</strong> returns the values from a single column of
+    the <code>array</code>, identified by the
+    <code>column_key</code>. Optionally, you may provide an
+    <code>index_key</code> to index the values in the returned array by
+    the values from the <code>index_key</code> column in the input
+    array.
+  </div>
 
-     <dt>column_key</dt>
-     <dd>The column of values to return. This value may be the integer key of the
-       column you wish to retrieve, or it may be the string key name for an
-       associative array. It may also be <code>NULL</code> to return complete arrays
-       (useful together with <code>index_key</code> to reindex the
-       array).</dd>
+  <div>
+    <h3>Parameters</h3>
+    <dl>
+      <dt>array</dt>
+      <dd>A multi-dimensional array (record set) from which to pull a column of values.</dd>
 
-     <dt>index_key</dt>
-     <dd>The column to use as the index/keys for the returned array. This value
-       may be the integer key of the column, or it may be the string key name.</dd>
-   </dl>
- </div>
+      <dt>column_key</dt>
+      <dd>
+        The column of values to return. This value may be the integer key of the
+        column you wish to retrieve, or it may be the string key name for an 
+        associative array. It may also be <code>NULL</code> to return complete arrays
+        (useful together with <code>index_key</code> to reindex the array).
+      </dd>
 
- <div>
-  <h3>Return Values</h3>
-  <p>
-   Returns an array of values representing a single column from the input array.
-  </p>
- </div>
+      <dt>index_key</dt>
+      <dd>
+        The column to use as the index/keys for the returned array. This value
+        may be the integer key of the column, or it may be the string key name.
+      </dd>
+    </dl>
+  </div>
 
- <div class="examples">
-  <p>
-   <div>
+  <div>
+    <h3>Return Values</h3>
+    <p>Returns an array of values representing a single column from the input array.</p>
+  </div>
+
+  <div class="examples">
     <p><strong>Example #1 Get column of first names from recordset</strong></p>
-<pre class="php-code">&lt;?php
-// Array representing a possible record set returned from a database
-$records = array(
-    array(
-        'id' => 2135,
-        'first_name' => 'John',
-        'last_name' => 'Doe',
-    ),
-    array(
-        'id' => 3245,
-        'first_name' => 'Sally',
-        'last_name' => 'Smith',
-    ),
-    array(
-        'id' => 5342,
-        'first_name' => 'Jane',
-        'last_name' => 'Jones',
-    ),
-    array(
-        'id' => 5623,
-        'first_name' => 'Peter',
-        'last_name' => 'Doe',
-    )
-);
- 
-$first_names = column($records, 'first_name');
-print_r($first_names);
-?></pre>
+    <pre class="php-code">
+      <?php
+      // Array representing a possible record set returned from a database
+      $records = array(
+          array(
+              'id' => 2135,
+              'first_name' => 'John',
+              'last_name' => 'Doe',
+          ),
+          array(
+              'id' => 3245,
+              'first_name' => 'Sally',
+              'last_name' => 'Smith',
+          ),
+          array(
+              'id' => 5342,
+              'first_name' => 'Jane',
+              'last_name' => 'Jones',
+          ),
+          array(
+              'id' => 5623,
+              'first_name' => 'Peter',
+              'last_name' => 'Doe',
+          )
+      );
+       
+      $first_names = column($records, 'first_name');
+      print_r($first_names);
+      ?>
+    </pre>
 
     <div>The above example will output:</div>
-<pre>
-Array
-(
-    [0] => John
-    [1] => Sally
-    [2] => Jane
-    [3] => Peter
-)
-</pre>
-   </div>
-  </p>
-  <p>
-   <div>
-    <p><strong>Example #2 
-     Get column of last names from recordset, indexed by the "id" column
-    </strong></p>
-<pre class="php-code">&lt;?php
-// Using the $records array from Example #1
-$last_names = column($records, 'last_name', 'id');
-print_r($last_names);
-?></pre>
+    <pre>
+      Array
+      (
+          [0] => John
+          [1] => Sally
+          [2] => Jane
+          [3] => Peter
+      )
+    </pre>
+
+    <p><strong>Example #2 Get column of last names from recordset, indexed by the "id" column</strong></p>
+    <pre class="php-code">
+      <?php
+      // Using the $records array from Example #1
+      $last_names = column($records, 'last_name', 'id');
+      print_r($last_names);
+      ?>
+    </pre>
 
     <div>The above example will output:</div>
-<pre>
-Array
-(
-    [2135] => Doe
-    [3245] => Smith
-    [5342] => Jones
-    [5623] => Doe
-)
-</pre>
-   </div>
-  </p>
+    <pre>
+      Array
+      (
+          [2135] => Doe
+          [3245] => Smith
+          [5342] => Jones
+          [5623] => Doe
+      )
+    </pre>
  </div>

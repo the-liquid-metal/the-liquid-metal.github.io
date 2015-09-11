@@ -47,7 +47,8 @@
      is in the output because in the second argument <em>"red"</em>
      has key which is <em>1</em>.
     </div>
-<pre class="php-code">&lt;?php
+<pre class="php-code">
+<?php
 function key_compare_func($a, $b)
 {
     if ($a === $b) {
@@ -60,7 +61,8 @@ $array1 = array("a" => "green", "b" => "brown", "c" => "blue", "red");
 $array2 = array("a" => "green", "yellow", "red");
 $result = userAssocDiff($array1, $array2, "key_compare_func");
 print_r($result);
-?></pre>
+?>
+</pre>
 
     <div>The above example will output:</div>
 <pre>
