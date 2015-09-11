@@ -1,76 +1,69 @@
-<h1>numberFormat</h1>
+  <h1>numberFormat</h1>
 
- <div>
-  <p>
-   This function accepts either one, two, or four parameters (not three):
-  </p>
-  <p>
-   If only one parameter is given,
-   <code>number</code> will be formatted without decimals,
-   but with a comma (",") between every group of thousands.
-  </p>
-  <p>
-   If two parameters are given, <code>number</code> will
-   be formatted with <code>decimals</code> decimals with a
-   dot (".") in front, and a comma (",") between every group of
-   thousands.
-  </p>
-  <p>
-   If all four parameters are given, <code>number</code>
-   will be formatted with <code>decimals</code> decimals,
-   <code>dec_point</code> instead of a dot (".") before
-   the decimals and <code>thousands_sep</code> instead of
-   a comma (",") between every group of thousands.
-  </p>
- </div>
+  <div>
+    <p>This function accepts either one, two, or four parameters (not three):</p>
+    <p>
+      If only one parameter is given, <code>number</code> will be formatted without
+      decimals, but with a comma (",") between every group of thousands.
+    </p>
+    <p>
+      If two parameters are given, <code>number</code> will be formatted with
+      <code>decimals</code> decimals with a dot (".") in front, and a comma (",")
+      between every group of thousands.
+    </p>
+    <p>
+      If all four parameters are given, <code>number</code> will be formatted with
+      <code>decimals</code> decimals, <code>dec_point</code> instead of a dot (".")
+      before the decimals and <code>thousands_sep</code> instead of a comma (",")
+      between every group of thousands.
+    </p>
+  </div>
 
- <div>
-  <h3>Parameters</h3>
-   <dl>
-     <dt>number</dt>
-     <dd>The number being formatted.</dd>
+  <div>
+    <h3>Parameters</h3>
+    <dl>
+      <dt>number</dt>
+      <dd>The number being formatted.</dd>
 
-     <dt>decimals</dt>
-     <dd>Sets the number of decimal points.</dd>
+      <dt>decimals</dt>
+      <dd>Sets the number of decimal points.</dd>
 
-     <dt>dec_point</dt>
-     <dd>Sets the separator for the decimal point.</dd>
+      <dt>dec_point</dt>
+      <dd>Sets the separator for the decimal point.</dd>
 
-     <dt>thousands_sep</dt>
-     <dd>Sets the thousands separator.</dd>
-   </dl>
- </div>
+      <dt>thousands_sep</dt>
+      <dd>Sets the thousands separator.</dd>
+    </dl>
+  </div>
 
- <div>
-  <h3>Return Values</h3>
-  <p>A formatted version of <code>number</code>.</p>
- </div>
+  <div>
+    <h3>Return Values</h3>
+    <p>A formatted version of <code>number</code>.</p>
+  </div>
 
- <div class="examples">
+  <div class="examples">
     <p><strong>Example #1 numberFormat() Example</strong></p>
-    <div>For instance, French notation usually use two decimals,
-     comma (',') as decimal separator, and space (' ') as
-     thousand separator. This is achieved with this line :
+    <div>
+      For instance, French notation usually use two decimals, comma (',') as decimal
+      separator, and space (' ') as thousand separator. This is achieved with this line :
     </div>
-<pre class="php-code">
-<?php
+    <pre class="php-code">
+      <?php
+      $number = 1234.56;
 
-$number = 1234.56;
+      // english notation (default)
+      $english_format_number = numberFormat($number);
+      // 1,235
 
-// english notation (default)
-$english_format_number = numberFormat($number);
-// 1,235
+      // French notation
+      $nombre_format_francais = numberFormat($number, 2, ',', ' ');
+      // 1 234,56
 
-// French notation
-$nombre_format_francais = numberFormat($number, 2, ',', ' ');
-// 1 234,56
+      $number = 1234.5678;
 
-$number = 1234.5678;
-
-// english notation without thousands separator
-$english_format_number = numberFormat($number, 2, '.', '');
-// 1234.57
-
-?>
-</pre>
- </div>
+      // english notation without thousands separator
+      $english_format_number = numberFormat($number, 2, '.', '');
+      // 1234.57
+      ?>
+    </pre>
+  </div>

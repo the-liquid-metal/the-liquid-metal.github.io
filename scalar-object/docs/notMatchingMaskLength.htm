@@ -1,106 +1,108 @@
-<h1>notMatchingMaskLength</h1>
+  <h1>notMatchingMaskLength</h1>
 
- <div>
-  <p>
-   Returns the length of the initial segment of
-   <code>subject</code> which does <em>not</em>
-   contain any of the characters in <code>mask</code>.
-  </p>
-  <p>
-   If <code>start</code> and <code>length</code>
-   are omitted, then all of <code>subject</code> will be
-   examined. If they are included, then the effect will be the same as
-   calling <em>notMatchingMaskLength(substr($subject, $start, $length),
-   $mask)</em> (see <a href="function.substr.php">substr</a>
-   for more information).
-  </p>
- </div>
+  <div>
+    <p>
+      Returns the length of the initial segment of
+      <code>subject</code> which does <em>not</em>
+      contain any of the characters in <code>mask</code>.
+    </p>
+    <p>
+      If <code>start</code> and <code>length</code>
+      are omitted, then all of <code>subject</code> will be
+      examined. If they are included, then the effect will be the same as
+      calling <em>notMatchingMaskLength(substr($subject, $start, $length),
+      $mask)</em> (see <a href="function.substr.php">substr</a>
+      for more information).
+    </p>
+  </div>
 
- <div>
-  <h3>Parameters</h3>
-   <dl>
-     <dt>subject</dt>
-     <dd>The string to examine.</dd>
+  <div>
+    <h3>Parameters</h3>
+    <dl>
+      <dt>subject</dt>
+      <dd>The string to examine.</dd>
 
-     <dt>mask</dt>
-     <dd>The string containing every disallowed character.</dd>
+      <dt>mask</dt>
+      <dd>The string containing every disallowed character.</dd>
 
-     <dt>start</dt>
-     <dd><p>The position in <code>subject</code> to start searching.</p>
-      <p>
-       If <code>start</code> is given and is non-negative,
-       then <strong>notMatchingMaskLength()</strong> will begin
-       examining <code>subject</code> at
-       the <code>start</code>'th position. For instance, in
-       the string '<em>abcdef</em>', the character at
-       position <em>0</em> is '<em>a</em>', the
-       character at position <em>2</em> is
-       '<em>c</em>', and so forth.
-      </p>
-      <p>
-       If <code>start</code> is given and is negative,
-       then <a href="function.strspn.php">strspn()</a> will begin
-       examining <code>subject</code> at
-       the <code>start</code>'th position from the end
-       of <code>subject</code>.</p></dd>
+      <dt>start</dt>
+      <dd>
+        <p>The position in <code>subject</code> to start searching.</p>
+        <p>
+          If <code>start</code> is given and is non-negative, then
+          <strong>notMatchingMaskLength()</strong> will begin examining
+          <code>subject</code> at the <code>start</code>'th position. For
+          instance, in the string '<em>abcdef</em>', the character at
+          position <em>0</em> is '<em>a</em>', the character at position
+          <em>2</em> is '<em>c</em>', and so forth.
+        </p>
+        <p>
+          If <code>start</code> is given and is negative, then
+          <a href="function.strspn.php">strspn()</a> will begin examining
+          <code>subject</code> at the <code>start</code>'th position from
+          the end of <code>subject</code>.
+        </p>
+      </dd>
 
-     <dt>length</dt>
-     <dd><p>The length of the segment from <code>subject</code> to examine.</p>
-      <p>
-       If <code>length</code> is given and is non-negative,
-       then <code>subject</code> will be examined
-       for <code>length</code> characters after the starting
-       position.
-      </p>
-      <p>
-       If <code>length</code> is given and is negative,
-       then <code>subject</code> will be examined from the
-       starting position up to <code>length</code>
-       characters from the end of <code>subject</code>.</p></dd>
-   </dl>
- </div>
+      <dt>length</dt>
+      <dd>
+        <p>The length of the segment from <code>subject</code> to examine.</p>
+        <p>
+          If <code>length</code> is given and is non-negative, then <code>subject</code>
+          will be examined for <code>length</code> characters after the starting position.
+        </p>
+        <p>
+          If <code>length</code> is given and is negative, then <code>subject</code> will
+          be examined from the starting position up to <code>length</code> characters
+          from the end of <code>subject</code>.
+        </p>
+      </dd>
+    </dl>
+  </div>
 
- <div>
-  <h3>Return Values</h3>
-  <p>
-   Returns the length of the initial segment of <code>subject</code>
-   which consists entirely of characters <em>not</em> in <code>mask</code>.
-  </p>
-  <blockquote><strong>Note</strong>:
-    When a <code>start</code> parameter is set, the returned length
-    is counted starting from this position, not from the beginning of
-    <code>subject</code>.
-   </blockquote>
- </div>
+  <div>
+    <h3>Return Values</h3>
+    <p>
+      Returns the length of the initial segment of <code>subject</code>
+      which consists entirely of characters <em>not</em> in <code>mask</code>.
+    </p>
+
+    <blockquote>
+      <strong>Note</strong>: When a <code>start</code> parameter is set, the
+      returned length is counted starting from this position, not from the
+      beginning of <code>subject</code>.
+    </blockquote>
+  </div>
 
  <div class="examples">
    <p><strong>Example #1 notMatchingMaskLength() example</strong></p>
-<pre class="php-code">
-<?php
-$a = notMatchingMaskLength('abcd',  'apple');
-$b = notMatchingMaskLength('abcd',  'banana');
-$c = notMatchingMaskLength('hello', 'l');
-$d = notMatchingMaskLength('hello', 'world');
-$e = notMatchingMaskLength('abcdhelloabcd', 'abcd', -9);
-$f = notMatchingMaskLength('abcdhelloabcd', 'abcd', -9, -5);
+    <pre class="php-code">
+      <?php
+      $a = notMatchingMaskLength('abcd',  'apple');
+      $b = notMatchingMaskLength('abcd',  'banana');
+      $c = notMatchingMaskLength('hello', 'l');
+      $d = notMatchingMaskLength('hello', 'world');
+      $e = notMatchingMaskLength('abcdhelloabcd', 'abcd', -9);
+      $f = notMatchingMaskLength('abcdhelloabcd', 'abcd', -9, -5);
 
-var_dump($a);
-var_dump($b);
-var_dump($c);
-var_dump($d);
-var_dump($e);
-var_dump($f);
-?>
-</pre>
-   <div>The above example will output:</div>
-<pre class="output">
-int(0)
-int(0)
-int(2)
-int(2)
-int(5)
-int(4)
-</pre>
- </div>
+      var_dump($a);
+      var_dump($b);
+      var_dump($c);
+      var_dump($d);
+      var_dump($e);
+      var_dump($f);
+      ?>
+    </pre>
+
+    <div>The above example will output:</div>
+    <pre class="output">
+      int(0)
+      int(0)
+      int(2)
+      int(2)
+      int(5)
+      int(4)
+    </pre>
+  </div>
 
   <blockquote><strong>Note</strong>:This function is binary-safe.</blockquote>

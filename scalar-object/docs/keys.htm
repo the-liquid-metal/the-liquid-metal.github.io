@@ -1,68 +1,69 @@
-<h1>keys</h1>
+  <h1>keys</h1>
 
- <div>
-  <p>
-   <strong>keys()</strong> returns the keys, numeric and
-   string, from the <code>array</code>.
-  </p>
-  <p>
-   If the optional <code>search_value</code> is specified,
-   then only the keys for that value are returned. Otherwise, all
-   the keys from the <code>array</code> are returned.
-  </p>
- </div>
+  <div>
+    <p>
+      <strong>keys()</strong> returns the keys, numeric and
+      string, from the <code>array</code>.
+    </p>
+    <p>
+      If the optional <code>search_value</code> is specified,
+      then only the keys for that value are returned. Otherwise, all
+      the keys from the <code>array</code> are returned.
+    </p>
+  </div>
 
- <div>
-  <h3>Parameters</h3>
-   <dl>
-     <dt>array</dt>
-     <dd>An array containing keys to return.</dd>
+  <div>
+    <h3>Parameters</h3>
+    <dl>
+      <dt>array</dt>
+      <dd>An array containing keys to return.</dd>
 
-     <dt>search_value</dt>
-     <dd>If specified, then only keys containing these values are returned.</dd>
+      <dt>search_value</dt>
+      <dd>If specified, then only keys containing these values are returned.</dd>
 
-     <dt>strict</dt>
-     <dd>Determines if strict comparison (===) should be used during the search.</dd>
-   </dl>
- </div>
+      <dt>strict</dt>
+      <dd>Determines if strict comparison (===) should be used during the search.</dd>
+    </dl>
+  </div>
 
- <div>
-  <h3>Return Values</h3>
-  <p>Returns an array of all the keys in <code>array</code>.</p>
- </div>
+  <div>
+    <h3>Return Values</h3>
+    <p>Returns an array of all the keys in <code>array</code>.</p>
+  </div>
 
- <div class="examples">
+  <div class="examples">
     <p><strong>Example #1 keys() example</strong></p>
-<pre class="php-code">
-<?php
-$array = array(0 => 100, "color" => "red");
-print_r(keys($array));
+    <pre class="php-code">
+      <?php
+      $array = array(0 => 100, "color" => "red");
+      print_r(keys($array));
 
-$array = array("blue", "red", "green", "blue", "blue");
-print_r(keys($array, "blue"));
+      $array = array("blue", "red", "green", "blue", "blue");
+      print_r(keys($array, "blue"));
 
-$array = array("color" => array("blue", "red", "green"),
-               "size"  => array("small", "medium", "large"));
-print_r(keys($array));
-?>
-</pre>
+      $array = array("color" => array("blue", "red", "green"),
+                     "size"  => array("small", "medium", "large"));
+      print_r(keys($array));
+      ?>
+    </pre>
+
     <div>The above example will output:</div>
-<pre class="output">
-Array
-(
-    [0] => 0
-    [1] => color
-)
-Array
-(
-    [0] => 0
-    [1] => 3
-    [2] => 4
-)
-Array
-(
-    [0] => color
-    [1] => size
-)
-</pre>
- </div>
+    <pre class="output">
+      Array
+      (
+          [0] => 0
+          [1] => color
+      )
+      Array
+      (
+          [0] => 0
+          [1] => 3
+          [2] => 4
+      )
+      Array
+      (
+          [0] => color
+          [1] => size
+      )
+    </pre>
+  </div>

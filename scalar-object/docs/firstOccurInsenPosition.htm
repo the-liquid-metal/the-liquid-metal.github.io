@@ -1,77 +1,82 @@
-<h1>firstOccurInsenPosition</h1>
+  <h1>firstOccurInsenPosition</h1>
 
- <div>
-  <p>
-   Find the numeric position of the first occurrence of
-   <code>needle</code> in the <code>haystack</code> string.
-  </p>
-  <p>
-   Unlike the <a href="function.strpos.php">strpos()</a>, <strong>firstOccurInsenPosition()</strong> is
-   case-insensitive.
-  </p>
- </div>
-
- <div>
-  <h3>Parameters</h3>
-   <dl>
-     <dt>haystack</dt>
-     <dd>The string to search in.</dd>
-
-     <dt>needle</dt>
-     <dd><p>Note that the <code>needle</code> may be a string of one or more characters.</p>
-      <p>
-       If <code>needle</code> is not a string, it is converted to
-       an integer and applied as the ordinal value of a character.</p></dd>
-
-     <dt>offset</dt>
-     <dd>If specified, search will start this number of characters counted from
-       the beginning of the string. Unlike <a href="function.strrpos.php">strrpos()</a> and
-       <a href="function.strripos.php">strripos()</a>, the offset cannot be negative.</dd>
-   </dl>
- </div>
-
- <div>
-  <h3>Return Values</h3>
-  <p>
-   Returns the position of where the needle exists relative to the beginnning of
-   the <code>haystack</code> string (independent of offset).
-   Also note that string positions start at 0, and not 1.
-  </p>
-  <p>Returns <code>FALSE</code> if the needle was not found.</p>
-
-  <div class="warning">
-    <strong>Warning</strong><br/>
-    This function may return Boolean <code>FALSE</code>, but may also return a non-Boolean
-    value which evaluates to <code>FALSE</code>. Please read the section on
-    <a href="language.types.boolean.php">Booleans</a> for more information. Use
-    <a href="language.operators.comparison.php">the === operator</a> for testing
-    the return value of this function.
+  <div>
+    <p>
+      Find the numeric position of the first occurrence of
+      <code>needle</code> in the <code>haystack</code> string.
+    </p>
+    <p>
+      Unlike the <a href="function.strpos.php">strpos()</a>,
+      <strong>firstOccurInsenPosition()</strong> is case-insensitive.
+    </p>
   </div>
- </div>
 
- <div class="examples">
-   <p><strong>Example #1 firstOccurInsenPosition() examples</strong></p>
-<pre class="php-code">
-<?php
-$findme    = 'a';
-$mystring1 = 'xyz';
-$mystring2 = 'ABC';
+  <div>
+    <h3>Parameters</h3>
+    <dl>
+      <dt>haystack</dt>
+      <dd>The string to search in.</dd>
 
-$pos1 = firstOccurInsenPosition($mystring1, $findme);
-$pos2 = firstOccurInsenPosition($mystring2, $findme);
+      <dt>needle</dt>
+      <dd>
+        <p>Note that the <code>needle</code> may be a string of one or more characters.</p>
+        <p>
+          If <code>needle</code> is not a string, it is converted to
+          an integer and applied as the ordinal value of a character.
+        </p>
+      </dd>
 
-// Nope, 'a' is certainly not in 'xyz'
-if ($pos1 === false) {
-    echo "The string '$findme' was not found in the string '$mystring1'";
-}
+      <dt>offset</dt>
+      <dd>
+        If specified, search will start this number of characters counted from the
+        beginning of the string. Unlike <a href="function.strrpos.php">strrpos()</a> and
+        <a href="function.strripos.php">strripos()</a>, the offset cannot be negative.
+      </dd>
+    </dl>
+  </div>
 
-// Note our use of ===.  Simply == would not work as expected
-// because the position of 'a' is the 0th (first) character.
-if ($pos2 !== false) {
-    echo "We found '$findme' in '$mystring2' at position $pos2";
-}
-?>
-</pre>
- </div>
+  <div>
+    <h3>Return Values</h3>
+    <p>
+      Returns the position of where the needle exists relative to the beginnning of
+      the <code>haystack</code> string (independent of offset).
+      Also note that string positions start at 0, and not 1.
+    </p>
+    <p>Returns <code>FALSE</code> if the needle was not found.</p>
+
+    <div class="warning">
+      <strong>Warning</strong><br/>
+      This function may return Boolean <code>FALSE</code>, but may also return a non-Boolean
+      value which evaluates to <code>FALSE</code>. Please read the section on
+      <a href="language.types.boolean.php">Booleans</a> for more information. Use
+      <a href="language.operators.comparison.php">the === operator</a> for testing
+      the return value of this function.
+    </div>
+  </div>
+
+  <div class="examples">
+    <p><strong>Example #1 firstOccurInsenPosition() examples</strong></p>
+    <pre class="php-code">
+      <?php
+      $findme    = 'a';
+      $mystring1 = 'xyz';
+      $mystring2 = 'ABC';
+
+      $pos1 = firstOccurInsenPosition($mystring1, $findme);
+      $pos2 = firstOccurInsenPosition($mystring2, $findme);
+
+      // Nope, 'a' is certainly not in 'xyz'
+      if ($pos1 === false) {
+          echo "The string '$findme' was not found in the string '$mystring1'";
+      }
+
+      // Note our use of ===.  Simply == would not work as expected
+      // because the position of 'a' is the 0th (first) character.
+      if ($pos2 !== false) {
+          echo "We found '$findme' in '$mystring2' at position $pos2";
+      }
+      ?>
+    </pre>
+  </div>
 
   <blockquote><strong>Note</strong>:This function is binary-safe.</blockquote>

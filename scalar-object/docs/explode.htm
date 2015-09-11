@@ -1,135 +1,129 @@
-<h1>explode</h1>
- <div>
-  <p>
-   Returns an array of strings, each of which is a substring of
-   <code>string</code> formed by splitting it on
-   boundaries formed by the string <code>delimiter</code>.
-  </p>
- </div>
+  <h1>explode</h1>
 
- <div>
-  <h3>Parameters</h3>
-   <dl>
-     <dt>delimiter</dt>
-     <dd>The boundary string.</dd>
+  <div>
+    Returns an array of strings, each of which is a substring of
+    <code>string</code> formed by splitting it on
+    boundaries formed by the string <code>delimiter</code>.
+  </div>
 
-     <dt>string</dt>
-     <dd>The input string.</dd>
+  <div>
+    <h3>Parameters</h3>
+    <dl>
+      <dt>delimiter</dt>
+      <dd>The boundary string.</dd>
 
-     <dt>limit</dt>
-     <dd><p>If <code>limit</code> is set and positive, the returned array will contain
-       a maximum of <code>limit</code> elements with the last
-       element containing the rest of <code>string</code>.
-      </p>
-      <p>
-       If the <code>limit</code> parameter is negative, all components
-       except the last -<code>limit</code> are returned.
-      </p>
-      <p>
-       If the <code>limit</code> parameter is zero, then this is treated as 1.</p></dd>
-   </dl>
+      <dt>string</dt>
+      <dd>The input string.</dd>
 
-  <blockquote><strong>Note</strong>:
-    Although <a href="function.implode.php">implode()</a> can, for historical reasons,
-    accept its parameters in either order,
-    <strong>explode()</strong> cannot. You must ensure that the
-    <code>delimiter</code> argument comes before the
-    <code>string</code> argument.
-   </blockquote>
- </div>
+      <dt>limit</dt>
+      <dd>
+        <p>If <code>limit</code> is set and positive, the returned array will contain
+          a maximum of <code>limit</code> elements with the last
+          element containing the rest of <code>string</code>.
+        </p>
+        <p>
+          If the <code>limit</code> parameter is negative, all components
+          except the last -<code>limit</code> are returned.
+        </p>
+        <p>If the <code>limit</code> parameter is zero, then this is treated as 1.</p>
+      </dd>
+    </dl>
 
- <div>
-  <h3>Return Values</h3>
-  <p>
-   Returns an <a href="language.types.array.php">array</a> of <a href="language.types.string.php">string</a>s
-   created by splitting the <code>string</code> parameter on
-   boundaries formed by the <code>delimiter</code>.
-  </p>
-  <p>
-   If <code>delimiter</code> is an empty <a href="language.types.string.php">string</a> (""),
-   <strong>explode()</strong> will return <code>FALSE</code>.
-   If <code>delimiter</code> contains a value that is not
-   contained in <code>string</code> and a negative
-   <code>limit</code> is used, then an empty <a href="language.types.array.php">array</a> will be
-   returned, otherwise an <a href="language.types.array.php">array</a> containing
-   <code>string</code> will be returned.
-  </p>
- </div>
+    <blockquote>
+      <strong>Note</strong>: Although <a href="function.implode.php">implode()</a> can, for
+      historical reasons, accept its parameters in either order, <strong>explode()</strong>
+      cannot. You must ensure that the <code>delimiter</code> argument comes before the
+      <code>string</code> argument.
+     </blockquote>
+  </div>
 
- <div class="examples">
+  <div>
+    <h3>Return Values</h3>
+    <p>
+      Returns an <a href="language.types.array.php">array</a> of <a href="language.types.string.php">string</a>s
+      created by splitting the <code>string</code> parameter on boundaries formed by the <code>delimiter</code>.
+    </p>
+    <p>
+      If <code>delimiter</code> is an empty <a href="language.types.string.php">string</a> (""),
+      <strong>explode()</strong> will return <code>FALSE</code>. If <code>delimiter</code> contains a value
+      that is not contained in <code>string</code> and a negative <code>limit</code> is used, then an empty
+      <a href="language.types.array.php">array</a> will be returned, otherwise an
+      <a href="language.types.array.php">array</a> containing <code>string</code> will be returned.
+    </p>
+  </div>
+
+  <div class="examples">
     <p><strong>Example #1 explode() examples</strong></p>
-<pre class="php-code">
-<?php
-// Example 1
-$pizza  = "piece1 piece2 piece3 piece4 piece5 piece6";
-$pieces = explode(" ", $pizza);
-echo $pieces[0]; // piece1
-echo $pieces[1]; // piece2
+    <pre class="php-code">
+      <?php
+      // Example 1
+      $pizza  = "piece1 piece2 piece3 piece4 piece5 piece6";
+      $pieces = explode(" ", $pizza);
+      echo $pieces[0]; // piece1
+      echo $pieces[1]; // piece2
 
-// Example 2
-$data = "foo:*:1023:1000::/home/foo:/bin/sh";
-list($user, $pass, $uid, $gid, $gecos, $home, $shell) = explode(":", $data);
-echo $user; // foo
-echo $pass; // *
-
-?>
-</pre>
+      // Example 2
+      $data = "foo:*:1023:1000::/home/foo:/bin/sh";
+      list($user, $pass, $uid, $gid, $gecos, $home, $shell) = explode(":", $data);
+      echo $user; // foo
+      echo $pass; // *
+      ?>
+    </pre>
 
     <p><strong>Example #2 explode() return examples</strong></p>
-<pre class="php-code">
-<?php
-/* 
-   A string that doesn't contain the delimiter will simply
-   return a one-length array of the original string.
-*/
-$input1 = "hello";
-$input2 = "hello,there";
-var_dump( explode( ',', $input1 ) );
-var_dump( explode( ',', $input2 ) );
-
-?>
-</pre>
+    <pre class="php-code">
+      <?php
+      /* 
+         A string that doesn't contain the delimiter will simply
+         return a one-length array of the original string.
+      */
+      $input1 = "hello";
+      $input2 = "hello,there";
+      var_dump( explode( ',', $input1 ) );
+      var_dump( explode( ',', $input2 ) );
+      ?>
+    </pre>
 
     <div>The above example will output:</div>
-<pre class="output">
-array(1)
-(
-    [0] => string(5) "hello"
-)
-array(2)
-(
-    [0] => string(5) "hello"
-    [1] => string(5) "there"
-)
-</pre>
+    <pre class="output">
+      array(1)
+      (
+          [0] => string(5) "hello"
+      )
+      array(2)
+      (
+          [0] => string(5) "hello"
+          [1] => string(5) "there"
+      )
+    </pre>
 
     <p><strong>Example #3 <code>limit</code> parameter examples</strong></p>
-<pre class="php-code">
-<?php
-$str = 'one|two|three|four';
+    <pre class="php-code">
+      <?php
+      $str = 'one|two|three|four';
 
-// positive limit
-print_r(explode('|', $str, 2));
+      // positive limit
+      print_r(explode('|', $str, 2));
 
-// negative limit (since PHP 5.1)
-print_r(explode('|', $str, -1));
-?>
-</pre>
+      // negative limit (since PHP 5.1)
+      print_r(explode('|', $str, -1));
+      ?>
+    </pre>
 
     <div>The above example will output:</div>
-<pre class="output">
-Array
-(
-    [0] => one
-    [1] => two|three|four
-)
-Array
-(
-    [0] => one
-    [1] => two
-    [2] => three
-)
-</pre>
- </div>
+    <pre class="output">
+      Array
+      (
+          [0] => one
+          [1] => two|three|four
+      )
+      Array
+      (
+          [0] => one
+          [1] => two
+          [2] => three
+      )
+    </pre>
+  </div>
 
   <blockquote><strong>Note</strong>:This function is binary-safe.</blockquote>

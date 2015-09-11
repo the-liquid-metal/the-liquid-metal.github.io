@@ -1,96 +1,99 @@
-<h1>inArray</h1>
+  <h1>inArray</h1>
 
- <div>
-   Searches <code>haystack</code> for <code>needle</code> using loose comparison 
-   unless <code>strict</code> is set.
- </div>
+  <div>
+    Searches <code>haystack</code> for <code>needle</code> using loose comparison 
+    unless <code>strict</code> is set.
+  </div>
 
- <div>
-  <h3>Parameters</h3>
-   <dl>
-     <dt>needle</dt>
-     <dd><p>The searched value.</p>
-      <blockquote><strong>Note</strong>:
-        If <code>needle</code> is a string, the comparison is done
-        in a case-sensitive manner.
-       </blockquote>
-     </dd>
+  <div>
+    <h3>Parameters</h3>
+    <dl>
+      <dt>needle</dt>
+      <dd><p>The searched value.</p>
+       <blockquote>
+         <strong>Note</strong>: If <code>needle</code> is a string,
+         the comparison is done in a case-sensitive manner.
+        </blockquote>
+      </dd>
 
-     <dt>haystack</dt>
-     <dd>The array.</dd>
+      <dt>haystack</dt>
+      <dd>The array.</dd>
 
-     <dt>strict</dt>
-     <dd>If the third parameter <code>strict</code> is set to <code>TRUE</code>
-       then the <strong>inArray()</strong> function will also check the
-       <a href="language.types.php">types</a> of the
-       <code>needle</code> in the <code>haystack</code>.</dd>
-   </dl>
- </div>
+      <dt>strict</dt>
+      <dd>
+        If the third parameter <code>strict</code> is set to <code>TRUE</code> then the
+        <strong>inArray()</strong> function will also check the <a href="language.types.php">types</a>
+        of the <code>needle</code> in the <code>haystack</code>.
+      </dd>
+    </dl>
+  </div>
 
- <div>
-  <h3>Return Values</h3>
-  <p>
-   Returns <code>TRUE</code> if <code>needle</code> is found in the array,
-   <code>FALSE</code> otherwise.
-  </p>
- </div>
+  <div>
+    <h3>Return Values</h3>
+    <p>
+      Returns <code>TRUE</code> if <code>needle</code> is found in the array,
+      <code>FALSE</code> otherwise.
+    </p>
+  </div>
 
- <div class="examples">
+  <div class="examples">
     <p><strong>Example #1 inArray() example</strong></p>
-<pre class="php-code">
-<?php
-$os = array("Mac", "NT", "Irix", "Linux");
-if (inArray("Irix", $os)) {
-    echo "Got Irix";
-}
-if (inArray("mac", $os)) {
-    echo "Got mac";
-}
-?>
-</pre>
-    <div>The second condition fails because <strong>inArray()</strong>
-     is case-sensitive, so the program above will display:
+    <pre class="php-code">
+      <?php
+      $os = array("Mac", "NT", "Irix", "Linux");
+      if (inArray("Irix", $os)) {
+          echo "Got Irix";
+      }
+      if (inArray("mac", $os)) {
+          echo "Got mac";
+      }
+      ?>
+    </pre>
+    <div>
+      The second condition fails because <strong>inArray()</strong>
+      is case-sensitive, so the program above will display:
     </div>
-<pre class="output">Got Irix</pre>
+    <pre class="output">Got Irix</pre>
 
     <p><strong>Example #2 inArray() with strict example</strong></p>
-<pre class="php-code">
-<?php
-$a = array('1.10', 12.4, 1.13);
+    <pre class="php-code">
+      <?php
+      $a = array('1.10', 12.4, 1.13);
 
-if (inArray('12.4', $a, true)) {
-    echo "'12.4' found with strict check\n";
-}
+      if (inArray('12.4', $a, true)) {
+          echo "'12.4' found with strict check\n";
+      }
 
-if (inArray(1.13, $a, true)) {
-    echo "1.13 found with strict check\n";
-}
-?>
-</pre>
+      if (inArray(1.13, $a, true)) {
+          echo "1.13 found with strict check\n";
+      }
+      ?>
+    </pre>
     <div>The above example will output:</div>
-<pre class="output">1.13 found with strict check</pre>
+    <pre class="output">1.13 found with strict check</pre>
 
     <p><strong>Example #3 inArray() with an array as needle</strong></p>
-<pre class="php-code">
-<?php
-$a = array(array('p', 'h'), array('p', 'r'), 'o');
+    <pre class="php-code">
+      <?php
+      $a = array(array('p', 'h'), array('p', 'r'), 'o');
 
-if (inArray(array('p', 'h'), $a)) {
-    echo "'ph' was found\n";
-}
+      if (inArray(array('p', 'h'), $a)) {
+          echo "'ph' was found\n";
+      }
 
-if (inArray(array('f', 'i'), $a)) {
-    echo "'fi' was found\n";
-}
+      if (inArray(array('f', 'i'), $a)) {
+          echo "'fi' was found\n";
+      }
 
-if (inArray('o', $a)) {
-    echo "'o' was found\n";
-}
-?>
-</pre>
+      if (inArray('o', $a)) {
+          echo "'o' was found\n";
+      }
+      ?>
+    </pre>
+
     <div>The above example will output:</div>
-<pre class="output">
-'ph' was found
-'o' was found
-</pre>
- </div>
+    <pre class="output">
+      'ph' was found
+      'o' was found
+    </pre>
+  </div>

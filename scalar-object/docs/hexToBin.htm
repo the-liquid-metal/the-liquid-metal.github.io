@@ -1,50 +1,44 @@
 <h1>hexToBin</h1>
 
- <div>
-  <p>
-   Decodes a hexadecimally encoded binary string.
-  </p>
-  <div class="caution"><strong>Caution</strong>
-   <p>
-    This function does <em>NOT</em> convert a hexadecimal number to a binary
-    number. This can be done using the <a href="function.base-convert.php">base_convert()</a> function.
-   </p>
+  <div>
+    <p>Decodes a hexadecimally encoded binary string.</p>
+    <div class="caution">
+      <strong>Caution</strong><br/>
+      This function does <em>NOT</em> convert a hexadecimal number to a binary number.
+      This can be done using the <a href="function.base-convert.php">base_convert()</a> function.
+    </div>
   </div>
- </div>
 
- <div>
-  <h3>Parameters</h3>
-  <dl>
-    <dt>data</dt>
-    <dd>Hexadecimal representation of data.</dd>
-  </dl>
- </div>
+  <div>
+    <h3>Parameters</h3>
+    <dl>
+      <dt>data</dt>
+      <dd>Hexadecimal representation of data.</dd>
+    </dl>
+  </div>
 
- <div>
-  <h3>Return Values</h3>
-  <p>
-   Returns the binary representation of the given data  or <code>FALSE</code> on failure.
-  </p>
- </div>
+  <div>
+    <h3>Return Values</h3>
+    <p>Returns the binary representation of the given data  or <code>FALSE</code> on failure.</p>
+  </div>
 
- <div>
-  <h3>Errors/Exceptions</h3>
-  <p>
-   If the hexadecimal input string is of odd length or invalid hexadecimal string
-   an <code>E_WARNING</code> level error is thrown.
-  </p>
- </div>
+  <div>
+    <h3>Errors/Exceptions</h3>
+    <p>
+      If the hexadecimal input string is of odd length or invalid hexadecimal string
+      an <code>E_WARNING</code> level error is thrown.
+    </p>
+  </div>
 
- <div class="examples">
-   <p><strong>Example #1 hexToBin() example</strong></p>
-<pre class="php-code">
-<?php
-$hex = hexToBin("6578616d706c65206865782064617461");
-var_dump($hex);
-?>
-</pre>
-   <div>The above example will output something similar to:</div>
-<pre class="output">
-string(16) "example hex data"
-</pre>
- </div>
+  <div class="examples">
+    <p><strong>Example #1 hexToBin() example</strong></p>
+    <pre class="php-code">
+      <?php
+      $hex = hexToBin("6578616d706c65206865782064617461");
+      var_dump($hex);
+      ?>
+    </pre>
+
+    <div>The above example will output something similar to:</div>
+    <pre class="output">string(16) "example hex data"</pre>
+  </div>

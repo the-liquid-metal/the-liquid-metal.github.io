@@ -1,4 +1,5 @@
-<h1>round</h1>
+  <h1>round</h1>
+
   <div>
     <p>
       Returns the rounded value of <code>val</code> to
@@ -7,131 +8,131 @@
       <code>precision</code> can also be negative or zero (default).
     </p>
 
-    <blockquote><strong>Note</strong>:
-      PHP doesn't handle strings like <em>"12,300.2"</em> correctly
+    <blockquote>
+      <strong>Note</strong>: PHP doesn't handle strings like <em>"12,300.2"</em> correctly
       by default. See <a href="language.types.string.php#language.types.string.conversion">converting from strings</a>.
-     </blockquote>
+    </blockquote>
   </div>
 
- <div>
-  <h3>Parameters</h3>
-   <dl>
-     <dt>val</dt>
-     <dd>The value to round</dd>
+  <div>
+    <h3>Parameters</h3>
+    <dl>
+      <dt>val</dt>
+      <dd>The value to round</dd>
 
-     <dt>precision</dt>
-     <dd>The optional number of decimal digits to round to.</dd>
+      <dt>precision</dt>
+      <dd>The optional number of decimal digits to round to.</dd>
 
-     <dt>mode</dt>
-     <dd><p>Use one of the following constants to specify the mode in which rounding occurs.</p>
-       <table class="table">
+      <dt>mode</dt>
+      <dd>
+        <p>Use one of the following constants to specify the mode in which rounding occurs.</p>
+        <table class="table">
+          <thead>
+            <tr>
+              <th>Constant</th>
+              <th>Description</th>
+            </tr>
+          </thead>
 
-         <thead>
-          <tr>
-           <th>Constant</th>
-           <th>Description</th>
-          </tr>
-         </thead>
+          <tbody>
+            <tr>
+              <td><code>PHP_ROUND_HALF_UP</code></td>
+              <td>
+                Round <code>val</code> up to <code>precision</code> decimal places
+                away from zero, when it is half way there. Making 1.5 into 2 and -1.5 into -2.
+              </td>
+            </tr>
 
-         <tbody>
-          <tr>
-           <td><code>PHP_ROUND_HALF_UP</code></td>
-           <td>
-            Round <code>val</code> up to <code>precision</code> decimal places
-            away from zero, when it is half way there. Making 1.5 into 2 and -1.5 into -2.
-           </td>
-          </tr>
+            <tr>
+              <td><code>PHP_ROUND_HALF_DOWN</code></td>
+              <td>
+                Round <code>val</code> down to <code>precision</code> decimal places
+                towards zero, when it is half way there. Making 1.5 into 1 and -1.5 into -1.
+              </td>
+            </tr>
 
-          <tr>
-           <td><code>PHP_ROUND_HALF_DOWN</code></td>
-           <td>
-            Round <code>val</code> down to <code>precision</code> decimal places
-            towards zero, when it is half way there. Making 1.5 into 1 and -1.5 into -1.
-           </td>
-          </tr>
+            <tr>
+              <td><code>PHP_ROUND_HALF_EVEN</code></td>
+              <td>
+                Round <code>val</code> to <code>precision</code> decimal places
+                towards the next even value.
+              </td>
+            </tr>
 
-          <tr>
-           <td><code>PHP_ROUND_HALF_EVEN</code></td>
-           <td>
-            Round <code>val</code> to <code>precision</code> decimal places
-            towards the next even value.
-           </td>
-          </tr>
+            <tr>
+              <td><code>PHP_ROUND_HALF_ODD</code></td>
+              <td>
+                Round <code>val</code> to <code>precision</code> decimal places
+                towards the next odd value.
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </dd>
+    </dl>
+  </div>
 
-          <tr>
-           <td><code>PHP_ROUND_HALF_ODD</code></td>
-           <td>
-            Round <code>val</code> to <code>precision</code> decimal places
-            towards the next odd value.
-           </td>
-          </tr>
-         </tbody>
-       </table>
-     </dd>
-   </dl>
- </div>
+  <div>
+    <h3>Return Values</h3>
+    <p>The rounded value</p>
+  </div>
 
- <div>
-  <h3>Return Values</h3>
-  <p>The rounded value</p>
- </div>
-
- <div class="examples">
+  <div class="examples">
     <p><strong>Example #1 round() examples</strong></p>
-<pre class="php-code">
-<?php
-echo round(3.4);         // 3
-echo round(3.5);         // 4
-echo round(3.6);         // 4
-echo round(3.6, 0);      // 4
-echo round(1.95583, 2);  // 1.96
-echo round(1241757, -3); // 1242000
-echo round(5.045, 2);    // 5.05
-echo round(5.055, 2);    // 5.06
-?>
-</pre>
+    <pre class="php-code">
+      <?php
+      echo round(3.4);         // 3
+      echo round(3.5);         // 4
+      echo round(3.6);         // 4
+      echo round(3.6, 0);      // 4
+      echo round(1.95583, 2);  // 1.96
+      echo round(1241757, -3); // 1242000
+      echo round(5.045, 2);    // 5.05
+      echo round(5.055, 2);    // 5.06
+      ?>
+    </pre>
 
     <p><strong>Example #2 <code>mode</code> examples</strong></p>
-<pre class="php-code">
-<?php
-echo round(9.5, 0, PHP_ROUND_HALF_UP);   // 10
-echo round(9.5, 0, PHP_ROUND_HALF_DOWN); // 9
-echo round(9.5, 0, PHP_ROUND_HALF_EVEN); // 10
-echo round(9.5, 0, PHP_ROUND_HALF_ODD);  // 9
+    <pre class="php-code">
+      <?php
+      echo round(9.5, 0, PHP_ROUND_HALF_UP);   // 10
+      echo round(9.5, 0, PHP_ROUND_HALF_DOWN); // 9
+      echo round(9.5, 0, PHP_ROUND_HALF_EVEN); // 10
+      echo round(9.5, 0, PHP_ROUND_HALF_ODD);  // 9
 
-echo round(8.5, 0, PHP_ROUND_HALF_UP);   // 9
-echo round(8.5, 0, PHP_ROUND_HALF_DOWN); // 8
-echo round(8.5, 0, PHP_ROUND_HALF_EVEN); // 8
-echo round(8.5, 0, PHP_ROUND_HALF_ODD);  // 9
-?>
-</pre>
+      echo round(8.5, 0, PHP_ROUND_HALF_UP);   // 9
+      echo round(8.5, 0, PHP_ROUND_HALF_DOWN); // 8
+      echo round(8.5, 0, PHP_ROUND_HALF_EVEN); // 8
+      echo round(8.5, 0, PHP_ROUND_HALF_ODD);  // 9
+      ?>
+    </pre>
 
     <p><strong>Example #3 <code>mode with precision</code> examples</strong></p>
-<pre class="php-code">
-<?php
-/* Using PHP_ROUND_HALF_UP with 1 decimal digit precision */
-echo round( 1.55, 1, PHP_ROUND_HALF_UP);   //  1.6
-echo round( 1.54, 1, PHP_ROUND_HALF_UP);   //  1.5
-echo round(-1.55, 1, PHP_ROUND_HALF_UP);   // -1.6
-echo round(-1.54, 1, PHP_ROUND_HALF_UP);   // -1.5
+    <pre class="php-code">
+      <?php
+      /* Using PHP_ROUND_HALF_UP with 1 decimal digit precision */
+      echo round( 1.55, 1, PHP_ROUND_HALF_UP);   //  1.6
+      echo round( 1.54, 1, PHP_ROUND_HALF_UP);   //  1.5
+      echo round(-1.55, 1, PHP_ROUND_HALF_UP);   // -1.6
+      echo round(-1.54, 1, PHP_ROUND_HALF_UP);   // -1.5
 
-/* Using PHP_ROUND_HALF_DOWN with 1 decimal digit precision */
-echo round( 1.55, 1, PHP_ROUND_HALF_DOWN); //  1.5
-echo round( 1.54, 1, PHP_ROUND_HALF_DOWN); //  1.5
-echo round(-1.55, 1, PHP_ROUND_HALF_DOWN); // -1.5
-echo round(-1.54, 1, PHP_ROUND_HALF_DOWN); // -1.5
+      /* Using PHP_ROUND_HALF_DOWN with 1 decimal digit precision */
+      echo round( 1.55, 1, PHP_ROUND_HALF_DOWN); //  1.5
+      echo round( 1.54, 1, PHP_ROUND_HALF_DOWN); //  1.5
+      echo round(-1.55, 1, PHP_ROUND_HALF_DOWN); // -1.5
+      echo round(-1.54, 1, PHP_ROUND_HALF_DOWN); // -1.5
 
-/* Using PHP_ROUND_HALF_EVEN with 1 decimal digit precision */
-echo round( 1.55, 1, PHP_ROUND_HALF_EVEN); //  1.6
-echo round( 1.54, 1, PHP_ROUND_HALF_EVEN); //  1.5
-echo round(-1.55, 1, PHP_ROUND_HALF_EVEN); // -1.6
-echo round(-1.54, 1, PHP_ROUND_HALF_EVEN); // -1.5
+      /* Using PHP_ROUND_HALF_EVEN with 1 decimal digit precision */
+      echo round( 1.55, 1, PHP_ROUND_HALF_EVEN); //  1.6
+      echo round( 1.54, 1, PHP_ROUND_HALF_EVEN); //  1.5
+      echo round(-1.55, 1, PHP_ROUND_HALF_EVEN); // -1.6
+      echo round(-1.54, 1, PHP_ROUND_HALF_EVEN); // -1.5
 
-/* Using PHP_ROUND_HALF_ODD with 1 decimal digit precision */
-echo round( 1.55, 1, PHP_ROUND_HALF_ODD);  //  1.5
-echo round( 1.54, 1, PHP_ROUND_HALF_ODD);  //  1.5
-echo round(-1.55, 1, PHP_ROUND_HALF_ODD);  // -1.5
-echo round(-1.54, 1, PHP_ROUND_HALF_ODD);  // -1.5
-?>
-</pre>
- </div>
+      /* Using PHP_ROUND_HALF_ODD with 1 decimal digit precision */
+      echo round( 1.55, 1, PHP_ROUND_HALF_ODD);  //  1.5
+      echo round( 1.54, 1, PHP_ROUND_HALF_ODD);  //  1.5
+      echo round(-1.55, 1, PHP_ROUND_HALF_ODD);  // -1.5
+      echo round(-1.54, 1, PHP_ROUND_HALF_ODD);  // -1.5
+      ?>
+    </pre>
+  </div>

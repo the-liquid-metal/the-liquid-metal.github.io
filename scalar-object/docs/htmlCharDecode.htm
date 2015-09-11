@@ -1,98 +1,98 @@
 <h1>htmlCharDecode</h1>
 
- <div>
-  <p>
-   This function is the opposite of <a href="function.htmlspecialchars.php">htmlspecialchars()</a>. It
-   converts special HTML entities back to characters.
-  </p>
-  <p>
-   The converted entities are: <em>&amp;amp;</em>,
-   <em>&amp;quot;</em> (when <code>ENT_NOQUOTES</code> is not set),
-   <em>&amp;#039;</em> (when <code>ENT_QUOTES</code> is set),
-   <em>&amp;lt;</em> and <em>&amp;gt;</em>.
-  </p>
- </div>
+  <div>
+    <p>
+      This function is the opposite of <a href="function.htmlspecialchars.php">htmlspecialchars()</a>. It
+      converts special HTML entities back to characters.
+    </p>
+    <p>
+      The converted entities are: <em>&amp;amp;</em>, <em>&amp;quot;</em> (when <code>ENT_NOQUOTES</code>
+      is not set), <em>&amp;#039;</em> (when <code>ENT_QUOTES</code> is set), <em>&amp;lt;</em> and <em>&amp;gt;</em>.
+    </p>
+  </div>
 
- <div>
-  <h3>Parameters</h3>
-   <dl>
-     <dt>string</dt>
-     <dd>The string to decode.</dd>
+  <div>
+    <h3>Parameters</h3>
+    <dl>
+      <dt>string</dt>
+      <dd>The string to decode.</dd>
 
-     <dt>flags</dt>
-     <dd><p>A bitmask of one or more of the following flags, which specify how to handle quotes and
-       which document type to use. The default is <em>ENT_COMPAT | ENT_HTML401</em>.
-       <table class="table">
-        <caption><strong>Available <code>flags</code> constants</strong></caption>
+      <dt>flags</dt>
+      <dd>
+        <p>
+          A bitmask of one or more of the following flags, which specify how to handle quotes and
+          which document type to use. The default is <em>ENT_COMPAT | ENT_HTML401</em>.
+        </p>
+        <table class="table">
+          <caption><strong>Available <code>flags</code> constants</strong></caption>
+          <thead>
+            <tr>
+              <th>Constant Name</th>
+              <th>Description</th>
+            </tr>
+          </thead>
 
-         <thead>
-          <tr>
-           <th>Constant Name</th>
-           <th>Description</th>
-          </tr>
-         </thead>
+          <tbody>
+            <tr>
+              <td><code>ENT_COMPAT</code></td>
+              <td>Will convert double-quotes and leave single-quotes alone.</td>
+            </tr>
 
-         <tbody>
-          <tr>
-           <td><code>ENT_COMPAT</code></td>
-           <td>Will convert double-quotes and leave single-quotes alone.</td>
-          </tr>
+            <tr>
+              <td><code>ENT_QUOTES</code></td>
+              <td>Will convert both double and single quotes.</td>
+            </tr>
 
-          <tr>
-           <td><code>ENT_QUOTES</code></td>
-           <td>Will convert both double and single quotes.</td>
-          </tr>
+            <tr>
+              <td><code>ENT_NOQUOTES</code></td>
+              <td>Will leave both double and single quotes unconverted.</td>
+            </tr>
 
-          <tr>
-           <td><code>ENT_NOQUOTES</code></td>
-           <td>Will leave both double and single quotes unconverted.</td>
-          </tr>
+            <tr>
+              <td><code>ENT_HTML401</code></td>
+              <td>Handle code as HTML 4.01.</td>
+            </tr>
 
-          <tr>
-           <td><code>ENT_HTML401</code></td>
-           <td>Handle code as HTML 4.01.</td>
-          </tr>
+            <tr>
+              <td><code>ENT_XML1</code></td>
+              <td>Handle code as XML 1.</td>
+            </tr>
 
-          <tr>
-           <td><code>ENT_XML1</code></td>
-           <td>Handle code as XML 1.</td>
-          </tr>
+            <tr>
+              <td><code>ENT_XHTML</code></td>
+              <td>Handle code as XHTML.</td>
+            </tr>
 
-          <tr>
-           <td><code>ENT_XHTML</code></td>
-           <td>Handle code as XHTML.</td>
-          </tr>
+            <tr>
+              <td><code>ENT_HTML5</code></td>
+              <td>Handle code as HTML 5.</td>
+            </tr>
+          </tbody>
+        </table>
+      </dd>
+    </dl>
+  </div>
 
-          <tr>
-           <td><code>ENT_HTML5</code></td>
-           <td>Handle code as HTML 5.</td>
-          </tr>
-         </tbody>
-       </table>
-</p></dd>
-   </dl>
- </div>
+  <div>
+    <h3>Return Values</h3>
+    <p>Returns the decoded string.</p>
+  </div>
 
- <div>
-  <h3>Return Values</h3>
-  <p>Returns the decoded string.</p>
- </div>
-
- <div class="examples">
+  <div class="examples">
     <p><strong>Example #1 A htmlCharDecode() example</strong></p>
-<pre class="php-code">
-<?php
-$str = "&lt;p>this -&amp;gt; &amp;quot;&lt;/p>\n";
+    <pre class="php-code">
+      <?php
+      $str = "&lt;p>this -&amp;gt; &amp;quot;&lt;/p>\n";
 
-echo htmlCharDecode($str);
+      echo htmlCharDecode($str);
 
-// note that here the quotes aren't converted
-echo htmlCharDecode($str, ENT_NOQUOTES);
-?>
-</pre>
+      // note that here the quotes aren't converted
+      echo htmlCharDecode($str, ENT_NOQUOTES);
+      ?>
+    </pre>
     <div>The above example will output:</div>
-<pre class="output">
-&lt;p>this -> "&lt;/p>
-&lt;p>this -> &amp;quot;&lt;/p>
-</pre>
- </div>
+    <pre class="output">
+    &lt;p>this -> "&lt;/p>
+    &lt;p>this -> &amp;quot;&lt;/p>
+    </pre>
+  </div>

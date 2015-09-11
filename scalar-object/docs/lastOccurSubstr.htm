@@ -1,48 +1,51 @@
-<h1>lastOccurSubstr</h1>
+  <h1>lastOccurSubstr</h1>
 
- <div>
-   This function returns the portion of <code>haystack</code> which
-   starts at the last occurrence of <code>needle</code> and goes
-   until the end of <code>haystack</code>.
- </div>
+  <div>
+    This function returns the portion of <code>haystack</code> which
+    starts at the last occurrence of <code>needle</code> and goes
+    until the end of <code>haystack</code>.
+  </div>
 
- <div>
-  <h3>Parameters</h3>
-   <dl>
-     <dt>haystack</dt>
-     <dd>The string to search in</dd>
+  <div>
+    <h3>Parameters</h3>
+    <dl>
+      <dt>haystack</dt>
+      <dd>The string to search in</dd>
 
-     <dt>needle</dt>
-     <dd><p>If <code>needle</code> contains more than one character,
-       only the first is used. This behavior is different from that of
-       <a href="function.strstr.php">strstr()</a>.
-      </p>
-      <p>
-       If <code>needle</code> is not a string, it is converted to
-       an integer and applied as the ordinal value of a character.</p></dd>
-   </dl>
- </div>
+      <dt>needle</dt>
+      <dd>
+        <p>
+          If <code>needle</code> contains more than one character, only the first is used.
+          This behavior is different from that of <a href="function.strstr.php">strstr()</a>.
+         </p>
+        <p>
+          If <code>needle</code> is not a string, it is converted to
+          an integer and applied as the ordinal value of a character.
+        </p>
+      </dd>
+    </dl>
+  </div>
 
- <div>
-  <h3>Return Values</h3>
-  <p>
-   This function returns the portion of string, or <code>FALSE</code> if
-   <code>needle</code> is not found.
-  </p>
- </div>
+  <div>
+    <h3>Return Values</h3>
+    <p>
+     This function returns the portion of string, or <code>FALSE</code> if
+     <code>needle</code> is not found.
+    </p>
+  </div>
 
- <div class="examples">
+  <div class="examples">
     <p><strong>Example #1 lastOccurSubstr() example</strong></p>
-<pre class="php-code">
-<?php
-// get last directory in $PATH
-$dir = substr(lastOccurSubstr($PATH, ":"), 1);
+    <pre class="php-code">
+      <?php
+      // get last directory in $PATH
+      $dir = substr(lastOccurSubstr($PATH, ":"), 1);
 
-// get everything after last newline
-$text = "Line 1\nLine 2\nLine 3";
-$last = substr(lastOccurSubstr($text, 10), 1 );
-?>
-</pre>
- </div>
+      // get everything after last newline
+      $text = "Line 1\nLine 2\nLine 3";
+      $last = substr(lastOccurSubstr($text, 10), 1 );
+      ?>
+    </pre>
+  </div>
 
   <blockquote><strong>Note</strong>:This function is binary-safe.</blockquote>

@@ -1,41 +1,40 @@
-<h1>lowercaseFirst</h1>
+  <h1>lowercaseFirst</h1>
 
- <div>
-  <p>
-   Returns a string with the first character of
-   <code>str</code> , lowercased if that character is
-   alphabetic.
-  </p>
-  <p>
-   Note that 'alphabetic' is determined by the current locale. For
-   instance, in the default "C" locale characters such as umlaut-a
-   (ä) will not be converted.
-  </p>
- </div>
+  <div>
+    <p>
+      Returns a string with the first character of <code>str</code>,
+      lowercased if that character is alphabetic.
+    </p>
+    <p>
+      Note that 'alphabetic' is determined by the current locale. For
+      instance, in the default "C" locale characters such as umlaut-a
+      (ä) will not be converted.
+    </p>
+  </div>
 
- <div>
-  <h3>Parameters</h3>
-   <dl>
-     <dt>str</dt>
-     <dd>The input string.</dd>
-   </dl>
- </div>
+  <div>
+    <h3>Parameters</h3>
+    <dl>
+      <dt>str</dt>
+      <dd>The input string.</dd>
+    </dl>
+  </div>
 
- <div>
-  <h3>Return Values</h3>
-  <p>Returns the resulting string.</p>
- </div>
+  <div>
+    <h3>Return Values</h3>
+    <p>Returns the resulting string.</p>
+  </div>
 
- <div class="examples">
+  <div class="examples">
     <p><strong>Example #1 lowercaseFirst() example</strong></p>
-<pre class="php-code">
-<?php
-$foo = 'HelloWorld';
-$foo = lowercaseFirst($foo);             // helloWorld
-
-$bar = 'HELLO WORLD!';
-$bar = lowercaseFirst($bar);             // hELLO WORLD!
-$bar = lowercaseFirst(strtoupper($bar)); // hELLO WORLD!
-?>
-</pre>
- </div>
+    <pre class="php-code">
+      <?php
+      $foo = 'HelloWorld';
+      $foo = lowercaseFirst($foo);             // helloWorld
+      
+      $bar = 'HELLO WORLD!';
+      $bar = lowercaseFirst($bar);             // hELLO WORLD!
+      $bar = lowercaseFirst(strtoupper($bar)); // hELLO WORLD!
+      ?>
+    </pre>
+  </div>

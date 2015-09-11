@@ -1,46 +1,46 @@
-<h1>hexToDec</h1>
- <div>
-  <p>
-   Returns the decimal equivalent of the hexadecimal number
-   represented by the <code>hex_string</code> argument.
-   <strong>hexToDec()</strong> converts a hexadecimal string to a
-   decimal number. 
-  </p>
-  <p>
-   <strong>hexToDec()</strong> will ignore any non-hexadecimal 
-   characters it encounters.
-  </p>
- </div>
+  <h1>hexToDec</h1>
 
- <div>
-  <h3>Parameters</h3>
-   <dl>
-     <dt>hex_string</dt>
-     <dd>The hexadecimal string to convert</dd>
-   </dl>
- </div>
+  <div>
+    <p>
+      Returns the decimal equivalent of the hexadecimal number represented by the
+      <code>hex_string</code> argument. <strong>hexToDec()</strong> converts a
+      hexadecimal string to a decimal number. 
+    </p>
+    <p>
+      <strong>hexToDec()</strong> will ignore any non-hexadecimal 
+      characters it encounters.
+    </p>
+  </div>
 
- <div>
-  <h3>Return Values</h3>
-  <p>The decimal representation of <code>hex_string</code></p>
- </div>
+  <div>
+    <h3>Parameters</h3>
+    <dl>
+      <dt>hex_string</dt>
+      <dd>The hexadecimal string to convert</dd>
+    </dl>
+  </div>
 
- <div class="examples">
+  <div>
+    <h3>Return Values</h3>
+    <p>The decimal representation of <code>hex_string</code></p>
+  </div>
+
+  <div class="examples">
     <p><strong>Example #1 hexToDec() example</strong></p>
-<pre class="php-code">
-<?php
-var_dump(hexToDec("See"));
-var_dump(hexToDec("ee"));
-// both print "int(238)"
+    <pre class="php-code">
+      <?php
+      var_dump(hexToDec("See"));
+      var_dump(hexToDec("ee"));
+      // both print "int(238)"
 
-var_dump(hexToDec("that")); // print "int(10)"
-var_dump(hexToDec("a0")); // print "int(160)"
-?>
-</pre>
- </div>
+      var_dump(hexToDec("that")); // print "int(10)"
+      var_dump(hexToDec("a0")); // print "int(160)"
+      ?>
+    </pre>
+  </div>
 
-  <blockquote><strong>Note</strong>:
-    The function can convert numbers that are too large to fit into the platforms
-    <a href="language.types.integer.php">integer</a> type, larger values are returned as <a href="language.types.float.php">float</a> in
-    that case.
+  <blockquote>
+    <strong>Note</strong>: The function can convert numbers that are too large to fit into
+    the platforms <a href="language.types.integer.php">integer</a> type, larger values are
+    returned as <a href="language.types.float.php">float</a> in that case.
   </blockquote>

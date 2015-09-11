@@ -1,78 +1,81 @@
-<h1>max</h1>
- <div>
-  <p>
-   If the first and only parameter is an array, <strong>max()</strong>
-   returns the highest value in that array. If at least two parameters are 
-   provided, <strong>max()</strong> returns the biggest of these values.
-  </p>
-  <blockquote><strong>Note</strong>:
-    Values of different types will be compared using the <a href="language.operators.comparison.php">
-    standard comparison rules</a>. For instance, a non-numeric <a href="language.types.string.php">string</a> will be
-    compared to an <a href="language.types.integer.php">integer</a> as though it were <em>0</em>, but multiple
-    <a href="language.types.string.php">string</a> values will be compared alphanumerically. The actual value returned will be of the
-    original type with no conversion applied.
-   </blockquote>
- </div>
+  <h1>max</h1>
 
- <div>
-  <h3>Parameters</h3>
-   <dl>
-     <dt>values</dt>
-     <dd>An array containing the values.</dd>
+  <div>
+    <p>
+      If the first and only parameter is an array, <strong>max()</strong>
+      returns the highest value in that array. If at least two parameters are 
+      provided, <strong>max()</strong> returns the biggest of these values.
+    </p>
+    <blockquote>
+      <strong>Note</strong>: Values of different types will be compared using the
+      <a href="language.operators.comparison.php"> standard comparison rules</a>.
+      For instance, a non-numeric <a href="language.types.string.php">string</a> will be
+      compared to an <a href="language.types.integer.php">integer</a> as though it were
+      <em>0</em>, but multiple <a href="language.types.string.php">string</a> values will
+      be compared alphanumerically. The actual value returned will be of the original
+      type with no conversion applied.
+    </blockquote>
+  </div>
 
-     <dt>value1</dt>
-     <dd>Any <a href="language.operators.comparison.php">comparable</a> value.</dd>
+  <div>
+    <h3>Parameters</h3>
+    <dl>
+      <dt>values</dt>
+      <dd>An array containing the values.</dd>
 
-     <dt>value2</dt>
-     <dd>Any <a href="language.operators.comparison.php">comparable</a> value.</dd>
+      <dt>value1</dt>
+      <dd>Any <a href="language.operators.comparison.php">comparable</a> value.</dd>
 
-     <dt>...</dt>
-     <dd>Any <a href="language.operators.comparison.php">comparable</a> value.</dd>
-   </dl>
- </div>
+      <dt>value2</dt>
+      <dd>Any <a href="language.operators.comparison.php">comparable</a> value.</dd>
 
- <div>
-  <h3>Return Values</h3>
-  <p>
-   <strong>max()</strong> returns the parameter value considered "highest" according to standard
-   comparisons. If multiple values of different types evaluate as equal (e.g. <em>0</em>
-   and <em>'abc'</em>) the first provided to the function will be returned.
-  </p>
- </div>
+      <dt>...</dt>
+      <dd>Any <a href="language.operators.comparison.php">comparable</a> value.</dd>
+    </dl>
+  </div>
 
- <div class="examples">
+  <div>
+    <h3>Return Values</h3>
+    <p>
+      <strong>max()</strong> returns the parameter value considered "highest" according
+      to standard comparisons. If multiple values of different types evaluate as equal (e.g.
+      <em>0</em> and <em>'abc'</em>) the first provided to the function will be returned.
+    </p>
+  </div>
+
+  <div class="examples">
     <p><strong>Example #1 Example uses of <strong>max()</strong></strong></p>
-<pre class="php-code">
-<?php
-echo max(2, 3, 1, 6, 7);  // 7
-echo max(array(2, 4, 5)); // 5
+    <pre class="php-code">
+      <?php
+      echo max(2, 3, 1, 6, 7);  // 7
+      echo max(array(2, 4, 5)); // 5
 
-// The string 'hello' when compared to an int is treated as 0
-// Since the two values are equal, the order they are provided determines the result
-echo max(0, 'hello');     // 0
-echo max('hello', 0);     // hello
+      // The string 'hello' when compared to an int is treated as 0
+      // Since the two values are equal, the order they are provided determines the result
+      echo max(0, 'hello');     // 0
+      echo max('hello', 0);     // hello
 
-// Here we are comparing -1 &lt; 0, so 'hello' is the highest value
-echo max('hello', -1);    // hello
+      // Here we are comparing -1 &lt; 0, so 'hello' is the highest value
+      echo max('hello', -1);    // hello
 
-// With multiple arrays of different lengths, max returns the longest
-$val = max(array(2, 2, 2), array(1, 1, 1, 1)); // array(1, 1, 1, 1)
+      // With multiple arrays of different lengths, max returns the longest
+      $val = max(array(2, 2, 2), array(1, 1, 1, 1)); // array(1, 1, 1, 1)
 
-// Multiple arrays of the same length are compared from left to right
-// so in our example: 2 == 2, but 5 > 4
-$val = max(array(2, 4, 8), array(2, 5, 1)); // array(2, 5, 1)
+      // Multiple arrays of the same length are compared from left to right
+      // so in our example: 2 == 2, but 5 > 4
+      $val = max(array(2, 4, 8), array(2, 5, 1)); // array(2, 5, 1)
 
-// If both an array and non-array are given, the array will be returned
-// as comparisons treat arrays as greater than any other value
-$val = max('string', array(2, 5, 7), 42);   // array(2, 5, 7)
+      // If both an array and non-array are given, the array will be returned
+      // as comparisons treat arrays as greater than any other value
+      $val = max('string', array(2, 5, 7), 42);   // array(2, 5, 7)
 
-// If one argument is NULL or a boolean, it will be compared against
-// other values using the rule FALSE &lt; TRUE regardless of the other types involved
-// In the below example, -10 is treated as TRUE in the comparison
-$val = max(-10, FALSE); // -10
+      // If one argument is NULL or a boolean, it will be compared against
+      // other values using the rule FALSE &lt; TRUE regardless of the other types involved
+      // In the below example, -10 is treated as TRUE in the comparison
+      $val = max(-10, FALSE); // -10
 
-// 0, on the other hand, is treated as FALSE, so is "lower than" TRUE
-$val = max(0, TRUE); // TRUE
-?>
-</pre>
- </div>
+      // 0, on the other hand, is treated as FALSE, so is "lower than" TRUE
+      $val = max(0, TRUE); // TRUE
+      ?>
+    </pre>
+  </div>

@@ -1,62 +1,66 @@
-<h1>replace</h1>
- <div>
-  <p>
-   <strong>replace()</strong> replaces the values of
-   <code>array1</code> with values having the same keys in each of the following
-   arrays. If a key from the first array exists in the second array, its value
-   will be replaced by the value from the second array. If the key exists in the
-   second array, and not the first, it will be created in the first array.
-   If a key only exists in the first array, it will be left as is.
-   If several arrays are passed for replacement, they will be processed
-   in order, the later arrays overwriting the previous values.
-  </p>
-  <p>
-   <strong>replace()</strong> is not recursive : it will replace
-   values in the first array by whatever type is in the second array.
-  </p>
- </div>
+  <h1>replace</h1>
 
- <div>
-  <h3>Parameters</h3>
-   <dl>
-     <dt>array1</dt>
-     <dd>The array in which elements are replaced.</dd>
+  <div>
+    <p>
+      <strong>replace()</strong> replaces the values of
+      <code>array1</code> with values having the same keys in each of the following
+      arrays. If a key from the first array exists in the second array, its value
+      will be replaced by the value from the second array. If the key exists in the
+      second array, and not the first, it will be created in the first array.
+      If a key only exists in the first array, it will be left as is.
+      If several arrays are passed for replacement, they will be processed
+      in order, the later arrays overwriting the previous values.
+    </p>
+    <p>
+      <strong>replace()</strong> is not recursive : it will replace
+      values in the first array by whatever type is in the second array.
+    </p>
+  </div>
 
-     <dt>array2</dt>
-     <dd>The array from which elements will be extracted.</dd>
+  <div>
+    <h3>Parameters</h3>
+    <dl>
+      <dt>array1</dt>
+      <dd>The array in which elements are replaced.</dd>
 
-     <dt>...</dt>
-     <dd>More arrays from which elements will be extracted.
-       Values from later arrays overwrite the previous values.</dd>
-   </dl>
- </div>
+      <dt>array2</dt>
+      <dd>The array from which elements will be extracted.</dd>
 
- <div>
-  <h3>Return Values</h3>
-  <p>Returns an <a href="language.types.array.php">array</a>, or <code>NULL</code> if an error occurs.</p>
- </div>
+      <dt>...</dt>
+      <dd>
+        More arrays from which elements will be extracted.
+        Values from later arrays overwrite the previous values.
+      </dd>
+    </dl>
+  </div>
 
- <div class="examples">
+  <div>
+    <h3>Return Values</h3>
+    <p>Returns an <a href="language.types.array.php">array</a>, or <code>NULL</code> if an error occurs.</p>
+  </div>
+
+  <div class="examples">
     <p><strong>Example #1 replace() example</strong></p>
-<pre class="php-code">
-<?php
-$base = array("orange", "banana", "apple", "raspberry");
-$replacements = array(0 => "pineapple", 4 => "cherry");
-$replacements2 = array(0 => "grape");
+    <pre class="php-code">
+      <?php
+      $base = array("orange", "banana", "apple", "raspberry");
+      $replacements = array(0 => "pineapple", 4 => "cherry");
+      $replacements2 = array(0 => "grape");
 
-$basket = replace($base, $replacements, $replacements2);
-print_r($basket);
-?>
-</pre>
+      $basket = replace($base, $replacements, $replacements2);
+      print_r($basket);
+      ?>
+    </pre>
+
     <div>The above example will output:</div>
-<pre class="output">
-Array
-(
-    [0] => grape
-    [1] => banana
-    [2] => apple
-    [3] => raspberry
-    [4] => cherry
-)
-</pre>
- </div>
+    <pre class="output">
+      Array
+      (
+          [0] => grape
+          [1] => banana
+          [2] => apple
+          [3] => raspberry
+          [4] => cherry
+      )
+    </pre>
+  </div>

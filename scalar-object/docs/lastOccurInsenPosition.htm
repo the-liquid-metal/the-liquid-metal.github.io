@@ -1,71 +1,76 @@
-<h1>lastOccurInsenPosition</h1>
+  <h1>lastOccurInsenPosition</h1>
 
- <div>
-  <p>
-   Find the numeric position of the last occurrence of
-   <code>needle</code> in the <code>haystack</code> string.
-  </p>
-  <p> 
-   Unlike the <a href="function.strrpos.php">strrpos()</a>, <strong>lastOccurInsenPosition()</strong> is
-   case-insensitive.
-  </p>
- </div>
-
- <div>
-  <h3>Parameters</h3>
-   <dl>
-     <dt>haystack</dt>
-     <dd>The string to search in.</dd>
-
-     <dt>needle</dt>
-     <dd>If <code>needle</code> is not a string, it is converted
-       to an integer and applied as the ordinal value of a character.</dd>
-
-     <dt>offset</dt>
-     <dd>If specified, search will start this number of characters counted from the
-       beginning of the string. If the value is negative, search will instead start
-       from that many characters from the end of the string, searching backwards.</dd>
-   </dl>
- </div>
-
- <div>
-  <h3>Return Values</h3>
-  <p>
-   Returns the position where the needle exists relative to the beginnning of
-   the <code>haystack</code> string (independent of search direction
-   or offset). Also note that string positions start at 0, and not 1.
-  </p>
-  <p>Returns <code>FALSE</code> if the needle was not found.</p>
-  <div class="warning">
-    <strong>Warning</strong><br/>
-    This function may return Boolean <code>FALSE</code>, but may also return a non-Boolean
-    value which evaluates to <code>FALSE</code>. Please read the section on
-    <a href="language.types.boolean.php">Booleans</a> for more information. Use
-    <a href="language.operators.comparison.php">the === operator</a> for testing
-    the return value of this function.
+  <div>
+    <p>
+      Find the numeric position of the last occurrence of
+      <code>needle</code> in the <code>haystack</code> string.
+    </p>
+    <p> 
+      Unlike the <a href="function.strrpos.php">strrpos()</a>, <strong>lastOccurInsenPosition()</strong> is
+      case-insensitive.
+    </p>
   </div>
- </div>
 
- <div class="examples">
+  <div>
+    <h3>Parameters</h3>
+    <dl>
+      <dt>haystack</dt>
+      <dd>The string to search in.</dd>
+
+      <dt>needle</dt>
+      <dd>
+        If <code>needle</code> is not a string, it is converted
+        to an integer and applied as the ordinal value of a character.
+      </dd>
+
+      <dt>offset</dt>
+      <dd>
+        If specified, search will start this number of characters counted from the
+        beginning of the string. If the value is negative, search will instead start
+        from that many characters from the end of the string, searching backwards.
+      </dd>
+    </dl>
+  </div>
+
+  <div>
+    <h3>Return Values</h3>
+    <p>
+      Returns the position where the needle exists relative to the beginnning of
+      the <code>haystack</code> string (independent of search direction
+      or offset). Also note that string positions start at 0, and not 1.
+    </p>
+    <p>Returns <code>FALSE</code> if the needle was not found.</p>
+    <div class="warning">
+      <strong>Warning</strong><br/>
+      This function may return Boolean <code>FALSE</code>, but may also return a non-Boolean
+      value which evaluates to <code>FALSE</code>. Please read the section on
+      <a href="language.types.boolean.php">Booleans</a> for more information. Use
+      <a href="language.operators.comparison.php">the === operator</a> for testing
+      the return value of this function.
+    </div>
+  </div>
+
+  <div class="examples">
     <p><strong>Example #1 A simple lastOccurInsenPosition() example</strong></p>
-<pre class="php-code">
-<?php
-$haystack = 'ababcd';
-$needle   = 'aB';
+    <pre class="php-code">
+      <?php
+      $haystack = 'ababcd';
+      $needle   = 'aB';
 
-$pos      = lastOccurInsenPosition($haystack, $needle);
+      $pos      = lastOccurInsenPosition($haystack, $needle);
 
-if ($pos === false) {
-    echo "Sorry, we did not find ($needle) in ($haystack)";
-} else {
-    echo "Congratulations!\n";
-    echo "We found the last ($needle) in ($haystack) at position ($pos)";
-}
-?>
-</pre>
+      if ($pos === false) {
+          echo "Sorry, we did not find ($needle) in ($haystack)";
+      } else {
+          echo "Congratulations!\n";
+          echo "We found the last ($needle) in ($haystack) at position ($pos)";
+      }
+      ?>
+    </pre>
+
     <div>The above example will output:</div>
-<pre class="output">
-   Congratulations!
-   We found the last (aB) in (ababcd) at position (2)
-</pre>
- </div>
+    <pre class="output">
+       Congratulations!
+       We found the last (aB) in (ababcd) at position (2)
+    </pre>
+  </div>

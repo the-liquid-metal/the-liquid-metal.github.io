@@ -1,93 +1,96 @@
-<h1>firstOccurPosition</h1>
+  <h1>firstOccurPosition</h1>
 
- <div>
-  <p>
-   Find the numeric position of the first occurrence of
-   <code>needle</code> in the <code>haystack</code> string.
-  </p>
- </div>
-
- <div>
-  <h3>Parameters</h3>
-   <dl>
-     <dt>haystack</dt>
-     <dd>The string to search in.</dd>
-
-     <dt>needle</dt>
-     <dd>If <code>needle</code> is not a string, it is converted
-       to an integer and applied as the ordinal value of a character.</dd>
-
-     <dt>offset</dt>
-     <dd>If specified, search will start this number of characters counted from
-       the beginning of the string. Unlike <a href="function.strrpos.php">strrpos()</a> and
-       <a href="function.strripos.php">strripos()</a>, the offset cannot be negative.</dd>
-   </dl>
- </div>
-
- <div>
-  <h3>Return Values</h3>
-  <p>
-   Returns the position of where the needle exists relative to the beginning of
-   the <code>haystack</code> string (independent of offset).
-   Also note that string positions start at 0, and not 1.
-  </p>
-  <p>Returns <code>FALSE</code> if the needle was not found.</p>
-  <div class="warning">
-    <strong>Warning</strong><br/>
-    This function may return Boolean <code>FALSE</code>, but may also return a non-Boolean
-    value which evaluates to <code>FALSE</code>. Please read the section on
-    <a href="language.types.boolean.php">Booleans</a> for more information. Use
-    <a href="language.operators.comparison.php">the === operator</a> for testing
-    the return value of this function.
+  <div>
+    Find the numeric position of the first occurrence of
+    <code>needle</code> in the <code>haystack</code> string.
   </div>
- </div>
 
- <div class="examples">
+  <div>
+    <h3>Parameters</h3>
+    <dl>
+      <dt>haystack</dt>
+      <dd>The string to search in.</dd>
+
+      <dt>needle</dt>
+      <dd>
+        If <code>needle</code> is not a string, it is converted
+        to an integer and applied as the ordinal value of a character.
+      </dd>
+
+      <dt>offset</dt>
+      <dd>
+        If specified, search will start this number of characters counted from the
+        beginning of the string. Unlike <a href="function.strrpos.php">strrpos()</a> and
+        <a href="function.strripos.php">strripos()</a>, the offset cannot be negative.
+      </dd>
+    </dl>
+  </div>
+
+  <div>
+    <h3>Return Values</h3>
+    <p>
+      Returns the position of where the needle exists relative to the beginning of
+      the <code>haystack</code> string (independent of offset).
+      Also note that string positions start at 0, and not 1.
+    </p>
+    <p>Returns <code>FALSE</code> if the needle was not found.</p>
+
+    <div class="warning">
+      <strong>Warning</strong><br/>
+      This function may return Boolean <code>FALSE</code>, but may also return a non-Boolean
+      value which evaluates to <code>FALSE</code>. Please read the section on
+      <a href="language.types.boolean.php">Booleans</a> for more information. Use
+      <a href="language.operators.comparison.php">the === operator</a> for testing
+      the return value of this function.
+    </div>
+  </div>
+
+  <div class="examples">
     <p><strong>Example #1 Using <em>===</em></strong></p>
-<pre class="php-code">
-<?php
-$mystring = 'abc';
-$findme   = 'a';
-$pos = firstOccurPosition($mystring, $findme);
-
-// Note our use of ===.  Simply == would not work as expected
-// because the position of 'a' was the 0th (first) character.
-if ($pos === false) {
-    echo "The string '$findme' was not found in the string '$mystring'";
-} else {
-    echo "The string '$findme' was found in the string '$mystring'";
-    echo " and exists at position $pos";
-}
-?>
-</pre>
+    <pre class="php-code">
+      <?php
+      $mystring = 'abc';
+      $findme   = 'a';
+      $pos = firstOccurPosition($mystring, $findme);
+      
+      // Note our use of ===.  Simply == would not work as expected
+      // because the position of 'a' was the 0th (first) character.
+      if ($pos === false) {
+          echo "The string '$findme' was not found in the string '$mystring'";
+      } else {
+          echo "The string '$findme' was found in the string '$mystring'";
+          echo " and exists at position $pos";
+      }
+      ?>
+    </pre>
 
     <p><strong>Example #2 Using !==</strong></p>
-<pre class="php-code">
-<?php
-$mystring = 'abc';
-$findme   = 'a';
-$pos = firstOccurPosition($mystring, $findme);
+    <pre class="php-code">
+      <?php
+      $mystring = 'abc';
+      $findme   = 'a';
+      $pos = firstOccurPosition($mystring, $findme);
 
-// The !== operator can also be used.  Using != would not work as expected
-// because the position of 'a' is 0. The statement (0 != false) evaluates 
-// to false.
-if ($pos !== false) {
-     echo "The string '$findme' was found in the string '$mystring'";
-         echo " and exists at position $pos";
-} else {
-     echo "The string '$findme' was not found in the string '$mystring'";
-}
-?>
-</pre>
+      // The !== operator can also be used.  Using != would not work as expected
+      // because the position of 'a' is 0. The statement (0 != false) evaluates 
+      // to false.
+      if ($pos !== false) {
+           echo "The string '$findme' was found in the string '$mystring'";
+               echo " and exists at position $pos";
+      } else {
+           echo "The string '$findme' was not found in the string '$mystring'";
+      }
+      ?>
+    </pre>
 
     <p><strong>Example #3 Using an offset</strong></p>
-<pre class="php-code">
-<?php
-// We can search for the character, ignoring anything before the offset
-$newstring = 'abcdef abcdef';
-$pos = firstOccurPosition($newstring, 'a', 1); // $pos = 7, not 0
-?>
-</pre>
- </div>
+    <pre class="php-code">
+      <?php
+      // We can search for the character, ignoring anything before the offset
+      $newstring = 'abcdef abcdef';
+      $pos = firstOccurPosition($newstring, 'a', 1); // $pos = 7, not 0
+      ?>
+    </pre>
+  </div>
 
   <blockquote><strong>Note</strong>:This function is binary-safe.</blockquote>

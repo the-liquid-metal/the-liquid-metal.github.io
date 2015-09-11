@@ -1,65 +1,63 @@
-<h1>metaphone</h1>
+  <h1>metaphone</h1>
 
- <div>
-  <p>
-   Calculates the metaphone key of <code>str</code>.
-  </p>
-  <p>
-   Similar to <a href="function.soundex.php">soundex()</a> metaphone creates the same key for
-   similar sounding words. It's more accurate than
-   <a href="function.soundex.php">soundex()</a> as it knows the basic rules of English
-   pronunciation.  The metaphone generated keys are of variable length.
-  </p>
-  <p>
-   Metaphone was developed by Lawrence Philips
-   &lt;lphilips at verity dot com>. It is described in ["Practical
-   Algorithms for Programmers", Binstock &amp; Rex, Addison Wesley,
-   1995].
-  </p>
- </div>
+  <div>
+    <p>Calculates the metaphone key of <code>str</code>.</p>
+    <p>
+      Similar to <a href="function.soundex.php">soundex()</a> metaphone creates the same key for similar
+      sounding words. It's more accurate than <a href="function.soundex.php">soundex()</a> as it knows
+      the basic rules of English pronunciation. The metaphone generated keys are of variable length.
+    </p>
+    <p>
+      Metaphone was developed by Lawrence Philips &lt;lphilips at verity dot com>. It is described in
+      ["Practical Algorithms for Programmers", Binstock &amp; Rex, Addison Wesley, 1995].
+    </p>
+  </div>
 
- <div>
-  <h3>Parameters</h3>
-   <dl>
-     <dt>str</dt>
-     <dd>The input string.</dd>
+  <div>
+    <h3>Parameters</h3>
+    <dl>
+      <dt>str</dt>
+      <dd>The input string.</dd>
 
-     <dt>phonemes</dt>
-     <dd>This parameter restricts the returned metaphone key to 
-       <code>phonemes</code> characters in length.
-       The default value of <em>0</em> means no restriction.</dd>
-   </dl>
- </div>
+      <dt>phonemes</dt>
+      <dd>
+        This parameter restricts the returned metaphone key to <code>phonemes</code>
+        characters in length. The default value of <em>0</em> means no restriction.
+      </dd>
+    </dl>
+  </div>
 
- <div>
-  <h3>Return Values</h3>
-  <p>Returns the metaphone key as a string,  or <code>FALSE</code> on failure.</p>
- </div>
+  <div>
+    <h3>Return Values</h3>
+    <p>Returns the metaphone key as a string,  or <code>FALSE</code> on failure.</p>
+  </div>
 
- <div class="examples">
+  <div class="examples">
     <p><strong>Example #1 metaphone() basic example</strong></p>
-<pre class="php-code">
-<?php
-var_dump(metaphone('programming'));
-var_dump(metaphone('programmer'));
-?>
-</pre>
+    <pre class="php-code">
+      <?php
+      var_dump(metaphone('programming'));
+      var_dump(metaphone('programmer'));
+      ?>
+    </pre>
+
     <div>The above example will output something similar to:</div>
-<pre class="output">
-string(7) "PRKRMNK"
-string(6) "PRKRMR"
-</pre>
+    <pre class="output">
+      string(7) "PRKRMNK"
+      string(6) "PRKRMR"
+    </pre>
 
     <p><strong>Example #2 Using the <code>phonemes</code> parameter</strong></p>
-<pre class="php-code">
-<?php
-var_dump(metaphone('programming', 5));
-var_dump(metaphone('programmer', 5));
-?>
-</pre>
+    <pre class="php-code">
+      <?php
+      var_dump(metaphone('programming', 5));
+      var_dump(metaphone('programmer', 5));
+      ?>
+    </pre>
+
     <div>The above example will output something similar to:</div>
-<pre class="output">
-string(5) "PRKRM"
-string(5) "PRKRM"
-</pre>
- </div>
+    <pre class="output">
+      string(5) "PRKRM"
+      string(5) "PRKRM"
+    </pre>
+  </div>
