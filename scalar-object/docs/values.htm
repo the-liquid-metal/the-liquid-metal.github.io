@@ -1,38 +1,40 @@
-<h1>values</h1>
- <div>
-  <p>
-   <strong>values()</strong> returns all the values from the
-   <code>array</code> and indexes the array numerically.
-  </p>
- </div>
+  <h1>values</h1>
 
- <div>
-  <h3>Parameters</h3>
-   <dl>
-     <dt>array</dt>
-     <dd>The array.</dd>
-   </dl>
- </div>
+  <div>
+    <p>
+      <strong>values()</strong> returns all the values from the
+      <code>array</code> and indexes the array numerically.
+    </p>
+  </div>
 
- <div>
-  <h3>Return Values</h3>
-  <p>Returns an indexed array of values.</p>
- </div>
+  <div>
+    <h3>Parameters</h3>
+    <dl>
+      <dt>array</dt>
+      <dd>The array.</dd>
+    </dl>
+  </div>
 
- <div class="examples">
+  <div>
+    <h3>Return Values</h3>
+    <p>Returns an indexed array of values.</p>
+  </div>
+
+  <div class="examples">
     <p><strong>Example #1 values() example</strong></p>
-<pre class="php-code">
-<?php
-$array = array("size" => "XL", "color" => "gold");
-print_r(values($array));
-?>
-</pre>
+    <pre class="php-code">
+      <?php
+      $array = array("size" => "XL", "color" => "gold");
+      print_r(values($array));
+      ?>
+    </pre>
+
     <div>The above example will output:</div>
-<pre class="output">
-Array
-(
-    [0] => XL
-    [1] => gold
-)
-</pre>
- </div>
+    <pre class="output">
+      Array
+      (
+          [0] => XL
+          [1] => gold
+      )
+    </pre>
+  </div>

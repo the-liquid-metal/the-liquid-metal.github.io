@@ -1,62 +1,60 @@
-<h1>substrCount</h1>
- <div>
-  <p>
-   <strong>substrCount()</strong> returns the number of times the
-   <code>needle</code> substring occurs in the
-   <code>haystack</code> string. Please note that
-   <code>needle</code> is case sensitive.
-  </p>
-  <blockquote><strong>Note</strong>:
-    This function doesn't count overlapped substrings. See the example below!
-   </blockquote>
- </div>
+  <h1>substrCount</h1>
+  <div>
+    <p>
+      <strong>substrCount()</strong> returns the number of times the <code>needle</code> substring
+      occurs in the <code>haystack</code> string. Please note that <code>needle</code> is case sensitive.
+    </p>
+    <blockquote>
+      <strong>Note</strong>: This function doesn't count overlapped substrings. See the example below!
+    </blockquote>
+  </div>
 
- <div>
-  <h3>Parameters</h3>
-   <dl>
-     <dt>haystack</dt>
-     <dd>The string to search in</dd>
+  <div>
+    <h3>Parameters</h3>
+    <dl>
+      <dt>haystack</dt>
+      <dd>The string to search in</dd>
 
-     <dt>needle</dt>
-     <dd>The substring to search for</dd>
+      <dt>needle</dt>
+      <dd>The substring to search for</dd>
 
-     <dt>offset</dt>
-     <dd>The offset where to start counting</dd>
+      <dt>offset</dt>
+      <dd>The offset where to start counting</dd>
 
-     <dt>length</dt>
-     <dd>The maximum length after the specified offset to search for the
-       substring. It outputs a warning if the offset plus the length is
-       greater than the <code>haystack</code> length.</dd>
-   </dl>
- </div>
+      <dt>length</dt>
+      <dd>
+        The maximum length after the specified offset to search for the substring. It outputs
+        a warning if the offset plus the length is greater than the <code>haystack</code> length.
+      </dd>
+    </dl>
+  </div>
 
- <div>
-  <h3>Return Values</h3>
-  <p>This function returns an <a href="language.types.integer.php">integer</a>.</p>
- </div>
+  <div>
+    <h3>Return Values</h3>
+    <p>This function returns an <a href="language.types.integer.php">integer</a>.</p>
+  </div>
 
- <div class="examples">
+  <div class="examples">
     <p><strong>Example #1 A substrCount() example</strong></p>
-<pre class="php-code">
-<?php
-$text = 'This is a test';
-echo strlen($text); // 14
+    <pre class="php-code">
+      <?php
+      $text = 'This is a test';
+      echo strlen($text); // 14
 
-echo substrCount($text, 'is'); // 2
+      echo substrCount($text, 'is'); // 2
 
-// the string is reduced to 's is a test', so it prints 1
-echo substrCount($text, 'is', 3);
+      // the string is reduced to 's is a test', so it prints 1
+      echo substrCount($text, 'is', 3);
 
-// the text is reduced to 's i', so it prints 0
-echo substrCount($text, 'is', 3, 3);
+      // the text is reduced to 's i', so it prints 0
+      echo substrCount($text, 'is', 3, 3);
 
-// generates a warning because 5+10 > 14
-echo substrCount($text, 'is', 5, 10);
+      // generates a warning because 5+10 > 14
+      echo substrCount($text, 'is', 5, 10);
 
-
-// prints only 1, because it doesn't count overlapped substrings
-$text2 = 'gcdgcdgcd';
-echo substrCount($text2, 'gcdgcd');
-?>
-</pre>
- </div>
+      // prints only 1, because it doesn't count overlapped substrings
+      $text2 = 'gcdgcdgcd';
+      echo substrCount($text2, 'gcdgcd');
+      ?>
+    </pre>
+  </div>

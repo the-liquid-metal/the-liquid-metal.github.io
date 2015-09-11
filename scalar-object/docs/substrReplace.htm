@@ -1,108 +1,107 @@
-<h1>substrReplace</h1>
+  <h1>substrReplace</h1>
 
- <div>
-  <p>
-   <strong>substrReplace()</strong> replaces a copy of
-   <code>string</code> delimited by the
-   <code>start</code> and (optionally)
-   <code>length</code> parameters with the string given in
-   <code>replacement</code>. 
-  </p>
- </div>
+  <div>
+    <p>
+      <strong>substrReplace()</strong> replaces a copy of <code>string</code> delimited by the
+      <code>start</code> and (optionally) <code>length</code> parameters with the string given
+      in <code>replacement</code>. 
+    </p>
+  </div>
 
- <div>
-  <h3>Parameters</h3>
-   <dl>
-     <dt>string</dt>
-     <dd><p>The input string.</p>
-      <p>
-       An <a href="language.types.array.php">array</a> of <a href="language.types.string.php">string</a>s can be provided, in which
-       case the replacements will occur on each string in turn. In this case,
-       the <code>replacement</code>, <code>start</code>
-       and <code>length</code> parameters may be provided either as
-       scalar values to be applied to each input string in turn, or as
-       <a href="language.types.array.php">array</a>s, in which case the corresponding array element will
-       be used for each input string.</p></dd>
+  <div>
+    <h3>Parameters</h3>
+    <dl>
+      <dt>string</dt>
+      <dd>
+        <p>The input string.</p>
+        <p>
+          An <a href="language.types.array.php">array</a> of <a href="language.types.string.php">string</a>s
+          can be provided, in which case the replacements will occur on each string in turn. In this case,
+          the <code>replacement</code>, <code>start</code> and <code>length</code> parameters may be provided
+          either as scalar values to be applied to each input string in turn, or as <a href="language.types.array.php">array</a>s,
+          in which case the corresponding array element will be used for each input string.
+        </p>
+      </dd>
 
-     <dt>replacement</dt>
-     <dd>The replacement string.</dd>
+      <dt>replacement</dt>
+      <dd>The replacement string.</dd>
 
-     <dt>start</dt>
-     <dd><p>If <code>start</code> is positive, the replacing will
-       begin at the <code>start</code>'th offset into
-       <code>string</code>.
-      </p>
-      <p>
-       If <code>start</code> is negative, the replacing will
-       begin at the <code>start</code>'th character from the
-       end of <code>string</code>.</p></dd>
+      <dt>start</dt>
+      <dd>
+        <p>
+          If <code>start</code> is positive, the replacing will begin at the <code>start</code>'th
+          offset into <code>string</code>.
+        </p>
+        <p>
+          If <code>start</code> is negative, the replacing will begin at the <code>start</code>'th
+          character from the end of <code>string</code>.
+        </p>
+      </dd>
 
-     <dt>length</dt>
-     <dd>If given and is positive, it represents the length of the portion of
-       <code>string</code> which is to be replaced. If it is
-       negative, it represents the number of characters from the end of
-       <code>string</code> at which to stop replacing. If it
-       is not given, then it will default to strlen(
-       <code>string</code> ); i.e. end the replacing at the
-       end of <code>string</code>. Of course, if
-       <code>length</code> is zero then this function will have the
-       effect of inserting <code>replacement</code> into
-       <code>string</code> at the given
-       <code>start</code> offset.</dd>
-   </dl>
- </div>
+      <dt>length</dt>
+      <dd>
+        If given and is positive, it represents the length of the portion of <code>string</code>
+        which is to be replaced. If it is negative, it represents the number of characters from the
+        end of <code>string</code> at which to stop replacing. If it is not given, then it will default
+        to strlen( <code>string</code> ); i.e. end the replacing at the end of <code>string</code>. Of
+        course, if <code>length</code> is zero then this function will have the effect of inserting
+        <code>replacement</code> into <code>string</code> at the given <code>start</code> offset.
+      </dd>
+    </dl>
+  </div>
 
- <div>
-  <h3>Return Values</h3>
-  <p>The result string is returned. If <code>string</code> is an array then array is returned.</p>
- </div>
+  <div>
+    <h3>Return Values</h3>
+    <p>The result string is returned. If <code>string</code> is an array then array is returned.</p>
+  </div>
 
- <div class="examples">
+  <div class="examples">
     <p><strong>Example #1 Simple substrReplace() examples</strong></p>
-<pre class="php-code">
-<?php
-$var = 'ABCDEFGH:/MNRPQR/';
-echo "Original: $var&lt;hr />\n";
+    <pre class="php-code">
+      <?php
+      $var = 'ABCDEFGH:/MNRPQR/';
+      echo "Original: $var&lt;hr />\n";
 
-/* These two examples replace all of $var with 'bob'. */
-echo substrReplace($var, 'bob', 0) . "&lt;br />\n";
-echo substrReplace($var, 'bob', 0, strlen($var)) . "&lt;br />\n";
+      /* These two examples replace all of $var with 'bob'. */
+      echo substrReplace($var, 'bob', 0) . "&lt;br />\n";
+      echo substrReplace($var, 'bob', 0, strlen($var)) . "&lt;br />\n";
 
-/* Insert 'bob' right at the beginning of $var. */
-echo substrReplace($var, 'bob', 0, 0) . "&lt;br />\n";
+      /* Insert 'bob' right at the beginning of $var. */
+      echo substrReplace($var, 'bob', 0, 0) . "&lt;br />\n";
 
-/* These next two replace 'MNRPQR' in $var with 'bob'. */
-echo substrReplace($var, 'bob', 10, -1) . "&lt;br />\n";
-echo substrReplace($var, 'bob', -7, -1) . "&lt;br />\n";
+      /* These next two replace 'MNRPQR' in $var with 'bob'. */
+      echo substrReplace($var, 'bob', 10, -1) . "&lt;br />\n";
+      echo substrReplace($var, 'bob', -7, -1) . "&lt;br />\n";
 
-/* Delete 'MNRPQR' from $var. */
-echo substrReplace($var, '', 10, -1) . "&lt;br />\n";
-?>
-</pre>
+      /* Delete 'MNRPQR' from $var. */
+      echo substrReplace($var, '', 10, -1) . "&lt;br />\n";
+      ?>
+    </pre>
 
     <p><strong>Example #2 Using <strong>substrReplace()</strong> to replace multiple strings at once</strong></p>
-<pre class="php-code">
-<?php
-$input = array('A: XXX', 'B: XXX', 'C: XXX');
+    <pre class="php-code">
+      <?php
+      $input = array('A: XXX', 'B: XXX', 'C: XXX');
 
-// A simple case: replace XXX in each string with YYY.
-echo implode('; ', substrReplace($input, 'YYY', 3, 3))."\n";
+      // A simple case: replace XXX in each string with YYY.
+      echo implode('; ', substrReplace($input, 'YYY', 3, 3))."\n";
 
-// A more complicated case where each replacement is different.
-$replace = array('AAA', 'BBB', 'CCC');
-echo implode('; ', substrReplace($input, $replace, 3, 3))."\n";
+      // A more complicated case where each replacement is different.
+      $replace = array('AAA', 'BBB', 'CCC');
+      echo implode('; ', substrReplace($input, $replace, 3, 3))."\n";
 
-// Replace a different number of characters each time.
-$length = array(1, 2, 3);
-echo implode('; ', substrReplace($input, $replace, 3, $length))."\n";
-?>
-</pre>
+      // Replace a different number of characters each time.
+      $length = array(1, 2, 3);
+      echo implode('; ', substrReplace($input, $replace, 3, $length))."\n";
+      ?>
+    </pre>
+
     <div>The above example will output:</div>
-<pre class="output">
-A: YYY; B: YYY; C: YYY
-A: AAA; B: BBB; C: CCC
-A: AAAXX; B: BBBX; C: CCC
-</pre>
- </div>
+    <pre class="output">
+      A: YYY; B: YYY; C: YYY
+      A: AAA; B: BBB; C: CCC
+      A: AAAXX; B: BBBX; C: CCC
+    </pre>
+  </div>
 
   <blockquote><strong>Note</strong>:This function is binary-safe.</blockquote>

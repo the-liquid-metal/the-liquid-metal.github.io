@@ -1,168 +1,174 @@
-<h1>userDiff</h1>
- <div>
-   Computes the difference of arrays by using a callback function for data
-   comparison. This is unlike <a href="function.array-diff.php">array_diff()</a> which uses an
-   internal function for comparing the data.
- </div>
+  <h1>userDiff</h1>
 
- <div>
-  <h3>Parameters</h3>
-   <dl>
-     <dt>array1</dt>
-     <dd>The first array.</dd>
+  <div>
+    Computes the difference of arrays by using a callback function for data
+    comparison. This is unlike <a href="function.array-diff.php">array_diff()</a> which uses an
+    internal function for comparing the data.
+  </div>
 
-     <dt>array2</dt>
-     <dd>The second array.</dd>
+  <div>
+    <h3>Parameters</h3>
+    <dl>
+      <dt>array1</dt>
+      <dd>The first array.</dd>
 
-     <dt>value_compare_func</dt>
-     <dd><p>The callback comparison function.</p>
-      <p>The comparison function must return an integer less than, equal to, or greater than zero if the first
-        argument is considered to be respectively less than, equal to, or greater than the second.</p>
-     </dd>
-   </dl>
- </div>
+      <dt>array2</dt>
+      <dd>The second array.</dd>
 
- <div>
-  <h3>Return Values</h3>
-  <p>
-   Returns an array containing all the values of <code>array1</code>
-   that are not present in any of the other arguments.
-  </p>
- </div>
+      <dt>value_compare_func</dt>
+      <dd>
+        <p>The callback comparison function.</p>
+        <p>
+          The comparison function must return an integer less than, equal to, or greater than zero if the
+          first argument is considered to be respectively less than, equal to, or greater than the second.
+        </p>
+      </dd>
+    </dl>
+  </div>
 
- <div class="examples">
+  <div>
+    <h3>Return Values</h3>
+    <p>
+      Returns an array containing all the values of <code>array1</code>
+      that are not present in any of the other arguments.
+    </p>
+  </div>
+
+  <div class="examples">
     <p><strong>Example #1 userDiff() example using stdClass Objects</strong></p>
-<pre class="php-code">
-<?php
-// Arrays to compare
-$array1 = array(new stdclass, new stdclass,
-                new stdclass, new stdclass,
-               );
+    <pre class="php-code">
+      <?php
+      // Arrays to compare
+      $array1 = array(new stdclass, new stdclass,
+                      new stdclass, new stdclass,
+                     );
 
-$array2 = array(
-                new stdclass, new stdclass,
-               );
+      $array2 = array(
+                      new stdclass, new stdclass,
+                     );
 
-// Set some properties for each object
-$array1[0]->width = 11; $array1[0]->height = 3;
-$array1[1]->width = 7;  $array1[1]->height = 1;
-$array1[2]->width = 2;  $array1[2]->height = 9;
-$array1[3]->width = 5;  $array1[3]->height = 7;
+      // Set some properties for each object
+      $array1[0]->width = 11; $array1[0]->height = 3;
+      $array1[1]->width = 7;  $array1[1]->height = 1;
+      $array1[2]->width = 2;  $array1[2]->height = 9;
+      $array1[3]->width = 5;  $array1[3]->height = 7;
 
-$array2[0]->width = 7;  $array2[0]->height = 5;
-$array2[1]->width = 9;  $array2[1]->height = 2;
+      $array2[0]->width = 7;  $array2[0]->height = 5;
+      $array2[1]->width = 9;  $array2[1]->height = 2;
 
-function compare_by_area($a, $b) {
-    $areaA = $a->width * $a->height;
-    $areaB = $b->width * $b->height;
-    
-    if ($areaA &lt; $areaB) {
-        return -1;
-    } elseif ($areaA > $areaB) {
-        return 1;
-    } else {
-        return 0;
-    }
-}
+      function compare_by_area($a, $b) {
+          $areaA = $a->width * $a->height;
+          $areaB = $b->width * $b->height;
+          
+          if ($areaA &lt; $areaB) {
+              return -1;
+          } elseif ($areaA > $areaB) {
+              return 1;
+          } else {
+              return 0;
+          }
+      }
 
-print_r(userDiff($array1, $array2, 'compare_by_area'));
-?>
-</pre>
+      print_r(userDiff($array1, $array2, 'compare_by_area'));
+      ?>
+    </pre>
+
     <div>The above example will output:</div>
-<pre class="output">
-Array
-(
-    [0] => stdClass Object
-        (
-            [width] => 11
-            [height] => 3
-        )
-    [1] => stdClass Object
-        (
-            [width] => 7
-            [height] => 1
-        )
-)
-</pre>
+    <pre class="output">
+      Array
+      (
+          [0] => stdClass Object
+              (
+                  [width] => 11
+                  [height] => 3
+              )
+          [1] => stdClass Object
+              (
+                  [width] => 7
+                  [height] => 1
+              )
+      )
+    </pre>
 
     <p><strong>Example #2 userDiff() example using DateTime Objects</strong></p>
-<pre class="php-code">
-<?php
-class MyCalendar {
-    public $free = array();
-    public $booked = array();
+    <pre class="php-code">
+      <?php
+      class MyCalendar {
+          public $free = array();
+          public $booked = array();
+      
+          public function __construct($week = 'now') {
+              $start = new DateTime($week);
+              $start->modify('Monday this week midnight');
+              $end = clone $start;
+              $end->modify('Friday this week midnight');
+              $interval = new DateInterval('P1D');
+              foreach (new DatePeriod($start, $interval, $end) as $freeTime) {
+                  $this->free[] = $freeTime;
+              }
+          }
 
-    public function __construct($week = 'now') {
-        $start = new DateTime($week);
-        $start->modify('Monday this week midnight');
-        $end = clone $start;
-        $end->modify('Friday this week midnight');
-        $interval = new DateInterval('P1D');
-        foreach (new DatePeriod($start, $interval, $end) as $freeTime) {
-            $this->free[] = $freeTime;
-        }
-    }
+          public function bookAppointment(DateTime $date, $note) {
+              $this->booked[] = array('date' => $date->modify('midnight'), 'note' => $note);
+          }
 
-    public function bookAppointment(DateTime $date, $note) {
-        $this->booked[] = array('date' => $date->modify('midnight'), 'note' => $note);
-    }
+          public function checkAvailability() {
+              return userDiff($this->free, $this->booked, array($this, 'customCompare'));
+          }
 
-    public function checkAvailability() {
-        return userDiff($this->free, $this->booked, array($this, 'customCompare'));
-    }
-    
-    public function customCompare($free, $booked) {
-        if (is_array($free)) $a = $free['date'];
-        else $a = $free;
-        if (is_array($booked)) $b = $booked['date'];
-        else $b = $booked;
-        if ($a == $b) {
-            return 0;
-        } elseif ($a > $b) {
-            return 1;
-        } else {
-            return -1;
-        }
-    }
-}
+          public function customCompare($free, $booked) {
+              if (is_array($free)) $a = $free['date'];
+              else $a = $free;
+              if (is_array($booked)) $b = $booked['date'];
+              else $b = $booked;
+              if ($a == $b) {
+                  return 0;
+              } elseif ($a > $b) {
+                  return 1;
+              } else {
+                  return -1;
+              }
+          }
+      }
 
-// Create a calendar for weekly appointments
-$myCalendar = new MyCalendar;
+      // Create a calendar for weekly appointments
+      $myCalendar = new MyCalendar;
 
-// Book some appointments for this week
-$myCalendar->bookAppointment(new DateTime('Monday this week'), "Cleaning GoogleGuy's apartment.");
-$myCalendar->bookAppointment(new DateTime('Wednesday this week'), "Going on a snowboarding trip.");
-$myCalendar->bookAppointment(new DateTime('Friday this week'), "Fixing buggy code.");
+      // Book some appointments for this week
+      $myCalendar->bookAppointment(new DateTime('Monday this week'), "Cleaning GoogleGuy's apartment.");
+      $myCalendar->bookAppointment(new DateTime('Wednesday this week'), "Going on a snowboarding trip.");
+      $myCalendar->bookAppointment(new DateTime('Friday this week'), "Fixing buggy code.");
 
-// Check availability of days by comparing $booked dates against $free dates
-echo "I'm available on the following days this week...\n\n";
-foreach ($myCalendar->checkAvailability() as $free) {
-    echo $free->format('l'), "\n"; 
-}
-echo "\n\n";
-echo "I'm busy on the following days this week...\n\n";
-foreach ($myCalendar->booked as $booked) {
-    echo $booked['date']->format('l'), ": ", $booked['note'], "\n"; 
-}
-?>
-</pre>
+      // Check availability of days by comparing $booked dates against $free dates
+      echo "I'm available on the following days this week...\n\n";
+      foreach ($myCalendar->checkAvailability() as $free) {
+          echo $free->format('l'), "\n"; 
+      }
+      echo "\n\n";
+      echo "I'm busy on the following days this week...\n\n";
+      foreach ($myCalendar->booked as $booked) {
+          echo $booked['date']->format('l'), ": ", $booked['note'], "\n"; 
+      }
+      ?>
+    </pre>
+
     <div>The above example will output:</div>
-<pre class="output">
-I'm available on the following days this week...
+    <pre class="output">
+      I'm available on the following days this week...
 
-Tuesday
-Thursday
+      Tuesday
+      Thursday
 
-I'm busy on the following days this week...
+      I'm busy on the following days this week...
 
-Monday: Cleaning GoogleGuy's apartment.
-Wednesday: Going on a snowboarding trip.
-Friday: Fixing buggy code.
-</pre>
- </div>
+      Monday: Cleaning GoogleGuy's apartment.
+      Wednesday: Going on a snowboarding trip.
+      Friday: Fixing buggy code.
+    </pre>
+  </div>
 
-  <blockquote><strong>Note</strong>:
-    Please note that this function only checks one dimension of a n-dimensional
-    array. Of course you can check deeper dimensions by using
+  <blockquote>
+    <strong>Note</strong>: Please note that this function only checks one dimension
+    of a n-dimensional array. Of course you can check deeper dimensions by using
     <em>userDiff($array1[0], $array2[0], "data_compare_func");</em>.
-   </blockquote>
+  </blockquote>

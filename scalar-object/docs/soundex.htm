@@ -1,44 +1,44 @@
-<h1>soundex</h1>
+  <h1>soundex</h1>
 
- <div>
-  <p>Calculates the soundex key of <code>str</code>.</p>
-  <p>
-   Soundex keys have the property that words pronounced similarly
-   produce the same soundex key, and can thus be used to simplify
-   searches in databases where you know the pronunciation but not
-   the spelling. This soundex function returns a string 4 characters
-   long, starting with a letter.
-  </p>
-  <p>
-   This particular soundex function is one described by Donald Knuth
-   in "The Art Of Computer Programming, vol. 3: Sorting And
-   Searching", Addison-Wesley (1973), pp. 391-392.
-  </p>
- </div>
+  <div>
+    <p>Calculates the soundex key of <code>str</code>.</p>
+    <p>
+      Soundex keys have the property that words pronounced similarly
+      produce the same soundex key, and can thus be used to simplify
+      searches in databases where you know the pronunciation but not
+      the spelling. This soundex function returns a string 4 characters
+      long, starting with a letter.
+    </p>
+    <p>
+      This particular soundex function is one described by Donald Knuth
+      in "The Art Of Computer Programming, vol. 3: Sorting And
+      Searching", Addison-Wesley (1973), pp. 391-392.
+    </p>
+  </div>
 
- <div>
-  <h3>Parameters</h3>
-   <dl>
-     <dt>str</dt>
-     <dd>The input string.</dd>
-   </dl>
- </div>
+  <div>
+    <h3>Parameters</h3>
+    <dl>
+      <dt>str</dt>
+      <dd>The input string.</dd>
+    </dl>
+  </div>
 
- <div>
-  <h3>Return Values</h3>
-  <p>Returns the soundex key as a string.</p>
- </div>
+  <div>
+    <h3>Return Values</h3>
+    <p>Returns the soundex key as a string.</p>
+  </div>
 
- <div class="examples">
+  <div class="examples">
     <p><strong>Example #1 Soundex Examples</strong></p>
-<pre class="php-code">
-<?php
-soundex("Euler")       == soundex("Ellery");    // E460
-soundex("Gauss")       == soundex("Ghosh");     // G200
-soundex("Hilbert")     == soundex("Heilbronn"); // H416
-soundex("Knuth")       == soundex("Kant");      // K530
-soundex("Lloyd")       == soundex("Ladd");      // L300
-soundex("Lukasiewicz") == soundex("Lissajous"); // L222
-?>
-</pre>
- </div>
+    <pre class="php-code">
+      <?php
+      soundex("Euler")       == soundex("Ellery");    // E460
+      soundex("Gauss")       == soundex("Ghosh");     // G200
+      soundex("Hilbert")     == soundex("Heilbronn"); // H416
+      soundex("Knuth")       == soundex("Kant");      // K530
+      soundex("Lloyd")       == soundex("Ladd");      // L300
+      soundex("Lukasiewicz") == soundex("Lissajous"); // L222
+      ?>
+    </pre>
+  </div>

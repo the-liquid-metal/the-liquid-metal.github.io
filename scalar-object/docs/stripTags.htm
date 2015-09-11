@@ -1,38 +1,38 @@
-<h1>stripTags</h1>
+  <h1>stripTags</h1>
 
- <div>
-   This function tries to return a string with all NULL bytes, HTML and PHP tags stripped
-   from a given <code>str</code>.  It uses the same tag stripping
-   state machine as the <a href="function.fgetss.php">fgetss()</a> function.
- </div>
+  <div>
+    This function tries to return a string with all NULL bytes, HTML and PHP tags stripped
+    from a given <code>str</code>.  It uses the same tag stripping state machine as the
+    <a href="function.fgetss.php">fgetss()</a> function.
+  </div>
 
- <div>
-  <h3>Parameters</h3>
-   <dl>
-     <dt>str</dt>
-     <dd>The input string.</dd>
+  <div>
+    <h3>Parameters</h3>
+    <dl>
+      <dt>str</dt>
+      <dd>The input string.</dd>
 
-     <dt>allowable_tags</dt>
-     <dd>
-       <p>You can use the optional second parameter to specify tags which should not be stripped.</p>
-       <blockquote>
-         <strong>Note</strong>: HTML comments and PHP tags are also stripped. This
-         is hardcoded and can not be changed with <code>allowable_tags</code>.
-       </blockquote>
+      <dt>allowable_tags</dt>
+      <dd>
+        <p>You can use the optional second parameter to specify tags which should not be stripped.</p>
+        <blockquote>
+          <strong>Note</strong>: HTML comments and PHP tags are also stripped. This
+          is hardcoded and can not be changed with <code>allowable_tags</code>.
+        </blockquote>
 
-       <blockquote>
-         <strong>Note</strong>: In PHP 5.3.4 and later, self-closing XHTML tags are ignored and
-         only non-self-closing tags should be used in <code>str</code>. For example, to allow both
-         <em>&lt;br></em> and <em>&lt;br/></em>, you should use:
-<pre class="php-code">
-<?php
-stripTags($input, '&lt;br>');
-?>
-</pre>
-       </blockquote>
-     </dd>
-   </dl>
- </div>
+        <blockquote>
+          <strong>Note</strong>: In PHP 5.3.4 and later, self-closing XHTML tags are ignored and
+          only non-self-closing tags should be used in <code>str</code>. For example, to allow both
+          <em>&lt;br></em> and <em>&lt;br/></em>, you should use:
+          <pre class="php-code">
+            <?php
+            stripTags($input, '&lt;br>');
+            ?>
+          </pre>
+        </blockquote>
+      </dd>
+    </dl>
+  </div>
 
   <div>
     <h3>Return Values</h3>
@@ -41,41 +41,40 @@ stripTags($input, '&lt;br>');
 
   <div class="examples">
     <p><strong>Example #1 stripTags() example</strong></p>
-<pre class="php-code">
-<?php
-$text = '&lt;p>Test paragraph.&lt;/p>&lt;!-- Comment --> &lt;a href="#fragment">Other text&lt;/a>';
-echo stripTags($text);
-echo "\n";
+    <pre class="php-code">
+      <?php
+      $text = '&lt;p>Test paragraph.&lt;/p>&lt;!-- Comment --> &lt;a href="#fragment">Other text&lt;/a>';
+      echo stripTags($text);
+      echo "\n";
 
-// Allow &lt;p> and &lt;a>
-echo stripTags($text, '&lt;p>&lt;a>');
-?>
-</pre>
+      // Allow &lt;p> and &lt;a>
+      echo stripTags($text, '&lt;p>&lt;a>');
+      ?>
+    </pre>
+
     <div>The above example will output:</div>
-<pre class="output">
-Test paragraph. Other text
-&lt;p>Test paragraph.&lt;/p> &lt;a href="#fragment">Other text&lt;/a>
-</pre>
+    <pre class="output">
+      Test paragraph. Other text
+      &lt;p>Test paragraph.&lt;/p> &lt;a href="#fragment">Other text&lt;/a>
+    </pre>
   </div>
 
-  <div>
-    <div class="warning">
-      <strong>Warning</strong><br/>
-      Because <strong>stripTags()</strong> does not actually validate the HTML,
-      partial or broken tags can result in the removal of more text/data than expected.
-    </div>
-
-    <div class="warning">
-      <strong>Warning</strong><br/>
-      This function does not modify any attributes on the tags that you allow using 
-      <code>allowable_tags</code>, including the <em>style</em> and <em>onmouseover</em>
-      attributes that a mischievous user may abuse when posting text that will be shown
-      to other users.
-    </div>
-
-    <blockquote>
-      <strong>Note</strong>: Tag names within the input HTML that are greater than 1023
-      bytes in length will be treated as though they are invalid, regardless of the
-      <code>allowable_tags</code> parameter.
-    </blockquote>
+  <div class="warning">
+    <strong>Warning</strong><br/>
+    Because <strong>stripTags()</strong> does not actually validate the HTML,
+    partial or broken tags can result in the removal of more text/data than expected.
   </div>
+
+  <div class="warning">
+    <strong>Warning</strong><br/>
+    This function does not modify any attributes on the tags that you allow using 
+    <code>allowable_tags</code>, including the <em>style</em> and <em>onmouseover</em>
+    attributes that a mischievous user may abuse when posting text that will be shown
+    to other users.
+  </div>
+
+  <blockquote>
+    <strong>Note</strong>: Tag names within the input HTML that are greater than 1023
+    bytes in length will be treated as though they are invalid, regardless of the
+    <code>allowable_tags</code> parameter.
+  </blockquote>

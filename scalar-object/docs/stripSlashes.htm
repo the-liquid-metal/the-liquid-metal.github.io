@@ -1,87 +1,84 @@
-<h1>stripSlashes</h1>
+  <h1>stripSlashes</h1>
 
- <div>
-  <p>Un-quotes a quoted string.</p>
-  <blockquote><strong>Note</strong>:
-    If <a href="sybase.configuration.php#ini.magic-quotes-sybase">magic_quotes_sybase</a> is
-    on, no backslashes are stripped off but two apostrophes are replaced by
-    one instead.
-   </blockquote>
-  <p>
-   An example use of <strong>stripSlashes()</strong> is when the PHP
-   directive <a href="info.configuration.php#ini.magic-quotes-gpc">magic_quotes_gpc</a>
-   is <em>on</em> (it was on by default before PHP 5.4), and you aren't inserting
-   this data into a place (such as a database) that requires escaping.
-   For example, if you're simply outputting data straight from an HTML form.
-  </p>
- </div>
+  <div>
+    <p>Un-quotes a quoted string.</p>
+    <blockquote>
+      <strong>Note</strong>: If <a href="sybase.configuration.php#ini.magic-quotes-sybase">magic_quotes_sybase</a>
+      is on, no backslashes are stripped off but two apostrophes are replaced by one instead.
+     </blockquote>
+    <p>
+      An example use of <strong>stripSlashes()</strong> is when the PHP
+      directive <a href="info.configuration.php#ini.magic-quotes-gpc">magic_quotes_gpc</a>
+      is <em>on</em> (it was on by default before PHP 5.4), and you aren't inserting
+      this data into a place (such as a database) that requires escaping.
+      For example, if you're simply outputting data straight from an HTML form.
+    </p>
+  </div>
 
- <div>
-  <h3>Parameters</h3>
-   <dl>
-     <dt>str</dt>
-     <dd>The input string.</dd>
-   </dl>
- </div>
+  <div>
+    <h3>Parameters</h3>
+    <dl>
+      <dt>str</dt>
+      <dd>The input string.</dd>
+    </dl>
+  </div>
 
- <div>
-  <h3>Return Values</h3>
-  <p>
-   Returns a string with backslashes stripped off.
-   (<em>\'</em> becomes <em>'</em> and so on.)
-   Double backslashes (<em>\\</em>) are made into a single
-   backslash (<em>\</em>).
-  </p>
- </div>
+  <div>
+    <h3>Return Values</h3>
+    <p>
+      Returns a string with backslashes stripped off. (<em>\'</em> becomes <em>'</em> and so on.)
+      Double backslashes (<em>\\</em>) are made into a single backslash (<em>\</em>).
+    </p>
+  </div>
 
- <div class="examples">
+  <div class="examples">
     <p><strong>Example #1 A stripSlashes() example</strong></p>
-<pre class="php-code">
-<?php
-$str = "Is your name O\'reilly?";
+    <pre class="php-code">
+      <?php
+      $str = "Is your name O\'reilly?";
 
-// Outputs: Is your name O'reilly?
-echo stripSlashes($str);
-?>
-</pre>
-  
-  <blockquote><strong>Note</strong>:
-    <strong>stripSlashes()</strong> is not recursive. If you want to apply
-    this function to a multi-dimensional array, you need to use a recursive
-    function.
-  </blockquote>
+      // Outputs: Is your name O'reilly?
+      echo stripSlashes($str);
+      ?>
+    </pre>
+
+    <blockquote>
+      <strong>Note</strong>: <strong>stripSlashes()</strong> is not recursive. If you want to apply
+      this function to a multi-dimensional array, you need to use a recursive function.
+    </blockquote>
 
     <p><strong>Example #2 Using stripSlashes() on an array</strong></p>
-<pre class="php-code">
-<?php
-function stripslashes_deep($value)
-{
-    $value = is_array($value) ?
-                array_map('stripslashes_deep', $value) :
-                stripSlashes($value);
+    <pre class="php-code">
+      <?php
+      function stripslashes_deep($value)
+      {
+          $value = is_array($value) ?
+                      array_map('stripslashes_deep', $value) :
+                      stripSlashes($value);
+      
+          return $value;
+      }
 
-    return $value;
-}
+      // Example
+      $array = array("f\\'oo", "b\\'ar", array("fo\\'o", "b\\'ar"));
+      $array = stripslashes_deep($array);
 
-// Example
-$array = array("f\\'oo", "b\\'ar", array("fo\\'o", "b\\'ar"));
-$array = stripslashes_deep($array);
+      // Output
+      print_r($array);
+      ?>
+    </pre>
 
-// Output
-print_r($array);
-?>
-</pre>
     <div>The above example will output:</div>
-<pre class="output">
-Array
-(
-    [0] => f'oo
-    [1] => b'ar
-    [2] => Array
-        (
-            [0] => fo'o
-            [1] => b'ar
-        )
-)
-</pre>
- </div>
+    <pre class="output">
+      Array
+      (
+          [0] => f'oo
+          [1] => b'ar
+          [2] => Array
+              (
+                  [0] => fo'o
+                  [1] => b'ar
+              )
+      )
+    </pre>
+  </div>

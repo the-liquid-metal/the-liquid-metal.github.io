@@ -37,18 +37,18 @@
 
   <div class="examples">
     <p><strong>Example #1 tokenize() example</strong></p>
-<pre class="php-code">
-<?php
-$string = "This is\tan example\nstring";
-/* Use tab and newline as tokenizing characters as well  */
-$tok = tokenize($string, " \n\t");
-
-while ($tok !== false) {
-    echo "Word=$tok&lt;br />";
-    $tok = tokenize(" \n\t");
-}
-?>
-</pre>
+    <pre class="php-code">
+      <?php
+      $string = "This is\tan example\nstring";
+      /* Use tab and newline as tokenizing characters as well  */
+      $tok = tokenize($string, " \n\t");
+      
+      while ($tok !== false) {
+          echo "Word=$tok&lt;br />";
+          $tok = tokenize(" \n\t");
+      }
+      ?>
+    </pre>
 
     <p>
       The behavior when an empty part was found changed with PHP 4.1.0. The old
@@ -57,32 +57,34 @@ while ($tok !== false) {
     </p>
 
     <p><strong>Example #2 Old tokenize() behavior</strong></p>
-<pre class="php-code">
-<?php
-$first_token  = tokenize('/something', '/');
-$second_token = tokenize('/');
-var_dump($first_token, $second_token);
-?>
-</pre>
+    <pre class="php-code">
+      <?php
+      $first_token  = tokenize('/something', '/');
+      $second_token = tokenize('/');
+      var_dump($first_token, $second_token);
+      ?>
+    </pre>
+
     <div>The above example will output:</div>
-<pre class="output">
-string(0) ""
-string(9) "something"
-</pre>
+    <pre class="output">
+      string(0) ""
+      string(9) "something"
+    </pre>
 
     <p><strong>Example #3 New tokenize() behavior</strong></p>
-<pre class="php-code">
-<?php
-$first_token  = tokenize('/something', '/');
-$second_token = tokenize('/');
-var_dump($first_token, $second_token);
-?>
-</pre>
+    <pre class="php-code">
+      <?php
+      $first_token  = tokenize('/something', '/');
+      $second_token = tokenize('/');
+      var_dump($first_token, $second_token);
+      ?>
+    </pre>
+
     <div>The above example will output:</div>
-<pre class="output">
-string(9) "something"
-bool(false)
-</pre>
+    <pre class="output">
+      string(9) "something"
+      bool(false)
+    </pre>
   </div>
 
   <div class="warning">

@@ -1,178 +1,193 @@
-<h1>userSort</h1>
- <div>
-  <p>
-   This function will sort an array by its values using a user-supplied
-   comparison function.  If the array you wish to sort needs to be sorted by
-   some non-trivial criteria, you should use this function.
-  </p>
-  <blockquote><strong>Note</strong>:
-    If two members compare as equal, their relative order in the sorted array is undefined.
-   </blockquote>
-  <blockquote><strong>Note</strong>:This function
-   assigns new keys to the elements in <code>array</code>.
-   It will remove any existing keys that may have been assigned, rather
-   than just reordering the keys.
-  </blockquote>
- </div>
+  <h1>userSort</h1>
 
- <div>
-  <h3>Parameters</h3>
-   <dl>
-     <dt>array</dt>
-     <dd>The input array.</dd>
+  <div>
+    <p>
+      This function will sort an array by its values using a user-supplied
+      comparison function.  If the array you wish to sort needs to be sorted by
+      some non-trivial criteria, you should use this function.
+    </p>
 
-     <dt>value_compare_func</dt>
-     <dd><p>The comparison function must return an integer less than, equal to, or greater than zero if the first argument is considered to be respectively less than, equal to, or greater than the second.
-      </p>
-         <div class="caution"><strong>Caution</strong>
-       <p>
-        Returning <em>non-integer</em> values from the comparison
-        function, such as <a href="language.types.float.php">float</a>, will result in an internal cast to
-        <a href="language.types.integer.php">integer</a> of the callback's return value. So values such as
-        0.99 and 0.1 will both be cast to an integer value of 0, which will
-        compare such values as equal.
-       </p>
-      </div>
-     </dd>
-   </dl>
- </div>
+    <blockquote>
+      <strong>Note</strong>: If two members compare as equal, their
+      relative order in the sorted array is undefined.
+    </blockquote>
 
- <div>
-  <h3>Return Values</h3>
-  <p>Returns <code>TRUE</code> on success or <code>FALSE</code> on failure.</p>
- </div>
+    <blockquote>
+      <strong>Note</strong>: This function assigns new keys to the elements
+      in <code>array</code>. It will remove any existing keys that may have
+      been assigned, rather than just reordering the keys.
+    </blockquote>
+  </div>
 
- <div class="examples">
+  <div>
+    <h3>Parameters</h3>
+    <dl>
+      <dt>array</dt>
+      <dd>The input array.</dd>
+
+      <dt>value_compare_func</dt>
+      <dd>
+        <p>
+          The comparison function must return an integer less than, equal to, or greater
+          than zero if the first argument is considered to be respectively less than,
+          equal to, or greater than the second.
+        </p>
+
+        <div class="caution">
+          <strong>Caution</strong><br/>
+          Returning <em>non-integer</em> values from the comparison function, such as
+          <a href="language.types.float.php">float</a>, will result in an internal cast to
+          <a href="language.types.integer.php">integer</a> of the callback's return value.
+          So values such as 0.99 and 0.1 will both be cast to an integer value of 0, which
+          will compare such values as equal.
+          </p>
+        </div>
+      </dd>
+    </dl>
+  </div>
+
+  <div>
+    <h3>Return Values</h3>
+    <p>Returns <code>TRUE</code> on success or <code>FALSE</code> on failure.</p>
+  </div>
+
+  <div class="examples">
     <p><strong>Example #1 userSort() example</strong></p>
-<pre class="php-code">
-<?php
-function cmp($a, $b)
-{
-    if ($a == $b) {
-        return 0;
-    }
-    return ($a &lt; $b) ? -1 : 1;
-}
+    <pre class="php-code">
+      <?php
+      function cmp($a, $b)
+      {
+          if ($a == $b) {
+              return 0;
+          }
+          return ($a &lt; $b) ? -1 : 1;
+      }
 
-$a = array(3, 2, 5, 6, 1);
+      $a = array(3, 2, 5, 6, 1);
 
-userSort($a, "cmp");
+      userSort($a, "cmp");
 
-foreach ($a as $key => $value) {
-    echo "$key: $value\n";
-}
-?>
-</pre>
+      foreach ($a as $key => $value) {
+          echo "$key: $value\n";
+      }
+      ?>
+    </pre>
+
     <div>The above example will output:</div>
-<pre class="output">
-0: 1
-1: 2
-2: 3
-3: 5
-4: 6
-</pre>
+    <pre class="output">
+      0: 1
+      1: 2
+      2: 3
+      3: 5
+      4: 6
+    </pre>
 
-  <blockquote><strong>Note</strong>:
-    Obviously in this trivial case the <a href="function.sort.php">sort()</a>
-    function would be more appropriate.
-   </blockquote>
+    <blockquote>
+      <strong>Note</strong>: Obviously in this trivial case the
+      <a href="function.sort.php">sort()</a> function would be more appropriate.
+    </blockquote>
 
     <p><strong>Example #2 userSort() example using multi-dimensional array</strong></p>
-<pre class="php-code">
-<?php
-function cmp($a, $b)
-{
-    return strcmp($a["fruit"], $b["fruit"]);
-}
+    <pre class="php-code">
+      <?php
+      function cmp($a, $b)
+      {
+          return strcmp($a["fruit"], $b["fruit"]);
+      }
 
-$fruits[0]["fruit"] = "lemons";
-$fruits[1]["fruit"] = "apples";
-$fruits[2]["fruit"] = "grapes";
+      $fruits[0]["fruit"] = "lemons";
+      $fruits[1]["fruit"] = "apples";
+      $fruits[2]["fruit"] = "grapes";
 
-userSort($fruits, "cmp");
+      userSort($fruits, "cmp");
 
-while (list($key, $value) = each($fruits)) {
-    echo "\$fruits[$key]: " . $value["fruit"] . "\n";
-}
-?>
-</pre>
+      while (list($key, $value) = each($fruits)) {
+          echo "\$fruits[$key]: " . $value["fruit"] . "\n";
+      }
+      ?>
+    </pre>
+
     <div>
-     When sorting a multi-dimensional array, <var>$a</var> and
-     <var>$b</var> contain references to the first index of the array.
+      When sorting a multi-dimensional array, <var>$a</var> and
+      <var>$b</var> contain references to the first index of the array.
     </div>
     <div>The above example will output:</div>
-<pre class="output">
-$fruits[0]: apples
-$fruits[1]: grapes
-$fruits[2]: lemons
-</pre>
+    <pre class="output">
+      $fruits[0]: apples
+      $fruits[1]: grapes
+      $fruits[2]: lemons
+    </pre>
 
     <p><strong>Example #3 userSort() example using a member function of an object</strong></p>
-<pre class="php-code">
-<?php
-class TestObj {
-    var $name;
+    <pre class="php-code">
+      <?php
+      class TestObj {
+          var $name;
 
-    function TestObj($name)
-    {
-        $this->name = $name;
-    }
+          function TestObj($name)
+          {
+              $this->name = $name;
+          }
 
-    /* This is the static comparing function: */
-    static function cmp_obj($a, $b)
-    {
-        $al = strtolower($a->name);
-        $bl = strtolower($b->name);
-        if ($al == $bl) {
-            return 0;
-        }
-        return ($al > $bl) ? +1 : -1;
-    }
-}
+          /* This is the static comparing function: */
+          static function cmp_obj($a, $b)
+          {
+              $al = strtolower($a->name);
+              $bl = strtolower($b->name);
+              if ($al == $bl) {
+                  return 0;
+              }
+              return ($al > $bl) ? +1 : -1;
+          }
+      }
 
-$a[] = new TestObj("c");
-$a[] = new TestObj("b");
-$a[] = new TestObj("d");
+      $a[] = new TestObj("c");
+      $a[] = new TestObj("b");
+      $a[] = new TestObj("d");
 
-userSort($a, array("TestObj", "cmp_obj"));
+      userSort($a, array("TestObj", "cmp_obj"));
 
-foreach ($a as $item) {
-    echo $item->name . "\n";
-}
-?>
-</pre>
+      foreach ($a as $item) {
+          echo $item->name . "\n";
+      }
+      ?>
+    </pre>
+
     <div>The above example will output:</div>
-<pre class="output">
-b
-c
-d
-</pre>
+    <pre class="output">
+      b
+      c
+      d
+    </pre>
 
-    <p><strong>Example #4 userSort() example using a <a href="functions.anonymous.php">closure</a> 
-     to sort a multi-dimensional array</strong></p>
-<pre class="php-code">
-<?php
-$array[0] = array('key_a' => 'z', 'key_b' => 'c');
-$array[1] = array('key_a' => 'x', 'key_b' => 'b');
-$array[2] = array('key_a' => 'y', 'key_b' => 'a');
+    <p>
+      <strong>Example #4 userSort() example using a <a href="functions.anonymous.php">closure</a> 
+      to sort a multi-dimensional array</strong>
+    </p>
+    <pre class="php-code">
+      <?php
+      $array[0] = array('key_a' => 'z', 'key_b' => 'c');
+      $array[1] = array('key_a' => 'x', 'key_b' => 'b');
+      $array[2] = array('key_a' => 'y', 'key_b' => 'a');
 
-function build_sorter($key) {
-    return function ($a, $b) use ($key) {
-        return strnatcmp($a[$key], $b[$key]);
-    };
-}
+      function build_sorter($key) {
+          return function ($a, $b) use ($key) {
+              return strnatcmp($a[$key], $b[$key]);
+          };
+      }
 
-userSort($array, build_sorter('key_b'));
+      userSort($array, build_sorter('key_b'));
 
-foreach ($array as $item) {
-    echo $item['key_a'] . ', ' . $item['key_b'] . "\n";
-}
-?>
-</pre>
+      foreach ($array as $item) {
+          echo $item['key_a'] . ', ' . $item['key_b'] . "\n";
+      }
+      ?>
+    </pre>
+
     <div>The above example will output:</div>
-<pre class="output">
-y, a
-x, b
-z, c
-</pre>
- </div>
+    <pre class="output">
+      y, a
+      x, b
+      z, c
+    </pre>
+  </div>

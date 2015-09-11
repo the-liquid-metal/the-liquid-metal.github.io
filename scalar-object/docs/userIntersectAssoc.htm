@@ -1,51 +1,53 @@
-<h1>userIntersectAssoc</h1>
- <div>
-  <p>
-   Computes the intersection of arrays with additional index check, compares
-   data by a callback function.
-  </p>
-  <p>
-   Note that the keys are used in the comparison unlike in
-   <a href="function.array-uintersect.php">array_uintersect()</a>.
-   The data is compared by using a callback function.
-  </p>
- </div>
+  <h1>userIntersectAssoc</h1>
 
- <div>
-  <h3>Parameters</h3>
-   <dl>
-     <dt>array1</dt>
-     <dd>The first array.</dd>
+  <div>
+    <p>
+      Computes the intersection of arrays with additional index check, compares
+      data by a callback function.
+    </p>
+    <p>
+      Note that the keys are used in the comparison unlike in
+      <a href="function.array-uintersect.php">array_uintersect()</a>.
+      The data is compared by using a callback function.
+    </p>
+  </div>
 
-     <dt>array2</dt>
-     <dd>The second array.</dd>
+  <div>
+    <h3>Parameters</h3>
+    <dl>
+      <dt>array1</dt>
+      <dd>The first array.</dd>
 
-     <dt>value_compare_func</dt>
-     <dd>The comparison function must return an integer less than, equal to, or greater than zero if
-       the first argument is considered to be respectively less than, equal to, or greater than the second.</dd>
-   </dl>
- </div>
+      <dt>array2</dt>
+      <dd>The second array.</dd>
 
- <div>
-  <h3>Return Values</h3>
-  <p>Returns an array containing all the values of <code>array1</code> that are present in all the arguments.</p>
- </div>
+      <dt>value_compare_func</dt>
+      <dd>The comparison function must return an integer less than, equal to, or greater than zero if
+        the first argument is considered to be respectively less than, equal to, or greater than the second.</dd>
+    </dl>
+  </div>
 
- <div class="examples">
+  <div>
+    <h3>Return Values</h3>
+    <p>Returns an array containing all the values of <code>array1</code> that are present in all the arguments.</p>
+  </div>
+
+  <div class="examples">
     <p><strong>Example #1 userIntersectAssoc() example</strong></p>
-<pre class="php-code">
-<?php
-$array1 = array("a" => "green", "b" => "brown", "c" => "blue", "red");
-$array2 = array("a" => "GREEN", "B" => "brown", "yellow", "red");
+    <pre class="php-code">
+      <?php
+      $array1 = array("a" => "green", "b" => "brown", "c" => "blue", "red");
+      $array2 = array("a" => "GREEN", "B" => "brown", "yellow", "red");
 
-print_r(userIntersectAssoc($array1, $array2, "strcasecmp"));
-?>
-</pre>
+      print_r(userIntersectAssoc($array1, $array2, "strcasecmp"));
+      ?>
+    </pre>
+
     <div>The above example will output:</div>
-<pre class="output">
-Array
-(
-    [a] => green
-)
-</pre>
- </div>
+    <pre class="output">
+      Array
+      (
+          [a] => green
+      )
+    </pre>
+  </div>

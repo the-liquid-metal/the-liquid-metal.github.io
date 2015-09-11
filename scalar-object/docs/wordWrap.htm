@@ -15,11 +15,13 @@
         <dd>The line is broken using the optional <code>break</code> parameter.</dd>
 
         <dt>cut</dt>
-        <dd>If the <code>cut</code> is set to <code>TRUE</code>, the string is
-          always wrapped at or before the specified <code>width</code>.  So if you have
-          a word that is larger than the given width, it is broken apart.
-          (See second example). When <code>FALSE</code> the function does not split the word
-          even if the <code>width</code> is smaller than the word width.</dd>
+        <dd>
+          If the <code>cut</code> is set to <code>TRUE</code>, the string is always
+          wrapped at or before the specified <code>width</code>.  So if you have a word
+          that is larger than the given width, it is broken apart. (See second example).
+          When <code>FALSE</code> the function does not split the word even if the
+          <code>width</code> is smaller than the word width.
+        </dd>
       </dl>
   </div>
 
@@ -38,6 +40,7 @@
       echo $newtext;
       ?>
     </pre>
+
     <div>The above example will output:</div>
     <pre class="output">
       The quick brown fox&lt;br />

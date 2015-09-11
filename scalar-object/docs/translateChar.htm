@@ -1,114 +1,108 @@
-<h1>translateChar</h1>
+  <h1>translateChar</h1>
 
- <div>
-  <p>
-   If given three arguments, this function returns a copy of
-   <code>str</code> where all occurrences of each (single-byte)
-   character in <code>from</code> have been translated to the
-   corresponding character in <code>to</code>, i.e., every
-   occurrence of <em>$from[$n]</em> has been replaced with
-   <em>$to[$n]</em>, where <em>$n</em> is a valid
-   offset in both arguments.
-  </p>
-  <p>
-   If <code>from</code> and <code>to</code> have
-   different lengths, the extra characters in the longer of the two
-   are ignored. The length of <code>str</code> will be the same as
-   the return value's.
-  </p>
-  <p>
-   If given two arguments, the second should be an <a href="language.types.array.php">array</a> in the
-   form <em>array('from' => 'to', ...)</em>. The return value is
-   a <a href="language.types.string.php">string</a> where all the occurrences of the array keys have been
-   replaced by the corresponding values. The longest keys will be tried first.
-   Once a substring has been replaced, its new value will not be searched
-   again.
-  </p>
-  <p>
-   In this case, the keys and the values may have any length, provided that
-   there is no empty key; additionally, the length of the return value may
-   differ from that of <code>str</code>.
-   However, this function will be the most efficient when all the keys have the
-   same size.
-  </p>
- </div>
+  <div>
+    <p>
+      If given three arguments, this function returns a copy of <code>str</code> where
+      all occurrences of each (single-byte) character in <code>from</code> have been
+      translated to the corresponding character in <code>to</code>, i.e., every occurrence
+      of <em>$from[$n]</em> has been replaced with <em>$to[$n]</em>, where <em>$n</em> is
+      a valid offset in both arguments.
+    </p>
+    <p>
+      If <code>from</code> and <code>to</code> have different lengths, the extra characters
+      in the longer of the two are ignored. The length of <code>str</code> will be the same
+      as the return value's.
+    </p>
+    <p>
+      If given two arguments, the second should be an <a href="language.types.array.php">array</a> in the
+      form <em>array('from' => 'to', ...)</em>. The return value is a <a href="language.types.string.php">string</a>
+      where all the occurrences of the array keys have been replaced by the corresponding values. The longest
+      keys will be tried first. Once a substring has been replaced, its new value will not be searched again.
+    </p>
+    <p>
+      In this case, the keys and the values may have any length, provided that there is no empty
+      key; additionally, the length of the return value may differ from that of <code>str</code>.
+      However, this function will be the most efficient when all the keys have the same size.
+    </p>
+  </div>
 
- <div>
-  <h3>Parameters</h3>
-   <dl>
-     <dt>str</dt>
-     <dd>The <a href="language.types.string.php">string</a> being translated.</dd>
+  <div>
+    <h3>Parameters</h3>
+    <dl>
+      <dt>str</dt>
+      <dd>The <a href="language.types.string.php">string</a> being translated.</dd>
 
-     <dt>from</dt>
-     <dd>The <a href="language.types.string.php">string</a> being translated to <code>to</code>.</dd>
+      <dt>from</dt>
+      <dd>The <a href="language.types.string.php">string</a> being translated to <code>to</code>.</dd>
 
-     <dt>to</dt>
-     <dd>The <a href="language.types.string.php">string</a> replacing <code>from</code>.</dd>
+      <dt>to</dt>
+      <dd>The <a href="language.types.string.php">string</a> replacing <code>from</code>.</dd>
 
-     <dt>replace_pairs</dt>
-     <dd>The <code>replace_pairs</code> parameter may be used instead of 
-       <code>to</code> and <code>from</code>, in which case it's an
-       <a href="language.types.array.php">array</a> in the form <em>array('from' => 'to', ...)</em>.</dd>
-   </dl>
- </div>
+      <dt>replace_pairs</dt>
+      <dd>
+        The <code>replace_pairs</code> parameter may be used instead of <code>to</code> and
+        <code>from</code>, in which case it's an <a href="language.types.array.php">array</a>
+        in the form <em>array('from' => 'to', ...)</em>.
+      </dd>
+    </dl>
+  </div>
 
- <div>
-  <h3>Return Values</h3>
-  <p>Returns the translated <a href="language.types.string.php">string</a>.</p>
-  <p>
-   If <code>replace_pairs</code> contains a key which
-   is an empty <a href="language.types.string.php">string</a> (<em>""</em>),
-   <code>FALSE</code> will be returned. If the <code>str</code> is not a scalar
-   then it is not typecasted into a string, instead a warning is raised and 
-   <code>NULL</code> is returned. 
-  </p>
- </div>
+  <div>
+    <h3>Return Values</h3>
+    <p>Returns the translated <a href="language.types.string.php">string</a>.</p>
+    <p>
+      If <code>replace_pairs</code> contains a key which is an empty
+      <a href="language.types.string.php">string</a> (<em>""</em>), <code>FALSE</code>
+      will be returned. If the <code>str</code> is not a scalar then it is not typecasted
+      into a string, instead a warning is raised and <code>NULL</code> is returned. 
+    </p>
+  </div>
 
- <div class="examples">
+  <div class="examples">
     <p><strong>Example #1 translateChar() example</strong></p>
-<pre class="php-code">
-<?php
-//In this form, translateChar() does byte-by-byte translation
-//Therefore, we are assuming a single-byte encoding here:
-$addr = translateChar($addr, "äåö", "aao");
-?>
-</pre>
+    <pre class="php-code">
+      <?php
+      //In this form, translateChar() does byte-by-byte translation
+      //Therefore, we are assuming a single-byte encoding here:
+      $addr = translateChar($addr, "äåö", "aao");
+      ?>
+    </pre>
 
-  <p>
-   The next example shows the behavior of <strong>translateChar()</strong> when
-   called with only two arguments. Note the preference of the replacements
-   (<em>"h"</em> is not picked because there are longer matches)
-   and how replaced text was not searched again.
-  </p>
+    <p>
+      The next example shows the behavior of <strong>translateChar()</strong> when called
+      with only two arguments. Note the preference of the replacements (<em>"h"</em> is not
+      picked because there are longer matches) and how replaced text was not searched again.
+    </p>
 
-   <p><strong>Example #2 translateChar() example with two arguments</strong></p>
-<pre class="php-code">
-<?php
-$trans = array("h" => "-", "hello" => "hi", "hi" => "hello");
-echo translateChar("hi all, I said hello", $trans);
-?>
-</pre>
-   <div>The above example will output:</div>
-<pre class="output">hello all, I said hi</pre>
+    <p><strong>Example #2 translateChar() example with two arguments</strong></p>
+    <pre class="php-code">
+      <?php
+      $trans = array("h" => "-", "hello" => "hi", "hi" => "hello");
+      echo translateChar("hi all, I said hello", $trans);
+      ?>
+    </pre>
 
-  <p>
-   The two modes of behavior are substantially different. With three arguments,
-   <strong>translateChar()</strong> will replace bytes; with two, it may replace
-   longer substrings.
-  </p>
+    <div>The above example will output:</div>
+    <pre class="output">hello all, I said hi</pre>
 
-   <p><strong>Example #3 translateChar() behavior comparison</strong></p>
-<pre class="php-code">
-<?php
-echo translateChar("baab", "ab", "01"),"\n";
+    <p>
+      The two modes of behavior are substantially different. With three arguments,
+      <strong>translateChar()</strong> will replace bytes; with two, it may replace
+      longer substrings.
+    </p>
 
-$trans = array("ab" => "01");
-echo translateChar("baab", $trans);
-?>
-</pre>
-   <div>The above example will output:</div>
-<pre class="output">
-1001
-ba01
-</pre>
- </div>
+    <p><strong>Example #3 translateChar() behavior comparison</strong></p>
+    <pre class="php-code">
+      <?php
+      echo translateChar("baab", "ab", "01"),"\n";
+
+      $trans = array("ab" => "01");
+      echo translateChar("baab", $trans);
+      ?>
+    </pre>
+    <div>The above example will output:</div>
+    <pre class="output">
+      1001
+      ba01
+    </pre>
+  </div>

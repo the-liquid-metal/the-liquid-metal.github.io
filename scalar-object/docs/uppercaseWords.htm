@@ -1,55 +1,55 @@
-<h1>uppercaseWords</h1>
+  <h1>uppercaseWords</h1>
 
- <div>
-  <p>
-   Returns a string with the first character of each word in
-   <code>str</code> capitalized, if that character is alphabetic.
-  </p>
-  <p>
-   The definition of a word is any string of characters that is immediately
-   after any character listed in the <code>delimiters</code> parameter
-   (By default these are: space, form-feed, newline, carriage return, horizontal tab, and vertical tab).
-  </p>
- </div>
+  <div>
+    <p>
+      Returns a string with the first character of each word in
+      <code>str</code> capitalized, if that character is alphabetic.
+    </p>
+    <p>
+      The definition of a word is any string of characters that is immediately after any
+      character listed in the <code>delimiters</code> parameter (By default these are:
+      space, form-feed, newline, carriage return, horizontal tab, and vertical tab).
+    </p>
+  </div>
 
- <div>
-  <h3>Parameters</h3>
-   <dl>
-     <dt>str</dt>
-     <dd>The input string.</dd>
+  <div>
+    <h3>Parameters</h3>
+    <dl>
+      <dt>str</dt>
+      <dd>The input string.</dd>
 
-     <dt>delimiters</dt>
-     <dd>The optional <code>delimiters</code> contains the word separator characters.</dd>
-   </dl>
- </div>
+      <dt>delimiters</dt>
+      <dd>The optional <code>delimiters</code> contains the word separator characters.</dd>
+    </dl>
+  </div>
 
- <div>
-  <h3>Return Values</h3>
-  <p>Returns the modified string.</p>
- </div>
+  <div>
+    <h3>Return Values</h3>
+    <p>Returns the modified string.</p>
+  </div>
 
- <div class="examples">
+  <div class="examples">
     <p><strong>Example #1 uppercaseWords() example</strong></p>
-<pre class="php-code">
-<?php
-$foo = 'hello world!';
-$foo = uppercaseWords($foo);             // Hello World!
+    <pre class="php-code">
+      <?php
+      $foo = 'hello world!';
+      $foo = uppercaseWords($foo);             // Hello World!
 
-$bar = 'HELLO WORLD!';
-$bar = uppercaseWords($bar);             // HELLO WORLD!
-$bar = uppercaseWords(strtolower($bar)); // Hello World!
-?>
-</pre>
+      $bar = 'HELLO WORLD!';
+      $bar = uppercaseWords($bar);             // HELLO WORLD!
+      $bar = uppercaseWords(strtolower($bar)); // Hello World!
+      ?>
+    </pre>
 
     <p><strong>Example #2 uppercaseWords() example with custom delimiter</strong></p>
-<pre class="php-code">
-<?php
-$foo = 'hello|world!';
-$bar = uppercaseWords($foo);             // Hello|world!
+    <pre class="php-code">
+      <?php
+      $foo = 'hello|world!';
+      $bar = uppercaseWords($foo);             // Hello|world!
 
-$baz = uppercaseWords($foo, "|");        // Hello|World!
-?>
-</pre>
- </div>
+      $baz = uppercaseWords($foo, "|");        // Hello|World!
+      ?>
+    </pre>
+  </div>
 
   <blockquote><strong>Note</strong>:This function is binary-safe.</blockquote>

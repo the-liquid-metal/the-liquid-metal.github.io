@@ -1,50 +1,53 @@
-<h1>shift</h1>
- <div>
-  <p>
-   <strong>shift()</strong> shifts the first value of the
-   <code>array</code> off and returns it, shortening the
-   <code>array</code> by one element and moving everything
-   down. All numerical array keys will be modified to start counting from zero
-   while literal keys won't be touched.
-  </p>
-  <blockquote><strong>Note</strong>:This function will
-   <a href="function.reset.php">reset()</a> the <a href="language.types.array.php">array</a> pointer of the input array after use.
-  </blockquote>
- </div>
+  <h1>shift</h1>
 
- <div>
-  <h3>Parameters</h3>
-   <dl>
-     <dt>array</dt>
-     <dd>The input array.</dd>
-   </dl>
- </div>
+  <div>
+    <p>
+      <strong>shift()</strong> shifts the first value of the
+      <code>array</code> off and returns it, shortening the
+      <code>array</code> by one element and moving everything
+      down. All numerical array keys will be modified to start counting from zero
+      while literal keys won't be touched.
+    </p>
+    <blockquote>
+      <strong>Note</strong>:This function will <a href="function.reset.php">reset()</a>
+      the <a href="language.types.array.php">array</a> pointer of the input array after use.
+    </blockquote>
+  </div>
 
- <div>
-  <h3>Return Values</h3>
-  <p>
-   Returns the shifted value, or <code>NULL</code> if <code>array</code> is
-   empty or is not an array.
-  </p>
- </div>
+  <div>
+    <h3>Parameters</h3>
+     <dl>
+       <dt>array</dt>
+       <dd>The input array.</dd>
+     </dl>
+  </div>
 
- <div class="examples">
+  <div>
+    <h3>Return Values</h3>
+    <p>
+      Returns the shifted value, or <code>NULL</code> if <code>array</code> is
+      empty or is not an array.
+    </p>
+  </div>
+
+  <div class="examples">
     <p><strong>Example #1 shift() example</strong></p>
-<pre class="php-code">
-<?php
-$stack = array("orange", "banana", "apple", "raspberry");
-$fruit = shift($stack);
-print_r($stack);
-?>
-</pre>
+    <pre class="php-code">
+      <?php
+      $stack = array("orange", "banana", "apple", "raspberry");
+      $fruit = shift($stack);
+      print_r($stack);
+      ?>
+    </pre>
+
     <div>The above example will output:</div>
-<pre class="output">
-Array
-(
-    [0] => banana
-    [1] => apple
-    [2] => raspberry
-)
-</pre>
+    <pre class="output">
+      Array
+      (
+          [0] => banana
+          [1] => apple
+          [2] => raspberry
+      )
+    </pre>
     <div>and <em>orange</em> will be assigned to <var>$fruit</var>.</div>
- </div>
+  </div>

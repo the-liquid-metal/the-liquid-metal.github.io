@@ -1,92 +1,88 @@
-<h1>unique</h1>
+  <h1>unique</h1>
 
- <div>
-  <p>
-   Takes an input <code>array</code> and returns a new array
-   without duplicate values.
-  </p>
-  <p>
-   Note that keys are preserved. <strong>unique()</strong> sorts
-   the values treated as string at first, then will keep the first key
-   encountered for every value, and ignore all following keys. It does not
-   mean that the key of the first related value from the unsorted
-   <code>array</code> will be kept.
-  </p>
-  <blockquote><strong>Note</strong>:
-    Two elements are considered equal if and only if
-    <em>(string) $elem1 === (string) $elem2</em> i.e. 
-    when the string representation is the same, the first element will be used.
-   </blockquote>
- </div>
+  <div>
+    <p>
+      Takes an input <code>array</code> and returns a new array
+      without duplicate values.
+    </p>
+    <p>
+      Note that keys are preserved. <strong>unique()</strong> sorts the values
+      treated as string at first, then will keep the first key encountered for
+      every value, and ignore all following keys. It does not mean that the key
+      of the first related value from the unsorted <code>array</code> will be kept.
+    </p>
+    <blockquote>
+      <strong>Note</strong>: Two elements are considered equal if and only if
+      <em>(string) $elem1 === (string) $elem2</em> i.e. when the string representation
+      is the same, the first element will be used.
+    </blockquote>
+  </div>
 
- <div>
-  <h3>Parameters</h3>
-   <dl>
-     <dt>array</dt>
-     <dd>The input array.</dd>
+  <div>
+    <h3>Parameters</h3>
+    <dl>
+      <dt>array</dt>
+      <dd>The input array.</dd>
 
-     <dt>sort_flags</dt>
-     <dd><p>The optional second parameter <code>sort_flags</code>
-       may be used to modify the sorting behavior using these values:
-      </p>
-      <p>
-       Sorting type flags:
-       <ul>
-        <li>
-         <code>SORT_REGULAR</code> - compare items normally
-         (don't change types)
-        </li>
-        <li>
-         <code>SORT_NUMERIC</code> - compare items numerically
-        </li>
-        <li>
-         <code>SORT_STRING</code> - compare items as strings
-        </li>
-        <li>
-         <code>SORT_LOCALE_STRING</code> - compare items as
-          strings, based on the current locale.
-        </li>
-       </ul></p></dd>
-   </dl>
- </div>
+      <dt>sort_flags</dt>
+      <dd>
+        <p>
+          The optional second parameter <code>sort_flags</code>
+          may be used to modify the sorting behavior using these values:
+        </p>
+        <p>Sorting type flags:</p>
+        <ul>
+          <li><code>SORT_REGULAR</code> - compare items normally (don't change types)</li>
+          <li><code>SORT_NUMERIC</code> - compare items numerically</li>
+          <li><code>SORT_STRING</code> - compare items as strings</li>
+          <li>
+            <code>SORT_LOCALE_STRING</code> - compare items as 
+            strings, based on the current locale.
+          </li>
+        </ul>
+      </dd>
+    </dl>
+  </div>
 
- <div>
-  <h3>Return Values</h3>
-  <p>Returns the filtered array.</p>
- </div>
+  <div>
+    <h3>Return Values</h3>
+    <p>Returns the filtered array.</p>
+  </div>
 
- <div class="examples">
+  <div class="examples">
     <p><strong>Example #1 unique() example</strong></p>
-<pre class="php-code">
-<?php
-$input = array("a" => "green", "red", "b" => "green", "blue", "red");
-$result = unique($input);
-print_r($result);
-?>
-</pre>
+    <pre class="php-code">
+      <?php
+      $input = array("a" => "green", "red", "b" => "green", "blue", "red");
+      $result = unique($input);
+      print_r($result);
+      ?>
+    </pre>
+
     <div>The above example will output:</div>
-<pre class="output">
-Array
-(
-    [a] => green
-    [0] => red
-    [1] => blue
-)
-</pre>
+    <pre class="output">
+      Array
+      (
+          [a] => green
+          [0] => red
+          [1] => blue
+      )
+    </pre>
 
     <p><strong>Example #2 unique() and types</strong></p>
-<pre class="php-code">
-<?php
-$input = array(4, "4", "3", 4, 3, "3");
-$result = unique($input);
-var_dump($result);
-?>
-</pre>
+    <pre class="php-code">
+      <?php
+      $input = array(4, "4", "3", 4, 3, "3");
+      $result = unique($input);
+      var_dump($result);
+      ?>
+    </pre>
+
     <div>The above example will output:</div>
-<pre class="output">
-array(2) {
-  [0] => int(4)
-  [2] => string(1) "3"
-}
-</pre>
- </div>
+    <pre class="output">
+      array(2) {
+        [0] => int(4)
+        [2] => string(1) "3"
+      }
+    </pre>
+  </div>

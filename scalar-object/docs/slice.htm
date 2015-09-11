@@ -1,71 +1,75 @@
-<h1>slice</h1>
- <div>
-   <strong>slice()</strong> returns the sequence of elements
-   from the array <code>array</code> as specified by the
-   <code>offset</code> and <code>length</code> parameters.
- </div>
+  <h1>slice</h1>
 
- <div>
-  <h3>Parameters</h3>
-   <dl>
-     <dt>array</dt>
-     <dd>The input array.</dd>
+  <div>
+    <strong>slice()</strong> returns the sequence of elements
+    from the array <code>array</code> as specified by the
+    <code>offset</code> and <code>length</code> parameters.
+  </div>
 
-     <dt>offset</dt>
-     <dd>If <code>offset</code> is non-negative, the sequence will
-       start at that offset in the <code>array</code>.  If
-       <code>offset</code> is negative, the sequence will
-       start that far from the end of the <code>array</code>.</dd>
+  <div>
+    <h3>Parameters</h3>
+    <dl>
+      <dt>array</dt>
+      <dd>The input array.</dd>
 
-     <dt>length</dt>
-     <dd>If <code>length</code> is given and is positive, then
-       the sequence will have up to that many elements in it. If the array
-       is shorter than the <code>length</code>, then only the
-       available array elements will be present. If
-       <code>length</code> is given and is negative then the
-       sequence will stop that many elements from the end of the
-       array. If it is omitted, then the sequence will have everything
-       from <code>offset</code> up until the end of the
-       <code>array</code>.</dd>
+      <dt>offset</dt>
+      <dd>
+        If <code>offset</code> is non-negative, the sequence will start at that
+        offset in the <code>array</code>.  If <code>offset</code> is negative,
+        the sequence will start that far from the end of the <code>array</code>.
+      </dd>
 
-     <dt>preserve_keys</dt>
-     <dd>Note that <strong>slice()</strong> will reorder and reset the
-       numeric array indices by default. You can change this behaviour by setting
-       <code>preserve_keys</code> to <code>TRUE</code>.</dd>
-   </dl>
- </div>
+      <dt>length</dt>
+      <dd>
+        If <code>length</code> is given and is positive, then the sequence will have up
+        to that many elements in it. If the array is shorter than the <code>length</code>,
+        then only the available array elements will be present. If <code>length</code>
+        is given and is negative then the sequence will stop that many elements from the
+        end of the array. If it is omitted, then the sequence will have everything from
+        <code>offset</code> up until the end of the <code>array</code>.
+      </dd>
 
- <div>
-  <h3>Return Values</h3>
-  <p>Returns the slice.</p>
- </div>
+      <dt>preserve_keys</dt>
+      <dd>
+        Note that <strong>slice()</strong> will reorder and reset the numeric array indices
+        by default. You can change this behaviour by setting <code>preserve_keys</code> to
+        <code>TRUE</code>.
+      </dd>
+    </dl>
+  </div>
 
- <div class="examples">
+  <div>
+    <h3>Return Values</h3>
+    <p>Returns the slice.</p>
+  </div>
+
+  <div class="examples">
     <p><strong>Example #1 slice() examples</strong></p>
-<pre class="php-code">
-<?php
-$input = array("a", "b", "c", "d", "e");
+    <pre class="php-code">
+      <?php
+      $input = array("a", "b", "c", "d", "e");
+      
+      $output = slice($input, 2);      // returns "c", "d", and "e"
+      $output = slice($input, -2, 1);  // returns "d"
+      $output = slice($input, 0, 3);   // returns "a", "b", and "c"
+      
+      // note the differences in the array keys
+      print_r(slice($input, 2, -1));
+      print_r(slice($input, 2, -1, true));
+      ?>
+    </pre>
 
-$output = slice($input, 2);      // returns "c", "d", and "e"
-$output = slice($input, -2, 1);  // returns "d"
-$output = slice($input, 0, 3);   // returns "a", "b", and "c"
-
-// note the differences in the array keys
-print_r(slice($input, 2, -1));
-print_r(slice($input, 2, -1, true));
-?>
-</pre>
     <div>The above example will output:</div>
-<pre class="output">
-Array
-(
-    [0] => c
-    [1] => d
-)
-Array
-(
-    [2] => c
-    [3] => d
-)
-</pre>
- </div>
+    <pre class="output">
+      Array
+      (
+          [0] => c
+          [1] => d
+      )
+      Array
+      (
+          [2] => c
+          [3] => d
+      )
+    </pre>
+  </div>
