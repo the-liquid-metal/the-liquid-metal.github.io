@@ -46,7 +46,7 @@ print_r($b);
 ?>
 </pre>
     <div>This makes <var>$b</var> have:</div>
-<pre>
+<pre class="output">
 Array
 (
     [0] => 1
@@ -67,7 +67,7 @@ $func = function($value) {
 print_r(map($func, range(1, 5)));
 ?>
 </pre>
-<pre>
+<pre class="output">
 Array
 (
     [0] => 2
@@ -102,7 +102,7 @@ print_r($d);
 ?>
 </pre>
     <div>The above example will output:</div>
-<pre>
+<pre class="output">
 // printout of $c
 Array
 (
@@ -165,7 +165,7 @@ print_r($d);
 ?>
 </pre>
     <div>The above example will output:</div>
-<pre>
+<pre class="output">
 Array
 (
     [0] => Array
@@ -225,7 +225,7 @@ var_dump(map(null, $arr, $arr));
 ?>
 </pre>
     <div>The above example will output:</div>
-<pre>
+<pre class="output">
 array(1) {
   ["stringkey"]=>
   array(1) {
