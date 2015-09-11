@@ -1,0 +1,23 @@
+body {
+	background:#f9f9f9;
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-size: 0.8em;
+}
+.ajax-area {
+	width: 800px;
+	margin: auto;
+	padding: 8px;
+}
+code, var {
+	font-family: Menlo,Monaco,Consolas,"Courier New",monospace;
+	color: #468847;
+}
+pre {
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	padding: 9.5px;
+	font-size: 1.2em;
+}
+pre.output {
+	background: #f5f5f5;
+}

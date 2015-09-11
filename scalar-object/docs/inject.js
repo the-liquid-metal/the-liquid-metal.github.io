@@ -16,11 +16,15 @@ $(document).ready(function(){
     $('#magicMethods').on('click', 'tr', function(){
         var $tr = $(this);
         var insertDetail = function(response){
-            var $ajaxArea = $('<div class="ajax-area"/>');
+            var $ajaxArea;
+            // var $ajaxArea = $('<div class="ajax-area"/>');
+
             if (typeof response === 'string') {
-                $ajaxArea.append(response);
+                $ajaxArea = $('<div/>').html(response).find(".ajax-area");
+                // $ajaxArea.append(response);
             } else {
-                $ajaxArea.append(response.responseText);
+            var $ajaxArea = $('<div/>').html(response.responseText).find(".ajax-area");
+                // $ajaxArea.append(response.responseText);
             }
             $tr.find('.description.detailed').append($ajaxArea);
             $tr.data('isLoaded', true);
