@@ -101,7 +101,7 @@ $(document).ready(function(){
         $a.attr("target", "_blank");
     });
 
-    $('#magicMethods').on('click', '.ajax-area', function(event){
+    $('#magicMethods').on('click', '.ajax-area, .ajax-area table', function(event){
         event.preventDefault();
         return false;
     });
