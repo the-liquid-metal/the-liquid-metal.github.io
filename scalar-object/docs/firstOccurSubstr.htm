@@ -9,15 +9,20 @@
 </head>
 <body>
 <div class="short-description">
-
+    <code>firstOccurSubstr( mixed <var>$needle</var>, bool <var>$beforeNeedle</var> = false ): string</code>
+    <p>
+      Context: string.<br/>
+      Alias of <a href="http://php.net/manual/en/function.strstr.php">strstr</a>.<br/>
+      Find the first occurrence of a substring.
+    </p>
 </div>
 <div class="ajax-area">
   <h1>firstOccurSubstr</h1>
 
   <div>
     <p>
-      Returns part of <code>haystack</code> string starting from and including the first
-      occurrence of <code>needle</code> to the end of <code>haystack</code>.
+      Returns part of <var>$scalarObject->val</var> string starting from and including the first
+      occurrence of <var>$needle</var> to the end of <var>$scalarObject->val</var>.
     </p>
 
     <blockquote>
@@ -27,7 +32,7 @@
 
     <blockquote>
       <strong>Note</strong>: If you only want to determine if a particular
-      <code>needle</code> occurs within <code>haystack</code>, use the faster and
+      <var>$needle</var> occurs within <var>$scalarObject->val</var>, use the faster and
       less memory intensive function <a href="firstOccurPosition.htm">firstOccurPosition()</a> instead.
     </blockquote>
   </div>
@@ -35,30 +40,24 @@
   <div>
     <h3>Parameters</h3>
     <dl>
-      <dt>haystack</dt>
-      <dd>The input string.</dd>
-
-      <dt>needle</dt>
+      <dt>$needle</dt>
       <dd>
-        If <code>needle</code> is not a string, it is converted to
+        If <var>$needle</var> is not a string, it is converted to
         an integer and applied as the ordinal value of a character.
       </dd>
 
-      <dt>before_needle</dt>
+      <dt>$beforeNeedle</dt>
       <dd>
         If <code>TRUE</code>, <strong>firstOccurSubstr()</strong> returns
-        the part of the <code>haystack</code> before the first
-        occurrence of the <code>needle</code> (excluding the needle).
+        the part of the <var>$scalarObject->val</var> before the first
+        occurrence of the <var>$needle</var> (excluding the needle).
       </dd>
     </dl>
   </div>
 
   <div>
     <h3>Return Values</h3>
-    <p>
-      Returns the portion of string, or <code>FALSE</code>
-      if <code>needle</code> is not found.
-    </p>
+    <p>The portion of string, or <code>FALSE</code> if <var>$needle</var> is not found.</p>
   </div>
 
   <div class="examples">

@@ -9,37 +9,39 @@
 </head>
 <body>
 <div class="short-description">
-
+    <code>firstOccurInsenSubstr( mixed <var>$needle</var>, bool $beforeNeedle</var> = false ): string</code>
+    <p>
+      Context: string.<br/>
+      Alias of <a href="http://php.net/manual/en/function.stristr.php">stristr</a>.<br/>
+      Find the first occurrence of a case-insensitive substring.
+    </p>
 </div>
 <div class="ajax-area">
   <h1>firstOccurInsenSubstr</h1>
 
   <div>
-    Returns all of <code>haystack</code> starting from and including the first
-    occurrence of <code>needle</code> to the end.
+    Returns all of <var>$scalarObject->val</var> starting from and including the first
+    occurrence of <var>$needle</var> to the end.
   </div>
 
   <div>
     <h3>Parameters</h3>
     <dl>
-      <dt>haystack</dt>
-      <dd>The string to search in</dd>
-
-      <dt>needle</dt>
+      <dt>$needle</dt>
       <dd>
-        If <code>needle</code> is not a string, it is converted to
+        If <var>$needle</var> is not a string, it is converted to
         an integer and applied as the ordinal value of a character.
       </dd>
 
-      <dt>before_needle</dt>
+      <dt>$beforeNeedle</dt>
       <dd>
         If <code>TRUE</code>, <strong>firstOccurInsenSubstr()</strong>
-        returns the part of the <code>haystack</code> before the
-        first occurrence of the <code>needle</code> (excluding needle).
+        returns the part of the <var>$scalarObject->val</var> before the
+        first occurrence of the <var>$needle</var> (excluding needle).
       </dd>
     </dl>
     <p>
-      <code>needle</code> and <code>haystack</code>
+      <var>$needle</var> and <var>$scalarObject->val</var>
       are examined in a case-insensitive manner.
     </p>
   </div>
@@ -47,7 +49,7 @@
   <div>
     <h3>Return Values</h3>
     <p>
-      Returns the matched substring. If <code>needle</code> is not
+      The matched substring. If <var>$needle</var> is not
       found, returns <code>FALSE</code>.
     </p>
   </div>

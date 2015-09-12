@@ -9,7 +9,7 @@
 </head>
 <body>
 <div class="short-description">
-    <code>count( int <var>$mode</var> = COUNT_NORMAL ): </code>
+    <code>count( int <var>$mode</var> = COUNT_NORMAL ): int</code>
     <p>
       Context: array.<br/>
       Alias of <a href="http://php.net/manual/en/function.count.php">count</a>.<br/>
@@ -56,19 +56,9 @@
 
   <div>
     <h3>Return Values</h3>
-    <p>
-      Returns the number of elements in <var>$scalarObject->val</var>. If the parameter is not an
-      array or not an object with implemented <a href="class.countable.php">Countable</a> interface,
-      <em>1</em> will be returned. There is one exception, if <var>$scalarObject->val</var> is
-      <code>NULL</code>, <em>0</em> will be returned.
-    </p>
-  
-    <div class="caution">
-      <strong>Caution</strong><br/>
-      <strong>count()</strong> may return 0 for a variable that isn't set, but it may also return 0 for a
-      variable that has been initialized with an empty array. Use <a href="function.isset.php">isset()</a>
-      to test if a variable is set.
-    </div>
+    <p>The number of elements in <var>$scalarObject->val</var>.</p>
+    <!-- other type of return value is not relevant -->
+    <!-- caution is not relevant -->
   </div>
 
   <div class="examples">

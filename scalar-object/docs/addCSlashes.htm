@@ -30,7 +30,7 @@
           converted to octal representation.
         </p>
         <p>
-          When you define a sequence of characters in the charlist argument make sure that you know
+          When you define a sequence of characters in the <var>$charList</var> make sure that you know
           what characters come between the characters that you set as the start and end of the range.
         </p>
         <pre class="php-code">
@@ -55,7 +55,7 @@
           \0, \a, \b, \f, \n, \r, \t and \v, all of which are predefined escape sequences in C. Many of these
           sequences are also defined in other C-derived languages, including PHP, meaning that you may not get
           the desired result if you use the output of <strong>addCSlashes()</strong> to generate code in those
-          languages with these characters defined in <code>charlist</code>.
+          languages with these characters defined in <var>$charList</var>.
         </p>
       </dd>
     </dl>

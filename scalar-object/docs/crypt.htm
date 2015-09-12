@@ -9,7 +9,7 @@
 </head>
 <body>
 <div class="short-description">
-    <code>crypt( string <var>$salt</var> = null ): </code>
+    <code>crypt( string <var>$salt</var> = null ): string</code>
     <p>
       Context: string.<br/>
       Alias of <a href="http://php.net/manual/en/function.crypt.php">crypt</a>.<br/>
@@ -57,15 +57,16 @@
       <li>
         <code>CRYPT_STD_DES</code> - Standard DES-based hash with a two character salt from the
         alphabet "./0-9A-Za-z". Using invalid characters in the salt will cause crypt() to fail.
+        <br/>&nbsp;
       </li>
       <li>
         <code>CRYPT_EXT_DES</code> - Extended DES-based hash. The "salt" is a
         9-character string consisting of an underscore followed by 4 bytes of iteration count and
         4 bytes of salt. These are encoded as printable characters, 6 bits per character, least
         significant character first. The values 0 to 63 are encoded as "./0-9A-Za-z". Using invalid
-        characters in the salt will cause crypt() to fail.
+        characters in the salt will cause crypt() to fail.<br/>&nbsp;
       </li>
-      <li><code>CRYPT_MD5</code> - MD5 hashing with a twelve character salt starting with $1$</li>
+      <li><code>CRYPT_MD5</code> - MD5 hashing with a twelve character salt starting with $1$<br/>&nbsp;</li>
       <li>
         <code>CRYPT_BLOWFISH</code> - Blowfish hashing with a salt as
         follows: "$2a$", "$2x$" or "$2y$", a two digit cost parameter, "$", and
@@ -80,6 +81,13 @@
         <a href="http://www.php.net/security/crypt_blowfish.php">&raquo; this document</a> for full
         details of the security fix, but to summarise, developers targeting only
         PHP 5.3.7 and later should use "$2y$" in preference to "$2a$".
+
+        <div class="caution">
+          <strong>Caution</strong><br/>
+          Using the <code>CRYPT_BLOWFISH</code> algorithm, will result in the <var>$scalarObject->val</var>
+          parameter being truncated to a maximum length of 72 characters.
+        </div>
+        <br/>&nbsp;
       </li>
       <li>
         <code>CRYPT_SHA256</code> - SHA-256 hash with a sixteen character salt
@@ -87,7 +95,7 @@
         is used to indicate how many times the hashing loop should be executed, much like the cost
         parameter on Blowfish. The default number of rounds is 5000, there is a minimum of
         1000 and a maximum of 999,999,999. Any selection of N outside this range will be truncated to
-        the nearest limit.
+        the nearest limit.<br/>&nbsp;
       </li>
       <li>
         <code>CRYPT_SHA512</code> - SHA-512 hash with a sixteen character salt
@@ -95,7 +103,7 @@
         is used to indicate how many times the hashing loop should be executed, much like the cost
         parameter on Blowfish. The default number of rounds is 5000, there is a minimum of
         1000 and a maximum of 999,999,999. Any selection of N outside this range will be truncated to
-        the nearest limit.
+        the nearest limit.<br/>&nbsp;
       </li>
     </ul>
 
@@ -108,16 +116,6 @@
   <div>
     <h3>Parameters</h3>
     <dl>
-      <dt>str</dt>
-      <dd>
-        <p>The string to be hashed.</p>
-        <div class="caution">
-          <strong>Caution</strong><br/>
-          Using the <code>CRYPT_BLOWFISH</code> algorithm, will result in the <var>$scalarObject->val</var>
-          parameter being truncated to a maximum length of 72 characters.
-        </div>
-      </dd>
-
       <dt>$salt</dt>
       <dd>
         An optional salt string to base the hashing on. If not provided, the behaviour is

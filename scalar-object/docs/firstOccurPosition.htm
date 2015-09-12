@@ -9,25 +9,27 @@
 </head>
 <body>
 <div class="short-description">
-
+    <code>firstOccurPosition( mixed <var>$needle</var>, int <var>$offset</var> ): mixed</code>
+    <p>
+      Context: string.<br/>
+      Alias of <a href="http://php.net/manual/en/function.strpos.php">strpos</a>.<br/>
+      Find the position of the first occurrence of a substring.
+    </p>
 </div>
 <div class="ajax-area">
   <h1>firstOccurPosition</h1>
 
   <div>
     Find the numeric position of the first occurrence of
-    <code>needle</code> in the <code>haystack</code> string.
+    <var>$needle</var> in the <var>$scalarObject->val</var> string.
   </div>
 
   <div>
     <h3>Parameters</h3>
     <dl>
-      <dt>haystack</dt>
-      <dd>The string to search in.</dd>
-
       <dt>needle</dt>
       <dd>
-        If <code>needle</code> is not a string, it is converted
+        If <var>$needle</var> is not a string, it is converted
         to an integer and applied as the ordinal value of a character.
       </dd>
 
@@ -42,12 +44,14 @@
 
   <div>
     <h3>Return Values</h3>
-    <p>
-      Returns the position of where the needle exists relative to the beginning of
-      the <code>haystack</code> string (independent of offset).
-      Also note that string positions start at 0, and not 1.
-    </p>
-    <p>Returns <code>FALSE</code> if the needle was not found.</p>
+    <ul>
+      <li>
+        The position of where the <var>$needle</var> exists relative to the beginning of
+        the <var>$scalarObject->val</var> string (independent of offset).
+        Also note that string positions start at 0, and not 1.
+      </li>
+      <li><code>FALSE</code> if the <var>$needle</var> was not found.</li>
+    </ul>
 
     <div class="warning">
       <strong>Warning</strong><br/>

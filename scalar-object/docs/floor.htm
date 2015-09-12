@@ -9,28 +9,25 @@
 </head>
 <body>
 <div class="short-description">
-
+    <code>floor( ): mixed</code>
+    <p>
+      Context: number.<br/>
+      Alias of <a href="http://php.net/manual/en/function.floor.php">floor</a>.<br/>
+      Round fractions down.
+    </p>
 </div>
 <div class="ajax-area">
   <h1>floor</h1>
 
   <div>
     Returns the next lowest integer value (as float) by
-    rounding down <code>value</code> if necessary. 
-  </div>
-
-  <div>
-    <h3>Parameters</h3>
-    <dl>
-      <dt>value</dt>
-      <dd>The numeric value to round</dd>
-    </dl>
+    rounding down <var>$scalarObject->val</var> if necessary. 
   </div>
 
   <div>
     <h3>Return Values</h3>
     <p>
-      <code>value</code> rounded to the next lowest integer. The return value of <strong>floor()</strong>
+      <var>$scalarObject->val</var> rounded to the next lowest integer. The return value of <strong>floor()</strong>
       is still of type float because the value range of float is usually bigger than that of integer. This
       function returns FALSE in case of an error (e.g. passing an array).
     </p>
