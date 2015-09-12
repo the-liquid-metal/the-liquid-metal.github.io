@@ -26,6 +26,9 @@ code {
 	margin-top: 0px;
 	font-size: 1.5em;
 }
+.ajax-area h3 {
+	font-weight: bold;
+}
 .ajax-area dt {
 	color: #c09853;
 	font-weight: bold;
