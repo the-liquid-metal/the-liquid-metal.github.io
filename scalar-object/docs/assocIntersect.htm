@@ -8,23 +8,27 @@
   <link rel="stylesheet" href="individual.css"/>
 </head>
 <body>
+<div class="short-description">
+    <code>assocIntersect( array <var>$array2</var>, array <var>...</var> ): array</code>
+    <p>
+      Context: array.<br/>
+      Alias of <a href="http://php.net/manual/en/function.array-intersect-assoc.php" target="_blank">array_intersect_assoc</a>.<br/>
+      Computes the intersection with additional index check.
+    </p>
+</div>
 <div class="ajax-area">
   <h1>assocIntersect</h1>
 
   <div>
-    <strong>assocIntersect()</strong> returns an array
-    containing all the values of <code>array1</code>
-    that are present in all the arguments. Note that the keys are used in
-    the comparison unlike in <a href="function.array-intersect.php">array_intersect()</a>.
+    <strong>assocIntersect()</strong> returns an array containing all the values of
+    <var>$scalarObject->val</var> that are present in all the arguments. Note that the keys are used
+    in the comparison unlike in <a href="intersect.htm">intersect()</a>.
   </div>
 
   <div>
     <h3>Parameters</h3>
     <dl>
-      <dt>array1</dt>
-      <dd>The array with master values to check.</dd>
-
-      <dt>array2</dt>
+      <dt>$array2</dt>
       <dd>An array to compare values against.</dd>
 
       <dt>...</dt>
@@ -35,8 +39,8 @@
   <div>
     <h3>Return Values</h3>
     <p>
-      Returns an associative array containing all the values in 
-      <code>array1</code> that are present in all of the arguments.
+      An associative array containing all the values in 
+      <var>$scalarObject->val</var> that are present in all of the arguments.
     </p>
   </div>
 
@@ -60,14 +64,14 @@
     </pre>
 
     <p>
-      In our example you see that only the pair <em>"a" => "green"</em> is present in both arrays
-      and thus is returned. The value <em>"red"</em> is not returned because in <var>$array1</var>
+      In our example you see that only the pair <code>"a" => "green"</code> is present in both arrays
+      and thus is returned. The value <em>"red"</em> is not returned because in <var>$scalarObject->val</var>
       its key is <em>0</em> while the key of "red" in <var>$array2</var> is <em>1</em>, and the key
       <em>"b"</em> is not returned because its values are different in each array.
     </p>
     <p>
       The two values from the <em>key => value</em> pairs are considered equal only if
-      <em>(string) $elem1 === (string) $elem2 </em>. In other words a strict type check is
+      <code>(string) $elem1 === (string) $elem2 </code>. In other words a strict type check is
       executed so the string representation must be the same.
     </p>
   </div>

@@ -8,14 +8,22 @@
   <link rel="stylesheet" href="individual.css"/>
 </head>
 <body>
+<div class="short-description">
+    <code>baseConvert( integer <var>$fromBase</var>, integer <var>$toBase</var> ): string</code>
+    <p>
+      Context: string.<br/>
+      Alias of <a href="http://php.net/manual/en/function.base-convert.php">base_convert</a>.<br/>
+      Convert a number between arbitrary bases.
+    </p>
+</div>
 <div class="ajax-area">
   <h1>baseConvert</h1>
 
   <div>
     <p>
-      Returns a string containing <code>number</code> represented in base <code>tobase</code>.
-      The base in which <code>number</code> is given is specified in <code>frombase</code>.
-      Both <code>frombase</code> and <code>tobase</code> have to be between 2 and 36, inclusive.
+      Returns a string containing <code>number</code> represented in base <var>$toBase</var>.
+      The base in which <var>$scalarObject->val</var> is given is specified in <var>$fromBase</var>.
+      Both <var>$fromBase</var> and <var>$toBase</var> have to be between 2 and 36, inclusive.
       Digits in numbers with a base higher than 10 will be represented with the letters a-z,
       with a meaning 10, b meaning 11 and z meaning 35.
     </p>
@@ -32,20 +40,17 @@
   <div>
     <h3>Parameters</h3>
     <dl>
-      <dt>number</dt>
-      <dd>The number to convert</dd>
-
-      <dt>frombase</dt>
+      <dt>$fromBase</dt>
       <dd>The base <code>number</code> is in</dd>
 
-      <dt>tobase</dt>
+      <dt>$toBase</dt>
       <dd>The base to convert <code>number</code> to</dd>
     </dl>
   </div>
 
   <div>
     <h3>Return Values</h3>
-    <p><code>number</code> converted to base <code>tobase</code></p>
+    <p>The converted <var>$scalarObject->val</var> to <var>$toBase</var>.</p>
   </div>
 
   <div class="examples">

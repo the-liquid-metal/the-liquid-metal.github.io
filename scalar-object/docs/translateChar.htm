@@ -8,6 +8,9 @@
   <link rel="stylesheet" href="individual.css"/>
 </head>
 <body>
+<div class="short-description">
+
+</div>
 <div class="ajax-area">
   <h1>translateChar</h1>
 
@@ -25,8 +28,8 @@
       as the return value's.
     </p>
     <p>
-      If given two arguments, the second should be an <a href="language.types.array.php">array</a> in the
-      form <em>array('from' => 'to', ...)</em>. The return value is a <a href="language.types.string.php">string</a>
+      If given two arguments, the second should be an array in the
+      form <em>array('from' => 'to', ...)</em>. The return value is a string
       where all the occurrences of the array keys have been replaced by the corresponding values. The longest
       keys will be tried first. Once a substring has been replaced, its new value will not be searched again.
     </p>
@@ -41,18 +44,18 @@
     <h3>Parameters</h3>
     <dl>
       <dt>str</dt>
-      <dd>The <a href="language.types.string.php">string</a> being translated.</dd>
+      <dd>The string being translated.</dd>
 
       <dt>from</dt>
-      <dd>The <a href="language.types.string.php">string</a> being translated to <code>to</code>.</dd>
+      <dd>The string being translated to <code>to</code>.</dd>
 
       <dt>to</dt>
-      <dd>The <a href="language.types.string.php">string</a> replacing <code>from</code>.</dd>
+      <dd>The string replacing <code>from</code>.</dd>
 
       <dt>replace_pairs</dt>
       <dd>
         The <code>replace_pairs</code> parameter may be used instead of <code>to</code> and
-        <code>from</code>, in which case it's an <a href="language.types.array.php">array</a>
+        <code>from</code>, in which case it's an array
         in the form <em>array('from' => 'to', ...)</em>.
       </dd>
     </dl>
@@ -60,10 +63,10 @@
 
   <div>
     <h3>Return Values</h3>
-    <p>Returns the translated <a href="language.types.string.php">string</a>.</p>
+    <p>Returns the translated string.</p>
     <p>
       If <code>replace_pairs</code> contains a key which is an empty
-      <a href="language.types.string.php">string</a> (<em>""</em>), <code>FALSE</code>
+      string (<em>""</em>), <code>FALSE</code>
       will be returned. If the <code>str</code> is not a scalar then it is not typecasted
       into a string, instead a warning is raised and <code>NULL</code> is returned. 
     </p>

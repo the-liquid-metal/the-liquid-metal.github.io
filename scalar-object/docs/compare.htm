@@ -8,6 +8,14 @@
   <link rel="stylesheet" href="individual.css"/>
 </head>
 <body>
+<div class="short-description">
+    <code>compare( string <var>$str2</var> ): int</code>
+    <p>
+      Context: string.<br/>
+      Alias of <a href="http://php.net/manual/en/function.strcmp.php">strcmp</a>.<br/>
+      Binary safe comparison.
+    </p>
+</div>
 <div class="ajax-area">
   <h1>compare</h1>
 
@@ -16,10 +24,7 @@
   <div>
     <h3>Parameters</h3>
     <dl>
-      <dt>str1</dt>
-      <dd>The first string.</dd>
-
-      <dt>str2</dt>
+      <dt>$str2</dt>
       <dd>The second string.</dd>
     </dl>
   </div>
@@ -27,8 +32,8 @@
   <div>
     <h3>Return Values</h3>
     <p>
-      Returns &lt; 0 if <code>str1</code> is less than <code>str2</code>; > 0 if
-      <code>str1</code> is greater than <code>str2</code>, and 0 if they are equal.
+      Returns &lt; 0 if <var>$scalarObject->val</var> is less than <var>$str2</var>; > 0 if
+      <code>str1</code> is greater than <var>$str2</var>, and 0 if they are equal.
     </p>
   </div>
 

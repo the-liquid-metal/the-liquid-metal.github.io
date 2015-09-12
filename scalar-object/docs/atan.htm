@@ -8,26 +8,25 @@
   <link rel="stylesheet" href="individual.css"/>
 </head>
 <body>
+<div class="short-description">
+    <code>atan( ): float</code>
+    <p>
+      Context: number.<br/>
+      Alias of <a href="http://php.net/manual/en/function.atan.php" target="_blank">atan</a>.<br/>
+      Arc tangent.
+    </p>
+</div>
 <div class="ajax-area">
   <h1>atan</h1>
 
   <div>
-    Returns the arc tangent of <code>arg</code> in radians. <strong>atan()</strong> is the
-    complementary function of <a href="function.tan.php">tan()</a>, which means that
-    <em>a==tan(atan(a))</em> for every value of a that is within <strong>atan()</strong>'s range.
-  </div>
-
-  <div>
-    <h3>Parameters</h3>
-    <dl>
-      <dt>arg</dt>
-      <dd>The argument to process</dd>
-    </dl>
+    <strong>atan()</strong> is the complementary function of <a href="tan.htm">tan()</a>, which means that
+    <code>$so->val == $so->tan()->atan()->val</code> for every value of a that is within <strong>atan()</strong>'s range.
   </div>
 
   <div>
     <h3>Return Values</h3>
-    <p>The arc tangent of <code>arg</code> in radians.</p>
+    <p>The arc tangent of <var>$scalarObject->val</var> in radians.</p>
   </div>
 </div>
 </body>

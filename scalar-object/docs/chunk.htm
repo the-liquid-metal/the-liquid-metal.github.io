@@ -8,24 +8,29 @@
   <link rel="stylesheet" href="individual.css"/>
 </head>
 <body>
+<div class="short-description">
+    <code>chunk( integer <var>$size</var>, boolean <var>$preserveKeys</var> = false ): array</code>
+    <p>
+      Context: array.<br/>
+      Alias of <a href="http://php.net/manual/en/function.array-chunk.php">array_chunk</a>.<br/>
+      Splits into chunks.
+    </p>
+</div>
 <div class="ajax-area">
   <h1>chunk</h1>
 
   <div>
-    Chunks an array into arrays with <code>size</code> elements.
-    The last chunk may contain less than <code>size</code> elements.
+    Chunks an array into arrays with <var>$size</var> elements.
+    The last chunk may contain less than <var>$size</var> elements.
   </div>
 
   <div>
     <h3>Parameters</h3>
     <dl>
-      <dt>array</dt>
-      <dd>The array to work on</dd>
-
-      <dt>size</dt>
+      <dt>$size</dt>
       <dd>The size of each chunk</dd>
 
-      <dt>preserve_keys</dt>
+      <dt>$preserveKeys</dt>
       <dd>
         When set to <code>TRUE</code> keys will be preserved. Default
         is <code>FALSE</code> which will reindex the chunk numerically
@@ -36,15 +41,15 @@
   <div>
     <h3>Return Values</h3>
     <p>
-      Returns a multidimensional numerically indexed array, starting with zero,
-      with each dimension containing <code>size</code> elements.
+      A multidimensional numerically indexed array, starting with zero,
+      with each dimension containing <var>$size</var> elements.
     </p>
   </div>
 
   <div>
     <h3>Errors/Exceptions</h3>
     <p>
-      If <code>size</code> is less than 1 <code>E_WARNING</code>
+      If <var>$size</var> is less than 1 <code>E_WARNING</code>
       will be thrown and <code>NULL</code> returned.
     </p>
   </div>
@@ -78,6 +83,7 @@
                   [0] => e
               )
       )
+
       Array
       (
           [0] => Array

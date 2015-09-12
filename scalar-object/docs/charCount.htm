@@ -8,6 +8,14 @@
   <link rel="stylesheet" href="individual.css"/>
 </head>
 <body>
+<div class="short-description">
+    <code>charCount( integer <var>$mode</var> ): mixed</code>
+    <p>
+      Context: string.<br/>
+      Alias of <a href="http://php.net/manual/en/function.count-chars.php" target="_blank">count_chars</a>.<br/>
+      Return information about characters used in a string.
+    </p>
+</div>
 <div class="ajax-area">
   <h1>charCount</h1>
 
@@ -21,17 +29,14 @@
   <div>
     <h3>Parameters</h3>
     <dl>
-      <dt>string</dt>
-      <dd>The examined string.</dd>
-
-      <dt>mode</dt>
+      <dt>$mode</dt>
       <dd>See return values.</dd>
     </dl>
   </div>
 
   <div>
     <h3>Return Values</h3>
-    <p>Depending on <code>mode</code><strong>charCount()</strong> returns one of the following:</p>
+    <p>Depending on <var>$mode</var> <strong>charCount()</strong> returns one of the following:</p>
     <ul>
       <li>0 - an array with the byte-value as key and the frequency of every byte as value.</li>
       <li>1 - same as 0 but only byte-values with a frequency greater than zero are listed.</li>

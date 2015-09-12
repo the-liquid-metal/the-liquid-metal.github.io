@@ -8,26 +8,25 @@
   <link rel="stylesheet" href="individual.css"/>
 </head>
 <body>
+<div class="short-description">
+    <code>acos( ): float</code>
+    <p>
+      Context: number.<br/>
+      Alias of <a href="http://php.net/manual/en/function.acos.php" target="_blank">acos</a>.<br/>
+      Arc cosine.
+    </p>
+</div>
 <div class="ajax-area">
   <h1>acos</h1>
 
   <div>
-    Returns the arc cosine of <code>arg</code> in radians. <strong>acos()</strong> is
-    the complementary function of <a href="function.cos.php">cos()</a>, which means that
-    <em>a==cos(acos(a))</em> for every value of a that is within <strong>acos()</strong>' range.
-  </div>
-
-  <div>
-    <h3>Parameters</h3>
-    <dl>
-      <dt>arg</dt>
-      <dd>The argument to process</dd>
-    </dl>
+    <strong>acos()</strong> is the complementary function of <a href="cos.htm">cos()</a>, which means
+    that <code>$so->val == $so->cos()->acos()->val</code> for every value of a that is within <strong>acos()</strong>' range.
   </div>
 
   <div>
    <h3>Return Values</h3>
-   <p>The arc cosine of <code>arg</code> in radians.</p>
+   <p>The arc cosine of <var>$scalarObject->val</var> in radians.</p>
   </div>
 </div>
 </body>

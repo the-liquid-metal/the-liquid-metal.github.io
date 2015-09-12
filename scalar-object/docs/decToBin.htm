@@ -8,171 +8,169 @@
   <link rel="stylesheet" href="individual.css"/>
 </head>
 <body>
+<div class="short-description">
+    <code>decToBin( ): string</code>
+    <p>
+      Context: number.<br/>
+      Alias of <a href="http://php.net/manual/en/function.decbin.php">decbin</a>.<br/>
+      Decimal to binary.
+    </p>
+</div>
 <div class="ajax-area">
   <h1>decToBin</h1>
 
   <div>
     Returns a string containing a binary representation of the given
-    <code>number</code> argument.
+    <var>$scalarObject->val</var> argument.
   </div>
 
-  <div>
-    <h3>Parameters</h3>
-    <dl>
-      <dt>number</dt>
-      <dd>
-        <p>Decimal value to convert</p>
+  <table class="table">
+    <caption><strong>Range of inputs on 32-bit machines</strong></caption>
+    <col />
+    <col />
+    <col />
+    <thead>
+      <tr>
+        <th>positive <var>$scalarObject->val</var></th>
+        <th>negative <var>$scalarObject->val</var></th>
+        <th>return value</th>
+      </tr>
+    </thead>
 
-        <table class="table">
-          <caption><strong>Range of inputs on 32-bit machines</strong></caption>
-          <col />
-          <col />
-          <col />
-          <thead>
-            <tr>
-              <th>positive <code>number</code></th>
-              <th>negative <code>number</code></th>
-              <th>return value</th>
-            </tr>
-          </thead>
+    <tbody>
+      <tr>
+        <td>0</td>
+        <td> </td>
+        <td>0</td>
+      </tr>
 
-          <tbody>
-            <tr>
-              <td>0</td>
-              <td> </td>
-              <td>0</td>
-            </tr>
+      <tr>
+        <td>1</td>
+        <td> </td>
+        <td>1</td>
+      </tr>
 
-            <tr>
-              <td>1</td>
-              <td> </td>
-              <td>1</td>
-            </tr>
+      <tr>
+        <td>2</td>
+        <td> </td>
+        <td>10</td>
+      </tr>
 
-            <tr>
-              <td>2</td>
-              <td> </td>
-              <td>10</td>
-            </tr>
+      <tr>
+        <td colspan="3">... normal progression ...</td>
+      </tr>
 
-            <tr>
-              <td colspan="3">... normal progression ...</td>
-            </tr>
+      <tr>
+        <td>2147483646</td>
+        <td> </td>
+        <td>1111111111111111111111111111110</td>
+      </tr>
 
-            <tr>
-              <td>2147483646</td>
-              <td> </td>
-              <td>1111111111111111111111111111110</td>
-            </tr>
+      <tr>
+        <td>2147483647 (largest signed integer)</td>
+        <td> </td>
+        <td>1111111111111111111111111111111 (31 1's)</td>
+      </tr>
 
-            <tr>
-              <td>2147483647 (largest signed integer)</td>
-              <td> </td>
-              <td>1111111111111111111111111111111 (31 1's)</td>
-            </tr>
+      <tr>
+        <td>2147483648</td>
+        <td>-2147483648</td>
+        <td>10000000000000000000000000000000</td>
+      </tr>
 
-            <tr>
-              <td>2147483648</td>
-              <td>-2147483648</td>
-              <td>10000000000000000000000000000000</td>
-            </tr>
+      <tr>
+        <td colspan="3">... normal progression ...</td>
+      </tr>
 
-            <tr>
-              <td colspan="3">... normal progression ...</td>
-            </tr>
+      <tr>
+        <td>4294967294</td>
+        <td>-2</td>
+        <td>11111111111111111111111111111110</td>
+      </tr>
 
-            <tr>
-              <td>4294967294</td>
-              <td>-2</td>
-              <td>11111111111111111111111111111110</td>
-            </tr>
+      <tr>
+        <td>4294967295 (largest unsigned integer)</td>
+        <td>-1</td>
+        <td>11111111111111111111111111111111 (32 1's)</td>
+      </tr>
+    </tbody>
+  </table>
 
-            <tr>
-              <td>4294967295 (largest unsigned integer)</td>
-              <td>-1</td>
-              <td>11111111111111111111111111111111 (32 1's)</td>
-            </tr>
-          </tbody>
-        </table>
+  <table class="table">
+    <caption><strong>Range of inputs on 64-bit machines</strong></caption>
+    <col />
+    <col />
+    <col />
+    <thead>
+      <tr>
+        <th>positive <var>$scalarObject->val</var></th>
+        <th>negative <var>$scalarObject->val</var></th>
+        <th>return value</th>
+      </tr>
+    </thead>
 
-        <table class="table">
-          <caption><strong>Range of inputs on 64-bit machines</strong></caption>
-          <col />
-          <col />
-          <col />
-          <thead>
-            <tr>
-              <th>positive <code>number</code></th>
-              <th>negative <code>number</code></th>
-              <th>return value</th>
-            </tr>
-          </thead>
+    <tbody>
+      <tr>
+        <td>0</td>
+        <td> </td>
+        <td>0</td>
+      </tr>
 
-          <tbody>
-            <tr>
-              <td>0</td>
-              <td> </td>
-              <td>0</td>
-            </tr>
+      <tr>
+        <td>1</td>
+        <td> </td>
+        <td>1</td>
+      </tr>
 
-            <tr>
-              <td>1</td>
-              <td> </td>
-              <td>1</td>
-            </tr>
+      <tr>
+        <td>2</td>
+        <td> </td>
+        <td>10</td>
+      </tr>
 
-            <tr>
-              <td>2</td>
-              <td> </td>
-              <td>10</td>
-            </tr>
+      <tr>
+        <td colspan="3">... normal progression ...</td>
+      </tr>
 
-            <tr>
-              <td colspan="3">... normal progression ...</td>
-            </tr>
+      <tr>
+        <td>9223372036854775806</td>
+        <td> </td>
+        <td>111111111111111111111111111111111111111111111111111111111111110</td>
+      </tr>
 
-            <tr>
-              <td>9223372036854775806</td>
-              <td> </td>
-              <td>111111111111111111111111111111111111111111111111111111111111110</td>
-            </tr>
+      <tr>
+        <td>9223372036854775807 (largest signed integer)</td>
+        <td> </td>
+        <td>111111111111111111111111111111111111111111111111111111111111111 (63 1's)</td>
+      </tr>
 
-            <tr>
-              <td>9223372036854775807 (largest signed integer)</td>
-              <td> </td>
-              <td>111111111111111111111111111111111111111111111111111111111111111 (63 1's)</td>
-            </tr>
+      <tr>
+        <td> </td>
+        <td>-9223372036854775808</td>
+        <td>1000000000000000000000000000000000000000000000000000000000000000</td>
+      </tr>
 
-            <tr>
-              <td> </td>
-              <td>-9223372036854775808</td>
-              <td>1000000000000000000000000000000000000000000000000000000000000000</td>
-            </tr>
+      <tr>
+        <td colspan="3">... normal progression ...</td>
+      </tr>
 
-            <tr>
-              <td colspan="3">... normal progression ...</td>
-            </tr>
+      <tr>
+        <td> </td>
+        <td>-2</td>
+        <td>1111111111111111111111111111111111111111111111111111111111111110</td>
+      </tr>
 
-            <tr>
-              <td> </td>
-              <td>-2</td>
-              <td>1111111111111111111111111111111111111111111111111111111111111110</td>
-            </tr>
-
-            <tr>
-              <td> </td>
-              <td>-1</td>
-              <td>1111111111111111111111111111111111111111111111111111111111111111 (64 1's)</td>
-            </tr>
-          </tbody>
-        </table>
-      </dd>
-    </dl>
-  </div>
+      <tr>
+        <td> </td>
+        <td>-1</td>
+        <td>1111111111111111111111111111111111111111111111111111111111111111 (64 1's)</td>
+      </tr>
+    </tbody>
+  </table>
 
   <div>
     <h3>Return Values</h3>
-    <p>Binary string representation of <code>number</code></p>
+    <p>Binary string representation of <var>$scalarObject->val</var>.</p>
   </div>
 
   <div class="examples">

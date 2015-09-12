@@ -8,13 +8,21 @@
   <link rel="stylesheet" href="individual.css"/>
 </head>
 <body>
+<div class="short-description">
+    <code>crc32( ): int</code>
+    <p>
+      Context: string.<br/>
+      Alias of <a href="http://php.net/manual/en/function.crc32.php">crc32</a>.<br/>
+      Calculates the crc32 polynomial.
+    </p>
+</div>
 <div class="ajax-area">
   <h1>crc32</h1>
 
   <div>
     <p>
       Generates the cyclic redundancy checksum polynomial of 32-bit
-      lengths of the <code>str</code>. This is usually used
+      lengths of the <var>$scalarObject->val</var>. This is usually used
       to validate the integrity of data being transmitted.
     </p>
 
@@ -45,7 +53,7 @@
       </p>
       <p>
         In retrospect having the function return an integer maybe wasn't the best idea and returning
-        a hex string representation right away (as e.g. <a href="function.md5.php">md5()</a> does)
+        a hex string representation right away (as e.g. <a href="md5.htm">md5()</a> does)
         might have been a better plan to begin with.
       </p>
       <p>
@@ -57,16 +65,8 @@
   </div>
 
   <div>
-    <h3>Parameters</h3>
-    <dl>
-      <dt>str</dt>
-      <dd>The data.</dd>
-    </dl>
-  </div>
-
-  <div>
     <h3>Return Values</h3>
-    <p>Returns the crc32 checksum of <code>str</code> as an integer.</p>
+    <p>The crc32 checksum of <var>$scalarObject->val</var> as an integer.</p>
   </div>
 
   <div class="examples">

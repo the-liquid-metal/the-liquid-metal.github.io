@@ -8,26 +8,26 @@
   <link rel="stylesheet" href="individual.css"/>
 </head>
 <body>
+<div class="short-description">
+    <code>asin( ): float</code>
+    <p>
+      Context: number.<br/>
+      Alias of <a href="http://php.net/manual/en/function.asin.php" target="_blank">asin</a>.<br/>
+      Arc sine.
+    </p>
+</div>
 <div class="ajax-area">
   <h1>asin</h1>
 
   <div>
-    Returns the arc sine of <code>arg</code> in radians. <strong>asin()</strong> is the complementary
-    function of <a href="function.sin.php">sin()</a>, which means that <em>a==sin(asin(a))</em> for
+    <strong>asin()</strong> is the complementary
+    function of <a href="sin.htm">sin()</a>, which means that <code>$so->val == $so->sin()->asin()->val</code> for
     every value of a that is within <strong>asin()</strong>'s range.
   </div>
 
   <div>
-    <h3>Parameters</h3>
-    <dl>
-      <dt>arg</dt>
-      <dd>The argument to process</dd>
-    </dl>
-  </div>
-
-  <div>
     <h3>Return Values</h3>
-    <p>The arc sine of <code>arg</code> in radians</p>
+    <p>The arc sine of <var>$scalarObject->val</var> in radians.</p>
   </div>
 </div>
 </body>

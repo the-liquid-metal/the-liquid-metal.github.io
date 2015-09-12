@@ -8,25 +8,30 @@
   <link rel="stylesheet" href="individual.css"/>
 </head>
 <body>
+<div class="short-description">
+    <code>chunkSplit( int <var>$chunkLength</var> = 76, string <var>$end</var> = "\r\n" ): string</code>
+    <p>
+      Context: string.<br/>
+      Alias of <a href="http://php.net/manual/en/function.chunk-split.php">chunk_split</a>.<br/>
+      Split into smaller chunks.
+    </p>
+</div>
 <div class="ajax-area">
   <h1>chunkSplit</h1>
 
   <div>
     Can be used to split a string into smaller chunks which is useful for e.g. converting
     <a href="function.base64-encode.php">base64_encode()</a> output to match RFC
-    2045 semantics. It inserts <code>end</code> every <code>chunklen</code> characters.
+    2045 semantics. It inserts <var>$end</var> every <var>$chunkLength</var> characters.
   </div>
 
   <div>
     <h3>Parameters</h3>
     <dl>
-      <dt>body</dt>
-      <dd>The string to be chunked.</dd>
-
-      <dt>chunklen</dt>
+      <dt>$chunkLength</dt>
       <dd>The chunk length.</dd>
 
-      <dt>end</dt>
+      <dt>$end</dt>
       <dd>The line ending sequence.</dd>
     </dl>
   </div>

@@ -8,6 +8,14 @@
   <link rel="stylesheet" href="individual.css"/>
 </head>
 <body>
+<div class="short-description">
+    <code>addSlashes( ): string</code>
+    <p>
+      Context: string.<br/>
+      Alias of <a href="http://php.net/manual/en/function.addslashes.php" target="_blank">addslashes</a>.<br/>
+      Quote with slashes.
+    </p>
+</div>
 <div class="ajax-area">
   <h1>addSlashes</h1>
 
@@ -18,8 +26,8 @@
     </p>
     <p>
       An example use of <strong>addSlashes()</strong> is when you're entering data into string
-      that is evaluated by PHP. For example, <em>O'Reilly</em> is stored in $str, you need to
-      escape $str. (e.g.  eval("echo '".addSlashes($str)."';"); )
+      that is evaluated by PHP. For example, <em>O'Reilly</em> is stored in <var>$scalarObject->val</var>, you need to
+      escape <var>$scalarObject->val</var>. (e.g.  <code>eval("echo '".$scalarObject->addSlashes()->val."';");</code> )
     </p>
     <p>
       To escape database parameters, DBMS specific escape function
@@ -50,16 +58,8 @@
   </div>
 
   <div>
-    <h3>Parameters</h3>
-    <dl>
-      <dt>str</dt>
-      <dd>The string to be escaped.</dd>
-    </dl>
-  </div>
-
-  <div>
     <h3>Return Values</h3>
-    <p>Returns the escaped string.</p>
+    <p>The escaped string of <var>$scalarObject->val</var>.</p>
   </div>
 
   <div class="examples">

@@ -8,27 +8,27 @@
   <link rel="stylesheet" href="individual.css"/>
 </head>
 <body>
+<div class="short-description">
+    <code>countValues( ): array</code>
+    <p>
+      Context: array.<br/>
+      Alias of <a href="http://php.net/manual/en/function.array-count-values.php">array_count_values</a>.<br/>
+      Counts all the values.
+    </p>
+</div>
 <div class="ajax-area">
   <h1>countValues</h1>
 
   <div>
     <strong>countValues()</strong> returns an array using
-    the values of <code>array</code> as keys and
-    their frequency in <code>array</code> as values.
-  </div>
-
-  <div>
-    <h3>Parameters</h3>
-    <dl>
-      <dt>array</dt>
-      <dd>The array of values to count</dd>
-    </dl>
+    the values of <var>$scalarObject->val</var> as keys and
+    their frequency in <var>$scalarObject->val</var> as values.
   </div>
 
   <div>
     <h3>Return Values</h3>
     <p>
-      Returns an associative array of values from <code>array</code> as
+      An associative array of values from <var>$scalarObject->val</var> as
       keys and their count as value.
     </p>
   </div>
@@ -37,7 +37,7 @@
     <h3>Errors/Exceptions</h3>
     <p>
       Throws <code>E_WARNING</code> for every element which is not
-      <a href="language.types.string.php">string</a> or <a href="language.types.integer.php">integer</a>.
+      string or <a href="language.types.integer.php">integer</a>.
     </p>
   </div>
 

@@ -8,23 +8,23 @@
   <link rel="stylesheet" href="individual.css"/>
 </head>
 <body>
+<div class="short-description">
+    <code>addCSlashes( string <var>$charList</var> ): string</code>
+    <p>
+      Context: string.<br/>
+      Alias of <a href="http://php.net/manual/en/function.addcslashes.php" target="_blank">addcslashes</a>.<br/>
+      Quote with slashes in a C style.
+    </p>
+</div>
 <div class="ajax-area">
   <h1>addCSlashes</h1>
 
   <div>
-    Returns a string with backslashes before characters that are
-    listed in <code>charlist</code> parameter. 
-  </div>
-
-  <div>
     <h3>Parameters</h3>
     <dl>
-      <dt>str</dt>
-      <dd>The string to be escaped.</dd>
-
-      <dt>charlist</dt>
+      <dt>$charList</dt>
       <dd>
-        <p>A list of characters to be escaped. If <code>charlist</code> contains characters
+        <p>A list of characters to be escaped. If <var>$charList</var> contains characters
           <em>\n</em>, <em>\r</em> etc., they are converted in C-like style, while other
           non-alphanumeric characters with ASCII codes lower than 32 and higher than 126
           converted to octal representation.
@@ -43,7 +43,7 @@
         </pre>
           Also, if the first character in a range has a higher ASCII value than the second character in
           the range, no range will be constructed.  Only the start, end and period characters will be escaped.
-          Use the <a href="function.ord.php">ord()</a> function to find the ASCII value for a character.
+          Use the <a href="charToInt.htm">charToInt()</a> function to find the ASCII value for a character.
         <pre class="php-code">
           <?php
           echo addCSlashes("zoo['.']", 'z..A');
@@ -63,11 +63,11 @@
 
   <div>
     <h3>Return Values</h3>
-    <p>Returns the escaped string.</p>
+    <p>A string with backslashes before characters that are listed in <var>$charList</var> of <var>$scalarObject->val</var>.</p>
   </div>
 
   <div class="examples">
-    <p><code>charlist</code> like "\0..\37", which would escape all characters with ASCII code between 0 and 31.</p>
+    <p><var>$charList</var> like "\0..\37", which would escape all characters with ASCII code between 0 and 31.</p>
     <p><strong>Example #1 addCSlashes() example</strong></p>
     <pre class="php-code">
       <?php

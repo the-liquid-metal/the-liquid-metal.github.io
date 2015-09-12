@@ -8,6 +8,14 @@
   <link rel="stylesheet" href="individual.css"/>
 </head>
 <body>
+<div class="short-description">
+    <code>crypt( string <var>$salt</var> = null ): </code>
+    <p>
+      Context: string.<br/>
+      Alias of <a href="http://php.net/manual/en/function.crypt.php">crypt</a>.<br/>
+      One-way hashing.
+    </p>
+</div>
 <div class="ajax-area">
   <h1>crypt</h1>
 
@@ -18,8 +26,8 @@
       alternative algorithms that may be available on the system.
     </p>
     <p>
-      The <code>salt</code> parameter is optional. However, <strong>crypt()</strong>
-      creates a weak password without the <code>salt</code>. PHP 5.6 or later raise an E_NOTICE
+      The <var>$scalarObject->val</var> parameter is optional. However, <strong>crypt()</strong>
+      creates a weak password without the <var>$scalarObject->val</var>. PHP 5.6 or later raise an E_NOTICE
       error without it. Make sure to specify a strong enough salt for better security. 
     </p>
     <p>
@@ -38,7 +46,7 @@
     </p>
     <p>
       The standard DES-based <strong>crypt()</strong> returns the salt as the first two characters of the
-      output. It also only uses the first eight characters of <code>str</code>, so longer strings that
+      output. It also only uses the first eight characters of <var>$scalarObject->val</var>, so longer strings that
       start with the same eight characters will generate the same result (when the same salt is used).
     </p>
     <p>
@@ -105,12 +113,12 @@
         <p>The string to be hashed.</p>
         <div class="caution">
           <strong>Caution</strong><br/>
-          Using the <code>CRYPT_BLOWFISH</code> algorithm, will result in the <code>str</code>
+          Using the <code>CRYPT_BLOWFISH</code> algorithm, will result in the <var>$scalarObject->val</var>
           parameter being truncated to a maximum length of 72 characters.
         </div>
       </dd>
 
-      <dt>salt</dt>
+      <dt>$salt</dt>
       <dd>
         An optional salt string to base the hashing on. If not provided, the behaviour is
         defined by the algorithm implementation and can lead to unexpected results.

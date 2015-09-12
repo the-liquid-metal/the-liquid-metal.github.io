@@ -1,4 +1,7 @@
 $(document).ready(function(){
+    var $shorDescription = $(".short-description");
+    var $h1 = $("h1").after($shorDescription);
+
     var $ajaxArea = $(".ajax-area");
 
     $ajaxArea.find('.php-code').each(function(){

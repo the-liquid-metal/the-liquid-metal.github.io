@@ -8,6 +8,14 @@
   <link rel="stylesheet" href="individual.css"/>
 </head>
 <body>
+<div class="short-description">
+    <code>convertCyrStr( string <var>$from</var>, string <var>$to</var> ): string</code>
+    <p>
+      Context: string.<br/>
+      Alias of <a href="http://php.net/manual/en/function.convert-cyr-string.php">convert_cyr_string</a>.<br/>
+      Convert from one Cyrillic character set to another.
+    </p>
+</div>
 <div class="ajax-area">
   <h1>convertCyrStr</h1>
 
@@ -16,13 +24,10 @@
   <div>
     <h3>Parameters</h3>
     <dl>
-      <dt>str</dt>
-      <dd>The string to be converted.</dd>
-
-      <dt>from</dt>
+      <dt>$from</dt>
       <dd>The source Cyrillic character set, as a single character.</dd>
 
-      <dt>to</dt>
+      <dt>$to</dt>
       <dd>The target Cyrillic character set, as a single character.</dd>
     </dl>
 
@@ -39,9 +44,9 @@
 
   <div>
     <h3>Return Values</h3>
-    <p>Returns the converted string.</p>
+    <p>The converted string of <var>$scalarObject->val</var>.</p>
   </div>
 
-  <blockquote><strong>Note</strong>:This function is binary-safe.</blockquote>
+  <blockquote><strong>Note</strong>: This function is binary-safe.</blockquote>
 </div>
 </body>

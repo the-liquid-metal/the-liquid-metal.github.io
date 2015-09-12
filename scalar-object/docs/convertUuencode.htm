@@ -8,6 +8,14 @@
   <link rel="stylesheet" href="individual.css"/>
 </head>
 <body>
+<div class="short-description">
+    <code>convertUuencode( ): string</code>
+    <p>
+      Context: string.<br/>
+      Alias of <a href="http://php.net/manual/en/function.convert-uuencode.php">convert_uuencode</a>.<br/>
+      Uuencode a string.
+    </p>
+</div>
 <div class="ajax-area">
   <h1>convertUuencode</h1>
 
@@ -20,25 +28,17 @@
   </div>
 
   <div>
-    <h3>Parameters</h3>
-    <dl>
-      <dt>data</dt>
-      <dd>The data to be encoded.</dd>
-    </dl>
-  </div>
-
-  <div>
     <h3>Return Values</h3>
-    <p>Returns the uuencoded data  or <code>FALSE</code> on failure.</p>
+    <p>The uuencoded data or <code>FALSE</code> on failure.</p>
   </div>
 
   <div class="examples">
     <p><strong>Example #1 convertUuencode() example</strong></p>
     <pre class="php-code">
       <?php
-      $some_string = "test\ntext text\r\n";
+      $someString = "test\ntext text\r\n";
       
-      echo convertUuencode($some_string);
+      echo convertUuencode($someString);
       ?>
     </pre>
   </div>

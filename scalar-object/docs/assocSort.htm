@@ -8,6 +8,14 @@
   <link rel="stylesheet" href="individual.css"/>
 </head>
 <body>
+<div class="short-description">
+    <code>assocSort( integer <var>$flags</var> = SORT_REGULAR ): array</code>
+    <p>
+      Context: array.<br/>
+      Alias of <a href="http://php.net/manual/en/function.asort.php" target="_blank">asort</a>.<br/>
+      Sorts values and maintain index association.
+    </p>
+</div>
 <div class="ajax-area">
   <h1>assocSort</h1>
 
@@ -21,13 +29,10 @@
   <div>
     <h3>Parameters</h3>
     <dl>
-      <dt>array</dt>
-      <dd>The input array.</dd>
-
-      <dt>sort_flags</dt>
+      <dt>$flags</dt>
       <dd>
         You may modify the behavior of the sort using the optional parameter
-        <code>sort_flags</code>, for details see <a href="function.sort.php">sort()</a>.
+        <var>$flags</var>, for details see <a href="function.sort.php">sort()</a>.
       </dd>
     </dl>
   </div>

@@ -8,13 +8,21 @@
   <link rel="stylesheet" href="individual.css"/>
 </head>
 <body>
+<div class="short-description">
+    <code>binToDec( ): number</code>
+    <p>
+      Context: string.<br/>
+      Alias of <a href="http://php.net/manual/en/function.bindec.php">bindec</a>.<br/>
+      Binary to decimal.
+    </p>
+</div>
 <div class="ajax-area">
   <h1>binToDec</h1>
 
   <div>
     <p>
       Returns the decimal equivalent of the binary number represented
-      by the <code>binary_string</code> argument.
+      by the <var>$scalarObject->val</var>.
     </p>
     <p>
       <strong>binToDec()</strong> converts a binary number to an
@@ -29,21 +37,8 @@
   </div>
 
   <div>
-    <h3>Parameters</h3>
-    <dl>
-      <dt>binary_string</dt>
-      <dd>The binary string to convert</dd>
-    </dl>
-
-    <div class="warning">
-      <strong>Warning</strong><br/>
-      The parameter must be a string. Using other data types will produce unexpected results.
-    </div>
-  </div>
-
-  <div>
     <h3>Return Values</h3>
-    <p>The decimal value of <code>binary_string</code></p>
+    <p>The decimal value of <var>$scalarObject->val</var> and stored back into <var>$scalarObject->val</var></p>
   </div>
 
   <div class="examples">

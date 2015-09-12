@@ -8,13 +8,21 @@
   <link rel="stylesheet" href="individual.css"/>
 </head>
 <body>
+<div class="short-description">
+    <code>decToHex( ): string</code>
+    <p>
+      Context: number.<br/>
+      Alias of <a href="http://php.net/manual/en/function.dechex.php">dechex</a>.<br/>
+      Decimal to hexadecimal.
+    </p>
+</div>
 <div class="ajax-area">
   <h1>decToHex</h1>
 
   <div>
     <p>
       Returns a string containing a hexadecimal representation of the given
-      unsigned <code>number</code> argument.
+      unsigned <var>$scalarObject->val</var> argument.
     </p>
     <p>
       The largest number that can be converted is <code>PHP_INT_MAX</code><em> * 2 + 1</em>
@@ -24,23 +32,14 @@
   </div>
 
   <div>
-    <h3>Parameters</h3>
-    <dl>
-      <dt>number</dt>
-      <dd>
-        <p>The decimal value to convert.</p>
-        <p>
-          As PHP's <a href="language.types.integer.php">integer</a> type is signed, but
-          <strong>decToHex()</strong> deals with unsigned integers, negative integers
-          will be treated as though they were unsigned.
-        </p>
-      </dd>
-    </dl>
+    As PHP's <a href="language.types.integer.php">integer</a> type is signed, but
+    <strong>decToHex()</strong> deals with unsigned integers, negative integers
+    will be treated as though they were unsigned.
   </div>
 
   <div>
     <h3>Return Values</h3>
-    <p>Hexadecimal string representation of <code>number</code>.</p>
+    <p>Hexadecimal string representation of <var>$scalarObject->val</var>.</p>
   </div>
 
   <div class="examples">

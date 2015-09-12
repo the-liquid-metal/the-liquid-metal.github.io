@@ -8,31 +8,33 @@
   <link rel="stylesheet" href="individual.css"/>
 </head>
 <body>
+<div class="short-description">
+    <code>changeKeyCase( integer <var>$case</var> = CASE_LOWER ): array</code>
+    <p>
+      Context: array.<br/>
+      Alias of <a href="http://php.net/manual/en/function.array-change-key-case.php" target="_blank">array_change_key_case</a>.<br/>
+      Changes the case of all keys.
+    </p>
+</div>
 <div class="ajax-area">
   <h1>changeKeyCase</h1>
 
   <div>
-    Returns an array with all keys from <code>array</code> lowercased
+    Returns an array with all keys from <var>$scalarObject->val</var> lowercased
     or uppercased. Numbered indices are left as is.
   </div>
 
   <div>
     <h3>Parameters</h3>
     <dl>
-      <dt>array</dt>
-      <dd>The array to work on</dd>
-
-      <dt>case</dt>
+      <dt>$case</dt>
       <dd>Either <code>CASE_UPPER</code> or <code>CASE_LOWER</code> (default)</dd>
     </dl>
   </div>
 
   <div>
     <h3>Return Values</h3>
-    <p>
-      Returns an array with its keys lower or uppercased, or <code>FALSE</code> if
-      <code>array</code> is not an array.
-    </p>
+    <p>An array with its keys lowered or uppercased stored in <var>$scalarObject->val</var>.</p>
   </div>
 
   <div>

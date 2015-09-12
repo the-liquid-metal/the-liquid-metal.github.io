@@ -8,13 +8,21 @@
   <link rel="stylesheet" href="individual.css"/>
 </head>
 <body>
+<div class="short-description">
+    <code>explode( string <var>$delimiter</var>, int <var>$limit</var> = null ): array</code>
+    <p>
+      Context: string.<br/>
+      Alias of <a href="http://php.net/manual/en/function.explode.php">explode</a>.<br/>
+      Split a string by string.
+    </p>
+</div>
 <div class="ajax-area">
   <h1>explode</h1>
 
   <div>
     Returns an array of strings, each of which is a substring of
-    <code>string</code> formed by splitting it on
-    boundaries formed by the string <code>delimiter</code>.
+    <var>$scalarObject->val</var> formed by splitting it on
+    boundaries formed by the string <var>$delimiter</var>.
   </div>
 
   <div>
@@ -23,43 +31,40 @@
       <dt>delimiter</dt>
       <dd>The boundary string.</dd>
 
-      <dt>string</dt>
-      <dd>The input string.</dd>
-
       <dt>limit</dt>
       <dd>
-        <p>If <code>limit</code> is set and positive, the returned array will contain
-          a maximum of <code>limit</code> elements with the last
-          element containing the rest of <code>string</code>.
+        <p>If <var>$limit</var> is set and positive, the returned array will contain
+          a maximum of <var>$limit</var> elements with the last
+          element containing the rest of <var>$scalarObject->val</var>.
         </p>
         <p>
-          If the <code>limit</code> parameter is negative, all components
-          except the last -<code>limit</code> are returned.
+          If the <var>$limit</var> parameter is negative, all components
+          except the last -<var>$limit</var> are returned.
         </p>
-        <p>If the <code>limit</code> parameter is zero, then this is treated as 1.</p>
+        <p>If the <var>$limit</var> parameter is zero, then this is treated as 1.</p>
       </dd>
     </dl>
 
     <blockquote>
-      <strong>Note</strong>: Although <a href="function.implode.php">implode()</a> can, for
+      <strong>Note</strong>: Although <a href="implode.htm">implode()</a> can, for
       historical reasons, accept its parameters in either order, <strong>explode()</strong>
-      cannot. You must ensure that the <code>delimiter</code> argument comes before the
-      <code>string</code> argument.
+      cannot. You must ensure that the <var>$delimiter</var> argument comes before the
+      <var>$scalarObject->val</var> argument.
      </blockquote>
   </div>
 
   <div>
     <h3>Return Values</h3>
     <p>
-      Returns an <a href="language.types.array.php">array</a> of <a href="language.types.string.php">string</a>s
-      created by splitting the <code>string</code> parameter on boundaries formed by the <code>delimiter</code>.
+      An array of strings created by splitting the <var>$scalarObject->val</var>
+      on boundaries formed by the <var>$delimiter</var>.
     </p>
     <p>
-      If <code>delimiter</code> is an empty <a href="language.types.string.php">string</a> (""),
-      <strong>explode()</strong> will return <code>FALSE</code>. If <code>delimiter</code> contains a value
-      that is not contained in <code>string</code> and a negative <code>limit</code> is used, then an empty
-      <a href="language.types.array.php">array</a> will be returned, otherwise an
-      <a href="language.types.array.php">array</a> containing <code>string</code> will be returned.
+      If <var>$delimiter</var> is an empty string (""),
+      <strong>explode()</strong> will return <code>FALSE</code>. If <var>$delimiter</var> contains a value
+      that is not contained in <var>$scalarObject->val</var> and a negative <var>$limit</var> is used, then an empty
+      array will be returned, otherwise an
+      array containing <var>$scalarObject->val</var> will be returned.
     </p>
   </div>
 
@@ -108,7 +113,7 @@
       )
     </pre>
 
-    <p><strong>Example #3 <code>limit</code> parameter examples</strong></p>
+    <p><strong>Example #3 <var>$limit</var> parameter examples</strong></p>
     <pre class="php-code">
       <?php
       $str = 'one|two|three|four';

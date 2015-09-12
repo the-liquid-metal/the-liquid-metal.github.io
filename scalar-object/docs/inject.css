@@ -27,7 +27,8 @@ code {
 	font-size: 1.5em;
 }
 .ajax-area dt {
-	color: #468847;
+	color: #c09853;
+	font-weight: bold;
 	white-space: nowrap;
 	font-family: Menlo,Monaco,Consolas,"Courier New",monospace;
 }
