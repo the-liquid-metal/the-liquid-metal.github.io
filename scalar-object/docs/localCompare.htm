@@ -17,12 +17,12 @@
   <div>
     <p>
       Note that this comparison is case sensitive, and unlike
-      <a href="function.strcmp.php">strcmp()</a> this function is not binary safe.
+      <a href="compare.htm">compare()</a> this function is not binary safe.
     </p>
     <p>
       <strong>localCompare()</strong> uses the current locale for doing the
       comparisons.  If the current locale is C or POSIX, this function is
-      equivalent to <a href="function.strcmp.php">strcmp()</a>.
+      equivalent to <a href="compare.htm">compare()</a>.
     </p>
   </div>
 
@@ -39,10 +39,11 @@
 
   <div>
     <h3>Return Values</h3>
-    <p>
-      Returns &lt; 0 if <code>str1</code> is less than <code>str2</code>; &gt; 0 if
-      <code>str1</code> is greater than <code>str2</code>, and 0 if they are equal.
-    </p>
+    <ul>
+      <li>&lt; 0 if <var>$scalarObject->val</var> is less than <var>$str2</var>.</li>
+      <li>&gt; 0 if <var>$scalarObject->val</var> is greater than <var>$str2</var>.</li>
+      <li>and 0 if they are equal.</li>
+    </ul>
   </div>
 </div>
 </body>

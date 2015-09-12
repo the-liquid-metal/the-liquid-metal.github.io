@@ -9,13 +9,18 @@
 </head>
 <body>
 <div class="short-description">
-
+    <code>firstNthInsenCompare( string <var>$str2</var></span>, int <var>$length</var> ): int</code>
+    <p>
+      Context: string.<br/>
+      Alias of <a href="http://php.net/manual/en/function.strncasecmp.php">strncasecmp</a>.<br/>
+      Binary safe case-insensitive comparison of the first n characters.
+    </p>
 </div>
 <div class="ajax-area">
   <h1>firstNthInsenCompare</h1>
 
   <div>
-    This function is similar to <a href="function.strcasecmp.php">strcasecmp()</a>, with the
+    This function is similar to <a href="insenCompare.htm">insenCompare()</a>, with the
     difference that you can specify the (upper limit of the) number of
     characters from each string to be used in the comparison.
   </div>
@@ -23,23 +28,21 @@
   <div>
     <h3>Parameters</h3>
     <dl>
-      <dt>str1</dt>
-      <dd>The first string.</dd>
-
-      <dt>str2</dt>
+      <dt>$str2</dt>
       <dd>The second string.</dd>
 
-      <dt>len</dt>
+      <dt>$length</dt>
       <dd>The length of strings to be used in the comparison.</dd>
     </dl>
   </div>
 
   <div>
     <h3>Return Values</h3>
-    <p>
-      Returns &lt; 0 if <code>str1</code> is less than <code>str2</code>; &gt; 0
-      if <code>str1</code> is greater than <code>str2</code>, and 0 if they are equal.
-    </p>
+    <ul>
+      <li>&lt; 0 if <var>$scalarObject->val</var> is less than <var>$str2</var></li>
+      <li>&gt; 0 if <var>$scalarObject->val</var> is greater than <var>$str2</var></li>
+      <li>and 0 if they are equal</li>
+    </ul>
   </div>
 </div>
 </body>

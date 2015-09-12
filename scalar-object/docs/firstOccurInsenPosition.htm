@@ -9,7 +9,12 @@
 </head>
 <body>
 <div class="short-description">
-
+    <code>firstOccurInsenPosition( string <var>$needle</var>, integer <var>$offset</var> ): mixed</code>
+    <p>
+      Context: string.<br/>
+      Alias of <a href="http://php.net/manual/en/function.stripos.php">stripos</a>.<br/>
+      Find the position of the first occurrence of a case-insensitive substring.
+    </p>
 </div>
 <div class="ajax-area">
   <h1>firstOccurInsenPosition</h1>
@@ -17,10 +22,10 @@
   <div>
     <p>
       Find the numeric position of the first occurrence of
-      <code>needle</code> in the <code>haystack</code> string.
+      <var>$needle</var> in the <var>$scalarObject->val</var> string.
     </p>
     <p>
-      Unlike the <a href="function.strpos.php">strpos()</a>,
+      Unlike the <a href="firstOccurPosition.htm">firstOccurPosition()</a>,
       <strong>firstOccurInsenPosition()</strong> is case-insensitive.
     </p>
   </div>
@@ -28,23 +33,20 @@
   <div>
     <h3>Parameters</h3>
     <dl>
-      <dt>haystack</dt>
-      <dd>The string to search in.</dd>
-
-      <dt>needle</dt>
+      <dt>$needle</dt>
       <dd>
-        <p>Note that the <code>needle</code> may be a string of one or more characters.</p>
+        <p>Note that the <var>$needle</var> may be a string of one or more characters.</p>
         <p>
-          If <code>needle</code> is not a string, it is converted to
+          If <var>$needle</var> is not a string, it is converted to
           an integer and applied as the ordinal value of a character.
         </p>
       </dd>
 
-      <dt>offset</dt>
+      <dt>$offset</dt>
       <dd>
         If specified, search will start this number of characters counted from the
-        beginning of the string. Unlike <a href="function.strrpos.php">strrpos()</a> and
-        <a href="function.strripos.php">strripos()</a>, the offset cannot be negative.
+        beginning of the string. Unlike <a href="lastOccurPosition.htm">lastOccurPosition()</a> and
+        <a href="lastOccurInsenPosition.htm">lastOccurInsenPosition()</a>, the offset cannot be negative.
       </dd>
     </dl>
   </div>
@@ -53,7 +55,7 @@
     <h3>Return Values</h3>
     <p>
       Returns the position of where the needle exists relative to the beginnning of
-      the <code>haystack</code> string (independent of offset).
+      the <var>$scalarObject->val</var> string (independent of offset).
       Also note that string positions start at 0, and not 1.
     </p>
     <p>Returns <code>FALSE</code> if the needle was not found.</p>
@@ -61,10 +63,8 @@
     <div class="warning">
       <strong>Warning</strong><br/>
       This function may return Boolean <code>FALSE</code>, but may also return a non-Boolean
-      value which evaluates to <code>FALSE</code>. Please read the section on
-      <a href="language.types.boolean.php">Booleans</a> for more information. Use
-      <a href="language.operators.comparison.php">the === operator</a> for testing
-      the return value of this function.
+      value which evaluates to <code>FALSE</code>. Please read the section on boolean for more
+      information. Use the <code>===</code> operator for testing the return value of this function.
     </div>
   </div>
 

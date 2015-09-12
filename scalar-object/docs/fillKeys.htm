@@ -9,26 +9,25 @@
 </head>
 <body>
 <div class="short-description">
-
+    <code>fillKeys( mixed <var>$value</var> ): array</code>
+    <p>
+      Context: array.<br/>
+      Alias of <a href="http://php.net/manual/en/function.array-fill-keys.php">array_fill_keys</a>.<br/>
+      Fills with values, specifying keys.
+    </p>
 </div>
 <div class="ajax-area">
   <h1>fillKeys</h1>
 
   <div>
-    Fills an array with the value of the <code>value</code> parameter,
-    using the values of the <code>keys</code> array as keys.
+    Fills an array with the value of the <var>$value</var> parameter,
+    using the values of the <var>$scalarObject->val</var> array as keys.
   </div>
 
   <div>
     <h3>Parameters</h3>
     <dl>
-      <dt>keys</dt>
-      <dd>
-        Array of values that will be used as keys. Illegal values
-        for key will be converted to string.
-      </dd>
-
-      <dt>value</dt>
+      <dt>$value</dt>
       <dd>Value to use for filling</dd>
     </dl>
   </div>

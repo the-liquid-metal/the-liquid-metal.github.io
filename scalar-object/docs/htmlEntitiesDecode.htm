@@ -17,7 +17,7 @@
   <div>
     <p>
       <strong>htmlEntitiesDecode()</strong> is the opposite of
-      <a href="function.htmlentities.php">htmlentities()</a> in that it converts
+      <a href="htmlEntitiesEncode.htm">htmlEntitiesEncode()</a> in that it converts
       all HTML entities in the <code>string</code> to their applicable characters.
     </p>
     <p>
@@ -251,7 +251,7 @@
   <blockquote>
     <strong>Note</strong>: You might wonder why trim(htmlEntitiesDecode('&amp;nbsp;')); doesn't
     reduce the string to an empty string, that's because the '&amp;nbsp;' entity is not ASCII
-    code 32 (which is stripped by <a href="function.trim.php">trim()</a>) but ASCII code 160
+    code 32 (which is stripped by <a href="trim.htm">trim()</a>) but ASCII code 160
     (0xa0) in the default ISO 8859-1 encoding.
   </blockquote>
 </div>

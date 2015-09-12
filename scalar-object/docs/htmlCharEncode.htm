@@ -19,14 +19,14 @@
       Certain characters have special significance in HTML, and should be represented by HTML
       entities if they are to preserve their meanings. This function returns a string with these
       conversions made. If you require all input substrings that have associated named entities
-      to be translated, use <a href="function.htmlentities.php">htmlentities()</a> instead.
+      to be translated, use <a href="htmlEntitiesEncode.htm">htmlEntitiesEncode()</a> instead.
     </p>
     <p>
       If the input string passed to this function and the final document share the same character
       set, this function is sufficient to prepare input for inclusion in most contexts of an HTML
       document. If, however, the input can represent characters that are not coded in the final
       document character set and you wish to retain those characters (as numeric or named entities),
-      both this function and <a href="function.htmlentities.php">htmlentities()</a> (which only encodes
+      both this function and <a href="htmlEntitiesEncode.htm">htmlEntitiesEncode()</a> (which only encodes
       substrings that have named entity equivalents) may be insufficient. You may have to use
       <a href="function.mb-encode-numericentity.php">mb_encode_numericentity()</a> instead.
     </p>
@@ -299,7 +299,7 @@
 
   <blockquote>
     <strong>Note</strong>: Note that this function does not translate anything beyond what is
-    listed above. For full entity translation, see <a href="function.htmlentities.php">htmlentities()</a>.
+    listed above. For full entity translation, see <a href="htmlEntitiesEncode.htm">htmlEntitiesEncode()</a>.
   </blockquote>
 </div>
 </body>

@@ -9,28 +9,25 @@
 </head>
 <body>
 <div class="short-description">
-
+  <code>expm1( )</code>
+  <p>
+    Context: number<br/>
+    Alias of <a href="http://php.net/manual/en/function.expm1.php">expm1</a><br/>
+    Returns exp(number) - 1, computed in a way that is accurate even when the value of number is close to zero
+  </p>
 </div>
 <div class="ajax-area">
   <h1>expm1</h1>
 
   <div>
-    <strong>expm1()</strong> returns the equivalent to 'exp(<code>arg</code>) -  1' computed in a
-    way that is accurate even if the value of <code>arg</code> is near zero, a case where 'exp
-    (<code>arg</code>) - 1' would be inaccurate due to subtraction of two numbers that are nearly equal.
-  </div>
-
-  <div>
-    <h3>Parameters</h3>
-    <dl>
-      <dt>arg</dt>
-      <dd>The argument to process</dd>
-    </dl>
+    <strong>expm1()</strong> returns the equivalent to <code>'exp(<var>$scalarObject->val</var>) -  1'</code> computed in a
+    way that is accurate even if the value of <var>$scalarObject->val</var> is near zero, a case where 'exp
+    (<var>$scalarObject->val</var>) - 1' would be inaccurate due to subtraction of two numbers that are nearly equal.
   </div>
 
   <div>
     <h3>Return Values</h3>
-    <p>'e' to the power of <code>arg</code> minus one</p>
+    <p>'e' to the power of <var>$scalarObject->val</var> minus one</p>
   </div>
 </div>
 </body>

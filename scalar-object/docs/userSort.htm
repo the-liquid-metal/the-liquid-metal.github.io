@@ -50,8 +50,7 @@
         <div class="caution">
           <strong>Caution</strong><br/>
           Returning <em>non-integer</em> values from the comparison function, such as
-          <a href="language.types.float.php">float</a>, will result in an internal cast to
-          <a href="language.types.integer.php">integer</a> of the callback's return value.
+          float, will result in an internal cast to integer of the callback's return value.
           So values such as 0.99 and 0.1 will both be cast to an integer value of 0, which
           will compare such values as equal.
           </p>
@@ -98,7 +97,7 @@
 
     <blockquote>
       <strong>Note</strong>: Obviously in this trivial case the
-      <a href="function.sort.php">sort()</a> function would be more appropriate.
+      <a href="sort.htm">sort()</a> function would be more appropriate.
     </blockquote>
 
     <p><strong>Example #2 userSort() example using multi-dimensional array</strong></p>
@@ -174,10 +173,7 @@
       d
     </pre>
 
-    <p>
-      <strong>Example #4 userSort() example using a <a href="functions.anonymous.php">closure</a> 
-      to sort a multi-dimensional array</strong>
-    </p>
+    <p><strong>Example #4 userSort() example using a closure to sort a multi-dimensional array</strong></p>
     <pre class="php-code">
       <?php
       $array[0] = array('key_a' => 'z', 'key_b' => 'c');
