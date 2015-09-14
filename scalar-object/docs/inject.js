@@ -6,7 +6,7 @@ $(document).ready(function(){
             $a.map(function(){
                 $(this.previousSibling).remove();
             });
-            $a.remove();
+            $a.addClass('hidden');
         }
     };
     $.get("AJAX_MARKER.htm", modifPage).fail(modifPage);
