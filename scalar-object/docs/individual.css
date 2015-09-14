@@ -9,14 +9,6 @@ body {
 	margin: auto;
 	padding: 1em;
 }
-.short-description {
-	border-left: 5px solid #eee;
-	padding: 1em;
-	margin-bottom: 1em; 
-}
-.short-description p {
-	margin: 1em 0 0 0;
-}
 code {
 	font-family: Menlo,Monaco,Consolas,"Courier New",monospace;
 	color: #468847;

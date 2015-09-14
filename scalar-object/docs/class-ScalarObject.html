@@ -56,7 +56,7 @@
             <td class="attributes"><code class="overview">public array</code></td>
             <td class="name"><div>
             <a class="anchor" href="#m_array_assocDiff">#</a>
-            <code class="overview">assocDiff( <span>array <var>$array2</var></span>, <span>array <var>$array3</var> = <span class="php-keyword1">null</span></span>, <span>array <var>$array4</var> = <span class="php-keyword1">null</span></span> )</code>
+            <code class="overview">assocDiff( array <var>$array2</var>, array <var>...</var> )</code>
             <div class="description short">
                 <p>context: array. alias of <a target="_blank" href="http://php.net/manual/en/function.array-diff-assoc.php">array_diff_assoc</a>. see <a target="_blank" class="desc-link" href="array.assocDiff.htm">detail</a>.<br/>Computes the difference with additional index check.</p>
             </div>
@@ -67,7 +67,7 @@
             <td class="attributes"><code class="overview">public array</code></td>
             <td class="name"><div>
             <a class="anchor" href="#m_array_assocIntersect">#</a>
-            <code class="overview">assocIntersect( <span>array <var>$array2</var></span>, <span>array <var>$array3</var> = <span class="php-keyword1">null</span></span>, <span>array <var>$array4</var> = <span class="php-keyword1">null</span></span> )</code>
+            <code class="overview">assocIntersect( array <var>$array2</var>, array <var>...</var> )</code>
             <div class="description short">
                 <p>context: array. alias of <a target="_blank" href="http://php.net/manual/en/function.array-intersect-assoc.php">array_intersect_assoc</a>. see <a target="_blank" class="desc-link" href="array.assocIntersect.htm">detail</a>.<br/>Computes the intersection with additional index check.</p>
             </div>
@@ -78,7 +78,7 @@
             <td class="attributes"><code class="overview">public array</code></td>
             <td class="name"><div>
             <a class="anchor" href="#m_array_assocSort">#</a>
-            <code class="overview">assocSort( <span>integer <var>$flags</var> = SORT_REGULAR</span> )</code>
+            <code class="overview">assocSort( int <var>$flags</var> = SORT_REGULAR )</code>
             <div class="description short">
                 <p>context: array. alias of <a target="_blank" href="http://php.net/manual/en/function.asort.php">asort</a>. see <a target="_blank" class="desc-link" href="array.assocSort.htm">detail</a>.<br/>Sorts values and maintain index association.</p>
             </div>
@@ -89,7 +89,7 @@
             <td class="attributes"><code class="overview">public array</code></td>
             <td class="name"><div>
             <a class="anchor" href="#m_array_changeKeyCase">#</a>
-            <code class="overview">changeKeyCase( <span>integer <var>$case</var> = CASE_LOWER</span> )</code>
+            <code class="overview">changeKeyCase( int <var>$case</var> = CASE_LOWER )</code>
             <div class="description short">
                 <p>context: array. alias of <a target="_blank" href="http://php.net/manual/en/function.array-change-key-case.php">array_change_key_case</a>. see <a target="_blank" class="desc-link" href="array.changeKeyCase.htm">detail</a>.<br/>Changes the case of all keys.</p>
             </div>
@@ -100,7 +100,7 @@
             <td class="attributes"><code class="overview">public array</code></td>
             <td class="name"><div>
             <a class="anchor" href="#m_array_chunk">#</a>
-            <code class="overview">chunk( <span>integer <var>$size</var></span>, <span>boolean <var>$preserveKeys</var> = <span class="php-keyword1">false</span></span> )</code>
+            <code class="overview">chunk( int <var>$size</var>, bool <var>$preserveKeys</var> = false )</code>
             <div class="description short">
                 <p>context: array. alias of <a target="_blank" href="http://php.net/manual/en/function.array-chunk.php">array_chunk</a>. see <a target="_blank" class="desc-link" href="array.chunk.htm">detail</a>.<br/>Splits into chunks.</p>
             </div>
@@ -111,7 +111,7 @@
             <td class="attributes"><code class="overview">public array</code></td>
             <td class="name"><div>
             <a class="anchor" href="#m_array_column">#</a>
-            <code class="overview">column( <span>mixed <var>$columnKey</var></span>, <span>mixed <var>$indexKey</var> = <span class="php-keyword1">null</span></span> )</code>
+            <code class="overview">column( mixed <var>$columnKey</var>, mixed <var>$indexKey</var> = null )</code>
             <div class="description short">
                 <p>context: array. alias of <a target="_blank" href="http://php.net/manual/en/function.array-column.php">array_column</a>. see <a target="_blank" class="desc-link" href="array.column.htm">detail</a>.<br/>Returns the values from a single column.</p>
             </div>
@@ -122,7 +122,7 @@
             <td class="attributes"><code class="overview">public array</code></td>
             <td class="name"><div>
             <a class="anchor" href="#m_array_combine">#</a>
-            <code class="overview">combine( <span>array <var>$values</var></span> )</code>
+            <code class="overview">combine( array <var>$values</var> )</code>
             <div class="description short">
                 <p>context: array. alias of <a target="_blank" href="http://php.net/manual/en/function.array-combine.php">array_combine</a>. see <a target="_blank" class="desc-link" href="array.combine.htm">detail</a>.<br/>Creates array using one array for keys and another for its values.</p>
             </div>
@@ -130,10 +130,10 @@
             </div></td>
         </tr>
         <tr data-order="count" id="m_count">
-            <td class="attributes"><code class="overview">public integer</code></td>
+            <td class="attributes"><code class="overview">public int</code></td>
             <td class="name"><div>
             <a class="anchor" href="#m_array_count">#</a>
-            <code class="overview">count( <span>integer <var>$mode</var> = COUNT_NORMAL</span> )</code>
+            <code class="overview">count( int <var>$mode</var> = COUNT_NORMAL )</code>
             <div class="description short">
                 <p>context: array. alias of <a target="_blank" href="http://php.net/manual/en/function.count.php">count</a>. see <a target="_blank" class="desc-link" href="array.count.htm">detail</a>.<br/>Counts all elements.</p>
             </div>
@@ -155,7 +155,7 @@
             <td class="attributes"><code class="overview">public array</code></td>
             <td class="name"><div>
             <a class="anchor" href="#m_array_diff">#</a>
-            <code class="overview">diff( <span>array <var>$array2</var></span>, <span>array <var>$array3</var> = <span class="php-keyword1">null</span></span>, <span>array <var>$array4</var> = <span class="php-keyword1">null</span></span> )</code>
+            <code class="overview">diff( array <var>$array2</var>, array <var>...</var> )</code>
             <div class="description short">
                 <p>context: array. alias of <a target="_blank" href="http://php.net/manual/en/function.array-diff.php">array_diff</a>. see <a target="_blank" class="desc-link" href="array.diff.htm">detail</a>.<br/>Computes the difference.</p>
             </div>
@@ -166,7 +166,7 @@
             <td class="attributes"><code class="overview">public array</code></td>
             <td class="name"><div>
             <a class="anchor" href="#m_array_fillKeys">#</a>
-            <code class="overview">fillKeys( <span>mixed <var>$value</var></span> )</code>
+            <code class="overview">fillKeys( mixed <var>$value</var> )</code>
             <div class="description short">
                 <p>context: array. alias of <a target="_blank" href="http://php.net/manual/en/function.array-fill-keys.php">array_fill_keys</a>. see <a target="_blank" class="desc-link" href="array.fillKeys.htm">detail</a>.<br/>Fills with values, specifying keys.</p>
             </div>
@@ -177,7 +177,7 @@
             <td class="attributes"><code class="overview">public array</code></td>
             <td class="name"><div>
             <a class="anchor" href="#m_array_filter">#</a>
-            <code class="overview">filter( <span>callable <var>$filter</var></span>, <span>integer <var>$flag</var></span> )</code>
+            <code class="overview">filter( callable <var>$filter</var>, int <var>$flag</var> )</code>
             <div class="description short">
                 <p>context: array. alias of <a target="_blank" href="http://php.net/manual/en/function.array-filter.php">array_filter</a>. see <a target="_blank" class="desc-link" href="array.filter.htm">detail</a>.<br/>Filters elements using a callback function.</p>
             </div>
@@ -199,7 +199,7 @@
             <td class="attributes"><code class="overview">public string</code></td>
             <td class="name"><div>
             <a class="anchor" href="#m_array_implode">#</a>
-            <code class="overview">implode( <span>string <var>$glue</var></span> )</code>
+            <code class="overview">implode( string <var>$glue</var> )</code>
             <div class="description short">
                 <p>context: array. alias of <a target="_blank" href="http://php.net/manual/en/function.implode.php">implode</a>. see <a target="_blank" class="desc-link" href="array.implode.htm">detail</a>.<br/>Join elements with a string.</p>
             </div>
@@ -207,10 +207,10 @@
             </div></td>
         </tr>
         <tr data-order="inArray" id="m_inArray">
-            <td class="attributes"><code class="overview">public boolean</code></td>
+            <td class="attributes"><code class="overview">public bool</code></td>
             <td class="name"><div>
             <a class="anchor" href="#m_array_inArray">#</a>
-            <code class="overview">inArray( <span>mixed <var>$needle</var></span>, <span>boolean <var>$strict</var> = <span class="php-keyword1">FALSE</span></span> )</code>
+            <code class="overview">inArray( mixed <var>$needle</var>, bool <var>$strict</var> = FALSE )</code>
             <div class="description short">
                 <p>context: array. alias of <a target="_blank" href="http://php.net/manual/en/function.in-array.php">in_array</a>. see <a target="_blank" class="desc-link" href="array.inArray.htm">detail</a>.<br/>Checks if a value exists.</p>
             </div>
@@ -232,7 +232,7 @@
             <td class="attributes"><code class="overview">public array</code></td>
             <td class="name"><div>
             <a class="anchor" href="#m_array_intersect">#</a>
-            <code class="overview">intersect( <span>array <var>$array2</var></span>, <span>array <var>$array3</var> = <span class="php-keyword1">null</span></span>, <span>array <var>$array4</var> = <span class="php-keyword1">null</span></span> )</code>
+            <code class="overview">intersect( array <var>$array2</var>, array <var>...</var> )</code>
             <div class="description short">
                 <p>context: array. alias of <a target="_blank" href="http://php.net/manual/en/function.array-intersect.php">array_intersect</a>. see <a target="_blank" class="desc-link" href="array.intersect.htm">detail</a>.<br/>Computes the intersection.</p>
             </div>
@@ -243,7 +243,7 @@
             <td class="attributes"><code class="overview">public array</code></td>
             <td class="name"><div>
             <a class="anchor" href="#m_array_keyDiff">#</a>
-            <code class="overview">keyDiff( <span>array <var>$array2</var></span>, <span>array <var>$array3</var> = <span class="php-keyword1">null</span></span>, <span>array <var>$array4</var> = <span class="php-keyword1">null</span></span> )</code>
+            <code class="overview">keyDiff( array <var>$array2</var>, array <var>...</var> )</code>
             <div class="description short">
                 <p>context: array. alias of <a target="_blank" href="http://php.net/manual/en/function.array-diff-key.php">array_diff_key</a>. see <a target="_blank" class="desc-link" href="array.keyDiff.htm">detail</a>.<br/>Computes the difference using keys for comparison.</p>
             </div>
@@ -251,10 +251,10 @@
             </div></td>
         </tr>
         <tr data-order="keyExists" id="m_keyExists">
-            <td class="attributes"><code class="overview">public boolean</code></td>
+            <td class="attributes"><code class="overview">public bool</code></td>
             <td class="name"><div>
             <a class="anchor" href="#m_array_keyExists">#</a>
-            <code class="overview">keyExists( <span>mixed <var>$key</var></span> )</code>
+            <code class="overview">keyExists( mixed <var>$key</var> )</code>
             <div class="description short">
                 <p>context: array. alias of <a target="_blank" href="http://php.net/manual/en/function.key-exists.php">key_exists</a>. see <a target="_blank" class="desc-link" href="array.keyExists.htm">detail</a>.<br/>Checks if the given key or index exists in the array.</p>
             </div>
@@ -265,7 +265,7 @@
             <td class="attributes"><code class="overview">public array</code></td>
             <td class="name"><div>
             <a class="anchor" href="#m_array_keyIntersect">#</a>
-            <code class="overview">keyIntersect( <span>array <var>$array2</var></span>, <span>array <var>$array3</var> = <span class="php-keyword1">null</span></span>, <span>array <var>$array4</var> = <span class="php-keyword1">null</span></span> )</code>
+            <code class="overview">keyIntersect( array <var>$array2</var>, array <var>...</var> )</code>
             <div class="description short">
                 <p>context: array. alias of <a target="_blank" href="http://php.net/manual/en/function.array-intersect-key.php">array_intersect_key</a>. see <a target="_blank" class="desc-link" href="array.keyIntersect.htm">detail</a>.<br/>Computes the intersection using keys for comparison.</p>
             </div>
@@ -276,7 +276,7 @@
             <td class="attributes"><code class="overview">public array</code></td>
             <td class="name"><div>
             <a class="anchor" href="#m_array_keys">#</a>
-            <code class="overview">keys( <span>mixed <var>$searchValue</var></span>, <span>boolean <var>$strict</var> = <span class="php-keyword1">false</span></span> )</code>
+            <code class="overview">keys( mixed <var>$searchValue</var> = null, bool <var>$strict</var> = false )</code>
             <div class="description short">
                 <p>context: array. alias of <a target="_blank" href="http://php.net/manual/en/function.array-keys.php">array_keys</a>. see <a target="_blank" class="desc-link" href="array.keys.htm">detail</a>.<br/>Returns all the keys or a subset of the keys.</p>
             </div>
@@ -287,7 +287,7 @@
             <td class="attributes"><code class="overview">public array</code></td>
             <td class="name"><div>
             <a class="anchor" href="#m_array_keySort">#</a>
-            <code class="overview">keySort( <span>integer <var>$flags</var> = SORT_REGULAR</span> )</code>
+            <code class="overview">keySort( int <var>$flags</var> = SORT_REGULAR )</code>
             <div class="description short">
                 <p>context: array. alias of <a target="_blank" href="http://php.net/manual/en/function.ksort.php">ksort</a>. see <a target="_blank" class="desc-link" href="array.keySort.htm">detail</a>.<br/>Sorts keys.</p>
             </div>
@@ -298,7 +298,7 @@
             <td class="attributes"><code class="overview">public array</code></td>
             <td class="name"><div>
             <a class="anchor" href="#m_array_map">#</a>
-            <code class="overview">map( <span>callable <var>$callback</var></span> )</code>
+            <code class="overview">map( callable <var>$mapper</var> )</code>
             <div class="description short">
                 <p>context: array. alias of <a target="_blank" href="http://php.net/manual/en/function.array-map.php">array_map</a>. see <a target="_blank" class="desc-link" href="array.map.htm">detail</a>.<br/>Applies the callback to the elements.</p>
             </div>
@@ -320,7 +320,7 @@
             <td class="attributes"><code class="overview">public array</code></td>
             <td class="name"><div>
             <a class="anchor" href="#m_array_merge">#</a>
-            <code class="overview">merge( <span>array <var>$array2</var></span>, <span>array <var>$array3</var> = <span class="php-keyword1">null</span></span>, <span>array <var>$array4</var> = <span class="php-keyword1">null</span></span> )</code>
+            <code class="overview">merge( array <var>$array2</var>, array <var>...</var> )</code>
             <div class="description short">
                 <p>context: array. alias of <a target="_blank" href="http://php.net/manual/en/function.array-merge.php">array_merge</a>. see <a target="_blank" class="desc-link" href="array.merge.htm">detail</a>.<br/>Merge one or more arrays.</p>
             </div>
@@ -342,7 +342,7 @@
             <td class="attributes"><code class="overview">public array</code></td>
             <td class="name"><div>
             <a class="anchor" href="#m_array_multisort">#</a>
-            <code class="overview">multisort( <span>mixed <var>$order</var> = SORT_ASC</span>, <span>mixed <var>$flags</var> = SORT_REGULAR</span> )</code>
+            <code class="overview">multisort( mixed <var>$order</var> = SORT_ASC, mixed <var>$flags</var> = SORT_REGULAR )</code>
             <div class="description short">
                 <p>context: array. alias of <a target="_blank" href="http://php.net/manual/en/function.array-multisort.php">array_multisort</a>. see <a target="_blank" class="desc-link" href="array.multisort.htm">detail</a>.<br/>Sort multiple or multi-dimensional arrays.</p>
             </div>
@@ -364,7 +364,7 @@
             <td class="attributes"><code class="overview">public array</code></td>
             <td class="name"><div>
             <a class="anchor" href="#m_array_pad">#</a>
-            <code class="overview">pad( <span>integer <var>$size</var></span>, <span>mixed <var>$value</var></span> )</code>
+            <code class="overview">pad( int <var>$size</var>, mixed <var>$value</var> )</code>
             <div class="description short">
                 <p>context: array. alias of <a target="_blank" href="http://php.net/manual/en/function.array-pad.php">array_pad</a>. see <a target="_blank" class="desc-link" href="array.pad.htm">detail</a>.<br/>Pads to the specified length with a value.</p>
             </div>
@@ -397,7 +397,7 @@
             <td class="attributes"><code class="overview">public array</code></td>
             <td class="name"><div>
             <a class="anchor" href="#m_array_push">#</a>
-            <code class="overview">push( <span>mixed <var>$value1</var></span>, <span>mixed <var>$value2</var> = <span class="php-keyword1">null</span></span>, <span>mixed <var>$value3</var> = <span class="php-keyword1">null</span></span> )</code>
+            <code class="overview">push( mixed <var>$value1</var>, mixed <var>...</var> )</code>
             <div class="description short">
                 <p>context: array. alias of <a target="_blank" href="http://php.net/manual/en/function.array-push.php">array_push</a>. see <a target="_blank" class="desc-link" href="array.push.htm">detail</a>.<br/>Pushes one or more elements onto the end.</p>
             </div>
@@ -408,7 +408,7 @@
             <td class="attributes"><code class="overview">public array</code></td>
             <td class="name"><div>
             <a class="anchor" href="#m_array_random">#</a>
-            <code class="overview">random( <span>integer <var>$num</var> = <span class="php-num">1</span></span> )</code>
+            <code class="overview">random( int <var>$num</var> = 1 )</code>
             <div class="description short">
                 <p>context: array. alias of <a target="_blank" href="http://php.net/manual/en/function.array-rand.php">array_rand</a>. see <a target="_blank" class="desc-link" href="array.random.htm">detail</a>.<br/>Picks one or more random entries.</p>
             </div>
@@ -419,7 +419,7 @@
             <td class="attributes"><code class="overview">public array</code></td>
             <td class="name"><div>
             <a class="anchor" href="#m_array_recursiveMerge">#</a>
-            <code class="overview">recursiveMerge( <span>array <var>$array2</var></span>, <span>array <var>$array3</var> = <span class="php-keyword1">null</span></span>, <span>array <var>$array4</var> = <span class="php-keyword1">null</span></span> )</code>
+            <code class="overview">recursiveMerge( array <var>$array2</var>, array <var>...</var> )</code>
             <div class="description short">
                 <p>context: array. alias of <a target="_blank" href="http://php.net/manual/en/function.array-merge-recursive.php">array_merge_recursive</a>. see <a target="_blank" class="desc-link" href="array.recursiveMerge.htm">detail</a>.<br/>Merge two or more arrays recursively.</p>
             </div>
@@ -430,7 +430,7 @@
             <td class="attributes"><code class="overview">public array</code></td>
             <td class="name"><div>
             <a class="anchor" href="#m_array_recursiveReplace">#</a>
-            <code class="overview">recursiveReplace( <span>array <var>$array2</var></span>, <span>array <var>$array3</var> = <span class="php-keyword1">null</span></span>, <span>array <var>$array4</var> = <span class="php-keyword1">null</span></span> )</code>
+            <code class="overview">recursiveReplace( array <var>$array2</var>, array <var>...</var> )</code>
             <div class="description short">
                 <p>context: array. alias of <a target="_blank" href="http://php.net/manual/en/function.array-replace-recursive.php">array_replace_recursive</a>. see <a target="_blank" class="desc-link" href="array.recursiveReplace.htm">detail</a>.<br/>Replaces elements from passed arrays into the first array recursively.</p>
             </div>
@@ -441,7 +441,7 @@
             <td class="attributes"><code class="overview">public array</code></td>
             <td class="name"><div>
             <a class="anchor" href="#m_array_recursiveWalk">#</a>
-            <code class="overview">recursiveWalk( <span>callable <var>$callback</var></span>, <span>mixed <var>$userData</var> = <span class="php-keyword1">NULL</span></span> )</code>
+            <code class="overview">recursiveWalk( callable <var>$callback</var>, mixed <var>$userData</var> = NULL )</code>
             <div class="description short">
                 <p>context: array. alias of <a target="_blank" href="http://php.net/manual/en/function.array-walk-recursive.php">array_walk_recursive</a>. see <a target="_blank" class="desc-link" href="array.recursiveWalk.htm">detail</a>.<br/>Apply a callback function recursively to every elements.</p>
             </div>
@@ -452,7 +452,7 @@
             <td class="attributes"><code class="overview">public array</code></td>
             <td class="name"><div>
             <a class="anchor" href="#m_array_reduce">#</a>
-            <code class="overview">reduce( <span>callable <var>$reducer</var></span>, <span>mixed <var>$initial</var> = <span class="php-keyword1">NULL</span></span> )</code>
+            <code class="overview">reduce( callable <var>$reducer</var>, mixed <var>$initial</var> = NULL )</code>
             <div class="description short">
                 <p>context: array. alias of <a target="_blank" href="http://php.net/manual/en/function.array-reduce.php">array_reduce</a>. see <a target="_blank" class="desc-link" href="array.reduce.htm">detail</a>.<br/>Iteratively reduce to a single value using a callback function.</p>
             </div>
@@ -463,7 +463,7 @@
             <td class="attributes"><code class="overview">public array</code></td>
             <td class="name"><div>
             <a class="anchor" href="#m_array_replace">#</a>
-            <code class="overview">replace( <span>array <var>$array2</var></span>, <span>array <var>$array3</var> = <span class="php-keyword1">null</span></span>, <span>array <var>$array4</var> = <span class="php-keyword1">null</span></span> )</code>
+            <code class="overview">replace( array <var>$array2</var>, array <var>...</var> )</code>
             <div class="description short">
                 <p>context: array. alias of <a target="_blank" href="http://php.net/manual/en/function.array-replace.php">array_replace</a>. see <a target="_blank" class="desc-link" href="array.replace.htm">detail</a>.<br/>Replaces elements from passed arrays into the first array.</p>
             </div>
@@ -474,7 +474,7 @@
             <td class="attributes"><code class="overview">public array</code></td>
             <td class="name"><div>
             <a class="anchor" href="#m_array_reverse">#</a>
-            <code class="overview">reverse( <span>boolean <var>$preserveKeys</var> = <span class="php-keyword1">false</span></span> )</code>
+            <code class="overview">reverse( bool <var>$preserveKeys</var> = false )</code>
             <div class="description short">
                 <p>context: array. alias of <a target="_blank" href="http://php.net/manual/en/function.array-reverse.php">array_reverse</a>. see <a target="_blank" class="desc-link" href="array.reverse.htm">detail</a>.<br/>Returns an array with elements in reverse order.</p>
             </div>
@@ -485,7 +485,7 @@
             <td class="attributes"><code class="overview">public array</code></td>
             <td class="name"><div>
             <a class="anchor" href="#m_array_reverseAssocSort">#</a>
-            <code class="overview">reverseAssocSort( <span>integer <var>$flags</var> = SORT_REGULAR</span> )</code>
+            <code class="overview">reverseAssocSort( int <var>$flags</var> = SORT_REGULAR )</code>
             <div class="description short">
                 <p>context: array. alias of <a target="_blank" href="http://php.net/manual/en/function.arsort.php">arsort</a>. see <a target="_blank" class="desc-link" href="array.reverseAssocSort.htm">detail</a>.<br/>Sorts values in reverse order and maintain index association.</p>
             </div>
@@ -496,7 +496,7 @@
             <td class="attributes"><code class="overview">public array</code></td>
             <td class="name"><div>
             <a class="anchor" href="#m_array_reverseKeySort">#</a>
-            <code class="overview">reverseKeySort( <span>integer <var>$flags</var> = SORT_REGULAR</span> )</code>
+            <code class="overview">reverseKeySort( int <var>$flags</var> = SORT_REGULAR )</code>
             <div class="description short">
                 <p>context: array. alias of <a target="_blank" href="http://php.net/manual/en/function.krsort.php">krsort</a>. see <a target="_blank" class="desc-link" href="array.reverseKeySort.htm">detail</a>.<br/>Sorts keys in reverse order.</p>
             </div>
@@ -507,7 +507,7 @@
             <td class="attributes"><code class="overview">public array</code></td>
             <td class="name"><div>
             <a class="anchor" href="#m_array_reverseSort">#</a>
-            <code class="overview">reverseSort( <span>integer <var>$flags</var> = SORT_REGULAR</span> )</code>
+            <code class="overview">reverseSort( int <var>$flags</var> = SORT_REGULAR )</code>
             <div class="description short">
                 <p>context: array. alias of <a target="_blank" href="http://php.net/manual/en/function.rsort.php">rsort</a>. see <a target="_blank" class="desc-link" href="array.reverseSort.htm">detail</a>.<br/>Sorts values in reverse order.</p>
             </div>
@@ -518,7 +518,7 @@
             <td class="attributes"><code class="overview">public array</code></td>
             <td class="name"><div>
             <a class="anchor" href="#m_array_search">#</a>
-            <code class="overview">search( <span>mixed <var>$needle</var></span>, <span>boolean <var>$strict</var> = <span class="php-keyword1">false</span></span> )</code>
+            <code class="overview">search( mixed <var>$needle</var>, bool <var>$strict</var> = false )</code>
             <div class="description short">
                 <p>context: array. alias of <a target="_blank" href="http://php.net/manual/en/function.array-search.php">array_search</a>. see <a target="_blank" class="desc-link" href="array.search.htm">detail</a>.<br/>Searches a given value and returns the corresponding key if successful.</p>
             </div>
@@ -551,7 +551,7 @@
             <td class="attributes"><code class="overview">public array</code></td>
             <td class="name"><div>
             <a class="anchor" href="#m_array_slice">#</a>
-            <code class="overview">slice( <span>integer <var>$offset</var></span>, <span>integer <var>$length</var> = <span class="php-keyword1">NULL</span></span>, <span>boolean <var>$preserveKeys</var> = <span class="php-keyword1">false</span></span> )</code>
+            <code class="overview">slice( int <var>$offset</var>, int <var>$length</var> = NULL, bool <var>$preserveKeys</var> = false )</code>
             <div class="description short">
                 <p>context: array. alias of <a target="_blank" href="http://php.net/manual/en/function.array-slice.php">array_slice</a>. see <a target="_blank" class="desc-link" href="array.slice.htm">detail</a>.<br/>Extracts a slice.</p>
             </div>
@@ -562,7 +562,7 @@
             <td class="attributes"><code class="overview">public array</code></td>
             <td class="name"><div>
             <a class="anchor" href="#m_array_sort">#</a>
-            <code class="overview">sort( <span>integer <var>$flags</var> = SORT_REGULAR</span> )</code>
+            <code class="overview">sort( int <var>$flags</var> = SORT_REGULAR )</code>
             <div class="description short">
                 <p>context: array. alias of <a target="_blank" href="http://php.net/manual/en/function.sort.php">sort</a>. see <a target="_blank" class="desc-link" href="array.sort.htm">detail</a>.<br/>Sorts values.</p>
             </div>
@@ -573,7 +573,7 @@
             <td class="attributes"><code class="overview">public array</code></td>
             <td class="name"><div>
             <a class="anchor" href="#m_array_splice">#</a>
-            <code class="overview">splice( <span>integer <var>$offset</var></span>, <span>integer <var>$length</var></span>, <span>mixed <var>$replacement</var> = []</span> )</code>
+            <code class="overview">splice( int <var>$offset</var>, int <var>$length</var>, mixed <var>$replacement</var> = [] )</code>
             <div class="description short">
                 <p>context: array. alias of <a target="_blank" href="http://php.net/manual/en/function.array-splice.php">array_splice</a>. see <a target="_blank" class="desc-link" href="array.splice.htm">detail</a>.<br/>Removes a portion and replace it with something else.</p>
             </div>
@@ -595,7 +595,7 @@
             <td class="attributes"><code class="overview">public array</code></td>
             <td class="name"><div>
             <a class="anchor" href="#m_array_unique">#</a>
-            <code class="overview">unique( <span>integer <var>$sort_flags</var> = SORT_STRING</span> )</code>
+            <code class="overview">unique( int <var>$flags</var> = SORT_STRING )</code>
             <div class="description short">
                 <p>context: array. alias of <a target="_blank" href="http://php.net/manual/en/function.array-unique.php">array_unique</a>. see <a target="_blank" class="desc-link" href="array.unique.htm">detail</a>.<br/>Removes duplicate values.</p>
             </div>
@@ -606,7 +606,7 @@
             <td class="attributes"><code class="overview">public array</code></td>
             <td class="name"><div>
             <a class="anchor" href="#m_array_unshift">#</a>
-            <code class="overview">unshift( <span>mixed <var>$value1</var></span>, <span>mixed <var>$value2</var> = <span class="php-keyword1">null</span></span>, <span>mixed <var>$value3</var> = <span class="php-keyword1">null</span></span> )</code>
+            <code class="overview">unshift( mixed <var>$value1</var>, mixed <var>...</var> )</code>
             <div class="description short">
                 <p>context: array. alias of <a target="_blank" href="http://php.net/manual/en/function.array-unshift.php">array_unshift</a>. see <a target="_blank" class="desc-link" href="array.unshift.htm">detail</a>.<br/>Prepend one or more elements to the beginning.</p>
             </div>
@@ -617,7 +617,7 @@
             <td class="attributes"><code class="overview">public array</code></td>
             <td class="name"><div>
             <a class="anchor" href="#m_array_userAssocDiff">#</a>
-            <code class="overview">userAssocDiff( <span>array <var>$array2</var></span>, <span>array <var>$array3</var> = <span class="php-keyword1">null</span></span>, <span>array <var>$array4</var> = <span class="php-keyword1">null</span></span>, <span>callable <var>$keyComparator</var></span> )</code>
+            <code class="overview">userAssocDiff( array <var>$array2</var>, array <var>...</var>, callable <var>$keyComparator</var> )</code>
             <div class="description short">
                 <p>context: array. alias of <a target="_blank" href="http://php.net/manual/en/function.array-diff-uassoc.php">array_diff_uassoc</a>. see <a target="_blank" class="desc-link" href="array.userAssocDiff.htm">detail</a>.<br/>Computes the difference with additional index check which is performed using a callback function.</p>
             </div>
@@ -628,7 +628,7 @@
             <td class="attributes"><code class="overview">public array</code></td>
             <td class="name"><div>
             <a class="anchor" href="#m_array_userAssocIntersect">#</a>
-            <code class="overview">userAssocIntersect( <span>array <var>$array2</var></span>, <span>array <var>$array3</var> = <span class="php-keyword1">null</span></span>, <span>array <var>$array4</var> = <span class="php-keyword1">null</span></span>, <span>callable <var>$keyComparator</var></span> )</code>
+            <code class="overview">userAssocIntersect( array <var>$array2</var>, array <var>...</var>, callable <var>$keyComparator</var> )</code>
             <div class="description short">
                 <p>context: array. alias of <a target="_blank" href="http://php.net/manual/en/function.array-intersect-uassoc.php">array_intersect_uassoc</a>. see <a target="_blank" class="desc-link" href="array.userAssocIntersect.htm">detail</a>.<br/>Computes the intersection with additional index check, compares indexes using a callback function.</p>
             </div>
@@ -639,7 +639,7 @@
             <td class="attributes"><code class="overview">public array</code></td>
             <td class="name"><div>
             <a class="anchor" href="#m_array_userAssocSort">#</a>
-            <code class="overview">userAssocSort( <span>callable <var>$valueComparator</var></span> )</code>
+            <code class="overview">userAssocSort( callable <var>$valueComparator</var> )</code>
             <div class="description short">
                 <p>context: array. alias of <a target="_blank" href="http://php.net/manual/en/function.uasort.php">uasort</a>. see <a target="_blank" class="desc-link" href="array.userAssocSort.htm">detail</a>.<br/>Sorts values using a callback function and maintain index association.</p>
             </div>
@@ -650,7 +650,7 @@
             <td class="attributes"><code class="overview">public array</code></td>
             <td class="name"><div>
             <a class="anchor" href="#m_array_userDiff">#</a>
-            <code class="overview">userDiff( <span>array <var>$array2</var></span>, <span>array <var>$array3</var> = <span class="php-keyword1">null</span></span>, <span>array <var>$array4</var> = <span class="php-keyword1">null</span></span>, <span>callable <var>$valueComparator</var></span> )</code>
+            <code class="overview">userDiff( array <var>$array2</var>, array <var>...</var>, callable <var>$valueComparator</var> )</code>
             <div class="description short">
                 <p>context: array. alias of <a target="_blank" href="http://php.net/manual/en/function.array-udiff.php">array_udiff</a>. see <a target="_blank" class="desc-link" href="array.userDiff.htm">detail</a>.<br/>Computes the difference using a callback function.</p>
             </div>
@@ -661,7 +661,7 @@
             <td class="attributes"><code class="overview">public array</code></td>
             <td class="name"><div>
             <a class="anchor" href="#m_array_userDiffAssoc">#</a>
-            <code class="overview">userDiffAssoc( <span>array <var>$array2</var></span>, <span>array <var>$array3</var> = <span class="php-keyword1">null</span></span>, <span>array <var>$array4</var> = <span class="php-keyword1">null</span></span>, <span>callable <var>$valueComparator</var></span> )</code>
+            <code class="overview">userDiffAssoc( array <var>$array2</var>, array <var>...</var>, callable <var>$valueComparator</var> )</code>
             <div class="description short">
                 <p>context: array. alias of <a target="_blank" href="http://php.net/manual/en/function.array-udiff-assoc.php">array_udiff_assoc</a>. see <a target="_blank" class="desc-link" href="array.userDiffAssoc.htm">detail</a>.<br/>Computes the difference with additional index check, compares data using a callback function.</p>
             </div>
@@ -672,7 +672,7 @@
             <td class="attributes"><code class="overview">public array</code></td>
             <td class="name"><div>
             <a class="anchor" href="#m_array_userDiffUserAssoc">#</a>
-            <code class="overview">userDiffUserAssoc( <span>array <var>$array2</var></span>, <span>array <var>$array3</var> = <span class="php-keyword1">null</span></span>, <span>array <var>$array4</var> = <span class="php-keyword1">null</span></span>, <span>callable <var>$valueComparator</var></span>, <span>callable <var>$keyComparator</var></span> )</code>
+            <code class="overview">userDiffUserAssoc( array <var>$array2</var>, array <var>...</var>, callable <var>$valueComparator</var>, callable <var>$keyComparator</var> )</code>
             <div class="description short">
                 <p>context: array. alias of <a target="_blank" href="http://php.net/manual/en/function.array-udiff-uassoc.php">array_udiff_uassoc</a>. see <a target="_blank" class="desc-link" href="array.userDiffUserAssoc.htm">detail</a>.<br/>Computes the difference with additional index check, compares data and indexes using separate callback functions.</p>
             </div>
@@ -683,7 +683,7 @@
             <td class="attributes"><code class="overview">public array</code></td>
             <td class="name"><div>
             <a class="anchor" href="#m_array_userIntersect">#</a>
-            <code class="overview">userIntersect( <span>array <var>$array2</var></span>, <span>array <var>$array3</var> = <span class="php-keyword1">null</span></span>, <span>array <var>$array4</var> = <span class="php-keyword1">null</span></span>, <span>callable <var>$valueComparator</var></span> )</code>
+            <code class="overview">userIntersect( array <var>$array2</var>, array <var>...</var>, callable <var>$valueComparator</var> )</code>
             <div class="description short">
                 <p>context: array. alias of <a target="_blank" href="http://php.net/manual/en/function.array-uintersect.php">array_uintersect</a>. see <a target="_blank" class="desc-link" href="array.userIntersect.htm">detail</a>.<br/>Computes the intersection, compares data using a callback function.</p>
             </div>
@@ -694,7 +694,7 @@
             <td class="attributes"><code class="overview">public array</code></td>
             <td class="name"><div>
             <a class="anchor" href="#m_array_userIntersectAssoc">#</a>
-            <code class="overview">userIntersectAssoc( <span>array <var>$array2</var></span>, <span>array <var>$array3</var> = <span class="php-keyword1">null</span></span>, <span>array <var>$array4</var> = <span class="php-keyword1">null</span></span>, <span>callable <var>$valueComparator</var></span> )</code>
+            <code class="overview">userIntersectAssoc( array <var>$array2</var>, array <var>...</var>, callable <var>$valueComparator</var> )</code>
             <div class="description short">
                 <p>context: array. alias of <a target="_blank" href="http://php.net/manual/en/function.array-uintersect-assoc.php">array_uintersect_assoc</a>. see <a target="_blank" class="desc-link" href="array.userIntersectAssoc.htm">detail</a>.<br/>Computes the intersection with additional index check, compares data using a callback function.</p>
             </div>
@@ -705,7 +705,7 @@
             <td class="attributes"><code class="overview">public array</code></td>
             <td class="name"><div>
             <a class="anchor" href="#m_array_userIntersectUserAssoc">#</a>
-            <code class="overview">userIntersectUserAssoc( <span>array <var>$array2</var></span>, <span>array <var>$array3</var> = <span class="php-keyword1">null</span></span>, <span>array <var>$array4</var> = <span class="php-keyword1">null</span></span>, <span>callable <var>$valueComparator</var></span>, <span>callable <var>$keyComparator</var></span> )</code>
+            <code class="overview">userIntersectUserAssoc( array <var>$array2</var>, array <var>...</var>, callable <var>$valueComparator</var>, callable <var>$keyComparator</var> )</code>
             <div class="description short">
                 <p>context: array. alias of <a target="_blank" href="http://php.net/manual/en/function.array-uintersect-uassoc.php">array_uintersect_uassoc</a>. see <a target="_blank" class="desc-link" href="array.userIntersectUserAssoc.htm">detail</a>.<br/>Computes the intersection with additional index check, compares data and indexes using separate callback functions.</p>
             </div>
@@ -716,7 +716,7 @@
             <td class="attributes"><code class="overview">public array</code></td>
             <td class="name"><div>
             <a class="anchor" href="#m_array_userKeyDiff">#</a>
-            <code class="overview">userKeyDiff( <span>array <var>$array2</var></span>, <span>array <var>$array3</var> = <span class="php-keyword1">null</span></span>, <span>array <var>$array4</var> = <span class="php-keyword1">null</span></span>, <span>callable <var>$keyComparator</var></span> )</code>
+            <code class="overview">userKeyDiff( array <var>$array2</var>, array <var>...</var>, callable <var>$keyComparator</var> )</code>
             <div class="description short">
                 <p>context: array. alias of <a target="_blank" href="http://php.net/manual/en/function.array-diff-ukey.php">array_diff_ukey</a>. see <a target="_blank" class="desc-link" href="array.userKeyDiff.htm">detail</a>.<br/>Computes the difference using a callback function on the keys for comparison.</p>
             </div>
@@ -727,7 +727,7 @@
             <td class="attributes"><code class="overview">public array</code></td>
             <td class="name"><div>
             <a class="anchor" href="#m_array_userKeyIntersect">#</a>
-            <code class="overview">userKeyIntersect( <span>array <var>$array2</var></span>, <span>array <var>$array3</var> = <span class="php-keyword1">null</span></span>, <span>array <var>$array4</var> = <span class="php-keyword1">null</span></span>, <span>callable <var>$keyComparator</var></span> )</code>
+            <code class="overview">userKeyIntersect( array <var>$array2</var>, array <var>...</var>, callable <var>$keyComparator</var> )</code>
             <div class="description short">
                 <p>context: array. alias of <a target="_blank" href="http://php.net/manual/en/function.array-intersect-ukey.php">array_intersect_ukey</a>. see <a target="_blank" class="desc-link" href="array.userKeyIntersect.htm">detail</a>.<br/>Computes the intersection using a callback function on the keys for comparison.</p>
             </div>
@@ -738,7 +738,7 @@
             <td class="attributes"><code class="overview">public array</code></td>
             <td class="name"><div>
             <a class="anchor" href="#m_array_userKeySort">#</a>
-            <code class="overview">userKeySort( <span>callable <var>$keyComparator</var></span> )</code>
+            <code class="overview">userKeySort( callable <var>$keyComparator</var> )</code>
             <div class="description short">
                 <p>context: array. alias of <a target="_blank" href="http://php.net/manual/en/function.uksort.php">uksort</a>. see <a target="_blank" class="desc-link" href="array.userKeySort.htm">detail</a>.<br/>Sorts keys using a callback function.</p>
             </div>
@@ -749,7 +749,7 @@
             <td class="attributes"><code class="overview">public array</code></td>
             <td class="name"><div>
             <a class="anchor" href="#m_array_userSort">#</a>
-            <code class="overview">userSort( <span>callable <var>$valueComparator</var></span> )</code>
+            <code class="overview">userSort( callable <var>$valueComparator</var> )</code>
             <div class="description short">
                 <p>context: array. alias of <a target="_blank" href="http://php.net/manual/en/function.usort.php">usort</a>. see <a target="_blank" class="desc-link" href="array.userSort.htm">detail</a>.<br/>Sorts values using a callback function.</p>
             </div>
@@ -771,7 +771,7 @@
             <td class="attributes"><code class="overview">public array</code></td>
             <td class="name"><div>
             <a class="anchor" href="#m_array_walk">#</a>
-            <code class="overview">walk( <span>callable <var>$callback</var></span>, <span>mixed <var>$userData</var> = <span class="php-keyword1">NULL</span></span> )</code>
+            <code class="overview">walk( callable <var>$callback</var>, mixed <var>$userData</var> = NULL )</code>
             <div class="description short">
                 <p>context: array. alias of <a target="_blank" href="http://php.net/manual/en/function.array-walk.php">array_walk</a>. see <a target="_blank" class="desc-link" href="array.walk.htm">detail</a>.<br/>Apply a callback function to every elements.</p>
             </div>
@@ -848,7 +848,7 @@
             <td class="attributes"><code class="overview">public float</code></td>
             <td class="name"><div>
             <a class="anchor" href="#m_number_atan2">#</a>
-            <code class="overview">atan2( )</code>
+            <code class="overview">atan2( float <var>$x</var> ): float</code>
             <div class="description short">
                 <p>context: number. alias of <a target="_blank" href="http://php.net/manual/en/function.atan2.php">atan2</a>. see <a target="_blank" class="desc-link" href="number.atan2.htm">detail</a>.<br/>Arc tangent of two variables.</p>
             </div>
@@ -991,7 +991,7 @@
             <td class="attributes"><code class="overview">public float</code></td>
             <td class="name"><div>
             <a class="anchor" href="#m_number_hypotenuse">#</a>
-            <code class="overview">hypotenuse( <span>float <var>$y</var></span> )</code>
+            <code class="overview">hypotenuse( float <var>$y</var> )</code>
             <div class="description short">
                 <p>context: number. alias of <a target="_blank" href="http://php.net/manual/en/function.hypot.php">hypot</a>. see <a target="_blank" class="desc-link" href="number.hypotenuse.htm">detail</a>.<br/>Calculate the length of the hypotenuse of a right-angle triangle.</p>
             </div>
@@ -999,10 +999,10 @@
             </div></td>
         </tr>
         <tr data-order="intDivision" id="m_intDivision">
-            <td class="attributes"><code class="overview">public integer</code></td>
+            <td class="attributes"><code class="overview">public int</code></td>
             <td class="name"><div>
             <a class="anchor" href="#m_number_intDivision">#</a>
-            <code class="overview">intDivision( <span>integer <var>$divisor</var></span> )</code>
+            <code class="overview">intDivision( int <var>$divisor</var> )</code>
             <div class="description short">
                 <p>context: number. alias of <a target="_blank" href="http://php.net/manual/en/function.intdiv.php">intdiv</a>. see <a target="_blank" class="desc-link" href="number.intDivision.htm">detail</a>.<br/>Integer division.</p>
             </div>
@@ -1021,7 +1021,7 @@
             </div></td>
         </tr>
         <tr data-order="isFinite" id="m_isFinite">
-            <td class="attributes"><code class="overview">public boolean</code></td>
+            <td class="attributes"><code class="overview">public bool</code></td>
             <td class="name"><div>
             <a class="anchor" href="#m_number_isFinite">#</a>
             <code class="overview">isFinite( )</code>
@@ -1032,7 +1032,7 @@
             </div></td>
         </tr>
         <tr data-order="isInfinite" id="m_isInfinite">
-            <td class="attributes"><code class="overview">public boolean</code></td>
+            <td class="attributes"><code class="overview">public bool</code></td>
             <td class="name"><div>
             <a class="anchor" href="#m_number_isInfinite">#</a>
             <code class="overview">isInfinite( )</code>
@@ -1043,7 +1043,7 @@
             </div></td>
         </tr>
         <tr data-order="isNan" id="m_isNan">
-            <td class="attributes"><code class="overview">public boolean</code></td>
+            <td class="attributes"><code class="overview">public bool</code></td>
             <td class="name"><div>
             <a class="anchor" href="#m_number_isNan">#</a>
             <code class="overview">isNan( )</code>
@@ -1057,7 +1057,7 @@
             <td class="attributes"><code class="overview">public float</code></td>
             <td class="name"><div>
             <a class="anchor" href="#m_number_log">#</a>
-            <code class="overview">log( <span>float <var>$base</var> = M_E</span> )</code>
+            <code class="overview">log( float <var>$base</var> = M_E )</code>
             <div class="description short">
                 <p>context: number. alias of <a target="_blank" href="http://php.net/manual/en/function.log.php">log</a>. see <a target="_blank" class="desc-link" href="number.log.htm">detail</a>.<br/>Natural logarithm.</p>
             </div>
@@ -1090,7 +1090,7 @@
             <td class="attributes"><code class="overview">public string</code></td>
             <td class="name"><div>
             <a class="anchor" href="#m_number_moneyFormat">#</a>
-            <code class="overview">moneyFormat( <span>string <var>$format</var></span> )</code>
+            <code class="overview">moneyFormat( string <var>$format</var> )</code>
             <div class="description short">
                 <p>context: number. alias of <a target="_blank" href="http://php.net/manual/en/function.money-format.php">money_format</a>. see <a target="_blank" class="desc-link" href="number.moneyFormat.htm">detail</a>.<br/>Formats a number as a currency.</p>
             </div>
@@ -1101,7 +1101,7 @@
             <td class="attributes"><code class="overview">public string</code></td>
             <td class="name"><div>
             <a class="anchor" href="#m_number_numberFormat">#</a>
-            <code class="overview">numberFormat( <span>integer <var>$decimals</var></span>, <span>string <var>$decPoint</var> = <span class="php-quote">&quot;.&quot;</span></span>, <span>string <var>$thousandsSep</var> = <span class="php-quote">&quot;</span></span> )</code>
+            <code class="overview">numberFormat( int <var>$decimals</var>, string <var>$decPoint</var> = ".", string <var>$thousandsSep</var> = "," )</code>
             <div class="description short">
                 <p>context: number. alias of <a target="_blank" href="http://php.net/manual/en/function.number-format.php">number_format</a>. see <a target="_blank" class="desc-link" href="number.numberFormat.htm">detail</a>.<br/>Format a number with grouped thousands.</p>
             </div>
@@ -1112,7 +1112,7 @@
             <td class="attributes"><code class="overview">public number</code></td>
             <td class="name"><div>
             <a class="anchor" href="#m_number_pow">#</a>
-            <code class="overview">pow( <span>number <var>$exp</var></span> )</code>
+            <code class="overview">pow( number <var>$exp</var> )</code>
             <div class="description short">
                 <p>context: number. alias of <a target="_blank" href="http://php.net/manual/en/function.pow.php">pow</a>. see <a target="_blank" class="desc-link" href="number.pow.htm">detail</a>.<br/>Exponential expression.</p>
             </div>
@@ -1134,7 +1134,7 @@
             <td class="attributes"><code class="overview">public float</code></td>
             <td class="name"><div>
             <a class="anchor" href="#m_number_round">#</a>
-            <code class="overview">round( <span>integer <var>$precision</var></span>, <span>integer <var>$mode</var> = PHP_ROUND_HALF_UP</span> )</code>
+            <code class="overview">round( int <var>$precision</var>, int <var>$mode</var> = PHP_ROUND_HALF_UP )</code>
             <div class="description short">
                 <p>context: number. alias of <a target="_blank" href="http://php.net/manual/en/function.round.php">round</a>. see <a target="_blank" class="desc-link" href="number.round.htm">detail</a>.<br/>Rounds a float.</p>
             </div>
@@ -1200,7 +1200,7 @@
             <td class="attributes"><code class="overview">public string</code></td>
             <td class="name"><div>
             <a class="anchor" href="#m_string_addCSlashes">#</a>
-            <code class="overview">addCSlashes( <span>string <var>$charList</var></span> )</code>
+            <code class="overview">addCSlashes( string <var>$charList</var> )</code>
             <div class="description short">
                 <p>context: string. alias of <a target="_blank" href="http://php.net/manual/en/function.addcslashes.php">addcslashes</a>. see <a target="_blank" class="desc-link" href="string.addCSlashes.htm">detail</a>.<br/>Quote with slashes in a C style.</p>
             </div>
@@ -1222,7 +1222,7 @@
             <td class="attributes"><code class="overview">public string</code></td>
             <td class="name"><div>
             <a class="anchor" href="#m_string_baseConvert">#</a>
-            <code class="overview">baseConvert( <span>integer <var>$fromBase</var></span>, <span>integer <var>$toBase</var></span> )</code>
+            <code class="overview">baseConvert( int <var>$fromBase</var>, int <var>$toBase</var> )</code>
             <div class="description short">
                 <p>context: string. alias of <a target="_blank" href="http://php.net/manual/en/function.base-convert.php">base_convert</a>. see <a target="_blank" class="desc-link" href="string.baseConvert.htm">detail</a>.<br/>Convert a number between arbitrary bases.</p>
             </div>
@@ -1255,7 +1255,7 @@
             <td class="attributes"><code class="overview"> public string|array</code></td>
             <td class="name"><div>
             <a class="anchor" href="#m_string_charCount">#</a>
-            <code class="overview">charCount( <span>integer <var>$mode</var></span> )</code>
+            <code class="overview">charCount( int <var>$mode</var> )</code>
             <div class="description short">
                 <p>context: string. alias of <a target="_blank" href="http://php.net/manual/en/function.count-chars.php">count_chars</a>. see <a target="_blank" class="desc-link" href="string.charCount.htm">detail</a>.<br/>Return information about characters used in a string.</p>
             </div>
@@ -1263,7 +1263,7 @@
             </div></td>
         </tr>
         <tr data-order="charToInt" id="m_charToInt">
-            <td class="attributes"><code class="overview">public integer</code></td>
+            <td class="attributes"><code class="overview">public int</code></td>
             <td class="name"><div>
             <a class="anchor" href="#m_string_charToInt">#</a>
             <code class="overview">charToInt( )</code>
@@ -1277,7 +1277,7 @@
             <td class="attributes"><code class="overview">public string</code></td>
             <td class="name"><div>
             <a class="anchor" href="#m_string_chunkSplit">#</a>
-            <code class="overview">chunkSplit( <span>integer <var>$chunkLength</var> = <span class="php-num">76</span></span>, <span>string <var>$end</var> = <span class="php-quote">&quot;\r\n&quot;</span></span> )</code>
+            <code class="overview">chunkSplit( int <var>$chunkLength</var> = 76, string <var>$end</var> = "\r\n" )</code>
             <div class="description short">
                 <p>context: string. alias of <a target="_blank" href="http://php.net/manual/en/function.chunk-split.php">chunk_split</a>. see <a target="_blank" class="desc-link" href="string.chunkSplit.htm">detail</a>.<br/>Split into smaller chunks.</p>
             </div>
@@ -1285,10 +1285,10 @@
             </div></td>
         </tr>
         <tr data-order="compare" id="m_compare">
-            <td class="attributes"><code class="overview">public integer</code></td>
+            <td class="attributes"><code class="overview">public int</code></td>
             <td class="name"><div>
             <a class="anchor" href="#m_string_compare">#</a>
-            <code class="overview">compare( <span>string <var>$str2</var></span> )</code>
+            <code class="overview">compare( string <var>$str2</var> )</code>
             <div class="description short">
                 <p>context: string. alias of <a target="_blank" href="http://php.net/manual/en/function.strcmp.php">strcmp</a>. see <a target="_blank" class="desc-link" href="string.compare.htm">detail</a>.<br/>Binary safe comparison.</p>
             </div>
@@ -1299,7 +1299,7 @@
             <td class="attributes"><code class="overview">public string</code></td>
             <td class="name"><div>
             <a class="anchor" href="#m_string_convertCyrStr">#</a>
-            <code class="overview">convertCyrStr( <span>string <var>$from</var></span>, <span>string <var>$to</var></span> )</code>
+            <code class="overview">convertCyrStr( string <var>$from</var>, string <var>$to</var> )</code>
             <div class="description short">
                 <p>context: string. alias of <a target="_blank" href="http://php.net/manual/en/function.convert-cyr-string.php">convert_cyr_string</a>. see <a target="_blank" class="desc-link" href="string.convertCyrStr.htm">detail</a>.<br/>Convert from one Cyrillic character set to another.</p>
             </div>
@@ -1329,7 +1329,7 @@
             </div></td>
         </tr>
         <tr data-order="crc32" id="m_crc32">
-            <td class="attributes"><code class="overview">public integer</code></td>
+            <td class="attributes"><code class="overview">public int</code></td>
             <td class="name"><div>
             <a class="anchor" href="#m_string_crc32">#</a>
             <code class="overview">crc32( )</code>
@@ -1343,7 +1343,7 @@
             <td class="attributes"><code class="overview">public string</code></td>
             <td class="name"><div>
             <a class="anchor" href="#m_string_crypt">#</a>
-            <code class="overview">crypt( <span>string <var>$salt</var> = <span class="php-keyword1">null</span></span> )</code>
+            <code class="overview">crypt( string <var>$salt</var> = null )</code>
             <div class="description short">
                 <p>context: string. alias of <a target="_blank" href="http://php.net/manual/en/function.crypt.php">crypt</a>. see <a target="_blank" class="desc-link" href="string.crypt.htm">detail</a>.<br/>One-way hashing.</p>
             </div>
@@ -1354,7 +1354,7 @@
             <td class="attributes"><code class="overview">public array</code></td>
             <td class="name"><div>
             <a class="anchor" href="#m_string_csvToArray">#</a>
-            <code class="overview">csvToArray( <span>string <var>$delimiter</var> = <span class="php-quote">&quot;</span></span>, <span>string <var>$enclosure</var> = <span class="php-quote">'&quot;'</span></span>, <span>string <var>$escape</var> = <span class="php-quote">&quot;\\&quot;</span></span> )</code>
+            <code class="overview">csvToArray( string <var>$delimiter</var> = ",", string <var>$enclosure</var> = '"', string <var>$escape</var> = "\\" )</code>
             <div class="description short">
                 <p>context: string. alias of <a target="_blank" href="http://php.net/manual/en/function.str-getcsv.php">str_getcsv</a>. see <a target="_blank" class="desc-link" href="string.csvToArray.htm">detail</a>.<br/>Parse a CSV into an array.</p>
             </div>
@@ -1365,7 +1365,7 @@
             <td class="attributes"><code class="overview">public array</code></td>
             <td class="name"><div>
             <a class="anchor" href="#m_string_explode">#</a>
-            <code class="overview">explode( <span>string <var>$delimiter</var></span>, <span>integer <var>$limit</var> = <span class="php-keyword1">null</span></span> )</code>
+            <code class="overview">explode( string <var>$delimiter</var>, int <var>$limit</var> = null )</code>
             <div class="description short">
                 <p>context: string. alias of <a target="_blank" href="http://php.net/manual/en/function.explode.php">explode</a>. see <a target="_blank" class="desc-link" href="string.explode.htm">detail</a>.<br/>Split a string by string.</p>
             </div>
@@ -1373,10 +1373,10 @@
             </div></td>
         </tr>
         <tr data-order="firstNthCompare" id="m_firstNthCompare">
-            <td class="attributes"><code class="overview">public integer</code></td>
+            <td class="attributes"><code class="overview">public int</code></td>
             <td class="name"><div>
             <a class="anchor" href="#m_string_firstNthCompare">#</a>
-            <code class="overview">firstNthCompare( <span>string <var>$str2</var></span>, <span>integer <var>$length</var></span> )</code>
+            <code class="overview">firstNthCompare( string <var>$str2</var>, int <var>$length</var> )</code>
             <div class="description short">
                 <p>context: string. alias of <a target="_blank" href="http://php.net/manual/en/function.strncmp.php">strncmp</a>. see <a target="_blank" class="desc-link" href="string.firstNthCompare.htm">detail</a>.<br/>Binary safe comparison of the first n characters.</p>
             </div>
@@ -1384,10 +1384,10 @@
             </div></td>
         </tr>
         <tr data-order="firstNthInsenCompare" id="m_firstNthInsenCompare">
-            <td class="attributes"><code class="overview">public integer</code></td>
+            <td class="attributes"><code class="overview">public int</code></td>
             <td class="name"><div>
             <a class="anchor" href="#m_string_firstNthInsenCompare">#</a>
-            <code class="overview">firstNthInsenCompare( <span>string <var>$str2</var></span>, <span>integer <var>$length</var></span> )</code>
+            <code class="overview">firstNthInsenCompare( string <var>$str2</var>, int <var>$length</var> )</code>
             <div class="description short">
                 <p>context: string. alias of <a target="_blank" href="http://php.net/manual/en/function.strncasecmp.php">strncasecmp</a>. see <a target="_blank" class="desc-link" href="string.firstNthInsenCompare.htm">detail</a>.<br/>Binary safe case-insensitive comparison of the first n characters.</p>
             </div>
@@ -1398,7 +1398,7 @@
             <td class="attributes"><code class="overview">public mixed</code></td>
             <td class="name"><div>
             <a class="anchor" href="#m_string_firstOccurInsenPosition">#</a>
-            <code class="overview">firstOccurInsenPosition( <span>string <var>$needle</var></span>, <span>integer <var>$offset</var></span> )</code>
+            <code class="overview">firstOccurInsenPosition( string <var>$needle</var>, int <var>$offset</var> )</code>
             <div class="description short">
                 <p>context: string. alias of <a target="_blank" href="http://php.net/manual/en/function.stripos.php">stripos</a>. see <a target="_blank" class="desc-link" href="string.firstOccurInsenPosition.htm">detail</a>.<br/>Find the position of the first occurrence of a case-insensitive substring.</p>
             </div>
@@ -1409,7 +1409,7 @@
             <td class="attributes"><code class="overview">public string</code></td>
             <td class="name"><div>
             <a class="anchor" href="#m_string_firstOccurInsenSubstr">#</a>
-            <code class="overview">firstOccurInsenSubstr( <span>mixed <var>$needle</var></span>, <span>boolean <var>$beforeNeedle</var> = <span class="php-keyword1">false</span></span> )</code>
+            <code class="overview">firstOccurInsenSubstr( mixed <var>$needle</var>, bool <var>$beforeNeedle</var> = false )</code>
             <div class="description short">
                 <p>context: string. alias of <a target="_blank" href="http://php.net/manual/en/function.stristr.php">stristr</a>. see <a target="_blank" class="desc-link" href="string.firstOccurInsenSubstr.htm">detail</a>.<br/>Find the first occurrence of a case-insensitive substring.</p>
             </div>
@@ -1420,7 +1420,7 @@
             <td class="attributes"><code class="overview">public mixed</code></td>
             <td class="name"><div>
             <a class="anchor" href="#m_string_firstOccurPosition">#</a>
-            <code class="overview">firstOccurPosition( <span>mixed <var>$needle</var></span>, <span>integer <var>$offset</var></span> )</code>
+            <code class="overview">firstOccurPosition( mixed <var>$needle</var>, int <var>$offset</var> )</code>
             <div class="description short">
                 <p>context: string. alias of <a target="_blank" href="http://php.net/manual/en/function.strpos.php">strpos</a>. see <a target="_blank" class="desc-link" href="string.firstOccurPosition.htm">detail</a>.<br/>Find the position of the first occurrence of a substring.</p>
             </div>
@@ -1431,7 +1431,7 @@
             <td class="attributes"><code class="overview">public string</code></td>
             <td class="name"><div>
             <a class="anchor" href="#m_string_firstOccurSubstr">#</a>
-            <code class="overview">firstOccurSubstr( <span>mixed <var>$needle</var></span>, <span>boolean <var>$beforeNeedle</var> = <span class="php-keyword1">false</span></span> )</code>
+            <code class="overview">firstOccurSubstr( mixed <var>$needle</var>, bool <var>$beforeNeedle</var> = false )</code>
             <div class="description short">
                 <p>context: string. alias of <a target="_blank" href="http://php.net/manual/en/function.strstr.php">strstr</a>. see <a target="_blank" class="desc-link" href="string.firstOccurSubstr.htm">detail</a>.<br/>Find the first occurrence of a substring.</p>
             </div>
@@ -1442,7 +1442,7 @@
             <td class="attributes"><code class="overview">public string</code></td>
             <td class="name"><div>
             <a class="anchor" href="#m_string_hebrev">#</a>
-            <code class="overview">hebrev( <span>integer <var>$maxCharsPerLine</var></span> )</code>
+            <code class="overview">hebrev( int <var>$maxCharsPerLine</var> = 0 )</code>
             <div class="description short">
                 <p>context: string. alias of <a target="_blank" href="http://php.net/manual/en/function.hebrev.php">hebrev</a>. see <a target="_blank" class="desc-link" href="string.hebrev.htm">detail</a>.<br/>Convert logical Hebrew text to visual text.</p>
             </div>
@@ -1453,7 +1453,7 @@
             <td class="attributes"><code class="overview">public string</code></td>
             <td class="name"><div>
             <a class="anchor" href="#m_string_hebrevWithNewline">#</a>
-            <code class="overview">hebrevWithNewline( <span>integer <var>$maxCharsPerLine</var></span> )</code>
+            <code class="overview">hebrevWithNewline( int <var>$maxCharsPerLine</var> = 0 )</code>
             <div class="description short">
                 <p>context: string. alias of <a target="_blank" href="http://php.net/manual/en/function.hebrevc.php">hebrevc</a>. see <a target="_blank" class="desc-link" href="string.hebrevWithNewline.htm">detail</a>.<br/>Convert logical Hebrew text to visual text with newline conversion.</p>
             </div>
@@ -1486,7 +1486,7 @@
             <td class="attributes"><code class="overview">public string</code></td>
             <td class="name"><div>
             <a class="anchor" href="#m_string_htmlCharDecode">#</a>
-            <code class="overview">htmlCharDecode( <span>integer <var>$flags</var> = ENT_COMPAT | ENT_HTML401</span> )</code>
+            <code class="overview">htmlCharDecode( int <var>$flags</var> = ENT_COMPAT | ENT_HTML401 )</code>
             <div class="description short">
                 <p>context: string. alias of <a target="_blank" href="http://php.net/manual/en/function.htmlspecialchars-decode.php">htmlspecialchars_decode</a>. see <a target="_blank" class="desc-link" href="string.htmlCharDecode.htm">detail</a>.<br/>Convert special HTML entities to characters.</p>
             </div>
@@ -1497,7 +1497,7 @@
             <td class="attributes"><code class="overview">public string</code></td>
             <td class="name"><div>
             <a class="anchor" href="#m_string_htmlCharEncode">#</a>
-            <code class="overview">htmlCharEncode( <span>integer <var>$flags</var> = ENT_COMPAT | ENT_HTML401</span>, <span>string <var>$encoding</var> = <span class="php-keyword2">ini_get</span>(<span class="php-quote">&quot;default_charset&quot;</span>)</span>, <span>boolean <var>$doubleEncode</var> = <span class="php-keyword1">true</span></span> )</code>
+            <code class="overview">htmlCharEncode( int <var>$flags</var> = ENT_COMPAT | ENT_HTML401, string <var>$encoding</var> = ini_get("default_charset"), bool <var>$doubleEncode</var> = true )</code>
             <div class="description short">
                 <p>context: string. alias of <a target="_blank" href="http://php.net/manual/en/function.htmlspecialchars.php">htmlspecialchars</a>. see <a target="_blank" class="desc-link" href="string.htmlCharEncode.htm">detail</a>.<br/>Convert special characters to HTML entities.</p>
             </div>
@@ -1508,7 +1508,7 @@
             <td class="attributes"><code class="overview">public string</code></td>
             <td class="name"><div>
             <a class="anchor" href="#m_string_htmlEntitiesDecode">#</a>
-            <code class="overview">htmlEntitiesDecode( <span>integer <var>$flags</var> = ENT_COMPAT | ENT_HTML401</span>, <span>string <var>$encoding</var> = <span class="php-keyword2">ini_get</span>(<span class="php-quote">&quot;default_charset&quot;</span>)</span> )</code>
+            <code class="overview">htmlEntitiesDecode( int <var>$flags</var> = ENT_COMPAT | ENT_HTML401, string <var>$encoding</var> = ini_get("default_charset") )</code>
             <div class="description short">
                 <p>context: string. alias of <a target="_blank" href="http://php.net/manual/en/function.html-entity-decode.php">html_entity_decode</a>. see <a target="_blank" class="desc-link" href="string.htmlEntitiesDecode.htm">detail</a>.<br/>Convert all HTML entities to applicable characters.</p>
             </div>
@@ -1519,7 +1519,7 @@
             <td class="attributes"><code class="overview">public string</code></td>
             <td class="name"><div>
             <a class="anchor" href="#m_string_htmlEntitiesEncode">#</a>
-            <code class="overview">htmlEntitiesEncode( <span>integer <var>$flags</var> = ENT_COMPAT | ENT_HTML401</span>, <span>string <var>$encoding</var> = <span class="php-keyword2">ini_get</span>(<span class="php-quote">&quot;default_charset&quot;</span>)</span>, <span>boolean <var>$doubleEncode</var> = <span class="php-keyword1">true</span></span> )</code>
+            <code class="overview">htmlEntitiesEncode( int <var>$flags</var> = ENT_COMPAT | ENT_HTML401, string <var>$encoding</var> = ini_get("default_charset"), bool <var>$doubleEncode</var> = true )</code>
             <div class="description short">
                 <p>context: string. alias of <a target="_blank" href="http://php.net/manual/en/function.htmlentities.php">htmlentities</a>. see <a target="_blank" class="desc-link" href="string.htmlEntitiesEncode.htm">detail</a>.<br/>Convert all applicable characters to HTML entities.</p>
             </div>
@@ -1527,10 +1527,10 @@
             </div></td>
         </tr>
         <tr data-order="insenCompare" id="m_insenCompare">
-            <td class="attributes"><code class="overview">public integer</code></td>
+            <td class="attributes"><code class="overview">public int</code></td>
             <td class="name"><div>
             <a class="anchor" href="#m_string_insenCompare">#</a>
-            <code class="overview">insenCompare( <span>string <var>$str2</var></span> )</code>
+            <code class="overview">insenCompare( string <var>$str2</var> )</code>
             <div class="description short">
                 <p>context: string. alias of <a target="_blank" href="http://php.net/manual/en/function.strcasecmp.php">strcasecmp</a>. see <a target="_blank" class="desc-link" href="string.insenCompare.htm">detail</a>.<br/>Binary safe case-insensitive comparison.</p>
             </div>
@@ -1541,7 +1541,7 @@
             <td class="attributes"><code class="overview">public mixed</code></td>
             <td class="name"><div>
             <a class="anchor" href="#m_string_insenReplaceAll">#</a>
-            <code class="overview">insenReplaceAll( <span>mixed <var>$search</var></span>, <span>mixed <var>$replace</var></span> )</code>
+            <code class="overview">insenReplaceAll( mixed <var>$search</var>, mixed <var>$replace</var> )</code>
             <div class="description short">
                 <p>context: string. alias of <a target="_blank" href="http://php.net/manual/en/function.str-ireplace.php">str_ireplace</a>. see <a target="_blank" class="desc-link" href="string.insenReplaceAll.htm">detail</a>.<br/>Replace all case-insensitive occurrences of the search string with the replacement string.</p>
             </div>
@@ -1549,10 +1549,10 @@
             </div></td>
         </tr>
         <tr data-order="lastOccurInsenPosition" id="m_lastOccurInsenPosition">
-            <td class="attributes"><code class="overview">public integer</code></td>
+            <td class="attributes"><code class="overview">public int</code></td>
             <td class="name"><div>
             <a class="anchor" href="#m_string_lastOccurInsenPosition">#</a>
-            <code class="overview">lastOccurInsenPosition( <span>string <var>$needle</var></span>, <span>integer <var>$offset</var></span> )</code>
+            <code class="overview">lastOccurInsenPosition( string <var>$needle</var>, int <var>$offset</var> )</code>
             <div class="description short">
                 <p>context: string. alias of <a target="_blank" href="http://php.net/manual/en/function.strripos.php">strripos</a>. see <a target="_blank" class="desc-link" href="string.lastOccurInsenPosition.htm">detail</a>.<br/>Find the position of the last occurrence of a case-insensitive substring.</p>
             </div>
@@ -1560,10 +1560,10 @@
             </div></td>
         </tr>
         <tr data-order="lastOccurPosition" id="m_lastOccurPosition">
-            <td class="attributes"><code class="overview">public integer</code></td>
+            <td class="attributes"><code class="overview">public int</code></td>
             <td class="name"><div>
             <a class="anchor" href="#m_string_lastOccurPosition">#</a>
-            <code class="overview">lastOccurPosition( <span>string <var>$needle</var></span>, <span>integer <var>$offset</var></span> )</code>
+            <code class="overview">lastOccurPosition( string <var>$needle</var>, int <var>$offset</var> )</code>
             <div class="description short">
                 <p>context: string. alias of <a target="_blank" href="http://php.net/manual/en/function.strrpos.php">strrpos</a>. see <a target="_blank" class="desc-link" href="string.lastOccurPosition.htm">detail</a>.<br/>Find the position of the last occurrence of a substring.</p>
             </div>
@@ -1574,7 +1574,7 @@
             <td class="attributes"><code class="overview">public string</code></td>
             <td class="name"><div>
             <a class="anchor" href="#m_string_lastOccurSubstr">#</a>
-            <code class="overview">lastOccurSubstr( <span>mixed <var>$needle</var></span> )</code>
+            <code class="overview">lastOccurSubstr( mixed <var>$needle</var> )</code>
             <div class="description short">
                 <p>context: string. alias of <a target="_blank" href="http://php.net/manual/en/function.strrchr.php">strrchr</a>. see <a target="_blank" class="desc-link" href="string.lastOccurSubstr.htm">detail</a>.<br/>Find the last occurrence of a character.</p>
             </div>
@@ -1582,7 +1582,7 @@
             </div></td>
         </tr>
         <tr data-order="length" id="m_length">
-            <td class="attributes"><code class="overview">public integer</code></td>
+            <td class="attributes"><code class="overview">public int</code></td>
             <td class="name"><div>
             <a class="anchor" href="#m_string_length">#</a>
             <code class="overview">length( )</code>
@@ -1593,10 +1593,10 @@
             </div></td>
         </tr>
         <tr data-order="levenshtein" id="m_levenshtein">
-            <td class="attributes"><code class="overview">public integer</code></td>
+            <td class="attributes"><code class="overview">public int</code></td>
             <td class="name"><div>
             <a class="anchor" href="#m_string_levenshtein">#</a>
-            <code class="overview">levenshtein( <span>string <var>$str2</var></span>, <span>integer <var>$costIns</var></span>, <span>integer <var>$costRep</var></span>, <span>integer <var>$costDel</var></span> )</code>
+            <code class="overview">levenshtein( string <var>$str2</var>, int <var>$costIns</var>, int <var>$costRep</var>, int <var>$costDel</var> )</code>
             <div class="description short">
                 <p>context: string. alias of <a target="_blank" href="http://php.net/manual/en/function.levenshtein.php">levenshtein</a>. see <a target="_blank" class="desc-link" href="string.levenshtein.htm">detail</a>.<br/>Calculate Levenshtein distance between two strings.</p>
             </div>
@@ -1604,10 +1604,10 @@
             </div></td>
         </tr>
         <tr data-order="localCompare" id="m_localCompare">
-            <td class="attributes"><code class="overview">public integer</code></td>
+            <td class="attributes"><code class="overview">public int</code></td>
             <td class="name"><div>
             <a class="anchor" href="#m_string_localCompare">#</a>
-            <code class="overview">localCompare( <span>string <var>$str2</var></span> )</code>
+            <code class="overview">localCompare( string <var>$str2</var> )</code>
             <div class="description short">
                 <p>context: string. alias of <a target="_blank" href="http://php.net/manual/en/function.strcoll.php">strcoll</a>. see <a target="_blank" class="desc-link" href="string.localCompare.htm">detail</a>.<br/>Locale based comparison.</p>
             </div>
@@ -1637,10 +1637,10 @@
             </div></td>
         </tr>
         <tr data-order="matchingMaskLength" id="m_matchingMaskLength">
-            <td class="attributes"><code class="overview">public integer</code></td>
+            <td class="attributes"><code class="overview">public int</code></td>
             <td class="name"><div>
             <a class="anchor" href="#m_string_matchingMaskLength">#</a>
-            <code class="overview">matchingMaskLength( <span>string <var>$mask</var></span>, <span>integer <var>$start</var> = <span class="php-keyword1">null</span></span>, <span>integer <var>$length</var> = <span class="php-keyword1">null</span></span> )</code>
+            <code class="overview">matchingMaskLength( string <var>$mask</var>, int <var>$start</var> = null, int <var>$length</var> = null )</code>
             <div class="description short">
                 <p>context: string. alias of <a target="_blank" href="http://php.net/manual/en/function.strspn.php">strspn</a>. see <a target="_blank" class="desc-link" href="string.matchingMaskLength.htm">detail</a>.<br/>Find the length of initial segment matching the mask.</p>
             </div>
@@ -1651,7 +1651,7 @@
             <td class="attributes"><code class="overview">public string</code></td>
             <td class="name"><div>
             <a class="anchor" href="#m_string_md5">#</a>
-            <code class="overview">md5( <span>boolean <var>$rawOutput</var> = <span class="php-keyword1">false</span></span> )</code>
+            <code class="overview">md5( bool <var>$rawOutput</var> = false )</code>
             <div class="description short">
                 <p>context: string. alias of <a target="_blank" href="http://php.net/manual/en/function.md5.php">md5</a>. see <a target="_blank" class="desc-link" href="string.md5.htm">detail</a>.<br/>Calculate the md5 hash.</p>
             </div>
@@ -1662,7 +1662,7 @@
             <td class="attributes"><code class="overview">public string</code></td>
             <td class="name"><div>
             <a class="anchor" href="#m_string_md5File">#</a>
-            <code class="overview">md5File( <span>boolean <var>$rawOutput</var> = <span class="php-keyword1">false</span></span> )</code>
+            <code class="overview">md5File( bool <var>$rawOutput</var> = false )</code>
             <div class="description short">
                 <p>context: string. alias of <a target="_blank" href="http://php.net/manual/en/function.md5-file.php">md5_file</a>. see <a target="_blank" class="desc-link" href="string.md5File.htm">detail</a>.<br/>Calculate the md5 hash of a given file.</p>
             </div>
@@ -1673,7 +1673,7 @@
             <td class="attributes"><code class="overview">public string</code></td>
             <td class="name"><div>
             <a class="anchor" href="#m_string_metaphone">#</a>
-            <code class="overview">metaphone( <span>integer <var>$phonemes</var></span> )</code>
+            <code class="overview">metaphone( int <var>$phonemes</var> = 0 )</code>
             <div class="description short">
                 <p>context: string. alias of <a target="_blank" href="http://php.net/manual/en/function.metaphone.php">metaphone</a>. see <a target="_blank" class="desc-link" href="string.metaphone.htm">detail</a>.<br/>Calculate the metaphone key.</p>
             </div>
@@ -1681,10 +1681,10 @@
             </div></td>
         </tr>
         <tr data-order="naturalCompare" id="m_naturalCompare">
-            <td class="attributes"><code class="overview">public integer</code></td>
+            <td class="attributes"><code class="overview">public int</code></td>
             <td class="name"><div>
             <a class="anchor" href="#m_string_naturalCompare">#</a>
-            <code class="overview">naturalCompare( <span>string <var>$str2</var></span> )</code>
+            <code class="overview">naturalCompare( string <var>$str2</var> )</code>
             <div class="description short">
                 <p>context: string. alias of <a target="_blank" href="http://php.net/manual/en/function.strnatcmp.php">strnatcmp</a>. see <a target="_blank" class="desc-link" href="string.naturalCompare.htm">detail</a>.<br/>"natural order" algorithm comparison.</p>
             </div>
@@ -1692,10 +1692,10 @@
             </div></td>
         </tr>
         <tr data-order="naturalInsenCompare" id="m_naturalInsenCompare">
-            <td class="attributes"><code class="overview">public integer</code></td>
+            <td class="attributes"><code class="overview">public int</code></td>
             <td class="name"><div>
             <a class="anchor" href="#m_string_naturalInsenCompare">#</a>
-            <code class="overview">naturalInsenCompare( <span>string <var>$str2</var></span> )</code>
+            <code class="overview">naturalInsenCompare( string <var>$str2</var> )</code>
             <div class="description short">
                 <p>context: string. alias of <a target="_blank" href="http://php.net/manual/en/function.strnatcasecmp.php">strnatcasecmp</a>. see <a target="_blank" class="desc-link" href="string.naturalInsenCompare.htm">detail</a>.<br/>"natural order" algorithm case-insensitive comparison.</p>
             </div>
@@ -1706,7 +1706,7 @@
             <td class="attributes"><code class="overview">public string</code></td>
             <td class="name"><div>
             <a class="anchor" href="#m_string_nlToBr">#</a>
-            <code class="overview">nlToBr( <span>boolean <var>$isXhtml</var> = <span class="php-keyword1">true</span></span> )</code>
+            <code class="overview">nlToBr( bool <var>$isXhtml</var> = true )</code>
             <div class="description short">
                 <p>context: string. alias of <a target="_blank" href="http://php.net/manual/en/function.nl2br.php">nl2br</a>. see <a target="_blank" class="desc-link" href="string.nlToBr.htm">detail</a>.<br/>Inserts HTML line breaks before all newlines.</p>
             </div>
@@ -1714,10 +1714,10 @@
             </div></td>
         </tr>
         <tr data-order="notMatchingMaskLength" id="m_notMatchingMaskLength">
-            <td class="attributes"><code class="overview">public integer</code></td>
+            <td class="attributes"><code class="overview">public int</code></td>
             <td class="name"><div>
             <a class="anchor" href="#m_string_notMatchingMaskLength">#</a>
-            <code class="overview">notMatchingMaskLength( <span>string <var>$str2</var></span>, <span>integer <var>$start</var> = <span class="php-keyword1">null</span></span>, <span>integer <var>$length</var> = <span class="php-keyword1">null</span></span> )</code>
+            <code class="overview">notMatchingMaskLength( string <var>$mask</var>, int <var>$start</var> = null, int <var>$length</var> = null )</code>
             <div class="description short">
                 <p>context: string. alias of <a target="_blank" href="http://php.net/manual/en/function.strcspn.php">strcspn</a>. see <a target="_blank" class="desc-link" href="string.notMatchingMaskLength.htm">detail</a>.<br/>Find the length of initial segment not matching the mask.</p>
             </div>
@@ -1772,7 +1772,7 @@
             <td class="attributes"><code class="overview">public string</code></td>
             <td class="name"><div>
             <a class="anchor" href="#m_string_repeat">#</a>
-            <code class="overview">repeat( <span>integer <var>$multiplier</var></span> )</code>
+            <code class="overview">repeat( int <var>$multiplier</var> )</code>
             <div class="description short">
                 <p>context: string. alias of <a target="_blank" href="http://php.net/manual/en/function.str-repeat.php">str_repeat</a>. see <a target="_blank" class="desc-link" href="string.repeat.htm">detail</a>.<br/>Repeat a string.</p>
             </div>
@@ -1783,7 +1783,7 @@
             <td class="attributes"><code class="overview">public mixed</code></td>
             <td class="name"><div>
             <a class="anchor" href="#m_string_replaceAll">#</a>
-            <code class="overview">replaceAll( <span>mixed <var>$search</var></span>, <span>mixed <var>$replace</var></span> )</code>
+            <code class="overview">replaceAll( mixed <var>$search</var>, mixed <var>$replace</var> )</code>
             <div class="description short">
                 <p>context: string. alias of <a target="_blank" href="http://php.net/manual/en/function.str-replace.php">str_replace</a>. see <a target="_blank" class="desc-link" href="string.replaceAll.htm">detail</a>.<br/>Replace all occurrences of the search string with the replacement string.</p>
             </div>
@@ -1805,7 +1805,7 @@
             <td class="attributes"><code class="overview">public string</code></td>
             <td class="name"><div>
             <a class="anchor" href="#m_string_searchFirstInSet">#</a>
-            <code class="overview">searchFirstInSet( <span>string <var>$charList</var></span> )</code>
+            <code class="overview">searchFirstInSet( string <var>$charList</var> )</code>
             <div class="description short">
                 <p>context: string. alias of <a target="_blank" href="http://php.net/manual/en/function.strpbrk.php">strpbrk</a>. see <a target="_blank" class="desc-link" href="string.searchFirstInSet.htm">detail</a>.<br/>Search a string for any of a set of characters.</p>
             </div>
@@ -1816,7 +1816,7 @@
             <td class="attributes"><code class="overview">public string</code></td>
             <td class="name"><div>
             <a class="anchor" href="#m_string_sha1">#</a>
-            <code class="overview">sha1( <span>boolean <var>$rawOutput</var> = <span class="php-keyword1">false</span></span> )</code>
+            <code class="overview">sha1( bool <var>$rawOutput</var> = false )</code>
             <div class="description short">
                 <p>context: string. alias of <a target="_blank" href="http://php.net/manual/en/function.sha1.php">sha1</a>. see <a target="_blank" class="desc-link" href="string.sha1.htm">detail</a>.<br/>Calculate the sha1 hash.</p>
             </div>
@@ -1827,7 +1827,7 @@
             <td class="attributes"><code class="overview">public string</code></td>
             <td class="name"><div>
             <a class="anchor" href="#m_string_sha1File">#</a>
-            <code class="overview">sha1File( <span>boolean <var>$rawOutput</var> = <span class="php-keyword1">false</span></span> )</code>
+            <code class="overview">sha1File( bool <var>$rawOutput</var> = false )</code>
             <div class="description short">
                 <p>context: string. alias of <a target="_blank" href="http://php.net/manual/en/function.sha1-file.php">sha1_file</a>. see <a target="_blank" class="desc-link" href="string.sha1File.htm">detail</a>.<br/>Calculate the sha1 hash of a file.</p>
             </div>
@@ -1835,10 +1835,10 @@
             </div></td>
         </tr>
         <tr data-order="similarText" id="m_similarText">
-            <td class="attributes"><code class="overview">public integer</code></td>
+            <td class="attributes"><code class="overview">public int</code></td>
             <td class="name"><div>
             <a class="anchor" href="#m_string_similarText">#</a>
-            <code class="overview">similarText( <span>string <var>$second</var></span>, <span>float <var>&amp; $percent</var></span> )</code>
+            <code class="overview">similarText( string <var>$second</var>, float <var>&amp; $percent</var> )</code>
             <div class="description short">
                 <p>context: string. alias of <a target="_blank" href="http://php.net/manual/en/function.similar-text.php">similar_text</a>. see <a target="_blank" class="desc-link" href="string.similarText.htm">detail</a>.<br/>Calculate the similarity between two strings.</p>
             </div>
@@ -1860,7 +1860,7 @@
             <td class="attributes"><code class="overview">public array</code></td>
             <td class="name"><div>
             <a class="anchor" href="#m_string_split">#</a>
-            <code class="overview">split( <span>integer <var>$splitLength</var> = <span class="php-num">1</span></span> )</code>
+            <code class="overview">split( int <var>$length</var> = 1 )</code>
             <div class="description short">
                 <p>context: string. alias of <a target="_blank" href="http://php.net/manual/en/function.str-split.php">str_split</a>. see <a target="_blank" class="desc-link" href="string.split.htm">detail</a>.<br/>Convert to an array.</p>
             </div>
@@ -1871,7 +1871,7 @@
             <td class="attributes"><code class="overview">public string</code></td>
             <td class="name"><div>
             <a class="anchor" href="#m_string_sprintf">#</a>
-            <code class="overview">sprintf( <span>mixed <var>$args1</var> = <span class="php-keyword1">null</span></span>, <span>mixed <var>$args2</var> = <span class="php-keyword1">null</span></span> )</code>
+            <code class="overview">sprintf( mixed <var>$args</var>, mixed <var>...</var> )</code>
             <div class="description short">
                 <p>context: string. alias of <a target="_blank" href="http://php.net/manual/en/function.sprintf.php">sprintf</a>. see <a target="_blank" class="desc-link" href="string.sprintf.htm">detail</a>.<br/>Return a formatted string.</p>
             </div>
@@ -1904,7 +1904,7 @@
             <td class="attributes"><code class="overview">public string</code></td>
             <td class="name"><div>
             <a class="anchor" href="#m_string_stripTags">#</a>
-            <code class="overview">stripTags( <span>string <var>$allowable_tags</var></span> )</code>
+            <code class="overview">stripTags( string <var>$allowableTags</var> )</code>
             <div class="description short">
                 <p>context: string. alias of <a target="_blank" href="http://php.net/manual/en/function.strip-tags.php">strip_tags</a>. see <a target="_blank" class="desc-link" href="string.stripTags.htm">detail</a>.<br/>Strip HTML and PHP tags from a string.</p>
             </div>
@@ -1915,7 +1915,7 @@
             <td class="attributes"><code class="overview">public string</code></td>
             <td class="name"><div>
             <a class="anchor" href="#m_string_substrAt">#</a>
-            <code class="overview">substrAt( <span>integer <var>$start</var></span>, <span>integer <var>$length</var> = <span class="php-keyword1">null</span></span> )</code>
+            <code class="overview">substrAt( int <var>$start</var>, int <var>$length</var> = ? )</code>
             <div class="description short">
                 <p>context: string. alias of <a target="_blank" href="http://php.net/manual/en/function.substr.php">substr</a>. see <a target="_blank" class="desc-link" href="string.substrAt.htm">detail</a>.<br/>Return part of a string.</p>
             </div>
@@ -1923,10 +1923,10 @@
             </div></td>
         </tr>
         <tr data-order="substrCompare" id="m_substrCompare">
-            <td class="attributes"><code class="overview">public integer</code></td>
+            <td class="attributes"><code class="overview">public int</code></td>
             <td class="name"><div>
             <a class="anchor" href="#m_string_substrCompare">#</a>
-            <code class="overview">substrCompare( <span>string <var>$str</var></span>, <span>integer <var>$offset</var></span>, <span>integer <var>$length</var> = <span class="php-keyword1">null</span></span>, <span>boolean <var>$caseInsensitivity</var> = <span class="php-keyword1">false</span></span> )</code>
+            <code class="overview">substrCompare( string <var>$str</var>, int <var>$offset</var>, int <var>$length</var> = null, bool <var>$caseInsensitivity</var> = false )</code>
             <div class="description short">
                 <p>context: string. alias of <a target="_blank" href="http://php.net/manual/en/function.substr-compare.php">substr_compare</a>. see <a target="_blank" class="desc-link" href="string.substrCompare.htm">detail</a>.<br/>Binary safe comparison of two strings from an offset, up to length characters.</p>
             </div>
@@ -1934,10 +1934,10 @@
             </div></td>
         </tr>
         <tr data-order="substrCount" id="m_substrCount">
-            <td class="attributes"><code class="overview">public integer</code></td>
+            <td class="attributes"><code class="overview">public int</code></td>
             <td class="name"><div>
             <a class="anchor" href="#m_string_substrCount">#</a>
-            <code class="overview">substrCount( <span>string <var>$needle</var></span>, <span>integer <var>$offset</var></span>, <span>integer <var>$length</var></span> )</code>
+            <code class="overview">substrCount( string <var>$needle</var>, int <var>$offset</var>, int <var>$length</var> )</code>
             <div class="description short">
                 <p>context: string. alias of <a target="_blank" href="http://php.net/manual/en/function.substr-count.php">substr_count</a>. see <a target="_blank" class="desc-link" href="string.substrCount.htm">detail</a>.<br/>Count the number of substring occurrences.</p>
             </div>
@@ -1948,7 +1948,7 @@
             <td class="attributes"><code class="overview">public mixed</code></td>
             <td class="name"><div>
             <a class="anchor" href="#m_string_substrReplace">#</a>
-            <code class="overview">substrReplace( <span>mixed <var>$replacement</var></span>, <span>mixed <var>$start</var></span>, <span>mixed <var>$length</var> = <span class="php-keyword1">null</span></span> )</code>
+            <code class="overview">substrReplace( mixed <var>$replacement</var>, mixed <var>$start</var>, mixed <var>$length</var> = null )</code>
             <div class="description short">
                 <p>context: string. alias of <a target="_blank" href="http://php.net/manual/en/function.substr-replace.php">substr_replace</a>. see <a target="_blank" class="desc-link" href="string.substrReplace.htm">detail</a>.<br/>Replace text within a portion of a string.</p>
             </div>
@@ -1959,7 +1959,7 @@
             <td class="attributes"><code class="overview">public string</code></td>
             <td class="name"><div>
             <a class="anchor" href="#m_string_tokenize">#</a>
-            <code class="overview">tokenize( <span>string <var>$token</var></span> )</code>
+            <code class="overview">tokenize( string <var>$token</var> )</code>
             <div class="description short">
                 <p>context: string. alias of <a target="_blank" href="http://php.net/manual/en/function.strtok.php">strtok</a>. see <a target="_blank" class="desc-link" href="string.tokenize.htm">detail</a>.<br/>Tokenize string.</p>
             </div>
@@ -1970,7 +1970,8 @@
             <td class="attributes"><code class="overview">public string</code></td>
             <td class="name"><div>
             <a class="anchor" href="#m_string_translateChar">#</a>
-            <code class="overview">translateChar( <span>string <var>$from</var></span>, <span>string <var>$to</var></span> )</code>
+            <code class="overview">translateChar( string <var>$from</var>, string <var>$to</var> )</code><br/>
+            <code class="overview">translateChar( string <var>$replacePairs</var> )</code>
             <div class="description short">
                 <p>context: string. alias of <a target="_blank" href="http://php.net/manual/en/function.strtr.php">strtr</a>. see <a target="_blank" class="desc-link" href="string.translateChar.htm">detail</a>.<br/>Translate characters or replace substrings.</p>
             </div>
@@ -2003,7 +2004,7 @@
             <td class="attributes"><code class="overview">public string</code></td>
             <td class="name"><div>
             <a class="anchor" href="#m_string_uppercaseWords">#</a>
-            <code class="overview">uppercaseWords( )</code>
+            <code class="overview">uppercaseWords( string <var>$delimiters</var> = " \t\r\n\f\v" )</code>
             <div class="description short">
                 <p>context: string. alias of <a target="_blank" href="http://php.net/manual/en/function.ucwords.php">ucwords</a>. see <a target="_blank" class="desc-link" href="string.uppercaseWords.htm">detail</a>.<br/>Uppercase the first character of each word.</p>
             </div>
@@ -2014,7 +2015,7 @@
             <td class="attributes"><code class="overview">public mixed</code></td>
             <td class="name"><div>
             <a class="anchor" href="#m_string_wordCount">#</a>
-            <code class="overview">wordCount( <span>integer <var>$format</var></span>, <span>string <var>$charlist</var> = <span class="php-keyword1">null</span></span> )</code>
+            <code class="overview">wordCount( int <var>$format</var> = 0, string <var>$charList</var> = null )</code>
             <div class="description short">
                 <p>context: string. alias of <a target="_blank" href="http://php.net/manual/en/function.str-word-count.php">str_word_count</a>. see <a target="_blank" class="desc-link" href="string.wordCount.htm">detail</a>.<br/>Return information about words used in a string.</p>
             </div>
@@ -2025,7 +2026,7 @@
             <td class="attributes"><code class="overview">public string</code></td>
             <td class="name"><div>
             <a class="anchor" href="#m_string_wordWrap">#</a>
-            <code class="overview">wordWrap( <span>integer <var>$width</var> = <span class="php-num">75</span></span>, <span>string <var>$break</var> = <span class="php-quote">&quot;\n&quot;</span></span>, <span>boolean <var>$cut</var> = <span class="php-keyword1">false</span></span> )</code>
+            <code class="overview">wordWrap( int <var>$width</var> = 75, string <var>$break</var> = "\n", bool <var>$cut</var> = false )</code>
             <div class="description short">
                 <p>context: string. alias of <a target="_blank" href="http://php.net/manual/en/function.wordwrap.php">wordwrap</a>. see <a target="_blank" class="desc-link" href="string.wordWrap.htm">detail</a>.<br/>Wraps a string to a given number of characters.</p>
             </div>
