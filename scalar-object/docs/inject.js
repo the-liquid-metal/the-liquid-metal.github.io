@@ -94,8 +94,7 @@ $(document).ready(function(){
             });
         };
         if ($tr.data('isLoaded') === true) return;
-        var trId = $tr.attr('id');
-        var path = trId.replace('m_', '')+'.htm';
+        var path = $tr.find("a.desc-link").attr('href');
         $.get(path, insertDetail).fail(insertDetail);
     });
 
