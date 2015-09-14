@@ -14,19 +14,20 @@ $(document).ready(function(){
     $(".description.detailed").find("h4, div").remove();
 
     $('#magicMethods').on('click', 'tr', function(){
-        var $tr = $(this);
-        var insertDetail = function(response){
+        var $tr,
+            insertDetail,
+            path;
+
+        $tr = $(this);
+        insertDetail = function (response) {
             var $ajaxArea;
-            // var $ajaxArea = $('<div class="ajax-area"/>');
 
             if (typeof response === 'string') {
                 $ajaxArea = $('<div/>').html(response).find(".ajax-area");
-                // $ajaxArea.append(response);
             } else {
-            var $ajaxArea = $('<div/>').html(response.responseText).find(".ajax-area");
-                // $ajaxArea.append(response.responseText);
+                $ajaxArea = $('<div/>').html(response.responseText).find(".ajax-area");
             }
-            $tr.find('.description.detailed').append($ajaxArea);
+            $tr.find('.description.detailed').html($ajaxArea);
             $tr.data('isLoaded', true);
 
             $tr.find('.php-code').each(function(){
@@ -93,14 +94,11 @@ $(document).ready(function(){
                 }
             });
         };
+
+        $tr.find(".overview").toggle();
         if ($tr.data('isLoaded') === true) return;
         var path = $tr.find("a.desc-link").attr('href');
         $.get(path, insertDetail).fail(insertDetail);
-    });
-
-    $('.description a').each(function(){
-        var $a = $(this);
-        $a.attr("target", "_blank");
     });
 
     $('#magicMethods').on('click', '.ajax-area, .ajax-area table', function(event){

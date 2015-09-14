@@ -8,16 +8,17 @@
   <link rel="stylesheet" href="individual.css"/>
 </head>
 <body>
-<div class="short-description">
-  <code>sha1File( bool <var>$rawOutput</var> = false ): string</code>
-  <p>
-    Context: string.<br/>
-    Alias of <a href="http://php.net/manual/en/function.sha1-file.php">sha1_file</a>.<br/>
-    Calculate the sha1 hash of a file.
-  </p>
-</div>
 <div class="ajax-area">
   <h1>sha1File</h1>
+
+  <div class="short-description">
+    <code>sha1File( bool <var>$rawOutput</var> = false ): string</code>
+    <p>
+      Context: string.<br/>
+      Alias of <a href="http://php.net/manual/en/function.sha1-file.php">sha1_file</a>.<br/>
+      Calculate the sha1 hash of a file.
+    </p>
+  </div>
 
   <div>
     Calculates the sha1 hash of the file specified by <var>$scalarObject->val</var> using the
@@ -42,13 +43,10 @@
     <p><strong>Example #1 sha1File() example</strong></p>
     <pre class="php-code">
       <?php
-      foreach(glob('/home/Kalle/myproject/*.php') as $ent)
-      {
-          if(is_dir($ent))
-          {
+      foreach (glob('/home/Kalle/myproject/*.php') as $ent) {
+          if (is_dir($ent)) {
               continue;
           }
-
           echo $ent . ' (SHA1: ' . sha1File($ent) . ')', PHP_EOL;
       }
       ?>
