@@ -9,23 +9,25 @@
 </head>
 <body>
 <div class="short-description">
-
+  <code>random( int <var>$num</var> = 1 ): mixed</code>
+  <p>
+    Context: array.<br/>
+    Alias of <a href="http://php.net/manual/en/function.array-rand.php">array_rand</a>.<br/>
+    Picks one or more random entries.
+  </p>
 </div>
 <div class="ajax-area">
   <h1>random</h1>
 
   <div>
-    Picks one or more random entries out of an array, and returns the
+    Picks one or more random entries out of <var>$scalarObject->val</var>, and returns the
     key (or keys) of the random entries.
   </div>
 
   <div>
     <h3>Parameters</h3>
     <dl>
-      <dt>array</dt>
-      <dd>The input array.</dd>
-
-      <dt>num</dt>
+      <dt>$num</dt>
       <dd>Specifies how many entries should be picked.</dd>
     </dl>
   </div>
@@ -35,8 +37,8 @@
     <p>
       When picking only one entry, <strong>random()</strong> returns the key for a random
       entry. Otherwise, an array of keys for the random entries is returned. This is done
-      so that random keys can be picked from the array as well as random values. Trying
-      to pick more elements than there are in the array will result in an <code>E_WARNING</code>
+      so that random keys can be picked from <var>$scalarObject->val</var> as well as random values. Trying
+      to pick more elements than there are in <var>$scalarObject->val</var> will result in an <code>E_WARNING</code>
       level error, and NULL will be returned.
     </p>
   </div>

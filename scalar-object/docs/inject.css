@@ -57,3 +57,6 @@ code {
 	border-radius: 8px;
 	padding: 8px;
 }
+.ajax-area code, .ajax-area var {
+	white-space: nowrap;
+}

@@ -9,25 +9,30 @@
 </head>
 <body>
 <div class="short-description">
-
+  <code>unique( int <var>$flags</var> = SORT_STRING</span> ): array</code>
+  <p>
+    Context: array.<br/>
+    Alias of <a href="http://php.net/manual/en/function.array-unique.php">array_unique</a>.<br/>
+    Removes duplicate values.
+  </p>
 </div>
 <div class="ajax-area">
   <h1>unique</h1>
 
   <div>
     <p>
-      Takes an input <code>array</code> and returns a new array
+      Takes an input <var>$scalarObject->val</var> and returns a new array
       without duplicate values.
     </p>
     <p>
       Note that keys are preserved. <strong>unique()</strong> sorts the values
       treated as string at first, then will keep the first key encountered for
       every value, and ignore all following keys. It does not mean that the key
-      of the first related value from the unsorted <code>array</code> will be kept.
+      of the first related value from the unsorted <var>$scalarObject->val</var> will be kept.
     </p>
     <blockquote>
       <strong>Note</strong>: Two elements are considered equal if and only if
-      <em>(string) $elem1 === (string) $elem2</em> i.e. when the string representation
+      <code>(string) $elem1 === (string) $elem2</code> i.e. when the string representation
       is the same, the first element will be used.
     </blockquote>
   </div>
@@ -35,24 +40,14 @@
   <div>
     <h3>Parameters</h3>
     <dl>
-      <dt>array</dt>
-      <dd>The input array.</dd>
-
-      <dt>sort_flags</dt>
+      <dt>$flags</dt>
       <dd>
-        <p>
-          The optional second parameter <code>sort_flags</code>
-          may be used to modify the sorting behavior using these values:
-        </p>
         <p>Sorting type flags:</p>
         <ul>
           <li><code>SORT_REGULAR</code> - compare items normally (don't change types)</li>
           <li><code>SORT_NUMERIC</code> - compare items numerically</li>
           <li><code>SORT_STRING</code> - compare items as strings</li>
-          <li>
-            <code>SORT_LOCALE_STRING</code> - compare items as 
-            strings, based on the current locale.
-          </li>
+          <li><code>SORT_LOCALE_STRING</code> - compare items as strings, based on the current locale.</li>
         </ul>
       </dd>
     </dl>
@@ -60,7 +55,7 @@
 
   <div>
     <h3>Return Values</h3>
-    <p>Returns the filtered array.</p>
+    <p>The filtered array.</p>
   </div>
 
   <div class="examples">

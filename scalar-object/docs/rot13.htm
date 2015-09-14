@@ -9,14 +9,19 @@
 </head>
 <body>
 <div class="short-description">
-
+  <code>rot13( ): string</code>
+  <p>
+    context: string.<br/>
+    Alias of <a href="http://php.net/manual/en/function.str-rot13.php">str_rot13</a>.<br/>
+    Perform the rot13 transform.
+  </p>
 </div>
 <div class="ajax-area">
   <h1>rot13</h1>
 
   <div>
     <p>
-      Performs the ROT13 encoding on the <code>str</code> argument and
+      Performs the ROT13 encoding on the <var>$scalarObject->val</var> and
       returns the resulting string.
     </p>
     <p>
@@ -28,16 +33,8 @@
   </div>
 
   <div>
-    <h3>Parameters</h3>
-    <dl>
-      <dt>str</dt>
-      <dd>The input string.</dd>
-    </dl>
-  </div>
-
-  <div>
     <h3>Return Values</h3>
-    <p>Returns the ROT13 version of the given string.</p>
+    <p>The ROT13 version of <var>$scalarObject->val</var>.</p>
   </div>
 
   <div class="examples">

@@ -9,24 +9,26 @@
 </head>
 <body>
 <div class="short-description">
-
+  <code>notMatchingMaskLength( string <var>$mask</var>, int <var>$start</var> = null, integer <var>$length</var> = null ): int</code>
+  <p>
+    Context: string.<br/>
+    Alias of <a href="http://php.net/manual/en/function.strcspn.php">strcspn</a>.<br/>
+    Find the length of initial segment not matching the mask.
+  </p>
 </div>
 <div class="ajax-area">
   <h1>notMatchingMaskLength</h1>
 
   <div>
     <p>
-      Returns the length of the initial segment of
-      <code>subject</code> which does <em>not</em>
-      contain any of the characters in <code>mask</code>.
+      Returns the length of the initial segment of <var>$scalarObject->val</var>
+      which does <em>not</em> contain any of the characters in <var>$mask</var>.
     </p>
     <p>
-      If <code>start</code> and <code>length</code>
-      are omitted, then all of <code>subject</code> will be
-      examined. If they are included, then the effect will be the same as
-      calling <em>notMatchingMaskLength(substr($subject, $start, $length),
-      $mask)</em> (see <a href="substrAt.htm">substrAt</a>
-      for more information).
+      If <var>$start</var> and <var>$length</var> are omitted, then all of
+      <var>$scalarObject->val</var> will be examined. If they are included,
+      then the effect will be the same as calling <code>notMatchingMaskLength(substr($subject, $start, $length),
+      $mask)</code> (see <a href="substrAt.htm">substrAt</a> for more information).
     </p>
   </div>
 
@@ -41,34 +43,34 @@
 
       <dt>start</dt>
       <dd>
-        <p>The position in <code>subject</code> to start searching.</p>
+        <p>The position in <var>$scalarObject->val</var> to start searching.</p>
         <p>
-          If <code>start</code> is given and is non-negative, then
+          If <var>$start</var> is given and is non-negative, then
           <strong>notMatchingMaskLength()</strong> will begin examining
-          <code>subject</code> at the <code>start</code>'th position. For
+          <var>$scalarObject->val</var> at the <var>$start</var>'th position. For
           instance, in the string '<em>abcdef</em>', the character at
           position <em>0</em> is '<em>a</em>', the character at position
           <em>2</em> is '<em>c</em>', and so forth.
         </p>
         <p>
-          If <code>start</code> is given and is negative, then
+          If <var>$start</var> is given and is negative, then
           <a href="matchingMaskLength.htm">matchingMaskLength()</a> will begin examining
-          <code>subject</code> at the <code>start</code>'th position from
-          the end of <code>subject</code>.
+          <var>$scalarObject->val</var> at the <var>$start</var>'th position from
+          the end of <var>$scalarObject->val</var>.
         </p>
       </dd>
 
       <dt>length</dt>
       <dd>
-        <p>The length of the segment from <code>subject</code> to examine.</p>
+        <p>The length of the segment from <var>$scalarObject->val</var> to examine.</p>
         <p>
-          If <code>length</code> is given and is non-negative, then <code>subject</code>
-          will be examined for <code>length</code> characters after the starting position.
+          If <var>$length</var> is given and is non-negative, then <var>$scalarObject->val</var>
+          will be examined for <var>$length</var> characters after the starting position.
         </p>
         <p>
-          If <code>length</code> is given and is negative, then <code>subject</code> will
-          be examined from the starting position up to <code>length</code> characters
-          from the end of <code>subject</code>.
+          If <var>$length</var> is given and is negative, then <var>$scalarObject->val</var> will
+          be examined from the starting position up to <var>$length</var> characters
+          from the end of <var>$scalarObject->val</var>.
         </p>
       </dd>
     </dl>
@@ -77,14 +79,14 @@
   <div>
     <h3>Return Values</h3>
     <p>
-      Returns the length of the initial segment of <code>subject</code>
-      which consists entirely of characters <em>not</em> in <code>mask</code>.
+      Returns the length of the initial segment of <var>$scalarObject->val</var>
+      which consists entirely of characters <em>not</em> in <var>$mask</var>.
     </p>
 
     <blockquote>
-      <strong>Note</strong>: When a <code>start</code> parameter is set, the
+      <strong>Note</strong>: When a <var>$start</var> parameter is set, the
       returned length is counted starting from this position, not from the
-      beginning of <code>subject</code>.
+      beginning of <var>$scalarObject->val</var>.
     </blockquote>
   </div>
 

@@ -9,30 +9,29 @@
 </head>
 <body>
 <div class="short-description">
-
+    <code>searchFirstInSet( string <var>$charList</var> ): string</code>
+    <p>context: string. alias of <a href="http://php.net/manual/en/function.strpbrk.php">strpbrk</a>.<br/>
+    Search a string for any of a set of characters.</p>
 </div>
 <div class="ajax-area">
   <h1>searchFirstInSet</h1>
 
   <div>
-    <strong>searchFirstInSet()</strong> searches the <code>haystack</code>
-    string for a <code>char_list</code>.
+    <strong>searchFirstInSet()</strong> searches the <var>$scalarObject->val</var>
+    string for a <var>$charList</var>.
   </div>
 
   <div>
     <h3>Parameters</h3>
     <dl>
-      <dt>haystack</dt>
-      <dd>The string where <code>char_list</code> is looked for.</dd>
-
-      <dt>char_list</dt>
+      <dt>$charList</dt>
       <dd>This parameter is case sensitive.</dd>
     </dl>
   </div>
 
   <div>
     <h3>Return Values</h3>
-    <p>Returns a string starting from the character found, or <code>FALSE</code> if it is not found.</p>
+    <p>A string starting from the character found, or <code>FALSE</code> if it is not found.</p>
   </div>
 
   <div class="examples">

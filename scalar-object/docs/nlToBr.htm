@@ -9,30 +9,32 @@
 </head>
 <body>
 <div class="short-description">
-
+  <code>nlToBr( boolean <var>$isXhtml</var> = true ): string</code>
+  <p>
+    Context: string.<br/>
+    Alias of <a href="http://php.net/manual/en/function.nl2br.php">nl2br</a>.<br/>
+    Inserts HTML line breaks before all newlines.
+  </p>
 </div>
 <div class="ajax-area">
   <h1>nlToBr</h1>
 
   <div>
-    Returns <code>string</code> with '&lt;br />' or '&lt;br>' inserted before
+    Returns <var>$scalarObject->val</var> with '&lt;br />' or '&lt;br>' inserted before
     all newlines (<em>\r\n</em>, <em>\n\r</em>, <em>\n</em> and <em>\r</em>).
   </div>
 
   <div>
     <h3>Parameters</h3>
     <dl>
-      <dt>string</dt>
-      <dd>The input string.</dd>
-
-      <dt>is_xhtml</dt>
+      <dt>$isXhtml</dt>
       <dd>Whether to use XHTML compatible line breaks or not.</dd>
     </dl>
   </div>
 
   <div>
     <h3>Return Values</h3>
-    <p>Returns the altered string.</p>
+    <p>The altered string.</p>
   </div>
 
   <div class="examples">
@@ -49,7 +51,7 @@
        bar
     </pre>
 
-    <p><strong>Example #2 Generating valid HTML markup using the <code>is_xhtml</code> parameter</strong></p>
+    <p><strong>Example #2 Generating valid HTML markup using the <var>$isXhtml</var> parameter</strong></p>
     <pre class="php-code">
       <?php
       echo nlToBr("Welcome\r\nThis is my HTML document", false);

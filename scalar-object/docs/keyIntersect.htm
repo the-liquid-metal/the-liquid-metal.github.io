@@ -9,24 +9,26 @@
 </head>
 <body>
 <div class="short-description">
-
+  <code>keyIntersect( array <var>$array2</var>, array <var>...</var> ): array</code>
+  <p>
+    Context: array.<br/>
+    Alias of <a href="http://php.net/manual/en/function.array-intersect-key.php">array_intersect_key</a>.<br/>
+    Computes the intersection using keys for comparison.
+  </p>
 </div>
 <div class="ajax-area">
   <h1>keyIntersect</h1>
 
   <div>
     <strong>keyIntersect()</strong> returns an array
-    containing all the entries of <code>array1</code>
+    containing all the entries of <var>$scalarObject->val</var>
     which have keys that are present in all the arguments.
   </div>
 
   <div>
     <h3>Parameters</h3>
     <dl>
-      <dt>array1</dt>
-      <dd>The array with master keys to check.</dd>
-
-      <dt>array2</dt>
+      <dt>$array2</dt>
       <dd>An array to compare keys against.</dd>
 
       <dt>...</dt>
@@ -37,7 +39,7 @@
   <div>
     <h3>Return Values</h3>
     <p>
-      Returns an associative array containing all the entries of <code>array1</code>
+      Returns an associative array containing all the entries of <var>$scalarObject->val</var>
       which have keys that are present in all arguments.
     </p>
   </div>
@@ -68,7 +70,7 @@
       are present in both arrays and thus returned. Also notice that the values for
       the keys <em>'blue'</em> and <em>'green'</em> differ between the two arrays.
       A match still occurs because only the keys are checked. The values returned
-      are those of <code>array1</code>.
+      are those of <var>$scalarObject->val</var>.
     </p>
     <p>
       The two keys from the <em>key => value</em> pairs are considered equal only if

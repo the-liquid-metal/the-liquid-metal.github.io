@@ -9,14 +9,19 @@
 </head>
 <body>
 <div class="short-description">
-
+  <code>userSort( callable <var>$valueComparator</var> ): array</code>
+  <p>
+    Context: array.<br/>
+    Alias of <a href="http://php.net/manual/en/function.usort.php">usort</a>.<br/>
+    Sorts values using a callback function.
+  </p>
 </div>
 <div class="ajax-area">
   <h1>userSort</h1>
 
   <div>
     <p>
-      This function will sort an array by its values using a user-supplied
+      This function will sort <var>$scalarObject->val</var> by its values using a user-supplied
       comparison function.  If the array you wish to sort needs to be sorted by
       some non-trivial criteria, you should use this function.
     </p>
@@ -28,7 +33,7 @@
 
     <blockquote>
       <strong>Note</strong>: This function assigns new keys to the elements
-      in <code>array</code>. It will remove any existing keys that may have
+      in <var>$scalarObject->val</var>. It will remove any existing keys that may have
       been assigned, rather than just reordering the keys.
     </blockquote>
   </div>
@@ -36,10 +41,7 @@
   <div>
     <h3>Parameters</h3>
     <dl>
-      <dt>array</dt>
-      <dd>The input array.</dd>
-
-      <dt>value_compare_func</dt>
+      <dt>$valueComparator</dt>
       <dd>
         <p>
           The comparison function must return an integer less than, equal to, or greater

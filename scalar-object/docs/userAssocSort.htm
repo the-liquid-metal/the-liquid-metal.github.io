@@ -9,14 +9,19 @@
 </head>
 <body>
 <div class="short-description">
-
+  <code>userAssocSort( callable <var>$valueComparator</var> ): array</code>
+  <p>
+    Context: array.<br/>
+    Alias of <a href="http://php.net/manual/en/function.uasort.php">uasort</a>.<br/>
+    Sorts values using a callback function and maintain index association.
+  </p>
 </div>
 <div class="ajax-area">
   <h1>userAssocSort</h1>
 
   <div>
     <p>
-      This function sorts an array such that array indices maintain their
+      This function sorts <var>$scalarObject->val</var> such that array indices maintain their
       correlation with the array elements they are associated with, using a
       user-defined comparison function.
     </p>
@@ -33,10 +38,7 @@
   <div>
     <h3>Parameters</h3>
     <dl>
-      <dt>array</dt>
-      <dd>The input array.</dd>
-
-      <dt>value_compare_func</dt>
+      <dt>$valueComparator</dt>
       <dd>
         See <a href="userSort.htm">userSort()</a> and <a href="userKeySort.htm">userKeySort()</a>
         for examples of user-defined comparison functions.
@@ -46,7 +48,7 @@
 
   <div>
     <h3>Return Values</h3>
-    <p>Returns <code>TRUE</code> on success or <code>FALSE</code> on failure.</p>
+    <p><code>TRUE</code> on success or <code>FALSE</code> on failure.</p>
   </div>
 
   <div class="examples">

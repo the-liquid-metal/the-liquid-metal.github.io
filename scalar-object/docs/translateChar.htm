@@ -9,22 +9,28 @@
 </head>
 <body>
 <div class="short-description">
-
+  <code>translateChar( string <var>$from</var>, string <var>$to</var> ): string</code><br/>
+  <code>translateChar( string <var>$replacePairs</var> ): string</code>
+  <p>
+    Context: string.<br/>
+    Alias of <a href="http://php.net/manual/en/function.strtr.php">strtr</a>.<br/>
+    Translate characters or replace substrings.
+  </p>
 </div>
 <div class="ajax-area">
   <h1>translateChar</h1>
 
   <div>
     <p>
-      If given three arguments, this function returns a copy of <code>str</code> where
-      all occurrences of each (single-byte) character in <code>from</code> have been
-      translated to the corresponding character in <code>to</code>, i.e., every occurrence
+      If given three arguments, this function returns a copy of <var>$scalarObject->val</var> where
+      all occurrences of each (single-byte) character in <var>$from</var> have been
+      translated to the corresponding character in <var>$to</var>, i.e., every occurrence
       of <em>$from[$n]</em> has been replaced with <em>$to[$n]</em>, where <em>$n</em> is
       a valid offset in both arguments.
     </p>
     <p>
-      If <code>from</code> and <code>to</code> have different lengths, the extra characters
-      in the longer of the two are ignored. The length of <code>str</code> will be the same
+      If <var>$from</var> and <var>$to</var> have different lengths, the extra characters
+      in the longer of the two are ignored. The length of <var>$scalarObject->val</var> will be the same
       as the return value's.
     </p>
     <p>
@@ -35,7 +41,7 @@
     </p>
     <p>
       In this case, the keys and the values may have any length, provided that there is no empty
-      key; additionally, the length of the return value may differ from that of <code>str</code>.
+      key; additionally, the length of the return value may differ from that of <var>$scalarObject->val</var>.
       However, this function will be the most efficient when all the keys have the same size.
     </p>
   </div>
@@ -46,16 +52,16 @@
       <dt>str</dt>
       <dd>The string being translated.</dd>
 
-      <dt>from</dt>
-      <dd>The string being translated to <code>to</code>.</dd>
+      <dt>$from</dt>
+      <dd>The string being translated to <var>$to</var>.</dd>
 
-      <dt>to</dt>
-      <dd>The string replacing <code>from</code>.</dd>
+      <dt>$to</dt>
+      <dd>The string replacing <var>$from</var>.</dd>
 
-      <dt>replace_pairs</dt>
+      <dt>$replacePairs</dt>
       <dd>
-        The <code>replace_pairs</code> parameter may be used instead of <code>to</code> and
-        <code>from</code>, in which case it's an array
+        The <var>$replacePairs</var> parameter may be used instead of <var>$to</var> and
+        <var>$from</var>, in which case it's an array
         in the form <em>array('from' => 'to', ...)</em>.
       </dd>
     </dl>
@@ -65,9 +71,9 @@
     <h3>Return Values</h3>
     <p>Returns the translated string.</p>
     <p>
-      If <code>replace_pairs</code> contains a key which is an empty
+      If <var>$replacePairs</var> contains a key which is an empty
       string (<em>""</em>), <code>FALSE</code>
-      will be returned. If the <code>str</code> is not a scalar then it is not typecasted
+      will be returned. If the <var>$scalarObject->val</var> is not a scalar then it is not typecasted
       into a string, instead a warning is raised and <code>NULL</code> is returned. 
     </p>
   </div>

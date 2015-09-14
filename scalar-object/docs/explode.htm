@@ -9,12 +9,12 @@
 </head>
 <body>
 <div class="short-description">
-    <code>explode( string <var>$delimiter</var>, int <var>$limit</var> = null ): array</code>
-    <p>
-      Context: string.<br/>
-      Alias of <a href="http://php.net/manual/en/function.explode.php">explode</a>.<br/>
-      Split a string by string.
-    </p>
+  <code>explode( string <var>$delimiter</var>, int <var>$limit</var> = null ): array</code>
+  <p>
+    Context: string.<br/>
+    Alias of <a href="http://php.net/manual/en/function.explode.php">explode</a>.<br/>
+    Split a string by string.
+  </p>
 </div>
 <div class="ajax-area">
   <h1>explode</h1>
@@ -55,17 +55,20 @@
 
   <div>
     <h3>Return Values</h3>
-    <p>
-      An array of strings created by splitting the <var>$scalarObject->val</var>
-      on boundaries formed by the <var>$delimiter</var>.
-    </p>
-    <p>
-      If <var>$delimiter</var> is an empty string (""),
-      <strong>explode()</strong> will return <code>FALSE</code>. If <var>$delimiter</var> contains a value
-      that is not contained in <var>$scalarObject->val</var> and a negative <var>$limit</var> is used, then an empty
-      array will be returned, otherwise an
-      array containing <var>$scalarObject->val</var> will be returned.
-    </p>
+    <ul>
+      <li>
+        An array of strings created by splitting the <var>$scalarObject->val</var>
+        on boundaries formed by the <var>$delimiter</var>.
+      </li>
+      <li>
+        If <var>$delimiter</var> is an empty string (""), <strong>explode()</strong> will return <code>FALSE</code>.
+      </li>
+      <li>
+        If <var>$delimiter</var> contains a value that is not contained in <var>$scalarObject->val</var>
+        and a negative <var>$limit</var> is used, then an empty array will be returned,
+      </li>
+      <li>otherwise an array containing <var>$scalarObject->val</var> will be returned.
+      </li>
   </div>
 
   <div class="examples">

@@ -9,25 +9,26 @@
 </head>
 <body>
 <div class="short-description">
-
+  <code>intersect( array <var>$array2</var>, <span>array <var>...</var> ): array</code>
+  <p>
+    Context: array.<br/>
+    Alias of <a href="http://php.net/manual/en/function.array-intersect.php">array_intersect</a>.<br/>
+    Computes the intersection.
+  </p>
 </div>
 <div class="ajax-area">
   <h1>intersect</h1>
 
   <div>
-    <strong>intersect()</strong> returns an array
-    containing all the values of <code>array1</code>
-    that are present in all the arguments.
-    Note that keys are preserved.
+    <strong>intersect()</strong> returns an array containing all the values of
+    <var>$scalarObject->val</var> that are present in all the arguments. Note
+    that keys are preserved.
   </div>
 
   <div>
     <h3>Parameters</h3>
     <dl>
-      <dt>array1</dt>
-      <dd>The array with master values to check.</dd>
-
-      <dt>array2</dt>
+      <dt>$array2</dt>
       <dd>An array to compare values against.</dd>
 
       <dt>...</dt>
@@ -38,8 +39,8 @@
   <div>
     <h3>Return Values</h3>
     <p>
-      Returns an array containing all of the values in 
-      <code>array1</code> whose values exist in all of the parameters.
+      Array containing all of the values in <var>$scalarObject->val</var>
+      whose values exist in all of the parameters.
     </p>
   </div>
 

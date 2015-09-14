@@ -9,7 +9,12 @@
 </head>
 <body>
 <div class="short-description">
-
+  <code>keys( mixed <var>$searchValue</var> = null, bool <var>$strict</var> = false ): array</code>
+  <p>
+    Context: array.<br/>
+    Alias of <a href="http://php.net/manual/en/function.array-keys.php">array_keys</a>.<br/>
+    Returns all the keys or a subset of the keys.
+  </p>
 </div>
 <div class="ajax-area">
   <h1>keys</h1>
@@ -17,32 +22,29 @@
   <div>
     <p>
       <strong>keys()</strong> returns the keys, numeric and
-      string, from the <code>array</code>.
+      string, from the <var>$scalarObject->val</var>.
     </p>
     <p>
-      If the optional <code>search_value</code> is specified,
+      If the optional <var>$searchValue</var> is specified,
       then only the keys for that value are returned. Otherwise, all
-      the keys from the <code>array</code> are returned.
+      the keys from the <var>$scalarObject->val</var> are returned.
     </p>
   </div>
 
   <div>
     <h3>Parameters</h3>
     <dl>
-      <dt>array</dt>
-      <dd>An array containing keys to return.</dd>
-
-      <dt>search_value</dt>
+      <dt>$searchValue</dt>
       <dd>If specified, then only keys containing these values are returned.</dd>
 
-      <dt>strict</dt>
+      <dt>$strict</dt>
       <dd>Determines if strict comparison (===) should be used during the search.</dd>
     </dl>
   </div>
 
   <div>
     <h3>Return Values</h3>
-    <p>Returns an array of all the keys in <code>array</code>.</p>
+    <p>Returns an array of all the keys in <var>$scalarObject->val</var>.</p>
   </div>
 
   <div class="examples">

@@ -9,7 +9,12 @@
 </head>
 <body>
 <div class="short-description">
-
+  <code>multisort( mixed <var>$order</var> = SORT_ASC, mixed <var>$flags</var> = SORT_REGULAR ): array</code>
+  <p>
+    context: array.<br/>
+    Alias of <a href="http://php.net/manual/en/function.array-multisort.php">array_multisort</a>.<br/>
+    Sort multiple or multi-dimensional arrays.
+  </p>
 </div>
 <div class="ajax-area">
   <h1>multisort</h1>
@@ -20,34 +25,28 @@
       at once, or a multi-dimensional array by one or more dimensions.
     </p>
     <p>
-      Associative (string) keys
-      will be maintained, but numeric keys will be re-indexed.
+      Associative (string) keys will be maintained, but numeric keys
+      will be re-indexed.
     </p>
   </div>
 
   <div>
     <h3>Parameters</h3>
     <dl>
-      <dt>array1</dt>
-      <dd>An array being sorted.</dd>
-
-      <dt>array1_sort_order</dt>
+      <dt>$order</dt>
       <dd>
         <p>
-          The order used to sort the previous array
-          argument. Either <code>SORT_ASC</code> to sort ascendingly or <code>SORT_DESC</code>
-          to sort descendingly.
+          The order used to sort the previous array argument. Either <code>SORT_ASC</code>
+          to sort ascendingly or <code>SORT_DESC</code> to sort descendingly.
         </p>
         <p>
-          This argument can be swapped with <code>array1_sort_flags</code>
-          or omitted entirely, in which case <code>SORT_ASC</code> is assumed.
+          This argument can be swapped with <var>$flags</var> or omitted entirely, in which
+          case <code>SORT_ASC</code> is assumed.
         </p>
       </dd>
 
-      <dt>array1_sort_flags</dt>
+      <dt>$flags</dt>
       <dd>
-        <p>Sort options for the previous array argument:</p>
-        <p>Sorting type flags:</p>
         <ul>
           <li><code>SORT_REGULAR</code> - compare items normally(don't change types)</li>
           <li><code>SORT_NUMERIC</code> - compare items numerically</li>
@@ -62,15 +61,14 @@
             using "natural ordering" like <a href="naturalSort.htm">naturalSort()</a>
           </li>
           <li>
-            <code>SORT_FLAG_CASE</code> - can be combined
-            (bitwise OR) with
+            <code>SORT_FLAG_CASE</code> - can be combined (bitwise OR) with
             <code>SORT_STRING</code> or
             <code>SORT_NATURAL</code> to sort strings case-insensitively
           </li>
         </ul>
         <p>
-          This argument can be swapped with <code>array1_sort_order</code>
-          or omitted entirely, in which case <code>SORT_REGULAR</code> is assumed.
+          This argument can be swapped with <var>$order</var> or omitted
+          entirely, in which case <code>SORT_REGULAR</code> is assumed.
         </p>
       </dd>
 

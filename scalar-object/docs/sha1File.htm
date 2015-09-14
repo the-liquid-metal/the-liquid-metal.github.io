@@ -9,13 +9,18 @@
 </head>
 <body>
 <div class="short-description">
-
+  <code>sha1File( bool <var>$rawOutput</var> = false ): string</code>
+  <p>
+    Context: string.<br/>
+    Alias of <a href="http://php.net/manual/en/function.sha1-file.php">sha1_file</a>.<br/>
+    Calculate the sha1 hash of a file.
+  </p>
 </div>
 <div class="ajax-area">
   <h1>sha1File</h1>
 
   <div>
-    Calculates the sha1 hash of the file specified by <code>filename</code> using the
+    Calculates the sha1 hash of the file specified by <var>$scalarObject->val</var> using the
     <a href="http://www.faqs.org/rfcs/rfc3174">&raquo; US Secure Hash Algorithm 1</a>,
     and returns that hash. The hash is a 40-character hexadecimal number.
   </div>
@@ -23,17 +28,14 @@
   <div>
     <h3>Parameters</h3>
     <dl>
-      <dt>filename</dt>
-      <dd>The filename of the file to hash.</dd>
-
-      <dt>raw_output</dt>
+      <dt>$rawOutput</dt>
       <dd>When <code>TRUE</code>, returns the digest in raw binary format with a length of 20.</dd>
     </dl>
   </div>
 
   <div>
     <h3>Return Values</h3>
-    <p>Returns a string on success, <code>FALSE</code> otherwise.</p>
+    <p>A string on success, <code>FALSE</code> otherwise.</p>
   </div>
 
   <div class="examples">

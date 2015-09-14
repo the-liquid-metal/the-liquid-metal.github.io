@@ -17,9 +17,7 @@ $(document).ready(function(){
 
         newContent = oldContent
             .replace(/<!--\?/g, '&lt;?')
-            .replace(/\?>/g, '?>')
-            .replace(/=-->/g, '=>')
-            .replace(/\?-->/g, '?>');
+            .replace(/-->/g, '>');
 
         indent = oldContent.match(/^\s+/);
 

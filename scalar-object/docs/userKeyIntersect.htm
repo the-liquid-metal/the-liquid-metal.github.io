@@ -9,30 +9,32 @@
 </head>
 <body>
 <div class="short-description">
-
+  <code>userKeyIntersect( array <var>$array2</var>, array <var>...</var>, callable <var>$keyComparator</var> ): array</code>
+  <p>
+    Context: array.<br/>
+    Alias of <a href="http://php.net/manual/en/function.array-intersect-ukey.php">array_intersect_ukey</a>.<br/>
+    Computes the intersection using a callback function on the keys for comparison.
+  </p>
 </div>
 <div class="ajax-area">
   <h1>userKeyIntersect</h1>
 
   <div>
     <strong>userKeyIntersect()</strong> returns an array
-    containing all the values of <code>array1</code>
+    containing all the values of <var>$scalarObject->val</var>
     which have matching keys that are present in all the arguments.
   </div>
 
   <div>
     <h3>Parameters</h3>
     <dl>
-      <dt>array1</dt>
-      <dd>Initial array for comparison of the arrays.</dd>
-
-      <dt>array2</dt>
+      <dt>$array2</dt>
       <dd>First array to compare keys against.</dd>
 
       <dt>...</dt>
       <dd>Variable list of array arguments to compare keys against.</dd>
 
-      <dt>key_compare_func</dt>
+      <dt>$keyComparator</dt>
       <dd>
         The comparison function must return an integer less than, equal to, or greater than zero if the
         first argument is considered to be respectively less than, equal to, or greater than the second.
@@ -42,7 +44,7 @@
 
   <div>
     <h3>Return Values</h3>
-    <p>Returns the values of <code>array1</code> whose keys exist in all the arguments.</p>
+    <p>The values of <var>$scalarObject->val</var> whose keys exist in all the arguments.</p>
   </div>
 
   <div class="examples">
@@ -78,7 +80,7 @@
       In our example you see that only the keys <em>'blue'</em> and <em>'green'</em> are present
       in both arrays and thus returned. Also notice that the values for the keys <em>'blue'</em>
       and <em>'green'</em> differ between the two arrays. A match still occurs because only the
-      keys are checked. The values returned are those of <code>array1</code>.
+      keys are checked. The values returned are those of <var>$scalarObject->val</var>.
     </p>
   </div>
 </div>

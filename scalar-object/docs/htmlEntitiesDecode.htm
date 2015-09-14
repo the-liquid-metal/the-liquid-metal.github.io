@@ -9,7 +9,12 @@
 </head>
 <body>
 <div class="short-description">
-
+  <code>htmlEntitiesDecode( int <var>$flags</var> = ENT_COMPAT | ENT_HTML401, string <var>$encoding</var> = ini_get("default_charset") ): string</code>
+  <p>
+    Context: string.<br/>
+    Alias of <a href="http://php.net/manual/en/function.html-entity-decode.php">html_entity_decode</a>.<br/>
+    Convert all HTML entities to applicable characters.
+  </p>
 </div>
 <div class="ajax-area">
   <h1>htmlEntitiesDecode</h1>
@@ -18,7 +23,7 @@
     <p>
       <strong>htmlEntitiesDecode()</strong> is the opposite of
       <a href="htmlEntitiesEncode.htm">htmlEntitiesEncode()</a> in that it converts
-      all HTML entities in the <code>string</code> to their applicable characters.
+      all HTML entities in the <var>$scalarObject->val</var> to their applicable characters.
     </p>
     <p>
       More precisely, this function decodes all the entities (including all numeric
@@ -33,17 +38,14 @@
   <div>
     <h3>Parameters</h3>
     <dl>
-      <dt>string</dt>
-      <dd>The input string.</dd>
-
-      <dt>flags</dt>
+      <dt>$flags</dt>
       <dd>
         <p>
           A bitmask of one or more of the following flags, which specify how to handle quotes and
           which document type to use. The default is <em>ENT_COMPAT | ENT_HTML401</em>.
         </p>
         <table class="table">
-          <caption><strong>Available <code>flags</code> constants</strong></caption>
+          <caption><strong>Available <var>$flags</var> constants</strong></caption>
           <thead>
             <tr>
               <th>Constant Name</th>
@@ -90,11 +92,11 @@
         </table>
       </dd>
 
-      <dt>encoding</dt>
+      <dt>$encoding</dt>
       <dd>
         <p>An optional argument defining the encoding used when converting characters.</p>
         <p>
-          If omitted, the default value of the <code>encoding</code> varies depending on the PHP version
+          If omitted, the default value of the <var>$encoding</var> varies depending on the PHP version
           in use. In PHP 5.6 and later, the <a href="ini.core.php#ini.default-charset">default_charset</a>
           configuration option is used as the default value. PHP 5.4 and 5.5 will use <em>UTF-8</em> as the
           default. Earlier versions of PHP use <em>ISO-8859-1</em>.

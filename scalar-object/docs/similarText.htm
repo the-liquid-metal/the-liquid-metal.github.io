@@ -9,7 +9,12 @@
 </head>
 <body>
 <div class="short-description">
-
+  <code>similarText( string <var>$second</var>, float <var>&amp; $percent</var> ): int</code>
+  <p>
+    Context: string.<br/>
+    Alias of <a href="http://php.net/manual/en/function.similar-text.php">similar_text</a>.<br/>
+    Calculate the similarity between two strings.
+  </p>
 </div>
 <div class="ajax-area">
   <h1>similarText</h1>
@@ -25,13 +30,10 @@
   <div>
     <h3>Parameters</h3>
     <dl>
-      <dt>first</dt>
-      <dd>The first string.</dd>
-
-      <dt>second</dt>
+      <dt>$second</dt>
       <dd>The second string.</dd>
 
-      <dt>percent</dt>
+      <dt>$percent</dt>
       <dd>By passing a reference as third argument,
         <strong>similarText()</strong> will calculate the similarity in
         percent for you.</dd>
@@ -40,7 +42,7 @@
 
   <div>
     <h3>Return Values</h3>
-    <p>Returns the number of matching chars in both strings.</p>
+    <p>The number of matching chars in both strings.</p>
   </div>
 </div>
 </body>

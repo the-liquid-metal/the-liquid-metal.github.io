@@ -9,7 +9,8 @@
 </head>
 <body>
 <div class="short-description">
-
+  <code>htmlCharDecode( int <var>$flags</var> = ENT_COMPAT | ENT_HTML401 ): string</code>
+  <p>context: string. alias of <a href="http://php.net/manual/en/function.htmlspecialchars-decode.php">htmlspecialchars_decode</a>.         see <a href="file:htmlCharDecode.htm">detail</a>.<br/>         Convert special HTML entities to characters.</p>
 </div>
 <div class="ajax-area">
   <h1>htmlCharDecode</h1>
@@ -28,17 +29,14 @@
   <div>
     <h3>Parameters</h3>
     <dl>
-      <dt>string</dt>
-      <dd>The string to decode.</dd>
-
-      <dt>flags</dt>
+      <dt>$flags</dt>
       <dd>
         <p>
           A bitmask of one or more of the following flags, which specify how to handle quotes and
           which document type to use. The default is <em>ENT_COMPAT | ENT_HTML401</em>.
         </p>
         <table class="table">
-          <caption><strong>Available <code>flags</code> constants</strong></caption>
+          <caption><strong>Available <var>$flags</var> constants</strong></caption>
           <thead>
             <tr>
               <th>Constant Name</th>
@@ -89,7 +87,7 @@
 
   <div>
     <h3>Return Values</h3>
-    <p>Returns the decoded string.</p>
+    <p>The decoded string.</p>
   </div>
 
   <div class="examples">

@@ -9,7 +9,12 @@
 </head>
 <body>
 <div class="short-description">
-
+  <code>levenshtein( string <var>$str2</var>, int <var>$costIns</var>, int <var>$costRep</var>, integer <var>$costDel</var> ): int</code>
+  <p>
+    Context: string.<br/>
+    Alias of <a href="http://php.net/manual/en/function.levenshtein.php">levenshtein</a>.<br/>
+    Calculate Levenshtein distance between two strings.
+  </p>
 </div>
 <div class="ajax-area">
   <h1>levenshtein</h1>
@@ -17,17 +22,17 @@
   <div>
     <p>
       The Levenshtein distance is defined as the minimal number of characters you have to
-      replace, insert or delete to transform <code>str1</code> into <code>str2</code>. The
+      replace, insert or delete to transform <var>$scalarObject->val</var> into <var>$str2</var>. The
       complexity of the algorithm is <em>O(m*n)</em>, where <em>n</em> and <em>m</em> are
-      the length of <code>str1</code> and <code>str2</code> (rather good when compared to
-      <a href="function.similar-text.php">similar_text()</a>, which is O(max(n,m)**3),
+      the length of <var>$scalarObject->val</var> and <var>$str2</var> (rather good when compared to
+      <a href="similarText.htm">similarText()</a>, which is O(max(n,m)**3),
       but still expensive).
     </p>
     <p>
       In its simplest form the function will take only the two
       strings as parameter and will calculate just the number of
       insert, replace and delete operations needed to transform
-      <code>str1</code> into <code>str2</code>.
+      <var>$scalarObject->val</var> into <var>$str2</var>.
     </p>
     <p>
       A second variant will take three additional parameters that
@@ -40,19 +45,16 @@
   <div>
     <h3>Parameters</h3>
     <dl>
-      <dt>str1</dt>
+      <dt>$str2</dt>
       <dd>One of the strings being evaluated for Levenshtein distance.</dd>
 
-      <dt>str2</dt>
-      <dd>One of the strings being evaluated for Levenshtein distance.</dd>
-
-      <dt>cost_ins</dt>
+      <dt>$costIns</dt>
       <dd>Defines the cost of insertion.</dd>
 
-      <dt>cost_rep</dt>
+      <dt>$costRep</dt>
       <dd>Defines the cost of replacement.</dd>
 
-      <dt>cost_del</dt>
+      <dt>$costDel</dt>
       <dd>Defines the cost of deletion.</dd>
     </dl>
   </div>

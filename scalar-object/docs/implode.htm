@@ -9,13 +9,18 @@
 </head>
 <body>
 <div class="short-description">
-
+  <code>implode( string <var>$glue</var> ): string</code>
+  <p>
+    Context: array.<br/>
+    Alias of <a href="http://php.net/manual/en/function.implode.php">implode</a>.<br/>
+    Join elements with a string.
+  </p>
 </div>
 <div class="ajax-area">
   <h1>implode</h1>
 
   <div>
-    <p>Join array elements with a <code>glue</code> string.</p>
+    <p>Join array elements with a <var>$glue</var> string.</p>
     <blockquote>
       <strong>Note</strong>: <strong>implode()</strong> can, for historical reasons, accept its
       parameters in either order. For consistency with <a href="explode.htm">explode()</a>,
@@ -26,18 +31,15 @@
   <div>
     <h3>Parameters</h3>
     <dl>
-      <dt>glue</dt>
+      <dt>$glue</dt>
       <dd>Defaults to an empty string.</dd>
-
-      <dt>pieces</dt>
-      <dd>The array of strings to implode.</dd>
     </dl>
   </div>
 
   <div>
     <h3>Return Values</h3>
     <p>
-      Returns a string containing a string representation of all the array
+      A string containing a string representation of all the <var>$scalarObject->val</var>
       elements in the same order, with the glue string between each element.
     </p>
   </div>
@@ -57,6 +59,6 @@
     </pre>
   </div>
 
-  <blockquote><strong>Note</strong>:This function is binary-safe.</blockquote>
+  <blockquote><strong>Note</strong>: This function is binary-safe.</blockquote>
 </div>
 </body>

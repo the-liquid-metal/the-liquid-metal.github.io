@@ -9,49 +9,53 @@
 </head>
 <body>
 <div class="short-description">
-
+  <code>substrCompare( string <var>$str</var>, int <var>$offset</var>, int <var>$length</var> = null, boolean <var>$caseInsensitivity</var> = false ): int</code>
+  <p>
+    Context: string.<br/>
+    Alias of <a href="http://php.net/manual/en/function.substr-compare.php">substr_compare</a>.<br/>
+    Binary safe comparison of two strings from an offset, up to length characters.
+  </p>
 </div>
 <div class="ajax-area">
   <h1>substrCompare</h1>
 
   <div>
-    <strong>substrCompare()</strong> compares <code>main_str</code>
-    from position <code>offset</code> with <code>str</code>
-    up to <code>length</code> characters.
+    <strong>substrCompare()</strong> compares <var>$scalarObject->val</var>
+    from position <var>$offset</var> with <var>$str</var>
+    up to <var>$length</var> characters.
   </div>
 
   <div>
     <h3>Parameters</h3>
     <dl>
-      <dt>main_str</dt>
-      <dd>The main string being compared.</dd>
-
-      <dt>str</dt>
+      <dt>$str</dt>
       <dd>The secondary string being compared.</dd>
 
-      <dt>offset</dt>
+      <dt>$offset</dt>
       <dd>The start position for the comparison. If negative, it starts counting from the end of the string.</dd>
 
-      <dt>length</dt>
+      <dt>$length</dt>
       <dd>
-        The length of the comparison. The default value is the largest of the length of the <code>str</code>
-        compared to the length of <code>main_str</code> less the <code>offset</code>.
+        The length of the comparison. The default value is the largest of the length of the <var>$str</var>
+        compared to the length of <var>$scalarObject->val</var> less the <var>$offset</var>.
       </dd>
 
-      <dt>case_insensitivity</dt>
-      <dd>If <code>case_insensitivity</code> is <code>TRUE</code>, comparison is case insensitive.</dd>
+      <dt>$caseInsensitivity</dt>
+      <dd><code>TRUE</code> if comparison is case insensitive, otherwise <code>FALSE</code>.</dd>
     </dl>
   </div>
 
   <div>
     <h3>Return Values</h3>
-    <p>
-      Returns &lt; 0 if <code>main_str</code> from position <code>offset</code> is less than
-      <code>str</code>, > 0 if it is greater than <code>str</code>, and 0 if they are equal.
-      If <code>offset</code> is equal to or greater than the length of <code>main_str</code>,
-      or the <code>length</code> is set and is less than 1 (prior to PHP 5.6), <strong>substrCompare()</strong>
-      prints a warning and returns <code>FALSE</code>.
-    </p>
+    <ul>
+      <li>&lt; 0 if <var>$scalarObject->val</var> from position <var>$offset</var> is less than <var>$str</var>.</li>
+      <li>&gt; 0 if it is greater than <var>$str</var>.</li>
+      <li>0 if they are equal.</li>
+      <li>
+        <code>FALSE</code> and prints a warning, if <var>$offset</var> >= the length of <var>$scalarObject->val</var>,
+        or the <var>$length</var> is set and is less than 1 (prior to PHP 5.6).
+      </li>
+    </ul>
   </div>
 
   <div class="examples">

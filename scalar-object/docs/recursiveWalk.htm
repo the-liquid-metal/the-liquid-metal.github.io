@@ -9,32 +9,34 @@
 </head>
 <body>
 <div class="short-description">
-
+  <code>recursiveWalk( callable <var>$callback</var>, mixed <var>$userData</var> = NULL ): array</code>
+  <p>
+    Context: array.<br/>
+    Alias of <a href="http://php.net/manual/en/function.array-walk-recursive.php">array_walk_recursive</a>.<br/>
+    Apply a callback function recursively to every elements.
+  </p>
 </div>
 <div class="ajax-area">
   <h1>recursiveWalk</h1>
 
   <div>
-    Applies the user-defined <code>callback</code> function to each
-    element of the <code>array</code>. This function will recurse
+    Applies the user-defined <var>$callback</var> function to each
+    element of the <var>$scalarObject->val</var>. This function will recurse
     into deeper arrays.
   </div>
 
   <div>
     <h3>Parameters</h3>
     <dl>
-      <dt>array</dt>
-      <dd>The input array.</dd>
-
-      <dt>callback</dt>
+      <dt>$callback</dt>
       <dd>
         <p>
-          Typically, <code>callback</code> takes on two parameters. The <code>array</code>
+          Typically, <var>$callback</var> takes on two parameters. The <var>$scalarObject->val</var>
           parameter's value being the first, and the key/index second.
         </p>
         <blockquote>
-          <strong>Note</strong>: If <code>callback</code> needs to be working with the
-          actual values of the array, specify the first parameter of <code>callback</code>
+          <strong>Note</strong>: If <var>$callback</var> needs to be working with the
+          actual values of the array, specify the first parameter of <var>$callback</var>
           as a reference. Then, any changes made to
           those elements will be made in the original array itself.
         </blockquote>
@@ -42,8 +44,8 @@
 
       <dt>userdata</dt>
       <dd>
-        If the optional <code>userdata</code> parameter is supplied, it will be passed as
-        the third parameter to the <code>callback</code>.
+        If supplied, it will be passed as the
+        third parameter to the <var>$callback</var>.
       </dd>
     </dl>
   </div>

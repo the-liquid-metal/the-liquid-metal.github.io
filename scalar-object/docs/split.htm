@@ -9,7 +9,12 @@
 </head>
 <body>
 <div class="short-description">
-
+  <code>split( int <var>$length</var> = 1 ): array</code>
+  <p>
+    Context: string.<br/>
+    Alias of <a href="http://php.net/manual/en/function.str-split.php">str_split</a>.<br/>
+    Convert to an array.
+  </p>
 </div>
 <div class="ajax-area">
   <h1>split</h1>
@@ -19,26 +24,25 @@
   <div>
     <h3>Parameters</h3>
     <dl>
-      <dt>string</dt>
-      <dd>The input string.</dd>
-
-      <dt>split_length</dt>
+      <dt>$length</dt>
       <dd>Maximum length of the chunk.</dd>
     </dl>
   </div>
 
   <div>
     <h3>Return Values</h3>
-    <p>
-      If the optional <code>split_length</code> parameter is specified, the returned
-      array will be broken down into chunks with each being <code>split_length</code>
-      in length, otherwise each chunk will be one character in length.
-    </p>
-    <p>
-      <code>FALSE</code> is returned if <code>split_length</code> is less than 1. If the
-      <code>split_length</code> length exceeds the length of <code>string</code>, the
-      entire string is returned as the first (and only) array element.
-    </p>
+    <ul>
+      <li>
+        If the optional <var>$length</var> parameter is specified, the returned
+        array will be broken down into chunks with each being <var>$length</var>
+        in length, otherwise each chunk will be one character in length.
+      </li>
+      <li>
+        <code>FALSE</code> is returned if <var>$length</var> is less than 1. If the
+        <var>$length</var> length exceeds the length of <var>$scalarObject->val</var>, the
+        entire string is returned as the first (and only) array element.
+      </li>
+    </ul>
   </div>
 
   <div class="examples">

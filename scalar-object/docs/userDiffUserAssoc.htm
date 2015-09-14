@@ -9,7 +9,12 @@
 </head>
 <body>
 <div class="short-description">
-
+  <code>userDiffUserAssoc( array <var>$array2</var>, array <var>...</var>, callable <var>$valueComparator</var>, callable <var>$keyComparator</var> ): array</code>
+  <p>
+    Context: array.<br/>
+    Alias of <a href="http://php.net/manual/en/function.array-udiff-uassoc.php">array_udiff_uassoc</a>.<br/>
+    Computes the difference with additional index check, compares data and indexes using separate callback functions.
+  </p>
 </div>
 <div class="ajax-area">
   <h1>userDiffUserAssoc</h1>
@@ -20,30 +25,30 @@
       data and indexes by a callback function.
     </p>
     <p>
-      Note that the keys are used in the comparison unlike <a href="function.array-diff.php">
-      array_diff()</a> and <a href="function.array-udiff.php">array_udiff()</a>.
+      Note that the keys are used in the comparison unlike 
+      <a href="diff.htm">diff()</a> and <a href="userDiff.htm">userDiff()</a>.
     </p>
   </div>
 
   <div>
     <h3>Parameters</h3>
     <dl>
-      <dt>array1</dt>
-      <dd>The first array.</dd>
-
-      <dt>array2</dt>
+      <dt>$array2</dt>
       <dd>The second array.</dd>
 
-      <dt>value_compare_func</dt>
+      <dt>...</dt>
+      <dd>More arrays to compare against</dd>
+
+      <dt>$valueComparator</dt>
       <dd>
         The comparison function must return an integer less than, equal to, or greater than zero if the
         first argument is considered to be respectively less than, equal to, or greater than the second.
       </dd>
 
-      <dt>key_compare_func</dt>
+      <dt>$keyComparator</dt>
       <dd>
-        The comparison of keys (indices) is done also by the callback function <code>key_compare_func</code>.
-        This behaviour is unlike what <a href="function.array-udiff-assoc.php">array_udiff_assoc()</a> does,
+        The comparison of keys (indices) is done also by the callback function <var>$keyComparator</var>.
+        This behaviour is unlike what <a href="userDiffAssoc.htm">userDiffAssoc()</a> does,
         since the latter compares the indices by using an internal function.
       </dd>
     </dl>
@@ -53,7 +58,7 @@
     <h3>Return Values</h3>
     <p>
       Returns an array containing all the values from
-      <code>array1</code> that are not present in any of the other arguments.
+      <var>$scalarObject->val</var> that are not present in any of the other arguments.
     </p>
   </div>
 
@@ -108,7 +113,7 @@
     </pre>
 
     <p>
-      In our example above you see the <em>"1" => new cr(4)</em>
+      In our example above you see the <code>"1" => new cr(4)</code>
       pair is present in both arrays and thus it is not in the output from the
       function. Keep in mind that you have to supply 2 callback functions.
     </p>
@@ -117,8 +122,8 @@
   <blockquote>
     <strong>Note</strong>: Please note that this function only checks one dimension
     of a n-dimensional array. Of course you can check deeper dimensions by using, for
-    example, <em>userDiffUserAssoc($array1[0], $array2[0], "data_compare_func",
-    "key_compare_func");</em>.
+    example, <code>userDiffUserAssoc($array1[0], $array2[0], "data_compare_func",
+    "key_compare_func");</code>.
   </blockquote>
 </div>
 </body>

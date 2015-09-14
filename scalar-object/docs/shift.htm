@@ -9,7 +9,12 @@
 </head>
 <body>
 <div class="short-description">
-
+  <code>shift( ): array</code>
+  <p>
+    Context: array.<br/>
+    Alias of <a href="http://php.net/manual/en/function.array-shift.php">array_shift</a>.<br/>
+    Shifts an element off the beginning.
+  </p>
 </div>
 <div class="ajax-area">
   <h1>shift</h1>
@@ -17,26 +22,18 @@
   <div>
     <p>
       <strong>shift()</strong> shifts the first value of the
-      <code>array</code> off and returns it, shortening the
-      <code>array</code> by one element and moving everything
+      <var>$scalarObject->val</var> off and returns it, shortening the
+      <var>$scalarObject->val</var> by one element and moving everything
       down. All numerical array keys will be modified to start counting from zero
       while literal keys won't be touched.
     </p>
   </div>
 
   <div>
-    <h3>Parameters</h3>
-     <dl>
-       <dt>array</dt>
-       <dd>The input array.</dd>
-     </dl>
-  </div>
-
-  <div>
     <h3>Return Values</h3>
     <p>
-      Returns the shifted value, or <code>NULL</code> if <code>array</code> is
-      empty or is not an array.
+      The shifted value, or <code>NULL</code> if
+      <var>$scalarObject->val</var> is empty or is not an array.
     </p>
   </div>
 

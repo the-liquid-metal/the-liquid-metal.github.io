@@ -9,7 +9,12 @@
 </head>
 <body>
 <div class="short-description">
-
+  <code>userDiffAssoc( array <var>$array2</var>, array <var>...</var>, callable <var>$valueComparator</var> ): array</code>
+  <p>
+    Context: array.<br/>
+    Alias of <a href="http://php.net/manual/en/function.array-udiff-assoc.php">array_udiff_assoc</a>.<br/>
+    Computes the difference with additional index check, compares data using a callback function.
+  </p>
 </div>
 <div class="ajax-area">
   <h1>userDiffAssoc</h1>
@@ -22,20 +27,20 @@
     <blockquote>
       <strong>Note</strong>: Please note that this function only checks one dimension of a
       n-dimensional array. Of course you can check deeper dimensions by using, for example,
-      <em>userDiffAssoc($array1[0], $array2[0], "some_comparison_func");</em>.
+      <code>userDiffAssoc($array1[0], $array2[0], "some_comparison_func");</code>.
     </blockquote>
   </div>
 
   <div>
     <h3>Parameters</h3>
     <dl>
-      <dt>array1</dt>
-      <dd>The first array.</dd>
-
-      <dt>array2</dt>
+      <dt>$array2</dt>
       <dd>The second array.</dd>
 
-      <dt>value_compare_func</dt>
+      <dt>...</dt>
+      <dd>More arrays to compare against</dd>
+
+      <dt>$valueComparator</dt>
       <dd>
         The comparison function must return an integer less than, equal to, or greater than zero if the
         first argument is considered to be respectively less than, equal to, or greater than the second.
@@ -47,13 +52,11 @@
     <h3>Return Values</h3>
     <p>
       <strong>userDiffAssoc()</strong> returns an array
-      containing all the values from <code>array1</code> that are not present in any of the other
-      arguments. Note that the keys are used in the comparison unlike
-      <a href="function.array-diff.php">array_diff()</a> and <a href="function.array-udiff.php">
-      array_udiff()</a>. The comparison of arrays' data is performed by using an user-supplied
-      callback. In this aspect the behaviour is opposite to the behaviour of
-      <a href="function.array-diff-assoc.php">array_diff_assoc()</a> which uses internal function
-      for comparison.
+      containing all the values from <var>$scalarObject->val</var> that are not present in any of the other
+      arguments. Note that the keys are used in the comparison unlike <a href="diff.htm">diff()</a> and
+      <a href="userDiff.htm">userDiff()</a>. The comparison of arrays' data is performed by using an user-supplied
+      callback. In this aspect the behaviour is opposite to the behaviour of <a href="assocDiff.htm">assocDiff()</a>
+      which uses internal function for comparison.
     </p>
   </div>
 
@@ -103,8 +106,8 @@
     </pre>
 
     <p>
-      In our example above you see the <em>"1" => new cr(4)</em> pair is present
-      in both arrays and thus it is not in the output from the function.
+      In our example above you see the <code>"1" => new cr(4)</code> pair is
+      present in both arrays and thus it is not in the output from the function.
     </p>
   </div>
 </div>

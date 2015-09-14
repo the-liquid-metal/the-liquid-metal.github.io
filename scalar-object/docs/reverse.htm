@@ -9,20 +9,22 @@
 </head>
 <body>
 <div class="short-description">
-
+  <code>reverse( bool <var>$preserveKeys</var> = false ): array</code>
+  <p>
+    Context: array.<br/>
+    Alias of <a href="http://php.net/manual/en/function.array-reverse.php">array_reverse</a>.<br/>
+    Returns an array with elements in reverse order.
+  </p>
 </div>
 <div class="ajax-area">
   <h1>reverse</h1>
 
-  <div>Takes an input <code>array</code> and returns a new array with the order of the elements reversed.</div>
+  <div>Takes <var>$scalarObject->val</var> and returns a new array with the order of the elements reversed.</div>
 
   <div>
     <h3>Parameters</h3>
     <dl>
-      <dt>array</dt>
-      <dd>The input array.</dd>
-
-      <dt>preserve_keys</dt>
+      <dt>$preserveKeys</dt>
       <dd>
         If set to <code>TRUE</code> numeric keys are preserved. Non-numeric
         keys are not affected by this setting and will always be preserved.
@@ -32,7 +34,7 @@
 
   <div>
     <h3>Return Values</h3>
-    <p>Returns the reversed array.</p>
+    <p>The reversed array.</p>
   </div>
 
   <div class="examples">

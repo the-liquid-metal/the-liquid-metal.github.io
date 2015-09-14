@@ -9,25 +9,26 @@
 </head>
 <body>
 <div class="short-description">
-
+  <code>naturalCompare( <span>string <var>$str2</var></span> )</code>
+  <p>
+    Context: string.<br/>
+    Alias of <a href="http://php.net/manual/en/function.strnatcmp.php">strnatcmp</a>.<br/>
+    "natural order" algorithm comparison.
+  </p>
 </div>
 <div class="ajax-area">
   <h1>naturalCompare</h1>
 
   <div>
-    This function implements a comparison algorithm that orders
-    alphanumeric strings in the way a human being would, this is
-    described as a "natural ordering".  
-    Note that this comparison is case sensitive.
+    This function implements a comparison algorithm that orders alphanumeric strings
+    in the way a human being would, this is described as a "natural ordering". Note
+    that this comparison is case sensitive.
   </div>
 
   <div>
     <h3>Parameters</h3>
     <dl>
-      <dt>str1</dt>
-      <dd>The first string.</dd>
-
-      <dt>str2</dt>
+      <dt>$str2</dt>
       <dd>The second string.</dd>
     </dl>
   </div>
@@ -43,9 +44,8 @@
 
   <div class="examples">
     <p>
-      An example of the difference between this algorithm and the regular
-      computer string sorting algorithms (used in <a href="compare.htm">compare()</a>)
-      can be seen below:
+      An example of the difference between this algorithm and the regular computer string
+      sorting algorithms (used in <a href="compare.htm">compare()</a>) can be seen below:
     </p>
     <pre class="php-code">
       <?php

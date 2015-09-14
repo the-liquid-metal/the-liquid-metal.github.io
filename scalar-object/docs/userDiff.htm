@@ -9,27 +9,31 @@
 </head>
 <body>
 <div class="short-description">
-
+  <code>userDiff( array <var>$array2</var>, array <var>...</var>, callable <var>$valueComparator</var> ): array</code>
+  <p>
+    Context: array.<br/>
+    Alias of <a href="http://php.net/manual/en/function.array-udiff.php">array_udiff</a>.<br/>
+    Computes the difference using a callback function.
+  </p>
 </div>
 <div class="ajax-area">
   <h1>userDiff</h1>
 
   <div>
-    Computes the difference of arrays by using a callback function for data
-    comparison. This is unlike <a href="function.array-diff.php">array_diff()</a> which uses an
-    internal function for comparing the data.
+    Computes the difference of arrays by using a callback function for data comparison. This is
+    unlike <a href="diff.htm">diff()</a> which uses an internal function for comparing the data.
   </div>
 
   <div>
     <h3>Parameters</h3>
     <dl>
-      <dt>array1</dt>
-      <dd>The first array.</dd>
-
-      <dt>array2</dt>
+      <dt>$array2</dt>
       <dd>The second array.</dd>
 
-      <dt>value_compare_func</dt>
+      <dt>...</dt>
+      <dd>More arrays to compare against</dd>
+
+      <dt>$valueComparator</dt>
       <dd>
         <p>The callback comparison function.</p>
         <p>
@@ -43,7 +47,7 @@
   <div>
     <h3>Return Values</h3>
     <p>
-      Returns an array containing all the values of <code>array1</code>
+      Returns an array containing all the values of <var>$scalarObject->val</var>
       that are not present in any of the other arguments.
     </p>
   </div>
@@ -53,13 +57,8 @@
     <pre class="php-code">
       <?php
       // Arrays to compare
-      $array1 = array(new stdclass, new stdclass,
-                      new stdclass, new stdclass,
-                     );
-
-      $array2 = array(
-                      new stdclass, new stdclass,
-                     );
+      $array1 = array(new stdclass, new stdclass, new stdclass, new stdclass);
+      $array2 = array(new stdclass, new stdclass);
 
       // Set some properties for each object
       $array1[0]->width = 11; $array1[0]->height = 3;
@@ -70,7 +69,8 @@
       $array2[0]->width = 7;  $array2[0]->height = 5;
       $array2[1]->width = 9;  $array2[1]->height = 2;
 
-      function compare_by_area($a, $b) {
+      function compare_by_area($a, $b)
+      {
           $areaA = $a->width * $a->height;
           $areaB = $b->width * $b->height;
           
@@ -184,7 +184,7 @@
   <blockquote>
     <strong>Note</strong>: Please note that this function only checks one dimension
     of a n-dimensional array. Of course you can check deeper dimensions by using
-    <em>userDiff($array1[0], $array2[0], "data_compare_func");</em>.
+    <code>userDiff($array1[0], $array2[0], "data_compare_func");</code>.
   </blockquote>
 </div>
 </body>

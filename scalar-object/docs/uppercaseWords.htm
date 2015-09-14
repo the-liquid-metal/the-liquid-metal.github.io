@@ -9,7 +9,12 @@
 </head>
 <body>
 <div class="short-description">
-
+    <code>uppercaseWords( string <var>$delimiters</var> = " \t\r\n\f\v" ): string</code>
+    <p>
+      Context: string.<br/>
+      Alias of <a href="http://php.net/manual/en/function.ucwords.php">ucwords</a>.<br/>
+      Uppercase the first character of each word.
+    </p>
 </div>
 <div class="ajax-area">
   <h1>uppercaseWords</h1>
@@ -17,11 +22,11 @@
   <div>
     <p>
       Returns a string with the first character of each word in
-      <code>str</code> capitalized, if that character is alphabetic.
+      <var>$scalarObject->val</var> capitalized, if that character is alphabetic.
     </p>
     <p>
       The definition of a word is any string of characters that is immediately after any
-      character listed in the <code>delimiters</code> parameter (By default these are:
+      character listed in the <var>$delimiters</var> parameter (By default these are:
       space, form-feed, newline, carriage return, horizontal tab, and vertical tab).
     </p>
   </div>
@@ -29,17 +34,14 @@
   <div>
     <h3>Parameters</h3>
     <dl>
-      <dt>str</dt>
-      <dd>The input string.</dd>
-
-      <dt>delimiters</dt>
-      <dd>The optional <code>delimiters</code> contains the word separator characters.</dd>
+      <dt>$delimiters</dt>
+      <dd>The optional <var>$delimiters</var> contains the word separator characters.</dd>
     </dl>
   </div>
 
   <div>
     <h3>Return Values</h3>
-    <p>Returns the modified string.</p>
+    <p>The modified string.</p>
   </div>
 
   <div class="examples">

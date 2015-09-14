@@ -9,64 +9,63 @@
 </head>
 <body>
 <div class="short-description">
-
+  <code>substrReplace( mixed <var>$replacement</var>, mixed <var>$start</var>, mixed <var>$length</var> = null ): string</code>
+  <p>
+    Context: string.<br/>
+    Alias of <a href="http://php.net/manual/en/function.substr-replace.php">substr_replace</a>.<br/>
+    Replace text within a portion of a string.
+  </p>
 </div>
 <div class="ajax-area">
   <h1>substrReplace</h1>
 
   <div>
     <p>
-      <strong>substrReplace()</strong> replaces a copy of <code>string</code> delimited by the
-      <code>start</code> and (optionally) <code>length</code> parameters with the string given
-      in <code>replacement</code>. 
+      <strong>substrReplace()</strong> replaces a copy of <var>$scalarObject->val</var> delimited by the
+      <var>$start</var> and (optionally) <var>$length</var> parameters with the string given
+      in <var>$replacement</var>. 
+    </p>
+    <p>
+      An array of strings can be provided, in which case the replacements will occur on each string
+      in turn. In this case, the <var>$replacement</var>, <var>$start</var> and <var>$length</var>
+      parameters may be provided either as scalar values to be applied to each input string in turn,
+      or as arrays, in which case the corresponding array element will be used for each input string.
     </p>
   </div>
 
   <div>
     <h3>Parameters</h3>
     <dl>
-      <dt>string</dt>
-      <dd>
-        <p>The input string.</p>
-        <p>
-          An array of strings
-          can be provided, in which case the replacements will occur on each string in turn. In this case,
-          the <code>replacement</code>, <code>start</code> and <code>length</code> parameters may be provided
-          either as scalar values to be applied to each input string in turn, or as arrays,
-          in which case the corresponding array element will be used for each input string.
-        </p>
-      </dd>
-
-      <dt>replacement</dt>
+      <dt>$replacement</dt>
       <dd>The replacement string.</dd>
 
-      <dt>start</dt>
+      <dt>$start</dt>
       <dd>
         <p>
-          If <code>start</code> is positive, the replacing will begin at the <code>start</code>'th
-          offset into <code>string</code>.
+          If <var>$start</var> is positive, the replacing will begin at the <var>$start</var>'th
+          offset into <var>$scalarObject->val</var>.
         </p>
         <p>
-          If <code>start</code> is negative, the replacing will begin at the <code>start</code>'th
-          character from the end of <code>string</code>.
+          If <var>$start</var> is negative, the replacing will begin at the <var>$start</var>'th
+          character from the end of <var>$scalarObject->val</var>.
         </p>
       </dd>
 
-      <dt>length</dt>
+      <dt>$length</dt>
       <dd>
-        If given and is positive, it represents the length of the portion of <code>string</code>
+        If given and is positive, it represents the length of the portion of <var>$scalarObject->val</var>
         which is to be replaced. If it is negative, it represents the number of characters from the
-        end of <code>string</code> at which to stop replacing. If it is not given, then it will default
-        to strlen( <code>string</code> ); i.e. end the replacing at the end of <code>string</code>. Of
-        course, if <code>length</code> is zero then this function will have the effect of inserting
-        <code>replacement</code> into <code>string</code> at the given <code>start</code> offset.
+        end of <var>$scalarObject->val</var> at which to stop replacing. If it is not given, then it will default
+        to strlen( <var>$scalarObject->val</var> ); i.e. end the replacing at the end of <var>$scalarObject->val</var>. Of
+        course, if <var>$length</var> is zero then this function will have the effect of inserting
+        <var>$replacement</var> into <var>$scalarObject->val</var> at the given <var>$start</var> offset.
       </dd>
     </dl>
   </div>
 
   <div>
     <h3>Return Values</h3>
-    <p>The result string is returned. If <code>string</code> is an array then array is returned.</p>
+    <p>The result string is returned. If <var>$scalarObject->val</var> is an array then array is returned.</p>
   </div>
 
   <div class="examples">
@@ -118,6 +117,6 @@
     </pre>
   </div>
 
-  <blockquote><strong>Note</strong>:This function is binary-safe.</blockquote>
+  <blockquote><strong>Note</strong>: This function is binary-safe.</blockquote>
 </div>
 </body>

@@ -9,20 +9,25 @@
 </head>
 <body>
 <div class="short-description">
-
+  <code>metaphone( int <var>$phonemes</var> = 0 ): string</code>
+  <p>
+    Context: string.<br/>
+    Alias of <a href="http://php.net/manual/en/function.metaphone.php">metaphone</a>.<br/>
+    Calculate the metaphone key.
+  </p>
 </div>
 <div class="ajax-area">
   <h1>metaphone</h1>
 
   <div>
-    <p>Calculates the metaphone key of <code>str</code>.</p>
+    <p>Calculates the metaphone key of <var>$scalarObject->val</var>.</p>
     <p>
       Similar to <a href="soundex.htm">soundex()</a> metaphone creates the same key for similar
       sounding words. It's more accurate than <a href="soundex.htm">soundex()</a> as it knows
       the basic rules of English pronunciation. The metaphone generated keys are of variable length.
     </p>
     <p>
-      Metaphone was developed by Lawrence Philips &lt;lphilips at verity dot com>. It is described in
+      Metaphone was developed by Lawrence Philips &lt;lphilips@verity.com>. It is described in
       ["Practical Algorithms for Programmers", Binstock &amp; Rex, Addison Wesley, 1995].
     </p>
   </div>
@@ -30,10 +35,7 @@
   <div>
     <h3>Parameters</h3>
     <dl>
-      <dt>str</dt>
-      <dd>The input string.</dd>
-
-      <dt>phonemes</dt>
+      <dt>$phonemes</dt>
       <dd>
         This parameter restricts the returned metaphone key to <code>phonemes</code>
         characters in length. The default value of <em>0</em> means no restriction.

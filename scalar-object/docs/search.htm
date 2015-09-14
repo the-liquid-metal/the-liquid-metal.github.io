@@ -9,34 +9,33 @@
 </head>
 <body>
 <div class="short-description">
-
+  <code>search( mixed <var>$needle</var>, bool <var>$strict</var> = false ): mixed</code>
+  <p>
+    Context: array.<br/>
+    Alias of <a href="http://php.net/manual/en/function.array-search.php">array_search</a>.<br/>
+    Searches a given value and returns the corresponding key if successful.
+  </p>
 </div>
 <div class="ajax-area">
   <h1>search</h1>
 
-  <div>Searches <code>haystack</code> for <code>needle</code>.</div>
+  <div>Searches <var>$scalarObject->val</var> for <var>$needle</var>.</div>
 
   <div>
     <h3>Parameters</h3>
     <dl>
-      <dt>needle</dt>
+      <dt>$needle</dt>
       <dd>
-        <p>The searched value.</p>
-        <blockquote>
-          <strong>Note</strong>: If <code>needle</code> is a string,
-          the comparison is done in a case-sensitive manner.
-        </blockquote>
+        The searched value. If it is a string, the
+        comparison is done in a case-sensitive manner.
       </dd>
 
-      <dt>haystack</dt>
-      <dd>The array.</dd>
-
-      <dt>strict</dt>
+      <dt>$strict</dt>
       <dd>
-        If the third parameter <code>strict</code> is set to <code>TRUE</code> then the
+        If it is set to <code>TRUE</code> then the
         <strong>search()</strong> function will search for <em>identical</em> elements
-        in the <code>haystack</code>. This means it will also check the types of the
-        <code>needle</code> in the <code>haystack</code>, and objects must be the same instance.
+        in the <var>$scalarObject->val</var>. This means it will also check the types of the
+        <var>$needle</var> in the <var>$scalarObject->val</var>, and objects must be the same instance.
       </dd>
     </dl>
   </div>
@@ -44,11 +43,11 @@
   <div>
     <h3>Return Values</h3>
     <p>
-      Returns the key for <code>needle</code> if it is found in the
+      Returns the key for <var>$needle</var> if it is found in the
       array, <code>FALSE</code> otherwise.
     </p>
     <p>
-      If <code>needle</code> is found in <code>haystack</code> more than once, the
+      If <var>$needle</var> is found in <var>$scalarObject->val</var> more than once, the
       first matching key is returned. To return the keys for all matching values,
       use <a href="function.array-keys.php">array_keys()</a> with the optional
       <code>search_value</code> parameter instead.

@@ -9,14 +9,19 @@
 </head>
 <body>
 <div class="short-description">
-
+  <code>moneyFormat( string <var>$format</var> ): string</code>
+  <p>
+    Context: number.<br/>
+    Alias of <a href="http://php.net/manual/en/function.money-format.php">money_format</a>.<br/>
+    Formats a number as a currency.
+  </p>
 </div>
 <div class="ajax-area">
   <h1>moneyFormat</h1>
 
   <div>
     <strong>moneyFormat()</strong> returns a formatted version of
-    <code>number</code>.  This function wraps the C library
+    <var>$scalarObject->val</var>.  This function wraps the C library
     function <strong>strfmon()</strong>, with the difference that
     this implementation converts only one number at a time.
   </div>
@@ -24,7 +29,7 @@
   <div>
     <h3>Parameters</h3>
     <dl>
-      <dt>format</dt>
+      <dt>$format</dt>
       <dd>
         <p>The format specification consists of the following sequence:</p>
         <ul>
@@ -134,9 +139,6 @@
           <dd>Returns the <em>%</em> character.</dd>
         </dl>
       </dd>
-
-      <dt>number</dt>
-      <dd>The number to be formatted.</dd>
     </dl>
   </div>
 
@@ -144,7 +146,7 @@
     <h3>Return Values</h3>
     <p>
       Returns the formatted string. Characters before and after the formatting
-      string will be returned unchanged. Non-numeric <code>number</code> causes
+      string will be returned unchanged. Non-numeric <var>$scalarObject->val</var> causes
       returning <code>NULL</code> and emitting <code>E_WARNING</code>.
     </p>
   </div>

@@ -9,40 +9,42 @@
 </head>
 <body>
 <div class="short-description">
-
+  <code>substrAt( int <var>$start</var>, int <var>$length</var> = ? ): string</code>
+  <p>
+    Context: string.<br/>
+    Alias of <a href="http://php.net/manual/en/function.substr.php">substr</a>.<br/>
+    Return part of a string.
+  </p>
 </div>
 <div class="ajax-area">
   <h1>substrAt</h1>
 
   <div>
-    Returns the portion of <code>string</code> specified by the
-    <code>start</code> and <code>length</code> parameters.
+    Returns the portion of <var>$scalarObject->val</var> specified by the
+    <var>$start</var> and <var>$length</var> parameters.
   </div>
 
   <div>
     <h3>Parameters</h3>
     <dl>
-      <dt>string</dt>
-      <dd>The input string. Must be one character or longer.</dd>
-
-      <dt>start</dt>
+      <dt>$start</dt>
       <dd>
         <p>
-          If <code>start</code> is non-negative, the returned string will start at the
-          <code>start</code>'th position in <code>string</code>, counting from zero. For
+          If <var>$start</var> is non-negative, the returned string will start at the
+          <var>$start</var>'th position in <var>$scalarObject->val</var>, counting from zero. For
           instance, in the string '<em>abcdef</em>', the character at position <em>0</em>
           is '<em>a</em>', the character at position <em>2</em> is '<em>c</em>', and so forth.
         </p>
         <p>
-          If <code>start</code> is negative, the returned string will start at the
-          <code>start</code>'th character from the end of <code>string</code>.
+          If <var>$start</var> is negative, the returned string will start at the
+          <var>$start</var>'th character from the end of <var>$scalarObject->val</var>.
         </p>
         <p>
-          If <code>string</code> is less than
-          <code>start</code> characters long, <code>FALSE</code> will be returned.
+          If <var>$scalarObject->val</var> is less than
+          <var>$start</var> characters long, <code>FALSE</code> will be returned.
         </p>
 
-        <p><strong>Example #1 Using a negative <code>start</code></strong></p>
+        <p><strong>Example #1 Using a negative <var>$start</var></strong></p>
         <pre class="php-code">
           <?php
           $rest = substrAt("abcdef", -1);    // returns "f"
@@ -52,30 +54,30 @@
         </pre>
       </dd>
 
-      <dt>length</dt>
+      <dt>$length</dt>
       <dd>
         <p>
-          If <code>length</code> is given and is positive, the string
-          returned will contain at most <code>length</code> characters
-          beginning from <code>start</code> (depending on the length of
-          <code>string</code>).
+          If <var>$length</var> is given and is positive, the string
+          returned will contain at most <var>$length</var> characters
+          beginning from <var>$start</var> (depending on the length of
+          <var>$scalarObject->val</var>).
         </p>
         <p>
-          If <code>length</code> is given and is negative, then that many characters will be
-          omitted from the end of <code>string</code> (after the start position has been
-          calculated when a <code>start</code> is negative). If <code>start</code> denotes
+          If <var>$length</var> is given and is negative, then that many characters will be
+          omitted from the end of <var>$scalarObject->val</var> (after the start position has been
+          calculated when a <var>$start</var> is negative). If <var>$start</var> denotes
           the position of this truncation or beyond, <code>FALSE</code> will be returned.
         </p>
         <p>
-          If <code>length</code> is given and is <em>0</em>,
+          If <var>$length</var> is given and is <em>0</em>,
           <code>FALSE</code> or <code>NULL</code>, an empty string will be returned.
         </p>
         <p>
-          If <code>length</code> is omitted, the substring starting from
-          <code>start</code> until the end of the string will be returned.
+          If <var>$length</var> is omitted, the substring starting from
+          <var>$start</var> until the end of the string will be returned.
         </p>
 
-        <p><strong>Example #2 Using a negative <code>length</code></strong></p>
+        <p><strong>Example #2 Using a negative <var>$length</var></strong></p>
         <pre class="php-code">
           <?php
           $rest = substrAt("abcdef", 0, -1);  // returns "abcde"
@@ -91,7 +93,7 @@
   <div>
     <h3>Return Values</h3>
     <p>
-      Returns the extracted part of <code>string</code>;  or <code>FALSE</code>
+      Returns the extracted part of <var>$scalarObject->val</var>; or <code>FALSE</code>
       on failure, or an empty string.
     </p>
   </div>

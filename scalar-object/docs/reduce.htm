@@ -9,50 +9,52 @@
 </head>
 <body>
 <div class="short-description">
-
+  <code>reduce( callable <var>$reducer</var>, mixed <var>$initial</var> = NULL ): mixed</code>
+  <p>
+    Context: array.<br/>
+    Alias of <a href="http://php.net/manual/en/function.array-reduce.php">array_reduce</a>.<br/>
+    Iteratively reduce to a single value using a callback function.
+  </p>
 </div>
 <div class="ajax-area">
   <h1>reduce</h1>
 
   <div>
-    <strong>reduce()</strong> applies iteratively the <code>callback</code>
-    function to the elements of the <code>array</code>, so as to reduce the
+    <strong>reduce()</strong> applies iteratively the <var>$scalarObject->val</var>
+    function to the elements of the <var>$scalarObject->val</var>, so as to reduce the
     array to a single value.
   </div>
 
   <div>
     <h3>Parameters</h3>
     <dl>
-      <dt>array</dt>
-      <dd>The input array.</dd>
-
-      <dt>callback</dt>
+      <dt>$reducer</dt>
       <dd>
         <dl>
-          <dt>carry</dt>
+          <dt>$carry</dt>
           <dd>
             Holds the return value of the previous iteration; in the case of the
-            first iteration it instead holds the value of <code>initial</code>.
+            first iteration it instead holds the value of <var>$initial</var>.
           </dd>
 
-          <dt>item</dt>
+          <dt>$item</dt>
           <dd>Holds the value of the current iteration.</dd>
         </dl>
       </dd>
 
-      <dt>initial</dt>
+      <dt>$initial</dt>
       <dd>
-        If the optional <code>initial</code> is available, it will be used at the
-        beginning of the process, or as a final result in case the array is empty.
+        If available, it will be used at the beginning of the
+        process, or as a final result in case the array is empty.
       </dd>
     </dl>
   </div>
 
   <div>
     <h3>Return Values</h3>
-    <p>Returns the resulting value.</p>
+    <p>The resulting value.</p>
     <p>
-      If the array is empty and <code>initial</code> is not passed,
+      If the array is empty and <var>$initial</var> is not passed,
       <strong>reduce()</strong> returns <code>NULL</code>.
     </p>
   </div>

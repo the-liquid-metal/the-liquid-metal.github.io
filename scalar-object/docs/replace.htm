@@ -9,21 +9,25 @@
 </head>
 <body>
 <div class="short-description">
-
+  <code>replace( array <var>$array2</var>, array <var>...</var> ): array</code>
+  <p>
+    Context: array.<br/>
+    Alias of <a href="http://php.net/manual/en/function.array-replace.php">array_replace</a>.<br/>
+    Replaces elements from passed arrays into the first array.
+  </p>
 </div>
 <div class="ajax-area">
   <h1>replace</h1>
 
   <div>
     <p>
-      <strong>replace()</strong> replaces the values of
-      <code>array1</code> with values having the same keys in each of the following
-      arrays. If a key from the first array exists in the second array, its value
-      will be replaced by the value from the second array. If the key exists in the
-      second array, and not the first, it will be created in the first array.
-      If a key only exists in the first array, it will be left as is.
-      If several arrays are passed for replacement, they will be processed
-      in order, the later arrays overwriting the previous values.
+      <strong>replace()</strong> replaces the values of <var>$scalarObject->val</var> with values
+      having the same keys in each of the following arrays. If a key from the first array exists
+      in the second array, its value will be replaced by the value from the second array. If the
+      key exists in the second array, and not the first, it will be created in the first array. 
+      If a key only exists in the first array, it will be left as is. If several arrays are passed
+      for replacement, they will be processed in order, the later arrays overwriting the previous
+      values.
     </p>
     <p>
       <strong>replace()</strong> is not recursive : it will replace
@@ -34,10 +38,7 @@
   <div>
     <h3>Parameters</h3>
     <dl>
-      <dt>array1</dt>
-      <dd>The array in which elements are replaced.</dd>
-
-      <dt>array2</dt>
+      <dt>$array2</dt>
       <dd>The array from which elements will be extracted.</dd>
 
       <dt>...</dt>

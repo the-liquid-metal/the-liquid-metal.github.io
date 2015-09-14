@@ -9,13 +9,18 @@
 </head>
 <body>
 <div class="short-description">
-
+  <code>unshift( mixed <var>$value1</var>, mixed <var>...</var> ): array</code>
+  <p>
+    Context: array.<br/>
+    Alias of <a href="http://php.net/manual/en/function.array-unshift.php">array_unshift</a>.<br/>
+    Prepend one or more elements to the beginning.
+  </p>
 </div>
 <div class="ajax-area">
   <h1>unshift</h1>
 
   <div>
-    <strong>unshift()</strong> prepends passed elements to the front of the <code>array</code>.
+    <strong>unshift()</strong> prepends passed elements to the front of the <var>$scalarObject->val</var>.
     Note that the list of elements is prepended as a whole, so that the prepended elements
     stay in the same order.  All numerical array keys will be modified to start counting from
     zero while literal keys won't be touched.
@@ -24,17 +29,17 @@
   <div>
     <h3>Parameters</h3>
     <dl>
-      <dt>array</dt>
-      <dd>The input array.</dd>
-
-      <dt>value1</dt>
+      <dt>$value1</dt>
       <dd>First value to prepend.</dd>
+
+      <dt>...</dt>
+      <dd>another values to prepend.</dd>
     </dl>
   </div>
 
   <div>
     <h3>Return Values</h3>
-    <p>Returns the new number of elements in the <code>array</code>.</p>
+    <p>The new number of elements in the <var>$scalarObject->val</var>.</p>
   </div>
 
   <div class="examples">

@@ -9,7 +9,12 @@
 </head>
 <body>
 <div class="short-description">
-
+  <code>userIntersect( array <var>$array2</var>, array <var>...</var>, callable <var>$valueComparator</var> ): array</code>
+  <p>
+    Context: array.<br/>
+    Alias of <a href="http://php.net/manual/en/function.array-uintersect.php">array_uintersect</a>.<br/>
+    Computes the intersection, compares data using a callback function.
+  </p>
 </div>
 <div class="ajax-area">
   <h1>userIntersect</h1>
@@ -19,21 +24,23 @@
   <div>
     <h3>Parameters</h3>
     <dl>
-      <dt>array1</dt>
-      <dd>The first array.</dd>
-
-      <dt>array2</dt>
+      <dt>$array2</dt>
       <dd>The second array.</dd>
 
-      <dt>value_compare_func</dt>
-      <dd>The comparison function must return an integer less than, equal to, or greater than zero if
-        the first argument is considered to be respectively less than, equal to, or greater than the second.</dd>
+      <dt>...</dt>
+      <dd>More arrays to compare against</dd>
+
+      <dt>$valueComparator</dt>
+      <dd>
+        The comparison function must return an integer less than, equal to, or greater than zero if
+        the first argument is considered to be respectively less than, equal to, or greater than the second.
+      </dd>
     </dl>
   </div>
 
   <div>
     <h3>Return Values</h3>
-    <p>Returns an array containing all the values of <code>array1</code> that are present in all the arguments.</p>
+    <p>An array containing all the values of <var>$scalarObject->val</var> that are present in all the arguments.</p>
   </div>
 
   <div class="examples">

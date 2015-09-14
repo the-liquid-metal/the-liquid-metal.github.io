@@ -9,17 +9,22 @@
 </head>
 <body>
 <div class="short-description">
-
+  <code>round( int <var>$precision</var>, int <var>$mode</var> = PHP_ROUND_HALF_UP ): float</code>
+  <p>
+    Context: number.<br/>
+    Alias of <a href="http://php.net/manual/en/function.round.php">round</a>.<br/>
+    Rounds a float.
+  </p>
 </div>
 <div class="ajax-area">
   <h1>round</h1>
 
   <div>
     <p>
-      Returns the rounded value of <code>val</code> to
-      specified <code>precision</code>
+      Returns the rounded value of <var>$scalarObject->val</var> to
+      specified <var>$precision</var>
       (number of digits after the decimal point).
-      <code>precision</code> can also be negative or zero (default).
+      <var>$precision</var> can also be negative or zero (default).
     </p>
 
     <blockquote>
@@ -31,10 +36,7 @@
   <div>
     <h3>Parameters</h3>
     <dl>
-      <dt>val</dt>
-      <dd>The value to round</dd>
-
-      <dt>precision</dt>
+      <dt>$precision</dt>
       <dd>The optional number of decimal digits to round to.</dd>
 
       <dt>mode</dt>
@@ -52,7 +54,7 @@
             <tr>
               <td><code>PHP_ROUND_HALF_UP</code></td>
               <td>
-                Round <code>val</code> up to <code>precision</code> decimal places
+                Round <var>$scalarObject->val</var> up to <var>$precision</var> decimal places
                 away from zero, when it is half way there. Making 1.5 into 2 and -1.5 into -2.
               </td>
             </tr>
@@ -60,7 +62,7 @@
             <tr>
               <td><code>PHP_ROUND_HALF_DOWN</code></td>
               <td>
-                Round <code>val</code> down to <code>precision</code> decimal places
+                Round <var>$scalarObject->val</var> down to <var>$precision</var> decimal places
                 towards zero, when it is half way there. Making 1.5 into 1 and -1.5 into -1.
               </td>
             </tr>
@@ -68,7 +70,7 @@
             <tr>
               <td><code>PHP_ROUND_HALF_EVEN</code></td>
               <td>
-                Round <code>val</code> to <code>precision</code> decimal places
+                Round <var>$scalarObject->val</var> to <var>$precision</var> decimal places
                 towards the next even value.
               </td>
             </tr>
@@ -76,7 +78,7 @@
             <tr>
               <td><code>PHP_ROUND_HALF_ODD</code></td>
               <td>
-                Round <code>val</code> to <code>precision</code> decimal places
+                Round <var>$scalarObject->val</var> to <var>$precision</var> decimal places
                 towards the next odd value.
               </td>
             </tr>
@@ -106,7 +108,7 @@
       ?>
     </pre>
 
-    <p><strong>Example #2 <code>mode</code> examples</strong></p>
+    <p><strong>Example #2 <var>$mode</var> examples</strong></p>
     <pre class="php-code">
       <?php
       echo round(9.5, 0, PHP_ROUND_HALF_UP);   // 10
@@ -121,7 +123,7 @@
       ?>
     </pre>
 
-    <p><strong>Example #3 <code>mode with precision</code> examples</strong></p>
+    <p><strong>Example #3 <var>$mode</var> with <var>$precision</var> examples</strong></p>
     <pre class="php-code">
       <?php
       /* Using PHP_ROUND_HALF_UP with 1 decimal digit precision */

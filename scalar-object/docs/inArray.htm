@@ -9,35 +9,38 @@
 </head>
 <body>
 <div class="short-description">
-
+  <code>inArray( mixed <var>$needle</var>, boolean <var>$strict</var> = FALSE ): bool</code>
+  <p>
+    Context: array.<br/>
+    Alias of <a href="http://php.net/manual/en/function.in-array.php">in_array</a>.<br/>
+    Checks if a value exists.
+  </p>
 </div>
 <div class="ajax-area">
   <h1>inArray</h1>
 
   <div>
-    Searches <code>haystack</code> for <code>needle</code> using loose comparison 
-    unless <code>strict</code> is set.
+    Searches <var>$scalarObject->val</var> for <var>$needle</var> using loose comparison 
+    unless <var>$strict</var> is set.
   </div>
 
   <div>
     <h3>Parameters</h3>
     <dl>
-      <dt>needle</dt>
-      <dd><p>The searched value.</p>
-       <blockquote>
-         <strong>Note</strong>: If <code>needle</code> is a string,
-         the comparison is done in a case-sensitive manner.
+      <dt>$needle</dt>
+      <dd>
+        <p>The searched value.</p>
+        <blockquote>
+          <strong>Note</strong>: If <var>$needle</var> is a string,
+          the comparison is done in a case-sensitive manner.
         </blockquote>
       </dd>
 
-      <dt>haystack</dt>
-      <dd>The array.</dd>
-
-      <dt>strict</dt>
+      <dt>$strict</dt>
       <dd>
-        If the third parameter <code>strict</code> is set to <code>TRUE</code> then
+        If it is set to <code>TRUE</code> then
         the <strong>inArray()</strong> function will also check the types of the
-        <code>needle</code> in the <code>haystack</code>.
+        <var>$needle</var> in the <var>$scalarObject->val</var>.
       </dd>
     </dl>
   </div>
@@ -45,7 +48,7 @@
   <div>
     <h3>Return Values</h3>
     <p>
-      Returns <code>TRUE</code> if <code>needle</code> is found in the array,
+      Returns <code>TRUE</code> if <var>$needle</var> is found in the array,
       <code>FALSE</code> otherwise.
     </p>
   </div>

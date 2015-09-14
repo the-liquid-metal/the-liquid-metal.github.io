@@ -9,26 +9,27 @@
 </head>
 <body>
 <div class="short-description">
-
+  <code>numberFormat( int <var>$decimals</var>, string <var>$decPoint</var> = <span class="php-quote">".", string <var>$thousandsSep</var> = "," ): string</code>
+  <p>
+    context: number.<br/>
+    Alias of <a href="http://php.net/manual/en/function.number-format.php">number_format</a>.<br/>
+    Format a number with grouped thousands.
+  </p>
 </div>
 <div class="ajax-area">
   <h1>numberFormat</h1>
 
   <div>
-    <p>This function accepts either one, two, or four parameters (not three):</p>
+    <p>This function accepts either one or three parameters (not two):</p>
     <p>
-      If only one parameter is given, <code>number</code> will be formatted without
-      decimals, but with a comma (",") between every group of thousands.
-    </p>
-    <p>
-      If two parameters are given, <code>number</code> will be formatted with
-      <code>decimals</code> decimals with a dot (".") in front, and a comma (",")
+      If one parameters are given, <var>$scalarObject->val</var> will be formatted with
+      <var>$decimals</var> decimals with a dot (".") in front, and a comma (",")
       between every group of thousands.
     </p>
     <p>
-      If all four parameters are given, <code>number</code> will be formatted with
-      <code>decimals</code> decimals, <code>dec_point</code> instead of a dot (".")
-      before the decimals and <code>thousands_sep</code> instead of a comma (",")
+      If all three parameters are given, <var>$scalarObject->val</var> will be formatted with
+      <var>$decimals</var> decimals, <var>$decPoint</var> instead of a dot (".")
+      before the decimals and <var>$thousandsSep</var> instead of a comma (",")
       between every group of thousands.
     </p>
   </div>
@@ -36,23 +37,20 @@
   <div>
     <h3>Parameters</h3>
     <dl>
-      <dt>number</dt>
-      <dd>The number being formatted.</dd>
-
-      <dt>decimals</dt>
+      <dt>$decimals</dt>
       <dd>Sets the number of decimal points.</dd>
 
-      <dt>dec_point</dt>
+      <dt>$decPoint</dt>
       <dd>Sets the separator for the decimal point.</dd>
 
-      <dt>thousands_sep</dt>
+      <dt>$thousandsSep</dt>
       <dd>Sets the thousands separator.</dd>
     </dl>
   </div>
 
   <div>
     <h3>Return Values</h3>
-    <p>A formatted version of <code>number</code>.</p>
+    <p>A formatted version of <var>$scalarObject->val</var>.</p>
   </div>
 
   <div class="examples">

@@ -9,18 +9,23 @@
 </head>
 <body>
 <div class="short-description">
-
+    <code>userAssocDiff( array <var>$array2</var>, array <var>...</var>, callable <var>$keyComparator</var> ): array</code>
+    <p>
+      Context: array.<br/>
+      Alias of <a href="http://php.net/manual/en/function.array-diff-uassoc.php">array_diff_uassoc</a>.<br/>
+      Computes the difference with additional index check which is performed using a callback function.
+    </p>
 </div>
 <div class="ajax-area">
   <h1>userAssocDiff</h1>
 
   <div>
     <p>
-      Compares <code>array1</code> against <code>array2</code> and returns the difference. Unlike
-      <a href="function.array-diff.php">array_diff()</a> the array keys are used in the comparison.
+      Compares <var>$scalarObject->val</var> against <var>$array2</var> and returns the difference. Unlike
+      <a href="diff.htm">diff()</a> the array keys are used in the comparison.
     </p>
     <p>
-      Unlike <a href="function.array-diff-assoc.php">array_diff_assoc()</a> an user supplied callback
+      Unlike <a href="assocDiff.htm">assocDiff()</a> an user supplied callback
       function is used for the indices comparison, not internal function.
     </p>
   </div>
@@ -28,16 +33,13 @@
   <div>
     <h3>Parameters</h3>
     <dl>
-      <dt>array1</dt>
-      <dd>The array to compare from</dd>
-
-      <dt>array2</dt>
+      <dt>$array2</dt>
       <dd>An array to compare against</dd>
 
       <dt>...</dt>
       <dd>More arrays to compare against</dd>
 
-      <dt>key_compare_func</dt>
+      <dt>$keyComparator</dt>
       <dd>
         The comparison function must return an integer less than, equal to, or greater than zero if the
         first argument is considered to be respectively less than, equal to, or greater than the second.
@@ -49,15 +51,15 @@
     <h3>Return Values</h3>
     <p>
       Returns an array containing all the entries from
-      <code>array1</code> that are not present in any of the other arrays.
+      <var>$scalarObject->val</var> that are not present in any of the other arrays.
     </p>
   </div>
 
   <div class="examples">
     <p><strong>Example #1 userAssocDiff() example</strong></p>
     <div>
-      The <em>"a" => "green"</em> pair is present in both arrays and thus it is not in the
-      output from the function. Unlike this, the pair <em>0 => "red"</em> is in the output
+      The <code>"a" => "green"</code> pair is present in both arrays and thus it is not in the
+      output from the function. Unlike this, the pair <code>0 => "red"</code> is in the output
       because in the second argument <em>"red"</em> has key which is <em>1</em>.
     </div>
     <pre class="php-code">
@@ -93,7 +95,7 @@
   <blockquote>
     <strong>Note</strong>: This function only checks one dimension of a n-dimensional
     array. Of course you can check deeper dimensions by using, for example,
-    <em>userAssocDiff($array1[0], $array2[0], "key_compare_func");</em>.
+    <code>userAssocDiff($array1[0], $array2[0], "key_compare_func");</code>.
   </blockquote>
 </div>
 </body>

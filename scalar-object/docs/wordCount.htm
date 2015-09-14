@@ -9,20 +9,25 @@
 </head>
 <body>
 <div class="short-description">
-
+  <code>wordCount( int <var>$format</var> = 0, string <var>$charList</var> = null ): mixed</code>
+  <p>
+    Context: string.<br/>
+    Alias of <a href="http://php.net/manual/en/function.str-word-count.php">str_word_count</a>.<br/>
+    Return information about words used in a string.
+  </p>
 </div>
 <div class="ajax-area">
   <h1>wordCount</h1>
 
   <div>
     <p>
-      Counts the number of words inside <code>string</code>. 
-      If the optional <code>format</code> is not specified, then 
+      Counts the number of words inside <var>$scalarObject->val</var>. 
+      If the optional <var>$format</var> is not specified, then 
       the return value will be an integer representing the number of words 
-      found. In the event the <code>format</code> is specified, the return
+      found. In the event the <var>$format</var> is specified, the return
       value will be an array, content of which is dependent on the 
-      <code>format</code>. The possible value for the 
-      <code>format</code> and the resultant outputs are listed below.
+      <var>$format</var>. The possible value for the 
+      <var>$format</var> and the resultant outputs are listed below.
     </p>
     <p>
       For the purpose of this function, 'word' is defined as a locale dependent
@@ -34,34 +39,31 @@
   <div>
     <h3>Parameters</h3>
     <dl>
-      <dt>string</dt>
-      <dd>The string</dd>
-
-      <dt>format</dt>
+      <dt>$format</dt>
       <dd>
         <p>Specify the return value of this function. The current supported values are:</p>
         <ul>
           <li>0 - returns the number of words found</li>
           <li>
             1 - returns an array containing all the words found inside the
-            <code>string</code>
+            <var>$scalarObject->val</var>
           </li>
           <li>
             2 - returns an associative array, where the key is the numeric
-            position of the word inside the <code>string</code> and
+            position of the word inside the <var>$scalarObject->val</var> and
             the value is the actual word itself
           </li> 
         </ul>
       </dd>
   
-      <dt>charlist</dt>
+      <dt>$charlist</dt>
       <dd>A list of additional characters which will be considered as 'word'</dd>
     </dl>
   </div>
 
   <div>
     <h3>Return Values</h3>
-    <p>Returns an array or an integer, depending on the <code>format</code> chosen.</p>
+    <p>An array or an integer, depending on the <var>$format</var> chosen.</p>
   </div>
 
   <div class="examples">

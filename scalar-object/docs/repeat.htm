@@ -9,14 +9,19 @@
 </head>
 <body>
 <div class="short-description">
-
+  <code>repeat( int <var>$multiplier</var> ): string</code>
+  <p>
+    Context: string.<br/>
+    Alias of <a href="http://php.net/manual/en/function.str-repeat.php">str_repeat</a>.<br/>
+    Repeat a string.
+  </p>
 </div>
 <div class="ajax-area">
   <h1>repeat</h1>
 
   <div>
-    Returns <code>input</code> repeated
-    <code>multiplier</code> times.
+    Returns <var>$scalarObject->val</var> repeated
+    <var>$multiplier</var> times.
   </div>
 
   <div>
@@ -27,10 +32,10 @@
 
       <dt>multiplier</dt>
       <dd>
-        <p>Number of time the <code>input</code> string should be repeated.</p>
+        <p>Number of time the <var>$scalarObject->val</var> string should be repeated.</p>
         <p>
-          <code>multiplier</code> has to be greater than or equal to 0. If the
-          <code>multiplier</code> is set to 0, the function will return an empty string.
+          <var>$multiplier</var> has to be greater than or equal to 0. If the
+          <var>$multiplier</var> is set to 0, the function will return an empty string.
         </p>
       </dd>
     </dl>

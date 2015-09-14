@@ -9,25 +9,20 @@
 </head>
 <body>
 <div class="short-description">
-
+  <code>pow( number <var>$exp</var> ): number</code>
+  <p>
+    Context: number.<br/>
+    Alias of <a href="http://php.net/manual/en/function.pow.php">pow</a>.<br/>
+    Exponential expression.
+  </p>
 </div>
 <div class="ajax-area">
   <h1>pow</h1>
 
   <div>
-    <p>Returns <code>base</code> raised to the power of<code>exp</code>.</p>
-    <blockquote>
-      <strong>Note</strong>: In PHP 5.6 onwards, you may prefer to use the ** operator.
-    </blockquote>
-  </div>
-
-  <div>
     <h3>Parameters</h3>
     <dl>
-      <dt>base</dt>
-      <dd>The base to use</dd>
-
-      <dt>exp</dt>
+      <dt>$exp</dt>
       <dd>The exponent</dd>
     </dl>
   </div>
@@ -35,8 +30,8 @@
   <div>
     <h3>Return Values</h3>
     <p>
-      <code>base</code> raised to the power of <code>exp</code>. If both arguments are
-      non-negative integers and the result can be represented as an integer, the result
+      <var>$scalarObject->val</var> raised to the power of <var>$exp</var>. If both arguments
+      are non-negative integers and the result can be represented as an integer, the result
       will be returned with integer type, otherwise it will be returned as a float.
     </p>
   </div>

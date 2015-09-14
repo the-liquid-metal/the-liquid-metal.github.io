@@ -9,37 +9,36 @@
 </head>
 <body>
 <div class="short-description">
-
+  <code>map( callable <var>$mapper</var> ): array</code>
+  <p>
+    Context: array.<br/>
+    Alias of <a href="http://php.net/manual/en/function.array-map.php">array_map</a>.<br/>
+    Applies the callback to the elements.
+  </p>
 </div>
 <div class="ajax-area">
   <h1>map</h1>
 
   <div>
     <strong>map()</strong> returns an array containing all the elements of
-    <code>array1</code> after applying the <code>callback</code> function to each
-    one. The number of parameters that the <code>callback</code> function accepts
+    <code>array1</code> after applying the <var>$mapper</var> function to each
+    one. The number of parameters that the <var>$mapper</var> function accepts
     should match the number of arrays passed to the <strong>map()</strong>
   </div>
 
   <div>
     <h3>Parameters</h3>
     <dl>
-      <dt>callback</dt>
+      <dt>$mapper</dt>
       <dd>Callback function to run for each element in each array.</dd>
-
-      <dt>array1</dt>
-      <dd>An array to run through the <code>callback</code> function.</dd>
-
-      <dt>...</dt>
-      <dd>Variable list of array arguments to run through the <code>callback</code> function.</dd>
     </dl>
   </div>
 
   <div>
     <h3>Return Values</h3>
     <p>
-      Returns an array containing all the elements of <code>array1</code>
-      after applying the <code>callback</code> function to each one.
+      An array containing all the elements of <code>array1</code>
+      after applying the <var>$mapper</var> function to each one.
     </p>
   </div>
 

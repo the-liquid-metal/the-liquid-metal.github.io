@@ -9,14 +9,19 @@
 </head>
 <body>
 <div class="short-description">
-
+  <code>substrCount( string <var>$needle</var>, int <var>$offset</var>, int <var>$length</var> ): int</code>
+  <p>
+    Context: string.<br/>
+    Alias of <a href="http://php.net/manual/en/function.substr-count.php">substr_count</a>.<br/>
+    Count the number of substring occurrences.
+  </p>
 </div>
 <div class="ajax-area">
   <h1>substrCount</h1>
   <div>
     <p>
-      <strong>substrCount()</strong> returns the number of times the <code>needle</code> substring
-      occurs in the <code>haystack</code> string. Please note that <code>needle</code> is case sensitive.
+      <strong>substrCount()</strong> returns the number of times the <var>$needle</var> substring
+      occurs in the <var>$scalarObject->val</var> string. Please note that <var>$needle</var> is case sensitive.
     </p>
     <blockquote>
       <strong>Note</strong>: This function doesn't count overlapped substrings. See the example below!
@@ -26,19 +31,16 @@
   <div>
     <h3>Parameters</h3>
     <dl>
-      <dt>haystack</dt>
-      <dd>The string to search in</dd>
-
-      <dt>needle</dt>
+      <dt>$needle</dt>
       <dd>The substring to search for</dd>
 
-      <dt>offset</dt>
+      <dt>$offset</dt>
       <dd>The offset where to start counting</dd>
 
-      <dt>length</dt>
+      <dt>$length</dt>
       <dd>
         The maximum length after the specified offset to search for the substring. It outputs
-        a warning if the offset plus the length is greater than the <code>haystack</code> length.
+        a warning if the offset plus the length is greater than the <var>$scalarObject->val</var> length.
       </dd>
     </dl>
   </div>

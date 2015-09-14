@@ -9,32 +9,34 @@
 </head>
 <body>
 <div class="short-description">
-
+  <code>lastOccurSubstr( mixed <var>$needle</var> ): string</code>
+  <p>
+    Context: string.<br/>
+    Alias of <a href="http://php.net/manual/en/function.strrchr.php">strrchr</a>.<br/>
+    Find the last occurrence of a character.
+  </p>
 </div>
 <div class="ajax-area">
   <h1>lastOccurSubstr</h1>
 
   <div>
-    This function returns the portion of <code>haystack</code> which
-    starts at the last occurrence of <code>needle</code> and goes
-    until the end of <code>haystack</code>.
+    This function returns the portion of <var>$scalarObject->val</var> which
+    starts at the last occurrence of <var>$needle</var> and goes
+    until the end of <var>$scalarObject->val</var>.
   </div>
 
   <div>
     <h3>Parameters</h3>
     <dl>
-      <dt>haystack</dt>
-      <dd>The string to search in</dd>
-
-      <dt>needle</dt>
+      <dt>$needle</dt>
       <dd>
         <p>
-          If <code>needle</code> contains more than one character, only the first is used. This
+          If it contains more than one character, only the first is used. This
           behavior is different from that of <a href="firstOccurSubstr.htm">firstOccurSubstr()</a>.
          </p>
         <p>
-          If <code>needle</code> is not a string, it is converted to
-          an integer and applied as the ordinal value of a character.
+          If it is not a string, it is converted to an integer
+          and applied as the ordinal value of a character.
         </p>
       </dd>
     </dl>
@@ -43,8 +45,8 @@
   <div>
     <h3>Return Values</h3>
     <p>
-     This function returns the portion of string, or <code>FALSE</code> if
-     <code>needle</code> is not found.
+      This function returns the portion of string, or <code>FALSE</code> if
+      <var>$needle</var> is not found.
     </p>
   </div>
 
@@ -62,6 +64,6 @@
     </pre>
   </div>
 
-  <blockquote><strong>Note</strong>:This function is binary-safe.</blockquote>
+  <blockquote><strong>Note</strong>: This function is binary-safe.</blockquote>
 </div>
 </body>

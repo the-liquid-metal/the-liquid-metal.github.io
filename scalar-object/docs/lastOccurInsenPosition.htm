@@ -9,7 +9,12 @@
 </head>
 <body>
 <div class="short-description">
-
+  <code>lastOccurInsenPosition( string <var>$needle</var>, int <var>$offset</var> ): int</code>
+  <p>
+    Context: string.<br/>
+    Alias of <a href="http://php.net/manual/en/function.strripos.php">strripos</a>.<br/>
+    Find the position of the last occurrence of a case-insensitive substring.
+  </p>
 </div>
 <div class="ajax-area">
   <h1>lastOccurInsenPosition</h1>
@@ -17,7 +22,7 @@
   <div>
     <p>
       Find the numeric position of the last occurrence of
-      <code>needle</code> in the <code>haystack</code> string.
+      <var>$needle</var> in the <var>$scalarObject->val</var> string.
     </p>
     <p> 
       Unlike the <a href="lastOccurPosition.htm">lastOccurPosition()</a>,
@@ -28,16 +33,13 @@
   <div>
     <h3>Parameters</h3>
     <dl>
-      <dt>haystack</dt>
-      <dd>The string to search in.</dd>
-
-      <dt>needle</dt>
+      <dt>$needle</dt>
       <dd>
-        If <code>needle</code> is not a string, it is converted
+        If <var>$needle</var> is not a string, it is converted
         to an integer and applied as the ordinal value of a character.
       </dd>
 
-      <dt>offset</dt>
+      <dt>$offset</dt>
       <dd>
         If specified, search will start this number of characters counted from the
         beginning of the string. If the value is negative, search will instead start
@@ -50,7 +52,7 @@
     <h3>Return Values</h3>
     <p>
       Returns the position where the needle exists relative to the beginnning of
-      the <code>haystack</code> string (independent of search direction
+      the <var>$scalarObject->val</var> string (independent of search direction
       or offset). Also note that string positions start at 0, and not 1.
     </p>
     <p>Returns <code>FALSE</code> if the needle was not found.</p>

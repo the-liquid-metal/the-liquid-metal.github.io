@@ -9,30 +9,32 @@
 </head>
 <body>
 <div class="short-description">
-
+  <code>userAssocIntersect( array <var>$array2</var>, array <var>...</var>, callable <var>$keyComparator</var> ): array</code>
+  <p>
+    Context: array.<br/>
+    Alias of <a href="http://php.net/manual/en/function.array-intersect-uassoc.php">array_intersect_uassoc</a>.<br/>
+    Computes the intersection with additional index check, compares indexes using a callback function.
+  </p>
 </div>
 <div class="ajax-area">
   <h1>userAssocIntersect</h1>
 
   <div>
     <strong>userAssocIntersect()</strong> returns an array containing all the values of
-    <code>array1</code> that are present in all the arguments. Note that the keys are used in
-    the comparison unlike in <a href="function.array-intersect.php">array_intersect()</a>.
+    <var>$scalarObject->val</var> that are present in all the arguments. Note that the keys are used in
+    the comparison unlike in <a href="intersect.htm">intersect()</a>.
   </div>
 
   <div>
     <h3>Parameters</h3>
     <dl>
-      <dt>array1</dt>
-      <dd>Initial array for comparison of the arrays.</dd>
-
-      <dt>array2</dt>
+      <dt>$array2</dt>
       <dd>First array to compare keys against.</dd>
 
       <dt>...</dt>
       <dd>Variable list of array arguments to compare values against.</dd>
 
-      <dt>key_compare_func</dt>
+      <dt>$keyComparator</dt>
       <dd>
         The comparison function must return an integer less than, equal to, or greater than zero if the
         first argument is considered to be respectively less than, equal to, or greater than the second.
@@ -42,7 +44,7 @@
 
   <div>
     <h3>Return Values</h3>
-    <p>Returns the values of <code>array1</code> whose values exist in all of the arguments.</p>
+    <p>Returns the values of <var>$scalarObject->val</var> whose values exist in all of the arguments.</p>
   </div>
 
   <div class="examples">

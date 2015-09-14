@@ -9,24 +9,26 @@
 </head>
 <body>
 <div class="short-description">
-
+  <code>userKeySort( callable <var>$keyComparator</var> ): $array</code>
+  <p>
+    Context: array.<br/>
+    Alias of <a href="http://php.net/manual/en/function.uksort.php">uksort</a>.<br/>
+    Sorts keys using a callback function.
+  </p>
 </div>
 <div class="ajax-area">
   <h1>userKeySort</h1>
 
   <div>
-    <strong>userKeySort()</strong> will sort the keys of an array using a user-supplied comparison
-    function.  If the array you wish to sort needs to be sorted by some non-trivial criteria, you
+    <strong>userKeySort()</strong> will sort the keys of <var>$scalarObject->val</var> using a user-supplied comparison
+    function.  If the <var>$scalarObject->val</var> you wish to sort needs to be sorted by some non-trivial criteria, you
     should use this function.
   </div>
 
   <div>
     <h3>Parameters</h3>
     <dl>
-      <dt>array</dt>
-      <dd>The input array.</dd>
-
-      <dt>key_compare_func</dt>
+      <dt>$keyComparator</dt>
       <dd>
         The comparison function must return an integer less than, equal to, or greater than zero if the
         first argument is considered to be respectively less than, equal to, or greater than the second.

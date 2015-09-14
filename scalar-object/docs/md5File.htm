@@ -9,13 +9,18 @@
 </head>
 <body>
 <div class="short-description">
-
+  <code>md5File( bool <var>$rawOutput</var> = false ): string</code>
+  <p>
+    Context: string.<br/>
+    Alias of <a href="http://php.net/manual/en/function.md5-file.php">md5_file</a>.<br/>
+    Calculate the md5 hash of a given file.
+  </p>
 </div>
 <div class="ajax-area">
   <h1>md5File</h1>
 
   <div>
-    Calculates the MD5 hash of the file specified by the <code>filename</code> parameter
+    Calculates the MD5 hash of the file specified by the <var>$scalarObject->val</var> parameter
     using the <a href="http://www.faqs.org/rfcs/rfc1321">&raquo; RSA Data Security, Inc. 
     MD5 Message-Digest Algorithm</a>, and returns that hash. The hash is a 32-character
     hexadecimal number.
@@ -24,10 +29,7 @@
   <div>
     <h3>Parameters</h3>
     <dl>
-      <dt>filename</dt>
-      <dd>The filename</dd>
-
-      <dt>raw_output</dt>
+      <dt>$rawOutput</dt>
       <dd>When <code>TRUE</code>, returns the digest in raw binary format with a length of 16.</dd>
     </dl>
   </div>

@@ -9,7 +9,12 @@
 </head>
 <body>
 <div class="short-description">
-
+  <code>htmlCharEncode( int <var>$flags</var> = ENT_COMPAT | ENT_HTML401, string <var>$encoding</var> = ini_get("default_charset"), bool <var>$doubleEncode</var> = true ): string</code>
+  <p>
+    Context: string.<br/>
+    Alias of <a href="http://php.net/manual/en/function.htmlspecialchars.php">htmlspecialchars</a>.<br/>
+    Convert special characters to HTML entities.
+  </p>
 </div>
 <div class="ajax-area">
   <h1>htmlCharEncode</h1>
@@ -43,10 +48,7 @@
   <div>
     <h3>Parameters</h3>
     <dl>
-      <dt>string</dt>
-      <dd>The string being converted.</dd>
-
-      <dt>flags</dt>
+      <dt>$flags</dt>
       <dd>
         <p>
           A bitmask of one or more of the following flags, which specify how to handle quotes,
@@ -54,7 +56,7 @@
           | ENT_HTML401</em>.
         </p>
         <table class="table">
-          <caption><strong>Available <code>flags</code> constants</strong></caption>
+          <caption><strong>Available <var>$flags</var> constants</strong></caption>
           <thead>
             <tr>
               <th>Constant Name</th>
@@ -127,13 +129,13 @@
         </table>
       </dd>
 
-      <dt>encoding</dt>
+      <dt>$encoding</dt>
       <dd>
         <p>
           An optional argument defining the encoding used when converting characters.
         </p>
         <p>
-          If omitted, the default value of the <code>encoding</code> varies depending on the PHP version
+          If omitted, the default value of the <var>$encoding</var> varies depending on the PHP version
           in use. In PHP 5.6 and later, the <a href="ini.core.php#ini.default-charset">default_charset</a>
           configuration option is used as the default value. PHP 5.4 and 5.5 will use <em>UTF-8</em> as
           the default. Earlier versions of PHP use <em>ISO-8859-1</em>.
@@ -147,7 +149,7 @@
         <p>
           For the purposes of this function, the encodings <em>ISO-8859-1</em>, <em>ISO-8859-15</em>, <em>UTF-8</em>,
           <em>cp866</em>, <em>cp1251</em>, <em>cp1252</em>, and <em>KOI8-R</em> are effectively equivalent, provided
-          the <code>string</code> itself is valid for the encoding, as the characters affected by
+          the <var>$scalarObject->val</var> itself is valid for the encoding, as the characters affected by
           <strong>htmlCharEncode()</strong> occupy the same positions in all of these encodings.
         </p>
 
@@ -269,9 +271,9 @@
         </blockquote>
       </dd>
 
-      <dt>double_encode</dt>
+      <dt>$doubleEncode</dt>
       <dd>
-        When <code>double_encode</code> is turned off PHP will not
+        When it is turned off PHP will not
         encode existing html entities, the default is to convert everything.
       </dd>
     </dl>
@@ -281,8 +283,8 @@
     <h3>Return Values</h3>
     <p>The converted string.</p>
     <p>
-      If the input <code>string</code> contains an invalid code unit sequence within the
-      given <code>encoding</code> an empty string will be returned, unless either the
+      If the input <var>$scalarObject->val</var> contains an invalid code unit sequence within the
+      given <var>$encoding</var> an empty string will be returned, unless either the
       <code>ENT_IGNORE</code> or <code>ENT_SUBSTITUTE</code> flags are set.
     </p>
   </div>
