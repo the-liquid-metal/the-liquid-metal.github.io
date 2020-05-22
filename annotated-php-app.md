@@ -170,6 +170,8 @@
 * Reportico (PHP Reporting Tool)
 * Kalkun (SMS management)
 * ISPConfig Hosting Control Panel
+* SuiteCRM
+* HuMo-genealogy
 
 ## WTF
 * OTA Hotel Management / OTA Tour Management / OTA Vehicle Management
