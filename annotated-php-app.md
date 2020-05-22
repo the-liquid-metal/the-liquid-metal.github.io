@@ -112,6 +112,7 @@
 * SimpleHRM
 * TimeTrex
 * WaypointHR
+* Sentrifugo
 
 ## IT management
 * daloRADIUS
