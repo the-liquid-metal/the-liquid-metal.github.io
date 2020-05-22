@@ -165,3 +165,6 @@
 
 ## survey management
 * LimeSurvey
+
+## potential
+* Reportico (PHP Reporting Tool)
