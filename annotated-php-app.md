@@ -168,3 +168,5 @@
 
 ## potential
 * Reportico (PHP Reporting Tool)
+* Kalkun (SMS management)
+* ISPConfig Hosting Control Panel
