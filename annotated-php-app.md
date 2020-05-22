@@ -170,3 +170,6 @@
 * Reportico (PHP Reporting Tool)
 * Kalkun (SMS management)
 * ISPConfig Hosting Control Panel
+
+## WTF
+* OTA Hotel Management / OTA Tour Management / OTA Vehicle Management
