@@ -176,6 +176,7 @@
 * HuMo-genealogy
 * PhreeBooks 5
 * SaltOS
+* Fleetco (Fleet Maintenance Management)
 
 ## WTF
 * OTA Hotel Management / OTA Tour Management / OTA Vehicle Management
