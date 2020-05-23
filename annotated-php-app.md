@@ -184,6 +184,7 @@
 * ownCloud
 * Nextcloud
 * Laundry Management System
+* Human Flow HRMS
 
 ## WTF
 * OTA Hotel Management / OTA Tour Management / OTA Vehicle Management
