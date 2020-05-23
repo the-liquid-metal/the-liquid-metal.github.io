@@ -88,6 +88,7 @@
 * SquirrelMail
 
 ## files manager
+* elFinder
 * eXtplorer
 * ext-ux-filebrowserpanel
 
