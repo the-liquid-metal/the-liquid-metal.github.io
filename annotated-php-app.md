@@ -181,6 +181,8 @@
 * CalemEAM (Open Source EAM/CMMS)
 * open enventory
 * KADOS (KAnban Dashboard for Online Scrum)
+* ownCloud
+* Nextcloud
 
 ## WTF
 * OTA Hotel Management / OTA Tour Management / OTA Vehicle Management
