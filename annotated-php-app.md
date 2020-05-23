@@ -186,6 +186,7 @@
 * Laundry Management System
 * Human Flow HRMS
 * TreoPIM (Product Information Management)
+* Church Event Management System
 
 ## WTF
 * OTA Hotel Management / OTA Tour Management / OTA Vehicle Management
