@@ -175,6 +175,7 @@
 * SuiteCRM
 * HuMo-genealogy
 * PhreeBooks 5
+* SaltOS
 
 ## WTF
 * OTA Hotel Management / OTA Tour Management / OTA Vehicle Management
