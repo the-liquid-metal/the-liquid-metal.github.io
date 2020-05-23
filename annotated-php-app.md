@@ -183,6 +183,7 @@
 * KADOS (KAnban Dashboard for Online Scrum)
 * ownCloud
 * Nextcloud
+* Laundry Management System
 
 ## WTF
 * OTA Hotel Management / OTA Tour Management / OTA Vehicle Management
