@@ -73,6 +73,7 @@
 * MediaWiki
 * Omeka
 * Online Examination System
+* Open-LIMS (Laboratory Information Management System)
 * Open-School
 * openSIS
 * PhpGedView
