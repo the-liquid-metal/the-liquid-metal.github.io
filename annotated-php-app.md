@@ -173,6 +173,7 @@
 * ISPConfig Hosting Control Panel
 * SuiteCRM
 * HuMo-genealogy
+* PhreeBooks 5
 
 ## WTF
 * OTA Hotel Management / OTA Tour Management / OTA Vehicle Management
