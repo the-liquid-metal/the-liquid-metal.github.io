@@ -178,6 +178,7 @@
 * SaltOS
 * Fleetco (Fleet Maintenance Management)
 * TEMS (Time and Expense Management)
+* CalemEAM (Open Source EAM/CMMS)
 
 ## WTF
 * OTA Hotel Management / OTA Tour Management / OTA Vehicle Management
