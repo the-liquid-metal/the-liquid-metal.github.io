@@ -185,6 +185,7 @@
 * Nextcloud
 * Laundry Management System
 * Human Flow HRMS
+* TreoPIM (Product Information Management)
 
 ## WTF
 * OTA Hotel Management / OTA Tour Management / OTA Vehicle Management
