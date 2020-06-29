@@ -1,0 +1,861 @@
+<html>
+<head>
+    <script src="jquery-2.0.3.min.js"></script>
+    <script src="jquery.snippet.min.js"></script>
+    <script src="individual.js"></script>
+    <link rel="stylesheet" href="jquery.snippet.min.css"/>
+    <link rel="stylesheet" href="inject.css"/>
+    <link rel="stylesheet" href="individual.css"/>
+</head>
+<body>
+<div class="ajax-area">
+    <h1>userSort</h1>
+
+    <div class="short-description">
+        <code>userSort( callable <var>$valueComparator</var> ): array</code>
+        <p>
+            Alias of <a href="http://php.net/manual/en/function.usort.php">usort</a>.<br/>
+            Sorts values using a callback function.
+        </p>
+    </div>
+
+    <div>
+        <p>
+            This function will sort <var>$scalarObject->val</var> by its values using a user-supplied
+            comparison function.  If the array you wish to sort needs to be sorted by
+            some non-trivial criteria, you should use this function.
+        </p>
+
+        <blockquote>
+            <strong>Note</strong>: If two members compare as equal, their
+            relative order in the sorted array is undefined.
+        </blockquote>
+
+        <blockquote>
+            <strong>Note</strong>: This function assigns new keys to the elements
+            in <var>$scalarObject->val</var>. It will remove any existing keys that may have
+            been assigned, rather than just reordering the keys.
+        </blockquote>
+    </div>
+
+    <div>
+        <h3>Parameters</h3>
+        <dl>
+            <dt>$valueComparator</dt>
+            <dd>
+                <p>
+                    The comparison function must return an integer less than, equal to, or greater
+                    than zero if the first argument is considered to be respectively less than,
+                    equal to, or greater than the second.
+                </p>
+
+                <div class="caution">
+                    <strong>Caution</strong><br/>
+                    Returning <em>non-integer</em> values from the comparison function, such as
+                    float, will result in an internal cast to integer of the callback's return value.
+                    So values such as 0.99 and 0.1 will both be cast to an integer value of 0, which
+                    will compare such values as equal.
+                    </p>
+                </div>
+            </dd>
+        </dl>
+    </div>
+
+    <div>
+        <h3>Return Values</h3>
+        <p>Returns <code>TRUE</code> on success or <code>FALSE</code> on failure.</p>
+    </div>
+
+    <div class="examples">
+        <p><strong>Example #1 userSort() example</strong></p>
+        <pre class="php-code">
+      <?php
+      function cmp($a, $b)
+      {
+          if ($a == $b) {
+              return 0;
+          }
+          return ($a &lt; $b) ? -1 : 1;
+      }
+
+      $a = array(3, 2, 5, 6, 1);
+
+      userSort($a, "cmp");
+
+      foreach ($a as $key => $value) {
+          echo "$key: $value\n";
+      }
+      ?>
+    </pre>
+
+        <div>The above example will output:</div>
+        <pre class="output">
+      0: 1
+      1: 2
+      2: 3
+      3: 5
+      4: 6
+    </pre>
+
+        <blockquote>
+            <strong>Note</strong>: Obviously in this trivial case the
+            <a href="sort.htm">sort()</a> function would be more appropriate.
+        </blockquote>
+
+        <p><strong>Example #2 userSort() example using multi-dimensional array</strong></p>
+        <pre class="php-code">
+      <?php
+      function cmp($a, $b)
+      {
+          return strcmp($a["fruit"], $b["fruit"]);
+      }
+
+      $fruits[0]["fruit"] = "lemons";
+      $fruits[1]["fruit"] = "apples";
+      $fruits[2]["fruit"] = "grapes";
+
+      userSort($fruits, "cmp");
+
+      while (list($key, $value) = each($fruits)) {
+          echo "\$fruits[$key]: " . $value["fruit"] . "\n";
+      }
+      ?>
+    </pre>
+
+        <div>
+            When sorting a multi-dimensional array, <var>$a</var> and
+            <var>$b</var> contain references to the first index of the array.
+        </div>
+        <div>The above example will output:</div>
+        <pre class="output">
+      $fruits[0]: apples
+      $fruits[1]: grapes
+      $fruits[2]: lemons
+    </pre>
+
+        <p><strong>Example #3 userSort() example using a member function of an object</strong></p>
+        <pre class="php-code">
+      <?php
+      class TestObj {
+          var $name;
+
+          function TestObj($name)
+          {
+              $this->name = $name;
+          }
+
+          /* This is the static comparing function: */
+          static function cmp_obj($a, $b)
+          {
+              $al = strtolower($a->name);
+              $bl = strtolower($b->name);
+              if ($al == $bl) {
+                  return 0;
+              }
+              return ($al > $bl) ? +1 : -1;
+          }
+      }
+
+      $a[] = new TestObj("c");
+      $a[] = new TestObj("b");
+      $a[] = new TestObj("d");
+
+      userSort($a, array("TestObj", "cmp_obj"));
+
+      foreach ($a as $item) {
+          echo $item->name . "\n";
+      }
+      ?>
+    </pre>
+
+        <div>The above example will output:</div>
+        <pre class="output">
+      b
+      c
+      d
+    </pre>
+
+        <p><strong>Example #4 userSort() example using a closure to sort a multi-dimensional array</strong></p>
+        <pre class="php-code">
+      <?php
+      $array[0] = array('key_a' => 'z', 'key_b' => 'c');
+      $array[1] = array('key_a' => 'x', 'key_b' => 'b');
+      $array[2] = array('key_a' => 'y', 'key_b' => 'a');
+
+      function build_sorter($key) {
+          return function ($a, $b) use ($key) {
+              return strnatcmp($a[$key], $b[$key]);
+          };
+      }
+
+      userSort($array, build_sorter('key_b'));
+
+      foreach ($array as $item) {
+          echo $item['key_a'] . ', ' . $item['key_b'] . "\n";
+      }
+      ?>
+    </pre>
+
+        <div>The above example will output:</div>
+        <pre class="output">
+      y, a
+      x, b
+      z, c
+    </pre>
+    </div>
+
+    <h1>userAssocSort</h1>
+
+    <div class="short-description">
+        <code>userAssocSort( callable <var>$valueComparator</var> ): array</code>
+        <p>
+            Alias of <a href="http://php.net/manual/en/function.uasort.php">uasort</a>.<br/>
+            Sorts values using a callback function and maintain index association.
+        </p>
+    </div>
+
+    <div>
+        <p>
+            This function sorts <var>$scalarObject->val</var> such that array indices maintain their
+            correlation with the array elements they are associated with, using a
+            user-defined comparison function.
+        </p>
+        <p>
+            This is used mainly when sorting associative arrays where the actual
+            element order is significant.
+        </p>
+        <blockquote>
+            <strong>Note</strong>: If two members compare as equal, their relative
+            order in the sorted array is undefined.
+        </blockquote>
+    </div>
+
+    <div>
+        <h3>Parameters</h3>
+        <dl>
+            <dt>$valueComparator</dt>
+            <dd>
+                See <a href="userSort.htm">userSort()</a> and <a href="userKeySort.htm">userKeySort()</a>
+                for examples of user-defined comparison functions.
+            </dd>
+        </dl>
+    </div>
+
+    <div>
+        <h3>Return Values</h3>
+        <p><code>TRUE</code> on success or <code>FALSE</code> on failure.</p>
+    </div>
+
+    <div class="examples">
+        <p><strong>Example #1 Basic userAssocSort() example</strong></p>
+        <pre class="php-code">
+      <?php
+      // Comparison function
+      function cmp($a, $b) {
+          if ($a == $b) {
+              return 0;
+          }
+          return ($a &lt; $b) ? -1 : 1;
+      }
+
+      // Array to be sorted
+      $array = array('a' => 4, 'b' => 8, 'c' => -1, 'd' => -9, 'e' => 2, 'f' => 5, 'g' => 3, 'h' => -4);
+      print_r($array);
+
+      // Sort and print the resulting array
+      userAssocSort($array, 'cmp');
+      print_r($array);
+      ?>
+    </pre>
+
+        <div>The above example will output:</div>
+        <pre class="output">
+      Array
+      (
+          [a] => 4
+          [b] => 8
+          [c] => -1
+          [d] => -9
+          [e] => 2
+          [f] => 5
+          [g] => 3
+          [h] => -4
+      )
+      Array
+      (
+          [d] => -9
+          [h] => -4
+          [c] => -1
+          [e] => 2
+          [g] => 3
+          [a] => 4
+          [f] => 5
+          [b] => 8
+      )
+    </pre>
+    </div>
+
+    <h1>sort</h1>
+
+    <div class="short-description">
+        <code>sort( int <var>$flags</var> = SORT_REGULAR ): array</code>
+        <p>
+            Alias of <a href="http://php.net/manual/en/function.sort.php">sort</a>.<br/>
+            Sorts values.
+        </p>
+    </div>
+
+    <div>
+        This function sorts an array.  Elements will be arranged from
+        lowest to highest when this function has completed.
+    </div>
+
+    <div>
+        <h3>Parameters</h3>
+        <dl>
+            <dt>$flags</dt>
+            <dd>
+                <p>Sorting type flags:</p>
+                <ul>
+                    <li><code>SORT_REGULAR</code> - compare items normally (don't change types)</li>
+                    <li><code>SORT_NUMERIC</code> - compare items numerically</li>
+                    <li><code>SORT_STRING</code> - compare items as strings</li>
+                    <li>
+                        <code>SORT_LOCALE_STRING</code> - compare items as strings,
+                        based on the current locale. It uses the locale, which can
+                        be changed using <a href="function.setlocale.php">setlocale()</a>
+                    </li>
+                    <li>
+                        <code>SORT_NATURAL</code> - compare items as strings
+                        using "natural ordering" like <a href="naturalSort.htm">naturalSort()</a>
+                    </li>
+                    <li>
+                        <code>SORT_FLAG_CASE</code> - can be combined
+                        (bitwise OR) with
+                        <code>SORT_STRING</code> or
+                        <code>SORT_NATURAL</code> to sort strings case-insensitively
+                    </li>
+                </ul>
+            </dd>
+        </dl>
+    </div>
+
+    <div>
+        <h3>Return Values</h3>
+        <p><code>TRUE</code> on success or <code>FALSE</code> on failure.</p>
+    </div>
+
+    <div class="examples">
+        <p><strong>Example #1 sort() example</strong></p>
+        <pre class="php-code">
+      <?php
+      $fruits = array("lemon", "orange", "banana", "apple");
+      sort($fruits);
+      foreach ($fruits as $key => $val) {
+          echo "fruits[" . $key . "] = " . $val . "\n";
+      }
+      ?>
+    </pre>
+
+        <div>The above example will output:</div>
+        <pre class="output">
+      fruits[0] = apple
+      fruits[1] = banana
+      fruits[2] = lemon
+      fruits[3] = orange
+    </pre>
+
+        <p>The fruits have been sorted in alphabetical order.</p>
+        <p><strong>Example #2 <strong>sort()</strong> example using case-insensitive natural ordering</strong></p>
+        <pre class="php-code">
+      <?php
+      $fruits = array(
+          "Orange1", "orange2", "Orange3", "orange20"
+      );
+      sort($fruits, SORT_NATURAL | SORT_FLAG_CASE);
+      foreach ($fruits as $key => $val) {
+          echo "fruits[" . $key . "] = " . $val . "\n";
+      }
+      ?>
+    </pre>
+
+        <div>The above example will output:</div>
+        <pre class="output">
+      fruits[0] = Orange1
+      fruits[1] = orange2
+      fruits[2] = Orange3
+      fruits[3] = orange20
+    </pre>
+
+        <p>The fruits have been sorted like <a href="insenNaturalSort.htm">insenNaturalSort()</a>.</p>
+    </div>
+
+    <blockquote>
+        <strong>Note</strong>: This function assigns new keys to the elements in
+        <var>$scalarObject->val</var>. It will remove any existing keys that may have been
+        assigned, rather than just reordering the keys.
+    </blockquote>
+
+    <blockquote>
+        <strong>Note</strong>: Like most PHP sorting functions, <strong>sort()</strong> uses an
+        implementation of <a href="http://en.wikipedia.org/wiki/Quicksort">&raquo; Quicksort</a>.
+        The pivot is chosen in the middle of the partition resulting in an optimal time for already
+        sorted arrays. This is however an implementation detail you shouldn't rely on.
+    </blockquote>
+
+    <div class="warning">
+        <strong>Warning</strong><br/>
+        Be careful when sorting arrays with mixed types values because
+        <strong>sort()</strong> can produce unpredictable results.
+    </div>
+
+    <h1>reverseAssocSort</h1>
+
+    <div class="short-description">
+        <code>reverseAssocSort( int <var>$flags</var> = SORT_REGULAR ): array</code>
+        <p>
+            Alias of <a href="http://php.net/manual/en/function.arsort.php">arsort</a>.<br/>
+            Sorts values in reverse order and maintain index association.
+        </p>
+    </div>
+
+    <div>
+        <p>
+            This function sorts <var>$scalarObject->val</var> such that array indices maintain their
+            correlation with the array elements they are associated with.
+        </p>
+        <p>
+            This is used mainly when sorting associative arrays where the actual
+            element order is significant.
+        </p>
+    </div>
+
+    <div>
+        <h3>Parameters</h3>
+        <dl>
+            <dt>$flags</dt>
+            <dd>For details see <a href="sort.htm">sort()</a>.</dd>
+        </dl>
+    </div>
+
+    <div>
+        <h3>Return Values</h3>
+        <p>Returns <code>TRUE</code> on success or <code>FALSE</code> on failure.</p>
+    </div>
+
+    <div class="examples">
+        <p><strong>Example #1 reverseAssocSort() example</strong></p>
+        <pre class="php-code">
+      <?php
+      $fruits = array("d" => "lemon", "a" => "orange", "b" => "banana", "c" => "apple");
+      reverseAssocSort($fruits);
+      foreach ($fruits as $key => $val) {
+          echo "$key = $val\n";
+      }
+      ?>
+    </pre>
+
+        <div>The above example will output:</div>
+        <pre class="output">
+      a = orange
+      d = lemon
+      b = banana
+      c = apple
+    </pre>
+
+        <div>
+            The fruits have been sorted in reverse alphabetical order, and
+            the index associated with each element has been maintained.
+        </div>
+    </div>
+
+    <h1>reverseSort</h1>
+
+    <div class="short-description">
+        <code>reverseSort( int <var>$flags</var> = SORT_REGULAR ): array</code>
+        <p>
+            Alias of <a href="http://php.net/manual/en/function.rsort.php">rsort</a>.<br/>
+            Sorts values in reverse order.
+        </p>
+    </div>
+
+    <div>This function sorts <var>$scalarObject->val</var> in reverse order (highest to lowest).</div>
+
+    <div>
+        <h3>Parameters</h3>
+        <dl>
+            <dt>$flags</dt>
+            <dd>For details see <a href="sort.htm">sort()</a>.</dd>
+        </dl>
+    </div>
+
+    <div>
+        <h3>Return Values</h3>
+        <p>Returns <code>TRUE</code> on success or <code>FALSE</code> on failure.</p>
+    </div>
+
+    <div class="examples">
+        <p><strong>Example #1 reverseSort() example</strong></p>
+        <pre class="php-code">
+      <?php
+      $fruits = array("lemon", "orange", "banana", "apple");
+      reverseSort($fruits);
+      foreach ($fruits as $key => $val) {
+          echo "$key = $val\n";
+      }
+      ?>
+    </pre>
+
+        <div>The above example will output:</div>
+        <pre class="output">
+      0 = orange
+      1 = lemon
+      2 = banana
+      3 = apple
+    </pre>
+
+        <div>The fruits have been sorted in reverse alphabetical order.</div>
+    </div>
+
+    <blockquote>
+        <strong>Note</strong>: This function assigns new keys to the elements in
+        <code>array</code>. It will remove any existing keys that may have been
+        assigned, rather than just reordering the keys.
+    </blockquote>
+
+    <h1>assocSort</h1>
+
+    <div class="short-description">
+        <code>assocSort( int <var>$flags</var> = SORT_REGULAR ): array</code>
+        <p>
+            Alias of <a href="http://php.net/manual/en/function.asort.php" target="_blank">asort</a>.<br/>
+            Sorts values and maintain index association.
+        </p>
+    </div>
+
+    <div>
+        This function sorts an array such that array indices maintain
+        their correlation with the array elements they are associated
+        with.  This is used mainly when sorting associative arrays where
+        the actual element order is significant.
+    </div>
+
+    <div>
+        <h3>Parameters</h3>
+        <dl>
+            <dt>$flags</dt>
+            <dd>
+                You may modify the behavior of the sort using the optional parameter
+                <var>$flags</var>, for details see <a href="sort.htm">sort()</a>.
+            </dd>
+        </dl>
+    </div>
+
+    <div>
+        <h3>Return Values</h3>
+        <p><code>TRUE</code> on success or <code>FALSE</code> on failure.</p>
+    </div>
+
+    <div class="examples">
+        <p><strong>Example #1 assocSort() example</strong></p>
+        <pre class="php-code">
+      <?php
+      $fruits = array("d" => "lemon", "a" => "orange", "b" => "banana", "c" => "apple");
+      assocSort($fruits);
+      foreach ($fruits as $key => $val) {
+          echo "$key = $val\n";
+      }
+      ?>
+    </pre>
+
+        <div>The above example will output:</div>
+        <pre class="output">
+      c = apple
+      b = banana
+      d = lemon
+      a = orange
+    </pre>
+
+        <div>
+            The fruits have been sorted in alphabetical order, and the index
+            associated with each element has been maintained.
+        </div>
+    </div>
+
+    <h1>reverse</h1>
+
+    <div class="short-description">
+        <code>reverse( bool <var>$preserveKeys</var> = false ): array</code>
+        <p>
+            Alias of <a href="http://php.net/manual/en/function.array-reverse.php">array_reverse</a>.<br/>
+            Returns an array with elements in reverse order.
+        </p>
+    </div>
+
+    <div>Takes <var>$scalarObject->val</var> and returns a new array with the order of the elements reversed.</div>
+
+    <div>
+        <h3>Parameters</h3>
+        <dl>
+            <dt>$preserveKeys</dt>
+            <dd>
+                If set to <code>TRUE</code> numeric keys are preserved. Non-numeric
+                keys are not affected by this setting and will always be preserved.
+            </dd>
+        </dl>
+    </div>
+
+    <div>
+        <h3>Return Values</h3>
+        <p>The reversed array.</p>
+    </div>
+
+    <div class="examples">
+        <p><strong>Example #1 reverse() example</strong></p>
+        <pre class="php-code">
+      <?php
+      $input  = array("php", 4.0, array("green", "red"));
+      $reversed = reverse($input);
+      $preserved = reverse($input, true);
+
+      print_r($input);
+      print_r($reversed);
+      print_r($preserved);
+      ?>
+    </pre>
+
+        <div>The above example will output:</div>
+        <pre class="output">
+      Array
+      (
+          [0] => php
+          [1] => 4
+          [2] => Array
+              (
+                  [0] => green
+                  [1] => red
+              )
+      )
+      Array
+      (
+          [0] => Array
+              (
+                  [0] => green
+                  [1] => red
+              )
+          [1] => 4
+          [2] => php
+      )
+      Array
+      (
+          [2] => Array
+              (
+                  [0] => green
+                  [1] => red
+              )
+          [1] => 4
+          [0] => php
+      )
+    </pre>
+    </div>
+
+    <h1>insenNaturalSort</h1>
+
+    <div class="short-description">
+        <code>insenNaturalSort( ): array</code>
+        <p>
+            Alias of <a href="http://php.net/manual/en/function.natcasesort.php">natcasesort</a>.<br/>
+            Sorts values using a case insensitive "natural order" algorithm
+        </p>
+    </div>
+
+    <div>
+        <p>
+            <strong>insenNaturalSort()</strong> is a case insensitive version of
+            <a href="naturalSort.htm">naturalSort()</a>.
+        </p>
+        <p>
+            This function implements a sort algorithm that orders alphanumeric strings in the way a human
+            being would while maintaining key/value associations.  This is described as a "natural ordering".
+        </p>
+    </div>
+
+    <div>
+        <h3>Return Values</h3>
+        <p><code>TRUE</code> on success or <code>FALSE</code> on failure.</p>
+    </div>
+
+    <div class="examples">
+        <p><strong>Example #1 insenNaturalSort() example</strong></p>
+        <pre class="php-code">
+      <?php
+      $array1 = $array2 = array('IMG0.png', 'img12.png', 'img10.png', 'img2.png', 'img1.png', 'IMG3.png');
+
+      sort($array1);
+      echo "Standard sorting\n";
+      print_r($array1);
+
+      insenNaturalSort($array2);
+      echo "\nNatural order sorting (case-insensitive)\n";
+      print_r($array2);
+      ?>
+    </pre>
+        <div>The above example will output:</div>
+        <pre class="output">
+      Standard sorting
+      Array
+      (
+          [0] => IMG0.png
+          [1] => IMG3.png
+          [2] => img1.png
+          [3] => img10.png
+          [4] => img12.png
+          [5] => img2.png
+      )
+
+      Natural order sorting (case-insensitive)
+      Array
+      (
+          [0] => IMG0.png
+          [4] => img1.png
+          [3] => img2.png
+          [5] => IMG3.png
+          [2] => img10.png
+          [1] => img12.png
+      )
+    </pre>
+        <div>
+            For more information see: Martin Pool's <a href="http://sourcefrog.net/projects/natsort/">&raquo;
+            Natural Order String Comparison</a> page.
+        </div>
+    </div>
+
+    <h1>naturalSort</h1>
+
+    <div class="short-description">
+        <code>naturalSort( ): array</code>
+        <p>
+            Alias of <a href="http://php.net/manual/en/function.natsort.php">natsort</a>.<br/>
+            Sorts values using a "natural order" algorithm.
+        </p>
+    </div>
+
+    <div>
+        This function implements a sort algorithm that orders alphanumeric strings
+        in the way a human being would while maintaining key/value associations.
+        This is described as a "natural ordering".  An example of the difference
+        between this algorithm and the regular computer string sorting algorithms
+        (used in <a href="sort.htm">sort()</a>) can be seen in the example below.
+    </div>
+
+    <div>
+        <h3>Return Values</h3>
+        <p><code>TRUE</code> on success or <code>FALSE</code> on failure.</p>
+    </div>
+
+    <div class="examples">
+        <p><strong>Example #1 naturalSort() examples demonstrating basic usage</strong></p>
+        <pre class="php-code">
+      <?php
+      $array1 = $array2 = array("img12.png", "img10.png", "img2.png", "img1.png");
+
+      asort($array1);
+      echo "Standard sorting\n";
+      print_r($array1);
+
+      naturalSort($array2);
+      echo "\nNatural order sorting\n";
+      print_r($array2);
+      ?>
+    </pre>
+
+        <div>The above example will output:</div>
+        <pre class="output">
+      Standard sorting
+      Array
+      (
+          [3] => img1.png
+          [1] => img10.png
+          [0] => img12.png
+          [2] => img2.png
+      )
+
+      Natural order sorting
+      Array
+      (
+          [3] => img1.png
+          [2] => img2.png
+          [1] => img10.png
+          [0] => img12.png
+      )
+    </pre>
+
+        <div>
+            For more information see: Martin Pool's
+            <a href="http://sourcefrog.net/projects/naturalSort/">&raquo; Natural Order String Comparison</a> page.
+        </div>
+
+        <p><strong>Example #2 naturalSort() examples demonstrating potential gotchas</strong></p>
+        <pre class="php-code">
+      <?php
+      echo "Negative numbers\n";
+      $negative = array('-5','3','-2','0','-1000','9','1');
+      print_r($negative);
+      naturalSort($negative);
+      print_r($negative);
+
+      echo "Zero padding\n";
+      $zeros = array('09', '8', '10', '009', '011', '0');
+      print_r($zeros);
+      naturalSort($zeros);
+      print_r($zeros);
+      ?>
+    </pre>
+
+        <div>The above example will output:</div>
+        <pre class="output">
+      Negative numbers
+      Array
+      (
+          [0] => -5
+          [1] => 3
+          [2] => -2
+          [3] => 0
+          [4] => -1000
+          [5] => 9
+          [6] => 1
+      )
+      Array
+      (
+          [2] => -2
+          [0] => -5
+          [4] => -1000
+          [3] => 0
+          [6] => 1
+          [1] => 3
+          [5] => 9
+      )
+
+      Zero padding
+      Array
+      (
+          [0] => 09
+          [1] => 8
+          [2] => 10
+          [3] => 009
+          [4] => 011
+          [5] => 0
+      )
+      Array
+      (
+          [5] => 0
+          [1] => 8
+          [3] => 009
+          [0] => 09
+          [2] => 10
+          [4] => 011
+      )
+    </pre>
+    </div>
+</div>
+</body>

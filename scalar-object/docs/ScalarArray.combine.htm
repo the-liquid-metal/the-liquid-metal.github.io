@@ -1,0 +1,72 @@
+<html>
+<head>
+    <script src="jquery-2.0.3.min.js"></script>
+    <script src="jquery.snippet.min.js"></script>
+    <script src="individual.js"></script>
+    <link rel="stylesheet" href="jquery.snippet.min.css"/>
+    <link rel="stylesheet" href="inject.css"/>
+    <link rel="stylesheet" href="individual.css"/>
+</head>
+<body>
+<div class="ajax-area">
+    <h1>combine</h1>
+
+    <div class="short-description">
+        <code>combine( array <var>$values</var> ): array</code>
+        <p>
+            Alias of <a href="http://php.net/manual/en/function.array-combine.php">array_combine</a>.<br/>
+            Creates array using one array for keys and another for its values.
+        </p>
+    </div>
+
+    <div>
+        Creates an array by using the
+        values from the <var>$scalarObject->val</var> array as keys and the values from the
+        <var>$values</var> array as the corresponding values.
+    </div>
+
+    <div>
+        <h3>Parameters</h3>
+        <dl>
+            <dt>$values</dt>
+            <dd>Array of values to be used</dd>
+        </dl>
+    </div>
+
+    <div>
+        <h3>Return Values</h3>
+        <p>The combined array.</p>
+    </div>
+
+    <div>
+        <h3>Errors/Exceptions</h3>
+        <p>
+            Throws <code>E_WARNING</code> if the number of elements in
+            <var>$scalarObject->val</var> and <var>$values</var> does not match.
+        </p>
+    </div>
+
+    <div class="examples">
+        <p><strong>Example #1 A simple combine() example</strong></p>
+        <pre class="php-code">
+      <?php
+      $a = array('green', 'red', 'yellow');
+      $b = array('avocado', 'apple', 'banana');
+      $c = combine($a, $b);
+
+      print_r($c);
+      ?>
+    </pre>
+
+        <div>The above example will output:</div>
+        <pre class="output">
+      Array
+      (
+          [green]  => avocado
+          [red]    => apple
+          [yellow] => banana
+      )
+    </pre>
+    </div>
+</div>
+</body>

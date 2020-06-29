@@ -1,0 +1,248 @@
+<html>
+<head>
+    <script src="jquery-2.0.3.min.js"></script>
+    <script src="jquery.snippet.min.js"></script>
+    <script src="individual.js"></script>
+    <link rel="stylesheet" href="jquery.snippet.min.css"/>
+    <link rel="stylesheet" href="inject.css"/>
+    <link rel="stylesheet" href="individual.css"/>
+</head>
+<body>
+<div class="ajax-area">
+    <h1>userKeySort</h1>
+
+    <div class="short-description">
+        <code>userKeySort( callable <var>$keyComparator</var> ): array</code>
+        <p>
+            Alias of <a href="http://php.net/manual/en/function.uksort.php">uksort</a>.<br/>
+            Sorts keys using a callback function.
+        </p>
+    </div>
+
+    <div>
+        <strong>userKeySort()</strong> will sort the keys of <var>$scalarObject->val</var> using a user-supplied comparison
+        function.  If the <var>$scalarObject->val</var> you wish to sort needs to be sorted by some non-trivial criteria, you
+        should use this function.
+    </div>
+
+    <div>
+        <h3>Parameters</h3>
+        <dl>
+            <dt>$keyComparator</dt>
+            <dd>
+                The comparison function must return an integer less than, equal to, or greater than zero if the
+                first argument is considered to be respectively less than, equal to, or greater than the second.
+            </dd>
+        </dl>
+    </div>
+
+    <div>
+        <h3>Return Values</h3>
+        <p>Returns <code>TRUE</code> on success or <code>FALSE</code> on failure.</p>
+    </div>
+
+    <div class="examples">
+        <p><strong>Example #1 userKeySort() example</strong></p>
+        <pre class="php-code">
+      <?php
+      function cmp($a, $b)
+      {
+          $a = preg_replace('@^(a|an|the) @', '', $a);
+          $b = preg_replace('@^(a|an|the) @', '', $b);
+          return strcasecmp($a, $b);
+      }
+
+      $a = array("John" => 1, "the Earth" => 2, "an apple" => 3, "a banana" => 4);
+
+      userKeySort($a, "cmp");
+
+      foreach ($a as $key => $value) {
+          echo "$key: $value\n";
+      }
+      ?>
+    </pre>
+
+        <div>The above example will output:</div>
+        <pre class="output">
+      an apple: 3
+      a banana: 4
+      the Earth: 2
+      John: 1
+    </pre>
+    </div>
+
+    <h1>keySort</h1>
+
+    <div class="short-description">
+        <code>keySort( int <var>$flags</var> = SORT_REGULAR ): array</code>
+        <p>
+            Alias of <a href="http://php.net/manual/en/function.ksort.php">ksort</a>.<br/>
+            Sorts keys.
+        </p>
+    </div>
+
+    <div>
+        Sorts <var>$scalarObject->val</var> by key, maintaining key to data correlations. This is
+        useful mainly for associative arrays.
+    </div>
+
+    <div>
+        <h3>Parameters</h3>
+        <dl>
+            <dt>$flags</dt>
+            <dd>For details see <a href="sort.htm">sort()</a>.</dd>
+        </dl>
+    </div>
+
+    <div>
+        <h3>Return Values</h3>
+        <p><code>TRUE</code> on success or <code>FALSE</code> on failure.</p>
+    </div>
+
+    <div class="examples">
+        <p><strong>Example #1 keySort() example</strong></p>
+        <pre class="php-code">
+      <?php
+      $fruits = array("d"=>"lemon", "a"=>"orange", "b"=>"banana", "c"=>"apple");
+      keySort($fruits);
+      foreach ($fruits as $key => $val) {
+          echo "$key = $val\n";
+      }
+      ?>
+    </pre>
+
+        <div>The above example will output:</div>
+        <pre class="output">
+      a = orange
+      b = banana
+      c = apple
+      d = lemon
+    </pre>
+    </div>
+
+    <h1>reverseKeySort</h1>
+
+    <div class="short-description">
+        <code>reverseKeySort( int <var>$flags</var> = SORT_REGULAR ): array</code>
+        <p>
+            Alias of <a href="http://php.net/manual/en/function.krsort.php">krsort</a>.<br/>
+            Sorts keys in reverse order.
+        </p>
+    </div>
+
+    <div>
+        Sorts <var>$scalarObject->val</var> by key in reverse order, maintaining key to data
+        correlations. This is useful mainly for associative arrays.
+    </div>
+
+    <div>
+        <h3>Parameters</h3>
+        <dl>
+            <dt>$flags</dt>
+            <dd>For details see <a href="sort.htm">sort()</a>.</dd>
+        </dl>
+    </div>
+
+    <div>
+        <h3>Return Values</h3>
+        <p>Returns <code>TRUE</code> on success or <code>FALSE</code> on failure.</p>
+    </div>
+
+    <div class="examples">
+        <p><strong>Example #1 reverseKeySort() example</strong></p>
+        <pre class="php-code">
+      <?php
+      $fruits = array("d"=>"lemon", "a"=>"orange", "b"=>"banana", "c"=>"apple");
+      reverseKeySort($fruits);
+      foreach ($fruits as $key => $val) {
+          echo "$key = $val\n";
+      }
+      ?>
+    </pre>
+        <div>The above example will output:</div>
+        <pre class="output">
+      d = lemon
+      c = apple
+      b = banana
+      a = orange
+    </pre>
+    </div>
+
+    <h1>reverse</h1>
+
+    <div class="short-description">
+        <code>reverse( bool <var>$preserveKeys</var> = false ): array</code>
+        <p>
+            Alias of <a href="http://php.net/manual/en/function.array-reverse.php">array_reverse</a>.<br/>
+            Returns an array with elements in reverse order.
+        </p>
+    </div>
+
+    <div>Takes <var>$scalarObject->val</var> and returns a new array with the order of the elements reversed.</div>
+
+    <div>
+        <h3>Parameters</h3>
+        <dl>
+            <dt>$preserveKeys</dt>
+            <dd>
+                If set to <code>TRUE</code> numeric keys are preserved. Non-numeric
+                keys are not affected by this setting and will always be preserved.
+            </dd>
+        </dl>
+    </div>
+
+    <div>
+        <h3>Return Values</h3>
+        <p>The reversed array.</p>
+    </div>
+
+    <div class="examples">
+        <p><strong>Example #1 reverse() example</strong></p>
+        <pre class="php-code">
+      <?php
+      $input  = array("php", 4.0, array("green", "red"));
+      $reversed = reverse($input);
+      $preserved = reverse($input, true);
+
+      print_r($input);
+      print_r($reversed);
+      print_r($preserved);
+      ?>
+    </pre>
+
+        <div>The above example will output:</div>
+        <pre class="output">
+      Array
+      (
+          [0] => php
+          [1] => 4
+          [2] => Array
+              (
+                  [0] => green
+                  [1] => red
+              )
+      )
+      Array
+      (
+          [0] => Array
+              (
+                  [0] => green
+                  [1] => red
+              )
+          [1] => 4
+          [2] => php
+      )
+      Array
+      (
+          [2] => Array
+              (
+                  [0] => green
+                  [1] => red
+              )
+          [1] => 4
+          [0] => php
+      )
+    </pre>
+    </div>
+</div>
+</body>

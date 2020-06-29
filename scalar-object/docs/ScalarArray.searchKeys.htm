@@ -1,0 +1,153 @@
+<html>
+<head>
+    <script src="jquery-2.0.3.min.js"></script>
+    <script src="jquery.snippet.min.js"></script>
+    <script src="individual.js"></script>
+    <link rel="stylesheet" href="jquery.snippet.min.css"/>
+    <link rel="stylesheet" href="inject.css"/>
+    <link rel="stylesheet" href="individual.css"/>
+</head>
+<body>
+<div class="ajax-area">
+    <h1>keys</h1>
+
+    <div class="short-description">
+        <code>keys( mixed <var>$searchValue</var> = null, bool <var>$strict</var> = false ): array</code>
+        <p>
+            Alias of <a href="http://php.net/manual/en/function.array-keys.php">array_keys</a>.<br/>
+            Returns all the keys or a subset of the keys.
+        </p>
+    </div>
+
+    <div>
+        <p>
+            <strong>keys()</strong> returns the keys, numeric and
+            string, from the <var>$scalarObject->val</var>.
+        </p>
+        <p>
+            If the optional <var>$searchValue</var> is specified,
+            then only the keys for that value are returned. Otherwise, all
+            the keys from the <var>$scalarObject->val</var> are returned.
+        </p>
+    </div>
+
+    <div>
+        <h3>Parameters</h3>
+        <dl>
+            <dt>$searchValue</dt>
+            <dd>If specified, then only keys containing these values are returned.</dd>
+
+            <dt>$strict</dt>
+            <dd>Determines if strict comparison (===) should be used during the search.</dd>
+        </dl>
+    </div>
+
+    <div>
+        <h3>Return Values</h3>
+        <p>Returns an array of all the keys in <var>$scalarObject->val</var>.</p>
+    </div>
+
+    <div class="examples">
+        <p><strong>Example #1 keys() example</strong></p>
+        <pre class="php-code">
+      <?php
+      $array = array(0 => 100, "color" => "red");
+      print_r(keys($array));
+
+      $array = array("blue", "red", "green", "blue", "blue");
+      print_r(keys($array, "blue"));
+
+      $array = array("color" => array("blue", "red", "green"),
+                     "size"  => array("small", "medium", "large"));
+      print_r(keys($array));
+      ?>
+    </pre>
+
+        <div>The above example will output:</div>
+        <pre class="output">
+      Array
+      (
+          [0] => 0
+          [1] => color
+      )
+      Array
+      (
+          [0] => 0
+          [1] => 3
+          [2] => 4
+      )
+      Array
+      (
+          [0] => color
+          [1] => size
+      )
+    </pre>
+    </div>
+
+    <h1>search</h1>
+
+    <div class="short-description">
+        <code>search( mixed <var>$needle</var>, bool <var>$strict</var> = false ): mixed</code>
+        <p>
+            Alias of <a href="http://php.net/manual/en/function.array-search.php">array_search</a>.<br/>
+            Searches a given value and returns the corresponding key if successful.
+        </p>
+    </div>
+
+    <div>Searches <var>$scalarObject->val</var> for <var>$needle</var>.</div>
+
+    <div>
+        <h3>Parameters</h3>
+        <dl>
+            <dt>$needle</dt>
+            <dd>
+                The searched value. If it is a string, the
+                comparison is done in a case-sensitive manner.
+            </dd>
+
+            <dt>$strict</dt>
+            <dd>
+                If it is set to <code>TRUE</code> then the
+                <strong>search()</strong> function will search for <em>identical</em> elements
+                in the <var>$scalarObject->val</var>. This means it will also check the types of the
+                <var>$needle</var> in the <var>$scalarObject->val</var>, and objects must be the same instance.
+            </dd>
+        </dl>
+    </div>
+
+    <div>
+        <h3>Return Values</h3>
+        <p>
+            Returns the key for <var>$needle</var> if it is found in the
+            array, <code>FALSE</code> otherwise.
+        </p>
+        <p>
+            If <var>$needle</var> is found in <var>$scalarObject->val</var> more than once, the
+            first matching key is returned. To return the keys for all matching values,
+            use <a href="function.array-keys.php">array_keys()</a> with the optional
+            <code>search_value</code> parameter instead.
+        </p>
+
+        <div class="warning">
+            <strong>Warning</strong><br/>
+            This function may return Boolean <code>FALSE</code>, but may also return
+            a non-Boolean value which evaluates to <code>FALSE</code>. Please read the
+            section on boolean for more information. Use
+            the <code>===</code> operator for testing the return
+            value of this function.
+        </div>
+    </div>
+
+    <div class="examples">
+        <p><strong>Example #1 search() example</strong></p>
+        <pre class="php-code">
+      <?php
+      $array = array(0 => 'blue', 1 => 'red', 2 => 'green', 3 => 'red');
+
+      $key = search('green', $array); // $key = 2;
+      $key = search('red', $array);   // $key = 1;
+      ?>
+    </pre>
+    </div>
+</div>
+</body>

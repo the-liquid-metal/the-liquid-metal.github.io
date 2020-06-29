@@ -1,0 +1,53 @@
+<html>
+<head>
+    <script src="jquery-2.0.3.min.js"></script>
+    <script src="jquery.snippet.min.js"></script>
+    <script src="individual.js"></script>
+    <link rel="stylesheet" href="jquery.snippet.min.css"/>
+    <link rel="stylesheet" href="inject.css"/>
+    <link rel="stylesheet" href="individual.css"/>
+</head>
+<body>
+<div class="ajax-area">
+    <h1>values</h1>
+
+    <div class="short-description">
+        <code>values( ): array</code>
+        <p>
+            Alias of <a href="http://php.net/manual/en/function.array-values.php">array_values</a>.<br/>
+            Returns all values.
+        </p>
+    </div>
+
+    <div>
+        <p>
+            <strong>values()</strong> returns all the values from the
+            <var>$scalarObject->val</var> and indexes the array numerically.
+        </p>
+    </div>
+
+    <div>
+        <h3>Return Values</h3>
+        <p>An indexed array of values.</p>
+    </div>
+
+    <div class="examples">
+        <p><strong>Example #1 values() example</strong></p>
+        <pre class="php-code">
+      <?php
+      $array = array("size" => "XL", "color" => "gold");
+      print_r(values($array));
+      ?>
+    </pre>
+
+        <div>The above example will output:</div>
+        <pre class="output">
+      Array
+      (
+          [0] => XL
+          [1] => gold
+      )
+    </pre>
+    </div>
+</div>
+</body>
