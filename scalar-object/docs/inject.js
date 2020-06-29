@@ -1,9 +1,9 @@
 $(document).ready(function(){
-    var modifPage = function(response){
-        var $a;
+    const modifPage = function (response) {
+        let $a;
         if (response === "ajax is available" || response.responseText === "ajax is available") {
             $a = $(".description").find("a:contains('detail')");
-            $a.map(function(){
+            $a.map(function () {
                 $(this.previousSibling).remove();
             });
             $a.addClass('hidden');
@@ -13,14 +13,15 @@ $(document).ready(function(){
 
     $(".description.detailed").find("h4, div").remove();
 
-    $('#magicMethods').on('click', 'tr', function(){
-        var $tr,
-            insertDetail,
-            path;
+    const $magicMethods = $("#magicMethods");
+    const prefix = $magicMethods.data("object");
+    $magicMethods.on('click', 'tr', function(){
+        let $tr;
+        let insertDetail;
 
         $tr = $(this);
         insertDetail = function (response) {
-            var $ajaxArea;
+            let $ajaxArea;
 
             if (typeof response === 'string') {
                 $ajaxArea = $('<div/>').html(response).find(".ajax-area");
@@ -31,13 +32,13 @@ $(document).ready(function(){
             $tr.data('isLoaded', true);
 
             $tr.find('.php-code').each(function(){
-                var $phpCode = $(this),
-                    oldContent,
-                    newContent,
-                    indent,
-                    indentRE1,
-                    indentRE2,
-                    text;
+                const $phpCode = $(this);
+                let oldContent;
+                let newContent;
+                let indent;
+                let indentRE1;
+                let indentRE2;
+                let text;
 
                 oldContent = $phpCode.html();
 
@@ -71,12 +72,12 @@ $(document).ready(function(){
             });
 
             $tr.find('.output').each(function(){
-                var $output = $(this),
-                    oldContent,
-                    newContent,
-                    indent,
-                    indentRE1,
-                    indentRE2;
+                const $output = $(this);
+                let oldContent;
+                let newContent;
+                let indent;
+                let indentRE1;
+                let indentRE2;
 
                 oldContent = $output.html();
                 indent = oldContent.match(/^\s+/);
@@ -97,11 +98,11 @@ $(document).ready(function(){
 
         $tr.find(".overview").toggle();
         if ($tr.data('isLoaded') === true) return;
-        var path = $tr.find("a.desc-link").attr('href');
+        const path = prefix +"."+ $tr.data("order") + ".htm";
         $.get(path, insertDetail).fail(insertDetail);
     });
 
-    $('#magicMethods').on('click', '.ajax-area, .ajax-area table', function(event){
+    $magicMethods.on('click', '.ajax-area, .ajax-area table', function(event){
         event.preventDefault();
         return false;
     });
