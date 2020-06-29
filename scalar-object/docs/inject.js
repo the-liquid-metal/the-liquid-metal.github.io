@@ -14,7 +14,7 @@ $(document).ready(function(){
     $(".description.detailed").find("h4, div").remove();
 
     const $magicMethods = $("#magicMethods");
-    const prefix = $magicMethods.attr("data-object");
+    const prefix = $magicMethods.attr("phpclass");
     $magicMethods.on('click', 'tr', function(){
         let $tr;
         let insertDetail;
