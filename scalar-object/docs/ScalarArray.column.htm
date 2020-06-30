@@ -55,66 +55,46 @@
     <div class="examples">
         <p><strong>Example #1 Get column of first names from recordset</strong></p>
         <pre class="php-code">
-      <?php
-      // Array representing a possible record set returned from a database
-      $records = array(
-          array(
-              'id' => 2135,
-              'first_name' => 'John',
-              'last_name' => 'Doe',
-          ),
-          array(
-              'id' => 3245,
-              'first_name' => 'Sally',
-              'last_name' => 'Smith',
-          ),
-          array(
-              'id' => 5342,
-              'first_name' => 'Jane',
-              'last_name' => 'Jones',
-          ),
-          array(
-              'id' => 5623,
-              'first_name' => 'Peter',
-              'last_name' => 'Doe',
-          )
-      );
+            // Array representing a possible record set returned from a database
+            $records = [
+                ["id" => 2135, "first_name" => "John",  "last_name" => "Doe"],
+                ["id" => 3245, "first_name" => "Sally", "last_name" => "Smith"],
+                ["id" => 5342, "first_name" => "Jane",  "last_name" => "Jones"],
+                ["id" => 5623, "first_name" => "Peter", "last_name" => "Doe"]
+            ];
 
-      $first_names = column($records, 'first_name');
-      print_r($first_names);
-      ?>
-    </pre>
+            $first_names = column($records, "first_name");
+            print_r($first_names);
+        </pre>
 
         <div>The above example will output:</div>
         <pre class="output">
-      Array
-      (
-          [0] => John
-          [1] => Sally
-          [2] => Jane
-          [3] => Peter
-      )
-    </pre>
+            Array
+            (
+                [0] => John
+                [1] => Sally
+                [2] => Jane
+                [3] => Peter
+            )
+        </pre>
 
         <p><strong>Example #2 Get column of last names from recordset, indexed by the "id" column</strong></p>
         <pre class="php-code">
-      <?php
-      // Using the $records array from Example #1
-      $last_names = column($records, 'last_name', 'id');
-      print_r($last_names);
-      ?>
-    </pre>
+            // Using the $records array from Example #1
+            $last_names = column($records, "last_name", "id");
+            print_r($last_names);
+        </pre>
 
         <div>The above example will output:</div>
         <pre class="output">
-      Array
-      (
-          [2135] => Doe
-          [3245] => Smith
-          [5342] => Jones
-          [5623] => Doe
-      )
-    </pre>
+            Array
+            (
+                [2135] => Doe
+                [3245] => Smith
+                [5342] => Jones
+                [5623] => Doe
+            )
+        </pre>
     </div>
 </div>
 </body>

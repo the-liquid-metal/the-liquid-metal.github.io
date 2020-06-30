@@ -57,51 +57,49 @@
     <div class="examples">
         <p><strong>Example #1 chunk() example</strong></p>
         <pre class="php-code">
-      <?php
-      $input_array = array('a', 'b', 'c', 'd', 'e');
-      print_r(chunk($input_array, 2));
-      print_r(chunk($input_array, 2, true));
-      ?>
-    </pre>
+            $input_array = ["a", "b", "c", "d", "e"];
+            print_r(chunk($input_array, 2));
+            print_r(chunk($input_array, 2, true));
+        </pre>
 
         <div>The above example will output:</div>
         <pre class="output">
-      Array
-      (
-          [0] => Array
-              (
-                  [0] => a
-                  [1] => b
-              )
-          [1] => Array
-              (
-                  [0] => c
-                  [1] => d
-              )
-          [2] => Array
-              (
-                  [0] => e
-              )
-      )
+            Array
+            (
+                [0] => Array
+                    (
+                        [0] => a
+                        [1] => b
+                    )
+                [1] => Array
+                    (
+                        [0] => c
+                        [1] => d
+                    )
+                [2] => Array
+                    (
+                        [0] => e
+                    )
+            )
 
-      Array
-      (
-          [0] => Array
-              (
-                  [0] => a
-                  [1] => b
-              )
-          [1] => Array
-              (
-                  [2] => c
-                  [3] => d
-              )
-          [2] => Array
-              (
-                  [4] => e
-              )
-      )
-    </pre>
+            Array
+            (
+                [0] => Array
+                    (
+                        [0] => a
+                        [1] => b
+                    )
+                [1] => Array
+                    (
+                        [2] => c
+                        [3] => d
+                    )
+                [2] => Array
+                    (
+                        [4] => e
+                    )
+            )
+        </pre>
     </div>
 </div>
 </body>

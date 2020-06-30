@@ -47,25 +47,23 @@
     <div class="examples">
         <p><strong>Example #1 diff() example</strong></p>
         <pre class="php-code">
-      <?php
-      $array1 = array("a" => "green", "red", "blue", "red");
-      $array2 = array("b" => "green", "yellow", "red");
-      $result = diff($array1, $array2);
+            $array1 = ["a" => "green", "red", "blue", "red"];
+            $array2 = ["b" => "green", "yellow", "red"];
+            $result = diff($array1, $array2);
 
-      print_r($result);
-      ?>
-    </pre>
+            print_r($result);
+        </pre>
 
         <div>
             Multiple occurrences in <var>$array1</var> are all
             treated the same way. This will output :
         </div>
         <pre class="output">
-      Array
-      (
-          [1] => blue
-      )
-    </pre>
+            Array
+            (
+                [1] => blue
+            )
+        </pre>
     </div>
 
     <blockquote>
@@ -122,23 +120,21 @@
             the output because in the second argument <em>"red"</em> has key which is <em>1</em>.
         </div>
         <pre class="php-code">
-      <?php
-      $array1 = array("a" => "green", "b" => "brown", "c" => "blue", "red");
-      $array2 = array("a" => "green", "yellow", "red");
-      $result = assocDiff($array1, $array2);
-      print_r($result);
-      ?>
-    </pre>
+            $array1 = ["a" => "green", "b" => "brown", "c" => "blue", "red"];
+            $array2 = ["a" => "green", "yellow", "red"];
+            $result = assocDiff($array1, $array2);
+            print_r($result);
+        </pre>
 
         <div>The above example will output:</div>
         <pre class="output">
-      Array
-      (
-          [b] => brown
-          [c] => blue
-          [0] => red
-      )
-    </pre>
+            Array
+            (
+                [b] => brown
+                [c] => blue
+                [0] => red
+            )
+        </pre>
 
         <p><strong>Example #2 assocDiff() example</strong></p>
         <div>
@@ -147,22 +143,20 @@
             representations must be the same.
         </div>
         <pre class="php-code">
-      <?php
-      $array1 = array(0, 1, 2);
-      $array2 = array("00", "01", "2");
-      $result = assocDiff($array1, $array2);
-      print_r($result);
-      ?>
-    </pre>
+            $array1 = [0, 1, 2];
+            $array2 = ["00", "01", "2"];
+            $result = assocDiff($array1, $array2);
+            print_r($result);
+        </pre>
 
         <div>The above example will output:</div>
         <pre class="output">
-      Array
-      (
-          [0] => 0
-          [1] => 1
-      )
-    </pre>
+            Array
+            (
+                [0] => 0
+                [1] => 1
+            )
+        </pre>
 
     </div>
 
@@ -229,31 +223,28 @@
             because in the second argument <em>"red"</em> has key which is <em>1</em>.
         </div>
         <pre class="php-code">
-      <?php
-      function key_compare_func($a, $b)
-      {
-          if ($a === $b) {
-              return 0;
-          }
-          return ($a > $b)? 1:-1;
-      }
+            function key_compare_func($a, $b) {
+                if ($a === $b) {
+                    return 0;
+                }
+                return ($a > $b)? 1:-1;
+            }
 
-      $array1 = array("a" => "green", "b" => "brown", "c" => "blue", "red");
-      $array2 = array("a" => "green", "yellow", "red");
-      $result = userAssocDiff($array1, $array2, "key_compare_func");
-      print_r($result);
-      ?>
-    </pre>
+            $array1 = ["a" => "green", "b" => "brown", "c" => "blue", "red"];
+            $array2 = ["a" => "green", "yellow", "red"];
+            $result = userAssocDiff($array1, $array2, "key_compare_func");
+            print_r($result);
+        </pre>
 
         <div>The above example will output:</div>
         <pre class="output">
-      Array
-      (
-          [b] => brown
-          [c] => blue
-          [0] => red
-      )
-    </pre>
+            Array
+            (
+                [b] => brown
+                [c] => blue
+                [0] => red
+            )
+        </pre>
 
         <div>The equality of 2 indices is checked by the user supplied callback function.</div>
     </div>
@@ -310,130 +301,125 @@
     <div class="examples">
         <p><strong>Example #1 userDiff() example using stdClass Objects</strong></p>
         <pre class="php-code">
-      <?php
-      // Arrays to compare
-      $array1 = array(new stdclass, new stdclass, new stdclass, new stdclass);
-      $array2 = array(new stdclass, new stdclass);
+            // Arrays to compare
+            $array1 = [new stdclass, new stdclass, new stdclass, new stdclass];
+            $array2 = [new stdclass, new stdclass];
 
-      // Set some properties for each object
-      $array1[0]->width = 11; $array1[0]->height = 3;
-      $array1[1]->width = 7;  $array1[1]->height = 1;
-      $array1[2]->width = 2;  $array1[2]->height = 9;
-      $array1[3]->width = 5;  $array1[3]->height = 7;
+            // Set some properties for each object
+            $array1[0]->width = 11; $array1[0]->height = 3;
+            $array1[1]->width = 7;  $array1[1]->height = 1;
+            $array1[2]->width = 2;  $array1[2]->height = 9;
+            $array1[3]->width = 5;  $array1[3]->height = 7;
 
-      $array2[0]->width = 7;  $array2[0]->height = 5;
-      $array2[1]->width = 9;  $array2[1]->height = 2;
+            $array2[0]->width = 7;  $array2[0]->height = 5;
+            $array2[1]->width = 9;  $array2[1]->height = 2;
 
-      function compare_by_area($a, $b)
-      {
-          $areaA = $a->width * $a->height;
-          $areaB = $b->width * $b->height;
+            function compare_by_area($a, $b) {
+                $areaA = $a->width * $a->height;
+                $areaB = $b->width * $b->height;
 
-          if ($areaA &lt; $areaB) {
-              return -1;
-          } elseif ($areaA > $areaB) {
-              return 1;
-          } else {
-              return 0;
-          }
-      }
+                if ($areaA &lt; $areaB) {
+                    return -1;
+                } elseif ($areaA > $areaB) {
+                    return 1;
+                } else {
+                    return 0;
+                }
+            }
 
-      print_r(userDiff($array1, $array2, 'compare_by_area'));
-      ?>
-    </pre>
+            print_r(userDiff($array1, $array2, "compare_by_area"));
+        </pre>
 
         <div>The above example will output:</div>
         <pre class="output">
-      Array
-      (
-          [0] => stdClass Object
-              (
-                  [width] => 11
-                  [height] => 3
-              )
-          [1] => stdClass Object
-              (
-                  [width] => 7
-                  [height] => 1
-              )
-      )
-    </pre>
+            Array
+            (
+                [0] => stdClass Object
+                    (
+                        [width] => 11
+                        [height] => 3
+                    )
+                [1] => stdClass Object
+                    (
+                        [width] => 7
+                        [height] => 1
+                    )
+            )
+        </pre>
 
         <p><strong>Example #2 userDiff() example using DateTime Objects</strong></p>
         <pre class="php-code">
-      <?php
-      class MyCalendar {
-          public $free = array();
-          public $booked = array();
+            class MyCalendar {
+                public $free = [];
+                public $booked = [];
 
-          public function __construct($week = 'now') {
-              $start = new DateTime($week);
-              $start->modify('Monday this week midnight');
-              $end = clone $start;
-              $end->modify('Friday this week midnight');
-              $interval = new DateInterval('P1D');
-              foreach (new DatePeriod($start, $interval, $end) as $freeTime) {
-                  $this->free[] = $freeTime;
-              }
-          }
+                public function __construct($week = "now") {
+                    $start = new DateTime($week);
+                    $start->modify("Monday this week midnight");
+                    $end = clone $start;
+                    $end->modify("Friday this week midnight");
+                    $interval = new DateInterval("P1D");
+                    foreach (new DatePeriod($start, $interval, $end) as $freeTime) {
+                        $this->free[] = $freeTime;
+                    }
+                }
 
-          public function bookAppointment(DateTime $date, $note) {
-              $this->booked[] = array('date' => $date->modify('midnight'), 'note' => $note);
-          }
+                public function bookAppointment(DateTime $date, $note) {
+                    $this->booked[] = ["date" => $date->modify("midnight"), "note" => $note];
+                }
 
-          public function checkAvailability() {
-              return userDiff($this->free, $this->booked, array($this, 'customCompare'));
-          }
+                public function checkAvailability() {
+                    return userDiff($this->free, $this->booked, [$this, "customCompare"]);
+                }
 
-          public function customCompare($free, $booked) {
-              if (is_array($free)) $a = $free['date'];
-              else $a = $free;
-              if (is_array($booked)) $b = $booked['date'];
-              else $b = $booked;
-              if ($a == $b) {
-                  return 0;
-              } elseif ($a > $b) {
-                  return 1;
-              } else {
-                  return -1;
-              }
-          }
-      }
+                public function customCompare($free, $booked) {
+                    if (is_array($free)) $a = $free["date"];
+                    else $a = $free;
+                    if (is_array($booked)) $b = $booked["date"];
+                    else $b = $booked;
+                    if ($a == $b) {
+                        return 0;
+                    } elseif ($a > $b) {
+                        return 1;
+                    } else {
+                        return -1;
+                    }
+                }
+            }
 
-      // Create a calendar for weekly appointments
-      $myCalendar = new MyCalendar;
+            // Create a calendar for weekly appointments
+            $myCalendar = new MyCalendar;
 
-      // Book some appointments for this week
-      $myCalendar->bookAppointment(new DateTime('Monday this week'), "Cleaning GoogleGuy's apartment.");
-      $myCalendar->bookAppointment(new DateTime('Wednesday this week'), "Going on a snowboarding trip.");
-      $myCalendar->bookAppointment(new DateTime('Friday this week'), "Fixing buggy code.");
+            // Book some appointments for this week
+            $myCalendar->bookAppointment(new DateTime("Monday this week"), "Cleaning GoogleGuy's apartment.");
+            $myCalendar->bookAppointment(new DateTime("Wednesday this week"), "Going on a snowboarding trip.");
+            $myCalendar->bookAppointment(new DateTime("Friday this week"), "Fixing buggy code.");
 
-      // Check availability of days by comparing $booked dates against $free dates
-      echo "I'm available on the following days this week...\n\n";
-      foreach ($myCalendar->checkAvailability() as $free) {
-          echo $free->format('l'), "\n";
-      }
-      echo "\n\n";
-      echo "I'm busy on the following days this week...\n\n";
-      foreach ($myCalendar->booked as $booked) {
-          echo $booked['date']->format('l'), ": ", $booked['note'], "\n";
-      }
-      ?>
-    </pre>
+            // Check availability of days by comparing $booked dates against $free dates
+            echo "I'm available on the following days this week...\n\n";
+            foreach ($myCalendar->checkAvailability() as $free) {
+                echo $free->format("l"), "\n";
+            }
+            echo "\n\n";
+            echo "I'm busy on the following days this week...\n\n";
+            foreach ($myCalendar->booked as $booked) {
+                echo $booked["date"]->format("l"), ": ", $booked["note"], "\n";
+            }
+        </pre>
 
         <div>The above example will output:</div>
         <pre class="output">
-      I'm available on the following days this week...
+            I'm available on the following days this week...
 
-      Tuesday
-      Thursday
+            Tuesday
+            Thursday
 
-      I'm busy on the following days this week...
+            I'm busy on the following days this week...
 
-      Monday: Cleaning GoogleGuy's apartment.
-      Wednesday: Going on a snowboarding trip.
-      Friday: Fixing buggy code.
-    </pre>
+            Monday: Cleaning GoogleGuy's apartment.
+            Wednesday: Going on a snowboarding trip.
+            Friday: Fixing buggy code.
+        </pre>
     </div>
 
     <blockquote>
@@ -496,47 +482,45 @@
     <div class="examples">
         <p><strong>Example #1 userDiffAssoc() example</strong></p>
         <pre class="php-code">
-      <?php
-      class cr {
-          private $priv_member;
-          function cr($val)
-          {
-              $this->priv_member = $val;
-          }
+            class cr {
+                private $priv_member;
+                function cr($val)
+                {
+                    $this->priv_member = $val;
+                }
 
-          static function comp_func_cr($a, $b)
-          {
-              if ($a->priv_member === $b->priv_member) return 0;
-              return ($a->priv_member > $b->priv_member)? 1:-1;
-          }
-      }
+                static function comp_func_cr($a, $b)
+                {
+                    if ($a->priv_member === $b->priv_member) return 0;
+                    return ($a->priv_member > $b->priv_member)? 1:-1;
+                }
+            }
 
-      $a = array("0.1" => new cr(9), "0.5" => new cr(12), 0 => new cr(23), 1=> new cr(4), 2 => new cr(-15),);
-      $b = array("0.2" => new cr(9), "0.5" => new cr(22), 0 => new cr(3), 1=> new cr(4), 2 => new cr(-15),);
+            $a = ["0.1" => new cr(9), "0.5" => new cr(12), 0 => new cr(23), 1=> new cr(4), 2 => new cr(-15)];
+            $b = ["0.2" => new cr(9), "0.5" => new cr(22), 0 => new cr(3),  1=> new cr(4), 2 => new cr(-15)];
 
-      $result = userDiffAssoc($a, $b, array("cr", "comp_func_cr"));
-      print_r($result);
-      ?>
-    </pre>
+            $result = userDiffAssoc($a, $b, ["cr", "comp_func_cr"]);
+            print_r($result);
+        </pre>
 
         <div>The above example will output:</div>
         <pre class="output">
-      Array
-      (
-          [0.1] => cr Object
-              (
-                  [priv_member:private] => 9
-              )
-          [0.5] => cr Object
-              (
-                  [priv_member:private] => 12
-              )
-          [0] => cr Object
-              (
-                  [priv_member:private] => 23
-              )
-      )
-    </pre>
+            Array
+            (
+                [0.1] => cr Object
+                    (
+                        [priv_member:private] => 9
+                    )
+                [0.5] => cr Object
+                    (
+                        [priv_member:private] => 12
+                    )
+                [0] => cr Object
+                    (
+                        [priv_member:private] => 23
+                    )
+            )
+        </pre>
 
         <p>
             In our example above you see the <code>"1" => new cr(4)</code> pair is
@@ -600,52 +584,47 @@
     <div class="examples">
         <p><strong>Example #1 userDiffUserAssoc() example</strong></p>
         <pre class="php-code">
-      <?php
-      class cr {
-          private $priv_member;
-          function cr($val)
-          {
-              $this->priv_member = $val;
-          }
+            class cr {
+                private $priv_member;
+                function cr($val) {
+                    $this->priv_member = $val;
+                }
 
-          static function comp_func_cr($a, $b)
-          {
-              if ($a->priv_member === $b->priv_member) return 0;
-              return ($a->priv_member > $b->priv_member)? 1:-1;
-          }
+                static function comp_func_cr($a, $b) {
+                    if ($a->priv_member === $b->priv_member) return 0;
+                    return ($a->priv_member > $b->priv_member)? 1:-1;
+                }
 
-          static function comp_func_key($a, $b)
-          {
-              if ($a === $b) return 0;
-              return ($a > $b)? 1:-1;
-          }
-      }
-      $a = array("0.1" => new cr(9), "0.5" => new cr(12), 0 => new cr(23), 1=> new cr(4), 2 => new cr(-15),);
-      $b = array("0.2" => new cr(9), "0.5" => new cr(22), 0 => new cr(3), 1=> new cr(4), 2 => new cr(-15),);
+                static function comp_func_key($a, $b) {
+                    if ($a === $b) return 0;
+                    return ($a > $b)? 1:-1;
+                }
+            }
+            $a = ["0.1" => new cr(9), "0.5" => new cr(12), 0 => new cr(23), 1=> new cr(4), 2 => new cr(-15)];
+            $b = ["0.2" => new cr(9), "0.5" => new cr(22), 0 => new cr(3),  1=> new cr(4), 2 => new cr(-15)];
 
-      $result = userDiffUserAssoc($a, $b, array("cr", "comp_func_cr"), array("cr", "comp_func_key"));
-      print_r($result);
-      ?>
-    </pre>
+            $result = userDiffUserAssoc($a, $b, ["cr", "comp_func_cr"], ["cr", "comp_func_key"]);
+            print_r($result);
+        </pre>
 
         <div>The above example will output:</div>
         <pre class="output">
-      Array
-      (
-          [0.1] => cr Object
-              (
-                  [priv_member:private] => 9
-              )
-          [0.5] => cr Object
-              (
-                  [priv_member:private] => 12
-              )
-          [0] => cr Object
-              (
-                  [priv_member:private] => 23
-              )
-      )
-    </pre>
+            Array
+            (
+                [0.1] => cr Object
+                    (
+                        [priv_member:private] => 9
+                    )
+                [0.5] => cr Object
+                    (
+                        [priv_member:private] => 12
+                    )
+                [0] => cr Object
+                    (
+                        [priv_member:private] => 23
+                    )
+            )
+        </pre>
 
         <p>
             In our example above you see the <code>"1" => new cr(4)</code>

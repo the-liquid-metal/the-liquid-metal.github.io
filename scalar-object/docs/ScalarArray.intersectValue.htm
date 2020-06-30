@@ -47,21 +47,19 @@
     <div class="examples">
         <p><strong>Example #1 intersect() example</strong></p>
         <pre class="php-code">
-      <?php
-      $array1 = array("a" => "green", "red", "blue");
-      $array2 = array("b" => "green", "yellow", "red");
-      $result = intersect($array1, $array2);
-      print_r($result);
-      ?>
-    </pre>
+            $array1 = ["a" => "green", "red", "blue"];
+            $array2 = ["b" => "green", "yellow", "red"];
+            $result = intersect($array1, $array2);
+            print_r($result);
+        </pre>
         <div>The above example will output:</div>
         <pre class="output">
-      Array
-      (
-          [a] => green
-          [0] => red
-      )
-    </pre>
+            Array
+            (
+                [a] => green
+                [0] => red
+            )
+        </pre>
     </div>
 
     <blockquote>
@@ -107,21 +105,19 @@
     <div class="examples">
         <p><strong>Example #1 assocIntersect() example</strong></p>
         <pre class="php-code">
-    <?php
-      $array1 = array("a" => "green", "b" => "brown", "c" => "blue", "red");
-      $array2 = array("a" => "green", "b" => "yellow", "blue", "red");
-      $result_array = assocIntersect($array1, $array2);
-      print_r($result_array);
-      ?>
-    </pre>
+            $array1 = ["a" => "green", "b" => "brown", "c" => "blue", "red"];
+            $array2 = ["a" => "green", "b" => "yellow", "blue", "red"];
+            $result_array = assocIntersect($array1, $array2);
+            print_r($result_array);
+        </pre>
 
         <div>The above example will output:</div>
         <pre class="output">
-      Array
-      (
-          [a] => green
-      )
-    </pre>
+            Array
+            (
+                [a] => green
+            )
+        </pre>
 
         <p>
             In our example you see that only the pair <code>"a" => "green"</code> is present in both arrays
@@ -177,21 +173,18 @@
     <div class="examples">
         <p><strong>Example #1 userAssocIntersect() example</strong></p>
         <pre class="php-code">
-      <?php
-      $array1 = array("a" => "green", "b" => "brown", "c" => "blue", "red");
-      $array2 = array("a" => "GREEN", "B" => "brown", "yellow", "red");
-
-      print_r(userAssocIntersect($array1, $array2, "strcasecmp"));
-      ?>
-    </pre>
+            $array1 = ["a" => "green", "b" => "brown", "c" => "blue", "red"];
+            $array2 = ["a" => "GREEN", "B" => "brown", "yellow", "red"];
+            print_r(userAssocIntersect($array1, $array2, "strcasecmp"));
+        </pre>
 
         <div>The above example will output:</div>
         <pre class="output">
-      Array
-      (
-          [b] => brown
-      )
-    </pre>
+            Array
+            (
+                [b] => brown
+            )
+        </pre>
     </div>
 
     <h1>userIntersect</h1>
@@ -231,23 +224,20 @@
     <div class="examples">
         <p><strong>Example #1 userIntersect() example</strong></p>
         <pre class="php-code">
-      <?php
-      $array1 = array("a" => "green", "b" => "brown", "c" => "blue", "red");
-      $array2 = array("a" => "GREEN", "B" => "brown", "yellow", "red");
-
-      print_r(userIntersect($array1, $array2, "strcasecmp"));
-      ?>
-    </pre>
+            $array1 = ["a" => "green", "b" => "brown", "c" => "blue", "red"];
+            $array2 = ["a" => "GREEN", "B" => "brown", "yellow", "red"];
+            print_r(userIntersect($array1, $array2, "strcasecmp"));
+        </pre>
 
         <div>The above example will output:</div>
         <pre class="output">
-      Array
-      (
-          [a] => green
-          [b] => brown
-          [0] => red
-      )
-    </pre>
+            Array
+            (
+                [a] => green
+                [b] => brown
+                [0] => red
+            )
+        </pre>
     </div>
 
     <h1>userIntersectAssoc</h1>
@@ -297,21 +287,18 @@
     <div class="examples">
         <p><strong>Example #1 userIntersectAssoc() example</strong></p>
         <pre class="php-code">
-      <?php
-      $array1 = array("a" => "green", "b" => "brown", "c" => "blue", "red");
-      $array2 = array("a" => "GREEN", "B" => "brown", "yellow", "red");
-
-      print_r(userIntersectAssoc($array1, $array2, "strcasecmp"));
-      ?>
-    </pre>
+            $array1 = ["a" => "green", "b" => "brown", "c" => "blue", "red"];
+            $array2 = ["a" => "GREEN", "B" => "brown", "yellow", "red"];
+            print_r(userIntersectAssoc($array1, $array2, "strcasecmp"));
+        </pre>
 
         <div>The above example will output:</div>
         <pre class="output">
-      Array
-      (
-          [a] => green
-      )
-    </pre>
+            Array
+            (
+                [a] => green
+            )
+        </pre>
     </div>
 
     <h1>userIntersectUserAssoc</h1>
@@ -357,22 +344,19 @@
     <div class="examples">
         <p><strong>Example #1 userIntersectUserAssoc() example</strong></p>
         <pre class="php-code">
-      <?php
-      $array1 = array("a" => "green", "b" => "brown", "c" => "blue", "red");
-      $array2 = array("a" => "GREEN", "B" => "brown", "yellow", "red");
-
-      print_r(userIntersectUserAssoc($array1, $array2, "strcasecmp", "strcasecmp"));
-      ?>
-    </pre>
+            $array1 = ["a" => "green", "b" => "brown", "c" => "blue", "red"];
+            $array2 = ["a" => "GREEN", "B" => "brown", "yellow", "red"];
+            print_r(userIntersectUserAssoc($array1, $array2, "strcasecmp", "strcasecmp"));
+        </pre>
 
         <div>The above example will output:</div>
         <pre class="output">
-      Array
-      (
-          [a] => green
-          [b] => brown
-      )
-    </pre>
+            Array
+            (
+                [a] => green
+                [b] => brown
+            )
+        </pre>
     </div>
 </div>
 </body>

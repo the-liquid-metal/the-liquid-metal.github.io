@@ -52,23 +52,21 @@
             executed so the string representation must be the same.
         </div>
         <pre class="php-code">
-      <?php
-      $array1 = array('blue'  => 1, 'red'  => 2, 'green'  => 3, 'purple' => 4);
-      $array2 = array('green' => 5, 'blue' => 6, 'yellow' => 7, 'cyan'   => 8);
+            $array1 = ["blue"  => 1, "red"  => 2, "green"  => 3, "purple" => 4];
+            $array2 = ["green" => 5, "blue" => 6, "yellow" => 7, "cyan"   => 8];
 
-      var_dump(keyDiff($array1, $array2));
-      ?>
-    </pre>
+            var_dump(keyDiff($array1, $array2));
+        </pre>
 
         <div>The above example will output:</div>
         <pre class="output">
-      array(2) {
-        ["red"]=>
-        int(2)
-        ["purple"]=>
-        int(4)
-      }
-    </pre>
+            array(2) {
+              ["red"]=>
+              int(2)
+              ["purple"]=>
+              int(4)
+            }
+        </pre>
     </div>
 
     <blockquote>
@@ -127,37 +125,34 @@
     <div class="examples">
         <p><strong>Example #1 userKeyDiff() example</strong></p>
         <pre class="php-code">
-      <?php
-      function key_compare_func($key1, $key2)
-      {
-          if ($key1 == $key2)
-              return 0;
-          else if ($key1 > $key2)
-              return 1;
-          else
-              return -1;
-      }
+            function key_compare_func($key1, $key2) {
+                if ($key1 == $key2)
+                    return 0;
+                else if ($key1 > $key2)
+                    return 1;
+                else
+                    return -1;
+            }
 
-      $array1 = array('blue'  => 1, 'red'  => 2, 'green'  => 3, 'purple' => 4);
-      $array2 = array('green' => 5, 'blue' => 6, 'yellow' => 7, 'cyan'   => 8);
+            $array1 = ["blue"  => 1, "red"  => 2, "green"  => 3, "purple" => 4];
+            $array2 = ["green" => 5, "blue" => 6, "yellow" => 7, "cyan"   => 8];
 
-      var_dump(userKeyDiff($array1, $array2, 'key_compare_func'));
-      ?>
-    </pre>
+            var_dump(userKeyDiff($array1, $array2, "key_compare_func"));
+        </pre>
 
         <div>The above example will output:</div>
         <pre class="output">
-      array(2) {
-        ["red"]=>int(2)
-        ["purple"]=>int(4)
-      }
-    </pre>
+            array(2) {
+              ["red"]=>int(2)
+              ["purple"]=>int(4)
+            }
+        </pre>
     </div>
 
     <blockquote>
         <strong>Note</strong>: This function only checks one dimension of a
         n-dimensional array. Of course you can check deeper dimensions by using
-        <code>userKeyDiff($array1[0], $array2[0], 'callback_func');</code>.
+        <code>userKeyDiff($array1[0], $array2[0], "callback_func");</code>.
     </blockquote>
 </div>
 </body>

@@ -44,31 +44,28 @@
     <div class="examples">
         <p><strong>Example #1 userKeySort() example</strong></p>
         <pre class="php-code">
-      <?php
-      function cmp($a, $b)
-      {
-          $a = preg_replace('@^(a|an|the) @', '', $a);
-          $b = preg_replace('@^(a|an|the) @', '', $b);
-          return strcasecmp($a, $b);
-      }
+            function cmp($a, $b) {
+                $a = preg_replace("@^(a|an|the) @", "", $a);
+                $b = preg_replace("@^(a|an|the) @", "", $b);
+                return strcasecmp($a, $b);
+            }
 
-      $a = array("John" => 1, "the Earth" => 2, "an apple" => 3, "a banana" => 4);
+            $a = ["John"=>1, "the Earth"=>2, "an apple"=>3, "a banana"=>4];
 
-      userKeySort($a, "cmp");
+            userKeySort($a, "cmp");
 
-      foreach ($a as $key => $value) {
-          echo "$key: $value\n";
-      }
-      ?>
-    </pre>
+            foreach ($a as $key => $value) {
+                echo "$key: $value\n";
+            }
+        </pre>
 
         <div>The above example will output:</div>
         <pre class="output">
-      an apple: 3
-      a banana: 4
-      the Earth: 2
-      John: 1
-    </pre>
+            an apple: 3
+            a banana: 4
+            the Earth: 2
+            John: 1
+        </pre>
     </div>
 
     <h1>keySort</h1>
@@ -102,22 +99,21 @@
     <div class="examples">
         <p><strong>Example #1 keySort() example</strong></p>
         <pre class="php-code">
-      <?php
-      $fruits = array("d"=>"lemon", "a"=>"orange", "b"=>"banana", "c"=>"apple");
-      keySort($fruits);
-      foreach ($fruits as $key => $val) {
-          echo "$key = $val\n";
-      }
-      ?>
-    </pre>
+            $fruits = ["d"=>"lemon", "a"=>"orange", "b"=>"banana", "c"=>"apple"];
+            keySort($fruits);
+            foreach ($fruits as $key => $val) {
+                echo "$key = $val\n";
+            }
+            ?>
+        </pre>
 
         <div>The above example will output:</div>
         <pre class="output">
-      a = orange
-      b = banana
-      c = apple
-      d = lemon
-    </pre>
+            a = orange
+            b = banana
+            c = apple
+            d = lemon
+        </pre>
     </div>
 
     <h1>reverseKeySort</h1>
@@ -151,21 +147,19 @@
     <div class="examples">
         <p><strong>Example #1 reverseKeySort() example</strong></p>
         <pre class="php-code">
-      <?php
-      $fruits = array("d"=>"lemon", "a"=>"orange", "b"=>"banana", "c"=>"apple");
-      reverseKeySort($fruits);
-      foreach ($fruits as $key => $val) {
-          echo "$key = $val\n";
-      }
-      ?>
-    </pre>
+            $fruits = ["d"=>"lemon", "a"=>"orange", "b"=>"banana", "c"=>"apple"];
+            reverseKeySort($fruits);
+            foreach ($fruits as $key => $val) {
+                echo "$key = $val\n";
+            }
+        </pre>
         <div>The above example will output:</div>
         <pre class="output">
-      d = lemon
-      c = apple
-      b = banana
-      a = orange
-    </pre>
+            d = lemon
+            c = apple
+            b = banana
+            a = orange
+        </pre>
     </div>
 
     <h1>reverse</h1>
@@ -199,50 +193,48 @@
     <div class="examples">
         <p><strong>Example #1 reverse() example</strong></p>
         <pre class="php-code">
-      <?php
-      $input  = array("php", 4.0, array("green", "red"));
-      $reversed = reverse($input);
-      $preserved = reverse($input, true);
+            $input = ["php", 4.0, ["green", "red"]];
+            $reversed = reverse($input);
+            $preserved = reverse($input, true);
 
-      print_r($input);
-      print_r($reversed);
-      print_r($preserved);
-      ?>
-    </pre>
+            print_r($input);
+            print_r($reversed);
+            print_r($preserved);
+        </pre>
 
         <div>The above example will output:</div>
         <pre class="output">
-      Array
-      (
-          [0] => php
-          [1] => 4
-          [2] => Array
-              (
-                  [0] => green
-                  [1] => red
-              )
-      )
-      Array
-      (
-          [0] => Array
-              (
-                  [0] => green
-                  [1] => red
-              )
-          [1] => 4
-          [2] => php
-      )
-      Array
-      (
-          [2] => Array
-              (
-                  [0] => green
-                  [1] => red
-              )
-          [1] => 4
-          [0] => php
-      )
-    </pre>
+            Array
+            (
+                [0] => php
+                [1] => 4
+                [2] => Array
+                    (
+                        [0] => green
+                        [1] => red
+                    )
+            )
+            Array
+            (
+                [0] => Array
+                    (
+                        [0] => green
+                        [1] => red
+                    )
+                [1] => 4
+                [2] => php
+            )
+            Array
+            (
+                [2] => Array
+                    (
+                        [0] => green
+                        [1] => red
+                    )
+                [1] => 4
+                [0] => php
+            )
+        </pre>
     </div>
 </div>
 </body>

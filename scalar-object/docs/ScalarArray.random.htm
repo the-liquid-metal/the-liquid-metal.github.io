@@ -46,13 +46,11 @@
     <div class="examples">
         <p><strong>Example #1 random() example</strong></p>
         <pre class="php-code">
-      <?php
-      $input = array("Neo", "Morpheus", "Trinity", "Cypher", "Tank");
-      $rand_keys = random($input, 2);
-      echo $input[$rand_keys[0]] . "\n";
-      echo $input[$rand_keys[1]] . "\n";
-      ?>
-    </pre>
+            $input = ["Neo", "Morpheus", "Trinity", "Cypher", "Tank"];
+            $rand_keys = random($input, 2);
+            echo $input[$rand_keys[0]] . "\n";
+            echo $input[$rand_keys[1]] . "\n";
+        </pre>
     </div>
 </div>
 </body>

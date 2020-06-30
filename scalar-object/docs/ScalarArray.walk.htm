@@ -84,42 +84,38 @@
     <div class="examples">
         <p><strong>Example #1 walk() example</strong></p>
         <pre class="php-code">
-      <?php
-      $fruits = array("d" => "lemon", "a" => "orange", "b" => "banana", "c" => "apple");
+            $fruits = ["d" => "lemon", "a" => "orange", "b" => "banana", "c" => "apple"];
 
-      function test_alter(&amp;$item1, $key, $prefix)
-      {
-          $item1 = "$prefix: $item1";
-      }
+            function test_alter(&amp;$item1, $key, $prefix) {
+                $item1 = "$prefix: $item1";
+            }
 
-      function test_print($item2, $key)
-      {
-          echo "$key. $item2&lt;br />\n";
-      }
+            function test_print($item2, $key) {
+                echo "$key. $item2&lt;br />\n";
+            }
 
-      echo "Before ...:\n";
-      walk($fruits, 'test_print');
+            echo "Before ...:\n";
+            walk($fruits, "test_print");
 
-      walk($fruits, 'test_alter', 'fruit');
-      echo "... and after:\n";
+            walk($fruits, "test_alter", "fruit");
+            echo "... and after:\n";
 
-      walk($fruits, 'test_print');
-      ?>
-    </pre>
+            walk($fruits, "test_print");
+        </pre>
 
         <div>The above example will output:</div>
         <pre class="output">
-      Before ...:
-      d. lemon
-      a. orange
-      b. banana
-      c. apple
-      ... and after:
-      d. fruit: lemon
-      a. fruit: orange
-      b. fruit: banana
-      c. fruit: apple
-    </pre>
+            Before ...:
+            d. lemon
+            a. orange
+            b. banana
+            c. apple
+            ... and after:
+            d. fruit: lemon
+            a. fruit: orange
+            b. fruit: banana
+            c. fruit: apple
+        </pre>
     </div>
 
     <h1>recursiveWalk</h1>
@@ -171,25 +167,22 @@
     <div class="examples">
         <p><strong>Example #1 recursiveWalk() example</strong></p>
         <pre class="php-code">
-      <?php
-      $sweet = array('a' => 'apple', 'b' => 'banana');
-      $fruits = array('sweet' => $sweet, 'sour' => 'lemon');
+            $sweet = ["a" => "apple", "b" => "banana"];
+            $fruits = ["sweet" => $sweet, "sour" => "lemon"];
 
-      function test_print($item, $key)
-      {
-          echo "$key holds $item\n";
-      }
+            function test_print($item, $key) {
+                echo "$key holds $item\n";
+            }
 
-      recursiveWalk($fruits, 'test_print');
-      ?>
-    </pre>
+            recursiveWalk($fruits, "test_print");
+        </pre>
 
         <div>The above example will output:</div>
         <pre class="output">
-      a holds apple
-      b holds banana
-      sour holds lemon
-    </pre>
+            a holds apple
+            b holds banana
+            sour holds lemon
+        </pre>
 
         <div>
             You may notice that the key '<em>sweet</em>' is never displayed. Any key that holds an

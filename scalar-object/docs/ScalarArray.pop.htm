@@ -45,22 +45,20 @@
     <div class="examples">
         <p><strong>Example #1 pop() example</strong></p>
         <pre class="php-code">
-      <?php
-      $stack = array("orange", "banana", "apple", "raspberry");
-      $fruit = pop($stack);
-      print_r($stack);
-      ?>
-    </pre>
+            $stack = ["orange", "banana", "apple", "raspberry"];
+            $fruit = pop($stack);
+            print_r($stack);
+        </pre>
 
         <div>After this, <var>$stack</var> will have only 3 elements:</div>
         <pre class="output">
-      Array
-      (
-          [0] => orange
-          [1] => banana
-          [2] => apple
-      )
-    </pre>
+            Array
+            (
+                [0] => orange
+                [1] => banana
+                [2] => apple
+            )
+        </pre>
         <div>and <em>raspberry</em> will be assigned to <var>$fruit</var>.</div>
     </div>
 </div>

@@ -27,20 +27,18 @@
     <div class="examples">
         <p><strong>Example #1 sum() examples</strong></p>
         <pre class="php-code">
-      <?php
-      $a = array(2, 4, 6, 8);
-      echo "sum(a) = " . sum($a) . "\n";
+            $a = [2, 4, 6, 8];
+            echo "sum(a) = " . sum($a) . "\n";
 
-      $b = array("a" => 1.2, "b" => 2.3, "c" => 3.4);
-      echo "sum(b) = " . sum($b) . "\n";
-      ?>
-    </pre>
+            $b = ["a" => 1.2, "b" => 2.3, "c" => 3.4];
+            echo "sum(b) = " . sum($b) . "\n";
+        </pre>
 
         <div>The above example will output:</div>
         <pre class="output">
-      sum(a) = 20
-      sum(b) = 6.9
-    </pre>
+            sum(a) = 20
+            sum(b) = 6.9
+        </pre>
     </div>
 
     <h1>max</h1>
@@ -80,38 +78,36 @@
     <div class="examples">
         <p><strong>Example #1 Example uses of <strong>max()</strong></strong></p>
         <pre class="php-code">
-      <?php
-      echo max(2, 3, 1, 6, 7);  // 7
-      echo max(array(2, 4, 5)); // 5
+            echo max(2, 3, 1, 6, 7); // output: 7
+            echo max([2, 4, 5]);     // output: 5
 
-      // The string 'hello' when compared to an int is treated as 0
-      // Since the two values are equal, the order they are provided determines the result
-      echo max(0, 'hello');     // 0
-      echo max('hello', 0);     // hello
+            // The string "hello" when compared to an int is treated as 0
+            // Since the two values are equal, the order they are provided determines the result
+            echo max(0, "hello");     // output: 0
+            echo max("hello", 0);     // output: hello
 
-      // Here we are comparing -1 &lt; 0, so 'hello' is the highest value
-      echo max('hello', -1);    // hello
+            // Here we are comparing -1 &lt; 0, so "hello" is the highest value
+            echo max("hello", -1);    // output: hello
 
-      // With multiple arrays of different lengths, max returns the longest
-      $val = max(array(2, 2, 2), array(1, 1, 1, 1)); // array(1, 1, 1, 1)
+            // With multiple arrays of different lengths, max returns the longest
+            $val = max([2, 2, 2], [1, 1, 1, 1]); // output: [1, 1, 1, 1]
 
-      // Multiple arrays of the same length are compared from left to right
-      // so in our example: 2 == 2, but 5 > 4
-      $val = max(array(2, 4, 8), array(2, 5, 1)); // array(2, 5, 1)
+            // Multiple arrays of the same length are compared from left to right
+            // so in our example: 2 == 2, but 5 > 4
+            $val = max([2, 4, 8], [2, 5, 1]); // output: [2, 5, 1]
 
-      // If both an array and non-array are given, the array will be returned
-      // as comparisons treat arrays as greater than any other value
-      $val = max('string', array(2, 5, 7), 42);   // array(2, 5, 7)
+            // If both an array and non-array are given, the array will be returned
+            // as comparisons treat arrays as greater than any other value
+            $val = max("string", [2, 5, 7], 42);   // output: [2, 5, 7]
 
-      // If one argument is NULL or a boolean, it will be compared against
-      // other values using the rule FALSE &lt; TRUE regardless of the other types involved
-      // In the below example, -10 is treated as TRUE in the comparison
-      $val = max(-10, FALSE); // -10
+            // If one argument is NULL or a boolean, it will be compared against
+            // other values using the rule FALSE &lt; TRUE regardless of the other types involved
+            // In the below example, -10 is treated as TRUE in the comparison
+            $val = max(-10, FALSE); // output: -10
 
-      // 0, on the other hand, is treated as FALSE, so is "lower than" TRUE
-      $val = max(0, TRUE); // TRUE
-      ?>
-    </pre>
+            // 0, on the other hand, is treated as FALSE, so is "lower than" TRUE
+            $val = max(0, TRUE); // TRUE
+        </pre>
     </div>
 
     <h1>min</h1>
@@ -151,39 +147,37 @@
     <div class="examples">
         <p><strong>Example #1 Example uses of <strong>min()</strong></strong></p>
         <pre class="php-code">
-      <?php
-      echo min(2, 3, 1, 6, 7);  // 1
-      echo min(array(2, 4, 5)); // 2
+            echo min(2, 3, 1, 6, 7);  // output: 1
+            echo min([2, 4, 5]);      // output: 2
 
-      // The string 'hello' when compared to an int is treated as 0
-      // Since the two values are equal, the order they are provided determines the result
-      echo min(0, 'hello');     // 0
-      echo min('hello', 0);     // hello
+            // The string "hello" when compared to an int is treated as 0
+            // Since the two values are equal, the order they are provided determines the result
+            echo min(0, "hello"); // output: 0
+            echo min("hello", 0); // output: hello
 
-      // Here we are comparing -1 &lt; 0, so -1 is the lowest value
-      echo min('hello', -1);    // -1
+            // Here we are comparing -1 &lt; 0, so -1 is the lowest value
+            echo min("hello", -1); // output: -1
 
-      // With multiple arrays of different lengths, min returns the shortest
-      $val = min(array(2, 2, 2), array(1, 1, 1, 1)); // array(2, 2, 2)
+            // With multiple arrays of different lengths, min returns the shortest
+            $val = min([2, 2, 2], [1, 1, 1, 1]); // output: [2, 2, 2]
 
-      // Multiple arrays of the same length are compared from left to right
-      // so in our example: 2 == 2, but 4 &lt; 5
-      $val = min(array(2, 4, 8), array(2, 5, 1)); // array(2, 4, 8)
+            // Multiple arrays of the same length are compared from left to right
+            // so in our example: 2 == 2, but 4 &lt; 5
+            $val = min([2, 4, 8], [2, 5, 1]); //  output: [2, 4, 8]
 
-      // If both an array and non-array are given, the array is never returned
-      // as comparisons treat arrays as greater than any other value
-      $val = min('string', array(2, 5, 7), 42);   // string
+            // If both an array and non-array are given, the array is never returned
+            // as comparisons treat arrays as greater than any other value
+            $val = min("string", [2, 5, 7], 42); // output: string
 
-      // If one argument is NULL or a boolean, it will be compared against
-      // other values using the rule FALSE &lt; TRUE regardless of the other types involved
-      // In the below examples, both -10 and 10 are treated as TRUE in the comparison
-      $val = min(-10, FALSE, 10); // FALSE
-      $val = min(-10, NULL, 10);  // NULL
+            // If one argument is NULL or a boolean, it will be compared against
+            // other values using the rule FALSE &lt; TRUE regardless of the other types involved
+            // In the below examples, both -10 and 10 are treated as TRUE in the comparison
+            $val = min(-10, FALSE, 10); // FALSE
+            $val = min(-10, NULL, 10);  // NULL
 
-      // 0, on the other hand, is treated as FALSE, so is "lower than" TRUE
-      $val = min(0, TRUE); // 0
-      ?>
-    </pre>
+            // 0, on the other hand, is treated as FALSE, so is "lower than" TRUE
+            $val = min(0, TRUE); // 0
+        </pre>
     </div>
 
     <h1>product</h1>
@@ -206,18 +200,16 @@
     <div class="examples">
         <p><strong>Example #1 product() examples</strong></p>
         <pre class="php-code">
-      <?php
-      $a = array(2, 4, 6, 8);
-      echo "product(a) = " . product($a) . "\n";
-      echo "product(array()) = " . product(array()) . "\n";
-      ?>
-    </pre>
+            $a = [2, 4, 6, 8];
+            echo "product(a) = " . product($a) . "\n";
+            echo "product([]) = " . product([]) . "\n";
+        </pre>
 
         <div>The above example will output:</div>
         <pre class="output">
-      product(a) = 384
-      product(array()) = 1
-    </pre>
+            product(a) = 384
+            product([]) = 1
+        </pre>
     </div>
 </div>
 </body>

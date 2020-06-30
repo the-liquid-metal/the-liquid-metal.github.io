@@ -44,42 +44,37 @@
     <div class="examples">
         <p><strong>Example #1 flip() example</strong></p>
         <pre class="php-code">
-      <?php
-      $input = array("oranges", "apples", "pears");
-      $flipped = flip($input);
+            $input = ["oranges", "apples", "pears"];
+            $flipped = flip($input);
 
-      print_r($flipped);
-      ?>
-    </pre>
+            print_r($flipped);
+        </pre>
 
         <div>The above example will output:</div>
         <pre class="output">
-      Array
-      (
-          [oranges] => 0
-          [apples] => 1
-          [pears] => 2
-      )
-    </pre>
+            Array
+            (
+                [oranges] => 0
+                [apples] => 1
+                [pears] => 2
+            )
+        </pre>
 
         <p><strong>Example #2 flip() example : collision</strong></p>
         <pre class="php-code">
-      <?php
-      $input = array("a" => 1, "b" => 1, "c" => 2);
-      $flipped = flip($input);
-
-      print_r($flipped);
-      ?>
-    </pre>
+            $input = ["a" => 1, "b" => 1, "c" => 2];
+            $flipped = flip($input);
+            print_r($flipped);
+        </pre>
 
         <div>The above example will output:</div>
         <pre class="output">
-      Array
-      (
-          [1] => b
-          [2] => c
-      )
-    </pre>
+            Array
+            (
+                [1] => b
+                [2] => c
+            )
+        </pre>
     </div>
 </div>
 </body>

@@ -63,101 +63,80 @@
     <div class="examples">
         <p><strong>Example #1 filter() example</strong></p>
         <pre class="php-code">
-      <?php
-      function odd($var)
-      {
-          // returns whether the input integer is odd
-          return($var &amp; 1);
-      }
+            function odd($var) {
+                // returns whether the input integer is odd
+                return($var &amp; 1);
+            }
 
-      function even($var)
-      {
-          // returns whether the input integer is even
-          return(!($var &amp; 1));
-      }
+            function even($var) {
+                // returns whether the input integer is even
+                return(!($var &amp; 1));
+            }
 
-      $array1 = array("a"=>1, "b"=>2, "c"=>3, "d"=>4, "e"=>5);
-      $array2 = array(6, 7, 8, 9, 10, 11, 12);
+            $array1 = ["a"=>1, "b"=>2, "c"=>3, "d"=>4, "e"=>5];
+            $array2 = [6, 7, 8, 9, 10, 11, 12];
 
-      echo "Odd :\n";
-      print_r(filter($array1, "odd"));
-      echo "Even:\n";
-      print_r(filter($array2, "even"));
-      ?>
-    </pre>
+            echo "Odd :\n";
+            print_r(filter($array1, "odd"));
+            echo "Even:\n";
+            print_r(filter($array2, "even"));
+        </pre>
 
         <div>The above example will output:</div>
         <pre class="output">
-      Odd :
-      Array
-      (
-          [a] => 1
-          [c] => 3
-          [e] => 5
-      )
-      Even:
-      Array
-      (
-          [0] => 6
-          [2] => 8
-          [4] => 10
-          [6] => 12
-      )
-    </pre>
+            Odd :
+            Array
+            (
+                [a] => 1
+                [c] => 3
+                [e] => 5
+            )
+            Even:
+            Array
+            (
+                [0] => 6
+                [2] => 8
+                [4] => 10
+                [6] => 12
+            )
+        </pre>
 
         <p><strong>Example #2 <strong>filter()</strong> without <var>$filter</var></strong></p>
         <pre class="php-code">
-      <?php
-
-      $entry = array(
-                   0 => 'foo',
-                   1 => false,
-                   2 => -1,
-                   3 => null,
-                   4 => ''
-                );
-
-      print_r(filter($entry));
-      ?>
-    </pre>
+            $entry = [0 => "foo", 1 => false, 2 => -1, 3 => null, 4 => ""];
+            print_r(filter($entry));
+        </pre>
 
         <div>The above example will output:</div>
         <pre class="output">
-      Array
-      (
-          [0] => foo
-          [2] => -1
-      )
-    </pre>
+            Array
+            (
+                [0] => foo
+                [2] => -1
+            )
+        </pre>
 
         <p><strong>Example #3 <strong>filter()</strong> with <var>$flag</var></strong></p>
         <pre class="php-code">
-      <?php
-      $arr = ['a' => 1, 'b' => 2, 'c' => 3, 'd' => 4];
+            $arr = ["a" => 1, "b" => 2, "c" => 3, "d" => 4];
 
-      var_dump(filter($arr, function($k) {
-          return $k == 'b';
-      }, ARRAY_FILTER_USE_KEY));
-
-      var_dump(filter($arr, function($v, $k) {
-          return $k == 'b' || $v == 4;
-      }, ARRAY_FILTER_USE_BOTH));
-      ?>
-    </pre>
+            var_dump(filter($arr, function($k) {return $k == "b";}, ARRAY_FILTER_USE_KEY));
+            var_dump(filter($arr, function($v, $k) {return $k == "b" || $v == 4;}, ARRAY_FILTER_USE_BOTH));
+        </pre>
 
         <div>The above example will output:</div>
         <pre class="output">
-      array(1) {
-        ["b"]=>
-        int(2)
-      }
-      array(2) {
-        ["b"]=>
-        int(2)
-        ["d"]=>
-        int(4)
-      }
-    </pre>
+            array(1) {
+              ["b"]=>
+              int(2)
+            }
+            array(2) {
+              ["b"]=>
+              int(2)
+              ["d"]=>
+              int(4)
+            }
+        </pre>
     </div>
 
     <div class="caution">

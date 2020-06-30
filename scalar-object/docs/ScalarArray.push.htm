@@ -27,10 +27,8 @@
             increases by the number of variables pushed. Has the same effect as:
         </p>
         <pre class="php-code">
-      <?php
-      $array[] = $var;
-      ?>
-    </pre>
+            $array[] = $var;
+        </pre>
 
         <p>repeated for each passed value.</p>
         <blockquote>
@@ -65,23 +63,21 @@
     <div class="examples">
         <p><strong>Example #1 push() example</strong></p>
         <pre class="php-code">
-      <?php
-      $stack = array("orange", "banana");
-      push($stack, "apple", "raspberry");
-      print_r($stack);
-      ?>
-    </pre>
+            $stack = ["orange", "banana"];
+            push($stack, "apple", "raspberry");
+            print_r($stack);
+        </pre>
 
         <div>The above example will output:</div>
         <pre class="output">
-      Array
-      (
-          [0] => orange
-          [1] => banana
-          [2] => apple
-          [3] => raspberry
-      )
-    </pre>
+            Array
+            (
+                [0] => orange
+                [1] => banana
+                [2] => apple
+                [3] => raspberry
+            )
+        </pre>
     </div>
 </div>
 </body>

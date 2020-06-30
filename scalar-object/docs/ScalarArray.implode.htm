@@ -47,16 +47,14 @@
     <div class="examples">
         <p><strong>Example #1 implode() example</strong></p>
         <pre class="php-code">
-      <?php
-      $array = array('lastname', 'email', 'phone');
-      $comma_separated = implode(",", $array);
+            $array = ["lastname", "email", "phone"];
+            $comma_separated = implode(",", $array);
 
-      echo $comma_separated; // lastname,email,phone
+            echo $comma_separated; // lastname,email,phone
 
-      // Empty string when using an empty array:
-      var_dump(implode('hello', array())); // string(0) ""
-      ?>
-    </pre>
+            // Empty string when using an empty array:
+            var_dump(implode("hello", [])); // string(0) ""
+        </pre>
     </div>
 
     <blockquote><strong>Note</strong>: This function is binary-safe.</blockquote>

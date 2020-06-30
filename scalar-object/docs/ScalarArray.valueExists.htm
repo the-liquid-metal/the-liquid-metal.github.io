@@ -56,16 +56,14 @@
     <div class="examples">
         <p><strong>Example #1 inArray() example</strong></p>
         <pre class="php-code">
-      <?php
-      $os = array("Mac", "NT", "Irix", "Linux");
-      if (inArray("Irix", $os)) {
-          echo "Got Irix";
-      }
-      if (inArray("mac", $os)) {
-          echo "Got mac";
-      }
-      ?>
-    </pre>
+            $os = ["Mac", "NT", "Irix", "Linux"];
+            if (inArray("Irix", $os)) {
+                echo "Got Irix";
+            }
+            if (inArray("mac", $os)) {
+                echo "Got mac";
+            }
+        </pre>
         <div>
             The second condition fails because <strong>inArray()</strong>
             is case-sensitive, so the program above will display:
@@ -74,45 +72,45 @@
 
         <p><strong>Example #2 inArray() with strict example</strong></p>
         <pre class="php-code">
-      <?php
-      $a = array('1.10', 12.4, 1.13);
+            $a = ["1.10", 12.4, 1.13];
 
-      if (inArray('12.4', $a, true)) {
-          echo "'12.4' found with strict check\n";
-      }
+            if (inArray("12.4", $a, true)) {
+                echo "'12.4' found with strict check\n";
+            }
 
-      if (inArray(1.13, $a, true)) {
-          echo "1.13 found with strict check\n";
-      }
-      ?>
-    </pre>
+            if (inArray(1.13, $a, true)) {
+                echo "1.13 found with strict check\n";
+            }
+        </pre>
         <div>The above example will output:</div>
         <pre class="output">1.13 found with strict check</pre>
 
         <p><strong>Example #3 inArray() with an array as needle</strong></p>
         <pre class="php-code">
-      <?php
-      $a = array(array('p', 'h'), array('p', 'r'), 'o');
+            $a = [
+                ["p", "h"],
+                ["p", "r"],
+                "o"
+            ];
 
-      if (inArray(array('p', 'h'), $a)) {
-          echo "'ph' was found\n";
-      }
+            if (inArray(["p", "h"], $a)) {
+                echo "'ph' was found\n";
+            }
 
-      if (inArray(array('f', 'i'), $a)) {
-          echo "'fi' was found\n";
-      }
+            if (inArray(["f", "i"], $a)) {
+                echo "'fi' was found\n";
+            }
 
-      if (inArray('o', $a)) {
-          echo "'o' was found\n";
-      }
-      ?>
-    </pre>
+            if (inArray("o", $a)) {
+                echo "'o' was found\n";
+            }
+        </pre>
 
         <div>The above example will output:</div>
         <pre class="output">
-      'ph' was found
-      'o' was found
-    </pre>
+            'ph' was found
+            'o' was found
+        </pre>
     </div>
 </div>
 </body>

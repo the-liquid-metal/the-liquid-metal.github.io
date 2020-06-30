@@ -85,46 +85,35 @@
     <div class="examples">
         <p><strong>Example #1 splice() examples</strong></p>
         <pre class="php-code">
-      <?php
-      $input = array("red", "green", "blue", "yellow");
-      splice($input, 2);
-      // $input is now array("red", "green")
+            $input = ["red", "green", "blue", "yellow"];
+            splice($input, 2); // output: ["red", "green"]
 
-      $input = array("red", "green", "blue", "yellow");
-      splice($input, 1, -1);
-      // $input is now array("red", "yellow")
+            $input = ["red", "green", "blue", "yellow"];
+            splice($input, 1, -1); // output: ["red", "yellow"]
 
-      $input = array("red", "green", "blue", "yellow");
-      splice($input, 1, count($input), "orange");
-      // $input is now array("red", "orange")
+            $input = ["red", "green", "blue", "yellow"];
+            splice($input, 1, count($input), "orange"); // output: ["red", "orange"]
 
-      $input = array("red", "green", "blue", "yellow");
-      splice($input, -1, 1, array("black", "maroon"));
-      // $input is now array("red", "green",
-      //          "blue", "black", "maroon")
+            $input = ["red", "green", "blue", "yellow"];
+            splice($input, -1, 1, ["black", "maroon"]); // output: ["red", "green", "blue", "black", "maroon"]
 
-      $input = array("red", "green", "blue", "yellow");
-      splice($input, 3, 0, "purple");
-      // $input is now array("red", "green",
-      //          "blue", "purple", "yellow");
-      ?>
-    </pre>
+            $input = ["red", "green", "blue", "yellow"];
+            splice($input, 3, 0, "purple"); // output: ["red", "green", "blue", "purple", "yellow"];
+        </pre>
 
         <p><strong>Example #2 splice() examples</strong></p>
         <div>The following statements change the values of <var>$input</var> the same way:</div>
         <pre class="php-code">
-      <?php
-      array_push($input, $x, $y);
-      splice($input, count($input), 0, array($x, $y));
-      array_pop($input);
-      splice($input, -1);
-      array_shift($input);
-      splice($input, 0, 1);
-      array_unshift($input, $x, $y);
-      splice($input, 0, 0, array($x, $y));
-      $input[$x] = $y; // for arrays where key equals offset
-      splice($input, $x, 1, $y);
-      ?>
+            array_push($input, $x, $y);
+            splice($input, count($input), 0, [$x, $y]);
+            array_pop($input);
+            splice($input, -1);
+            array_shift($input);
+            splice($input, 0, 1);
+            array_unshift($input, $x, $y);
+            splice($input, 0, 0, [$x, $y]);
+            $input[$x] = $y; // for arrays where key equals offset
+            splice($input, $x, 1, $y);
     </pre>
     </div>
 </div>
