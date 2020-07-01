@@ -12,10 +12,10 @@
     <h1>pad</h1>
 
     <div class="short-description">
-        <code>pad( int <var>$size</var>, mixed <var>$value</var> ): array</code>
+        <code>pad (int <var>$size</var>, mixed <var>$value</var>): static</code>
         <p>
-            Alias of <a href="http://php.net/manual/en/function.array-pad.php">array_pad</a>.<br/>
-            Pads to the specified length with a value.
+            Pads to the specified length with a value.<br/><br/>
+            see <a target="_blank" href="http://php.net/manual/en/function.array-pad.php">array_pad</a>.<br/>
         </p>
     </div>
 
@@ -50,13 +50,12 @@
     </div>
 
     <div class="examples">
-        <p><strong>Example #1 pad() example</strong></p>
         <pre class="php-code">
             $input = [12, 10, 9];
 
-            $result = pad($input, 5, 0); // output: [12, 10, 9, 0, 0]
-            $result = pad($input, -7, -1); // output: [-1, -1, -1, -1, 12, 10, 9]
-            $result = pad($input, 2, "noop"); // output: not padded
+            pad($input, 5, 0);      // output: [12, 10, 9, 0, 0]
+            pad($input, -7, -1);    // output: [-1, -1, -1, -1, 12, 10, 9]
+            pad($input, 2, "noop"); // output: not padded
         </pre>
     </div>
 </div>

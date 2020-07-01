@@ -9,13 +9,13 @@
 </head>
 <body>
 <div class="ajax-area">
-    <h1>inArray</h1>
+    <h1>valueExists</h1>
 
     <div class="short-description">
-        <code>inArray( mixed <var>$needle</var>, bool <var>$strict</var> = FALSE ): bool</code>
+        <code>valueExists (mixed <var>$needle</var>, bool <var>$strict</var> = false): bool</code>
         <p>
-            Alias of <a href="http://php.net/manual/en/function.in-array.php">in_array</a>.<br/>
-            Checks if a value exists.
+            Checks if a value exists.<br/><br/>
+            see <a target="_blank" href="http://php.net/manual/en/function.in-array.php">in_array</a>.<br/>
         </p>
     </div>
 
@@ -54,7 +54,6 @@
     </div>
 
     <div class="examples">
-        <p><strong>Example #1 inArray() example</strong></p>
         <pre class="php-code">
             $os = ["Mac", "NT", "Irix", "Linux"];
             if (inArray("Irix", $os)) {
@@ -70,7 +69,6 @@
         </div>
         <pre class="output">Got Irix</pre>
 
-        <p><strong>Example #2 inArray() with strict example</strong></p>
         <pre class="php-code">
             $a = ["1.10", 12.4, 1.13];
 
@@ -85,7 +83,6 @@
         <div>The above example will output:</div>
         <pre class="output">1.13 found with strict check</pre>
 
-        <p><strong>Example #3 inArray() with an array as needle</strong></p>
         <pre class="php-code">
             $a = [
                 ["p", "h"],

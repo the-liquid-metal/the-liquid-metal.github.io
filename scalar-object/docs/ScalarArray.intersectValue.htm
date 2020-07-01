@@ -9,13 +9,18 @@
 </head>
 <body>
 <div class="ajax-area">
-    <h1>intersect</h1>
+    <h1>intersectValue</h1>
 
     <div class="short-description">
-        <code>intersect( array <var>$array2</var>, array <var>...</var> ): array</code>
+        <code>intersectValue (callable <var>$valComparator</var>, callable <var>$keyComparator</var>, iterable ...<var>$arrays</var>): ScalarArray|ObjectArray</code>
         <p>
-            Alias of <a href="http://php.net/manual/en/function.array-intersect.php">array_intersect</a>.<br/>
-            Computes the intersection.
+            Compute intersection of values, considering keys or not.<br/><br/>
+            see <a target="_blank" href="http://php.net/manual/en/function.array-intersect.php">array_intersect</a>&nbsp;
+            <a target="_blank" href="http://php.net/manual/en/function.array-intersect-assoc.php">array_intersect_assoc</a>&nbsp;
+            <a target="_blank" href="http://php.net/manual/en/function.array-intersect-uassoc.php">array_intersect_uassoc</a>&nbsp;
+            <a target="_blank" href="http://php.net/manual/en/function.array-uintersect.php">array_uintersect</a>&nbsp;
+            <a target="_blank" href="http://php.net/manual/en/function.array-uintersect-assoc.php">array_uintersect_assoc</a>&nbsp;
+            <a target="_blank" href="http://php.net/manual/en/function.array-uintersect-uassoc.php">array_uintersect_uassoc</a>.<br/>
         </p>
     </div>
 
@@ -45,20 +50,10 @@
     </div>
 
     <div class="examples">
-        <p><strong>Example #1 intersect() example</strong></p>
         <pre class="php-code">
             $array1 = ["a" => "green", "red", "blue"];
             $array2 = ["b" => "green", "yellow", "red"];
-            $result = intersect($array1, $array2);
-            print_r($result);
-        </pre>
-        <div>The above example will output:</div>
-        <pre class="output">
-            Array
-            (
-                [a] => green
-                [0] => red
-            )
+            intersect($array1, $array2); // output: ["a" => "green", 0 => "red"]
         </pre>
     </div>
 
@@ -67,15 +62,7 @@
         $elem1 === (string) $elem2</em>. In words: when the string representation is the same.
     </blockquote>
 
-    <h1>assocIntersect</h1>
-
-    <div class="short-description">
-        <code>assocIntersect( array <var>$array2</var>, array <var>...</var> ): array</code>
-        <p>
-            Alias of <a href="http://php.net/manual/en/function.array-intersect-assoc.php" target="_blank">array_intersect_assoc</a>.<br/>
-            Computes the intersection with additional index check.
-        </p>
-    </div>
+    <h2>assocIntersect</h2>
 
     <div>
         <strong>assocIntersect()</strong> returns an array containing all the values of
@@ -103,20 +90,10 @@
     </div>
 
     <div class="examples">
-        <p><strong>Example #1 assocIntersect() example</strong></p>
         <pre class="php-code">
             $array1 = ["a" => "green", "b" => "brown", "c" => "blue", "red"];
             $array2 = ["a" => "green", "b" => "yellow", "blue", "red"];
-            $result_array = assocIntersect($array1, $array2);
-            print_r($result_array);
-        </pre>
-
-        <div>The above example will output:</div>
-        <pre class="output">
-            Array
-            (
-                [a] => green
-            )
+            assocIntersect($array1, $array2); // output: ["a" => "green"]
         </pre>
 
         <p>
@@ -132,15 +109,7 @@
         </p>
     </div>
 
-    <h1>userAssocIntersect</h1>
-
-    <div class="short-description">
-        <code>userAssocIntersect( array <var>$array2</var>, array <var>...</var>, callable <var>$keyComparator</var> ): array</code>
-        <p>
-            Alias of <a href="http://php.net/manual/en/function.array-intersect-uassoc.php">array_intersect_uassoc</a>.<br/>
-            Computes the intersection with additional index check, compares indexes using a callback function.
-        </p>
-    </div>
+    <h2>userAssocIntersect</h2>
 
     <div>
         <strong>userAssocIntersect()</strong> returns an array containing all the values of
@@ -171,31 +140,14 @@
     </div>
 
     <div class="examples">
-        <p><strong>Example #1 userAssocIntersect() example</strong></p>
         <pre class="php-code">
             $array1 = ["a" => "green", "b" => "brown", "c" => "blue", "red"];
             $array2 = ["a" => "GREEN", "B" => "brown", "yellow", "red"];
-            print_r(userAssocIntersect($array1, $array2, "strcasecmp"));
-        </pre>
-
-        <div>The above example will output:</div>
-        <pre class="output">
-            Array
-            (
-                [b] => brown
-            )
+            userAssocIntersect($array1, $array2, "strcasecmp"); // output: ["b" => "brown"]
         </pre>
     </div>
 
-    <h1>userIntersect</h1>
-
-    <div class="short-description">
-        <code>userIntersect( array <var>$array2</var>, array <var>...</var>, callable <var>$valueComparator</var> ): array</code>
-        <p>
-            Alias of <a href="http://php.net/manual/en/function.array-uintersect.php">array_uintersect</a>.<br/>
-            Computes the intersection, compares data using a callback function.
-        </p>
-    </div>
+    <h2>userIntersect</h2>
 
     <div>Computes the intersection of arrays, compares data by a callback function.</div>
 
@@ -222,33 +174,14 @@
     </div>
 
     <div class="examples">
-        <p><strong>Example #1 userIntersect() example</strong></p>
         <pre class="php-code">
             $array1 = ["a" => "green", "b" => "brown", "c" => "blue", "red"];
             $array2 = ["a" => "GREEN", "B" => "brown", "yellow", "red"];
-            print_r(userIntersect($array1, $array2, "strcasecmp"));
-        </pre>
-
-        <div>The above example will output:</div>
-        <pre class="output">
-            Array
-            (
-                [a] => green
-                [b] => brown
-                [0] => red
-            )
+            userIntersect($array1, $array2, "strcasecmp"); // output: ["a" => "green", "b" => "brown", 0 => "red"]
         </pre>
     </div>
 
-    <h1>userIntersectAssoc</h1>
-
-    <div class="short-description">
-        <code>userIntersectAssoc( array <var>$array2</var>, array <var>...</var>, callable <var>$valueComparator</var> ): array</code>
-        <p>
-            Alias of <a href="http://php.net/manual/en/function.array-uintersect-assoc.php">array_uintersect_assoc</a>.<br/>
-            Computes the intersection with additional index check, compares data using a callback function.
-        </p>
-    </div>
+    <h2>userIntersectAssoc</h2>
 
     <div>
         <p>
@@ -285,36 +218,14 @@
     </div>
 
     <div class="examples">
-        <p><strong>Example #1 userIntersectAssoc() example</strong></p>
         <pre class="php-code">
             $array1 = ["a" => "green", "b" => "brown", "c" => "blue", "red"];
             $array2 = ["a" => "GREEN", "B" => "brown", "yellow", "red"];
-            print_r(userIntersectAssoc($array1, $array2, "strcasecmp"));
-        </pre>
-
-        <div>The above example will output:</div>
-        <pre class="output">
-            Array
-            (
-                [a] => green
-            )
+            userIntersectAssoc($array1, $array2, "strcasecmp"); // output: ["a" => "green"]
         </pre>
     </div>
 
-    <h1>userIntersectUserAssoc</h1>
-
-    <div class="short-description">
-        <code>userIntersectUserAssoc( array <var>$array2</var>, array <var>...</var>, callable <var>$valueComparator</var>, callable <var>$keyComparator</var> ): array</code>
-        <p>
-            Alias of <a href="http://php.net/manual/en/function.array-uintersect-uassoc.php">array_uintersect_uassoc</a>.<br/>
-            Computes the intersection with additional index check, compares data and indexes using separate callback functions.
-        </p>
-    </div>
-
-    <div>
-        Computes the intersection of arrays with additional index check, compares
-        data and indexes by separate callback functions.
-    </div>
+    <h2>userIntersectUserAssoc</h2>
 
     <div>
         <h3>Parameters</h3>
@@ -342,20 +253,10 @@
     </div>
 
     <div class="examples">
-        <p><strong>Example #1 userIntersectUserAssoc() example</strong></p>
         <pre class="php-code">
             $array1 = ["a" => "green", "b" => "brown", "c" => "blue", "red"];
             $array2 = ["a" => "GREEN", "B" => "brown", "yellow", "red"];
-            print_r(userIntersectUserAssoc($array1, $array2, "strcasecmp", "strcasecmp"));
-        </pre>
-
-        <div>The above example will output:</div>
-        <pre class="output">
-            Array
-            (
-                [a] => green
-                [b] => brown
-            )
+            userIntersectUserAssoc($array1, $array2, "strcasecmp", "strcasecmp"); // output: ["a" => "green", "b" => "brown"]
         </pre>
     </div>
 </div>

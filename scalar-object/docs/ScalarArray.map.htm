@@ -12,10 +12,10 @@
     <h1>map</h1>
 
     <div class="short-description">
-        <code>map( callable <var>$mapper</var> ): array</code>
+        <code>map (callable <var>$mapper</var>, iterable ...<var>$arrays</var>): ScalarArray|ObjectArray</code>
         <p>
-            Alias of <a href="http://php.net/manual/en/function.array-map.php">array_map</a>.<br/>
-            Applies the callback to the elements.
+            Applies the callback to the elements.<br/><br/>
+            see <a target="_blank" href="http://php.net/manual/en/function.array-map.php">array_map</a>.<br/>
         </p>
     </div>
 
@@ -43,50 +43,20 @@
     </div>
 
     <div class="examples">
-        <p><strong>Example #1 map() example</strong></p>
         <pre class="php-code">
             function cube($n) {
                 return($n * $n * $n);
             }
 
             $a = [1, 2, 3, 4, 5];
-            $b = map("cube", $a);
-            print_r($b);
-        </pre>
+            map("cube", $a); // output: [0 => 1, 1 => 8, 2 => 27, 3 => 64, 4 => 125]
 
-        <div>This makes <var>$b</var> have:</div>
-        <pre class="output">
-            Array
-            (
-                [0] => 1
-                [1] => 8
-                [2] => 27
-                [3] => 64
-                [4] => 125
-            )
-        </pre>
-
-        <p><strong>Example #2 map() using a lambda function (as of PHP 5.3.0)</strong></p>
-        <pre class="php-code">
             $func = function($value) {
                 return $value * 2;
             };
 
-            print_r(map($func, range(1, 5)));
-        </pre>
-        <pre class="output">
-            Array
-            (
-                [0] => 2
-                [1] => 4
-                [2] => 6
-                [3] => 8
-                [4] => 10
-            )
-        </pre>
+            map($func, range(1, 5)); // output: [0 => 2, 1 => 4, 2 => 6, 3 => 8, 4 => 10]
 
-        <p><strong>Example #3 map() - using more arrays</strong></p>
-        <pre class="php-code">
             function show_Spanish($n, $m) {
                 return("The number $n is called $m in Spanish");
             }
@@ -98,49 +68,23 @@
             $a = [1, 2, 3, 4, 5];
             $b = ["uno", "dos", "tres", "cuatro", "cinco"];
 
-            $c = map("show_Spanish", $a, $b);
-            print_r($c);
+            map("show_Spanish", $a, $b);
+            // output: [
+            //   0 => "The number 1 is called uno in Spanish",
+            //   1 => "The number 2 is called dos in Spanish",
+            //   2 => "The number 3 is called tres in Spanish",
+            //   3 => "The number 4 is called cuatro in Spanish",
+            //   4 => "The number 5 is called cinco in Spanish",
+            // ]
 
-            $d = map("map_Spanish", $a , $b);
-            print_r($d);
-        </pre>
-
-        <div>The above example will output:</div>
-        <pre class="output">
-            // printout of $c
-            Array
-            (
-                [0] => The number 1 is called uno in Spanish
-                [1] => The number 2 is called dos in Spanish
-                [2] => The number 3 is called tres in Spanish
-                [3] => The number 4 is called cuatro in Spanish
-                [4] => The number 5 is called cinco in Spanish
-            )
-
-            // printout of $d
-            Array
-            (
-                [0] => Array
-                    (
-                        [1] => uno
-                    )
-                [1] => Array
-                    (
-                        [2] => dos
-                    )
-                [2] => Array
-                    (
-                        [3] => tres
-                    )
-                [3] => Array
-                    (
-                        [4] => cuatro
-                    )
-                [4] => Array
-                    (
-                        [5] => cinco
-                    )
-            )
+            map("map_Spanish", $a , $b);
+            // output: [
+            //   0 => [1 => "uno"],
+            //   1 => [2 => "dos"],
+            //   2 => [3 => "tres"],
+            //   3 => [4 => "cuatro"],
+            //   4 => [5 => "cinco"],
+            // ]
         </pre>
 
         <p>
@@ -155,51 +99,19 @@
             be easily performed by using <code>NULL</code> as the name of the callback function
         </p>
 
-        <p><strong>Example #4 Creating an array of arrays</strong></p>
         <pre class="php-code">
             $a = [1, 2, 3, 4, 5];
             $b = ["one", "two", "three", "four", "five"];
             $c = ["uno", "dos", "tres", "cuatro", "cinco"];
 
-            $d = map(null, $a, $b, $c);
-            print_r($d);
-        </pre>
-
-        <div>The above example will output:</div>
-        <pre class="output">
-            Array
-            (
-                [0] => Array
-                    (
-                        [0] => 1
-                        [1] => one
-                        [2] => uno
-                    )
-                [1] => Array
-                    (
-                        [0] => 2
-                        [1] => two
-                        [2] => dos
-                    )
-                [2] => Array
-                    (
-                        [0] => 3
-                        [1] => three
-                        [2] => tres
-                    )
-                [3] => Array
-                    (
-                        [0] => 4
-                        [1] => four
-                        [2] => cuatro
-                    )
-                [4] => Array
-                    (
-                        [0] => 5
-                        [1] => five
-                        [2] => cinco
-                    )
-            )
+            map(null, $a, $b, $c);
+            // output: [
+            //   0 => [0 => 1, 1 => "one",   2 => "uno"],
+            //   1 => [0 => 2, 1 => "two",   2 => "dos"],
+            //   2 => [0 => 3, 1 => "three", 2 => "tres"],
+            //   3 => [0 => 4, 1 => "four",  2 => "cuatro"],
+            //   4 => [0 => 5, 1 => "five",  2 => "cinco"],
+            // ]
         </pre>
 
         <p>
@@ -208,51 +120,19 @@
             than one argument is passed then the returned array always has integer keys.
         </p>
 
-        <p><strong>Example #5 map() - with string keys</strong></p>
         <pre class="php-code">
             $arr = ["stringkey" => "value"];
             function cb1($a) {
-                return array ($a);
+                return [$a];
             }
             function cb2($a, $b) {
-                return array ($a, $b);
+                return [$a, $b];
             }
-            var_dump(map("cb1", $arr));
-            var_dump(map("cb2", $arr, $arr));
-            var_dump(map(null,  $arr));
-            var_dump(map(null, $arr, $arr));
-        </pre>
-        <div>The above example will output:</div>
-        <pre class="output">
-            array(1) {
-              ["stringkey"]=>
-              array(1) {
-                [0]=>
-                string(5) "value"
-              }
-            }
-            array(1) {
-              [0]=>
-              array(2) {
-                [0]=>
-                string(5) "value"
-                [1]=>
-                string(5) "value"
-              }
-            }
-            array(1) {
-              ["stringkey"]=>
-              string(5) "value"
-            }
-            array(1) {
-              [0]=>
-              array(2) {
-                [0]=>
-                string(5) "value"
-                [1]=>
-                string(5) "value"
-              }
-            }
+
+            map("cb1", $arr);       // output: ["stringkey" => [0 => "value"]]
+            map("cb2", $arr, $arr); // output: [0 => [0 => "value", 1 => "value"]]
+            map(null,  $arr);       // output: ["stringkey" => "value"]
+            map(null, $arr, $arr);  // output: [0 => [0 => "value", 1 => "value"]]
         </pre>
     </div>
 </div>

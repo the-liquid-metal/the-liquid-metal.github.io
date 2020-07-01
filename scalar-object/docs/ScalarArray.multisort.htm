@@ -12,7 +12,7 @@
     <h1>multisort</h1>
 
     <div class="short-description">
-        <code>multisort( mixed <var>$order</var> = SORT_ASC, mixed <var>$flags</var> = SORT_REGULAR ): array</code>
+        <code>multisort (mixed <var>$order</var> = SORT_ASC, mixed <var>$flags</var> = SORT_REGULAR): static</code>
         <p>
             Alias of <a href="http://php.net/manual/en/function.array-multisort.php">array_multisort</a>.<br/>
             Sort multiple or multi-dimensional arrays.
@@ -87,7 +87,11 @@
     </div>
 
     <div class="examples">
-        <p><strong>Example #1 Sorting multiple arrays</strong></p>
+        <div>
+            In this example, after sorting, the first array will contain 0, 10, 100, 100. The
+            second array will contain 4, 1, 2, 3. The entries in the second array corresponding
+            to the identical entries in the first array (100 and 100) were sorted as well.
+        </div>
         <pre class="php-code">
             $ar1 = [10, 100, 100, 0];
             $ar2 = [1, 3, 2, 4];
@@ -97,11 +101,6 @@
             var_dump($ar2);
         </pre>
 
-        <div>
-            In this example, after sorting, the first array will contain 0, 10, 100, 100. The
-            second array will contain 4, 1, 2, 3. The entries in the second array corresponding
-            to the identical entries in the first array (100 and 100) were sorted as well.
-        </div>
         <pre class="output">
             array(4) {
               [0]=> int(0)
@@ -117,7 +116,12 @@
             }
         </pre>
 
-        <p><strong>Example #2 Sorting multi-dimensional array</strong></p>
+        <div>
+            In this example, after sorting, the first array will transform to "10", 100, 100,
+            11, "a" (it was sorted as strings in ascending order). The second will contain 1,
+            3, "2", 2, 1 (sorted as numbers, in descending order).
+        </div>
+
         <pre class="php-code">
             $ar = [
                ["10", 11, 100, 100, "a"],
@@ -127,11 +131,6 @@
             var_dump($ar);
         </pre>
 
-        <div>
-            In this example, after sorting, the first array will transform to "10", 100, 100,
-            11, "a" (it was sorted as strings in ascending order). The second will contain 1,
-            3, "2", 2, 1 (sorted as numbers, in descending order).
-        </div>
         <pre class="output">
             array(2) {
               [0]=> array(5) {
@@ -174,12 +173,14 @@
             be obtained by looping with <a href="function.mysql-fetch-assoc.php">mysql_fetch_assoc()</a>.
         </div>
         <pre class="php-code">
-            $data[] = ["volume" => 67, "edition" => 2];
-            $data[] = ["volume" => 86, "edition" => 1];
-            $data[] = ["volume" => 85, "edition" => 6];
-            $data[] = ["volume" => 98, "edition" => 2];
-            $data[] = ["volume" => 86, "edition" => 6];
-            $data[] = ["volume" => 67, "edition" => 7];
+            $data = [
+                ["volume" => 67, "edition" => 2],
+                ["volume" => 86, "edition" => 1],
+                ["volume" => 85, "edition" => 6],
+                ["volume" => 98, "edition" => 2],
+                ["volume" => 86, "edition" => 6],
+                ["volume" => 67, "edition" => 7],
+            ];
         </pre>
 
         <div>
@@ -228,20 +229,7 @@
         <pre class="php-code">
             $array = ["Alpha", "atomic", "Beta", "bank"];
             $array_lowercase = array_map("strtolower", $array);
-
-            multisort($array_lowercase, SORT_ASC, SORT_STRING, $array);
-            print_r($array);
-        </pre>
-
-        <div>The above example will output:</div>
-        <pre class="output">
-            Array
-            (
-                [0] => Alpha
-                [1] => atomic
-                [2] => bank
-                [3] => Beta
-            )
+            multisort($array_lowercase, SORT_ASC, SORT_STRING, $array); // output: ["Alpha", "atomic", "bank", "Beta"]
         </pre>
     </div>
 </div>

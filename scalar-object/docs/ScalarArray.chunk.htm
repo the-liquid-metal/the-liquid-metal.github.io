@@ -12,10 +12,10 @@
     <h1>chunk</h1>
 
     <div class="short-description">
-        <code>chunk( int <var>$size</var>, bool <var>$preserveKeys</var> = false ): array</code>
+        <code>chunk (int <var>$size</var>, bool <var>$preserveKeys</var> = false): ScalarArray</code>
         <p>
-            Alias of <a href="http://php.net/manual/en/function.array-chunk.php">array_chunk</a>.<br/>
-            Splits into chunks.
+            Splits into chunks.<br/><br/>
+            see <a target="_blank" href="http://php.net/manual/en/function.array-chunk.php">array_chunk</a>.<br/>
         </p>
     </div>
 
@@ -55,50 +55,21 @@
     </div>
 
     <div class="examples">
-        <p><strong>Example #1 chunk() example</strong></p>
         <pre class="php-code">
-            $input_array = ["a", "b", "c", "d", "e"];
-            print_r(chunk($input_array, 2));
-            print_r(chunk($input_array, 2, true));
-        </pre>
+            $input = ["a", "b", "c", "d", "e"];
+            chunk($input, 2);
+            // output: [
+            //     0 => [0 => "a", 1 => "b"],
+            //     1 => [0 => "c", 1 => "d"],
+            //     2 => [0 => "e"],
+            // ]
 
-        <div>The above example will output:</div>
-        <pre class="output">
-            Array
-            (
-                [0] => Array
-                    (
-                        [0] => a
-                        [1] => b
-                    )
-                [1] => Array
-                    (
-                        [0] => c
-                        [1] => d
-                    )
-                [2] => Array
-                    (
-                        [0] => e
-                    )
-            )
-
-            Array
-            (
-                [0] => Array
-                    (
-                        [0] => a
-                        [1] => b
-                    )
-                [1] => Array
-                    (
-                        [2] => c
-                        [3] => d
-                    )
-                [2] => Array
-                    (
-                        [4] => e
-                    )
-            )
+            chunk($input, 2, true);
+            // output: [
+            //     0 => [0 => "a", 1 => "b"],
+            //     1 => [2 => "c", 3 => "d"],
+            //     2 => [4 => "e"],
+            // ]
         </pre>
     </div>
 </div>

@@ -12,10 +12,10 @@
     <h1>replace</h1>
 
     <div class="short-description">
-        <code>replace( array <var>$array2</var>, array <var>...</var> ): array</code>
+        <code>replace (bool <var>$recursive</var> = false, iterable ...<var>$replacements</var>): static</code>
         <p>
-            Alias of <a href="http://php.net/manual/en/function.array-replace.php">array_replace</a>.<br/>
-            Replaces elements from passed arrays into the first array.
+            Replaces elements from passed arrays into the first array recursively.<br/><br/>
+            see <a target="_blank" href="http://php.net/manual/en/function.array-replace-recursive.php">detail</a>.<br/>
         </p>
     </div>
 
@@ -55,38 +55,23 @@
     </div>
 
     <div class="examples">
-        <p><strong>Example #1 replace() example</strong></p>
         <pre class="php-code">
             $base = ["orange", "banana", "apple", "raspberry"];
             $replacements = [0 => "pineapple", 4 => "cherry"];
             $replacements2 = [0 => "grape"];
 
-            $basket = replace($base, $replacements, $replacements2);
-            print_r($basket);
-        </pre>
-
-        <div>The above example will output:</div>
-        <pre class="output">
-            Array
-            (
-                [0] => grape
-                [1] => banana
-                [2] => apple
-                [3] => raspberry
-                [4] => cherry
-            )
+            replace($base, $replacements, $replacements2);
+            // output: [
+            //   0 => "grape",
+            //   1 => "banana",
+            //   2 => "apple",
+            //   3 => "raspberry",
+            //   4 => "cherry",
+            // ]
         </pre>
     </div>
 
-    <h1>recursiveReplace</h1>
-
-    <div class="short-description">
-        <code>recursiveReplace( array <var>$array2</var>, array <var>...</var> ): array</code>
-        <p>
-            Alias of <a href="http://php.net/manual/en/function.array-replace-recursive.php">array_replace_recursive</a>.<br/>
-            Replaces elements from passed arrays into the first array recursively.
-        </p>
-    </div>
+    <h2>recursiveReplace</h2>
 
     <div>
         <p>
@@ -129,7 +114,6 @@
     </div>
 
     <div class="examples">
-        <p><strong>Example #1 recursiveReplace() example</strong></p>
         <pre class="php-code">
             $base = [
                 "citrus" => ["orange"],
@@ -140,47 +124,23 @@
                 "berries" => ["blueberry"],
             ];
 
-            $basket = recursiveReplace($base, $replacements);
-            print_r($basket);
+            recursiveReplace($base, $replacements);
+            // output: [
+            //   "citrus" => [pineapple],
+            //   "berries" => ["blueberry", "raspberry"]
+            // ]
 
-            $basket = array_replace($base, $replacements);
-            print_r($basket);
-        </pre>
+            array_replace($base, $replacements);
+            // output: [
+            //   "citrus" => ["pineapple"],
+            //   "berries" => ["blueberry"]
+            // ]
 
-        <div>The above example will output:</div>
-        <pre class="output">
-            Array
-            (
-                [citrus] => Array
-                    (
-                        [0] => pineapple
-                    )
-                [berries] => Array
-                    (
-                        [0] => blueberry
-                        [1] => raspberry
-                    )
-            )
-            Array
-            (
-                [citrus] => Array
-                    (
-                        [0] => pineapple
-                    )
-                [berries] => Array
-                    (
-                        [0] => blueberry
-                    )
-            )
-        </pre>
-
-        <p><strong>Example #2 recursiveReplace() and recursive behavior</strong></p>
-        <pre class="php-code">
-            $base = [(
+            $base = [
                 "citrus" => ["orange"],
                 "berries" => ["blackberry", "raspberry"],
                 "others" => "banana"
-            )];
+            ];
             $replacements = [
                 "citrus" => "pineapple",
                 "berries" => ["blueberry"],
@@ -191,26 +151,12 @@
                 "berries" => ["blueberry"],
                 "others" => "litchis"
             ];
-
-            $basket = recursiveReplace($base, $replacements, $replacements2);
-            print_r($basket);
-        </pre>
-
-        <div>The above example will output:</div>
-        <pre class="output">
-            Array
-            (
-                [citrus] => Array
-                    (
-                        [0] => pineapple
-                    )
-                [berries] => Array
-                    (
-                        [0] => blueberry
-                        [1] => raspberry
-                    )
-                [others] => litchis
-            )
+            recursiveReplace($base, $replacements, $replacements2);
+            // output: [
+            //   "citrus" => ["pineapple"],
+            //   "berries" => ["blueberry", "raspberry"],
+            //   "others" => "litchis"
+            // ]
         </pre>
     </div>
 </div>

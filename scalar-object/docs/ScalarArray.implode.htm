@@ -12,20 +12,15 @@
     <h1>implode</h1>
 
     <div class="short-description">
-        <code>implode( string <var>$glue</var> ): string</code>
+        <code>implode (string <var>$glue</var> = ""): string</code>
         <p>
-            Alias of <a href="http://php.net/manual/en/function.implode.php">implode</a>.<br/>
-            Join elements with a string.
+            Join elements with a string.<br/><br/>
+            see <a target="_blank" href="http://php.net/manual/en/function.implode.php">implode</a>.<br/>
         </p>
     </div>
 
     <div>
         <p>Join array elements with a <var>$glue</var> string.</p>
-        <blockquote>
-            <strong>Note</strong>: <strong>implode()</strong> can, for historical reasons, accept its
-            parameters in either order. For consistency with <a href="explode.htm">explode()</a>,
-            however, it may be less confusing to use the documented order of arguments.
-        </blockquote>
     </div>
 
     <div>
@@ -45,15 +40,12 @@
     </div>
 
     <div class="examples">
-        <p><strong>Example #1 implode() example</strong></p>
         <pre class="php-code">
             $array = ["lastname", "email", "phone"];
-            $comma_separated = implode(",", $array);
-
-            echo $comma_separated; // lastname,email,phone
+            implode(",", $array); // output: "lastname,email,phone"
 
             // Empty string when using an empty array:
-            var_dump(implode("hello", [])); // string(0) ""
+            implode("hello", []); // output: ""
         </pre>
     </div>
 

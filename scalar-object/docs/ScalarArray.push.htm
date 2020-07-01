@@ -12,7 +12,7 @@
     <h1>push</h1>
 
     <div class="short-description">
-        <code>push( mixed <var>$value1</var>, mixed <var>...</var> ): array</code>
+        <code>push (mixed ...<var>$values</var>): static</code>
         <p>
             Alias of <a href="http://php.net/manual/en/function.array-push.php">array_push</a>.<br/>
             Pushes one or more elements onto the end.
@@ -61,22 +61,9 @@
     </div>
 
     <div class="examples">
-        <p><strong>Example #1 push() example</strong></p>
         <pre class="php-code">
             $stack = ["orange", "banana"];
-            push($stack, "apple", "raspberry");
-            print_r($stack);
-        </pre>
-
-        <div>The above example will output:</div>
-        <pre class="output">
-            Array
-            (
-                [0] => orange
-                [1] => banana
-                [2] => apple
-                [3] => raspberry
-            )
+            push($stack, "apple", "raspberry"); // output: ["orange", "banana", "apple", "raspberry"]
         </pre>
     </div>
 </div>

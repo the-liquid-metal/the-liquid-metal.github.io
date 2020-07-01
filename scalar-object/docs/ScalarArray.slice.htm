@@ -12,10 +12,10 @@
     <h1>slice</h1>
 
     <div class="short-description">
-        <code>slice( int <var>$offset</var>, int <var>$length</var> = NULL, bool <var>$preserveKeys</var> = false ): array</code>
+        <code>slice (int <var>$offset</var>, int <var>$length</var> = null, bool <var>$preserveKeys</var> = false): static</code>
         <p>
-            Alias of <a href="http://php.net/manual/en/function.array-slice.php">array_slice</a>.<br/>
-            Extracts a slice.
+            Extracts a slice.<br/><br/>
+            see <a target="_blank" href="http://php.net/manual/en/function.array-slice.php">array_slice</a>.<br/>
         </p>
     </div>
 
@@ -60,31 +60,15 @@
     </div>
 
     <div class="examples">
-        <p><strong>Example #1 slice() examples</strong></p>
         <pre class="php-code">
             $input = ["a", "b", "c", "d", "e"];
 
-            $output = slice($input, 2);      // output: "c", "d", and "e"
-            $output = slice($input, -2, 1);  // output: "d"
-            $output = slice($input, 0, 3);   // output: "a", "b", and "c"
+            slice($input, 2);     // output: "c", "d", and "e"
+            slice($input, -2, 1); // output: "d"
+            slice($input, 0, 3);  // output: "a", "b", and "c"
 
-            // note the differences in the array keys
-            print_r(slice($input, 2, -1));
-            print_r(slice($input, 2, -1, true));
-        </pre>
-
-        <div>The above example will output:</div>
-        <pre class="output">
-            Array
-            (
-                [0] => c
-                [1] => d
-            )
-            Array
-            (
-                [2] => c
-                [3] => d
-            )
+            slice($input, 2, -1);       // output: [0 => "c", 1 => "d"]
+            slice($input, 2, -1, true); // output: [2 => "c", 3 => "d"]
         </pre>
     </div>
 </div>

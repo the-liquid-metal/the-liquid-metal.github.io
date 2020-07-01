@@ -12,10 +12,10 @@
     <h1>combine</h1>
 
     <div class="short-description">
-        <code>combine( array <var>$values</var> ): array</code>
+        <code>combine (int <var>$role</var> = BaseArray::COMBINE_AS_KEY, iterable <var>$values</var>): ScalarArray|ObjectArray</code>
         <p>
-            Alias of <a href="http://php.net/manual/en/function.array-combine.php">array_combine</a>.<br/>
-            Creates array using one array for keys and another for its values.
+            Creates array using one array for keys and another for its values.<br/><br/>
+            see <a target="_blank" href="http://php.net/manual/en/function.array-combine.php">array_combine</a>.<br/>
         </p>
     </div>
 
@@ -47,23 +47,10 @@
     </div>
 
     <div class="examples">
-        <p><strong>Example #1 A simple combine() example</strong></p>
         <pre class="php-code">
-            $a = ["green", "red", "yellow"];
+            $a = ["green",   "red",   "yellow"];
             $b = ["avocado", "apple", "banana"];
-            $c = combine($a, $b);
-
-            print_r($c);
-        </pre>
-
-        <div>The above example will output:</div>
-        <pre class="output">
-            Array
-            (
-                [green]  => avocado
-                [red]    => apple
-                [yellow] => banana
-            )
+            combine($a, $b); // output: ["green" => "avocado", "red" => "apple", "yellow" => "banana"]
         </pre>
     </div>
 </div>

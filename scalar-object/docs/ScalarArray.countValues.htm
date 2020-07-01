@@ -12,10 +12,10 @@
     <h1>countValues</h1>
 
     <div class="short-description">
-        <code>countValues( ): array</code>
+        <code>countValues (void): self</code>
         <p>
-            Alias of <a href="http://php.net/manual/en/function.array-count-values.php">array_count_values</a>.<br/>
-            Counts all the values.
+            Counts all the values.<br/><br/>
+            see <a target="_blank" href="http://php.net/manual/en/function.array-count-values.php">array_count_values</a>.<br/>
         </p>
     </div>
 
@@ -39,20 +39,9 @@
     </div>
 
     <div class="examples">
-        <p><strong>Example #1 countValues() example</strong></p>
         <pre class="php-code">
             $array = [1, "hello", 1, "world", "hello"];
-            print_r(countValues($array));
-        </pre>
-
-        <div>The above example will output:</div>
-        <pre class="output">
-            Array
-            (
-                [1] => 2
-                [hello] => 2
-                [world] => 1
-            )
+            countValues($array); // output: [1 => 2, "hello" => 2, "world" => 1]
         </pre>
     </div>
 </div>

@@ -9,13 +9,16 @@
 </head>
 <body>
 <div class="ajax-area">
-    <h1>sum</h1>
+    <h1>calc</h1>
 
     <div class="short-description">
-        <code>sum( ): number</code>
+        <code>calc (string <var>$operation</var>): float|int</code>
         <p>
-            Alias of <a href="http://php.net/manual/en/function.array-sum.php">array_sum</a>.<br/>
-            Calculates the sum of values.
+            Calculates the sum/avg/max/min/product of values.<br/><br/>
+            see <a target="_blank" href="http://php.net/manual/en/function.array-sum.php">array_sum</a>&nbsp;
+            <a target="_blank" href="http://php.net/manual/en/function.max.php">max</a>&nbsp;
+            <a target="_blank" href="http://php.net/manual/en/function.min.php">min</a>&nbsp;
+            <a target="_blank" href="http://php.net/manual/en/function.array-product.php">array_product</a>.<br/>
         </p>
     </div>
 
@@ -25,31 +28,16 @@
     </div>
 
     <div class="examples">
-        <p><strong>Example #1 sum() examples</strong></p>
         <pre class="php-code">
             $a = [2, 4, 6, 8];
-            echo "sum(a) = " . sum($a) . "\n";
+            sum($a); // output: 20
 
             $b = ["a" => 1.2, "b" => 2.3, "c" => 3.4];
-            echo "sum(b) = " . sum($b) . "\n";
-        </pre>
-
-        <div>The above example will output:</div>
-        <pre class="output">
-            sum(a) = 20
-            sum(b) = 6.9
+            sum($b); // output: 6.9
         </pre>
     </div>
 
-    <h1>max</h1>
-
-    <div class="short-description">
-        <code>max( ): mixed</code>
-        <p>
-            Alias of <a href="http://php.net/manual/en/function.max.php">max</a>.<br/>
-            Find highest value.
-        </p>
-    </div>
+    <h2>max</h2>
 
     <div>
         <p>
@@ -76,18 +64,8 @@
     </div>
 
     <div class="examples">
-        <p><strong>Example #1 Example uses of <strong>max()</strong></strong></p>
         <pre class="php-code">
-            echo max(2, 3, 1, 6, 7); // output: 7
             echo max([2, 4, 5]);     // output: 5
-
-            // The string "hello" when compared to an int is treated as 0
-            // Since the two values are equal, the order they are provided determines the result
-            echo max(0, "hello");     // output: 0
-            echo max("hello", 0);     // output: hello
-
-            // Here we are comparing -1 &lt; 0, so "hello" is the highest value
-            echo max("hello", -1);    // output: hello
 
             // With multiple arrays of different lengths, max returns the longest
             $val = max([2, 2, 2], [1, 1, 1, 1]); // output: [1, 1, 1, 1]
@@ -99,26 +77,10 @@
             // If both an array and non-array are given, the array will be returned
             // as comparisons treat arrays as greater than any other value
             $val = max("string", [2, 5, 7], 42);   // output: [2, 5, 7]
-
-            // If one argument is NULL or a boolean, it will be compared against
-            // other values using the rule FALSE &lt; TRUE regardless of the other types involved
-            // In the below example, -10 is treated as TRUE in the comparison
-            $val = max(-10, FALSE); // output: -10
-
-            // 0, on the other hand, is treated as FALSE, so is "lower than" TRUE
-            $val = max(0, TRUE); // TRUE
         </pre>
     </div>
 
-    <h1>min</h1>
-
-    <div class="short-description">
-        <code>min( ): mixed</code>
-        <p>
-            Alias of <a href="http://php.net/manual/en/function.min.php">min</a>.<br/>
-            Find lowest value.
-        </p>
-    </div>
+    <h2>min</h2>
 
     <div>
         <p>
@@ -145,18 +107,8 @@
     </div>
 
     <div class="examples">
-        <p><strong>Example #1 Example uses of <strong>min()</strong></strong></p>
         <pre class="php-code">
-            echo min(2, 3, 1, 6, 7);  // output: 1
             echo min([2, 4, 5]);      // output: 2
-
-            // The string "hello" when compared to an int is treated as 0
-            // Since the two values are equal, the order they are provided determines the result
-            echo min(0, "hello"); // output: 0
-            echo min("hello", 0); // output: hello
-
-            // Here we are comparing -1 &lt; 0, so -1 is the lowest value
-            echo min("hello", -1); // output: -1
 
             // With multiple arrays of different lengths, min returns the shortest
             $val = min([2, 2, 2], [1, 1, 1, 1]); // output: [2, 2, 2]
@@ -168,27 +120,10 @@
             // If both an array and non-array are given, the array is never returned
             // as comparisons treat arrays as greater than any other value
             $val = min("string", [2, 5, 7], 42); // output: string
-
-            // If one argument is NULL or a boolean, it will be compared against
-            // other values using the rule FALSE &lt; TRUE regardless of the other types involved
-            // In the below examples, both -10 and 10 are treated as TRUE in the comparison
-            $val = min(-10, FALSE, 10); // FALSE
-            $val = min(-10, NULL, 10);  // NULL
-
-            // 0, on the other hand, is treated as FALSE, so is "lower than" TRUE
-            $val = min(0, TRUE); // 0
         </pre>
     </div>
 
-    <h1>product</h1>
-
-    <div class="short-description">
-        <code>product( ): number</code>
-        <p>
-            Alias of <a href="http://php.net/manual/en/function.array-product.php">array_product</a>.<br/>
-            Calculates the product of values.
-        </p>
-    </div>
+    <h2>product</h2>
 
     <div><strong>product()</strong> returns the product of values in <var>$scalarObject->val</var>.</div>
 
@@ -198,17 +133,10 @@
     </div>
 
     <div class="examples">
-        <p><strong>Example #1 product() examples</strong></p>
         <pre class="php-code">
             $a = [2, 4, 6, 8];
-            echo "product(a) = " . product($a) . "\n";
-            echo "product([]) = " . product([]) . "\n";
-        </pre>
-
-        <div>The above example will output:</div>
-        <pre class="output">
-            product(a) = 384
-            product([]) = 1
+            product($a); // output: 384
+            product([]); // output: 1
         </pre>
     </div>
 </div>

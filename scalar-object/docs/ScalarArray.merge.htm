@@ -12,10 +12,11 @@
     <h1>merge</h1>
 
     <div class="short-description">
-        <code>merge( array <var>$array2</var>, array <var>...</var> ): array</code>
+        <code>merge (bool <var>$recursive</var> = false, iterable ...<var>$arrays</var>): static</code>
         <p>
-            Alias of <a href="http://php.net/manual/en/function.array-merge.php">array_merge</a>.<br/>
-            Merge one or more arrays.
+            Merge one or more arrays.<br/><br/>
+            see <a target="_blank" href="http://php.net/manual/en/function.array-merge.php">array_merge</a>&nbsp;
+            <a target="_blank" href="http://php.net/manual/en/function.array-merge-recursive.php">array_merge_recursive</a>.<br/>
         </p>
     </div>
 
@@ -52,41 +53,24 @@
     </div>
 
     <div class="examples">
-        <p><strong>Example #1 merge() example</strong></p>
         <pre class="php-code">
             $array1 = ["color" => "red", 2, 4];
             $array2 = ["a", "b", "color" => "green", "shape" => "trapezoid", 4];
-            $result = merge($array1, $array2);
-            print_r($result);
-        </pre>
+            merge($array1, $array2);
+            // output: [
+            //   "color" => "green",
+            //   0 => 2,
+            //   1 => 4,
+            //   2 => "a",
+            //   3 => "b",
+            //   "shape" => "trapezoid",
+            //   4 => 4,
+            // ]
 
-        <div>The above example will output:</div>
-        <pre class="output">
-            Array
-            (
-                [color] => green
-                [0] => 2
-                [1] => 4
-                [2] => a
-                [3] => b
-                [shape] => trapezoid
-                [4] => 4
-            )
-        </pre>
-
-        <p><strong>Example #2 Simple merge() example</strong></p>
-        <pre class="php-code">
+            // Don't forget that numeric keys will be renumbered!
             $array1 = [];
             $array2 = [1 => "data"];
-            $result = merge($array1, $array2);
-        </pre>
-
-        <div>Don't forget that numeric keys will be renumbered!</div>
-        <pre class="output">
-            Array
-            (
-                [0] => data
-            )
+            merge($array1, $array2); // output: [0 => "data"]
         </pre>
 
         <div>
@@ -97,8 +81,7 @@
         <pre class="php-code">
             $array1 = [0 => "zero_a", 2 => "two_a",   3 => "three_a"];
             $array2 = [1 => "one_b",  3 => "three_b", 4 => "four_b"];
-            $result = $array1 + $array2;
-            var_dump($result);
+            $result = $array1 + $array2; // output: [0 => "zero_a", 2 => "two_a", 3 => "three_a", 1 => "one_b", 4 => "four_b"]
         </pre>
 
         <div>
@@ -106,47 +89,16 @@
             in both arrays, then the element from the first array will be used and
             the matching key's element from the second array will be ignored.
         </div>
-        <pre class="output">
-            array(5) {
-              [0]=>
-              string(6) "zero_a"
-              [2]=>
-              string(5) "two_a"
-              [3]=>
-              string(7) "three_a"
-              [1]=>
-              string(5) "one_b"
-              [4]=>
-              string(6) "four_b"
-            }
-        </pre>
 
         <p><strong>Example #3 merge() with non-array types</strong></p>
         <pre class="php-code">
             $beginning = "foo";
             $end = [1 => "bar"];
-            $result = merge((array)$beginning, (array)$end);
-            print_r($result);
-        </pre>
-        <div>The above example will output:</div>
-        <pre class="output">
-            Array
-            (
-                [0] => foo
-                [1] => bar
-            )
+            merge((array)$beginning, (array)$end); // output: ["foo", "bar"]
         </pre>
     </div>
 
-    <h1>recursiveMerge</h1>
-
-    <div class="short-description">
-        <code>recursiveMerge( array <var>$array2</var>, array <var>...</var> ): array</code>
-        <p>
-            Alias of <a href="http://php.net/manual/en/function.array-merge-recursive.php">array_merge_recursive</a>.<br/>
-            Merge two or more arrays recursively.
-        </p>
-    </div>
+    <h2>recursiveMerge</h2>
 
     <div>
         <p>
@@ -181,30 +133,19 @@
     </div>
 
     <div class="examples">
-        <p><strong>Example #1 recursiveMerge() example</strong></p>
         <pre class="php-code">
             $ar1 = ["color" => ["favorite" => "red"], 5];
             $ar2 = [10, "color" => ["favorite" => "green", "blue"]];
-            $result = recursiveMerge($ar1, $ar2);
-            print_r($result);
-        </pre>
 
-        <div>The above example will output:</div>
-        <pre class="output">
-            Array
-            (
-                [color] => Array
-                    (
-                        [favorite] => Array
-                            (
-                                [0] => red
-                                [1] => green
-                            )
-                        [0] => blue
-                    )
-                [0] => 5
-                [1] => 10
-            )
+            recursiveMerge($ar1, $ar2);
+            // output: [
+            //   "color" => [
+            //     "favorite" => ["red", "green"],
+            //     0 => "blue",
+            //   ],
+            //   0 => 5,
+            //   1 => 10,
+            // ]
         </pre>
     </div>
 </div>

@@ -9,13 +9,18 @@
 </head>
 <body>
 <div class="ajax-area">
-    <h1>diff</h1>
+    <h1>diffValue</h1>
 
     <div class="short-description">
-        <code>diff( array <var>$array2</var>, array <var>...</var> ): array</code>
+        <code>diffValue (callable <var>$valComparator</var>, callable <var>$keyComparator</var>, iterable ...<var>$arrays</var>): ScalarArray|ObjectArray</code>
         <p>
-            Alias of <a href="http://php.net/manual/en/function.array-diff.php">array_diff</a>.<br/>
-            Computes the difference.
+            Compute difference of values, considering keys or not.<br/><br/>
+            see <a target="_blank" href="http://php.net/manual/en/function.array-diff.php">array_diff</a>&nbsp;
+            <a target="_blank" href="http://php.net/manual/en/function.array-diff-assoc.php">array_diff_assoc</a>&nbsp;
+            <a target="_blank" href="http://php.net/manual/en/function.array-diff-uassoc.php">array_diff_uassoc</a>&nbsp;
+            <a target="_blank" href="http://php.net/manual/en/function.array-udiff.php">array_udiff</a>&nbsp;
+            <a target="_blank" href="http://php.net/manual/en/function.array-udiff-assoc.php">array_udiff_assoc</a>&nbsp;
+            <a target="_blank" href="http://php.net/manual/en/function.array-udiff-uassoc.php">array_udiff_uassoc</a>.<br/>
         </p>
     </div>
 
@@ -45,24 +50,10 @@
     </div>
 
     <div class="examples">
-        <p><strong>Example #1 diff() example</strong></p>
         <pre class="php-code">
             $array1 = ["a" => "green", "red", "blue", "red"];
             $array2 = ["b" => "green", "yellow", "red"];
-            $result = diff($array1, $array2);
-
-            print_r($result);
-        </pre>
-
-        <div>
-            Multiple occurrences in <var>$array1</var> are all
-            treated the same way. This will output :
-        </div>
-        <pre class="output">
-            Array
-            (
-                [1] => blue
-            )
+            diff($array1, $array2); // output: [1 => "blue"]
         </pre>
     </div>
 
@@ -78,15 +69,7 @@
         using <em>diff($array1[0], $array2[0]);</em>.
     </blockquote>
 
-    <h1>assocDiff</h1>
-
-    <div class="short-description">
-        <code>assocDiff( array <var>$array2</var>, array <var>...</var> ): array</code>
-        <p>
-            Alias of <a href="http://php.net/manual/en/function.array-diff-assoc.php" target="_blank">array_diff_assoc</a>.<br/>
-            Computes the difference with additional index check.
-        </p>
-    </div>
+    <h2>assocDiff</h2>
 
     <div>
         Compares <var>$scalarObject->val</var> against <var>$array2</var> and returns the difference. Unlike
@@ -113,7 +96,6 @@
     </div>
 
     <div class="examples">
-        <p><strong>Example #1 assocDiff() example</strong></p>
         <div>
             In this example you see the <code>"a" => "green"</code> pair is present in both arrays and thus
             it is not in the output from the function. Unlike this, the pair <code>0 => "red"</code> is in
@@ -122,21 +104,9 @@
         <pre class="php-code">
             $array1 = ["a" => "green", "b" => "brown", "c" => "blue", "red"];
             $array2 = ["a" => "green", "yellow", "red"];
-            $result = assocDiff($array1, $array2);
-            print_r($result);
+            assocDiff($array1, $array2); // output: ["b" => "brown", "c" => "blue", 0 => "red"]
         </pre>
 
-        <div>The above example will output:</div>
-        <pre class="output">
-            Array
-            (
-                [b] => brown
-                [c] => blue
-                [0] => red
-            )
-        </pre>
-
-        <p><strong>Example #2 assocDiff() example</strong></p>
         <div>
             Two values from <em>key => value</em> pairs are considered equal only if <em>(string)
             $elem1 === (string) $elem2 </em>. In other words a strict check takes place so the string
@@ -145,19 +115,8 @@
         <pre class="php-code">
             $array1 = [0, 1, 2];
             $array2 = ["00", "01", "2"];
-            $result = assocDiff($array1, $array2);
-            print_r($result);
+            assocDiff($array1, $array2); // output: [0 => 0, 1 => 1]
         </pre>
-
-        <div>The above example will output:</div>
-        <pre class="output">
-            Array
-            (
-                [0] => 0
-                [1] => 1
-            )
-        </pre>
-
     </div>
 
     <blockquote>
@@ -169,15 +128,7 @@
         similar arrays with more keys. The new array should be the first in the list.
     </blockquote>
 
-    <h1>userAssocDiff</h1>
-
-    <div class="short-description">
-        <code>userAssocDiff( array <var>$array2</var>, array <var>...</var>, callable <var>$keyComparator</var> ): array</code>
-        <p>
-            Alias of <a href="http://php.net/manual/en/function.array-diff-uassoc.php">array_diff_uassoc</a>.<br/>
-            Computes the difference with additional index check which is performed using a callback function.
-        </p>
-    </div>
+    <h2>userAssocDiff</h2>
 
     <div>
         <p>
@@ -216,7 +167,6 @@
     </div>
 
     <div class="examples">
-        <p><strong>Example #1 userAssocDiff() example</strong></p>
         <div>
             The <code>"a" => "green"</code> pair is present in both arrays and thus it is not in the
             output from the function. Unlike this, the pair <code>0 => "red"</code> is in the output
@@ -232,18 +182,7 @@
 
             $array1 = ["a" => "green", "b" => "brown", "c" => "blue", "red"];
             $array2 = ["a" => "green", "yellow", "red"];
-            $result = userAssocDiff($array1, $array2, "key_compare_func");
-            print_r($result);
-        </pre>
-
-        <div>The above example will output:</div>
-        <pre class="output">
-            Array
-            (
-                [b] => brown
-                [c] => blue
-                [0] => red
-            )
+            userAssocDiff($array1, $array2, "key_compare_func"); // output: ["b" => "brown", "c" => "blue", 0 => "red"]
         </pre>
 
         <div>The equality of 2 indices is checked by the user supplied callback function.</div>
@@ -255,15 +194,7 @@
         <code>userAssocDiff($array1[0], $array2[0], "key_compare_func");</code>.
     </blockquote>
 
-    <h1>userDiff</h1>
-
-    <div class="short-description">
-        <code>userDiff( array <var>$array2</var>, array <var>...</var>, callable <var>$valueComparator</var> ): array</code>
-        <p>
-            Alias of <a href="http://php.net/manual/en/function.array-udiff.php">array_udiff</a>.<br/>
-            Computes the difference using a callback function.
-        </p>
-    </div>
+    <h2>userDiff</h2>
 
     <div>
         Computes the difference of arrays by using a callback function for data comparison. This is
@@ -299,7 +230,6 @@
     </div>
 
     <div class="examples">
-        <p><strong>Example #1 userDiff() example using stdClass Objects</strong></p>
         <pre class="php-code">
             // Arrays to compare
             $array1 = [new stdclass, new stdclass, new stdclass, new stdclass];
@@ -327,28 +257,21 @@
                 }
             }
 
-            print_r(userDiff($array1, $array2, "compare_by_area"));
-        </pre>
+            userDiff($array1, $array2, "compare_by_area");
+            // output: Array
+            // (
+            //     [0] => stdClass Object
+            //         (
+            //             [width] => 11
+            //             [height] => 3
+            //         )
+            //     [1] => stdClass Object
+            //         (
+            //             [width] => 7
+            //             [height] => 1
+            //         )
+            // )
 
-        <div>The above example will output:</div>
-        <pre class="output">
-            Array
-            (
-                [0] => stdClass Object
-                    (
-                        [width] => 11
-                        [height] => 3
-                    )
-                [1] => stdClass Object
-                    (
-                        [width] => 7
-                        [height] => 1
-                    )
-            )
-        </pre>
-
-        <p><strong>Example #2 userDiff() example using DateTime Objects</strong></p>
-        <pre class="php-code">
             class MyCalendar {
                 public $free = [];
                 public $booked = [];
@@ -428,15 +351,7 @@
         <code>userDiff($array1[0], $array2[0], "data_compare_func");</code>.
     </blockquote>
 
-    <h1>userDiffAssoc</h1>
-
-    <div class="short-description">
-        <code>userDiffAssoc( array <var>$array2</var>, array <var>...</var>, callable <var>$valueComparator</var> ): array</code>
-        <p>
-            Alias of <a href="http://php.net/manual/en/function.array-udiff-assoc.php">array_udiff_assoc</a>.<br/>
-            Computes the difference with additional index check, compares data using a callback function.
-        </p>
-    </div>
+    <h2>userDiffAssoc</h2>
 
     <div>
         <p>
@@ -480,17 +395,14 @@
     </div>
 
     <div class="examples">
-        <p><strong>Example #1 userDiffAssoc() example</strong></p>
         <pre class="php-code">
             class cr {
                 private $priv_member;
-                function cr($val)
-                {
+                function cr($val) {
                     $this->priv_member = $val;
                 }
 
-                static function comp_func_cr($a, $b)
-                {
+                static function comp_func_cr($a, $b) {
                     if ($a->priv_member === $b->priv_member) return 0;
                     return ($a->priv_member > $b->priv_member)? 1:-1;
                 }
@@ -499,27 +411,22 @@
             $a = ["0.1" => new cr(9), "0.5" => new cr(12), 0 => new cr(23), 1=> new cr(4), 2 => new cr(-15)];
             $b = ["0.2" => new cr(9), "0.5" => new cr(22), 0 => new cr(3),  1=> new cr(4), 2 => new cr(-15)];
 
-            $result = userDiffAssoc($a, $b, ["cr", "comp_func_cr"]);
-            print_r($result);
-        </pre>
-
-        <div>The above example will output:</div>
-        <pre class="output">
-            Array
-            (
-                [0.1] => cr Object
-                    (
-                        [priv_member:private] => 9
-                    )
-                [0.5] => cr Object
-                    (
-                        [priv_member:private] => 12
-                    )
-                [0] => cr Object
-                    (
-                        [priv_member:private] => 23
-                    )
-            )
+            userDiffAssoc($a, $b, ["cr", "comp_func_cr"]);
+            // output: Array
+            // (
+            //     [0.1] => cr Object
+            //         (
+            //             [priv_member:private] => 9
+            //         )
+            //     [0.5] => cr Object
+            //         (
+            //             [priv_member:private] => 12
+            //         )
+            //     [0] => cr Object
+            //         (
+            //             [priv_member:private] => 23
+            //         )
+            // )
         </pre>
 
         <p>
@@ -528,26 +435,7 @@
         </p>
     </div>
 
-    <h1>userDiffUserAssoc</h1>
-
-    <div class="short-description">
-        <code>userDiffUserAssoc( array <var>$array2</var>, array <var>...</var>, callable <var>$valueComparator</var>, callable <var>$keyComparator</var> ): array</code>
-        <p>
-            Alias of <a href="http://php.net/manual/en/function.array-udiff-uassoc.php">array_udiff_uassoc</a>.<br/>
-            Computes the difference with additional index check, compares data and indexes using separate callback functions.
-        </p>
-    </div>
-
-    <div>
-        <p>
-            Computes the difference of arrays with additional index check, compares
-            data and indexes by a callback function.
-        </p>
-        <p>
-            Note that the keys are used in the comparison unlike
-            <a href="diff.htm">diff()</a> and <a href="userDiff.htm">userDiff()</a>.
-        </p>
-    </div>
+    <h2>userDiffUserAssoc</h2>
 
     <div>
         <h3>Parameters</h3>
@@ -582,7 +470,6 @@
     </div>
 
     <div class="examples">
-        <p><strong>Example #1 userDiffUserAssoc() example</strong></p>
         <pre class="php-code">
             class cr {
                 private $priv_member;
@@ -603,27 +490,22 @@
             $a = ["0.1" => new cr(9), "0.5" => new cr(12), 0 => new cr(23), 1=> new cr(4), 2 => new cr(-15)];
             $b = ["0.2" => new cr(9), "0.5" => new cr(22), 0 => new cr(3),  1=> new cr(4), 2 => new cr(-15)];
 
-            $result = userDiffUserAssoc($a, $b, ["cr", "comp_func_cr"], ["cr", "comp_func_key"]);
-            print_r($result);
-        </pre>
-
-        <div>The above example will output:</div>
-        <pre class="output">
-            Array
-            (
-                [0.1] => cr Object
-                    (
-                        [priv_member:private] => 9
-                    )
-                [0.5] => cr Object
-                    (
-                        [priv_member:private] => 12
-                    )
-                [0] => cr Object
-                    (
-                        [priv_member:private] => 23
-                    )
-            )
+            userDiffUserAssoc($a, $b, ["cr", "comp_func_cr"], ["cr", "comp_func_key"]);
+            // output: Array
+            // (
+            //     [0.1] => cr Object
+            //         (
+            //             [priv_member:private] => 9
+            //         )
+            //     [0.5] => cr Object
+            //         (
+            //             [priv_member:private] => 12
+            //         )
+            //     [0] => cr Object
+            //         (
+            //             [priv_member:private] => 23
+            //         )
+            // )
         </pre>
 
         <p>

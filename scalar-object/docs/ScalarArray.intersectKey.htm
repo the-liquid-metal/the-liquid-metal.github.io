@@ -9,13 +9,14 @@
 </head>
 <body>
 <div class="ajax-area">
-    <h1>keyIntersect</h1>
+    <h1>intersectKey</h1>
 
     <div class="short-description">
-        <code>keyIntersect( array <var>$array2</var>, array <var>...</var> ): array</code>
+        <code>intersectKey (callable <var>$keyComparator</var>, iterable ...<var>$arrays</var>): ScalarArray|ObjectArray</code>
         <p>
-            Alias of <a href="http://php.net/manual/en/function.array-intersect-key.php">array_intersect_key</a>.<br/>
-            Computes the intersection using keys for comparison.
+            Computes the intersection using a callback function on the keys for comparison.<br/><br/>
+            see <a target="_blank" href="http://php.net/manual/en/function.array-intersect-key.php">array_intersect_key</a>&nbsp;
+            <a target="_blank" href="http://php.net/manual/en/function.array-intersect-ukey.php">array_intersect_ukey</a>.<br/>
         </p>
     </div>
 
@@ -45,22 +46,10 @@
     </div>
 
     <div class="examples">
-        <p><strong>Example #1 keyIntersect() example</strong></p>
         <pre class="php-code">
             $array1 = ["blue"  => 1, "red"  => 2, "green"  => 3, "purple" => 4];
             $array2 = ["green" => 5, "blue" => 6, "yellow" => 7, "cyan"   => 8];
-
-            var_dump(keyIntersect($array1, $array2));
-        </pre>
-
-        <div>The above example will output:</div>
-        <pre class="output">
-            array(2) {
-              ["blue"]=>
-              int(1)
-              ["green"]=>
-              int(3)
-            }
+            keyIntersect($array1, $array2); // output: ["blue" => 1, "green" => 3]
         </pre>
 
         <p>
@@ -77,15 +66,7 @@
         </p>
     </div>
 
-    <h1>userKeyIntersect</h1>
-
-    <div class="short-description">
-        <code>userKeyIntersect( array <var>$array2</var>, array <var>...</var>, callable <var>$keyComparator</var> ): array</code>
-        <p>
-            Alias of <a href="http://php.net/manual/en/function.array-intersect-ukey.php">array_intersect_ukey</a>.<br/>
-            Computes the intersection using a callback function on the keys for comparison.
-        </p>
-    </div>
+    <h2>userKeyIntersect</h2>
 
     <div>
         <strong>userKeyIntersect()</strong> returns an array
@@ -116,7 +97,6 @@
     </div>
 
     <div class="examples">
-        <p><strong>Example #1 userKeyIntersect() example</strong></p>
         <pre class="php-code">
             function key_compare_func($key1, $key2) {
                 if ($key1 == $key2)
@@ -129,16 +109,7 @@
 
             $array1 = ["blue"  => 1, "red"  => 2, "green"  => 3, "purple" => 4];
             $array2 = ["green" => 5, "blue" => 6, "yellow" => 7, "cyan"   => 8];
-
-            var_dump(userKeyIntersect($array1, $array2, "key_compare_func"));
-        </pre>
-
-        <div>The above example will output:</div>
-        <pre class="output">
-            array(2) {
-              ["blue"]=>int(1)
-              ["green"]=>int(3)
-            }
+            userKeyIntersect($array1, $array2, "key_compare_func"); // output: ["blue" => 1, "green" => 3]
         </pre>
 
         <p>

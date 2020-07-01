@@ -9,13 +9,16 @@
 </head>
 <body>
 <div class="ajax-area">
-    <h1>userKeySort</h1>
+    <h1>sortKey</h1>
 
     <div class="short-description">
-        <code>userKeySort( callable <var>$keyComparator</var> ): array</code>
+        <code>sortKey (callable <var>$sorter</var> = null, bool <var>$reverse</var> = false, bool <var>$insensitive</var> = false): static</code>
         <p>
-            Alias of <a href="http://php.net/manual/en/function.uksort.php">uksort</a>.<br/>
-            Sorts keys using a callback function.
+            Sort and/or reverse keys.<br/><br/>
+            see <a target="_blank" href="https://www.php.net/manual/en/function.uksort.php">uksort</a>&nbsp;
+            <a target="_blank" href="https://www.php.net/manual/en/function.ksort.php">ksort</a>&nbsp;
+            <a target="_blank" href="https://www.php.net/manual/en/function.krsort.php">krsort</a>&nbsp;
+            <a target="_blank" href="https://www.php.net/manual/en/function.array-reverse.php">array_reverse</a>.<br/>
         </p>
     </div>
 
@@ -42,7 +45,6 @@
     </div>
 
     <div class="examples">
-        <p><strong>Example #1 userKeySort() example</strong></p>
         <pre class="php-code">
             function cmp($a, $b) {
                 $a = preg_replace("@^(a|an|the) @", "", $a);
@@ -50,33 +52,12 @@
                 return strcasecmp($a, $b);
             }
 
-            $a = ["John"=>1, "the Earth"=>2, "an apple"=>3, "a banana"=>4];
-
-            userKeySort($a, "cmp");
-
-            foreach ($a as $key => $value) {
-                echo "$key: $value\n";
-            }
-        </pre>
-
-        <div>The above example will output:</div>
-        <pre class="output">
-            an apple: 3
-            a banana: 4
-            the Earth: 2
-            John: 1
+            $array = ["John" => 1, "the Earth" => 2, "an apple" => 3, "a banana" => 4];
+            userKeySort($array, "cmp"); // output: ["an apple" => 3, "a banana" => 4, "the Earth" => 2, "John" => 1]
         </pre>
     </div>
 
-    <h1>keySort</h1>
-
-    <div class="short-description">
-        <code>keySort( int <var>$flags</var> = SORT_REGULAR ): array</code>
-        <p>
-            Alias of <a href="http://php.net/manual/en/function.ksort.php">ksort</a>.<br/>
-            Sorts keys.
-        </p>
-    </div>
+    <h2>keySort</h2>
 
     <div>
         Sorts <var>$scalarObject->val</var> by key, maintaining key to data correlations. This is
@@ -97,34 +78,13 @@
     </div>
 
     <div class="examples">
-        <p><strong>Example #1 keySort() example</strong></p>
         <pre class="php-code">
             $fruits = ["d"=>"lemon", "a"=>"orange", "b"=>"banana", "c"=>"apple"];
-            keySort($fruits);
-            foreach ($fruits as $key => $val) {
-                echo "$key = $val\n";
-            }
-            ?>
-        </pre>
-
-        <div>The above example will output:</div>
-        <pre class="output">
-            a = orange
-            b = banana
-            c = apple
-            d = lemon
+            keySort($fruits); // output: ["a" => "orange", "b" => "banana", "c" => "apple", "d" => "lemon"]
         </pre>
     </div>
 
-    <h1>reverseKeySort</h1>
-
-    <div class="short-description">
-        <code>reverseKeySort( int <var>$flags</var> = SORT_REGULAR ): array</code>
-        <p>
-            Alias of <a href="http://php.net/manual/en/function.krsort.php">krsort</a>.<br/>
-            Sorts keys in reverse order.
-        </p>
-    </div>
+    <h2>reverseKeySort</h2>
 
     <div>
         Sorts <var>$scalarObject->val</var> by key in reverse order, maintaining key to data
@@ -145,32 +105,13 @@
     </div>
 
     <div class="examples">
-        <p><strong>Example #1 reverseKeySort() example</strong></p>
         <pre class="php-code">
             $fruits = ["d"=>"lemon", "a"=>"orange", "b"=>"banana", "c"=>"apple"];
-            reverseKeySort($fruits);
-            foreach ($fruits as $key => $val) {
-                echo "$key = $val\n";
-            }
-        </pre>
-        <div>The above example will output:</div>
-        <pre class="output">
-            d = lemon
-            c = apple
-            b = banana
-            a = orange
+            reverseKeySort($fruits); // output: ["d" => "lemon", "c" => "apple", "b" => "banana", "a" => "orange"]
         </pre>
     </div>
 
-    <h1>reverse</h1>
-
-    <div class="short-description">
-        <code>reverse( bool <var>$preserveKeys</var> = false ): array</code>
-        <p>
-            Alias of <a href="http://php.net/manual/en/function.array-reverse.php">array_reverse</a>.<br/>
-            Returns an array with elements in reverse order.
-        </p>
-    </div>
+    <h2>reverse</h2>
 
     <div>Takes <var>$scalarObject->val</var> and returns a new array with the order of the elements reversed.</div>
 
@@ -191,49 +132,10 @@
     </div>
 
     <div class="examples">
-        <p><strong>Example #1 reverse() example</strong></p>
         <pre class="php-code">
             $input = ["php", 4.0, ["green", "red"]];
-            $reversed = reverse($input);
-            $preserved = reverse($input, true);
-
-            print_r($input);
-            print_r($reversed);
-            print_r($preserved);
-        </pre>
-
-        <div>The above example will output:</div>
-        <pre class="output">
-            Array
-            (
-                [0] => php
-                [1] => 4
-                [2] => Array
-                    (
-                        [0] => green
-                        [1] => red
-                    )
-            )
-            Array
-            (
-                [0] => Array
-                    (
-                        [0] => green
-                        [1] => red
-                    )
-                [1] => 4
-                [2] => php
-            )
-            Array
-            (
-                [2] => Array
-                    (
-                        [0] => green
-                        [1] => red
-                    )
-                [1] => 4
-                [0] => php
-            )
+            reverse($input);       // output: [0 => ["green", "red"], 1 => 4, 2 => "php"]
+            reverse($input, true); // output: [2 => ["green", "red"], 1 => 4, 0 => "php"]
         </pre>
     </div>
 </div>

@@ -12,10 +12,10 @@
     <h1>column</h1>
 
     <div class="short-description">
-        <code>column( mixed <var>$columnKey</var>, mixed <var>$indexKey</var> = null ): array</code>
+        <code>column (mixed <var>$columnKey</var>, mixed <var>$indexKey</var> = null): ScalarArray|ObjectArray</code>
         <p>
-            Alias of <a href="http://php.net/manual/en/function.array-column.php">array_column</a>.<br/>
-            Returns the values from a single column.
+            Returns the values from a single column.<br/><br/>
+            see <a target="_blank" href="http://php.net/manual/en/function.array-column.php">array_column</a>.<br/>
         </p>
     </div>
 
@@ -53,47 +53,15 @@
     </div>
 
     <div class="examples">
-        <p><strong>Example #1 Get column of first names from recordset</strong></p>
         <pre class="php-code">
-            // Array representing a possible record set returned from a database
             $records = [
                 ["id" => 2135, "first_name" => "John",  "last_name" => "Doe"],
                 ["id" => 3245, "first_name" => "Sally", "last_name" => "Smith"],
                 ["id" => 5342, "first_name" => "Jane",  "last_name" => "Jones"],
                 ["id" => 5623, "first_name" => "Peter", "last_name" => "Doe"]
             ];
-
-            $first_names = column($records, "first_name");
-            print_r($first_names);
-        </pre>
-
-        <div>The above example will output:</div>
-        <pre class="output">
-            Array
-            (
-                [0] => John
-                [1] => Sally
-                [2] => Jane
-                [3] => Peter
-            )
-        </pre>
-
-        <p><strong>Example #2 Get column of last names from recordset, indexed by the "id" column</strong></p>
-        <pre class="php-code">
-            // Using the $records array from Example #1
-            $last_names = column($records, "last_name", "id");
-            print_r($last_names);
-        </pre>
-
-        <div>The above example will output:</div>
-        <pre class="output">
-            Array
-            (
-                [2135] => Doe
-                [3245] => Smith
-                [5342] => Jones
-                [5623] => Doe
-            )
+            column($records, "first_name");      // output: ["John", "Sally", "Jane", "Peter"]
+            column($records, "last_name", "id"); // output: [2135 => "Doe", 3245 => "Smith", 5342 => "Jones", 5623 => "Doe"]
         </pre>
     </div>
 </div>

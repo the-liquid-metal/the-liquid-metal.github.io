@@ -12,10 +12,10 @@
     <h1>reduce</h1>
 
     <div class="short-description">
-        <code>reduce( callable <var>$reducer</var>, mixed <var>$initial</var> = NULL ): mixed</code>
+        <code>reduce (callable <var>$callback</var>, mixed <var>$initial</var> = null): mixed</code>
         <p>
-            Alias of <a href="http://php.net/manual/en/function.array-reduce.php">array_reduce</a>.<br/>
-            Iteratively reduce to a single value using a callback function.
+            Iteratively reduce to a single value using a callback function.<br/><br/>
+            see <a target="_blank" href="http://php.net/manual/en/function.array-reduce.php">array_reduce</a>.<br/>
         </p>
     </div>
 
@@ -60,24 +60,21 @@
     </div>
 
     <div class="examples">
-        <p><strong>Example #1 reduce() example</strong></p>
         <pre class="php-code">
             function sum($carry, $item) {
-                $carry += $item;
-                return $carry;
+                return $carry + $item;
             }
 
             function product($carry, $item) {
-                $carry *= $item;
-                return $carry;
+                return $carry * $item;
             }
 
             $a = [1, 2, 3, 4, 5];
             $x = [];
 
-            var_dump(reduce($a, "sum")); // int(15)
-            var_dump(reduce($a, "product", 10)); // int(1200), because: 10*1*2*3*4*5
-            var_dump(reduce($x, "sum", "No data to reduce")); // string(17) "No data to reduce"
+            reduce($a, "sum");                      // output: 15
+            reduce($a, "product", 10);              // output: 1200, because: 10*1*2*3*4*5
+            reduce($x, "sum", "No data to reduce"); // output: "No data to reduce"
         </pre>
     </div>
 </div>
