@@ -29,6 +29,8 @@ namespace {
 
 namespace arr {
 
+    use Exception;
+
     class Handler
     {
         /**
@@ -50,7 +52,7 @@ namespace arr {
             } elseif (is_callable($sorter)) {
                 $sort = "2";
             } else {
-                throw new \Exception("sorter must be callable or int");
+                throw new Exception("sorter must be callable or int");
             }
 
             switch ($sort.intval($reverse)) {
@@ -58,8 +60,8 @@ namespace arr {
                 case "20": uksort($self, $sorter); break;
                 case "11": krsort($self, $type); break;
                 case "10": ksort($self, $type); break;
-                case "01": array_reverse($self, true); break;
-                default:   throw new \Exception("Neither sort or reverse performed. Please check the arguments");
+                case "01": $self = array_reverse($self, true); break;
+                default:   throw new Exception("Neither sort or reverse performed. Please check the arguments");
             }
             return $self;
         }
@@ -78,14 +80,14 @@ namespace arr {
             $msg1 = "Only BUILDIN_VALUE_COMPARATOR can be used";
             $msg2 = "Only IGNORE_KEY_COMPARATOR or BUILDIN_KEY_COMPARATOR can be used";
 
-            if ($valComparator == IGNORE_VALUE_COMPARATOR) throw new \Exception($msg1);
+            if ($valComparator == IGNORE_VALUE_COMPARATOR) throw new Exception($msg1);
             elseif ($valComparator == BUILDIN_VALUE_COMPARATOR) $val = "1";
-            elseif (is_int($valComparator)) throw new \Exception($msg1);
+            elseif (is_int($valComparator)) throw new Exception($msg1);
             else $val = "2";
 
             if ($keyComparator == IGNORE_KEY_COMPARATOR) $key = "0";
             elseif ($keyComparator == BUILDIN_KEY_COMPARATOR) $key = "1";
-            elseif (is_int($keyComparator)) throw new \Exception($msg2);
+            elseif (is_int($keyComparator)) throw new Exception($msg2);
             else $key = "2";
 
             if ($val == "2") $arrays[] = $valComparator;
@@ -98,7 +100,7 @@ namespace arr {
                 case "20": return array_udiff($self, ...$arrays);
                 case "21": return array_udiff_assoc($self, ...$arrays);
                 case "22": return array_udiff_uassoc($self, ...$arrays);
-                default: throw new \Exception("...");
+                default: throw new Exception("...");
             }
         }
 
@@ -116,14 +118,14 @@ namespace arr {
             $msg1 = "Only BUILDIN_VALUE_COMPARATOR can be used";
             $msg2 = "Only IGNORE_KEY_COMPARATOR or BUILDIN_KEY_COMPARATOR can be used";
 
-            if ($valComparator == IGNORE_VALUE_COMPARATOR) throw new \Exception($msg1);
+            if ($valComparator == IGNORE_VALUE_COMPARATOR) throw new Exception($msg1);
             elseif ($valComparator == BUILDIN_VALUE_COMPARATOR) $val = "1";
-            elseif (is_int($valComparator)) throw new \Exception($msg1);
+            elseif (is_int($valComparator)) throw new Exception($msg1);
             else $val = "2";
 
             if ($keyComparator == IGNORE_KEY_COMPARATOR) $key = "0";
             elseif ($keyComparator == BUILDIN_KEY_COMPARATOR) $key = "1";
-            elseif (is_int($keyComparator)) throw new \Exception($msg2);
+            elseif (is_int($keyComparator)) throw new Exception($msg2);
             else $key = "2";
 
             if ($val == "2") $arrays[] = $valComparator;
@@ -136,7 +138,7 @@ namespace arr {
                 case "20": return array_uintersect($self, ...$arrays);
                 case "21": return array_uintersect_assoc($self, ...$arrays);
                 case "22": return array_uintersect_uassoc($self, ...$arrays);
-                default: throw new \Exception("...");
+                default: throw new Exception("...");
             }
         }
 
@@ -187,7 +189,7 @@ namespace arr {
                     array_walk($temp2, fn($val) => ucwords($val));
                     return array_combine($temp2, $self);
                 case INT_INDEX: return array_values($self);
-                default: throw new \Exception("wrong keyword");
+                default: throw new Exception("wrong keyword");
             }
         }
 
@@ -458,7 +460,7 @@ namespace arr {
             } elseif (is_callable($sorter)) {
                 $sort = "2";
             } else {
-                throw new \Exception("sorter must be callable or int");
+                throw new Exception("sorter must be callable or int");
             }
 
             switch ($sort.intval($reverse).intval($assoc)) {
@@ -472,7 +474,7 @@ namespace arr {
                 case "100": sort($self, $type); break;
                 case "011": // continue
                 case "010": array_reverse($self, $assoc); break;
-                default: throw new \Exception("Neither sort or reverse performed. Please check the arguments");
+                default: throw new Exception("Neither sort or reverse performed. Please check the arguments");
             }
             return $self;
         }
@@ -493,9 +495,11 @@ namespace arr {
          * @see http://php.net/manual/en/function.array-product.php
          * Calculates the sum/avg/max/min/product of values.
          */
-        public static function calc(array $self, string $operation, bool $includeNull = false): float/*|int|string*/
+        public static function calc(array $self, string $operation, bool $convertNull = false): float/*|int|string*/
         {
-            $self = array_map(fn($item) => is_null($item) || is_nan($item) || is_infinite($item) ? 0 : $item, $self);
+            if ($convertNull) {
+                $self = array_map(fn($item) => is_null($item) || is_nan($item) || is_infinite($item) ? 0 : $item, $self);
+            }
 
             switch ($operation) {
                 case "sum": return array_sum($self);
@@ -503,9 +507,8 @@ namespace arr {
                 case "max": return max($self);
                 case "min": return min($self);
                 case "product": return array_product($self);
-                default: throw new \Exception("...");
+                default: throw new Exception("...");
             }
-
         }
 
         /**
