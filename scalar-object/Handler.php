@@ -12,9 +12,6 @@ namespace {
     const COMBINE_AS_KEY = 1;
     const COMBINE_AS_VALUE = 2;
 
-    const SORT_TO_STRING = "\0TO_STRING";
-    const SORT_ORIGINAL_OBJECT = "\0ORIGINAL_OBJECT";
-
     const CASE_UPPER_FIRST = 1000;
     const CASE_UPPER_WORDS = 2000;
     const INT_INDEX = 3000;
