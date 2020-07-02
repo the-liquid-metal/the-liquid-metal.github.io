@@ -40,17 +40,6 @@
     <h3>Return Values</h3>
     <p>Returns <code>TRUE</code> on success or <code>FALSE</code> on failure.</p>
 
-    <pre class="php-code">
-        function cmp($a, $b) {
-            $a = preg_replace("@^(a|an|the) @", "", $a);
-            $b = preg_replace("@^(a|an|the) @", "", $b);
-            return strcasecmp($a, $b);
-        }
-
-        $array = ["John" => 1, "the Earth" => 2, "an apple" => 3, "a banana" => 4];
-        userKeySort($array, "cmp"); // output: ["an apple" => 3, "a banana" => 4, "the Earth" => 2, "John" => 1]
-    </pre>
-
     <h2>keySort</h2>
 
     <div>
@@ -67,11 +56,6 @@
     <h3>Return Values</h3>
     <p><code>TRUE</code> on success or <code>FALSE</code> on failure.</p>
 
-    <pre class="php-code">
-        $fruits = ["d"=>"lemon", "a"=>"orange", "b"=>"banana", "c"=>"apple"];
-        keySort($fruits); // output: ["a" => "orange", "b" => "banana", "c" => "apple", "d" => "lemon"]
-    </pre>
-
     <h2>reverseKeySort</h2>
 
     <div>
@@ -87,11 +71,6 @@
 
     <h3>Return Values</h3>
     <p>Returns <code>TRUE</code> on success or <code>FALSE</code> on failure.</p>
-
-    <pre class="php-code">
-        $fruits = ["d"=>"lemon", "a"=>"orange", "b"=>"banana", "c"=>"apple"];
-        reverseKeySort($fruits); // output: ["d" => "lemon", "c" => "apple", "b" => "banana", "a" => "orange"]
-    </pre>
 
     <h2>reverse</h2>
 
@@ -110,9 +89,22 @@
     <p>The reversed array.</p>
 
     <pre class="php-code">
-        $input = ["php", 4.0, ["green", "red"]];
-        reverse($input);       // output: [0 => ["green", "red"], 1 => 4, 2 => "php"]
-        reverse($input, true); // output: [2 => ["green", "red"], 1 => 4, 0 => "php"]
+        $cmp = function ($a, $b) {
+            $x = preg_replace("@^(a|an|the) @", "", $a);
+            $y = preg_replace("@^(a|an|the) @", "", $b);
+            return strcasecmp($x, $y);
+        };
+        $arr = new ScalarArray("string", false, ["John" => 1, "the Earth" => 2, "an apple" => 3, "a banana" => 4]);
+        $arr->sortKey(SORT_REGULAR); // output: ["John" => 1,     "a banana" => 4, "an apple" => 3,  "the Earth" => 2]
+        $arr->sortKey($cmp);         // output: ["an apple" => 3, "a banana" => 4, "the Earth" => 2, "John" => 1]
+
+        $arr = new ScalarArray("string", false, ["d" => "lemon", "a" => "orange", "b" => "banana", "c" => "apple"]);
+        $arr->sortKey(SORT_REGULAR, false); // output: ["a" => "orange", "b" => "banana", "c" => "apple",  "d" => "lemon"]
+        $arr->sortKey(SORT_REGULAR, true);  // output: ["d" => "lemon",  "c" => "apple",  "b" => "banana", "a" => "orange"]
+
+        $arr = new ScalarArray("string", false, ["php", "4.0", 5 => "green", "color" => "red"]);
+        $arr->sortKey(SORT_NONE, true, false, false); // output: [      0 => "red", 1 => "green", 2 => "4.0", 3 => "php"]
+        $arr->sortKey(SORT_NONE, true, false, true);  // output: ["color" => "red", 5 => "green", 1 => "4.0", 0 => "php"]
     </pre>
 </div>
 </body>

@@ -39,7 +39,7 @@
         <dd>
             If <var>$offset</var> is positive then the start of removed portion is at that
             offset from the beginning of the <em>internal array</em>. If <var>$offset</var>
-            is negative then it starts that far from the end of the <em>internal array</em> array.
+            is negative then it starts that far from the end of the <em>internal array</em>.
         </dd>
 
         <dt>$length</dt>
@@ -77,34 +77,33 @@
     <p>Returns the array consisting of the extracted elements.</p>
 
     <pre class="php-code">
-        $input = ["red", "green", "blue", "yellow"];
-        splice($input, 2); // output: ["red", "green"]
+        $a = new ScalarArray("string", false, ["red", "green", "blue", "yellow"]);
+        $a->splice(2);                          // output: ["red", "green"]
+        $a->splice(1, -1);                      // output: ["red", "yellow"]
+        $a->splice(1, count($input), "orange"); // output: ["red", "orange"]
+        $a->splice(-1, 1, ["black", "maroon"]); // output: ["red", "green", "blue", "black", "maroon"]
+        $a->splice(3, 0, "purple");             // output: ["red", "green", "blue", "purple", "yellow"];
 
-        $input = ["red", "green", "blue", "yellow"];
-        splice($input, 1, -1); // output: ["red", "yellow"]
+        // The following statements change the values of $a the same way:
+        // 1) append two elements to $input
+        $a->push($x, $y);
+        $a->splice($a->count(), 0, [$x, $y]);
 
-        $input = ["red", "green", "blue", "yellow"];
-        splice($input, 1, count($input), "orange"); // output: ["red", "orange"]
+        // 2) remove the last element of $input
+        $a->pop();
+        $a->splice(-1);
 
-        $input = ["red", "green", "blue", "yellow"];
-        splice($input, -1, 1, ["black", "maroon"]); // output: ["red", "green", "blue", "black", "maroon"]
+        // 3) remove the first element of $input
+        $a->shift();
+        $a->splice(0, 1);
 
-        $input = ["red", "green", "blue", "yellow"];
-        splice($input, 3, 0, "purple"); // output: ["red", "green", "blue", "purple", "yellow"];
-    </pre>
+        // 4) insert an element at the start of $input
+        $a->unshift($x, $y);
+        $a->splice(0, 0, [$x, $y]);
 
-    <div>The following statements change the values of <var>$input</var> the same way:</div>
-    <pre class="php-code">
-        array_push($input, $x, $y);
-        splice($input, count($input), 0, [$x, $y]);
-        array_pop($input);
-        splice($input, -1);
-        array_shift($input);
-        splice($input, 0, 1);
-        array_unshift($input, $x, $y);
-        splice($input, 0, 0, [$x, $y]);
-        $input[$x] = $y; // for arrays where key equals offset
-        splice($input, $x, 1, $y);
+        // 5) replace the value in $input at index $x
+        $a[$x] = $y; // for arrays where key equals offset
+        $a->splice($x, 1, $y);
     </pre>
 </div>
 </body>

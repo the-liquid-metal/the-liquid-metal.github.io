@@ -9,10 +9,10 @@
 </head>
 <body>
 <div class="ajax-area">
-    <h1>changeKeyCase</h1>
+    <h1>changeKeys</h1>
 
     <div class="short-description">
-        <code>changeKeyCase (int <var>$case</var> = CASE_LOWER): static</code>
+        <code>changeKeys (int <var>$type</var> = CASE_LOWER): static</code>
         <p>
             Changes the case of all keys.<br/><br/>
             see <a target="_blank" href="http://php.net/manual/en/function.array-change-key-case.php">array_change_key_case</a>.<br/>
@@ -26,22 +26,39 @@
 
     <h3>Parameters</h3>
     <dl>
-        <dt>$case</dt>
-        <dd>Either <code>CASE_UPPER</code> or <code>CASE_LOWER</code> (default)</dd>
+        <dt>$type</dt>
+        <dd>
+            Either <code>CASE_UPPER</code>, <code>CASE_LOWER</code>, <code>CASE_UPPER_FIRST</code>,
+            <code>CASE_UPPER_WORDS</code>, or <code>INT_INDEX</code>
+        </dd>
     </dl>
 
     <h3>Return Values</h3>
     <p>An array with its keys lowered or uppercased stored in <em>internal array</em>.</p>
-
-    <pre class="php-code">
-        $input = ["FirSt" => 1, "SecOnd" => 4];
-        changeKeyCase($input, CASE_UPPER); // output: ["FIRST" => 1, "SECOND" => 4]
-    </pre>
 
     <blockquote><strong>Note</strong>:
         If an array has indices that will be the same once run through this
         function (e.g. "<em>keY</em>" and "<em>kEY</em>"),
         the value that is later in the array will override other indices.
     </blockquote>
+
+    <h2>values</h2>
+
+    <p>
+        <strong>values()</strong> returns all the values from the
+        <em>internal array</em> and indexes the array numerically.
+    </p>
+
+    <h3>Return Values</h3>
+    <p>An indexed array of values.</p>
+
+    <pre class="php-code">
+        $a = new ScalarArray("float", true, ["FirSt" => 1, "SecOnd" => 2.3, "THIRD" => null, "fOURTH aND fIFTH" => NAN]);
+        $a->changeKeys(CASE_LOWER);       // output: ["first" => 1, "second" => 2.3, "third" => null, "fourth and fifth" => NAN]
+        $a->changeKeys(CASE_UPPER);       // output: ["FIRST" => 1, "SECOND" => 2.3, "THIRD" => null, "FOURTH AND FIFTH" => NAN]
+        $a->changeKeys(CASE_UPPER_FIRST); // output: ["First" => 1, "Second" => 2.3, "Third" => null, "Fourth and fifth" => NAN]
+        $a->changeKeys(CASE_UPPER_WORDS); // output: ["First" => 1, "Second" => 2.3, "Third" => null, "Fourth And Fifth" => NAN]
+        $a->changeKeys(INT_INDEX);        // output: [      0 => 1,        1 => 2.3,       3 => null,                  4 => NAN]
+    </pre>
 </div>
 </body>

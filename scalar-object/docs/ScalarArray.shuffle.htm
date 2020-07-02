@@ -22,20 +22,20 @@
     <div>This function shuffles (randomizes the order of the elements in) an <em>internal array</em>.</div>
 
     <h3>Return Values</h3>
-    <p><code>TRUE</code> on success or <code>FALSE</code> on failure.</p>
-
-    <pre class="php-code">
-        $numbers = range(1, 20);
-        shuffle($numbers);
-        foreach ($numbers as $number) {
-            echo "$number ";
-        }
-    </pre>
+    <p>new array</p>
 
     <blockquote>
         <strong>Note</strong>:This function assigns new keys to the elements in
         <em>internal array</em>. It will remove any existing keys that may
         have been assigned, rather than just reordering the keys.
     </blockquote>
+
+    <pre class="php-code">
+        $arr = new ScalarArray("int", false, range(1, 20));
+        $arr->shuffle();
+        foreach ($arr as $item) {
+            echo "$item ";
+        }
+    </pre>
 </div>
 </body>

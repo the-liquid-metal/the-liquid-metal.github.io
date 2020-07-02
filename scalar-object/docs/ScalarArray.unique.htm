@@ -53,11 +53,11 @@
     <p>The filtered array.</p>
 
     <pre class="php-code">
-        $input = ["a" => "green", "red", "b" => "green", "blue", "red"];
-        unique($input); // output: ["a" => "green", 0 => "red", 1 => "blue"]
+        $a = new ScalarArray("string", false, ["a" => "green", "red", "b" => "green", "blue", "red"]);
+        $a->unique(); // output: ["a" => "green", 0 => "red", 1 => "blue"]
 
-        $input = [4, "4", "3", 4, 3, "3"];
-        unique($input); // output: [0 => 4, 2 => "3"]
+        $a = new ScalarArray("int", false, [4, 4, 3, 4, 3, 3]);
+        $a->unique(); // output: [0 => 4, 2 => 3]
     </pre>
 </div>
 </body>

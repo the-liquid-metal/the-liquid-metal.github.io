@@ -74,40 +74,6 @@
         calls <var>$callback</var>.
     </p>
 
-    <pre class="php-code">
-        $fruits = ["d" => "lemon", "a" => "orange", "b" => "banana", "c" => "apple"];
-
-        function test_alter(&amp;$item1, $key, $prefix) {
-            $item1 = "$prefix: $item1";
-        }
-
-        function test_print($item2, $key) {
-            echo "$key. $item2&lt;br />\n";
-        }
-
-        echo "Before ...:\n";
-        walk($fruits, "test_print");
-
-        walk($fruits, "test_alter", "fruit");
-        echo "... and after:\n";
-
-        walk($fruits, "test_print");
-    </pre>
-
-    <div>The above example will output:</div>
-    <pre class="output">
-        Before ...:
-        d. lemon
-        a. orange
-        b. banana
-        c. apple
-        ... and after:
-        d. fruit: lemon
-        a. fruit: orange
-        b. fruit: banana
-        c. fruit: apple
-    </pre>
-
     <h2>recursiveWalk</h2>
 
     <div>
@@ -143,21 +109,41 @@
     <p>Returns <code>TRUE</code> on success or <code>FALSE</code> on failure.</p>
 
     <pre class="php-code">
-        $sweet = ["a" => "apple", "b" => "banana"];
-        $fruits = ["sweet" => $sweet, "sour" => "lemon"];
+        $fruits = new ScalarArray(["d" => "lemon", "a" => "orange", "b" => "banana", "c" => "apple"]);
 
-        function test_print($item, $key) {
+        $testPrint = function ($item2, $key) {
+            echo "$key. $item2&lt;br/>\n";
+        };
+        $fruits->walk($testPrint);
+        // output:
+        //> d. lemon
+        //> a. orange
+        //> b. banana
+        //> c. apple
+
+        $testAlter = function (&amp;$item1, $key, $prefix) {
+            $item1 = "$prefix: $item1";
+        };
+        $fruits->walk($testAlter, false "fruit");
+        // output:
+        //> d. fruit: lemon
+        //> a. fruit: orange
+        //> b. fruit: banana
+        //> c. fruit: apple
+
+
+        $fruits = new ScalarArray([
+            "sweet" => ["a" => "apple", "b" => "banana"],
+            "sour" => ["c" => "lemon"],
+        ]);
+        $testPrint = function ($item, $key) {
             echo "$key holds $item\n";
         }
-
-        recursiveWalk($fruits, "test_print");
-    </pre>
-
-    <div>The above example will output:</div>
-    <pre class="output">
-        a holds apple
-        b holds banana
-        sour holds lemon
+        $fruits->walk($testPrint, true);
+        // output:
+        //> a holds apple
+        //> b holds banana
+        //> c holds lemon
     </pre>
 
     <div>

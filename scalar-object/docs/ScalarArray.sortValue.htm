@@ -67,100 +67,15 @@
     <h3>Return Values</h3>
     <p>Returns <code>TRUE</code> on success or <code>FALSE</code> on failure.</p>
 
-    <pre class="php-code">
-        function cmp($a, $b) {
-            if ($a == $b) {
-                return 0;
-            }
-            return ($a &lt; $b) ? -1 : 1;
-        }
-
-        $a = [3, 2, 5, 6, 1];
-        userSort($a, "cmp"); // output: [0 => 1, 1 => 2, 2 => 3, 3 => 5, 4 => 6]
-    </pre>
-
     <blockquote>
         <strong>Note</strong>: Obviously in this trivial case the
         <a href="sort.htm">sort()</a> function would be more appropriate.
     </blockquote>
 
-    <pre class="php-code">
-        function cmp($a, $b) {
-            return strcmp($a["fruit"], $b["fruit"]);
-        }
-
-        $fruits[0]["fruit"] = "lemons";
-        $fruits[1]["fruit"] = "apples";
-        $fruits[2]["fruit"] = "grapes";
-
-        userSort($fruits, "cmp");
-
-        while (list($key, $value) = each($fruits)) {
-            echo "\$fruits[$key]: " . $value["fruit"] . "\n";
-        }
-    </pre>
-
     <div>
         When sorting a multi-dimensional array, <var>$a</var> and
         <var>$b</var> contain references to the first index of the array.
     </div>
-
-    <div>The above example will output:</div>
-    <pre class="output">
-        $fruits[0]: apples
-        $fruits[1]: grapes
-        $fruits[2]: lemons
-    </pre>
-
-    <pre class="php-code">
-        class TestObj {
-            var $name;
-
-            function TestObj($name) {
-                $this->name = $name;
-            }
-
-            /* This is the static comparing function: */
-            static function cmp_obj($a, $b) {
-                $al = strtolower($a->name);
-                $bl = strtolower($b->name);
-                if ($al == $bl) {
-                    return 0;
-                }
-                return ($al > $bl) ? +1 : -1;
-            }
-        }
-
-        $a = [new TestObj("c"), new TestObj("b"), new TestObj("d")];
-        userSort($a, ["TestObj", "cmp_obj"]); // output: [b, c, d]
-    </pre>
-
-    <pre class="php-code">
-        $array = [
-            ["key_a" => "z", "key_b" => "c"],
-            ["key_a" => "x", "key_b" => "b"],
-            ["key_a" => "y", "key_b" => "a"],
-        ];
-
-        function build_sorter($key) {
-            return function ($a, $b) use ($key) {
-                return strnatcmp($a[$key], $b[$key]);
-            };
-        }
-
-        userSort($array, build_sorter("key_b"));
-
-        foreach ($array as $item) {
-            echo $item["key_a"] . ", " . $item["key_b"] . "\n";
-        }
-    </pre>
-
-    <div>The above example will output:</div>
-    <pre class="output">
-        y, a
-        x, b
-        z, c
-    </pre>
 
     <h2>userAssocSort</h2>
 
@@ -189,50 +104,6 @@
 
     <h3>Return Values</h3>
     <p><code>TRUE</code> on success or <code>FALSE</code> on failure.</p>
-
-    <pre class="php-code">
-        // Comparison function
-        function cmp($a, $b) {
-            if ($a == $b) {
-                return 0;
-            }
-            return ($a &lt; $b) ? -1 : 1;
-        }
-
-        // Array to be sorted
-        $array = ["a" => 4, "b" => 8, "c" => -1, "d" => -9, "e" => 2, "f" => 5, "g" => 3, "h" => -4];
-        print_r($array);
-
-        // Sort and print the resulting array
-        userAssocSort($array, "cmp");
-        print_r($array);
-    </pre>
-
-    <div>The above example will output:</div>
-    <pre class="output">
-        Array
-        (
-            [a] => 4
-            [b] => 8
-            [c] => -1
-            [d] => -9
-            [e] => 2
-            [f] => 5
-            [g] => 3
-            [h] => -4
-        )
-        Array
-        (
-            [d] => -9
-            [h] => -4
-            [c] => -1
-            [e] => 2
-            [g] => 3
-            [a] => 4
-            [f] => 5
-            [b] => 8
-        )
-    </pre>
 
     <h2>sort</h2>
 
@@ -271,17 +142,6 @@
 
     <h3>Return Values</h3>
     <p><code>TRUE</code> on success or <code>FALSE</code> on failure.</p>
-
-    <pre class="php-code">
-        $fruits = ["lemon", "orange", "banana", "apple"];
-        sort($fruits); // output: ["apple", "banana", "lemon", "orange"]
-    </pre>
-
-    <p>The fruits have been sorted in alphabetical order.</p>
-    <pre class="php-code">
-        $fruits = ["Orange1", "orange2", "Orange3", "orange20"];
-        sort($fruits, SORT_NATURAL | SORT_FLAG_CASE); // output: ["Orange1", "orange2", "Orange3", "orange20"]
-    </pre>
 
     <p>The fruits have been sorted like <a href="insenNaturalSort.htm">insenNaturalSort()</a>.</p>
 
@@ -324,11 +184,6 @@
     <h3>Return Values</h3>
     <p>Returns <code>TRUE</code> on success or <code>FALSE</code> on failure.</p>
 
-    <pre class="php-code">
-        $fruits = ["d" => "lemon", "a" => "orange", "b" => "banana", "c" => "apple"];
-        reverseAssocSort($fruits); // output: ["a" => "orange", "d" => "lemon", "b" => "banana", "c" => "apple"]
-    </pre>
-
     <div>
         The fruits have been sorted in reverse alphabetical order, and
         the index associated with each element has been maintained.
@@ -346,11 +201,6 @@
 
     <h3>Return Values</h3>
     <p>Returns <code>TRUE</code> on success or <code>FALSE</code> on failure.</p>
-
-    <pre class="php-code">
-        $fruits = ["lemon", "orange", "banana", "apple"];
-        reverseSort($fruits); // output: [0 => "orange", 1 => "lemon", 2 => "banana", 3 => "apple"]
-    </pre>
 
     <div>The fruits have been sorted in reverse alphabetical order.</div>
 
@@ -381,11 +231,6 @@
     <h3>Return Values</h3>
     <p><code>TRUE</code> on success or <code>FALSE</code> on failure.</p>
 
-    <pre class="php-code">
-        $fruits = ["d" => "lemon", "a" => "orange", "b" => "banana", "c" => "apple"];
-        assocSort($fruits); // output: ["c" => "apple", "b" => "banana", "d" => "lemon", "a" => "orange"]
-    </pre>
-
     <div>
         The fruits have been sorted in alphabetical order, and the index
         associated with each element has been maintained.
@@ -407,12 +252,6 @@
     <h3>Return Values</h3>
     <p>The reversed array.</p>
 
-    <pre class="php-code">
-        $input = ["php", 4.0, ["green", "red"]];
-        reverse($input);       // output: [0 => ["green", "red"], 1 => 4, 2 => "php"]
-        reverse($input, true); // output: [2 => ["green", "red"], 1 => 4, 0 => "php"]
-    </pre>
-
     <h2>insenNaturalSort</h2>
 
     <p>
@@ -426,30 +265,6 @@
 
     <h3>Return Values</h3>
     <p><code>TRUE</code> on success or <code>FALSE</code> on failure.</p>
-
-    <pre class="php-code">
-        $array = ["IMG0.png", "img12.png", "img10.png", "img2.png", "img1.png", "IMG3.png"];
-
-        sort($array);
-        // output: [
-        //   0 => "IMG0.png",
-        //   1 => "IMG3.png",
-        //   2 => "img1.png",
-        //   3 => "img10.png",
-        //   4 => "img12.png",
-        //   5 => "img2.png"
-        // ]
-
-        insenNaturalSort($array);
-        // output: [
-        //   0 => "IMG0.png",
-        //   4 => "img1.png",
-        //   3 => "img2.png",
-        //   5 => "IMG3.png",
-        //   2 => "img10.png",
-        //   1 => "img12.png"
-        // ]
-    </pre>
 
     <div>
         For more information see: Martin Pool's <a href="http://sourcefrog.net/projects/natsort/">&raquo;
@@ -470,13 +285,94 @@
     <p><code>TRUE</code> on success or <code>FALSE</code> on failure.</p>
 
     <pre class="php-code">
-        $array1 = ["img12.png", "img10.png", "img2.png", "img1.png"];
+        $cmp = fn($a, $b) => $a <=> $b;
+        $a = new ScalarArray("int", false, [3, 2, 5, 6, 1]);
+        $a->sortValue($cmp); // output: [0 => 1, 1 => 2, 2 => 3, 3 => 5, 4 => 6]
 
-        asort($array1);       // output: [3 => "img1.png", 1 => "img10.png", 0 => "img12.png", 2 => "img2.png"]
-        naturalSort($array1); // output: [3 => "img1.png", 2 => "img2.png",  1 => "img10.png", 0 => "img12.png"]
+        $cmp = fn($a, $b) => strcmp($a["fruit"], $b["fruit"]);
+        $a = new ScalarArray("array", false, [
+            0 => ["fruit" => "lemons"],
+            1 => ["fruit" => "apples"],
+            2 => ["fruit" => "grapes"],
+        ]);
+        $a->sortValue($cmp);
+        // output: [
+        //   0 => ["fruit" => "apples"],
+        //   1 => ["fruit" => "grapes"],
+        //   2 => ["fruit" => "lemons"],
+        // ]
 
-        $negative = ["-5", "3", "-2", "0", "-1000", "9", "1"];
-        naturalSort($negative);
+        class TestObj {
+            public $name;
+            function __construct($name) {
+                $this->name = $name;
+            }
+            static function cmp($a, $b) {
+                return strtolower($a->name) <=> strtolower($b->name);
+            }
+        }
+
+        $a = new ScalarArray("TestObj", false, [new TestObj("c"), new TestObj("b"), new TestObj("d")]);
+        userSort($a, ["TestObj", "cmp"]); // output: [b, c, d]
+
+        $arr = new ScalarArray("array", false, [
+            ["key_a" => "z", "key_b" => "c"],
+            ["key_a" => "x", "key_b" => "b"],
+            ["key_a" => "y", "key_b" => "a"],
+        ]);
+        function build_sorter($key) {
+            return fn($a, $b) => strnatcmp($a[$key], $b[$key]);
+        }
+        $arr->sortValue(build_sorter("key_b"));
+        // outout: [
+        //   ["key_a" => "y", "key_b" => "a"],
+        //   ["key_a" => "x", "key_b" => "b"],
+        //   ["key_a" => "z", "key_b" => "c"],
+        // ]
+
+        $cmp = fn($a, $b) => $a <=> $b;
+        $arr = new ScalarArray("int", false, ["a" => 4, "b" => 8, "c" => -1, "d" => -9, "e" => 2, "f" => 5, "g" => 3, "h" => -4]);
+        $arr->sortValue($cmp, false, false, true); // output: ["d" => -9, "h" => -4, "c" => -1, "e" => 2, "g" => 3, "a" => 4, "f" => 5, "b" => 8]
+
+        $arr = new ScalarArray("string", false, ["Orange1", "orange2", "Orange3", "orange20"]);
+        $arr->sortValue(SORT_NATURAL, false, true, false); // output: ["Orange1", "orange2", "Orange3", "orange20"]
+
+        $arr = new ScalarArray("string", false, ["d" => "lemon", "a" => "orange", "b" => "banana", "c" => "apple"]);
+        $arr->sortValue(SORT_REGULAR, true,  false, true);  // output: ["a" => "orange", "d" => "lemon",  "b" => "banana", "c" => "apple"]
+        $arr->sortValue(SORT_REGULAR, true,  false, false); // output: [  0 => "orange",   1 => "lemon",    2 => "banana",   3 => "apple"]
+        $arr->sortValue(SORT_REGULAR, false, false, true);  // output: ["c" => "apple",  "b" => "banana", "d" => "lemon",  "a" => "orange"]
+        $arr->sortValue(SORT_REGULAR, false, false, false); // output: [  0 => "apple",    1 => "banana",   2 => "lemon",    3 => "orange"]
+
+        $arr = new ScalarArray("string", false, ["php", "4.0", 5 => "green", "color" => "red"]);
+        $arr->sortValue(SORT_NONE, true, false, false); // output: [      0 => "red", 1 => "green", 2 => "4.0", 3 => "php"]
+        $arr->sortValue(SORT_NONE, true, false, true);  // output: ["color" => "red", 5 => "green", 1 => "4.0", 0 => "php"]
+
+        $arr = new ScalarArray("string", false, ["IMG0.png", "img12.png", "img10.png", "img2.png", "img1.png", "IMG3.png"]);
+        $arr->sortValue(SORT_REGULAR, false, false, false);
+        // output: [
+        //   0 => "IMG0.png",
+        //   1 => "IMG3.png",
+        //   2 => "img1.png",
+        //   3 => "img10.png",
+        //   4 => "img12.png",
+        //   5 => "img2.png"
+        // ]
+        $arr->sortValue(SORT_NATURAL, false, true, true);
+        // output: [
+        //   0 => "IMG0.png",
+        //   4 => "img1.png",
+        //   3 => "img2.png",
+        //   5 => "IMG3.png",
+        //   2 => "img10.png",
+        //   1 => "img12.png"
+        // ]
+
+        $arr = new ScalarArray("string", false, ["img12.png", "img10.png", "img2.png", "img1.png"]);
+        $arr->sortValue(SORT_REGULAR, false, false, true); // output: [3 => "img1.png", 1 => "img10.png", 0 => "img12.png", 2 => "img2.png"]
+        $arr->sortValue(SORT_NATURAL, false, false, true); // output: [3 => "img1.png", 2 => "img2.png",  1 => "img10.png", 0 => "img12.png"]
+
+        $arr = new ScalarArray("string", false, ["-5", "3", "-2", "0", "-1000", "9", "1"]);
+        $arr->sortValue(SORT_NATURAL, false, false, true);
         // output: [
         //   2 => "-2",
         //   0 => "-5",
@@ -487,13 +383,13 @@
         //   5 => "9"
         // ]
 
-        $zeros = ["09", "8", "10", "009", "011", "0"];
-        naturalSort($zeros);
+        $arr = new ScalarArray("string", false, ["09", "8", "10", "009", "011", "0"]);
+        $arr->sortValue(SORT_NATURAL, false, false, true);
         // output: [
         //   5 => "0",
         //   1 => "8",
-        //   3 => "009",
         //   0 => "09",
+        //   3 => "009",
         //   2 => "10",
         //   4 => "011"
         // ]
