@@ -54,6 +54,31 @@
             <div class="panel panel-default">
                 <div class="panel-heading"><h3>Methods summary</h3></div>
                 <table class="summary table table-bordered table-striped methods" id="magicMethods">
+                    <tr data-order="sortValue" id="m_sortValue">
+                        <td class="attributes"><code class="overview">sortValue</code></td>
+                        <td class="name">
+                            <div>
+                                <a class="anchor" href="#m_ObjectArray_sortValue">#</a>
+                                <code class="overview">(string <var>$property</var>, callable <var>$sorter</var> = null, bool <var>$reverse</var> = false, bool <var>$insensitive</var> = false, bool <var>$assoc</var> = false): self</code>
+                                <div class="description short">
+                                    <p>
+                                        Sort and/or reverse values.<br/><br/>
+                                        see <a target="_blank" class="desc-link" href="https://www.php.net/manual/en/function.usort.php">usort</a>&nbsp;
+                                        <a target="_blank" class="desc-link" href="https://www.php.net/manual/en/function.uasort.php">uasort</a>&nbsp;
+                                        <a target="_blank" class="desc-link" href="https://www.php.net/manual/en/function.sort.php">sort</a>&nbsp;
+                                        <a target="_blank" class="desc-link" href="https://www.php.net/manual/en/function.arsort.php">arsort</a>&nbsp;
+                                        <a target="_blank" class="desc-link" href="https://www.php.net/manual/en/function.rsort.php">rsort</a>&nbsp;
+                                        <a target="_blank" class="desc-link" href="https://www.php.net/manual/en/function.asort.php">asort</a>&nbsp;
+                                        <a target="_blank" class="desc-link" href="https://www.php.net/manual/en/function.array-reverse.php">array_reverse</a>&nbsp;
+                                        <a target="_blank" class="desc-link" href="https://www.php.net/manual/en/function.natcasesort.php">natcasesort</a>&nbsp;
+                                        <a target="_blank" class="desc-link" href="https://www.php.net/manual/en/function.natsort.php">natsort</a>.<br/>
+                                    </p>
+                                </div>
+                                <div class="description detailed hidden"></div>
+                            </div>
+                        </td>
+                    </tr>
+
                     <tr data-order="sortKey" id="m_sortKey">
                         <td class="attributes"><code class="overview">sortKey</code></td>
                         <td class="name">
@@ -67,6 +92,23 @@
                                         <a target="_blank" class="desc-link" href="https://www.php.net/manual/en/function.ksort.php">ksort</a>&nbsp;
                                         <a target="_blank" class="desc-link" href="https://www.php.net/manual/en/function.krsort.php">krsort</a>&nbsp;
                                         <a target="_blank" class="desc-link" href="https://www.php.net/manual/en/function.array-reverse.php">array_reverse</a>.<br/>
+                                    </p>
+                                </div>
+                                <div class="description detailed hidden"></div>
+                            </div>
+                        </td>
+                    </tr>
+
+                    <tr data-order="multisort" id="m_multisort">
+                        <td class="attributes"><code class="overview">multisort</code></td>
+                        <td class="name">
+                            <div>
+                                <a class="anchor" href="#m_ObjectArray_multisort">#</a>
+                                <code class="overview">(mixed <var>$order</var> = SORT_ASC, mixed <var>$flags</var> = SORT_REGULAR): static</code>
+                                <div class="description short">
+                                    <p>
+                                        Sort multiple or multi-dimensional arrays.<br/><br/>
+                                        see <a target="_blank" class="desc-link" href="http://php.net/manual/en/function.array-multisort.php">array_multisort</a>.<br/>
                                     </p>
                                 </div>
                                 <div class="description detailed hidden"></div>
@@ -96,6 +138,24 @@
                         </td>
                     </tr>
 
+                    <tr data-order="diffKey" id="m_diffKey">
+                        <td class="attributes"><code class="overview">diffKey</code></td>
+                        <td class="name">
+                            <div>
+                                <a class="anchor" href="#m_ObjectArray_diffKey">#</a>
+                                <code class="overview">(callable <var>$keyComparator</var>, iterable ...<var>$arrays</var>): ScalarArray|ObjectArray</code>
+                                <div class="description short">
+                                    <p>
+                                        Computes the difference using a callback function on the keys for comparison.<br/><br/>
+                                        see <a target="_blank" class="desc-link" href="http://php.net/manual/en/function.array-diff-key.php">array_diff_key</a>&nbsp;
+                                        <a target="_blank" class="desc-link" href="http://php.net/manual/en/function.array-diff-ukey.php">array_diff_ukey</a>.<br/>
+                                    </p>
+                                </div>
+                                <div class="description detailed hidden"></div>
+                            </div>
+                        </td>
+                    </tr>
+
                     <tr data-order="intersectValue" id="m_intersectValue">
                         <td class="attributes"><code class="overview">intersectValue</code></td>
                         <td class="name">
@@ -111,24 +171,6 @@
                                         <a target="_blank" class="desc-link" href="http://php.net/manual/en/function.array-uintersect.php">array_uintersect</a>&nbsp;
                                         <a target="_blank" class="desc-link" href="http://php.net/manual/en/function.array-uintersect-assoc.php">array_uintersect_assoc</a>&nbsp;
                                         <a target="_blank" class="desc-link" href="http://php.net/manual/en/function.array-uintersect-uassoc.php">array_uintersect_uassoc</a>.<br/>
-                                    </p>
-                                </div>
-                                <div class="description detailed hidden"></div>
-                            </div>
-                        </td>
-                    </tr>
-
-                    <tr data-order="diffKey" id="m_diffKey">
-                        <td class="attributes"><code class="overview">diffKey</code></td>
-                        <td class="name">
-                            <div>
-                                <a class="anchor" href="#m_ObjectArray_diffKey">#</a>
-                                <code class="overview">(callable <var>$keyComparator</var>, iterable ...<var>$arrays</var>): ScalarArray|ObjectArray</code>
-                                <div class="description short">
-                                    <p>
-                                        Computes the difference using a callback function on the keys for comparison.<br/><br/>
-                                        see <a target="_blank" class="desc-link" href="http://php.net/manual/en/function.array-diff-key.php">array_diff_key</a>&nbsp;
-                                        <a target="_blank" class="desc-link" href="http://php.net/manual/en/function.array-diff-ukey.php">array_diff_ukey</a>.<br/>
                                     </p>
                                 </div>
                                 <div class="description detailed hidden"></div>
@@ -154,16 +196,33 @@
                         </td>
                     </tr>
 
-                    <tr data-order="changeKeyCase" id="m_changeKeyCase">
-                        <td class="attributes"><code class="overview">changeKeyCase</code></td>
+                    <tr data-order="valueExists" id="m_valueExists">
+                        <td class="attributes"><code class="overview">valueExists</code></td>
                         <td class="name">
                             <div>
-                                <a class="anchor" href="#m_ObjectArray_changeKeyCase">#</a>
-                                <code class="overview">(int <var>$case</var> = CASE_LOWER): static</code>
+                                <a class="anchor" href="#m_ObjectArray_valueExists">#</a>
+                                <code class="overview">(string <var>$property</var>, mixed <var>$needle</var>, bool <var>$strict</var> = false): bool</code>
                                 <div class="description short">
                                     <p>
-                                        Changes the case of all keys.<br/><br/>
-                                        see <a target="_blank" class="desc-link" href="http://php.net/manual/en/function.array-change-key-case.php">array_change_key_case</a>.<br/>
+                                        Checks if a value exists.<br/><br/>
+                                        see <a target="_blank" class="desc-link" href="http://php.net/manual/en/function.in-array.php">in_array</a>.<br/>
+                                    </p>
+                                </div>
+                                <div class="description detailed hidden"></div>
+                            </div>
+                        </td>
+                    </tr>
+
+                    <tr data-order="keyExists" id="m_keyExists">
+                        <td class="attributes"><code class="overview">keyExists</code></td>
+                        <td class="name">
+                            <div>
+                                <a class="anchor" href="#m_ObjectArray_keyExists">#</a>
+                                <code class="overview">(string|int <var>$key</var>): bool</code>
+                                <div class="description short">
+                                    <p>
+                                        Checks if the given key or index exists in the array.<br/><br/>
+                                        see <a target="_blank" class="desc-link" href="http://php.net/manual/en/function.array-key-exists.php">array_key_exists</a>.<br/>
                                     </p>
                                 </div>
                                 <div class="description detailed hidden"></div>
@@ -274,6 +333,23 @@
                         </td>
                     </tr>
 
+                    <tr data-order="popped" id="m_popped">
+                        <td class="attributes"><code class="overview">popped</code></td>
+                        <td class="name">
+                            <div>
+                                <a class="anchor" href="#m_ObjectArray_popped">#</a>
+                                <code class="overview">(void): static</code>
+                                <div class="description short">
+                                    <p>
+                                        inspired from Lodash<br/><br/>
+                                        see <a target="_blank" class="desc-link" href="https://lodash.com/docs/4.17.15#tail">tail</a>.<br/>
+                                    </p>
+                                </div>
+                                <div class="description detailed hidden"></div>
+                            </div>
+                        </td>
+                    </tr>
+
                     <tr data-order="push" id="m_push">
                         <td class="attributes"><code class="overview">push</code></td>
                         <td class="name">
@@ -301,6 +377,23 @@
                                     <p>
                                         Shifts an element off the beginning.<br/><br/>
                                         see <a target="_blank" class="desc-link" href="http://php.net/manual/en/function.array-shift.php">array_shift</a>.<br/>
+                                    </p>
+                                </div>
+                                <div class="description detailed hidden"></div>
+                            </div>
+                        </td>
+                    </tr>
+
+                    <tr data-order="shifted" id="m_shifted">
+                        <td class="attributes"><code class="overview">shifted</code></td>
+                        <td class="name">
+                            <div>
+                                <a class="anchor" href="#m_ObjectArray_shifted">#</a>
+                                <code class="overview">(void): static</code>
+                                <div class="description short">
+                                    <p>
+                                        inspired from Lodash<br/><br/>
+                                        see <a target="_blank" class="desc-link" href="https://lodash.com/docs/4.17.15#tail">tail</a>.<br/>
                                     </p>
                                 </div>
                                 <div class="description detailed hidden"></div>
@@ -376,23 +469,6 @@
                         </td>
                     </tr>
 
-                    <tr data-order="values" id="m_values">
-                        <td class="attributes"><code class="overview">values</code></td>
-                        <td class="name">
-                            <div>
-                                <a class="anchor" href="#m_ObjectArray_values">#</a>
-                                <code class="overview">(void): static</code>
-                                <div class="description short">
-                                    <p>
-                                        Returns all values.<br/><br/>
-                                        see <a target="_blank" class="desc-link" href="http://php.net/manual/en/function.array-values.php">array_values</a>.<br/>
-                                    </p>
-                                </div>
-                                <div class="description detailed hidden"></div>
-                            </div>
-                        </td>
-                    </tr>
-
                     <tr data-order="random" id="m_random">
                         <td class="attributes"><code class="overview">random</code></td>
                         <td class="name">
@@ -420,23 +496,6 @@
                                     <p>
                                         Pads to the specified length with a value.<br/><br/>
                                         see <a target="_blank" class="desc-link" href="http://php.net/manual/en/function.array-pad.php">array_pad</a>.<br/>
-                                    </p>
-                                </div>
-                                <div class="description detailed hidden"></div>
-                            </div>
-                        </td>
-                    </tr>
-
-                    <tr data-order="keyExists" id="m_keyExists">
-                        <td class="attributes"><code class="overview">keyExists</code></td>
-                        <td class="name">
-                            <div>
-                                <a class="anchor" href="#m_ObjectArray_keyExists">#</a>
-                                <code class="overview">(string|int <var>$key</var>): bool</code>
-                                <div class="description short">
-                                    <p>
-                                        Checks if the given key or index exists in the array.<br/><br/>
-                                        see <a target="_blank" class="desc-link" href="http://php.net/manual/en/function.array-key-exists.php">array_key_exists</a>.<br/>
                                     </p>
                                 </div>
                                 <div class="description detailed hidden"></div>
@@ -496,16 +555,51 @@
                         </td>
                     </tr>
 
-                    <tr data-order="multisort" id="m_multisort">
-                        <td class="attributes"><code class="overview">multisort</code></td>
+                    <tr data-order="changeKeyCase" id="m_changeKeyCase">
+                        <td class="attributes"><code class="overview">changeKeyCase</code></td>
                         <td class="name">
                             <div>
-                                <a class="anchor" href="#m_ObjectArray_multisort">#</a>
-                                <code class="overview">(mixed <var>$order</var> = SORT_ASC, mixed <var>$flags</var> = SORT_REGULAR): static</code>
+                                <a class="anchor" href="#m_ObjectArray_changeKeyCase">#</a>
+                                <code class="overview">(int <var>$case</var> = CASE_LOWER): static</code>
                                 <div class="description short">
                                     <p>
-                                        Sort multiple or multi-dimensional arrays.<br/><br/>
-                                        see <a target="_blank" class="desc-link" href="http://php.net/manual/en/function.array-multisort.php">array_multisort</a>.<br/>
+                                        Changes the case of all keys.<br/><br/>
+                                        see <a target="_blank" class="desc-link" href="http://php.net/manual/en/function.array-change-key-case.php">array_change_key_case</a>.<br/>
+                                    </p>
+                                </div>
+                                <div class="description detailed hidden"></div>
+                            </div>
+                        </td>
+                    </tr>
+
+                    <tr data-order="values" id="m_values">
+                        <td class="attributes"><code class="overview">values</code></td>
+                        <td class="name">
+                            <div>
+                                <a class="anchor" href="#m_ObjectArray_values">#</a>
+                                <code class="overview">(void): static</code>
+                                <div class="description short">
+                                    <p>
+                                        Returns all values.<br/><br/>
+                                        see <a target="_blank" class="desc-link" href="http://php.net/manual/en/function.array-values.php">array_values</a>.<br/>
+                                    </p>
+                                </div>
+                                <div class="description detailed hidden"></div>
+                            </div>
+                        </td>
+                    </tr>
+
+                    <tr data-order="searchKeys" id="m_searchKeys">
+                        <td class="attributes"><code class="overview">searchKeys</code></td>
+                        <td class="name">
+                            <div>
+                                <a class="anchor" href="#m_ObjectArray_searchKeys">#</a>
+                                <code class="overview">(string <var>$property</var>, mixed <var>$value</var>, bool <var>$strict</var> = false): self</code>
+                                <div class="description short">
+                                    <p>
+                                        Searches a given value and returns the first corresponding key if successful.<br/><br/>
+                                        see <a target="_blank" class="desc-link" href="http://php.net/manual/en/function.array-keys.php">array_keys</a>&nbsp;
+                                        <a target="_blank" class="desc-link" href="http://php.net/manual/en/function.array-search.php">array_search</a>.<br/>
                                     </p>
                                 </div>
                                 <div class="description detailed hidden"></div>
@@ -547,40 +641,6 @@
                         </td>
                     </tr>
 
-                    <tr data-order="shifted" id="m_shifted">
-                        <td class="attributes"><code class="overview">shifted</code></td>
-                        <td class="name">
-                            <div>
-                                <a class="anchor" href="#m_ObjectArray_shifted">#</a>
-                                <code class="overview">(void): static</code>
-                                <div class="description short">
-                                    <p>
-                                        inspired from Lodash<br/><br/>
-                                        see <a target="_blank" class="desc-link" href="https://lodash.com/docs/4.17.15#tail">tail</a>.<br/>
-                                    </p>
-                                </div>
-                                <div class="description detailed hidden"></div>
-                            </div>
-                        </td>
-                    </tr>
-
-                    <tr data-order="popped" id="m_popped">
-                        <td class="attributes"><code class="overview">popped</code></td>
-                        <td class="name">
-                            <div>
-                                <a class="anchor" href="#m_ObjectArray_popped">#</a>
-                                <code class="overview">(void): static</code>
-                                <div class="description short">
-                                    <p>
-                                        inspired from Lodash<br/><br/>
-                                        see <a target="_blank" class="desc-link" href="https://lodash.com/docs/4.17.15#tail">tail</a>.<br/>
-                                    </p>
-                                </div>
-                                <div class="description detailed hidden"></div>
-                            </div>
-                        </td>
-                    </tr>
-
                     <tr data-order="every" id="m_every">
                         <td class="attributes"><code class="overview">every</code></td>
                         <td class="name">
@@ -608,31 +668,6 @@
                                     <p>
                                         from JS<br/><br/>
                                         see <a target="_blank" class="desc-link" href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/some">some</a>.<br/>
-                                    </p>
-                                </div>
-                                <div class="description detailed hidden"></div>
-                            </div>
-                        </td>
-                    </tr>
-
-                    <tr data-order="sortValue" id="m_sortValue">
-                        <td class="attributes"><code class="overview">sortValue</code></td>
-                        <td class="name">
-                            <div>
-                                <a class="anchor" href="#m_ObjectArray_sortValue">#</a>
-                                <code class="overview">(string <var>$property</var>, callable <var>$sorter</var> = null, bool <var>$reverse</var> = false, bool <var>$insensitive</var> = false, bool <var>$assoc</var> = false): self</code>
-                                <div class="description short">
-                                    <p>
-                                        Sort and/or reverse values.<br/><br/>
-                                        see <a target="_blank" class="desc-link" href="https://www.php.net/manual/en/function.usort.php">usort</a>&nbsp;
-                                        <a target="_blank" class="desc-link" href="https://www.php.net/manual/en/function.uasort.php">uasort</a>&nbsp;
-                                        <a target="_blank" class="desc-link" href="https://www.php.net/manual/en/function.sort.php">sort</a>&nbsp;
-                                        <a target="_blank" class="desc-link" href="https://www.php.net/manual/en/function.arsort.php">arsort</a>&nbsp;
-                                        <a target="_blank" class="desc-link" href="https://www.php.net/manual/en/function.rsort.php">rsort</a>&nbsp;
-                                        <a target="_blank" class="desc-link" href="https://www.php.net/manual/en/function.asort.php">asort</a>&nbsp;
-                                        <a target="_blank" class="desc-link" href="https://www.php.net/manual/en/function.array-reverse.php">array_reverse</a>&nbsp;
-                                        <a target="_blank" class="desc-link" href="https://www.php.net/manual/en/function.natcasesort.php">natcasesort</a>&nbsp;
-                                        <a target="_blank" class="desc-link" href="https://www.php.net/manual/en/function.natsort.php">natsort</a>.<br/>
                                     </p>
                                 </div>
                                 <div class="description detailed hidden"></div>
@@ -687,41 +722,6 @@
                                     <p>
                                         Counts all the values.<br/><br/>
                                         see <a target="_blank" class="desc-link" href="http://php.net/manual/en/function.array-count-values.php">array_count_values</a>.<br/>
-                                    </p>
-                                </div>
-                                <div class="description detailed hidden"></div>
-                            </div>
-                        </td>
-                    </tr>
-
-                    <tr data-order="valueExists" id="m_valueExists">
-                        <td class="attributes"><code class="overview">valueExists</code></td>
-                        <td class="name">
-                            <div>
-                                <a class="anchor" href="#m_ObjectArray_valueExists">#</a>
-                                <code class="overview">(string <var>$property</var>, mixed <var>$needle</var>, bool <var>$strict</var> = false): bool</code>
-                                <div class="description short">
-                                    <p>
-                                        Checks if a value exists.<br/><br/>
-                                        see <a target="_blank" class="desc-link" href="http://php.net/manual/en/function.in-array.php">in_array</a>.<br/>
-                                    </p>
-                                </div>
-                                <div class="description detailed hidden"></div>
-                            </div>
-                        </td>
-                    </tr>
-
-                    <tr data-order="searchKeys" id="m_searchKeys">
-                        <td class="attributes"><code class="overview">searchKeys</code></td>
-                        <td class="name">
-                            <div>
-                                <a class="anchor" href="#m_ObjectArray_searchKeys">#</a>
-                                <code class="overview">(string <var>$property</var>, mixed <var>$value</var>, bool <var>$strict</var> = false): self</code>
-                                <div class="description short">
-                                    <p>
-                                        Searches a given value and returns the first corresponding key if successful.<br/><br/>
-                                        see <a target="_blank" class="desc-link" href="http://php.net/manual/en/function.array-keys.php">array_keys</a>&nbsp;
-                                        <a target="_blank" class="desc-link" href="http://php.net/manual/en/function.array-search.php">array_search</a>.<br/>
                                     </p>
                                 </div>
                                 <div class="description detailed hidden"></div>

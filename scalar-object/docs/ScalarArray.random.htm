@@ -20,7 +20,7 @@
     </div>
 
     <div>
-        Picks one or more random entries out of <var>$scalarObject->val</var>, and returns the
+        Picks one or more random entries out of <em>internal array</em>, and returns the
         key (or keys) of the random entries.
     </div>
 
@@ -37,8 +37,8 @@
         <p>
             When picking only one entry, <strong>random()</strong> returns the key for a random
             entry. Otherwise, an array of keys for the random entries is returned. This is done
-            so that random keys can be picked from <var>$scalarObject->val</var> as well as random values. Trying
-            to pick more elements than there are in <var>$scalarObject->val</var> will result in an <code>E_WARNING</code>
+            so that random keys can be picked from <em>internal array</em> as well as random values. Trying
+            to pick more elements than there are in <em>internal array</em> will result in an <code>E_WARNING</code>
             level error, and NULL will be returned.
         </p>
     </div>

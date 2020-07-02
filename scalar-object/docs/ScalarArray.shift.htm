@@ -22,10 +22,10 @@
     <div>
         <p>
             Removes the elements designated by <var>$offset</var> and <var>$length</var>
-            from the <var>$scalarObject->val</var> array, and replaces them with the elements of the
+            from the <em>internal array</em> array, and replaces them with the elements of the
             <var>$replacement</var> array, if supplied.
         </p>
-        <p>Note that numeric keys in <var>$scalarObject->val</var> are not preserved.</p>
+        <p>Note that numeric keys in <em>internal array</em> are not preserved.</p>
 
         <blockquote>
             <strong>Note</strong>: If <var>$replacement</var> is not an array, it will be
@@ -41,8 +41,8 @@
             <dt>$offset</dt>
             <dd>
                 If <var>$offset</var> is positive then the start of removed portion is at that
-                offset from the beginning of the <var>$scalarObject->val</var> array. If <var>$offset</var>
-                is negative then it starts that far from the end of the <var>$scalarObject->val</var> array.
+                offset from the beginning of the <em>internal array</em> array. If <var>$offset</var>
+                is negative then it starts that far from the end of the <em>internal array</em> array.
             </dd>
 
             <dt>$length</dt>

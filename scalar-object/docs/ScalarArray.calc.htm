@@ -12,7 +12,7 @@
     <h1>calc</h1>
 
     <div class="short-description">
-        <code>calc (string <var>$operation</var>): float|int</code>
+        <code>calc (string <var>$operation</var>, bool <var>$includeNull</var> = false): float|int|string</code>
         <p>
             Calculates the sum/avg/max/min/product of values.<br/><br/>
             see <a target="_blank" href="http://php.net/manual/en/function.array-sum.php">array_sum</a>&nbsp;
@@ -23,121 +23,101 @@
     </div>
 
     <div>
-        <h3>Return Values</h3>
-        <p>The sum of values as an integer or float.</p>
+        This method is only applied if <var>ScalarArray::type</var> is <code>int</code>, <code>float</code> or
+        <code>string</code> and the internal array is not empty, otherwise all caculation results are <code>NAN</code>.
     </div>
-
-    <div class="examples">
-        <pre class="php-code">
-            $a = [2, 4, 6, 8];
-            sum($a); // output: 20
-
-            $b = ["a" => 1.2, "b" => 2.3, "c" => 3.4];
-            sum($b); // output: 6.9
-        </pre>
-    </div>
-
-    <h2>max</h2>
-
     <div>
-        <p>
-            If the first and only parameter is an array, <strong>max()</strong>
-            returns the highest value in that array. If at least two parameters are
-            provided, <strong>max()</strong> returns the biggest of these values.
-        </p>
-        <blockquote>
-            <strong>Note</strong>: Values of different types will be compared using the
-            standard comparison rules. For instance, a non-numeric string will be compared
-            to an integer as though it were <em>0</em>, but multiple string values will be
-            compared alphanumerically. The actual value returned will be of the original
-            type with no conversion applied.
-        </blockquote>
+        <h3>Parameters</h3>
+        <dl>
+            <dt>$operation</dt>
+            <dd>
+                available operation: <code>sum</code> (summary), <code>avg</code> (average),
+                <code>max</code> (maximum), <code>min</code> (minimum), <code>product</code>
+            </dd>
+            <dt>$includeNull</dt>
+            <dd>Whether <code>null</code>, <code>NAN</code>, and <code>INF</code> is included or not.
+                If <code>true</code>, and <var>ScalarArray::type</var> is <code>int</code> or <code>float</code>,
+                they are treated as <code>0</code> (zero), and counter are applied to them.
+                If <code>true</code>, and <var>ScalarArray::type</var> is <code>string</code>, <code>null</code>
+                is treated as <code>""</code>.
+            </dd>
+        </dl>
     </div>
 
     <div>
         <h3>Return Values</h3>
-        <p>
-            <strong>max()</strong> returns the parameter value considered "highest" according
-            to standard comparisons. If multiple values of different types evaluate as equal (e.g.
-            <em>0</em> and <em>'abc'</em>) the first provided to the function will be returned.
-        </p>
+        <p>The sum/avg/max/min/product of values as an integer or float.</p>
     </div>
 
-    <div class="examples">
-        <pre class="php-code">
-            echo max([2, 4, 5]);     // output: 5
+    <pre class="php-code">
+        $a = new ScalarArray("int", false, [2, 4, 6, 8]);
+        $a->calc("sum");     // output: 20
+        $a->calc("avg");     // output: 5
+        $a->calc("max");     // output: 8
+        $a->calc("min");     // output: 2
+        $a->calc("product"); // output: 384
 
-            // With multiple arrays of different lengths, max returns the longest
-            $val = max([2, 2, 2], [1, 1, 1, 1]); // output: [1, 1, 1, 1]
+        $a = new ScalarArray("int", true, [2, null, NAN, INF, 4, 6, 8]);
+        $a->calc("sum");     // output: 20
+        $a->calc("avg");     // output: 5
+        $a->calc("max");     // output: 8
+        $a->calc("min");     // output: 2
+        $a->calc("product"); // output: 384
 
-            // Multiple arrays of the same length are compared from left to right
-            // so in our example: 2 == 2, but 5 > 4
-            $val = max([2, 4, 8], [2, 5, 1]); // output: [2, 5, 1]
+        $a->calc("sum", true);     // output: 20
+        $a->calc("avg", true);     // output: 2.8571428571429
+        $a->calc("max", true);     // output: 8
+        $a->calc("min", true);     // output: 2
+        $a->calc("product", true); // output: 384
 
-            // If both an array and non-array are given, the array will be returned
-            // as comparisons treat arrays as greater than any other value
-            $val = max("string", [2, 5, 7], 42);   // output: [2, 5, 7]
-        </pre>
-    </div>
+        // modified behaviour: 0 is converted to NAN
+        $a = new ScalarArray("string", false, ["a", "aa", "aab", "aaa"]);
+        $a->calc("sum");     // output: NAN
+        $a->calc("avg");     // output: NAN
+        $a->calc("max");     // output: "aab"
+        $a->calc("min");     // output: "a"
+        $a->calc("product"); // output: NAN
 
-    <h2>min</h2>
+        // modified behaviour: 0 is converted to NAN
+        $a = new ScalarArray("string", true, ["a", null, "aa", "aab", "aaa"]);
+        $a->calc("sum");     // output: NAN
+        $a->calc("avg");     // output: NAN
+        $a->calc("max");     // output: "aab"
+        $a->calc("min");     // output: ""
+        $a->calc("product"); // output: NAN
 
-    <div>
-        <p>
-            If the first and only parameter is an array, <strong>min()</strong>
-            returns the lowest value in that array. If at least two parameters are
-            provided, <strong>min()</strong> returns the smallest of these values.
-        </p>
+        // modified behaviour: 0 is converted to NAN, null is treated as ""
+        $a = new ScalarArray("bool", false, [true, true, false, true]);
+        $a->calc("sum");     // output: NAN
+        $a->calc("avg");     // output: NAN
+        $a->calc("max");     // output: NAN
+        $a->calc("min");     // output: NAN
+        $a->calc("product"); // output: NAN
 
-        <blockquote>
-            <strong>Note</strong>: Values of different types will be compared using the standard
-            comparison rules. For instance, a non-numeric string will be compared to an integer
-            as though it were <em>0</em>, but multiple string values will be compared alphanumerically.
-            The actual value returned will be of the original type with no conversion applied.
-        </blockquote>
-    </div>
+        // modified behaviour: warning is converted to NAN
+        $a = new ScalarArray("float", false, []);
+        $a->calc("sum");     // output: NAN
+        $a->calc("avg");     // output: NAN
+        $a->calc("max");     // output: NAN
+        $a->calc("min");     // output: NAN
+        $a->calc("product"); // output: NAN
 
-    <div>
-        <h3>Return Values</h3>
-        <p>
-            <strong>min()</strong> returns the parameter value considered "lowest" according to
-            standard comparisons. If multiple values of different types evaluate as equal (e.g.
-            <em>0</em> and <em>'abc'</em>) the first provided to the function will be returned.
-        </p>
-    </div>
-
-    <div class="examples">
-        <pre class="php-code">
-            echo min([2, 4, 5]);      // output: 2
-
-            // With multiple arrays of different lengths, min returns the shortest
-            $val = min([2, 2, 2], [1, 1, 1, 1]); // output: [2, 2, 2]
-
-            // Multiple arrays of the same length are compared from left to right
-            // so in our example: 2 == 2, but 4 &lt; 5
-            $val = min([2, 4, 8], [2, 5, 1]); //  output: [2, 4, 8]
-
-            // If both an array and non-array are given, the array is never returned
-            // as comparisons treat arrays as greater than any other value
-            $val = min("string", [2, 5, 7], 42); // output: string
-        </pre>
-    </div>
-
-    <h2>product</h2>
-
-    <div><strong>product()</strong> returns the product of values in <var>$scalarObject->val</var>.</div>
-
-    <div>
-        <h3>Return Values</h3>
-        <p>The product as an integer or float.</p>
-    </div>
-
-    <div class="examples">
-        <pre class="php-code">
-            $a = [2, 4, 6, 8];
-            product($a); // output: 384
-            product([]); // output: 1
-        </pre>
-    </div>
+        // calculate avg, but null/NAN/INF is treated as 1.
+        $avg = function($acc, $val, $key, $arr) {
+            $isLast = $key == array_key_last($attr);
+            $isOne = is_null($val) || is_nan(val) || is_infinite(val);
+            if ($isLast && $isOne) {
+                return ($acc["sum"] + 1) / ($acc["count"] + 1);
+            } elseif ($isLast) {
+                return ($acc["sum"] + $val) / ($acc["count"] + 1);
+            } elseif ($isOne) {
+                return ["sum" => $acc["sum"] + 1, "count" => $acc["count"] + 1];
+            } else {
+                return ["sum" => $acc["sum"] + $val, "count" => $acc["count"] + 1];
+            }
+        };
+        $a = new ScalarArray("int", true, [2, null, NAN, INF, 4, 6, 8]);
+        $a->reduce($avg, ["sum" => 0, "count" => 0]); // output: 3.2857142857143
+    </pre>
 </div>
 </body>

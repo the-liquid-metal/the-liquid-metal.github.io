@@ -21,7 +21,7 @@
 
     <div>
         <strong>slice()</strong> returns the sequence of elements
-        from the array <var>$scalarObject->val</var> as specified by the
+        from the array <em>internal array</em> as specified by the
         <var>$offset</var> and <code>length</code> parameters.
     </div>
 
@@ -31,8 +31,8 @@
             <dt>$offset</dt>
             <dd>
                 If <var>$offset</var> is non-negative, the sequence will start at that
-                offset in the <var>$scalarObject->val</var>.  If <var>$offset</var> is negative,
-                the sequence will start that far from the end of the <var>$scalarObject->val</var>.
+                offset in the <em>internal array</em>.  If <var>$offset</var> is negative,
+                the sequence will start that far from the end of the <em>internal array</em>.
             </dd>
 
             <dt>$length</dt>
@@ -42,7 +42,7 @@
                 then only the available array elements will be present. If <code>length</code>
                 is given and is negative then the sequence will stop that many elements from the
                 end of the array. If it is omitted, then the sequence will have everything from
-                <var>$offset</var> up until the end of the <var>$scalarObject->val</var>.
+                <var>$offset</var> up until the end of the <em>internal array</em>.
             </dd>
 
             <dt>$preserveKeys</dt>

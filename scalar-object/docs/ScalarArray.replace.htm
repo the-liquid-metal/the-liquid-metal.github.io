@@ -21,7 +21,7 @@
 
     <div>
         <p>
-            <strong>replace()</strong> replaces the values of <var>$scalarObject->val</var> with values
+            <strong>replace()</strong> replaces the values of <em>internal array</em> with values
             having the same keys in each of the following arrays. If a key from the first array exists
             in the second array, its value will be replaced by the value from the second array. If the
             key exists in the second array, and not the first, it will be created in the first array.
@@ -76,7 +76,7 @@
     <div>
         <p>
             <strong>recursiveReplace()</strong> replaces the values of
-            <var>$scalarObject->val</var> with the same values from all the following
+            <em>internal array</em> with the same values from all the following
             arrays. If a key from the first array exists in the second array, its value
             will be replaced by the value from the second array. If the key exists in the
             second array, and not the first, it will be created in the first array.
@@ -89,9 +89,9 @@
             arrays and apply the same process to the inner value.
         </p>
         <p>
-            When the value in <var>$scalarObject->val</var> is scalar, it will be replaced
+            When the value in <em>internal array</em> is scalar, it will be replaced
             by the value in <var>$array2</var>, may it be scalar or array.
-            When the value in <var>$scalarObject->val</var> and <var>$array2</var>
+            When the value in <em>internal array</em> and <var>$array2</var>
             are both arrays, <strong>recursiveReplace()</strong> will replace
             their respective value recursively.
         </p>

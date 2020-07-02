@@ -23,12 +23,12 @@
     <div>
         <p>
             <strong>keys()</strong> returns the keys, numeric and
-            string, from the <var>$scalarObject->val</var>.
+            string, from the <em>internal array</em>.
         </p>
         <p>
             If the optional <var>$searchValue</var> is specified,
             then only the keys for that value are returned. Otherwise, all
-            the keys from the <var>$scalarObject->val</var> are returned.
+            the keys from the <em>internal array</em> are returned.
         </p>
     </div>
 
@@ -45,7 +45,7 @@
 
     <div>
         <h3>Return Values</h3>
-        <p>Returns an array of all the keys in <var>$scalarObject->val</var>.</p>
+        <p>Returns an array of all the keys in <em>internal array</em>.</p>
     </div>
 
     <div class="examples">
@@ -66,7 +66,7 @@
 
     <h2>search</h2>
 
-    <div>Searches <var>$scalarObject->val</var> for <var>$needle</var>.</div>
+    <div>Searches <em>internal array</em> for <var>$needle</var>.</div>
 
     <div>
         <h3>Parameters</h3>
@@ -81,8 +81,8 @@
             <dd>
                 If it is set to <code>TRUE</code> then the
                 <strong>search()</strong> function will search for <em>identical</em> elements
-                in the <var>$scalarObject->val</var>. This means it will also check the types of the
-                <var>$needle</var> in the <var>$scalarObject->val</var>, and objects must be the same instance.
+                in the <em>internal array</em>. This means it will also check the types of the
+                <var>$needle</var> in the <em>internal array</em>, and objects must be the same instance.
             </dd>
         </dl>
     </div>
@@ -94,7 +94,7 @@
             array, <code>FALSE</code> otherwise.
         </p>
         <p>
-            If <var>$needle</var> is found in <var>$scalarObject->val</var> more than once, the
+            If <var>$needle</var> is found in <em>internal array</em> more than once, the
             first matching key is returned. To return the keys for all matching values,
             use <a href="function.array-keys.php">array_keys()</a> with the optional
             <code>search_value</code> parameter instead.

@@ -19,9 +19,9 @@
     </div>
 
     <div>
-        Iterates over each value in the <var>$scalarObject->val</var> passing them to the <var>$filter</var>
+        Iterates over each value in the <em>internal array</em> passing them to the <var>$filter</var>
         function. If the <var>$filter</var> function returns true, the current value from
-        <var>$scalarObject->val</var> is returned into the result array. Array keys are preserved.
+        <em>internal array</em> is returned into the result array. Array keys are preserved.
     </div>
 
     <div>
@@ -31,7 +31,7 @@
             <dd>
                 <p>The callback function to use</p>
                 <p>
-                    If no <var>$filter</var> is supplied, all entries of <var>$scalarObject->val</var> equal to
+                    If no <var>$filter</var> is supplied, all entries of <em>internal array</em> equal to
                     <code>FALSE</code> (see <a href="language.types.boolean.php#language.types.boolean.casting">
                     converting to boolean</a>) will be removed.
                 </p>

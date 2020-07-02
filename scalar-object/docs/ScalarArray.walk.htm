@@ -23,7 +23,7 @@
     <div>
         <p>
             Applies the user-defined <var>$callback</var> function to each
-            element of the <var>$scalarObject->val</var>.
+            element of the <em>internal array</em>.
         </p>
         <!-- pointer is not relevant -->
     </div>
@@ -35,7 +35,7 @@
             <dd>
                 <p>
                     Typically, <var>$callback</var> takes on two parameters. The
-                    <var>$scalarObject->val</var> parameter's value being the first, and the
+                    <em>internal array</em> parameter's value being the first, and the
                     key/index second.
                 </p>
                 <blockquote>
@@ -51,7 +51,7 @@
                     usable directly as a <var>$callback</var>.
                 </blockquote>
                 <p>
-                    Only the values of the <var>$scalarObject->val</var> may potentially be
+                    Only the values of the <em>internal array</em> may potentially be
                     changed; its structure cannot be altered, i.e., the programmer cannot
                     add, unset or reorder elements. If the callback does not respect this
                     requirement, the behavior of this function is undefined, and
@@ -122,7 +122,7 @@
 
     <div>
         Applies the user-defined <var>$callback</var> function to each
-        element of the <var>$scalarObject->val</var>. This function will recurse
+        element of the <em>internal array</em>. This function will recurse
         into deeper arrays.
     </div>
 
@@ -132,7 +132,7 @@
             <dt>$callback</dt>
             <dd>
                 <p>
-                    Typically, <var>$callback</var> takes on two parameters. The <var>$scalarObject->val</var>
+                    Typically, <var>$callback</var> takes on two parameters. The <em>internal array</em>
                     parameter's value being the first, and the key/index second.
                 </p>
                 <blockquote>
