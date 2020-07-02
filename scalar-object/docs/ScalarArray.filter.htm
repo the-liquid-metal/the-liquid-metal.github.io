@@ -24,67 +24,63 @@
         <em>internal array</em> is returned into the result array. Array keys are preserved.
     </div>
 
-    <div>
-        <h3>Parameters</h3>
-        <dl>
-            <dt>callback</dt>
-            <dd>
-                <p>The callback function to use</p>
-                <p>
-                    If no <var>$filter</var> is supplied, all entries of <em>internal array</em> equal to
-                    <code>FALSE</code> (see <a href="language.types.boolean.php#language.types.boolean.casting">
-                    converting to boolean</a>) will be removed.
-                </p>
-            </dd>
+    <h3>Parameters</h3>
+    <dl>
+        <dt>callback</dt>
+        <dd>
+            <p>The callback function to use</p>
+            <p>
+                If no <var>$filter</var> is supplied, all entries of <em>internal array</em> equal to
+                <code>FALSE</code> (see <a href="language.types.boolean.php#language.types.boolean.casting">
+                converting to boolean</a>) will be removed.
+            </p>
+        </dd>
 
-            <dt>flag</dt>
-            <dd>
-                <p>Flag determining what arguments are sent to <var>$filter</var>:</p>
-                <ul>
-                    <li>
-                        <code>ARRAY_FILTER_USE_KEY</code> - pass key as the only argument
-                        to <var>$filter</var> instead of the value
-                    </li>
-                    <li>
-                        <code>ARRAY_FILTER_USE_BOTH</code> - pass both value and key as
-                        arguments to <var>$filter</var> instead of the value
-                    </li>
-                </ul>
-            </dd>
-        </dl>
-    </div>
+        <dt>flag</dt>
+        <dd>
+            <p>Flag determining what arguments are sent to <var>$filter</var>:</p>
+            <ul>
+                <li>
+                    <code>ARRAY_FILTER_USE_KEY</code> - pass key as the only argument
+                    to <var>$filter</var> instead of the value
+                </li>
+                <li>
+                    <code>ARRAY_FILTER_USE_BOTH</code> - pass both value and key as
+                    arguments to <var>$filter</var> instead of the value
+                </li>
+            </ul>
+        </dd>
+    </dl>
 
     <div>
         <h3>Return Values</h3>
         <p>Returns the filtered array.</p>
     </div>
 
-    <div class="examples">
-        <pre class="php-code">
-            function odd($var) {
-                // returns whether the input integer is odd
-                return($var &amp; 1);
-            }
+    <pre class="php-code">
+        function odd($var) {
+            // returns whether the input integer is odd
+            return($var &amp; 1);
+        }
 
-            function even($var) {
-                // returns whether the input integer is even
-                return(!($var &amp; 1));
-            }
+        function even($var) {
+            // returns whether the input integer is even
+            return(!($var &amp; 1));
+        }
 
-            $array1 = ["a" => 1, "b" => 2, "c" => 3, "d" => 4, "e" => 5];
-            filter($array1, "odd"); // output: ["a" => 1, "c" => 3, "e" => 5]
+        $array1 = ["a" => 1, "b" => 2, "c" => 3, "d" => 4, "e" => 5];
+        filter($array1, "odd"); // output: ["a" => 1, "c" => 3, "e" => 5]
 
-            $array2 = [6, 7, 8, 9, 10, 11, 12];
-            filter($array2, "even"); // output: [0 => 6, 2 => 8, 4 => 10, 6 => 12]
+        $array2 = [6, 7, 8, 9, 10, 11, 12];
+        filter($array2, "even"); // output: [0 => 6, 2 => 8, 4 => 10, 6 => 12]
 
-            $entry = [0 => "foo", 1 => false, 2 => -1, 3 => null, 4 => ""];
-            filter($entry); // output: [0 => "foo", 2 => -1]
+        $entry = [0 => "foo", 1 => false, 2 => -1, 3 => null, 4 => ""];
+        filter($entry); // output: [0 => "foo", 2 => -1]
 
-            $arr = ["a" => 1, "b" => 2, "c" => 3, "d" => 4];
-            filter($arr, fn($k) => $k == "b", ARRAY_FILTER_USE_KEY); // output: ["b" => 2]
-            filter($arr, fn($v, $k) => $k == "b" || $v == 4, ARRAY_FILTER_USE_BOTH); // output: ["b" => 2, "d" => 4]
-        </pre>
-    </div>
+        $arr = ["a" => 1, "b" => 2, "c" => 3, "d" => 4];
+        filter($arr, fn($k) => $k == "b", ARRAY_FILTER_USE_KEY); // output: ["b" => 2]
+        filter($arr, fn($v, $k) => $k == "b" || $v == 4, ARRAY_FILTER_USE_BOTH); // output: ["b" => 2, "d" => 4]
+    </pre>
 
     <div class="caution">
         <strong>Caution</strong><br/>

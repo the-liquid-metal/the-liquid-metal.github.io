@@ -25,24 +25,18 @@
         their frequency in <em>internal array</em> as values.
     </div>
 
-    <div>
-        <h3>Return Values</h3>
-        <p>
-            An associative array of values from <em>internal array</em> as
-            keys and their count as value.
-        </p>
-    </div>
+    <h3>Return Values</h3>
+    <p>
+        An associative array of values from <em>internal array</em> as
+        keys and their count as value.
+    </p>
 
-    <div>
-        <h3>Errors/Exceptions</h3>
-        <p>Throws <code>E_WARNING</code> for every element which is not string or integer.</p>
-    </div>
+    <h3>Errors/Exceptions</h3>
+    <p>Throws <code>E_WARNING</code> for every element which is not string or integer.</p>
 
-    <div class="examples">
-        <pre class="php-code">
-            $array = [1, "hello", 1, "world", "hello"];
-            countValues($array); // output: [1 => 2, "hello" => 2, "world" => 1]
-        </pre>
-    </div>
+    <pre class="php-code">
+        $array = [1, "hello", 1, "world", "hello"];
+        countValues($array); // output: [1 => 2, "hello" => 2, "world" => 1]
+    </pre>
 </div>
 </body>

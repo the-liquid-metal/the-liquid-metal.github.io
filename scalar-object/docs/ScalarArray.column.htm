@@ -28,41 +28,35 @@
         array.
     </div>
 
-    <div>
-        <h3>Parameters</h3>
-        <dl>
-            <dt>$columnKey</dt>
-            <dd>
-                The column of values to return. This value may be the integer key of the
-                column you wish to retrieve, or it may be the string key name for an
-                associative array. It may also be <code>NULL</code> to return complete arrays
-                (useful together with <var>$indexKey</var> to reindex the array).
-            </dd>
+    <h3>Parameters</h3>
+    <dl>
+        <dt>$columnKey</dt>
+        <dd>
+            The column of values to return. This value may be the integer key of the
+            column you wish to retrieve, or it may be the string key name for an
+            associative array. It may also be <code>NULL</code> to return complete arrays
+            (useful together with <var>$indexKey</var> to reindex the array).
+        </dd>
 
-            <dt>$indexKey</dt>
-            <dd>
-                The column to use as the index/keys for the returned array. This value
-                may be the integer key of the column, or it may be the string key name.
-            </dd>
-        </dl>
-    </div>
+        <dt>$indexKey</dt>
+        <dd>
+            The column to use as the index/keys for the returned array. This value
+            may be the integer key of the column, or it may be the string key name.
+        </dd>
+    </dl>
 
-    <div>
-        <h3>Return Values</h3>
-        <p>An array of values representing a single column from the <em>internal array</em>.</p>
-    </div>
+    <h3>Return Values</h3>
+    <p>An array of values representing a single column from the <em>internal array</em>.</p>
 
-    <div class="examples">
-        <pre class="php-code">
-            $records = [
-                ["id" => 2135, "first_name" => "John",  "last_name" => "Doe"],
-                ["id" => 3245, "first_name" => "Sally", "last_name" => "Smith"],
-                ["id" => 5342, "first_name" => "Jane",  "last_name" => "Jones"],
-                ["id" => 5623, "first_name" => "Peter", "last_name" => "Doe"]
-            ];
-            column($records, "first_name");      // output: ["John", "Sally", "Jane", "Peter"]
-            column($records, "last_name", "id"); // output: [2135 => "Doe", 3245 => "Smith", 5342 => "Jones", 5623 => "Doe"]
-        </pre>
-    </div>
+    <pre class="php-code">
+        $records = [
+            ["id" => 2135, "first_name" => "John",  "last_name" => "Doe"],
+            ["id" => 3245, "first_name" => "Sally", "last_name" => "Smith"],
+            ["id" => 5342, "first_name" => "Jane",  "last_name" => "Jones"],
+            ["id" => 5623, "first_name" => "Peter", "last_name" => "Doe"]
+        ];
+        column($records, "first_name");      // output: ["John", "Sally", "Jane", "Peter"]
+        column($records, "last_name", "id"); // output: [2135 => "Doe", 3245 => "Smith", 5342 => "Jones", 5623 => "Doe"]
+    </pre>
 </div>
 </body>

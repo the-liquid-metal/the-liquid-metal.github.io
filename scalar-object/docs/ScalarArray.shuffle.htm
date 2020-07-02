@@ -21,20 +21,16 @@
 
     <div>This function shuffles (randomizes the order of the elements in) an <em>internal array</em>.</div>
 
-    <div>
-        <h3>Return Values</h3>
-        <p><code>TRUE</code> on success or <code>FALSE</code> on failure.</p>
-    </div>
+    <h3>Return Values</h3>
+    <p><code>TRUE</code> on success or <code>FALSE</code> on failure.</p>
 
-    <div class="examples">
-        <pre class="php-code">
-            $numbers = range(1, 20);
-            shuffle($numbers);
-            foreach ($numbers as $number) {
-                echo "$number ";
-            }
+    <pre class="php-code">
+        $numbers = range(1, 20);
+        shuffle($numbers);
+        foreach ($numbers as $number) {
+            echo "$number ";
+        }
     </pre>
-    </div>
 
     <blockquote>
         <strong>Note</strong>:This function assigns new keys to the elements in

@@ -24,25 +24,19 @@
         or uppercased. Numbered indices are left as is.
     </div>
 
-    <div>
-        <h3>Parameters</h3>
-        <dl>
-            <dt>$case</dt>
-            <dd>Either <code>CASE_UPPER</code> or <code>CASE_LOWER</code> (default)</dd>
-        </dl>
-    </div>
+    <h3>Parameters</h3>
+    <dl>
+        <dt>$case</dt>
+        <dd>Either <code>CASE_UPPER</code> or <code>CASE_LOWER</code> (default)</dd>
+    </dl>
 
-    <div>
-        <h3>Return Values</h3>
-        <p>An array with its keys lowered or uppercased stored in <em>internal array</em>.</p>
-    </div>
+    <h3>Return Values</h3>
+    <p>An array with its keys lowered or uppercased stored in <em>internal array</em>.</p>
 
-    <div class="examples">
-        <pre class="php-code">
-            $input = ["FirSt" => 1, "SecOnd" => 4];
-            changeKeyCase($input, CASE_UPPER); // output: ["FIRST" => 1, "SECOND" => 4]
-        </pre>
-    </div>
+    <pre class="php-code">
+        $input = ["FirSt" => 1, "SecOnd" => 4];
+        changeKeyCase($input, CASE_UPPER); // output: ["FIRST" => 1, "SECOND" => 4]
+    </pre>
 
     <blockquote><strong>Note</strong>:
         If an array has indices that will be the same once run through this

@@ -26,38 +26,32 @@
         comparison is done on the keys instead of the values.
     </div>
 
+    <h3>Parameters</h3>
+    <dl>
+        <dt>$array2</dt>
+        <dd>An array to compare against</dd>
+
+        <dt>...</dt>
+        <dd>More arrays to compare against</dd>
+    </dl>
+
+    <h3>Return Values</h3>
+    <p>
+        An array containing all the entries from <em>internal array</em>
+        whose keys are not present in any of the other arrays.
+    </p>
+
     <div>
-        <h3>Parameters</h3>
-        <dl>
-            <dt>$array2</dt>
-            <dd>An array to compare against</dd>
-
-            <dt>...</dt>
-            <dd>More arrays to compare against</dd>
-        </dl>
+        The two keys from the <em>key => value</em> pairs are considered equal only if
+        <code>(string) $key1 === (string) $key2 </code>. In other words a strict type check is
+        executed so the string representation must be the same.
     </div>
 
-    <div>
-        <h3>Return Values</h3>
-        <p>
-            An array containing all the entries from <em>internal array</em>
-            whose keys are not present in any of the other arrays.
-        </p>
-    </div>
-
-    <div class="examples">
-        <p><strong>Example #1 keyDiff() example</strong></p>
-        <div>
-            The two keys from the <em>key => value</em> pairs are considered equal only if
-            <code>(string) $key1 === (string) $key2 </code>. In other words a strict type check is
-            executed so the string representation must be the same.
-        </div>
-        <pre class="php-code">
-            $array1 = ["blue"  => 1, "red"  => 2, "green"  => 3, "purple" => 4];
-            $array2 = ["green" => 5, "blue" => 6, "yellow" => 7, "cyan"   => 8];
-            keyDiff($array1, $array2); // output: ["red" => 2, "purple" => 4]
-        </pre>
-    </div>
+    <pre class="php-code">
+        $array1 = ["blue"  => 1, "red"  => 2, "green"  => 3, "purple" => 4];
+        $array2 = ["green" => 5, "blue" => 6, "yellow" => 7, "cyan"   => 8];
+        keyDiff($array1, $array2); // output: ["red" => 2, "purple" => 4]
+    </pre>
 
     <blockquote>
         <strong>Note</strong>: This function only checks one dimension of a n-dimensional array.
@@ -66,60 +60,52 @@
 
     <h2>userKeyDiff</h2>
 
-    <div>
-        <p>
-            Compares the keys from <em>internal array</em> against the keys
-            from <var>$array2</var> and returns the difference.
-            This function is like <a href="diff.htm">diff()</a> except the
-            comparison is done on the keys instead of the values.
-        </p>
-        <p>
-            Unlike <a href="keyDiff.htm">keyDiff()</a> a user supplied callback
-            function is used for the indices comparison, not internal function.
-        </p>
-    </div>
+    <p>
+        Compares the keys from <em>internal array</em> against the keys
+        from <var>$array2</var> and returns the difference.
+        This function is like <a href="diff.htm">diff()</a> except the
+        comparison is done on the keys instead of the values.
+    </p>
+    <p>
+        Unlike <a href="keyDiff.htm">keyDiff()</a> a user supplied callback
+        function is used for the indices comparison, not internal function.
+    </p>
 
-    <div>
-        <h3>Parameters</h3>
-        <dl>
-            <dt>$array2</dt>
-            <dd>An array to compare against</dd>
+    <h3>Parameters</h3>
+    <dl>
+        <dt>$array2</dt>
+        <dd>An array to compare against</dd>
 
-            <dt>...</dt>
-            <dd>More arrays to compare against</dd>
+        <dt>...</dt>
+        <dd>More arrays to compare against</dd>
 
-            <dt>$keyComparator</dt>
-            <dd>
-                The comparison function must return an integer less than, equal to, or greater than zero if
-                the first argument is considered to be respectively less than, equal to, or greater than the second.
-            </dd>
-        </dl>
-    </div>
+        <dt>$keyComparator</dt>
+        <dd>
+            The comparison function must return an integer less than, equal to, or greater than zero if
+            the first argument is considered to be respectively less than, equal to, or greater than the second.
+        </dd>
+    </dl>
 
-    <div>
-        <h3>Return Values</h3>
-        <p>
-            An array containing all the entries from <em>internal array</em>
-            that are not present in any of the other arrays.
-        </p>
-    </div>
+    <h3>Return Values</h3>
+    <p>
+        An array containing all the entries from <em>internal array</em>
+        that are not present in any of the other arrays.
+    </p>
 
-    <div class="examples">
-        <pre class="php-code">
-            function key_compare_func($key1, $key2) {
-                if ($key1 == $key2)
-                    return 0;
-                else if ($key1 > $key2)
-                    return 1;
-                else
-                    return -1;
-            }
+    <pre class="php-code">
+        function key_compare_func($key1, $key2) {
+            if ($key1 == $key2)
+                return 0;
+            else if ($key1 > $key2)
+                return 1;
+            else
+                return -1;
+        }
 
-            $array1 = ["blue"  => 1, "red"  => 2, "green"  => 3, "purple" => 4];
-            $array2 = ["green" => 5, "blue" => 6, "yellow" => 7, "cyan"   => 8];
-            userKeyDiff($array1, $array2, "key_compare_func"); // output: ["red" => 2, "purple" => 4]
-        </pre>
-    </div>
+        $array1 = ["blue"  => 1, "red"  => 2, "green"  => 3, "purple" => 4];
+        $array2 = ["green" => 5, "blue" => 6, "yellow" => 7, "cyan"   => 8];
+        userKeyDiff($array1, $array2, "key_compare_func"); // output: ["red" => 2, "purple" => 4]
+    </pre>
 
     <blockquote>
         <strong>Note</strong>: This function only checks one dimension of a

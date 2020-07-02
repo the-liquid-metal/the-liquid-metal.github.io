@@ -30,32 +30,26 @@
         any of the other arrays.
     </div>
 
-    <div>
-        <h3>Parameters</h3>
-        <dl>
-            <dt>$array2</dt>
-            <dd>An array to compare against</dd>
+    <h3>Parameters</h3>
+    <dl>
+        <dt>$array2</dt>
+        <dd>An array to compare against</dd>
 
-            <dt>...</dt>
-            <dd>More arrays to compare against</dd>
-        </dl>
-    </div>
+        <dt>...</dt>
+        <dd>More arrays to compare against</dd>
+    </dl>
 
-    <div>
-        <h3>Return Values</h3>
-        <p>
-            An array containing all the entries from <em>internal array</em>
-            that are not present in any of the other arrays.
-        </p>
-    </div>
+    <h3>Return Values</h3>
+    <p>
+        An array containing all the entries from <em>internal array</em>
+        that are not present in any of the other arrays.
+    </p>
 
-    <div class="examples">
-        <pre class="php-code">
-            $array1 = ["a" => "green", "red", "blue", "red"];
-            $array2 = ["b" => "green", "yellow", "red"];
-            diff($array1, $array2); // output: [1 => "blue"]
-        </pre>
-    </div>
+    <pre class="php-code">
+        $array1 = ["a" => "green", "red", "blue", "red"];
+        $array2 = ["b" => "green", "yellow", "red"];
+        diff($array1, $array2); // output: [1 => "blue"]
+    </pre>
 
     <blockquote>
         <strong>Note</strong>: Two elements are considered equal if and
@@ -76,48 +70,44 @@
         <a href="diff.htm">diff()</a> the array keys are also used in the comparison.
     </div>
 
+    <h3>Parameters</h3>
+    <dl>
+        <dt>$array2</dt>
+        <dd>An array to compare against</dd>
+
+        <dt>...</dt>
+        <dd>More arrays to compare against</dd>
+    </dl>
+
+    <h3>Return Values</h3>
+    <p>
+        An array containing all the values from <em>internal array</em>
+        that are not present in any of the other arrays.
+    </p>
+
     <div>
-        <h3>Parameters</h3>
-        <dl>
-            <dt>$array2</dt>
-            <dd>An array to compare against</dd>
-
-            <dt>...</dt>
-            <dd>More arrays to compare against</dd>
-        </dl>
+        In this example you see the <code>"a" => "green"</code> pair is present in both arrays and thus
+        it is not in the output from the function. Unlike this, the pair <code>0 => "red"</code> is in
+        the output because in the second argument <em>"red"</em> has key which is <em>1</em>.
     </div>
+
+    <pre class="php-code">
+        $array1 = ["a" => "green", "b" => "brown", "c" => "blue", "red"];
+        $array2 = ["a" => "green", "yellow", "red"];
+        assocDiff($array1, $array2); // output: ["b" => "brown", "c" => "blue", 0 => "red"]
+    </pre>
 
     <div>
-        <h3>Return Values</h3>
-        <p>
-            An array containing all the values from <em>internal array</em>
-            that are not present in any of the other arrays.
-        </p>
+        Two values from <em>key => value</em> pairs are considered equal only if <em>(string)
+        $elem1 === (string) $elem2 </em>. In other words a strict check takes place so the string
+        representations must be the same.
     </div>
 
-    <div class="examples">
-        <div>
-            In this example you see the <code>"a" => "green"</code> pair is present in both arrays and thus
-            it is not in the output from the function. Unlike this, the pair <code>0 => "red"</code> is in
-            the output because in the second argument <em>"red"</em> has key which is <em>1</em>.
-        </div>
-        <pre class="php-code">
-            $array1 = ["a" => "green", "b" => "brown", "c" => "blue", "red"];
-            $array2 = ["a" => "green", "yellow", "red"];
-            assocDiff($array1, $array2); // output: ["b" => "brown", "c" => "blue", 0 => "red"]
-        </pre>
-
-        <div>
-            Two values from <em>key => value</em> pairs are considered equal only if <em>(string)
-            $elem1 === (string) $elem2 </em>. In other words a strict check takes place so the string
-            representations must be the same.
-        </div>
-        <pre class="php-code">
-            $array1 = [0, 1, 2];
-            $array2 = ["00", "01", "2"];
-            assocDiff($array1, $array2); // output: [0 => 0, 1 => 1]
-        </pre>
-    </div>
+    <pre class="php-code">
+        $array1 = [0, 1, 2];
+        $array2 = ["00", "01", "2"];
+        assocDiff($array1, $array2); // output: [0 => 0, 1 => 1]
+    </pre>
 
     <blockquote>
         <strong>Note</strong>: This function only checks one dimension of a n-dimensional array.
@@ -129,64 +119,56 @@
     </blockquote>
 
     <h2>userAssocDiff</h2>
+    <p>
+        Compares <em>internal array</em> against <var>$array2</var> and returns the difference. Unlike
+        <a href="diff.htm">diff()</a> the array keys are used in the comparison.
+    </p>
+    <p>
+        Unlike <a href="assocDiff.htm">assocDiff()</a> an user supplied callback
+        function is used for the indices comparison, not internal function.
+    </p>
+
+    <h3>Parameters</h3>
+    <dl>
+        <dt>$array2</dt>
+        <dd>An array to compare against</dd>
+
+        <dt>...</dt>
+        <dd>More arrays to compare against</dd>
+
+        <dt>$keyComparator</dt>
+        <dd>
+            The comparison function must return an integer less than, equal to, or greater than zero if the
+            first argument is considered to be respectively less than, equal to, or greater than the second.
+        </dd>
+    </dl>
+
+    <h3>Return Values</h3>
+    <p>
+        Returns an array containing all the entries from
+        <em>internal array</em> that are not present in any of the other arrays.
+    </p>
 
     <div>
-        <p>
-            Compares <em>internal array</em> against <var>$array2</var> and returns the difference. Unlike
-            <a href="diff.htm">diff()</a> the array keys are used in the comparison.
-        </p>
-        <p>
-            Unlike <a href="assocDiff.htm">assocDiff()</a> an user supplied callback
-            function is used for the indices comparison, not internal function.
-        </p>
+        The <code>"a" => "green"</code> pair is present in both arrays and thus it is not in the
+        output from the function. Unlike this, the pair <code>0 => "red"</code> is in the output
+        because in the second argument <em>"red"</em> has key which is <em>1</em>.
     </div>
 
-    <div>
-        <h3>Parameters</h3>
-        <dl>
-            <dt>$array2</dt>
-            <dd>An array to compare against</dd>
-
-            <dt>...</dt>
-            <dd>More arrays to compare against</dd>
-
-            <dt>$keyComparator</dt>
-            <dd>
-                The comparison function must return an integer less than, equal to, or greater than zero if the
-                first argument is considered to be respectively less than, equal to, or greater than the second.
-            </dd>
-        </dl>
-    </div>
-
-    <div>
-        <h3>Return Values</h3>
-        <p>
-            Returns an array containing all the entries from
-            <em>internal array</em> that are not present in any of the other arrays.
-        </p>
-    </div>
-
-    <div class="examples">
-        <div>
-            The <code>"a" => "green"</code> pair is present in both arrays and thus it is not in the
-            output from the function. Unlike this, the pair <code>0 => "red"</code> is in the output
-            because in the second argument <em>"red"</em> has key which is <em>1</em>.
-        </div>
-        <pre class="php-code">
-            function key_compare_func($a, $b) {
-                if ($a === $b) {
-                    return 0;
-                }
-                return ($a > $b)? 1:-1;
+    <pre class="php-code">
+        function key_compare_func($a, $b) {
+            if ($a === $b) {
+                return 0;
             }
+            return ($a > $b)? 1:-1;
+        }
 
-            $array1 = ["a" => "green", "b" => "brown", "c" => "blue", "red"];
-            $array2 = ["a" => "green", "yellow", "red"];
-            userAssocDiff($array1, $array2, "key_compare_func"); // output: ["b" => "brown", "c" => "blue", 0 => "red"]
-        </pre>
+        $array1 = ["a" => "green", "b" => "brown", "c" => "blue", "red"];
+        $array2 = ["a" => "green", "yellow", "red"];
+        userAssocDiff($array1, $array2, "key_compare_func"); // output: ["b" => "brown", "c" => "blue", 0 => "red"]
+    </pre>
 
-        <div>The equality of 2 indices is checked by the user supplied callback function.</div>
-    </div>
+    <div>The equality of 2 indices is checked by the user supplied callback function.</div>
 
     <blockquote>
         <strong>Note</strong>: This function only checks one dimension of a n-dimensional
@@ -201,149 +183,143 @@
         unlike <a href="diff.htm">diff()</a> which uses an internal function for comparing the data.
     </div>
 
-    <div>
-        <h3>Parameters</h3>
-        <dl>
-            <dt>$array2</dt>
-            <dd>The second array.</dd>
+    <h3>Parameters</h3>
+    <dl>
+        <dt>$array2</dt>
+        <dd>The second array.</dd>
 
-            <dt>...</dt>
-            <dd>More arrays to compare against</dd>
+        <dt>...</dt>
+        <dd>More arrays to compare against</dd>
 
-            <dt>$valueComparator</dt>
-            <dd>
-                <p>The callback comparison function.</p>
-                <p>
-                    The comparison function must return an integer less than, equal to, or greater than zero if the
-                    first argument is considered to be respectively less than, equal to, or greater than the second.
-                </p>
-            </dd>
-        </dl>
-    </div>
+        <dt>$valueComparator</dt>
+        <dd>
+            <p>The callback comparison function.</p>
+            <p>
+                The comparison function must return an integer less than, equal to, or greater than zero if the
+                first argument is considered to be respectively less than, equal to, or greater than the second.
+            </p>
+        </dd>
+    </dl>
 
-    <div>
-        <h3>Return Values</h3>
-        <p>
-            Returns an array containing all the values of <em>internal array</em>
-            that are not present in any of the other arguments.
-        </p>
-    </div>
+    <h3>Return Values</h3>
+    <p>
+        Returns an array containing all the values of <em>internal array</em>
+        that are not present in any of the other arguments.
+    </p>
 
-    <div class="examples">
-        <pre class="php-code">
-            // Arrays to compare
-            $array1 = [new stdclass, new stdclass, new stdclass, new stdclass];
-            $array2 = [new stdclass, new stdclass];
+    <pre class="php-code">
+        // Arrays to compare
+        $array1 = [new stdclass, new stdclass, new stdclass, new stdclass];
+        $array2 = [new stdclass, new stdclass];
 
-            // Set some properties for each object
-            $array1[0]->width = 11; $array1[0]->height = 3;
-            $array1[1]->width = 7;  $array1[1]->height = 1;
-            $array1[2]->width = 2;  $array1[2]->height = 9;
-            $array1[3]->width = 5;  $array1[3]->height = 7;
+        // Set some properties for each object
+        $array1[0]->width = 11; $array1[0]->height = 3;
+        $array1[1]->width = 7;  $array1[1]->height = 1;
+        $array1[2]->width = 2;  $array1[2]->height = 9;
+        $array1[3]->width = 5;  $array1[3]->height = 7;
 
-            $array2[0]->width = 7;  $array2[0]->height = 5;
-            $array2[1]->width = 9;  $array2[1]->height = 2;
+        $array2[0]->width = 7;  $array2[0]->height = 5;
+        $array2[1]->width = 9;  $array2[1]->height = 2;
 
-            function compare_by_area($a, $b) {
-                $areaA = $a->width * $a->height;
-                $areaB = $b->width * $b->height;
+        function compare_by_area($a, $b) {
+            $areaA = $a->width * $a->height;
+            $areaB = $b->width * $b->height;
 
-                if ($areaA &lt; $areaB) {
-                    return -1;
-                } elseif ($areaA > $areaB) {
+            if ($areaA &lt; $areaB) {
+                return -1;
+            } elseif ($areaA > $areaB) {
+                return 1;
+            } else {
+                return 0;
+            }
+        }
+
+        userDiff($array1, $array2, "compare_by_area");
+        // output: Array
+        // (
+        //     [0] => stdClass Object
+        //         (
+        //             [width] => 11
+        //             [height] => 3
+        //         )
+        //     [1] => stdClass Object
+        //         (
+        //             [width] => 7
+        //             [height] => 1
+        //         )
+        // )
+
+        class MyCalendar {
+            public $free = [];
+            public $booked = [];
+
+            public function __construct($week = "now") {
+                $start = new DateTime($week);
+                $start->modify("Monday this week midnight");
+                $end = clone $start;
+                $end->modify("Friday this week midnight");
+                $interval = new DateInterval("P1D");
+                foreach (new DatePeriod($start, $interval, $end) as $freeTime) {
+                    $this->free[] = $freeTime;
+                }
+            }
+
+            public function bookAppointment(DateTime $date, $note) {
+                $this->booked[] = ["date" => $date->modify("midnight"), "note" => $note];
+            }
+
+            public function checkAvailability() {
+                return userDiff($this->free, $this->booked, [$this, "customCompare"]);
+            }
+
+            public function customCompare($free, $booked) {
+                if (is_array($free)) $a = $free["date"];
+                else $a = $free;
+                if (is_array($booked)) $b = $booked["date"];
+                else $b = $booked;
+                if ($a == $b) {
+                    return 0;
+                } elseif ($a > $b) {
                     return 1;
                 } else {
-                    return 0;
+                    return -1;
                 }
             }
+        }
 
-            userDiff($array1, $array2, "compare_by_area");
-            // output: Array
-            // (
-            //     [0] => stdClass Object
-            //         (
-            //             [width] => 11
-            //             [height] => 3
-            //         )
-            //     [1] => stdClass Object
-            //         (
-            //             [width] => 7
-            //             [height] => 1
-            //         )
-            // )
+        // Create a calendar for weekly appointments
+        $myCalendar = new MyCalendar;
 
-            class MyCalendar {
-                public $free = [];
-                public $booked = [];
+        // Book some appointments for this week
+        $myCalendar->bookAppointment(new DateTime("Monday this week"), "Cleaning GoogleGuy's apartment.");
+        $myCalendar->bookAppointment(new DateTime("Wednesday this week"), "Going on a snowboarding trip.");
+        $myCalendar->bookAppointment(new DateTime("Friday this week"), "Fixing buggy code.");
 
-                public function __construct($week = "now") {
-                    $start = new DateTime($week);
-                    $start->modify("Monday this week midnight");
-                    $end = clone $start;
-                    $end->modify("Friday this week midnight");
-                    $interval = new DateInterval("P1D");
-                    foreach (new DatePeriod($start, $interval, $end) as $freeTime) {
-                        $this->free[] = $freeTime;
-                    }
-                }
+        // Check availability of days by comparing $booked dates against $free dates
+        echo "I'm available on the following days this week...\n\n";
+        foreach ($myCalendar->checkAvailability() as $free) {
+            echo $free->format("l"), "\n";
+        }
+        echo "\n\n";
+        echo "I'm busy on the following days this week...\n\n";
+        foreach ($myCalendar->booked as $booked) {
+            echo $booked["date"]->format("l"), ": ", $booked["note"], "\n";
+        }
+    </pre>
 
-                public function bookAppointment(DateTime $date, $note) {
-                    $this->booked[] = ["date" => $date->modify("midnight"), "note" => $note];
-                }
+    <div>The above example will output:</div>
+    <pre class="output">
+        I'm available on the following days this week...
 
-                public function checkAvailability() {
-                    return userDiff($this->free, $this->booked, [$this, "customCompare"]);
-                }
+        Tuesday
+        Thursday
 
-                public function customCompare($free, $booked) {
-                    if (is_array($free)) $a = $free["date"];
-                    else $a = $free;
-                    if (is_array($booked)) $b = $booked["date"];
-                    else $b = $booked;
-                    if ($a == $b) {
-                        return 0;
-                    } elseif ($a > $b) {
-                        return 1;
-                    } else {
-                        return -1;
-                    }
-                }
-            }
+        I'm busy on the following days this week...
 
-            // Create a calendar for weekly appointments
-            $myCalendar = new MyCalendar;
-
-            // Book some appointments for this week
-            $myCalendar->bookAppointment(new DateTime("Monday this week"), "Cleaning GoogleGuy's apartment.");
-            $myCalendar->bookAppointment(new DateTime("Wednesday this week"), "Going on a snowboarding trip.");
-            $myCalendar->bookAppointment(new DateTime("Friday this week"), "Fixing buggy code.");
-
-            // Check availability of days by comparing $booked dates against $free dates
-            echo "I'm available on the following days this week...\n\n";
-            foreach ($myCalendar->checkAvailability() as $free) {
-                echo $free->format("l"), "\n";
-            }
-            echo "\n\n";
-            echo "I'm busy on the following days this week...\n\n";
-            foreach ($myCalendar->booked as $booked) {
-                echo $booked["date"]->format("l"), ": ", $booked["note"], "\n";
-            }
-        </pre>
-
-        <div>The above example will output:</div>
-        <pre class="output">
-            I'm available on the following days this week...
-
-            Tuesday
-            Thursday
-
-            I'm busy on the following days this week...
-
-            Monday: Cleaning GoogleGuy's apartment.
-            Wednesday: Going on a snowboarding trip.
-            Friday: Fixing buggy code.
-        </pre>
-    </div>
+        Monday: Cleaning GoogleGuy's apartment.
+        Wednesday: Going on a snowboarding trip.
+        Friday: Fixing buggy code.
+    </pre>
 
     <blockquote>
         <strong>Note</strong>: Please note that this function only checks one dimension
@@ -352,168 +328,153 @@
     </blockquote>
 
     <h2>userDiffAssoc</h2>
+    <p>
+        Computes the difference of arrays with additional index check, compares
+        data by a callback function.
+    </p>
+    <blockquote>
+        <strong>Note</strong>: Please note that this function only checks one dimension of a
+        n-dimensional array. Of course you can check deeper dimensions by using, for example,
+        <code>userDiffAssoc($array1[0], $array2[0], "some_comparison_func");</code>.
+    </blockquote>
 
-    <div>
-        <p>
-            Computes the difference of arrays with additional index check, compares
-            data by a callback function.
-        </p>
-        <blockquote>
-            <strong>Note</strong>: Please note that this function only checks one dimension of a
-            n-dimensional array. Of course you can check deeper dimensions by using, for example,
-            <code>userDiffAssoc($array1[0], $array2[0], "some_comparison_func");</code>.
-        </blockquote>
-    </div>
+    <h3>Parameters</h3>
+    <dl>
+        <dt>$array2</dt>
+        <dd>The second array.</dd>
 
-    <div>
-        <h3>Parameters</h3>
-        <dl>
-            <dt>$array2</dt>
-            <dd>The second array.</dd>
+        <dt>...</dt>
+        <dd>More arrays to compare against</dd>
 
-            <dt>...</dt>
-            <dd>More arrays to compare against</dd>
+        <dt>$valueComparator</dt>
+        <dd>
+            The comparison function must return an integer less than, equal to, or greater than zero if the
+            first argument is considered to be respectively less than, equal to, or greater than the second.
+        </dd>
+    </dl>
 
-            <dt>$valueComparator</dt>
-            <dd>
-                The comparison function must return an integer less than, equal to, or greater than zero if the
-                first argument is considered to be respectively less than, equal to, or greater than the second.
-            </dd>
-        </dl>
-    </div>
+    <h3>Return Values</h3>
+    <p>
+        <strong>userDiffAssoc()</strong> returns an array
+        containing all the values from <em>internal array</em> that are not present in any of the other
+        arguments. Note that the keys are used in the comparison unlike <a href="diff.htm">diff()</a> and
+        <a href="userDiff.htm">userDiff()</a>. The comparison of arrays' data is performed by using an user-supplied
+        callback. In this aspect the behaviour is opposite to the behaviour of <a href="assocDiff.htm">assocDiff()</a>
+        which uses internal function for comparison.
+    </p>
 
-    <div>
-        <h3>Return Values</h3>
-        <p>
-            <strong>userDiffAssoc()</strong> returns an array
-            containing all the values from <em>internal array</em> that are not present in any of the other
-            arguments. Note that the keys are used in the comparison unlike <a href="diff.htm">diff()</a> and
-            <a href="userDiff.htm">userDiff()</a>. The comparison of arrays' data is performed by using an user-supplied
-            callback. In this aspect the behaviour is opposite to the behaviour of <a href="assocDiff.htm">assocDiff()</a>
-            which uses internal function for comparison.
-        </p>
-    </div>
-
-    <div class="examples">
-        <pre class="php-code">
-            class cr {
-                private $priv_member;
-                function cr($val) {
-                    $this->priv_member = $val;
-                }
-
-                static function comp_func_cr($a, $b) {
-                    if ($a->priv_member === $b->priv_member) return 0;
-                    return ($a->priv_member > $b->priv_member)? 1:-1;
-                }
+    <pre class="php-code">
+        class cr {
+            private $priv_member;
+            function cr($val) {
+                $this->priv_member = $val;
             }
 
-            $a = ["0.1" => new cr(9), "0.5" => new cr(12), 0 => new cr(23), 1=> new cr(4), 2 => new cr(-15)];
-            $b = ["0.2" => new cr(9), "0.5" => new cr(22), 0 => new cr(3),  1=> new cr(4), 2 => new cr(-15)];
+            static function comp_func_cr($a, $b) {
+                if ($a->priv_member === $b->priv_member) return 0;
+                return ($a->priv_member > $b->priv_member)? 1:-1;
+            }
+        }
 
-            userDiffAssoc($a, $b, ["cr", "comp_func_cr"]);
-            // output: Array
-            // (
-            //     [0.1] => cr Object
-            //         (
-            //             [priv_member:private] => 9
-            //         )
-            //     [0.5] => cr Object
-            //         (
-            //             [priv_member:private] => 12
-            //         )
-            //     [0] => cr Object
-            //         (
-            //             [priv_member:private] => 23
-            //         )
-            // )
-        </pre>
+        $a = ["0.1" => new cr(9), "0.5" => new cr(12), 0 => new cr(23), 1=> new cr(4), 2 => new cr(-15)];
+        $b = ["0.2" => new cr(9), "0.5" => new cr(22), 0 => new cr(3),  1=> new cr(4), 2 => new cr(-15)];
 
-        <p>
-            In our example above you see the <code>"1" => new cr(4)</code> pair is
-            present in both arrays and thus it is not in the output from the function.
-        </p>
-    </div>
+        userDiffAssoc($a, $b, ["cr", "comp_func_cr"]);
+        // output: Array
+        // (
+        //     [0.1] => cr Object
+        //         (
+        //             [priv_member:private] => 9
+        //         )
+        //     [0.5] => cr Object
+        //         (
+        //             [priv_member:private] => 12
+        //         )
+        //     [0] => cr Object
+        //         (
+        //             [priv_member:private] => 23
+        //         )
+        // )
+    </pre>
+
+    <p>
+        In our example above you see the <code>"1" => new cr(4)</code> pair is
+        present in both arrays and thus it is not in the output from the function.
+    </p>
 
     <h2>userDiffUserAssoc</h2>
 
-    <div>
-        <h3>Parameters</h3>
-        <dl>
-            <dt>$array2</dt>
-            <dd>The second array.</dd>
+    <h3>Parameters</h3>
+    <dl>
+        <dt>$array2</dt>
+        <dd>The second array.</dd>
 
-            <dt>...</dt>
-            <dd>More arrays to compare against</dd>
+        <dt>...</dt>
+        <dd>More arrays to compare against</dd>
 
-            <dt>$valueComparator</dt>
-            <dd>
-                The comparison function must return an integer less than, equal to, or greater than zero if the
-                first argument is considered to be respectively less than, equal to, or greater than the second.
-            </dd>
+        <dt>$valueComparator</dt>
+        <dd>
+            The comparison function must return an integer less than, equal to, or greater than zero if the
+            first argument is considered to be respectively less than, equal to, or greater than the second.
+        </dd>
 
-            <dt>$keyComparator</dt>
-            <dd>
-                The comparison of keys (indices) is done also by the callback function <var>$keyComparator</var>.
-                This behaviour is unlike what <a href="userDiffAssoc.htm">userDiffAssoc()</a> does,
-                since the latter compares the indices by using an internal function.
-            </dd>
-        </dl>
-    </div>
+        <dt>$keyComparator</dt>
+        <dd>
+            The comparison of keys (indices) is done also by the callback function <var>$keyComparator</var>.
+            This behaviour is unlike what <a href="userDiffAssoc.htm">userDiffAssoc()</a> does,
+            since the latter compares the indices by using an internal function.
+        </dd>
+    </dl>
 
-    <div>
-        <h3>Return Values</h3>
-        <p>
-            Returns an array containing all the values from
-            <em>internal array</em> that are not present in any of the other arguments.
-        </p>
-    </div>
+    <h3>Return Values</h3>
+    <p>
+        Returns an array containing all the values from
+        <em>internal array</em> that are not present in any of the other arguments.
+    </p>
 
-    <div class="examples">
-        <pre class="php-code">
-            class cr {
-                private $priv_member;
-                function cr($val) {
-                    $this->priv_member = $val;
-                }
-
-                static function comp_func_cr($a, $b) {
-                    if ($a->priv_member === $b->priv_member) return 0;
-                    return ($a->priv_member > $b->priv_member)? 1:-1;
-                }
-
-                static function comp_func_key($a, $b) {
-                    if ($a === $b) return 0;
-                    return ($a > $b)? 1:-1;
-                }
+    <pre class="php-code">
+        class cr {
+            private $priv_member;
+            function cr($val) {
+                $this->priv_member = $val;
             }
-            $a = ["0.1" => new cr(9), "0.5" => new cr(12), 0 => new cr(23), 1=> new cr(4), 2 => new cr(-15)];
-            $b = ["0.2" => new cr(9), "0.5" => new cr(22), 0 => new cr(3),  1=> new cr(4), 2 => new cr(-15)];
 
-            userDiffUserAssoc($a, $b, ["cr", "comp_func_cr"], ["cr", "comp_func_key"]);
-            // output: Array
-            // (
-            //     [0.1] => cr Object
-            //         (
-            //             [priv_member:private] => 9
-            //         )
-            //     [0.5] => cr Object
-            //         (
-            //             [priv_member:private] => 12
-            //         )
-            //     [0] => cr Object
-            //         (
-            //             [priv_member:private] => 23
-            //         )
-            // )
-        </pre>
+            static function comp_func_cr($a, $b) {
+                if ($a->priv_member === $b->priv_member) return 0;
+                return ($a->priv_member > $b->priv_member)? 1:-1;
+            }
 
-        <p>
-            In our example above you see the <code>"1" => new cr(4)</code>
-            pair is present in both arrays and thus it is not in the output from the
-            function. Keep in mind that you have to supply 2 callback functions.
-        </p>
-    </div>
+            static function comp_func_key($a, $b) {
+                if ($a === $b) return 0;
+                return ($a > $b)? 1:-1;
+            }
+        }
+        $a = ["0.1" => new cr(9), "0.5" => new cr(12), 0 => new cr(23), 1=> new cr(4), 2 => new cr(-15)];
+        $b = ["0.2" => new cr(9), "0.5" => new cr(22), 0 => new cr(3),  1=> new cr(4), 2 => new cr(-15)];
+
+        userDiffUserAssoc($a, $b, ["cr", "comp_func_cr"], ["cr", "comp_func_key"]);
+        // output: Array
+        // (
+        //     [0.1] => cr Object
+        //         (
+        //             [priv_member:private] => 9
+        //         )
+        //     [0.5] => cr Object
+        //         (
+        //             [priv_member:private] => 12
+        //         )
+        //     [0] => cr Object
+        //         (
+        //             [priv_member:private] => 23
+        //         )
+        // )
+    </pre>
+
+    <p>
+        In our example above you see the <code>"1" => new cr(4)</code>
+        pair is present in both arrays and thus it is not in the output from the
+        function. Keep in mind that you have to supply 2 callback functions.
+    </p>
 
     <blockquote>
         <strong>Note</strong>: Please note that this function only checks one dimension

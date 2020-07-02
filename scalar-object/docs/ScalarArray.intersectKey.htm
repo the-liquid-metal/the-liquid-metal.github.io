@@ -26,45 +26,40 @@
         which have keys that are present in all the arguments.
     </div>
 
-    <div>
-        <h3>Parameters</h3>
-        <dl>
-            <dt>$array2</dt>
-            <dd>An array to compare keys against.</dd>
+    <h3>Parameters</h3>
+    <dl>
+        <dt>$array2</dt>
+        <dd>An array to compare keys against.</dd>
 
-            <dt>...</dt>
-            <dd>A variable list of arrays to compare.</dd>
-        </dl>
-    </div>
+        <dt>...</dt>
+        <dd>A variable list of arrays to compare.</dd>
+    </dl>
 
-    <div>
-        <h3>Return Values</h3>
-        <p>
-            Returns an associative array containing all the entries of <em>internal array</em>
-            which have keys that are present in all arguments.
-        </p>
-    </div>
+    <h3>Return Values</h3>
+    <p>
+        Returns an associative array containing all the entries of <em>internal array</em>
+        which have keys that are present in all arguments.
+    </p>
 
-    <div class="examples">
-        <pre class="php-code">
-            $array1 = ["blue"  => 1, "red"  => 2, "green"  => 3, "purple" => 4];
-            $array2 = ["green" => 5, "blue" => 6, "yellow" => 7, "cyan"   => 8];
-            keyIntersect($array1, $array2); // output: ["blue" => 1, "green" => 3]
-        </pre>
+    <pre class="php-code">
+        $array1 = ["blue"  => 1, "red"  => 2, "green"  => 3, "purple" => 4];
+        $array2 = ["green" => 5, "blue" => 6, "yellow" => 7, "cyan"   => 8];
+        keyIntersect($array1, $array2); // output: ["blue" => 1, "green" => 3]
+    </pre>
 
-        <p>
-            In our example you see that only the keys <em>'blue'</em> and <em>'green'</em>
-            are present in both arrays and thus returned. Also notice that the values for
-            the keys <em>'blue'</em> and <em>'green'</em> differ between the two arrays.
-            A match still occurs because only the keys are checked. The values returned
-            are those of <em>internal array</em>.
-        </p>
-        <p>
-            The two keys from the <em>key => value</em> pairs are considered equal only if
-            <em>(string) $key1 === (string) $key2 </em>. In other words a strict type check
-            is executed so the string representation must be the same.
-        </p>
-    </div>
+    <p>
+        In our example you see that only the keys <em>'blue'</em> and <em>'green'</em>
+        are present in both arrays and thus returned. Also notice that the values for
+        the keys <em>'blue'</em> and <em>'green'</em> differ between the two arrays.
+        A match still occurs because only the keys are checked. The values returned
+        are those of <em>internal array</em>.
+    </p>
+
+    <p>
+        The two keys from the <em>key => value</em> pairs are considered equal only if
+        <em>(string) $key1 === (string) $key2 </em>. In other words a strict type check
+        is executed so the string representation must be the same.
+    </p>
 
     <h2>userKeyIntersect</h2>
 
@@ -74,50 +69,44 @@
         which have matching keys that are present in all the arguments.
     </div>
 
-    <div>
-        <h3>Parameters</h3>
-        <dl>
-            <dt>$array2</dt>
-            <dd>First array to compare keys against.</dd>
+    <h3>Parameters</h3>
+    <dl>
+        <dt>$array2</dt>
+        <dd>First array to compare keys against.</dd>
 
-            <dt>...</dt>
-            <dd>Variable list of array arguments to compare keys against.</dd>
+        <dt>...</dt>
+        <dd>Variable list of array arguments to compare keys against.</dd>
 
-            <dt>$keyComparator</dt>
-            <dd>
-                The comparison function must return an integer less than, equal to, or greater than zero if the
-                first argument is considered to be respectively less than, equal to, or greater than the second.
-            </dd>
-        </dl>
-    </div>
+        <dt>$keyComparator</dt>
+        <dd>
+            The comparison function must return an integer less than, equal to, or greater than zero if the
+            first argument is considered to be respectively less than, equal to, or greater than the second.
+        </dd>
+    </dl>
 
-    <div>
-        <h3>Return Values</h3>
-        <p>The values of <em>internal array</em> whose keys exist in all the arguments.</p>
-    </div>
+    <h3>Return Values</h3>
+    <p>The values of <em>internal array</em> whose keys exist in all the arguments.</p>
 
-    <div class="examples">
-        <pre class="php-code">
-            function key_compare_func($key1, $key2) {
-                if ($key1 == $key2)
-                    return 0;
-                else if ($key1 > $key2)
-                    return 1;
-                else
-                    return -1;
-            }
+    <pre class="php-code">
+        function key_compare_func($key1, $key2) {
+            if ($key1 == $key2)
+                return 0;
+            else if ($key1 > $key2)
+                return 1;
+            else
+                return -1;
+        }
 
-            $array1 = ["blue"  => 1, "red"  => 2, "green"  => 3, "purple" => 4];
-            $array2 = ["green" => 5, "blue" => 6, "yellow" => 7, "cyan"   => 8];
-            userKeyIntersect($array1, $array2, "key_compare_func"); // output: ["blue" => 1, "green" => 3]
-        </pre>
+        $array1 = ["blue"  => 1, "red"  => 2, "green"  => 3, "purple" => 4];
+        $array2 = ["green" => 5, "blue" => 6, "yellow" => 7, "cyan"   => 8];
+        userKeyIntersect($array1, $array2, "key_compare_func"); // output: ["blue" => 1, "green" => 3]
+    </pre>
 
-        <p>
-            In our example you see that only the keys <em>'blue'</em> and <em>'green'</em> are present
-            in both arrays and thus returned. Also notice that the values for the keys <em>'blue'</em>
-            and <em>'green'</em> differ between the two arrays. A match still occurs because only the
-            keys are checked. The values returned are those of <em>internal array</em>.
-        </p>
-    </div>
+    <p>
+        In our example you see that only the keys <em>'blue'</em> and <em>'green'</em> are present
+        in both arrays and thus returned. Also notice that the values for the keys <em>'blue'</em>
+        and <em>'green'</em> differ between the two arrays. A match still occurs because only the
+        keys are checked. The values returned are those of <em>internal array</em>.
+    </p>
 </div>
 </body>

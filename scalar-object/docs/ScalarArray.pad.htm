@@ -28,35 +28,29 @@
         1048576 elements at a time.
     </div>
 
-    <div>
-        <h3>Parameters</h3>
-        <dl>
-            <dt>$size</dt>
-            <dd>New size of the array.</dd>
+    <h3>Parameters</h3>
+    <dl>
+        <dt>$size</dt>
+        <dd>New size of the array.</dd>
 
-            <dt>$value</dt>
-            <dd>Value to pad if <em>internal array</em> is less than <var>$size</var>.</dd>
-        </dl>
-    </div>
+        <dt>$value</dt>
+        <dd>Value to pad if <em>internal array</em> is less than <var>$size</var>.</dd>
+    </dl>
 
-    <div>
-        <h3>Return Values</h3>
-        <p>
-            A copy of the <em>internal array</em> padded to size specified by <var>$size</var>
-            with value <code>value</code>. If <var>$size</var> is positive then the array is padded on
-            the right, if it's negative then on the left. If the absolute value of <var>$size</var> is
-            less than or equal to the length of the <em>internal array</em> then no padding takes place.
-        </p>
-    </div>
+    <h3>Return Values</h3>
+    <p>
+        A copy of the <em>internal array</em> padded to size specified by <var>$size</var>
+        with value <code>value</code>. If <var>$size</var> is positive then the array is padded on
+        the right, if it's negative then on the left. If the absolute value of <var>$size</var> is
+        less than or equal to the length of the <em>internal array</em> then no padding takes place.
+    </p>
 
-    <div class="examples">
-        <pre class="php-code">
-            $input = [12, 10, 9];
+    <pre class="php-code">
+        $input = [12, 10, 9];
 
-            pad($input, 5, 0);      // output: [12, 10, 9, 0, 0]
-            pad($input, -7, -1);    // output: [-1, -1, -1, -1, 12, 10, 9]
-            pad($input, 2, "noop"); // output: not padded
-        </pre>
-    </div>
+        pad($input, 5, 0);      // output: [12, 10, 9, 0, 0]
+        pad($input, -7, -1);    // output: [-1, -1, -1, -1, 12, 10, 9]
+        pad($input, 2, "noop"); // output: not padded
+    </pre>
 </div>
 </body>

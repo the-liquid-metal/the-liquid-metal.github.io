@@ -30,32 +30,26 @@
         that keys are preserved.
     </div>
 
-    <div>
-        <h3>Parameters</h3>
-        <dl>
-            <dt>$array2</dt>
-            <dd>An array to compare values against.</dd>
+    <h3>Parameters</h3>
+    <dl>
+        <dt>$array2</dt>
+        <dd>An array to compare values against.</dd>
 
-            <dt>...</dt>
-            <dd>A variable list of arrays to compare.</dd>
-        </dl>
-    </div>
+        <dt>...</dt>
+        <dd>A variable list of arrays to compare.</dd>
+    </dl>
 
-    <div>
-        <h3>Return Values</h3>
-        <p>
-            Array containing all of the values in <em>internal array</em>
-            whose values exist in all of the parameters.
-        </p>
-    </div>
+    <h3>Return Values</h3>
+    <p>
+        Array containing all of the values in <em>internal array</em>
+        whose values exist in all of the parameters.
+    </p>
 
-    <div class="examples">
-        <pre class="php-code">
-            $array1 = ["a" => "green", "red", "blue"];
-            $array2 = ["b" => "green", "yellow", "red"];
-            intersect($array1, $array2); // output: ["a" => "green", 0 => "red"]
-        </pre>
-    </div>
+    <pre class="php-code">
+        $array1 = ["a" => "green", "red", "blue"];
+        $array2 = ["b" => "green", "yellow", "red"];
+        intersect($array1, $array2); // output: ["a" => "green", 0 => "red"]
+    </pre>
 
     <blockquote>
         <strong>Note</strong>: Two elements are considered equal if and only if <em>(string)
@@ -70,44 +64,39 @@
         in the comparison unlike in <a href="intersect.htm">intersect()</a>.
     </div>
 
-    <div>
-        <h3>Parameters</h3>
-        <dl>
-            <dt>$array2</dt>
-            <dd>An array to compare values against.</dd>
+    <h3>Parameters</h3>
+    <dl>
+        <dt>$array2</dt>
+        <dd>An array to compare values against.</dd>
 
-            <dt>...</dt>
-            <dd>A variable list of arrays to compare.</dd>
-        </dl>
-    </div>
+        <dt>...</dt>
+        <dd>A variable list of arrays to compare.</dd>
+    </dl>
 
-    <div>
-        <h3>Return Values</h3>
-        <p>
-            An associative array containing all the values in
-            <em>internal array</em> that are present in all of the arguments.
-        </p>
-    </div>
+    <h3>Return Values</h3>
+    <p>
+        An associative array containing all the values in
+        <em>internal array</em> that are present in all of the arguments.
+    </p>
 
-    <div class="examples">
-        <pre class="php-code">
-            $array1 = ["a" => "green", "b" => "brown", "c" => "blue", "red"];
-            $array2 = ["a" => "green", "b" => "yellow", "blue", "red"];
-            assocIntersect($array1, $array2); // output: ["a" => "green"]
-        </pre>
+    <pre class="php-code">
+        $array1 = ["a" => "green", "b" => "brown", "c" => "blue", "red"];
+        $array2 = ["a" => "green", "b" => "yellow", "blue", "red"];
+        assocIntersect($array1, $array2); // output: ["a" => "green"]
+    </pre>
 
-        <p>
-            In our example you see that only the pair <code>"a" => "green"</code> is present in both arrays
-            and thus is returned. The value <em>"red"</em> is not returned because in <em>internal array</em>
-            its key is <em>0</em> while the key of "red" in <var>$array2</var> is <em>1</em>, and the key
-            <em>"b"</em> is not returned because its values are different in each array.
-        </p>
-        <p>
-            The two values from the <em>key => value</em> pairs are considered equal only if
-            <code>(string) $elem1 === (string) $elem2 </code>. In other words a strict type check is
-            executed so the string representation must be the same.
-        </p>
-    </div>
+    <p>
+        In our example you see that only the pair <code>"a" => "green"</code> is present in both arrays
+        and thus is returned. The value <em>"red"</em> is not returned because in <em>internal array</em>
+        its key is <em>0</em> while the key of "red" in <var>$array2</var> is <em>1</em>, and the key
+        <em>"b"</em> is not returned because its values are different in each array.
+    </p>
+
+    <p>
+        The two values from the <em>key => value</em> pairs are considered equal only if
+        <code>(string) $elem1 === (string) $elem2 </code>. In other words a strict type check is
+        executed so the string representation must be the same.
+    </p>
 
     <h2>userAssocIntersect</h2>
 
@@ -117,147 +106,123 @@
         the comparison unlike in <a href="intersect.htm">intersect()</a>.
     </div>
 
-    <div>
-        <h3>Parameters</h3>
-        <dl>
-            <dt>$array2</dt>
-            <dd>First array to compare keys against.</dd>
+    <h3>Parameters</h3>
+    <dl>
+        <dt>$array2</dt>
+        <dd>First array to compare keys against.</dd>
 
-            <dt>...</dt>
-            <dd>Variable list of array arguments to compare values against.</dd>
+        <dt>...</dt>
+        <dd>Variable list of array arguments to compare values against.</dd>
 
-            <dt>$keyComparator</dt>
-            <dd>
-                The comparison function must return an integer less than, equal to, or greater than zero if the
-                first argument is considered to be respectively less than, equal to, or greater than the second.
-            </dd>
-        </dl>
-    </div>
+        <dt>$keyComparator</dt>
+        <dd>
+            The comparison function must return an integer less than, equal to, or greater than zero if the
+            first argument is considered to be respectively less than, equal to, or greater than the second.
+        </dd>
+    </dl>
 
     <div>
         <h3>Return Values</h3>
         <p>Returns the values of <em>internal array</em> whose values exist in all of the arguments.</p>
     </div>
 
-    <div class="examples">
-        <pre class="php-code">
-            $array1 = ["a" => "green", "b" => "brown", "c" => "blue", "red"];
-            $array2 = ["a" => "GREEN", "B" => "brown", "yellow", "red"];
-            userAssocIntersect($array1, $array2, "strcasecmp"); // output: ["b" => "brown"]
-        </pre>
-    </div>
+    <pre class="php-code">
+        $array1 = ["a" => "green", "b" => "brown", "c" => "blue", "red"];
+        $array2 = ["a" => "GREEN", "B" => "brown", "yellow", "red"];
+        userAssocIntersect($array1, $array2, "strcasecmp"); // output: ["b" => "brown"]
+    </pre>
 
     <h2>userIntersect</h2>
 
     <div>Computes the intersection of arrays, compares data by a callback function.</div>
 
-    <div>
-        <h3>Parameters</h3>
-        <dl>
-            <dt>$array2</dt>
-            <dd>The second array.</dd>
+    <h3>Parameters</h3>
+    <dl>
+        <dt>$array2</dt>
+        <dd>The second array.</dd>
 
-            <dt>...</dt>
-            <dd>More arrays to compare against</dd>
+        <dt>...</dt>
+        <dd>More arrays to compare against</dd>
 
-            <dt>$valueComparator</dt>
-            <dd>
-                The comparison function must return an integer less than, equal to, or greater than zero if
-                the first argument is considered to be respectively less than, equal to, or greater than the second.
-            </dd>
-        </dl>
-    </div>
+        <dt>$valueComparator</dt>
+        <dd>
+            The comparison function must return an integer less than, equal to, or greater than zero if
+            the first argument is considered to be respectively less than, equal to, or greater than the second.
+        </dd>
+    </dl>
 
-    <div>
-        <h3>Return Values</h3>
-        <p>An array containing all the values of <em>internal array</em> that are present in all the arguments.</p>
-    </div>
+    <h3>Return Values</h3>
+    <p>An array containing all the values of <em>internal array</em> that are present in all the arguments.</p>
 
-    <div class="examples">
-        <pre class="php-code">
-            $array1 = ["a" => "green", "b" => "brown", "c" => "blue", "red"];
-            $array2 = ["a" => "GREEN", "B" => "brown", "yellow", "red"];
-            userIntersect($array1, $array2, "strcasecmp"); // output: ["a" => "green", "b" => "brown", 0 => "red"]
-        </pre>
-    </div>
+    <pre class="php-code">
+        $array1 = ["a" => "green", "b" => "brown", "c" => "blue", "red"];
+        $array2 = ["a" => "GREEN", "B" => "brown", "yellow", "red"];
+        userIntersect($array1, $array2, "strcasecmp"); // output: ["a" => "green", "b" => "brown", 0 => "red"]
+    </pre>
 
     <h2>userIntersectAssoc</h2>
 
-    <div>
-        <p>
-            Computes the intersection of arrays with additional index check, compares
-            data by a callback function.
-        </p>
-        <p>
-            Note that the keys are used in the comparison unlike in
-            <a href="userIntersect.htm">userIntersect()</a>.
-            The data is compared by using a callback function.
-        </p>
-    </div>
+    <p>
+        Computes the intersection of arrays with additional index check, compares
+        data by a callback function.
+    </p>
+    <p>
+        Note that the keys are used in the comparison unlike in
+        <a href="userIntersect.htm">userIntersect()</a>.
+        The data is compared by using a callback function.
+    </p>
 
-    <div>
-        <h3>Parameters</h3>
-        <dl>
-            <dt>array2</dt>
-            <dd>The second array.</dd>
+    <h3>Parameters</h3>
+    <dl>
+        <dt>array2</dt>
+        <dd>The second array.</dd>
 
-            <dt>...</dt>
-            <dd>More arrays to compare against</dd>
+        <dt>...</dt>
+        <dd>More arrays to compare against</dd>
 
-            <dt>$valueComparator</dt>
-            <dd>
-                The comparison function must return an integer less than, equal to, or greater than zero if
-                the first argument is considered to be respectively less than, equal to, or greater than the second.
-            </dd>
-        </dl>
-    </div>
+        <dt>$valueComparator</dt>
+        <dd>
+            The comparison function must return an integer less than, equal to, or greater than zero if
+            the first argument is considered to be respectively less than, equal to, or greater than the second.
+        </dd>
+    </dl>
 
-    <div>
-        <h3>Return Values</h3>
-        <p>Returns an array containing all the values of <em>internal array</em> that are present in all the arguments.</p>
-    </div>
+    <h3>Return Values</h3>
+    <p>Returns an array containing all the values of <em>internal array</em> that are present in all the arguments.</p>
 
-    <div class="examples">
-        <pre class="php-code">
-            $array1 = ["a" => "green", "b" => "brown", "c" => "blue", "red"];
-            $array2 = ["a" => "GREEN", "B" => "brown", "yellow", "red"];
-            userIntersectAssoc($array1, $array2, "strcasecmp"); // output: ["a" => "green"]
-        </pre>
-    </div>
+    <pre class="php-code">
+        $array1 = ["a" => "green", "b" => "brown", "c" => "blue", "red"];
+        $array2 = ["a" => "GREEN", "B" => "brown", "yellow", "red"];
+        userIntersectAssoc($array1, $array2, "strcasecmp"); // output: ["a" => "green"]
+    </pre>
 
     <h2>userIntersectUserAssoc</h2>
 
-    <div>
-        <h3>Parameters</h3>
-        <dl>
-            <dt>$array2</dt>
-            <dd>The second array.</dd>
+    <h3>Parameters</h3>
+    <dl>
+        <dt>$array2</dt>
+        <dd>The second array.</dd>
 
-            <dt>...</dt>
-            <dd>More arrays to compare against</dd>
+        <dt>...</dt>
+        <dd>More arrays to compare against</dd>
 
-            <dt>$valueComparator</dt>
-            <dd>
-                The comparison function must return an integer less than, equal to, or greater than zero if the
-                first argument is considered to be respectively less than, equal to, or greater than the second.
-            </dd>
+        <dt>$valueComparator</dt>
+        <dd>
+            The comparison function must return an integer less than, equal to, or greater than zero if the
+            first argument is considered to be respectively less than, equal to, or greater than the second.
+        </dd>
 
-            <dt>$keyComparator</dt>
-            <dd>Key comparison callback function.</dd>
-        </dl>
-    </div>
+        <dt>$keyComparator</dt>
+        <dd>Key comparison callback function.</dd>
+    </dl>
 
-    <div>
-        <h3>Return Values</h3>
-        <p>An array containing all the values of <em>internal array</em> that are present in all the arguments.</p>
-    </div>
+    <h3>Return Values</h3>
+    <p>An array containing all the values of <em>internal array</em> that are present in all the arguments.</p>
 
-    <div class="examples">
-        <pre class="php-code">
-            $array1 = ["a" => "green", "b" => "brown", "c" => "blue", "red"];
-            $array2 = ["a" => "GREEN", "B" => "brown", "yellow", "red"];
-            userIntersectUserAssoc($array1, $array2, "strcasecmp", "strcasecmp"); // output: ["a" => "green", "b" => "brown"]
-        </pre>
-    </div>
+    <pre class="php-code">
+        $array1 = ["a" => "green", "b" => "brown", "c" => "blue", "red"];
+        $array2 = ["a" => "GREEN", "B" => "brown", "yellow", "red"];
+        userIntersectUserAssoc($array1, $array2, "strcasecmp", "strcasecmp"); // output: ["a" => "green", "b" => "brown"]
+    </pre>
 </div>
 </body>

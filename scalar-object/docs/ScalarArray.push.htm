@@ -19,52 +19,44 @@
         </p>
     </div>
 
-    <div>
-        <p>
-            <strong>push()</strong> treats <em>internal array</em> as a
-            stack, and pushes the passed variables onto the end of
-            <em>internal array</em>. The length of <em>internal array</em>
-            increases by the number of variables pushed. Has the same effect as:
-        </p>
-        <pre class="php-code">
-            $array[] = $var;
-        </pre>
+    <p>
+        <strong>push()</strong> treats <em>internal array</em> as a
+        stack, and pushes the passed variables onto the end of
+        <em>internal array</em>. The length of <em>internal array</em>
+        increases by the number of variables pushed. Has the same effect as:
+    </p>
+    <pre class="php-code">
+        $array[] = $var;
+    </pre>
 
-        <p>repeated for each passed value.</p>
-        <blockquote>
-            <strong>Note</strong>: If you use <strong>push()</strong> to add one element
-            to the array it's better to use <em>$array[] = </em> because in that way there
-            is no overhead of calling a function.
-        </blockquote>
+    <p>repeated for each passed value.</p>
+    <blockquote>
+        <strong>Note</strong>: If you use <strong>push()</strong> to add one element
+        to the array it's better to use <em>$array[] = </em> because in that way there
+        is no overhead of calling a function.
+    </blockquote>
 
-        <blockquote>
-            <strong>Note</strong>: <strong>push()</strong> will raise a warning if the
-            first argument is not an array. This differs from the <em>$var[]</em> behaviour
-            where a new array is created.
-        </blockquote>
-    </div>
+    <blockquote>
+        <strong>Note</strong>: <strong>push()</strong> will raise a warning if the
+        first argument is not an array. This differs from the <em>$var[]</em> behaviour
+        where a new array is created.
+    </blockquote>
 
-    <div>
-        <h3>Parameters</h3>
-        <dl>
-            <dt>$value1</dt>
-            <dd>The first value to push onto the end of the <em>internal array</em>.</dd>
+    <h3>Parameters</h3>
+    <dl>
+        <dt>$value1</dt>
+        <dd>The first value to push onto the end of the <em>internal array</em>.</dd>
 
-            <dt>...</dt>
-            <dd>More values to push onto the end of the <em>internal array</em>.</dd>
-        </dl>
-    </div>
+        <dt>...</dt>
+        <dd>More values to push onto the end of the <em>internal array</em>.</dd>
+    </dl>
 
-    <div>
-        <h3>Return Values</h3>
-        <p>The new number of elements in the array.</p>
-    </div>
+    <h3>Return Values</h3>
+    <p>The new number of elements in the array.</p>
 
-    <div class="examples">
-        <pre class="php-code">
-            $stack = ["orange", "banana"];
-            push($stack, "apple", "raspberry"); // output: ["orange", "banana", "apple", "raspberry"]
-        </pre>
-    </div>
+    <pre class="php-code">
+        $stack = ["orange", "banana"];
+        push($stack, "apple", "raspberry"); // output: ["orange", "banana", "apple", "raspberry"]
+    </pre>
 </div>
 </body>

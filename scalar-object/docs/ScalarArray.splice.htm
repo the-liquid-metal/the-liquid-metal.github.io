@@ -19,100 +19,92 @@
         </p>
     </div>
 
-    <div>
-        <p>
-            Removes the elements designated by <var>$offset</var> and <var>$length</var>
-            from the <em>internal array</em>, and replaces them with the elements of the
-            <var>$replacement</var> array, if supplied.
-        </p>
-        <p>Note that numeric keys in <em>internal array</em> are not preserved.</p>
+    <p>
+        Removes the elements designated by <var>$offset</var> and <var>$length</var>
+        from the <em>internal array</em>, and replaces them with the elements of the
+        <var>$replacement</var> array, if supplied.
+    </p>
+    <p>Note that numeric keys in <em>internal array</em> are not preserved.</p>
 
-        <blockquote>
-            <strong>Note</strong>: If <var>$replacement</var> is not an array, it will be
-            <a href="language.types.array.php#language.types.array.casting">typecast</a>
-            to one (i.e. <code>(array) $parameter</code>). This may result in unexpected
-            behavior when using an object or <code>NULL</code> <var>$replacement</var>.
-        </blockquote>
-    </div>
+    <blockquote>
+        <strong>Note</strong>: If <var>$replacement</var> is not an array, it will be
+        <a href="language.types.array.php#language.types.array.casting">typecast</a>
+        to one (i.e. <code>(array) $parameter</code>). This may result in unexpected
+        behavior when using an object or <code>NULL</code> <var>$replacement</var>.
+    </blockquote>
 
-    <div>
-        <h3>Parameters</h3>
-        <dl>
-            <dt>$offset</dt>
-            <dd>
-                If <var>$offset</var> is positive then the start of removed portion is at that
-                offset from the beginning of the <em>internal array</em>. If <var>$offset</var>
-                is negative then it starts that far from the end of the <em>internal array</em> array.
-            </dd>
+    <h3>Parameters</h3>
+    <dl>
+        <dt>$offset</dt>
+        <dd>
+            If <var>$offset</var> is positive then the start of removed portion is at that
+            offset from the beginning of the <em>internal array</em>. If <var>$offset</var>
+            is negative then it starts that far from the end of the <em>internal array</em> array.
+        </dd>
 
-            <dt>$length</dt>
-            <dd>
-                If <var>$length</var> is omitted, removes everything from <var>$offset</var>
-                to the end of the array. If <var>$length</var> is specified and is positive, then
-                that many elements will be removed. If <var>$length</var> is specified and is
-                negative then the end of the removed portion will be that many elements from the
-                end of the array.  If <var>$length</var> is specified and is zero, no elements will
-                be removed. Tip: to remove everything from <var>$offset</var> to the end of the
-                array when <var>$replacement</var> is also specified, use <em>count($input)</em> for
-                <var>$length</var>.
-            </dd>
+        <dt>$length</dt>
+        <dd>
+            If <var>$length</var> is omitted, removes everything from <var>$offset</var>
+            to the end of the array. If <var>$length</var> is specified and is positive, then
+            that many elements will be removed. If <var>$length</var> is specified and is
+            negative then the end of the removed portion will be that many elements from the
+            end of the array.  If <var>$length</var> is specified and is zero, no elements will
+            be removed. Tip: to remove everything from <var>$offset</var> to the end of the
+            array when <var>$replacement</var> is also specified, use <em>count($input)</em> for
+            <var>$length</var>.
+        </dd>
 
-            <dt>$replacement</dt>
-            <dd>
-                <p>
-                    If <var>$replacement</var> array is specified, then the
-                    removed elements are replaced with elements from this array.
-                </p>
-                <p>
-                    If <var>$offset</var> and <var>$length</var> are such that nothing is removed,
-                    then the elements from the <var>$replacement</var> array are inserted in the
-                    place specified by the <var>$offset</var>. Note that keys in replacement array
-                    are not preserved.
-                </p>
-                <p>
-                    If <var>$replacement</var> is just one element it is not necessary to put <em>[]</em>
-                    around it, unless the element is an array itself, an object or <code>NULL</code>.
-                </p>
-            </dd>
-        </dl>
-    </div>
+        <dt>$replacement</dt>
+        <dd>
+            <p>
+                If <var>$replacement</var> array is specified, then the
+                removed elements are replaced with elements from this array.
+            </p>
+            <p>
+                If <var>$offset</var> and <var>$length</var> are such that nothing is removed,
+                then the elements from the <var>$replacement</var> array are inserted in the
+                place specified by the <var>$offset</var>. Note that keys in replacement array
+                are not preserved.
+            </p>
+            <p>
+                If <var>$replacement</var> is just one element it is not necessary to put <em>[]</em>
+                around it, unless the element is an array itself, an object or <code>NULL</code>.
+            </p>
+        </dd>
+    </dl>
 
-    <div>
-        <h3>Return Values</h3>
-        <p>Returns the array consisting of the extracted elements.</p>
-    </div>
+    <h3>Return Values</h3>
+    <p>Returns the array consisting of the extracted elements.</p>
 
-    <div class="examples">
-        <pre class="php-code">
-            $input = ["red", "green", "blue", "yellow"];
-            splice($input, 2); // output: ["red", "green"]
+    <pre class="php-code">
+        $input = ["red", "green", "blue", "yellow"];
+        splice($input, 2); // output: ["red", "green"]
 
-            $input = ["red", "green", "blue", "yellow"];
-            splice($input, 1, -1); // output: ["red", "yellow"]
+        $input = ["red", "green", "blue", "yellow"];
+        splice($input, 1, -1); // output: ["red", "yellow"]
 
-            $input = ["red", "green", "blue", "yellow"];
-            splice($input, 1, count($input), "orange"); // output: ["red", "orange"]
+        $input = ["red", "green", "blue", "yellow"];
+        splice($input, 1, count($input), "orange"); // output: ["red", "orange"]
 
-            $input = ["red", "green", "blue", "yellow"];
-            splice($input, -1, 1, ["black", "maroon"]); // output: ["red", "green", "blue", "black", "maroon"]
+        $input = ["red", "green", "blue", "yellow"];
+        splice($input, -1, 1, ["black", "maroon"]); // output: ["red", "green", "blue", "black", "maroon"]
 
-            $input = ["red", "green", "blue", "yellow"];
-            splice($input, 3, 0, "purple"); // output: ["red", "green", "blue", "purple", "yellow"];
-        </pre>
+        $input = ["red", "green", "blue", "yellow"];
+        splice($input, 3, 0, "purple"); // output: ["red", "green", "blue", "purple", "yellow"];
+    </pre>
 
-        <div>The following statements change the values of <var>$input</var> the same way:</div>
-        <pre class="php-code">
-            array_push($input, $x, $y);
-            splice($input, count($input), 0, [$x, $y]);
-            array_pop($input);
-            splice($input, -1);
-            array_shift($input);
-            splice($input, 0, 1);
-            array_unshift($input, $x, $y);
-            splice($input, 0, 0, [$x, $y]);
-            $input[$x] = $y; // for arrays where key equals offset
-            splice($input, $x, 1, $y);
-        </pre>
-    </div>
+    <div>The following statements change the values of <var>$input</var> the same way:</div>
+    <pre class="php-code">
+        array_push($input, $x, $y);
+        splice($input, count($input), 0, [$x, $y]);
+        array_pop($input);
+        splice($input, -1);
+        array_shift($input);
+        splice($input, 0, 1);
+        array_unshift($input, $x, $y);
+        splice($input, 0, 0, [$x, $y]);
+        $input[$x] = $y; // for arrays where key equals offset
+        splice($input, $x, 1, $y);
+    </pre>
 </div>
 </body>

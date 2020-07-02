@@ -26,114 +26,108 @@
         should match the number of arrays passed to the <strong>map()</strong>
     </div>
 
-    <div>
-        <h3>Parameters</h3>
-        <dl>
-            <dt>$mapper</dt>
-            <dd>Callback function to run for each element in each array.</dd>
-        </dl>
-    </div>
+    <h3>Parameters</h3>
+    <dl>
+        <dt>$mapper</dt>
+        <dd>Callback function to run for each element in each array.</dd>
+    </dl>
 
-    <div>
-        <h3>Return Values</h3>
-        <p>
-            An array containing all the elements of <code>array1</code>
-            after applying the <var>$mapper</var> function to each one.
-        </p>
-    </div>
+    <h3>Return Values</h3>
+    <p>
+        An array containing all the elements of <code>array1</code>
+        after applying the <var>$mapper</var> function to each one.
+    </p>
 
-    <div class="examples">
-        <pre class="php-code">
-            function cube($n) {
-                return($n * $n * $n);
-            }
+    <pre class="php-code">
+        function cube($n) {
+            return($n * $n * $n);
+        }
 
-            $a = [1, 2, 3, 4, 5];
-            map("cube", $a); // output: [0 => 1, 1 => 8, 2 => 27, 3 => 64, 4 => 125]
+        $a = [1, 2, 3, 4, 5];
+        map("cube", $a); // output: [0 => 1, 1 => 8, 2 => 27, 3 => 64, 4 => 125]
 
-            $func = function($value) {
-                return $value * 2;
-            };
+        $func = function($value) {
+            return $value * 2;
+        };
 
-            map($func, range(1, 5)); // output: [0 => 2, 1 => 4, 2 => 6, 3 => 8, 4 => 10]
+        map($func, range(1, 5)); // output: [0 => 2, 1 => 4, 2 => 6, 3 => 8, 4 => 10]
 
-            function show_Spanish($n, $m) {
-                return("The number $n is called $m in Spanish");
-            }
+        function show_Spanish($n, $m) {
+            return("The number $n is called $m in Spanish");
+        }
 
-            function map_Spanish($n, $m) {
-                return([$n => $m]);
-            }
+        function map_Spanish($n, $m) {
+            return([$n => $m]);
+        }
 
-            $a = [1, 2, 3, 4, 5];
-            $b = ["uno", "dos", "tres", "cuatro", "cinco"];
+        $a = [1, 2, 3, 4, 5];
+        $b = ["uno", "dos", "tres", "cuatro", "cinco"];
 
-            map("show_Spanish", $a, $b);
-            // output: [
-            //   0 => "The number 1 is called uno in Spanish",
-            //   1 => "The number 2 is called dos in Spanish",
-            //   2 => "The number 3 is called tres in Spanish",
-            //   3 => "The number 4 is called cuatro in Spanish",
-            //   4 => "The number 5 is called cinco in Spanish",
-            // ]
+        map("show_Spanish", $a, $b);
+        // output: [
+        //   0 => "The number 1 is called uno in Spanish",
+        //   1 => "The number 2 is called dos in Spanish",
+        //   2 => "The number 3 is called tres in Spanish",
+        //   3 => "The number 4 is called cuatro in Spanish",
+        //   4 => "The number 5 is called cinco in Spanish",
+        // ]
 
-            map("map_Spanish", $a , $b);
-            // output: [
-            //   0 => [1 => "uno"],
-            //   1 => [2 => "dos"],
-            //   2 => [3 => "tres"],
-            //   3 => [4 => "cuatro"],
-            //   4 => [5 => "cinco"],
-            // ]
-        </pre>
+        map("map_Spanish", $a , $b);
+        // output: [
+        //   0 => [1 => "uno"],
+        //   1 => [2 => "dos"],
+        //   2 => [3 => "tres"],
+        //   3 => [4 => "cuatro"],
+        //   4 => [5 => "cinco"],
+        // ]
+    </pre>
 
-        <p>
-            Usually when using two or more arrays, they should be of equal length
-            because the callback function is applied in parallel to the corresponding
-            elements. If the arrays are of unequal length, shorter ones will be extended
-            with empty elements to match the length of the longest.
-        </p>
+    <p>
+        Usually when using two or more arrays, they should be of equal length
+        because the callback function is applied in parallel to the corresponding
+        elements. If the arrays are of unequal length, shorter ones will be extended
+        with empty elements to match the length of the longest.
+    </p>
 
-        <p>
-            An interesting use of this function is to construct an array of arrays, which can
-            be easily performed by using <code>NULL</code> as the name of the callback function
-        </p>
+    <p>
+        An interesting use of this function is to construct an array of arrays, which can
+        be easily performed by using <code>NULL</code> as the name of the callback function
+    </p>
 
-        <pre class="php-code">
-            $a = [1, 2, 3, 4, 5];
-            $b = ["one", "two", "three", "four", "five"];
-            $c = ["uno", "dos", "tres", "cuatro", "cinco"];
+    <pre class="php-code">
+        $a = [1, 2, 3, 4, 5];
+        $b = ["one", "two", "three", "four", "five"];
+        $c = ["uno", "dos", "tres", "cuatro", "cinco"];
 
-            map(null, $a, $b, $c);
-            // output: [
-            //   0 => [0 => 1, 1 => "one",   2 => "uno"],
-            //   1 => [0 => 2, 1 => "two",   2 => "dos"],
-            //   2 => [0 => 3, 1 => "three", 2 => "tres"],
-            //   3 => [0 => 4, 1 => "four",  2 => "cuatro"],
-            //   4 => [0 => 5, 1 => "five",  2 => "cinco"],
-            // ]
-        </pre>
+        map(null, $a, $b, $c);
+        // output: [
+        //   0 => [0 => 1, 1 => "one",   2 => "uno"],
+        //   1 => [0 => 2, 1 => "two",   2 => "dos"],
+        //   2 => [0 => 3, 1 => "three", 2 => "tres"],
+        //   3 => [0 => 4, 1 => "four",  2 => "cuatro"],
+        //   4 => [0 => 5, 1 => "five",  2 => "cinco"],
+        // ]
+    </pre>
 
-        <p>
-            If the array argument contains string keys then the returned array will
-            contain string keys if and only if exactly one array is passed. If more
-            than one argument is passed then the returned array always has integer keys.
-        </p>
+    <p>
+        If the array argument contains string keys then the returned array will
+        contain string keys if and only if exactly one array is passed. If more
+        than one argument is passed then the returned array always has integer keys.
+    </p>
 
-        <pre class="php-code">
-            $arr = ["stringkey" => "value"];
-            function cb1($a) {
-                return [$a];
-            }
-            function cb2($a, $b) {
-                return [$a, $b];
-            }
+    <pre class="php-code">
+        $arr = ["stringkey" => "value"];
+        function cb1($a) {
+            return [$a];
+        }
+        function cb2($a, $b) {
+            return [$a, $b];
+        }
 
-            map("cb1", $arr);       // output: ["stringkey" => [0 => "value"]]
-            map("cb2", $arr, $arr); // output: [0 => [0 => "value", 1 => "value"]]
-            map(null,  $arr);       // output: ["stringkey" => "value"]
-            map(null, $arr, $arr);  // output: [0 => [0 => "value", 1 => "value"]]
-        </pre>
-    </div>
+        map("cb1", $arr);       // output: ["stringkey" => [0 => "value"]]
+        map("cb2", $arr, $arr); // output: [0 => [0 => "value", 1 => "value"]]
+        map(null,  $arr);       // output: ["stringkey" => "value"]
+        map(null, $arr, $arr);  // output: [0 => [0 => "value", 1 => "value"]]
+    </pre>
 </div>
 </body>

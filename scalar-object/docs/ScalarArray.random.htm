@@ -24,32 +24,26 @@
         key (or keys) of the random entries.
     </div>
 
-    <div>
-        <h3>Parameters</h3>
-        <dl>
-            <dt>$num</dt>
-            <dd>Specifies how many entries should be picked.</dd>
-        </dl>
-    </div>
+    <h3>Parameters</h3>
+    <dl>
+        <dt>$num</dt>
+        <dd>Specifies how many entries should be picked.</dd>
+    </dl>
 
-    <div>
-        <h3>Return Values</h3>
-        <p>
-            When picking only one entry, <strong>random()</strong> returns the key for a random
-            entry. Otherwise, an array of keys for the random entries is returned. This is done
-            so that random keys can be picked from <em>internal array</em> as well as random values. Trying
-            to pick more elements than there are in <em>internal array</em> will result in an <code>E_WARNING</code>
-            level error, and NULL will be returned.
-        </p>
-    </div>
+    <h3>Return Values</h3>
+    <p>
+        When picking only one entry, <strong>random()</strong> returns the key for a random
+        entry. Otherwise, an array of keys for the random entries is returned. This is done
+        so that random keys can be picked from <em>internal array</em> as well as random values. Trying
+        to pick more elements than there are in <em>internal array</em> will result in an <code>E_WARNING</code>
+        level error, and NULL will be returned.
+    </p>
 
-    <div class="examples">
-        <pre class="php-code">
-            $input = ["Neo", "Morpheus", "Trinity", "Cypher", "Tank"];
-            $rand_keys = random($input, 2);
-            echo $input[$rand_keys[0]] . "\n";
-            echo $input[$rand_keys[1]] . "\n";
-        </pre>
-    </div>
+    <pre class="php-code">
+        $input = ["Neo", "Morpheus", "Trinity", "Cypher", "Tank"];
+        $rand_keys = random($input, 2);
+        echo $input[$rand_keys[0]] . "\n";
+        echo $input[$rand_keys[1]] . "\n";
+    </pre>
 </div>
 </body>

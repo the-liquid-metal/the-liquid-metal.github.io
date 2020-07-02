@@ -20,102 +20,88 @@
         </p>
     </div>
 
-    <div>
-        <p>
-            <strong>keys()</strong> returns the keys, numeric and
-            string, from the <em>internal array</em>.
-        </p>
-        <p>
-            If the optional <var>$searchValue</var> is specified,
-            then only the keys for that value are returned. Otherwise, all
-            the keys from the <em>internal array</em> are returned.
-        </p>
-    </div>
+    <p>
+        <strong>keys()</strong> returns the keys, numeric and
+        string, from the <em>internal array</em>.
+    </p>
+    <p>
+        If the optional <var>$searchValue</var> is specified,
+        then only the keys for that value are returned. Otherwise, all
+        the keys from the <em>internal array</em> are returned.
+    </p>
 
-    <div>
-        <h3>Parameters</h3>
-        <dl>
-            <dt>$searchValue</dt>
-            <dd>If specified, then only keys containing these values are returned.</dd>
+    <h3>Parameters</h3>
+    <dl>
+        <dt>$searchValue</dt>
+        <dd>If specified, then only keys containing these values are returned.</dd>
 
-            <dt>$strict</dt>
-            <dd>Determines if strict comparison (===) should be used during the search.</dd>
-        </dl>
-    </div>
+        <dt>$strict</dt>
+        <dd>Determines if strict comparison (===) should be used during the search.</dd>
+    </dl>
 
-    <div>
-        <h3>Return Values</h3>
-        <p>Returns an array of all the keys in <em>internal array</em>.</p>
-    </div>
+    <h3>Return Values</h3>
+    <p>Returns an array of all the keys in <em>internal array</em>.</p>
 
-    <div class="examples">
-        <pre class="php-code">
-            $array = [0 => 100, "color" => "red"];
-            keys($array); // output: [0, "color"]
+    <pre class="php-code">
+        $array = [0 => 100, "color" => "red"];
+        keys($array); // output: [0, "color"]
 
-            $array = ["blue", "red", "green", "blue", "blue"];
-            keys($array, "blue"); // output: [0, 3, 4]
+        $array = ["blue", "red", "green", "blue", "blue"];
+        keys($array, "blue"); // output: [0, 3, 4]
 
-            $array = [
-                "color" => ["blue", "red", "green"],
-                "size"  => ["small", "medium", "large"],
-            ];
-            keys($array); // output: ["color", "size"]
-        </pre>
-    </div>
+        $array = [
+            "color" => ["blue", "red", "green"],
+            "size"  => ["small", "medium", "large"],
+        ];
+        keys($array); // output: ["color", "size"]
+    </pre>
 
     <h2>search</h2>
 
     <div>Searches <em>internal array</em> for <var>$needle</var>.</div>
 
-    <div>
-        <h3>Parameters</h3>
-        <dl>
-            <dt>$needle</dt>
-            <dd>
-                The searched value. If it is a string, the
-                comparison is done in a case-sensitive manner.
-            </dd>
+    <h3>Parameters</h3>
+    <dl>
+        <dt>$needle</dt>
+        <dd>
+            The searched value. If it is a string, the
+            comparison is done in a case-sensitive manner.
+        </dd>
 
-            <dt>$strict</dt>
-            <dd>
-                If it is set to <code>TRUE</code> then the
-                <strong>search()</strong> function will search for <em>identical</em> elements
-                in the <em>internal array</em>. This means it will also check the types of the
-                <var>$needle</var> in the <em>internal array</em>, and objects must be the same instance.
-            </dd>
-        </dl>
+        <dt>$strict</dt>
+        <dd>
+            If it is set to <code>TRUE</code> then the
+            <strong>search()</strong> function will search for <em>identical</em> elements
+            in the <em>internal array</em>. This means it will also check the types of the
+            <var>$needle</var> in the <em>internal array</em>, and objects must be the same instance.
+        </dd>
+    </dl>
+
+    <h3>Return Values</h3>
+    <p>
+        Returns the key for <var>$needle</var> if it is found in the
+        array, <code>FALSE</code> otherwise.
+    </p>
+    <p>
+        If <var>$needle</var> is found in <em>internal array</em> more than once, the
+        first matching key is returned. To return the keys for all matching values,
+        use <a href="function.array-keys.php">array_keys()</a> with the optional
+        <code>search_value</code> parameter instead.
+    </p>
+
+    <div class="warning">
+        <strong>Warning</strong><br/>
+        This function may return Boolean <code>FALSE</code>, but may also return
+        a non-Boolean value which evaluates to <code>FALSE</code>. Please read the
+        section on boolean for more information. Use
+        the <code>===</code> operator for testing the return
+        value of this function.
     </div>
 
-    <div>
-        <h3>Return Values</h3>
-        <p>
-            Returns the key for <var>$needle</var> if it is found in the
-            array, <code>FALSE</code> otherwise.
-        </p>
-        <p>
-            If <var>$needle</var> is found in <em>internal array</em> more than once, the
-            first matching key is returned. To return the keys for all matching values,
-            use <a href="function.array-keys.php">array_keys()</a> with the optional
-            <code>search_value</code> parameter instead.
-        </p>
-
-        <div class="warning">
-            <strong>Warning</strong><br/>
-            This function may return Boolean <code>FALSE</code>, but may also return
-            a non-Boolean value which evaluates to <code>FALSE</code>. Please read the
-            section on boolean for more information. Use
-            the <code>===</code> operator for testing the return
-            value of this function.
-        </div>
-    </div>
-
-    <div class="examples">
-        <pre class="php-code">
-            $array = [0 => "blue", 1 => "red", 2 => "green", 3 => "red"];
-            search("green", $array); // output: 2
-            search("red", $array);   // output: 1
-        </pre>
-    </div>
+    <pre class="php-code">
+        $array = [0 => "blue", 1 => "red", 2 => "green", 3 => "red"];
+        search("green", $array); // output: 2
+        search("red", $array);   // output: 1
+    </pre>
 </div>
 </body>

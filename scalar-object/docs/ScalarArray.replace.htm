@@ -19,145 +19,129 @@
         </p>
     </div>
 
-    <div>
-        <p>
-            <strong>replace()</strong> replaces the values of <em>internal array</em> with values
-            having the same keys in each of the following arrays. If a key from the first array exists
-            in the second array, its value will be replaced by the value from the second array. If the
-            key exists in the second array, and not the first, it will be created in the first array.
-            If a key only exists in the first array, it will be left as is. If several arrays are passed
-            for replacement, they will be processed in order, the later arrays overwriting the previous
-            values.
-        </p>
-        <p>
-            <strong>replace()</strong> is not recursive : it will replace
-            values in the first array by whatever type is in the second array.
-        </p>
-    </div>
+    <p>
+        <strong>replace()</strong> replaces the values of <em>internal array</em> with values
+        having the same keys in each of the following arrays. If a key from the first array exists
+        in the second array, its value will be replaced by the value from the second array. If the
+        key exists in the second array, and not the first, it will be created in the first array.
+        If a key only exists in the first array, it will be left as is. If several arrays are passed
+        for replacement, they will be processed in order, the later arrays overwriting the previous
+        values.
+    </p>
+    <p>
+        <strong>replace()</strong> is not recursive : it will replace
+        values in the first array by whatever type is in the second array.
+    </p>
 
-    <div>
-        <h3>Parameters</h3>
-        <dl>
-            <dt>$array2</dt>
-            <dd>The array from which elements will be extracted.</dd>
+    <h3>Parameters</h3>
+    <dl>
+        <dt>$array2</dt>
+        <dd>The array from which elements will be extracted.</dd>
 
-            <dt>...</dt>
-            <dd>
-                More arrays from which elements will be extracted.
-                Values from later arrays overwrite the previous values.
-            </dd>
-        </dl>
-    </div>
+        <dt>...</dt>
+        <dd>
+            More arrays from which elements will be extracted.
+            Values from later arrays overwrite the previous values.
+        </dd>
+    </dl>
 
-    <div>
-        <h3>Return Values</h3>
-        <p>Returns an array, or <code>NULL</code> if an error occurs.</p>
-    </div>
+    <h3>Return Values</h3>
+    <p>Returns an array, or <code>NULL</code> if an error occurs.</p>
 
-    <div class="examples">
-        <pre class="php-code">
-            $base = ["orange", "banana", "apple", "raspberry"];
-            $replacements = [0 => "pineapple", 4 => "cherry"];
-            $replacements2 = [0 => "grape"];
+    <pre class="php-code">
+        $base = ["orange", "banana", "apple", "raspberry"];
+        $replacements = [0 => "pineapple", 4 => "cherry"];
+        $replacements2 = [0 => "grape"];
 
-            replace($base, $replacements, $replacements2);
-            // output: [
-            //   0 => "grape",
-            //   1 => "banana",
-            //   2 => "apple",
-            //   3 => "raspberry",
-            //   4 => "cherry",
-            // ]
-        </pre>
-    </div>
+        replace($base, $replacements, $replacements2);
+        // output: [
+        //   0 => "grape",
+        //   1 => "banana",
+        //   2 => "apple",
+        //   3 => "raspberry",
+        //   4 => "cherry",
+        // ]
+    </pre>
 
     <h2>recursiveReplace</h2>
 
-    <div>
-        <p>
-            <strong>recursiveReplace()</strong> replaces the values of
-            <em>internal array</em> with the same values from all the following
-            arrays. If a key from the first array exists in the second array, its value
-            will be replaced by the value from the second array. If the key exists in the
-            second array, and not the first, it will be created in the first array.
-            If a key only exists in the first array, it will be left as is.
-            If several arrays are passed for replacement, they will be processed
-            in order, the later array overwriting the previous values.
-        </p>
-        <p>
-            <strong>recursiveReplace()</strong> is recursive : it will recurse into
-            arrays and apply the same process to the inner value.
-        </p>
-        <p>
-            When the value in <em>internal array</em> is scalar, it will be replaced
-            by the value in <var>$array2</var>, may it be scalar or array.
-            When the value in <em>internal array</em> and <var>$array2</var>
-            are both arrays, <strong>recursiveReplace()</strong> will replace
-            their respective value recursively.
-        </p>
-    </div>
+    <p>
+        <strong>recursiveReplace()</strong> replaces the values of
+        <em>internal array</em> with the same values from all the following
+        arrays. If a key from the first array exists in the second array, its value
+        will be replaced by the value from the second array. If the key exists in the
+        second array, and not the first, it will be created in the first array.
+        If a key only exists in the first array, it will be left as is.
+        If several arrays are passed for replacement, they will be processed
+        in order, the later array overwriting the previous values.
+    </p>
+    <p>
+        <strong>recursiveReplace()</strong> is recursive : it will recurse into
+        arrays and apply the same process to the inner value.
+    </p>
+    <p>
+        When the value in <em>internal array</em> is scalar, it will be replaced
+        by the value in <var>$array2</var>, may it be scalar or array.
+        When the value in <em>internal array</em> and <var>$array2</var>
+        are both arrays, <strong>recursiveReplace()</strong> will replace
+        their respective value recursively.
+    </p>
 
-    <div>
-        <h3>Parameters</h3>
-        <dl>
-            <dt>$array2</dt>
-            <dd>The array from which elements will be extracted.</dd>
+    <h3>Parameters</h3>
+    <dl>
+        <dt>$array2</dt>
+        <dd>The array from which elements will be extracted.</dd>
 
-            <dt>...</dt>
-            <dd>Optional. More arrays from which elements will be extracted.</dd>
-        </dl>
-    </div>
+        <dt>...</dt>
+        <dd>Optional. More arrays from which elements will be extracted.</dd>
+    </dl>
 
-    <div>
-        <h3>Return Values</h3>
-        <p>Returns an array, or <code>NULL</code> if an error occurs.</p>
-    </div>
+    <h3>Return Values</h3>
+    <p>Returns an array, or <code>NULL</code> if an error occurs.</p>
 
-    <div class="examples">
-        <pre class="php-code">
-            $base = [
-                "citrus" => ["orange"],
-                "berries" => ["blackberry", "raspberry"],
-            ];
-            $replacements = [
-                "citrus" => ["pineapple"],
-                "berries" => ["blueberry"],
-            ];
+    <pre class="php-code">
+        $base = [
+            "citrus" => ["orange"],
+            "berries" => ["blackberry", "raspberry"],
+        ];
+        $replacements = [
+            "citrus" => ["pineapple"],
+            "berries" => ["blueberry"],
+        ];
 
-            recursiveReplace($base, $replacements);
-            // output: [
-            //   "citrus" => [pineapple],
-            //   "berries" => ["blueberry", "raspberry"]
-            // ]
+        recursiveReplace($base, $replacements);
+        // output: [
+        //   "citrus" => [pineapple],
+        //   "berries" => ["blueberry", "raspberry"]
+        // ]
 
-            array_replace($base, $replacements);
-            // output: [
-            //   "citrus" => ["pineapple"],
-            //   "berries" => ["blueberry"]
-            // ]
+        array_replace($base, $replacements);
+        // output: [
+        //   "citrus" => ["pineapple"],
+        //   "berries" => ["blueberry"]
+        // ]
 
-            $base = [
-                "citrus" => ["orange"],
-                "berries" => ["blackberry", "raspberry"],
-                "others" => "banana"
-            ];
-            $replacements = [
-                "citrus" => "pineapple",
-                "berries" => ["blueberry"],
-                "others" => ["litchis"]
-            ];
-            $replacements2 = [
-                "citrus" => ["pineapple"],
-                "berries" => ["blueberry"],
-                "others" => "litchis"
-            ];
-            recursiveReplace($base, $replacements, $replacements2);
-            // output: [
-            //   "citrus" => ["pineapple"],
-            //   "berries" => ["blueberry", "raspberry"],
-            //   "others" => "litchis"
-            // ]
-        </pre>
-    </div>
+        $base = [
+            "citrus" => ["orange"],
+            "berries" => ["blackberry", "raspberry"],
+            "others" => "banana"
+        ];
+        $replacements = [
+            "citrus" => "pineapple",
+            "berries" => ["blueberry"],
+            "others" => ["litchis"]
+        ];
+        $replacements2 = [
+            "citrus" => ["pineapple"],
+            "berries" => ["blueberry"],
+            "others" => "litchis"
+        ];
+        recursiveReplace($base, $replacements, $replacements2);
+        // output: [
+        //   "citrus" => ["pineapple"],
+        //   "berries" => ["blueberry", "raspberry"],
+        //   "others" => "litchis"
+        // ]
+    </pre>
 </div>
 </body>

@@ -26,28 +26,25 @@
         This method is only applied if <var>ScalarArray::type</var> is <code>int</code>, <code>float</code> or
         <code>string</code> and the internal array is not empty, otherwise all caculation results are <code>NAN</code>.
     </div>
-    <div>
-        <h3>Parameters</h3>
-        <dl>
-            <dt>$operation</dt>
-            <dd>
-                available operation: <code>sum</code> (summary), <code>avg</code> (average),
-                <code>max</code> (maximum), <code>min</code> (minimum), <code>product</code>
-            </dd>
-            <dt>$includeNull</dt>
-            <dd>Whether <code>null</code>, <code>NAN</code>, and <code>INF</code> is included or not.
-                If <code>true</code>, and <var>ScalarArray::type</var> is <code>int</code> or <code>float</code>,
-                they are treated as <code>0</code> (zero), and counter are applied to them.
-                If <code>true</code>, and <var>ScalarArray::type</var> is <code>string</code>, <code>null</code>
-                is treated as <code>""</code>.
-            </dd>
-        </dl>
-    </div>
 
-    <div>
-        <h3>Return Values</h3>
-        <p>The sum/avg/max/min/product of values as an integer or float.</p>
-    </div>
+    <h3>Parameters</h3>
+    <dl>
+        <dt>$operation</dt>
+        <dd>
+            available operation: <code>sum</code> (summary), <code>avg</code> (average),
+            <code>max</code> (maximum), <code>min</code> (minimum), <code>product</code>
+        </dd>
+        <dt>$includeNull</dt>
+        <dd>Whether <code>null</code>, <code>NAN</code>, and <code>INF</code> is included or not.
+            If <code>true</code>, and <var>ScalarArray::type</var> is <code>int</code> or <code>float</code>,
+            they are treated as <code>0</code> (zero), and counter are applied to them.
+            If <code>true</code>, and <var>ScalarArray::type</var> is <code>string</code>, <code>null</code>
+            is treated as <code>""</code>.
+        </dd>
+    </dl>
+
+    <h3>Return Values</h3>
+    <p>The sum/avg/max/min/product of values as an integer or float.</p>
 
     <pre class="php-code">
         $a = new ScalarArray("int", false, [2, 4, 6, 8]);
@@ -93,31 +90,6 @@
         $a->calc("max");     // output: NAN
         $a->calc("min");     // output: NAN
         $a->calc("product"); // output: NAN
-
-        // modified behaviour: warning is converted to NAN
-        $a = new ScalarArray("float", false, []);
-        $a->calc("sum");     // output: NAN
-        $a->calc("avg");     // output: NAN
-        $a->calc("max");     // output: NAN
-        $a->calc("min");     // output: NAN
-        $a->calc("product"); // output: NAN
-
-        // calculate avg, but null/NAN/INF is treated as 1.
-        $avg = function($acc, $val, $key, $arr) {
-            $isLast = $key == array_key_last($attr);
-            $isOne = is_null($val) || is_nan(val) || is_infinite(val);
-            if ($isLast && $isOne) {
-                return ($acc["sum"] + 1) / ($acc["count"] + 1);
-            } elseif ($isLast) {
-                return ($acc["sum"] + $val) / ($acc["count"] + 1);
-            } elseif ($isOne) {
-                return ["sum" => $acc["sum"] + 1, "count" => $acc["count"] + 1];
-            } else {
-                return ["sum" => $acc["sum"] + $val, "count" => $acc["count"] + 1];
-            }
-        };
-        $a = new ScalarArray("int", true, [2, null, NAN, INF, 4, 6, 8]);
-        $a->reduce($avg, ["sum" => 0, "count" => 0]); // output: 3.2857142857143
     </pre>
 </div>
 </body>

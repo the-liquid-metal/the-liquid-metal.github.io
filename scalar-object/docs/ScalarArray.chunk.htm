@@ -24,53 +24,45 @@
         The last chunk may contain less than <var>$size</var> elements.
     </div>
 
-    <div>
-        <h3>Parameters</h3>
-        <dl>
-            <dt>$size</dt>
-            <dd>The size of each chunk</dd>
+    <h3>Parameters</h3>
+    <dl>
+        <dt>$size</dt>
+        <dd>The size of each chunk</dd>
 
-            <dt>$preserveKeys</dt>
-            <dd>
-                When set to <code>TRUE</code> keys will be preserved. Default
-                is <code>FALSE</code> which will reindex the chunk numerically
-            </dd>
-        </dl>
-    </div>
+        <dt>$preserveKeys</dt>
+        <dd>
+            When set to <code>TRUE</code> keys will be preserved. Default
+            is <code>FALSE</code> which will reindex the chunk numerically
+        </dd>
+    </dl>
 
-    <div>
-        <h3>Return Values</h3>
-        <p>
-            A multidimensional numerically indexed array, starting with zero,
-            with each dimension containing <var>$size</var> elements.
-        </p>
-    </div>
+    <h3>Return Values</h3>
+    <p>
+        A multidimensional numerically indexed array, starting with zero,
+        with each dimension containing <var>$size</var> elements.
+    </p>
 
-    <div>
-        <h3>Errors/Exceptions</h3>
-        <p>
-            If <var>$size</var> is less than 1 <code>E_WARNING</code>
-            will be thrown and <code>NULL</code> returned.
-        </p>
-    </div>
+    <h3>Errors/Exceptions</h3>
+    <p>
+        If <var>$size</var> is less than 1 <code>E_WARNING</code>
+        will be thrown and <code>NULL</code> returned.
+    </p>
 
-    <div class="examples">
-        <pre class="php-code">
-            $input = ["a", "b", "c", "d", "e"];
-            chunk($input, 2);
-            // output: [
-            //     0 => [0 => "a", 1 => "b"],
-            //     1 => [0 => "c", 1 => "d"],
-            //     2 => [0 => "e"],
-            // ]
+    <pre class="php-code">
+        $input = ["a", "b", "c", "d", "e"];
+        chunk($input, 2);
+        // output: [
+        //     0 => [0 => "a", 1 => "b"],
+        //     1 => [0 => "c", 1 => "d"],
+        //     2 => [0 => "e"],
+        // ]
 
-            chunk($input, 2, true);
-            // output: [
-            //     0 => [0 => "a", 1 => "b"],
-            //     1 => [2 => "c", 3 => "d"],
-            //     2 => [4 => "e"],
-            // ]
-        </pre>
-    </div>
+        chunk($input, 2, true);
+        // output: [
+        //     0 => [0 => "a", 1 => "b"],
+        //     1 => [2 => "c", 3 => "d"],
+        //     2 => [4 => "e"],
+        // ]
+    </pre>
 </div>
 </body>

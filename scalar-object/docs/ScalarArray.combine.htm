@@ -25,33 +25,25 @@
         <var>$values</var> array as the corresponding values.
     </div>
 
-    <div>
-        <h3>Parameters</h3>
-        <dl>
-            <dt>$values</dt>
-            <dd>Array of values to be used</dd>
-        </dl>
-    </div>
+    <h3>Parameters</h3>
+    <dl>
+        <dt>$values</dt>
+        <dd>Array of values to be used</dd>
+    </dl>
 
-    <div>
-        <h3>Return Values</h3>
-        <p>The combined array.</p>
-    </div>
+    <h3>Return Values</h3>
+    <p>The combined array.</p>
 
-    <div>
-        <h3>Errors/Exceptions</h3>
-        <p>
-            Throws <code>E_WARNING</code> if the number of elements in
-            <em>internal array</em> and <var>$values</var> does not match.
-        </p>
-    </div>
+    <h3>Errors/Exceptions</h3>
+    <p>
+        Throws <code>E_WARNING</code> if the number of elements in
+        <em>internal array</em> and <var>$values</var> does not match.
+    </p>
 
-    <div class="examples">
-        <pre class="php-code">
-            $a = ["green",   "red",   "yellow"];
-            $b = ["avocado", "apple", "banana"];
-            combine($a, $b); // output: ["green" => "avocado", "red" => "apple", "yellow" => "banana"]
-        </pre>
-    </div>
+    <pre class="php-code">
+        $a = ["green",   "red",   "yellow"];
+        $b = ["avocado", "apple", "banana"];
+        combine($a, $b); // output: ["green" => "avocado", "red" => "apple", "yellow" => "banana"]
+    </pre>
 </div>
 </body>

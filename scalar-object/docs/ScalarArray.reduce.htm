@@ -25,57 +25,51 @@
         array to a single value.
     </div>
 
-    <div>
-        <h3>Parameters</h3>
-        <dl>
-            <dt>$reducer</dt>
-            <dd>
-                <dl>
-                    <dt>$carry</dt>
-                    <dd>
-                        Holds the return value of the previous iteration; in the case of the
-                        first iteration it instead holds the value of <var>$initial</var>.
-                    </dd>
+    <h3>Parameters</h3>
+    <dl>
+        <dt>$reducer</dt>
+        <dd>
+            <dl>
+                <dt>$carry</dt>
+                <dd>
+                    Holds the return value of the previous iteration; in the case of the
+                    first iteration it instead holds the value of <var>$initial</var>.
+                </dd>
 
-                    <dt>$item</dt>
-                    <dd>Holds the value of the current iteration.</dd>
-                </dl>
-            </dd>
+                <dt>$item</dt>
+                <dd>Holds the value of the current iteration.</dd>
+            </dl>
+        </dd>
 
-            <dt>$initial</dt>
-            <dd>
-                If available, it will be used at the beginning of the
-                process, or as a final result in case the array is empty.
-            </dd>
-        </dl>
-    </div>
+        <dt>$initial</dt>
+        <dd>
+            If available, it will be used at the beginning of the
+            process, or as a final result in case the array is empty.
+        </dd>
+    </dl>
 
-    <div>
-        <h3>Return Values</h3>
-        <p>The resulting value.</p>
-        <p>
-            If the array is empty and <var>$initial</var> is not passed,
-            <strong>reduce()</strong> returns <code>NULL</code>.
-        </p>
-    </div>
+    <h3>Return Values</h3>
+    <p>The resulting value.</p>
+    <p>
+        If the array is empty and <var>$initial</var> is not passed,
+        <strong>reduce()</strong> returns <code>NULL</code>.
+    </p>
 
-    <div class="examples">
-        <pre class="php-code">
-            function sum($carry, $item) {
-                return $carry + $item;
-            }
+    <pre class="php-code">
+        function sum($carry, $item) {
+            return $carry + $item;
+        }
 
-            function product($carry, $item) {
-                return $carry * $item;
-            }
+        function product($carry, $item) {
+            return $carry * $item;
+        }
 
-            $a = [1, 2, 3, 4, 5];
-            $x = [];
+        $a = [1, 2, 3, 4, 5];
+        $x = [];
 
-            reduce($a, "sum");                      // output: 15
-            reduce($a, "product", 10);              // output: 1200, because: 10*1*2*3*4*5
-            reduce($x, "sum", "No data to reduce"); // output: "No data to reduce"
-        </pre>
-    </div>
+        reduce($a, "sum");                      // output: 15
+        reduce($a, "product", 10);              // output: 1200, because: 10*1*2*3*4*5
+        reduce($x, "sum", "No data to reduce"); // output: "No data to reduce"
+    </pre>
 </div>
 </body>

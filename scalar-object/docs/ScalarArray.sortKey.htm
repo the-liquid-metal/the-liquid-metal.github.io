@@ -28,34 +28,28 @@
         should use this function.
     </div>
 
-    <div>
-        <h3>Parameters</h3>
-        <dl>
-            <dt>$keyComparator</dt>
-            <dd>
-                The comparison function must return an integer less than, equal to, or greater than zero if the
-                first argument is considered to be respectively less than, equal to, or greater than the second.
-            </dd>
-        </dl>
-    </div>
+    <h3>Parameters</h3>
+    <dl>
+        <dt>$keyComparator</dt>
+        <dd>
+            The comparison function must return an integer less than, equal to, or greater than zero if the
+            first argument is considered to be respectively less than, equal to, or greater than the second.
+        </dd>
+    </dl>
 
-    <div>
-        <h3>Return Values</h3>
-        <p>Returns <code>TRUE</code> on success or <code>FALSE</code> on failure.</p>
-    </div>
+    <h3>Return Values</h3>
+    <p>Returns <code>TRUE</code> on success or <code>FALSE</code> on failure.</p>
 
-    <div class="examples">
-        <pre class="php-code">
-            function cmp($a, $b) {
-                $a = preg_replace("@^(a|an|the) @", "", $a);
-                $b = preg_replace("@^(a|an|the) @", "", $b);
-                return strcasecmp($a, $b);
-            }
+    <pre class="php-code">
+        function cmp($a, $b) {
+            $a = preg_replace("@^(a|an|the) @", "", $a);
+            $b = preg_replace("@^(a|an|the) @", "", $b);
+            return strcasecmp($a, $b);
+        }
 
-            $array = ["John" => 1, "the Earth" => 2, "an apple" => 3, "a banana" => 4];
-            userKeySort($array, "cmp"); // output: ["an apple" => 3, "a banana" => 4, "the Earth" => 2, "John" => 1]
-        </pre>
-    </div>
+        $array = ["John" => 1, "the Earth" => 2, "an apple" => 3, "a banana" => 4];
+        userKeySort($array, "cmp"); // output: ["an apple" => 3, "a banana" => 4, "the Earth" => 2, "John" => 1]
+    </pre>
 
     <h2>keySort</h2>
 
@@ -64,25 +58,19 @@
         useful mainly for associative arrays.
     </div>
 
-    <div>
-        <h3>Parameters</h3>
-        <dl>
-            <dt>$flags</dt>
-            <dd>For details see <a href="sort.htm">sort()</a>.</dd>
-        </dl>
-    </div>
+    <h3>Parameters</h3>
+    <dl>
+        <dt>$flags</dt>
+        <dd>For details see <a href="sort.htm">sort()</a>.</dd>
+    </dl>
 
-    <div>
-        <h3>Return Values</h3>
-        <p><code>TRUE</code> on success or <code>FALSE</code> on failure.</p>
-    </div>
+    <h3>Return Values</h3>
+    <p><code>TRUE</code> on success or <code>FALSE</code> on failure.</p>
 
-    <div class="examples">
-        <pre class="php-code">
-            $fruits = ["d"=>"lemon", "a"=>"orange", "b"=>"banana", "c"=>"apple"];
-            keySort($fruits); // output: ["a" => "orange", "b" => "banana", "c" => "apple", "d" => "lemon"]
-        </pre>
-    </div>
+    <pre class="php-code">
+        $fruits = ["d"=>"lemon", "a"=>"orange", "b"=>"banana", "c"=>"apple"];
+        keySort($fruits); // output: ["a" => "orange", "b" => "banana", "c" => "apple", "d" => "lemon"]
+    </pre>
 
     <h2>reverseKeySort</h2>
 
@@ -91,52 +79,40 @@
         correlations. This is useful mainly for associative arrays.
     </div>
 
-    <div>
-        <h3>Parameters</h3>
-        <dl>
-            <dt>$flags</dt>
-            <dd>For details see <a href="sort.htm">sort()</a>.</dd>
-        </dl>
-    </div>
+    <h3>Parameters</h3>
+    <dl>
+        <dt>$flags</dt>
+        <dd>For details see <a href="sort.htm">sort()</a>.</dd>
+    </dl>
 
-    <div>
-        <h3>Return Values</h3>
-        <p>Returns <code>TRUE</code> on success or <code>FALSE</code> on failure.</p>
-    </div>
+    <h3>Return Values</h3>
+    <p>Returns <code>TRUE</code> on success or <code>FALSE</code> on failure.</p>
 
-    <div class="examples">
-        <pre class="php-code">
-            $fruits = ["d"=>"lemon", "a"=>"orange", "b"=>"banana", "c"=>"apple"];
-            reverseKeySort($fruits); // output: ["d" => "lemon", "c" => "apple", "b" => "banana", "a" => "orange"]
-        </pre>
-    </div>
+    <pre class="php-code">
+        $fruits = ["d"=>"lemon", "a"=>"orange", "b"=>"banana", "c"=>"apple"];
+        reverseKeySort($fruits); // output: ["d" => "lemon", "c" => "apple", "b" => "banana", "a" => "orange"]
+    </pre>
 
     <h2>reverse</h2>
 
     <div>Takes <em>internal array</em> and returns a new array with the order of the elements reversed.</div>
 
-    <div>
-        <h3>Parameters</h3>
-        <dl>
-            <dt>$preserveKeys</dt>
-            <dd>
-                If set to <code>TRUE</code> numeric keys are preserved. Non-numeric
-                keys are not affected by this setting and will always be preserved.
-            </dd>
-        </dl>
-    </div>
+    <h3>Parameters</h3>
+    <dl>
+        <dt>$preserveKeys</dt>
+        <dd>
+            If set to <code>TRUE</code> numeric keys are preserved. Non-numeric
+            keys are not affected by this setting and will always be preserved.
+        </dd>
+    </dl>
 
-    <div>
-        <h3>Return Values</h3>
-        <p>The reversed array.</p>
-    </div>
+    <h3>Return Values</h3>
+    <p>The reversed array.</p>
 
-    <div class="examples">
-        <pre class="php-code">
-            $input = ["php", 4.0, ["green", "red"]];
-            reverse($input);       // output: [0 => ["green", "red"], 1 => 4, 2 => "php"]
-            reverse($input, true); // output: [2 => ["green", "red"], 1 => 4, 0 => "php"]
-        </pre>
-    </div>
+    <pre class="php-code">
+        $input = ["php", 4.0, ["green", "red"]];
+        reverse($input);       // output: [0 => ["green", "red"], 1 => 4, 2 => "php"]
+        reverse($input, true); // output: [2 => ["green", "red"], 1 => 4, 0 => "php"]
+    </pre>
 </div>
 </body>

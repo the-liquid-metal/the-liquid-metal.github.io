@@ -19,218 +19,208 @@
         </p>
     </div>
 
-    <div>
-        <p>
-            <strong>multisort()</strong> can be used to sort several arrays
-            at once, or a multi-dimensional array by one or more dimensions.
-        </p>
-        <p>
-            Associative (string) keys will be maintained, but numeric keys
-            will be re-indexed.
-        </p>
-    </div>
+    <p>
+        <strong>multisort()</strong> can be used to sort several arrays
+        at once, or a multi-dimensional array by one or more dimensions.
+    </p>
+    <p>
+        Associative (string) keys will be maintained, but numeric keys
+        will be re-indexed.
+    </p>
+
+    <h3>Parameters</h3>
+    <dl>
+        <dt>$order</dt>
+        <dd>
+            <p>
+                The order used to sort the previous array argument. Either <code>SORT_ASC</code>
+                to sort ascendingly or <code>SORT_DESC</code> to sort descendingly.
+            </p>
+            <p>
+                This argument can be swapped with <var>$flags</var> or omitted entirely, in which
+                case <code>SORT_ASC</code> is assumed.
+            </p>
+        </dd>
+
+        <dt>$flags</dt>
+        <dd>
+            <ul>
+                <li><code>SORT_REGULAR</code> - compare items normally(don't change types)</li>
+                <li><code>SORT_NUMERIC</code> - compare items numerically</li>
+                <li><code>SORT_STRING</code> - compare items as strings</li>
+                <li>
+                    <code>SORT_LOCALE_STRING</code> - compare items as strings,
+                    based on the current locale. It uses the locale, which can
+                    be changed using <a href="function.setlocale.php">setlocale()</a>
+                </li>
+                <li>
+                    <code>SORT_NATURAL</code> - compare items as strings
+                    using "natural ordering" like <a href="naturalSort.htm">naturalSort()</a>
+                </li>
+                <li>
+                    <code>SORT_FLAG_CASE</code> - can be combined (bitwise OR) with
+                    <code>SORT_STRING</code> or
+                    <code>SORT_NATURAL</code> to sort strings case-insensitively
+                </li>
+            </ul>
+            <p>
+                This argument can be swapped with <var>$order</var> or omitted
+                entirely, in which case <code>SORT_REGULAR</code> is assumed.
+            </p>
+        </dd>
+
+        <dt>...</dt>
+        <dd>
+            More arrays, optionally followed by sort order and flags. Only elements
+            corresponding to equivalent elements in previous arrays are compared.
+            In other words, the sort is lexicographical.
+        </dd>
+    </dl>
+
+    <h3>Return Values</h3>
+    <p>Returns <code>TRUE</code> on success or <code>FALSE</code> on failure.</p>
 
     <div>
-        <h3>Parameters</h3>
-        <dl>
-            <dt>$order</dt>
-            <dd>
-                <p>
-                    The order used to sort the previous array argument. Either <code>SORT_ASC</code>
-                    to sort ascendingly or <code>SORT_DESC</code> to sort descendingly.
-                </p>
-                <p>
-                    This argument can be swapped with <var>$flags</var> or omitted entirely, in which
-                    case <code>SORT_ASC</code> is assumed.
-                </p>
-            </dd>
+        In this example, after sorting, the first array will contain 0, 10, 100, 100. The
+        second array will contain 4, 1, 2, 3. The entries in the second array corresponding
+        to the identical entries in the first array (100 and 100) were sorted as well.
+    </div>
+    <pre class="php-code">
+        $ar1 = [10, 100, 100, 0];
+        $ar2 = [1, 3, 2, 4];
+        multisort($ar1, $ar2);
 
-            <dt>$flags</dt>
-            <dd>
-                <ul>
-                    <li><code>SORT_REGULAR</code> - compare items normally(don't change types)</li>
-                    <li><code>SORT_NUMERIC</code> - compare items numerically</li>
-                    <li><code>SORT_STRING</code> - compare items as strings</li>
-                    <li>
-                        <code>SORT_LOCALE_STRING</code> - compare items as strings,
-                        based on the current locale. It uses the locale, which can
-                        be changed using <a href="function.setlocale.php">setlocale()</a>
-                    </li>
-                    <li>
-                        <code>SORT_NATURAL</code> - compare items as strings
-                        using "natural ordering" like <a href="naturalSort.htm">naturalSort()</a>
-                    </li>
-                    <li>
-                        <code>SORT_FLAG_CASE</code> - can be combined (bitwise OR) with
-                        <code>SORT_STRING</code> or
-                        <code>SORT_NATURAL</code> to sort strings case-insensitively
-                    </li>
-                </ul>
-                <p>
-                    This argument can be swapped with <var>$order</var> or omitted
-                    entirely, in which case <code>SORT_REGULAR</code> is assumed.
-                </p>
-            </dd>
+        var_dump($ar1);
+        var_dump($ar2);
+    </pre>
 
-            <dt>...</dt>
-            <dd>
-                More arrays, optionally followed by sort order and flags. Only elements
-                corresponding to equivalent elements in previous arrays are compared.
-                In other words, the sort is lexicographical.
-            </dd>
-        </dl>
+    <pre class="output">
+        array(4) {
+          [0]=> int(0)
+          [1]=> int(10)
+          [2]=> int(100)
+          [3]=> int(100)
+        }
+        array(4) {
+          [0]=> int(4)
+          [1]=> int(1)
+          [2]=> int(2)
+          [3]=> int(3)
+        }
+    </pre>
+
+    <div>
+        In this example, after sorting, the first array will transform to "10", 100, 100,
+        11, "a" (it was sorted as strings in ascending order). The second will contain 1,
+        3, "2", 2, 1 (sorted as numbers, in descending order).
+    </div>
+
+    <pre class="php-code">
+        $ar = [
+           ["10", 11, 100, 100, "a"],
+           [   1,  2, "2",   3,   1],
+        ];
+        multisort($ar[0], SORT_ASC, SORT_STRING, $ar[1], SORT_NUMERIC, SORT_DESC);
+        var_dump($ar);
+    </pre>
+
+    <pre class="output">
+        array(2) {
+          [0]=> array(5) {
+            [0]=> string(2) "10"
+            [1]=> int(100)
+            [2]=> int(100)
+            [3]=> int(11)
+            [4]=> string(1) "a"
+          }
+          [1]=> array(5) {
+            [0]=> int(1)
+            [1]=> int(3)
+            [2]=> string(1) "2"
+            [3]=> int(2)
+            [4]=> int(1)
+          }
+        }
+    </pre>
+
+    <div>
+        For this example, each element in the <var>data</var> array represents
+        one row in a table. This type of dataset is typical of database records.
+    </div>
+
+    <div>Example data:</div>
+    <pre class="output">
+        volume | edition
+        -------+--------
+            67 |       2
+            86 |       1
+            85 |       6
+            98 |       2
+            86 |       6
+            67 |       7
+    </pre>
+
+    <div>
+        The data as an array, called <var>data</var>. This would usually, for example,
+        be obtained by looping with <a href="function.mysql-fetch-assoc.php">mysql_fetch_assoc()</a>.
+    </div>
+    <pre class="php-code">
+        $data = [
+            ["volume" => 67, "edition" => 2],
+            ["volume" => 86, "edition" => 1],
+            ["volume" => 85, "edition" => 6],
+            ["volume" => 98, "edition" => 2],
+            ["volume" => 86, "edition" => 6],
+            ["volume" => 67, "edition" => 7],
+        ];
+    </pre>
+
+    <div>
+        In this example, we will order by <var>volume</var> descending,
+        <var>edition</var> ascending.
     </div>
 
     <div>
-        <h3>Return Values</h3>
-        <p>Returns <code>TRUE</code> on success or <code>FALSE</code> on failure.</p>
+        We have an array of rows, but <strong>multisort()</strong> requires an array of
+        columns, so we use the below code to obtain the columns, then perform the sorting.
+    </div>
+    <pre class="php-code">
+        // Obtain a list of columns
+        foreach ($data as $key => $row) {
+            $volume[$key]  = $row["volume"];
+            $edition[$key] = $row["edition"];
+        }
+
+        // Sort the data with volume descending, edition ascending
+        // Add $data as the last parameter, to sort by the common key
+        multisort($volume, SORT_DESC, $edition, SORT_ASC, $data);
+    </pre>
+
+    <div>The dataset is now sorted, and will look like this:</div>
+    <pre class="output">
+        volume | edition
+        -------+--------
+            98 |       2
+            86 |       1
+            86 |       6
+            85 |       6
+            67 |       2
+            67 |       7
+    </pre>
+
+    <div>
+        Both <code>SORT_STRING</code> and <code>SORT_REGULAR</code> are case sensitive, strings
+        starting with a capital letter will come before strings starting with a lowercase letter.
     </div>
 
-    <div class="examples">
-        <div>
-            In this example, after sorting, the first array will contain 0, 10, 100, 100. The
-            second array will contain 4, 1, 2, 3. The entries in the second array corresponding
-            to the identical entries in the first array (100 and 100) were sorted as well.
-        </div>
-        <pre class="php-code">
-            $ar1 = [10, 100, 100, 0];
-            $ar2 = [1, 3, 2, 4];
-            multisort($ar1, $ar2);
-
-            var_dump($ar1);
-            var_dump($ar2);
-        </pre>
-
-        <pre class="output">
-            array(4) {
-              [0]=> int(0)
-              [1]=> int(10)
-              [2]=> int(100)
-              [3]=> int(100)
-            }
-            array(4) {
-              [0]=> int(4)
-              [1]=> int(1)
-              [2]=> int(2)
-              [3]=> int(3)
-            }
-        </pre>
-
-        <div>
-            In this example, after sorting, the first array will transform to "10", 100, 100,
-            11, "a" (it was sorted as strings in ascending order). The second will contain 1,
-            3, "2", 2, 1 (sorted as numbers, in descending order).
-        </div>
-
-        <pre class="php-code">
-            $ar = [
-               ["10", 11, 100, 100, "a"],
-               [   1,  2, "2",   3,   1],
-            ];
-            multisort($ar[0], SORT_ASC, SORT_STRING, $ar[1], SORT_NUMERIC, SORT_DESC);
-            var_dump($ar);
-        </pre>
-
-        <pre class="output">
-            array(2) {
-              [0]=> array(5) {
-                [0]=> string(2) "10"
-                [1]=> int(100)
-                [2]=> int(100)
-                [3]=> int(11)
-                [4]=> string(1) "a"
-              }
-              [1]=> array(5) {
-                [0]=> int(1)
-                [1]=> int(3)
-                [2]=> string(1) "2"
-                [3]=> int(2)
-                [4]=> int(1)
-              }
-            }
-        </pre>
-
-        <p><strong>Example #3 Sorting database results</strong></p>
-        <div>
-            For this example, each element in the <var>data</var> array represents
-            one row in a table. This type of dataset is typical of database records.
-        </div>
-
-        <div>Example data:</div>
-        <pre class="output">
-            volume | edition
-            -------+--------
-                67 |       2
-                86 |       1
-                85 |       6
-                98 |       2
-                86 |       6
-                67 |       7
-        </pre>
-
-        <div>
-            The data as an array, called <var>data</var>. This would usually, for example,
-            be obtained by looping with <a href="function.mysql-fetch-assoc.php">mysql_fetch_assoc()</a>.
-        </div>
-        <pre class="php-code">
-            $data = [
-                ["volume" => 67, "edition" => 2],
-                ["volume" => 86, "edition" => 1],
-                ["volume" => 85, "edition" => 6],
-                ["volume" => 98, "edition" => 2],
-                ["volume" => 86, "edition" => 6],
-                ["volume" => 67, "edition" => 7],
-            ];
-        </pre>
-
-        <div>
-            In this example, we will order by <var>volume</var> descending,
-            <var>edition</var> ascending.
-        </div>
-
-        <div>
-            We have an array of rows, but <strong>multisort()</strong> requires an array of
-            columns, so we use the below code to obtain the columns, then perform the sorting.
-        </div>
-        <pre class="php-code">
-            // Obtain a list of columns
-            foreach ($data as $key => $row) {
-                $volume[$key]  = $row["volume"];
-                $edition[$key] = $row["edition"];
-            }
-
-            // Sort the data with volume descending, edition ascending
-            // Add $data as the last parameter, to sort by the common key
-            multisort($volume, SORT_DESC, $edition, SORT_ASC, $data);
-        </pre>
-
-        <div>The dataset is now sorted, and will look like this:</div>
-        <pre class="output">
-            volume | edition
-            -------+--------
-                98 |       2
-                86 |       1
-                86 |       6
-                85 |       6
-                67 |       2
-                67 |       7
-        </pre>
-
-        <p><strong>Example #4 Case insensitive sorting</strong></p>
-        <div>
-            Both <code>SORT_STRING</code> and <code>SORT_REGULAR</code> are case sensitive, strings
-            starting with a capital letter will come before strings starting with a lowercase letter.
-        </div>
-
-        <div>
-            To perform a case insensitive search, force the sorting order to be
-            determined by a lowercase copy of the original array.
-        </div>
-        <pre class="php-code">
-            $array = ["Alpha", "atomic", "Beta", "bank"];
-            $array_lowercase = array_map("strtolower", $array);
-            multisort($array_lowercase, SORT_ASC, SORT_STRING, $array); // output: ["Alpha", "atomic", "bank", "Beta"]
-        </pre>
+    <div>
+        To perform a case insensitive search, force the sorting order to be
+        determined by a lowercase copy of the original array.
     </div>
+    <pre class="php-code">
+        $array = ["Alpha", "atomic", "Beta", "bank"];
+        $array_lowercase = array_map("strtolower", $array);
+        multisort($array_lowercase, SORT_ASC, SORT_STRING, $array); // output: ["Alpha", "atomic", "bank", "Beta"]
+    </pre>
 </div>
 </body>
