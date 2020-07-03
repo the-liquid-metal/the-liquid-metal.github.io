@@ -46,11 +46,10 @@
     </p>
 
     <pre class="php-code">
-        $input = [12, 10, 9];
-
-        pad($input, 5, 0);      // output: [12, 10, 9, 0, 0]
-        pad($input, -7, -1);    // output: [-1, -1, -1, -1, 12, 10, 9]
-        pad($input, 2, "noop"); // output: not padded
+        $arr = new ScalarArray("int", false, [12, 10, 9]);
+        $arr->pad(5, 0);    // output: [12, 10, 9, 0, 0]
+        $arr->pad(-7, -1);  // output: [-1, -1, -1, -1, 12, 10, 9]
+        $arr->pad(2, 1000); // output: [12, 10, 9]
     </pre>
 </div>
 </body>

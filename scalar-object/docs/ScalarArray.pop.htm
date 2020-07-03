@@ -37,8 +37,9 @@
     </p>
 
     <pre class="php-code">
-        $stack = ["orange", "banana", "apple", "raspberry"];
-        pop($stack); // output: ["orange", "banana", "apple"]
+        $arr = new ScalarArray("string", false, ["orange", 5 => "banana", 6 =>"apple", "rotten" => "raspberry", "peach"]);
+        $arr->pop();   // output: "peach"
+        print_r($arr); // output: [0 => "orange", 5 => "banana", 6 =>"apple", "rotten" => "raspberry"]
     </pre>
     <div>and <em>raspberry</em> will be assigned to <var>$fruit</var>.</div>
 </div>

@@ -42,20 +42,6 @@
     <h3>Return Values</h3>
     <p>Returns an array of all the keys in <em>internal array</em>.</p>
 
-    <pre class="php-code">
-        $array = [0 => 100, "color" => "red"];
-        keys($array); // output: [0, "color"]
-
-        $array = ["blue", "red", "green", "blue", "blue"];
-        keys($array, "blue"); // output: [0, 3, 4]
-
-        $array = [
-            "color" => ["blue", "red", "green"],
-            "size"  => ["small", "medium", "large"],
-        ];
-        keys($array); // output: ["color", "size"]
-    </pre>
-
     <h2>search</h2>
 
     <div>Searches <em>internal array</em> for <var>$needle</var>.</div>
@@ -99,9 +85,9 @@
     </div>
 
     <pre class="php-code">
-        $array = [0 => "blue", 1 => "red", 2 => "green", 3 => "red"];
-        search("green", $array); // output: 2
-        search("red", $array);   // output: 1
+        $arr = new ScalarArray("string", false, ["blue", "red", "green", "color" => "blue", "blue"]);
+        $arr->searchKeys("blue");  // output: [0, "color", 4]
+        $arr->searchKeys("green"); // output: [2]
     </pre>
 </div>
 </body>

@@ -40,10 +40,10 @@
     </p>
 
     <pre class="php-code">
-        $input = ["Neo", "Morpheus", "Trinity", "Cypher", "Tank"];
-        $rand_keys = random($input, 2);
-        echo $input[$rand_keys[0]] . "\n";
-        echo $input[$rand_keys[1]] . "\n";
+        $arr = new ScalarArray("string",  false, ["Neo", "Morpheus", "Trinity", "Cypher", "Tank"]);
+        $rand = random($arr, 2);
+        echo $arr[$rand[0]] . "\n";
+        echo $arr[$rand[1]] . "\n";
     </pre>
 </div>
 </body>

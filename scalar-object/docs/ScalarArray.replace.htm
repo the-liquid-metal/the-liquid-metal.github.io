@@ -15,7 +15,8 @@
         <code>replace (bool <var>$recursive</var> = false, iterable ...<var>$replacements</var>): static</code>
         <p>
             Replaces elements from passed arrays into the first array recursively.<br/><br/>
-            see <a target="_blank" href="http://php.net/manual/en/function.array-replace-recursive.php">detail</a>.<br/>
+            see <a target="_blank" href="http://php.net/manual/en/function.array-replace.php">array_replace</a>&nbsp;
+            <a target="_blank" href="http://php.net/manual/en/function.array-replace-recursive.php">array_replace_recursive</a>.<br/>
         </p>
     </div>
 
@@ -47,21 +48,6 @@
 
     <h3>Return Values</h3>
     <p>Returns an array, or <code>NULL</code> if an error occurs.</p>
-
-    <pre class="php-code">
-        $base = ["orange", "banana", "apple", "raspberry"];
-        $replacements = [0 => "pineapple", 4 => "cherry"];
-        $replacements2 = [0 => "grape"];
-
-        replace($base, $replacements, $replacements2);
-        // output: [
-        //   0 => "grape",
-        //   1 => "banana",
-        //   2 => "apple",
-        //   3 => "raspberry",
-        //   4 => "cherry",
-        // ]
-    </pre>
 
     <h2>recursiveReplace</h2>
 
@@ -100,7 +86,19 @@
     <p>Returns an array, or <code>NULL</code> if an error occurs.</p>
 
     <pre class="php-code">
-        $base = [
+        $arr = new ScalarArray("string", false, ["orange", "banana", "apple", "raspberry"]);
+        $replacements1 = [0 => "pineapple", 4 => "cherry"];
+        $replacements2 = [0 => "grape"];
+        $arr->replace(false, $replacements1, $replacements2);
+        // output: [
+        //   0 => "grape",
+        //   1 => "banana",
+        //   2 => "apple",
+        //   3 => "raspberry",
+        //   4 => "cherry",
+        // ]
+
+        $arr = new ScalarArray("array", false, [
             "citrus" => ["orange"],
             "berries" => ["blackberry", "raspberry"],
         ];
@@ -108,25 +106,23 @@
             "citrus" => ["pineapple"],
             "berries" => ["blueberry"],
         ];
-
-        recursiveReplace($base, $replacements);
+        $arr->replace(true, $replacements);
         // output: [
         //   "citrus" => [pineapple],
         //   "berries" => ["blueberry", "raspberry"]
         // ]
-
-        array_replace($base, $replacements);
+        $arr->replace(false, $replacements);
         // output: [
         //   "citrus" => ["pineapple"],
         //   "berries" => ["blueberry"]
         // ]
 
-        $base = [
+        $arr = new ScalarArray("array", false, [
             "citrus" => ["orange"],
             "berries" => ["blackberry", "raspberry"],
             "others" => "banana"
         ];
-        $replacements = [
+        $replacements1 = [
             "citrus" => "pineapple",
             "berries" => ["blueberry"],
             "others" => ["litchis"]
@@ -136,7 +132,7 @@
             "berries" => ["blueberry"],
             "others" => "litchis"
         ];
-        recursiveReplace($base, $replacements, $replacements2);
+        $arr->replace(true, $replacements1, $replacements2);
         // output: [
         //   "citrus" => ["pineapple"],
         //   "berries" => ["blueberry", "raspberry"],

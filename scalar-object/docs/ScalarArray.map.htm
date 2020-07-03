@@ -38,50 +38,6 @@
         after applying the <var>$mapper</var> function to each one.
     </p>
 
-    <pre class="php-code">
-        function cube($n) {
-            return($n * $n * $n);
-        }
-
-        $a = [1, 2, 3, 4, 5];
-        map("cube", $a); // output: [0 => 1, 1 => 8, 2 => 27, 3 => 64, 4 => 125]
-
-        $func = function($value) {
-            return $value * 2;
-        };
-
-        map($func, range(1, 5)); // output: [0 => 2, 1 => 4, 2 => 6, 3 => 8, 4 => 10]
-
-        function show_Spanish($n, $m) {
-            return("The number $n is called $m in Spanish");
-        }
-
-        function map_Spanish($n, $m) {
-            return([$n => $m]);
-        }
-
-        $a = [1, 2, 3, 4, 5];
-        $b = ["uno", "dos", "tres", "cuatro", "cinco"];
-
-        map("show_Spanish", $a, $b);
-        // output: [
-        //   0 => "The number 1 is called uno in Spanish",
-        //   1 => "The number 2 is called dos in Spanish",
-        //   2 => "The number 3 is called tres in Spanish",
-        //   3 => "The number 4 is called cuatro in Spanish",
-        //   4 => "The number 5 is called cinco in Spanish",
-        // ]
-
-        map("map_Spanish", $a , $b);
-        // output: [
-        //   0 => [1 => "uno"],
-        //   1 => [2 => "dos"],
-        //   2 => [3 => "tres"],
-        //   3 => [4 => "cuatro"],
-        //   4 => [5 => "cinco"],
-        // ]
-    </pre>
-
     <p>
         Usually when using two or more arrays, they should be of equal length
         because the callback function is applied in parallel to the corresponding
@@ -94,21 +50,6 @@
         be easily performed by using <code>NULL</code> as the name of the callback function
     </p>
 
-    <pre class="php-code">
-        $a = [1, 2, 3, 4, 5];
-        $b = ["one", "two", "three", "four", "five"];
-        $c = ["uno", "dos", "tres", "cuatro", "cinco"];
-
-        map(null, $a, $b, $c);
-        // output: [
-        //   0 => [0 => 1, 1 => "one",   2 => "uno"],
-        //   1 => [0 => 2, 1 => "two",   2 => "dos"],
-        //   2 => [0 => 3, 1 => "three", 2 => "tres"],
-        //   3 => [0 => 4, 1 => "four",  2 => "cuatro"],
-        //   4 => [0 => 5, 1 => "five",  2 => "cinco"],
-        // ]
-    </pre>
-
     <p>
         If the array argument contains string keys then the returned array will
         contain string keys if and only if exactly one array is passed. If more
@@ -116,18 +57,46 @@
     </p>
 
     <pre class="php-code">
-        $arr = ["stringkey" => "value"];
-        function cb1($a) {
-            return [$a];
-        }
-        function cb2($a, $b) {
-            return [$a, $b];
-        }
+        $cube = fn($a, $b, $c) => $a * $b * $c;
+        $arr1 = new ScalarArray("int", false, [1, 2, 3, 4, 5]);
+        $arr2 = [2.3, 3.4, 4.5, 5.6, 6.7];
+        $arr3 = [140, 150, 160, 170, 180];
+        $a->map($cube, $b, $c); // output: [0 => 322, 1 => 1020, 2 => 2160, 3 => 3808, 4 => 5040]
 
-        map("cb1", $arr);       // output: ["stringkey" => [0 => "value"]]
-        map("cb2", $arr, $arr); // output: [0 => [0 => "value", 1 => "value"]]
-        map(null,  $arr);       // output: ["stringkey" => "value"]
-        map(null, $arr, $arr);  // output: [0 => [0 => "value", 1 => "value"]]
+        $arr1 = new ScalarArray("int", false, [1, 2, 3, 4, 5]);
+        $arr2 = ["uno", "dos", "tres", "cuatro", "cinco"];
+
+        $showSpanish = fn($a, $b) => "The number $a is called $b in Spanish";
+        $arr1->map($showSpanish, $arr2);
+        // output: [
+        //   0 => "The number 1 is called uno in Spanish",
+        //   1 => "The number 2 is called dos in Spanish",
+        //   2 => "The number 3 is called tres in Spanish",
+        //   3 => "The number 4 is called cuatro in Spanish",
+        //   4 => "The number 5 is called cinco in Spanish",
+        // ]
+
+        $mapSpanish = fn($a, $b) => [$a => $b];
+        $arr1->map($mapSpanish, $arr2);
+        // output: [
+        //   0 => [1 => "uno"],
+        //   1 => [2 => "dos"],
+        //   2 => [3 => "tres"],
+        //   3 => [4 => "cuatro"],
+        //   4 => [5 => "cinco"],
+        // ]
+
+        $arr1 = new ScalarArray("int", false, [1, 2, 3, 4, 5]);
+        $arr2 = ["one", "two", "three", "four", "five"];
+        $arr3 = ["uno", "dos", "tres", "cuatro", "cinco"];
+        $arr1->map(null, $arr2, $arr3);
+        // output: [
+        //   0 => [1, "one",   "uno"],
+        //   1 => [2, "two",   "dos"],
+        //   2 => [3, "three", "tres"],
+        //   3 => [4, "four",  "cuatro"],
+        //   4 => [5, "five",  "cinco"],
+        // ]
     </pre>
 </div>
 </body>

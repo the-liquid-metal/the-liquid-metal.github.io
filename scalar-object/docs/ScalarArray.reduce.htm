@@ -20,9 +20,8 @@
     </div>
 
     <div>
-        <strong>reduce()</strong> applies iteratively the <em>internal array</em>
-        function to the elements of the <em>internal array</em>, so as to reduce the
-        array to a single value.
+        <strong>reduce()</strong> applies iteratively the <var>$callback</var> function to the
+        elements of the <em>internal array</em>, so as to reduce the array to a single value.
     </div>
 
     <h3>Parameters</h3>
@@ -56,20 +55,15 @@
     </p>
 
     <pre class="php-code">
-        function sum($carry, $item) {
-            return $carry + $item;
-        }
+        $sum = fn($carry, $item) => $carry + $item;
+        $product = fn($carry, $item) => $carry * $item;
 
-        function product($carry, $item) {
-            return $carry * $item;
-        }
+        $arr1 = new ScalarArray("int", false, [1, 2, 3, 4, 5]);
+        $arr2 = new ScalarArray("int", false, []);
 
-        $a = [1, 2, 3, 4, 5];
-        $x = [];
-
-        reduce($a, "sum");                      // output: 15
-        reduce($a, "product", 10);              // output: 1200, because: 10*1*2*3*4*5
-        reduce($x, "sum", "No data to reduce"); // output: "No data to reduce"
+        $arr1->reduce($sum);                      // output: 15
+        $arr1->reduce($product, 10);              // output: 1200
+        $arr2->reduce($sum, "No data to reduce"); // output: "No data to reduce"
     </pre>
 </div>
 </body>

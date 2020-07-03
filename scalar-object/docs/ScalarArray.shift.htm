@@ -30,7 +30,7 @@
 
     <pre class="php-code">
         $arr = new ScalarArray("string", false, ["orange", 5 => "banana", 6 =>"apple", "rotten" => "raspberry", "peach"]);
-        $fruit = $arr->shift();
+        $arr->shift(); // output: "orange"
         print_r($arr); // output: [0 => "banana", 1 => "apple", "rotten" => raspberry, 2 => "peach"]
     </pre>
 </div>
