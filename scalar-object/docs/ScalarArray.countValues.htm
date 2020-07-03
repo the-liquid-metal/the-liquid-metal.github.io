@@ -35,7 +35,7 @@
     <p>Throws <code>E_WARNING</code> for every element which is not string or integer.</p>
 
     <pre class="php-code">
-        $arr = new ScalarArray("", false, ["1", "hello", "1", "world", "hello"]);
+        $arr = new ScalarArray("string", false, ["1", "hello", "1", "world", "hello"]);
         $arr->countValues(); // output: ["1" => 2, "hello" => 2, "world" => 1]
     </pre>
 </div>

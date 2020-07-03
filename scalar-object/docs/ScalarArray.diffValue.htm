@@ -282,10 +282,10 @@
         $sa = new ScalarArray(stdclass::class, false, $arr1);
         $sa->diffValue(BUILDIN_VALUE_COMPARATOR, BUILDIN_KEY_COMPARATOR, $arr2); // output: [0 => 0, 1 => 1]
 
-        $keyCompare = fn($a, $b) => $a <=> $b;
         $arr1 = ["a" => "green", "b" => "brown", "c" => "blue", "red"];
         $arr2 = ["a" => "green", "yellow", "red"];
         $sa = new ScalarArray(stdclass::class, false, $arr1);
+        $keyCompare = fn($a, $b) => $a <=> $b;
         $sa->diffValue(BUILDIN_VALUE_COMPARATOR, $keyCompare, $arr2); // output: ["b" => "brown", "c" => "blue", 0 => "red"]
 
         // Arrays to compare

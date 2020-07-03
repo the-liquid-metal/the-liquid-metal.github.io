@@ -57,17 +57,19 @@
     </p>
 
     <pre class="php-code">
+        $arr1 = [1,    2,    3,    4,    5];
+        $arr2 = [2.3,  3.4,  4.5,  5.6,  6.7];
+        $arr3 = [140,  150,  160,  170,  180];
+        $sa = new ScalarArray("int", false, $arr1);
         $cube = fn($a, $b, $c) => $a * $b * $c;
-        $arr1 = new ScalarArray("int", false, [1, 2, 3, 4, 5]);
-        $arr2 = [2.3, 3.4, 4.5, 5.6, 6.7];
-        $arr3 = [140, 150, 160, 170, 180];
-        $a->map($cube, $b, $c); // output: [0 => 322, 1 => 1020, 2 => 2160, 3 => 3808, 4 => 5040]
+        $sa->map($cube, $b, $c); // output: [0 => 322, 1 => 1020, 2 => 2160, 3 => 3808, 4 => 5040]
 
-        $arr1 = new ScalarArray("int", false, [1, 2, 3, 4, 5]);
+        $arr1 = [1,     2,     3,      4,        5];
         $arr2 = ["uno", "dos", "tres", "cuatro", "cinco"];
+        $sa = new ScalarArray("int", false, $arr1);
 
         $showSpanish = fn($a, $b) => "The number $a is called $b in Spanish";
-        $arr1->map($showSpanish, $arr2);
+        $sa->map($showSpanish, $arr2);
         // output: [
         //   0 => "The number 1 is called uno in Spanish",
         //   1 => "The number 2 is called dos in Spanish",
@@ -77,7 +79,7 @@
         // ]
 
         $mapSpanish = fn($a, $b) => [$a => $b];
-        $arr1->map($mapSpanish, $arr2);
+        $sa->map($mapSpanish, $arr2);
         // output: [
         //   0 => [1 => "uno"],
         //   1 => [2 => "dos"],
@@ -86,10 +88,11 @@
         //   4 => [5 => "cinco"],
         // ]
 
-        $arr1 = new ScalarArray("int", false, [1, 2, 3, 4, 5]);
-        $arr2 = ["one", "two", "three", "four", "five"];
-        $arr3 = ["uno", "dos", "tres", "cuatro", "cinco"];
-        $arr1->map(null, $arr2, $arr3);
+        $arr1 = [1,     2,     3,       4,        5];
+        $arr2 = ["one", "two", "three", "four",   "five"];
+        $arr3 = ["uno", "dos", "tres",  "cuatro", "cinco"];
+        $sa = new ScalarArray("int", false, $arr1);
+        $sa->map(null, $arr2, $arr3);
         // output: [
         //   0 => [1, "one",   "uno"],
         //   1 => [2, "two",   "dos"],

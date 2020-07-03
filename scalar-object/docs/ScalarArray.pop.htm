@@ -37,10 +37,9 @@
     </p>
 
     <pre class="php-code">
-        $arr = new ScalarArray("string", false, ["orange", 5 => "banana", 6 =>"apple", "rotten" => "raspberry", "peach"]);
-        $arr->pop();   // output: "peach"
-        print_r($arr); // output: [0 => "orange", 5 => "banana", 6 =>"apple", "rotten" => "raspberry"]
+        $sa = new ScalarArray("string", false, ["orange", 5 => "banana", 6 =>"apple", "rotten" => "raspberry", "peach"]);
+        $sa->pop();   // output: "peach"
+        print_r($sa); // output: [0 => "orange", 5 => "banana", 6 =>"apple", "rotten" => "raspberry"]
     </pre>
-    <div>and <em>raspberry</em> will be assigned to <var>$fruit</var>.</div>
 </div>
 </body>

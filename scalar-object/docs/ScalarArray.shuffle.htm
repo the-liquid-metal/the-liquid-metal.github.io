@@ -31,8 +31,8 @@
     </blockquote>
 
     <pre class="php-code">
-        $arr = new ScalarArray("int", false, range(1, 20));
-        $arr->shuffle();
+        $sa = new ScalarArray("int", false, range(1, 20));
+        $sa->shuffle();
         foreach ($arr as $item) {
             echo "$item ";
         }

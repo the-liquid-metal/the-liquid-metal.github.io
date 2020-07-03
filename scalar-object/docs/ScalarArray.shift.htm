@@ -29,9 +29,9 @@
     <p>The shifted value, or <code>null</code> if <em>intenal array</em> is empty.</p>
 
     <pre class="php-code">
-        $arr = new ScalarArray("string", false, ["orange", 5 => "banana", 6 =>"apple", "rotten" => "raspberry", "peach"]);
-        $arr->shift(); // output: "orange"
-        print_r($arr); // output: [0 => "banana", 1 => "apple", "rotten" => raspberry, 2 => "peach"]
+        $sa = new ScalarArray("string", false, ["orange", 5 => "banana", 6 =>"apple", "rotten" => "raspberry", "peach"]);
+        $sa->shift(); // output: "orange"
+        print_r($sa); // output: [0 => "banana", 1 => "apple", "rotten" => raspberry, 2 => "peach"]
     </pre>
 </div>
 </body>

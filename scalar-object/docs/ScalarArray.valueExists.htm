@@ -37,21 +37,21 @@
     <p>Returns <code>true</code> if <var>$needle</var> is found in the array, <code>false</code> otherwise.</p>
 
     <pre class="php-code">
-        $a = new ScalarArray("string", false, ["Mac", "NT", "Irix", "Linux"]);
-        if ($a->valueExists("Irix")) echo "Got Irix";
-        if ($a->valueExists("mac")) echo "Got mac";
+        $sa = new ScalarArray("string", false, ["Mac", "NT", "Irix", "Linux"]);
+        if ($sa->valueExists("Irix")) echo "Got Irix";
+        if ($sa->valueExists("mac")) echo "Got mac";
         // output:
         //> Got Irix
 
-        $a = new ScalarArray("float", false, [1.23, 2.34, 3.45, 4.56]);
-        if ($a->valueExists("2.34", true)) echo "'2.34' found with strict check\n";
-        if ($a->valueExists(3.45, true)) echo "3.45 found with strict check\n";
+        $sa = new ScalarArray("float", false, [1.23, 2.34, 3.45, 4.56]);
+        if ($sa->valueExists("2.34", true)) echo "'2.34' found with strict check\n";
+        if ($sa->valueExists(3.45, true)) echo "3.45 found with strict check\n";
         // output:
         //> 3.45 found with strict check
 
-        $a = new ScalarArray("array", false, [["a", "b"], ["c", "d"], ["e", "f"]];
-        if ($a->valueExists(["a", "b"])) echo "'ab' was found\n";
-        if ($a->valueExists(["a", "c"])) echo "'ac' was found\n";
+        $sa = new ScalarArray("array", false, [["a", "b"], ["c", "d"], ["e", "f"]];
+        if ($sa->valueExists(["a", "b"])) echo "'ab' was found\n";
+        if ($sa->valueExists(["a", "c"])) echo "'ac' was found\n";
         // output:
         //> 'ab' was found
     </pre>

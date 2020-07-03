@@ -285,17 +285,17 @@
     <p><code>TRUE</code> on success or <code>FALSE</code> on failure.</p>
 
     <pre class="php-code">
-        $cmp = fn($a, $b) => $a <=> $b;
-        $a = new ScalarArray("int", false, [3, 2, 5, 6, 1]);
-        $a->sortValue($cmp); // output: [0 => 1, 1 => 2, 2 => 3, 3 => 5, 4 => 6]
+        $cmp = fn($val1, $val2) => $val1 <=> $val2;
+        $sa = new ScalarArray("int", false, [3, 2, 5, 6, 1]);
+        $sa->sortValue($cmp); // output: [0 => 1, 1 => 2, 2 => 3, 3 => 5, 4 => 6]
 
-        $cmp = fn($a, $b) => strcmp($a["fruit"], $b["fruit"]);
-        $a = new ScalarArray("array", false, [
+        $cmp = fn($val1, $val2) => strcmp($val1["fruit"], $val2["fruit"]);
+        $sa = new ScalarArray("array", false, [
             0 => ["fruit" => "lemons"],
             1 => ["fruit" => "apples"],
             2 => ["fruit" => "grapes"],
         ]);
-        $a->sortValue($cmp);
+        $sa->sortValue($cmp);
         // output: [
         //   0 => ["fruit" => "apples"],
         //   1 => ["fruit" => "grapes"],
@@ -307,15 +307,15 @@
             function __construct($name) {
                 $this->name = $name;
             }
-            static function cmp($a, $b) {
-                return strtolower($a->name) <=> strtolower($b->name);
+            static function cmp($obj1, $obj2) {
+                return strtolower($obj1->name) <=> strtolower($obj2->name);
             }
         }
 
-        $a = new ScalarArray("TestObj", false, [new TestObj("c"), new TestObj("b"), new TestObj("d")]);
-        userSort($a, ["TestObj", "cmp"]); // output: [b, c, d]
+        $sa = new ScalarArray("TestObj", false, [new TestObj("c"), new TestObj("b"), new TestObj("d")]);
+        $sa->sortValue(TestObj::class."::cmp"); // output: [b, c, d]
 
-        $arr = new ScalarArray("array", false, [
+        $sa = new ScalarArray("array", false, [
             ["key_a" => "z", "key_b" => "c"],
             ["key_a" => "x", "key_b" => "b"],
             ["key_a" => "y", "key_b" => "a"],
@@ -323,32 +323,32 @@
         function build_sorter($key) {
             return fn($a, $b) => strnatcmp($a[$key], $b[$key]);
         }
-        $arr->sortValue(build_sorter("key_b"));
+        $sa->sortValue(build_sorter("key_b"));
         // outout: [
         //   ["key_a" => "y", "key_b" => "a"],
         //   ["key_a" => "x", "key_b" => "b"],
         //   ["key_a" => "z", "key_b" => "c"],
         // ]
 
-        $cmp = fn($a, $b) => $a <=> $b;
-        $arr = new ScalarArray("int", false, ["a" => 4, "b" => 8, "c" => -1, "d" => -9, "e" => 2, "f" => 5, "g" => 3, "h" => -4]);
-        $arr->sortValue($cmp, false, false, true); // output: ["d" => -9, "h" => -4, "c" => -1, "e" => 2, "g" => 3, "a" => 4, "f" => 5, "b" => 8]
+        $cmp = fn($val1, $val2) => $val1 <=> $val2;
+        $sa = new ScalarArray("int", false, ["a" => 4, "b" => 8, "c" => -1, "d" => -9, "e" => 2, "f" => 5, "g" => 3, "h" => -4]);
+        $sa->sortValue($cmp, false, false, true); // output: ["d" => -9, "h" => -4, "c" => -1, "e" => 2, "g" => 3, "a" => 4, "f" => 5, "b" => 8]
 
-        $arr = new ScalarArray("string", false, ["Orange1", "orange2", "Orange3", "orange20"]);
-        $arr->sortValue(SORT_NATURAL, false, true, false); // output: ["Orange1", "orange2", "Orange3", "orange20"]
+        $sa = new ScalarArray("string", false, ["Orange1", "orange2", "Orange3", "orange20"]);
+        $sa->sortValue(SORT_NATURAL, false, true, false); // output: ["Orange1", "orange2", "Orange3", "orange20"]
 
-        $arr = new ScalarArray("string", false, ["d" => "lemon", "a" => "orange", "b" => "banana", "c" => "apple"]);
-        $arr->sortValue(SORT_REGULAR, true,  false, true);  // output: ["a" => "orange", "d" => "lemon",  "b" => "banana", "c" => "apple"]
-        $arr->sortValue(SORT_REGULAR, true,  false, false); // output: [  0 => "orange",   1 => "lemon",    2 => "banana",   3 => "apple"]
-        $arr->sortValue(SORT_REGULAR, false, false, true);  // output: ["c" => "apple",  "b" => "banana", "d" => "lemon",  "a" => "orange"]
-        $arr->sortValue(SORT_REGULAR, false, false, false); // output: [  0 => "apple",    1 => "banana",   2 => "lemon",    3 => "orange"]
+        $sa = new ScalarArray("string", false, ["d" => "lemon", "a" => "orange", "b" => "banana", "c" => "apple"]);
+        $sa->sortValue(SORT_REGULAR, true,  false, true);  // output: ["a" => "orange", "d" => "lemon",  "b" => "banana", "c" => "apple"]
+        $sa->sortValue(SORT_REGULAR, true,  false, false); // output: [  0 => "orange",   1 => "lemon",    2 => "banana",   3 => "apple"]
+        $sa->sortValue(SORT_REGULAR, false, false, true);  // output: ["c" => "apple",  "b" => "banana", "d" => "lemon",  "a" => "orange"]
+        $sa->sortValue(SORT_REGULAR, false, false, false); // output: [  0 => "apple",    1 => "banana",   2 => "lemon",    3 => "orange"]
 
-        $arr = new ScalarArray("string", false, ["php", "4.0", 5 => "green", "color" => "red"]);
-        $arr->sortValue(SORT_NONE, true, false, false); // output: [      0 => "red", 1 => "green", 2 => "4.0", 3 => "php"]
-        $arr->sortValue(SORT_NONE, true, false, true);  // output: ["color" => "red", 5 => "green", 1 => "4.0", 0 => "php"]
+        $sa = new ScalarArray("string", false, ["php", "4.0", 5 => "green", "color" => "red"]);
+        $sa->sortValue(SORT_NONE, true, false, false); // output: [      0 => "red", 1 => "green", 2 => "4.0", 3 => "php"]
+        $sa->sortValue(SORT_NONE, true, false, true);  // output: ["color" => "red", 5 => "green", 1 => "4.0", 0 => "php"]
 
-        $arr = new ScalarArray("string", false, ["IMG0.png", "img12.png", "img10.png", "img2.png", "img1.png", "IMG3.png"]);
-        $arr->sortValue(SORT_REGULAR, false, false, false);
+        $sa = new ScalarArray("string", false, ["IMG0.png", "img12.png", "img10.png", "img2.png", "img1.png", "IMG3.png"]);
+        $sa->sortValue(SORT_REGULAR, false, false, false);
         // output: [
         //   0 => "IMG0.png",
         //   1 => "IMG3.png",
@@ -357,7 +357,7 @@
         //   4 => "img12.png",
         //   5 => "img2.png"
         // ]
-        $arr->sortValue(SORT_NATURAL, false, true, true);
+        $sa->sortValue(SORT_NATURAL, false, true, true);
         // output: [
         //   0 => "IMG0.png",
         //   4 => "img1.png",
@@ -367,12 +367,12 @@
         //   1 => "img12.png"
         // ]
 
-        $arr = new ScalarArray("string", false, ["img12.png", "img10.png", "img2.png", "img1.png"]);
-        $arr->sortValue(SORT_REGULAR, false, false, true); // output: [3 => "img1.png", 1 => "img10.png", 0 => "img12.png", 2 => "img2.png"]
-        $arr->sortValue(SORT_NATURAL, false, false, true); // output: [3 => "img1.png", 2 => "img2.png",  1 => "img10.png", 0 => "img12.png"]
+        $sa = new ScalarArray("string", false, ["img12.png", "img10.png", "img2.png", "img1.png"]);
+        $sa->sortValue(SORT_REGULAR, false, false, true); // output: [3 => "img1.png", 1 => "img10.png", 0 => "img12.png", 2 => "img2.png"]
+        $sa->sortValue(SORT_NATURAL, false, false, true); // output: [3 => "img1.png", 2 => "img2.png",  1 => "img10.png", 0 => "img12.png"]
 
-        $arr = new ScalarArray("string", false, ["-5", "3", "-2", "0", "-1000", "9", "1"]);
-        $arr->sortValue(SORT_NATURAL, false, false, true);
+        $sa = new ScalarArray("string", false, ["-5", "3", "-2", "0", "-1000", "9", "1"]);
+        $sa->sortValue(SORT_NATURAL, false, false, true);
         // output: [
         //   2 => "-2",
         //   0 => "-5",
@@ -383,8 +383,8 @@
         //   5 => "9"
         // ]
 
-        $arr = new ScalarArray("string", false, ["09", "8", "10", "009", "011", "0"]);
-        $arr->sortValue(SORT_NATURAL, false, false, true);
+        $sa = new ScalarArray("string", false, ["09", "8", "10", "009", "011", "0"]);
+        $sa->sortValue(SORT_NATURAL, false, false, true);
         // output: [
         //   5 => "0",
         //   1 => "8",

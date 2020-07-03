@@ -87,9 +87,10 @@
     <p>An array of values resulted from merging the arguments together.</p>
 
     <pre class="php-code">
-        $arr1 = new ScalarArray("string", false, ["color" => "red", "blue", "orange"]);
+        $arr1 = ["color" => "red", "blue", "orange"];
         $arr2 = ["grey", "yellow", "color" => "green", "shape" => "trapezoid", "black"];
-        $arr1->merge(false, $array2);
+        $sa = new ScalarArray("string", false, $arr1);
+        $sa->merge(false, $array2);
         // output: [
         //   "color" => "green",
         //   0 => "blue",
@@ -100,13 +101,15 @@
         //   4 => "black",
         // ]
 
-        $arr1 = new ScalarArray("string", false, []);
+        $arr1 = [];
         $arr2 = [1 => "data"];
-        $arr1->merge(false, $arr2); // output: [0 => "data"]
+        $sa = new ScalarArray("string", false, $arr1);
+        $sa->merge(false, $arr2); // output: [0 => "data"]
 
-        $arr1 = new ScalarArray("array", false, ["color" => ["favorite" => "red"], [5]]);
+        $arr1 = ["color" => ["favorite" => "red"], [5]];
         $arr2 = [[10], "color" => ["favorite" => "green", "blue"]];
-        $arr1->merge(true, $arr2);
+        $sa = new ScalarArray("array", false, $arr1);
+        $sa->merge(true, $arr2);
         // output: [
         //   "color" => [
         //     "favorite" => ["red", "green"],

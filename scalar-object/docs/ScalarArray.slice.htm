@@ -56,14 +56,14 @@
     <p>The slice.</p>
 
     <pre class="php-code">
-        $arr = new ScalarArray("string", false, ["a", "b", "c", "d", "e"]);
+        $sa = new ScalarArray("string", false, ["a", "b", "c", "d", "e"]);
 
-        $arr->slice(2);     // output: ["c", "d", "e"]
-        $arr->slice(-2, 1); // output: ["d"]
-        $arr->slice(0, 3);  // output: ["a", "b", "c"]
+        $sa->slice(2);     // output: ["c", "d", "e"]
+        $sa->slice(-2, 1); // output: ["d"]
+        $sa->slice(0, 3);  // output: ["a", "b", "c"]
 
-        $arr->slice(2, -1);       // output: [0 => "c", 1 => "d"]
-        $arr->slice(2, -1, true); // output: [2 => "c", 3 => "d"]
+        $sa->slice(2, -1);       // output: [0 => "c", 1 => "d"]
+        $sa->slice(2, -1, true); // output: [2 => "c", 3 => "d"]
     </pre>
 </div>
 </body>

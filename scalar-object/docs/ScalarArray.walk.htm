@@ -108,13 +108,18 @@
     <h3>Return Values</h3>
     <p>Returns <code>TRUE</code> on success or <code>FALSE</code> on failure.</p>
 
+    <div>
+        You may notice that the key '<em>sweet</em>' is never displayed. Any key that holds an
+        array will not be passed to the function.
+    </div>
+
     <pre class="php-code">
-        $fruits = new ScalarArray(["d" => "lemon", "a" => "orange", "b" => "banana", "c" => "apple"]);
+        $sa = new ScalarArray(["d" => "lemon", "a" => "orange", "b" => "banana", "c" => "apple"]);
 
         $testPrint = function ($item2, $key) {
             echo "$key. $item2&lt;br/>\n";
         };
-        $fruits->walk($testPrint);
+        $sa->walk($testPrint);
         // output:
         //> d. lemon
         //> a. orange
@@ -124,7 +129,7 @@
         $testAlter = function (&amp;$item1, $key, $prefix) {
             $item1 = "$prefix: $item1";
         };
-        $fruits->walk($testAlter, false "fruit");
+        $sa->walk($testAlter, false "fruit");
         // output:
         //> d. fruit: lemon
         //> a. fruit: orange
@@ -132,23 +137,18 @@
         //> c. fruit: apple
 
 
-        $fruits = new ScalarArray([
+        $sa = new ScalarArray([
             "sweet" => ["a" => "apple", "b" => "banana"],
             "sour" => ["c" => "lemon"],
         ]);
         $testPrint = function ($item, $key) {
             echo "$key holds $item\n";
         }
-        $fruits->walk($testPrint, true);
+        $sa->walk($testPrint, true);
         // output:
         //> a holds apple
         //> b holds banana
         //> c holds lemon
     </pre>
-
-    <div>
-        You may notice that the key '<em>sweet</em>' is never displayed. Any key that holds an
-        array will not be passed to the function.
-    </div>
 </div>
 </body>

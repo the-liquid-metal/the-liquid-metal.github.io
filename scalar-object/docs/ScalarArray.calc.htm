@@ -47,49 +47,49 @@
     <p>The sum/avg/max/min/product of values as an integer or float.</p>
 
     <pre class="php-code">
-        $a = new ScalarArray("int", false, [2, 4, 6, 8]);
-        $a->calc("sum");     // output: 20
-        $a->calc("avg");     // output: 5
-        $a->calc("max");     // output: 8
-        $a->calc("min");     // output: 2
-        $a->calc("product"); // output: 384
+        $sa = new ScalarArray("int", false, [2, 4, 6, 8]);
+        $sa->calc("sum");     // output: 20
+        $sa->calc("avg");     // output: 5
+        $sa->calc("max");     // output: 8
+        $sa->calc("min");     // output: 2
+        $sa->calc("product"); // output: 384
 
-        $a = new ScalarArray("int", true, [2, null, NAN, INF, 4, 6, 8]);
-        $a->calc("sum");     // output: 20
-        $a->calc("avg");     // output: 5
-        $a->calc("max");     // output: 8
-        $a->calc("min");     // output: 2
-        $a->calc("product"); // output: 384
+        $sa = new ScalarArray("int", true, [2, null, NAN, INF, 4, 6, 8]);
+        $sa->calc("sum");     // output: 20
+        $sa->calc("avg");     // output: 5
+        $sa->calc("max");     // output: 8
+        $sa->calc("min");     // output: 2
+        $sa->calc("product"); // output: 384
 
-        $a->calc("sum", true);     // output: 20
-        $a->calc("avg", true);     // output: 2.8571428571429
-        $a->calc("max", true);     // output: 8
-        $a->calc("min", true);     // output: 2
-        $a->calc("product", true); // output: 384
-
-        // modified behaviour: 0 is converted to NAN
-        $a = new ScalarArray("string", false, ["a", "aa", "aab", "aaa"]);
-        $a->calc("sum");     // output: NAN
-        $a->calc("avg");     // output: NAN
-        $a->calc("max");     // output: "aab"
-        $a->calc("min");     // output: "a"
-        $a->calc("product"); // output: NAN
+        $sa->calc("sum", true);     // output: 20
+        $sa->calc("avg", true);     // output: 2.8571428571429
+        $sa->calc("max", true);     // output: 8
+        $sa->calc("min", true);     // output: 2
+        $sa->calc("product", true); // output: 384
 
         // modified behaviour: 0 is converted to NAN
-        $a = new ScalarArray("string", true, ["a", null, "aa", "aab", "aaa"]);
-        $a->calc("sum");     // output: NAN
-        $a->calc("avg");     // output: NAN
-        $a->calc("max");     // output: "aab"
-        $a->calc("min");     // output: ""
-        $a->calc("product"); // output: NAN
+        $sa = new ScalarArray("string", false, ["a", "aa", "aab", "aaa"]);
+        $sa->calc("sum");     // output: NAN
+        $sa->calc("avg");     // output: NAN
+        $sa->calc("max");     // output: "aab"
+        $sa->calc("min");     // output: "a"
+        $sa->calc("product"); // output: NAN
+
+        // modified behaviour: 0 is converted to NAN
+        $sa = new ScalarArray("string", true, ["a", null, "aa", "aab", "aaa"]);
+        $sa->calc("sum");     // output: NAN
+        $sa->calc("avg");     // output: NAN
+        $sa->calc("max");     // output: "aab"
+        $sa->calc("min");     // output: ""
+        $sa->calc("product"); // output: NAN
 
         // modified behaviour: 0 is converted to NAN, null is treated as ""
-        $a = new ScalarArray("bool", false, [true, true, false, true]);
-        $a->calc("sum");     // output: NAN
-        $a->calc("avg");     // output: NAN
-        $a->calc("max");     // output: NAN
-        $a->calc("min");     // output: NAN
-        $a->calc("product"); // output: NAN
+        $sa = new ScalarArray("bool", false, [true, true, false, true]);
+        $sa->calc("sum");     // output: NAN
+        $sa->calc("avg");     // output: NAN
+        $sa->calc("max");     // output: NAN
+        $sa->calc("min");     // output: NAN
+        $sa->calc("product"); // output: NAN
     </pre>
 </div>
 </body>

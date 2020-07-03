@@ -86,10 +86,11 @@
     <p>Returns an array, or <code>NULL</code> if an error occurs.</p>
 
     <pre class="php-code">
-        $arr = new ScalarArray("string", false, ["orange", "banana", "apple", "raspberry"]);
+        $arr = ["orange", "banana", "apple", "raspberry"];
         $replacements1 = [0 => "pineapple", 4 => "cherry"];
         $replacements2 = [0 => "grape"];
-        $arr->replace(false, $replacements1, $replacements2);
+        $sa = new ScalarArray("string", false, $arr);
+        $sa->replace(false, $replacements1, $replacements2);
         // output: [
         //   0 => "grape",
         //   1 => "banana",
@@ -98,7 +99,8 @@
         //   4 => "cherry",
         // ]
 
-        $arr = new ScalarArray("array", false, [
+
+        $arr = [
             "citrus" => ["orange"],
             "berries" => ["blackberry", "raspberry"],
         ];
@@ -106,18 +108,20 @@
             "citrus" => ["pineapple"],
             "berries" => ["blueberry"],
         ];
-        $arr->replace(true, $replacements);
+        $sa = new ScalarArray("array", false, $arr);
+        $sa->replace(true, $replacements);
         // output: [
         //   "citrus" => [pineapple],
         //   "berries" => ["blueberry", "raspberry"]
         // ]
-        $arr->replace(false, $replacements);
+        $sa->replace(false, $replacements);
         // output: [
         //   "citrus" => ["pineapple"],
         //   "berries" => ["blueberry"]
         // ]
 
-        $arr = new ScalarArray("array", false, [
+
+        $arr = [
             "citrus" => ["orange"],
             "berries" => ["blackberry", "raspberry"],
             "others" => "banana"
@@ -132,7 +136,8 @@
             "berries" => ["blueberry"],
             "others" => "litchis"
         ];
-        $arr->replace(true, $replacements1, $replacements2);
+        $sa = new ScalarArray("array", false, $arr);
+        $sa->replace(true, $replacements1, $replacements2);
         // output: [
         //   "citrus" => ["pineapple"],
         //   "berries" => ["blueberry", "raspberry"],

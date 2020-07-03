@@ -40,10 +40,11 @@
     </p>
 
     <pre class="php-code">
-        $arr = new ScalarArray("string",  false, ["Neo", "Morpheus", "Trinity", "Cypher", "Tank"]);
-        $rand = random($arr, 2);
-        echo $arr[$rand[0]] . "\n";
-        echo $arr[$rand[1]] . "\n";
+        $sa = new ScalarArray("string",  false, ["Neo", "Morpheus", "Trinity", "Cypher", "Tank"]);
+        $sa->random(2);
+        // probably output: ["Neo", "Tank"]
+        // probably output: ["Morpheus", "Tank"]
+        // probably output: ["Trinity", "Tank"]
     </pre>
 </div>
 </body>

@@ -94,17 +94,17 @@
             $y = preg_replace("@^(a|an|the) @", "", $b);
             return strcasecmp($x, $y);
         };
-        $arr = new ScalarArray("string", false, ["John" => 1, "the Earth" => 2, "an apple" => 3, "a banana" => 4]);
-        $arr->sortKey(SORT_REGULAR); // output: ["John" => 1,     "a banana" => 4, "an apple" => 3,  "the Earth" => 2]
-        $arr->sortKey($cmp);         // output: ["an apple" => 3, "a banana" => 4, "the Earth" => 2, "John" => 1]
+        $sa = new ScalarArray("string", false, ["John"     => 1, "the Earth" => 2, "an apple"  => 3, "a banana"  => 4]);
+        $sa->sortKey(SORT_REGULAR); // output: ["John"     => 1, "a banana"  => 4, "an apple"  => 3, "the Earth" => 2]
+        $sa->sortKey($cmp);         // output: ["an apple" => 3, "a banana"  => 4, "the Earth" => 2, "John"      => 1]
 
-        $arr = new ScalarArray("string", false, ["d" => "lemon", "a" => "orange", "b" => "banana", "c" => "apple"]);
-        $arr->sortKey(SORT_REGULAR, false); // output: ["a" => "orange", "b" => "banana", "c" => "apple",  "d" => "lemon"]
-        $arr->sortKey(SORT_REGULAR, true);  // output: ["d" => "lemon",  "c" => "apple",  "b" => "banana", "a" => "orange"]
+        $sa = new ScalarArray("string", false, ["d" => "lemon", "a" => "orange", "b" => "banana", "c" => "apple"]);
+        $sa->sortKey(SORT_REGULAR, false); // output: ["a" => "orange", "b" => "banana", "c" => "apple",  "d" => "lemon"]
+        $sa->sortKey(SORT_REGULAR, true);  // output: ["d" => "lemon",  "c" => "apple",  "b" => "banana", "a" => "orange"]
 
-        $arr = new ScalarArray("string", false, ["php", "4.0", 5 => "green", "color" => "red"]);
-        $arr->sortKey(SORT_NONE, true, false, false); // output: [      0 => "red", 1 => "green", 2 => "4.0", 3 => "php"]
-        $arr->sortKey(SORT_NONE, true, false, true);  // output: ["color" => "red", 5 => "green", 1 => "4.0", 0 => "php"]
+        $sa = new ScalarArray("string", false, ["php", "4.0", 5 => "green", "color" => "red"]);
+        $sa->sortKey(SORT_NONE, true, false, false); // output: [      0 => "red", 1 => "green", 2 => "4.0", 3 => "php"]
+        $sa->sortKey(SORT_NONE, true, false, true);  // output: ["color" => "red", 5 => "green", 1 => "4.0", 0 => "php"]
     </pre>
 </div>
 </body>

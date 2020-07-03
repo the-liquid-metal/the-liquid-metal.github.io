@@ -58,12 +58,12 @@
         $sum = fn($carry, $item) => $carry + $item;
         $product = fn($carry, $item) => $carry * $item;
 
-        $arr1 = new ScalarArray("int", false, [1, 2, 3, 4, 5]);
-        $arr2 = new ScalarArray("int", false, []);
+        $sa1 = new ScalarArray("int", false, [1, 2, 3, 4, 5]);
+        $sa2 = new ScalarArray("int", false, []);
 
-        $arr1->reduce($sum);                      // output: 15
-        $arr1->reduce($product, 10);              // output: 1200
-        $arr2->reduce($sum, "No data to reduce"); // output: "No data to reduce"
+        $sa1->reduce($sum);                      // output: 15
+        $sa1->reduce($product, 10);              // output: 1200
+        $sa2->reduce($sum, "No data to reduce"); // output: "No data to reduce"
     </pre>
 </div>
 </body>

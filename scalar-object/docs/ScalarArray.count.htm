@@ -54,15 +54,15 @@
     <p>The number of elements in <em>internal array</em>.</p>
 
     <pre class="php-code">
-        $arr1 = new ScalarArray("int", false, [0 => 1, 1 => 3, 2 => 5]);
-        $arr1->count(); // output: 3
+        $sa = new ScalarArray("int", false, [0 => 1, 1 => 3, 2 => 5]);
+        $sa->count(); // output: 3
 
-        $arr2 = new ScalarArray("array", false, [
+        $sa = new ScalarArray("array", false, [
             "fruits" => ["orange", "banana", "apple"],
             "veggie" => ["carrot", "collard", "pea"],
         ]);
-        $arr2->count(COUNT_RECURSIVE); // output: 8
-        $arr2->count();                // output: 2
+        $sa->count();                // output: 2
+        $sa->count(COUNT_RECURSIVE); // output: 8
     </pre>
 </div>
 </body>

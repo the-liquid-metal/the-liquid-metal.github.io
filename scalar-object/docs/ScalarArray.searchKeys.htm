@@ -85,9 +85,9 @@
     </div>
 
     <pre class="php-code">
-        $arr = new ScalarArray("string", false, ["blue", "red", "green", "color" => "blue", "blue"]);
-        $arr->searchKeys("blue");  // output: [0, "color", 4]
-        $arr->searchKeys("green"); // output: [2]
+        $sa = new ScalarArray("string", false, ["blue", "red", "green", "color" => "blue", "blue"]);
+        $sa->searchKeys("blue");  // output: [0, "color", 4]
+        $sa->searchKeys("green"); // output: [2]
     </pre>
 </div>
 </body>
