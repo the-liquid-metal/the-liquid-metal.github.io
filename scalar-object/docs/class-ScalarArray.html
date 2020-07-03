@@ -59,7 +59,7 @@
                         <td class="name">
                             <div>
                                 <a class="anchor" href="#m_ScalarArray_sortValue">#</a>
-                                <code class="overview">(callable <var>$sorter</var> = null, bool <var>$reverse</var> = false, bool <var>$insensitive</var> = false, bool <var>$assoc</var> = false): self</code>
+                                <code class="overview">(callable|int <var>$sorter</var> = null, bool <var>$reverse</var> = false, bool <var>$insensitive</var> = false, bool <var>$assoc</var> = false): self</code>
                                 <div class="description short">
                                     <p>
                                         Sort and/or reverse values.<br/><br/>
@@ -84,7 +84,7 @@
                         <td class="name">
                             <div>
                                 <a class="anchor" href="#m_ScalarArray_sortKey">#</a>
-                                <code class="overview">(callable <var>$sorter</var> = null, bool <var>$reverse</var> = false, bool <var>$insensitive</var> = false): static</code>
+                                <code class="overview">(callable|int <var>$sorter</var> = null, bool <var>$reverse</var> = false, bool <var>$insensitive</var> = false): static</code>
                                 <div class="description short">
                                     <p>
                                         Sort and/or reverse keys.<br/><br/>
@@ -121,7 +121,7 @@
                         <td class="name">
                             <div>
                                 <a class="anchor" href="#m_ScalarArray_diffValue">#</a>
-                                <code class="overview">(callable <var>$valComparator</var>, callable <var>$keyComparator</var>, iterable ...<var>$arrays</var>): ScalarArray|ObjectArray</code>
+                                <code class="overview">(callable|int <var>$valComparator</var>, callable|int <var>$keyComparator</var>, iterable ...<var>$arrays</var>): ScalarArray|ObjectArray</code>
                                 <div class="description short">
                                     <p>
                                         Compute difference of values, considering keys or not.<br/><br/>
@@ -143,7 +143,7 @@
                         <td class="name">
                             <div>
                                 <a class="anchor" href="#m_ScalarArray_diffKey">#</a>
-                                <code class="overview">(callable <var>$keyComparator</var>, iterable ...<var>$arrays</var>): ScalarArray|ObjectArray</code>
+                                <code class="overview">(callable|int <var>$keyComparator</var>, iterable ...<var>$arrays</var>): ScalarArray|ObjectArray</code>
                                 <div class="description short">
                                     <p>
                                         Computes the difference using a callback function on the keys for comparison.<br/><br/>
@@ -161,7 +161,7 @@
                         <td class="name">
                             <div>
                                 <a class="anchor" href="#m_ScalarArray_intersectValue">#</a>
-                                <code class="overview">(callable <var>$valComparator</var>, callable <var>$keyComparator</var>, iterable ...<var>$arrays</var>): ScalarArray|ObjectArray</code>
+                                <code class="overview">(callable|int <var>$valComparator</var>, callable|int <var>$keyComparator</var>, iterable ...<var>$arrays</var>): ScalarArray|ObjectArray</code>
                                 <div class="description short">
                                     <p>
                                         Compute intersection of values, considering keys or not.<br/><br/>
@@ -183,7 +183,7 @@
                         <td class="name">
                             <div>
                                 <a class="anchor" href="#m_ScalarArray_intersectKey">#</a>
-                                <code class="overview">(callable <var>$keyComparator</var>, iterable ...<var>$arrays</var>): ScalarArray|ObjectArray</code>
+                                <code class="overview">(callable|int <var>$keyComparator</var>, iterable ...<var>$arrays</var>): ScalarArray|ObjectArray</code>
                                 <div class="description short">
                                     <p>
                                         Computes the intersection using a callback function on the keys for comparison.<br/><br/>
@@ -747,7 +747,7 @@
                         <td class="name">
                             <div>
                                 <a class="anchor" href="#m_ScalarArray_calc">#</a>
-                                <code class="overview">(string <var>$operation</var>): float|int</code>
+                                <code class="overview">(string <var>$operation</var>): float|int|string</code>
                                 <div class="description short">
                                     <p>
                                         Calculates the sum/avg/max/min/product of values.<br/><br/>
