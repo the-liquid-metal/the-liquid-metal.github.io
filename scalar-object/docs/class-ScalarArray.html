@@ -282,16 +282,33 @@
                         </td>
                     </tr>
 
-                    <tr data-order="replace" id="m_replace">
-                        <td class="attributes"><code class="overview">replace</code></td>
+                    <tr data-order="replaceByValue" id="m_replaceByValue">
+                        <td class="attributes"><code class="overview">replaceByValue</code></td>
                         <td class="name">
                             <div>
-                                <a class="anchor" href="#m_ScalarArray_replace">#</a>
+                                <a class="anchor" href="#m_ScalarArray_replaceByValue">#</a>
+                                <code class="overview">(iterable $replacement): static</code>
+                                <div class="description short">
+                                    <p>
+                                        Replaces elements from passed arrays into the first array recursively.<br/><br/>
+                                    </p>
+                                </div>
+                                <div class="description detailed hidden"></div>
+                            </div>
+                        </td>
+                    </tr>
+
+                    <tr data-order="replaceByKey" id="m_replaceByKey">
+                        <td class="attributes"><code class="overview">replaceByKey</code></td>
+                        <td class="name">
+                            <div>
+                                <a class="anchor" href="#m_ScalarArray_replaceByKey">#</a>
                                 <code class="overview">(bool <var>$recursive</var> = false, iterable ...<var>$replacements</var>): static</code>
                                 <div class="description short">
                                     <p>
                                         Replaces elements from passed arrays into the first array recursively.<br/><br/>
-                                        see <a target="_blank" href="http://php.net/manual/en/function.array-replace-recursive.php">detail</a>.<br/>
+                                        see <a target="_blank" href="http://php.net/manual/en/function.array-replace-recursive.php">array_replace</a>&nbsp;
+                                        see <a target="_blank" href="http://php.net/manual/en/function.array-replace-recursive.php">array_replace_recursive</a>.<br/>
                                     </p>
                                 </div>
                                 <div class="description detailed hidden"></div>
