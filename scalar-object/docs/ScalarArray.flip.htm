@@ -38,11 +38,11 @@
     <p>The flipped array on success and <code>NULL</code> on failure.</p>
 
     <pre class="php-code">
-        $input = ["oranges", "apples", "pears"];
-        flip($input); // output: ["oranges" => 0, "apples" => 1, "pears" => 2]
+        $sa = new ScalarArray("string", false, ["oranges", "apples", "pears"]);
+        $sa->flip(); // output: ["oranges" => 0, "apples" => 1, "pears" => 2]
 
-        $input = ["a" => 1, "b" => 1, "c" => 2];
-        flip($input); // output: [1 => "b", 2 => "c"]
+        $sa = new ScalarArray("string", false, ["a" => 1, "b" => 1, "c" => 2]);
+        $sa->flip(); // output: [1 => "b", 2 => "c"]
     </pre>
 </div>
 </body>

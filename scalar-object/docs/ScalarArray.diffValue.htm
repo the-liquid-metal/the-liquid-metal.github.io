@@ -45,12 +45,6 @@
         that are not present in any of the other arrays.
     </p>
 
-    <pre class="php-code">
-        $array1 = ["a" => "green", "red", "blue", "red"];
-        $array2 = ["b" => "green", "yellow", "red"];
-        diff($array1, $array2); // output: [1 => "blue"]
-    </pre>
-
     <blockquote>
         <strong>Note</strong>: Two elements are considered equal if and
         only if <em>(string) $elem1 === (string) $elem2</em>. In words:
@@ -91,23 +85,11 @@
         the output because in the second argument <em>"red"</em> has key which is <em>1</em>.
     </div>
 
-    <pre class="php-code">
-        $array1 = ["a" => "green", "b" => "brown", "c" => "blue", "red"];
-        $array2 = ["a" => "green", "yellow", "red"];
-        assocDiff($array1, $array2); // output: ["b" => "brown", "c" => "blue", 0 => "red"]
-    </pre>
-
     <div>
         Two values from <em>key => value</em> pairs are considered equal only if <em>(string)
         $elem1 === (string) $elem2 </em>. In other words a strict check takes place so the string
         representations must be the same.
     </div>
-
-    <pre class="php-code">
-        $array1 = [0, 1, 2];
-        $array2 = ["00", "01", "2"];
-        assocDiff($array1, $array2); // output: [0 => 0, 1 => 1]
-    </pre>
 
     <blockquote>
         <strong>Note</strong>: This function only checks one dimension of a n-dimensional array.
@@ -155,25 +137,12 @@
         because in the second argument <em>"red"</em> has key which is <em>1</em>.
     </div>
 
-    <pre class="php-code">
-        function key_compare_func($a, $b) {
-            if ($a === $b) {
-                return 0;
-            }
-            return ($a > $b)? 1:-1;
-        }
-
-        $array1 = ["a" => "green", "b" => "brown", "c" => "blue", "red"];
-        $array2 = ["a" => "green", "yellow", "red"];
-        userAssocDiff($array1, $array2, "key_compare_func"); // output: ["b" => "brown", "c" => "blue", 0 => "red"]
-    </pre>
-
     <div>The equality of 2 indices is checked by the user supplied callback function.</div>
 
     <blockquote>
         <strong>Note</strong>: This function only checks one dimension of a n-dimensional
         array. Of course you can check deeper dimensions by using, for example,
-        <code>userAssocDiff($array1[0], $array2[0], "key_compare_func");</code>.
+        <code>userAssocDiff($array1[0], $array2[0], $keyCompare);</code>.
     </blockquote>
 
     <h2>userDiff</h2>
@@ -206,120 +175,6 @@
         Returns an array containing all the values of <em>internal array</em>
         that are not present in any of the other arguments.
     </p>
-
-    <pre class="php-code">
-        // Arrays to compare
-        $array1 = [new stdclass, new stdclass, new stdclass, new stdclass];
-        $array2 = [new stdclass, new stdclass];
-
-        // Set some properties for each object
-        $array1[0]->width = 11; $array1[0]->height = 3;
-        $array1[1]->width = 7;  $array1[1]->height = 1;
-        $array1[2]->width = 2;  $array1[2]->height = 9;
-        $array1[3]->width = 5;  $array1[3]->height = 7;
-
-        $array2[0]->width = 7;  $array2[0]->height = 5;
-        $array2[1]->width = 9;  $array2[1]->height = 2;
-
-        function compare_by_area($a, $b) {
-            $areaA = $a->width * $a->height;
-            $areaB = $b->width * $b->height;
-
-            if ($areaA &lt; $areaB) {
-                return -1;
-            } elseif ($areaA > $areaB) {
-                return 1;
-            } else {
-                return 0;
-            }
-        }
-
-        userDiff($array1, $array2, "compare_by_area");
-        // output: Array
-        // (
-        //     [0] => stdClass Object
-        //         (
-        //             [width] => 11
-        //             [height] => 3
-        //         )
-        //     [1] => stdClass Object
-        //         (
-        //             [width] => 7
-        //             [height] => 1
-        //         )
-        // )
-
-        class MyCalendar {
-            public $free = [];
-            public $booked = [];
-
-            public function __construct($week = "now") {
-                $start = new DateTime($week);
-                $start->modify("Monday this week midnight");
-                $end = clone $start;
-                $end->modify("Friday this week midnight");
-                $interval = new DateInterval("P1D");
-                foreach (new DatePeriod($start, $interval, $end) as $freeTime) {
-                    $this->free[] = $freeTime;
-                }
-            }
-
-            public function bookAppointment(DateTime $date, $note) {
-                $this->booked[] = ["date" => $date->modify("midnight"), "note" => $note];
-            }
-
-            public function checkAvailability() {
-                return userDiff($this->free, $this->booked, [$this, "customCompare"]);
-            }
-
-            public function customCompare($free, $booked) {
-                if (is_array($free)) $a = $free["date"];
-                else $a = $free;
-                if (is_array($booked)) $b = $booked["date"];
-                else $b = $booked;
-                if ($a == $b) {
-                    return 0;
-                } elseif ($a > $b) {
-                    return 1;
-                } else {
-                    return -1;
-                }
-            }
-        }
-
-        // Create a calendar for weekly appointments
-        $myCalendar = new MyCalendar;
-
-        // Book some appointments for this week
-        $myCalendar->bookAppointment(new DateTime("Monday this week"), "Cleaning GoogleGuy's apartment.");
-        $myCalendar->bookAppointment(new DateTime("Wednesday this week"), "Going on a snowboarding trip.");
-        $myCalendar->bookAppointment(new DateTime("Friday this week"), "Fixing buggy code.");
-
-        // Check availability of days by comparing $booked dates against $free dates
-        echo "I'm available on the following days this week...\n\n";
-        foreach ($myCalendar->checkAvailability() as $free) {
-            echo $free->format("l"), "\n";
-        }
-        echo "\n\n";
-        echo "I'm busy on the following days this week...\n\n";
-        foreach ($myCalendar->booked as $booked) {
-            echo $booked["date"]->format("l"), ": ", $booked["note"], "\n";
-        }
-    </pre>
-
-    <div>The above example will output:</div>
-    <pre class="output">
-        I'm available on the following days this week...
-
-        Tuesday
-        Thursday
-
-        I'm busy on the following days this week...
-
-        Monday: Cleaning GoogleGuy's apartment.
-        Wednesday: Going on a snowboarding trip.
-        Friday: Fixing buggy code.
-    </pre>
 
     <blockquote>
         <strong>Note</strong>: Please note that this function only checks one dimension
@@ -363,40 +218,6 @@
         which uses internal function for comparison.
     </p>
 
-    <pre class="php-code">
-        class cr {
-            private $priv_member;
-            function cr($val) {
-                $this->priv_member = $val;
-            }
-
-            static function comp_func_cr($a, $b) {
-                if ($a->priv_member === $b->priv_member) return 0;
-                return ($a->priv_member > $b->priv_member)? 1:-1;
-            }
-        }
-
-        $a = ["0.1" => new cr(9), "0.5" => new cr(12), 0 => new cr(23), 1=> new cr(4), 2 => new cr(-15)];
-        $b = ["0.2" => new cr(9), "0.5" => new cr(22), 0 => new cr(3),  1=> new cr(4), 2 => new cr(-15)];
-
-        userDiffAssoc($a, $b, ["cr", "comp_func_cr"]);
-        // output: Array
-        // (
-        //     [0.1] => cr Object
-        //         (
-        //             [priv_member:private] => 9
-        //         )
-        //     [0.5] => cr Object
-        //         (
-        //             [priv_member:private] => 12
-        //         )
-        //     [0] => cr Object
-        //         (
-        //             [priv_member:private] => 23
-        //         )
-        // )
-    </pre>
-
     <p>
         In our example above you see the <code>"1" => new cr(4)</code> pair is
         present in both arrays and thus it is not in the output from the function.
@@ -432,44 +253,6 @@
         <em>internal array</em> that are not present in any of the other arguments.
     </p>
 
-    <pre class="php-code">
-        class cr {
-            private $priv_member;
-            function cr($val) {
-                $this->priv_member = $val;
-            }
-
-            static function comp_func_cr($a, $b) {
-                if ($a->priv_member === $b->priv_member) return 0;
-                return ($a->priv_member > $b->priv_member)? 1:-1;
-            }
-
-            static function comp_func_key($a, $b) {
-                if ($a === $b) return 0;
-                return ($a > $b)? 1:-1;
-            }
-        }
-        $a = ["0.1" => new cr(9), "0.5" => new cr(12), 0 => new cr(23), 1=> new cr(4), 2 => new cr(-15)];
-        $b = ["0.2" => new cr(9), "0.5" => new cr(22), 0 => new cr(3),  1=> new cr(4), 2 => new cr(-15)];
-
-        userDiffUserAssoc($a, $b, ["cr", "comp_func_cr"], ["cr", "comp_func_key"]);
-        // output: Array
-        // (
-        //     [0.1] => cr Object
-        //         (
-        //             [priv_member:private] => 9
-        //         )
-        //     [0.5] => cr Object
-        //         (
-        //             [priv_member:private] => 12
-        //         )
-        //     [0] => cr Object
-        //         (
-        //             [priv_member:private] => 23
-        //         )
-        // )
-    </pre>
-
     <p>
         In our example above you see the <code>"1" => new cr(4)</code>
         pair is present in both arrays and thus it is not in the output from the
@@ -479,8 +262,141 @@
     <blockquote>
         <strong>Note</strong>: Please note that this function only checks one dimension
         of a n-dimensional array. Of course you can check deeper dimensions by using, for
-        example, <code>userDiffUserAssoc($array1[0], $array2[0], "data_compare_func",
-        "key_compare_func");</code>.
+        example, <code>userDiffUserAssoc($arr1[0], $arr2[0], "data_compare_func",
+        $keyCompare);</code>.
     </blockquote>
+
+    <pre class="php-code">
+        $arr1 = ["a" => "green", "red", "blue", "red"];
+        $arr2 = ["b" => "green", "yellow", "red"];
+        $sa = new ScalarArray(stdclass::class, false, $arr1);
+        $sa->diffValue(BUILDIN_VALUE_COMPARATOR, IGNORE_KEY_COMPARATOR, $arr2); // output: [1 => "blue"]
+
+        $arr1 = ["a" => "green", "b" => "brown", "c" => "blue", "red"];
+        $arr2 = ["a" => "green", "yellow", "red"];
+        $sa = new ScalarArray(stdclass::class, false, $arr1);
+        $sa->diffValue(BUILDIN_VALUE_COMPARATOR, BUILDIN_KEY_COMPARATOR, $arr2); // output: ["b" => "brown", "c" => "blue", 0 => "red"]
+
+        $arr1 = [0, 1, 2];
+        $arr2 = ["00", "01", "2"];
+        $sa = new ScalarArray(stdclass::class, false, $arr1);
+        $sa->diffValue(BUILDIN_VALUE_COMPARATOR, BUILDIN_KEY_COMPARATOR, $arr2); // output: [0 => 0, 1 => 1]
+
+        $keyCompare = fn($a, $b) => $a <=> $b;
+        $arr1 = ["a" => "green", "b" => "brown", "c" => "blue", "red"];
+        $arr2 = ["a" => "green", "yellow", "red"];
+        $sa = new ScalarArray(stdclass::class, false, $arr1);
+        $sa->diffValue(BUILDIN_VALUE_COMPARATOR, $keyCompare, $arr2); // output: ["b" => "brown", "c" => "blue", 0 => "red"]
+
+        // Arrays to compare
+        $arr1 = [new stdclass, new stdclass, new stdclass, new stdclass];
+        $arr2 = [new stdclass, new stdclass];
+
+        // Set some properties for each object
+        $arr1[0]->width = 11; $arr1[0]->height = 3;
+        $arr1[1]->width = 7;  $arr1[1]->height = 1;
+        $arr1[2]->width = 2;  $arr1[2]->height = 9;
+        $arr1[3]->width = 5;  $arr1[3]->height = 7;
+
+        $arr2[0]->width = 7;  $arr2[0]->height = 5;
+        $arr2[1]->width = 9;  $arr2[1]->height = 2;
+
+        $compareByArea = fn($a, $b) => ($a->width * $a->height) <=> ($b->width * $b->height);
+
+        $sa = new ScalarArray(stdclass::class, false, $arr1);
+        $sa->diffValue($compareByArea, IGNORE_KEY_COMPARATOR, $arr2);
+        // output: [
+        //     [0] => stdClass Object([width] => 11, [height] => 3),
+        //     [1] => stdClass Object([width] => 7,  [height] => 1)
+        // ]
+
+        class MyCalendar {
+            public $free = [];
+            public $booked = [];
+            public function __construct($week = "now") {
+                $start = new DateTime($week);
+                $start->modify("Monday this week midnight");
+                $end = clone $start;
+                $end->modify("Friday this week midnight");
+                $interval = new DateInterval("P1D");
+                foreach (new DatePeriod($start, $interval, $end) as $freeTime) {
+                    $this->free[] = $freeTime;
+                }
+            }
+            public function bookAppointment(DateTime $date, $note) {
+                $this->booked[] = ["date" => $date->modify("midnight"), "note" => $note];
+            }
+            public function checkAvailability() {
+                return userDiff($this->free, $this->booked, [$this, "customCompare"]);
+            }
+            public function customCompare($free, $booked): int {
+                $a = is_array($free) ? $free["date"] : $free;
+                $b = is_array($booked) ? $booked["date"] : $booked;
+                return $a <=> $b;
+            }
+        }
+
+        // Create a calendar for weekly appointments
+        $myCalendar = new MyCalendar;
+
+        // Book some appointments for this week
+        $myCalendar->bookAppointment(new DateTime("Monday this week"), "Cleaning GoogleGuy's apartment.");
+        $myCalendar->bookAppointment(new DateTime("Wednesday this week"), "Going on a snowboarding trip.");
+        $myCalendar->bookAppointment(new DateTime("Friday this week"), "Fixing buggy code.");
+
+        // Check availability of days by comparing $booked dates against $free dates
+        echo "I'm available on the following days this week...\n\n";
+        foreach ($myCalendar->checkAvailability() as $free) {
+            echo $free->format("l"), "\n";
+        }
+        echo "\n\n";
+        echo "I'm busy on the following days this week...\n\n";
+        foreach ($myCalendar->booked as $booked) {
+            echo $booked["date"]->format("l"), ": ", $booked["note"], "\n";
+        }
+
+        // output:
+        //> I'm available on the following days this week...
+        //>
+        //> Tuesday
+        //> Thursday
+        //>
+        //> I'm busy on the following days this week...
+        //>
+        //> Monday: Cleaning GoogleGuy's apartment.
+        //> Wednesday: Going on a snowboarding trip.
+        //> Friday: Fixing buggy code.
+
+        class cr {
+            private $member;
+            function __construct($val) {
+                $this->member = $val;
+            }
+            static function compMember($a, $b): int {
+                return $a->member <=> $b->member;
+            }
+            static function compKey($a, $b): int {
+                return $a <=> $b;
+            }
+        }
+
+        $a = ["0.1" => new cr(9), "0.5" => new cr(12), 0 => new cr(23), 1=> new cr(4), 2 => new cr(-15)];
+        $b = ["0.2" => new cr(9), "0.5" => new cr(22), 0 => new cr(3),  1=> new cr(4), 2 => new cr(-15)];
+        $sa = new ScalarArray($a);
+
+        $sa->diffValue(cr::class."::compMember", IGNORE_KEY_COMPARATOR, $b);
+        // output: [
+        //     [0.1] => cr Object([member:private] => 9),
+        //     [0.5] => cr Object([member:private] => 12),
+        //     [0] => cr Object([member:private] => 23)
+        // ]
+
+        $sa->diffValue(cr::class."::compMember", cr::class."::compKey", $b);
+        // output: [
+        //     [0.1] => cr Object([member:private] => 9),
+        //     [0.5] => cr Object([member:private] => 12),
+        //     [0] => cr Object([member:private] => 23)
+        // ]
+    </pre>
 </div>
 </body>

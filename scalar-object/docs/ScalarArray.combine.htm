@@ -41,9 +41,11 @@
     </p>
 
     <pre class="php-code">
-        $a = ["green",   "red",   "yellow"];
-        $b = ["avocado", "apple", "banana"];
-        combine($a, $b); // output: ["green" => "avocado", "red" => "apple", "yellow" => "banana"]
+        $arr1 = ["green",   "red",   "yellow"];
+        $arr2 = ["avocado", "apple", "banana"];
+        $sa = new ScalarArray("string", false, $arr1);
+        $sa->combine(COMBINE_AS_KEY, $arr2);   // output: ["green" => "avocado", "red" => "apple", "yellow" => "banana"]
+        $sa->combine(COMBINE_AS_VALUE, $arr2); // output: ["avocado" => "green", "apple" => "red", "banana" => "yellow"]
     </pre>
 </div>
 </body>

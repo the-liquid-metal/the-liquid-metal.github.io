@@ -49,15 +49,17 @@
     </p>
 
     <pre class="php-code">
-        $input = ["a", "b", "c", "d", "e"];
-        chunk($input, 2);
+        $arr = ["a", "b", "c", "d", "e"];
+        $sa = new ScalarArray("string", false, $arr);
+
+        $sa->chunk(2);
         // output: [
         //     0 => [0 => "a", 1 => "b"],
         //     1 => [0 => "c", 1 => "d"],
         //     2 => [0 => "e"],
         // ]
 
-        chunk($input, 2, true);
+        $sa->chunk(2, true);
         // output: [
         //     0 => [0 => "a", 1 => "b"],
         //     1 => [2 => "c", 3 => "d"],

@@ -49,14 +49,14 @@
     <p>An array of values representing a single column from the <em>internal array</em>.</p>
 
     <pre class="php-code">
-        $records = [
+        $sa = new ScalarArray("array", false, [
             ["id" => 2135, "first_name" => "John",  "last_name" => "Doe"],
             ["id" => 3245, "first_name" => "Sally", "last_name" => "Smith"],
             ["id" => 5342, "first_name" => "Jane",  "last_name" => "Jones"],
             ["id" => 5623, "first_name" => "Peter", "last_name" => "Doe"]
-        ];
-        column($records, "first_name");      // output: ["John", "Sally", "Jane", "Peter"]
-        column($records, "last_name", "id"); // output: [2135 => "Doe", 3245 => "Smith", 5342 => "Jones", 5623 => "Doe"]
+        ]);
+        $sa->column("first_name");      // output: ["John", "Sally", "Jane", "Peter"]
+        $sa->column("last_name", "id"); // output: [2135 => "Doe", 3245 => "Smith", 5342 => "Jones", 5623 => "Doe"]
     </pre>
 </div>
 </body>

@@ -47,12 +47,6 @@
         executed so the string representation must be the same.
     </div>
 
-    <pre class="php-code">
-        $array1 = ["blue"  => 1, "red"  => 2, "green"  => 3, "purple" => 4];
-        $array2 = ["green" => 5, "blue" => 6, "yellow" => 7, "cyan"   => 8];
-        keyDiff($array1, $array2); // output: ["red" => 2, "purple" => 4]
-    </pre>
-
     <blockquote>
         <strong>Note</strong>: This function only checks one dimension of a n-dimensional array.
         Of course you can check deeper dimensions by using <em>keyDiff($array1[0], $array2[0]);</em>.
@@ -92,25 +86,22 @@
         that are not present in any of the other arrays.
     </p>
 
-    <pre class="php-code">
-        function key_compare_func($key1, $key2) {
-            if ($key1 == $key2)
-                return 0;
-            else if ($key1 > $key2)
-                return 1;
-            else
-                return -1;
-        }
-
-        $array1 = ["blue"  => 1, "red"  => 2, "green"  => 3, "purple" => 4];
-        $array2 = ["green" => 5, "blue" => 6, "yellow" => 7, "cyan"   => 8];
-        userKeyDiff($array1, $array2, "key_compare_func"); // output: ["red" => 2, "purple" => 4]
-    </pre>
-
     <blockquote>
         <strong>Note</strong>: This function only checks one dimension of a
         n-dimensional array. Of course you can check deeper dimensions by using
-        <code>userKeyDiff($array1[0], $array2[0], "callback_func");</code>.
+        <code>userKeyDiff($arr1[0], $arr2[0], "callback_func");</code>.
     </blockquote>
+
+    <pre class="php-code">
+        $arr1 = ["blue"  => 1, "red"    => 2, "green" => 3, "purple" => 4];
+        $arr2 = ["green" => 5, "yellow" => 7, "cyan"  => 8];
+        $arr3 = ["blue"  => 6, "yellow" => 7, "mauve" => 8];
+        $sa = new ScalarArray("int", false, $arr1);
+
+        $keyCompare = fn($key1, $key2) => $key1 <=> $key2;
+
+        $sa->diffKey(BUILDIN_KEY_COMPARATOR, $arr2, $arr3); // output: ["red" => 2, "purple" => 4]
+        $sa->diffKey($keyCompare, $arr2);                   // output: ["blue" => 1, "red" => 2, "purple" => 4]
+    </pre>
 </div>
 </body>

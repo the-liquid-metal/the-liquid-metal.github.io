@@ -41,12 +41,6 @@
         which have keys that are present in all arguments.
     </p>
 
-    <pre class="php-code">
-        $array1 = ["blue"  => 1, "red"  => 2, "green"  => 3, "purple" => 4];
-        $array2 = ["green" => 5, "blue" => 6, "yellow" => 7, "cyan"   => 8];
-        keyIntersect($array1, $array2); // output: ["blue" => 1, "green" => 3]
-    </pre>
-
     <p>
         In our example you see that only the keys <em>'blue'</em> and <em>'green'</em>
         are present in both arrays and thus returned. Also notice that the values for
@@ -87,26 +81,22 @@
     <h3>Return Values</h3>
     <p>The values of <em>internal array</em> whose keys exist in all the arguments.</p>
 
-    <pre class="php-code">
-        function key_compare_func($key1, $key2) {
-            if ($key1 == $key2)
-                return 0;
-            else if ($key1 > $key2)
-                return 1;
-            else
-                return -1;
-        }
-
-        $array1 = ["blue"  => 1, "red"  => 2, "green"  => 3, "purple" => 4];
-        $array2 = ["green" => 5, "blue" => 6, "yellow" => 7, "cyan"   => 8];
-        userKeyIntersect($array1, $array2, "key_compare_func"); // output: ["blue" => 1, "green" => 3]
-    </pre>
-
     <p>
         In our example you see that only the keys <em>'blue'</em> and <em>'green'</em> are present
         in both arrays and thus returned. Also notice that the values for the keys <em>'blue'</em>
         and <em>'green'</em> differ between the two arrays. A match still occurs because only the
         keys are checked. The values returned are those of <em>internal array</em>.
     </p>
+
+    <pre class="php-code">
+        $arr1 = ["blue" => 1,  "red" => 2,  "green" => 3,  "purple" => 4];
+        $arr2 = ["green" => 5, "blue" => 6, "yellow" => 7, "cyan" => 8];
+
+        $func = fn($key1, $key2) => $key1 <=> $key2;
+
+        $sa = new ScalarArray("int", false, $arr1);
+        $sa->intersectKey(BUILDIN_KEY_COMPARATOR, $arr2); // output: ["blue" => 1, "green" => 3]
+        $sa->intersectKey($func, $arr2);                  // output: ["blue" => 1, "green" => 3]
+    </pre>
 </div>
 </body>

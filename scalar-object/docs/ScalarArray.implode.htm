@@ -33,14 +33,14 @@
         elements in the same order, with the glue string between each element.
     </p>
 
-    <pre class="php-code">
-        $array = ["lastname", "email", "phone"];
-        implode(",", $array); // output: "lastname,email,phone"
-
-        // Empty string when using an empty array:
-        implode("hello", []); // output: ""
-    </pre>
-
     <blockquote><strong>Note</strong>: This function is binary-safe.</blockquote>
+
+    <pre class="php-code">
+        $sa = new ScalarArray("string", false, ["lastname", "email", "phone"]);
+        $sa->implode(",", $arr1); // output: "lastname,email,phone"
+
+        $sa = new ScalarArray("string", false, []);
+        $sa->implode("hello", $arr1); // output: ""
+    </pre>
 </div>
 </body>

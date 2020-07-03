@@ -45,12 +45,6 @@
         whose values exist in all of the parameters.
     </p>
 
-    <pre class="php-code">
-        $array1 = ["a" => "green", "red", "blue"];
-        $array2 = ["b" => "green", "yellow", "red"];
-        intersect($array1, $array2); // output: ["a" => "green", 0 => "red"]
-    </pre>
-
     <blockquote>
         <strong>Note</strong>: Two elements are considered equal if and only if <em>(string)
         $elem1 === (string) $elem2</em>. In words: when the string representation is the same.
@@ -78,12 +72,6 @@
         An associative array containing all the values in
         <em>internal array</em> that are present in all of the arguments.
     </p>
-
-    <pre class="php-code">
-        $array1 = ["a" => "green", "b" => "brown", "c" => "blue", "red"];
-        $array2 = ["a" => "green", "b" => "yellow", "blue", "red"];
-        assocIntersect($array1, $array2); // output: ["a" => "green"]
-    </pre>
 
     <p>
         In our example you see that only the pair <code>"a" => "green"</code> is present in both arrays
@@ -126,12 +114,6 @@
         <p>Returns the values of <em>internal array</em> whose values exist in all of the arguments.</p>
     </div>
 
-    <pre class="php-code">
-        $array1 = ["a" => "green", "b" => "brown", "c" => "blue", "red"];
-        $array2 = ["a" => "GREEN", "B" => "brown", "yellow", "red"];
-        userAssocIntersect($array1, $array2, "strcasecmp"); // output: ["b" => "brown"]
-    </pre>
-
     <h2>userIntersect</h2>
 
     <div>Computes the intersection of arrays, compares data by a callback function.</div>
@@ -153,12 +135,6 @@
 
     <h3>Return Values</h3>
     <p>An array containing all the values of <em>internal array</em> that are present in all the arguments.</p>
-
-    <pre class="php-code">
-        $array1 = ["a" => "green", "b" => "brown", "c" => "blue", "red"];
-        $array2 = ["a" => "GREEN", "B" => "brown", "yellow", "red"];
-        userIntersect($array1, $array2, "strcasecmp"); // output: ["a" => "green", "b" => "brown", 0 => "red"]
-    </pre>
 
     <h2>userIntersectAssoc</h2>
 
@@ -190,12 +166,6 @@
     <h3>Return Values</h3>
     <p>Returns an array containing all the values of <em>internal array</em> that are present in all the arguments.</p>
 
-    <pre class="php-code">
-        $array1 = ["a" => "green", "b" => "brown", "c" => "blue", "red"];
-        $array2 = ["a" => "GREEN", "B" => "brown", "yellow", "red"];
-        userIntersectAssoc($array1, $array2, "strcasecmp"); // output: ["a" => "green"]
-    </pre>
-
     <h2>userIntersectUserAssoc</h2>
 
     <h3>Parameters</h3>
@@ -220,9 +190,18 @@
     <p>An array containing all the values of <em>internal array</em> that are present in all the arguments.</p>
 
     <pre class="php-code">
-        $array1 = ["a" => "green", "b" => "brown", "c" => "blue", "red"];
-        $array2 = ["a" => "GREEN", "B" => "brown", "yellow", "red"];
-        userIntersectUserAssoc($array1, $array2, "strcasecmp", "strcasecmp"); // output: ["a" => "green", "b" => "brown"]
+        $arr1 = ["a" => "green", "b" => "brown", "c" => "blue", "red"];
+        $arr2 = ["b" => "green", "yellow", "red"];
+        $arr3 = ["a" => "green", "b" => "yellow", "blue", "red"];
+        $arr4 = ["a" => "GREEN", "B" => "brown", "yellow", "red"];
+
+        $sa = new ScalarArray("string", false, $arr1);
+        $sa->intersectValue(BUILDIN_VALUE_COMPARATOR, IGNORE_KEY_COMPARATOR, $arr2);  // output: ["a" => "green", 0 => "red"]
+        $sa->intersectValue(BUILDIN_VALUE_COMPARATOR, BUILDIN_KEY_COMPARATOR, $arr3); // output: ["a" => "green"]
+        $sa->intersectValue(BUILDIN_VALUE_COMPARATOR, "strcasecmp", $arr4);           // output: ["b" => "brown"]
+        $sa->intersectValue("strcasecmp", IGNORE_KEY_COMPARATOR, $arr4);              // output: ["a" => "green", "b" => "brown", 0 => "red"]
+        $sa->intersectValue("strcasecmp", BUILDIN_KEY_COMPARATOR, $arr4);             // output: ["a" => "green"]
+        $sa->intersectValue("strcasecmp", "strcasecmp", $arr4);                       // output: ["a" => "green", "b" => "brown"]
     </pre>
 </div>
 </body>
