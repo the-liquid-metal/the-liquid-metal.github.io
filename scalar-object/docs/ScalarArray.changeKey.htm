@@ -9,10 +9,10 @@
 </head>
 <body>
 <div class="ajax-area">
-    <h1>changeKeys</h1>
+    <h1>changeKey</h1>
 
     <div class="short-description">
-        <code>changeKeys (int <var>$type</var> = CASE_LOWER): static</code>
+        <code>changeKey (int <var>$type</var> = CASE_LOWER): static</code>
         <p>
             Changes the case of all keys.<br/><br/>
             see <a target="_blank" href="http://php.net/manual/en/function.array-change-key-case.php">array_change_key_case</a>.<br/>
@@ -54,11 +54,11 @@
 
     <pre class="php-code">
         $sa = new ScalarArray("float", true, ["FirSt" => 1, "SecOnd" => 2.3, "THIRD" => null, "fOURTH aND fIFTH" => NAN]);
-        $sa->changeKeys(CASE_LOWER);       // output: ["first" => 1, "second" => 2.3, "third" => null, "fourth and fifth" => NAN]
-        $sa->changeKeys(CASE_UPPER);       // output: ["FIRST" => 1, "SECOND" => 2.3, "THIRD" => null, "FOURTH AND FIFTH" => NAN]
-        $sa->changeKeys(CASE_UPPER_FIRST); // output: ["First" => 1, "Second" => 2.3, "Third" => null, "Fourth and fifth" => NAN]
-        $sa->changeKeys(CASE_UPPER_WORDS); // output: ["First" => 1, "Second" => 2.3, "Third" => null, "Fourth And Fifth" => NAN]
-        $sa->changeKeys(INT_INDEX);        // output: [      0 => 1,        1 => 2.3,       3 => null,                  4 => NAN]
+        $sa->changeKey(CASE_LOWER);       // output: ["first" => 1, "second" => 2.3, "third" => null, "fourth and fifth" => NAN]
+        $sa->changeKey(CASE_UPPER);       // output: ["FIRST" => 1, "SECOND" => 2.3, "THIRD" => null, "FOURTH AND FIFTH" => NAN]
+        $sa->changeKey(CASE_UPPER_FIRST); // output: ["First" => 1, "Second" => 2.3, "Third" => null, "Fourth and fifth" => NAN]
+        $sa->changeKey(CASE_UPPER_WORDS); // output: ["First" => 1, "Second" => 2.3, "Third" => null, "Fourth And Fifth" => NAN]
+        $sa->changeKey(INT_INDEX);        // output: [      0 => 1,        1 => 2.3,       3 => null,                  4 => NAN]
     </pre>
 </div>
 </body>

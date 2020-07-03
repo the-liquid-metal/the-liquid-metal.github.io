@@ -9,10 +9,10 @@
 </head>
 <body>
 <div class="ajax-area">
-    <h1>countValues</h1>
+    <h1>countValue</h1>
 
     <div class="short-description">
-        <code>countValues (void): self</code>
+        <code>countValue (void): self</code>
         <p>
             Counts all the values.<br/><br/>
             see <a target="_blank" href="http://php.net/manual/en/function.array-count-values.php">array_count_values</a>.<br/>
@@ -20,7 +20,7 @@
     </div>
 
     <div>
-        <strong>countValues()</strong> returns an array using
+        <strong>countValue()</strong> returns an array using
         the values of <em>internal array</em> as keys and
         their frequency in <em>internal array</em> as values.
     </div>
@@ -36,7 +36,7 @@
 
     <pre class="php-code">
         $arr = new ScalarArray("string", false, ["1", "hello", "1", "world", "hello"]);
-        $arr->countValues(); // output: ["1" => 2, "hello" => 2, "world" => 1]
+        $arr->countValue(); // output: ["1" => 2, "hello" => 2, "world" => 1]
     </pre>
 </div>
 </body>

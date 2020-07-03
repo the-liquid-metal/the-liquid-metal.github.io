@@ -9,10 +9,10 @@
 </head>
 <body>
 <div class="ajax-area">
-    <h1>map</h1>
+    <h1>mapWithPair</h1>
 
     <div class="short-description">
-        <code>map (callable <var>$mapper</var>, iterable ...<var>$arrays</var>): ScalarArray|ObjectArray</code>
+        <code>mapWithPair (callable <var>$mapper</var>, iterable ...<var>$arrays</var>): ScalarArray|ObjectArray</code>
         <p>
             Applies the callback to the elements.<br/><br/>
             see <a target="_blank" href="http://php.net/manual/en/function.array-map.php">array_map</a>.<br/>
@@ -20,10 +20,10 @@
     </div>
 
     <div>
-        <strong>map()</strong> returns an array containing all the elements of
+        <strong>mapWithPair()</strong> returns an array containing all the elements of
         <code>array1</code> after applying the <var>$mapper</var> function to each
         one. The number of parameters that the <var>$mapper</var> function accepts
-        should match the number of arrays passed to the <strong>map()</strong>
+        should match the number of arrays passed to the <strong>mapWithPair()</strong>
     </div>
 
     <h3>Parameters</h3>
@@ -62,14 +62,14 @@
         $arr3 = [140,  150,  160,  170,  180];
         $sa = new ScalarArray("int", false, $arr1);
         $cube = fn($a, $b, $c) => $a * $b * $c;
-        $sa->map($cube, $b, $c); // output: [0 => 322, 1 => 1020, 2 => 2160, 3 => 3808, 4 => 5040]
+        $sa->mapWithPair($cube, $b, $c); // output: [0 => 322, 1 => 1020, 2 => 2160, 3 => 3808, 4 => 5040]
 
         $arr1 = [1,     2,     3,      4,        5];
         $arr2 = ["uno", "dos", "tres", "cuatro", "cinco"];
         $sa = new ScalarArray("int", false, $arr1);
 
-        $showSpanish = fn($a, $b) => "The number $a is called $b in Spanish";
-        $sa->map($showSpanish, $arr2);
+        $mapper1 = fn($a, $b) => "The number $a is called $b in Spanish";
+        $sa->mapWithPair($mapper1, $arr2);
         // output: [
         //   0 => "The number 1 is called uno in Spanish",
         //   1 => "The number 2 is called dos in Spanish",
@@ -78,8 +78,8 @@
         //   4 => "The number 5 is called cinco in Spanish",
         // ]
 
-        $mapSpanish = fn($a, $b) => [$a => $b];
-        $sa->map($mapSpanish, $arr2);
+        $mapper2 = fn($a, $b) => [$a => $b];
+        $sa->mapWithPair($mapper2, $arr2);
         // output: [
         //   0 => [1 => "uno"],
         //   1 => [2 => "dos"],
@@ -92,7 +92,7 @@
         $arr2 = ["one", "two", "three", "four",   "five"];
         $arr3 = ["uno", "dos", "tres",  "cuatro", "cinco"];
         $sa = new ScalarArray("int", false, $arr1);
-        $sa->map(null, $arr2, $arr3);
+        $sa->mapWithPair(null, $arr2, $arr3);
         // output: [
         //   0 => [1, "one",   "uno"],
         //   1 => [2, "two",   "dos"],

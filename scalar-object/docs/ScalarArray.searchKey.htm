@@ -9,10 +9,10 @@
 </head>
 <body>
 <div class="ajax-area">
-    <h1>searchKeys</h1>
+    <h1>searchKey</h1>
 
     <div class="short-description">
-        <code>searchKeys (mixed <var>$value</var>, bool <var>$strict</var> = false): self</code>
+        <code>searchKey (mixed <var>$value</var>, bool <var>$strict</var> = false): self</code>
         <p>
             Searches a given value and returns the first corresponding key if successful.<br/><br/>
             see <a target="_blank" href="http://php.net/manual/en/function.array-keys.php">array_keys</a>&nbsp;
@@ -86,8 +86,8 @@
 
     <pre class="php-code">
         $sa = new ScalarArray("string", false, ["blue", "red", "green", "color" => "blue", "blue"]);
-        $sa->searchKeys("blue");  // output: [0, "color", 4]
-        $sa->searchKeys("green"); // output: [2]
+        $sa->searchKey("blue");  // output: [0, "color", 4]
+        $sa->searchKey("green"); // output: [2]
     </pre>
 </div>
 </body>

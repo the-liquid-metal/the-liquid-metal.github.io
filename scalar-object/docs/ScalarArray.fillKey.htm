@@ -9,10 +9,10 @@
 </head>
 <body>
 <div class="ajax-area">
-    <h1>fillKeys</h1>
+    <h1>fillKey</h1>
 
     <div class="short-description">
-        <code>fillKeys (mixed <var>$value</var>): self</code>
+        <code>fillKey (mixed <var>$value</var>): self</code>
         <p>
             Fills with values, specifying keys.<br/><br/>
             see <a target="_blank" href="http://php.net/manual/en/function.array-fill-keys.php">array_fill_keys</a>.<br/>
@@ -35,7 +35,7 @@
 
     <pre class="php-code">
         $sa = new ScalarArray("string", false, ["foo", "5", "10", "bar"]);
-        $sa->fillKeys("banana"); // output: ["foo" => "banana", "5" => "banana", "10" => "banana", "bar" => "banana"]
+        $sa->fillKey("banana"); // output: ["foo" => "banana", "5" => "banana", "10" => "banana", "bar" => "banana"]
     </pre>
 </div>
 </body>
