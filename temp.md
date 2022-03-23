@@ -1,5 +1,11 @@
-<H3>__desktop apps</H3>
-	<BR/><BR/>
+<H2>PRIORITY APP</H2>
+
+<p>GIMP, Inkscape, LibreOffice, KDEnlive, Synfig, JASP, RKWard, 7-Zip, LibreCAD, Blender, GNU Octave, VLC media player, Notepad++, Freeplane,
+LMMS, Okular, Olive, digiKam, darktable, Frescobaldi, GanttProject, KiCad, diagrams.net, Sweet Home 3D, Jitsi, GoldenDict, Scribus</p>
+
+<p>Gunakan <code>CTRL + F<code> dan ketik app yang ingin dicari</p>
+
+<H2>desktop apps</H2>
 	<A HREF="https://github.com/7z">7-Zip: file archiver with a high compression ratio - 7-Zip/???</A><BR/>
 	<A HREF="https://www.7-zip.org/">7-Zip: file archiver with a high compression ratio - info</A>
 	<BR/><BR/>
@@ -261,7 +267,7 @@
 	<A HREF="https://github.com/dpradov/keynote-nf">KeyNote NF - dpradov/keynote-nf</A>
 	<BR/><BR/>
 	<A HREF="https://www.cybercircuits.co.nz/web/KiCadPortable">KiCad EDA Portable - info</A><BR/>
-	<A HREF="https://kicad-pcb.org/">KiCad EDA: Schematic Capture &amp; PCB Design - info</A><BR/>
+	<A HREF="https://www.kicad.org/">KiCad EDA: Schematic Capture &amp; PCB Design - info</A><BR/>
 	<A HREF="https://gitlab.com/kicad/code/kicad/">KiCad EDA: Schematic Capture &amp; PCB Design - KiCad/KiCad</A><BR/>
 	<A HREF="https://github.com/KiCad/kicad-source-mirror">KiCad EDA: Schematic Capture &amp; PCB Design - KiCad/kicad-source-mirror</A>
 	<BR/><BR/>
@@ -635,8 +641,9 @@
 	<BR/><BR/>
 	<A HREF="https://zim-wiki.org/">Zim: desktop wiki - info</A><BR/>
 	<A HREF="https://github.com/zim-desktop-wiki/zim-desktop-wiki">Zim: desktop wiki - zim-desktop-wiki/zim-desktop-wiki</A><BR/>
-</DL><p>
-<H3>__live CD apps</H3>
+
+<BR/><BR/><BR/>
+<H2>live CD apps</H2>
 	<A HREF="https://clonezilla.org/">Clonezilla: partition or disk clone tool - info</A><BR/>
 	<A HREF="https://github.com/stevenshiau/clonezilla">Clonezilla: partition or disk clone tool - stevenshiau/clonezilla</A><BR/>
 	<A HREF="https://gitlab.com/stevenshiau/clonezilla">Clonezilla: partition or disk clone tool - StevenShiau/clonezilla</A>
@@ -646,8 +653,9 @@
 	<BR/><BR/>
 	<A HREF="https://reactos.org/">ReactOS: Windows-compatible operating system - info</A><BR/>
 	<A HREF="https://github.com/reactos/reactos">ReactOS: Windows-compatible operating system - ReactOS/ReactOS</A><BR/>
-</DL><p>
-<H3>JS _desktop apps</H3>
+
+<BR/><BR/><BR/>
+<H2>JS desktop apps</H2>
 	<A HREF="https://github.com/brrd/abricotine">Abricotine: markdown editor - brrd/abricotine</A><BR/>
 	<A HREF="http://abricotine.brrd.fr/">Abricotine: markdown editor - info</A>
 	<BR/><BR/>
@@ -686,9 +694,9 @@
 	<A HREF="https://github.com/egoist/devdocs-desktop">DevDocs Desktop: desktop app for DevDocs.io - egoist/devdocs-desktop</A>
 	<BR/><BR/>
 	<A HREF="https://github.com/freeCodeCamp/devdocs">freeCodeCamp/devdocs: API Documentation Browser</A><BR/>
-</DL><p>
-</DL><p>
-<H3>PHP _web apps</H3>
+
+<BR/><BR/><BR/>
+<H2>PHP web apps</H2>
 	<A HREF="https://github.com/chintanbanugaria/92five">92five: project management - chintanbanugaria/92five</A><BR/>
 	<A HREF="https://92fiveapp.com/">92five: project management - info</A>
 	<BR/><BR/>
@@ -1250,4 +1258,3 @@
 	<A HREF="https://github.com/owncloud/core">ownCloud: file cloud app - owncloud/core</A><BR/>
 	<A HREF="https://owncloud.org/">ownCloud: file cloud app - info</A><BR/>
 	<A HREF="https://owncloud.com/">ownCloud: file cloud app - info</A><BR/>
-</DL><p>
