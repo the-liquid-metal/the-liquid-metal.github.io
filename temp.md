@@ -3,7 +3,7 @@
 <p>GIMP, Inkscape, LibreOffice, KDEnlive, Synfig, JASP, RKWard, 7-Zip, LibreCAD, Blender, GNU Octave, VLC media player, Notepad++, Freeplane,
 LMMS, Okular, Olive, digiKam, darktable, Frescobaldi, GanttProject, KiCad, diagrams.net, Sweet Home 3D, Jitsi, GoldenDict, Scribus</p>
 
-<p>Gunakan <code>CTRL + F<code> dan ketik app yang ingin dicari</p>
+<p>Gunakan <code>CTRL + F</code> dan ketik app yang ingin dicari</p>
 
 <H2>desktop apps</H2>
 	<A HREF="https://github.com/7z">7-Zip: file archiver with a high compression ratio - 7-Zip/???</A><BR/>
