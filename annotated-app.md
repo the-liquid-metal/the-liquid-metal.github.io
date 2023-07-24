@@ -5,6 +5,7 @@
     <code>homepage   </code>: -<br>
     <code>prog lang  </code>: JavaScript<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -14,6 +15,7 @@
     <code>homepage   </code>: -<br>
     <code>prog lang  </code>: JavaScript<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -23,6 +25,7 @@
     <code>homepage   </code>: https://ace.c9.io<br>
     <code>prog lang  </code>: JavaScript<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -32,6 +35,7 @@
     <code>homepage   </code>: ace.jeka.by<br>
     <code>prog lang  </code>: HTML<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -41,6 +45,7 @@
     <code>homepage   </code>: https://activitywatch.net/<br>
     <code>prog lang  </code>: Python<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -50,6 +55,7 @@
     <code>homepage   </code>: https://www.admidio.org<br>
     <code>prog lang  </code>: PHP<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -59,6 +65,7 @@
     <code>homepage   </code>: https://gurayyarar.github.io/AdminBSBMaterialDesign<br>
     <code>prog lang  </code>: JavaScript<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -69,6 +76,7 @@
     <code>prog lang  </code>: PHP<br>
     <code>archived   </code>: -<br>
     <b>license</b>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -78,6 +86,7 @@
     <code>homepage   </code>: https://adminlte.io<br>
     <code>prog lang  </code>: JavaScript<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -87,6 +96,7 @@
     <code>homepage   </code>: http://devel.aegisub.org/<br>
     <code>prog lang  </code>: C++<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -96,6 +106,7 @@
     <code>homepage   </code>: http://airtime.sourcefabric.org<br>
     <code>prog lang  </code>: PHP<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -105,6 +116,7 @@
     <code>homepage   </code>: https://akaunting.com<br>
     <code>prog lang  </code>: PHP<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -114,6 +126,7 @@
     <code>homepage   </code>: -<br>
     <code>prog lang  </code>: TypeScript<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -123,6 +136,7 @@
     <code>homepage   </code>: http://alicevision.org<br>
     <code>prog lang  </code>: C++<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -132,6 +146,7 @@
     <code>homepage   </code>: -<br>
     <code>prog lang  </code>: TypeScript<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -141,6 +156,7 @@
     <code>homepage   </code>: https://angularjs.org<br>
     <code>prog lang  </code>: JavaScript<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -150,6 +166,7 @@
     <code>homepage   </code>: https://ermig1979.github.io/AntiDupl<br>
     <code>prog lang  </code>: C#<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -159,6 +176,7 @@
     <code>homepage   </code>: -<br>
     <code>prog lang  </code>: HTML<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -169,6 +187,7 @@
     <code>prog lang  </code>: PHP<br>
     <code>archived   </code>: -<br>
     <b>license</b>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -178,6 +197,7 @@
     <code>homepage   </code>: https://vaibhavpandey.com/apkstudio/<br>
     <code>prog lang  </code>: C++<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -187,6 +207,7 @@
     <code>homepage   </code>: -<br>
     <code>prog lang  </code>: PHP<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -196,6 +217,7 @@
     <code>homepage   </code>: -<br>
     <code>prog lang  </code>: JavaScript<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -206,6 +228,7 @@
     <code>prog lang  </code>: PHP<br>
     <code>archived   </code>: -<br>
     <b>license</b>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -216,6 +239,7 @@
     <code>prog lang  </code>: Java<br>
     <code>archived   </code>: -<br>
     <b>license</b>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -225,6 +249,7 @@
     <code>homepage   </code>: https://chrisprom.com/archon/<br>
     <code>prog lang  </code>: PHP<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -234,6 +259,7 @@
     <code>homepage   </code>: http://ardour.org<br>
     <code>prog lang  </code>: C++<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -243,6 +269,7 @@
     <code>homepage   </code>: https://www.arduino.cc/en/software<br>
     <code>prog lang  </code>: Java<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -252,6 +279,7 @@
     <code>homepage   </code>: -<br>
     <code>prog lang  </code>: Shell<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -261,6 +289,7 @@
     <code>homepage   </code>: https://garethflowers.dev/atom-portable/<br>
     <code>prog lang  </code>: HTML<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -270,6 +299,7 @@
     <code>homepage   </code>: -<br>
     <code>prog lang  </code>: JavaScript<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -279,6 +309,7 @@
     <code>homepage   </code>: https://atropim.com<br>
     <code>prog lang  </code>: PHP<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -288,6 +319,7 @@
     <code>homepage   </code>: http://www.atunes.org/<br>
     <code>prog lang  </code>: Java<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -297,6 +329,7 @@
     <code>homepage   </code>: https://audacious-media-player.org<br>
     <code>prog lang  </code>: C++<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -306,6 +339,7 @@
     <code>homepage   </code>: https://wiki.audacityteam.org/wiki/For_Developers<br>
     <code>prog lang  </code>: C<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -315,6 +349,7 @@
     <code>homepage   </code>: -<br>
     <code>prog lang  </code>: PHP<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -324,6 +359,7 @@
     <code>homepage   </code>: https://autohotkey.com/<br>
     <code>prog lang  </code>: C++<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -333,6 +369,7 @@
     <code>homepage   </code>: -<br>
     <code>prog lang  </code>: -<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -343,6 +380,7 @@
     <code>prog lang  </code>: C#<br>
     <code>archived   </code>: -<br>
     <b>license</b>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -352,6 +390,7 @@
     <code>homepage   </code>: -<br>
     <code>prog lang  </code>: -<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -362,6 +401,7 @@
     <code>prog lang  </code>: C<br>
     <code>archived   </code>: -<br>
     <b>license</b>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -371,6 +411,7 @@
     <code>homepage   </code>: https://babel.dev<br>
     <code>prog lang  </code>: TypeScript<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -380,6 +421,7 @@
     <code>homepage   </code>: https://gitlab.gnome.org/GNOME/baobab<br>
     <code>prog lang  </code>: Vala<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -389,6 +431,7 @@
     <code>homepage   </code>: http://phusion.github.io/baseimage-docker/<br>
     <code>prog lang  </code>: Shell<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -398,6 +441,7 @@
     <code>homepage   </code>: -<br>
     <code>prog lang  </code>: C++<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -408,6 +452,7 @@
     <code>prog lang  </code>: HTML<br>
     <code>archived   </code>: -<br>
     <b>license</b>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -417,6 +462,7 @@
     <code>homepage   </code>: https://www.beekeeperstudio.io<br>
     <code>prog lang  </code>: Vue<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -427,6 +473,7 @@
     <code>prog lang  </code>: Vala<br>
     <code>archived   </code>: -<br>
     <b>license</b>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -436,6 +483,7 @@
     <code>homepage   </code>: -<br>
     <code>prog lang  </code>: JavaScript<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -445,6 +493,7 @@
     <code>homepage   </code>: -<br>
     <code>prog lang  </code>: TypeScript<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -455,6 +504,7 @@
     <code>prog lang  </code>: PHP<br>
     <code>archived   </code>: -<br>
     <b>license</b>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -464,6 +514,7 @@
     <code>homepage   </code>: https://www.blockbench.net<br>
     <code>prog lang  </code>: JavaScript<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -473,6 +524,7 @@
     <code>homepage   </code>: -<br>
     <code>prog lang  </code>: JavaScript<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -482,6 +534,7 @@
     <code>homepage   </code>: http://akveo.github.io/blur-admin/<br>
     <code>prog lang  </code>: JavaScript<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -491,6 +544,7 @@
     <code>homepage   </code>: https://www.bookstackapp.com/<br>
     <code>prog lang  </code>: PHP<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -500,6 +554,7 @@
     <code>homepage   </code>: https://boostnote.io<br>
     <code>prog lang  </code>: TypeScript<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -509,6 +564,7 @@
     <code>homepage   </code>: https://github.com/boot2docker/boot2docker/pull/1408<br>
     <code>prog lang  </code>: Shell<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -518,6 +574,7 @@
     <code>homepage   </code>: https://getbootstrap.com<br>
     <code>prog lang  </code>: JavaScript<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -528,6 +585,7 @@
     <code>prog lang  </code>: JavaScript<br>
     <code>archived   </code>: -<br>
     <b>license</b>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -537,6 +595,7 @@
     <code>homepage   </code>: -<br>
     <code>prog lang  </code>: JavaScript<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -546,6 +605,7 @@
     <code>homepage   </code>: https://auspexeu.github.io/bootstrap-datetimepicker/<br>
     <code>prog lang  </code>: JavaScript<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -555,6 +615,7 @@
     <code>homepage   </code>: http://www.virtuosoft.eu/code/bootstrap-duallistbox/<br>
     <code>prog lang  </code>: JavaScript<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -564,6 +625,7 @@
     <code>homepage   </code>: https://mdbootstrap.com/docs/standard/<br>
     <code>prog lang  </code>: CSS<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -573,6 +635,7 @@
     <code>homepage   </code>: https://bootstrap-table.com/<br>
     <code>prog lang  </code>: JavaScript<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -582,6 +645,7 @@
     <code>homepage   </code>: http://jonmiles.github.io/bootstrap-treeview<br>
     <code>prog lang  </code>: JavaScript<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -591,6 +655,7 @@
     <code>homepage   </code>: -<br>
     <code>prog lang  </code>: HTML<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -600,6 +665,7 @@
     <code>homepage   </code>: https://brlcad.org<br>
     <code>prog lang  </code>: C++<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -609,6 +675,7 @@
     <code>homepage   </code>: https://www.bcuninstaller.com/<br>
     <code>prog lang  </code>: C#<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -618,6 +685,7 @@
     <code>homepage   </code>: http://saerasoft.com/caesium<br>
     <code>prog lang  </code>: Rust<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -627,6 +695,7 @@
     <code>homepage   </code>: https://saerasoft.com/caesium<br>
     <code>prog lang  </code>: C++<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -636,6 +705,7 @@
     <code>homepage   </code>: http://www.calemeam.com<br>
     <code>prog lang  </code>: JavaScript<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -645,6 +715,7 @@
     <code>homepage   </code>: https://calibre-ebook.com<br>
     <code>prog lang  </code>: Python<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -654,6 +725,7 @@
     <code>homepage   </code>: https://invent.kde.org/office/calligra<br>
     <code>prog lang  </code>: C++<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -663,6 +735,7 @@
     <code>homepage   </code>: https://invent.kde.org/office/calligraplan<br>
     <code>prog lang  </code>: C++<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -672,6 +745,7 @@
     <code>homepage   </code>: -<br>
     <code>prog lang  </code>: PHP<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -681,6 +755,7 @@
     <code>homepage   </code>: http://chancejs.com<br>
     <code>prog lang  </code>: JavaScript<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -690,6 +765,7 @@
     <code>homepage   </code>: https://www.chartjs.org/<br>
     <code>prog lang  </code>: JavaScript<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -699,6 +775,7 @@
     <code>homepage   </code>: https://devhints.io<br>
     <code>prog lang  </code>: SCSS<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -709,6 +786,7 @@
     <code>prog lang  </code>: PHP<br>
     <code>archived   </code>: -<br>
     <b>license</b>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -718,6 +796,7 @@
     <code>homepage   </code>: http://www.chive-project.com<br>
     <code>prog lang  </code>: PHP<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -727,6 +806,7 @@
     <code>homepage   </code>: -<br>
     <code>prog lang  </code>: PHP<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -737,6 +817,7 @@
     <code>prog lang  </code>: PHP<br>
     <code>archived   </code>: -<br>
     <b>license</b>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -746,6 +827,7 @@
     <code>homepage   </code>: http://www.citrusdb.org<br>
     <code>prog lang  </code>: PHP<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -755,6 +837,7 @@
     <code>homepage   </code>: -<br>
     <code>prog lang  </code>: PHP<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -764,6 +847,7 @@
     <code>homepage   </code>: -<br>
     <code>prog lang  </code>: PHP<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -774,6 +858,7 @@
     <code>prog lang  </code>: PHP<br>
     <code>archived   </code>: -<br>
     <b>license</b>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -784,6 +869,7 @@
     <code>prog lang  </code>: PHP<br>
     <code>archived   </code>: -<br>
     <b>license</b>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -793,6 +879,7 @@
     <code>homepage   </code>: https://www.claroline.com<br>
     <code>prog lang  </code>: PHP<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -802,6 +889,7 @@
     <code>homepage   </code>: https://www.classroombookings.com/<br>
     <code>prog lang  </code>: PHP<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -811,6 +899,7 @@
     <code>homepage   </code>: www.clear-health.com<br>
     <code>prog lang  </code>: PHP<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -820,6 +909,7 @@
     <code>homepage   </code>: https://www.clementine-player.org/<br>
     <code>prog lang  </code>: C++<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -829,6 +919,7 @@
     <code>homepage   </code>: http://clipbucket.com<br>
     <code>prog lang  </code>: JavaScript<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -838,6 +929,7 @@
     <code>homepage   </code>: -<br>
     <code>prog lang  </code>: Perl<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -847,6 +939,7 @@
     <code>homepage   </code>: https://underground.works/clockwork<br>
     <code>prog lang  </code>: PHP<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -856,6 +949,7 @@
     <code>homepage   </code>: -<br>
     <code>prog lang  </code>: Shell<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -865,6 +959,7 @@
     <code>homepage   </code>: https://opis.io/closure<br>
     <code>prog lang  </code>: PHP<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -874,6 +969,7 @@
     <code>homepage   </code>: https://developers.google.com/closure/compiler/<br>
     <code>prog lang  </code>: Java<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -883,6 +979,7 @@
     <code>homepage   </code>: http://ritchielawrence.github.io/cmdow/<br>
     <code>prog lang  </code>: C++<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -892,6 +989,7 @@
     <code>homepage   </code>: https://craftcms.com<br>
     <code>prog lang  </code>: PHP<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -901,6 +999,7 @@
     <code>homepage   </code>: https://codeigniter.com/<br>
     <code>prog lang  </code>: PHP<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -910,6 +1009,7 @@
     <code>homepage   </code>: https://codeigniter.com/<br>
     <code>prog lang  </code>: PHP<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -919,6 +1019,7 @@
     <code>homepage   </code>: http://codemirror.net/5/<br>
     <code>prog lang  </code>: JavaScript<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -928,6 +1029,7 @@
     <code>homepage   </code>: https://collabtive.o-dyn.de<br>
     <code>prog lang  </code>: PHP<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -937,6 +1039,7 @@
     <code>homepage   </code>: https://nunomaduro.com<br>
     <code>prog lang  </code>: PHP<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -946,6 +1049,7 @@
     <code>homepage   </code>: -<br>
     <code>prog lang  </code>: PHP<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -955,6 +1059,7 @@
     <code>homepage   </code>: https://getcomposer.org/<br>
     <code>prog lang  </code>: PHP<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -964,6 +1069,7 @@
     <code>homepage   </code>: -<br>
     <code>prog lang  </code>: PHP<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -973,6 +1079,7 @@
     <code>homepage   </code>: https://conemu.github.io/<br>
     <code>prog lang  </code>: C++<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -982,6 +1089,7 @@
     <code>homepage   </code>: https://github.com/cbucher/console/wiki<br>
     <code>prog lang  </code>: C++<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -992,6 +1100,7 @@
     <code>prog lang  </code>: JavaScript<br>
     <code>archived   </code>: -<br>
     <b>license</b>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -1001,6 +1110,7 @@
     <code>homepage   </code>: https://www.libreoffice.org/<br>
     <code>prog lang  </code>: -<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -1010,6 +1120,7 @@
     <code>homepage   </code>: https://owncloud.com<br>
     <code>prog lang  </code>: PHP<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -1019,6 +1130,7 @@
     <code>homepage   </code>: https://coreui.io/icons/<br>
     <code>prog lang  </code>: TypeScript<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -1028,6 +1140,7 @@
     <code>homepage   </code>: https://mledoze.github.io/countries/<br>
     <code>prog lang  </code>: PHP<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -1037,6 +1150,7 @@
     <code>homepage   </code>: https://rinvex.com<br>
     <code>prog lang  </code>: PHP<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -1046,6 +1160,7 @@
     <code>homepage   </code>: -<br>
     <code>prog lang  </code>: PHP<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -1055,6 +1170,7 @@
     <code>homepage   </code>: http://www.ChurchCRM.io<br>
     <code>prog lang  </code>: PHP<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -1064,6 +1180,7 @@
     <code>homepage   </code>: -<br>
     <code>prog lang  </code>: PHP<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -1073,6 +1190,7 @@
     <code>homepage   </code>: https://css.gg<br>
     <code>prog lang  </code>: SCSS<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -1083,6 +1201,7 @@
     <code>prog lang  </code>: C#<br>
     <code>archived   </code>: -<br>
     <b>license</b>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -1092,6 +1211,7 @@
     <code>homepage   </code>: https://cutetorrent.info<br>
     <code>prog lang  </code>: C++<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -1101,6 +1221,7 @@
     <code>homepage   </code>: https://cyberduck.io/<br>
     <code>prog lang  </code>: Java<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -1110,6 +1231,7 @@
     <code>homepage   </code>: http://www.daloradius.com<br>
     <code>prog lang  </code>: PHP<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -1119,6 +1241,7 @@
     <code>homepage   </code>: https://www.darktable.org<br>
     <code>prog lang  </code>: C<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -1128,6 +1251,7 @@
     <code>homepage   </code>: http://keen.github.io/dashboards/<br>
     <code>prog lang  </code>: HTML<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -1137,6 +1261,7 @@
     <code>homepage   </code>: https://xdsoft.net/jqplugins/datetimepicker/<br>
     <code>prog lang  </code>: JavaScript<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -1147,6 +1272,7 @@
     <code>prog lang  </code>: PHP<br>
     <code>archived   </code>: -<br>
     <b>license</b>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -1156,6 +1282,7 @@
     <code>homepage   </code>: -<br>
     <code>prog lang  </code>: PHP<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -1165,6 +1292,7 @@
     <code>homepage   </code>: https://dbeaver.io<br>
     <code>prog lang  </code>: Java<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -1174,6 +1302,7 @@
     <code>homepage   </code>: https://dbgate.org<br>
     <code>prog lang  </code>: Svelte<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -1183,6 +1312,7 @@
     <code>homepage   </code>: http://jsfiddle.net/tj_vantoll/5Hr4r/<br>
     <code>prog lang  </code>: JavaScript<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -1192,6 +1322,7 @@
     <code>homepage   </code>: https://deno.land<br>
     <code>prog lang  </code>: Rust<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -1201,6 +1332,7 @@
     <code>homepage   </code>: -<br>
     <code>prog lang  </code>: PHP<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -1210,6 +1342,7 @@
     <code>homepage   </code>: https://desktop.github.com<br>
     <code>prog lang  </code>: TypeScript<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -1219,6 +1352,7 @@
     <code>homepage   </code>: https://streamlabs.com<br>
     <code>prog lang  </code>: TypeScript<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -1228,6 +1362,7 @@
     <code>homepage   </code>: https://www.onlyoffice.com<br>
     <code>prog lang  </code>: -<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -1237,6 +1372,7 @@
     <code>homepage   </code>: https://codemirror.net/<br>
     <code>prog lang  </code>: JavaScript<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -1246,6 +1382,7 @@
     <code>homepage   </code>: https://www.embarcadero.com/free-tools/dev-cpp<br>
     <code>prog lang  </code>: Pascal<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -1255,6 +1392,7 @@
     <code>homepage   </code>: https://devdocs.io<br>
     <code>prog lang  </code>: Ruby<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -1264,6 +1402,7 @@
     <code>homepage   </code>: https://devdocs.egoist.sh<br>
     <code>prog lang  </code>: JavaScript<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -1273,6 +1412,7 @@
     <code>homepage   </code>: https://js.devexpress.com/<br>
     <code>prog lang  </code>: JavaScript<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -1282,6 +1422,7 @@
     <code>homepage   </code>: -<br>
     <code>prog lang  </code>: JavaScript<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -1292,6 +1433,7 @@
     <code>prog lang  </code>: Java<br>
     <code>archived   </code>: -<br>
     <b>license</b>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -1301,6 +1443,7 @@
     <code>homepage   </code>: https://gitlab.gnome.org/GNOME/dia<br>
     <code>prog lang  </code>: C<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -1310,6 +1453,7 @@
     <code>homepage   </code>: http://diagramo.com<br>
     <code>prog lang  </code>: JavaScript<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -1320,6 +1464,7 @@
     <code>prog lang  </code>: C++<br>
     <code>archived   </code>: -<br>
     <b>license</b>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -1329,6 +1474,7 @@
     <code>homepage   </code>: -<br>
     <code>prog lang  </code>: C++<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -1338,6 +1484,7 @@
     <code>homepage   </code>: http://github.com/flatiron/director<br>
     <code>prog lang  </code>: JavaScript<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -1347,6 +1494,7 @@
     <code>homepage   </code>: http://diskusagereports.com<br>
     <code>prog lang  </code>: JavaScript<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -1356,6 +1504,7 @@
     <code>homepage   </code>: -<br>
     <code>prog lang  </code>: Java<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -1365,6 +1514,7 @@
     <code>homepage   </code>: -<br>
     <code>prog lang  </code>: Shell<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -1374,6 +1524,7 @@
     <code>homepage   </code>: http://www.dylanlindgren.com<br>
     <code>prog lang  </code>: Shell<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -1383,6 +1534,7 @@
     <code>homepage   </code>: https://www.dolibarr.org<br>
     <code>prog lang  </code>: PHP<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -1392,6 +1544,7 @@
     <code>homepage   </code>: -<br>
     <code>prog lang  </code>: TypeScript<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -1401,6 +1554,7 @@
     <code>homepage   </code>: https://dompdf.github.io/<br>
     <code>prog lang  </code>: PHP<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -1410,6 +1564,7 @@
     <code>homepage   </code>: -<br>
     <code>prog lang  </code>: TypeScript<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -1419,6 +1574,7 @@
     <code>homepage   </code>: https://www.digimezzo.com<br>
     <code>prog lang  </code>: C#<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -1428,6 +1584,7 @@
     <code>homepage   </code>: -<br>
     <code>prog lang  </code>: PHP<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -1437,6 +1594,7 @@
     <code>homepage   </code>: -<br>
     <code>prog lang  </code>: Pascal<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -1446,6 +1604,7 @@
     <code>homepage   </code>: https://doublecmd.sourceforge.io<br>
     <code>prog lang  </code>: Pascal<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -1455,6 +1614,7 @@
     <code>homepage   </code>: https://www.drawio.com<br>
     <code>prog lang  </code>: JavaScript<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -1464,6 +1624,7 @@
     <code>homepage   </code>: https://www.diagrams.net<br>
     <code>prog lang  </code>: JavaScript<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -1473,6 +1634,7 @@
     <code>homepage   </code>: http://drawpile.net/<br>
     <code>prog lang  </code>: C++<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -1483,6 +1645,7 @@
     <code>prog lang  </code>: PHP<br>
     <code>archived   </code>: -<br>
     <b>license</b>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -1492,6 +1655,7 @@
     <code>homepage   </code>: http://schizoduckie.github.io/DuckieTV/<br>
     <code>prog lang  </code>: JavaScript<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -1501,6 +1665,7 @@
     <code>homepage   </code>: https://dupeguru.voltaicideas.net<br>
     <code>prog lang  </code>: Python<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -1510,6 +1675,7 @@
     <code>homepage   </code>: https://gitlab.gnome.org/GNOME/easytag<br>
     <code>prog lang  </code>: C<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -1519,6 +1685,7 @@
     <code>homepage   </code>: https://gr2m.github.io/editable-table/<br>
     <code>prog lang  </code>: JavaScript<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -1528,6 +1695,7 @@
     <code>homepage   </code>: https://www.edutracsis.com/<br>
     <code>prog lang  </code>: PHP<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -1537,6 +1705,7 @@
     <code>homepage   </code>: https://www.egroupware.org/<br>
     <code>prog lang  </code>: PHP<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -1546,6 +1715,7 @@
     <code>homepage   </code>: https://www.elabftw.net<br>
     <code>prog lang  </code>: PHP<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -1555,6 +1725,7 @@
     <code>homepage   </code>: -<br>
     <code>prog lang  </code>: C<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -1564,6 +1735,7 @@
     <code>homepage   </code>: https://studio-42.github.io/elFinder/<br>
     <code>prog lang  </code>: JavaScript<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -1573,6 +1745,7 @@
     <code>homepage   </code>: -<br>
     <code>prog lang  </code>: PHP<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -1583,6 +1756,7 @@
     <code>prog lang  </code>: PHP<br>
     <code>archived   </code>: -<br>
     <b>license</b>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -1592,6 +1766,7 @@
     <code>homepage   </code>: http://es6-features.org/<br>
     <code>prog lang  </code>: HTML<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -1601,6 +1776,7 @@
     <code>homepage   </code>: -<br>
     <code>prog lang  </code>: -<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -1610,6 +1786,7 @@
     <code>homepage   </code>: https://esbuild.github.io/<br>
     <code>prog lang  </code>: Go<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -1619,6 +1796,7 @@
     <code>homepage   </code>: https://www.espocrm.com<br>
     <code>prog lang  </code>: PHP<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -1628,6 +1806,7 @@
     <code>homepage   </code>: -<br>
     <code>prog lang  </code>: PHP<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -1637,6 +1816,7 @@
     <code>homepage   </code>: https://exifcleaner.com<br>
     <code>prog lang  </code>: TypeScript<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -1647,6 +1827,7 @@
     <code>prog lang  </code>: JavaScript<br>
     <code>archived   </code>: -<br>
     <b>license</b>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -1656,6 +1837,7 @@
     <code>homepage   </code>: -<br>
     <code>prog lang  </code>: Assembly<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -1665,6 +1847,7 @@
     <code>homepage   </code>: -<br>
     <code>prog lang  </code>: Rust<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -1674,6 +1857,7 @@
     <code>homepage   </code>: https://extplorer.net<br>
     <code>prog lang  </code>: PHP<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -1684,6 +1868,7 @@
     <code>prog lang  </code>: PHP<br>
     <code>archived   </code>: -<br>
     <b>license</b>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -1693,6 +1878,7 @@
     <code>homepage   </code>: https://invent.kde.org/network/falkon<br>
     <code>prog lang  </code>: C++<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -1702,6 +1888,7 @@
     <code>homepage   </code>: http://wwwendt.de/tech/fancytree/demo<br>
     <code>prog lang  </code>: JavaScript<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -1711,6 +1898,7 @@
     <code>homepage   </code>: https://farmanager.com<br>
     <code>prog lang  </code>: C++<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -1720,6 +1908,7 @@
     <code>homepage   </code>: https://www.faveohelpdesk.com/online-demo/<br>
     <code>prog lang  </code>: PHP<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -1730,6 +1919,7 @@
     <code>prog lang  </code>: FreeBasic<br>
     <code>archived   </code>: -<br>
     <b>license</b>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -1740,6 +1930,7 @@
     <code>prog lang  </code>: C++<br>
     <code>archived   </code>: -<br>
     <b>license</b>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -1749,6 +1940,7 @@
     <code>homepage   </code>: http://ajaxray.com/blog/php-universal-feed-generator-supports-rss-10-rss-20-and-atom<br>
     <code>prog lang  </code>: PHP<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -1758,6 +1950,7 @@
     <code>homepage   </code>: https://www.fengoffice.com<br>
     <code>prog lang  </code>: PHP<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -1767,6 +1960,7 @@
     <code>homepage   </code>: https://ffmpeg.org/<br>
     <code>prog lang  </code>: C<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -1776,6 +1970,7 @@
     <code>homepage   </code>: -<br>
     <code>prog lang  </code>: Shell<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -1785,6 +1980,7 @@
     <code>homepage   </code>: https://firefly-iii.org/<br>
     <code>prog lang  </code>: PHP<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -1794,6 +1990,7 @@
     <code>homepage   </code>: https://flarum.org<br>
     <code>prog lang  </code>: PHP<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -1803,6 +2000,7 @@
     <code>homepage   </code>: -<br>
     <code>prog lang  </code>: PHP<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -1812,6 +2010,7 @@
     <code>homepage   </code>: http://www.flotcharts.org/<br>
     <code>prog lang  </code>: JavaScript<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -1821,6 +2020,7 @@
     <code>homepage   </code>: -<br>
     <code>prog lang  </code>: Python<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -1830,6 +2030,7 @@
     <code>homepage   </code>: https://www.focalboard.com<br>
     <code>prog lang  </code>: TypeScript<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -1839,6 +2040,7 @@
     <code>homepage   </code>: https://fontawesome.com<br>
     <code>prog lang  </code>: JavaScript<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -1848,6 +2050,7 @@
     <code>homepage   </code>: http://fontello.com<br>
     <code>prog lang  </code>: JavaScript<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -1857,6 +2060,7 @@
     <code>homepage   </code>: http://fontforge.github.io/<br>
     <code>prog lang  </code>: C<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -1867,6 +2071,7 @@
     <code>prog lang  </code>: HTML<br>
     <code>archived   </code>: -<br>
     <b>license</b>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -1876,6 +2081,7 @@
     <code>homepage   </code>: https://jquery-form.github.io/form/<br>
     <code>prog lang  </code>: JavaScript<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -1886,6 +2092,7 @@
     <code>prog lang  </code>: PHP<br>
     <code>archived   </code>: -<br>
     <b>license</b>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -1895,6 +2102,7 @@
     <code>homepage   </code>: http://www.fpdf.org<br>
     <code>prog lang  </code>: PHP<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -1904,6 +2112,7 @@
     <code>homepage   </code>: https://www.freac.org/<br>
     <code>prog lang  </code>: C++<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -1913,6 +2122,7 @@
     <code>homepage   </code>: https://www.freecad.org<br>
     <code>prog lang  </code>: C++<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -1922,6 +2132,7 @@
     <code>homepage   </code>: -<br>
     <code>prog lang  </code>: PHP<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -1931,6 +2142,7 @@
     <code>homepage   </code>: https://www.freeplane.org<br>
     <code>prog lang  </code>: Java<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -1940,6 +2152,7 @@
     <code>homepage   </code>: https://freetubeapp.io/<br>
     <code>prog lang  </code>: JavaScript<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -1949,6 +2162,7 @@
     <code>homepage   </code>: http://www.frescobaldi.org/<br>
     <code>prog lang  </code>: Python<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -1958,6 +2172,7 @@
     <code>homepage   </code>: http://fritzing.org<br>
     <code>prog lang  </code>: C++<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -1967,6 +2182,7 @@
     <code>homepage   </code>: http://notrinos.com/fa/index.php<br>
     <code>prog lang  </code>: PHP<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -1976,6 +2192,7 @@
     <code>homepage   </code>: http://fudforum.org/<br>
     <code>prog lang  </code>: PHP<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -1985,6 +2202,7 @@
     <code>homepage   </code>: -<br>
     <code>prog lang  </code>: JavaScript<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -1994,6 +2212,7 @@
     <code>homepage   </code>: https://fullcalendar.io<br>
     <code>prog lang  </code>: TypeScript<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -2003,6 +2222,7 @@
     <code>homepage   </code>: -<br>
     <code>prog lang  </code>: PHP<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -2012,6 +2232,7 @@
     <code>homepage   </code>: http://www.gafferhq.org<br>
     <code>prog lang  </code>: Python<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -2021,6 +2242,7 @@
     <code>homepage   </code>: http://www.gaiaehr.org/<br>
     <code>prog lang  </code>: JavaScript<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -2030,6 +2252,7 @@
     <code>homepage   </code>: https://galleryrevival.com/<br>
     <code>prog lang  </code>: PHP<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -2039,6 +2262,7 @@
     <code>homepage   </code>: http://galleryproject.org<br>
     <code>prog lang  </code>: PHP<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -2048,6 +2272,7 @@
     <code>homepage   </code>: https://dhtmlx.com/docs/products/dhtmlxGantt/<br>
     <code>prog lang  </code>: JavaScript<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -2057,6 +2282,7 @@
     <code>homepage   </code>: https://frappe.io/gantt<br>
     <code>prog lang  </code>: JavaScript<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -2066,6 +2292,7 @@
     <code>homepage   </code>: https://gantt-schedule-timeline-calendar.neuronet.io<br>
     <code>prog lang  </code>: TypeScript<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -2075,6 +2302,7 @@
     <code>homepage   </code>: http://ganttproject.biz<br>
     <code>prog lang  </code>: Java<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -2084,6 +2312,7 @@
     <code>homepage   </code>: -<br>
     <code>prog lang  </code>: C<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -2093,6 +2322,7 @@
     <code>homepage   </code>: https://gdevelop.io<br>
     <code>prog lang  </code>: JavaScript<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -2102,6 +2332,7 @@
     <code>homepage   </code>: https://gitlab.gnome.org/GNOME/gedit<br>
     <code>prog lang  </code>: C<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -2111,6 +2342,7 @@
     <code>homepage   </code>: https://colorlib.com/polygon/gentelella/index.html<br>
     <code>prog lang  </code>: HTML<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -2121,6 +2353,7 @@
     <code>prog lang  </code>: -<br>
     <code>archived   </code>: -<br>
     <b>license</b>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -2130,6 +2363,7 @@
     <code>homepage   </code>: -<br>
     <code>prog lang  </code>: C++<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -2139,6 +2373,7 @@
     <code>homepage   </code>: https://gitlab.gnome.org/GNOME/gimp<br>
     <code>prog lang  </code>: C<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -2148,6 +2383,7 @@
     <code>homepage   </code>: https://garethflowers.dev/git-portable/<br>
     <code>prog lang  </code>: HTML<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -2157,6 +2393,7 @@
     <code>homepage   </code>: https://about.gitea.com<br>
     <code>prog lang  </code>: Go<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -2166,6 +2403,7 @@
     <code>homepage   </code>: https://gitlist.org/<br>
     <code>prog lang  </code>: PHP<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -2175,6 +2413,7 @@
     <code>homepage   </code>: -<br>
     <code>prog lang  </code>: C++<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -2184,6 +2423,7 @@
     <code>homepage   </code>: https://glpi-project.org<br>
     <code>prog lang  </code>: PHP<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -2193,6 +2433,7 @@
     <code>homepage   </code>: -<br>
     <code>prog lang  </code>: JavaScript<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -2202,6 +2443,7 @@
     <code>homepage   </code>: http://code.gnucash.org/website/<br>
     <code>prog lang  </code>: C<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -2211,6 +2453,7 @@
     <code>homepage   </code>: https://gitlab.gnome.org/GNOME/gnumeric<br>
     <code>prog lang  </code>: C<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -2220,6 +2463,7 @@
     <code>homepage   </code>: http://gnuplot.info/<br>
     <code>prog lang  </code>: C<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -2230,6 +2474,7 @@
     <code>prog lang  </code>: Java<br>
     <code>archived   </code>: -<br>
     <b>license</b>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -2239,6 +2484,7 @@
     <code>homepage   </code>: http://gojs.net<br>
     <code>prog lang  </code>: HTML<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -2248,6 +2494,7 @@
     <code>homepage   </code>: http://goldendict.org/<br>
     <code>prog lang  </code>: C++<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -2257,6 +2504,7 @@
     <code>homepage   </code>: -<br>
     <code>prog lang  </code>: C<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -2266,6 +2514,7 @@
     <code>homepage   </code>: https://gitlab.gnome.org/GNOME/gparted<br>
     <code>prog lang  </code>: C++<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -2275,6 +2524,7 @@
     <code>homepage   </code>: https://abertschi.ch/blog/2020/building-graalphp/<br>
     <code>prog lang  </code>: Java<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -2284,6 +2534,7 @@
     <code>homepage   </code>: https://gramps-project.org/<br>
     <code>prog lang  </code>: Python<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -2293,6 +2544,7 @@
     <code>homepage   </code>: https://webonyx.github.io/graphql-php<br>
     <code>prog lang  </code>: PHP<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -2302,6 +2554,7 @@
     <code>homepage   </code>: https://tools.stefankueng.com/grepWin.html<br>
     <code>prog lang  </code>: C++<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -2311,6 +2564,7 @@
     <code>homepage   </code>: -<br>
     <code>prog lang  </code>: C<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -2320,6 +2574,7 @@
     <code>homepage   </code>: -<br>
     <code>prog lang  </code>: Python<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -2329,6 +2584,7 @@
     <code>homepage   </code>: https://grisbi.org/<br>
     <code>prog lang  </code>: C<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -2338,6 +2594,7 @@
     <code>homepage   </code>: https://grocy.info<br>
     <code>prog lang  </code>: Blade<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -2347,6 +2604,7 @@
     <code>homepage   </code>: https://www.group-office.com<br>
     <code>prog lang  </code>: PHP<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -2356,6 +2614,7 @@
     <code>homepage   </code>: https://bafs.github.io/Gutenberg<br>
     <code>prog lang  </code>: SCSS<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -2365,6 +2624,7 @@
     <code>homepage   </code>: https://docs.guzzlephp.org/<br>
     <code>prog lang  </code>: PHP<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -2374,6 +2634,7 @@
     <code>homepage   </code>: https://handbrake.fr<br>
     <code>prog lang  </code>: C<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -2383,6 +2644,7 @@
     <code>homepage   </code>: https://handsontable.com<br>
     <code>prog lang  </code>: JavaScript<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -2393,6 +2655,7 @@
     <code>prog lang  </code>: PHP<br>
     <code>archived   </code>: -<br>
     <b>license</b>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -2402,6 +2665,7 @@
     <code>homepage   </code>: https://healthicons.org<br>
     <code>prog lang  </code>: TypeScript<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -2411,6 +2675,7 @@
     <code>homepage   </code>: https://www.heidisql.com/<br>
     <code>prog lang  </code>: Pascal<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -2420,6 +2685,7 @@
     <code>homepage   </code>: https://helio.fm<br>
     <code>prog lang  </code>: C++<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -2429,6 +2695,7 @@
     <code>homepage   </code>: https://heroicons.com<br>
     <code>prog lang  </code>: JavaScript<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -2438,6 +2705,7 @@
     <code>homepage   </code>: -<br>
     <code>prog lang  </code>: JavaScript<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -2447,6 +2715,7 @@
     <code>homepage   </code>: https://store.webkul.com/Qloapps.html<br>
     <code>prog lang  </code>: PHP<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -2456,6 +2725,7 @@
     <code>homepage   </code>: -<br>
     <code>prog lang  </code>: PHP<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -2465,6 +2735,7 @@
     <code>homepage   </code>: https://html2canvas.hertzen.com/<br>
     <code>prog lang  </code>: TypeScript<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -2474,6 +2745,7 @@
     <code>homepage   </code>: https://amphp.org/http-server<br>
     <code>prog lang  </code>: PHP<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -2483,6 +2755,7 @@
     <code>homepage   </code>: http://www.httrack.com/<br>
     <code>prog lang  </code>: C<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -2492,6 +2765,7 @@
     <code>homepage   </code>: https://sourceforge.net/projects/hugin/<br>
     <code>prog lang  </code>: C++<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -2501,6 +2775,7 @@
     <code>homepage   </code>: https://www.humhub.com<br>
     <code>prog lang  </code>: PHP<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -2510,6 +2785,7 @@
     <code>homepage   </code>: https://humo-gen.com<br>
     <code>prog lang  </code>: PHP<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -2519,6 +2795,7 @@
     <code>homepage   </code>: http://www.hydrogen-music.org<br>
     <code>prog lang  </code>: C++<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -2528,6 +2805,7 @@
     <code>homepage   </code>: http://icecoder.net<br>
     <code>prog lang  </code>: PHP<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -2537,6 +2815,7 @@
     <code>homepage   </code>: http://icehrm.com<br>
     <code>prog lang  </code>: JavaScript<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -2546,6 +2825,7 @@
     <code>homepage   </code>: http://www.ilias.de/docu/goto_docu_cat_582.html<br>
     <code>prog lang  </code>: PHP<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -2555,6 +2835,7 @@
     <code>homepage   </code>: https://imageglass.org<br>
     <code>prog lang  </code>: C#<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -2564,6 +2845,7 @@
     <code>homepage   </code>: https://imagemagick.org<br>
     <code>prog lang  </code>: C<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -2574,6 +2856,7 @@
     <code>prog lang  </code>: -<br>
     <code>archived   </code>: -<br>
     <b>license</b>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -2583,6 +2866,7 @@
     <code>homepage   </code>: http://docs.inoerp.com/<br>
     <code>prog lang  </code>: JavaScript<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -2592,6 +2876,7 @@
     <code>homepage   </code>: https://invoiceninja.com<br>
     <code>prog lang  </code>: PHP<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -2601,6 +2886,7 @@
     <code>homepage   </code>: https://www.invoiceplane.com<br>
     <code>prog lang  </code>: PHP<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -2610,6 +2896,7 @@
     <code>homepage   </code>: angryip.org<br>
     <code>prog lang  </code>: Java<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -2619,6 +2906,7 @@
     <code>homepage   </code>: https://jrsoftware.org/isinfo.php<br>
     <code>prog lang  </code>: Pascal<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -2628,6 +2916,7 @@
     <code>homepage   </code>: https://www.combodo.com/itop<br>
     <code>prog lang  </code>: PHP<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -2637,6 +2926,7 @@
     <code>homepage   </code>: https://devdocs.jabref.org<br>
     <code>prog lang  </code>: Java<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -2647,6 +2937,7 @@
     <code>prog lang  </code>: Java<br>
     <code>archived   </code>: -<br>
     <b>license</b>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -2656,6 +2947,7 @@
     <code>homepage   </code>: https://www.jamovi.org<br>
     <code>prog lang  </code>: JavaScript<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -2665,6 +2957,7 @@
     <code>homepage   </code>: jasp-stats.org<br>
     <code>prog lang  </code>: JavaScript<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -2674,6 +2967,7 @@
     <code>homepage   </code>: https://obfuscator.io<br>
     <code>prog lang  </code>: TypeScript<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -2683,6 +2977,7 @@
     <code>homepage   </code>: -<br>
     <code>prog lang  </code>: JavaScript<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -2692,6 +2987,7 @@
     <code>homepage   </code>: https://desktop.jitsi.org<br>
     <code>prog lang  </code>: Java<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -2701,6 +2997,7 @@
     <code>homepage   </code>: https://jitsi.org/meet<br>
     <code>prog lang  </code>: TypeScript<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -2711,6 +3008,7 @@
     <code>prog lang  </code>: C<br>
     <code>archived   </code>: -<br>
     <b>license</b>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -2720,6 +3018,7 @@
     <code>homepage   </code>: https://xdsoft.net/jodit/<br>
     <code>prog lang  </code>: TypeScript<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -2729,6 +3028,7 @@
     <code>homepage   </code>: https://www.joomla.org<br>
     <code>prog lang  </code>: PHP<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -2739,6 +3039,7 @@
     <code>prog lang  </code>: JavaScript<br>
     <code>archived   </code>: -<br>
     <b>license</b>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -2748,6 +3049,7 @@
     <code>homepage   </code>: https://packagist.org/packages/mitoteam/jpgraph<br>
     <code>prog lang  </code>: PHP<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -2757,6 +3059,7 @@
     <code>homepage   </code>: http://www.jqplot.com<br>
     <code>prog lang  </code>: JavaScript<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -2766,6 +3069,7 @@
     <code>homepage   </code>: https://jquery.com<br>
     <code>prog lang  </code>: JavaScript<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -2775,6 +3079,7 @@
     <code>homepage   </code>: -<br>
     <code>prog lang  </code>: HTML<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -2784,6 +3089,7 @@
     <code>homepage   </code>: https://blueimp.github.io/jQuery-File-Upload/<br>
     <code>prog lang  </code>: PHP<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -2794,6 +3100,7 @@
     <code>prog lang  </code>: HTML<br>
     <code>archived   </code>: -<br>
     <b>license</b>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -2803,6 +3110,7 @@
     <code>homepage   </code>: http://trentrichardson.com/examples/timepicker/<br>
     <code>prog lang  </code>: JavaScript<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -2812,6 +3120,7 @@
     <code>homepage   </code>: http://maxazan.github.io/jquery-treegrid<br>
     <code>prog lang  </code>: JavaScript<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -2821,6 +3130,7 @@
     <code>homepage   </code>: https://jqueryui.com<br>
     <code>prog lang  </code>: JavaScript<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -2830,6 +3140,7 @@
     <code>homepage   </code>: -<br>
     <code>prog lang  </code>: JavaScript<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -2839,6 +3150,7 @@
     <code>homepage   </code>: https://kidsysco.github.io/jquery-ui-month-picker/<br>
     <code>prog lang  </code>: JavaScript<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -2849,6 +3161,7 @@
     <code>prog lang  </code>: JavaScript<br>
     <code>archived   </code>: -<br>
     <b>license</b>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -2858,6 +3171,7 @@
     <code>homepage   </code>: https://appendgrid.bsite.net<br>
     <code>prog lang  </code>: JavaScript<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -2867,6 +3181,7 @@
     <code>homepage   </code>: http://sebastien.drouyer.com/jquery.flowchart-demo/<br>
     <code>prog lang  </code>: JavaScript<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -2877,6 +3192,7 @@
     <code>prog lang  </code>: JavaScript<br>
     <code>archived   </code>: -<br>
     <b>license</b>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -2886,6 +3202,7 @@
     <code>homepage   </code>: http://zamiang.github.io/jquery.poplockit/<br>
     <code>prog lang  </code>: JavaScript<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -2895,6 +3212,7 @@
     <code>homepage   </code>: https://terminal.jcubic.pl<br>
     <code>prog lang  </code>: JavaScript<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -2904,6 +3222,7 @@
     <code>homepage   </code>: -<br>
     <code>prog lang  </code>: JavaScript<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -2913,6 +3232,7 @@
     <code>homepage   </code>: -<br>
     <code>prog lang  </code>: JavaScript<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -2922,6 +3242,7 @@
     <code>homepage   </code>: https://endel.github.io/js2php/<br>
     <code>prog lang  </code>: JavaScript<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -2931,6 +3252,7 @@
     <code>homepage   </code>: jsfuck.com<br>
     <code>prog lang  </code>: JavaScript<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -2940,6 +3262,7 @@
     <code>homepage   </code>: http://www.tedivm.com<br>
     <code>prog lang  </code>: PHP<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -2949,6 +3272,7 @@
     <code>homepage   </code>: https://parall.ax/products/jspdf<br>
     <code>prog lang  </code>: JavaScript<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -2958,6 +3282,7 @@
     <code>homepage   </code>: https://jsplumbtoolkit.com<br>
     <code>prog lang  </code>: JavaScript<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -2967,6 +3292,7 @@
     <code>homepage   </code>: http://jstree.com<br>
     <code>prog lang  </code>: JavaScript<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -2976,6 +3302,7 @@
     <code>homepage   </code>: -<br>
     <code>prog lang  </code>: CSS<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -2985,6 +3312,7 @@
     <code>homepage   </code>: https://kalkun.sourceforge.io/<br>
     <code>prog lang  </code>: PHP<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -2994,6 +3322,7 @@
     <code>homepage   </code>: https://kanboard.org<br>
     <code>prog lang  </code>: PHP<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -3003,6 +3332,7 @@
     <code>homepage   </code>: http://www.ulduzsoft.com/linux/kchmviewer/<br>
     <code>prog lang  </code>: C++<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -3012,6 +3342,7 @@
     <code>homepage   </code>: https://invent.kde.org/multimedia/kdenlive<br>
     <code>prog lang  </code>: C++<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -3022,6 +3353,7 @@
     <code>prog lang  </code>: PHP<br>
     <code>archived   </code>: -<br>
     <b>license</b>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -3031,6 +3363,7 @@
     <code>homepage   </code>: https://invent.kde.org/kdevelop/kdevelop<br>
     <code>prog lang  </code>: C++<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -3040,6 +3373,7 @@
     <code>homepage   </code>: https://invent.kde.org/sdk/kdiff3<br>
     <code>prog lang  </code>: C++<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -3049,6 +3383,7 @@
     <code>homepage   </code>: http://www.keepassx.org/<br>
     <code>prog lang  </code>: C++<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -3058,6 +3393,7 @@
     <code>homepage   </code>: -<br>
     <code>prog lang  </code>: Pascal<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -3067,6 +3403,7 @@
     <code>homepage   </code>: https://gitlab.com/kicad/code/kicad<br>
     <code>prog lang  </code>: C++<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -3076,6 +3413,7 @@
     <code>homepage   </code>: https://invent.kde.org/multimedia/kid3<br>
     <code>prog lang  </code>: C++<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -3085,6 +3423,7 @@
     <code>homepage   </code>: https://www.kinovea.org<br>
     <code>prog lang  </code>: C#<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -3094,6 +3433,7 @@
     <code>homepage   </code>: https://koel.dev<br>
     <code>prog lang  </code>: PHP<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -3103,6 +3443,7 @@
     <code>homepage   </code>: https://vkcom.github.io/kphp/<br>
     <code>prog lang  </code>: C++<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -3112,6 +3453,7 @@
     <code>homepage   </code>: https://invent.kde.org/graphics/krita<br>
     <code>prog lang  </code>: C++<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -3122,6 +3464,7 @@
     <code>prog lang  </code>: C++<br>
     <code>archived   </code>: -<br>
     <b>license</b>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -3131,6 +3474,7 @@
     <code>homepage   </code>: -<br>
     <code>prog lang  </code>: JavaScript<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -3140,6 +3484,7 @@
     <code>homepage   </code>: -<br>
     <code>prog lang  </code>: PHP<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -3149,6 +3494,7 @@
     <code>homepage   </code>: https://site.gitscrum.com<br>
     <code>prog lang  </code>: PHP<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -3158,6 +3504,7 @@
     <code>homepage   </code>: https://latte.nette.org<br>
     <code>prog lang  </code>: PHP<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -3167,6 +3514,7 @@
     <code>homepage   </code>: -<br>
     <code>prog lang  </code>: Java<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -3176,6 +3524,7 @@
     <code>homepage   </code>: https://tcobbs.github.io/ldview/<br>
     <code>prog lang  </code>: C++<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -3185,6 +3534,7 @@
     <code>homepage   </code>: https://tcobbs.github.io/ldview/<br>
     <code>prog lang  </code>: C++<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -3194,6 +3544,7 @@
     <code>homepage   </code>: https://odan.github.io/learn-php/<br>
     <code>prog lang  </code>: HTML<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -3204,6 +3555,7 @@
     <code>prog lang  </code>: C++<br>
     <code>archived   </code>: -<br>
     <b>license</b>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -3213,6 +3565,7 @@
     <code>homepage   </code>: http://leafo.net/lessphp<br>
     <code>prog lang  </code>: PHP<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -3222,6 +3575,7 @@
     <code>homepage   </code>: http://www.letodms.com<br>
     <code>prog lang  </code>: PHP<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -3231,6 +3585,7 @@
     <code>homepage   </code>: https://giggsey.com/libphonenumber/<br>
     <code>prog lang  </code>: PHP<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -3240,6 +3595,7 @@
     <code>homepage   </code>: http://librecad.org/<br>
     <code>prog lang  </code>: C++<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -3249,6 +3605,7 @@
     <code>homepage   </code>: https://librepcb.org<br>
     <code>prog lang  </code>: C++<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -3258,6 +3615,7 @@
     <code>homepage   </code>: https://lightproxy.org/<br>
     <code>prog lang  </code>: TypeScript<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -3267,6 +3625,7 @@
     <code>homepage   </code>: www.lighttable.com<br>
     <code>prog lang  </code>: Clojure<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -3276,6 +3635,7 @@
     <code>homepage   </code>: https://www.limbas.com/en/<br>
     <code>prog lang  </code>: PHP<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -3285,6 +3645,7 @@
     <code>homepage   </code>: https://www.limesurvey.org<br>
     <code>prog lang  </code>: JavaScript<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -3294,6 +3655,7 @@
     <code>homepage   </code>: https://lmms.io<br>
     <code>prog lang  </code>: C++<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -3303,6 +3665,7 @@
     <code>homepage   </code>: https://locutus.io<br>
     <code>prog lang  </code>: JavaScript<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -3312,6 +3675,7 @@
     <code>homepage   </code>: https://lodash.com/<br>
     <code>prog lang  </code>: JavaScript<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -3321,6 +3685,7 @@
     <code>homepage   </code>: https://lode.run<br>
     <code>prog lang  </code>: TypeScript<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -3330,6 +3695,7 @@
     <code>homepage   </code>: https://drendog.github.io/Logic-Circuit-Simulator/<br>
     <code>prog lang  </code>: JavaScript<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -3340,6 +3706,7 @@
     <code>prog lang  </code>: C#<br>
     <code>archived   </code>: -<br>
     <b>license</b>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -3349,6 +3716,7 @@
     <code>homepage   </code>: -<br>
     <code>prog lang  </code>: JavaScript<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -3359,6 +3727,7 @@
     <code>prog lang  </code>: C++<br>
     <code>archived   </code>: -<br>
     <b>license</b>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -3368,6 +3737,7 @@
     <code>homepage   </code>: https://luya.io<br>
     <code>prog lang  </code>: PHP<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -3377,6 +3747,7 @@
     <code>homepage   </code>: http://www.magento.com<br>
     <code>prog lang  </code>: PHP<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -3387,6 +3758,7 @@
     <code>prog lang  </code>: PHP<br>
     <code>archived   </code>: -<br>
     <b>license</b>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -3396,6 +3768,7 @@
     <code>homepage   </code>: https://invent.kde.org/education/marble<br>
     <code>prog lang  </code>: C++<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -3405,6 +3778,7 @@
     <code>homepage   </code>: https://mike-ward.net/Markdown-Edit<br>
     <code>prog lang  </code>: C#<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -3414,6 +3788,7 @@
     <code>homepage   </code>: -<br>
     <code>prog lang  </code>: PHP<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -3423,6 +3798,7 @@
     <code>homepage   </code>: -<br>
     <code>prog lang  </code>: PHP<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -3432,6 +3808,7 @@
     <code>homepage   </code>: https://matomo.org/<br>
     <code>prog lang  </code>: PHP<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -3441,6 +3818,7 @@
     <code>homepage   </code>: https://www.mautic.org<br>
     <code>prog lang  </code>: PHP<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -3450,6 +3828,7 @@
     <code>homepage   </code>: https://mdbootstrap.com/docs/standard/<br>
     <code>prog lang  </code>: SCSS<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -3459,6 +3838,7 @@
     <code>homepage   </code>: https://mediachips.app<br>
     <code>prog lang  </code>: Vue<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -3468,6 +3848,7 @@
     <code>homepage   </code>: https://www.mediawiki.org<br>
     <code>prog lang  </code>: PHP<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -3477,6 +3858,7 @@
     <code>homepage   </code>: https://medkey.org<br>
     <code>prog lang  </code>: PHP<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -3486,6 +3868,7 @@
     <code>homepage   </code>: https://gitlab.gnome.org/GNOME/meld<br>
     <code>prog lang  </code>: Python<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -3495,6 +3878,7 @@
     <code>homepage   </code>: http://mermaid.js.org<br>
     <code>prog lang  </code>: JavaScript<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -3504,6 +3888,7 @@
     <code>homepage   </code>: http://alicevision.org<br>
     <code>prog lang  </code>: Python<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -3513,6 +3898,7 @@
     <code>homepage   </code>: -<br>
     <code>prog lang  </code>: PHP<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -3522,6 +3908,7 @@
     <code>homepage   </code>: https://onokumus.github.io/metismenu/<br>
     <code>prog lang  </code>: JavaScript<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -3531,6 +3918,7 @@
     <code>homepage   </code>: -<br>
     <code>prog lang  </code>: C++<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -3540,6 +3928,7 @@
     <code>homepage   </code>: http://mixxx.org<br>
     <code>prog lang  </code>: C++<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -3549,6 +3938,7 @@
     <code>homepage   </code>: https://www.mltframework.org<br>
     <code>prog lang  </code>: C<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -3558,6 +3948,7 @@
     <code>homepage   </code>: http://fatiherikli.github.com/mockup-designer/<br>
     <code>prog lang  </code>: JavaScript<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -3567,6 +3958,7 @@
     <code>homepage   </code>: https://www.modelio.org<br>
     <code>prog lang  </code>: Java<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -3576,6 +3968,7 @@
     <code>homepage   </code>: -<br>
     <code>prog lang  </code>: PHP<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -3585,6 +3978,7 @@
     <code>homepage   </code>: momentjs.com<br>
     <code>prog lang  </code>: JavaScript<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -3594,6 +3988,7 @@
     <code>homepage   </code>: -<br>
     <code>prog lang  </code>: PHP<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -3603,6 +3998,7 @@
     <code>homepage   </code>: https://www.monicahq.com<br>
     <code>prog lang  </code>: PHP<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -3612,6 +4008,7 @@
     <code>homepage   </code>: https://www.mono-project.com<br>
     <code>prog lang  </code>: C#<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -3621,6 +4018,7 @@
     <code>homepage   </code>: https://seldaek.github.io/monolog/<br>
     <code>prog lang  </code>: PHP<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -3630,6 +4028,7 @@
     <code>homepage   </code>: https://moodle.org/<br>
     <code>prog lang  </code>: PHP<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -3639,6 +4038,7 @@
     <code>homepage   </code>: http://www.movemouse.co.uk/<br>
     <code>prog lang  </code>: C#<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -3648,6 +4048,7 @@
     <code>homepage   </code>: -<br>
     <code>prog lang  </code>: JavaScript<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -3657,6 +4058,7 @@
     <code>homepage   </code>: -<br>
     <code>prog lang  </code>: C++<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -3666,6 +4068,7 @@
     <code>homepage   </code>: -<br>
     <code>prog lang  </code>: PHP<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -3675,6 +4078,7 @@
     <code>homepage   </code>: http://ritchielawrence.github.io/mtee<br>
     <code>prog lang  </code>: C++<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -3684,6 +4088,7 @@
     <code>homepage   </code>: https://multiavatar.com<br>
     <code>prog lang  </code>: PHP<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -3693,6 +4098,7 @@
     <code>homepage   </code>: https://muse-sequencer.github.io/<br>
     <code>prog lang  </code>: C++<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -3702,6 +4108,7 @@
     <code>homepage   </code>: https://musescore.org<br>
     <code>prog lang  </code>: C++<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -3711,6 +4118,7 @@
     <code>homepage   </code>: https://mypaint.app<br>
     <code>prog lang  </code>: Python<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -3720,6 +4128,7 @@
     <code>homepage   </code>: -<br>
     <code>prog lang  </code>: Java<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -3729,6 +4138,7 @@
     <code>homepage   </code>: http://NatronGitHub.github.io<br>
     <code>prog lang  </code>: C++<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -3739,6 +4149,7 @@
     <code>prog lang  </code>: JavaScript<br>
     <code>archived   </code>: -<br>
     <b>license</b>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -3748,6 +4159,7 @@
     <code>homepage   </code>: https://netbeans.apache.org/<br>
     <code>prog lang  </code>: Java<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -3757,6 +4169,7 @@
     <code>homepage   </code>: https://garethflowers.dev/netbeans-portable/<br>
     <code>prog lang  </code>: HTML<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -3766,6 +4179,7 @@
     <code>homepage   </code>: https://netron.app<br>
     <code>prog lang  </code>: JavaScript<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -3775,6 +4189,7 @@
     <code>homepage   </code>: https://garethflowers.dev/nodejs-portable/<br>
     <code>prog lang  </code>: HTML<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -3784,6 +4199,7 @@
     <code>homepage   </code>: https://notepad-plus-plus.org/<br>
     <code>prog lang  </code>: C++<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -3793,6 +4209,7 @@
     <code>homepage   </code>: https://www.npackd.org<br>
     <code>prog lang  </code>: C++<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -3802,6 +4219,7 @@
     <code>homepage   </code>: -<br>
     <code>prog lang  </code>: Pascal<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -3811,6 +4229,7 @@
     <code>homepage   </code>: -<br>
     <code>prog lang  </code>: C++<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -3820,6 +4239,7 @@
     <code>homepage   </code>: https://nsis.sourceforge.io/<br>
     <code>prog lang  </code>: C++<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -3829,6 +4249,7 @@
     <code>homepage   </code>: https://nsudo.m2team.org/<br>
     <code>prog lang  </code>: C++<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -3838,6 +4259,7 @@
     <code>homepage   </code>: https://nwjs.io<br>
     <code>prog lang  </code>: JavaScript<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -3848,6 +4270,7 @@
     <code>prog lang  </code>: PHP<br>
     <code>archived   </code>: -<br>
     <b>license</b>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -3857,6 +4280,7 @@
     <code>homepage   </code>: https://obsproject.com<br>
     <code>prog lang  </code>: C<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -3867,6 +4291,7 @@
     <code>prog lang  </code>: PHP<br>
     <code>archived   </code>: -<br>
     <b>license</b>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -3876,6 +4301,7 @@
     <code>homepage   </code>: https://www.gnu.org/software/octave/<br>
     <code>prog lang  </code>: C++<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -3885,6 +4311,7 @@
     <code>homepage   </code>: https://octobercms.com/<br>
     <code>prog lang  </code>: PHP<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -3894,6 +4321,7 @@
     <code>homepage   </code>: -<br>
     <code>prog lang  </code>: PHP<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -3904,6 +4332,7 @@
     <code>prog lang  </code>: PHP<br>
     <code>archived   </code>: -<br>
     <b>license</b>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -3914,6 +4343,7 @@
     <code>prog lang  </code>: C++<br>
     <code>archived   </code>: -<br>
     <b>license</b>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -3923,6 +4353,7 @@
     <code>homepage   </code>: https://olivevideoeditor.org/<br>
     <code>prog lang  </code>: C++<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -3932,6 +4363,7 @@
     <code>homepage   </code>: http://omeka.org<br>
     <code>prog lang  </code>: PHP<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -3942,6 +4374,7 @@
     <code>prog lang  </code>: PHP<br>
     <code>archived   </code>: -<br>
     <b>license</b>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -3951,6 +4384,7 @@
     <code>homepage   </code>: http://www.open-lims.org<br>
     <code>prog lang  </code>: PHP<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -3960,6 +4394,7 @@
     <code>homepage   </code>: https://open-school.org/<br>
     <code>prog lang  </code>: PHP<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -3969,6 +4404,7 @@
     <code>homepage   </code>: -<br>
     <code>prog lang  </code>: PHP<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -3978,6 +4414,7 @@
     <code>homepage   </code>: https://opencast.org<br>
     <code>prog lang  </code>: Java<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -3987,6 +4424,7 @@
     <code>homepage   </code>: -<br>
     <code>prog lang  </code>: PHP<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -3996,6 +4434,7 @@
     <code>homepage   </code>: -<br>
     <code>prog lang  </code>: JavaScript<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -4005,6 +4444,7 @@
     <code>homepage   </code>: https://opencv.org<br>
     <code>prog lang  </code>: C++<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -4014,6 +4454,7 @@
     <code>homepage   </code>: https://www.opendocman.com<br>
     <code>prog lang  </code>: PHP<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -4023,6 +4464,7 @@
     <code>homepage   </code>: https://open-emr.org/<br>
     <code>prog lang  </code>: PHP<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -4032,6 +4474,7 @@
     <code>homepage   </code>: https://openjscad.xyz/<br>
     <code>prog lang  </code>: JavaScript<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -4041,6 +4484,7 @@
     <code>homepage   </code>: https://www.openoffice.org<br>
     <code>prog lang  </code>: C++<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -4050,6 +4494,7 @@
     <code>homepage   </code>: https://www.openscad.org<br>
     <code>prog lang  </code>: C++<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -4059,6 +4504,7 @@
     <code>homepage   </code>: http://www.openshot.org<br>
     <code>prog lang  </code>: Python<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -4069,6 +4515,7 @@
     <code>prog lang  </code>: PHP<br>
     <code>archived   </code>: -<br>
     <b>license</b>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -4078,6 +4525,7 @@
     <code>homepage   </code>: https://www.opensource-socialnetwork.org<br>
     <code>prog lang  </code>: PHP<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -4087,6 +4535,7 @@
     <code>homepage   </code>: http://www.opensourcepos.org<br>
     <code>prog lang  </code>: PHP<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -4096,6 +4545,7 @@
     <code>homepage   </code>: https://www.openstego.com<br>
     <code>prog lang  </code>: Java<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -4105,6 +4555,7 @@
     <code>homepage   </code>: -<br>
     <code>prog lang  </code>: PHP<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -4114,6 +4565,7 @@
     <code>homepage   </code>: -<br>
     <code>prog lang  </code>: PHP<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -4123,6 +4575,7 @@
     <code>homepage   </code>: https://opentoonz.github.io/<br>
     <code>prog lang  </code>: C++<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -4132,6 +4585,7 @@
     <code>homepage   </code>: https://open-enventory.gitbook.io/user-guides/<br>
     <code>prog lang  </code>: PHP<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -4142,6 +4596,7 @@
     <code>prog lang  </code>: PHP<br>
     <code>archived   </code>: -<br>
     <b>license</b>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -4151,6 +4606,7 @@
     <code>homepage   </code>: -<br>
     <code>prog lang  </code>: PHP<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -4160,6 +4616,7 @@
     <code>homepage   </code>: https://www.orangescrum.com<br>
     <code>prog lang  </code>: PHP<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -4169,6 +4626,7 @@
     <code>homepage   </code>: osticket.com<br>
     <code>prog lang  </code>: PHP<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -4178,6 +4636,7 @@
     <code>homepage   </code>: http://padre.perlide.org/<br>
     <code>prog lang  </code>: Perl<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -4188,6 +4647,7 @@
     <code>prog lang  </code>: PHP<br>
     <code>archived   </code>: -<br>
     <b>license</b>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -4197,6 +4657,7 @@
     <code>homepage   </code>: https://www.npmjs.com/package/paper-css<br>
     <code>prog lang  </code>: CSS<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -4206,6 +4667,7 @@
     <code>homepage   </code>: https://parsedown.org<br>
     <code>prog lang  </code>: PHP<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -4215,6 +4677,7 @@
     <code>homepage   </code>: http://www.partkeepr.org<br>
     <code>prog lang  </code>: JavaScript<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -4224,6 +4687,7 @@
     <code>homepage   </code>: https://phpaste.sourceforge.io/<br>
     <code>prog lang  </code>: PHP<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -4233,6 +4697,7 @@
     <code>homepage   </code>: http://pdf-php.sourceforge.net/<br>
     <code>prog lang  </code>: PHP<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -4242,6 +4707,7 @@
     <code>homepage   </code>: -<br>
     <code>prog lang  </code>: Python<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -4251,6 +4717,7 @@
     <code>homepage   </code>: http://pdfmake.org<br>
     <code>prog lang  </code>: JavaScript<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -4260,6 +4727,7 @@
     <code>homepage   </code>: https://pdfsam.org<br>
     <code>prog lang  </code>: Java<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -4269,6 +4737,7 @@
     <code>homepage   </code>: https://eclipse.org/pdt<br>
     <code>prog lang  </code>: PHP<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -4278,6 +4747,7 @@
     <code>homepage   </code>: https://www.peachpie.io<br>
     <code>prog lang  </code>: C#<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -4287,6 +4757,7 @@
     <code>homepage   </code>: -<br>
     <code>prog lang  </code>: PHP<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -4296,6 +4767,7 @@
     <code>homepage   </code>: https://joinpeertube.org/<br>
     <code>prog lang  </code>: TypeScript<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -4305,6 +4777,7 @@
     <code>homepage   </code>: http://pencil.evolus.vn<br>
     <code>prog lang  </code>: JavaScript<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -4314,6 +4787,7 @@
     <code>homepage   </code>: http://pencil2d.org<br>
     <code>prog lang  </code>: C++<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -4323,6 +4797,7 @@
     <code>homepage   </code>: http://jiandaoyun.github.io/Perfect-DateTimePicker/<br>
     <code>prog lang  </code>: JavaScript<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -4332,6 +4807,7 @@
     <code>homepage   </code>: https://spatie.be/open-source<br>
     <code>prog lang  </code>: PHP<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -4341,6 +4817,7 @@
     <code>homepage   </code>: https://developerstree.github.io/permadelete/<br>
     <code>prog lang  </code>: C#<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -4350,6 +4827,7 @@
     <code>homepage   </code>: https://www.pgadmin.org<br>
     <code>prog lang  </code>: Python<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -4359,6 +4837,7 @@
     <code>homepage   </code>: http://ph7.symisc.net<br>
     <code>prog lang  </code>: C<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -4368,6 +4847,7 @@
     <code>homepage   </code>: http://phacility.com/phabricator/<br>
     <code>prog lang  </code>: PHP<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -4377,6 +4857,7 @@
     <code>homepage   </code>: https://github.com/phan/phan/wiki<br>
     <code>prog lang  </code>: PHP<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -4386,6 +4867,7 @@
     <code>homepage   </code>: https://phcode.dev<br>
     <code>prog lang  </code>: JavaScript<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -4395,6 +4877,7 @@
     <code>homepage   </code>: -<br>
     <code>prog lang  </code>: PHP<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -4404,6 +4887,7 @@
     <code>homepage   </code>: -<br>
     <code>prog lang  </code>: PHP<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -4413,6 +4897,7 @@
     <code>homepage   </code>: http://www.php-cpp.com/<br>
     <code>prog lang  </code>: C++<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -4422,6 +4907,7 @@
     <code>homepage   </code>: https://cs.symfony.com<br>
     <code>prog lang  </code>: PHP<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -4431,6 +4917,7 @@
     <code>homepage   </code>: http://www.sabberworm.com/blog/2010/6/10/php-css-parser<br>
     <code>prog lang  </code>: PHP<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -4440,6 +4927,7 @@
     <code>homepage   </code>: -<br>
     <code>prog lang  </code>: PHP<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -4450,6 +4938,7 @@
     <code>prog lang  </code>: PHP<br>
     <code>archived   </code>: -<br>
     <b>license</b>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -4459,6 +4948,7 @@
     <code>homepage   </code>: -<br>
     <code>prog lang  </code>: M4<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -4468,6 +4958,7 @@
     <code>homepage   </code>: -<br>
     <code>prog lang  </code>: PHP<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -4477,6 +4968,7 @@
     <code>homepage   </code>: -<br>
     <code>prog lang  </code>: PHP<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -4486,6 +4978,7 @@
     <code>homepage   </code>: https://andor.com.br/<br>
     <code>prog lang  </code>: C++<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -4495,6 +4988,7 @@
     <code>homepage   </code>: https://packagist.org/packages/alexanderpas/http-enum<br>
     <code>prog lang  </code>: PHP<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -4504,6 +4998,7 @@
     <code>homepage   </code>: http://www.php.net<br>
     <code>prog lang  </code>: PHP<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -4513,6 +5008,7 @@
     <code>homepage   </code>: http://michelf.ca/projects/php-markdown/<br>
     <code>prog lang  </code>: PHP<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -4522,6 +5018,7 @@
     <code>homepage   </code>: -<br>
     <code>prog lang  </code>: PHP<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -4531,6 +5028,7 @@
     <code>homepage   </code>: https://github.com/php-opencv/php-opencv-examples<br>
     <code>prog lang  </code>: C++<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -4540,6 +5038,7 @@
     <code>homepage   </code>: https://php-parser.glayzzle.com/<br>
     <code>prog lang  </code>: JavaScript<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -4549,6 +5048,7 @@
     <code>homepage   </code>: -<br>
     <code>prog lang  </code>: PHP<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -4558,6 +5058,7 @@
     <code>homepage   </code>: -<br>
     <code>prog lang  </code>: PHP<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -4567,6 +5068,7 @@
     <code>homepage   </code>: https://www.php.net<br>
     <code>prog lang  </code>: C<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -4576,6 +5078,7 @@
     <code>homepage   </code>: https://www.phptherightway.com<br>
     <code>prog lang  </code>: CSS<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -4585,6 +5088,7 @@
     <code>homepage   </code>: -<br>
     <code>prog lang  </code>: PHP<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -4594,6 +5098,7 @@
     <code>homepage   </code>: https://www.phpbb.com<br>
     <code>prog lang  </code>: PHP<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -4603,6 +5108,7 @@
     <code>homepage   </code>: https://phpbrew.github.io/phpbrew<br>
     <code>prog lang  </code>: Makefile<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -4612,6 +5118,7 @@
     <code>homepage   </code>: -<br>
     <code>prog lang  </code>: PHP<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -4622,6 +5129,7 @@
     <code>prog lang  </code>: PHP<br>
     <code>archived   </code>: -<br>
     <b>license</b>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -4631,6 +5139,7 @@
     <code>homepage   </code>: http://mamuz.github.io/PhpDependencyAnalysis/<br>
     <code>prog lang  </code>: PHP<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -4641,6 +5150,7 @@
     <code>prog lang  </code>: C++<br>
     <code>archived   </code>: -<br>
     <b>license</b>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -4650,6 +5160,7 @@
     <code>homepage   </code>: https://www.phpdoc.org<br>
     <code>prog lang  </code>: PHP<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -4660,6 +5171,7 @@
     <code>prog lang  </code>: PHP<br>
     <code>archived   </code>: -<br>
     <b>license</b>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -4670,6 +5182,7 @@
     <code>prog lang  </code>: PHP<br>
     <code>archived   </code>: -<br>
     <b>license</b>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -4679,6 +5192,7 @@
     <code>homepage   </code>: www.phpldapadmin.org<br>
     <code>prog lang  </code>: PHP<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -4688,6 +5202,7 @@
     <code>homepage   </code>: https://www.phplist.org<br>
     <code>prog lang  </code>: PHP<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -4697,6 +5212,7 @@
     <code>homepage   </code>: -<br>
     <code>prog lang  </code>: PHP<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -4706,6 +5222,7 @@
     <code>homepage   </code>: https://www.phpmyadmin.net/<br>
     <code>prog lang  </code>: PHP<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -4715,6 +5232,7 @@
     <code>homepage   </code>: https://github.com/phppgadmin/phppgadmin<br>
     <code>prog lang  </code>: PHP<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -4724,6 +5242,7 @@
     <code>homepage   </code>: https://phpoffice.github.io/PHPPresentation<br>
     <code>prog lang  </code>: PHP<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -4733,6 +5252,7 @@
     <code>homepage   </code>: -<br>
     <code>prog lang  </code>: PHP<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -4742,6 +5262,7 @@
     <code>homepage   </code>: https://phpspreadsheet.readthedocs.io<br>
     <code>prog lang  </code>: PHP<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -4751,6 +5272,7 @@
     <code>homepage   </code>: https://phpstan.org/<br>
     <code>prog lang  </code>: PHP<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -4760,6 +5282,7 @@
     <code>homepage   </code>: http://phpsysinfo.github.io/phpsysinfo<br>
     <code>prog lang  </code>: PHP<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -4769,6 +5292,7 @@
     <code>homepage   </code>: https://phpunit.de/<br>
     <code>prog lang  </code>: PHP<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -4778,6 +5302,7 @@
     <code>homepage   </code>: -<br>
     <code>prog lang  </code>: PHP<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -4787,6 +5312,7 @@
     <code>homepage   </code>: -<br>
     <code>prog lang  </code>: PHP<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -4796,6 +5322,7 @@
     <code>homepage   </code>: -<br>
     <code>prog lang  </code>: PHP<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -4805,6 +5332,7 @@
     <code>homepage   </code>: https://phpword.readthedocs.io<br>
     <code>prog lang  </code>: PHP<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -4814,6 +5342,7 @@
     <code>homepage   </code>: -<br>
     <code>prog lang  </code>: PHP<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -4823,6 +5352,7 @@
     <code>homepage   </code>: https://oraoto.github.io/pib/<br>
     <code>prog lang  </code>: PHP<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -4832,6 +5362,7 @@
     <code>homepage   </code>: -<br>
     <code>prog lang  </code>: TypeScript<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -4841,6 +5372,7 @@
     <code>homepage   </code>: http://www.pimcore.org/<br>
     <code>prog lang  </code>: PHP<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -4850,6 +5382,7 @@
     <code>homepage   </code>: -<br>
     <code>prog lang  </code>: JavaScript<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -4859,6 +5392,7 @@
     <code>homepage   </code>: https://pivottable.js.org/<br>
     <code>prog lang  </code>: CoffeeScript<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -4868,6 +5402,7 @@
     <code>homepage   </code>: https://piwigo.org<br>
     <code>prog lang  </code>: PHP<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -4877,6 +5412,7 @@
     <code>homepage   </code>: https://plantuml.com<br>
     <code>prog lang  </code>: Java<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -4886,6 +5422,7 @@
     <code>homepage   </code>: -<br>
     <code>prog lang  </code>: C#<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -4895,6 +5432,7 @@
     <code>homepage   </code>: https://platesphp.com<br>
     <code>prog lang  </code>: PHP<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -4904,6 +5442,7 @@
     <code>homepage   </code>: -<br>
     <code>prog lang  </code>: PHP<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -4913,6 +5452,7 @@
     <code>homepage   </code>: -<br>
     <code>prog lang  </code>: PHP<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -4922,6 +5462,7 @@
     <code>homepage   </code>: https://poedit.net<br>
     <code>prog lang  </code>: C++<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -4931,6 +5472,7 @@
     <code>homepage   </code>: https://popcorntime.app<br>
     <code>prog lang  </code>: JavaScript<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -4940,6 +5482,7 @@
     <code>homepage   </code>: -<br>
     <code>prog lang  </code>: TypeScript<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -4949,6 +5492,7 @@
     <code>homepage   </code>: -<br>
     <code>prog lang  </code>: C<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -4958,6 +5502,7 @@
     <code>homepage   </code>: http://posterazor.sourceforge.net/<br>
     <code>prog lang  </code>: C++<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -4967,6 +5512,7 @@
     <code>homepage   </code>: https://www.postgresql.org/<br>
     <code>prog lang  </code>: C<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -4976,6 +5522,7 @@
     <code>homepage   </code>: https://garethflowers.dev/postgresql-portable/<br>
     <code>prog lang  </code>: HTML<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -4985,6 +5532,7 @@
     <code>homepage   </code>: -<br>
     <code>prog lang  </code>: PHP<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -4994,6 +5542,7 @@
     <code>homepage   </code>: https://www.prestashop-project.org/<br>
     <code>prog lang  </code>: PHP<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -5003,6 +5552,7 @@
     <code>homepage   </code>: https://privatebin.info/<br>
     <code>prog lang  </code>: PHP<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -5012,6 +5562,7 @@
     <code>homepage   </code>: -<br>
     <code>prog lang  </code>: PHP<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -5021,6 +5572,7 @@
     <code>homepage   </code>: https://psalm.dev<br>
     <code>prog lang  </code>: PHP<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -5030,6 +5582,7 @@
     <code>homepage   </code>: https://psiphon.ca/download.html<br>
     <code>prog lang  </code>: HTML<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -5039,6 +5592,7 @@
     <code>homepage   </code>: https://pumukit.org<br>
     <code>prog lang  </code>: PHP<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -5048,6 +5602,7 @@
     <code>homepage   </code>: https://pwsafe.org<br>
     <code>prog lang  </code>: C++<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -5057,6 +5612,7 @@
     <code>homepage   </code>: https://www.pyrocms.com/<br>
     <code>prog lang  </code>: PHP<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -5066,6 +5622,7 @@
     <code>homepage   </code>: -<br>
     <code>prog lang  </code>: Pascal<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -5075,6 +5632,7 @@
     <code>homepage   </code>: https://qalculate.github.io/<br>
     <code>prog lang  </code>: C++<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -5084,6 +5642,7 @@
     <code>homepage   </code>: -<br>
     <code>prog lang  </code>: C++<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -5093,6 +5652,7 @@
     <code>homepage   </code>: https://www.qbittorrent.org<br>
     <code>prog lang  </code>: C++<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -5102,6 +5662,7 @@
     <code>homepage   </code>: https://qcad.org<br>
     <code>prog lang  </code>: C++<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -5111,6 +5672,7 @@
     <code>homepage   </code>: -<br>
     <code>prog lang  </code>: C++<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -5120,6 +5682,7 @@
     <code>homepage   </code>: -<br>
     <code>prog lang  </code>: -<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -5129,6 +5692,7 @@
     <code>homepage   </code>: -<br>
     <code>prog lang  </code>: C++<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -5139,6 +5703,7 @@
     <code>prog lang  </code>: C++<br>
     <code>archived   </code>: -<br>
     <b>license</b>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -5148,6 +5713,7 @@
     <code>homepage   </code>: http://qooxdoo.org<br>
     <code>prog lang  </code>: JavaScript<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -5157,6 +5723,7 @@
     <code>homepage   </code>: https://www.qownnotes.org/<br>
     <code>prog lang  </code>: C++<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -5166,6 +5733,7 @@
     <code>homepage   </code>: https://endroid.nl<br>
     <code>prog lang  </code>: PHP<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -5175,6 +5743,7 @@
     <code>homepage   </code>: https://qtractor.org<br>
     <code>prog lang  </code>: C++<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -5184,6 +5753,7 @@
     <code>homepage   </code>: https://kanryu.github.io/quickviewer/<br>
     <code>prog lang  </code>: C++<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -5193,6 +5763,7 @@
     <code>homepage   </code>: https://quiterss.org<br>
     <code>prog lang  </code>: C++<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -5202,6 +5773,7 @@
     <code>homepage   </code>: https://racktables.org/<br>
     <code>prog lang  </code>: PHP<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -5211,6 +5783,7 @@
     <code>homepage   </code>: http://www.railessentials.net<br>
     <code>prog lang  </code>: JavaScript<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -5220,6 +5793,7 @@
     <code>homepage   </code>: http://rawtherapee.com/<br>
     <code>prog lang  </code>: C++<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -5229,6 +5803,7 @@
     <code>homepage   </code>: http://phprbac.net/<br>
     <code>prog lang  </code>: PHP<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -5238,6 +5813,7 @@
     <code>homepage   </code>: https://reactos.org/<br>
     <code>prog lang  </code>: C<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -5247,6 +5823,7 @@
     <code>homepage   </code>: https://reactphp.org<br>
     <code>prog lang  </code>: PHP<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -5256,6 +5833,7 @@
     <code>homepage   </code>: https://getrector.org<br>
     <code>prog lang  </code>: PHP<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -5265,6 +5843,7 @@
     <code>homepage   </code>: -<br>
     <code>prog lang  </code>: PHP<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -5274,6 +5853,7 @@
     <code>homepage   </code>: https://stevenlevithan.com/regex/colorizer/<br>
     <code>prog lang  </code>: JavaScript<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -5283,6 +5863,7 @@
     <code>homepage   </code>: -<br>
     <code>prog lang  </code>: PHP<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -5292,6 +5873,7 @@
     <code>homepage   </code>: https://requirejs.org/<br>
     <code>prog lang  </code>: JavaScript<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -5301,6 +5883,7 @@
     <code>homepage   </code>: https://responsively.app<br>
     <code>prog lang  </code>: JavaScript<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -5310,6 +5893,7 @@
     <code>homepage   </code>: https://katahiromz.web.fc2.com/re/en<br>
     <code>prog lang  </code>: C++<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -5320,6 +5904,7 @@
     <code>prog lang  </code>: C++<br>
     <code>archived   </code>: -<br>
     <b>license</b>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -5329,6 +5914,7 @@
     <code>homepage   </code>: https://roadrunner.dev<br>
     <code>prog lang  </code>: Go<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -5338,6 +5924,7 @@
     <code>homepage   </code>: http://robo.li<br>
     <code>prog lang  </code>: PHP<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -5347,6 +5934,7 @@
     <code>homepage   </code>: https://www.rosariosis.org<br>
     <code>prog lang  </code>: PHP<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -5356,6 +5944,7 @@
     <code>homepage   </code>: https://roundcube.net<br>
     <code>prog lang  </code>: PHP<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -5365,6 +5954,7 @@
     <code>homepage   </code>: http://www.rssowl.org<br>
     <code>prog lang  </code>: Java<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -5374,6 +5964,7 @@
     <code>homepage   </code>: https://posit.co/products/open-source/rstudio/<br>
     <code>prog lang  </code>: Java<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -5383,6 +5974,7 @@
     <code>homepage   </code>: https://rufus.ie<br>
     <code>prog lang  </code>: C<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -5392,6 +5984,7 @@
     <code>homepage   </code>: -<br>
     <code>prog lang  </code>: PHP<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -5402,6 +5995,7 @@
     <code>prog lang  </code>: JavaScript<br>
     <code>archived   </code>: -<br>
     <b>license</b>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -5412,6 +6006,7 @@
     <code>prog lang  </code>: PHP<br>
     <code>archived   </code>: -<br>
     <b>license</b>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -5421,6 +6016,7 @@
     <code>homepage   </code>: -<br>
     <code>prog lang  </code>: Go<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -5430,6 +6026,7 @@
     <code>homepage   </code>: https://scipy.org<br>
     <code>prog lang  </code>: Python<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -5439,6 +6036,7 @@
     <code>homepage   </code>: https://ossia.io<br>
     <code>prog lang  </code>: C++<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -5448,6 +6046,7 @@
     <code>homepage   </code>: https://sf.net/p/screenruler<br>
     <code>prog lang  </code>: C#<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -5457,6 +6056,7 @@
     <code>homepage   </code>: http://www.screentogif.com<br>
     <code>prog lang  </code>: C#<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -5466,6 +6066,7 @@
     <code>homepage   </code>: http://scribus.net<br>
     <code>prog lang  </code>: C++<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -5475,6 +6076,7 @@
     <code>homepage   </code>: -<br>
     <code>prog lang  </code>: PHP<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -5484,6 +6086,7 @@
     <code>homepage   </code>: https://www.safeexambrowser.org/news_en.html<br>
     <code>prog lang  </code>: C#<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -5493,6 +6096,7 @@
     <code>homepage   </code>: https://selectize.dev/<br>
     <code>prog lang  </code>: SCSS<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -5502,6 +6106,7 @@
     <code>homepage   </code>: http://www.sentrifugo.com/<br>
     <code>prog lang  </code>: PHP<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -5511,6 +6116,7 @@
     <code>homepage   </code>: https://www.seopanel.in<br>
     <code>prog lang  </code>: PHP<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -5520,6 +6126,7 @@
     <code>homepage   </code>: https://nextcloud.com<br>
     <code>prog lang  </code>: PHP<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -5530,6 +6137,7 @@
     <code>prog lang  </code>: C#<br>
     <code>archived   </code>: -<br>
     <b>license</b>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -5539,6 +6147,7 @@
     <code>homepage   </code>: https://getsharex.com<br>
     <code>prog lang  </code>: C#<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -5548,6 +6157,7 @@
     <code>homepage   </code>: https://www.shotcut.org<br>
     <code>prog lang  </code>: C++<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -5557,6 +6167,7 @@
     <code>homepage   </code>: https://gitlab.gnome.org/GNOME/shotwell<br>
     <code>prog lang  </code>: Vala<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -5567,6 +6178,7 @@
     <code>prog lang  </code>: PHP<br>
     <code>archived   </code>: -<br>
     <b>license</b>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -5577,6 +6189,7 @@
     <code>prog lang  </code>: PHP<br>
     <code>archived   </code>: -<br>
     <b>license</b>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -5586,6 +6199,7 @@
     <code>homepage   </code>: -<br>
     <code>prog lang  </code>: C++<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -5595,6 +6209,7 @@
     <code>homepage   </code>: -<br>
     <code>prog lang  </code>: C#<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -5604,6 +6219,7 @@
     <code>homepage   </code>: https://www.simpledesk.net<br>
     <code>prog lang  </code>: PHP<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -5614,6 +6230,7 @@
     <code>prog lang  </code>: PHP<br>
     <code>archived   </code>: -<br>
     <b>license</b>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -5623,6 +6240,7 @@
     <code>homepage   </code>: http://sitracker.org<br>
     <code>prog lang  </code>: PHP<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -5632,6 +6250,7 @@
     <code>homepage   </code>: https://sk1project.net<br>
     <code>prog lang  </code>: Python<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -5641,6 +6260,7 @@
     <code>homepage   </code>: https://slims.web.id<br>
     <code>prog lang  </code>: PHP<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -5650,6 +6270,7 @@
     <code>homepage   </code>: https://www.simplemachines.org/<br>
     <code>prog lang  </code>: PHP<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -5659,6 +6280,7 @@
     <code>homepage   </code>: http://www.simplemachines.org<br>
     <code>prog lang  </code>: PHP<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -5668,6 +6290,7 @@
     <code>homepage   </code>: -<br>
     <code>prog lang  </code>: C++<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -5677,6 +6300,7 @@
     <code>homepage   </code>: https://snipeitapp.com<br>
     <code>prog lang  </code>: PHP<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -5686,6 +6310,7 @@
     <code>homepage   </code>: -<br>
     <code>prog lang  </code>: C<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -5695,6 +6320,7 @@
     <code>homepage   </code>: https://solidinvoice.co<br>
     <code>prog lang  </code>: PHP<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -5705,6 +6331,7 @@
     <code>prog lang  </code>: JavaScript<br>
     <code>archived   </code>: -<br>
     <b>license</b>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -5715,6 +6342,7 @@
     <code>prog lang  </code>: -<br>
     <code>archived   </code>: -<br>
     <b>license</b>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -5724,6 +6352,7 @@
     <code>homepage   </code>: https://www.spyder-ide.org<br>
     <code>prog lang  </code>: Python<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -5733,6 +6362,7 @@
     <code>homepage   </code>: https://sqlitestudio.pl<br>
     <code>prog lang  </code>: C<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -5742,6 +6372,7 @@
     <code>homepage   </code>: -<br>
     <code>prog lang  </code>: PHP<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -5751,6 +6382,7 @@
     <code>homepage   </code>: https://startbootstrap.com/themes/sb-admin-2/<br>
     <code>prog lang  </code>: HTML<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -5760,6 +6392,7 @@
     <code>homepage   </code>: http://www.jahshaka.com<br>
     <code>prog lang  </code>: C++<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -5769,6 +6402,7 @@
     <code>homepage   </code>: -<br>
     <code>prog lang  </code>: C++<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -5778,6 +6412,7 @@
     <code>homepage   </code>: http://www.nikse.dk/SubtitleEdit/Help<br>
     <code>prog lang  </code>: C#<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -5788,6 +6423,7 @@
     <code>prog lang  </code>: Rich Text Format<br>
     <code>archived   </code>: -<br>
     <b>license</b>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -5797,6 +6433,7 @@
     <code>homepage   </code>: https://www.suitecrm.com<br>
     <code>prog lang  </code>: PHP<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -5806,6 +6443,7 @@
     <code>homepage   </code>: -<br>
     <code>prog lang  </code>: PHP<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -5815,6 +6453,7 @@
     <code>homepage   </code>: -<br>
     <code>prog lang  </code>: PHP<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -5824,6 +6463,7 @@
     <code>homepage   </code>: -<br>
     <code>prog lang  </code>: C++<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -5833,6 +6473,7 @@
     <code>homepage   </code>: https://symfony.com<br>
     <code>prog lang  </code>: PHP<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -5842,6 +6483,7 @@
     <code>homepage   </code>: https://synfig.org<br>
     <code>prog lang  </code>: C++<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -5851,6 +6493,7 @@
     <code>homepage   </code>: https://systeminformer.sourceforge.io<br>
     <code>prog lang  </code>: C<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -5860,6 +6503,7 @@
     <code>homepage   </code>: https://tabler.io<br>
     <code>prog lang  </code>: HTML<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -5869,6 +6513,7 @@
     <code>homepage   </code>: https://tabler-icons.io<br>
     <code>prog lang  </code>: HTML<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -5878,6 +6523,7 @@
     <code>homepage   </code>: http://www.tagaini.net<br>
     <code>prog lang  </code>: C++<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -5887,6 +6533,7 @@
     <code>homepage   </code>: https://www.tagspaces.org<br>
     <code>prog lang  </code>: TypeScript<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -5896,6 +6543,7 @@
     <code>homepage   </code>: http://taolin.fbk.eu<br>
     <code>prog lang  </code>: JavaScript<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -5905,6 +6553,7 @@
     <code>homepage   </code>: https://taskmanager.fr/<br>
     <code>prog lang  </code>: PHP<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -5914,6 +6563,7 @@
     <code>homepage   </code>: http://taskboard.matthewross.me<br>
     <code>prog lang  </code>: TypeScript<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -5923,6 +6573,7 @@
     <code>homepage   </code>: http://www.taskcoach.org/<br>
     <code>prog lang  </code>: Python<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -5932,6 +6583,7 @@
     <code>homepage   </code>: https://www.taskunifier.app<br>
     <code>prog lang  </code>: JavaScript<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -5941,6 +6593,7 @@
     <code>homepage   </code>: https://tastyigniter.com<br>
     <code>prog lang  </code>: PHP<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -5950,6 +6603,7 @@
     <code>homepage   </code>: https://tcpdf.org<br>
     <code>prog lang  </code>: PHP<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -5959,6 +6613,7 @@
     <code>homepage   </code>: -<br>
     <code>prog lang  </code>: PHP<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -5968,6 +6623,7 @@
     <code>homepage   </code>: -<br>
     <code>prog lang  </code>: PHP<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -5978,6 +6634,7 @@
     <code>prog lang  </code>: PHP<br>
     <code>archived   </code>: -<br>
     <b>license</b>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -5987,6 +6644,7 @@
     <code>homepage   </code>: https://getdatepicker.com<br>
     <code>prog lang  </code>: HTML<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -5996,6 +6654,7 @@
     <code>homepage   </code>: https://tesseract-ocr.github.io/<br>
     <code>prog lang  </code>: C++<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -6005,6 +6664,7 @@
     <code>homepage   </code>: https://packagist.org/packages/thiagoalessio/tesseract_ocr<br>
     <code>prog lang  </code>: PHP<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -6014,6 +6674,7 @@
     <code>homepage   </code>: https://thonny.org<br>
     <code>prog lang  </code>: Python<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -6023,6 +6684,7 @@
     <code>homepage   </code>: -<br>
     <code>prog lang  </code>: PHP<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -6032,6 +6694,7 @@
     <code>homepage   </code>: https://www.mapeditor.org/<br>
     <code>prog lang  </code>: C++<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -6042,6 +6705,7 @@
     <code>prog lang  </code>: PHP<br>
     <code>archived   </code>: -<br>
     <b>license</b>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -6052,6 +6716,7 @@
     <code>prog lang  </code>: -<br>
     <code>archived   </code>: -<br>
     <b>license</b>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -6061,6 +6726,7 @@
     <code>homepage   </code>: -<br>
     <code>prog lang  </code>: HTML<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -6071,6 +6737,7 @@
     <code>prog lang  </code>: C<br>
     <code>archived   </code>: -<br>
     <b>license</b>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -6080,6 +6747,7 @@
     <code>homepage   </code>: https://tinyfilemanager.github.io<br>
     <code>prog lang  </code>: PHP<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -6090,6 +6758,7 @@
     <code>prog lang  </code>: C++<br>
     <code>archived   </code>: -<br>
     <b>license</b>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -6099,6 +6768,7 @@
     <code>homepage   </code>: -<br>
     <code>prog lang  </code>: PHP<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -6108,6 +6778,7 @@
     <code>homepage   </code>: https://e-dimensionz.com<br>
     <code>prog lang  </code>: PHP<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -6117,6 +6788,7 @@
     <code>homepage   </code>: -<br>
     <code>prog lang  </code>: Rust<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -6127,6 +6799,7 @@
     <code>prog lang  </code>: PHP<br>
     <code>archived   </code>: -<br>
     <b>license</b>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -6136,6 +6809,7 @@
     <code>homepage   </code>: https://garethflowers.dev/tor-browser-portable/<br>
     <code>prog lang  </code>: JavaScript<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -6146,6 +6820,7 @@
     <code>prog lang  </code>: JavaScript<br>
     <code>archived   </code>: -<br>
     <b>license</b>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -6156,6 +6831,7 @@
     <code>prog lang  </code>: -<br>
     <code>archived   </code>: -<br>
     <b>license</b>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -6165,6 +6841,7 @@
     <code>homepage   </code>: -<br>
     <code>prog lang  </code>: C++<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -6174,6 +6851,7 @@
     <code>homepage   </code>: https://atropim.com/<br>
     <code>prog lang  </code>: PHP<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -6183,6 +6861,7 @@
     <code>homepage   </code>: https://tsup.egoist.dev<br>
     <code>prog lang  </code>: TypeScript<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -6192,6 +6871,7 @@
     <code>homepage   </code>: https://tuleap.org<br>
     <code>prog lang  </code>: PHP<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -6201,6 +6881,7 @@
     <code>homepage   </code>: -<br>
     <code>prog lang  </code>: C++<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -6210,6 +6891,7 @@
     <code>homepage   </code>: https://tus.io<br>
     <code>prog lang  </code>: PHP<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -6220,6 +6902,7 @@
     <code>prog lang  </code>: JavaScript<br>
     <code>archived   </code>: -<br>
     <b>license</b>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -6229,6 +6912,7 @@
     <code>homepage   </code>: http://lisperator.net/uglifyjs/<br>
     <code>prog lang  </code>: JavaScript<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -6238,6 +6922,7 @@
     <code>homepage   </code>: https://invent.kde.org/sdk/umbrello<br>
     <code>prog lang  </code>: C++<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -6247,6 +6932,7 @@
     <code>homepage   </code>: https://underscorejs.org<br>
     <code>prog lang  </code>: JavaScript<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -6257,6 +6943,7 @@
     <code>prog lang  </code>: PHP<br>
     <code>archived   </code>: -<br>
     <b>license</b>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -6266,6 +6953,7 @@
     <code>homepage   </code>: -<br>
     <code>prog lang  </code>: AutoIt<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -6275,6 +6963,7 @@
     <code>homepage   </code>: https://changeweb.github.io/Unifiedtransform/<br>
     <code>prog lang  </code>: PHP<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -6284,6 +6973,7 @@
     <code>homepage   </code>: https://asmblah.github.io/uniter/<br>
     <code>prog lang  </code>: JavaScript<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -6293,6 +6983,7 @@
     <code>homepage   </code>: http://sneakypete81.github.io/updatescanner/<br>
     <code>prog lang  </code>: JavaScript<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -6302,6 +6993,7 @@
     <code>homepage   </code>: https://uuid.ramsey.dev<br>
     <code>prog lang  </code>: PHP<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -6311,6 +7003,7 @@
     <code>homepage   </code>: https://gitlab.gnome.org/GNOME/vala<br>
     <code>prog lang  </code>: Vala<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -6320,6 +7013,7 @@
     <code>homepage   </code>: https://mgerhardy.github.io/vengi/<br>
     <code>prog lang  </code>: C++<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -6329,6 +7023,7 @@
     <code>homepage   </code>: https://www.ventoy.net<br>
     <code>prog lang  </code>: C<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -6338,6 +7033,7 @@
     <code>homepage   </code>: https://www.veracrypt.fr<br>
     <code>prog lang  </code>: C<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -6347,6 +7043,7 @@
     <code>homepage   </code>: -<br>
     <code>prog lang  </code>: PHP<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -6356,6 +7053,7 @@
     <code>homepage   </code>: http://sahanafoundation.org/products/vesuvius/<br>
     <code>prog lang  </code>: PHP<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -6365,6 +7063,7 @@
     <code>homepage   </code>: https://videohubapp.com<br>
     <code>prog lang  </code>: TypeScript<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -6375,6 +7074,7 @@
     <code>prog lang  </code>: C#<br>
     <code>archived   </code>: -<br>
     <b>license</b>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -6385,6 +7085,7 @@
     <code>prog lang  </code>: Java<br>
     <code>archived   </code>: -<br>
     <b>license</b>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -6395,6 +7096,7 @@
     <code>prog lang  </code>: C#<br>
     <code>archived   </code>: -<br>
     <b>license</b>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -6405,6 +7107,7 @@
     <code>prog lang  </code>: JavaScript<br>
     <code>archived   </code>: -<br>
     <b>license</b>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -6414,6 +7117,7 @@
     <code>homepage   </code>: https://viewi.net<br>
     <code>prog lang  </code>: PHP<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -6423,6 +7127,7 @@
     <code>homepage   </code>: http://virtphp.org<br>
     <code>prog lang  </code>: PHP<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -6433,6 +7138,7 @@
     <code>prog lang  </code>: JavaScript<br>
     <code>archived   </code>: -<br>
     <b>license</b>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -6442,6 +7148,7 @@
     <code>homepage   </code>: -<br>
     <code>prog lang  </code>: FreeBasic<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -6451,6 +7158,7 @@
     <code>homepage   </code>: https://vivaldi.com/source<br>
     <code>prog lang  </code>: -<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -6460,6 +7168,7 @@
     <code>homepage   </code>: http://www.videolan.org/vlc<br>
     <code>prog lang  </code>: C<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -6469,6 +7178,7 @@
     <code>homepage   </code>: https://linuxecke.volkoh.de/vokoscreen/vokoscreen.html<br>
     <code>prog lang  </code>: C++<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -6478,6 +7188,7 @@
     <code>homepage   </code>: https://code.visualstudio.com<br>
     <code>prog lang  </code>: TypeScript<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -6487,6 +7198,7 @@
     <code>homepage   </code>: https://garethflowers.dev/vscode-portable/<br>
     <code>prog lang  </code>: HTML<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -6496,6 +7208,7 @@
     <code>homepage   </code>: https://vscodium.com<br>
     <code>prog lang  </code>: Shell<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -6505,6 +7218,7 @@
     <code>homepage   </code>: -<br>
     <code>prog lang  </code>: PHP<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -6514,6 +7228,7 @@
     <code>homepage   </code>: -<br>
     <code>prog lang  </code>: PHP<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -6523,6 +7238,7 @@
     <code>homepage   </code>: -<br>
     <code>prog lang  </code>: C++<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -6532,6 +7248,7 @@
     <code>homepage   </code>: http://w2ui.com<br>
     <code>prog lang  </code>: JavaScript<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -6542,6 +7259,7 @@
     <code>prog lang  </code>: Pascal<br>
     <code>archived   </code>: -<br>
     <b>license</b>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -6551,6 +7269,7 @@
     <code>homepage   </code>: https://wasmerio.github.io/wasmer-php/wasm/<br>
     <code>prog lang  </code>: PHP<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -6561,6 +7280,7 @@
     <code>prog lang  </code>: PHP<br>
     <code>archived   </code>: -<br>
     <b>license</b>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -6570,6 +7290,7 @@
     <code>homepage   </code>: http://samcome.github.io/webfont-medical-icons<br>
     <code>prog lang  </code>: HTML<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -6579,6 +7300,7 @@
     <code>homepage   </code>: https://webtorrent.io<br>
     <code>prog lang  </code>: JavaScript<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -6588,6 +7310,7 @@
     <code>homepage   </code>: https://webtorrent.io/desktop<br>
     <code>prog lang  </code>: JavaScript<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -6598,6 +7321,7 @@
     <code>prog lang  </code>: Python<br>
     <code>archived   </code>: -<br>
     <b>license</b>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -6608,6 +7332,7 @@
     <code>prog lang  </code>: C<br>
     <code>archived   </code>: -<br>
     <b>license</b>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -6617,6 +7342,7 @@
     <code>homepage   </code>: -<br>
     <code>prog lang  </code>: C++<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -6626,6 +7352,7 @@
     <code>homepage   </code>: https://winmerge.org/<br>
     <code>prog lang  </code>: C++<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -6635,6 +7362,7 @@
     <code>homepage   </code>: https://winscp.net<br>
     <code>prog lang  </code>: C<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -6644,6 +7372,7 @@
     <code>homepage   </code>: https://wordpress.org<br>
     <code>prog lang  </code>: PHP<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -6654,6 +7383,7 @@
     <code>prog lang  </code>: JavaScript<br>
     <code>archived   </code>: -<br>
     <b>license</b>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -6663,6 +7393,7 @@
     <code>homepage   </code>: -<br>
     <code>prog lang  </code>: PHP<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -6672,6 +7403,7 @@
     <code>homepage   </code>: https://github.com/wxFormBuilder/wxFormBuilder/releases<br>
     <code>prog lang  </code>: C++<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -6681,6 +7413,7 @@
     <code>homepage   </code>: -<br>
     <code>prog lang  </code>: C++<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -6691,6 +7424,7 @@
     <code>prog lang  </code>: C++<br>
     <code>archived   </code>: -<br>
     <b>license</b>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -6701,6 +7435,7 @@
     <code>prog lang  </code>: PHP<br>
     <code>archived   </code>: -<br>
     <b>license</b>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -6710,6 +7445,7 @@
     <code>homepage   </code>: https://xtremedownloadmanager.com/<br>
     <code>prog lang  </code>: C#<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -6719,6 +7455,7 @@
     <code>homepage   </code>: http://xregexp.com/<br>
     <code>prog lang  </code>: JavaScript<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -6728,6 +7465,7 @@
     <code>homepage   </code>: http://www.php-obfuscator.com<br>
     <code>prog lang  </code>: PHP<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -6737,6 +7475,7 @@
     <code>homepage   </code>: https://yetiforce.com<br>
     <code>prog lang  </code>: PHP<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -6746,6 +7485,7 @@
     <code>homepage   </code>: http://www.yiiframework.com<br>
     <code>prog lang  </code>: PHP<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -6755,6 +7495,7 @@
     <code>homepage   </code>: http://www.yiiframework.com<br>
     <code>prog lang  </code>: PHP<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -6764,6 +7505,7 @@
     <code>homepage   </code>: -<br>
     <code>prog lang  </code>: PHP<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -6773,6 +7515,7 @@
     <code>homepage   </code>: -<br>
     <code>prog lang  </code>: PHP<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -6782,6 +7525,7 @@
     <code>homepage   </code>: -<br>
     <code>prog lang  </code>: JavaScript<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -6791,6 +7535,7 @@
     <code>homepage   </code>: -<br>
     <code>prog lang  </code>: JavaScript<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -6800,6 +7545,7 @@
     <code>homepage   </code>: https://discord.gg/H5MNcFW63r<br>
     <code>prog lang  </code>: Python<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -6809,6 +7555,7 @@
     <code>homepage   </code>: https://zealdocs.org<br>
     <code>prog lang  </code>: C++<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -6818,6 +7565,7 @@
     <code>homepage   </code>: https://github.com/zencart/zencart/releases<br>
     <code>prog lang  </code>: PHP<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -6827,6 +7575,7 @@
     <code>homepage   </code>: http://www.zentao.pm<br>
     <code>prog lang  </code>: JavaScript<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -6836,6 +7585,7 @@
     <code>homepage   </code>: https://www.zettlr.com<br>
     <code>prog lang  </code>: TypeScript<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -6845,6 +7595,7 @@
     <code>homepage   </code>: http://zim-wiki.org<br>
     <code>prog lang  </code>: Python<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -6854,6 +7605,7 @@
     <code>homepage   </code>: http://www.zoneminder.com/<br>
     <code>prog lang  </code>: PHP<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -6863,6 +7615,7 @@
     <code>homepage   </code>: https://www.zotero.org<br>
     <code>prog lang  </code>: JavaScript<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -6872,6 +7625,7 @@
     <code>homepage   </code>: http://www.zpanelcp.com/<br>
     <code>prog lang  </code>: PHP<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -6881,6 +7635,7 @@
     <code>homepage   </code>: http://www.zpanelcp.com<br>
     <code>prog lang  </code>: PHP<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
 
   <details>
@@ -6890,4 +7645,5 @@
     <code>homepage   </code>: -<br>
     <code>prog lang  </code>: D<br>
     <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
   </details>
