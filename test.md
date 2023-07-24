@@ -1,6895 +1,6893 @@
   <details>
-    <summary>**92five**:</summary>
-    **html_url**: "https://github.com/chintanbanugaria/92five",
-    **description**: "Self hosted project management application",
-    **homepage**: null,
-    **language**: "JavaScript",
-    **archived**: false,
+    <summary><b>92five</b>:</summary>
+    <b>html_url</b>: https://github.com/chintanbanugaria/92five<br>
+    <b>description</b>: Self hosted project management application<br>
+    <b>homepage</b>: -<br>
+    <b>language</b>: JavaScript<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**abricotine**:</summary>
-    **html_url**: "https://github.com/brrd/abricotine",
-    **description**: "Markdown editor with inline preview",
-    **homepage**: "",
-    **language**: "JavaScript",
-    **archived**: false,
+    <summary><b>abricotine</b>:</summary>
+    <b>html_url</b>: https://github.com/brrd/abricotine<br>
+    <b>description</b>: Markdown editor with inline preview<br>
+    <b>homepage</b>: -<br>
+    <b>language</b>: JavaScript<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**ace**:</summary>
-    **html_url**: "https://github.com/ajaxorg/ace",
-    **description**: "Ace (Ajax.org Cloud9 Editor)",
-    **homepage**: "https://ace.c9.io",
-    **language**: "JavaScript",
-    **archived**: false,
+    <summary><b>ace</b>:</summary>
+    <b>html_url</b>: https://github.com/ajaxorg/ace<br>
+    <b>description</b>: Ace (Ajax.org Cloud9 Editor)<br>
+    <b>homepage</b>: https://ace.c9.io<br>
+    <b>language</b>: JavaScript<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**ace**:</summary>
-    **html_url**: "https://github.com/bopoda/ace",
-    **description**: "Twitter bootstrap 3 admin template",
-    **homepage**: "ace.jeka.by",
-    **language**: "HTML",
-    **archived**: true,
+    <summary><b>ace</b>:</summary>
+    <b>html_url</b>: https://github.com/bopoda/ace<br>
+    <b>description</b>: Twitter bootstrap 3 admin template<br>
+    <b>homepage</b>: ace.jeka.by<br>
+    <b>language</b>: HTML<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**activitywatch**:</summary>
-    **html_url**: "https://github.com/ActivityWatch/activitywatch",
-    **description**: "The best free and open-source automated time tracker. Cross-platform, extensible, privacy-focused.",
-    **homepage**: "https://activitywatch.net/",
-    **language**: "Python",
-    **archived**: false,
+    <summary><b>activitywatch</b>:</summary>
+    <b>html_url</b>: https://github.com/ActivityWatch/activitywatch<br>
+    <b>description</b>: The best free and open-source automated time tracker. Cross-platform, extensible, privacy-focused.<br>
+    <b>homepage</b>: https://activitywatch.net/<br>
+    <b>language</b>: Python<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**admidio**:</summary>
-    **html_url**: "https://github.com/Admidio/admidio",
-    **description**: "Admidio is a free open source user management system for websites of organizations and groups. The system has a flexible role model so that it’s possible to reflect the structure and permissions of your organization.",
-    **homepage**: "https://www.admidio.org",
-    **language**: "PHP",
-    **archived**: false,
+    <summary><b>admidio</b>:</summary>
+    <b>html_url</b>: https://github.com/Admidio/admidio<br>
+    <b>description</b>: Admidio is a free open source user management system for websites of organizations and groups. The system has a flexible role model so that it’s possible to reflect the structure and permissions of your organization.<br>
+    <b>homepage</b>: https://www.admidio.org<br>
+    <b>language</b>: PHP<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**AdminBSBMaterialDesign**:</summary>
-    **html_url**: "https://github.com/gurayyarar/AdminBSBMaterialDesign",
-    **description**: "AdminBSB - Free admin panel that is based on Bootstrap 3.x with Material Design",
-    **homepage**: "https://gurayyarar.github.io/AdminBSBMaterialDesign",
-    **language**: "JavaScript",
-    **archived**: false,
+    <summary><b>AdminBSBMaterialDesign</b>:</summary>
+    <b>html_url</b>: https://github.com/gurayyarar/AdminBSBMaterialDesign<br>
+    <b>description</b>: AdminBSB - Free admin panel that is based on Bootstrap 3.x with Material Design<br>
+    <b>homepage</b>: https://gurayyarar.github.io/AdminBSBMaterialDesign<br>
+    <b>language</b>: JavaScript<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**adminer**:</summary>
-    **html_url**: "https://github.com/vrana/adminer",
-    **description**: "Database management in a single PHP file",
-    **homepage**: "https://www.adminer.org/",
-    **language**: "PHP",
-    **archived**: false,
-    **license**: null,
+    <summary><b>adminer</b>:</summary>
+    <b>html_url</b>: https://github.com/vrana/adminer<br>
+    <b>description</b>: Database management in a single PHP file<br>
+    <b>homepage</b>: https://www.adminer.org/<br>
+    <b>language</b>: PHP<br>
+    <b>archived</b>: -<br>
+    <b>license</b>: -<br>
   </details>
 
   <details>
-    <summary>**AdminLTE**:</summary>
-    **html_url**: "https://github.com/ColorlibHQ/AdminLTE",
-    **description**: "AdminLTE - Free admin dashboard template based on Bootstrap 4",
-    **homepage**: "https://adminlte.io",
-    **language**: "JavaScript",
-    **archived**: false,
+    <summary><b>AdminLTE</b>:</summary>
+    <b>html_url</b>: https://github.com/ColorlibHQ/AdminLTE<br>
+    <b>description</b>: AdminLTE - Free admin dashboard template based on Bootstrap 4<br>
+    <b>homepage</b>: https://adminlte.io<br>
+    <b>language</b>: JavaScript<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**Aegisub**:</summary>
-    **html_url**: "https://github.com/Aegisub/Aegisub",
-    **description**: "Cross-platform advanced subtitle editor",
-    **homepage**: "http://devel.aegisub.org/",
-    **language**: "C++",
-    **archived**: false,
+    <summary><b>Aegisub</b>:</summary>
+    <b>html_url</b>: https://github.com/Aegisub/Aegisub<br>
+    <b>description</b>: Cross-platform advanced subtitle editor<br>
+    <b>homepage</b>: http://devel.aegisub.org/<br>
+    <b>language</b>: C++<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**airtime**:</summary>
-    **html_url**: "https://github.com/sourcefabric/airtime",
-    **description**: "Airtime is Sourcefabric’s open source radio software for scheduling and remote station management. Airtime provides a reliable audio playout with sub-second precision, an improved interface with modern usability features, advanced user management supporting roles and a Google-style calendar to schedule and move shows and playlists.",
-    **homepage**: "http://airtime.sourcefabric.org",
-    **language**: "PHP",
-    **archived**: false,
+    <summary><b>airtime</b>:</summary>
+    <b>html_url</b>: https://github.com/sourcefabric/airtime<br>
+    <b>description</b>: Airtime is Sourcefabric’s open source radio software for scheduling and remote station management. Airtime provides a reliable audio playout with sub-second precision, an improved interface with modern usability features, advanced user management supporting roles and a Google-style calendar to schedule and move shows and playlists.<br>
+    <b>homepage</b>: http://airtime.sourcefabric.org<br>
+    <b>language</b>: PHP<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**akaunting**:</summary>
-    **html_url**: "https://github.com/akaunting/akaunting",
-    **description**: "Free and Online Accounting Software",
-    **homepage**: "https://akaunting.com",
-    **language**: "PHP",
-    **archived**: false,
+    <summary><b>akaunting</b>:</summary>
+    <b>html_url</b>: https://github.com/akaunting/akaunting<br>
+    <b>description</b>: Free and Online Accounting Software<br>
+    <b>homepage</b>: https://akaunting.com<br>
+    <b>language</b>: PHP<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**alarm-cron**:</summary>
-    **html_url**: "https://github.com/bl00mber/alarm-cron",
-    **description**: ":bell: Set alarms, timers and stopwatches with countdowns and shell commands from the tray",
-    **homepage**: "",
-    **language**: "TypeScript",
-    **archived**: false,
+    <summary><b>alarm-cron</b>:</summary>
+    <b>html_url</b>: https://github.com/bl00mber/alarm-cron<br>
+    <b>description</b>: :bell: Set alarms, timers and stopwatches with countdowns and shell commands from the tray<br>
+    <b>homepage</b>: -<br>
+    <b>language</b>: TypeScript<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**AliceVision**:</summary>
-    **html_url**: "https://github.com/alicevision/AliceVision",
-    **description**: "Photogrammetric Computer Vision Framework",
-    **homepage**: "http://alicevision.org",
-    **language**: "C++",
-    **archived**: false,
+    <summary><b>AliceVision</b>:</summary>
+    <b>html_url</b>: https://github.com/alicevision/AliceVision<br>
+    <b>description</b>: Photogrammetric Computer Vision Framework<br>
+    <b>homepage</b>: http://alicevision.org<br>
+    <b>language</b>: C++<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**Allusion**:</summary>
-    **html_url**: "https://github.com/allusion-app/Allusion",
-    **description**: "A free and open source desktop application for managing your visual library",
-    **homepage**: "",
-    **language**: "TypeScript",
-    **archived**: false,
+    <summary><b>Allusion</b>:</summary>
+    <b>html_url</b>: https://github.com/allusion-app/Allusion<br>
+    <b>description</b>: A free and open source desktop application for managing your visual library<br>
+    <b>homepage</b>: -<br>
+    <b>language</b>: TypeScript<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**angular.js**:</summary>
-    **html_url**: "https://github.com/angular/angular.js",
-    **description**: "AngularJS - HTML enhanced for web apps!",
-    **homepage**: "https://angularjs.org",
-    **language**: "JavaScript",
-    **archived**: true,
+    <summary><b>angular.js</b>:</summary>
+    <b>html_url</b>: https://github.com/angular/angular.js<br>
+    <b>description</b>: AngularJS - HTML enhanced for web apps!<br>
+    <b>homepage</b>: https://angularjs.org<br>
+    <b>language</b>: JavaScript<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**AntiDupl**:</summary>
-    **html_url**: "https://github.com/ermig1979/AntiDupl",
-    **description**: "A program to search similar and defect pictures on the disk",
-    **homepage**: "https://ermig1979.github.io/AntiDupl",
-    **language**: "C#",
-    **archived**: false,
+    <summary><b>AntiDupl</b>:</summary>
+    <b>html_url</b>: https://github.com/ermig1979/AntiDupl<br>
+    <b>description</b>: A program to search similar and defect pictures on the disk<br>
+    <b>homepage</b>: https://ermig1979.github.io/AntiDupl<br>
+    <b>language</b>: C#<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**aos-AVP**:</summary>
-    **html_url**: "https://github.com/nova-video-player/aos-AVP",
-    **description**: "NOVA opeN sOurce Video plAyer: main repository to build them all",
-    **homepage**: "",
-    **language**: "HTML",
-    **archived**: false,
+    <summary><b>aos-AVP</b>:</summary>
+    <b>html_url</b>: https://github.com/nova-video-player/aos-AVP<br>
+    <b>description</b>: NOVA opeN sOurce Video plAyer: main repository to build them all<br>
+    <b>homepage</b>: -<br>
+    <b>language</b>: HTML<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**ap3**:</summary>
-    **html_url**: "https://github.com/Ahadmart/ap3",
-    **description**: "AhadPOS 3 - Software POS (point of sales) berbasis web. Lisensi open source (GPL v2)",
-    **homepage**: "",
-    **language**: "PHP",
-    **archived**: false,
-    **license**: null,
+    <summary><b>ap3</b>:</summary>
+    <b>html_url</b>: https://github.com/Ahadmart/ap3<br>
+    <b>description</b>: AhadPOS 3 - Software POS (point of sales) berbasis web. Lisensi open source (GPL v2)<br>
+    <b>homepage</b>: -<br>
+    <b>language</b>: PHP<br>
+    <b>archived</b>: -<br>
+    <b>license</b>: -<br>
   </details>
 
   <details>
-    <summary>**apkstudio**:</summary>
-    **html_url**: "https://github.com/vaibhavpandeyvpz/apkstudio",
-    **description**: "Open-source, cross platform Qt based IDE for reverse-engineering Android application packages.",
-    **homepage**: "https://vaibhavpandey.com/apkstudio/",
-    **language**: "C++",
-    **archived**: false,
+    <summary><b>apkstudio</b>:</summary>
+    <b>html_url</b>: https://github.com/vaibhavpandeyvpz/apkstudio<br>
+    <b>description</b>: Open-source, cross platform Qt based IDE for reverse-engineering Android application packages.<br>
+    <b>homepage</b>: https://vaibhavpandey.com/apkstudio/<br>
+    <b>language</b>: C++<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**ar-softdelete**:</summary>
-    **html_url**: "https://github.com/yii2tech/ar-softdelete",
-    **description**: "Soft delete behavior for ActiveRecord",
-    **homepage**: null,
-    **language**: "PHP",
-    **archived**: true,
+    <summary><b>ar-softdelete</b>:</summary>
+    <b>html_url</b>: https://github.com/yii2tech/ar-softdelete<br>
+    <b>description</b>: Soft delete behavior for ActiveRecord<br>
+    <b>homepage</b>: -<br>
+    <b>language</b>: PHP<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**arc-electron**:</summary>
-    **html_url**: "https://github.com/advanced-rest-client/arc-electron",
-    **description**: "Advanced REST Client - Desktop application",
-    **homepage**: "",
-    **language**: "JavaScript",
-    **archived**: false,
+    <summary><b>arc-electron</b>:</summary>
+    <b>html_url</b>: https://github.com/advanced-rest-client/arc-electron<br>
+    <b>description</b>: Advanced REST Client - Desktop application<br>
+    <b>homepage</b>: -<br>
+    <b>language</b>: JavaScript<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**archetype**:</summary>
-    **html_url**: "https://github.com/ajthinking/archetype",
-    **description**: "Edit PHP files programmatically",
-    **homepage**: "",
-    **language**: "PHP",
-    **archived**: false,
-    **license**: null,
+    <summary><b>archetype</b>:</summary>
+    <b>html_url</b>: https://github.com/ajthinking/archetype<br>
+    <b>description</b>: Edit PHP files programmatically<br>
+    <b>homepage</b>: -<br>
+    <b>language</b>: PHP<br>
+    <b>archived</b>: -<br>
+    <b>license</b>: -<br>
   </details>
 
   <details>
-    <summary>**Archimedes**:</summary>
-    **html_url**: "https://github.com/ArchimedesCAD/Archimedes",
-    **description**: "Archimedes is a free and open source CAD (Computer Aided Design) software.",
-    **homepage**: "http://www.archimedes.org.br/",
-    **language**: "Java",
-    **archived**: false,
-    **license**: null,
+    <summary><b>Archimedes</b>:</summary>
+    <b>html_url</b>: https://github.com/ArchimedesCAD/Archimedes<br>
+    <b>description</b>: Archimedes is a free and open source CAD (Computer Aided Design) software.<br>
+    <b>homepage</b>: http://www.archimedes.org.br/<br>
+    <b>language</b>: Java<br>
+    <b>archived</b>: -<br>
+    <b>license</b>: -<br>
   </details>
 
   <details>
-    <summary>**archon**:</summary>
-    **html_url**: "https://github.com/archonproject/archon",
-    **description**: null,
-    **homepage**: "https://chrisprom.com/archon/",
-    **language**: "PHP",
-    **archived**: false,
+    <summary><b>archon</b>:</summary>
+    <b>html_url</b>: https://github.com/archonproject/archon<br>
+    <b>description</b>: -<br>
+    <b>homepage</b>: https://chrisprom.com/archon/<br>
+    <b>language</b>: PHP<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**ardour**:</summary>
-    **html_url**: "https://github.com/Ardour/ardour",
-    **description**: "Mirror of Ardour Source Code",
-    **homepage**: "http://ardour.org",
-    **language**: "C++",
-    **archived**: false,
+    <summary><b>ardour</b>:</summary>
+    <b>html_url</b>: https://github.com/Ardour/ardour<br>
+    <b>description</b>: Mirror of Ardour Source Code<br>
+    <b>homepage</b>: http://ardour.org<br>
+    <b>language</b>: C++<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**Arduino**:</summary>
-    **html_url**: "https://github.com/arduino/Arduino",
-    **description**: "Arduino IDE 1.x",
-    **homepage**: "https://www.arduino.cc/en/software",
-    **language**: "Java",
-    **archived**: false,
+    <summary><b>Arduino</b>:</summary>
+    <b>html_url</b>: https://github.com/arduino/Arduino<br>
+    <b>description</b>: Arduino IDE 1.x<br>
+    <b>homepage</b>: https://www.arduino.cc/en/software<br>
+    <b>language</b>: Java<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**artha**:</summary>
-    **html_url**: "https://github.com/sria91/artha",
-    **description**: "Mirror of Artha ~ The Open Thesaurus",
-    **homepage**: "",
-    **language**: "Shell",
-    **archived**: false,
+    <summary><b>artha</b>:</summary>
+    <b>html_url</b>: https://github.com/sria91/artha<br>
+    <b>description</b>: Mirror of Artha ~ The Open Thesaurus<br>
+    <b>homepage</b>: -<br>
+    <b>language</b>: Shell<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**atom-portable**:</summary>
-    **html_url**: "https://github.com/garethflowers/atom-portable",
-    **description**: "Portable version of the Atom text editor.",
-    **homepage**: "https://garethflowers.dev/atom-portable/",
-    **language**: "HTML",
-    **archived**: false,
+    <summary><b>atom-portable</b>:</summary>
+    <b>html_url</b>: https://github.com/garethflowers/atom-portable<br>
+    <b>description</b>: Portable version of the Atom text editor.<br>
+    <b>homepage</b>: https://garethflowers.dev/atom-portable/<br>
+    <b>language</b>: HTML<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**atomic-edits**:</summary>
-    **html_url**: "https://github.com/SuboptimalEng/atomic-edits",
-    **description**: "🎬 A desktop app that automatically removes silence from videos.",
-    **homepage**: "",
-    **language**: "JavaScript",
-    **archived**: false,
+    <summary><b>atomic-edits</b>:</summary>
+    <b>html_url</b>: https://github.com/SuboptimalEng/atomic-edits<br>
+    <b>description</b>: 🎬 A desktop app that automatically removes silence from videos.<br>
+    <b>homepage</b>: -<br>
+    <b>language</b>: JavaScript<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**atropim**:</summary>
-    **html_url**: "https://github.com/atrocore/atropim",
-    **description**: "AtroPIM is a modern, flexible, configurable, open-source product information management system (PIM) of a new generation.",
-    **homepage**: "https://atropim.com",
-    **language**: "PHP",
-    **archived**: false,
+    <summary><b>atropim</b>:</summary>
+    <b>html_url</b>: https://github.com/atrocore/atropim<br>
+    <b>description</b>: AtroPIM is a modern, flexible, configurable, open-source product information management system (PIM) of a new generation.<br>
+    <b>homepage</b>: https://atropim.com<br>
+    <b>language</b>: PHP<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**aTunes**:</summary>
-    **html_url**: "https://github.com/PDavid/aTunes",
-    **description**: "Cross-platform player and audio manager",
-    **homepage**: "http://www.atunes.org/",
-    **language**: "Java",
-    **archived**: false,
+    <summary><b>aTunes</b>:</summary>
+    <b>html_url</b>: https://github.com/PDavid/aTunes<br>
+    <b>description</b>: Cross-platform player and audio manager<br>
+    <b>homepage</b>: http://www.atunes.org/<br>
+    <b>language</b>: Java<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**audacious**:</summary>
-    **html_url**: "https://github.com/audacious-media-player/audacious",
-    **description**: "A lightweight and versatile audio player",
-    **homepage**: "https://audacious-media-player.org",
-    **language**: "C++",
-    **archived**: false,
+    <summary><b>audacious</b>:</summary>
+    <b>html_url</b>: https://github.com/audacious-media-player/audacious<br>
+    <b>description</b>: A lightweight and versatile audio player<br>
+    <b>homepage</b>: https://audacious-media-player.org<br>
+    <b>language</b>: C++<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**audacity**:</summary>
-    **html_url**: "https://github.com/audacity/audacity",
-    **description**: "Audio Editor                                     ",
-    **homepage**: "https://wiki.audacityteam.org/wiki/For_Developers",
-    **language**: "C",
-    **archived**: false,
+    <summary><b>audacity</b>:</summary>
+    <b>html_url</b>: https://github.com/audacity/audacity<br>
+    <b>description</b>: Audio Editor                                     <br>
+    <b>homepage</b>: https://wiki.audacityteam.org/wiki/For_Developers<br>
+    <b>language</b>: C<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**Aura.Sql**:</summary>
-    **html_url**: "https://github.com/auraphp/Aura.Sql",
-    **description**: "SQL database access through PDO.",
-    **homepage**: "",
-    **language**: "PHP",
-    **archived**: false,
+    <summary><b>Aura.Sql</b>:</summary>
+    <b>html_url</b>: https://github.com/auraphp/Aura.Sql<br>
+    <b>description</b>: SQL database access through PDO.<br>
+    <b>homepage</b>: -<br>
+    <b>language</b>: PHP<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**AutoHotkey**:</summary>
-    **html_url**: "https://github.com/AutoHotkey/AutoHotkey",
-    **description**: "AutoHotkey - macro-creation and automation-oriented scripting utility for Windows.",
-    **homepage**: "https://autohotkey.com/",
-    **language**: "C++",
-    **archived**: false,
+    <summary><b>AutoHotkey</b>:</summary>
+    <b>html_url</b>: https://github.com/AutoHotkey/AutoHotkey<br>
+    <b>description</b>: AutoHotkey - macro-creation and automation-oriented scripting utility for Windows.<br>
+    <b>homepage</b>: https://autohotkey.com/<br>
+    <b>language</b>: C++<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**awesome-deno**:</summary>
-    **html_url**: "https://github.com/denolib/awesome-deno",
-    **description**: "Curated list of awesome things related to Deno",
-    **homepage**: "",
-    **language**: null,
-    **archived**: false,
+    <summary><b>awesome-deno</b>:</summary>
+    <b>html_url</b>: https://github.com/denolib/awesome-deno<br>
+    <b>description</b>: Curated list of awesome things related to Deno<br>
+    <b>homepage</b>: -<br>
+    <b>language</b>: -<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**awesome-dotnet-core**:</summary>
-    **html_url**: "https://github.com/thangchung/awesome-dotnet-core",
-    **description**: ":honeybee: A collection of awesome .NET core libraries, tools, frameworks and software",
-    **homepage**: "",
-    **language**: "C#",
-    **archived**: false,
-    **license**: null,
+    <summary><b>awesome-dotnet-core</b>:</summary>
+    <b>html_url</b>: https://github.com/thangchung/awesome-dotnet-core<br>
+    <b>description</b>: :honeybee: A collection of awesome .NET core libraries, tools, frameworks and software<br>
+    <b>homepage</b>: -<br>
+    <b>language</b>: C#<br>
+    <b>archived</b>: -<br>
+    <b>license</b>: -<br>
   </details>
 
   <details>
-    <summary>**awesome-php**:</summary>
-    **html_url**: "https://github.com/ziadoz/awesome-php",
-    **description**: "A curated list of amazingly awesome PHP libraries, resources and shiny things.",
-    **homepage**: null,
-    **language**: null,
-    **archived**: false,
+    <summary><b>awesome-php</b>:</summary>
+    <b>html_url</b>: https://github.com/ziadoz/awesome-php<br>
+    <b>description</b>: A curated list of amazingly awesome PHP libraries, resources and shiny things.<br>
+    <b>homepage</b>: -<br>
+    <b>language</b>: -<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**awesome-php-ffi**:</summary>
-    **html_url**: "https://github.com/gabrielrcouto/awesome-php-ffi",
-    **description**: "PHP FFI examples and use cases",
-    **homepage**: "",
-    **language**: "C",
-    **archived**: false,
-    **license**: null,
+    <summary><b>awesome-php-ffi</b>:</summary>
+    <b>html_url</b>: https://github.com/gabrielrcouto/awesome-php-ffi<br>
+    <b>description</b>: PHP FFI examples and use cases<br>
+    <b>homepage</b>: -<br>
+    <b>language</b>: C<br>
+    <b>archived</b>: -<br>
+    <b>license</b>: -<br>
   </details>
 
   <details>
-    <summary>**babel**:</summary>
-    **html_url**: "https://github.com/babel/babel",
-    **description**: "🐠 Babel is a compiler for writing next generation JavaScript.",
-    **homepage**: "https://babel.dev",
-    **language**: "TypeScript",
-    **archived**: false,
+    <summary><b>babel</b>:</summary>
+    <b>html_url</b>: https://github.com/babel/babel<br>
+    <b>description</b>: 🐠 Babel is a compiler for writing next generation JavaScript.<br>
+    <b>homepage</b>: https://babel.dev<br>
+    <b>language</b>: TypeScript<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**baobab**:</summary>
-    **html_url**: "https://github.com/GNOME/baobab",
-    **description**: "Read-only mirror of https://gitlab.gnome.org/GNOME/baobab",
-    **homepage**: "https://gitlab.gnome.org/GNOME/baobab",
-    **language**: "Vala",
-    **archived**: false,
+    <summary><b>baobab</b>:</summary>
+    <b>html_url</b>: https://github.com/GNOME/baobab<br>
+    <b>description</b>: Read-only mirror of https://gitlab.gnome.org/GNOME/baobab<br>
+    <b>homepage</b>: https://gitlab.gnome.org/GNOME/baobab<br>
+    <b>language</b>: Vala<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**baseimage-docker**:</summary>
-    **html_url**: "https://github.com/phusion/baseimage-docker",
-    **description**: "A minimal Ubuntu base image modified for Docker-friendliness",
-    **homepage**: "http://phusion.github.io/baseimage-docker/",
-    **language**: "Shell",
-    **archived**: false,
+    <summary><b>baseimage-docker</b>:</summary>
+    <b>html_url</b>: https://github.com/phusion/baseimage-docker<br>
+    <b>description</b>: A minimal Ubuntu base image modified for Docker-friendliness<br>
+    <b>homepage</b>: http://phusion.github.io/baseimage-docker/<br>
+    <b>language</b>: Shell<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**basic-256**:</summary>
-    **html_url**: "https://github.com/Ri0n/basic-256",
-    **description**: null,
-    **homepage**: null,
-    **language**: "C++",
-    **archived**: false,
+    <summary><b>basic-256</b>:</summary>
+    <b>html_url</b>: https://github.com/Ri0n/basic-256<br>
+    <b>description</b>: -<br>
+    <b>homepage</b>: -<br>
+    <b>language</b>: C++<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**batchfunctionlibrary**:</summary>
-    **html_url**: "https://github.com/ritchielawrence/batchfunctionlibrary",
-    **description**: "Library of Windows batch functions",
-    **homepage**: "https://ritchielawrence.github.io/batchfunctionlibrary/",
-    **language**: "HTML",
-    **archived**: false,
-    **license**: null,
+    <summary><b>batchfunctionlibrary</b>:</summary>
+    <b>html_url</b>: https://github.com/ritchielawrence/batchfunctionlibrary<br>
+    <b>description</b>: Library of Windows batch functions<br>
+    <b>homepage</b>: https://ritchielawrence.github.io/batchfunctionlibrary/<br>
+    <b>language</b>: HTML<br>
+    <b>archived</b>: -<br>
+    <b>license</b>: -<br>
   </details>
 
   <details>
-    <summary>**beekeeper-studio**:</summary>
-    **html_url**: "https://github.com/beekeeper-studio/beekeeper-studio",
-    **description**: "Modern and easy to use SQL client for MySQL, Postgres, SQLite, SQL Server, and more. Linux, MacOS, and Windows.",
-    **homepage**: "https://www.beekeeperstudio.io",
-    **language**: "Vue",
-    **archived**: false,
+    <summary><b>beekeeper-studio</b>:</summary>
+    <b>html_url</b>: https://github.com/beekeeper-studio/beekeeper-studio<br>
+    <b>description</b>: Modern and easy to use SQL client for MySQL, Postgres, SQLite, SQL Server, and more. Linux, MacOS, and Windows.<br>
+    <b>homepage</b>: https://www.beekeeperstudio.io<br>
+    <b>language</b>: Vue<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**birdfont**:</summary>
-    **html_url**: "https://github.com/johanmattssonm/birdfont",
-    **description**: "A font editor for creating fonts in TTF, EOT, SVG and BIRDFONT format.",
-    **homepage**: "https://birdfont.org",
-    **language**: "Vala",
-    **archived**: false,
-    **license**: null,
+    <summary><b>birdfont</b>:</summary>
+    <b>html_url</b>: https://github.com/johanmattssonm/birdfont<br>
+    <b>description</b>: A font editor for creating fonts in TTF, EOT, SVG and BIRDFONT format.<br>
+    <b>homepage</b>: https://birdfont.org<br>
+    <b>language</b>: Vala<br>
+    <b>archived</b>: -<br>
+    <b>license</b>: -<br>
   </details>
 
   <details>
-    <summary>**birdskitchen**:</summary>
-    **html_url**: "https://github.com/fredserva/birdskitchen",
-    **description**: "A Desktop Recipe Manager application using Electron & React.",
-    **homepage**: "",
-    **language**: "JavaScript",
-    **archived**: false,
+    <summary><b>birdskitchen</b>:</summary>
+    <b>html_url</b>: https://github.com/fredserva/birdskitchen<br>
+    <b>description</b>: A Desktop Recipe Manager application using Electron & React.<br>
+    <b>homepage</b>: -<br>
+    <b>language</b>: JavaScript<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**blink-mind-desktop**:</summary>
-    **html_url**: "https://github.com/awehook/blink-mind-desktop",
-    **description**: " Cross-platform full-featured mind mapping and outline app based on electron.",
-    **homepage**: "",
-    **language**: "TypeScript",
-    **archived**: false,
+    <summary><b>blink-mind-desktop</b>:</summary>
+    <b>html_url</b>: https://github.com/awehook/blink-mind-desktop<br>
+    <b>description</b>:  Cross-platform full-featured mind mapping and outline app based on electron.<br>
+    <b>homepage</b>: -<br>
+    <b>language</b>: TypeScript<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**BLIS**:</summary>
-    **html_url**: "https://github.com/C4G/BLIS",
-    **description**: "C4G Basic Laboratory Information System",
-    **homepage**: "http://blis.cc.gatech.edu/",
-    **language**: "PHP",
-    **archived**: false,
-    **license**: null,
+    <summary><b>BLIS</b>:</summary>
+    <b>html_url</b>: https://github.com/C4G/BLIS<br>
+    <b>description</b>: C4G Basic Laboratory Information System<br>
+    <b>homepage</b>: http://blis.cc.gatech.edu/<br>
+    <b>language</b>: PHP<br>
+    <b>archived</b>: -<br>
+    <b>license</b>: -<br>
   </details>
 
   <details>
-    <summary>**blockbench**:</summary>
-    **html_url**: "https://github.com/JannisX11/blockbench",
-    **description**: "Blockbench - A low poly 3D model editor",
-    **homepage**: "https://www.blockbench.net",
-    **language**: "JavaScript",
-    **archived**: false,
+    <summary><b>blockbench</b>:</summary>
+    <b>html_url</b>: https://github.com/JannisX11/blockbench<br>
+    <b>description</b>: Blockbench - A low poly 3D model editor<br>
+    <b>homepage</b>: https://www.blockbench.net<br>
+    <b>language</b>: JavaScript<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**bluegriffon**:</summary>
-    **html_url**: "https://github.com/therealglazou/bluegriffon",
-    **description**: "BlueGriffon, the Web editor",
-    **homepage**: null,
-    **language**: "JavaScript",
-    **archived**: false,
+    <summary><b>bluegriffon</b>:</summary>
+    <b>html_url</b>: https://github.com/therealglazou/bluegriffon<br>
+    <b>description</b>: BlueGriffon, the Web editor<br>
+    <b>homepage</b>: -<br>
+    <b>language</b>: JavaScript<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**blur-admin**:</summary>
-    **html_url**: "https://github.com/akveo/blur-admin",
-    **description**: "AngularJS Bootstrap Admin Panel Framework",
-    **homepage**: "http://akveo.github.io/blur-admin/",
-    **language**: "JavaScript",
-    **archived**: false,
+    <summary><b>blur-admin</b>:</summary>
+    <b>html_url</b>: https://github.com/akveo/blur-admin<br>
+    <b>description</b>: AngularJS Bootstrap Admin Panel Framework<br>
+    <b>homepage</b>: http://akveo.github.io/blur-admin/<br>
+    <b>language</b>: JavaScript<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**BookStack**:</summary>
-    **html_url**: "https://github.com/BookStackApp/BookStack",
-    **description**: "A platform to create documentation/wiki content built with PHP & Laravel",
-    **homepage**: "https://www.bookstackapp.com/",
-    **language**: "PHP",
-    **archived**: false,
+    <summary><b>BookStack</b>:</summary>
+    <b>html_url</b>: https://github.com/BookStackApp/BookStack<br>
+    <b>description</b>: A platform to create documentation/wiki content built with PHP & Laravel<br>
+    <b>homepage</b>: https://www.bookstackapp.com/<br>
+    <b>language</b>: PHP<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**BoostNote-App**:</summary>
-    **html_url**: "https://github.com/BoostIO/BoostNote-App",
-    **description**: "Boost Note is a document driven project management tool that maximizes remote DevOps team velocity.",
-    **homepage**: "https://boostnote.io",
-    **language**: "TypeScript",
-    **archived**: false,
+    <summary><b>BoostNote-App</b>:</summary>
+    <b>html_url</b>: https://github.com/BoostIO/BoostNote-App<br>
+    <b>description</b>: Boost Note is a document driven project management tool that maximizes remote DevOps team velocity.<br>
+    <b>homepage</b>: https://boostnote.io<br>
+    <b>language</b>: TypeScript<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**boot2docker**:</summary>
-    **html_url**: "https://github.com/boot2docker/boot2docker",
-    **description**: "DEPRECATED; see https://github.com/boot2docker/boot2docker/pull/1408",
-    **homepage**: "https://github.com/boot2docker/boot2docker/pull/1408",
-    **language**: "Shell",
-    **archived**: true,
+    <summary><b>boot2docker</b>:</summary>
+    <b>html_url</b>: https://github.com/boot2docker/boot2docker<br>
+    <b>description</b>: DEPRECATED; see https://github.com/boot2docker/boot2docker/pull/1408<br>
+    <b>homepage</b>: https://github.com/boot2docker/boot2docker/pull/1408<br>
+    <b>language</b>: Shell<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**bootstrap**:</summary>
-    **html_url**: "https://github.com/twbs/bootstrap",
-    **description**: "The most popular HTML, CSS, and JavaScript framework for developing responsive, mobile first projects on the web.",
-    **homepage**: "https://getbootstrap.com",
-    **language**: "JavaScript",
-    **archived**: false,
+    <summary><b>bootstrap</b>:</summary>
+    <b>html_url</b>: https://github.com/twbs/bootstrap<br>
+    <b>description</b>: The most popular HTML, CSS, and JavaScript framework for developing responsive, mobile first projects on the web.<br>
+    <b>homepage</b>: https://getbootstrap.com<br>
+    <b>language</b>: JavaScript<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**Bootstrap-3-Typeahead**:</summary>
-    **html_url**: "https://github.com/bassjobsen/Bootstrap-3-Typeahead",
-    **description**: "The Typeahead plugin from Twitter's Bootstrap 2 ready to use with Bootstrap 3 and Bootstrap 4",
-    **homepage**: "",
-    **language**: "JavaScript",
-    **archived**: false,
-    **license**: null,
+    <summary><b>Bootstrap-3-Typeahead</b>:</summary>
+    <b>html_url</b>: https://github.com/bassjobsen/Bootstrap-3-Typeahead<br>
+    <b>description</b>: The Typeahead plugin from Twitter's Bootstrap 2 ready to use with Bootstrap 3 and Bootstrap 4<br>
+    <b>homepage</b>: -<br>
+    <b>language</b>: JavaScript<br>
+    <b>archived</b>: -<br>
+    <b>license</b>: -<br>
   </details>
 
   <details>
-    <summary>**bootstrap-datepicker**:</summary>
-    **html_url**: "https://github.com/uxsolutions/bootstrap-datepicker",
-    **description**: "A datepicker for twitter bootstrap (@twbs)",
-    **homepage**: "",
-    **language**: "JavaScript",
-    **archived**: false,
+    <summary><b>bootstrap-datepicker</b>:</summary>
+    <b>html_url</b>: https://github.com/uxsolutions/bootstrap-datepicker<br>
+    <b>description</b>: A datepicker for twitter bootstrap (@twbs)<br>
+    <b>homepage</b>: -<br>
+    <b>language</b>: JavaScript<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**bootstrap-datetimepicker**:</summary>
-    **html_url**: "https://github.com/AuspeXeu/bootstrap-datetimepicker",
-    **description**: "Both Date and Time picker widget based on twitter bootstrap 3",
-    **homepage**: "https://auspexeu.github.io/bootstrap-datetimepicker/",
-    **language**: "JavaScript",
-    **archived**: true,
+    <summary><b>bootstrap-datetimepicker</b>:</summary>
+    <b>html_url</b>: https://github.com/AuspeXeu/bootstrap-datetimepicker<br>
+    <b>description</b>: Both Date and Time picker widget based on twitter bootstrap 3<br>
+    <b>homepage</b>: https://auspexeu.github.io/bootstrap-datetimepicker/<br>
+    <b>language</b>: JavaScript<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**bootstrap-duallistbox**:</summary>
-    **html_url**: "https://github.com/istvan-ujjmeszaros/bootstrap-duallistbox",
-    **description**: "Bootstrap Dual Listbox",
-    **homepage**: "http://www.virtuosoft.eu/code/bootstrap-duallistbox/",
-    **language**: "JavaScript",
-    **archived**: false,
+    <summary><b>bootstrap-duallistbox</b>:</summary>
+    <b>html_url</b>: https://github.com/istvan-ujjmeszaros/bootstrap-duallistbox<br>
+    <b>description</b>: Bootstrap Dual Listbox<br>
+    <b>homepage</b>: http://www.virtuosoft.eu/code/bootstrap-duallistbox/<br>
+    <b>language</b>: JavaScript<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**bootstrap-material-design**:</summary>
-    **html_url**: "https://github.com/mdbootstrap/bootstrap-material-design",
-    **description**: "Important! A new UI Kit version for the latest Bootstrap 5 is available. Access the latest version via the link below",
-    **homepage**: "https://mdbootstrap.com/docs/standard/",
-    **language**: "CSS",
-    **archived**: false,
+    <summary><b>bootstrap-material-design</b>:</summary>
+    <b>html_url</b>: https://github.com/mdbootstrap/bootstrap-material-design<br>
+    <b>description</b>: Important! A new UI Kit version for the latest Bootstrap 5 is available. Access the latest version via the link below<br>
+    <b>homepage</b>: https://mdbootstrap.com/docs/standard/<br>
+    <b>language</b>: CSS<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**bootstrap-table**:</summary>
-    **html_url**: "https://github.com/wenzhixin/bootstrap-table",
-    **description**: "An extended table to integration with some of the most widely used CSS frameworks. (Supports Bootstrap, Semantic UI, Bulma, Material Design, Foundation, Vue.js)",
-    **homepage**: "https://bootstrap-table.com/",
-    **language**: "JavaScript",
-    **archived**: false,
+    <summary><b>bootstrap-table</b>:</summary>
+    <b>html_url</b>: https://github.com/wenzhixin/bootstrap-table<br>
+    <b>description</b>: An extended table to integration with some of the most widely used CSS frameworks. (Supports Bootstrap, Semantic UI, Bulma, Material Design, Foundation, Vue.js)<br>
+    <b>homepage</b>: https://bootstrap-table.com/<br>
+    <b>language</b>: JavaScript<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**bootstrap-treeview**:</summary>
-    **html_url**: "https://github.com/jonmiles/bootstrap-treeview",
-    **description**: "Tree View for Twitter Bootstrap - ",
-    **homepage**: "http://jonmiles.github.io/bootstrap-treeview",
-    **language**: "JavaScript",
-    **archived**: true,
+    <summary><b>bootstrap-treeview</b>:</summary>
+    <b>html_url</b>: https://github.com/jonmiles/bootstrap-treeview<br>
+    <b>description</b>: Tree View for Twitter Bootstrap - <br>
+    <b>homepage</b>: http://jonmiles.github.io/bootstrap-treeview<br>
+    <b>language</b>: JavaScript<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**brackets-portable**:</summary>
-    **html_url**: "https://github.com/sagiegurari/brackets-portable",
-    **description**: "Windows portable version of adobe brackets web development editor.",
-    **homepage**: null,
-    **language**: "HTML",
-    **archived**: true,
+    <summary><b>brackets-portable</b>:</summary>
+    <b>html_url</b>: https://github.com/sagiegurari/brackets-portable<br>
+    <b>description</b>: Windows portable version of adobe brackets web development editor.<br>
+    <b>homepage</b>: -<br>
+    <b>language</b>: HTML<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**brlcad**:</summary>
-    **html_url**: "https://github.com/BRL-CAD/brlcad",
-    **description**: "BRL-CAD is a powerful cross-platform open source combinatorial solid modeling system",
-    **homepage**: "https://brlcad.org",
-    **language**: "C++",
-    **archived**: false,
+    <summary><b>brlcad</b>:</summary>
+    <b>html_url</b>: https://github.com/BRL-CAD/brlcad<br>
+    <b>description</b>: BRL-CAD is a powerful cross-platform open source combinatorial solid modeling system<br>
+    <b>homepage</b>: https://brlcad.org<br>
+    <b>language</b>: C++<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**Bulk-Crap-Uninstaller**:</summary>
-    **html_url**: "https://github.com/Klocman/Bulk-Crap-Uninstaller",
-    **description**: "Remove large amounts of unwanted applications quickly.",
-    **homepage**: "https://www.bcuninstaller.com/",
-    **language**: "C#",
-    **archived**: false,
+    <summary><b>Bulk-Crap-Uninstaller</b>:</summary>
+    <b>html_url</b>: https://github.com/Klocman/Bulk-Crap-Uninstaller<br>
+    <b>description</b>: Remove large amounts of unwanted applications quickly.<br>
+    <b>homepage</b>: https://www.bcuninstaller.com/<br>
+    <b>language</b>: C#<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**caesium-clt**:</summary>
-    **html_url**: "https://github.com/Lymphatus/caesium-clt",
-    **description**: "Caesium Command Line Tools - Lossy/lossless image compression tool ",
-    **homepage**: "http://saerasoft.com/caesium",
-    **language**: "Rust",
-    **archived**: false,
+    <summary><b>caesium-clt</b>:</summary>
+    <b>html_url</b>: https://github.com/Lymphatus/caesium-clt<br>
+    <b>description</b>: Caesium Command Line Tools - Lossy/lossless image compression tool <br>
+    <b>homepage</b>: http://saerasoft.com/caesium<br>
+    <b>language</b>: Rust<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**caesium-image-compressor**:</summary>
-    **html_url**: "https://github.com/Lymphatus/caesium-image-compressor",
-    **description**: "Caesium is an image compression software that helps you store, send and share digital pictures, supporting JPG, PNG and WebP formats.   You can quickly reduce the file size (and resolution, if you want) by preserving the overall quality of the image.",
-    **homepage**: "https://saerasoft.com/caesium",
-    **language**: "C++",
-    **archived**: false,
+    <summary><b>caesium-image-compressor</b>:</summary>
+    <b>html_url</b>: https://github.com/Lymphatus/caesium-image-compressor<br>
+    <b>description</b>: Caesium is an image compression software that helps you store, send and share digital pictures, supporting JPG, PNG and WebP formats.   You can quickly reduce the file size (and resolution, if you want) by preserving the overall quality of the image.<br>
+    <b>homepage</b>: https://saerasoft.com/caesium<br>
+    <b>language</b>: C++<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**CalemEAM**:</summary>
-    **html_url**: "https://github.com/calemcme/CalemEAM",
-    **description**: "CalemEAM is a commercial open source software provider for enterprise asset management (EAM) and computerized maintenance management systems (CMMS).",
-    **homepage**: "http://www.calemeam.com",
-    **language**: "JavaScript",
-    **archived**: false,
+    <summary><b>CalemEAM</b>:</summary>
+    <b>html_url</b>: https://github.com/calemcme/CalemEAM<br>
+    <b>description</b>: CalemEAM is a commercial open source software provider for enterprise asset management (EAM) and computerized maintenance management systems (CMMS).<br>
+    <b>homepage</b>: http://www.calemeam.com<br>
+    <b>language</b>: JavaScript<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**calibre**:</summary>
-    **html_url**: "https://github.com/kovidgoyal/calibre",
-    **description**: "The official source code repository for the calibre ebook manager",
-    **homepage**: "https://calibre-ebook.com",
-    **language**: "Python",
-    **archived**: false,
+    <summary><b>calibre</b>:</summary>
+    <b>html_url</b>: https://github.com/kovidgoyal/calibre<br>
+    <b>description</b>: The official source code repository for the calibre ebook manager<br>
+    <b>homepage</b>: https://calibre-ebook.com<br>
+    <b>language</b>: Python<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**calligra**:</summary>
-    **html_url**: "https://github.com/KDE/calligra",
-    **description**: "Office and graphic art suite by KDE",
-    **homepage**: "https://invent.kde.org/office/calligra",
-    **language**: "C++",
-    **archived**: false,
+    <summary><b>calligra</b>:</summary>
+    <b>html_url</b>: https://github.com/KDE/calligra<br>
+    <b>description</b>: Office and graphic art suite by KDE<br>
+    <b>homepage</b>: https://invent.kde.org/office/calligra<br>
+    <b>language</b>: C++<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**calligraplan**:</summary>
-    **html_url**: "https://github.com/KDE/calligraplan",
-    **description**: "Project management application",
-    **homepage**: "https://invent.kde.org/office/calligraplan",
-    **language**: "C++",
-    **archived**: false,
+    <summary><b>calligraplan</b>:</summary>
+    <b>html_url</b>: https://github.com/KDE/calligraplan<br>
+    <b>description</b>: Project management application<br>
+    <b>homepage</b>: https://invent.kde.org/office/calligraplan<br>
+    <b>language</b>: C++<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**care2x**:</summary>
-    **html_url**: "https://github.com/care2x/care2x",
-    **description**: "Care2x 2.7 version from sourceforge",
-    **homepage**: null,
-    **language**: "PHP",
-    **archived**: false,
+    <summary><b>care2x</b>:</summary>
+    <b>html_url</b>: https://github.com/care2x/care2x<br>
+    <b>description</b>: Care2x 2.7 version from sourceforge<br>
+    <b>homepage</b>: -<br>
+    <b>language</b>: PHP<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**chancejs**:</summary>
-    **html_url**: "https://github.com/chancejs/chancejs",
-    **description**: "Chance - Random generator helper for JavaScript",
-    **homepage**: "http://chancejs.com",
-    **language**: "JavaScript",
-    **archived**: false,
+    <summary><b>chancejs</b>:</summary>
+    <b>html_url</b>: https://github.com/chancejs/chancejs<br>
+    <b>description</b>: Chance - Random generator helper for JavaScript<br>
+    <b>homepage</b>: http://chancejs.com<br>
+    <b>language</b>: JavaScript<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**Chart.js**:</summary>
-    **html_url**: "https://github.com/chartjs/Chart.js",
-    **description**: "Simple HTML5 Charts using the <canvas> tag",
-    **homepage**: "https://www.chartjs.org/",
-    **language**: "JavaScript",
-    **archived**: false,
+    <summary><b>Chart.js</b>:</summary>
+    <b>html_url</b>: https://github.com/chartjs/Chart.js<br>
+    <b>description</b>: Simple HTML5 Charts using the <canvas> tag<br>
+    <b>homepage</b>: https://www.chartjs.org/<br>
+    <b>language</b>: JavaScript<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**cheatsheets**:</summary>
-    **html_url**: "https://github.com/rstacruz/cheatsheets",
-    **description**: "My cheatsheets",
-    **homepage**: "https://devhints.io",
-    **language**: "SCSS",
-    **archived**: false,
+    <summary><b>cheatsheets</b>:</summary>
+    <b>html_url</b>: https://github.com/rstacruz/cheatsheets<br>
+    <b>description</b>: My cheatsheets<br>
+    <b>homepage</b>: https://devhints.io<br>
+    <b>language</b>: SCSS<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**chikitsa**:</summary>
-    **html_url**: "https://github.com/sanskruti-technologies/chikitsa",
-    **description**: "Patient Management System",
-    **homepage**: null,
-    **language**: "PHP",
-    **archived**: false,
-    **license**: null,
+    <summary><b>chikitsa</b>:</summary>
+    <b>html_url</b>: https://github.com/sanskruti-technologies/chikitsa<br>
+    <b>description</b>: Patient Management System<br>
+    <b>homepage</b>: -<br>
+    <b>language</b>: PHP<br>
+    <b>archived</b>: -<br>
+    <b>license</b>: -<br>
   </details>
 
   <details>
-    <summary>**chive**:</summary>
-    **html_url**: "https://github.com/fusonic/chive",
-    **description**: "Chive is a free, open source, web-based database management tool, designed to bring joy to web developers - with easy administration and super fast UI.",
-    **homepage**: "http://www.chive-project.com",
-    **language**: "PHP",
-    **archived**: true,
+    <summary><b>chive</b>:</summary>
+    <b>html_url</b>: https://github.com/fusonic/chive<br>
+    <b>description</b>: Chive is a free, open source, web-based database management tool, designed to bring joy to web developers - with easy administration and super fast UI.<br>
+    <b>homepage</b>: http://www.chive-project.com<br>
+    <b>language</b>: PHP<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**chrome**:</summary>
-    **html_url**: "https://github.com/chrome-php/chrome",
-    **description**: "Instrument headless chrome/chromium instances from PHP",
-    **homepage**: "",
-    **language**: "PHP",
-    **archived**: false,
+    <summary><b>chrome</b>:</summary>
+    <b>html_url</b>: https://github.com/chrome-php/chrome<br>
+    <b>description</b>: Instrument headless chrome/chromium instances from PHP<br>
+    <b>homepage</b>: -<br>
+    <b>language</b>: PHP<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**ChurchInfo**:</summary>
-    **html_url**: "https://github.com/ChurchInfo/ChurchInfo",
-    **description**: "ChurchInfo is a free church database program to help churches track members, families, groups, pledges and payments. Our feature set is comparable to expensive church management software packages. Our users are supported by an open-source community of people who volunteer their time and energy to make this technology available to all churches.",
-    **homepage**: "http://churchdb.org",
-    **language**: "PHP",
-    **archived**: false,
-    **license**: null,
+    <summary><b>ChurchInfo</b>:</summary>
+    <b>html_url</b>: https://github.com/ChurchInfo/ChurchInfo<br>
+    <b>description</b>: ChurchInfo is a free church database program to help churches track members, families, groups, pledges and payments. Our feature set is comparable to expensive church management software packages. Our users are supported by an open-source community of people who volunteer their time and energy to make this technology available to all churches.<br>
+    <b>homepage</b>: http://churchdb.org<br>
+    <b>language</b>: PHP<br>
+    <b>archived</b>: -<br>
+    <b>license</b>: -<br>
   </details>
 
   <details>
-    <summary>**citrusdb**:</summary>
-    **html_url**: "https://github.com/paulyasi/citrusdb",
-    **description**: "open source customer service and billing software, version 3.x development",
-    **homepage**: "http://www.citrusdb.org",
-    **language**: "PHP",
-    **archived**: false,
+    <summary><b>citrusdb</b>:</summary>
+    <b>html_url</b>: https://github.com/paulyasi/citrusdb<br>
+    <b>description</b>: open source customer service and billing software, version 3.x development<br>
+    <b>homepage</b>: http://www.citrusdb.org<br>
+    <b>language</b>: PHP<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**civicrm-core**:</summary>
-    **html_url**: "https://github.com/civicrm/civicrm-core",
-    **description**: "CiviCRM (Core Application and Framework)",
-    **homepage**: null,
-    **language**: "PHP",
-    **archived**: false,
+    <summary><b>civicrm-core</b>:</summary>
+    <b>html_url</b>: https://github.com/civicrm/civicrm-core<br>
+    <b>description</b>: CiviCRM (Core Application and Framework)<br>
+    <b>homepage</b>: -<br>
+    <b>language</b>: PHP<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**civicrm-drupal-8**:</summary>
-    **html_url**: "https://github.com/civicrm/civicrm-drupal-8",
-    **description**: "Integration module for CiviCRM and Drupal 8",
-    **homepage**: null,
-    **language**: "PHP",
-    **archived**: false,
+    <summary><b>civicrm-drupal-8</b>:</summary>
+    <b>html_url</b>: https://github.com/civicrm/civicrm-drupal-8<br>
+    <b>description</b>: Integration module for CiviCRM and Drupal 8<br>
+    <b>homepage</b>: -<br>
+    <b>language</b>: PHP<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**civicrm-joomla**:</summary>
-    **html_url**: "https://github.com/civicrm/civicrm-joomla",
-    **description**: "CiviCRM (Joomla Integration)",
-    **homepage**: null,
-    **language**: "PHP",
-    **archived**: false,
-    **license**: null,
+    <summary><b>civicrm-joomla</b>:</summary>
+    <b>html_url</b>: https://github.com/civicrm/civicrm-joomla<br>
+    <b>description</b>: CiviCRM (Joomla Integration)<br>
+    <b>homepage</b>: -<br>
+    <b>language</b>: PHP<br>
+    <b>archived</b>: -<br>
+    <b>license</b>: -<br>
   </details>
 
   <details>
-    <summary>**civicrm-wordpress**:</summary>
-    **html_url**: "https://github.com/civicrm/civicrm-wordpress",
-    **description**: "CiviCRM (WordPress Integration)",
-    **homepage**: null,
-    **language**: "PHP",
-    **archived**: false,
-    **license**: null,
+    <summary><b>civicrm-wordpress</b>:</summary>
+    <b>html_url</b>: https://github.com/civicrm/civicrm-wordpress<br>
+    <b>description</b>: CiviCRM (WordPress Integration)<br>
+    <b>homepage</b>: -<br>
+    <b>language</b>: PHP<br>
+    <b>archived</b>: -<br>
+    <b>license</b>: -<br>
   </details>
 
   <details>
-    <summary>**Claroline**:</summary>
-    **html_url**: "https://github.com/claroline/Claroline",
-    **description**: "Learning management system",
-    **homepage**: "https://www.claroline.com",
-    **language**: "PHP",
-    **archived**: false,
+    <summary><b>Claroline</b>:</summary>
+    <b>html_url</b>: https://github.com/claroline/Claroline<br>
+    <b>description</b>: Learning management system<br>
+    <b>homepage</b>: https://www.claroline.com<br>
+    <b>language</b>: PHP<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**classroombookings**:</summary>
-    **html_url**: "https://github.com/craigrodway/classroombookings",
-    **description**: "The open source hassle-free room booking system for schools",
-    **homepage**: "https://www.classroombookings.com/",
-    **language**: "PHP",
-    **archived**: false,
+    <summary><b>classroombookings</b>:</summary>
+    <b>html_url</b>: https://github.com/craigrodway/classroombookings<br>
+    <b>description</b>: The open source hassle-free room booking system for schools<br>
+    <b>homepage</b>: https://www.classroombookings.com/<br>
+    <b>language</b>: PHP<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**clearhealth**:</summary>
-    **html_url**: "https://github.com/clearhealth/clearhealth",
-    **description**: "Open Source Practice Management and Electronic Medical Records System",
-    **homepage**: "www.clear-health.com",
-    **language**: "PHP",
-    **archived**: false,
+    <summary><b>clearhealth</b>:</summary>
+    <b>html_url</b>: https://github.com/clearhealth/clearhealth<br>
+    <b>description</b>: Open Source Practice Management and Electronic Medical Records System<br>
+    <b>homepage</b>: www.clear-health.com<br>
+    <b>language</b>: PHP<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**Clementine**:</summary>
-    **html_url**: "https://github.com/clementine-player/Clementine",
-    **description**: ":tangerine: Clementine Music Player",
-    **homepage**: "https://www.clementine-player.org/",
-    **language**: "C++",
-    **archived**: false,
+    <summary><b>Clementine</b>:</summary>
+    <b>html_url</b>: https://github.com/clementine-player/Clementine<br>
+    <b>description</b>: :tangerine: Clementine Music Player<br>
+    <b>homepage</b>: https://www.clementine-player.org/<br>
+    <b>language</b>: C++<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**clipbucket**:</summary>
-    **html_url**: "https://github.com/arslancb/clipbucket",
-    **description**: "Open source video sharing website script, Tune.pk clone, Youtube clone, dailymotion clone. PHP.",
-    **homepage**: "http://clipbucket.com",
-    **language**: "JavaScript",
-    **archived**: true,
+    <summary><b>clipbucket</b>:</summary>
+    <b>html_url</b>: https://github.com/arslancb/clipbucket<br>
+    <b>description</b>: Open source video sharing website script, Tune.pk clone, Youtube clone, dailymotion clone. PHP.<br>
+    <b>homepage</b>: http://clipbucket.com<br>
+    <b>language</b>: JavaScript<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**cloc**:</summary>
-    **html_url**: "https://github.com/AlDanial/cloc",
-    **description**: "cloc counts blank lines, comment lines, and physical lines of source code in many programming languages.",
-    **homepage**: null,
-    **language**: "Perl",
-    **archived**: false,
+    <summary><b>cloc</b>:</summary>
+    <b>html_url</b>: https://github.com/AlDanial/cloc<br>
+    <b>description</b>: cloc counts blank lines, comment lines, and physical lines of source code in many programming languages.<br>
+    <b>homepage</b>: -<br>
+    <b>language</b>: Perl<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**clockwork**:</summary>
-    **html_url**: "https://github.com/itsgoingd/clockwork",
-    **description**: "Clockwork - php dev tools in your browser - server-side component",
-    **homepage**: "https://underground.works/clockwork",
-    **language**: "PHP",
-    **archived**: false,
+    <summary><b>clockwork</b>:</summary>
+    <b>html_url</b>: https://github.com/itsgoingd/clockwork<br>
+    <b>description</b>: Clockwork - php dev tools in your browser - server-side component<br>
+    <b>homepage</b>: https://underground.works/clockwork<br>
+    <b>language</b>: PHP<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**clonezilla**:</summary>
-    **html_url**: "https://github.com/stevenshiau/clonezilla",
-    **description**: "Clonezilla is a partition or disk clone tool similar to Norton Ghost®. It saves and restores only used blocks in hard drive. Two types of Clonezilla are available, Clonezilla live and Clonezilla SE (Server Edition).",
-    **homepage**: "",
-    **language**: "Shell",
-    **archived**: false,
+    <summary><b>clonezilla</b>:</summary>
+    <b>html_url</b>: https://github.com/stevenshiau/clonezilla<br>
+    <b>description</b>: Clonezilla is a partition or disk clone tool similar to Norton Ghost®. It saves and restores only used blocks in hard drive. Two types of Clonezilla are available, Clonezilla live and Clonezilla SE (Server Edition).<br>
+    <b>homepage</b>: -<br>
+    <b>language</b>: Shell<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**closure**:</summary>
-    **html_url**: "https://github.com/opis/closure",
-    **description**: "Serialize closures (anonymous functions)",
-    **homepage**: "https://opis.io/closure",
-    **language**: "PHP",
-    **archived**: false,
+    <summary><b>closure</b>:</summary>
+    <b>html_url</b>: https://github.com/opis/closure<br>
+    <b>description</b>: Serialize closures (anonymous functions)<br>
+    <b>homepage</b>: https://opis.io/closure<br>
+    <b>language</b>: PHP<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**closure-compiler**:</summary>
-    **html_url**: "https://github.com/google/closure-compiler",
-    **description**: "A JavaScript checker and optimizer.",
-    **homepage**: "https://developers.google.com/closure/compiler/",
-    **language**: "Java",
-    **archived**: false,
+    <summary><b>closure-compiler</b>:</summary>
+    <b>html_url</b>: https://github.com/google/closure-compiler<br>
+    <b>description</b>: A JavaScript checker and optimizer.<br>
+    <b>homepage</b>: https://developers.google.com/closure/compiler/<br>
+    <b>language</b>: Java<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**cmdow**:</summary>
-    **html_url**: "https://github.com/ritchielawrence/cmdow",
-    **description**: "Win32 console application for manipulating program windows.",
-    **homepage**: "http://ritchielawrence.github.io/cmdow/",
-    **language**: "C++",
-    **archived**: false,
+    <summary><b>cmdow</b>:</summary>
+    <b>html_url</b>: https://github.com/ritchielawrence/cmdow<br>
+    <b>description</b>: Win32 console application for manipulating program windows.<br>
+    <b>homepage</b>: http://ritchielawrence.github.io/cmdow/<br>
+    <b>language</b>: C++<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**cms**:</summary>
-    **html_url**: "https://github.com/craftcms/cms",
-    **description**: "Craft is a flexible, extensible platform for creating bespoke digital experiences.",
-    **homepage**: "https://craftcms.com",
-    **language**: "PHP",
-    **archived**: false,
+    <summary><b>cms</b>:</summary>
+    <b>html_url</b>: https://github.com/craftcms/cms<br>
+    <b>description</b>: Craft is a flexible, extensible platform for creating bespoke digital experiences.<br>
+    <b>homepage</b>: https://craftcms.com<br>
+    <b>language</b>: PHP<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**CodeIgniter**:</summary>
-    **html_url**: "https://github.com/bcit-ci/CodeIgniter",
-    **description**: "Open Source PHP Framework (originally from EllisLab)",
-    **homepage**: "https://codeigniter.com/",
-    **language**: "PHP",
-    **archived**: false,
+    <summary><b>CodeIgniter</b>:</summary>
+    <b>html_url</b>: https://github.com/bcit-ci/CodeIgniter<br>
+    <b>description</b>: Open Source PHP Framework (originally from EllisLab)<br>
+    <b>homepage</b>: https://codeigniter.com/<br>
+    <b>language</b>: PHP<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**CodeIgniter4**:</summary>
-    **html_url**: "https://github.com/codeigniter4/CodeIgniter4",
-    **description**: "Open Source PHP Framework (originally from EllisLab)",
-    **homepage**: "https://codeigniter.com/",
-    **language**: "PHP",
-    **archived**: false,
+    <summary><b>CodeIgniter4</b>:</summary>
+    <b>html_url</b>: https://github.com/codeigniter4/CodeIgniter4<br>
+    <b>description</b>: Open Source PHP Framework (originally from EllisLab)<br>
+    <b>homepage</b>: https://codeigniter.com/<br>
+    <b>language</b>: PHP<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**codemirror5**:</summary>
-    **html_url**: "https://github.com/codemirror/codemirror5",
-    **description**: "In-browser code editor (version 5, legacy)",
-    **homepage**: "http://codemirror.net/5/",
-    **language**: "JavaScript",
-    **archived**: false,
+    <summary><b>codemirror5</b>:</summary>
+    <b>html_url</b>: https://github.com/codemirror/codemirror5<br>
+    <b>description</b>: In-browser code editor (version 5, legacy)<br>
+    <b>homepage</b>: http://codemirror.net/5/<br>
+    <b>language</b>: JavaScript<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**Collabtive**:</summary>
-    **html_url**: "https://github.com/philippK-de/Collabtive",
-    **description**: "Collabtive is web based project management software",
-    **homepage**: "https://collabtive.o-dyn.de",
-    **language**: "PHP",
-    **archived**: false,
+    <summary><b>Collabtive</b>:</summary>
+    <b>html_url</b>: https://github.com/philippK-de/Collabtive<br>
+    <b>description</b>: Collabtive is web based project management software<br>
+    <b>homepage</b>: https://collabtive.o-dyn.de<br>
+    <b>language</b>: PHP<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**collision**:</summary>
-    **html_url**: "https://github.com/nunomaduro/collision",
-    **description**: "💥 Collision is a beautiful error reporting tool for command-line applications",
-    **homepage**: "https://nunomaduro.com",
-    **language**: "PHP",
-    **archived**: false,
+    <summary><b>collision</b>:</summary>
+    <b>html_url</b>: https://github.com/nunomaduro/collision<br>
+    <b>description</b>: 💥 Collision is a beautiful error reporting tool for command-line applications<br>
+    <b>homepage</b>: https://nunomaduro.com<br>
+    <b>language</b>: PHP<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**colors.php**:</summary>
-    **html_url**: "https://github.com/kevinlebrun/colors.php",
-    **description**: "An easy way to add colors in your CLI scripts.",
-    **homepage**: "",
-    **language**: "PHP",
-    **archived**: false,
+    <summary><b>colors.php</b>:</summary>
+    <b>html_url</b>: https://github.com/kevinlebrun/colors.php<br>
+    <b>description</b>: An easy way to add colors in your CLI scripts.<br>
+    <b>homepage</b>: -<br>
+    <b>language</b>: PHP<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**composer**:</summary>
-    **html_url**: "https://github.com/composer/composer",
-    **description**: "Dependency Manager for PHP",
-    **homepage**: "https://getcomposer.org/",
-    **language**: "PHP",
-    **archived**: false,
+    <summary><b>composer</b>:</summary>
+    <b>html_url</b>: https://github.com/composer/composer<br>
+    <b>description</b>: Dependency Manager for PHP<br>
+    <b>homepage</b>: https://getcomposer.org/<br>
+    <b>language</b>: PHP<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**composer-asset-plugin**:</summary>
-    **html_url**: "https://github.com/fxpio/composer-asset-plugin",
-    **description**: "NPM/Bower Dependency Manager for Composer",
-    **homepage**: "",
-    **language**: "PHP",
-    **archived**: false,
+    <summary><b>composer-asset-plugin</b>:</summary>
+    <b>html_url</b>: https://github.com/fxpio/composer-asset-plugin<br>
+    <b>description</b>: NPM/Bower Dependency Manager for Composer<br>
+    <b>homepage</b>: -<br>
+    <b>language</b>: PHP<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**ConEmu**:</summary>
-    **html_url**: "https://github.com/Maximus5/ConEmu",
-    **description**: "Customizable Windows terminal with tabs, splits, quake-style, hotkeys and more",
-    **homepage**: "https://conemu.github.io/",
-    **language**: "C++",
-    **archived**: false,
+    <summary><b>ConEmu</b>:</summary>
+    <b>html_url</b>: https://github.com/Maximus5/ConEmu<br>
+    <b>description</b>: Customizable Windows terminal with tabs, splits, quake-style, hotkeys and more<br>
+    <b>homepage</b>: https://conemu.github.io/<br>
+    <b>language</b>: C++<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**console**:</summary>
-    **html_url**: "https://github.com/cbucher/console",
-    **description**: "This is a modified version of Console 2 for a better experience under Windows Vista/7/8/10 and a better visual rendering.",
-    **homepage**: "https://github.com/cbucher/console/wiki",
-    **language**: "C++",
-    **archived**: false,
+    <summary><b>console</b>:</summary>
+    <b>html_url</b>: https://github.com/cbucher/console<br>
+    <b>description</b>: This is a modified version of Console 2 for a better experience under Windows Vista/7/8/10 and a better visual rendering.<br>
+    <b>homepage</b>: https://github.com/cbucher/console/wiki<br>
+    <b>language</b>: C++<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**contenteditable-autocomplete**:</summary>
-    **html_url**: "https://github.com/gr2m/contenteditable-autocomplete",
-    **description**: "Autocomplete for contenteditable tags",
-    **homepage**: "https://gr2m.github.io/contenteditable-autocomplete",
-    **language**: "JavaScript",
-    **archived**: false,
-    **license**: null,
+    <summary><b>contenteditable-autocomplete</b>:</summary>
+    <b>html_url</b>: https://github.com/gr2m/contenteditable-autocomplete<br>
+    <b>description</b>: Autocomplete for contenteditable tags<br>
+    <b>homepage</b>: https://gr2m.github.io/contenteditable-autocomplete<br>
+    <b>language</b>: JavaScript<br>
+    <b>archived</b>: -<br>
+    <b>license</b>: -<br>
   </details>
 
   <details>
-    <summary>**core**:</summary>
-    **html_url**: "https://github.com/LibreOffice/core",
-    **description**: "Read-only LibreOffice core repo - no pull request (use gerrit instead https://gerrit.libreoffice.org/) - don't download zip, use https://dev-www.libreoffice.org/bundles/  instead",
-    **homepage**: "https://www.libreoffice.org/",
-    **language**: null,
-    **archived**: false,
+    <summary><b>core</b>:</summary>
+    <b>html_url</b>: https://github.com/LibreOffice/core<br>
+    <b>description</b>: Read-only LibreOffice core repo - no pull request (use gerrit instead https://gerrit.libreoffice.org/) - don't download zip, use https://dev-www.libreoffice.org/bundles/  instead<br>
+    <b>homepage</b>: https://www.libreoffice.org/<br>
+    <b>language</b>: -<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**core**:</summary>
-    **html_url**: "https://github.com/owncloud/core",
-    **description**: ":cloud: ownCloud web server core (Files, DAV, etc.)",
-    **homepage**: "https://owncloud.com",
-    **language**: "PHP",
-    **archived**: false,
+    <summary><b>core</b>:</summary>
+    <b>html_url</b>: https://github.com/owncloud/core<br>
+    <b>description</b>: :cloud: ownCloud web server core (Files, DAV, etc.)<br>
+    <b>homepage</b>: https://owncloud.com<br>
+    <b>language</b>: PHP<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**coreui-icons**:</summary>
-    **html_url**: "https://github.com/coreui/coreui-icons",
-    **description**: "CoreUI Free Icons -  Premium designed free icon set with marks in SVG, Webfont and raster formats",
-    **homepage**: "https://coreui.io/icons/",
-    **language**: "TypeScript",
-    **archived**: false,
+    <summary><b>coreui-icons</b>:</summary>
+    <b>html_url</b>: https://github.com/coreui/coreui-icons<br>
+    <b>description</b>: CoreUI Free Icons -  Premium designed free icon set with marks in SVG, Webfont and raster formats<br>
+    <b>homepage</b>: https://coreui.io/icons/<br>
+    <b>language</b>: TypeScript<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**countries**:</summary>
-    **html_url**: "https://github.com/mledoze/countries",
-    **description**: "World countries in JSON, CSV, XML and Yaml. Any help is welcome!",
-    **homepage**: "https://mledoze.github.io/countries/",
-    **language**: "PHP",
-    **archived**: false,
+    <summary><b>countries</b>:</summary>
+    <b>html_url</b>: https://github.com/mledoze/countries<br>
+    <b>description</b>: World countries in JSON, CSV, XML and Yaml. Any help is welcome!<br>
+    <b>homepage</b>: https://mledoze.github.io/countries/<br>
+    <b>language</b>: PHP<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**countries**:</summary>
-    **html_url**: "https://github.com/rinvex/countries",
-    **description**: "Rinvex Country is a simple and lightweight package for retrieving country details with flexibility. A whole bunch of data including name, demonym, capital, iso codes, dialling codes, geo data, currencies, flags, emoji, and other attributes for all 250 countries worldwide at your fingertips.",
-    **homepage**: "https://rinvex.com",
-    **language**: "PHP",
-    **archived**: false,
+    <summary><b>countries</b>:</summary>
+    <b>html_url</b>: https://github.com/rinvex/countries<br>
+    <b>description</b>: Rinvex Country is a simple and lightweight package for retrieving country details with flexibility. A whole bunch of data including name, demonym, capital, iso codes, dialling codes, geo data, currencies, flags, emoji, and other attributes for all 250 countries worldwide at your fingertips.<br>
+    <b>homepage</b>: https://rinvex.com<br>
+    <b>language</b>: PHP<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**cpg1.6.x**:</summary>
-    **html_url**: "https://github.com/coppermine-gallery/cpg1.6.x",
-    **description**: null,
-    **homepage**: null,
-    **language**: "PHP",
-    **archived**: false,
+    <summary><b>cpg1.6.x</b>:</summary>
+    <b>html_url</b>: https://github.com/coppermine-gallery/cpg1.6.x<br>
+    <b>description</b>: -<br>
+    <b>homepage</b>: -<br>
+    <b>language</b>: PHP<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**CRM**:</summary>
-    **html_url**: "https://github.com/ChurchCRM/CRM",
-    **description**: "ChurchCRM is an OpenSource Church CRM & Management Software.",
-    **homepage**: "http://www.ChurchCRM.io",
-    **language**: "PHP",
-    **archived**: false,
+    <summary><b>CRM</b>:</summary>
+    <b>html_url</b>: https://github.com/ChurchCRM/CRM<br>
+    <b>description</b>: ChurchCRM is an OpenSource Church CRM & Management Software.<br>
+    <b>homepage</b>: http://www.ChurchCRM.io<br>
+    <b>language</b>: PHP<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**crm**:</summary>
-    **html_url**: "https://github.com/oroinc/crm",
-    **description**: "Main OroCRM package with core functionality.",
-    **homepage**: "",
-    **language**: "PHP",
-    **archived**: false,
+    <summary><b>crm</b>:</summary>
+    <b>html_url</b>: https://github.com/oroinc/crm<br>
+    <b>description</b>: Main OroCRM package with core functionality.<br>
+    <b>homepage</b>: -<br>
+    <b>language</b>: PHP<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**css.gg**:</summary>
-    **html_url**: "https://github.com/astrit/css.gg",
-    **description**: "700+ Pure CSS, SVG, PNG & Figma UI Icons Available in SVG Sprite, styled-components, NPM & API and 6000 glyphs",
-    **homepage**: "https://css.gg",
-    **language**: "SCSS",
-    **archived**: false,
+    <summary><b>css.gg</b>:</summary>
+    <b>html_url</b>: https://github.com/astrit/css.gg<br>
+    <b>description</b>: 700+ Pure CSS, SVG, PNG & Figma UI Icons Available in SVG Sprite, styled-components, NPM & API and 6000 glyphs<br>
+    <b>homepage</b>: https://css.gg<br>
+    <b>language</b>: SCSS<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**CsvQuery**:</summary>
-    **html_url**: "https://github.com/jokedst/CsvQuery",
-    **description**: "Plugin for Notepad++ that treats CSV files as (read only) SQL tables",
-    **homepage**: null,
-    **language**: "C#",
-    **archived**: false,
-    **license**: null,
+    <summary><b>CsvQuery</b>:</summary>
+    <b>html_url</b>: https://github.com/jokedst/CsvQuery<br>
+    <b>description</b>: Plugin for Notepad++ that treats CSV files as (read only) SQL tables<br>
+    <b>homepage</b>: -<br>
+    <b>language</b>: C#<br>
+    <b>archived</b>: -<br>
+    <b>license</b>: -<br>
   </details>
 
   <details>
-    <summary>**CuteTorrent**:</summary>
-    **html_url**: "https://github.com/CuteTorrent/CuteTorrent",
-    **description**: "BitTorrent client based on libtorrent-rasterbar with user-friendly interface",
-    **homepage**: "https://cutetorrent.info",
-    **language**: "C++",
-    **archived**: false,
+    <summary><b>CuteTorrent</b>:</summary>
+    <b>html_url</b>: https://github.com/CuteTorrent/CuteTorrent<br>
+    <b>description</b>: BitTorrent client based on libtorrent-rasterbar with user-friendly interface<br>
+    <b>homepage</b>: https://cutetorrent.info<br>
+    <b>language</b>: C++<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**cyberduck**:</summary>
-    **html_url**: "https://github.com/iterate-ch/cyberduck",
-    **description**: "Cyberduck is a libre FTP, SFTP, WebDAV, Amazon S3, Backblaze B2, Microsoft Azure & OneDrive and OpenStack Swift file transfer client for Mac and Windows.",
-    **homepage**: "https://cyberduck.io/",
-    **language**: "Java",
-    **archived**: false,
+    <summary><b>cyberduck</b>:</summary>
+    <b>html_url</b>: https://github.com/iterate-ch/cyberduck<br>
+    <b>description</b>: Cyberduck is a libre FTP, SFTP, WebDAV, Amazon S3, Backblaze B2, Microsoft Azure & OneDrive and OpenStack Swift file transfer client for Mac and Windows.<br>
+    <b>homepage</b>: https://cyberduck.io/<br>
+    <b>language</b>: Java<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**daloradius**:</summary>
-    **html_url**: "https://github.com/lirantal/daloradius",
-    **description**: "daloRADIUS is an advanced RADIUS web management application aimed at managing hotspots and general-purpose ISP deployments. It features user management, graphical reporting, accounting, a billing engine and integrates with GoogleMaps for geo-locating.",
-    **homepage**: "http://www.daloradius.com",
-    **language**: "PHP",
-    **archived**: false,
+    <summary><b>daloradius</b>:</summary>
+    <b>html_url</b>: https://github.com/lirantal/daloradius<br>
+    <b>description</b>: daloRADIUS is an advanced RADIUS web management application aimed at managing hotspots and general-purpose ISP deployments. It features user management, graphical reporting, accounting, a billing engine and integrates with GoogleMaps for geo-locating.<br>
+    <b>homepage</b>: http://www.daloradius.com<br>
+    <b>language</b>: PHP<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**darktable**:</summary>
-    **html_url**: "https://github.com/darktable-org/darktable",
-    **description**: "darktable is an open source photography workflow application and raw developer",
-    **homepage**: "https://www.darktable.org",
-    **language**: "C",
-    **archived**: false,
+    <summary><b>darktable</b>:</summary>
+    <b>html_url</b>: https://github.com/darktable-org/darktable<br>
+    <b>description</b>: darktable is an open source photography workflow application and raw developer<br>
+    <b>homepage</b>: https://www.darktable.org<br>
+    <b>language</b>: C<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**dashboards**:</summary>
-    **html_url**: "https://github.com/keen/dashboards",
-    **description**: "Responsive dashboard templates 📊✨",
-    **homepage**: "http://keen.github.io/dashboards/",
-    **language**: "HTML",
-    **archived**: false,
+    <summary><b>dashboards</b>:</summary>
+    <b>html_url</b>: https://github.com/keen/dashboards<br>
+    <b>description</b>: Responsive dashboard templates 📊✨<br>
+    <b>homepage</b>: http://keen.github.io/dashboards/<br>
+    <b>language</b>: HTML<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**datetimepicker**:</summary>
-    **html_url**: "https://github.com/xdan/datetimepicker",
-    **description**: "jQuery Plugin Date and Time Picker",
-    **homepage**: "https://xdsoft.net/jqplugins/datetimepicker/",
-    **language**: "JavaScript",
-    **archived**: false,
+    <summary><b>datetimepicker</b>:</summary>
+    <b>html_url</b>: https://github.com/xdan/datetimepicker<br>
+    <b>description</b>: jQuery Plugin Date and Time Picker<br>
+    <b>homepage</b>: https://xdsoft.net/jqplugins/datetimepicker/<br>
+    <b>language</b>: JavaScript<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**DaybydayCRM**:</summary>
-    **html_url**: "https://github.com/Bottelet/DaybydayCRM",
-    **description**: "DaybydayCRM an open-source CRM, to help you keep track of your daily workflow.",
-    **homepage**: "https://daybydaycrm.com",
-    **language**: "PHP",
-    **archived**: false,
-    **license**: null,
+    <summary><b>DaybydayCRM</b>:</summary>
+    <b>html_url</b>: https://github.com/Bottelet/DaybydayCRM<br>
+    <b>description</b>: DaybydayCRM an open-source CRM, to help you keep track of your daily workflow.<br>
+    <b>homepage</b>: https://daybydaycrm.com<br>
+    <b>language</b>: PHP<br>
+    <b>archived</b>: -<br>
+    <b>license</b>: -<br>
   </details>
 
   <details>
-    <summary>**db**:</summary>
-    **html_url**: "https://github.com/brick/db",
-    **description**: "Helper tools for interacting with databases",
-    **homepage**: "",
-    **language**: "PHP",
-    **archived**: false,
+    <summary><b>db</b>:</summary>
+    <b>html_url</b>: https://github.com/brick/db<br>
+    <b>description</b>: Helper tools for interacting with databases<br>
+    <b>homepage</b>: -<br>
+    <b>language</b>: PHP<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**dbeaver**:</summary>
-    **html_url**: "https://github.com/dbeaver/dbeaver",
-    **description**: "Free universal database tool and SQL client",
-    **homepage**: "https://dbeaver.io",
-    **language**: "Java",
-    **archived**: false,
+    <summary><b>dbeaver</b>:</summary>
+    <b>html_url</b>: https://github.com/dbeaver/dbeaver<br>
+    <b>description</b>: Free universal database tool and SQL client<br>
+    <b>homepage</b>: https://dbeaver.io<br>
+    <b>language</b>: Java<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**dbgate**:</summary>
-    **html_url**: "https://github.com/dbgate/dbgate",
-    **description**: "Database manager for MySQL, PostgreSQL, SQL Server, MongoDB, SQLite and others. Runs under Windows, Linux, Mac or as web application",
-    **homepage**: "https://dbgate.org",
-    **language**: "Svelte",
-    **archived**: false,
+    <summary><b>dbgate</b>:</summary>
+    <b>html_url</b>: https://github.com/dbgate/dbgate<br>
+    <b>description</b>: Database manager for MySQL, PostgreSQL, SQL Server, MongoDB, SQLite and others. Runs under Windows, Linux, Mac or as web application<br>
+    <b>homepage</b>: https://dbgate.org<br>
+    <b>language</b>: Svelte<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**declarative-widgets**:</summary>
-    **html_url**: "https://github.com/tjvantoll/declarative-widgets",
-    **description**: ":rocket: Declaratively specify options for widget-factory-built widgets",
-    **homepage**: "http://jsfiddle.net/tj_vantoll/5Hr4r/",
-    **language**: "JavaScript",
-    **archived**: false,
+    <summary><b>declarative-widgets</b>:</summary>
+    <b>html_url</b>: https://github.com/tjvantoll/declarative-widgets<br>
+    <b>description</b>: :rocket: Declaratively specify options for widget-factory-built widgets<br>
+    <b>homepage</b>: http://jsfiddle.net/tj_vantoll/5Hr4r/<br>
+    <b>language</b>: JavaScript<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**deno**:</summary>
-    **html_url**: "https://github.com/denoland/deno",
-    **description**: "A modern runtime for JavaScript and TypeScript.",
-    **homepage**: "https://deno.land",
-    **language**: "Rust",
-    **archived**: false,
+    <summary><b>deno</b>:</summary>
+    <b>html_url</b>: https://github.com/denoland/deno<br>
+    <b>description</b>: A modern runtime for JavaScript and TypeScript.<br>
+    <b>homepage</b>: https://deno.land<br>
+    <b>language</b>: Rust<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**DesignPatternsPHP**:</summary>
-    **html_url**: "https://github.com/DesignPatternsPHP/DesignPatternsPHP",
-    **description**: "sample code for several design patterns in PHP 8",
-    **homepage**: "",
-    **language**: "PHP",
-    **archived**: false,
+    <summary><b>DesignPatternsPHP</b>:</summary>
+    <b>html_url</b>: https://github.com/DesignPatternsPHP/DesignPatternsPHP<br>
+    <b>description</b>: sample code for several design patterns in PHP 8<br>
+    <b>homepage</b>: -<br>
+    <b>language</b>: PHP<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**desktop**:</summary>
-    **html_url**: "https://github.com/desktop/desktop",
-    **description**: "Focus on what matters instead of fighting with Git.",
-    **homepage**: "https://desktop.github.com",
-    **language**: "TypeScript",
-    **archived**: false,
+    <summary><b>desktop</b>:</summary>
+    <b>html_url</b>: https://github.com/desktop/desktop<br>
+    <b>description</b>: Focus on what matters instead of fighting with Git.<br>
+    <b>homepage</b>: https://desktop.github.com<br>
+    <b>language</b>: TypeScript<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**desktop**:</summary>
-    **html_url**: "https://github.com/stream-labs/desktop",
-    **description**: "Free and open source streaming software built on OBS and Electron.",
-    **homepage**: "https://streamlabs.com",
-    **language**: "TypeScript",
-    **archived**: false,
+    <summary><b>desktop</b>:</summary>
+    <b>html_url</b>: https://github.com/stream-labs/desktop<br>
+    <b>description</b>: Free and open source streaming software built on OBS and Electron.<br>
+    <b>homepage</b>: https://streamlabs.com<br>
+    <b>language</b>: TypeScript<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**DesktopEditors**:</summary>
-    **html_url**: "https://github.com/ONLYOFFICE/DesktopEditors",
-    **description**: "An office suite that combines text, spreadsheet and presentation editors allowing to create, view and edit local documents",
-    **homepage**: "https://www.onlyoffice.com",
-    **language**: null,
-    **archived**: false,
+    <summary><b>DesktopEditors</b>:</summary>
+    <b>html_url</b>: https://github.com/ONLYOFFICE/DesktopEditors<br>
+    <b>description</b>: An office suite that combines text, spreadsheet and presentation editors allowing to create, view and edit local documents<br>
+    <b>homepage</b>: https://www.onlyoffice.com<br>
+    <b>language</b>: -<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**dev**:</summary>
-    **html_url**: "https://github.com/codemirror/dev",
-    **description**: "Development repository for the CodeMirror editor project",
-    **homepage**: "https://codemirror.net/",
-    **language**: "JavaScript",
-    **archived**: false,
+    <summary><b>dev</b>:</summary>
+    <b>html_url</b>: https://github.com/codemirror/dev<br>
+    <b>description</b>: Development repository for the CodeMirror editor project<br>
+    <b>homepage</b>: https://codemirror.net/<br>
+    <b>language</b>: JavaScript<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**Dev-Cpp**:</summary>
-    **html_url**: "https://github.com/Embarcadero/Dev-Cpp",
-    **description**: "A fast, portable, simple, and free C/C++ IDE",
-    **homepage**: "https://www.embarcadero.com/free-tools/dev-cpp",
-    **language**: "Pascal",
-    **archived**: false,
+    <summary><b>Dev-Cpp</b>:</summary>
+    <b>html_url</b>: https://github.com/Embarcadero/Dev-Cpp<br>
+    <b>description</b>: A fast, portable, simple, and free C/C++ IDE<br>
+    <b>homepage</b>: https://www.embarcadero.com/free-tools/dev-cpp<br>
+    <b>language</b>: Pascal<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**devdocs**:</summary>
-    **html_url**: "https://github.com/freeCodeCamp/devdocs",
-    **description**: "API Documentation Browser",
-    **homepage**: "https://devdocs.io",
-    **language**: "Ruby",
-    **archived**: false,
+    <summary><b>devdocs</b>:</summary>
+    <b>html_url</b>: https://github.com/freeCodeCamp/devdocs<br>
+    <b>description</b>: API Documentation Browser<br>
+    <b>homepage</b>: https://devdocs.io<br>
+    <b>language</b>: Ruby<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**devdocs-desktop**:</summary>
-    **html_url**: "https://github.com/egoist/devdocs-desktop",
-    **description**: "🗂 A full-featured desktop app for DevDocs.io.",
-    **homepage**: "https://devdocs.egoist.sh",
-    **language**: "JavaScript",
-    **archived**: true,
+    <summary><b>devdocs-desktop</b>:</summary>
+    <b>html_url</b>: https://github.com/egoist/devdocs-desktop<br>
+    <b>description</b>: 🗂 A full-featured desktop app for DevDocs.io.<br>
+    <b>homepage</b>: https://devdocs.egoist.sh<br>
+    <b>language</b>: JavaScript<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**DevExtreme**:</summary>
-    **html_url**: "https://github.com/DevExpress/DevExtreme",
-    **description**: "HTML5 JavaScript Component Suite for Responsive Web Development",
-    **homepage**: "https://js.devexpress.com/",
-    **language**: "JavaScript",
-    **archived**: false,
+    <summary><b>DevExtreme</b>:</summary>
+    <b>html_url</b>: https://github.com/DevExpress/DevExtreme<br>
+    <b>description</b>: HTML5 JavaScript Component Suite for Responsive Web Development<br>
+    <b>homepage</b>: https://js.devexpress.com/<br>
+    <b>language</b>: JavaScript<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**devoops**:</summary>
-    **html_url**: "https://github.com/nnmware/devoops",
-    **description**: "DevOOPS Bootstrap 3 Admin theme",
-    **homepage**: null,
-    **language**: "JavaScript",
-    **archived**: false,
+    <summary><b>devoops</b>:</summary>
+    <b>html_url</b>: https://github.com/nnmware/devoops<br>
+    <b>description</b>: DevOOPS Bootstrap 3 Admin theme<br>
+    <b>homepage</b>: -<br>
+    <b>language</b>: JavaScript<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**DGuitarSoftware**:</summary>
-    **html_url**: "https://github.com/mauriciogracia/DGuitarSoftware",
-    **description**: "DGuitar is a Guitar Pro (*.GP4,*.GP3,GTP) viewer, player that works under Linux,MacOs,Solaris,BSD,Windows and any other Operational System that has Java Runtime Environment 1.4 or later installed. ",
-    **homepage**: null,
-    **language**: "Java",
-    **archived**: false,
-    **license**: null,
+    <summary><b>DGuitarSoftware</b>:</summary>
+    <b>html_url</b>: https://github.com/mauriciogracia/DGuitarSoftware<br>
+    <b>description</b>: DGuitar is a Guitar Pro (*.GP4,*.GP3,GTP) viewer, player that works under Linux,MacOs,Solaris,BSD,Windows and any other Operational System that has Java Runtime Environment 1.4 or later installed. <br>
+    <b>homepage</b>: -<br>
+    <b>language</b>: Java<br>
+    <b>archived</b>: -<br>
+    <b>license</b>: -<br>
   </details>
 
   <details>
-    <summary>**dia**:</summary>
-    **html_url**: "https://github.com/GNOME/dia",
-    **description**: "Read-only mirror of https://gitlab.gnome.org/GNOME/dia",
-    **homepage**: "https://gitlab.gnome.org/GNOME/dia",
-    **language**: "C",
-    **archived**: false,
+    <summary><b>dia</b>:</summary>
+    <b>html_url</b>: https://github.com/GNOME/dia<br>
+    <b>description</b>: Read-only mirror of https://gitlab.gnome.org/GNOME/dia<br>
+    <b>homepage</b>: https://gitlab.gnome.org/GNOME/dia<br>
+    <b>language</b>: C<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**diagramo**:</summary>
-    **html_url**: "https://github.com/alexgheorghiu/diagramo",
-    **description**: "Diagramo - pure HTML5 JavaScript diagram / flowchart editor",
-    **homepage**: "http://diagramo.com",
-    **language**: "JavaScript",
-    **archived**: false,
+    <summary><b>diagramo</b>:</summary>
+    <b>html_url</b>: https://github.com/alexgheorghiu/diagramo<br>
+    <b>description</b>: Diagramo - pure HTML5 JavaScript diagram / flowchart editor<br>
+    <b>homepage</b>: http://diagramo.com<br>
+    <b>language</b>: JavaScript<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**diffractor**:</summary>
-    **html_url**: "https://github.com/diffractor/diffractor",
-    **description**: "Issues and releases for Diffractor",
-    **homepage**: "https://diffractor.com",
-    **language**: "C++",
-    **archived**: false,
-    **license**: null,
+    <summary><b>diffractor</b>:</summary>
+    <b>html_url</b>: https://github.com/diffractor/diffractor<br>
+    <b>description</b>: Issues and releases for Diffractor<br>
+    <b>homepage</b>: https://diffractor.com<br>
+    <b>language</b>: C++<br>
+    <b>archived</b>: -<br>
+    <b>license</b>: -<br>
   </details>
 
   <details>
-    <summary>**digikam**:</summary>
-    **html_url**: "https://github.com/KDE/digikam",
-    **description**: "digiKam is an advanced open-source digital photo management application that runs on Linux, Windows, and MacOS. The application provides a comprehensive set of tools for importing, managing, editing, and sharing photos and raw files.",
-    **homepage**: null,
-    **language**: "C++",
-    **archived**: true,
+    <summary><b>digikam</b>:</summary>
+    <b>html_url</b>: https://github.com/KDE/digikam<br>
+    <b>description</b>: digiKam is an advanced open-source digital photo management application that runs on Linux, Windows, and MacOS. The application provides a comprehensive set of tools for importing, managing, editing, and sharing photos and raw files.<br>
+    <b>homepage</b>: -<br>
+    <b>language</b>: C++<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**director**:</summary>
-    **html_url**: "https://github.com/flatiron/director",
-    **description**: "a tiny and isomorphic URL router for JavaScript",
-    **homepage**: "http://github.com/flatiron/director",
-    **language**: "JavaScript",
-    **archived**: false,
+    <summary><b>director</b>:</summary>
+    <b>html_url</b>: https://github.com/flatiron/director<br>
+    <b>description</b>: a tiny and isomorphic URL router for JavaScript<br>
+    <b>homepage</b>: http://github.com/flatiron/director<br>
+    <b>language</b>: JavaScript<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**diskusagereports**:</summary>
-    **html_url**: "https://github.com/amekkawi/diskusagereports",
-    **description**: "Disk Usage Reports is a web-based way to view disk usage on remote computers or servers, or to provide usage reports to users who store files on your server. Reports are stored as static JSON files which are retrieved via single HTML/AJAX web UI. No database or server-side scripting required.",
-    **homepage**: "http://diskusagereports.com",
-    **language**: "JavaScript",
-    **archived**: false,
+    <summary><b>diskusagereports</b>:</summary>
+    <b>html_url</b>: https://github.com/amekkawi/diskusagereports<br>
+    <b>description</b>: Disk Usage Reports is a web-based way to view disk usage on remote computers or servers, or to provide usage reports to users who store files on your server. Reports are stored as static JSON files which are retrieved via single HTML/AJAX web UI. No database or server-side scripting required.<br>
+    <b>homepage</b>: http://diskusagereports.com<br>
+    <b>language</b>: JavaScript<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**DocFetcher**:</summary>
-    **html_url**: "https://github.com/docfetcher/DocFetcher",
-    **description**: "DocFetcher ",
-    **homepage**: null,
-    **language**: "Java",
-    **archived**: false,
+    <summary><b>DocFetcher</b>:</summary>
+    <b>html_url</b>: https://github.com/docfetcher/DocFetcher<br>
+    <b>description</b>: DocFetcher <br>
+    <b>homepage</b>: -<br>
+    <b>language</b>: Java<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**docker-laravel**:</summary>
-    **html_url**: "https://github.com/mtmacdonald/docker-laravel",
-    **description**: "A Docker container for Laravel web apps",
-    **homepage**: "",
-    **language**: "Shell",
-    **archived**: false,
+    <summary><b>docker-laravel</b>:</summary>
+    <b>html_url</b>: https://github.com/mtmacdonald/docker-laravel<br>
+    <b>description</b>: A Docker container for Laravel web apps<br>
+    <b>homepage</b>: -<br>
+    <b>language</b>: Shell<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**docker-laravel-nginx**:</summary>
-    **html_url**: "https://github.com/dylanlindgren/docker-laravel-nginx",
-    **description**: "Docker container for Nginx for use with the Laravel PHP framework",
-    **homepage**: "http://www.dylanlindgren.com",
-    **language**: "Shell",
-    **archived**: false,
+    <summary><b>docker-laravel-nginx</b>:</summary>
+    <b>html_url</b>: https://github.com/dylanlindgren/docker-laravel-nginx<br>
+    <b>description</b>: Docker container for Nginx for use with the Laravel PHP framework<br>
+    <b>homepage</b>: http://www.dylanlindgren.com<br>
+    <b>language</b>: Shell<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**dolibarr**:</summary>
-    **html_url**: "https://github.com/Dolibarr/dolibarr",
-    **description**: "Dolibarr ERP CRM is a modern software package to manage your company or foundation's activity (contacts, suppliers, invoices, orders, stocks, agenda, accounting, ...). It is open source software (written in PHP) and designed for small and medium businesses, foundations and freelancers. You can freely install, use and distribute it as a standalone application or as a web application to use it from every internet access and media.",
-    **homepage**: "https://www.dolibarr.org",
-    **language**: "PHP",
-    **archived**: false,
+    <summary><b>dolibarr</b>:</summary>
+    <b>html_url</b>: https://github.com/Dolibarr/dolibarr<br>
+    <b>description</b>: Dolibarr ERP CRM is a modern software package to manage your company or foundation's activity (contacts, suppliers, invoices, orders, stocks, agenda, accounting, ...). It is open source software (written in PHP) and designed for small and medium businesses, foundations and freelancers. You can freely install, use and distribute it as a standalone application or as a web application to use it from every internet access and media.<br>
+    <b>homepage</b>: https://www.dolibarr.org<br>
+    <b>language</b>: PHP<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**dom-native**:</summary>
-    **html_url**: "https://github.com/dom-native/dom-native",
-    **description**: "DOM Native is a small utility for streamlining Native Web Components developments (#RealDOM, zero dependencies, < 15kb min, < 5kb gzip)",
-    **homepage**: "",
-    **language**: "TypeScript",
-    **archived**: false,
+    <summary><b>dom-native</b>:</summary>
+    <b>html_url</b>: https://github.com/dom-native/dom-native<br>
+    <b>description</b>: DOM Native is a small utility for streamlining Native Web Components developments (#RealDOM, zero dependencies, < 15kb min, < 5kb gzip)<br>
+    <b>homepage</b>: -<br>
+    <b>language</b>: TypeScript<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**dompdf**:</summary>
-    **html_url**: "https://github.com/dompdf/dompdf",
-    **description**: "HTML to PDF converter for PHP",
-    **homepage**: "https://dompdf.github.io/",
-    **language**: "PHP",
-    **archived**: false,
+    <summary><b>dompdf</b>:</summary>
+    <b>html_url</b>: https://github.com/dompdf/dompdf<br>
+    <b>description</b>: HTML to PDF converter for PHP<br>
+    <b>homepage</b>: https://dompdf.github.io/<br>
+    <b>language</b>: PHP<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**dopamine**:</summary>
-    **html_url**: "https://github.com/digimezzo/dopamine",
-    **description**: "The audio player that keeps it simple",
-    **homepage**: null,
-    **language**: "TypeScript",
-    **archived**: false,
+    <summary><b>dopamine</b>:</summary>
+    <b>html_url</b>: https://github.com/digimezzo/dopamine<br>
+    <b>description</b>: The audio player that keeps it simple<br>
+    <b>homepage</b>: -<br>
+    <b>language</b>: TypeScript<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**dopamine-windows**:</summary>
-    **html_url**: "https://github.com/digimezzo/dopamine-windows",
-    **description**: "Audio player which tries to make organizing and listening to music as simple and pretty as possible.",
-    **homepage**: "https://www.digimezzo.com",
-    **language**: "C#",
-    **archived**: false,
+    <summary><b>dopamine-windows</b>:</summary>
+    <b>html_url</b>: https://github.com/digimezzo/dopamine-windows<br>
+    <b>description</b>: Audio player which tries to make organizing and listening to music as simple and pretty as possible.<br>
+    <b>homepage</b>: https://www.digimezzo.com<br>
+    <b>language</b>: C#<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**dotProject**:</summary>
-    **html_url**: "https://github.com/dotproject/dotProject",
-    **description**: "Stable 2 series",
-    **homepage**: null,
-    **language**: "PHP",
-    **archived**: false,
+    <summary><b>dotProject</b>:</summary>
+    <b>html_url</b>: https://github.com/dotproject/dotProject<br>
+    <b>description</b>: Stable 2 series<br>
+    <b>homepage</b>: -<br>
+    <b>language</b>: PHP<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**doublecmd**:</summary>
-    **html_url**: "https://github.com/double-commander/doublecmd",
-    **description**: "Double commander, A twin panel (side by side) cross platform open source file manager",
-    **homepage**: null,
-    **language**: "Pascal",
-    **archived**: false,
+    <summary><b>doublecmd</b>:</summary>
+    <b>html_url</b>: https://github.com/double-commander/doublecmd<br>
+    <b>description</b>: Double commander, A twin panel (side by side) cross platform open source file manager<br>
+    <b>homepage</b>: -<br>
+    <b>language</b>: Pascal<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**doublecmd**:</summary>
-    **html_url**: "https://github.com/doublecmd/doublecmd",
-    **description**: "Double Commander is a free cross platform open source file manager with two panels side by side.",
-    **homepage**: "https://doublecmd.sourceforge.io",
-    **language**: "Pascal",
-    **archived**: false,
+    <summary><b>doublecmd</b>:</summary>
+    <b>html_url</b>: https://github.com/doublecmd/doublecmd<br>
+    <b>description</b>: Double Commander is a free cross platform open source file manager with two panels side by side.<br>
+    <b>homepage</b>: https://doublecmd.sourceforge.io<br>
+    <b>language</b>: Pascal<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**drawio**:</summary>
-    **html_url**: "https://github.com/jgraph/drawio",
-    **description**: "draw.io is a JavaScript, client-side editor for general diagramming and whiteboarding",
-    **homepage**: "https://www.drawio.com",
-    **language**: "JavaScript",
-    **archived**: false,
+    <summary><b>drawio</b>:</summary>
+    <b>html_url</b>: https://github.com/jgraph/drawio<br>
+    <b>description</b>: draw.io is a JavaScript, client-side editor for general diagramming and whiteboarding<br>
+    <b>homepage</b>: https://www.drawio.com<br>
+    <b>language</b>: JavaScript<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**drawio-desktop**:</summary>
-    **html_url**: "https://github.com/jgraph/drawio-desktop",
-    **description**: "Official electron build of draw.io",
-    **homepage**: "https://www.diagrams.net",
-    **language**: "JavaScript",
-    **archived**: false,
+    <summary><b>drawio-desktop</b>:</summary>
+    <b>html_url</b>: https://github.com/jgraph/drawio-desktop<br>
+    <b>description</b>: Official electron build of draw.io<br>
+    <b>homepage</b>: https://www.diagrams.net<br>
+    <b>language</b>: JavaScript<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**Drawpile**:</summary>
-    **html_url**: "https://github.com/drawpile/Drawpile",
-    **description**: "A collaborative drawing program",
-    **homepage**: "http://drawpile.net/",
-    **language**: "C++",
-    **archived**: false,
+    <summary><b>Drawpile</b>:</summary>
+    <b>html_url</b>: https://github.com/drawpile/Drawpile<br>
+    <b>description</b>: A collaborative drawing program<br>
+    <b>homepage</b>: http://drawpile.net/<br>
+    <b>language</b>: C++<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**drupal**:</summary>
-    **html_url**: "https://github.com/drupal/drupal",
-    **description**: "Verbatim mirror of the git.drupal.org repository for Drupal core. Please see the https://github.com/drupal/drupal#contributing. PRs are not accepted on GitHub.",
-    **homepage**: "https://drupal.org/project/drupal",
-    **language**: "PHP",
-    **archived**: false,
-    **license**: null,
+    <summary><b>drupal</b>:</summary>
+    <b>html_url</b>: https://github.com/drupal/drupal<br>
+    <b>description</b>: Verbatim mirror of the git.drupal.org repository for Drupal core. Please see the https://github.com/drupal/drupal#contributing. PRs are not accepted on GitHub.<br>
+    <b>homepage</b>: https://drupal.org/project/drupal<br>
+    <b>language</b>: PHP<br>
+    <b>archived</b>: -<br>
+    <b>license</b>: -<br>
   </details>
 
   <details>
-    <summary>**DuckieTV**:</summary>
-    **html_url**: "https://github.com/SchizoDuckie/DuckieTV",
-    **description**: "A web application built with AngularJS to track your favorite tv-shows with semi-automagic torrent integration",
-    **homepage**: "http://schizoduckie.github.io/DuckieTV/",
-    **language**: "JavaScript",
-    **archived**: false,
+    <summary><b>DuckieTV</b>:</summary>
+    <b>html_url</b>: https://github.com/SchizoDuckie/DuckieTV<br>
+    <b>description</b>: A web application built with AngularJS to track your favorite tv-shows with semi-automagic torrent integration<br>
+    <b>homepage</b>: http://schizoduckie.github.io/DuckieTV/<br>
+    <b>language</b>: JavaScript<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**dupeguru**:</summary>
-    **html_url**: "https://github.com/arsenetar/dupeguru",
-    **description**: "Find duplicate files",
-    **homepage**: "https://dupeguru.voltaicideas.net",
-    **language**: "Python",
-    **archived**: false,
+    <summary><b>dupeguru</b>:</summary>
+    <b>html_url</b>: https://github.com/arsenetar/dupeguru<br>
+    <b>description</b>: Find duplicate files<br>
+    <b>homepage</b>: https://dupeguru.voltaicideas.net<br>
+    <b>language</b>: Python<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**easytag**:</summary>
-    **html_url**: "https://github.com/GNOME/easytag",
-    **description**: "Read-only mirror of https://gitlab.gnome.org/GNOME/easytag",
-    **homepage**: "https://gitlab.gnome.org/GNOME/easytag",
-    **language**: "C",
-    **archived**: false,
+    <summary><b>easytag</b>:</summary>
+    <b>html_url</b>: https://github.com/GNOME/easytag<br>
+    <b>description</b>: Read-only mirror of https://gitlab.gnome.org/GNOME/easytag<br>
+    <b>homepage</b>: https://gitlab.gnome.org/GNOME/easytag<br>
+    <b>language</b>: C<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**editable-table**:</summary>
-    **html_url**: "https://github.com/gr2m/editable-table",
-    **description**: "A web component for editing a collection of records",
-    **homepage**: "https://gr2m.github.io/editable-table/",
-    **language**: "JavaScript",
-    **archived**: false,
+    <summary><b>editable-table</b>:</summary>
+    <b>html_url</b>: https://github.com/gr2m/editable-table<br>
+    <b>description</b>: A web component for editing a collection of records<br>
+    <b>homepage</b>: https://gr2m.github.io/editable-table/<br>
+    <b>language</b>: JavaScript<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**eduTrac-SIS**:</summary>
-    **html_url**: "https://github.com/parkerj/eduTrac-SIS",
-    **description**: "eduTrac SIS is the most advanced open source student information system for higher education.",
-    **homepage**: "https://www.edutracsis.com/",
-    **language**: "PHP",
-    **archived**: false,
+    <summary><b>eduTrac-SIS</b>:</summary>
+    <b>html_url</b>: https://github.com/parkerj/eduTrac-SIS<br>
+    <b>description</b>: eduTrac SIS is the most advanced open source student information system for higher education.<br>
+    <b>homepage</b>: https://www.edutracsis.com/<br>
+    <b>language</b>: PHP<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**egroupware**:</summary>
-    **html_url**: "https://github.com/EGroupware/egroupware",
-    **description**: "Web based groupware server written in PHP, forum at https://help.egroupware.org/",
-    **homepage**: "https://www.egroupware.org/",
-    **language**: "PHP",
-    **archived**: false,
+    <summary><b>egroupware</b>:</summary>
+    <b>html_url</b>: https://github.com/EGroupware/egroupware<br>
+    <b>description</b>: Web based groupware server written in PHP, forum at https://help.egroupware.org/<br>
+    <b>homepage</b>: https://www.egroupware.org/<br>
+    <b>language</b>: PHP<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**elabftw**:</summary>
-    **html_url**: "https://github.com/elabftw/elabftw",
-    **description**: ":notebook: eLabFTW is the most popular open source electronic lab notebook for research labs.",
-    **homepage**: "https://www.elabftw.net",
-    **language**: "PHP",
-    **archived**: false,
+    <summary><b>elabftw</b>:</summary>
+    <b>html_url</b>: https://github.com/elabftw/elabftw<br>
+    <b>description</b>: :notebook: eLabFTW is the most popular open source electronic lab notebook for research labs.<br>
+    <b>homepage</b>: https://www.elabftw.net<br>
+    <b>language</b>: PHP<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**ElasticTabstops**:</summary>
-    **html_url**: "https://github.com/dail8859/ElasticTabstops",
-    **description**: "Elastic Tabstops plugin for Notepad++",
-    **homepage**: null,
-    **language**: "C",
-    **archived**: true,
+    <summary><b>ElasticTabstops</b>:</summary>
+    <b>html_url</b>: https://github.com/dail8859/ElasticTabstops<br>
+    <b>description</b>: Elastic Tabstops plugin for Notepad++<br>
+    <b>homepage</b>: -<br>
+    <b>language</b>: C<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**elFinder**:</summary>
-    **html_url**: "https://github.com/Studio-42/elFinder",
-    **description**: "📁 Open-source file manager for web, written in JavaScript using jQuery and jQuery UI",
-    **homepage**: "https://studio-42.github.io/elFinder/",
-    **language**: "JavaScript",
-    **archived**: false,
+    <summary><b>elFinder</b>:</summary>
+    <b>html_url</b>: https://github.com/Studio-42/elFinder<br>
+    <b>description</b>: 📁 Open-source file manager for web, written in JavaScript using jQuery and jQuery UI<br>
+    <b>homepage</b>: https://studio-42.github.io/elFinder/<br>
+    <b>language</b>: JavaScript<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**emoji-catalog**:</summary>
-    **html_url**: "https://github.com/jawira/emoji-catalog",
-    **description**: "Get access to +3600 emojis as class constants",
-    **homepage**: "",
-    **language**: "PHP",
-    **archived**: false,
+    <summary><b>emoji-catalog</b>:</summary>
+    <b>html_url</b>: https://github.com/jawira/emoji-catalog<br>
+    <b>description</b>: Get access to +3600 emojis as class constants<br>
+    <b>homepage</b>: -<br>
+    <b>language</b>: PHP<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**EpesiCRM**:</summary>
-    **html_url**: "https://github.com/jtylek/EpesiCRM",
-    **description**: "Epesi BIM • Business Information Manager • Free and Open Source web CRM & Cloud ERP kickstarter RAD for LAMP stack",
-    **homepage**: "https://epe.si",
-    **language**: "PHP",
-    **archived**: false,
-    **license**: null,
+    <summary><b>EpesiCRM</b>:</summary>
+    <b>html_url</b>: https://github.com/jtylek/EpesiCRM<br>
+    <b>description</b>: Epesi BIM • Business Information Manager • Free and Open Source web CRM & Cloud ERP kickstarter RAD for LAMP stack<br>
+    <b>homepage</b>: https://epe.si<br>
+    <b>language</b>: PHP<br>
+    <b>archived</b>: -<br>
+    <b>license</b>: -<br>
   </details>
 
   <details>
-    <summary>**es6-features**:</summary>
-    **html_url**: "https://github.com/rse/es6-features",
-    **description**: "ECMAScript 6: Feature Overview & Comparison",
-    **homepage**: "http://es6-features.org/",
-    **language**: "HTML",
-    **archived**: false,
+    <summary><b>es6-features</b>:</summary>
+    <b>html_url</b>: https://github.com/rse/es6-features<br>
+    <b>description</b>: ECMAScript 6: Feature Overview & Comparison<br>
+    <b>homepage</b>: http://es6-features.org/<br>
+    <b>language</b>: HTML<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**es6features**:</summary>
-    **html_url**: "https://github.com/lukehoban/es6features",
-    **description**: "Overview of ECMAScript 6 features",
-    **homepage**: null,
-    **language**: null,
-    **archived**: false,
+    <summary><b>es6features</b>:</summary>
+    <b>html_url</b>: https://github.com/lukehoban/es6features<br>
+    <b>description</b>: Overview of ECMAScript 6 features<br>
+    <b>homepage</b>: -<br>
+    <b>language</b>: -<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**esbuild**:</summary>
-    **html_url**: "https://github.com/evanw/esbuild",
-    **description**: "An extremely fast bundler for the web",
-    **homepage**: "https://esbuild.github.io/",
-    **language**: "Go",
-    **archived**: false,
+    <summary><b>esbuild</b>:</summary>
+    <b>html_url</b>: https://github.com/evanw/esbuild<br>
+    <b>description</b>: An extremely fast bundler for the web<br>
+    <b>homepage</b>: https://esbuild.github.io/<br>
+    <b>language</b>: Go<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**espocrm**:</summary>
-    **html_url**: "https://github.com/espocrm/espocrm",
-    **description**: "EspoCRM open source CRM application",
-    **homepage**: "https://www.espocrm.com",
-    **language**: "PHP",
-    **archived**: false,
+    <summary><b>espocrm</b>:</summary>
+    <b>html_url</b>: https://github.com/espocrm/espocrm<br>
+    <b>description</b>: EspoCRM open source CRM application<br>
+    <b>homepage</b>: https://www.espocrm.com<br>
+    <b>language</b>: PHP<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**event-loop**:</summary>
-    **html_url**: "https://github.com/revoltphp/event-loop",
-    **description**: "Revolt is a rock-solid event loop for concurrent PHP applications.",
-    **homepage**: null,
-    **language**: "PHP",
-    **archived**: false,
+    <summary><b>event-loop</b>:</summary>
+    <b>html_url</b>: https://github.com/revoltphp/event-loop<br>
+    <b>description</b>: Revolt is a rock-solid event loop for concurrent PHP applications.<br>
+    <b>homepage</b>: -<br>
+    <b>language</b>: PHP<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**exifcleaner**:</summary>
-    **html_url**: "https://github.com/szTheory/exifcleaner",
-    **description**: "Cross-platform desktop GUI app to clean image metadata",
-    **homepage**: "https://exifcleaner.com",
-    **language**: "TypeScript",
-    **archived**: false,
+    <summary><b>exifcleaner</b>:</summary>
+    <b>html_url</b>: https://github.com/szTheory/exifcleaner<br>
+    <b>description</b>: Cross-platform desktop GUI app to clean image metadata<br>
+    <b>homepage</b>: https://exifcleaner.com<br>
+    <b>language</b>: TypeScript<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**expandable-input**:</summary>
-    **html_url**: "https://github.com/gr2m/expandable-input",
-    **description**: "A Bootstrap plugin to use <{span|div|...} contenteditable> as auto-expanding inputs.",
-    **homepage**: "https://gr2m.github.io/expandable-input",
-    **language**: "JavaScript",
-    **archived**: false,
-    **license**: null,
+    <summary><b>expandable-input</b>:</summary>
+    <b>html_url</b>: https://github.com/gr2m/expandable-input<br>
+    <b>description</b>: A Bootstrap plugin to use <{span|div|...} contenteditable> as auto-expanding inputs.<br>
+    <b>homepage</b>: https://gr2m.github.io/expandable-input<br>
+    <b>language</b>: JavaScript<br>
+    <b>archived</b>: -<br>
+    <b>license</b>: -<br>
   </details>
 
   <details>
-    <summary>**ext-fiber**:</summary>
-    **html_url**: "https://github.com/amphp/ext-fiber",
-    **description**: "PHP Fiber extension",
-    **homepage**: null,
-    **language**: "Assembly",
-    **archived**: false,
+    <summary><b>ext-fiber</b>:</summary>
+    <b>html_url</b>: https://github.com/amphp/ext-fiber<br>
+    <b>description</b>: PHP Fiber extension<br>
+    <b>homepage</b>: -<br>
+    <b>language</b>: Assembly<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**ext-php-rs**:</summary>
-    **html_url**: "https://github.com/davidcole1340/ext-php-rs",
-    **description**: "Bindings for the Zend API to build PHP extensions natively in Rust.",
-    **homepage**: "",
-    **language**: "Rust",
-    **archived**: false,
+    <summary><b>ext-php-rs</b>:</summary>
+    <b>html_url</b>: https://github.com/davidcole1340/ext-php-rs<br>
+    <b>description</b>: Bindings for the Zend API to build PHP extensions natively in Rust.<br>
+    <b>homepage</b>: -<br>
+    <b>language</b>: Rust<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**extplorer**:</summary>
-    **html_url**: "https://github.com/soerennb/extplorer",
-    **description**: "eXtplorer is a PHP-based File Manager",
-    **homepage**: "https://extplorer.net",
-    **language**: "PHP",
-    **archived**: false,
+    <summary><b>extplorer</b>:</summary>
+    <b>html_url</b>: https://github.com/soerennb/extplorer<br>
+    <b>description</b>: eXtplorer is a PHP-based File Manager<br>
+    <b>homepage</b>: https://extplorer.net<br>
+    <b>language</b>: PHP<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**FA**:</summary>
-    **html_url**: "https://github.com/FrontAccountingERP/FA",
-    **description**: "Official FrontAccounting mirror repository",
-    **homepage**: null,
-    **language**: "PHP",
-    **archived**: false,
-    **license**: null,
+    <summary><b>FA</b>:</summary>
+    <b>html_url</b>: https://github.com/FrontAccountingERP/FA<br>
+    <b>description</b>: Official FrontAccounting mirror repository<br>
+    <b>homepage</b>: -<br>
+    <b>language</b>: PHP<br>
+    <b>archived</b>: -<br>
+    <b>license</b>: -<br>
   </details>
 
   <details>
-    <summary>**falkon**:</summary>
-    **html_url**: "https://github.com/KDE/falkon",
-    **description**: "Cross-platform Qt-based web browser",
-    **homepage**: "https://invent.kde.org/network/falkon",
-    **language**: "C++",
-    **archived**: false,
+    <summary><b>falkon</b>:</summary>
+    <b>html_url</b>: https://github.com/KDE/falkon<br>
+    <b>description</b>: Cross-platform Qt-based web browser<br>
+    <b>homepage</b>: https://invent.kde.org/network/falkon<br>
+    <b>language</b>: C++<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**fancytree**:</summary>
-    **html_url**: "https://github.com/mar10/fancytree",
-    **description**: "JavaScript tree view / tree grid plugin with support for keyboard, inline editing, filtering, checkboxes, drag'n'drop, and lazy loading",
-    **homepage**: "http://wwwendt.de/tech/fancytree/demo",
-    **language**: "JavaScript",
-    **archived**: false,
+    <summary><b>fancytree</b>:</summary>
+    <b>html_url</b>: https://github.com/mar10/fancytree<br>
+    <b>description</b>: JavaScript tree view / tree grid plugin with support for keyboard, inline editing, filtering, checkboxes, drag'n'drop, and lazy loading<br>
+    <b>homepage</b>: http://wwwendt.de/tech/fancytree/demo<br>
+    <b>language</b>: JavaScript<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**FarManager**:</summary>
-    **html_url**: "https://github.com/FarGroup/FarManager",
-    **description**: "File and Archive Manager",
-    **homepage**: "https://farmanager.com",
-    **language**: "C++",
-    **archived**: false,
+    <summary><b>FarManager</b>:</summary>
+    <b>html_url</b>: https://github.com/FarGroup/FarManager<br>
+    <b>description</b>: File and Archive Manager<br>
+    <b>homepage</b>: https://farmanager.com<br>
+    <b>language</b>: C++<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**faveo-helpdesk**:</summary>
-    **html_url**: "https://github.com/ladybirdweb/faveo-helpdesk",
-    **description**: "Faveo Open source ticketing system build on Laravel framework",
-    **homepage**: "https://www.faveohelpdesk.com/online-demo/",
-    **language**: "PHP",
-    **archived**: false,
+    <summary><b>faveo-helpdesk</b>:</summary>
+    <b>html_url</b>: https://github.com/ladybirdweb/faveo-helpdesk<br>
+    <b>description</b>: Faveo Open source ticketing system build on Laravel framework<br>
+    <b>homepage</b>: https://www.faveohelpdesk.com/online-demo/<br>
+    <b>language</b>: PHP<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**fbc**:</summary>
-    **html_url**: "https://github.com/freebasic/fbc",
-    **description**: "FreeBASIC is a completely free, open-source, multi-platform BASIC compiler, with syntax similar to MS-QuickBASIC, that adds new features such as pointers, object orientation, unsigned data types, inline assembly, and many others.",
-    **homepage**: "https://www.freebasic.net",
-    **language**: "FreeBasic",
-    **archived**: false,
-    **license**: null,
+    <summary><b>fbc</b>:</summary>
+    <b>html_url</b>: https://github.com/freebasic/fbc<br>
+    <b>description</b>: FreeBASIC is a completely free, open-source, multi-platform BASIC compiler, with syntax similar to MS-QuickBASIC, that adds new features such as pointers, object orientation, unsigned data types, inline assembly, and many others.<br>
+    <b>homepage</b>: https://www.freebasic.net<br>
+    <b>language</b>: FreeBasic<br>
+    <b>archived</b>: -<br>
+    <b>license</b>: -<br>
   </details>
 
   <details>
-    <summary>**FBReader**:</summary>
-    **html_url**: "https://github.com/geometer/FBReader",
-    **description**: "Official FBReader C++ project repository",
-    **homepage**: "http://www.fbreader.org/",
-    **language**: "C++",
-    **archived**: true,
-    **license**: null,
+    <summary><b>FBReader</b>:</summary>
+    <b>html_url</b>: https://github.com/geometer/FBReader<br>
+    <b>description</b>: Official FBReader C++ project repository<br>
+    <b>homepage</b>: http://www.fbreader.org/<br>
+    <b>language</b>: C++<br>
+    <b>archived</b>: -<br>
+    <b>license</b>: -<br>
   </details>
 
   <details>
-    <summary>**FeedWriter**:</summary>
-    **html_url**: "https://github.com/ajaxray/FeedWriter",
-    **description**: "PHP Universal Feed Generator",
-    **homepage**: "http://ajaxray.com/blog/php-universal-feed-generator-supports-rss-10-rss-20-and-atom",
-    **language**: "PHP",
-    **archived**: false,
+    <summary><b>FeedWriter</b>:</summary>
+    <b>html_url</b>: https://github.com/ajaxray/FeedWriter<br>
+    <b>description</b>: PHP Universal Feed Generator<br>
+    <b>homepage</b>: http://ajaxray.com/blog/php-universal-feed-generator-supports-rss-10-rss-20-and-atom<br>
+    <b>language</b>: PHP<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**fengoffice**:</summary>
-    **html_url**: "https://github.com/fengoffice/fengoffice",
-    **description**: "This is the Feng Office Community Edition repository",
-    **homepage**: "https://www.fengoffice.com",
-    **language**: "PHP",
-    **archived**: false,
+    <summary><b>fengoffice</b>:</summary>
+    <b>html_url</b>: https://github.com/fengoffice/fengoffice<br>
+    <b>description</b>: This is the Feng Office Community Edition repository<br>
+    <b>homepage</b>: https://www.fengoffice.com<br>
+    <b>language</b>: PHP<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**FFmpeg**:</summary>
-    **html_url**: "https://github.com/FFmpeg/FFmpeg",
-    **description**: "Mirror of https://git.ffmpeg.org/ffmpeg.git",
-    **homepage**: "https://ffmpeg.org/",
-    **language**: "C",
-    **archived**: false,
+    <summary><b>FFmpeg</b>:</summary>
+    <b>html_url</b>: https://github.com/FFmpeg/FFmpeg<br>
+    <b>description</b>: Mirror of https://git.ffmpeg.org/ffmpeg.git<br>
+    <b>homepage</b>: https://ffmpeg.org/<br>
+    <b>language</b>: C<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**FFmpeg-Builds**:</summary>
-    **html_url**: "https://github.com/BtbN/FFmpeg-Builds",
-    **description**: null,
-    **homepage**: null,
-    **language**: "Shell",
-    **archived**: false,
+    <summary><b>FFmpeg-Builds</b>:</summary>
+    <b>html_url</b>: https://github.com/BtbN/FFmpeg-Builds<br>
+    <b>description</b>: -<br>
+    <b>homepage</b>: -<br>
+    <b>language</b>: Shell<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**firefly-iii**:</summary>
-    **html_url**: "https://github.com/firefly-iii/firefly-iii",
-    **description**: "Firefly III: a personal finances manager",
-    **homepage**: "https://firefly-iii.org/",
-    **language**: "PHP",
-    **archived**: false,
+    <summary><b>firefly-iii</b>:</summary>
+    <b>html_url</b>: https://github.com/firefly-iii/firefly-iii<br>
+    <b>description</b>: Firefly III: a personal finances manager<br>
+    <b>homepage</b>: https://firefly-iii.org/<br>
+    <b>language</b>: PHP<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**flarum**:</summary>
-    **html_url**: "https://github.com/flarum/flarum",
-    **description**: "Simple forum software for building great communities.",
-    **homepage**: "https://flarum.org",
-    **language**: "PHP",
-    **archived**: false,
+    <summary><b>flarum</b>:</summary>
+    <b>html_url</b>: https://github.com/flarum/flarum<br>
+    <b>description</b>: Simple forum software for building great communities.<br>
+    <b>homepage</b>: https://flarum.org<br>
+    <b>language</b>: PHP<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**Fleetco**:</summary>
-    **html_url**: "https://github.com/neuharthr/Fleetco",
-    **description**: "Fleetco is a web based fleet maintenance system written in PHP with MySQL database backend.",
-    **homepage**: null,
-    **language**: "PHP",
-    **archived**: false,
+    <summary><b>Fleetco</b>:</summary>
+    <b>html_url</b>: https://github.com/neuharthr/Fleetco<br>
+    <b>description</b>: Fleetco is a web based fleet maintenance system written in PHP with MySQL database backend.<br>
+    <b>homepage</b>: -<br>
+    <b>language</b>: PHP<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**flot**:</summary>
-    **html_url**: "https://github.com/flot/flot",
-    **description**: "Attractive JavaScript charts for jQuery",
-    **homepage**: "http://www.flotcharts.org/",
-    **language**: "JavaScript",
-    **archived**: false,
+    <summary><b>flot</b>:</summary>
+    <b>html_url</b>: https://github.com/flot/flot<br>
+    <b>description</b>: Attractive JavaScript charts for jQuery<br>
+    <b>homepage</b>: http://www.flotcharts.org/<br>
+    <b>language</b>: JavaScript<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**flowblade**:</summary>
-    **html_url**: "https://github.com/jliljebl/flowblade",
-    **description**: "Video Editor for Linux",
-    **homepage**: "",
-    **language**: "Python",
-    **archived**: false,
+    <summary><b>flowblade</b>:</summary>
+    <b>html_url</b>: https://github.com/jliljebl/flowblade<br>
+    <b>description</b>: Video Editor for Linux<br>
+    <b>homepage</b>: -<br>
+    <b>language</b>: Python<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**focalboard**:</summary>
-    **html_url**: "https://github.com/mattermost/focalboard",
-    **description**: "Focalboard is an open source, self-hosted alternative to Trello, Notion, and Asana.",
-    **homepage**: "https://www.focalboard.com",
-    **language**: "TypeScript",
-    **archived**: false,
+    <summary><b>focalboard</b>:</summary>
+    <b>html_url</b>: https://github.com/mattermost/focalboard<br>
+    <b>description</b>: Focalboard is an open source, self-hosted alternative to Trello, Notion, and Asana.<br>
+    <b>homepage</b>: https://www.focalboard.com<br>
+    <b>language</b>: TypeScript<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**Font-Awesome**:</summary>
-    **html_url**: "https://github.com/FortAwesome/Font-Awesome",
-    **description**: "The iconic SVG, font, and CSS toolkit",
-    **homepage**: "https://fontawesome.com",
-    **language**: "JavaScript",
-    **archived**: false,
+    <summary><b>Font-Awesome</b>:</summary>
+    <b>html_url</b>: https://github.com/FortAwesome/Font-Awesome<br>
+    <b>description</b>: The iconic SVG, font, and CSS toolkit<br>
+    <b>homepage</b>: https://fontawesome.com<br>
+    <b>language</b>: JavaScript<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**fontello**:</summary>
-    **html_url**: "https://github.com/fontello/fontello",
-    **description**: "Iconic fonts scissors",
-    **homepage**: "http://fontello.com",
-    **language**: "JavaScript",
-    **archived**: false,
+    <summary><b>fontello</b>:</summary>
+    <b>html_url</b>: https://github.com/fontello/fontello<br>
+    <b>description</b>: Iconic fonts scissors<br>
+    <b>homepage</b>: http://fontello.com<br>
+    <b>language</b>: JavaScript<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**fontforge**:</summary>
-    **html_url**: "https://github.com/fontforge/fontforge",
-    **description**: "Free (libre) font editor for Windows, Mac OS X and GNU+Linux",
-    **homepage**: "http://fontforge.github.io/",
-    **language**: "C",
-    **archived**: false,
+    <summary><b>fontforge</b>:</summary>
+    <b>html_url</b>: https://github.com/fontforge/fontforge<br>
+    <b>description</b>: Free (libre) font editor for Windows, Mac OS X and GNU+Linux<br>
+    <b>homepage</b>: http://fontforge.github.io/<br>
+    <b>language</b>: C<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**Fork-Awesome**:</summary>
-    **html_url**: "https://github.com/ForkAwesome/Fork-Awesome",
-    **description**: "A fork of the iconic font and CSS toolkit",
-    **homepage**: "https://forkaweso.me",
-    **language**: "HTML",
-    **archived**: false,
-    **license**: null,
+    <summary><b>Fork-Awesome</b>:</summary>
+    <b>html_url</b>: https://github.com/ForkAwesome/Fork-Awesome<br>
+    <b>description</b>: A fork of the iconic font and CSS toolkit<br>
+    <b>homepage</b>: https://forkaweso.me<br>
+    <b>language</b>: HTML<br>
+    <b>archived</b>: -<br>
+    <b>license</b>: -<br>
   </details>
 
   <details>
-    <summary>**form**:</summary>
-    **html_url**: "https://github.com/jquery-form/form",
-    **description**: "jQuery Form Plugin",
-    **homepage**: "https://jquery-form.github.io/form/",
-    **language**: "JavaScript",
-    **archived**: false,
+    <summary><b>form</b>:</summary>
+    <b>html_url</b>: https://github.com/jquery-form/form<br>
+    <b>description</b>: jQuery Form Plugin<br>
+    <b>homepage</b>: https://jquery-form.github.io/form/<br>
+    <b>language</b>: JavaScript<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**formalms**:</summary>
-    **html_url**: "https://github.com/formalms/formalms",
-    **description**: "forma.lms mirror repository",
-    **homepage**: "http://www.formalms.org",
-    **language**: "PHP",
-    **archived**: false,
-    **license**: null,
+    <summary><b>formalms</b>:</summary>
+    <b>html_url</b>: https://github.com/formalms/formalms<br>
+    <b>description</b>: forma.lms mirror repository<br>
+    <b>homepage</b>: http://www.formalms.org<br>
+    <b>language</b>: PHP<br>
+    <b>archived</b>: -<br>
+    <b>license</b>: -<br>
   </details>
 
   <details>
-    <summary>**FPDF**:</summary>
-    **html_url**: "https://github.com/Setasign/FPDF",
-    **description**: "FPDF is a PHP class which allows to generate PDF files with pure PHP. F from FPDF stands for Free: you may use it for any kind of usage and modify it to suit your needs.",
-    **homepage**: "http://www.fpdf.org",
-    **language**: "PHP",
-    **archived**: false,
+    <summary><b>FPDF</b>:</summary>
+    <b>html_url</b>: https://github.com/Setasign/FPDF<br>
+    <b>description</b>: FPDF is a PHP class which allows to generate PDF files with pure PHP. F from FPDF stands for Free: you may use it for any kind of usage and modify it to suit your needs.<br>
+    <b>homepage</b>: http://www.fpdf.org<br>
+    <b>language</b>: PHP<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**freac**:</summary>
-    **html_url**: "https://github.com/enzo1982/freac",
-    **description**: "The fre:ac audio converter project",
-    **homepage**: "https://www.freac.org/",
-    **language**: "C++",
-    **archived**: false,
+    <summary><b>freac</b>:</summary>
+    <b>html_url</b>: https://github.com/enzo1982/freac<br>
+    <b>description</b>: The fre:ac audio converter project<br>
+    <b>homepage</b>: https://www.freac.org/<br>
+    <b>language</b>: C++<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**FreeCAD**:</summary>
-    **html_url**: "https://github.com/FreeCAD/FreeCAD",
-    **description**: "This is the official source code of FreeCAD, a free and opensource multiplatform 3D parametric modeler.",
-    **homepage**: "https://www.freecad.org",
-    **language**: "C++",
-    **archived**: false,
+    <summary><b>FreeCAD</b>:</summary>
+    <b>html_url</b>: https://github.com/FreeCAD/FreeCAD<br>
+    <b>description</b>: This is the official source code of FreeCAD, a free and opensource multiplatform 3D parametric modeler.<br>
+    <b>homepage</b>: https://www.freecad.org<br>
+    <b>language</b>: C++<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**freemed**:</summary>
-    **html_url**: "https://github.com/freemed/freemed",
-    **description**: "FreeMED Electronic Medical Record / Practice Management System",
-    **homepage**: null,
-    **language**: "PHP",
-    **archived**: false,
+    <summary><b>freemed</b>:</summary>
+    <b>html_url</b>: https://github.com/freemed/freemed<br>
+    <b>description</b>: FreeMED Electronic Medical Record / Practice Management System<br>
+    <b>homepage</b>: -<br>
+    <b>language</b>: PHP<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**freeplane**:</summary>
-    **html_url**: "https://github.com/freeplane/freeplane",
-    **description**: "Application for Mind Mapping, Knowledge Management, Project Management. Develop, organize and communicate your ideas and knowledge in the most effective way.",
-    **homepage**: "https://www.freeplane.org",
-    **language**: "Java",
-    **archived**: false,
+    <summary><b>freeplane</b>:</summary>
+    <b>html_url</b>: https://github.com/freeplane/freeplane<br>
+    <b>description</b>: Application for Mind Mapping, Knowledge Management, Project Management. Develop, organize and communicate your ideas and knowledge in the most effective way.<br>
+    <b>homepage</b>: https://www.freeplane.org<br>
+    <b>language</b>: Java<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**FreeTube**:</summary>
-    **html_url**: "https://github.com/FreeTubeApp/FreeTube",
-    **description**: "An Open Source YouTube app for privacy",
-    **homepage**: "https://freetubeapp.io/",
-    **language**: "JavaScript",
-    **archived**: false,
+    <summary><b>FreeTube</b>:</summary>
+    <b>html_url</b>: https://github.com/FreeTubeApp/FreeTube<br>
+    <b>description</b>: An Open Source YouTube app for privacy<br>
+    <b>homepage</b>: https://freetubeapp.io/<br>
+    <b>language</b>: JavaScript<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**frescobaldi**:</summary>
-    **html_url**: "https://github.com/frescobaldi/frescobaldi",
-    **description**: "Frescobaldi LilyPond Editor",
-    **homepage**: "http://www.frescobaldi.org/",
-    **language**: "Python",
-    **archived**: false,
+    <summary><b>frescobaldi</b>:</summary>
+    <b>html_url</b>: https://github.com/frescobaldi/frescobaldi<br>
+    <b>description</b>: Frescobaldi LilyPond Editor<br>
+    <b>homepage</b>: http://www.frescobaldi.org/<br>
+    <b>language</b>: Python<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**fritzing-app**:</summary>
-    **html_url**: "https://github.com/fritzing/fritzing-app",
-    **description**: "Fritzing desktop application",
-    **homepage**: "http://fritzing.org",
-    **language**: "C++",
-    **archived**: false,
+    <summary><b>fritzing-app</b>:</summary>
+    <b>html_url</b>: https://github.com/fritzing/fritzing-app<br>
+    <b>description</b>: Fritzing desktop application<br>
+    <b>homepage</b>: http://fritzing.org<br>
+    <b>language</b>: C++<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**FrontHrm**:</summary>
-    **html_url**: "https://github.com/notrinos/FrontHrm",
-    **description**: "NotrinosERP Human Resource Management Module",
-    **homepage**: "http://notrinos.com/fa/index.php",
-    **language**: "PHP",
-    **archived**: false,
+    <summary><b>FrontHrm</b>:</summary>
+    <b>html_url</b>: https://github.com/notrinos/FrontHrm<br>
+    <b>description</b>: NotrinosERP Human Resource Management Module<br>
+    <b>homepage</b>: http://notrinos.com/fa/index.php<br>
+    <b>language</b>: PHP<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**FUDforum**:</summary>
-    **html_url**: "https://github.com/fudforum/FUDforum",
-    **description**: "FUDforum is a super fast and scalable discussion forum. It is highly customizable and supports unlimited members, forums, posts, topics, polls & attachments. It can import XML Feeds and sync with USENET groups and Mailing Lists (bi-directional).",
-    **homepage**: "http://fudforum.org/",
-    **language**: "PHP",
-    **archived**: false,
+    <summary><b>FUDforum</b>:</summary>
+    <b>html_url</b>: https://github.com/fudforum/FUDforum<br>
+    <b>description</b>: FUDforum is a super fast and scalable discussion forum. It is highly customizable and supports unlimited members, forums, posts, topics, polls & attachments. It can import XML Feeds and sync with USENET groups and Mailing Lists (bi-directional).<br>
+    <b>homepage</b>: http://fudforum.org/<br>
+    <b>language</b>: PHP<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**fuelux**:</summary>
-    **html_url**: "https://github.com/ExactTarget/fuelux",
-    **description**: "As of March 2019, this repository is read-only as Salesforce has archived the FuelUX open-source UI framework and will no longer be supported.",
-    **homepage**: "",
-    **language**: "JavaScript",
-    **archived**: true,
+    <summary><b>fuelux</b>:</summary>
+    <b>html_url</b>: https://github.com/ExactTarget/fuelux<br>
+    <b>description</b>: As of March 2019, this repository is read-only as Salesforce has archived the FuelUX open-source UI framework and will no longer be supported.<br>
+    <b>homepage</b>: -<br>
+    <b>language</b>: JavaScript<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**fullcalendar**:</summary>
-    **html_url**: "https://github.com/fullcalendar/fullcalendar",
-    **description**: "Full-sized drag & drop event calendar in JavaScript",
-    **homepage**: "https://fullcalendar.io",
-    **language**: "TypeScript",
-    **archived**: false,
+    <summary><b>fullcalendar</b>:</summary>
+    <b>html_url</b>: https://github.com/fullcalendar/fullcalendar<br>
+    <b>description</b>: Full-sized drag & drop event calendar in JavaScript<br>
+    <b>homepage</b>: https://fullcalendar.io<br>
+    <b>language</b>: TypeScript<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**functional-php**:</summary>
-    **html_url**: "https://github.com/lstrojny/functional-php",
-    **description**: "Primitives for functional programming in PHP",
-    **homepage**: "",
-    **language**: "PHP",
-    **archived**: false,
+    <summary><b>functional-php</b>:</summary>
+    <b>html_url</b>: https://github.com/lstrojny/functional-php<br>
+    <b>description</b>: Primitives for functional programming in PHP<br>
+    <b>homepage</b>: -<br>
+    <b>language</b>: PHP<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**gaffer**:</summary>
-    **html_url**: "https://github.com/GafferHQ/gaffer",
-    **description**: "Gaffer is a node-based application for lookdev, lighting and automation",
-    **homepage**: "http://www.gafferhq.org",
-    **language**: "Python",
-    **archived**: false,
+    <summary><b>gaffer</b>:</summary>
+    <b>html_url</b>: https://github.com/GafferHQ/gaffer<br>
+    <b>description</b>: Gaffer is a node-based application for lookdev, lighting and automation<br>
+    <b>homepage</b>: http://www.gafferhq.org<br>
+    <b>language</b>: Python<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**gaiaehr**:</summary>
-    **html_url**: "https://github.com/gaiaehr/gaiaehr",
-    **description**: "Open Source Electronic Health Record -- Simple and Intuitive By Design",
-    **homepage**: "http://www.gaiaehr.org/",
-    **language**: "JavaScript",
-    **archived**: false,
+    <summary><b>gaiaehr</b>:</summary>
+    <b>html_url</b>: https://github.com/gaiaehr/gaiaehr<br>
+    <b>description</b>: Open Source Electronic Health Record -- Simple and Intuitive By Design<br>
+    <b>homepage</b>: http://www.gaiaehr.org/<br>
+    <b>language</b>: JavaScript<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**gallery3**:</summary>
-    **html_url**: "https://github.com/bwdutton/gallery3",
-    **description**: "The simplest, most intuitive way to host your photos on your website.",
-    **homepage**: "https://galleryrevival.com/",
-    **language**: "PHP",
-    **archived**: false,
+    <summary><b>gallery3</b>:</summary>
+    <b>html_url</b>: https://github.com/bwdutton/gallery3<br>
+    <b>description</b>: The simplest, most intuitive way to host your photos on your website.<br>
+    <b>homepage</b>: https://galleryrevival.com/<br>
+    <b>language</b>: PHP<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**gallery3**:</summary>
-    **html_url**: "https://github.com/gallery/gallery3",
-    **description**: "The simplest, most intuitive way to host your photos on your website.",
-    **homepage**: "http://galleryproject.org",
-    **language**: "PHP",
-    **archived**: false,
+    <summary><b>gallery3</b>:</summary>
+    <b>html_url</b>: https://github.com/gallery/gallery3<br>
+    <b>description</b>: The simplest, most intuitive way to host your photos on your website.<br>
+    <b>homepage</b>: http://galleryproject.org<br>
+    <b>language</b>: PHP<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**gantt**:</summary>
-    **html_url**: "https://github.com/DHTMLX/gantt",
-    **description**: "GPL version of Javascript Gantt Chart",
-    **homepage**: "https://dhtmlx.com/docs/products/dhtmlxGantt/",
-    **language**: "JavaScript",
-    **archived**: false,
+    <summary><b>gantt</b>:</summary>
+    <b>html_url</b>: https://github.com/DHTMLX/gantt<br>
+    <b>description</b>: GPL version of Javascript Gantt Chart<br>
+    <b>homepage</b>: https://dhtmlx.com/docs/products/dhtmlxGantt/<br>
+    <b>language</b>: JavaScript<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**gantt**:</summary>
-    **html_url**: "https://github.com/frappe/gantt",
-    **description**: "Open Source Javascript Gantt",
-    **homepage**: "https://frappe.io/gantt",
-    **language**: "JavaScript",
-    **archived**: false,
+    <summary><b>gantt</b>:</summary>
+    <b>html_url</b>: https://github.com/frappe/gantt<br>
+    <b>description</b>: Open Source Javascript Gantt<br>
+    <b>homepage</b>: https://frappe.io/gantt<br>
+    <b>language</b>: JavaScript<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**gantt-schedule-timeline-calendar**:</summary>
-    **html_url**: "https://github.com/neuronetio/gantt-schedule-timeline-calendar",
-    **description**: "Gantt Gantt Gantt Timeline Schedule Calendar [ javascript gantt, js gantt, projects gantt, timeline, scheduler, gantt timeline, reservation timeline, react gantt, angular gantt, vue gantt, svelte gantt, booking manager ]",
-    **homepage**: "https://gantt-schedule-timeline-calendar.neuronet.io",
-    **language**: "TypeScript",
-    **archived**: false,
+    <summary><b>gantt-schedule-timeline-calendar</b>:</summary>
+    <b>html_url</b>: https://github.com/neuronetio/gantt-schedule-timeline-calendar<br>
+    <b>description</b>: Gantt Gantt Gantt Timeline Schedule Calendar [ javascript gantt, js gantt, projects gantt, timeline, scheduler, gantt timeline, reservation timeline, react gantt, angular gantt, vue gantt, svelte gantt, booking manager ]<br>
+    <b>homepage</b>: https://gantt-schedule-timeline-calendar.neuronet.io<br>
+    <b>language</b>: TypeScript<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**ganttproject**:</summary>
-    **html_url**: "https://github.com/bardsoftware/ganttproject",
-    **description**: "Official GanttProject repository",
-    **homepage**: "http://ganttproject.biz",
-    **language**: "Java",
-    **archived**: false,
+    <summary><b>ganttproject</b>:</summary>
+    <b>html_url</b>: https://github.com/bardsoftware/ganttproject<br>
+    <b>description</b>: Official GanttProject repository<br>
+    <b>homepage</b>: http://ganttproject.biz<br>
+    <b>language</b>: Java<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**gcc**:</summary>
-    **html_url**: "https://github.com/gcc-mirror/gcc",
-    **description**: null,
-    **homepage**: "",
-    **language**: "C",
-    **archived**: false,
+    <summary><b>gcc</b>:</summary>
+    <b>html_url</b>: https://github.com/gcc-mirror/gcc<br>
+    <b>description</b>: -<br>
+    <b>homepage</b>: -<br>
+    <b>language</b>: C<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**GDevelop**:</summary>
-    **html_url**: "https://github.com/4ian/GDevelop",
-    **description**: ":video_game: Open-source, cross-platform game engine designed to be used by everyone.",
-    **homepage**: "https://gdevelop.io",
-    **language**: "JavaScript",
-    **archived**: false,
+    <summary><b>GDevelop</b>:</summary>
+    <b>html_url</b>: https://github.com/4ian/GDevelop<br>
+    <b>description</b>: :video_game: Open-source, cross-platform game engine designed to be used by everyone.<br>
+    <b>homepage</b>: https://gdevelop.io<br>
+    <b>language</b>: JavaScript<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**gedit**:</summary>
-    **html_url**: "https://github.com/GNOME/gedit",
-    **description**: "Read-only mirror of https://gitlab.gnome.org/GNOME/gedit",
-    **homepage**: "https://gitlab.gnome.org/GNOME/gedit",
-    **language**: "C",
-    **archived**: false,
+    <summary><b>gedit</b>:</summary>
+    <b>html_url</b>: https://github.com/GNOME/gedit<br>
+    <b>description</b>: Read-only mirror of https://gitlab.gnome.org/GNOME/gedit<br>
+    <b>homepage</b>: https://gitlab.gnome.org/GNOME/gedit<br>
+    <b>language</b>: C<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**gentelella**:</summary>
-    **html_url**: "https://github.com/ColorlibHQ/gentelella",
-    **description**: "Free Bootstrap 4 Admin Dashboard Template",
-    **homepage**: "https://colorlib.com/polygon/gentelella/index.html",
-    **language**: "HTML",
-    **archived**: false,
+    <summary><b>gentelella</b>:</summary>
+    <b>html_url</b>: https://github.com/ColorlibHQ/gentelella<br>
+    <b>description</b>: Free Bootstrap 4 Admin Dashboard Template<br>
+    <b>homepage</b>: https://colorlib.com/polygon/gentelella/index.html<br>
+    <b>language</b>: HTML<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**gettorbrowser**:</summary>
-    **html_url**: "https://github.com/TheTorProject/gettorbrowser",
-    **description**: null,
-    **homepage**: null,
-    **language**: null,
-    **archived**: false,
-    **license**: null,
+    <summary><b>gettorbrowser</b>:</summary>
+    <b>html_url</b>: https://github.com/TheTorProject/gettorbrowser<br>
+    <b>description</b>: -<br>
+    <b>homepage</b>: -<br>
+    <b>language</b>: -<br>
+    <b>archived</b>: -<br>
+    <b>license</b>: -<br>
   </details>
 
   <details>
-    <summary>**gImageReader**:</summary>
-    **html_url**: "https://github.com/manisandro/gImageReader",
-    **description**: "A Gtk/Qt front-end to tesseract-ocr.",
-    **homepage**: "",
-    **language**: "C++",
-    **archived**: false,
+    <summary><b>gImageReader</b>:</summary>
+    <b>html_url</b>: https://github.com/manisandro/gImageReader<br>
+    <b>description</b>: A Gtk/Qt front-end to tesseract-ocr.<br>
+    <b>homepage</b>: -<br>
+    <b>language</b>: C++<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**gimp**:</summary>
-    **html_url**: "https://github.com/GNOME/gimp",
-    **description**: "Read-only mirror of https://gitlab.gnome.org/GNOME/gimp",
-    **homepage**: "https://gitlab.gnome.org/GNOME/gimp",
-    **language**: "C",
-    **archived**: false,
+    <summary><b>gimp</b>:</summary>
+    <b>html_url</b>: https://github.com/GNOME/gimp<br>
+    <b>description</b>: Read-only mirror of https://gitlab.gnome.org/GNOME/gimp<br>
+    <b>homepage</b>: https://gitlab.gnome.org/GNOME/gimp<br>
+    <b>language</b>: C<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**git-portable**:</summary>
-    **html_url**: "https://github.com/garethflowers/git-portable",
-    **description**: "Portable version of Git, for Windows",
-    **homepage**: "https://garethflowers.dev/git-portable/",
-    **language**: "HTML",
-    **archived**: false,
+    <summary><b>git-portable</b>:</summary>
+    <b>html_url</b>: https://github.com/garethflowers/git-portable<br>
+    <b>description</b>: Portable version of Git, for Windows<br>
+    <b>homepage</b>: https://garethflowers.dev/git-portable/<br>
+    <b>language</b>: HTML<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**gitea**:</summary>
-    **html_url**: "https://github.com/go-gitea/gitea",
-    **description**: "Git with a cup of tea! Painless self-hosted all-in-one software development service, including Git hosting, code review, team collaboration, package registry and CI/CD",
-    **homepage**: "https://about.gitea.com",
-    **language**: "Go",
-    **archived**: false,
+    <summary><b>gitea</b>:</summary>
+    <b>html_url</b>: https://github.com/go-gitea/gitea<br>
+    <b>description</b>: Git with a cup of tea! Painless self-hosted all-in-one software development service, including Git hosting, code review, team collaboration, package registry and CI/CD<br>
+    <b>homepage</b>: https://about.gitea.com<br>
+    <b>language</b>: Go<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**gitlist**:</summary>
-    **html_url**: "https://github.com/klaussilveira/gitlist",
-    **description**: "An elegant and modern git repository viewer",
-    **homepage**: "https://gitlist.org/",
-    **language**: "PHP",
-    **archived**: false,
+    <summary><b>gitlist</b>:</summary>
+    <b>html_url</b>: https://github.com/klaussilveira/gitlist<br>
+    <b>description</b>: An elegant and modern git repository viewer<br>
+    <b>homepage</b>: https://gitlist.org/<br>
+    <b>language</b>: PHP<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**glaxnimate**:</summary>
-    **html_url**: "https://github.com/mbasaglia/glaxnimate",
-    **description**: "Simple vector animation program. https://glaxnimate.mattbas.org/",
-    **homepage**: null,
-    **language**: "C++",
-    **archived**: false,
+    <summary><b>glaxnimate</b>:</summary>
+    <b>html_url</b>: https://github.com/mbasaglia/glaxnimate<br>
+    <b>description</b>: Simple vector animation program. https://glaxnimate.mattbas.org/<br>
+    <b>homepage</b>: -<br>
+    <b>language</b>: C++<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**glpi**:</summary>
-    **html_url**: "https://github.com/glpi-project/glpi",
-    **description**: "GLPI is a Free Asset and IT Management Software package, Data center management, ITIL Service Desk, licenses tracking and software auditing.",
-    **homepage**: "https://glpi-project.org",
-    **language**: "PHP",
-    **archived**: false,
+    <summary><b>glpi</b>:</summary>
+    <b>html_url</b>: https://github.com/glpi-project/glpi<br>
+    <b>description</b>: GLPI is a Free Asset and IT Management Software package, Data center management, ITIL Service Desk, licenses tracking and software auditing.<br>
+    <b>homepage</b>: https://glpi-project.org<br>
+    <b>language</b>: PHP<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**Glyphr-Studio-Desktop**:</summary>
-    **html_url**: "https://github.com/glyphr-studio/Glyphr-Studio-Desktop",
-    **description**: "A desktop client for Glyphr Studio built in electron",
-    **homepage**: "",
-    **language**: "JavaScript",
-    **archived**: false,
+    <summary><b>Glyphr-Studio-Desktop</b>:</summary>
+    <b>html_url</b>: https://github.com/glyphr-studio/Glyphr-Studio-Desktop<br>
+    <b>description</b>: A desktop client for Glyphr Studio built in electron<br>
+    <b>homepage</b>: -<br>
+    <b>language</b>: JavaScript<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**gnucash**:</summary>
-    **html_url**: "https://github.com/Gnucash/gnucash",
-    **description**: "GnuCash Double-Entry Accounting Program.",
-    **homepage**: "http://code.gnucash.org/website/",
-    **language**: "C",
-    **archived**: false,
+    <summary><b>gnucash</b>:</summary>
+    <b>html_url</b>: https://github.com/Gnucash/gnucash<br>
+    <b>description</b>: GnuCash Double-Entry Accounting Program.<br>
+    <b>homepage</b>: http://code.gnucash.org/website/<br>
+    <b>language</b>: C<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**gnumeric**:</summary>
-    **html_url**: "https://github.com/GNOME/gnumeric",
-    **description**: "Read-only mirror of https://gitlab.gnome.org/GNOME/gnumeric",
-    **homepage**: "https://gitlab.gnome.org/GNOME/gnumeric",
-    **language**: "C",
-    **archived**: false,
+    <summary><b>gnumeric</b>:</summary>
+    <b>html_url</b>: https://github.com/GNOME/gnumeric<br>
+    <b>description</b>: Read-only mirror of https://gitlab.gnome.org/GNOME/gnumeric<br>
+    <b>homepage</b>: https://gitlab.gnome.org/GNOME/gnumeric<br>
+    <b>language</b>: C<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**gnuplot**:</summary>
-    **html_url**: "https://github.com/gnuplot/gnuplot",
-    **description**: "Unofficial mirror of gnuplot's git repository. Please don't open pull requests here, go to https://sourceforge.net/p/gnuplot/gnuplot-main/merge-requests/ instead.",
-    **homepage**: "http://gnuplot.info/",
-    **language**: "C",
-    **archived**: false,
+    <summary><b>gnuplot</b>:</summary>
+    <b>html_url</b>: https://github.com/gnuplot/gnuplot<br>
+    <b>description</b>: Unofficial mirror of gnuplot's git repository. Please don't open pull requests here, go to https://sourceforge.net/p/gnuplot/gnuplot-main/merge-requests/ instead.<br>
+    <b>homepage</b>: http://gnuplot.info/<br>
+    <b>language</b>: C<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**GNURootDebian**:</summary>
-    **html_url**: "https://github.com/corbinlc/GNURootDebian",
-    **description**: "This is the repository corresponding to the GNURoot Debian Android app.",
-    **homepage**: "http://corbinlc.github.io/GNURootDebian",
-    **language**: "Java",
-    **archived**: false,
-    **license**: null,
+    <summary><b>GNURootDebian</b>:</summary>
+    <b>html_url</b>: https://github.com/corbinlc/GNURootDebian<br>
+    <b>description</b>: This is the repository corresponding to the GNURoot Debian Android app.<br>
+    <b>homepage</b>: http://corbinlc.github.io/GNURootDebian<br>
+    <b>language</b>: Java<br>
+    <b>archived</b>: -<br>
+    <b>license</b>: -<br>
   </details>
 
   <details>
-    <summary>**GoJS**:</summary>
-    **html_url**: "https://github.com/NorthwoodsSoftware/GoJS",
-    **description**: "JavaScript diagramming library for interactive flowcharts, org charts, design tools, planning tools, visual languages.",
-    **homepage**: "http://gojs.net",
-    **language**: "HTML",
-    **archived**: false,
+    <summary><b>GoJS</b>:</summary>
+    <b>html_url</b>: https://github.com/NorthwoodsSoftware/GoJS<br>
+    <b>description</b>: JavaScript diagramming library for interactive flowcharts, org charts, design tools, planning tools, visual languages.<br>
+    <b>homepage</b>: http://gojs.net<br>
+    <b>language</b>: HTML<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**goldendict**:</summary>
-    **html_url**: "https://github.com/goldendict/goldendict",
-    **description**: "A feature-rich dictionary lookup program, supporting multiple dictionary formats (StarDict/Babylon/Lingvo/Dictd) and online dictionaries, featuring perfect article rendering with the complete markup, illustrations and other content retained, and allowing you to type in words without any accents or correct case.",
-    **homepage**: "http://goldendict.org/",
-    **language**: "C++",
-    **archived**: false,
+    <summary><b>goldendict</b>:</summary>
+    <b>html_url</b>: https://github.com/goldendict/goldendict<br>
+    <b>description</b>: A feature-rich dictionary lookup program, supporting multiple dictionary formats (StarDict/Babylon/Lingvo/Dictd) and online dictionaries, featuring perfect article rendering with the complete markup, illustrations and other content retained, and allowing you to type in words without any accents or correct case.<br>
+    <b>homepage</b>: http://goldendict.org/<br>
+    <b>language</b>: C++<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**goxel**:</summary>
-    **html_url**: "https://github.com/guillaumechereau/goxel",
-    **description**: "Goxel: Free and Open Source 3D Voxel Editor ",
-    **homepage**: "",
-    **language**: "C",
-    **archived**: false,
+    <summary><b>goxel</b>:</summary>
+    <b>html_url</b>: https://github.com/guillaumechereau/goxel<br>
+    <b>description</b>: Goxel: Free and Open Source 3D Voxel Editor <br>
+    <b>homepage</b>: -<br>
+    <b>language</b>: C<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**gparted**:</summary>
-    **html_url**: "https://github.com/GNOME/gparted",
-    **description**: "Read-only mirror of https://gitlab.gnome.org/GNOME/gparted",
-    **homepage**: "https://gitlab.gnome.org/GNOME/gparted",
-    **language**: "C++",
-    **archived**: false,
+    <summary><b>gparted</b>:</summary>
+    <b>html_url</b>: https://github.com/GNOME/gparted<br>
+    <b>description</b>: Read-only mirror of https://gitlab.gnome.org/GNOME/gparted<br>
+    <b>homepage</b>: https://gitlab.gnome.org/GNOME/gparted<br>
+    <b>language</b>: C++<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**graalphp**:</summary>
-    **html_url**: "https://github.com/abertschi/graalphp",
-    **description**: "An efficient PHP implementation built on GraalVM ",
-    **homepage**: "https://abertschi.ch/blog/2020/building-graalphp/",
-    **language**: "Java",
-    **archived**: false,
+    <summary><b>graalphp</b>:</summary>
+    <b>html_url</b>: https://github.com/abertschi/graalphp<br>
+    <b>description</b>: An efficient PHP implementation built on GraalVM <br>
+    <b>homepage</b>: https://abertschi.ch/blog/2020/building-graalphp/<br>
+    <b>language</b>: Java<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**gramps**:</summary>
-    **html_url**: "https://github.com/gramps-project/gramps",
-    **description**: "Source code for Gramps Genealogical program",
-    **homepage**: "https://gramps-project.org/",
-    **language**: "Python",
-    **archived**: false,
+    <summary><b>gramps</b>:</summary>
+    <b>html_url</b>: https://github.com/gramps-project/gramps<br>
+    <b>description</b>: Source code for Gramps Genealogical program<br>
+    <b>homepage</b>: https://gramps-project.org/<br>
+    <b>language</b>: Python<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**graphql-php**:</summary>
-    **html_url**: "https://github.com/webonyx/graphql-php",
-    **description**: "PHP implementation of the GraphQL specification based on the reference implementation in JavaScript",
-    **homepage**: "https://webonyx.github.io/graphql-php",
-    **language**: "PHP",
-    **archived**: false,
+    <summary><b>graphql-php</b>:</summary>
+    <b>html_url</b>: https://github.com/webonyx/graphql-php<br>
+    <b>description</b>: PHP implementation of the GraphQL specification based on the reference implementation in JavaScript<br>
+    <b>homepage</b>: https://webonyx.github.io/graphql-php<br>
+    <b>language</b>: PHP<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**grepWin**:</summary>
-    **html_url**: "https://github.com/stefankueng/grepWin",
-    **description**: "A powerful and fast search tool using regular expressions",
-    **homepage**: "https://tools.stefankueng.com/grepWin.html",
-    **language**: "C++",
-    **archived**: false,
+    <summary><b>grepWin</b>:</summary>
+    <b>html_url</b>: https://github.com/stefankueng/grepWin<br>
+    <b>description</b>: A powerful and fast search tool using regular expressions<br>
+    <b>homepage</b>: https://tools.stefankueng.com/grepWin.html<br>
+    <b>language</b>: C++<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**gretl**:</summary>
-    **html_url**: "https://github.com/gretl-project/gretl",
-    **description**: "Official mirror of the actively maintained repo on sourceforge",
-    **homepage**: null,
-    **language**: "C",
-    **archived**: false,
+    <summary><b>gretl</b>:</summary>
+    <b>html_url</b>: https://github.com/gretl-project/gretl<br>
+    <b>description</b>: Official mirror of the actively maintained repo on sourceforge<br>
+    <b>homepage</b>: -<br>
+    <b>language</b>: C<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**gridplayer**:</summary>
-    **html_url**: "https://github.com/vzhd1701/gridplayer",
-    **description**: "Play videos side-by-side",
-    **homepage**: "",
-    **language**: "Python",
-    **archived**: false,
+    <summary><b>gridplayer</b>:</summary>
+    <b>html_url</b>: https://github.com/vzhd1701/gridplayer<br>
+    <b>description</b>: Play videos side-by-side<br>
+    <b>homepage</b>: -<br>
+    <b>language</b>: Python<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**grisbi**:</summary>
-    **html_url**: "https://github.com/grisbi/grisbi",
-    **description**: "A very functional personal financial management program with a reasonable set of homefinance features",
-    **homepage**: "https://grisbi.org/",
-    **language**: "C",
-    **archived**: false,
+    <summary><b>grisbi</b>:</summary>
+    <b>html_url</b>: https://github.com/grisbi/grisbi<br>
+    <b>description</b>: A very functional personal financial management program with a reasonable set of homefinance features<br>
+    <b>homepage</b>: https://grisbi.org/<br>
+    <b>language</b>: C<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**grocy**:</summary>
-    **html_url**: "https://github.com/grocy/grocy",
-    **description**: "ERP beyond your fridge - Grocy is a web-based self-hosted groceries & household management solution for your home",
-    **homepage**: "https://grocy.info",
-    **language**: "Blade",
-    **archived**: false,
+    <summary><b>grocy</b>:</summary>
+    <b>html_url</b>: https://github.com/grocy/grocy<br>
+    <b>description</b>: ERP beyond your fridge - Grocy is a web-based self-hosted groceries & household management solution for your home<br>
+    <b>homepage</b>: https://grocy.info<br>
+    <b>language</b>: Blade<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**groupoffice**:</summary>
-    **html_url**: "https://github.com/Intermesh/groupoffice",
-    **description**: "Group Office groupware and CRM",
-    **homepage**: "https://www.group-office.com",
-    **language**: "PHP",
-    **archived**: false,
+    <summary><b>groupoffice</b>:</summary>
+    <b>html_url</b>: https://github.com/Intermesh/groupoffice<br>
+    <b>description</b>: Group Office groupware and CRM<br>
+    <b>homepage</b>: https://www.group-office.com<br>
+    <b>language</b>: PHP<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**Gutenberg**:</summary>
-    **html_url**: "https://github.com/BafS/Gutenberg",
-    **description**: "Modern framework to print the web correctly.                                               ",
-    **homepage**: "https://bafs.github.io/Gutenberg",
-    **language**: "SCSS",
-    **archived**: false,
+    <summary><b>Gutenberg</b>:</summary>
+    <b>html_url</b>: https://github.com/BafS/Gutenberg<br>
+    <b>description</b>: Modern framework to print the web correctly.                                               <br>
+    <b>homepage</b>: https://bafs.github.io/Gutenberg<br>
+    <b>language</b>: SCSS<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**guzzle**:</summary>
-    **html_url**: "https://github.com/guzzle/guzzle",
-    **description**: "Guzzle, an extensible PHP HTTP client",
-    **homepage**: "https://docs.guzzlephp.org/",
-    **language**: "PHP",
-    **archived**: false,
+    <summary><b>guzzle</b>:</summary>
+    <b>html_url</b>: https://github.com/guzzle/guzzle<br>
+    <b>description</b>: Guzzle, an extensible PHP HTTP client<br>
+    <b>homepage</b>: https://docs.guzzlephp.org/<br>
+    <b>language</b>: PHP<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**HandBrake**:</summary>
-    **html_url**: "https://github.com/HandBrake/HandBrake",
-    **description**: "HandBrake's main development repository ",
-    **homepage**: "https://handbrake.fr",
-    **language**: "C",
-    **archived**: false,
+    <summary><b>HandBrake</b>:</summary>
+    <b>html_url</b>: https://github.com/HandBrake/HandBrake<br>
+    <b>description</b>: HandBrake's main development repository <br>
+    <b>homepage</b>: https://handbrake.fr<br>
+    <b>language</b>: C<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**handsontable**:</summary>
-    **html_url**: "https://github.com/handsontable/handsontable",
-    **description**: "JavaScript data grid with a spreadsheet look & feel. Works with React, Angular, and Vue. Supported by the Handsontable team ⚡",
-    **homepage**: "https://handsontable.com",
-    **language**: "JavaScript",
-    **archived**: false,
+    <summary><b>handsontable</b>:</summary>
+    <b>html_url</b>: https://github.com/handsontable/handsontable<br>
+    <b>description</b>: JavaScript data grid with a spreadsheet look & feel. Works with React, Angular, and Vue. Supported by the Handsontable team ⚡<br>
+    <b>homepage</b>: https://handsontable.com<br>
+    <b>language</b>: JavaScript<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**harvester**:</summary>
-    **html_url**: "https://github.com/pkp/harvester",
-    **description**: "Open Harvester Systems",
-    **homepage**: "http://pkp.sfu.ca/harvester",
-    **language**: "PHP",
-    **archived**: false,
-    **license**: null,
+    <summary><b>harvester</b>:</summary>
+    <b>html_url</b>: https://github.com/pkp/harvester<br>
+    <b>description</b>: Open Harvester Systems<br>
+    <b>homepage</b>: http://pkp.sfu.ca/harvester<br>
+    <b>language</b>: PHP<br>
+    <b>archived</b>: -<br>
+    <b>license</b>: -<br>
   </details>
 
   <details>
-    <summary>**healthicons**:</summary>
-    **html_url**: "https://github.com/resolvetosavelives/healthicons",
-    **description**: "A collection of open source icons for public health projects.",
-    **homepage**: "https://healthicons.org",
-    **language**: "TypeScript",
-    **archived**: false,
+    <summary><b>healthicons</b>:</summary>
+    <b>html_url</b>: https://github.com/resolvetosavelives/healthicons<br>
+    <b>description</b>: A collection of open source icons for public health projects.<br>
+    <b>homepage</b>: https://healthicons.org<br>
+    <b>language</b>: TypeScript<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**HeidiSQL**:</summary>
-    **html_url**: "https://github.com/HeidiSQL/HeidiSQL",
-    **description**: "A lightweight client for managing MariaDB, MySQL, SQL Server, PostgreSQL, SQLite, Interbase and Firebird, written in Delphi",
-    **homepage**: "https://www.heidisql.com/",
-    **language**: "Pascal",
-    **archived**: false,
+    <summary><b>HeidiSQL</b>:</summary>
+    <b>html_url</b>: https://github.com/HeidiSQL/HeidiSQL<br>
+    <b>description</b>: A lightweight client for managing MariaDB, MySQL, SQL Server, PostgreSQL, SQLite, Interbase and Firebird, written in Delphi<br>
+    <b>homepage</b>: https://www.heidisql.com/<br>
+    <b>language</b>: Pascal<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**helio-workstation**:</summary>
-    **html_url**: "https://github.com/helio-fm/helio-workstation",
-    **description**: "One music sequencer for all major platforms, desktop and mobile",
-    **homepage**: "https://helio.fm",
-    **language**: "C++",
-    **archived**: false,
+    <summary><b>helio-workstation</b>:</summary>
+    <b>html_url</b>: https://github.com/helio-fm/helio-workstation<br>
+    <b>description</b>: One music sequencer for all major platforms, desktop and mobile<br>
+    <b>homepage</b>: https://helio.fm<br>
+    <b>language</b>: C++<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**heroicons**:</summary>
-    **html_url**: "https://github.com/tailwindlabs/heroicons",
-    **description**: "A set of free MIT-licensed high-quality SVG icons for UI development.",
-    **homepage**: "https://heroicons.com",
-    **language**: "JavaScript",
-    **archived**: false,
+    <summary><b>heroicons</b>:</summary>
+    <b>html_url</b>: https://github.com/tailwindlabs/heroicons<br>
+    <b>description</b>: A set of free MIT-licensed high-quality SVG icons for UI development.<br>
+    <b>homepage</b>: https://heroicons.com<br>
+    <b>language</b>: JavaScript<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**HiddenPosition**:</summary>
-    **html_url**: "https://github.com/garralab/HiddenPosition",
-    **description**: "Position any element to any element, even if they are hidden",
-    **homepage**: null,
-    **language**: "JavaScript",
-    **archived**: false,
+    <summary><b>HiddenPosition</b>:</summary>
+    <b>html_url</b>: https://github.com/garralab/HiddenPosition<br>
+    <b>description</b>: Position any element to any element, even if they are hidden<br>
+    <b>homepage</b>: -<br>
+    <b>language</b>: JavaScript<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**hotelcommerce**:</summary>
-    **html_url**: "https://github.com/webkul/hotelcommerce",
-    **description**: "Hotel & Booking Reservation Ecommerce system on Prestashop",
-    **homepage**: "https://store.webkul.com/Qloapps.html",
-    **language**: "PHP",
-    **archived**: false,
+    <summary><b>hotelcommerce</b>:</summary>
+    <b>html_url</b>: https://github.com/webkul/hotelcommerce<br>
+    <b>description</b>: Hotel & Booking Reservation Ecommerce system on Prestashop<br>
+    <b>homepage</b>: https://store.webkul.com/Qloapps.html<br>
+    <b>language</b>: PHP<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**hotelmis-ota**:</summary>
-    **html_url**: "https://github.com/bogiesoft/hotelmis-ota",
-    **description**: "OTA version of Hotel Management Information System",
-    **homepage**: null,
-    **language**: "PHP",
-    **archived**: false,
+    <summary><b>hotelmis-ota</b>:</summary>
+    <b>html_url</b>: https://github.com/bogiesoft/hotelmis-ota<br>
+    <b>description</b>: OTA version of Hotel Management Information System<br>
+    <b>homepage</b>: -<br>
+    <b>language</b>: PHP<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**html2canvas**:</summary>
-    **html_url**: "https://github.com/niklasvh/html2canvas",
-    **description**: "Screenshots with JavaScript",
-    **homepage**: "https://html2canvas.hertzen.com/",
-    **language**: "TypeScript",
-    **archived**: false,
+    <summary><b>html2canvas</b>:</summary>
+    <b>html_url</b>: https://github.com/niklasvh/html2canvas<br>
+    <b>description</b>: Screenshots with JavaScript<br>
+    <b>homepage</b>: https://html2canvas.hertzen.com/<br>
+    <b>language</b>: TypeScript<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**http-server**:</summary>
-    **html_url**: "https://github.com/amphp/http-server",
-    **description**: "A non-blocking HTTP application server for PHP based on Amp.",
-    **homepage**: "https://amphp.org/http-server",
-    **language**: "PHP",
-    **archived**: false,
+    <summary><b>http-server</b>:</summary>
+    <b>html_url</b>: https://github.com/amphp/http-server<br>
+    <b>description</b>: A non-blocking HTTP application server for PHP based on Amp.<br>
+    <b>homepage</b>: https://amphp.org/http-server<br>
+    <b>language</b>: PHP<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**httrack**:</summary>
-    **html_url**: "https://github.com/xroche/httrack",
-    **description**: "HTTrack Website Copier, copy websites to your computer (Official repository)",
-    **homepage**: "http://www.httrack.com/",
-    **language**: "C",
-    **archived**: false,
+    <summary><b>httrack</b>:</summary>
+    <b>html_url</b>: https://github.com/xroche/httrack<br>
+    <b>description</b>: HTTrack Website Copier, copy websites to your computer (Official repository)<br>
+    <b>homepage</b>: http://www.httrack.com/<br>
+    <b>language</b>: C<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**Hugin**:</summary>
-    **html_url**: "https://github.com/ndevenish/Hugin",
-    **description**: "(Probably very out of date mirror) Panorama photo stitcher. My Github Mirror.",
-    **homepage**: "https://sourceforge.net/projects/hugin/",
-    **language**: "C++",
-    **archived**: false,
+    <summary><b>Hugin</b>:</summary>
+    <b>html_url</b>: https://github.com/ndevenish/Hugin<br>
+    <b>description</b>: (Probably very out of date mirror) Panorama photo stitcher. My Github Mirror.<br>
+    <b>homepage</b>: https://sourceforge.net/projects/hugin/<br>
+    <b>language</b>: C++<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**humhub**:</summary>
-    **html_url**: "https://github.com/humhub/humhub",
-    **description**: "HumHub is an Open Source Enterprise Social Network. Easy to install, intuitive to use and extendable with countless freely available modules.",
-    **homepage**: "https://www.humhub.com",
-    **language**: "PHP",
-    **archived**: false,
+    <summary><b>humhub</b>:</summary>
+    <b>html_url</b>: https://github.com/humhub/humhub<br>
+    <b>description</b>: HumHub is an Open Source Enterprise Social Network. Easy to install, intuitive to use and extendable with countless freely available modules.<br>
+    <b>homepage</b>: https://www.humhub.com<br>
+    <b>language</b>: PHP<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**HuMo-genealogy**:</summary>
-    **html_url**: "https://github.com/HuubMons/HuMo-genealogy",
-    **description**: "HuMo-genealogy online genealogical program using PHP and MySQL database.",
-    **homepage**: "https://humo-gen.com",
-    **language**: "PHP",
-    **archived**: false,
+    <summary><b>HuMo-genealogy</b>:</summary>
+    <b>html_url</b>: https://github.com/HuubMons/HuMo-genealogy<br>
+    <b>description</b>: HuMo-genealogy online genealogical program using PHP and MySQL database.<br>
+    <b>homepage</b>: https://humo-gen.com<br>
+    <b>language</b>: PHP<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**hydrogen**:</summary>
-    **html_url**: "https://github.com/hydrogen-music/hydrogen",
-    **description**: "The advanced drum machine for Linux, macOS, and Windows",
-    **homepage**: "http://www.hydrogen-music.org",
-    **language**: "C++",
-    **archived**: false,
+    <summary><b>hydrogen</b>:</summary>
+    <b>html_url</b>: https://github.com/hydrogen-music/hydrogen<br>
+    <b>description</b>: The advanced drum machine for Linux, macOS, and Windows<br>
+    <b>homepage</b>: http://www.hydrogen-music.org<br>
+    <b>language</b>: C++<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**ICEcoder**:</summary>
-    **html_url**: "https://github.com/icecoder/ICEcoder",
-    **description**: "Browser code editor awesomeness",
-    **homepage**: "http://icecoder.net",
-    **language**: "PHP",
-    **archived**: false,
+    <summary><b>ICEcoder</b>:</summary>
+    <b>html_url</b>: https://github.com/icecoder/ICEcoder<br>
+    <b>description</b>: Browser code editor awesomeness<br>
+    <b>homepage</b>: http://icecoder.net<br>
+    <b>language</b>: PHP<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**icehrm**:</summary>
-    **html_url**: "https://github.com/gamonoid/icehrm",
-    **description**: "Manage your employees easily with a robust and efficient Human Resource Management System",
-    **homepage**: "http://icehrm.com",
-    **language**: "JavaScript",
-    **archived**: false,
+    <summary><b>icehrm</b>:</summary>
+    <b>html_url</b>: https://github.com/gamonoid/icehrm<br>
+    <b>description</b>: Manage your employees easily with a robust and efficient Human Resource Management System<br>
+    <b>homepage</b>: http://icehrm.com<br>
+    <b>language</b>: JavaScript<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**ILIAS**:</summary>
-    **html_url**: "https://github.com/ILIAS-eLearning/ILIAS",
-    **description**: "GitHub repository for official ILIAS release branches and development branches (trunk)",
-    **homepage**: "http://www.ilias.de/docu/goto_docu_cat_582.html",
-    **language**: "PHP",
-    **archived**: false,
+    <summary><b>ILIAS</b>:</summary>
+    <b>html_url</b>: https://github.com/ILIAS-eLearning/ILIAS<br>
+    <b>description</b>: GitHub repository for official ILIAS release branches and development branches (trunk)<br>
+    <b>homepage</b>: http://www.ilias.de/docu/goto_docu_cat_582.html<br>
+    <b>language</b>: PHP<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**ImageGlass**:</summary>
-    **html_url**: "https://github.com/d2phap/ImageGlass",
-    **description**: "🏞 A lightweight, versatile image viewer",
-    **homepage**: "https://imageglass.org",
-    **language**: "C#",
-    **archived**: false,
+    <summary><b>ImageGlass</b>:</summary>
+    <b>html_url</b>: https://github.com/d2phap/ImageGlass<br>
+    <b>description</b>: 🏞 A lightweight, versatile image viewer<br>
+    <b>homepage</b>: https://imageglass.org<br>
+    <b>language</b>: C#<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**ImageMagick**:</summary>
-    **html_url**: "https://github.com/ImageMagick/ImageMagick",
-    **description**: "🧙‍♂️ ImageMagick 7",
-    **homepage**: "https://imagemagick.org",
-    **language**: "C",
-    **archived**: false,
+    <summary><b>ImageMagick</b>:</summary>
+    <b>html_url</b>: https://github.com/ImageMagick/ImageMagick<br>
+    <b>description</b>: 🧙‍♂️ ImageMagick 7<br>
+    <b>homepage</b>: https://imagemagick.org<br>
+    <b>language</b>: C<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**inkscape**:</summary>
-    **html_url**: "https://github.com/inkscape/inkscape",
-    **description**: "Project Website: https://inkscape.org - Code Repository: https://gitlab.com/inkscape/inkscape - Draw freely. 🖌",
-    **homepage**: "http://www.inkscape.org/",
-    **language**: null,
-    **archived**: false,
-    **license**: null,
+    <summary><b>inkscape</b>:</summary>
+    <b>html_url</b>: https://github.com/inkscape/inkscape<br>
+    <b>description</b>: Project Website: https://inkscape.org - Code Repository: https://gitlab.com/inkscape/inkscape - Draw freely. 🖌<br>
+    <b>homepage</b>: http://www.inkscape.org/<br>
+    <b>language</b>: -<br>
+    <b>archived</b>: -<br>
+    <b>license</b>: -<br>
   </details>
 
   <details>
-    <summary>**inoERP**:</summary>
-    **html_url**: "https://github.com/inoerp/inoERP",
-    **description**: "inoERP is an OneApp [ Go back-end & Flutter front-end ] based enterprise management system",
-    **homepage**: "http://docs.inoerp.com/",
-    **language**: "JavaScript",
-    **archived**: false,
+    <summary><b>inoERP</b>:</summary>
+    <b>html_url</b>: https://github.com/inoerp/inoERP<br>
+    <b>description</b>: inoERP is an OneApp [ Go back-end & Flutter front-end ] based enterprise management system<br>
+    <b>homepage</b>: http://docs.inoerp.com/<br>
+    <b>language</b>: JavaScript<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**invoiceninja**:</summary>
-    **html_url**: "https://github.com/invoiceninja/invoiceninja",
-    **description**: "Invoices, Expenses and Tasks built with Laravel, Flutter and React",
-    **homepage**: "https://invoiceninja.com",
-    **language**: "PHP",
-    **archived**: false,
+    <summary><b>invoiceninja</b>:</summary>
+    <b>html_url</b>: https://github.com/invoiceninja/invoiceninja<br>
+    <b>description</b>: Invoices, Expenses and Tasks built with Laravel, Flutter and React<br>
+    <b>homepage</b>: https://invoiceninja.com<br>
+    <b>language</b>: PHP<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**InvoicePlane**:</summary>
-    **html_url**: "https://github.com/InvoicePlane/InvoicePlane",
-    **description**: "A self-hosted open source application for managing your invoices, clients and payments.",
-    **homepage**: "https://www.invoiceplane.com",
-    **language**: "PHP",
-    **archived**: false,
+    <summary><b>InvoicePlane</b>:</summary>
+    <b>html_url</b>: https://github.com/InvoicePlane/InvoicePlane<br>
+    <b>description</b>: A self-hosted open source application for managing your invoices, clients and payments.<br>
+    <b>homepage</b>: https://www.invoiceplane.com<br>
+    <b>language</b>: PHP<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**ipscan**:</summary>
-    **html_url**: "https://github.com/angryip/ipscan",
-    **description**: "Angry IP Scanner - fast and friendly network scanner",
-    **homepage**: "angryip.org",
-    **language**: "Java",
-    **archived**: false,
+    <summary><b>ipscan</b>:</summary>
+    <b>html_url</b>: https://github.com/angryip/ipscan<br>
+    <b>description</b>: Angry IP Scanner - fast and friendly network scanner<br>
+    <b>homepage</b>: angryip.org<br>
+    <b>language</b>: Java<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**issrc**:</summary>
-    **html_url**: "https://github.com/jrsoftware/issrc",
-    **description**: "Inno Setup is a free installer for Windows programs. First introduced in 1997, Inno Setup today rivals and even surpasses many commercial installers in feature set and stability.",
-    **homepage**: "https://jrsoftware.org/isinfo.php",
-    **language**: "Pascal",
-    **archived**: false,
+    <summary><b>issrc</b>:</summary>
+    <b>html_url</b>: https://github.com/jrsoftware/issrc<br>
+    <b>description</b>: Inno Setup is a free installer for Windows programs. First introduced in 1997, Inno Setup today rivals and even surpasses many commercial installers in feature set and stability.<br>
+    <b>homepage</b>: https://jrsoftware.org/isinfo.php<br>
+    <b>language</b>: Pascal<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**iTop**:</summary>
-    **html_url**: "https://github.com/Combodo/iTop",
-    **description**: "A simple, web based IT Service Management tool ",
-    **homepage**: "https://www.combodo.com/itop",
-    **language**: "PHP",
-    **archived**: false,
+    <summary><b>iTop</b>:</summary>
+    <b>html_url</b>: https://github.com/Combodo/iTop<br>
+    <b>description</b>: A simple, web based IT Service Management tool <br>
+    <b>homepage</b>: https://www.combodo.com/itop<br>
+    <b>language</b>: PHP<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**jabref**:</summary>
-    **html_url**: "https://github.com/JabRef/jabref",
-    **description**: "Graphical Java application for managing BibTeX and biblatex (.bib) databases",
-    **homepage**: "https://devdocs.jabref.org",
-    **language**: "Java",
-    **archived**: false,
+    <summary><b>jabref</b>:</summary>
+    <b>html_url</b>: https://github.com/JabRef/jabref<br>
+    <b>description</b>: Graphical Java application for managing BibTeX and biblatex (.bib) databases<br>
+    <b>homepage</b>: https://devdocs.jabref.org<br>
+    <b>language</b>: Java<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**jajuk**:</summary>
-    **html_url**: "https://github.com/jajuk-team/jajuk",
-    **description**: "Advanded jukebox for users with large or scattered music collections",
-    **homepage**: null,
-    **language**: "Java",
-    **archived**: false,
-    **license**: null,
+    <summary><b>jajuk</b>:</summary>
+    <b>html_url</b>: https://github.com/jajuk-team/jajuk<br>
+    <b>description</b>: Advanded jukebox for users with large or scattered music collections<br>
+    <b>homepage</b>: -<br>
+    <b>language</b>: Java<br>
+    <b>archived</b>: -<br>
+    <b>license</b>: -<br>
   </details>
 
   <details>
-    <summary>**jamovi**:</summary>
-    **html_url**: "https://github.com/jamovi/jamovi",
-    **description**: "jamovi - open software to bridge the gap between researcher and statistician",
-    **homepage**: "https://www.jamovi.org",
-    **language**: "JavaScript",
-    **archived**: false,
+    <summary><b>jamovi</b>:</summary>
+    <b>html_url</b>: https://github.com/jamovi/jamovi<br>
+    <b>description</b>: jamovi - open software to bridge the gap between researcher and statistician<br>
+    <b>homepage</b>: https://www.jamovi.org<br>
+    <b>language</b>: JavaScript<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**jasp-desktop**:</summary>
-    **html_url**: "https://github.com/jasp-stats/jasp-desktop",
-    **description**: "JASP aims to be a complete statistical package for both Bayesian and Frequentist statistical methods, that is easy to use and familiar to users of SPSS",
-    **homepage**: "jasp-stats.org",
-    **language**: "JavaScript",
-    **archived**: false,
+    <summary><b>jasp-desktop</b>:</summary>
+    <b>html_url</b>: https://github.com/jasp-stats/jasp-desktop<br>
+    <b>description</b>: JASP aims to be a complete statistical package for both Bayesian and Frequentist statistical methods, that is easy to use and familiar to users of SPSS<br>
+    <b>homepage</b>: jasp-stats.org<br>
+    <b>language</b>: JavaScript<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**javascript-obfuscator**:</summary>
-    **html_url**: "https://github.com/javascript-obfuscator/javascript-obfuscator",
-    **description**: "A powerful obfuscator for JavaScript and Node.js",
-    **homepage**: "https://obfuscator.io",
-    **language**: "TypeScript",
-    **archived**: false,
+    <summary><b>javascript-obfuscator</b>:</summary>
+    <b>html_url</b>: https://github.com/javascript-obfuscator/javascript-obfuscator<br>
+    <b>description</b>: A powerful obfuscator for JavaScript and Node.js<br>
+    <b>homepage</b>: https://obfuscator.io<br>
+    <b>language</b>: TypeScript<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**javascript-rsa**:</summary>
-    **html_url**: "https://github.com/ziyan/javascript-rsa",
-    **description**: "RSA encryption with javascript",
-    **homepage**: null,
-    **language**: "JavaScript",
-    **archived**: true,
+    <summary><b>javascript-rsa</b>:</summary>
+    <b>html_url</b>: https://github.com/ziyan/javascript-rsa<br>
+    <b>description</b>: RSA encryption with javascript<br>
+    <b>homepage</b>: -<br>
+    <b>language</b>: JavaScript<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**jitsi**:</summary>
-    **html_url**: "https://github.com/jitsi/jitsi",
-    **description**: "Jitsi is an audio/video and chat communicator that supports protocols such as SIP, XMPP/Jabber, IRC and many other useful features.",
-    **homepage**: "https://desktop.jitsi.org",
-    **language**: "Java",
-    **archived**: false,
+    <summary><b>jitsi</b>:</summary>
+    <b>html_url</b>: https://github.com/jitsi/jitsi<br>
+    <b>description</b>: Jitsi is an audio/video and chat communicator that supports protocols such as SIP, XMPP/Jabber, IRC and many other useful features.<br>
+    <b>homepage</b>: https://desktop.jitsi.org<br>
+    <b>language</b>: Java<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**jitsi-meet**:</summary>
-    **html_url**: "https://github.com/jitsi/jitsi-meet",
-    **description**: "Jitsi Meet - Secure, Simple and Scalable Video Conferences that you use as a standalone app or embed in your web application.",
-    **homepage**: "https://jitsi.org/meet",
-    **language**: "TypeScript",
-    **archived**: false,
+    <summary><b>jitsi-meet</b>:</summary>
+    <b>html_url</b>: https://github.com/jitsi/jitsi-meet<br>
+    <b>description</b>: Jitsi Meet - Secure, Simple and Scalable Video Conferences that you use as a standalone app or embed in your web application.<br>
+    <b>homepage</b>: https://jitsi.org/meet<br>
+    <b>language</b>: TypeScript<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**jn-npp-plugin**:</summary>
-    **html_url**: "https://github.com/sieukrem/jn-npp-plugin",
-    **description**: "Plugin for Notepad++ allowing you to automate some tasks using JavaScript",
-    **homepage**: "https://github.com/sieukrem/jn-npp-plugin/wiki",
-    **language**: "C",
-    **archived**: false,
-    **license**: null,
+    <summary><b>jn-npp-plugin</b>:</summary>
+    <b>html_url</b>: https://github.com/sieukrem/jn-npp-plugin<br>
+    <b>description</b>: Plugin for Notepad++ allowing you to automate some tasks using JavaScript<br>
+    <b>homepage</b>: https://github.com/sieukrem/jn-npp-plugin/wiki<br>
+    <b>language</b>: C<br>
+    <b>archived</b>: -<br>
+    <b>license</b>: -<br>
   </details>
 
   <details>
-    <summary>**jodit**:</summary>
-    **html_url**: "https://github.com/xdan/jodit",
-    **description**: "Jodit - Best WYSIWYG Editor for You",
-    **homepage**: "https://xdsoft.net/jodit/",
-    **language**: "TypeScript",
-    **archived**: false,
+    <summary><b>jodit</b>:</summary>
+    <b>html_url</b>: https://github.com/xdan/jodit<br>
+    <b>description</b>: Jodit - Best WYSIWYG Editor for You<br>
+    <b>homepage</b>: https://xdsoft.net/jodit/<br>
+    <b>language</b>: TypeScript<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**joomla-cms**:</summary>
-    **html_url**: "https://github.com/joomla/joomla-cms",
-    **description**: "Home of the Joomla! Content Management System",
-    **homepage**: "https://www.joomla.org",
-    **language**: "PHP",
-    **archived**: false,
+    <summary><b>joomla-cms</b>:</summary>
+    <b>html_url</b>: https://github.com/joomla/joomla-cms<br>
+    <b>description</b>: Home of the Joomla! Content Management System<br>
+    <b>homepage</b>: https://www.joomla.org<br>
+    <b>language</b>: PHP<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**jOrgChart**:</summary>
-    **html_url**: "https://github.com/wesnolte/jOrgChart",
-    **description**: "A jQuery plugin to draw tree-like structures such as OrgCharts.",
-    **homepage**: "",
-    **language**: "JavaScript",
-    **archived**: false,
-    **license**: null,
+    <summary><b>jOrgChart</b>:</summary>
+    <b>html_url</b>: https://github.com/wesnolte/jOrgChart<br>
+    <b>description</b>: A jQuery plugin to draw tree-like structures such as OrgCharts.<br>
+    <b>homepage</b>: -<br>
+    <b>language</b>: JavaScript<br>
+    <b>archived</b>: -<br>
+    <b>license</b>: -<br>
   </details>
 
   <details>
-    <summary>**jpgraph**:</summary>
-    **html_url**: "https://github.com/mitoteam/jpgraph",
-    **description**: "JpGraph library composer package with PHP 8.2 support",
-    **homepage**: "https://packagist.org/packages/mitoteam/jpgraph",
-    **language**: "PHP",
-    **archived**: false,
+    <summary><b>jpgraph</b>:</summary>
+    <b>html_url</b>: https://github.com/mitoteam/jpgraph<br>
+    <b>description</b>: JpGraph library composer package with PHP 8.2 support<br>
+    <b>homepage</b>: https://packagist.org/packages/mitoteam/jpgraph<br>
+    <b>language</b>: PHP<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**jqPlot**:</summary>
-    **html_url**: "https://github.com/jqPlot/jqPlot",
-    **description**: "A Versatile and Expandable jQuery Plotting Plugin",
-    **homepage**: "http://www.jqplot.com",
-    **language**: "JavaScript",
-    **archived**: false,
+    <summary><b>jqPlot</b>:</summary>
+    <b>html_url</b>: https://github.com/jqPlot/jqPlot<br>
+    <b>description</b>: A Versatile and Expandable jQuery Plotting Plugin<br>
+    <b>homepage</b>: http://www.jqplot.com<br>
+    <b>language</b>: JavaScript<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**jquery**:</summary>
-    **html_url**: "https://github.com/jquery/jquery",
-    **description**: "jQuery JavaScript Library",
-    **homepage**: "https://jquery.com",
-    **language**: "JavaScript",
-    **archived**: false,
+    <summary><b>jquery</b>:</summary>
+    <b>html_url</b>: https://github.com/jquery/jquery<br>
+    <b>description</b>: jQuery JavaScript Library<br>
+    <b>homepage</b>: https://jquery.com<br>
+    <b>language</b>: JavaScript<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**jquery-calendar-bs4**:</summary>
-    **html_url**: "https://github.com/ArrobeFr/jquery-calendar-bs4",
-    **description**: "A responsive jquery calendar scheduler built with bootstrap 4 and moment.js",
-    **homepage**: null,
-    **language**: "HTML",
-    **archived**: false,
+    <summary><b>jquery-calendar-bs4</b>:</summary>
+    <b>html_url</b>: https://github.com/ArrobeFr/jquery-calendar-bs4<br>
+    <b>description</b>: A responsive jquery calendar scheduler built with bootstrap 4 and moment.js<br>
+    <b>homepage</b>: -<br>
+    <b>language</b>: HTML<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**jQuery-File-Upload**:</summary>
-    **html_url**: "https://github.com/blueimp/jQuery-File-Upload",
-    **description**: "File Upload widget with multiple file selection, drag&drop support, progress bar, validation and preview images, audio and video for jQuery. Supports cross-domain, chunked and resumable file uploads. Works with any server-side platform (Google App Engine, PHP, Python, Ruby on Rails, Java, etc.) that supports standard HTML form file uploads.",
-    **homepage**: "https://blueimp.github.io/jQuery-File-Upload/",
-    **language**: "PHP",
-    **archived**: true,
+    <summary><b>jQuery-File-Upload</b>:</summary>
+    <b>html_url</b>: https://github.com/blueimp/jQuery-File-Upload<br>
+    <b>description</b>: File Upload widget with multiple file selection, drag&drop support, progress bar, validation and preview images, audio and video for jQuery. Supports cross-domain, chunked and resumable file uploads. Works with any server-side platform (Google App Engine, PHP, Python, Ruby on Rails, Java, etc.) that supports standard HTML form file uploads.<br>
+    <b>homepage</b>: https://blueimp.github.io/jQuery-File-Upload/<br>
+    <b>language</b>: PHP<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**jquery-headerPersist**:</summary>
-    **html_url**: "https://github.com/travishorn/jquery-headerPersist",
-    **description**: "Locks a header to the top of the page only when user is scrolling within it's parent container.",
-    **homepage**: "http://travishorn.github.com/jquery-headerPersist",
-    **language**: "HTML",
-    **archived**: false,
-    **license**: null,
+    <summary><b>jquery-headerPersist</b>:</summary>
+    <b>html_url</b>: https://github.com/travishorn/jquery-headerPersist<br>
+    <b>description</b>: Locks a header to the top of the page only when user is scrolling within it's parent container.<br>
+    <b>homepage</b>: http://travishorn.github.com/jquery-headerPersist<br>
+    <b>language</b>: HTML<br>
+    <b>archived</b>: -<br>
+    <b>license</b>: -<br>
   </details>
 
   <details>
-    <summary>**jQuery-Timepicker-Addon**:</summary>
-    **html_url**: "https://github.com/trentrichardson/jQuery-Timepicker-Addon",
-    **description**: "Adds a timepicker to jQueryUI Datepicker",
-    **homepage**: "http://trentrichardson.com/examples/timepicker/",
-    **language**: "JavaScript",
-    **archived**: false,
+    <summary><b>jQuery-Timepicker-Addon</b>:</summary>
+    <b>html_url</b>: https://github.com/trentrichardson/jQuery-Timepicker-Addon<br>
+    <b>description</b>: Adds a timepicker to jQueryUI Datepicker<br>
+    <b>homepage</b>: http://trentrichardson.com/examples/timepicker/<br>
+    <b>language</b>: JavaScript<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**jquery-treegrid**:</summary>
-    **html_url**: "https://github.com/maxazan/jquery-treegrid",
-    **description**: "TreeGrid plugin for jQuery",
-    **homepage**: "http://maxazan.github.io/jquery-treegrid",
-    **language**: "JavaScript",
-    **archived**: false,
+    <summary><b>jquery-treegrid</b>:</summary>
+    <b>html_url</b>: https://github.com/maxazan/jquery-treegrid<br>
+    <b>description</b>: TreeGrid plugin for jQuery<br>
+    <b>homepage</b>: http://maxazan.github.io/jquery-treegrid<br>
+    <b>language</b>: JavaScript<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**jquery-ui**:</summary>
-    **html_url**: "https://github.com/jquery/jquery-ui",
-    **description**: "The official jQuery user interface library.",
-    **homepage**: "https://jqueryui.com",
-    **language**: "JavaScript",
-    **archived**: false,
+    <summary><b>jquery-ui</b>:</summary>
+    <b>html_url</b>: https://github.com/jquery/jquery-ui<br>
+    <b>description</b>: The official jQuery user interface library.<br>
+    <b>homepage</b>: https://jqueryui.com<br>
+    <b>language</b>: JavaScript<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**jquery-ui-contextmenu**:</summary>
-    **html_url**: "https://github.com/mar10/jquery-ui-contextmenu",
-    **description**: "jQuery plugin that turns a jQueryUI menu widget into a context menu.",
-    **homepage**: "",
-    **language**: "JavaScript",
-    **archived**: true,
+    <summary><b>jquery-ui-contextmenu</b>:</summary>
+    <b>html_url</b>: https://github.com/mar10/jquery-ui-contextmenu<br>
+    <b>description</b>: jQuery plugin that turns a jQueryUI menu widget into a context menu.<br>
+    <b>homepage</b>: -<br>
+    <b>language</b>: JavaScript<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**jquery-ui-month-picker**:</summary>
-    **html_url**: "https://github.com/KidSysco/jquery-ui-month-picker",
-    **description**: "jQuery UI Month Picker Plugin",
-    **homepage**: "https://kidsysco.github.io/jquery-ui-month-picker/",
-    **language**: "JavaScript",
-    **archived**: false,
+    <summary><b>jquery-ui-month-picker</b>:</summary>
+    <b>html_url</b>: https://github.com/KidSysco/jquery-ui-month-picker<br>
+    <b>description</b>: jQuery UI Month Picker Plugin<br>
+    <b>homepage</b>: https://kidsysco.github.io/jquery-ui-month-picker/<br>
+    <b>language</b>: JavaScript<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**jquery-week-calendar**:</summary>
-    **html_url**: "https://github.com/themouette/jquery-week-calendar",
-    **description**: "A weekly calendar plugin based on jquery and jquery-ui",
-    **homepage**: "http://groups.google.com/group/jquery-week-calendar",
-    **language**: "JavaScript",
-    **archived**: false,
-    **license**: null,
+    <summary><b>jquery-week-calendar</b>:</summary>
+    <b>html_url</b>: https://github.com/themouette/jquery-week-calendar<br>
+    <b>description</b>: A weekly calendar plugin based on jquery and jquery-ui<br>
+    <b>homepage</b>: http://groups.google.com/group/jquery-week-calendar<br>
+    <b>language</b>: JavaScript<br>
+    <b>archived</b>: -<br>
+    <b>license</b>: -<br>
   </details>
 
   <details>
-    <summary>**jquery.appendGrid**:</summary>
-    **html_url**: "https://github.com/hkalbertl/jquery.appendGrid",
-    **description**: "The dynamic table input JavaScript plugin",
-    **homepage**: "https://appendgrid.bsite.net",
-    **language**: "JavaScript",
-    **archived**: false,
+    <summary><b>jquery.appendGrid</b>:</summary>
+    <b>html_url</b>: https://github.com/hkalbertl/jquery.appendGrid<br>
+    <b>description</b>: The dynamic table input JavaScript plugin<br>
+    <b>homepage</b>: https://appendgrid.bsite.net<br>
+    <b>language</b>: JavaScript<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**jquery.flowchart**:</summary>
-    **html_url**: "https://github.com/sdrdis/jquery.flowchart",
-    **description**: "JQuery plugin that allows you to draw a flow chart.",
-    **homepage**: "http://sebastien.drouyer.com/jquery.flowchart-demo/",
-    **language**: "JavaScript",
-    **archived**: false,
+    <summary><b>jquery.flowchart</b>:</summary>
+    <b>html_url</b>: https://github.com/sdrdis/jquery.flowchart<br>
+    <b>description</b>: JQuery plugin that allows you to draw a flow chart.<br>
+    <b>homepage</b>: http://sebastien.drouyer.com/jquery.flowchart-demo/<br>
+    <b>language</b>: JavaScript<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**jQuery.my**:</summary>
-    **html_url**: "https://github.com/ermouth/jQuery.my",
-    **description**: "jQuery.my is a plugin that binds form controls with js data structures.",
-    **homepage**: "http://jquerymy.com",
-    **language**: "JavaScript",
-    **archived**: false,
-    **license**: null,
+    <summary><b>jQuery.my</b>:</summary>
+    <b>html_url</b>: https://github.com/ermouth/jQuery.my<br>
+    <b>description</b>: jQuery.my is a plugin that binds form controls with js data structures.<br>
+    <b>homepage</b>: http://jquerymy.com<br>
+    <b>language</b>: JavaScript<br>
+    <b>archived</b>: -<br>
+    <b>license</b>: -<br>
   </details>
 
   <details>
-    <summary>**jquery.poplockit**:</summary>
-    **html_url**: "https://github.com/zamiang/jquery.poplockit",
-    **description**: "A jQuery plugin for 'locking' short content in place as the user scrolls by longer content.",
-    **homepage**: "http://zamiang.github.io/jquery.poplockit/",
-    **language**: "JavaScript",
-    **archived**: false,
+    <summary><b>jquery.poplockit</b>:</summary>
+    <b>html_url</b>: https://github.com/zamiang/jquery.poplockit<br>
+    <b>description</b>: A jQuery plugin for 'locking' short content in place as the user scrolls by longer content.<br>
+    <b>homepage</b>: http://zamiang.github.io/jquery.poplockit/<br>
+    <b>language</b>: JavaScript<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**jquery.terminal**:</summary>
-    **html_url**: "https://github.com/jcubic/jquery.terminal",
-    **description**: "jQuery Terminal Emulator - JavaScript library for creating web-based terminals with custom commands",
-    **homepage**: "https://terminal.jcubic.pl",
-    **language**: "JavaScript",
-    **archived**: false,
+    <summary><b>jquery.terminal</b>:</summary>
+    <b>html_url</b>: https://github.com/jcubic/jquery.terminal<br>
+    <b>description</b>: jQuery Terminal Emulator - JavaScript library for creating web-based terminals with custom commands<br>
+    <b>homepage</b>: https://terminal.jcubic.pl<br>
+    <b>language</b>: JavaScript<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**JqueryFixedScrollBackground**:</summary>
-    **html_url**: "https://github.com/ebaumstarck/JqueryFixedScrollBackground",
-    **description**: "jquery plugin for fixed scroll background",
-    **homepage**: null,
-    **language**: "JavaScript",
-    **archived**: false,
+    <summary><b>JqueryFixedScrollBackground</b>:</summary>
+    <b>html_url</b>: https://github.com/ebaumstarck/JqueryFixedScrollBackground<br>
+    <b>description</b>: jquery plugin for fixed scroll background<br>
+    <b>homepage</b>: -<br>
+    <b>language</b>: JavaScript<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**jQueryGantt**:</summary>
-    **html_url**: "https://github.com/robicch/jQueryGantt",
-    **description**: "jQuery Gantt editor",
-    **homepage**: null,
-    **language**: "JavaScript",
-    **archived**: false,
+    <summary><b>jQueryGantt</b>:</summary>
+    <b>html_url</b>: https://github.com/robicch/jQueryGantt<br>
+    <b>description</b>: jQuery Gantt editor<br>
+    <b>homepage</b>: -<br>
+    <b>language</b>: JavaScript<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**js2php**:</summary>
-    **html_url**: "https://github.com/endel/js2php",
-    **description**: "JavaScript (ES6) to PHP source-to-source transpiler.",
-    **homepage**: "https://endel.github.io/js2php/",
-    **language**: "JavaScript",
-    **archived**: false,
+    <summary><b>js2php</b>:</summary>
+    <b>html_url</b>: https://github.com/endel/js2php<br>
+    <b>description</b>: JavaScript (ES6) to PHP source-to-source transpiler.<br>
+    <b>homepage</b>: https://endel.github.io/js2php/<br>
+    <b>language</b>: JavaScript<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**jsfuck**:</summary>
-    **html_url**: "https://github.com/aemkei/jsfuck",
-    **description**: "Write any JavaScript with 6 Characters: []()!+",
-    **homepage**: "jsfuck.com",
-    **language**: "JavaScript",
-    **archived**: false,
+    <summary><b>jsfuck</b>:</summary>
+    <b>html_url</b>: https://github.com/aemkei/jsfuck<br>
+    <b>description</b>: Write any JavaScript with 6 Characters: []()!+<br>
+    <b>homepage</b>: jsfuck.com<br>
+    <b>language</b>: JavaScript<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**JShrink**:</summary>
-    **html_url**: "https://github.com/tedious/JShrink",
-    **description**: "Javascript Minifier built in PHP ",
-    **homepage**: "http://www.tedivm.com",
-    **language**: "PHP",
-    **archived**: false,
+    <summary><b>JShrink</b>:</summary>
+    <b>html_url</b>: https://github.com/tedious/JShrink<br>
+    <b>description</b>: Javascript Minifier built in PHP <br>
+    <b>homepage</b>: http://www.tedivm.com<br>
+    <b>language</b>: PHP<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**jsPDF**:</summary>
-    **html_url**: "https://github.com/parallax/jsPDF",
-    **description**: "Client-side JavaScript PDF generation for everyone.",
-    **homepage**: "https://parall.ax/products/jspdf",
-    **language**: "JavaScript",
-    **archived**: false,
+    <summary><b>jsPDF</b>:</summary>
+    <b>html_url</b>: https://github.com/parallax/jsPDF<br>
+    <b>description</b>: Client-side JavaScript PDF generation for everyone.<br>
+    <b>homepage</b>: https://parall.ax/products/jspdf<br>
+    <b>language</b>: JavaScript<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**jsplumb**:</summary>
-    **html_url**: "https://github.com/jsplumb/jsplumb",
-    **description**: "Visual connectivity for webapps",
-    **homepage**: "https://jsplumbtoolkit.com",
-    **language**: "JavaScript",
-    **archived**: false,
+    <summary><b>jsplumb</b>:</summary>
+    <b>html_url</b>: https://github.com/jsplumb/jsplumb<br>
+    <b>description</b>: Visual connectivity for webapps<br>
+    <b>homepage</b>: https://jsplumbtoolkit.com<br>
+    <b>language</b>: JavaScript<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**jstree**:</summary>
-    **html_url**: "https://github.com/vakata/jstree",
-    **description**: "jquery tree plugin",
-    **homepage**: "http://jstree.com",
-    **language**: "JavaScript",
-    **archived**: false,
+    <summary><b>jstree</b>:</summary>
+    <b>html_url</b>: https://github.com/vakata/jstree<br>
+    <b>description</b>: jquery tree plugin<br>
+    <b>homepage</b>: http://jstree.com<br>
+    <b>language</b>: JavaScript<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**jstree-bootstrap-theme**:</summary>
-    **html_url**: "https://github.com/orangehill/jstree-bootstrap-theme",
-    **description**: "Reponsive jsTree Twitter Bootstrap 3 Compatible Theme",
-    **homepage**: null,
-    **language**: "CSS",
-    **archived**: false,
+    <summary><b>jstree-bootstrap-theme</b>:</summary>
+    <b>html_url</b>: https://github.com/orangehill/jstree-bootstrap-theme<br>
+    <b>description</b>: Reponsive jsTree Twitter Bootstrap 3 Compatible Theme<br>
+    <b>homepage</b>: -<br>
+    <b>language</b>: CSS<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**Kalkun**:</summary>
-    **html_url**: "https://github.com/kalkun-sms/Kalkun",
-    **description**: "Open Source Web based SMS Manager",
-    **homepage**: "https://kalkun.sourceforge.io/",
-    **language**: "PHP",
-    **archived**: false,
+    <summary><b>Kalkun</b>:</summary>
+    <b>html_url</b>: https://github.com/kalkun-sms/Kalkun<br>
+    <b>description</b>: Open Source Web based SMS Manager<br>
+    <b>homepage</b>: https://kalkun.sourceforge.io/<br>
+    <b>language</b>: PHP<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**kanboard**:</summary>
-    **html_url**: "https://github.com/kanboard/kanboard",
-    **description**: "Kanban project management software",
-    **homepage**: "https://kanboard.org",
-    **language**: "PHP",
-    **archived**: false,
+    <summary><b>kanboard</b>:</summary>
+    <b>html_url</b>: https://github.com/kanboard/kanboard<br>
+    <b>description</b>: Kanban project management software<br>
+    <b>homepage</b>: https://kanboard.org<br>
+    <b>language</b>: PHP<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**kchmviewer**:</summary>
-    **html_url**: "https://github.com/gyunaev/kchmviewer",
-    **description**: "kchmviewer is a CHM (Winhelp) files viewer written on Qt/KDE. It can be build as a standalone Qt-based application, or a KDE application. The main point of kchmviewer is compatibility with non-English chm files, including most international charsets.",
-    **homepage**: "http://www.ulduzsoft.com/linux/kchmviewer/",
-    **language**: "C++",
-    **archived**: false,
+    <summary><b>kchmviewer</b>:</summary>
+    <b>html_url</b>: https://github.com/gyunaev/kchmviewer<br>
+    <b>description</b>: kchmviewer is a CHM (Winhelp) files viewer written on Qt/KDE. It can be build as a standalone Qt-based application, or a KDE application. The main point of kchmviewer is compatibility with non-English chm files, including most international charsets.<br>
+    <b>homepage</b>: http://www.ulduzsoft.com/linux/kchmviewer/<br>
+    <b>language</b>: C++<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**kdenlive**:</summary>
-    **html_url**: "https://github.com/KDE/kdenlive",
-    **description**: "Free and open source video editor, based on MLT Framework and KDE Frameworks 5",
-    **homepage**: "https://invent.kde.org/multimedia/kdenlive",
-    **language**: "C++",
-    **archived**: false,
+    <summary><b>kdenlive</b>:</summary>
+    <b>html_url</b>: https://github.com/KDE/kdenlive<br>
+    <b>description</b>: Free and open source video editor, based on MLT Framework and KDE Frameworks 5<br>
+    <b>homepage</b>: https://invent.kde.org/multimedia/kdenlive<br>
+    <b>language</b>: C++<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**kdev-php**:</summary>
-    **html_url**: "https://github.com/KDE/kdev-php",
-    **description**: "PHP Language Plugin for KDevelop",
-    **homepage**: "https://invent.kde.org/kdevelop/kdev-php",
-    **language**: "PHP",
-    **archived**: false,
-    **license**: null,
+    <summary><b>kdev-php</b>:</summary>
+    <b>html_url</b>: https://github.com/KDE/kdev-php<br>
+    <b>description</b>: PHP Language Plugin for KDevelop<br>
+    <b>homepage</b>: https://invent.kde.org/kdevelop/kdev-php<br>
+    <b>language</b>: PHP<br>
+    <b>archived</b>: -<br>
+    <b>license</b>: -<br>
   </details>
 
   <details>
-    <summary>**kdevelop**:</summary>
-    **html_url**: "https://github.com/KDE/kdevelop",
-    **description**: "Cross-platform IDE for C, C++, Python, QML/JavaScript and PHP",
-    **homepage**: "https://invent.kde.org/kdevelop/kdevelop",
-    **language**: "C++",
-    **archived**: false,
+    <summary><b>kdevelop</b>:</summary>
+    <b>html_url</b>: https://github.com/KDE/kdevelop<br>
+    <b>description</b>: Cross-platform IDE for C, C++, Python, QML/JavaScript and PHP<br>
+    <b>homepage</b>: https://invent.kde.org/kdevelop/kdevelop<br>
+    <b>language</b>: C++<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**kdiff3**:</summary>
-    **html_url**: "https://github.com/KDE/kdiff3",
-    **description**: "Utility for comparing and merging files and directories",
-    **homepage**: "https://invent.kde.org/sdk/kdiff3",
-    **language**: "C++",
-    **archived**: false,
+    <summary><b>kdiff3</b>:</summary>
+    <b>html_url</b>: https://github.com/KDE/kdiff3<br>
+    <b>description</b>: Utility for comparing and merging files and directories<br>
+    <b>homepage</b>: https://invent.kde.org/sdk/kdiff3<br>
+    <b>language</b>: C++<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**keepassx**:</summary>
-    **html_url**: "https://github.com/keepassx/keepassx",
-    **description**: "KeePassX is a cross platform port of the windows application “Keepass Password Safe”.",
-    **homepage**: "http://www.keepassx.org/",
-    **language**: "C++",
-    **archived**: true,
+    <summary><b>keepassx</b>:</summary>
+    <b>html_url</b>: https://github.com/keepassx/keepassx<br>
+    <b>description</b>: KeePassX is a cross platform port of the windows application “Keepass Password Safe”.<br>
+    <b>homepage</b>: http://www.keepassx.org/<br>
+    <b>language</b>: C++<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**keynote-nf**:</summary>
-    **html_url**: "https://github.com/dpradov/keynote-nf",
-    **description**: "Tabbed notebook with RichText editor, multi-level notes and strong encryption.",
-    **homepage**: "",
-    **language**: "Pascal",
-    **archived**: false,
+    <summary><b>keynote-nf</b>:</summary>
+    <b>html_url</b>: https://github.com/dpradov/keynote-nf<br>
+    <b>description</b>: Tabbed notebook with RichText editor, multi-level notes and strong encryption.<br>
+    <b>homepage</b>: -<br>
+    <b>language</b>: Pascal<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**kicad-source-mirror**:</summary>
-    **html_url**: "https://github.com/KiCad/kicad-source-mirror",
-    **description**: "This is an active mirror of the KiCad development branch, which is hosted at GitLab (updated every time something is pushed). Pull requests on GitHub are not accepted or watched.",
-    **homepage**: "https://gitlab.com/kicad/code/kicad",
-    **language**: "C++",
-    **archived**: false,
+    <summary><b>kicad-source-mirror</b>:</summary>
+    <b>html_url</b>: https://github.com/KiCad/kicad-source-mirror<br>
+    <b>description</b>: This is an active mirror of the KiCad development branch, which is hosted at GitLab (updated every time something is pushed). Pull requests on GitHub are not accepted or watched.<br>
+    <b>homepage</b>: https://gitlab.com/kicad/code/kicad<br>
+    <b>language</b>: C++<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**kid3**:</summary>
-    **html_url**: "https://github.com/KDE/kid3",
-    **description**: "Efficient audio tagger that supports a large variety of file formats",
-    **homepage**: "https://invent.kde.org/multimedia/kid3",
-    **language**: "C++",
-    **archived**: false,
+    <summary><b>kid3</b>:</summary>
+    <b>html_url</b>: https://github.com/KDE/kid3<br>
+    <b>description</b>: Efficient audio tagger that supports a large variety of file formats<br>
+    <b>homepage</b>: https://invent.kde.org/multimedia/kid3<br>
+    <b>language</b>: C++<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**Kinovea**:</summary>
-    **html_url**: "https://github.com/Kinovea/Kinovea",
-    **description**: "Video solution for sport analysis. Capture, inspect, compare, annotate and measure technical performances. ",
-    **homepage**: "https://www.kinovea.org",
-    **language**: "C#",
-    **archived**: false,
+    <summary><b>Kinovea</b>:</summary>
+    <b>html_url</b>: https://github.com/Kinovea/Kinovea<br>
+    <b>description</b>: Video solution for sport analysis. Capture, inspect, compare, annotate and measure technical performances. <br>
+    <b>homepage</b>: https://www.kinovea.org<br>
+    <b>language</b>: C#<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**koel**:</summary>
-    **html_url**: "https://github.com/koel/koel",
-    **description**: "🐦 A personal music streaming server that works.",
-    **homepage**: "https://koel.dev",
-    **language**: "PHP",
-    **archived**: false,
+    <summary><b>koel</b>:</summary>
+    <b>html_url</b>: https://github.com/koel/koel<br>
+    <b>description</b>: 🐦 A personal music streaming server that works.<br>
+    <b>homepage</b>: https://koel.dev<br>
+    <b>language</b>: PHP<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**kphp**:</summary>
-    **html_url**: "https://github.com/VKCOM/kphp",
-    **description**: "KPHP — a PHP compiler",
-    **homepage**: "https://vkcom.github.io/kphp/",
-    **language**: "C++",
-    **archived**: false,
+    <summary><b>kphp</b>:</summary>
+    <b>html_url</b>: https://github.com/VKCOM/kphp<br>
+    <b>description</b>: KPHP — a PHP compiler<br>
+    <b>homepage</b>: https://vkcom.github.io/kphp/<br>
+    <b>language</b>: C++<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**krita**:</summary>
-    **html_url**: "https://github.com/KDE/krita",
-    **description**: "Krita is a free and open source cross-platform application that offers an end-to-end solution for creating digital art files from scratch built on the KDE and Qt frameworks.",
-    **homepage**: "https://invent.kde.org/graphics/krita",
-    **language**: "C++",
-    **archived**: false,
+    <summary><b>krita</b>:</summary>
+    <b>html_url</b>: https://github.com/KDE/krita<br>
+    <b>description</b>: Krita is a free and open source cross-platform application that offers an end-to-end solution for creating digital art files from scratch built on the KDE and Qt frameworks.<br>
+    <b>homepage</b>: https://invent.kde.org/graphics/krita<br>
+    <b>language</b>: C++<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**kstars**:</summary>
-    **html_url**: "https://github.com/KDE/kstars",
-    **description**: "Desktop Planetarium",
-    **homepage**: "https://invent.kde.org/education/kstars",
-    **language**: "C++",
-    **archived**: false,
-    **license**: null,
+    <summary><b>kstars</b>:</summary>
+    <b>html_url</b>: https://github.com/KDE/kstars<br>
+    <b>description</b>: Desktop Planetarium<br>
+    <b>homepage</b>: https://invent.kde.org/education/kstars<br>
+    <b>language</b>: C++<br>
+    <b>archived</b>: -<br>
+    <b>license</b>: -<br>
   </details>
 
   <details>
-    <summary>**lam**:</summary>
-    **html_url**: "https://github.com/LDAPAccountManager/lam",
-    **description**: "LDAP Account Manager",
-    **homepage**: "",
-    **language**: "JavaScript",
-    **archived**: false,
+    <summary><b>lam</b>:</summary>
+    <b>html_url</b>: https://github.com/LDAPAccountManager/lam<br>
+    <b>description</b>: LDAP Account Manager<br>
+    <b>homepage</b>: -<br>
+    <b>language</b>: JavaScript<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**languages**:</summary>
-    **html_url**: "https://github.com/rinvex/languages",
-    **description**: "Rinvex Language is a simple and lightweight package for retrieving language details with flexibility. A whole bunch of data including name, native, iso codes, language family, language script, language cultures, and other attributes for the 180+ known languages worldwide at your fingertips.",
-    **homepage**: null,
-    **language**: "PHP",
-    **archived**: false,
+    <summary><b>languages</b>:</summary>
+    <b>html_url</b>: https://github.com/rinvex/languages<br>
+    <b>description</b>: Rinvex Language is a simple and lightweight package for retrieving language details with flexibility. A whole bunch of data including name, native, iso codes, language family, language script, language cultures, and other attributes for the 180+ known languages worldwide at your fingertips.<br>
+    <b>homepage</b>: -<br>
+    <b>language</b>: PHP<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**laravel-gitscrum**:</summary>
-    **html_url**: "https://github.com/gitscrum-team/laravel-gitscrum",
-    **description**: "GitScrum is a Project Management Tool, developed to help entrepreneurs, freelancers, managers, and teams Skyrocket their Productivity with the Agile methodology and Gamification.",
-    **homepage**: "https://site.gitscrum.com",
-    **language**: "PHP",
-    **archived**: false,
+    <summary><b>laravel-gitscrum</b>:</summary>
+    <b>html_url</b>: https://github.com/gitscrum-team/laravel-gitscrum<br>
+    <b>description</b>: GitScrum is a Project Management Tool, developed to help entrepreneurs, freelancers, managers, and teams Skyrocket their Productivity with the Agile methodology and Gamification.<br>
+    <b>homepage</b>: https://site.gitscrum.com<br>
+    <b>language</b>: PHP<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**latte**:</summary>
-    **html_url**: "https://github.com/nette/latte",
-    **description**: "☕ Latte: the safest & truly intuitive templates for PHP. Engine for those who want the most secure PHP sites.",
-    **homepage**: "https://latte.nette.org",
-    **language**: "PHP",
-    **archived**: false,
+    <summary><b>latte</b>:</summary>
+    <b>html_url</b>: https://github.com/nette/latte<br>
+    <b>description</b>: ☕ Latte: the safest & truly intuitive templates for PHP. Engine for those who want the most secure PHP sites.<br>
+    <b>homepage</b>: https://latte.nette.org<br>
+    <b>language</b>: PHP<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**launch4j**:</summary>
-    **html_url**: "https://github.com/mirror/launch4j",
-    **description**: "git://git.code.sf.net/p/launch4j/git",
-    **homepage**: "",
-    **language**: "Java",
-    **archived**: false,
+    <summary><b>launch4j</b>:</summary>
+    <b>html_url</b>: https://github.com/mirror/launch4j<br>
+    <b>description</b>: git://git.code.sf.net/p/launch4j/git<br>
+    <b>homepage</b>: -<br>
+    <b>language</b>: Java<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**ldview**:</summary>
-    **html_url**: "https://github.com/tcobbs/ldview",
-    **description**: "Real-time 3D viewer for displaying LDraw models",
-    **homepage**: "https://tcobbs.github.io/ldview/",
-    **language**: "C++",
-    **archived**: false,
+    <summary><b>ldview</b>:</summary>
+    <b>html_url</b>: https://github.com/tcobbs/ldview<br>
+    <b>description</b>: Real-time 3D viewer for displaying LDraw models<br>
+    <b>homepage</b>: https://tcobbs.github.io/ldview/<br>
+    <b>language</b>: C++<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**ldview**:</summary>
-    **html_url**: "https://github.com/trevorsandy/ldview",
-    **description**: "Real-time 3D viewer for displaying LDraw models",
-    **homepage**: "https://tcobbs.github.io/ldview/",
-    **language**: "C++",
-    **archived**: false,
+    <summary><b>ldview</b>:</summary>
+    <b>html_url</b>: https://github.com/trevorsandy/ldview<br>
+    <b>description</b>: Real-time 3D viewer for displaying LDraw models<br>
+    <b>homepage</b>: https://tcobbs.github.io/ldview/<br>
+    <b>language</b>: C++<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**learn-php**:</summary>
-    **html_url**: "https://github.com/odan/learn-php",
-    **description**: ":elephant: Learn modern PHP",
-    **homepage**: "https://odan.github.io/learn-php/",
-    **language**: "HTML",
-    **archived**: false,
+    <summary><b>learn-php</b>:</summary>
+    <b>html_url</b>: https://github.com/odan/learn-php<br>
+    <b>description</b>: :elephant: Learn modern PHP<br>
+    <b>homepage</b>: https://odan.github.io/learn-php/<br>
+    <b>language</b>: HTML<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**leocad**:</summary>
-    **html_url**: "https://github.com/leozide/leocad",
-    **description**: "A CAD application for creating virtual LEGO models",
-    **homepage**: "https://www.leocad.org",
-    **language**: "C++",
-    **archived**: false,
-    **license**: null,
+    <summary><b>leocad</b>:</summary>
+    <b>html_url</b>: https://github.com/leozide/leocad<br>
+    <b>description</b>: A CAD application for creating virtual LEGO models<br>
+    <b>homepage</b>: https://www.leocad.org<br>
+    <b>language</b>: C++<br>
+    <b>archived</b>: -<br>
+    <b>license</b>: -<br>
   </details>
 
   <details>
-    <summary>**lessphp**:</summary>
-    **html_url**: "https://github.com/leafo/lessphp",
-    **description**: "LESS compiler written in PHP",
-    **homepage**: "http://leafo.net/lessphp",
-    **language**: "PHP",
-    **archived**: false,
+    <summary><b>lessphp</b>:</summary>
+    <b>html_url</b>: https://github.com/leafo/lessphp<br>
+    <b>description</b>: LESS compiler written in PHP<br>
+    <b>homepage</b>: http://leafo.net/lessphp<br>
+    <b>language</b>: PHP<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**LetoDMS**:</summary>
-    **html_url**: "https://github.com/trilexcom/LetoDMS",
-    **description**: "LetoDMS is an open-source document-management-system based on PHP and MySQL published under the GPL.",
-    **homepage**: "http://www.letodms.com",
-    **language**: "PHP",
-    **archived**: false,
+    <summary><b>LetoDMS</b>:</summary>
+    <b>html_url</b>: https://github.com/trilexcom/LetoDMS<br>
+    <b>description</b>: LetoDMS is an open-source document-management-system based on PHP and MySQL published under the GPL.<br>
+    <b>homepage</b>: http://www.letodms.com<br>
+    <b>language</b>: PHP<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**libphonenumber-for-php**:</summary>
-    **html_url**: "https://github.com/giggsey/libphonenumber-for-php",
-    **description**: "PHP version of Google's phone number handling library",
-    **homepage**: "https://giggsey.com/libphonenumber/",
-    **language**: "PHP",
-    **archived**: false,
+    <summary><b>libphonenumber-for-php</b>:</summary>
+    <b>html_url</b>: https://github.com/giggsey/libphonenumber-for-php<br>
+    <b>description</b>: PHP version of Google's phone number handling library<br>
+    <b>homepage</b>: https://giggsey.com/libphonenumber/<br>
+    <b>language</b>: PHP<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**LibreCAD**:</summary>
-    **html_url**: "https://github.com/LibreCAD/LibreCAD",
-    **description**: "LibreCAD is a cross-platform 2D CAD program written in C++14 using the Qt framework. It can read DXF and DWG files and can write DXF, PDF and SVG files. The user interface is highly customizable, and has dozens of translations.",
-    **homepage**: "http://librecad.org/",
-    **language**: "C++",
-    **archived**: false,
+    <summary><b>LibreCAD</b>:</summary>
+    <b>html_url</b>: https://github.com/LibreCAD/LibreCAD<br>
+    <b>description</b>: LibreCAD is a cross-platform 2D CAD program written in C++14 using the Qt framework. It can read DXF and DWG files and can write DXF, PDF and SVG files. The user interface is highly customizable, and has dozens of translations.<br>
+    <b>homepage</b>: http://librecad.org/<br>
+    <b>language</b>: C++<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**LibrePCB**:</summary>
-    **html_url**: "https://github.com/LibrePCB/LibrePCB",
-    **description**: "A powerful, innovative and intuitive EDA suite for everyone!",
-    **homepage**: "https://librepcb.org",
-    **language**: "C++",
-    **archived**: false,
+    <summary><b>LibrePCB</b>:</summary>
+    <b>html_url</b>: https://github.com/LibrePCB/LibrePCB<br>
+    <b>description</b>: A powerful, innovative and intuitive EDA suite for everyone!<br>
+    <b>homepage</b>: https://librepcb.org<br>
+    <b>language</b>: C++<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**lightproxy**:</summary>
-    **html_url**: "https://github.com/alibaba/lightproxy",
-    **description**: "💎 Cross platform Web debugging proxy",
-    **homepage**: "https://lightproxy.org/",
-    **language**: "TypeScript",
-    **archived**: false,
+    <summary><b>lightproxy</b>:</summary>
+    <b>html_url</b>: https://github.com/alibaba/lightproxy<br>
+    <b>description</b>: 💎 Cross platform Web debugging proxy<br>
+    <b>homepage</b>: https://lightproxy.org/<br>
+    <b>language</b>: TypeScript<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**LightTable**:</summary>
-    **html_url**: "https://github.com/LightTable/LightTable",
-    **description**: "The Light Table IDE ⛺",
-    **homepage**: "www.lighttable.com",
-    **language**: "Clojure",
-    **archived**: true,
+    <summary><b>LightTable</b>:</summary>
+    <b>html_url</b>: https://github.com/LightTable/LightTable<br>
+    <b>description</b>: The Light Table IDE ⛺<br>
+    <b>homepage</b>: www.lighttable.com<br>
+    <b>language</b>: Clojure<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**limbas**:</summary>
-    **html_url**: "https://github.com/limbas/limbas",
-    **description**: "Powerful database framework that fits your needs",
-    **homepage**: "https://www.limbas.com/en/",
-    **language**: "PHP",
-    **archived**: false,
+    <summary><b>limbas</b>:</summary>
+    <b>html_url</b>: https://github.com/limbas/limbas<br>
+    <b>description</b>: Powerful database framework that fits your needs<br>
+    <b>homepage</b>: https://www.limbas.com/en/<br>
+    <b>language</b>: PHP<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**LimeSurvey**:</summary>
-    **html_url**: "https://github.com/LimeSurvey/LimeSurvey",
-    **description**: "The most popular FOSS online survey tool on the web.",
-    **homepage**: "https://www.limesurvey.org",
-    **language**: "JavaScript",
-    **archived**: false,
+    <summary><b>LimeSurvey</b>:</summary>
+    <b>html_url</b>: https://github.com/LimeSurvey/LimeSurvey<br>
+    <b>description</b>: The most popular FOSS online survey tool on the web.<br>
+    <b>homepage</b>: https://www.limesurvey.org<br>
+    <b>language</b>: JavaScript<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**lmms**:</summary>
-    **html_url**: "https://github.com/LMMS/lmms",
-    **description**: "Cross-platform music production software",
-    **homepage**: "https://lmms.io",
-    **language**: "C++",
-    **archived**: false,
+    <summary><b>lmms</b>:</summary>
+    <b>html_url</b>: https://github.com/LMMS/lmms<br>
+    <b>description</b>: Cross-platform music production software<br>
+    <b>homepage</b>: https://lmms.io<br>
+    <b>language</b>: C++<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**locutus**:</summary>
-    **html_url**: "https://github.com/locutusjs/locutus",
-    **description**: "Bringing stdlibs of other programming languages to JavaScript for educational purposes",
-    **homepage**: "https://locutus.io",
-    **language**: "JavaScript",
-    **archived**: false,
+    <summary><b>locutus</b>:</summary>
+    <b>html_url</b>: https://github.com/locutusjs/locutus<br>
+    <b>description</b>: Bringing stdlibs of other programming languages to JavaScript for educational purposes<br>
+    <b>homepage</b>: https://locutus.io<br>
+    <b>language</b>: JavaScript<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**lodash**:</summary>
-    **html_url**: "https://github.com/lodash/lodash",
-    **description**: "A modern JavaScript utility library delivering modularity, performance, & extras.",
-    **homepage**: "https://lodash.com/",
-    **language**: "JavaScript",
-    **archived**: false,
+    <summary><b>lodash</b>:</summary>
+    <b>html_url</b>: https://github.com/lodash/lodash<br>
+    <b>description</b>: A modern JavaScript utility library delivering modularity, performance, & extras.<br>
+    <b>homepage</b>: https://lodash.com/<br>
+    <b>language</b>: JavaScript<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**lode**:</summary>
-    **html_url**: "https://github.com/lodeapp/lode",
-    **description**: "A universal GUI for unit testing built with Electron and Vue.js",
-    **homepage**: "https://lode.run",
-    **language**: "TypeScript",
-    **archived**: false,
+    <summary><b>lode</b>:</summary>
+    <b>html_url</b>: https://github.com/lodeapp/lode<br>
+    <b>description</b>: A universal GUI for unit testing built with Electron and Vue.js<br>
+    <b>homepage</b>: https://lode.run<br>
+    <b>language</b>: TypeScript<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**Logic-Circuit-Simulator**:</summary>
-    **html_url**: "https://github.com/drendog/Logic-Circuit-Simulator",
-    **description**: "A logic circuit simulator made with p5.js library.",
-    **homepage**: "https://drendog.github.io/Logic-Circuit-Simulator/",
-    **language**: "JavaScript",
-    **archived**: false,
+    <summary><b>Logic-Circuit-Simulator</b>:</summary>
+    <b>html_url</b>: https://github.com/drendog/Logic-Circuit-Simulator<br>
+    <b>description</b>: A logic circuit simulator made with p5.js library.<br>
+    <b>homepage</b>: https://drendog.github.io/Logic-Circuit-Simulator/<br>
+    <b>language</b>: JavaScript<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**LogicCircuit**:</summary>
-    **html_url**: "https://github.com/eugenelepekhin/LogicCircuit",
-    **description**: "LogicCircuit – is free, open source educational software for designing and simulating digital logic circuits.",
-    **homepage**: "https://logiccircuit.org/",
-    **language**: "C#",
-    **archived**: false,
-    **license**: null,
+    <summary><b>LogicCircuit</b>:</summary>
+    <b>html_url</b>: https://github.com/eugenelepekhin/LogicCircuit<br>
+    <b>description</b>: LogicCircuit – is free, open source educational software for designing and simulating digital logic circuits.<br>
+    <b>homepage</b>: https://logiccircuit.org/<br>
+    <b>language</b>: C#<br>
+    <b>archived</b>: -<br>
+    <b>license</b>: -<br>
   </details>
 
   <details>
-    <summary>**lossless-cut**:</summary>
-    **html_url**: "https://github.com/mifi/lossless-cut",
-    **description**: "The swiss army knife of lossless video/audio editing",
-    **homepage**: "",
-    **language**: "JavaScript",
-    **archived**: false,
+    <summary><b>lossless-cut</b>:</summary>
+    <b>html_url</b>: https://github.com/mifi/lossless-cut<br>
+    <b>description</b>: The swiss army knife of lossless video/audio editing<br>
+    <b>homepage</b>: -<br>
+    <b>language</b>: JavaScript<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**lpub3d**:</summary>
-    **html_url**: "https://github.com/trevorsandy/lpub3d",
-    **description**: "An LDraw™ editor for LEGO® style digital building instructions.",
-    **homepage**: "https://trevorsandy.github.io/lpub3d/",
-    **language**: "C++",
-    **archived**: false,
-    **license**: null,
+    <summary><b>lpub3d</b>:</summary>
+    <b>html_url</b>: https://github.com/trevorsandy/lpub3d<br>
+    <b>description</b>: An LDraw™ editor for LEGO® style digital building instructions.<br>
+    <b>homepage</b>: https://trevorsandy.github.io/lpub3d/<br>
+    <b>language</b>: C++<br>
+    <b>archived</b>: -<br>
+    <b>license</b>: -<br>
   </details>
 
   <details>
-    <summary>**luya**:</summary>
-    **html_url**: "https://github.com/luyadev/luya",
-    **description**: "LUYA is a scalable web framework and content management system with the goal to please developers, clients and users alike.",
-    **homepage**: "https://luya.io",
-    **language**: "PHP",
-    **archived**: false,
+    <summary><b>luya</b>:</summary>
+    <b>html_url</b>: https://github.com/luyadev/luya<br>
+    <b>description</b>: LUYA is a scalable web framework and content management system with the goal to please developers, clients and users alike.<br>
+    <b>homepage</b>: https://luya.io<br>
+    <b>language</b>: PHP<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**magento2**:</summary>
-    **html_url**: "https://github.com/magento/magento2",
-    **description**: "Prior to making any Submission(s), you must sign an Adobe Contributor License Agreement, available here at: https://opensource.adobe.com/cla.html. All Submissions you make to Adobe Inc. and its affiliates, assigns and subsidiaries (collectively “Adobe”) are subject to the terms of the Adobe Contributor License Agreement.",
-    **homepage**: "http://www.magento.com",
-    **language**: "PHP",
-    **archived**: false,
+    <summary><b>magento2</b>:</summary>
+    <b>html_url</b>: https://github.com/magento/magento2<br>
+    <b>description</b>: Prior to making any Submission(s), you must sign an Adobe Contributor License Agreement, available here at: https://opensource.adobe.com/cla.html. All Submissions you make to Adobe Inc. and its affiliates, assigns and subsidiaries (collectively “Adobe”) are subject to the terms of the Adobe Contributor License Agreement.<br>
+    <b>homepage</b>: http://www.magento.com<br>
+    <b>language</b>: PHP<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**mantisbt**:</summary>
-    **html_url**: "https://github.com/mantisbt/mantisbt",
-    **description**: "Mantis Bug Tracker (MantisBT)",
-    **homepage**: "https://mantisbt.org",
-    **language**: "PHP",
-    **archived**: false,
-    **license**: null,
+    <summary><b>mantisbt</b>:</summary>
+    <b>html_url</b>: https://github.com/mantisbt/mantisbt<br>
+    <b>description</b>: Mantis Bug Tracker (MantisBT)<br>
+    <b>homepage</b>: https://mantisbt.org<br>
+    <b>language</b>: PHP<br>
+    <b>archived</b>: -<br>
+    <b>license</b>: -<br>
   </details>
 
   <details>
-    <summary>**marble**:</summary>
-    **html_url**: "https://github.com/KDE/marble",
-    **description**: "Virtual Globe and World Atlas that you can use to learn more about the Earth",
-    **homepage**: "https://invent.kde.org/education/marble",
-    **language**: "C++",
-    **archived**: false,
+    <summary><b>marble</b>:</summary>
+    <b>html_url</b>: https://github.com/KDE/marble<br>
+    <b>description</b>: Virtual Globe and World Atlas that you can use to learn more about the Earth<br>
+    <b>homepage</b>: https://invent.kde.org/education/marble<br>
+    <b>language</b>: C++<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**Markdown-Edit**:</summary>
-    **html_url**: "https://github.com/mike-ward/Markdown-Edit",
-    **description**: "My attempt at a markdown editor for windows",
-    **homepage**: "https://mike-ward.net/Markdown-Edit",
-    **language**: "C#",
-    **archived**: false,
+    <summary><b>Markdown-Edit</b>:</summary>
+    <b>html_url</b>: https://github.com/mike-ward/Markdown-Edit<br>
+    <b>description</b>: My attempt at a markdown editor for windows<br>
+    <b>homepage</b>: https://mike-ward.net/Markdown-Edit<br>
+    <b>language</b>: C#<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**math-php**:</summary>
-    **html_url**: "https://github.com/markrogoyski/math-php",
-    **description**: "Powerful modern math library for PHP: Features descriptive statistics and regressions; Continuous and discrete probability distributions; Linear algebra with matrices and vectors, Numerical analysis; special mathematical functions; Algebra",
-    **homepage**: "",
-    **language**: "PHP",
-    **archived**: false,
+    <summary><b>math-php</b>:</summary>
+    <b>html_url</b>: https://github.com/markrogoyski/math-php<br>
+    <b>description</b>: Powerful modern math library for PHP: Features descriptive statistics and regressions; Continuous and discrete probability distributions; Linear algebra with matrices and vectors, Numerical analysis; special mathematical functions; Algebra<br>
+    <b>homepage</b>: -<br>
+    <b>language</b>: PHP<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**MathExecutor**:</summary>
-    **html_url**: "https://github.com/neonxp/MathExecutor",
-    **description**: "Simple math expresions parser and calculator",
-    **homepage**: "",
-    **language**: "PHP",
-    **archived**: false,
+    <summary><b>MathExecutor</b>:</summary>
+    <b>html_url</b>: https://github.com/neonxp/MathExecutor<br>
+    <b>description</b>: Simple math expresions parser and calculator<br>
+    <b>homepage</b>: -<br>
+    <b>language</b>: PHP<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**matomo**:</summary>
-    **html_url**: "https://github.com/matomo-org/matomo",
-    **description**: "Liberating Web Analytics. Star us on Github? +1. Matomo is the leading open alternative to Google Analytics that gives you full control over your data. Matomo lets you easily collect data from websites & apps and visualise this data and extract insights. Privacy is built-in. We love Pull Requests! ",
-    **homepage**: "https://matomo.org/",
-    **language**: "PHP",
-    **archived**: false,
+    <summary><b>matomo</b>:</summary>
+    <b>html_url</b>: https://github.com/matomo-org/matomo<br>
+    <b>description</b>: Liberating Web Analytics. Star us on Github? +1. Matomo is the leading open alternative to Google Analytics that gives you full control over your data. Matomo lets you easily collect data from websites & apps and visualise this data and extract insights. Privacy is built-in. We love Pull Requests! <br>
+    <b>homepage</b>: https://matomo.org/<br>
+    <b>language</b>: PHP<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**mautic**:</summary>
-    **html_url**: "https://github.com/mautic/mautic",
-    **description**: "Mautic: Open Source Marketing Automation Software.",
-    **homepage**: "https://www.mautic.org",
-    **language**: "PHP",
-    **archived**: false,
+    <summary><b>mautic</b>:</summary>
+    <b>html_url</b>: https://github.com/mautic/mautic<br>
+    <b>description</b>: Mautic: Open Source Marketing Automation Software.<br>
+    <b>homepage</b>: https://www.mautic.org<br>
+    <b>language</b>: PHP<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**mdb-ui-kit**:</summary>
-    **html_url**: "https://github.com/mdbootstrap/mdb-ui-kit",
-    **description**: "Bootstrap 5 & Material Design UI KIT",
-    **homepage**: "https://mdbootstrap.com/docs/standard/",
-    **language**: "SCSS",
-    **archived**: false,
+    <summary><b>mdb-ui-kit</b>:</summary>
+    <b>html_url</b>: https://github.com/mdbootstrap/mdb-ui-kit<br>
+    <b>description</b>: Bootstrap 5 & Material Design UI KIT<br>
+    <b>homepage</b>: https://mdbootstrap.com/docs/standard/<br>
+    <b>language</b>: SCSS<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**mediaChips**:</summary>
-    **html_url**: "https://github.com/fupdec/mediaChips",
-    **description**: "Manage your videos, add any metadata to them and play them.",
-    **homepage**: "https://mediachips.app",
-    **language**: "Vue",
-    **archived**: false,
+    <summary><b>mediaChips</b>:</summary>
+    <b>html_url</b>: https://github.com/fupdec/mediaChips<br>
+    <b>description</b>: Manage your videos, add any metadata to them and play them.<br>
+    <b>homepage</b>: https://mediachips.app<br>
+    <b>language</b>: Vue<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**mediawiki**:</summary>
-    **html_url**: "https://github.com/wikimedia/mediawiki",
-    **description**: "🌻 The collaborative editing software that runs Wikipedia. Mirror from https://gerrit.wikimedia.org/g/mediawiki/core. See https://mediawiki.org/wiki/Developer_access for contributing.",
-    **homepage**: "https://www.mediawiki.org",
-    **language**: "PHP",
-    **archived**: false,
+    <summary><b>mediawiki</b>:</summary>
+    <b>html_url</b>: https://github.com/wikimedia/mediawiki<br>
+    <b>description</b>: 🌻 The collaborative editing software that runs Wikipedia. Mirror from https://gerrit.wikimedia.org/g/mediawiki/core. See https://mediawiki.org/wiki/Developer_access for contributing.<br>
+    <b>homepage</b>: https://www.mediawiki.org<br>
+    <b>language</b>: PHP<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**medkey**:</summary>
-    **html_url**: "https://github.com/medkey-org/medkey",
-    **description**: "Medkey Hospital Information System main repository: Practice Management for Practicioners & Hospitals, EHR, Patient Engagement",
-    **homepage**: "https://medkey.org",
-    **language**: "PHP",
-    **archived**: false,
+    <summary><b>medkey</b>:</summary>
+    <b>html_url</b>: https://github.com/medkey-org/medkey<br>
+    <b>description</b>: Medkey Hospital Information System main repository: Practice Management for Practicioners & Hospitals, EHR, Patient Engagement<br>
+    <b>homepage</b>: https://medkey.org<br>
+    <b>language</b>: PHP<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**meld**:</summary>
-    **html_url**: "https://github.com/GNOME/meld",
-    **description**: "Read-only mirror of https://gitlab.gnome.org/GNOME/meld",
-    **homepage**: "https://gitlab.gnome.org/GNOME/meld",
-    **language**: "Python",
-    **archived**: false,
+    <summary><b>meld</b>:</summary>
+    <b>html_url</b>: https://github.com/GNOME/meld<br>
+    <b>description</b>: Read-only mirror of https://gitlab.gnome.org/GNOME/meld<br>
+    <b>homepage</b>: https://gitlab.gnome.org/GNOME/meld<br>
+    <b>language</b>: Python<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**mermaid**:</summary>
-    **html_url**: "https://github.com/mermaid-js/mermaid",
-    **description**: "Generation of diagrams like flowcharts or sequence diagrams from text in a similar manner as markdown",
-    **homepage**: "http://mermaid.js.org",
-    **language**: "JavaScript",
-    **archived**: false,
+    <summary><b>mermaid</b>:</summary>
+    <b>html_url</b>: https://github.com/mermaid-js/mermaid<br>
+    <b>description</b>: Generation of diagrams like flowcharts or sequence diagrams from text in a similar manner as markdown<br>
+    <b>homepage</b>: http://mermaid.js.org<br>
+    <b>language</b>: JavaScript<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**Meshroom**:</summary>
-    **html_url**: "https://github.com/alicevision/Meshroom",
-    **description**: "3D Reconstruction Software",
-    **homepage**: "http://alicevision.org",
-    **language**: "Python",
-    **archived**: false,
+    <summary><b>Meshroom</b>:</summary>
+    <b>html_url</b>: https://github.com/alicevision/Meshroom<br>
+    <b>description</b>: 3D Reconstruction Software<br>
+    <b>homepage</b>: http://alicevision.org<br>
+    <b>language</b>: Python<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**MetaLIMS**:</summary>
-    **html_url**: "https://github.com/cheinle/MetaLIMS",
-    **description**: "MetaLIMS, A Simple Open-Source Laboratory Information Management System for Small Metagenomic Labs",
-    **homepage**: "",
-    **language**: "PHP",
-    **archived**: false,
+    <summary><b>MetaLIMS</b>:</summary>
+    <b>html_url</b>: https://github.com/cheinle/MetaLIMS<br>
+    <b>description</b>: MetaLIMS, A Simple Open-Source Laboratory Information Management System for Small Metagenomic Labs<br>
+    <b>homepage</b>: -<br>
+    <b>language</b>: PHP<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**metismenu**:</summary>
-    **html_url**: "https://github.com/onokumus/metismenu",
-    **description**: "A collapsible jQuery menu plugin",
-    **homepage**: "https://onokumus.github.io/metismenu/",
-    **language**: "JavaScript",
-    **archived**: false,
+    <summary><b>metismenu</b>:</summary>
+    <b>html_url</b>: https://github.com/onokumus/metismenu<br>
+    <b>description</b>: A collapsible jQuery menu plugin<br>
+    <b>homepage</b>: https://onokumus.github.io/metismenu/<br>
+    <b>language</b>: JavaScript<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**midieditor**:</summary>
-    **html_url**: "https://github.com/markusschwenk/midieditor",
-    **description**: "Provides an interface to edit, record, and play Midi data",
-    **homepage**: null,
-    **language**: "C++",
-    **archived**: false,
+    <summary><b>midieditor</b>:</summary>
+    <b>html_url</b>: https://github.com/markusschwenk/midieditor<br>
+    <b>description</b>: Provides an interface to edit, record, and play Midi data<br>
+    <b>homepage</b>: -<br>
+    <b>language</b>: C++<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**mixxx**:</summary>
-    **html_url**: "https://github.com/mixxxdj/mixxx",
-    **description**: "Mixxx is Free DJ software that gives you everything you need to perform live mixes.",
-    **homepage**: "http://mixxx.org",
-    **language**: "C++",
-    **archived**: false,
+    <summary><b>mixxx</b>:</summary>
+    <b>html_url</b>: https://github.com/mixxxdj/mixxx<br>
+    <b>description</b>: Mixxx is Free DJ software that gives you everything you need to perform live mixes.<br>
+    <b>homepage</b>: http://mixxx.org<br>
+    <b>language</b>: C++<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**mlt**:</summary>
-    **html_url**: "https://github.com/mltframework/mlt",
-    **description**: "MLT Multimedia Framework",
-    **homepage**: "https://www.mltframework.org",
-    **language**: "C",
-    **archived**: false,
+    <summary><b>mlt</b>:</summary>
+    <b>html_url</b>: https://github.com/mltframework/mlt<br>
+    <b>description</b>: MLT Multimedia Framework<br>
+    <b>homepage</b>: https://www.mltframework.org<br>
+    <b>language</b>: C<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**mockup-designer**:</summary>
-    **html_url**: "https://github.com/fatiherikli/mockup-designer",
-    **description**: "The mockup tool that uses your local storage as backend.",
-    **homepage**: "http://fatiherikli.github.com/mockup-designer/",
-    **language**: "JavaScript",
-    **archived**: false,
+    <summary><b>mockup-designer</b>:</summary>
+    <b>html_url</b>: https://github.com/fatiherikli/mockup-designer<br>
+    <b>description</b>: The mockup tool that uses your local storage as backend.<br>
+    <b>homepage</b>: http://fatiherikli.github.com/mockup-designer/<br>
+    <b>language</b>: JavaScript<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**Modelio**:</summary>
-    **html_url**: "https://github.com/ModelioOpenSource/Modelio",
-    **description**: "Modelio is a modeling solution offering a wide range of functionalities based on the main standards of enterprise architecture, software development and systems engineering.",
-    **homepage**: "https://www.modelio.org",
-    **language**: "Java",
-    **archived**: false,
+    <summary><b>Modelio</b>:</summary>
+    <b>html_url</b>: https://github.com/ModelioOpenSource/Modelio<br>
+    <b>description</b>: Modelio is a modeling solution offering a wide range of functionalities based on the main standards of enterprise architecture, software development and systems engineering.<br>
+    <b>homepage</b>: https://www.modelio.org<br>
+    <b>language</b>: Java<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**moebius**:</summary>
-    **html_url**: "https://github.com/moebiusphp/moebius",
-    **description**: "True coroutines for PHP>=8.1 without worrying about event loops and callbacks.",
-    **homepage**: null,
-    **language**: "PHP",
-    **archived**: false,
+    <summary><b>moebius</b>:</summary>
+    <b>html_url</b>: https://github.com/moebiusphp/moebius<br>
+    <b>description</b>: True coroutines for PHP>=8.1 without worrying about event loops and callbacks.<br>
+    <b>homepage</b>: -<br>
+    <b>language</b>: PHP<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**moment**:</summary>
-    **html_url**: "https://github.com/moment/moment",
-    **description**: "Parse, validate, manipulate, and display dates in javascript.",
-    **homepage**: "momentjs.com",
-    **language**: "JavaScript",
-    **archived**: false,
+    <summary><b>moment</b>:</summary>
+    <b>html_url</b>: https://github.com/moment/moment<br>
+    <b>description</b>: Parse, validate, manipulate, and display dates in javascript.<br>
+    <b>homepage</b>: momentjs.com<br>
+    <b>language</b>: JavaScript<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**moment.php**:</summary>
-    **html_url**: "https://github.com/fightbulc/moment.php",
-    **description**: "Parse, validate, manipulate, and display dates in PHP w/ i18n support. Inspired by moment.js",
-    **homepage**: "",
-    **language**: "PHP",
-    **archived**: false,
+    <summary><b>moment.php</b>:</summary>
+    <b>html_url</b>: https://github.com/fightbulc/moment.php<br>
+    <b>description</b>: Parse, validate, manipulate, and display dates in PHP w/ i18n support. Inspired by moment.js<br>
+    <b>homepage</b>: -<br>
+    <b>language</b>: PHP<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**monica**:</summary>
-    **html_url**: "https://github.com/monicahq/monica",
-    **description**: "Personal CRM. Remember everything about your friends, family and business relationships.",
-    **homepage**: "https://www.monicahq.com",
-    **language**: "PHP",
-    **archived**: false,
+    <summary><b>monica</b>:</summary>
+    <b>html_url</b>: https://github.com/monicahq/monica<br>
+    <b>description</b>: Personal CRM. Remember everything about your friends, family and business relationships.<br>
+    <b>homepage</b>: https://www.monicahq.com<br>
+    <b>language</b>: PHP<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**mono**:</summary>
-    **html_url**: "https://github.com/mono/mono",
-    **description**: "Mono open source ECMA CLI, C# and .NET implementation.",
-    **homepage**: "https://www.mono-project.com",
-    **language**: "C#",
-    **archived**: false,
+    <summary><b>mono</b>:</summary>
+    <b>html_url</b>: https://github.com/mono/mono<br>
+    <b>description</b>: Mono open source ECMA CLI, C# and .NET implementation.<br>
+    <b>homepage</b>: https://www.mono-project.com<br>
+    <b>language</b>: C#<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**monolog**:</summary>
-    **html_url**: "https://github.com/Seldaek/monolog",
-    **description**: "Sends your logs to files, sockets, inboxes, databases and various web services",
-    **homepage**: "https://seldaek.github.io/monolog/",
-    **language**: "PHP",
-    **archived**: false,
+    <summary><b>monolog</b>:</summary>
+    <b>html_url</b>: https://github.com/Seldaek/monolog<br>
+    <b>description</b>: Sends your logs to files, sockets, inboxes, databases and various web services<br>
+    <b>homepage</b>: https://seldaek.github.io/monolog/<br>
+    <b>language</b>: PHP<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**moodle**:</summary>
-    **html_url**: "https://github.com/moodle/moodle",
-    **description**: "Moodle - the world's open source learning platform",
-    **homepage**: "https://moodle.org/",
-    **language**: "PHP",
-    **archived**: false,
+    <summary><b>moodle</b>:</summary>
+    <b>html_url</b>: https://github.com/moodle/moodle<br>
+    <b>description</b>: Moodle - the world's open source learning platform<br>
+    <b>homepage</b>: https://moodle.org/<br>
+    <b>language</b>: PHP<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**movemouse**:</summary>
-    **html_url**: "https://github.com/sw3103/movemouse",
-    **description**: "Move Mouse is a simple piece of software that is designed to simulate user activity.",
-    **homepage**: "http://www.movemouse.co.uk/",
-    **language**: "C#",
-    **archived**: false,
+    <summary><b>movemouse</b>:</summary>
+    <b>html_url</b>: https://github.com/sw3103/movemouse<br>
+    <b>description</b>: Move Mouse is a simple piece of software that is designed to simulate user activity.<br>
+    <b>homepage</b>: http://www.movemouse.co.uk/<br>
+    <b>language</b>: C#<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**MoviePrint_v004**:</summary>
-    **html_url**: "https://github.com/fakob/MoviePrint_v004",
-    **description**: "MoviePrint | A tool which lets you create screenshots of entire movies in an instant.",
-    **homepage**: "",
-    **language**: "JavaScript",
-    **archived**: false,
+    <summary><b>MoviePrint_v004</b>:</summary>
+    <b>html_url</b>: https://github.com/fakob/MoviePrint_v004<br>
+    <b>description</b>: MoviePrint | A tool which lets you create screenshots of entire movies in an instant.<br>
+    <b>homepage</b>: -<br>
+    <b>language</b>: JavaScript<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**mpc-hc**:</summary>
-    **html_url**: "https://github.com/clsid2/mpc-hc",
-    **description**: "Media Player Classic",
-    **homepage**: "",
-    **language**: "C++",
-    **archived**: false,
+    <summary><b>mpc-hc</b>:</summary>
+    <b>html_url</b>: https://github.com/clsid2/mpc-hc<br>
+    <b>description</b>: Media Player Classic<br>
+    <b>homepage</b>: -<br>
+    <b>language</b>: C++<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**mrbs-code**:</summary>
-    **html_url**: "https://github.com/meeting-room-booking-system/mrbs-code",
-    **description**: "MRBS application code",
-    **homepage**: "",
-    **language**: "PHP",
-    **archived**: false,
+    <summary><b>mrbs-code</b>:</summary>
+    <b>html_url</b>: https://github.com/meeting-room-booking-system/mrbs-code<br>
+    <b>description</b>: MRBS application code<br>
+    <b>homepage</b>: -<br>
+    <b>language</b>: PHP<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**mtee**:</summary>
-    **html_url**: "https://github.com/ritchielawrence/mtee",
-    **description**: "Win32 stdout stream splitter",
-    **homepage**: "http://ritchielawrence.github.io/mtee",
-    **language**: "C++",
-    **archived**: false,
+    <summary><b>mtee</b>:</summary>
+    <b>html_url</b>: https://github.com/ritchielawrence/mtee<br>
+    <b>description</b>: Win32 stdout stream splitter<br>
+    <b>homepage</b>: http://ritchielawrence.github.io/mtee<br>
+    <b>language</b>: C++<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**multiavatar-php**:</summary>
-    **html_url**: "https://github.com/multiavatar/multiavatar-php",
-    **description**: "Multicultural Avatar Generator in PHP",
-    **homepage**: "https://multiavatar.com",
-    **language**: "PHP",
-    **archived**: false,
+    <summary><b>multiavatar-php</b>:</summary>
+    <b>html_url</b>: https://github.com/multiavatar/multiavatar-php<br>
+    <b>description</b>: Multicultural Avatar Generator in PHP<br>
+    <b>homepage</b>: https://multiavatar.com<br>
+    <b>language</b>: PHP<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**muse**:</summary>
-    **html_url**: "https://github.com/muse-sequencer/muse",
-    **description**: "MusE is a digital audio workstation with support for both Audio and MIDI",
-    **homepage**: "https://muse-sequencer.github.io/",
-    **language**: "C++",
-    **archived**: false,
+    <summary><b>muse</b>:</summary>
+    <b>html_url</b>: https://github.com/muse-sequencer/muse<br>
+    <b>description</b>: MusE is a digital audio workstation with support for both Audio and MIDI<br>
+    <b>homepage</b>: https://muse-sequencer.github.io/<br>
+    <b>language</b>: C++<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**MuseScore**:</summary>
-    **html_url**: "https://github.com/musescore/MuseScore",
-    **description**: "MuseScore is an open source and free music notation software. For support, contribution, bug reports, visit MuseScore.org. Fork and make pull requests!",
-    **homepage**: "https://musescore.org",
-    **language**: "C++",
-    **archived**: false,
+    <summary><b>MuseScore</b>:</summary>
+    <b>html_url</b>: https://github.com/musescore/MuseScore<br>
+    <b>description</b>: MuseScore is an open source and free music notation software. For support, contribution, bug reports, visit MuseScore.org. Fork and make pull requests!<br>
+    <b>homepage</b>: https://musescore.org<br>
+    <b>language</b>: C++<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**mypaint**:</summary>
-    **html_url**: "https://github.com/mypaint/mypaint",
-    **description**: "MyPaint is a simple drawing and painting program that works well with Wacom-style graphics tablets.",
-    **homepage**: "https://mypaint.app",
-    **language**: "Python",
-    **archived**: false,
+    <summary><b>mypaint</b>:</summary>
+    <b>html_url</b>: https://github.com/mypaint/mypaint<br>
+    <b>description</b>: MyPaint is a simple drawing and painting program that works well with Wacom-style graphics tablets.<br>
+    <b>homepage</b>: https://mypaint.app<br>
+    <b>language</b>: Python<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**n16n-desktop**:</summary>
-    **html_url**: "https://github.com/jonelo/n16n-desktop",
-    **description**: "The NumericalChameleon is a free, open source unit converter for the desktop on macOS, Linux, and Windows",
-    **homepage**: null,
-    **language**: "Java",
-    **archived**: false,
+    <summary><b>n16n-desktop</b>:</summary>
+    <b>html_url</b>: https://github.com/jonelo/n16n-desktop<br>
+    <b>description</b>: The NumericalChameleon is a free, open source unit converter for the desktop on macOS, Linux, and Windows<br>
+    <b>homepage</b>: -<br>
+    <b>language</b>: Java<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**Natron**:</summary>
-    **html_url**: "https://github.com/NatronGitHub/Natron",
-    **description**: "Open-source video compositing software. Node-graph based. Similar in functionalities to Adobe After Effects and Nuke by The Foundry.",
-    **homepage**: "http://NatronGitHub.github.io",
-    **language**: "C++",
-    **archived**: false,
+    <summary><b>Natron</b>:</summary>
+    <b>html_url</b>: https://github.com/NatronGitHub/Natron<br>
+    <b>description</b>: Open-source video compositing software. Node-graph based. Similar in functionalities to Adobe After Effects and Nuke by The Foundry.<br>
+    <b>homepage</b>: http://NatronGitHub.github.io<br>
+    <b>language</b>: C++<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**navigable-table**:</summary>
-    **html_url**: "https://github.com/gr2m/navigable-table",
-    **description**: "A Bootstrap plugin for elegant navigating along table inputs",
-    **homepage**: "http://gr2m.github.io/navigable-table/",
-    **language**: "JavaScript",
-    **archived**: false,
-    **license**: null,
+    <summary><b>navigable-table</b>:</summary>
+    <b>html_url</b>: https://github.com/gr2m/navigable-table<br>
+    <b>description</b>: A Bootstrap plugin for elegant navigating along table inputs<br>
+    <b>homepage</b>: http://gr2m.github.io/navigable-table/<br>
+    <b>language</b>: JavaScript<br>
+    <b>archived</b>: -<br>
+    <b>license</b>: -<br>
   </details>
 
   <details>
-    <summary>**netbeans**:</summary>
-    **html_url**: "https://github.com/apache/netbeans",
-    **description**: "Apache NetBeans",
-    **homepage**: "https://netbeans.apache.org/",
-    **language**: "Java",
-    **archived**: false,
+    <summary><b>netbeans</b>:</summary>
+    <b>html_url</b>: https://github.com/apache/netbeans<br>
+    <b>description</b>: Apache NetBeans<br>
+    <b>homepage</b>: https://netbeans.apache.org/<br>
+    <b>language</b>: Java<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**netbeans-portable**:</summary>
-    **html_url**: "https://github.com/garethflowers/netbeans-portable",
-    **description**: "Portable version of the Netbeans IDE",
-    **homepage**: "https://garethflowers.dev/netbeans-portable/",
-    **language**: "HTML",
-    **archived**: false,
+    <summary><b>netbeans-portable</b>:</summary>
+    <b>html_url</b>: https://github.com/garethflowers/netbeans-portable<br>
+    <b>description</b>: Portable version of the Netbeans IDE<br>
+    <b>homepage</b>: https://garethflowers.dev/netbeans-portable/<br>
+    <b>language</b>: HTML<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**netron**:</summary>
-    **html_url**: "https://github.com/lutzroeder/netron",
-    **description**: "Visualizer for neural network, deep learning, and machine learning models",
-    **homepage**: "https://netron.app",
-    **language**: "JavaScript",
-    **archived**: false,
+    <summary><b>netron</b>:</summary>
+    <b>html_url</b>: https://github.com/lutzroeder/netron<br>
+    <b>description</b>: Visualizer for neural network, deep learning, and machine learning models<br>
+    <b>homepage</b>: https://netron.app<br>
+    <b>language</b>: JavaScript<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**nodejs-portable**:</summary>
-    **html_url**: "https://github.com/garethflowers/nodejs-portable",
-    **description**: "Portable version of NodeJS, for Windows",
-    **homepage**: "https://garethflowers.dev/nodejs-portable/",
-    **language**: "HTML",
-    **archived**: false,
+    <summary><b>nodejs-portable</b>:</summary>
+    <b>html_url</b>: https://github.com/garethflowers/nodejs-portable<br>
+    <b>description</b>: Portable version of NodeJS, for Windows<br>
+    <b>homepage</b>: https://garethflowers.dev/nodejs-portable/<br>
+    <b>language</b>: HTML<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**notepad-plus-plus**:</summary>
-    **html_url**: "https://github.com/notepad-plus-plus/notepad-plus-plus",
-    **description**: "Notepad++ official repository",
-    **homepage**: "https://notepad-plus-plus.org/",
-    **language**: "C++",
-    **archived**: false,
+    <summary><b>notepad-plus-plus</b>:</summary>
+    <b>html_url</b>: https://github.com/notepad-plus-plus/notepad-plus-plus<br>
+    <b>description</b>: Notepad++ official repository<br>
+    <b>homepage</b>: https://notepad-plus-plus.org/<br>
+    <b>language</b>: C++<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**npackd-cpp**:</summary>
-    **html_url**: "https://github.com/npackd/npackd-cpp",
-    **description**: "Package manager for Microsoft Windows (GUI and command line utility)",
-    **homepage**: "https://www.npackd.org",
-    **language**: "C++",
-    **archived**: false,
+    <summary><b>npackd-cpp</b>:</summary>
+    <b>html_url</b>: https://github.com/npackd/npackd-cpp<br>
+    <b>description</b>: Package manager for Microsoft Windows (GUI and command line utility)<br>
+    <b>homepage</b>: https://www.npackd.org<br>
+    <b>language</b>: C++<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**npp-phpautocompletion**:</summary>
-    **html_url**: "https://github.com/StanDog/npp-phpautocompletion",
-    **description**: "Autocompletion for PHP in Notepad++",
-    **homepage**: null,
-    **language**: "Pascal",
-    **archived**: true,
+    <summary><b>npp-phpautocompletion</b>:</summary>
+    <b>html_url</b>: https://github.com/StanDog/npp-phpautocompletion<br>
+    <b>description</b>: Autocompletion for PHP in Notepad++<br>
+    <b>homepage</b>: -<br>
+    <b>language</b>: Pascal<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**NppLSP**:</summary>
-    **html_url**: "https://github.com/dail8859/NppLSP",
-    **description**: "Notepad++ plugin to support the Language Server Protocol (LSP)",
-    **homepage**: null,
-    **language**: "C++",
-    **archived**: false,
+    <summary><b>NppLSP</b>:</summary>
+    <b>html_url</b>: https://github.com/dail8859/NppLSP<br>
+    <b>description</b>: Notepad++ plugin to support the Language Server Protocol (LSP)<br>
+    <b>homepage</b>: -<br>
+    <b>language</b>: C++<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**nsis**:</summary>
-    **html_url**: "https://github.com/kichik/nsis",
-    **description**: "***This is just a mirror of https://sf.net/projects/nsis -- please report issues there*** NSIS (Nullsoft Scriptable Install System) is a professional open source system to create Windows installers. It is designed to be as small and flexible as possible and is therefore very suitable for internet distribution.",
-    **homepage**: "https://nsis.sourceforge.io/",
-    **language**: "C++",
-    **archived**: false,
+    <summary><b>nsis</b>:</summary>
+    <b>html_url</b>: https://github.com/kichik/nsis<br>
+    <b>description</b>: ***This is just a mirror of https://sf.net/projects/nsis -- please report issues there*** NSIS (Nullsoft Scriptable Install System) is a professional open source system to create Windows installers. It is designed to be as small and flexible as possible and is therefore very suitable for internet distribution.<br>
+    <b>homepage</b>: https://nsis.sourceforge.io/<br>
+    <b>language</b>: C++<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**NSudo**:</summary>
-    **html_url**: "https://github.com/M2TeamArchived/NSudo",
-    **description**: "[Deprecated, work in progress alternative: https://github.com/M2Team/NanaRun] Series of System Administration Tools",
-    **homepage**: "https://nsudo.m2team.org/",
-    **language**: "C++",
-    **archived**: true,
+    <summary><b>NSudo</b>:</summary>
+    <b>html_url</b>: https://github.com/M2TeamArchived/NSudo<br>
+    <b>description</b>: [Deprecated, work in progress alternative: https://github.com/M2Team/NanaRun] Series of System Administration Tools<br>
+    <b>homepage</b>: https://nsudo.m2team.org/<br>
+    <b>language</b>: C++<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**nw.js**:</summary>
-    **html_url**: "https://github.com/nwjs/nw.js",
-    **description**: "Call all Node.js modules directly from DOM/WebWorker and enable a new way of writing applications with all Web technologies.",
-    **homepage**: "https://nwjs.io",
-    **language**: "JavaScript",
-    **archived**: false,
+    <summary><b>nw.js</b>:</summary>
+    <b>html_url</b>: https://github.com/nwjs/nw.js<br>
+    <b>description</b>: Call all Node.js modules directly from DOM/WebWorker and enable a new way of writing applications with all Web technologies.<br>
+    <b>homepage</b>: https://nwjs.io<br>
+    <b>language</b>: JavaScript<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**obfuscator**:</summary>
-    **html_url**: "https://github.com/darsyn/obfuscator",
-    **description**: "Obfuscate PHP source files with basic XOR encryption in userland code at runtime.",
-    **homepage**: "",
-    **language**: "PHP",
-    **archived**: true,
-    **license**: null,
+    <summary><b>obfuscator</b>:</summary>
+    <b>html_url</b>: https://github.com/darsyn/obfuscator<br>
+    <b>description</b>: Obfuscate PHP source files with basic XOR encryption in userland code at runtime.<br>
+    <b>homepage</b>: -<br>
+    <b>language</b>: PHP<br>
+    <b>archived</b>: -<br>
+    <b>license</b>: -<br>
   </details>
 
   <details>
-    <summary>**obs-studio**:</summary>
-    **html_url**: "https://github.com/obsproject/obs-studio",
-    **description**: "OBS Studio - Free and open source software for live streaming and screen recording",
-    **homepage**: "https://obsproject.com",
-    **language**: "C",
-    **archived**: false,
+    <summary><b>obs-studio</b>:</summary>
+    <b>html_url</b>: https://github.com/obsproject/obs-studio<br>
+    <b>description</b>: OBS Studio - Free and open source software for live streaming and screen recording<br>
+    <b>homepage</b>: https://obsproject.com<br>
+    <b>language</b>: C<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**ocs**:</summary>
-    **html_url**: "https://github.com/pkp/ocs",
-    **description**: "Open Conference System",
-    **homepage**: "http://pkp.sfu.ca/ocs",
-    **language**: "PHP",
-    **archived**: false,
-    **license**: null,
+    <summary><b>ocs</b>:</summary>
+    <b>html_url</b>: https://github.com/pkp/ocs<br>
+    <b>description</b>: Open Conference System<br>
+    <b>homepage</b>: http://pkp.sfu.ca/ocs<br>
+    <b>language</b>: PHP<br>
+    <b>archived</b>: -<br>
+    <b>license</b>: -<br>
   </details>
 
   <details>
-    <summary>**Octave**:</summary>
-    **html_url**: "https://github.com/NexMirror/Octave",
-    **description**: "Mirror of GNU Octave (hg::https://www.octave.org/hg/octave)",
-    **homepage**: "https://www.gnu.org/software/octave/",
-    **language**: "C++",
-    **archived**: false,
+    <summary><b>Octave</b>:</summary>
+    <b>html_url</b>: https://github.com/NexMirror/Octave<br>
+    <b>description</b>: Mirror of GNU Octave (hg::https://www.octave.org/hg/octave)<br>
+    <b>homepage</b>: https://www.gnu.org/software/octave/<br>
+    <b>language</b>: C++<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**october**:</summary>
-    **html_url**: "https://github.com/octobercms/october",
-    **description**: "Self-hosted CMS platform based on the Laravel PHP Framework.",
-    **homepage**: "https://octobercms.com/",
-    **language**: "PHP",
-    **archived**: false,
+    <summary><b>october</b>:</summary>
+    <b>html_url</b>: https://github.com/octobercms/october<br>
+    <b>description</b>: Self-hosted CMS platform based on the Laravel PHP Framework.<br>
+    <b>homepage</b>: https://octobercms.com/<br>
+    <b>language</b>: PHP<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**odtphp**:</summary>
-    **html_url**: "https://github.com/cybermonde/odtphp",
-    **description**: "Generate Open Document Text-files from PHP code - Générateur de document ODT à partir de PHP",
-    **homepage**: "",
-    **language**: "PHP",
-    **archived**: false,
+    <summary><b>odtphp</b>:</summary>
+    <b>html_url</b>: https://github.com/cybermonde/odtphp<br>
+    <b>description</b>: Generate Open Document Text-files from PHP code - Générateur de document ODT à partir de PHP<br>
+    <b>homepage</b>: -<br>
+    <b>language</b>: PHP<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**ojs**:</summary>
-    **html_url**: "https://github.com/pkp/ojs",
-    **description**: "Open Journal Systems is open source software to manage scholarly journals.",
-    **homepage**: "https://pkp.sfu.ca/software/ojs",
-    **language**: "PHP",
-    **archived**: false,
-    **license**: null,
+    <summary><b>ojs</b>:</summary>
+    <b>html_url</b>: https://github.com/pkp/ojs<br>
+    <b>description</b>: Open Journal Systems is open source software to manage scholarly journals.<br>
+    <b>homepage</b>: https://pkp.sfu.ca/software/ojs<br>
+    <b>language</b>: PHP<br>
+    <b>archived</b>: -<br>
+    <b>license</b>: -<br>
   </details>
 
   <details>
-    <summary>**okular**:</summary>
-    **html_url**: "https://github.com/KDE/okular",
-    **description**: "KDE document viewer",
-    **homepage**: "https://invent.kde.org/graphics/okular",
-    **language**: "C++",
-    **archived**: false,
-    **license**: null,
+    <summary><b>okular</b>:</summary>
+    <b>html_url</b>: https://github.com/KDE/okular<br>
+    <b>description</b>: KDE document viewer<br>
+    <b>homepage</b>: https://invent.kde.org/graphics/okular<br>
+    <b>language</b>: C++<br>
+    <b>archived</b>: -<br>
+    <b>license</b>: -<br>
   </details>
 
   <details>
-    <summary>**olive**:</summary>
-    **html_url**: "https://github.com/olive-editor/olive",
-    **description**: "Free open-source non-linear video editor",
-    **homepage**: "https://olivevideoeditor.org/",
-    **language**: "C++",
-    **archived**: false,
+    <summary><b>olive</b>:</summary>
+    <b>html_url</b>: https://github.com/olive-editor/olive<br>
+    <b>description</b>: Free open-source non-linear video editor<br>
+    <b>homepage</b>: https://olivevideoeditor.org/<br>
+    <b>language</b>: C++<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**Omeka**:</summary>
-    **html_url**: "https://github.com/omeka/Omeka",
-    **description**: "A flexible web publishing platform for the display of library, museum and scholarly collections, archives and exhibitions.",
-    **homepage**: "http://omeka.org",
-    **language**: "PHP",
-    **archived**: false,
+    <summary><b>Omeka</b>:</summary>
+    <b>html_url</b>: https://github.com/omeka/Omeka<br>
+    <b>description</b>: A flexible web publishing platform for the display of library, museum and scholarly collections, archives and exhibitions.<br>
+    <b>homepage</b>: http://omeka.org<br>
+    <b>language</b>: PHP<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**omp**:</summary>
-    **html_url**: "https://github.com/pkp/omp",
-    **description**: "Open Monograph Press is open source software to manage scholarly presses.",
-    **homepage**: "https://pkp.sfu.ca/software/omp",
-    **language**: "PHP",
-    **archived**: false,
-    **license**: null,
+    <summary><b>omp</b>:</summary>
+    <b>html_url</b>: https://github.com/pkp/omp<br>
+    <b>description</b>: Open Monograph Press is open source software to manage scholarly presses.<br>
+    <b>homepage</b>: https://pkp.sfu.ca/software/omp<br>
+    <b>language</b>: PHP<br>
+    <b>archived</b>: -<br>
+    <b>license</b>: -<br>
   </details>
 
   <details>
-    <summary>**open-lims**:</summary>
-    **html_url**: "https://github.com/open-lims/open-lims",
-    **description**: "Open-LIMS - The Open-Source Laboratory Information Management System",
-    **homepage**: "http://www.open-lims.org",
-    **language**: "PHP",
-    **archived**: false,
+    <summary><b>open-lims</b>:</summary>
+    <b>html_url</b>: https://github.com/open-lims/open-lims<br>
+    <b>description</b>: Open-LIMS - The Open-Source Laboratory Information Management System<br>
+    <b>homepage</b>: http://www.open-lims.org<br>
+    <b>language</b>: PHP<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**open-school-CE**:</summary>
-    **html_url**: "https://github.com/traprajith/open-school-CE",
-    **description**: "Open-School is an integrated school management system which focuses on excellence and evolution in the field of Education. To achieve this O-S is flexible and innovates the new trends in education management. Open-School is a diverse, demanding, and high quality educational management system where every user can discover and realize their potential to achieve overall development.",
-    **homepage**: "https://open-school.org/",
-    **language**: "PHP",
-    **archived**: false,
+    <summary><b>open-school-CE</b>:</summary>
+    <b>html_url</b>: https://github.com/traprajith/open-school-CE<br>
+    <b>description</b>: Open-School is an integrated school management system which focuses on excellence and evolution in the field of Education. To achieve this O-S is flexible and innovates the new trends in education management. Open-School is a diverse, demanding, and high quality educational management system where every user can discover and realize their potential to achieve overall development.<br>
+    <b>homepage</b>: https://open-school.org/<br>
+    <b>language</b>: PHP<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**openbiblio-1.0**:</summary>
-    **html_url**: "https://github.com/openbiblio/openbiblio-1.0",
-    **description**: null,
-    **homepage**: null,
-    **language**: "PHP",
-    **archived**: false,
+    <summary><b>openbiblio-1.0</b>:</summary>
+    <b>html_url</b>: https://github.com/openbiblio/openbiblio-1.0<br>
+    <b>description</b>: -<br>
+    <b>homepage</b>: -<br>
+    <b>language</b>: PHP<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**opencast**:</summary>
-    **html_url**: "https://github.com/opencast/opencast",
-    **description**: "The free and open source solution for automated video capture and distribution at scale.",
-    **homepage**: "https://opencast.org",
-    **language**: "Java",
-    **archived**: false,
+    <summary><b>opencast</b>:</summary>
+    <b>html_url</b>: https://github.com/opencast/opencast<br>
+    <b>description</b>: The free and open source solution for automated video capture and distribution at scale.<br>
+    <b>homepage</b>: https://opencast.org<br>
+    <b>language</b>: Java<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**openclinic**:</summary>
-    **html_url**: "https://github.com/jact/openclinic",
-    **description**: "OpenClinic is an easy to use, open source, medical records system written in PHP.",
-    **homepage**: null,
-    **language**: "PHP",
-    **archived**: false,
+    <summary><b>openclinic</b>:</summary>
+    <b>html_url</b>: https://github.com/jact/openclinic<br>
+    <b>description</b>: OpenClinic is an easy to use, open source, medical records system written in PHP.<br>
+    <b>homepage</b>: -<br>
+    <b>language</b>: PHP<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**OpenComic**:</summary>
-    **html_url**: "https://github.com/ollm/OpenComic",
-    **description**: "Comic and Manga reader, written with Node.js and using Electron",
-    **homepage**: "",
-    **language**: "JavaScript",
-    **archived**: false,
+    <summary><b>OpenComic</b>:</summary>
+    <b>html_url</b>: https://github.com/ollm/OpenComic<br>
+    <b>description</b>: Comic and Manga reader, written with Node.js and using Electron<br>
+    <b>homepage</b>: -<br>
+    <b>language</b>: JavaScript<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**opencv**:</summary>
-    **html_url**: "https://github.com/opencv/opencv",
-    **description**: "Open Source Computer Vision Library",
-    **homepage**: "https://opencv.org",
-    **language**: "C++",
-    **archived**: false,
+    <summary><b>opencv</b>:</summary>
+    <b>html_url</b>: https://github.com/opencv/opencv<br>
+    <b>description</b>: Open Source Computer Vision Library<br>
+    <b>homepage</b>: https://opencv.org<br>
+    <b>language</b>: C++<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**opendocman**:</summary>
-    **html_url**: "https://github.com/opendocman/opendocman",
-    **description**: "OpenDocMan - Free PHP Document Management System DMS",
-    **homepage**: "https://www.opendocman.com",
-    **language**: "PHP",
-    **archived**: false,
+    <summary><b>opendocman</b>:</summary>
+    <b>html_url</b>: https://github.com/opendocman/opendocman<br>
+    <b>description</b>: OpenDocMan - Free PHP Document Management System DMS<br>
+    <b>homepage</b>: https://www.opendocman.com<br>
+    <b>language</b>: PHP<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**openemr**:</summary>
-    **html_url**: "https://github.com/openemr/openemr",
-    **description**: "The most popular open source electronic health records and medical practice management solution.",
-    **homepage**: "https://open-emr.org/",
-    **language**: "PHP",
-    **archived**: false,
+    <summary><b>openemr</b>:</summary>
+    <b>html_url</b>: https://github.com/openemr/openemr<br>
+    <b>description</b>: The most popular open source electronic health records and medical practice management solution.<br>
+    <b>homepage</b>: https://open-emr.org/<br>
+    <b>language</b>: PHP<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**OpenJSCAD.org**:</summary>
-    **html_url**: "https://github.com/jscad/OpenJSCAD.org",
-    **description**: "JSCAD is an open source set of modular, browser and command line tools for creating parametric 2D and 3D designs with JavaScript code. It provides a quick, precise and reproducible method for generating 3D models, and is especially useful for 3D printing applications.",
-    **homepage**: "https://openjscad.xyz/",
-    **language**: "JavaScript",
-    **archived**: false,
+    <summary><b>OpenJSCAD.org</b>:</summary>
+    <b>html_url</b>: https://github.com/jscad/OpenJSCAD.org<br>
+    <b>description</b>: JSCAD is an open source set of modular, browser and command line tools for creating parametric 2D and 3D designs with JavaScript code. It provides a quick, precise and reproducible method for generating 3D models, and is especially useful for 3D printing applications.<br>
+    <b>homepage</b>: https://openjscad.xyz/<br>
+    <b>language</b>: JavaScript<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**openoffice**:</summary>
-    **html_url**: "https://github.com/apache/openoffice",
-    **description**: "Apache OpenOffice",
-    **homepage**: "https://www.openoffice.org",
-    **language**: "C++",
-    **archived**: false,
+    <summary><b>openoffice</b>:</summary>
+    <b>html_url</b>: https://github.com/apache/openoffice<br>
+    <b>description</b>: Apache OpenOffice<br>
+    <b>homepage</b>: https://www.openoffice.org<br>
+    <b>language</b>: C++<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**openscad**:</summary>
-    **html_url**: "https://github.com/openscad/openscad",
-    **description**: "OpenSCAD - The Programmers Solid 3D CAD Modeller  ",
-    **homepage**: "https://www.openscad.org",
-    **language**: "C++",
-    **archived**: false,
+    <summary><b>openscad</b>:</summary>
+    <b>html_url</b>: https://github.com/openscad/openscad<br>
+    <b>description</b>: OpenSCAD - The Programmers Solid 3D CAD Modeller  <br>
+    <b>homepage</b>: https://www.openscad.org<br>
+    <b>language</b>: C++<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**openshot-qt**:</summary>
-    **html_url**: "https://github.com/OpenShot/openshot-qt",
-    **description**: "OpenShot Video Editor is an award-winning free and open-source video editor for Linux, Mac, and Windows, and is dedicated to delivering high quality video editing and animation solutions to the world.",
-    **homepage**: "http://www.openshot.org",
-    **language**: "Python",
-    **archived**: false,
+    <summary><b>openshot-qt</b>:</summary>
+    <b>html_url</b>: https://github.com/OpenShot/openshot-qt<br>
+    <b>description</b>: OpenShot Video Editor is an award-winning free and open-source video editor for Linux, Mac, and Windows, and is dedicated to delivering high quality video editing and animation solutions to the world.<br>
+    <b>homepage</b>: http://www.openshot.org<br>
+    <b>language</b>: Python<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**openSIS-Classic**:</summary>
-    **html_url**: "https://github.com/OS4ED/openSIS-Classic",
-    **description**: "openSIS is a commercial grade, secure, scalable & intuitive Student Information System, School Management Software from OS4ED. Has all functionalities to run single or multiple institutions in one installation. Web based, php code, MySQL database.",
-    **homepage**: "https://www.os4ed.com",
-    **language**: "PHP",
-    **archived**: false,
-    **license**: null,
+    <summary><b>openSIS-Classic</b>:</summary>
+    <b>html_url</b>: https://github.com/OS4ED/openSIS-Classic<br>
+    <b>description</b>: openSIS is a commercial grade, secure, scalable & intuitive Student Information System, School Management Software from OS4ED. Has all functionalities to run single or multiple institutions in one installation. Web based, php code, MySQL database.<br>
+    <b>homepage</b>: https://www.os4ed.com<br>
+    <b>language</b>: PHP<br>
+    <b>archived</b>: -<br>
+    <b>license</b>: -<br>
   </details>
 
   <details>
-    <summary>**opensource-socialnetwork**:</summary>
-    **html_url**: "https://github.com/opensource-socialnetwork/opensource-socialnetwork",
-    **description**: "Open Source Social Network (OSSN) is a social networking software written in PHP. It allows you to make a social networking website and helps your members build social relationships, with people who share similar professional or personal interests.  It is available in 17 international languages.",
-    **homepage**: "https://www.opensource-socialnetwork.org",
-    **language**: "PHP",
-    **archived**: false,
+    <summary><b>opensource-socialnetwork</b>:</summary>
+    <b>html_url</b>: https://github.com/opensource-socialnetwork/opensource-socialnetwork<br>
+    <b>description</b>: Open Source Social Network (OSSN) is a social networking software written in PHP. It allows you to make a social networking website and helps your members build social relationships, with people who share similar professional or personal interests.  It is available in 17 international languages.<br>
+    <b>homepage</b>: https://www.opensource-socialnetwork.org<br>
+    <b>language</b>: PHP<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**opensourcepos**:</summary>
-    **html_url**: "https://github.com/opensourcepos/opensourcepos",
-    **description**: "Open Source Point of Sale is a web based point of sale application written in PHP using CodeIgniter framework. It uses MySQL as the data back end and has a Bootstrap 3 based user interface.",
-    **homepage**: "http://www.opensourcepos.org",
-    **language**: "PHP",
-    **archived**: false,
+    <summary><b>opensourcepos</b>:</summary>
+    <b>html_url</b>: https://github.com/opensourcepos/opensourcepos<br>
+    <b>description</b>: Open Source Point of Sale is a web based point of sale application written in PHP using CodeIgniter framework. It uses MySQL as the data back end and has a Bootstrap 3 based user interface.<br>
+    <b>homepage</b>: http://www.opensourcepos.org<br>
+    <b>language</b>: PHP<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**openstego**:</summary>
-    **html_url**: "https://github.com/syvaidya/openstego",
-    **description**: "OpenStego is a steganography application that provides two functionalities: a) Data Hiding: It can hide any data within an image file. b) Watermarking: Watermarking image files with an invisible signature. It can be used to detect unauthorized file copying.",
-    **homepage**: "https://www.openstego.com",
-    **language**: "Java",
-    **archived**: false,
+    <summary><b>openstego</b>:</summary>
+    <b>html_url</b>: https://github.com/syvaidya/openstego<br>
+    <b>description</b>: OpenStego is a steganography application that provides two functionalities: a) Data Hiding: It can hide any data within an image file. b) Watermarking: Watermarking image files with an invisible signature. It can be used to detect unauthorized file copying.<br>
+    <b>homepage</b>: https://www.openstego.com<br>
+    <b>language</b>: Java<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**opentimetool**:</summary>
-    **html_url**: "https://github.com/steprobst/opentimetool",
-    **description**: "copy from sourceforge - i'm not the developer",
-    **homepage**: null,
-    **language**: "PHP",
-    **archived**: false,
+    <summary><b>opentimetool</b>:</summary>
+    <b>html_url</b>: https://github.com/steprobst/opentimetool<br>
+    <b>description</b>: copy from sourceforge - i'm not the developer<br>
+    <b>homepage</b>: -<br>
+    <b>language</b>: PHP<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**openTimetool**:</summary>
-    **html_url**: "https://github.com/uli-heller/openTimetool",
-    **description**: null,
-    **homepage**: null,
-    **language**: "PHP",
-    **archived**: false,
+    <summary><b>openTimetool</b>:</summary>
+    <b>html_url</b>: https://github.com/uli-heller/openTimetool<br>
+    <b>description</b>: -<br>
+    <b>homepage</b>: -<br>
+    <b>language</b>: PHP<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**opentoonz**:</summary>
-    **html_url**: "https://github.com/opentoonz/opentoonz",
-    **description**: "OpenToonz - An open-source full-featured 2D animation creation software",
-    **homepage**: "https://opentoonz.github.io/",
-    **language**: "C++",
-    **archived**: false,
+    <summary><b>opentoonz</b>:</summary>
+    <b>html_url</b>: https://github.com/opentoonz/opentoonz<br>
+    <b>description</b>: OpenToonz - An open-source full-featured 2D animation creation software<br>
+    <b>homepage</b>: https://opentoonz.github.io/<br>
+    <b>language</b>: C++<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**open_enventory-modified_for_US**:</summary>
-    **html_url**: "https://github.com/khoivan88/open_enventory-modified_for_US",
-    **description**: "Open Enventory, free open-source Chemical Inventory and ELN",
-    **homepage**: "https://open-enventory.gitbook.io/user-guides/",
-    **language**: "PHP",
-    **archived**: false,
+    <summary><b>open_enventory-modified_for_US</b>:</summary>
+    <b>html_url</b>: https://github.com/khoivan88/open_enventory-modified_for_US<br>
+    <b>description</b>: Open Enventory, free open-source Chemical Inventory and ELN<br>
+    <b>homepage</b>: https://open-enventory.gitbook.io/user-guides/<br>
+    <b>language</b>: PHP<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**ops**:</summary>
-    **html_url**: "https://github.com/pkp/ops",
-    **description**: "Open Preprint Systems is open source software to manage scholarly preprint servers.",
-    **homepage**: "https://pkp.sfu.ca/software/ops",
-    **language**: "PHP",
-    **archived**: false,
-    **license**: null,
+    <summary><b>ops</b>:</summary>
+    <b>html_url</b>: https://github.com/pkp/ops<br>
+    <b>description</b>: Open Preprint Systems is open source software to manage scholarly preprint servers.<br>
+    <b>homepage</b>: https://pkp.sfu.ca/software/ops<br>
+    <b>language</b>: PHP<br>
+    <b>archived</b>: -<br>
+    <b>license</b>: -<br>
   </details>
 
   <details>
-    <summary>**orangehrm**:</summary>
-    **html_url**: "https://github.com/orangehrm/orangehrm",
-    **description**: "OrangeHRM is a comprehensive Human Resource Management (HRM) System that captures  all the essential functionalities required for any enterprise. ",
-    **homepage**: null,
-    **language**: "PHP",
-    **archived**: false,
+    <summary><b>orangehrm</b>:</summary>
+    <b>html_url</b>: https://github.com/orangehrm/orangehrm<br>
+    <b>description</b>: OrangeHRM is a comprehensive Human Resource Management (HRM) System that captures  all the essential functionalities required for any enterprise. <br>
+    <b>homepage</b>: -<br>
+    <b>language</b>: PHP<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**orangescrum-community**:</summary>
-    **html_url**: "https://github.com/Orangescrum/orangescrum-community",
-    **description**: "Flexible Project Management web application written in CakePHP",
-    **homepage**: "https://www.orangescrum.com",
-    **language**: "PHP",
-    **archived**: false,
+    <summary><b>orangescrum-community</b>:</summary>
+    <b>html_url</b>: https://github.com/Orangescrum/orangescrum-community<br>
+    <b>description</b>: Flexible Project Management web application written in CakePHP<br>
+    <b>homepage</b>: https://www.orangescrum.com<br>
+    <b>language</b>: PHP<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**osTicket**:</summary>
-    **html_url**: "https://github.com/osTicket/osTicket",
-    **description**: "The osTicket open source ticketing system official project repository, for versions 1.8 and later",
-    **homepage**: "osticket.com",
-    **language**: "PHP",
-    **archived**: false,
+    <summary><b>osTicket</b>:</summary>
+    <b>html_url</b>: https://github.com/osTicket/osTicket<br>
+    <b>description</b>: The osTicket open source ticketing system official project repository, for versions 1.8 and later<br>
+    <b>homepage</b>: osticket.com<br>
+    <b>language</b>: PHP<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**Padre**:</summary>
-    **html_url**: "https://github.com/PadreIDE/Padre",
-    **description**: "Offical repository of the core Padre code",
-    **homepage**: "http://padre.perlide.org/",
-    **language**: "Perl",
-    **archived**: false,
+    <summary><b>Padre</b>:</summary>
+    <b>html_url</b>: https://github.com/PadreIDE/Padre<br>
+    <b>description</b>: Offical repository of the core Padre code<br>
+    <b>homepage</b>: http://padre.perlide.org/<br>
+    <b>language</b>: Perl<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**pandorafms**:</summary>
-    **html_url**: "https://github.com/pandorafms/pandorafms",
-    **description**: "Pandora FMS is a flexible and highly scalable monitoring system ready for big environments. It uses agents (Linux, Windows, AIX, HP-UX, Solaris and BSD systems) and can do both local and remote network monitoring (SNMP v3, TCP checks, WMI, etc).",
-    **homepage**: "http://pandorafms.com/",
-    **language**: "PHP",
-    **archived**: false,
-    **license**: null,
+    <summary><b>pandorafms</b>:</summary>
+    <b>html_url</b>: https://github.com/pandorafms/pandorafms<br>
+    <b>description</b>: Pandora FMS is a flexible and highly scalable monitoring system ready for big environments. It uses agents (Linux, Windows, AIX, HP-UX, Solaris and BSD systems) and can do both local and remote network monitoring (SNMP v3, TCP checks, WMI, etc).<br>
+    <b>homepage</b>: http://pandorafms.com/<br>
+    <b>language</b>: PHP<br>
+    <b>archived</b>: -<br>
+    <b>license</b>: -<br>
   </details>
 
   <details>
-    <summary>**paper-css**:</summary>
-    **html_url**: "https://github.com/cognitom/paper-css",
-    **description**: "Paper CSS for happy printing",
-    **homepage**: "https://www.npmjs.com/package/paper-css",
-    **language**: "CSS",
-    **archived**: false,
+    <summary><b>paper-css</b>:</summary>
+    <b>html_url</b>: https://github.com/cognitom/paper-css<br>
+    <b>description</b>: Paper CSS for happy printing<br>
+    <b>homepage</b>: https://www.npmjs.com/package/paper-css<br>
+    <b>language</b>: CSS<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**parsedown**:</summary>
-    **html_url**: "https://github.com/erusev/parsedown",
-    **description**: "Better Markdown Parser in PHP",
-    **homepage**: "https://parsedown.org",
-    **language**: "PHP",
-    **archived**: false,
+    <summary><b>parsedown</b>:</summary>
+    <b>html_url</b>: https://github.com/erusev/parsedown<br>
+    <b>description</b>: Better Markdown Parser in PHP<br>
+    <b>homepage</b>: https://parsedown.org<br>
+    <b>language</b>: PHP<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**PartKeepr**:</summary>
-    **html_url**: "https://github.com/partkeepr/PartKeepr",
-    **description**: "Open Source Inventory Management",
-    **homepage**: "http://www.partkeepr.org",
-    **language**: "JavaScript",
-    **archived**: false,
+    <summary><b>PartKeepr</b>:</summary>
+    <b>html_url</b>: https://github.com/partkeepr/PartKeepr<br>
+    <b>description</b>: Open Source Inventory Management<br>
+    <b>homepage</b>: http://www.partkeepr.org<br>
+    <b>language</b>: JavaScript<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**PASTE**:</summary>
-    **html_url**: "https://github.com/jordansamuel/PASTE",
-    **description**: "Paste is a project that started from the files pastebin.com used before it was bought.",
-    **homepage**: "https://phpaste.sourceforge.io/",
-    **language**: "PHP",
-    **archived**: false,
+    <summary><b>PASTE</b>:</summary>
+    <b>html_url</b>: https://github.com/jordansamuel/PASTE<br>
+    <b>description</b>: Paste is a project that started from the files pastebin.com used before it was bought.<br>
+    <b>homepage</b>: https://phpaste.sourceforge.io/<br>
+    <b>language</b>: PHP<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**pdf-php**:</summary>
-    **html_url**: "https://github.com/rospdf/pdf-php",
-    **description**: "Official R&OS PHP Pdf repository",
-    **homepage**: "http://pdf-php.sourceforge.net/",
-    **language**: "PHP",
-    **archived**: false,
+    <summary><b>pdf-php</b>:</summary>
+    <b>html_url</b>: https://github.com/rospdf/pdf-php<br>
+    <b>description</b>: Official R&OS PHP Pdf repository<br>
+    <b>homepage</b>: http://pdf-php.sourceforge.net/<br>
+    <b>language</b>: PHP<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**pdfarranger**:</summary>
-    **html_url**: "https://github.com/pdfarranger/pdfarranger",
-    **description**: "Small python-gtk application, which helps the user to merge or split PDF documents and rotate, crop and rearrange their pages using an interactive and intuitive graphical interface.",
-    **homepage**: "",
-    **language**: "Python",
-    **archived**: false,
+    <summary><b>pdfarranger</b>:</summary>
+    <b>html_url</b>: https://github.com/pdfarranger/pdfarranger<br>
+    <b>description</b>: Small python-gtk application, which helps the user to merge or split PDF documents and rotate, crop and rearrange their pages using an interactive and intuitive graphical interface.<br>
+    <b>homepage</b>: -<br>
+    <b>language</b>: Python<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**pdfmake**:</summary>
-    **html_url**: "https://github.com/bpampuch/pdfmake",
-    **description**: "Client/server side PDF printing in pure JavaScript",
-    **homepage**: "http://pdfmake.org",
-    **language**: "JavaScript",
-    **archived**: false,
+    <summary><b>pdfmake</b>:</summary>
+    <b>html_url</b>: https://github.com/bpampuch/pdfmake<br>
+    <b>description</b>: Client/server side PDF printing in pure JavaScript<br>
+    <b>homepage</b>: http://pdfmake.org<br>
+    <b>language</b>: JavaScript<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**pdfsam**:</summary>
-    **html_url**: "https://github.com/torakiki/pdfsam",
-    **description**: "PDFsam, a desktop application to split, merge, mix, rotate PDF files and extract pages",
-    **homepage**: "https://pdfsam.org",
-    **language**: "Java",
-    **archived**: false,
+    <summary><b>pdfsam</b>:</summary>
+    <b>html_url</b>: https://github.com/torakiki/pdfsam<br>
+    <b>description</b>: PDFsam, a desktop application to split, merge, mix, rotate PDF files and extract pages<br>
+    <b>homepage</b>: https://pdfsam.org<br>
+    <b>language</b>: Java<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**pdt**:</summary>
-    **html_url**: "https://github.com/eclipse-pdt/pdt",
-    **description**: "PHP Development Tools project (PDT)",
-    **homepage**: "https://eclipse.org/pdt",
-    **language**: "PHP",
-    **archived**: false,
+    <summary><b>pdt</b>:</summary>
+    <b>html_url</b>: https://github.com/eclipse-pdt/pdt<br>
+    <b>description</b>: PHP Development Tools project (PDT)<br>
+    <b>homepage</b>: https://eclipse.org/pdt<br>
+    <b>language</b>: PHP<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**peachpie**:</summary>
-    **html_url**: "https://github.com/peachpiecompiler/peachpie",
-    **description**: "PeachPie - the PHP compiler and runtime for .NET and .NET Core",
-    **homepage**: "https://www.peachpie.io",
-    **language**: "C#",
-    **archived**: false,
+    <summary><b>peachpie</b>:</summary>
+    <b>html_url</b>: https://github.com/peachpiecompiler/peachpie<br>
+    <b>description</b>: PeachPie - the PHP compiler and runtime for .NET and .NET Core<br>
+    <b>homepage</b>: https://www.peachpie.io<br>
+    <b>language</b>: C#<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**peast**:</summary>
-    **html_url**: "https://github.com/mck89/peast",
-    **description**: "JavaScript parser written in PHP that generates AST from your code according to ECMAScript specification",
-    **homepage**: "",
-    **language**: "PHP",
-    **archived**: false,
+    <summary><b>peast</b>:</summary>
+    <b>html_url</b>: https://github.com/mck89/peast<br>
+    <b>description</b>: JavaScript parser written in PHP that generates AST from your code according to ECMAScript specification<br>
+    <b>homepage</b>: -<br>
+    <b>language</b>: PHP<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**PeerTube**:</summary>
-    **html_url**: "https://github.com/Chocobozzz/PeerTube",
-    **description**: "ActivityPub-federated video streaming platform using P2P directly in your web browser",
-    **homepage**: "https://joinpeertube.org/",
-    **language**: "TypeScript",
-    **archived**: false,
+    <summary><b>PeerTube</b>:</summary>
+    <b>html_url</b>: https://github.com/Chocobozzz/PeerTube<br>
+    <b>description</b>: ActivityPub-federated video streaming platform using P2P directly in your web browser<br>
+    <b>homepage</b>: https://joinpeertube.org/<br>
+    <b>language</b>: TypeScript<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**pencil**:</summary>
-    **html_url**: "https://github.com/evolus/pencil",
-    **description**: "The Pencil Project's unique mission is to build a free and opensource tool for making diagrams and GUI prototyping that everyone can use. ",
-    **homepage**: "http://pencil.evolus.vn",
-    **language**: "JavaScript",
-    **archived**: false,
+    <summary><b>pencil</b>:</summary>
+    <b>html_url</b>: https://github.com/evolus/pencil<br>
+    <b>description</b>: The Pencil Project's unique mission is to build a free and opensource tool for making diagrams and GUI prototyping that everyone can use. <br>
+    <b>homepage</b>: http://pencil.evolus.vn<br>
+    <b>language</b>: JavaScript<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**pencil**:</summary>
-    **html_url**: "https://github.com/pencil2d/pencil",
-    **description**: "Pencil2D is an easy, intuitive tool to make 2D hand-drawn animations. Pencil2D is open source and cross-platform.",
-    **homepage**: "http://pencil2d.org",
-    **language**: "C++",
-    **archived**: false,
+    <summary><b>pencil</b>:</summary>
+    <b>html_url</b>: https://github.com/pencil2d/pencil<br>
+    <b>description</b>: Pencil2D is an easy, intuitive tool to make 2D hand-drawn animations. Pencil2D is open source and cross-platform.<br>
+    <b>homepage</b>: http://pencil2d.org<br>
+    <b>language</b>: C++<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**Perfect-DateTimePicker**:</summary>
-    **html_url**: "https://github.com/jiandaoyun/Perfect-DateTimePicker",
-    **description**: "A jQuery plugin for Date and Time Picker",
-    **homepage**: "http://jiandaoyun.github.io/Perfect-DateTimePicker/",
-    **language**: "JavaScript",
-    **archived**: false,
+    <summary><b>Perfect-DateTimePicker</b>:</summary>
+    <b>html_url</b>: https://github.com/jiandaoyun/Perfect-DateTimePicker<br>
+    <b>description</b>: A jQuery plugin for Date and Time Picker<br>
+    <b>homepage</b>: http://jiandaoyun.github.io/Perfect-DateTimePicker/<br>
+    <b>language</b>: JavaScript<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**period**:</summary>
-    **html_url**: "https://github.com/spatie/period",
-    **description**: "Complex period comparisons",
-    **homepage**: "https://spatie.be/open-source",
-    **language**: "PHP",
-    **archived**: false,
+    <summary><b>period</b>:</summary>
+    <b>html_url</b>: https://github.com/spatie/period<br>
+    <b>description</b>: Complex period comparisons<br>
+    <b>homepage</b>: https://spatie.be/open-source<br>
+    <b>language</b>: PHP<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**permadelete**:</summary>
-    **html_url**: "https://github.com/DevelopersTree/permadelete",
-    **description**: "Permanently shreds files, easily.",
-    **homepage**: "https://developerstree.github.io/permadelete/",
-    **language**: "C#",
-    **archived**: false,
+    <summary><b>permadelete</b>:</summary>
+    <b>html_url</b>: https://github.com/DevelopersTree/permadelete<br>
+    <b>description</b>: Permanently shreds files, easily.<br>
+    <b>homepage</b>: https://developerstree.github.io/permadelete/<br>
+    <b>language</b>: C#<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**pgadmin4**:</summary>
-    **html_url**: "https://github.com/pgadmin-org/pgadmin4",
-    **description**: "pgAdmin is the most popular and feature rich Open Source administration and development platform for PostgreSQL, the most advanced Open Source database in the world.",
-    **homepage**: "https://www.pgadmin.org",
-    **language**: "Python",
-    **archived**: false,
+    <summary><b>pgadmin4</b>:</summary>
+    <b>html_url</b>: https://github.com/pgadmin-org/pgadmin4<br>
+    <b>description</b>: pgAdmin is the most popular and feature rich Open Source administration and development platform for PostgreSQL, the most advanced Open Source database in the world.<br>
+    <b>homepage</b>: https://www.pgadmin.org<br>
+    <b>language</b>: Python<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**PH7**:</summary>
-    **html_url**: "https://github.com/symisc/PH7",
-    **description**: "An Embedded Implementation of PHP (C Library)",
-    **homepage**: "http://ph7.symisc.net",
-    **language**: "C",
-    **archived**: false,
+    <summary><b>PH7</b>:</summary>
+    <b>html_url</b>: https://github.com/symisc/PH7<br>
+    <b>description</b>: An Embedded Implementation of PHP (C Library)<br>
+    <b>homepage</b>: http://ph7.symisc.net<br>
+    <b>language</b>: C<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**phabricator**:</summary>
-    **html_url**: "https://github.com/phacility/phabricator",
-    **description**: "Effective June 1, 2021: Phabricator is no longer actively maintained.",
-    **homepage**: "http://phacility.com/phabricator/",
-    **language**: "PHP",
-    **archived**: false,
+    <summary><b>phabricator</b>:</summary>
+    <b>html_url</b>: https://github.com/phacility/phabricator<br>
+    <b>description</b>: Effective June 1, 2021: Phabricator is no longer actively maintained.<br>
+    <b>homepage</b>: http://phacility.com/phabricator/<br>
+    <b>language</b>: PHP<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**phan**:</summary>
-    **html_url**: "https://github.com/phan/phan",
-    **description**: "Phan is a static analyzer for PHP. Phan prefers to avoid false-positives and attempts to prove incorrectness rather than correctness.",
-    **homepage**: "https://github.com/phan/phan/wiki",
-    **language**: "PHP",
-    **archived**: false,
+    <summary><b>phan</b>:</summary>
+    <b>html_url</b>: https://github.com/phan/phan<br>
+    <b>description</b>: Phan is a static analyzer for PHP. Phan prefers to avoid false-positives and attempts to prove incorrectness rather than correctness.<br>
+    <b>homepage</b>: https://github.com/phan/phan/wiki<br>
+    <b>language</b>: PHP<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**phoenix**:</summary>
-    **html_url**: "https://github.com/phcode-dev/phoenix",
-    **description**: "Phoenix is a modern open-source IDE for the web, built for the browser. ",
-    **homepage**: "https://phcode.dev",
-    **language**: "JavaScript",
-    **archived**: false,
+    <summary><b>phoenix</b>:</summary>
+    <b>html_url</b>: https://github.com/phcode-dev/phoenix<br>
+    <b>description</b>: Phoenix is a modern open-source IDE for the web, built for the browser. <br>
+    <b>homepage</b>: https://phcode.dev<br>
+    <b>language</b>: JavaScript<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**PHP**:</summary>
-    **html_url**: "https://github.com/TheAlgorithms/PHP",
-    **description**: "All Algorithms implemented in PHP",
-    **homepage**: "",
-    **language**: "PHP",
-    **archived**: false,
+    <summary><b>PHP</b>:</summary>
+    <b>html_url</b>: https://github.com/TheAlgorithms/PHP<br>
+    <b>description</b>: All Algorithms implemented in PHP<br>
+    <b>homepage</b>: -<br>
+    <b>language</b>: PHP<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**php-app-server**:</summary>
-    **html_url**: "https://github.com/cubiclesoft/php-app-server",
-    **description**: "Create lightweight, installable applications written in HTML, CSS, Javascript, and PHP for the Windows, Mac, and Linux desktop operating systems.",
-    **homepage**: null,
-    **language**: "PHP",
-    **archived**: false,
+    <summary><b>php-app-server</b>:</summary>
+    <b>html_url</b>: https://github.com/cubiclesoft/php-app-server<br>
+    <b>description</b>: Create lightweight, installable applications written in HTML, CSS, Javascript, and PHP for the Windows, Mac, and Linux desktop operating systems.<br>
+    <b>homepage</b>: -<br>
+    <b>language</b>: PHP<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**PHP-CPP**:</summary>
-    **html_url**: "https://github.com/CopernicaMarketingSoftware/PHP-CPP",
-    **description**: "Library to build PHP extensions with C++",
-    **homepage**: "http://www.php-cpp.com/",
-    **language**: "C++",
-    **archived**: false,
+    <summary><b>PHP-CPP</b>:</summary>
+    <b>html_url</b>: https://github.com/CopernicaMarketingSoftware/PHP-CPP<br>
+    <b>description</b>: Library to build PHP extensions with C++<br>
+    <b>homepage</b>: http://www.php-cpp.com/<br>
+    <b>language</b>: C++<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**PHP-CS-Fixer**:</summary>
-    **html_url**: "https://github.com/PHP-CS-Fixer/PHP-CS-Fixer",
-    **description**: "A tool to automatically fix PHP Coding Standards issues",
-    **homepage**: "https://cs.symfony.com",
-    **language**: "PHP",
-    **archived**: false,
+    <summary><b>PHP-CS-Fixer</b>:</summary>
+    <b>html_url</b>: https://github.com/PHP-CS-Fixer/PHP-CS-Fixer<br>
+    <b>description</b>: A tool to automatically fix PHP Coding Standards issues<br>
+    <b>homepage</b>: https://cs.symfony.com<br>
+    <b>language</b>: PHP<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**PHP-CSS-Parser**:</summary>
-    **html_url**: "https://github.com/sabberworm/PHP-CSS-Parser",
-    **description**: "A Parser for CSS Files written in PHP. Allows extraction of CSS files into a data structure, manipulation of said structure and output as (optimized) CSS",
-    **homepage**: "http://www.sabberworm.com/blog/2010/6/10/php-css-parser",
-    **language**: "PHP",
-    **archived**: false,
+    <summary><b>PHP-CSS-Parser</b>:</summary>
+    <b>html_url</b>: https://github.com/sabberworm/PHP-CSS-Parser<br>
+    <b>description</b>: A Parser for CSS Files written in PHP. Allows extraction of CSS files into a data structure, manipulation of said structure and output as (optimized) CSS<br>
+    <b>homepage</b>: http://www.sabberworm.com/blog/2010/6/10/php-css-parser<br>
+    <b>language</b>: PHP<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**php-defer**:</summary>
-    **html_url**: "https://github.com/php-defer/php-defer",
-    **description**: "Golang's defer statement for PHP",
-    **homepage**: null,
-    **language**: "PHP",
-    **archived**: false,
+    <summary><b>php-defer</b>:</summary>
+    <b>html_url</b>: https://github.com/php-defer/php-defer<br>
+    <b>description</b>: Golang's defer statement for PHP<br>
+    <b>homepage</b>: -<br>
+    <b>language</b>: PHP<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**php-emoji**:</summary>
-    **html_url**: "https://github.com/b-viguier/php-emoji",
-    **description**: null,
-    **homepage**: null,
-    **language**: "PHP",
-    **archived**: false,
-    **license**: null,
+    <summary><b>php-emoji</b>:</summary>
+    <b>html_url</b>: https://github.com/b-viguier/php-emoji<br>
+    <b>description</b>: -<br>
+    <b>homepage</b>: -<br>
+    <b>language</b>: PHP<br>
+    <b>archived</b>: -<br>
+    <b>license</b>: -<br>
   </details>
 
   <details>
-    <summary>**php-evil**:</summary>
-    **html_url**: "https://github.com/frontdevops/php-evil",
-    **description**: "Disable eval instruction in PHP8",
-    **homepage**: null,
-    **language**: "M4",
-    **archived**: false,
+    <summary><b>php-evil</b>:</summary>
+    <b>html_url</b>: https://github.com/frontdevops/php-evil<br>
+    <b>description</b>: Disable eval instruction in PHP8<br>
+    <b>homepage</b>: -<br>
+    <b>language</b>: M4<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**php-excel-templator**:</summary>
-    **html_url**: "https://github.com/alhimik1986/php-excel-templator",
-    **description**: "PHP Spreadsheet extension to the export excel file from excel template",
-    **homepage**: null,
-    **language**: "PHP",
-    **archived**: false,
+    <summary><b>php-excel-templator</b>:</summary>
+    <b>html_url</b>: https://github.com/alhimik1986/php-excel-templator<br>
+    <b>description</b>: PHP Spreadsheet extension to the export excel file from excel template<br>
+    <b>homepage</b>: -<br>
+    <b>language</b>: PHP<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**PHP-FFMpeg**:</summary>
-    **html_url**: "https://github.com/PHP-FFMpeg/PHP-FFMpeg",
-    **description**: "An object oriented PHP driver for FFMpeg binary",
-    **homepage**: "",
-    **language**: "PHP",
-    **archived**: false,
+    <summary><b>PHP-FFMpeg</b>:</summary>
+    <b>html_url</b>: https://github.com/PHP-FFMpeg/PHP-FFMpeg<br>
+    <b>description</b>: An object oriented PHP driver for FFMpeg binary<br>
+    <b>homepage</b>: -<br>
+    <b>language</b>: PHP<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**php-gtk3**:</summary>
-    **html_url**: "https://github.com/scorninpc/php-gtk3",
-    **description**: "GTK3  extension for PHP",
-    **homepage**: "https://andor.com.br/",
-    **language**: "C++",
-    **archived**: false,
+    <summary><b>php-gtk3</b>:</summary>
+    <b>html_url</b>: https://github.com/scorninpc/php-gtk3<br>
+    <b>description</b>: GTK3  extension for PHP<br>
+    <b>homepage</b>: https://andor.com.br/<br>
+    <b>language</b>: C++<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**php-http-enum**:</summary>
-    **html_url**: "https://github.com/alexanderpas/php-http-enum",
-    **description**: "Composer package providing HTTP Methods, Status Codes and Reason Phrases for PHP",
-    **homepage**: "https://packagist.org/packages/alexanderpas/http-enum",
-    **language**: "PHP",
-    **archived**: false,
+    <summary><b>php-http-enum</b>:</summary>
+    <b>html_url</b>: https://github.com/alexanderpas/php-http-enum<br>
+    <b>description</b>: Composer package providing HTTP Methods, Status Codes and Reason Phrases for PHP<br>
+    <b>homepage</b>: https://packagist.org/packages/alexanderpas/http-enum<br>
+    <b>language</b>: PHP<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**php-langspec**:</summary>
-    **html_url**: "https://github.com/php/php-langspec",
-    **description**: "PHP Language Specification",
-    **homepage**: "http://www.php.net",
-    **language**: "PHP",
-    **archived**: false,
+    <summary><b>php-langspec</b>:</summary>
+    <b>html_url</b>: https://github.com/php/php-langspec<br>
+    <b>description</b>: PHP Language Specification<br>
+    <b>homepage</b>: http://www.php.net<br>
+    <b>language</b>: PHP<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**php-markdown**:</summary>
-    **html_url**: "https://github.com/michelf/php-markdown",
-    **description**: "Parser for Markdown and Markdown Extra derived from the original Markdown.pl by John Gruber.",
-    **homepage**: "http://michelf.ca/projects/php-markdown/",
-    **language**: "PHP",
-    **archived**: false,
+    <summary><b>php-markdown</b>:</summary>
+    <b>html_url</b>: https://github.com/michelf/php-markdown<br>
+    <b>description</b>: Parser for Markdown and Markdown Extra derived from the original Markdown.pl by John Gruber.<br>
+    <b>homepage</b>: http://michelf.ca/projects/php-markdown/<br>
+    <b>language</b>: PHP<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**php-mysql-engine**:</summary>
-    **html_url**: "https://github.com/vimeo/php-mysql-engine",
-    **description**: "A MySQL engine written in pure PHP",
-    **homepage**: null,
-    **language**: "PHP",
-    **archived**: false,
+    <summary><b>php-mysql-engine</b>:</summary>
+    <b>html_url</b>: https://github.com/vimeo/php-mysql-engine<br>
+    <b>description</b>: A MySQL engine written in pure PHP<br>
+    <b>homepage</b>: -<br>
+    <b>language</b>: PHP<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**php-opencv**:</summary>
-    **html_url**: "https://github.com/php-opencv/php-opencv",
-    **description**: "opencv 4.5+ with dnn module for php 7/8",
-    **homepage**: "https://github.com/php-opencv/php-opencv-examples",
-    **language**: "C++",
-    **archived**: false,
+    <summary><b>php-opencv</b>:</summary>
+    <b>html_url</b>: https://github.com/php-opencv/php-opencv<br>
+    <b>description</b>: opencv 4.5+ with dnn module for php 7/8<br>
+    <b>homepage</b>: https://github.com/php-opencv/php-opencv-examples<br>
+    <b>language</b>: C++<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**php-parser**:</summary>
-    **html_url**: "https://github.com/glayzzle/php-parser",
-    **description**: ":herb: NodeJS PHP Parser - extract AST or tokens",
-    **homepage**: "https://php-parser.glayzzle.com/",
-    **language**: "JavaScript",
-    **archived**: false,
+    <summary><b>php-parser</b>:</summary>
+    <b>html_url</b>: https://github.com/glayzzle/php-parser<br>
+    <b>description</b>: :herb: NodeJS PHP Parser - extract AST or tokens<br>
+    <b>homepage</b>: https://php-parser.glayzzle.com/<br>
+    <b>language</b>: JavaScript<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**PHP-Parser**:</summary>
-    **html_url**: "https://github.com/nikic/PHP-Parser",
-    **description**: "A PHP parser written in PHP",
-    **homepage**: "",
-    **language**: "PHP",
-    **archived**: false,
+    <summary><b>PHP-Parser</b>:</summary>
+    <b>html_url</b>: https://github.com/nikic/PHP-Parser<br>
+    <b>description</b>: A PHP parser written in PHP<br>
+    <b>homepage</b>: -<br>
+    <b>language</b>: PHP<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**php-pm**:</summary>
-    **html_url**: "https://github.com/php-pm/php-pm",
-    **description**: "PPM is a process manager, supercharger and load balancer for modern PHP applications.",
-    **homepage**: "",
-    **language**: "PHP",
-    **archived**: false,
+    <summary><b>php-pm</b>:</summary>
+    <b>html_url</b>: https://github.com/php-pm/php-pm<br>
+    <b>description</b>: PPM is a process manager, supercharger and load balancer for modern PHP applications.<br>
+    <b>homepage</b>: -<br>
+    <b>language</b>: PHP<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**php-src**:</summary>
-    **html_url**: "https://github.com/php/php-src",
-    **description**: "The PHP Interpreter",
-    **homepage**: "https://www.php.net",
-    **language**: "C",
-    **archived**: false,
+    <summary><b>php-src</b>:</summary>
+    <b>html_url</b>: https://github.com/php/php-src<br>
+    <b>description</b>: The PHP Interpreter<br>
+    <b>homepage</b>: https://www.php.net<br>
+    <b>language</b>: C<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**php-the-right-way**:</summary>
-    **html_url**: "https://github.com/codeguy/php-the-right-way",
-    **description**: "An easy-to-read, quick reference for PHP best practices, accepted coding standards, and links to authoritative tutorials around the Web",
-    **homepage**: "https://www.phptherightway.com",
-    **language**: "CSS",
-    **archived**: false,
+    <summary><b>php-the-right-way</b>:</summary>
+    <b>html_url</b>: https://github.com/codeguy/php-the-right-way<br>
+    <b>description</b>: An easy-to-read, quick reference for PHP best practices, accepted coding standards, and links to authoritative tutorials around the Web<br>
+    <b>homepage</b>: https://www.phptherightway.com<br>
+    <b>language</b>: CSS<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**phpactor**:</summary>
-    **html_url**: "https://github.com/phpactor/phpactor",
-    **description**: "Mainly a PHP Language Server with more features than you can shake a stick at",
-    **homepage**: "",
-    **language**: "PHP",
-    **archived**: false,
+    <summary><b>phpactor</b>:</summary>
+    <b>html_url</b>: https://github.com/phpactor/phpactor<br>
+    <b>description</b>: Mainly a PHP Language Server with more features than you can shake a stick at<br>
+    <b>homepage</b>: -<br>
+    <b>language</b>: PHP<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**phpbb**:</summary>
-    **html_url**: "https://github.com/phpbb/phpbb",
-    **description**: " phpBB Development: phpBB is a popular open-source bulletin board written in PHP. This repository also contains the history of version 2.",
-    **homepage**: "https://www.phpbb.com",
-    **language**: "PHP",
-    **archived**: false,
+    <summary><b>phpbb</b>:</summary>
+    <b>html_url</b>: https://github.com/phpbb/phpbb<br>
+    <b>description</b>:  phpBB Development: phpBB is a popular open-source bulletin board written in PHP. This repository also contains the history of version 2.<br>
+    <b>homepage</b>: https://www.phpbb.com<br>
+    <b>language</b>: PHP<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**phpbrew**:</summary>
-    **html_url**: "https://github.com/phpbrew/phpbrew",
-    **description**: "Brew & manage PHP versions in pure PHP at HOME",
-    **homepage**: "https://phpbrew.github.io/phpbrew",
-    **language**: "Makefile",
-    **archived**: false,
+    <summary><b>phpbrew</b>:</summary>
+    <b>html_url</b>: https://github.com/phpbrew/phpbrew<br>
+    <b>description</b>: Brew & manage PHP versions in pure PHP at HOME<br>
+    <b>homepage</b>: https://phpbrew.github.io/phpbrew<br>
+    <b>language</b>: Makefile<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**PHPCI**:</summary>
-    **html_url**: "https://github.com/dancryer/PHPCI",
-    **description**: "PHPCI is a free and open source continuous integration tool specifically designed for PHP.",
-    **homepage**: "",
-    **language**: "PHP",
-    **archived**: false,
+    <summary><b>PHPCI</b>:</summary>
+    <b>html_url</b>: https://github.com/dancryer/PHPCI<br>
+    <b>description</b>: PHPCI is a free and open source continuous integration tool specifically designed for PHP.<br>
+    <b>homepage</b>: -<br>
+    <b>language</b>: PHP<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**phpCompressor**:</summary>
-    **html_url**: "https://github.com/genasyst/phpCompressor",
-    **description**: "The main task of compressing PHP code, it is also possible to use as a simple PHP obfuscator. ",
-    **homepage**: "http://phpcompressor.genasyst.ru/index.php",
-    **language**: "PHP",
-    **archived**: false,
-    **license**: null,
+    <summary><b>phpCompressor</b>:</summary>
+    <b>html_url</b>: https://github.com/genasyst/phpCompressor<br>
+    <b>description</b>: The main task of compressing PHP code, it is also possible to use as a simple PHP obfuscator. <br>
+    <b>homepage</b>: http://phpcompressor.genasyst.ru/index.php<br>
+    <b>language</b>: PHP<br>
+    <b>archived</b>: -<br>
+    <b>license</b>: -<br>
   </details>
 
   <details>
-    <summary>**PhpDependencyAnalysis**:</summary>
-    **html_url**: "https://github.com/mamuz/PhpDependencyAnalysis",
-    **description**: "Static code analysis to find violations in a dependency graph",
-    **homepage**: "http://mamuz.github.io/PhpDependencyAnalysis/",
-    **language**: "PHP",
-    **archived**: false,
+    <summary><b>PhpDependencyAnalysis</b>:</summary>
+    <b>html_url</b>: https://github.com/mamuz/PhpDependencyAnalysis<br>
+    <b>description</b>: Static code analysis to find violations in a dependency graph<br>
+    <b>homepage</b>: http://mamuz.github.io/PhpDependencyAnalysis/<br>
+    <b>language</b>: PHP<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**phpdesktop**:</summary>
-    **html_url**: "https://github.com/cztomczak/phpdesktop",
-    **description**: "Develop desktop GUI applications using PHP, HTML5, JavaScript and SQLite",
-    **homepage**: "https://groups.google.com/d/forum/phpdesktop",
-    **language**: "C++",
-    **archived**: false,
-    **license**: null,
+    <summary><b>phpdesktop</b>:</summary>
+    <b>html_url</b>: https://github.com/cztomczak/phpdesktop<br>
+    <b>description</b>: Develop desktop GUI applications using PHP, HTML5, JavaScript and SQLite<br>
+    <b>homepage</b>: https://groups.google.com/d/forum/phpdesktop<br>
+    <b>language</b>: C++<br>
+    <b>archived</b>: -<br>
+    <b>license</b>: -<br>
   </details>
 
   <details>
-    <summary>**phpDocumentor**:</summary>
-    **html_url**: "https://github.com/phpDocumentor/phpDocumentor",
-    **description**: "Documentation Generator for PHP ",
-    **homepage**: "https://www.phpdoc.org",
-    **language**: "PHP",
-    **archived**: false,
+    <summary><b>phpDocumentor</b>:</summary>
+    <b>html_url</b>: https://github.com/phpDocumentor/phpDocumentor<br>
+    <b>description</b>: Documentation Generator for PHP <br>
+    <b>homepage</b>: https://www.phpdoc.org<br>
+    <b>language</b>: PHP<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**phpgedview**:</summary>
-    **html_url**: "https://github.com/bitweaver/phpgedview",
-    **description**: null,
-    **homepage**: null,
-    **language**: "PHP",
-    **archived**: false,
-    **license**: null,
+    <summary><b>phpgedview</b>:</summary>
+    <b>html_url</b>: https://github.com/bitweaver/phpgedview<br>
+    <b>description</b>: -<br>
+    <b>homepage</b>: -<br>
+    <b>language</b>: PHP<br>
+    <b>archived</b>: -<br>
+    <b>license</b>: -<br>
   </details>
 
   <details>
-    <summary>**phpipam**:</summary>
-    **html_url**: "https://github.com/phpipam/phpipam",
-    **description**: "phpipam development repository",
-    **homepage**: "https://phpipam.net",
-    **language**: "PHP",
-    **archived**: false,
-    **license**: null,
+    <summary><b>phpipam</b>:</summary>
+    <b>html_url</b>: https://github.com/phpipam/phpipam<br>
+    <b>description</b>: phpipam development repository<br>
+    <b>homepage</b>: https://phpipam.net<br>
+    <b>language</b>: PHP<br>
+    <b>archived</b>: -<br>
+    <b>license</b>: -<br>
   </details>
 
   <details>
-    <summary>**phpLDAPadmin**:</summary>
-    **html_url**: "https://github.com/leenooks/phpLDAPadmin",
-    **description**: "phpLDAPadmin - Web based LDAP administration tool",
-    **homepage**: "www.phpldapadmin.org",
-    **language**: "PHP",
-    **archived**: false,
+    <summary><b>phpLDAPadmin</b>:</summary>
+    <b>html_url</b>: https://github.com/leenooks/phpLDAPadmin<br>
+    <b>description</b>: phpLDAPadmin - Web based LDAP administration tool<br>
+    <b>homepage</b>: www.phpldapadmin.org<br>
+    <b>language</b>: PHP<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**phplist3**:</summary>
-    **html_url**: "https://github.com/phpList/phplist3",
-    **description**: "Fully functional Open Source email marketing manager for creating, sending, integrating, and analysing email campaigns and newsletters.",
-    **homepage**: "https://www.phplist.org",
-    **language**: "PHP",
-    **archived**: false,
+    <summary><b>phplist3</b>:</summary>
+    <b>html_url</b>: https://github.com/phpList/phplist3<br>
+    <b>description</b>: Fully functional Open Source email marketing manager for creating, sending, integrating, and analysing email campaigns and newsletters.<br>
+    <b>homepage</b>: https://www.phplist.org<br>
+    <b>language</b>: PHP<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**PHPMailer**:</summary>
-    **html_url**: "https://github.com/PHPMailer/PHPMailer",
-    **description**: "The classic email sending library for PHP",
-    **homepage**: "",
-    **language**: "PHP",
-    **archived**: false,
+    <summary><b>PHPMailer</b>:</summary>
+    <b>html_url</b>: https://github.com/PHPMailer/PHPMailer<br>
+    <b>description</b>: The classic email sending library for PHP<br>
+    <b>homepage</b>: -<br>
+    <b>language</b>: PHP<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**phpmyadmin**:</summary>
-    **html_url**: "https://github.com/phpmyadmin/phpmyadmin",
-    **description**: "A web interface for MySQL and MariaDB",
-    **homepage**: "https://www.phpmyadmin.net/",
-    **language**: "PHP",
-    **archived**: false,
+    <summary><b>phpmyadmin</b>:</summary>
+    <b>html_url</b>: https://github.com/phpmyadmin/phpmyadmin<br>
+    <b>description</b>: A web interface for MySQL and MariaDB<br>
+    <b>homepage</b>: https://www.phpmyadmin.net/<br>
+    <b>language</b>: PHP<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**phppgadmin**:</summary>
-    **html_url**: "https://github.com/phppgadmin/phppgadmin",
-    **description**: "the premier web-based administration tool for postgresql",
-    **homepage**: "https://github.com/phppgadmin/phppgadmin",
-    **language**: "PHP",
-    **archived**: false,
+    <summary><b>phppgadmin</b>:</summary>
+    <b>html_url</b>: https://github.com/phppgadmin/phppgadmin<br>
+    <b>description</b>: the premier web-based administration tool for postgresql<br>
+    <b>homepage</b>: https://github.com/phppgadmin/phppgadmin<br>
+    <b>language</b>: PHP<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**PHPPresentation**:</summary>
-    **html_url**: "https://github.com/PHPOffice/PHPPresentation",
-    **description**: "A pure PHP library for reading and writing presentations documents ",
-    **homepage**: "https://phpoffice.github.io/PHPPresentation",
-    **language**: "PHP",
-    **archived**: false,
+    <summary><b>PHPPresentation</b>:</summary>
+    <b>html_url</b>: https://github.com/PHPOffice/PHPPresentation<br>
+    <b>description</b>: A pure PHP library for reading and writing presentations documents <br>
+    <b>homepage</b>: https://phpoffice.github.io/PHPPresentation<br>
+    <b>language</b>: PHP<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**PhpProject**:</summary>
-    **html_url**: "https://github.com/PHPOffice/PhpProject",
-    **description**: "A pure PHP library for reading and writing project management files ",
-    **homepage**: "",
-    **language**: "PHP",
-    **archived**: false,
+    <summary><b>PhpProject</b>:</summary>
+    <b>html_url</b>: https://github.com/PHPOffice/PhpProject<br>
+    <b>description</b>: A pure PHP library for reading and writing project management files <br>
+    <b>homepage</b>: -<br>
+    <b>language</b>: PHP<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**PhpSpreadsheet**:</summary>
-    **html_url**: "https://github.com/PHPOffice/PhpSpreadsheet",
-    **description**: "A pure PHP library for reading and writing spreadsheet files",
-    **homepage**: "https://phpspreadsheet.readthedocs.io",
-    **language**: "PHP",
-    **archived**: false,
+    <summary><b>PhpSpreadsheet</b>:</summary>
+    <b>html_url</b>: https://github.com/PHPOffice/PhpSpreadsheet<br>
+    <b>description</b>: A pure PHP library for reading and writing spreadsheet files<br>
+    <b>homepage</b>: https://phpspreadsheet.readthedocs.io<br>
+    <b>language</b>: PHP<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**phpstan**:</summary>
-    **html_url**: "https://github.com/phpstan/phpstan",
-    **description**: "PHP Static Analysis Tool - discover bugs in your code without running it!",
-    **homepage**: "https://phpstan.org/",
-    **language**: "PHP",
-    **archived**: false,
+    <summary><b>phpstan</b>:</summary>
+    <b>html_url</b>: https://github.com/phpstan/phpstan<br>
+    <b>description</b>: PHP Static Analysis Tool - discover bugs in your code without running it!<br>
+    <b>homepage</b>: https://phpstan.org/<br>
+    <b>language</b>: PHP<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**phpsysinfo**:</summary>
-    **html_url**: "https://github.com/phpsysinfo/phpsysinfo",
-    **description**: "phpSysInfo: a customizable PHP script that displays information about your system nicely",
-    **homepage**: "http://phpsysinfo.github.io/phpsysinfo",
-    **language**: "PHP",
-    **archived**: false,
+    <summary><b>phpsysinfo</b>:</summary>
+    <b>html_url</b>: https://github.com/phpsysinfo/phpsysinfo<br>
+    <b>description</b>: phpSysInfo: a customizable PHP script that displays information about your system nicely<br>
+    <b>homepage</b>: http://phpsysinfo.github.io/phpsysinfo<br>
+    <b>language</b>: PHP<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**phpunit**:</summary>
-    **html_url**: "https://github.com/sebastianbergmann/phpunit",
-    **description**: "The PHP Unit Testing framework.",
-    **homepage**: "https://phpunit.de/",
-    **language**: "PHP",
-    **archived**: false,
+    <summary><b>phpunit</b>:</summary>
+    <b>html_url</b>: https://github.com/sebastianbergmann/phpunit<br>
+    <b>description</b>: The PHP Unit Testing framework.<br>
+    <b>homepage</b>: https://phpunit.de/<br>
+    <b>language</b>: PHP<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**PHPVerbalExpressions**:</summary>
-    **html_url**: "https://github.com/VerbalExpressions/PHPVerbalExpressions",
-    **description**: "PHP Regular expressions made easy",
-    **homepage**: "",
-    **language**: "PHP",
-    **archived**: false,
+    <summary><b>PHPVerbalExpressions</b>:</summary>
+    <b>html_url</b>: https://github.com/VerbalExpressions/PHPVerbalExpressions<br>
+    <b>description</b>: PHP Regular expressions made easy<br>
+    <b>homepage</b>: -<br>
+    <b>language</b>: PHP<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**PHPVisio**:</summary>
-    **html_url**: "https://github.com/PHPOffice/PHPVisio",
-    **description**: "A pure PHP library for reading and writing diagrams files",
-    **homepage**: "",
-    **language**: "PHP",
-    **archived**: false,
+    <summary><b>PHPVisio</b>:</summary>
+    <b>html_url</b>: https://github.com/PHPOffice/PHPVisio<br>
+    <b>description</b>: A pure PHP library for reading and writing diagrams files<br>
+    <b>homepage</b>: -<br>
+    <b>language</b>: PHP<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**phpwkhtmltopdf**:</summary>
-    **html_url**: "https://github.com/mikehaertl/phpwkhtmltopdf",
-    **description**: "A slim PHP wrapper around wkhtmltopdf with an easy to use and clean OOP interface",
-    **homepage**: null,
-    **language**: "PHP",
-    **archived**: false,
+    <summary><b>phpwkhtmltopdf</b>:</summary>
+    <b>html_url</b>: https://github.com/mikehaertl/phpwkhtmltopdf<br>
+    <b>description</b>: A slim PHP wrapper around wkhtmltopdf with an easy to use and clean OOP interface<br>
+    <b>homepage</b>: -<br>
+    <b>language</b>: PHP<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**PHPWord**:</summary>
-    **html_url**: "https://github.com/PHPOffice/PHPWord",
-    **description**: "A pure PHP library for reading and writing word processing documents",
-    **homepage**: "https://phpword.readthedocs.io",
-    **language**: "PHP",
-    **archived**: false,
+    <summary><b>PHPWord</b>:</summary>
+    <b>html_url</b>: https://github.com/PHPOffice/PHPWord<br>
+    <b>description</b>: A pure PHP library for reading and writing word processing documents<br>
+    <b>homepage</b>: https://phpword.readthedocs.io<br>
+    <b>language</b>: PHP<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**phtagr**:</summary>
-    **html_url**: "https://github.com/xemle/phtagr",
-    **description**: "Tag, Browse, and Share Your Photos (discontinued)",
-    **homepage**: "",
-    **language**: "PHP",
-    **archived**: false,
+    <summary><b>phtagr</b>:</summary>
+    <b>html_url</b>: https://github.com/xemle/phtagr<br>
+    <b>description</b>: Tag, Browse, and Share Your Photos (discontinued)<br>
+    <b>homepage</b>: -<br>
+    <b>language</b>: PHP<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**pib**:</summary>
-    **html_url**: "https://github.com/oraoto/pib",
-    **description**: "PHP in Browser (powered by WebAssembly)",
-    **homepage**: "https://oraoto.github.io/pib/",
-    **language**: "PHP",
-    **archived**: false,
+    <summary><b>pib</b>:</summary>
+    <b>html_url</b>: https://github.com/oraoto/pib<br>
+    <b>description</b>: PHP in Browser (powered by WebAssembly)<br>
+    <b>homepage</b>: https://oraoto.github.io/pib/<br>
+    <b>language</b>: PHP<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**picturama**:</summary>
-    **html_url**: "https://github.com/picturama/picturama",
-    **description**: "Digital image organizer powered by the web",
-    **homepage**: null,
-    **language**: "TypeScript",
-    **archived**: false,
+    <summary><b>picturama</b>:</summary>
+    <b>html_url</b>: https://github.com/picturama/picturama<br>
+    <b>description</b>: Digital image organizer powered by the web<br>
+    <b>homepage</b>: -<br>
+    <b>language</b>: TypeScript<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**pimcore**:</summary>
-    **html_url**: "https://github.com/pimcore/pimcore",
-    **description**: "Open Source Data & Experience Management Platform (PIM, MDM, CDP, DAM, DXP/CMS & Digital Commerce)",
-    **homepage**: "http://www.pimcore.org/",
-    **language**: "PHP",
-    **archived**: false,
+    <summary><b>pimcore</b>:</summary>
+    <b>html_url</b>: https://github.com/pimcore/pimcore<br>
+    <b>description</b>: Open Source Data & Experience Management Platform (PIM, MDM, CDP, DAM, DXP/CMS & Digital Commerce)<br>
+    <b>homepage</b>: http://www.pimcore.org/<br>
+    <b>language</b>: PHP<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**pivot**:</summary>
-    **html_url**: "https://github.com/ukman/pivot",
-    **description**: "Repository for Cynteka Pivot Table",
-    **homepage**: null,
-    **language**: "JavaScript",
-    **archived**: false,
+    <summary><b>pivot</b>:</summary>
+    <b>html_url</b>: https://github.com/ukman/pivot<br>
+    <b>description</b>: Repository for Cynteka Pivot Table<br>
+    <b>homepage</b>: -<br>
+    <b>language</b>: JavaScript<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**pivottable**:</summary>
-    **html_url**: "https://github.com/nicolaskruchten/pivottable",
-    **description**: "Open-source Javascript Pivot Table (aka Pivot Grid, Pivot Chart, Cross-Tab) implementation with drag'n'drop.",
-    **homepage**: "https://pivottable.js.org/",
-    **language**: "CoffeeScript",
-    **archived**: false,
+    <summary><b>pivottable</b>:</summary>
+    <b>html_url</b>: https://github.com/nicolaskruchten/pivottable<br>
+    <b>description</b>: Open-source Javascript Pivot Table (aka Pivot Grid, Pivot Chart, Cross-Tab) implementation with drag'n'drop.<br>
+    <b>homepage</b>: https://pivottable.js.org/<br>
+    <b>language</b>: CoffeeScript<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**Piwigo**:</summary>
-    **html_url**: "https://github.com/Piwigo/Piwigo",
-    **description**: "Manage your photos with Piwigo, a full featured open source photo gallery application for the web. Star us on Github! More than 200 plugins and themes available. Join us and contribute!",
-    **homepage**: "https://piwigo.org",
-    **language**: "PHP",
-    **archived**: false,
+    <summary><b>Piwigo</b>:</summary>
+    <b>html_url</b>: https://github.com/Piwigo/Piwigo<br>
+    <b>description</b>: Manage your photos with Piwigo, a full featured open source photo gallery application for the web. Star us on Github! More than 200 plugins and themes available. Join us and contribute!<br>
+    <b>homepage</b>: https://piwigo.org<br>
+    <b>language</b>: PHP<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**plantuml**:</summary>
-    **html_url**: "https://github.com/plantuml/plantuml",
-    **description**: "Generate diagrams from textual description",
-    **homepage**: "https://plantuml.com",
-    **language**: "Java",
-    **archived**: false,
+    <summary><b>plantuml</b>:</summary>
+    <b>html_url</b>: https://github.com/plantuml/plantuml<br>
+    <b>description</b>: Generate diagrams from textual description<br>
+    <b>homepage</b>: https://plantuml.com<br>
+    <b>language</b>: Java<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**PlantUmlViewer**:</summary>
-    **html_url**: "https://github.com/Fruchtzwerg94/PlantUmlViewer",
-    **description**: "A Notepad++ plugin to generate, view and export PlantUML diagrams",
-    **homepage**: "",
-    **language**: "C#",
-    **archived**: false,
+    <summary><b>PlantUmlViewer</b>:</summary>
+    <b>html_url</b>: https://github.com/Fruchtzwerg94/PlantUmlViewer<br>
+    <b>description</b>: A Notepad++ plugin to generate, view and export PlantUML diagrams<br>
+    <b>homepage</b>: -<br>
+    <b>language</b>: C#<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**plates**:</summary>
-    **html_url**: "https://github.com/thephpleague/plates",
-    **description**: "Native PHP template system",
-    **homepage**: "https://platesphp.com",
-    **language**: "PHP",
-    **archived**: false,
+    <summary><b>plates</b>:</summary>
+    <b>html_url</b>: https://github.com/thephpleague/plates<br>
+    <b>description</b>: Native PHP template system<br>
+    <b>homepage</b>: https://platesphp.com<br>
+    <b>language</b>: PHP<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**platform**:</summary>
-    **html_url**: "https://github.com/oroinc/platform",
-    **description**: "Main OroPlatform package with core functionality.",
-    **homepage**: "",
-    **language**: "PHP",
-    **archived**: false,
+    <summary><b>platform</b>:</summary>
+    <b>html_url</b>: https://github.com/oroinc/platform<br>
+    <b>description</b>: Main OroPlatform package with core functionality.<br>
+    <b>homepage</b>: -<br>
+    <b>language</b>: PHP<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**platform-application**:</summary>
-    **html_url**: "https://github.com/oroinc/platform-application",
-    **description**: "OroPlatform - business application framework that is a backbone of the OroCRM and OroCommerce.",
-    **homepage**: "",
-    **language**: "PHP",
-    **archived**: false,
+    <summary><b>platform-application</b>:</summary>
+    <b>html_url</b>: https://github.com/oroinc/platform-application<br>
+    <b>description</b>: OroPlatform - business application framework that is a backbone of the OroCRM and OroCommerce.<br>
+    <b>homepage</b>: -<br>
+    <b>language</b>: PHP<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**poedit**:</summary>
-    **html_url**: "https://github.com/vslavik/poedit",
-    **description**: "Translations editor for Mac, Windows and Unix",
-    **homepage**: "https://poedit.net",
-    **language**: "C++",
-    **archived**: false,
+    <summary><b>poedit</b>:</summary>
+    <b>html_url</b>: https://github.com/vslavik/poedit<br>
+    <b>description</b>: Translations editor for Mac, Windows and Unix<br>
+    <b>homepage</b>: https://poedit.net<br>
+    <b>language</b>: C++<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**popcorn-desktop**:</summary>
-    **html_url**: "https://github.com/popcorn-official/popcorn-desktop",
-    **description**: "Popcorn Time is a multi-platform, free software BitTorrent client that includes an integrated media player ( Windows / Mac / Linux ) A Butter-Project Fork",
-    **homepage**: "https://popcorntime.app",
-    **language**: "JavaScript",
-    **archived**: false,
+    <summary><b>popcorn-desktop</b>:</summary>
+    <b>html_url</b>: https://github.com/popcorn-official/popcorn-desktop<br>
+    <b>description</b>: Popcorn Time is a multi-platform, free software BitTorrent client that includes an integrated media player ( Windows / Mac / Linux ) A Butter-Project Fork<br>
+    <b>homepage</b>: https://popcorntime.app<br>
+    <b>language</b>: JavaScript<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**popcorn-time-desktop**:</summary>
-    **html_url**: "https://github.com/amilajack/popcorn-time-desktop",
-    **description**: "🍿 🕐 🎞  A Modern Popcorn Time Client",
-    **homepage**: "",
-    **language**: "TypeScript",
-    **archived**: false,
+    <summary><b>popcorn-time-desktop</b>:</summary>
+    <b>html_url</b>: https://github.com/amilajack/popcorn-time-desktop<br>
+    <b>description</b>: 🍿 🕐 🎞  A Modern Popcorn Time Client<br>
+    <b>homepage</b>: -<br>
+    <b>language</b>: TypeScript<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**portaudio**:</summary>
-    **html_url**: "https://github.com/PortAudio/portaudio",
-    **description**: "PortAudio is a cross-platform, open-source C language library for real-time audio input and output.",
-    **homepage**: null,
-    **language**: "C",
-    **archived**: false,
+    <summary><b>portaudio</b>:</summary>
+    <b>html_url</b>: https://github.com/PortAudio/portaudio<br>
+    <b>description</b>: PortAudio is a cross-platform, open-source C language library for real-time audio input and output.<br>
+    <b>homepage</b>: -<br>
+    <b>language</b>: C<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**posterazor**:</summary>
-    **html_url**: "https://github.com/aportale/posterazor",
-    **description**: "The PosteRazor cuts a raster image into pieces which can afterwards be printed out and assembled to a poster.",
-    **homepage**: "http://posterazor.sourceforge.net/",
-    **language**: "C++",
-    **archived**: false,
+    <summary><b>posterazor</b>:</summary>
+    <b>html_url</b>: https://github.com/aportale/posterazor<br>
+    <b>description</b>: The PosteRazor cuts a raster image into pieces which can afterwards be printed out and assembled to a poster.<br>
+    <b>homepage</b>: http://posterazor.sourceforge.net/<br>
+    <b>language</b>: C++<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**postgres**:</summary>
-    **html_url**: "https://github.com/postgres/postgres",
-    **description**: "Mirror of the official PostgreSQL GIT repository. Note that this is just a *mirror* - we don't work with pull requests on github. To contribute, please see https://wiki.postgresql.org/wiki/Submitting_a_Patch",
-    **homepage**: "https://www.postgresql.org/",
-    **language**: "C",
-    **archived**: false,
+    <summary><b>postgres</b>:</summary>
+    <b>html_url</b>: https://github.com/postgres/postgres<br>
+    <b>description</b>: Mirror of the official PostgreSQL GIT repository. Note that this is just a *mirror* - we don't work with pull requests on github. To contribute, please see https://wiki.postgresql.org/wiki/Submitting_a_Patch<br>
+    <b>homepage</b>: https://www.postgresql.org/<br>
+    <b>language</b>: C<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**postgresql-portable**:</summary>
-    **html_url**: "https://github.com/garethflowers/postgresql-portable",
-    **description**: "Portable version of the PostgreSQL Database Server, for Windows.",
-    **homepage**: "https://garethflowers.dev/postgresql-portable/",
-    **language**: "HTML",
-    **archived**: false,
+    <summary><b>postgresql-portable</b>:</summary>
+    <b>html_url</b>: https://github.com/garethflowers/postgresql-portable<br>
+    <b>description</b>: Portable version of the PostgreSQL Database Server, for Windows.<br>
+    <b>homepage</b>: https://garethflowers.dev/postgresql-portable/<br>
+    <b>language</b>: HTML<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**pramda**:</summary>
-    **html_url**: "https://github.com/kapolos/pramda",
-    **description**: "Practical Functional Programming in PHP",
-    **homepage**: "",
-    **language**: "PHP",
-    **archived**: false,
+    <summary><b>pramda</b>:</summary>
+    <b>html_url</b>: https://github.com/kapolos/pramda<br>
+    <b>description</b>: Practical Functional Programming in PHP<br>
+    <b>homepage</b>: -<br>
+    <b>language</b>: PHP<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**PrestaShop**:</summary>
-    **html_url**: "https://github.com/PrestaShop/PrestaShop",
-    **description**: "PrestaShop is the universal open-source software platform to build your e-commerce solution.",
-    **homepage**: "https://www.prestashop-project.org/",
-    **language**: "PHP",
-    **archived**: false,
+    <summary><b>PrestaShop</b>:</summary>
+    <b>html_url</b>: https://github.com/PrestaShop/PrestaShop<br>
+    <b>description</b>: PrestaShop is the universal open-source software platform to build your e-commerce solution.<br>
+    <b>homepage</b>: https://www.prestashop-project.org/<br>
+    <b>language</b>: PHP<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**PrivateBin**:</summary>
-    **html_url**: "https://github.com/PrivateBin/PrivateBin",
-    **description**: "A minimalist, open source online pastebin where the server has zero knowledge of pasted data. Data is encrypted/decrypted in the browser using 256 bits AES.",
-    **homepage**: "https://privatebin.info/",
-    **language**: "PHP",
-    **archived**: false,
+    <summary><b>PrivateBin</b>:</summary>
+    <b>html_url</b>: https://github.com/PrivateBin/PrivateBin<br>
+    <b>description</b>: A minimalist, open source online pastebin where the server has zero knowledge of pasted data. Data is encrypted/decrypted in the browser using 256 bits AES.<br>
+    <b>homepage</b>: https://privatebin.info/<br>
+    <b>language</b>: PHP<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**processmaker**:</summary>
-    **html_url**: "https://github.com/ProcessMaker/processmaker",
-    **description**: "ProcessMaker BPM Core",
-    **homepage**: "",
-    **language**: "PHP",
-    **archived**: false,
+    <summary><b>processmaker</b>:</summary>
+    <b>html_url</b>: https://github.com/ProcessMaker/processmaker<br>
+    <b>description</b>: ProcessMaker BPM Core<br>
+    <b>homepage</b>: -<br>
+    <b>language</b>: PHP<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**psalm**:</summary>
-    **html_url**: "https://github.com/vimeo/psalm",
-    **description**: "A static analysis tool for finding errors in PHP applications",
-    **homepage**: "https://psalm.dev",
-    **language**: "PHP",
-    **archived**: false,
+    <summary><b>psalm</b>:</summary>
+    <b>html_url</b>: https://github.com/vimeo/psalm<br>
+    <b>description</b>: A static analysis tool for finding errors in PHP applications<br>
+    <b>homepage</b>: https://psalm.dev<br>
+    <b>language</b>: PHP<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**psiphon-windows**:</summary>
-    **html_url**: "https://github.com/Psiphon-Inc/psiphon-windows",
-    **description**: "Psiphon for Windows client",
-    **homepage**: "https://psiphon.ca/download.html",
-    **language**: "HTML",
-    **archived**: false,
+    <summary><b>psiphon-windows</b>:</summary>
+    <b>html_url</b>: https://github.com/Psiphon-Inc/psiphon-windows<br>
+    <b>description</b>: Psiphon for Windows client<br>
+    <b>homepage</b>: https://psiphon.ca/download.html<br>
+    <b>language</b>: HTML<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**PuMuKIT**:</summary>
-    **html_url**: "https://github.com/pumukit/PuMuKIT",
-    **description**: "PuMuKIT is an Open Source Video Platform that provides unparalleled organization, flexibility, accessibility, and scalability. Well-designed and well-engineered PuMuKIT is the ideal solution for any organization with large collections of video or audio.",
-    **homepage**: "https://pumukit.org",
-    **language**: "PHP",
-    **archived**: false,
+    <summary><b>PuMuKIT</b>:</summary>
+    <b>html_url</b>: https://github.com/pumukit/PuMuKIT<br>
+    <b>description</b>: PuMuKIT is an Open Source Video Platform that provides unparalleled organization, flexibility, accessibility, and scalability. Well-designed and well-engineered PuMuKIT is the ideal solution for any organization with large collections of video or audio.<br>
+    <b>homepage</b>: https://pumukit.org<br>
+    <b>language</b>: PHP<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**pwsafe**:</summary>
-    **html_url**: "https://github.com/pwsafe/pwsafe",
-    **description**: "PasswordSafe - popular secure and convenient password manager",
-    **homepage**: "https://pwsafe.org",
-    **language**: "C++",
-    **archived**: false,
+    <summary><b>pwsafe</b>:</summary>
+    <b>html_url</b>: https://github.com/pwsafe/pwsafe<br>
+    <b>description</b>: PasswordSafe - popular secure and convenient password manager<br>
+    <b>homepage</b>: https://pwsafe.org<br>
+    <b>language</b>: C++<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**pyrocms**:</summary>
-    **html_url**: "https://github.com/pyrocms/pyrocms",
-    **description**: "Pyro is an experienced and powerful Laravel PHP CMS.",
-    **homepage**: "https://www.pyrocms.com/",
-    **language**: "PHP",
-    **archived**: false,
+    <summary><b>pyrocms</b>:</summary>
+    <b>html_url</b>: https://github.com/pyrocms/pyrocms<br>
+    <b>description</b>: Pyro is an experienced and powerful Laravel PHP CMS.<br>
+    <b>homepage</b>: https://www.pyrocms.com/<br>
+    <b>language</b>: PHP<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**pyscripter**:</summary>
-    **html_url**: "https://github.com/pyscripter/pyscripter",
-    **description**: "Pyscripter is a feature-rich but lightweight Python IDE",
-    **homepage**: "",
-    **language**: "Pascal",
-    **archived**: false,
+    <summary><b>pyscripter</b>:</summary>
+    <b>html_url</b>: https://github.com/pyscripter/pyscripter<br>
+    <b>description</b>: Pyscripter is a feature-rich but lightweight Python IDE<br>
+    <b>homepage</b>: -<br>
+    <b>language</b>: Pascal<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**qalculate-gtk**:</summary>
-    **html_url**: "https://github.com/Qalculate/qalculate-gtk",
-    **description**: "Qalculate! GTK+ UI",
-    **homepage**: "https://qalculate.github.io/",
-    **language**: "C++",
-    **archived**: false,
+    <summary><b>qalculate-gtk</b>:</summary>
+    <b>html_url</b>: https://github.com/Qalculate/qalculate-gtk<br>
+    <b>description</b>: Qalculate! GTK+ UI<br>
+    <b>homepage</b>: https://qalculate.github.io/<br>
+    <b>language</b>: C++<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**qalculate-qt**:</summary>
-    **html_url**: "https://github.com/Qalculate/qalculate-qt",
-    **description**: null,
-    **homepage**: null,
-    **language**: "C++",
-    **archived**: false,
+    <summary><b>qalculate-qt</b>:</summary>
+    <b>html_url</b>: https://github.com/Qalculate/qalculate-qt<br>
+    <b>description</b>: -<br>
+    <b>homepage</b>: -<br>
+    <b>language</b>: C++<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**qBittorrent**:</summary>
-    **html_url**: "https://github.com/qbittorrent/qBittorrent",
-    **description**: "qBittorrent BitTorrent client",
-    **homepage**: "https://www.qbittorrent.org",
-    **language**: "C++",
-    **archived**: false,
+    <summary><b>qBittorrent</b>:</summary>
+    <b>html_url</b>: https://github.com/qbittorrent/qBittorrent<br>
+    <b>description</b>: qBittorrent BitTorrent client<br>
+    <b>homepage</b>: https://www.qbittorrent.org<br>
+    <b>language</b>: C++<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**qcad**:</summary>
-    **html_url**: "https://github.com/qcad/qcad",
-    **description**: "QCAD - The Open Source 2D CAD. QCAD is a cross-platform CAD solution for Windows, macOS and Linux. It supports the DXF format and optionally the DWG format (through a proprietary plugin).",
-    **homepage**: "https://qcad.org",
-    **language**: "C++",
-    **archived**: false,
+    <summary><b>qcad</b>:</summary>
+    <b>html_url</b>: https://github.com/qcad/qcad<br>
+    <b>description</b>: QCAD - The Open Source 2D CAD. QCAD is a cross-platform CAD solution for Windows, macOS and Linux. It supports the DXF format and optionally the DWG format (through a proprietary plugin).<br>
+    <b>homepage</b>: https://qcad.org<br>
+    <b>language</b>: C++<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**qdirstat**:</summary>
-    **html_url**: "https://github.com/shundhammer/qdirstat",
-    **description**: "QDirStat - Qt-based directory statistics (KDirStat without any KDE - from the original KDirStat author)",
-    **homepage**: null,
-    **language**: "C++",
-    **archived**: false,
+    <summary><b>qdirstat</b>:</summary>
+    <b>html_url</b>: https://github.com/shundhammer/qdirstat<br>
+    <b>description</b>: QDirStat - Qt-based directory statistics (KDirStat without any KDE - from the original KDirStat author)<br>
+    <b>homepage</b>: -<br>
+    <b>language</b>: C++<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**qdpm**:</summary>
-    **html_url**: "https://github.com/qdpm/qdpm",
-    **description**: "Project Management",
-    **homepage**: null,
-    **language**: null,
-    **archived**: false,
+    <summary><b>qdpm</b>:</summary>
+    <b>html_url</b>: https://github.com/qdpm/qdpm<br>
+    <b>description</b>: Project Management<br>
+    <b>homepage</b>: -<br>
+    <b>language</b>: -<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**qimgv**:</summary>
-    **html_url**: "https://github.com/easymodo/qimgv",
-    **description**: "Image viewer. Fast, easy to use. Optional video support.",
-    **homepage**: "",
-    **language**: "C++",
-    **archived**: false,
+    <summary><b>qimgv</b>:</summary>
+    <b>html_url</b>: https://github.com/easymodo/qimgv<br>
+    <b>description</b>: Image viewer. Fast, easy to use. Optional video support.<br>
+    <b>homepage</b>: -<br>
+    <b>language</b>: C++<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**qmmp**:</summary>
-    **html_url**: "https://github.com/djdron/qmmp",
-    **description**: "Qmmp - Qt-based multimedia player",
-    **homepage**: "http://qmmp.ylsoftware.com/",
-    **language**: "C++",
-    **archived**: false,
-    **license**: null,
+    <summary><b>qmmp</b>:</summary>
+    <b>html_url</b>: https://github.com/djdron/qmmp<br>
+    <b>description</b>: Qmmp - Qt-based multimedia player<br>
+    <b>homepage</b>: http://qmmp.ylsoftware.com/<br>
+    <b>language</b>: C++<br>
+    <b>archived</b>: -<br>
+    <b>license</b>: -<br>
   </details>
 
   <details>
-    <summary>**qooxdoo**:</summary>
-    **html_url**: "https://github.com/qooxdoo/qooxdoo",
-    **description**: "qooxdoo - Universal JavaScript Framework",
-    **homepage**: "http://qooxdoo.org",
-    **language**: "JavaScript",
-    **archived**: false,
+    <summary><b>qooxdoo</b>:</summary>
+    <b>html_url</b>: https://github.com/qooxdoo/qooxdoo<br>
+    <b>description</b>: qooxdoo - Universal JavaScript Framework<br>
+    <b>homepage</b>: http://qooxdoo.org<br>
+    <b>language</b>: JavaScript<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**QOwnNotes**:</summary>
-    **html_url**: "https://github.com/pbek/QOwnNotes",
-    **description**: "QOwnNotes is a plain-text file notepad and todo-list manager with markdown support and Nextcloud / ownCloud integration.",
-    **homepage**: "https://www.qownnotes.org/",
-    **language**: "C++",
-    **archived**: false,
+    <summary><b>QOwnNotes</b>:</summary>
+    <b>html_url</b>: https://github.com/pbek/QOwnNotes<br>
+    <b>description</b>: QOwnNotes is a plain-text file notepad and todo-list manager with markdown support and Nextcloud / ownCloud integration.<br>
+    <b>homepage</b>: https://www.qownnotes.org/<br>
+    <b>language</b>: C++<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**qr-code**:</summary>
-    **html_url**: "https://github.com/endroid/qr-code",
-    **description**: "QR Code Generator",
-    **homepage**: "https://endroid.nl",
-    **language**: "PHP",
-    **archived**: false,
+    <summary><b>qr-code</b>:</summary>
+    <b>html_url</b>: https://github.com/endroid/qr-code<br>
+    <b>description</b>: QR Code Generator<br>
+    <b>homepage</b>: https://endroid.nl<br>
+    <b>language</b>: PHP<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**qtractor**:</summary>
-    **html_url**: "https://github.com/rncbc/qtractor",
-    **description**: "Qtractor - An Audio/MIDI multi-track sequencer",
-    **homepage**: "https://qtractor.org",
-    **language**: "C++",
-    **archived**: false,
+    <summary><b>qtractor</b>:</summary>
+    <b>html_url</b>: https://github.com/rncbc/qtractor<br>
+    <b>description</b>: Qtractor - An Audio/MIDI multi-track sequencer<br>
+    <b>homepage</b>: https://qtractor.org<br>
+    <b>language</b>: C++<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**quickviewer**:</summary>
-    **html_url**: "https://github.com/kanryu/quickviewer",
-    **description**: "A image/comic viewer application for Windows, Mac and Linux, it can show images very fast",
-    **homepage**: "https://kanryu.github.io/quickviewer/",
-    **language**: "C++",
-    **archived**: false,
+    <summary><b>quickviewer</b>:</summary>
+    <b>html_url</b>: https://github.com/kanryu/quickviewer<br>
+    <b>description</b>: A image/comic viewer application for Windows, Mac and Linux, it can show images very fast<br>
+    <b>homepage</b>: https://kanryu.github.io/quickviewer/<br>
+    <b>language</b>: C++<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**quiterss**:</summary>
-    **html_url**: "https://github.com/QuiteRSS/quiterss",
-    **description**: "Free news feeds reader",
-    **homepage**: "https://quiterss.org",
-    **language**: "C++",
-    **archived**: false,
+    <summary><b>quiterss</b>:</summary>
+    <b>html_url</b>: https://github.com/QuiteRSS/quiterss<br>
+    <b>description</b>: Free news feeds reader<br>
+    <b>homepage</b>: https://quiterss.org<br>
+    <b>language</b>: C++<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**racktables**:</summary>
-    **html_url**: "https://github.com/RackTables/racktables",
-    **description**: "RackTables current development repository",
-    **homepage**: "https://racktables.org/",
-    **language**: "PHP",
-    **archived**: false,
+    <summary><b>racktables</b>:</summary>
+    <b>html_url</b>: https://github.com/RackTables/racktables<br>
+    <b>description</b>: RackTables current development repository<br>
+    <b>homepage</b>: https://racktables.org/<br>
+    <b>language</b>: PHP<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**railessentials**:</summary>
-    **html_url**: "https://github.com/cbries/railessentials",
-    **description**: "RailEssentials is a software for controlling your Model Trains especially when ESU's ECoS 50210/50200 is used. RailEssentials provides a Track-designer, an Analyzer for automatic detection of all possible Routes between directly connected Blocks, and an Event-system (e.g. by use of S88-Feedback-Bus) for setup a fully automatic drive of all your trains. Furthermore, any Train can be manually controlled, their functions are allowed to be switched directly on and off by the user interface.",
-    **homepage**: "http://www.railessentials.net",
-    **language**: "JavaScript",
-    **archived**: true,
+    <summary><b>railessentials</b>:</summary>
+    <b>html_url</b>: https://github.com/cbries/railessentials<br>
+    <b>description</b>: RailEssentials is a software for controlling your Model Trains especially when ESU's ECoS 50210/50200 is used. RailEssentials provides a Track-designer, an Analyzer for automatic detection of all possible Routes between directly connected Blocks, and an Event-system (e.g. by use of S88-Feedback-Bus) for setup a fully automatic drive of all your trains. Furthermore, any Train can be manually controlled, their functions are allowed to be switched directly on and off by the user interface.<br>
+    <b>homepage</b>: http://www.railessentials.net<br>
+    <b>language</b>: JavaScript<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**RawTherapee**:</summary>
-    **html_url**: "https://github.com/Beep6581/RawTherapee",
-    **description**: "A powerful cross-platform raw photo processing program",
-    **homepage**: "http://rawtherapee.com/",
-    **language**: "C++",
-    **archived**: false,
+    <summary><b>RawTherapee</b>:</summary>
+    <b>html_url</b>: https://github.com/Beep6581/RawTherapee<br>
+    <b>description</b>: A powerful cross-platform raw photo processing program<br>
+    <b>homepage</b>: http://rawtherapee.com/<br>
+    <b>language</b>: C++<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**rbac**:</summary>
-    **html_url**: "https://github.com/OWASP/rbac",
-    **description**: "PHP-RBAC is an authorization library for PHP. It provides developers with NIST Level 2 Standard Role Based Access Control and more, in the fastest implementation yet.",
-    **homepage**: "http://phprbac.net/",
-    **language**: "PHP",
-    **archived**: false,
+    <summary><b>rbac</b>:</summary>
+    <b>html_url</b>: https://github.com/OWASP/rbac<br>
+    <b>description</b>: PHP-RBAC is an authorization library for PHP. It provides developers with NIST Level 2 Standard Role Based Access Control and more, in the fastest implementation yet.<br>
+    <b>homepage</b>: http://phprbac.net/<br>
+    <b>language</b>: PHP<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**reactos**:</summary>
-    **html_url**: "https://github.com/reactos/reactos",
-    **description**: "A free Windows-compatible Operating System",
-    **homepage**: "https://reactos.org/",
-    **language**: "C",
-    **archived**: false,
+    <summary><b>reactos</b>:</summary>
+    <b>html_url</b>: https://github.com/reactos/reactos<br>
+    <b>description</b>: A free Windows-compatible Operating System<br>
+    <b>homepage</b>: https://reactos.org/<br>
+    <b>language</b>: C<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**reactphp**:</summary>
-    **html_url**: "https://github.com/reactphp/reactphp",
-    **description**: "Event-driven, non-blocking I/O with PHP.",
-    **homepage**: "https://reactphp.org",
-    **language**: "PHP",
-    **archived**: false,
+    <summary><b>reactphp</b>:</summary>
+    <b>html_url</b>: https://github.com/reactphp/reactphp<br>
+    <b>description</b>: Event-driven, non-blocking I/O with PHP.<br>
+    <b>homepage</b>: https://reactphp.org<br>
+    <b>language</b>: PHP<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**rector**:</summary>
-    **html_url**: "https://github.com/rectorphp/rector",
-    **description**: "Instant Upgrades and Automated Refactoring of any PHP 5.3+ code",
-    **homepage**: "https://getrector.org",
-    **language**: "PHP",
-    **archived**: false,
+    <summary><b>rector</b>:</summary>
+    <b>html_url</b>: https://github.com/rectorphp/rector<br>
+    <b>description</b>: Instant Upgrades and Automated Refactoring of any PHP 5.3+ code<br>
+    <b>homepage</b>: https://getrector.org<br>
+    <b>language</b>: PHP<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**Red-Cherries-Accounting**:</summary>
-    **html_url**: "https://github.com/Artifectx/Red-Cherries-Accounting",
-    **description**: "Red Cherries Accounting is a web based accounting software solution for Small and Medium Enterprices (SME) to manage financial information. Copyright (C) 2021 Artifectx Solutions (Pvt) Ltd",
-    **homepage**: "",
-    **language**: "PHP",
-    **archived**: false,
+    <summary><b>Red-Cherries-Accounting</b>:</summary>
+    <b>html_url</b>: https://github.com/Artifectx/Red-Cherries-Accounting<br>
+    <b>description</b>: Red Cherries Accounting is a web based accounting software solution for Small and Medium Enterprices (SME) to manage financial information. Copyright (C) 2021 Artifectx Solutions (Pvt) Ltd<br>
+    <b>homepage</b>: -<br>
+    <b>language</b>: PHP<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**regex-colorizer**:</summary>
-    **html_url**: "https://github.com/slevithan/regex-colorizer",
-    **description**: "Highlighter for JavaScript regex syntax",
-    **homepage**: "https://stevenlevithan.com/regex/colorizer/",
-    **language**: "JavaScript",
-    **archived**: false,
+    <summary><b>regex-colorizer</b>:</summary>
+    <b>html_url</b>: https://github.com/slevithan/regex-colorizer<br>
+    <b>description</b>: Highlighter for JavaScript regex syntax<br>
+    <b>homepage</b>: https://stevenlevithan.com/regex/colorizer/<br>
+    <b>language</b>: JavaScript<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**reportico**:</summary>
-    **html_url**: "https://github.com/reportico-web/reportico",
-    **description**: "Reportico Open Source PHP report Designer",
-    **homepage**: null,
-    **language**: "PHP",
-    **archived**: false,
+    <summary><b>reportico</b>:</summary>
+    <b>html_url</b>: https://github.com/reportico-web/reportico<br>
+    <b>description</b>: Reportico Open Source PHP report Designer<br>
+    <b>homepage</b>: -<br>
+    <b>language</b>: PHP<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**requirejs**:</summary>
-    **html_url**: "https://github.com/requirejs/requirejs",
-    **description**: "A file and module loader for JavaScript",
-    **homepage**: "https://requirejs.org/",
-    **language**: "JavaScript",
-    **archived**: false,
+    <summary><b>requirejs</b>:</summary>
+    <b>html_url</b>: https://github.com/requirejs/requirejs<br>
+    <b>description</b>: A file and module loader for JavaScript<br>
+    <b>homepage</b>: https://requirejs.org/<br>
+    <b>language</b>: JavaScript<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**responsively-app**:</summary>
-    **html_url**: "https://github.com/responsively-org/responsively-app",
-    **description**: "A modified web browser that helps in responsive web development. A web developer's must have dev-tool.",
-    **homepage**: "https://responsively.app",
-    **language**: "JavaScript",
-    **archived**: false,
+    <summary><b>responsively-app</b>:</summary>
+    <b>html_url</b>: https://github.com/responsively-org/responsively-app<br>
+    <b>description</b>: A modified web browser that helps in responsive web development. A web developer's must have dev-tool.<br>
+    <b>homepage</b>: https://responsively.app<br>
+    <b>language</b>: JavaScript<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**RisohEditor**:</summary>
-    **html_url**: "https://github.com/katahiromz/RisohEditor",
-    **description**: "Another free Win32 resource editor",
-    **homepage**: "https://katahiromz.web.fc2.com/re/en",
-    **language**: "C++",
-    **archived**: false,
+    <summary><b>RisohEditor</b>:</summary>
+    <b>html_url</b>: https://github.com/katahiromz/RisohEditor<br>
+    <b>description</b>: Another free Win32 resource editor<br>
+    <b>homepage</b>: https://katahiromz.web.fc2.com/re/en<br>
+    <b>language</b>: C++<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**rkward**:</summary>
-    **html_url**: "https://github.com/KDE/rkward",
-    **description**: "Easily extensible and easy-to-use IDE/GUI for R",
-    **homepage**: "https://invent.kde.org/education/rkward",
-    **language**: "C++",
-    **archived**: false,
-    **license**: null,
+    <summary><b>rkward</b>:</summary>
+    <b>html_url</b>: https://github.com/KDE/rkward<br>
+    <b>description</b>: Easily extensible and easy-to-use IDE/GUI for R<br>
+    <b>homepage</b>: https://invent.kde.org/education/rkward<br>
+    <b>language</b>: C++<br>
+    <b>archived</b>: -<br>
+    <b>license</b>: -<br>
   </details>
 
   <details>
-    <summary>**roadrunner**:</summary>
-    **html_url**: "https://github.com/roadrunner-server/roadrunner",
-    **description**: "🤯 High-performance PHP application server, process manager written in Go and powered with plugins",
-    **homepage**: "https://roadrunner.dev",
-    **language**: "Go",
-    **archived**: false,
+    <summary><b>roadrunner</b>:</summary>
+    <b>html_url</b>: https://github.com/roadrunner-server/roadrunner<br>
+    <b>description</b>: 🤯 High-performance PHP application server, process manager written in Go and powered with plugins<br>
+    <b>homepage</b>: https://roadrunner.dev<br>
+    <b>language</b>: Go<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**robo**:</summary>
-    **html_url**: "https://github.com/consolidation/robo",
-    **description**: "Modern task runner for PHP",
-    **homepage**: "http://robo.li",
-    **language**: "PHP",
-    **archived**: false,
+    <summary><b>robo</b>:</summary>
+    <b>html_url</b>: https://github.com/consolidation/robo<br>
+    <b>description</b>: Modern task runner for PHP<br>
+    <b>homepage</b>: http://robo.li<br>
+    <b>language</b>: PHP<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**rosariosis**:</summary>
-    **html_url**: "https://github.com/francoisjacquet/rosariosis",
-    **description**: "RosarioSIS Student Information System for school management.",
-    **homepage**: "https://www.rosariosis.org",
-    **language**: "PHP",
-    **archived**: false,
+    <summary><b>rosariosis</b>:</summary>
+    <b>html_url</b>: https://github.com/francoisjacquet/rosariosis<br>
+    <b>description</b>: RosarioSIS Student Information System for school management.<br>
+    <b>homepage</b>: https://www.rosariosis.org<br>
+    <b>language</b>: PHP<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**roundcubemail**:</summary>
-    **html_url**: "https://github.com/roundcube/roundcubemail",
-    **description**: "The Roundcube Webmail suite",
-    **homepage**: "https://roundcube.net",
-    **language**: "PHP",
-    **archived**: false,
+    <summary><b>roundcubemail</b>:</summary>
+    <b>html_url</b>: https://github.com/roundcube/roundcubemail<br>
+    <b>description</b>: The Roundcube Webmail suite<br>
+    <b>homepage</b>: https://roundcube.net<br>
+    <b>language</b>: PHP<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**RSSOwl**:</summary>
-    **html_url**: "https://github.com/rssowl/RSSOwl",
-    **description**: "RSS Owl is a powerful application to organize, search and read your RSS, RDF & Atom news feeds in a comfortable way. Highlights are saved searches, google reader sync, notifications, filters, fast fulltext search and a flexible, clean user interface.",
-    **homepage**: "http://www.rssowl.org",
-    **language**: "Java",
-    **archived**: true,
+    <summary><b>RSSOwl</b>:</summary>
+    <b>html_url</b>: https://github.com/rssowl/RSSOwl<br>
+    <b>description</b>: RSS Owl is a powerful application to organize, search and read your RSS, RDF & Atom news feeds in a comfortable way. Highlights are saved searches, google reader sync, notifications, filters, fast fulltext search and a flexible, clean user interface.<br>
+    <b>homepage</b>: http://www.rssowl.org<br>
+    <b>language</b>: Java<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**rstudio**:</summary>
-    **html_url**: "https://github.com/rstudio/rstudio",
-    **description**: "RStudio is an integrated development environment (IDE) for R",
-    **homepage**: "https://posit.co/products/open-source/rstudio/",
-    **language**: "Java",
-    **archived**: false,
+    <summary><b>rstudio</b>:</summary>
+    <b>html_url</b>: https://github.com/rstudio/rstudio<br>
+    <b>description</b>: RStudio is an integrated development environment (IDE) for R<br>
+    <b>homepage</b>: https://posit.co/products/open-source/rstudio/<br>
+    <b>language</b>: Java<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**rufus**:</summary>
-    **html_url**: "https://github.com/pbatard/rufus",
-    **description**: "The Reliable USB Formatting Utility",
-    **homepage**: "https://rufus.ie",
-    **language**: "C",
-    **archived**: false,
+    <summary><b>rufus</b>:</summary>
+    <b>html_url</b>: https://github.com/pbatard/rufus<br>
+    <b>description</b>: The Reliable USB Formatting Utility<br>
+    <b>homepage</b>: https://rufus.ie<br>
+    <b>language</b>: C<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**Rukovoditel**:</summary>
-    **html_url**: "https://github.com/Rukovoditel/Rukovoditel",
-    **description**: null,
-    **homepage**: null,
-    **language**: "PHP",
-    **archived**: false,
+    <summary><b>Rukovoditel</b>:</summary>
+    <b>html_url</b>: https://github.com/Rukovoditel/Rukovoditel<br>
+    <b>description</b>: -<br>
+    <b>homepage</b>: -<br>
+    <b>language</b>: PHP<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**safeosms**:</summary>
-    **html_url**: "https://github.com/patadejaguar/safeosms",
-    **description**: "SAFE Open Source Microfinace Suite",
-    **homepage**: "http://www.opencorebanking.com",
-    **language**: "JavaScript",
-    **archived**: false,
-    **license**: null,
+    <summary><b>safeosms</b>:</summary>
+    <b>html_url</b>: https://github.com/patadejaguar/safeosms<br>
+    <b>description</b>: SAFE Open Source Microfinace Suite<br>
+    <b>homepage</b>: http://www.opencorebanking.com<br>
+    <b>language</b>: JavaScript<br>
+    <b>archived</b>: -<br>
+    <b>license</b>: -<br>
   </details>
 
   <details>
-    <summary>**SaltOS**:</summary>
-    **html_url**: "https://github.com/josepsanzcamp/SaltOS",
-    **description**: "The latest source code of the nightly version of the SaltOS project",
-    **homepage**: "https://www.saltos.org",
-    **language**: "PHP",
-    **archived**: false,
-    **license**: null,
+    <summary><b>SaltOS</b>:</summary>
+    <b>html_url</b>: https://github.com/josepsanzcamp/SaltOS<br>
+    <b>description</b>: The latest source code of the nightly version of the SaltOS project<br>
+    <b>homepage</b>: https://www.saltos.org<br>
+    <b>language</b>: PHP<br>
+    <b>archived</b>: -<br>
+    <b>license</b>: -<br>
   </details>
 
   <details>
-    <summary>**scc**:</summary>
-    **html_url**: "https://github.com/boyter/scc",
-    **description**: "Sloc, Cloc and Code: scc is a very fast accurate code counter with complexity calculations and COCOMO estimates written in pure Go",
-    **homepage**: "",
-    **language**: "Go",
-    **archived**: false,
+    <summary><b>scc</b>:</summary>
+    <b>html_url</b>: https://github.com/boyter/scc<br>
+    <b>description</b>: Sloc, Cloc and Code: scc is a very fast accurate code counter with complexity calculations and COCOMO estimates written in pure Go<br>
+    <b>homepage</b>: -<br>
+    <b>language</b>: Go<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**scipy**:</summary>
-    **html_url**: "https://github.com/scipy/scipy",
-    **description**: "SciPy library main repository",
-    **homepage**: "https://scipy.org",
-    **language**: "Python",
-    **archived**: false,
+    <summary><b>scipy</b>:</summary>
+    <b>html_url</b>: https://github.com/scipy/scipy<br>
+    <b>description</b>: SciPy library main repository<br>
+    <b>homepage</b>: https://scipy.org<br>
+    <b>language</b>: Python<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**score**:</summary>
-    **html_url**: "https://github.com/ossia/score",
-    **description**: "ossia score, an interactive sequencer for the intermedia arts",
-    **homepage**: "https://ossia.io",
-    **language**: "C++",
-    **archived**: false,
+    <summary><b>score</b>:</summary>
+    <b>html_url</b>: https://github.com/ossia/score<br>
+    <b>description</b>: ossia score, an interactive sequencer for the intermedia arts<br>
+    <b>homepage</b>: https://ossia.io<br>
+    <b>language</b>: C++<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**ScreenRuler**:</summary>
-    **html_url**: "https://github.com/Bluegrams/ScreenRuler",
-    **description**: "Configurable screen measuring tool for Windows",
-    **homepage**: "https://sf.net/p/screenruler",
-    **language**: "C#",
-    **archived**: false,
+    <summary><b>ScreenRuler</b>:</summary>
+    <b>html_url</b>: https://github.com/Bluegrams/ScreenRuler<br>
+    <b>description</b>: Configurable screen measuring tool for Windows<br>
+    <b>homepage</b>: https://sf.net/p/screenruler<br>
+    <b>language</b>: C#<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**ScreenToGif**:</summary>
-    **html_url**: "https://github.com/NickeManarin/ScreenToGif",
-    **description**: "🎬 ScreenToGif allows you to record a selected area of your screen, edit and save it as a gif or video.",
-    **homepage**: "http://www.screentogif.com",
-    **language**: "C#",
-    **archived**: false,
+    <summary><b>ScreenToGif</b>:</summary>
+    <b>html_url</b>: https://github.com/NickeManarin/ScreenToGif<br>
+    <b>description</b>: 🎬 ScreenToGif allows you to record a selected area of your screen, edit and save it as a gif or video.<br>
+    <b>homepage</b>: http://www.screentogif.com<br>
+    <b>language</b>: C#<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**scribus**:</summary>
-    **html_url**: "https://github.com/scribusproject/scribus",
-    **description**: "Mirror of official Scribus SVN (however you should really use SVN at svn://scribus.net) (http://bugs.scribus.net ← Submit PRs & Bugs)",
-    **homepage**: "http://scribus.net",
-    **language**: "C++",
-    **archived**: false,
+    <summary><b>scribus</b>:</summary>
+    <b>html_url</b>: https://github.com/scribusproject/scribus<br>
+    <b>description</b>: Mirror of official Scribus SVN (however you should really use SVN at svn://scribus.net) (http://bugs.scribus.net ← Submit PRs & Bugs)<br>
+    <b>homepage</b>: http://scribus.net<br>
+    <b>language</b>: C++<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**scssphp**:</summary>
-    **html_url**: "https://github.com/leafo/scssphp",
-    **description**: "SCSS compiler written in PHP",
-    **homepage**: null,
-    **language**: "PHP",
-    **archived**: false,
+    <summary><b>scssphp</b>:</summary>
+    <b>html_url</b>: https://github.com/leafo/scssphp<br>
+    <b>description</b>: SCSS compiler written in PHP<br>
+    <b>homepage</b>: -<br>
+    <b>language</b>: PHP<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**seb-win-refactoring**:</summary>
-    **html_url**: "https://github.com/SafeExamBrowser/seb-win-refactoring",
-    **description**: "Safe Exam Browser for Windows.",
-    **homepage**: "https://www.safeexambrowser.org/news_en.html",
-    **language**: "C#",
-    **archived**: false,
+    <summary><b>seb-win-refactoring</b>:</summary>
+    <b>html_url</b>: https://github.com/SafeExamBrowser/seb-win-refactoring<br>
+    <b>description</b>: Safe Exam Browser for Windows.<br>
+    <b>homepage</b>: https://www.safeexambrowser.org/news_en.html<br>
+    <b>language</b>: C#<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**selectize.js**:</summary>
-    **html_url**: "https://github.com/selectize/selectize.js",
-    **description**: "Selectize is the hybrid of a textbox and <select> box. It's jQuery based, and it has autocomplete and native-feeling keyboard navigation; useful for tagging, contact lists, etc.",
-    **homepage**: "https://selectize.dev/",
-    **language**: "SCSS",
-    **archived**: false,
+    <summary><b>selectize.js</b>:</summary>
+    <b>html_url</b>: https://github.com/selectize/selectize.js<br>
+    <b>description</b>: Selectize is the hybrid of a textbox and <select> box. It's jQuery based, and it has autocomplete and native-feeling keyboard navigation; useful for tagging, contact lists, etc.<br>
+    <b>homepage</b>: https://selectize.dev/<br>
+    <b>language</b>: SCSS<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**sentrifugo**:</summary>
-    **html_url**: "https://github.com/sapplica/sentrifugo",
-    **description**: "Sentrifugo is a FREE and powerful Human Resource Management System (HRMS) that can be easily configured to meet your organizational needs.",
-    **homepage**: "http://www.sentrifugo.com/",
-    **language**: "PHP",
-    **archived**: false,
+    <summary><b>sentrifugo</b>:</summary>
+    <b>html_url</b>: https://github.com/sapplica/sentrifugo<br>
+    <b>description</b>: Sentrifugo is a FREE and powerful Human Resource Management System (HRMS) that can be easily configured to meet your organizational needs.<br>
+    <b>homepage</b>: http://www.sentrifugo.com/<br>
+    <b>language</b>: PHP<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**Seo-Panel**:</summary>
-    **html_url**: "https://github.com/seopanel/Seo-Panel",
-    **description**: "World's first seo control panel for multiple websites",
-    **homepage**: "https://www.seopanel.in",
-    **language**: "PHP",
-    **archived**: false,
+    <summary><b>Seo-Panel</b>:</summary>
+    <b>html_url</b>: https://github.com/seopanel/Seo-Panel<br>
+    <b>description</b>: World's first seo control panel for multiple websites<br>
+    <b>homepage</b>: https://www.seopanel.in<br>
+    <b>language</b>: PHP<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**server**:</summary>
-    **html_url**: "https://github.com/nextcloud/server",
-    **description**: "☁️ Nextcloud server, a safe home for all your data",
-    **homepage**: "https://nextcloud.com",
-    **language**: "PHP",
-    **archived**: false,
+    <summary><b>server</b>:</summary>
+    <b>html_url</b>: https://github.com/nextcloud/server<br>
+    <b>description</b>: ☁️ Nextcloud server, a safe home for all your data<br>
+    <b>homepage</b>: https://nextcloud.com<br>
+    <b>language</b>: PHP<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**Shaman.Dokan.Archive**:</summary>
-    **html_url**: "https://github.com/antiufo/Shaman.Dokan.Archive",
-    **description**: "Mounts 7z/zip/rar files on Windows",
-    **homepage**: null,
-    **language**: "C#",
-    **archived**: false,
-    **license**: null,
+    <summary><b>Shaman.Dokan.Archive</b>:</summary>
+    <b>html_url</b>: https://github.com/antiufo/Shaman.Dokan.Archive<br>
+    <b>description</b>: Mounts 7z/zip/rar files on Windows<br>
+    <b>homepage</b>: -<br>
+    <b>language</b>: C#<br>
+    <b>archived</b>: -<br>
+    <b>license</b>: -<br>
   </details>
 
   <details>
-    <summary>**ShareX**:</summary>
-    **html_url**: "https://github.com/ShareX/ShareX",
-    **description**: "ShareX is a free and open source program that lets you capture or record any area of your screen and share it with a single press of a key. It also allows uploading images, text or other types of files to many supported destinations you can choose from.",
-    **homepage**: "https://getsharex.com",
-    **language**: "C#",
-    **archived**: false,
+    <summary><b>ShareX</b>:</summary>
+    <b>html_url</b>: https://github.com/ShareX/ShareX<br>
+    <b>description</b>: ShareX is a free and open source program that lets you capture or record any area of your screen and share it with a single press of a key. It also allows uploading images, text or other types of files to many supported destinations you can choose from.<br>
+    <b>homepage</b>: https://getsharex.com<br>
+    <b>language</b>: C#<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**shotcut**:</summary>
-    **html_url**: "https://github.com/mltframework/shotcut",
-    **description**: "cross-platform (Qt), open-source (GPLv3) video editor",
-    **homepage**: "https://www.shotcut.org",
-    **language**: "C++",
-    **archived**: false,
+    <summary><b>shotcut</b>:</summary>
+    <b>html_url</b>: https://github.com/mltframework/shotcut<br>
+    <b>description</b>: cross-platform (Qt), open-source (GPLv3) video editor<br>
+    <b>homepage</b>: https://www.shotcut.org<br>
+    <b>language</b>: C++<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**shotwell**:</summary>
-    **html_url**: "https://github.com/GNOME/shotwell",
-    **description**: "Read-only mirror of https://gitlab.gnome.org/GNOME/shotwell",
-    **homepage**: "https://gitlab.gnome.org/GNOME/shotwell",
-    **language**: "Vala",
-    **archived**: false,
+    <summary><b>shotwell</b>:</summary>
+    <b>html_url</b>: https://github.com/GNOME/shotwell<br>
+    <b>description</b>: Read-only mirror of https://gitlab.gnome.org/GNOME/shotwell<br>
+    <b>homepage</b>: https://gitlab.gnome.org/GNOME/shotwell<br>
+    <b>language</b>: Vala<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**simancil**:</summary>
-    **html_url**: "https://github.com/v13nr/simancil",
-    **description**: "PT. Netsindo Sentra Computama",
-    **homepage**: null,
-    **language**: "PHP",
-    **archived**: false,
-    **license**: null,
+    <summary><b>simancil</b>:</summary>
+    <b>html_url</b>: https://github.com/v13nr/simancil<br>
+    <b>description</b>: PT. Netsindo Sentra Computama<br>
+    <b>homepage</b>: -<br>
+    <b>language</b>: PHP<br>
+    <b>archived</b>: -<br>
+    <b>license</b>: -<br>
   </details>
 
   <details>
-    <summary>**SIMIKMAN**:</summary>
-    **html_url**: "https://github.com/radigi2207/SIMIKMAN",
-    **description**: "php mikrotik codeigniter (SIMIKMAN)",
-    **homepage**: "",
-    **language**: "PHP",
-    **archived**: false,
-    **license**: null,
+    <summary><b>SIMIKMAN</b>:</summary>
+    <b>html_url</b>: https://github.com/radigi2207/SIMIKMAN<br>
+    <b>description</b>: php mikrotik codeigniter (SIMIKMAN)<br>
+    <b>homepage</b>: -<br>
+    <b>language</b>: PHP<br>
+    <b>archived</b>: -<br>
+    <b>license</b>: -<br>
   </details>
 
   <details>
-    <summary>**similar_vision**:</summary>
-    **html_url**: "https://github.com/stereomatchingkiss/similar_vision",
-    **description**: "An app used to find similar images/videos within image/video set. Based on Qt5, opencv3 and boost",
-    **homepage**: null,
-    **language**: "C++",
-    **archived**: false,
+    <summary><b>similar_vision</b>:</summary>
+    <b>html_url</b>: https://github.com/stereomatchingkiss/similar_vision<br>
+    <b>description</b>: An app used to find similar images/videos within image/video set. Based on Qt5, opencv3 and boost<br>
+    <b>homepage</b>: -<br>
+    <b>language</b>: C++<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**simple-video-cutter**:</summary>
-    **html_url**: "https://github.com/bartekmotyl/simple-video-cutter",
-    **description**: "Windows-based tool for efficient browsing and cutting video footage",
-    **homepage**: "",
-    **language**: "C#",
-    **archived**: false,
+    <summary><b>simple-video-cutter</b>:</summary>
+    <b>html_url</b>: https://github.com/bartekmotyl/simple-video-cutter<br>
+    <b>description</b>: Windows-based tool for efficient browsing and cutting video footage<br>
+    <b>homepage</b>: -<br>
+    <b>language</b>: C#<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**SimpleDesk**:</summary>
-    **html_url**: "https://github.com/SimpleMachines/SimpleDesk",
-    **description**: "SimpleDesk",
-    **homepage**: "https://www.simpledesk.net",
-    **language**: "PHP",
-    **archived**: false,
+    <summary><b>SimpleDesk</b>:</summary>
+    <b>html_url</b>: https://github.com/SimpleMachines/SimpleDesk<br>
+    <b>description</b>: SimpleDesk<br>
+    <b>homepage</b>: https://www.simpledesk.net<br>
+    <b>language</b>: PHP<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**simplepie**:</summary>
-    **html_url**: "https://github.com/simplepie/simplepie",
-    **description**: "A simple Atom/RSS parsing library for PHP.",
-    **homepage**: "http://simplepie.org/",
-    **language**: "PHP",
-    **archived**: false,
-    **license**: null,
+    <summary><b>simplepie</b>:</summary>
+    <b>html_url</b>: https://github.com/simplepie/simplepie<br>
+    <b>description</b>: A simple Atom/RSS parsing library for PHP.<br>
+    <b>homepage</b>: http://simplepie.org/<br>
+    <b>language</b>: PHP<br>
+    <b>archived</b>: -<br>
+    <b>license</b>: -<br>
   </details>
 
   <details>
-    <summary>**sitracker**:</summary>
-    **html_url**: "https://github.com/sitracker/sitracker",
-    **description**: "The SiT! (Support Incident Tracker) project.",
-    **homepage**: "http://sitracker.org",
-    **language**: "PHP",
-    **archived**: false,
+    <summary><b>sitracker</b>:</summary>
+    <b>html_url</b>: https://github.com/sitracker/sitracker<br>
+    <b>description</b>: The SiT! (Support Incident Tracker) project.<br>
+    <b>homepage</b>: http://sitracker.org<br>
+    <b>language</b>: PHP<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**sk1-wx**:</summary>
-    **html_url**: "https://github.com/sk1project/sk1-wx",
-    **description**: "sK1 2.0 cross-platform vector graphics editor",
-    **homepage**: "https://sk1project.net",
-    **language**: "Python",
-    **archived**: false,
+    <summary><b>sk1-wx</b>:</summary>
+    <b>html_url</b>: https://github.com/sk1project/sk1-wx<br>
+    <b>description</b>: sK1 2.0 cross-platform vector graphics editor<br>
+    <b>homepage</b>: https://sk1project.net<br>
+    <b>language</b>: Python<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**slims9_bulian**:</summary>
-    **html_url**: "https://github.com/slims/slims9_bulian",
-    **description**: "SLiMS 9 Bulian official source code repository.",
-    **homepage**: "https://slims.web.id",
-    **language**: "PHP",
-    **archived**: false,
+    <summary><b>slims9_bulian</b>:</summary>
+    <b>html_url</b>: https://github.com/slims/slims9_bulian<br>
+    <b>description</b>: SLiMS 9 Bulian official source code repository.<br>
+    <b>homepage</b>: https://slims.web.id<br>
+    <b>language</b>: PHP<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**SMF**:</summary>
-    **html_url**: "https://github.com/SimpleMachines/SMF",
-    **description**: "Simple Machines Forum — SMF in short — is free and open-source community forum software, delivering professional grade features in a package that allows you to set up your own online community within minutes!",
-    **homepage**: "https://www.simplemachines.org/",
-    **language**: "PHP",
-    **archived**: false,
+    <summary><b>SMF</b>:</summary>
+    <b>html_url</b>: https://github.com/SimpleMachines/SMF<br>
+    <b>description</b>: Simple Machines Forum — SMF in short — is free and open-source community forum software, delivering professional grade features in a package that allows you to set up your own online community within minutes!<br>
+    <b>homepage</b>: https://www.simplemachines.org/<br>
+    <b>language</b>: PHP<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**SMF3.0**:</summary>
-    **html_url**: "https://github.com/SimpleMachines/SMF3.0",
-    **description**: "SMF",
-    **homepage**: "http://www.simplemachines.org",
-    **language**: "PHP",
-    **archived**: false,
+    <summary><b>SMF3.0</b>:</summary>
+    <b>html_url</b>: https://github.com/SimpleMachines/SMF3.0<br>
+    <b>description</b>: SMF<br>
+    <b>homepage</b>: http://www.simplemachines.org<br>
+    <b>language</b>: PHP<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**smilla-enlarger**:</summary>
-    **html_url**: "https://github.com/lupoDharkael/smilla-enlarger",
-    **description**: "QT5 port of Smilla Enlarger",
-    **homepage**: "",
-    **language**: "C++",
-    **archived**: true,
+    <summary><b>smilla-enlarger</b>:</summary>
+    <b>html_url</b>: https://github.com/lupoDharkael/smilla-enlarger<br>
+    <b>description</b>: QT5 port of Smilla Enlarger<br>
+    <b>homepage</b>: -<br>
+    <b>language</b>: C++<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**snipe-it**:</summary>
-    **html_url**: "https://github.com/snipe/snipe-it",
-    **description**: "A free open source IT asset/license management system",
-    **homepage**: "https://snipeitapp.com",
-    **language**: "PHP",
-    **archived**: false,
+    <summary><b>snipe-it</b>:</summary>
+    <b>html_url</b>: https://github.com/snipe/snipe-it<br>
+    <b>description</b>: A free open source IT asset/license management system<br>
+    <b>homepage</b>: https://snipeitapp.com<br>
+    <b>language</b>: PHP<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**SoftEtherVPN**:</summary>
-    **html_url**: "https://github.com/SoftEtherVPN/SoftEtherVPN",
-    **description**: "Cross-platform multi-protocol VPN software. Pull requests are welcome. The stable version is available at https://github.com/SoftEtherVPN/SoftEtherVPN_Stable.",
-    **homepage**: "",
-    **language**: "C",
-    **archived**: false,
+    <summary><b>SoftEtherVPN</b>:</summary>
+    <b>html_url</b>: https://github.com/SoftEtherVPN/SoftEtherVPN<br>
+    <b>description</b>: Cross-platform multi-protocol VPN software. Pull requests are welcome. The stable version is available at https://github.com/SoftEtherVPN/SoftEtherVPN_Stable.<br>
+    <b>homepage</b>: -<br>
+    <b>language</b>: C<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**SolidInvoice**:</summary>
-    **html_url**: "https://github.com/SolidInvoice/SolidInvoice",
-    **description**: "Simple and elegant invoicing solution.",
-    **homepage**: "https://solidinvoice.co",
-    **language**: "PHP",
-    **archived**: false,
+    <summary><b>SolidInvoice</b>:</summary>
+    <b>html_url</b>: https://github.com/SolidInvoice/SolidInvoice<br>
+    <b>description</b>: Simple and elegant invoicing solution.<br>
+    <b>homepage</b>: https://solidinvoice.co<br>
+    <b>language</b>: PHP<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**space-radar**:</summary>
-    **html_url**: "https://github.com/zz85/space-radar",
-    **description**: "Disk And Memory Space Visualization App built with Electron & d3.js",
-    **homepage**: "https://github.com/zz85/space-radar-electron/releases",
-    **language**: "JavaScript",
-    **archived**: false,
-    **license**: null,
+    <summary><b>space-radar</b>:</summary>
+    <b>html_url</b>: https://github.com/zz85/space-radar<br>
+    <b>description</b>: Disk And Memory Space Visualization App built with Electron & d3.js<br>
+    <b>homepage</b>: https://github.com/zz85/space-radar-electron/releases<br>
+    <b>language</b>: JavaScript<br>
+    <b>archived</b>: -<br>
+    <b>license</b>: -<br>
   </details>
 
   <details>
-    <summary>**SpeedCrunch**:</summary>
-    **html_url**: "https://github.com/speedcrunch/SpeedCrunch",
-    **description**: "A fast, high-precision and powerful cross-platform desktop calculator.",
-    **homepage**: "http://speedcrunch.org",
-    **language**: null,
-    **archived**: false,
-    **license**: null,
+    <summary><b>SpeedCrunch</b>:</summary>
+    <b>html_url</b>: https://github.com/speedcrunch/SpeedCrunch<br>
+    <b>description</b>: A fast, high-precision and powerful cross-platform desktop calculator.<br>
+    <b>homepage</b>: http://speedcrunch.org<br>
+    <b>language</b>: -<br>
+    <b>archived</b>: -<br>
+    <b>license</b>: -<br>
   </details>
 
   <details>
-    <summary>**spyder**:</summary>
-    **html_url**: "https://github.com/spyder-ide/spyder",
-    **description**: "Official repository for Spyder - The Scientific Python Development Environment",
-    **homepage**: "https://www.spyder-ide.org",
-    **language**: "Python",
-    **archived**: false,
+    <summary><b>spyder</b>:</summary>
+    <b>html_url</b>: https://github.com/spyder-ide/spyder<br>
+    <b>description</b>: Official repository for Spyder - The Scientific Python Development Environment<br>
+    <b>homepage</b>: https://www.spyder-ide.org<br>
+    <b>language</b>: Python<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**sqlitestudio**:</summary>
-    **html_url**: "https://github.com/pawelsalawa/sqlitestudio",
-    **description**: "A free, open source, multi-platform SQLite database manager.",
-    **homepage**: "https://sqlitestudio.pl",
-    **language**: "C",
-    **archived**: false,
+    <summary><b>sqlitestudio</b>:</summary>
+    <b>html_url</b>: https://github.com/pawelsalawa/sqlitestudio<br>
+    <b>description</b>: A free, open source, multi-platform SQLite database manager.<br>
+    <b>homepage</b>: https://sqlitestudio.pl<br>
+    <b>language</b>: C<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**squirrelmail**:</summary>
-    **html_url**: "https://github.com/RealityRipple/squirrelmail",
-    **description**: " 🌰️🐿️ SquirrelMail GitHub Repository (PHP 7-OK!)",
-    **homepage**: "",
-    **language**: "PHP",
-    **archived**: false,
+    <summary><b>squirrelmail</b>:</summary>
+    <b>html_url</b>: https://github.com/RealityRipple/squirrelmail<br>
+    <b>description</b>:  🌰️🐿️ SquirrelMail GitHub Repository (PHP 7-OK!)<br>
+    <b>homepage</b>: -<br>
+    <b>language</b>: PHP<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**startbootstrap-sb-admin-2**:</summary>
-    **html_url**: "https://github.com/StartBootstrap/startbootstrap-sb-admin-2",
-    **description**: "A free, open source, Bootstrap admin theme created by Start Bootstrap",
-    **homepage**: "https://startbootstrap.com/themes/sb-admin-2/",
-    **language**: "HTML",
-    **archived**: false,
+    <summary><b>startbootstrap-sb-admin-2</b>:</summary>
+    <b>html_url</b>: https://github.com/StartBootstrap/startbootstrap-sb-admin-2<br>
+    <b>description</b>: A free, open source, Bootstrap admin theme created by Start Bootstrap<br>
+    <b>homepage</b>: https://startbootstrap.com/themes/sb-admin-2/<br>
+    <b>language</b>: HTML<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**Studio**:</summary>
-    **html_url**: "https://github.com/jahshaka/Studio",
-    **description**: "Jahshaka Virtual Reality Content Creation Studio",
-    **homepage**: "http://www.jahshaka.com",
-    **language**: "C++",
-    **archived**: false,
+    <summary><b>Studio</b>:</summary>
+    <b>html_url</b>: https://github.com/jahshaka/Studio<br>
+    <b>description</b>: Jahshaka Virtual Reality Content Creation Studio<br>
+    <b>homepage</b>: http://www.jahshaka.com<br>
+    <b>language</b>: C++<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**SubtitleComposer**:</summary>
-    **html_url**: "https://github.com/maxrd2/SubtitleComposer",
-    **description**: "Subtitle Composer - KF5/Qt Video Subtitle Editor",
-    **homepage**: "",
-    **language**: "C++",
-    **archived**: false,
+    <summary><b>SubtitleComposer</b>:</summary>
+    <b>html_url</b>: https://github.com/maxrd2/SubtitleComposer<br>
+    <b>description</b>: Subtitle Composer - KF5/Qt Video Subtitle Editor<br>
+    <b>homepage</b>: -<br>
+    <b>language</b>: C++<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**subtitleedit**:</summary>
-    **html_url**: "https://github.com/SubtitleEdit/subtitleedit",
-    **description**: "the subtitle editor :)",
-    **homepage**: "http://www.nikse.dk/SubtitleEdit/Help",
-    **language**: "C#",
-    **archived**: false,
+    <summary><b>subtitleedit</b>:</summary>
+    <b>html_url</b>: https://github.com/SubtitleEdit/subtitleedit<br>
+    <b>description</b>: the subtitle editor :)<br>
+    <b>homepage</b>: http://www.nikse.dk/SubtitleEdit/Help<br>
+    <b>language</b>: C#<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**SugarCRM-Community-Edition**:</summary>
-    **html_url**: "https://github.com/matthewpoer/SugarCRM-Community-Edition",
-    **description**: "A collection of legacy SugarCRM Community Edition installers, upgrade packages, documentation, etc. collected from the SourceForge project prior to the files being removed from the site.",
-    **homepage**: "",
-    **language**: "Rich Text Format",
-    **archived**: false,
-    **license**: null,
+    <summary><b>SugarCRM-Community-Edition</b>:</summary>
+    <b>html_url</b>: https://github.com/matthewpoer/SugarCRM-Community-Edition<br>
+    <b>description</b>: A collection of legacy SugarCRM Community Edition installers, upgrade packages, documentation, etc. collected from the SourceForge project prior to the files being removed from the site.<br>
+    <b>homepage</b>: -<br>
+    <b>language</b>: Rich Text Format<br>
+    <b>archived</b>: -<br>
+    <b>license</b>: -<br>
   </details>
 
   <details>
-    <summary>**SuiteCRM**:</summary>
-    **html_url**: "https://github.com/salesagility/SuiteCRM",
-    **description**: "SuiteCRM - Open source CRM for the world",
-    **homepage**: "https://www.suitecrm.com",
-    **language**: "PHP",
-    **archived**: false,
+    <summary><b>SuiteCRM</b>:</summary>
+    <b>html_url</b>: https://github.com/salesagility/SuiteCRM<br>
+    <b>description</b>: SuiteCRM - Open source CRM for the world<br>
+    <b>homepage</b>: https://www.suitecrm.com<br>
+    <b>language</b>: PHP<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**super-expressive-php**:</summary>
-    **html_url**: "https://github.com/bassim/super-expressive-php",
-    **description**: "super-expressive-php is a php library that allows you to build regular expressions in almost natural language",
-    **homepage**: "",
-    **language**: "PHP",
-    **archived**: false,
+    <summary><b>super-expressive-php</b>:</summary>
+    <b>html_url</b>: https://github.com/bassim/super-expressive-php<br>
+    <b>description</b>: super-expressive-php is a php library that allows you to build regular expressions in almost natural language<br>
+    <b>homepage</b>: -<br>
+    <b>language</b>: PHP<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**super_closure**:</summary>
-    **html_url**: "https://github.com/jeremeamia/super_closure",
-    **description**: "Serialize closures. Not maintained. Consider using opis/closure.",
-    **homepage**: "",
-    **language**: "PHP",
-    **archived**: false,
+    <summary><b>super_closure</b>:</summary>
+    <b>html_url</b>: https://github.com/jeremeamia/super_closure<br>
+    <b>description</b>: Serialize closures. Not maintained. Consider using opis/closure.<br>
+    <b>homepage</b>: -<br>
+    <b>language</b>: PHP<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**SurroundSelection**:</summary>
-    **html_url**: "https://github.com/dail8859/SurroundSelection",
-    **description**: "Notepad++ plugin to automatically surround the selection in quotes/brackets/parenthesis",
-    **homepage**: "",
-    **language**: "C++",
-    **archived**: false,
+    <summary><b>SurroundSelection</b>:</summary>
+    <b>html_url</b>: https://github.com/dail8859/SurroundSelection<br>
+    <b>description</b>: Notepad++ plugin to automatically surround the selection in quotes/brackets/parenthesis<br>
+    <b>homepage</b>: -<br>
+    <b>language</b>: C++<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**symfony**:</summary>
-    **html_url**: "https://github.com/symfony/symfony",
-    **description**: "The Symfony PHP framework",
-    **homepage**: "https://symfony.com",
-    **language**: "PHP",
-    **archived**: false,
+    <summary><b>symfony</b>:</summary>
+    <b>html_url</b>: https://github.com/symfony/symfony<br>
+    <b>description</b>: The Symfony PHP framework<br>
+    <b>homepage</b>: https://symfony.com<br>
+    <b>language</b>: PHP<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**synfig**:</summary>
-    **html_url**: "https://github.com/synfig/synfig",
-    **description**: "This is the Official source code repository of the Synfig project",
-    **homepage**: "https://synfig.org",
-    **language**: "C++",
-    **archived**: false,
+    <summary><b>synfig</b>:</summary>
+    <b>html_url</b>: https://github.com/synfig/synfig<br>
+    <b>description</b>: This is the Official source code repository of the Synfig project<br>
+    <b>homepage</b>: https://synfig.org<br>
+    <b>language</b>: C++<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**systeminformer**:</summary>
-    **html_url**: "https://github.com/winsiderss/systeminformer",
-    **description**: "A free, powerful, multi-purpose tool that helps you monitor system resources, debug software and detect malware. Brought to you by Winsider Seminars & Solutions, Inc. @ http://www.windows-internals.com",
-    **homepage**: "https://systeminformer.sourceforge.io",
-    **language**: "C",
-    **archived**: false,
+    <summary><b>systeminformer</b>:</summary>
+    <b>html_url</b>: https://github.com/winsiderss/systeminformer<br>
+    <b>description</b>: A free, powerful, multi-purpose tool that helps you monitor system resources, debug software and detect malware. Brought to you by Winsider Seminars & Solutions, Inc. @ http://www.windows-internals.com<br>
+    <b>homepage</b>: https://systeminformer.sourceforge.io<br>
+    <b>language</b>: C<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**tabler**:</summary>
-    **html_url**: "https://github.com/tabler/tabler",
-    **description**: "Tabler is free and open-source HTML Dashboard UI Kit built on Bootstrap",
-    **homepage**: "https://tabler.io",
-    **language**: "HTML",
-    **archived**: false,
+    <summary><b>tabler</b>:</summary>
+    <b>html_url</b>: https://github.com/tabler/tabler<br>
+    <b>description</b>: Tabler is free and open-source HTML Dashboard UI Kit built on Bootstrap<br>
+    <b>homepage</b>: https://tabler.io<br>
+    <b>language</b>: HTML<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**tabler-icons**:</summary>
-    **html_url**: "https://github.com/tabler/tabler-icons",
-    **description**: "A set of over 4500 free MIT-licensed high-quality SVG icons for you to use in your web projects.",
-    **homepage**: "https://tabler-icons.io",
-    **language**: "HTML",
-    **archived**: false,
+    <summary><b>tabler-icons</b>:</summary>
+    <b>html_url</b>: https://github.com/tabler/tabler-icons<br>
+    <b>description</b>: A set of over 4500 free MIT-licensed high-quality SVG icons for you to use in your web projects.<br>
+    <b>homepage</b>: https://tabler-icons.io<br>
+    <b>language</b>: HTML<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**tagainijisho**:</summary>
-    **html_url**: "https://github.com/Gnurou/tagainijisho",
-    **description**: "A free Japanese dictionary and learning assistant",
-    **homepage**: "http://www.tagaini.net",
-    **language**: "C++",
-    **archived**: false,
+    <summary><b>tagainijisho</b>:</summary>
+    <b>html_url</b>: https://github.com/Gnurou/tagainijisho<br>
+    <b>description</b>: A free Japanese dictionary and learning assistant<br>
+    <b>homepage</b>: http://www.tagaini.net<br>
+    <b>language</b>: C++<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**tagspaces**:</summary>
-    **html_url**: "https://github.com/tagspaces/tagspaces",
-    **description**: "TagSpaces is an offline, open source, document manager with tagging support",
-    **homepage**: "https://www.tagspaces.org",
-    **language**: "TypeScript",
-    **archived**: false,
+    <summary><b>tagspaces</b>:</summary>
+    <b>html_url</b>: https://github.com/tagspaces/tagspaces<br>
+    <b>description</b>: TagSpaces is an offline, open source, document manager with tagging support<br>
+    <b>homepage</b>: https://www.tagspaces.org<br>
+    <b>language</b>: TypeScript<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**taolin**:</summary>
-    **html_url**: "https://github.com/vad/taolin",
-    **description**: "An open source Enterprise 2.0 web desktop",
-    **homepage**: "http://taolin.fbk.eu",
-    **language**: "JavaScript",
-    **archived**: false,
+    <summary><b>taolin</b>:</summary>
+    <b>html_url</b>: https://github.com/vad/taolin<br>
+    <b>description</b>: An open source Enterprise 2.0 web desktop<br>
+    <b>homepage</b>: http://taolin.fbk.eu<br>
+    <b>language</b>: JavaScript<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**task-manager**:</summary>
-    **html_url**: "https://github.com/Eoxia/task-manager",
-    **description**: "Task Manager allows you to manage project tasks and the time spent on them. It also allows the client and the provider to communicate easily on projects as well as to follow up on the tasks carried out.",
-    **homepage**: "https://taskmanager.fr/",
-    **language**: "PHP",
-    **archived**: false,
+    <summary><b>task-manager</b>:</summary>
+    <b>html_url</b>: https://github.com/Eoxia/task-manager<br>
+    <b>description</b>: Task Manager allows you to manage project tasks and the time spent on them. It also allows the client and the provider to communicate easily on projects as well as to follow up on the tasks carried out.<br>
+    <b>homepage</b>: https://taskmanager.fr/<br>
+    <b>language</b>: PHP<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**TaskBoard**:</summary>
-    **html_url**: "https://github.com/kiswa/TaskBoard",
-    **description**: "A Kanban-inspired app for keeping track of things that need to get done. (Don't forget to read the Wiki page!)",
-    **homepage**: "http://taskboard.matthewross.me",
-    **language**: "TypeScript",
-    **archived**: false,
+    <summary><b>TaskBoard</b>:</summary>
+    <b>html_url</b>: https://github.com/kiswa/TaskBoard<br>
+    <b>description</b>: A Kanban-inspired app for keeping track of things that need to get done. (Don't forget to read the Wiki page!)<br>
+    <b>homepage</b>: http://taskboard.matthewross.me<br>
+    <b>language</b>: TypeScript<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**taskcoach**:</summary>
-    **html_url**: "https://github.com/wdmchaft/taskcoach",
-    **description**: "Your friendly task manager",
-    **homepage**: "http://www.taskcoach.org/",
-    **language**: "Python",
-    **archived**: false,
+    <summary><b>taskcoach</b>:</summary>
+    <b>html_url</b>: https://github.com/wdmchaft/taskcoach<br>
+    <b>description</b>: Your friendly task manager<br>
+    <b>homepage</b>: http://www.taskcoach.org/<br>
+    <b>language</b>: Python<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**taskunifier-app**:</summary>
-    **html_url**: "https://github.com/leclercb/taskunifier-app",
-    **description**: "TaskUnifier - Task Management Application",
-    **homepage**: "https://www.taskunifier.app",
-    **language**: "JavaScript",
-    **archived**: false,
+    <summary><b>taskunifier-app</b>:</summary>
+    <b>html_url</b>: https://github.com/leclercb/taskunifier-app<br>
+    <b>description</b>: TaskUnifier - Task Management Application<br>
+    <b>homepage</b>: https://www.taskunifier.app<br>
+    <b>language</b>: JavaScript<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**TastyIgniter**:</summary>
-    **html_url**: "https://github.com/tastyigniter/TastyIgniter",
-    **description**: ":fire: Powerful, yet easy to use, open-source online ordering, table reservation and management system for restaurants",
-    **homepage**: "https://tastyigniter.com",
-    **language**: "PHP",
-    **archived**: false,
+    <summary><b>TastyIgniter</b>:</summary>
+    <b>html_url</b>: https://github.com/tastyigniter/TastyIgniter<br>
+    <b>description</b>: :fire: Powerful, yet easy to use, open-source online ordering, table reservation and management system for restaurants<br>
+    <b>homepage</b>: https://tastyigniter.com<br>
+    <b>language</b>: PHP<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**TCPDF**:</summary>
-    **html_url**: "https://github.com/tecnickcom/TCPDF",
-    **description**: "Official clone of PHP library to generate PDF documents and barcodes",
-    **homepage**: "https://tcpdf.org",
-    **language**: "PHP",
-    **archived**: false,
+    <summary><b>TCPDF</b>:</summary>
+    <b>html_url</b>: https://github.com/tecnickcom/TCPDF<br>
+    <b>description</b>: Official clone of PHP library to generate PDF documents and barcodes<br>
+    <b>homepage</b>: https://tcpdf.org<br>
+    <b>language</b>: PHP<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**teemip-standalone**:</summary>
-    **html_url**: "https://github.com/TeemIp/teemip-standalone",
-    **description**: "Set of files specific to TeemIp's standalone version",
-    **homepage**: null,
-    **language**: "PHP",
-    **archived**: false,
+    <summary><b>teemip-standalone</b>:</summary>
+    <b>html_url</b>: https://github.com/TeemIp/teemip-standalone<br>
+    <b>description</b>: Set of files specific to TeemIp's standalone version<br>
+    <b>homepage</b>: -<br>
+    <b>language</b>: PHP<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**tellmatic**:</summary>
-    **html_url**: "https://github.com/tellmatic/tellmatic",
-    **description**: "tellmatic - the newsletter machine - quality open source newsletter for bussines and community",
-    **homepage**: null,
-    **language**: "PHP",
-    **archived**: false,
+    <summary><b>tellmatic</b>:</summary>
+    <b>html_url</b>: https://github.com/tellmatic/tellmatic<br>
+    <b>description</b>: tellmatic - the newsletter machine - quality open source newsletter for bussines and community<br>
+    <b>homepage</b>: -<br>
+    <b>language</b>: PHP<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**TemaTres-Vocabulary-Server**:</summary>
-    **html_url**: "https://github.com/tematres/TemaTres-Vocabulary-Server",
-    **description**: "Web application for management formal representations of knowledge, like controlled vocabularies, taxonomies, thesauri and glossaries ",
-    **homepage**: "https://vocabularyserver.com",
-    **language**: "PHP",
-    **archived**: false,
-    **license**: null,
+    <summary><b>TemaTres-Vocabulary-Server</b>:</summary>
+    <b>html_url</b>: https://github.com/tematres/TemaTres-Vocabulary-Server<br>
+    <b>description</b>: Web application for management formal representations of knowledge, like controlled vocabularies, taxonomies, thesauri and glossaries <br>
+    <b>homepage</b>: https://vocabularyserver.com<br>
+    <b>language</b>: PHP<br>
+    <b>archived</b>: -<br>
+    <b>license</b>: -<br>
   </details>
 
   <details>
-    <summary>**tempus-dominus**:</summary>
-    **html_url**: "https://github.com/Eonasdan/tempus-dominus",
-    **description**: "A powerful Date/time picker widget.",
-    **homepage**: "https://getdatepicker.com",
-    **language**: "HTML",
-    **archived**: false,
+    <summary><b>tempus-dominus</b>:</summary>
+    <b>html_url</b>: https://github.com/Eonasdan/tempus-dominus<br>
+    <b>description</b>: A powerful Date/time picker widget.<br>
+    <b>homepage</b>: https://getdatepicker.com<br>
+    <b>language</b>: HTML<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**tesseract**:</summary>
-    **html_url**: "https://github.com/tesseract-ocr/tesseract",
-    **description**: "Tesseract Open Source OCR Engine (main repository)",
-    **homepage**: "https://tesseract-ocr.github.io/",
-    **language**: "C++",
-    **archived**: false,
+    <summary><b>tesseract</b>:</summary>
+    <b>html_url</b>: https://github.com/tesseract-ocr/tesseract<br>
+    <b>description</b>: Tesseract Open Source OCR Engine (main repository)<br>
+    <b>homepage</b>: https://tesseract-ocr.github.io/<br>
+    <b>language</b>: C++<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**tesseract-ocr-for-php**:</summary>
-    **html_url**: "https://github.com/thiagoalessio/tesseract-ocr-for-php",
-    **description**: "A wrapper to work with Tesseract OCR inside PHP.",
-    **homepage**: "https://packagist.org/packages/thiagoalessio/tesseract_ocr",
-    **language**: "PHP",
-    **archived**: false,
+    <summary><b>tesseract-ocr-for-php</b>:</summary>
+    <b>html_url</b>: https://github.com/thiagoalessio/tesseract-ocr-for-php<br>
+    <b>description</b>: A wrapper to work with Tesseract OCR inside PHP.<br>
+    <b>homepage</b>: https://packagist.org/packages/thiagoalessio/tesseract_ocr<br>
+    <b>language</b>: PHP<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**thonny**:</summary>
-    **html_url**: "https://github.com/thonny/thonny",
-    **description**: "Python IDE for beginners",
-    **homepage**: "https://thonny.org",
-    **language**: "Python",
-    **archived**: false,
+    <summary><b>thonny</b>:</summary>
+    <b>html_url</b>: https://github.com/thonny/thonny<br>
+    <b>description</b>: Python IDE for beginners<br>
+    <b>homepage</b>: https://thonny.org<br>
+    <b>language</b>: Python<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**tiki**:</summary>
-    **html_url**: "https://github.com/tikiorg/tiki",
-    **description**: "Tiki's Git repository has been moved to https://gitlab.com/tikiwiki/tiki. Check our development workflow at https://dev.tiki.org/Git-and-SVN-combined-workflow. This mirror git repository is deprecated and is not likely do be around for much longer. This mirror was build and maintained thanks to https://github.com/dpocock/sync2git. ",
-    **homepage**: "",
-    **language**: "PHP",
-    **archived**: true,
+    <summary><b>tiki</b>:</summary>
+    <b>html_url</b>: https://github.com/tikiorg/tiki<br>
+    <b>description</b>: Tiki's Git repository has been moved to https://gitlab.com/tikiwiki/tiki. Check our development workflow at https://dev.tiki.org/Git-and-SVN-combined-workflow. This mirror git repository is deprecated and is not likely do be around for much longer. This mirror was build and maintained thanks to https://github.com/dpocock/sync2git. <br>
+    <b>homepage</b>: -<br>
+    <b>language</b>: PHP<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**tiled**:</summary>
-    **html_url**: "https://github.com/mapeditor/tiled",
-    **description**: "Flexible level editor",
-    **homepage**: "https://www.mapeditor.org/",
-    **language**: "C++",
-    **archived**: false,
+    <summary><b>tiled</b>:</summary>
+    <b>html_url</b>: https://github.com/mapeditor/tiled<br>
+    <b>description</b>: Flexible level editor<br>
+    <b>homepage</b>: https://www.mapeditor.org/<br>
+    <b>language</b>: C++<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**Time-and-Expense-Management-System**:</summary>
-    **html_url**: "https://github.com/santanumajumdar/Time-and-Expense-Management-System",
-    **description**: "Time and Expense Management System Version 1.0",
-    **homepage**: null,
-    **language**: "PHP",
-    **archived**: false,
-    **license**: null,
+    <summary><b>Time-and-Expense-Management-System</b>:</summary>
+    <b>html_url</b>: https://github.com/santanumajumdar/Time-and-Expense-Management-System<br>
+    <b>description</b>: Time and Expense Management System Version 1.0<br>
+    <b>homepage</b>: -<br>
+    <b>language</b>: PHP<br>
+    <b>archived</b>: -<br>
+    <b>license</b>: -<br>
   </details>
 
   <details>
-    <summary>**TimeTrex**:</summary>
-    **html_url**: "https://github.com/timetrex/TimeTrex",
-    **description**: "TimeTrex Workforce Management is a complete web-based payroll and time management suite which offers employee scheduling, time & attendance (timeclock, timesheet), job costing, human resource management (HRM), invoicing and payroll all in tightly integrated package. [Timesheet,payroll,timeclock,payroll,timesheet,hrm,human resource management, workforce management]",
-    **homepage**: "https://www.timetrex.com/community-edition",
-    **language**: null,
-    **archived**: false,
-    **license**: null,
+    <summary><b>TimeTrex</b>:</summary>
+    <b>html_url</b>: https://github.com/timetrex/TimeTrex<br>
+    <b>description</b>: TimeTrex Workforce Management is a complete web-based payroll and time management suite which offers employee scheduling, time & attendance (timeclock, timesheet), job costing, human resource management (HRM), invoicing and payroll all in tightly integrated package. [Timesheet,payroll,timeclock,payroll,timesheet,hrm,human resource management, workforce management]<br>
+    <b>homepage</b>: https://www.timetrex.com/community-edition<br>
+    <b>language</b>: -<br>
+    <b>archived</b>: -<br>
+    <b>license</b>: -<br>
   </details>
 
   <details>
-    <summary>**tine20**:</summary>
-    **html_url**: "https://github.com/tine20/tine20",
-    **description**: "Tine 2.0 main repository",
-    **homepage**: "",
-    **language**: "HTML",
-    **archived**: false,
+    <summary><b>tine20</b>:</summary>
+    <b>html_url</b>: https://github.com/tine20/tine20<br>
+    <b>description</b>: Tine 2.0 main repository<br>
+    <b>homepage</b>: -<br>
+    <b>language</b>: HTML<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**TinyCAD**:</summary>
-    **html_url**: "https://github.com/matt123p/TinyCAD",
-    **description**: "Open Source circuit capture program",
-    **homepage**: null,
-    **language**: "C",
-    **archived**: false,
-    **license**: null,
+    <summary><b>TinyCAD</b>:</summary>
+    <b>html_url</b>: https://github.com/matt123p/TinyCAD<br>
+    <b>description</b>: Open Source circuit capture program<br>
+    <b>homepage</b>: -<br>
+    <b>language</b>: C<br>
+    <b>archived</b>: -<br>
+    <b>license</b>: -<br>
   </details>
 
   <details>
-    <summary>**tinyfilemanager**:</summary>
-    **html_url**: "https://github.com/prasathmani/tinyfilemanager",
-    **description**: "Single-file PHP file manager, browser and manage your files efficiently and easily with tinyfilemanager",
-    **homepage**: "https://tinyfilemanager.github.io",
-    **language**: "PHP",
-    **archived**: false,
+    <summary><b>tinyfilemanager</b>:</summary>
+    <b>html_url</b>: https://github.com/prasathmani/tinyfilemanager<br>
+    <b>description</b>: Single-file PHP file manager, browser and manage your files efficiently and easily with tinyfilemanager<br>
+    <b>homepage</b>: https://tinyfilemanager.github.io<br>
+    <b>language</b>: PHP<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**ToDoList_8.2**:</summary>
-    **html_url**: "https://github.com/abstractspoon/ToDoList_8.2",
-    **description**: null,
-    **homepage**: null,
-    **language**: "C++",
-    **archived**: false,
-    **license**: null,
+    <summary><b>ToDoList_8.2</b>:</summary>
+    <b>html_url</b>: https://github.com/abstractspoon/ToDoList_8.2<br>
+    <b>description</b>: -<br>
+    <b>homepage</b>: -<br>
+    <b>language</b>: C++<br>
+    <b>archived</b>: -<br>
+    <b>license</b>: -<br>
   </details>
 
   <details>
-    <summary>**todoyu**:</summary>
-    **html_url**: "https://github.com/todoyuo/todoyu",
-    **description**: "web2.0 project- & task-management, timetracking, team organizing, resource management, calendar, interface for your clients and lots more! ",
-    **homepage**: null,
-    **language**: "PHP",
-    **archived**: false,
+    <summary><b>todoyu</b>:</summary>
+    <b>html_url</b>: https://github.com/todoyuo/todoyu<br>
+    <b>description</b>: web2.0 project- & task-management, timetracking, team organizing, resource management, calendar, interface for your clients and lots more! <br>
+    <b>homepage</b>: -<br>
+    <b>language</b>: PHP<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**Todoyu-PHP7.x**:</summary>
-    **html_url**: "https://github.com/e-dimensionz/Todoyu-PHP7.x",
-    **description**: "[STABLE & WORKING] Todoyu ported to work with PHP7 and newer MySQL",
-    **homepage**: "https://e-dimensionz.com",
-    **language**: "PHP",
-    **archived**: false,
+    <summary><b>Todoyu-PHP7.x</b>:</summary>
+    <b>html_url</b>: https://github.com/e-dimensionz/Todoyu-PHP7.x<br>
+    <b>description</b>: [STABLE & WORKING] Todoyu ported to work with PHP7 and newer MySQL<br>
+    <b>homepage</b>: https://e-dimensionz.com<br>
+    <b>language</b>: PHP<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**tokei**:</summary>
-    **html_url**: "https://github.com/XAMPPRocky/tokei",
-    **description**: "Count your code, quickly.",
-    **homepage**: "",
-    **language**: "Rust",
-    **archived**: false,
+    <summary><b>tokei</b>:</summary>
+    <b>html_url</b>: https://github.com/XAMPPRocky/tokei<br>
+    <b>description</b>: Count your code, quickly.<br>
+    <b>homepage</b>: -<br>
+    <b>language</b>: Rust<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**TomatoCart-v2**:</summary>
-    **html_url**: "https://github.com/tomatocart/TomatoCart-v2",
-    **description**: "TomatoCart V2.0 - Designed for offering great user experience for all digital devices",
-    **homepage**: null,
-    **language**: "PHP",
-    **archived**: false,
-    **license**: null,
+    <summary><b>TomatoCart-v2</b>:</summary>
+    <b>html_url</b>: https://github.com/tomatocart/TomatoCart-v2<br>
+    <b>description</b>: TomatoCart V2.0 - Designed for offering great user experience for all digital devices<br>
+    <b>homepage</b>: -<br>
+    <b>language</b>: PHP<br>
+    <b>archived</b>: -<br>
+    <b>license</b>: -<br>
   </details>
 
   <details>
-    <summary>**tor-browser-portable**:</summary>
-    **html_url**: "https://github.com/garethflowers/tor-browser-portable",
-    **description**: "Portable version of the Tor Browser, for Windows",
-    **homepage**: "https://garethflowers.dev/tor-browser-portable/",
-    **language**: "JavaScript",
-    **archived**: false,
+    <summary><b>tor-browser-portable</b>:</summary>
+    <b>html_url</b>: https://github.com/garethflowers/tor-browser-portable<br>
+    <b>description</b>: Portable version of the Tor Browser, for Windows<br>
+    <b>homepage</b>: https://garethflowers.dev/tor-browser-portable/<br>
+    <b>language</b>: JavaScript<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**tor-bundle**:</summary>
-    **html_url**: "https://github.com/andy-portmen/tor-bundle",
-    **description**: "Integrates browsers to Tor executable",
-    **homepage**: "http://add0n.com/tor-control.html",
-    **language**: "JavaScript",
-    **archived**: false,
-    **license**: null,
+    <summary><b>tor-bundle</b>:</summary>
+    <b>html_url</b>: https://github.com/andy-portmen/tor-bundle<br>
+    <b>description</b>: Integrates browsers to Tor executable<br>
+    <b>homepage</b>: http://add0n.com/tor-control.html<br>
+    <b>language</b>: JavaScript<br>
+    <b>archived</b>: -<br>
+    <b>license</b>: -<br>
   </details>
 
   <details>
-    <summary>**torbrowser-releases**:</summary>
-    **html_url**: "https://github.com/torproject/torbrowser-releases",
-    **description**: "It is used for distributiong tor browser releases through GetTor - Updated July 2022",
-    **homepage**: "",
-    **language**: null,
-    **archived**: true,
-    **license**: null,
+    <summary><b>torbrowser-releases</b>:</summary>
+    <b>html_url</b>: https://github.com/torproject/torbrowser-releases<br>
+    <b>description</b>: It is used for distributiong tor browser releases through GetTor - Updated July 2022<br>
+    <b>homepage</b>: -<br>
+    <b>language</b>: -<br>
+    <b>archived</b>: -<br>
+    <b>license</b>: -<br>
   </details>
 
   <details>
-    <summary>**treesheets**:</summary>
-    **html_url**: "https://github.com/aardappel/treesheets",
-    **description**: "TreeSheets : Free Form Data Organizer (see strlen.com/treesheets)",
-    **homepage**: "",
-    **language**: "C++",
-    **archived**: false,
+    <summary><b>treesheets</b>:</summary>
+    <b>html_url</b>: https://github.com/aardappel/treesheets<br>
+    <b>description</b>: TreeSheets : Free Form Data Organizer (see strlen.com/treesheets)<br>
+    <b>homepage</b>: -<br>
+    <b>language</b>: C++<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**treopim**:</summary>
-    **html_url**: "https://github.com/treolabs/treopim",
-    **description**: "Please use AtroPIM instead of TreoPIM! TreoPIM is discontinued.",
-    **homepage**: "https://atropim.com/",
-    **language**: "PHP",
-    **archived**: true,
+    <summary><b>treopim</b>:</summary>
+    <b>html_url</b>: https://github.com/treolabs/treopim<br>
+    <b>description</b>: Please use AtroPIM instead of TreoPIM! TreoPIM is discontinued.<br>
+    <b>homepage</b>: https://atropim.com/<br>
+    <b>language</b>: PHP<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**tsup**:</summary>
-    **html_url**: "https://github.com/egoist/tsup",
-    **description**: "The simplest and fastest way to bundle your TypeScript libraries.",
-    **homepage**: "https://tsup.egoist.dev",
-    **language**: "TypeScript",
-    **archived**: false,
+    <summary><b>tsup</b>:</summary>
+    <b>html_url</b>: https://github.com/egoist/tsup<br>
+    <b>description</b>: The simplest and fastest way to bundle your TypeScript libraries.<br>
+    <b>homepage</b>: https://tsup.egoist.dev<br>
+    <b>language</b>: TypeScript<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**tuleap**:</summary>
-    **html_url**: "https://github.com/Enalean/tuleap",
-    **description**: "Tuleap is a Free & Open Source Suite to improve management of software developments and collaboration. With a single web-based solution, project managers, developers & quality managers can easily build, deploy software projects.",
-    **homepage**: "https://tuleap.org",
-    **language**: "PHP",
-    **archived**: false,
+    <summary><b>tuleap</b>:</summary>
+    <b>html_url</b>: https://github.com/Enalean/tuleap<br>
+    <b>description</b>: Tuleap is a Free & Open Source Suite to improve management of software developments and collaboration. With a single web-based solution, project managers, developers & quality managers can easily build, deploy software projects.<br>
+    <b>homepage</b>: https://tuleap.org<br>
+    <b>language</b>: PHP<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**tupitube.desk**:</summary>
-    **html_url**: "https://github.com/xtingray/tupitube.desk",
-    **description**: "TupiTube Desk Source Code",
-    **homepage**: null,
-    **language**: "C++",
-    **archived**: false,
+    <summary><b>tupitube.desk</b>:</summary>
+    <b>html_url</b>: https://github.com/xtingray/tupitube.desk<br>
+    <b>description</b>: TupiTube Desk Source Code<br>
+    <b>homepage</b>: -<br>
+    <b>language</b>: C++<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**tus-php**:</summary>
-    **html_url**: "https://github.com/ankitpokhrel/tus-php",
-    **description**: "🚀 A pure PHP server and client for the tus resumable upload protocol v1.0.0",
-    **homepage**: "https://tus.io",
-    **language**: "PHP",
-    **archived**: false,
+    <summary><b>tus-php</b>:</summary>
+    <b>html_url</b>: https://github.com/ankitpokhrel/tus-php<br>
+    <b>description</b>: 🚀 A pure PHP server and client for the tus resumable upload protocol v1.0.0<br>
+    <b>homepage</b>: https://tus.io<br>
+    <b>language</b>: PHP<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**typescript-compile**:</summary>
-    **html_url**: "https://github.com/niutech/typescript-compile",
-    **description**: "Automatically compile TypeScript to JavaScript on the fly",
-    **homepage**: "http://niutech.github.io/typescript-compile/demo/demo.html",
-    **language**: "JavaScript",
-    **archived**: false,
-    **license**: null,
+    <summary><b>typescript-compile</b>:</summary>
+    <b>html_url</b>: https://github.com/niutech/typescript-compile<br>
+    <b>description</b>: Automatically compile TypeScript to JavaScript on the fly<br>
+    <b>homepage</b>: http://niutech.github.io/typescript-compile/demo/demo.html<br>
+    <b>language</b>: JavaScript<br>
+    <b>archived</b>: -<br>
+    <b>license</b>: -<br>
   </details>
 
   <details>
-    <summary>**UglifyJS**:</summary>
-    **html_url**: "https://github.com/mishoo/UglifyJS",
-    **description**: " JavaScript parser / mangler / compressor / beautifier toolkit",
-    **homepage**: "http://lisperator.net/uglifyjs/",
-    **language**: "JavaScript",
-    **archived**: false,
+    <summary><b>UglifyJS</b>:</summary>
+    <b>html_url</b>: https://github.com/mishoo/UglifyJS<br>
+    <b>description</b>:  JavaScript parser / mangler / compressor / beautifier toolkit<br>
+    <b>homepage</b>: http://lisperator.net/uglifyjs/<br>
+    <b>language</b>: JavaScript<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**umbrello**:</summary>
-    **html_url**: "https://github.com/KDE/umbrello",
-    **description**: "GUI for diagramming Unified Modelling Language (UML)",
-    **homepage**: "https://invent.kde.org/sdk/umbrello",
-    **language**: "C++",
-    **archived**: false,
+    <summary><b>umbrello</b>:</summary>
+    <b>html_url</b>: https://github.com/KDE/umbrello<br>
+    <b>description</b>: GUI for diagramming Unified Modelling Language (UML)<br>
+    <b>homepage</b>: https://invent.kde.org/sdk/umbrello<br>
+    <b>language</b>: C++<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**underscore**:</summary>
-    **html_url**: "https://github.com/jashkenas/underscore",
-    **description**: "JavaScript's utility _ belt",
-    **homepage**: "https://underscorejs.org",
-    **language**: "JavaScript",
-    **archived**: false,
+    <summary><b>underscore</b>:</summary>
+    <b>html_url</b>: https://github.com/jashkenas/underscore<br>
+    <b>description</b>: JavaScript's utility _ belt<br>
+    <b>homepage</b>: https://underscorejs.org<br>
+    <b>language</b>: JavaScript<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**underscore-php**:</summary>
-    **html_url**: "https://github.com/Anahkiasen/underscore-php",
-    **description**: "A redacted PHP port of Underscore.js with additional functions and goodies – Available for Composer and Laravel",
-    **homepage**: "http://anahkiasen.github.com/underscore-php/",
-    **language**: "PHP",
-    **archived**: true,
-    **license**: null,
+    <summary><b>underscore-php</b>:</summary>
+    <b>html_url</b>: https://github.com/Anahkiasen/underscore-php<br>
+    <b>description</b>: A redacted PHP port of Underscore.js with additional functions and goodies – Available for Composer and Laravel<br>
+    <b>homepage</b>: http://anahkiasen.github.com/underscore-php/<br>
+    <b>language</b>: PHP<br>
+    <b>archived</b>: -<br>
+    <b>license</b>: -<br>
   </details>
 
   <details>
-    <summary>**UniExtract2**:</summary>
-    **html_url**: "https://github.com/Bioruebe/UniExtract2",
-    **description**: "Universal Extractor 2 is a tool to extract files from any type of archive or installer.",
-    **homepage**: "",
-    **language**: "AutoIt",
-    **archived**: false,
+    <summary><b>UniExtract2</b>:</summary>
+    <b>html_url</b>: https://github.com/Bioruebe/UniExtract2<br>
+    <b>description</b>: Universal Extractor 2 is a tool to extract files from any type of archive or installer.<br>
+    <b>homepage</b>: -<br>
+    <b>language</b>: AutoIt<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**Unifiedtransform**:</summary>
-    **html_url**: "https://github.com/changeweb/Unifiedtransform",
-    **description**: "A school management Software",
-    **homepage**: "https://changeweb.github.io/Unifiedtransform/",
-    **language**: "PHP",
-    **archived**: false,
+    <summary><b>Unifiedtransform</b>:</summary>
+    <b>html_url</b>: https://github.com/changeweb/Unifiedtransform<br>
+    <b>description</b>: A school management Software<br>
+    <b>homepage</b>: https://changeweb.github.io/Unifiedtransform/<br>
+    <b>language</b>: PHP<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**uniter**:</summary>
-    **html_url**: "https://github.com/asmblah/uniter",
-    **description**: "🎉 PHP in the browser and Node.js => Docs: https://phptojs.com/",
-    **homepage**: "https://asmblah.github.io/uniter/",
-    **language**: "JavaScript",
-    **archived**: false,
+    <summary><b>uniter</b>:</summary>
+    <b>html_url</b>: https://github.com/asmblah/uniter<br>
+    <b>description</b>: 🎉 PHP in the browser and Node.js => Docs: https://phptojs.com/<br>
+    <b>homepage</b>: https://asmblah.github.io/uniter/<br>
+    <b>language</b>: JavaScript<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**updatescanner**:</summary>
-    **html_url**: "https://github.com/sneakypete81/updatescanner",
-    **description**: "Firefox addon to monitor web pages for updates.",
-    **homepage**: "http://sneakypete81.github.io/updatescanner/",
-    **language**: "JavaScript",
-    **archived**: false,
+    <summary><b>updatescanner</b>:</summary>
+    <b>html_url</b>: https://github.com/sneakypete81/updatescanner<br>
+    <b>description</b>: Firefox addon to monitor web pages for updates.<br>
+    <b>homepage</b>: http://sneakypete81.github.io/updatescanner/<br>
+    <b>language</b>: JavaScript<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**uuid**:</summary>
-    **html_url**: "https://github.com/ramsey/uuid",
-    **description**: ":snowflake: A PHP library for generating universally unique identifiers (UUIDs).",
-    **homepage**: "https://uuid.ramsey.dev",
-    **language**: "PHP",
-    **archived**: false,
+    <summary><b>uuid</b>:</summary>
+    <b>html_url</b>: https://github.com/ramsey/uuid<br>
+    <b>description</b>: :snowflake: A PHP library for generating universally unique identifiers (UUIDs).<br>
+    <b>homepage</b>: https://uuid.ramsey.dev<br>
+    <b>language</b>: PHP<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**vala**:</summary>
-    **html_url**: "https://github.com/GNOME/vala",
-    **description**: "Read-only mirror of https://gitlab.gnome.org/GNOME/vala",
-    **homepage**: "https://gitlab.gnome.org/GNOME/vala",
-    **language**: "Vala",
-    **archived**: false,
+    <summary><b>vala</b>:</summary>
+    <b>html_url</b>: https://github.com/GNOME/vala<br>
+    <b>description</b>: Read-only mirror of https://gitlab.gnome.org/GNOME/vala<br>
+    <b>homepage</b>: https://gitlab.gnome.org/GNOME/vala<br>
+    <b>language</b>: Vala<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**vengi**:</summary>
-    **html_url**: "https://github.com/mgerhardy/vengi",
-    **description**: "voxel art tools - editor, thumbnailer and format converter",
-    **homepage**: "https://mgerhardy.github.io/vengi/",
-    **language**: "C++",
-    **archived**: false,
+    <summary><b>vengi</b>:</summary>
+    <b>html_url</b>: https://github.com/mgerhardy/vengi<br>
+    <b>description</b>: voxel art tools - editor, thumbnailer and format converter<br>
+    <b>homepage</b>: https://mgerhardy.github.io/vengi/<br>
+    <b>language</b>: C++<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**Ventoy**:</summary>
-    **html_url**: "https://github.com/ventoy/Ventoy",
-    **description**: "A new bootable USB solution.",
-    **homepage**: "https://www.ventoy.net",
-    **language**: "C",
-    **archived**: false,
+    <summary><b>Ventoy</b>:</summary>
+    <b>html_url</b>: https://github.com/ventoy/Ventoy<br>
+    <b>description</b>: A new bootable USB solution.<br>
+    <b>homepage</b>: https://www.ventoy.net<br>
+    <b>language</b>: C<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**VeraCrypt**:</summary>
-    **html_url**: "https://github.com/veracrypt/VeraCrypt",
-    **description**: "Disk encryption with strong security based on TrueCrypt",
-    **homepage**: "https://www.veracrypt.fr",
-    **language**: "C",
-    **archived**: false,
+    <summary><b>VeraCrypt</b>:</summary>
+    <b>html_url</b>: https://github.com/veracrypt/VeraCrypt<br>
+    <b>description</b>: Disk encryption with strong security based on TrueCrypt<br>
+    <b>homepage</b>: https://www.veracrypt.fr<br>
+    <b>language</b>: C<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**Vermis**:</summary>
-    **html_url**: "https://github.com/koweb/Vermis",
-    **description**: "Lightweight issue tracker and project management tool for software developers and project managers. Designed as a web application written in PHP.",
-    **homepage**: "",
-    **language**: "PHP",
-    **archived**: false,
+    <summary><b>Vermis</b>:</summary>
+    <b>html_url</b>: https://github.com/koweb/Vermis<br>
+    <b>description</b>: Lightweight issue tracker and project management tool for software developers and project managers. Designed as a web application written in PHP.<br>
+    <b>homepage</b>: -<br>
+    <b>language</b>: PHP<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**vesuvius**:</summary>
-    **html_url**: "https://github.com/sahana/vesuvius",
-    **description**: "Sahana Vesuvius",
-    **homepage**: "http://sahanafoundation.org/products/vesuvius/",
-    **language**: "PHP",
-    **archived**: false,
+    <summary><b>vesuvius</b>:</summary>
+    <b>html_url</b>: https://github.com/sahana/vesuvius<br>
+    <b>description</b>: Sahana Vesuvius<br>
+    <b>homepage</b>: http://sahanafoundation.org/products/vesuvius/<br>
+    <b>language</b>: PHP<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**Video-Hub-App**:</summary>
-    **html_url**: "https://github.com/whyboris/Video-Hub-App",
-    **description**: "Official repository for Video Hub App",
-    **homepage**: "https://videohubapp.com",
-    **language**: "TypeScript",
-    **archived**: false,
+    <summary><b>Video-Hub-App</b>:</summary>
+    <b>html_url</b>: https://github.com/whyboris/Video-Hub-App<br>
+    <b>description</b>: Official repository for Video Hub App<br>
+    <b>homepage</b>: https://videohubapp.com<br>
+    <b>language</b>: TypeScript<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**videoduplicatefinder**:</summary>
-    **html_url**: "https://github.com/0x90d/videoduplicatefinder",
-    **description**: "Video Duplicate Finder - Crossplatform",
-    **homepage**: null,
-    **language**: "C#",
-    **archived**: false,
-    **license**: null,
+    <summary><b>videoduplicatefinder</b>:</summary>
+    <b>html_url</b>: https://github.com/0x90d/videoduplicatefinder<br>
+    <b>description</b>: Video Duplicate Finder - Crossplatform<br>
+    <b>homepage</b>: -<br>
+    <b>language</b>: C#<br>
+    <b>archived</b>: -<br>
+    <b>license</b>: -<br>
   </details>
 
   <details>
-    <summary>**VietOCR3**:</summary>
-    **html_url**: "https://github.com/nguyenq/VietOCR3",
-    **description**: "Java GUI frontend for Tesseract OCR engine",
-    **homepage**: "",
-    **language**: "Java",
-    **archived**: false,
-    **license**: null,
+    <summary><b>VietOCR3</b>:</summary>
+    <b>html_url</b>: https://github.com/nguyenq/VietOCR3<br>
+    <b>description</b>: Java GUI frontend for Tesseract OCR engine<br>
+    <b>homepage</b>: -<br>
+    <b>language</b>: Java<br>
+    <b>archived</b>: -<br>
+    <b>license</b>: -<br>
   </details>
 
   <details>
-    <summary>**VietOCR3.NET**:</summary>
-    **html_url**: "https://github.com/nguyenq/VietOCR3.NET",
-    **description**: ".NET GUI frontend for Tesseract OCR engine",
-    **homepage**: "",
-    **language**: "C#",
-    **archived**: false,
-    **license**: null,
+    <summary><b>VietOCR3.NET</b>:</summary>
+    <b>html_url</b>: https://github.com/nguyenq/VietOCR3.NET<br>
+    <b>description</b>: .NET GUI frontend for Tesseract OCR engine<br>
+    <b>homepage</b>: -<br>
+    <b>language</b>: C#<br>
+    <b>archived</b>: -<br>
+    <b>license</b>: -<br>
   </details>
 
   <details>
-    <summary>**ViewerJS**:</summary>
-    **html_url**: "https://github.com/webodf/ViewerJS",
-    **description**: "ViewerJS: Document Reader in JavaScript",
-    **homepage**: "http://viewerjs.org",
-    **language**: "JavaScript",
-    **archived**: false,
-    **license**: null,
+    <summary><b>ViewerJS</b>:</summary>
+    <b>html_url</b>: https://github.com/webodf/ViewerJS<br>
+    <b>description</b>: ViewerJS: Document Reader in JavaScript<br>
+    <b>homepage</b>: http://viewerjs.org<br>
+    <b>language</b>: JavaScript<br>
+    <b>archived</b>: -<br>
+    <b>license</b>: -<br>
   </details>
 
   <details>
-    <summary>**viewi**:</summary>
-    **html_url**: "https://github.com/viewi/viewi",
-    **description**: "A powerful tool for building full-stack and completely reactive web applications with PHP",
-    **homepage**: "https://viewi.net",
-    **language**: "PHP",
-    **archived**: false,
+    <summary><b>viewi</b>:</summary>
+    <b>html_url</b>: https://github.com/viewi/viewi<br>
+    <b>description</b>: A powerful tool for building full-stack and completely reactive web applications with PHP<br>
+    <b>homepage</b>: https://viewi.net<br>
+    <b>language</b>: PHP<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**virtphp**:</summary>
-    **html_url**: "https://github.com/virtphp/virtphp",
-    **description**: "virtPHP is a tool to create isolated PHP environments.",
-    **homepage**: "http://virtphp.org",
-    **language**: "PHP",
-    **archived**: true,
+    <summary><b>virtphp</b>:</summary>
+    <b>html_url</b>: https://github.com/virtphp/virtphp<br>
+    <b>description</b>: virtPHP is a tool to create isolated PHP environments.<br>
+    <b>homepage</b>: http://virtphp.org<br>
+    <b>language</b>: PHP<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**VisualFamilyTree**:</summary>
-    **html_url**: "https://github.com/Jisco/VisualFamilyTree",
-    **description**: "With this app you can create a family tree with extensive information and pictures about the individual family members.",
-    **homepage**: "https://visualfamilytree.jisco.me",
-    **language**: "JavaScript",
-    **archived**: false,
-    **license**: null,
+    <summary><b>VisualFamilyTree</b>:</summary>
+    <b>html_url</b>: https://github.com/Jisco/VisualFamilyTree<br>
+    <b>description</b>: With this app you can create a family tree with extensive information and pictures about the individual family members.<br>
+    <b>homepage</b>: https://visualfamilytree.jisco.me<br>
+    <b>language</b>: JavaScript<br>
+    <b>archived</b>: -<br>
+    <b>license</b>: -<br>
   </details>
 
   <details>
-    <summary>**VisualFBEditor**:</summary>
-    **html_url**: "https://github.com/XusinboyBekchanov/VisualFBEditor",
-    **description**: "IDE for FreeBasic",
-    **homepage**: null,
-    **language**: "FreeBasic",
-    **archived**: false,
+    <summary><b>VisualFBEditor</b>:</summary>
+    <b>html_url</b>: https://github.com/XusinboyBekchanov/VisualFBEditor<br>
+    <b>description</b>: IDE for FreeBasic<br>
+    <b>homepage</b>: -<br>
+    <b>language</b>: FreeBasic<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**Vivaldi-browser**:</summary>
-    **html_url**: "https://github.com/ric2b/Vivaldi-browser",
-    **description**: "Source code for the Vivali browser, taken from",
-    **homepage**: "https://vivaldi.com/source",
-    **language**: null,
-    **archived**: false,
+    <summary><b>Vivaldi-browser</b>:</summary>
+    <b>html_url</b>: https://github.com/ric2b/Vivaldi-browser<br>
+    <b>description</b>: Source code for the Vivali browser, taken from<br>
+    <b>homepage</b>: https://vivaldi.com/source<br>
+    <b>language</b>: -<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**vlc**:</summary>
-    **html_url**: "https://github.com/videolan/vlc",
-    **description**: "VLC media player - All pull requests are ignored, please follow https://wiki.videolan.org/Sending_Patches_VLC/",
-    **homepage**: "http://www.videolan.org/vlc",
-    **language**: "C",
-    **archived**: false,
+    <summary><b>vlc</b>:</summary>
+    <b>html_url</b>: https://github.com/videolan/vlc<br>
+    <b>description</b>: VLC media player - All pull requests are ignored, please follow https://wiki.videolan.org/Sending_Patches_VLC/<br>
+    <b>homepage</b>: http://www.videolan.org/vlc<br>
+    <b>language</b>: C<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**vokoscreenNG**:</summary>
-    **html_url**: "https://github.com/vkohaupt/vokoscreenNG",
-    **description**: "vokoscreenNG is a powerful screencast creator in many languages to record the screen, an area or a window (Linux only). Recording of audio from multiple sources is supported. With the built-in camera support, you can make your video more personal. Other tools such as systray, magnifying glass, countdown, timer, Showclick and Halo support will help ",
-    **homepage**: "https://linuxecke.volkoh.de/vokoscreen/vokoscreen.html",
-    **language**: "C++",
-    **archived**: false,
+    <summary><b>vokoscreenNG</b>:</summary>
+    <b>html_url</b>: https://github.com/vkohaupt/vokoscreenNG<br>
+    <b>description</b>: vokoscreenNG is a powerful screencast creator in many languages to record the screen, an area or a window (Linux only). Recording of audio from multiple sources is supported. With the built-in camera support, you can make your video more personal. Other tools such as systray, magnifying glass, countdown, timer, Showclick and Halo support will help <br>
+    <b>homepage</b>: https://linuxecke.volkoh.de/vokoscreen/vokoscreen.html<br>
+    <b>language</b>: C++<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**vscode**:</summary>
-    **html_url**: "https://github.com/microsoft/vscode",
-    **description**: "Visual Studio Code",
-    **homepage**: "https://code.visualstudio.com",
-    **language**: "TypeScript",
-    **archived**: false,
+    <summary><b>vscode</b>:</summary>
+    <b>html_url</b>: https://github.com/microsoft/vscode<br>
+    <b>description</b>: Visual Studio Code<br>
+    <b>homepage</b>: https://code.visualstudio.com<br>
+    <b>language</b>: TypeScript<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**vscode-portable**:</summary>
-    **html_url**: "https://github.com/garethflowers/vscode-portable",
-    **description**: "Portable version of the Visual Studio Code editor.",
-    **homepage**: "https://garethflowers.dev/vscode-portable/",
-    **language**: "HTML",
-    **archived**: false,
+    <summary><b>vscode-portable</b>:</summary>
+    <b>html_url</b>: https://github.com/garethflowers/vscode-portable<br>
+    <b>description</b>: Portable version of the Visual Studio Code editor.<br>
+    <b>homepage</b>: https://garethflowers.dev/vscode-portable/<br>
+    <b>language</b>: HTML<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**vscodium**:</summary>
-    **html_url**: "https://github.com/VSCodium/vscodium",
-    **description**: "binary releases of VS Code without MS branding/telemetry/licensing",
-    **homepage**: "https://vscodium.com",
-    **language**: "Shell",
-    **archived**: false,
+    <summary><b>vscodium</b>:</summary>
+    <b>html_url</b>: https://github.com/VSCodium/vscodium<br>
+    <b>description</b>: binary releases of VS Code without MS branding/telemetry/licensing<br>
+    <b>homepage</b>: https://vscodium.com<br>
+    <b>language</b>: Shell<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**vtenext**:</summary>
-    **html_url**: "https://github.com/VTECRM/vtenext",
-    **description**: "vtenext the CRM for the Digital Innovation. It allows you to engage your customers into your business processes using a specific technology. It can also be used to manage processes generated by internal customers.",
-    **homepage**: "",
-    **language**: "PHP",
-    **archived**: false,
+    <summary><b>vtenext</b>:</summary>
+    <b>html_url</b>: https://github.com/VTECRM/vtenext<br>
+    <b>description</b>: vtenext the CRM for the Digital Innovation. It allows you to engage your customers into your business processes using a specific technology. It can also be used to manage processes generated by internal customers.<br>
+    <b>homepage</b>: -<br>
+    <b>language</b>: PHP<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**vtigercrm**:</summary>
-    **html_url**: "https://github.com/vtiger-crm/vtigercrm",
-    **description**: "vtiger CRM",
-    **homepage**: "",
-    **language**: "PHP",
-    **archived**: false,
+    <summary><b>vtigercrm</b>:</summary>
+    <b>html_url</b>: https://github.com/vtiger-crm/vtigercrm<br>
+    <b>description</b>: vtiger CRM<br>
+    <b>homepage</b>: -<br>
+    <b>language</b>: PHP<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**vym**:</summary>
-    **html_url**: "https://github.com/Osndok/vym",
-    **description**: "GUI mind-mapping tool - \"View Your Mind\" - Mirror from upstream (SourceForge)",
-    **homepage**: null,
-    **language**: "C++",
-    **archived**: false,
+    <summary><b>vym</b>:</summary>
+    <b>html_url</b>: https://github.com/Osndok/vym<br>
+    <b>description</b>: GUI mind-mapping tool - \"View Your Mind\" - Mirror from upstream (SourceForge)<br>
+    <b>homepage</b>: -<br>
+    <b>language</b>: C++<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**w2ui**:</summary>
-    **html_url**: "https://github.com/vitmalina/w2ui",
-    **description**: "UI widgets for modern apps. Data table, forms, toolbars, sidebar, tabs, tooltips, popups. All under 120kb (gzipped).",
-    **homepage**: "http://w2ui.com",
-    **language**: "JavaScript",
-    **archived**: false,
+    <summary><b>w2ui</b>:</summary>
+    <b>html_url</b>: https://github.com/vitmalina/w2ui<br>
+    <b>description</b>: UI widgets for modern apps. Data table, forms, toolbars, sidebar, tabs, tooltips, popups. All under 120kb (gzipped).<br>
+    <b>homepage</b>: http://w2ui.com<br>
+    <b>language</b>: JavaScript<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**wakan**:</summary>
-    **html_url**: "https://github.com/himselfv/wakan",
-    **description**: "Japanese and Chinese learning tool with dictionary",
-    **homepage**: null,
-    **language**: "Pascal",
-    **archived**: false,
-    **license**: null,
+    <summary><b>wakan</b>:</summary>
+    <b>html_url</b>: https://github.com/himselfv/wakan<br>
+    <b>description</b>: Japanese and Chinese learning tool with dictionary<br>
+    <b>homepage</b>: -<br>
+    <b>language</b>: Pascal<br>
+    <b>archived</b>: -<br>
+    <b>license</b>: -<br>
   </details>
 
   <details>
-    <summary>**wasmer-php**:</summary>
-    **html_url**: "https://github.com/wasmerio/wasmer-php",
-    **description**: "🐘🕸️ WebAssembly runtime for PHP",
-    **homepage**: "https://wasmerio.github.io/wasmer-php/wasm/",
-    **language**: "PHP",
-    **archived**: false,
+    <summary><b>wasmer-php</b>:</summary>
+    <b>html_url</b>: https://github.com/wasmerio/wasmer-php<br>
+    <b>description</b>: 🐘🕸️ WebAssembly runtime for PHP<br>
+    <b>homepage</b>: https://wasmerio.github.io/wasmer-php/wasm/<br>
+    <b>language</b>: PHP<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**webERP**:</summary>
-    **html_url**: "https://github.com/webERP-team/webERP",
-    **description**: "webERP Accounting and Business Administration ERP system",
-    **homepage**: "http://www.weberp.org",
-    **language**: "PHP",
-    **archived**: false,
-    **license**: null,
+    <summary><b>webERP</b>:</summary>
+    <b>html_url</b>: https://github.com/webERP-team/webERP<br>
+    <b>description</b>: webERP Accounting and Business Administration ERP system<br>
+    <b>homepage</b>: http://www.weberp.org<br>
+    <b>language</b>: PHP<br>
+    <b>archived</b>: -<br>
+    <b>license</b>: -<br>
   </details>
 
   <details>
-    <summary>**webfont-medical-icons**:</summary>
-    **html_url**: "https://github.com/samcome/webfont-medical-icons",
-    **description**: "WebFont Medical Icons - 72 ICONS (X2)  specialized in the Clinical & Medical world  FREE and easy to use!",
-    **homepage**: "http://samcome.github.io/webfont-medical-icons",
-    **language**: "HTML",
-    **archived**: false,
+    <summary><b>webfont-medical-icons</b>:</summary>
+    <b>html_url</b>: https://github.com/samcome/webfont-medical-icons<br>
+    <b>description</b>: WebFont Medical Icons - 72 ICONS (X2)  specialized in the Clinical & Medical world  FREE and easy to use!<br>
+    <b>homepage</b>: http://samcome.github.io/webfont-medical-icons<br>
+    <b>language</b>: HTML<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**webtorrent**:</summary>
-    **html_url**: "https://github.com/webtorrent/webtorrent",
-    **description**: "⚡️ Streaming torrent client for the web",
-    **homepage**: "https://webtorrent.io",
-    **language**: "JavaScript",
-    **archived**: false,
+    <summary><b>webtorrent</b>:</summary>
+    <b>html_url</b>: https://github.com/webtorrent/webtorrent<br>
+    <b>description</b>: ⚡️ Streaming torrent client for the web<br>
+    <b>homepage</b>: https://webtorrent.io<br>
+    <b>language</b>: JavaScript<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**webtorrent-desktop**:</summary>
-    **html_url**: "https://github.com/webtorrent/webtorrent-desktop",
-    **description**: "❤️ Streaming torrent app for Mac, Windows, and Linux",
-    **homepage**: "https://webtorrent.io/desktop",
-    **language**: "JavaScript",
-    **archived**: false,
+    <summary><b>webtorrent-desktop</b>:</summary>
+    <b>html_url</b>: https://github.com/webtorrent/webtorrent-desktop<br>
+    <b>description</b>: ❤️ Streaming torrent app for Mac, Windows, and Linux<br>
+    <b>homepage</b>: https://webtorrent.io/desktop<br>
+    <b>language</b>: JavaScript<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**WikidPad**:</summary>
-    **html_url**: "https://github.com/WikidPad/WikidPad",
-    **description**: "WikidPad is a single user desktop wiki",
-    **homepage**: "http://wikidpad.sourceforge.net/",
-    **language**: "Python",
-    **archived**: false,
-    **license**: null,
+    <summary><b>WikidPad</b>:</summary>
+    <b>html_url</b>: https://github.com/WikidPad/WikidPad<br>
+    <b>description</b>: WikidPad is a single user desktop wiki<br>
+    <b>homepage</b>: http://wikidpad.sourceforge.net/<br>
+    <b>language</b>: Python<br>
+    <b>archived</b>: -<br>
+    <b>license</b>: -<br>
   </details>
 
   <details>
-    <summary>**win-apache-php**:</summary>
-    **html_url**: "https://github.com/pniaps/win-apache-php",
-    **description**: "Apache with multiple PHP versions for Windows",
-    **homepage**: "",
-    **language**: "C",
-    **archived**: false,
-    **license**: null,
+    <summary><b>win-apache-php</b>:</summary>
+    <b>html_url</b>: https://github.com/pniaps/win-apache-php<br>
+    <b>description</b>: Apache with multiple PHP versions for Windows<br>
+    <b>homepage</b>: -<br>
+    <b>language</b>: C<br>
+    <b>archived</b>: -<br>
+    <b>license</b>: -<br>
   </details>
 
   <details>
-    <summary>**winLAME**:</summary>
-    **html_url**: "https://github.com/vividos/winLAME",
-    **description**: "winLAME is an easy to use encoder for many audio formats, including MP3, Opus, Ogg Vorbis and more. (this is the Git repository mirror of the SourceForge.net Git repository)",
-    **homepage**: "",
-    **language**: "C++",
-    **archived**: false,
+    <summary><b>winLAME</b>:</summary>
+    <b>html_url</b>: https://github.com/vividos/winLAME<br>
+    <b>description</b>: winLAME is an easy to use encoder for many audio formats, including MP3, Opus, Ogg Vorbis and more. (this is the Git repository mirror of the SourceForge.net Git repository)<br>
+    <b>homepage</b>: -<br>
+    <b>language</b>: C++<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**winmerge**:</summary>
-    **html_url**: "https://github.com/WinMerge/winmerge",
-    **description**: "WinMerge is an Open Source differencing and merging tool for Windows. WinMerge can compare both folders and files, presenting differences in a visual text format that is easy to understand and handle.",
-    **homepage**: "https://winmerge.org/",
-    **language**: "C++",
-    **archived**: false,
+    <summary><b>winmerge</b>:</summary>
+    <b>html_url</b>: https://github.com/WinMerge/winmerge<br>
+    <b>description</b>: WinMerge is an Open Source differencing and merging tool for Windows. WinMerge can compare both folders and files, presenting differences in a visual text format that is easy to understand and handle.<br>
+    <b>homepage</b>: https://winmerge.org/<br>
+    <b>language</b>: C++<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**winscp**:</summary>
-    **html_url**: "https://github.com/winscp/winscp",
-    **description**: "WinSCP is a popular free SFTP and FTP client for Windows, a powerful file manager that will improve your productivity. It supports also Amazon S3, FTPS, SCP and WebDAV protocols. Power users can automate WinSCP using .NET assembly.",
-    **homepage**: "https://winscp.net",
-    **language**: "C",
-    **archived**: false,
+    <summary><b>winscp</b>:</summary>
+    <b>html_url</b>: https://github.com/winscp/winscp<br>
+    <b>description</b>: WinSCP is a popular free SFTP and FTP client for Windows, a powerful file manager that will improve your productivity. It supports also Amazon S3, FTPS, SCP and WebDAV protocols. Power users can automate WinSCP using .NET assembly.<br>
+    <b>homepage</b>: https://winscp.net<br>
+    <b>language</b>: C<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**WordPress**:</summary>
-    **html_url**: "https://github.com/WordPress/WordPress",
-    **description**: "WordPress, Git-ified. This repository is just a mirror of the WordPress subversion repository. Please do not send pull requests. Submit pull requests to https://github.com/WordPress/wordpress-develop and patches to https://core.trac.wordpress.org/ instead.",
-    **homepage**: "https://wordpress.org",
-    **language**: "PHP",
-    **archived**: false,
+    <summary><b>WordPress</b>:</summary>
+    <b>html_url</b>: https://github.com/WordPress/WordPress<br>
+    <b>description</b>: WordPress, Git-ified. This repository is just a mirror of the WordPress subversion repository. Please do not send pull requests. Submit pull requests to https://github.com/WordPress/wordpress-develop and patches to https://core.trac.wordpress.org/ instead.<br>
+    <b>homepage</b>: https://wordpress.org<br>
+    <b>language</b>: PHP<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**wp-erp**:</summary>
-    **html_url**: "https://github.com/wp-erp/wp-erp",
-    **description**: "An open-source ERP (Enterprise Resource Planning) solution for WordPress",
-    **homepage**: "https://wperp.com/",
-    **language**: "JavaScript",
-    **archived**: false,
-    **license**: null,
+    <summary><b>wp-erp</b>:</summary>
+    <b>html_url</b>: https://github.com/wp-erp/wp-erp<br>
+    <b>description</b>: An open-source ERP (Enterprise Resource Planning) solution for WordPress<br>
+    <b>homepage</b>: https://wperp.com/<br>
+    <b>language</b>: JavaScript<br>
+    <b>archived</b>: -<br>
+    <b>license</b>: -<br>
   </details>
 
   <details>
-    <summary>**wp-hotelier**:</summary>
-    **html_url**: "https://github.com/wp-hotelier/wp-hotelier",
-    **description**: "Manage your hotel bookings with WordPress. https://wphotelier.com/",
-    **homepage**: "",
-    **language**: "PHP",
-    **archived**: false,
+    <summary><b>wp-hotelier</b>:</summary>
+    <b>html_url</b>: https://github.com/wp-hotelier/wp-hotelier<br>
+    <b>description</b>: Manage your hotel bookings with WordPress. https://wphotelier.com/<br>
+    <b>homepage</b>: -<br>
+    <b>language</b>: PHP<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**wxFormBuilder**:</summary>
-    **html_url**: "https://github.com/wxFormBuilder/wxFormBuilder",
-    **description**: "A wxWidgets GUI Builder",
-    **homepage**: "https://github.com/wxFormBuilder/wxFormBuilder/releases",
-    **language**: "C++",
-    **archived**: false,
+    <summary><b>wxFormBuilder</b>:</summary>
+    <b>html_url</b>: https://github.com/wxFormBuilder/wxFormBuilder<br>
+    <b>description</b>: A wxWidgets GUI Builder<br>
+    <b>homepage</b>: https://github.com/wxFormBuilder/wxFormBuilder/releases<br>
+    <b>language</b>: C++<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**wxphp**:</summary>
-    **html_url**: "https://github.com/wxphp/wxphp",
-    **description**: "Build cross-platform software with rich native GUIs using the combined power of the PHP language and the wxWidgets library.",
-    **homepage**: null,
-    **language**: "C++",
-    **archived**: false,
+    <summary><b>wxphp</b>:</summary>
+    <b>html_url</b>: https://github.com/wxphp/wxphp<br>
+    <b>description</b>: Build cross-platform software with rich native GUIs using the combined power of the PHP language and the wxWidgets library.<br>
+    <b>homepage</b>: -<br>
+    <b>language</b>: C++<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**wxWidgets**:</summary>
-    **html_url**: "https://github.com/wxWidgets/wxWidgets",
-    **description**: "Cross-Platform C++ GUI Library",
-    **homepage**: "https://www.wxwidgets.org/",
-    **language**: "C++",
-    **archived**: false,
-    **license**: null,
+    <summary><b>wxWidgets</b>:</summary>
+    <b>html_url</b>: https://github.com/wxWidgets/wxWidgets<br>
+    <b>description</b>: Cross-Platform C++ GUI Library<br>
+    <b>homepage</b>: https://www.wxwidgets.org/<br>
+    <b>language</b>: C++<br>
+    <b>archived</b>: -<br>
+    <b>license</b>: -<br>
   </details>
 
   <details>
-    <summary>**X2CRM**:</summary>
-    **html_url**: "https://github.com/X2Engine/X2CRM",
-    **description**: "X2CRM Open Source CRM - PHP",
-    **homepage**: "http://www.x2crm.com",
-    **language**: "PHP",
-    **archived**: false,
-    **license**: null,
+    <summary><b>X2CRM</b>:</summary>
+    <b>html_url</b>: https://github.com/X2Engine/X2CRM<br>
+    <b>description</b>: X2CRM Open Source CRM - PHP<br>
+    <b>homepage</b>: http://www.x2crm.com<br>
+    <b>language</b>: PHP<br>
+    <b>archived</b>: -<br>
+    <b>license</b>: -<br>
   </details>
 
   <details>
-    <summary>**xdm**:</summary>
-    **html_url**: "https://github.com/subhra74/xdm",
-    **description**: "Powerfull download accelerator and video downloader",
-    **homepage**: "https://xtremedownloadmanager.com/",
-    **language**: "C#",
-    **archived**: false,
+    <summary><b>xdm</b>:</summary>
+    <b>html_url</b>: https://github.com/subhra74/xdm<br>
+    <b>description</b>: Powerfull download accelerator and video downloader<br>
+    <b>homepage</b>: https://xtremedownloadmanager.com/<br>
+    <b>language</b>: C#<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**xregexp**:</summary>
-    **html_url**: "https://github.com/slevithan/xregexp",
-    **description**: "Extended JavaScript regular expressions",
-    **homepage**: "http://xregexp.com/",
-    **language**: "JavaScript",
-    **archived**: false,
+    <summary><b>xregexp</b>:</summary>
+    <b>html_url</b>: https://github.com/slevithan/xregexp<br>
+    <b>description</b>: Extended JavaScript regular expressions<br>
+    <b>homepage</b>: http://xregexp.com/<br>
+    <b>language</b>: JavaScript<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**yakpro-po**:</summary>
-    **html_url**: "https://github.com/pk-fr/yakpro-po",
-    **description**: "YAK Pro - Php Obfuscator",
-    **homepage**: "http://www.php-obfuscator.com",
-    **language**: "PHP",
-    **archived**: false,
+    <summary><b>yakpro-po</b>:</summary>
+    <b>html_url</b>: https://github.com/pk-fr/yakpro-po<br>
+    <b>description</b>: YAK Pro - Php Obfuscator<br>
+    <b>homepage</b>: http://www.php-obfuscator.com<br>
+    <b>language</b>: PHP<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**YetiForceCRM**:</summary>
-    **html_url**: "https://github.com/YetiForceCompany/YetiForceCRM",
-    **description**: "Our team created for you one of the most innovative CRM systems that supports mainly business processes and allows for customization according to your needs. Be ahead of your competition and implement YetiForce!",
-    **homepage**: "https://yetiforce.com",
-    **language**: "PHP",
-    **archived**: false,
+    <summary><b>YetiForceCRM</b>:</summary>
+    <b>html_url</b>: https://github.com/YetiForceCompany/YetiForceCRM<br>
+    <b>description</b>: Our team created for you one of the most innovative CRM systems that supports mainly business processes and allows for customization according to your needs. Be ahead of your competition and implement YetiForce!<br>
+    <b>homepage</b>: https://yetiforce.com<br>
+    <b>language</b>: PHP<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**yii**:</summary>
-    **html_url**: "https://github.com/yiisoft/yii",
-    **description**: "Yii PHP Framework 1.1.x",
-    **homepage**: "http://www.yiiframework.com",
-    **language**: "PHP",
-    **archived**: false,
+    <summary><b>yii</b>:</summary>
+    <b>html_url</b>: https://github.com/yiisoft/yii<br>
+    <b>description</b>: Yii PHP Framework 1.1.x<br>
+    <b>homepage</b>: http://www.yiiframework.com<br>
+    <b>language</b>: PHP<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**yii2**:</summary>
-    **html_url**: "https://github.com/yiisoft/yii2",
-    **description**: "Yii 2: The Fast, Secure and Professional PHP Framework",
-    **homepage**: "http://www.yiiframework.com",
-    **language**: "PHP",
-    **archived**: false,
+    <summary><b>yii2</b>:</summary>
+    <b>html_url</b>: https://github.com/yiisoft/yii2<br>
+    <b>description</b>: Yii 2: The Fast, Secure and Professional PHP Framework<br>
+    <b>homepage</b>: http://www.yiiframework.com<br>
+    <b>language</b>: PHP<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**yii2-admin**:</summary>
-    **html_url**: "https://github.com/mdmsoft/yii2-admin",
-    **description**: "Auth manager for Yii2 (RBAC Manager)",
-    **homepage**: "",
-    **language**: "PHP",
-    **archived**: false,
+    <summary><b>yii2-admin</b>:</summary>
+    <b>html_url</b>: https://github.com/mdmsoft/yii2-admin<br>
+    <b>description</b>: Auth manager for Yii2 (RBAC Manager)<br>
+    <b>homepage</b>: -<br>
+    <b>language</b>: PHP<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**yii2-mikrotik**:</summary>
-    **html_url**: "https://github.com/bahirul/yii2-mikrotik",
-    **description**: "Yii2 Mikrotik API Template",
-    **homepage**: "",
-    **language**: "PHP",
-    **archived**: true,
+    <summary><b>yii2-mikrotik</b>:</summary>
+    <b>html_url</b>: https://github.com/bahirul/yii2-mikrotik<br>
+    <b>description</b>: Yii2 Mikrotik API Template<br>
+    <b>homepage</b>: -<br>
+    <b>language</b>: PHP<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**You-Dont-Need-jQuery**:</summary>
-    **html_url**: "https://github.com/camsong/You-Dont-Need-jQuery",
-    **description**: "Examples of how to do query, style, dom, ajax, event etc like jQuery with plain javascript.",
-    **homepage**: "",
-    **language**: "JavaScript",
-    **archived**: false,
+    <summary><b>You-Dont-Need-jQuery</b>:</summary>
+    <b>html_url</b>: https://github.com/camsong/You-Dont-Need-jQuery<br>
+    <b>description</b>: Examples of how to do query, style, dom, ajax, event etc like jQuery with plain javascript.<br>
+    <b>homepage</b>: -<br>
+    <b>language</b>: JavaScript<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**You-Dont-Need-Lodash-Underscore**:</summary>
-    **html_url**: "https://github.com/you-dont-need/You-Dont-Need-Lodash-Underscore",
-    **description**: "List of JavaScript methods which you can use natively + ESLint Plugin",
-    **homepage**: "",
-    **language**: "JavaScript",
-    **archived**: false,
+    <summary><b>You-Dont-Need-Lodash-Underscore</b>:</summary>
+    <b>html_url</b>: https://github.com/you-dont-need/You-Dont-Need-Lodash-Underscore<br>
+    <b>description</b>: List of JavaScript methods which you can use natively + ESLint Plugin<br>
+    <b>homepage</b>: -<br>
+    <b>language</b>: JavaScript<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**yt-dlp**:</summary>
-    **html_url**: "https://github.com/yt-dlp/yt-dlp",
-    **description**: "A youtube-dl fork with additional features and fixes",
-    **homepage**: "https://discord.gg/H5MNcFW63r",
-    **language**: "Python",
-    **archived**: false,
+    <summary><b>yt-dlp</b>:</summary>
+    <b>html_url</b>: https://github.com/yt-dlp/yt-dlp<br>
+    <b>description</b>: A youtube-dl fork with additional features and fixes<br>
+    <b>homepage</b>: https://discord.gg/H5MNcFW63r<br>
+    <b>language</b>: Python<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**zeal**:</summary>
-    **html_url**: "https://github.com/zealdocs/zeal",
-    **description**: "Offline documentation browser inspired by Dash",
-    **homepage**: "https://zealdocs.org",
-    **language**: "C++",
-    **archived**: false,
+    <summary><b>zeal</b>:</summary>
+    <b>html_url</b>: https://github.com/zealdocs/zeal<br>
+    <b>description</b>: Offline documentation browser inspired by Dash<br>
+    <b>homepage</b>: https://zealdocs.org<br>
+    <b>language</b>: C++<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**zencart**:</summary>
-    **html_url**: "https://github.com/zencart/zencart",
-    **description**: "Zen Cart® is a full-function e-commerce application for your website.",
-    **homepage**: "https://github.com/zencart/zencart/releases",
-    **language**: "PHP",
-    **archived**: false,
+    <summary><b>zencart</b>:</summary>
+    <b>html_url</b>: https://github.com/zencart/zencart<br>
+    <b>description</b>: Zen Cart® is a full-function e-commerce application for your website.<br>
+    <b>homepage</b>: https://github.com/zencart/zencart/releases<br>
+    <b>language</b>: PHP<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**zentaopms**:</summary>
-    **html_url**: "https://github.com/easysoft/zentaopms",
-    **description**: "Zentao is an agile(scrum) project management system/tool, Free Upgrade Forever!​",
-    **homepage**: "http://www.zentao.pm",
-    **language**: "JavaScript",
-    **archived**: false,
+    <summary><b>zentaopms</b>:</summary>
+    <b>html_url</b>: https://github.com/easysoft/zentaopms<br>
+    <b>description</b>: Zentao is an agile(scrum) project management system/tool, Free Upgrade Forever!​<br>
+    <b>homepage</b>: http://www.zentao.pm<br>
+    <b>language</b>: JavaScript<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**Zettlr**:</summary>
-    **html_url**: "https://github.com/Zettlr/Zettlr",
-    **description**: "Your One-Stop Publication Workbench",
-    **homepage**: "https://www.zettlr.com",
-    **language**: "TypeScript",
-    **archived**: false,
+    <summary><b>Zettlr</b>:</summary>
+    <b>html_url</b>: https://github.com/Zettlr/Zettlr<br>
+    <b>description</b>: Your One-Stop Publication Workbench<br>
+    <b>homepage</b>: https://www.zettlr.com<br>
+    <b>language</b>: TypeScript<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**zim-desktop-wiki**:</summary>
-    **html_url**: "https://github.com/zim-desktop-wiki/zim-desktop-wiki",
-    **description**: "Main repository of the zim desktop wiki project",
-    **homepage**: "http://zim-wiki.org",
-    **language**: "Python",
-    **archived**: false,
+    <summary><b>zim-desktop-wiki</b>:</summary>
+    <b>html_url</b>: https://github.com/zim-desktop-wiki/zim-desktop-wiki<br>
+    <b>description</b>: Main repository of the zim desktop wiki project<br>
+    <b>homepage</b>: http://zim-wiki.org<br>
+    <b>language</b>: Python<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**zoneminder**:</summary>
-    **html_url**: "https://github.com/ZoneMinder/zoneminder",
-    **description**: "ZoneMinder is a free, open source Closed-circuit television software application developed for Linux which supports IP, USB and Analog cameras. ",
-    **homepage**: "http://www.zoneminder.com/",
-    **language**: "PHP",
-    **archived**: false,
+    <summary><b>zoneminder</b>:</summary>
+    <b>html_url</b>: https://github.com/ZoneMinder/zoneminder<br>
+    <b>description</b>: ZoneMinder is a free, open source Closed-circuit television software application developed for Linux which supports IP, USB and Analog cameras. <br>
+    <b>homepage</b>: http://www.zoneminder.com/<br>
+    <b>language</b>: PHP<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**zotero**:</summary>
-    **html_url**: "https://github.com/zotero/zotero",
-    **description**: "Zotero is a free, easy-to-use tool to help you collect, organize, annotate, cite, and share your research sources.",
-    **homepage**: "https://www.zotero.org",
-    **language**: "JavaScript",
-    **archived**: false,
+    <summary><b>zotero</b>:</summary>
+    <b>html_url</b>: https://github.com/zotero/zotero<br>
+    <b>description</b>: Zotero is a free, easy-to-use tool to help you collect, organize, annotate, cite, and share your research sources.<br>
+    <b>homepage</b>: https://www.zotero.org<br>
+    <b>language</b>: JavaScript<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**zpanel**:</summary>
-    **html_url**: "https://github.com/zpanel/zpanel",
-    **description**: "This repository is used to store ZPanel 6.x.x code, ZPanel is a web hosting control panel written in PHP. This is our new git repository that replaces our old SVN repository held over at Sourceforge.net.",
-    **homepage**: "http://www.zpanelcp.com/",
-    **language**: "PHP",
-    **archived**: false,
+    <summary><b>zpanel</b>:</summary>
+    <b>html_url</b>: https://github.com/zpanel/zpanel<br>
+    <b>description</b>: This repository is used to store ZPanel 6.x.x code, ZPanel is a web hosting control panel written in PHP. This is our new git repository that replaces our old SVN repository held over at Sourceforge.net.<br>
+    <b>homepage</b>: http://www.zpanelcp.com/<br>
+    <b>language</b>: PHP<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**zpanelx**:</summary>
-    **html_url**: "https://github.com/zpanel/zpanelx",
-    **description**: "ZPanel is a web hosting control panel written in PHP for Windows and *NIX host OS's.",
-    **homepage**: "http://www.zpanelcp.com",
-    **language**: "PHP",
-    **archived**: false,
+    <summary><b>zpanelx</b>:</summary>
+    <b>html_url</b>: https://github.com/zpanel/zpanelx<br>
+    <b>description</b>: ZPanel is a web hosting control panel written in PHP for Windows and *NIX host OS's.<br>
+    <b>homepage</b>: http://www.zpanelcp.com<br>
+    <b>language</b>: PHP<br>
+    <b>archived</b>: -<br>
   </details>
 
   <details>
-    <summary>**Zurmo**:</summary>
-    **html_url**: "https://github.com/zurmo/Zurmo",
-    **description**: null,
-    **homepage**: null,
-    **language**: "D",
-    **archived**: false,
+    <summary><b>Zurmo</b>:</summary>
+    <b>html_url</b>: https://github.com/zurmo/Zurmo<br>
+    <b>description</b>: -<br>
+    <b>homepage</b>: -<br>
+    <b>language</b>: D<br>
+    <b>archived</b>: -<br>
   </details>
-
-  <details>
