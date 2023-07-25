@@ -6,7 +6,7 @@
 </details>
 
 <details>
-    <summary><h4>💻: CAD: Civil</h4></summary>
+    <summary><h4>:computer: CAD: Civil</h4></summary>
 	<code>LibreCAD</code>  App for 2D design<br/>
 	<code>QCAD    </code>  App for 2D design and drafting<br/>
 </details>
@@ -19,7 +19,7 @@
 </details>
 
 <details>
-    <summary><h4>💻: CAD: Machine</h4></summary>
+    <summary><h4>:computer: CAD: Machine</h4></summary>
 	<code>BRL-CAD </code>  Constructive solid geometry solid modeling computer-aided design system<br/>
 	<code>FreeCAD </code>  General-purpose parametric 3D CAD modeler and a building information modeling app with finite element method support<br/>
 	<code>OpenSCAD</code>  App for creating solid 3D CAD objects<br/>
