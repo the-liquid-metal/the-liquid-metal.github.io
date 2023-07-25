@@ -830,7 +830,6 @@
     <code>homepage   </code>: https://www.adminer.org/<br>
     <code>prog lang  </code>: PHP<br>
     <code>archived   </code>: -<br>
-    <b>license</b>: -<br>
     <code>opinion    </code>: ⭐<br>
 </details>
 
@@ -941,7 +940,6 @@
     <code>homepage   </code>: -<br>
     <code>prog lang  </code>: PHP<br>
     <code>archived   </code>: -<br>
-    <b>license</b>: -<br>
     <code>opinion    </code>: ⭐<br>
 </details>
 
@@ -982,7 +980,6 @@
     <code>homepage   </code>: -<br>
     <code>prog lang  </code>: PHP<br>
     <code>archived   </code>: -<br>
-    <b>license</b>: -<br>
     <code>opinion    </code>: ⭐<br>
 </details>
 
@@ -993,7 +990,6 @@
     <code>homepage   </code>: http://www.archimedes.org.br/<br>
     <code>prog lang  </code>: Java<br>
     <code>archived   </code>: -<br>
-    <b>license</b>: -<br>
     <code>opinion    </code>: ⭐<br>
 </details>
 
@@ -1124,7 +1120,6 @@
     <code>homepage   </code>: -<br>
     <code>prog lang  </code>: C#<br>
     <code>archived   </code>: -<br>
-    <b>license</b>: -<br>
     <code>opinion    </code>: ⭐<br>
 </details>
 
@@ -1145,7 +1140,6 @@
     <code>homepage   </code>: -<br>
     <code>prog lang  </code>: C<br>
     <code>archived   </code>: -<br>
-    <b>license</b>: -<br>
     <code>opinion    </code>: ⭐<br>
 </details>
 
@@ -1196,7 +1190,6 @@
     <code>homepage   </code>: https://ritchielawrence.github.io/batchfunctionlibrary/<br>
     <code>prog lang  </code>: HTML<br>
     <code>archived   </code>: -<br>
-    <b>license</b>: -<br>
     <code>opinion    </code>: ⭐<br>
 </details>
 
@@ -1217,7 +1210,6 @@
     <code>homepage   </code>: https://birdfont.org<br>
     <code>prog lang  </code>: Vala<br>
     <code>archived   </code>: -<br>
-    <b>license</b>: -<br>
     <code>opinion    </code>: ⭐<br>
 </details>
 
@@ -1248,7 +1240,6 @@
     <code>homepage   </code>: http://blis.cc.gatech.edu/<br>
     <code>prog lang  </code>: PHP<br>
     <code>archived   </code>: -<br>
-    <b>license</b>: -<br>
     <code>opinion    </code>: ⭐<br>
 </details>
 
@@ -1329,7 +1320,6 @@
     <code>homepage   </code>: -<br>
     <code>prog lang  </code>: JavaScript<br>
     <code>archived   </code>: -<br>
-    <b>license</b>: -<br>
     <code>opinion    </code>: ⭐<br>
 </details>
 
@@ -1520,7 +1510,6 @@
     <code>homepage   </code>: -<br>
     <code>prog lang  </code>: PHP<br>
     <code>archived   </code>: -<br>
-    <b>license</b>: -<br>
     <code>opinion    </code>: ⭐<br>
 </details>
 
@@ -1551,7 +1540,6 @@
     <code>homepage   </code>: http://churchdb.org<br>
     <code>prog lang  </code>: PHP<br>
     <code>archived   </code>: -<br>
-    <b>license</b>: -<br>
     <code>opinion    </code>: ⭐<br>
 </details>
 
@@ -1602,7 +1590,6 @@
     <code>homepage   </code>: -<br>
     <code>prog lang  </code>: PHP<br>
     <code>archived   </code>: -<br>
-    <b>license</b>: -<br>
     <code>opinion    </code>: ⭐<br>
 </details>
 
@@ -1613,7 +1600,6 @@
     <code>homepage   </code>: -<br>
     <code>prog lang  </code>: PHP<br>
     <code>archived   </code>: -<br>
-    <b>license</b>: -<br>
     <code>opinion    </code>: ⭐<br>
 </details>
 
@@ -1844,7 +1830,6 @@
     <code>homepage   </code>: https://gr2m.github.io/contenteditable-autocomplete<br>
     <code>prog lang  </code>: JavaScript<br>
     <code>archived   </code>: -<br>
-    <b>license</b>: -<br>
     <code>opinion    </code>: ⭐<br>
 </details>
 
@@ -1935,7 +1920,6 @@
     <code>homepage   </code>: -<br>
     <code>prog lang  </code>: C#<br>
     <code>archived   </code>: -<br>
-    <b>license</b>: -<br>
     <code>opinion    </code>: ⭐<br>
 </details>
 
@@ -2006,7 +1990,6 @@
     <code>homepage   </code>: https://daybydaycrm.com<br>
     <code>prog lang  </code>: PHP<br>
     <code>archived   </code>: -<br>
-    <b>license</b>: -<br>
     <code>opinion    </code>: ⭐<br>
 </details>
 
@@ -2167,7 +2150,6 @@
     <code>homepage   </code>: -<br>
     <code>prog lang  </code>: Java<br>
     <code>archived   </code>: -<br>
-    <b>license</b>: -<br>
     <code>opinion    </code>: ⭐<br>
 </details>
 
@@ -2198,7 +2180,6 @@
     <code>homepage   </code>: https://diffractor.com<br>
     <code>prog lang  </code>: C++<br>
     <code>archived   </code>: -<br>
-    <b>license</b>: -<br>
     <code>opinion    </code>: ⭐<br>
 </details>
 
@@ -2369,7 +2350,6 @@
     <code>homepage   </code>: https://drupal.org/project/drupal<br>
     <code>prog lang  </code>: PHP<br>
     <code>archived   </code>: -<br>
-    <b>license</b>: -<br>
     <code>opinion    </code>: ⭐<br>
 </details>
 
@@ -2480,7 +2460,6 @@
     <code>homepage   </code>: https://epe.si<br>
     <code>prog lang  </code>: PHP<br>
     <code>archived   </code>: -<br>
-    <b>license</b>: -<br>
     <code>opinion    </code>: ⭐<br>
 </details>
 
@@ -2551,7 +2530,6 @@
     <code>homepage   </code>: https://gr2m.github.io/expandable-input<br>
     <code>prog lang  </code>: JavaScript<br>
     <code>archived   </code>: -<br>
-    <b>license</b>: -<br>
     <code>opinion    </code>: ⭐<br>
 </details>
 
@@ -2572,7 +2550,6 @@
     <code>homepage   </code>: -<br>
     <code>prog lang  </code>: PHP<br>
     <code>archived   </code>: -<br>
-    <b>license</b>: -<br>
     <code>opinion    </code>: ⭐<br>
 </details>
 
@@ -2623,7 +2600,6 @@
     <code>homepage   </code>: https://www.freebasic.net<br>
     <code>prog lang  </code>: FreeBasic<br>
     <code>archived   </code>: -<br>
-    <b>license</b>: -<br>
     <code>opinion    </code>: ⭐<br>
 </details>
 
@@ -2634,7 +2610,6 @@
     <code>homepage   </code>: http://www.fbreader.org/<br>
     <code>prog lang  </code>: C++<br>
     <code>archived   </code>: -<br>
-    <b>license</b>: -<br>
     <code>opinion    </code>: ⭐<br>
 </details>
 
@@ -2765,7 +2740,6 @@
     <code>homepage   </code>: https://forkaweso.me<br>
     <code>prog lang  </code>: HTML<br>
     <code>archived   </code>: -<br>
-    <b>license</b>: -<br>
     <code>opinion    </code>: ⭐<br>
 </details>
 
@@ -2786,7 +2760,6 @@
     <code>homepage   </code>: http://www.formalms.org<br>
     <code>prog lang  </code>: PHP<br>
     <code>archived   </code>: -<br>
-    <b>license</b>: -<br>
     <code>opinion    </code>: ⭐<br>
 </details>
 
@@ -3137,7 +3110,6 @@
     <code>homepage   </code>: http://corbinlc.github.io/GNURootDebian<br>
     <code>prog lang  </code>: Java<br>
     <code>archived   </code>: -<br>
-    <b>license</b>: -<br>
     <code>opinion    </code>: ⭐<br>
 </details>
 
@@ -3318,7 +3290,6 @@
     <code>homepage   </code>: http://pkp.sfu.ca/harvester<br>
     <code>prog lang  </code>: PHP<br>
     <code>archived   </code>: -<br>
-    <b>license</b>: -<br>
     <code>opinion    </code>: ⭐<br>
 </details>
 
@@ -3483,7 +3454,7 @@
 </details>
 
 <details>
-    <summary><b>ILIAS</b>:</summary>
+    <summary><b>☁️ ILIAS Learning Management System</b>:</summary>
     <code>source code</code>: https://github.com/ILIAS-eLearning/ILIAS<br>
     <code>description</code>: GitHub repository for official ILIAS release branches and development branches (trunk)<br>
     <code>homepage   </code>: http://www.ilias.de/docu/goto_docu_cat_582.html<br>
@@ -3493,7 +3464,7 @@
 </details>
 
 <details>
-    <summary><b>ImageGlass</b>:</summary>
+    <summary><b>💻 ImageGlass</b>:</summary>
     <code>source code</code>: https://github.com/d2phap/ImageGlass<br>
     <code>description</code>: 🏞 A lightweight, versatile image viewer<br>
     <code>homepage   </code>: https://imageglass.org<br>
@@ -3503,7 +3474,7 @@
 </details>
 
 <details>
-    <summary><b>ImageMagick</b>:</summary>
+    <summary><b>💾 ImageMagick</b>:</summary>
     <code>source code</code>: https://github.com/ImageMagick/ImageMagick<br>
     <code>description</code>: 🧙‍♂️ ImageMagick 7<br>
     <code>homepage   </code>: https://imagemagick.org<br>
@@ -3513,18 +3484,17 @@
 </details>
 
 <details>
-    <summary><b>inkscape</b>:</summary>
+    <summary><b>💻 Inkscape</b>:</summary>
     <code>source code</code>: https://github.com/inkscape/inkscape<br>
     <code>description</code>: Project Website: https://inkscape.org - Code Repository: https://gitlab.com/inkscape/inkscape - Draw freely. 🖌<br>
     <code>homepage   </code>: http://www.inkscape.org/<br>
     <code>prog lang  </code>: -<br>
     <code>archived   </code>: -<br>
-    <b>license</b>: -<br>
     <code>opinion    </code>: ⭐<br>
 </details>
 
 <details>
-    <summary><b>inoERP</b>:</summary>
+    <summary><b>☁️ inoERP</b>:</summary>
     <code>source code</code>: https://github.com/inoerp/inoERP<br>
     <code>description</code>: inoERP is an OneApp [ Go back-end & Flutter front-end ] based enterprise management system<br>
     <code>homepage   </code>: http://docs.inoerp.com/<br>
@@ -3534,7 +3504,7 @@
 </details>
 
 <details>
-    <summary><b>invoiceninja</b>:</summary>
+    <summary><b>☁️ Invoice Ninja</b>:</summary>
     <code>source code</code>: https://github.com/invoiceninja/invoiceninja<br>
     <code>description</code>: Invoices, Expenses and Tasks built with Laravel, Flutter and React<br>
     <code>homepage   </code>: https://invoiceninja.com<br>
@@ -3544,7 +3514,7 @@
 </details>
 
 <details>
-    <summary><b>InvoicePlane</b>:</summary>
+    <summary><b>☁️ InvoicePlane</b>:</summary>
     <code>source code</code>: https://github.com/InvoicePlane/InvoicePlane<br>
     <code>description</code>: A self-hosted open source application for managing your invoices, clients and payments.<br>
     <code>homepage   </code>: https://www.invoiceplane.com<br>
@@ -3554,7 +3524,7 @@
 </details>
 
 <details>
-    <summary><b>ipscan</b>:</summary>
+    <summary><b>💻 Angry IP Scanner</b>:</summary>
     <code>source code</code>: https://github.com/angryip/ipscan<br>
     <code>description</code>: Angry IP Scanner - fast and friendly network scanner<br>
     <code>homepage   </code>: angryip.org<br>
@@ -3564,7 +3534,7 @@
 </details>
 
 <details>
-    <summary><b>issrc</b>:</summary>
+    <summary><b>💻 Inno Setup</b>:</summary>
     <code>source code</code>: https://github.com/jrsoftware/issrc<br>
     <code>description</code>: Inno Setup is a free installer for Windows programs. First introduced in 1997, Inno Setup today rivals and even surpasses many commercial installers in feature set and stability.<br>
     <code>homepage   </code>: https://jrsoftware.org/isinfo.php<br>
@@ -3574,7 +3544,7 @@
 </details>
 
 <details>
-    <summary><b>iTop</b>:</summary>
+    <summary><b>☁️ IT Operations Portal (iTop)</b>:</summary>
     <code>source code</code>: https://github.com/Combodo/iTop<br>
     <code>description</code>: A simple, web based IT Service Management tool <br>
     <code>homepage   </code>: https://www.combodo.com/itop<br>
@@ -3584,7 +3554,7 @@
 </details>
 
 <details>
-    <summary><b>jabref</b>:</summary>
+    <summary><b>💻 JabRef Bibliography Management</b>:</summary>
     <code>source code</code>: https://github.com/JabRef/jabref<br>
     <code>description</code>: Graphical Java application for managing BibTeX and biblatex (.bib) databases<br>
     <code>homepage   </code>: https://devdocs.jabref.org<br>
@@ -3594,18 +3564,17 @@
 </details>
 
 <details>
-    <summary><b>jajuk</b>:</summary>
+    <summary><b>💻 Jajuk</b>:</summary>
     <code>source code</code>: https://github.com/jajuk-team/jajuk<br>
     <code>description</code>: Advanded jukebox for users with large or scattered music collections<br>
     <code>homepage   </code>: -<br>
     <code>prog lang  </code>: Java<br>
     <code>archived   </code>: -<br>
-    <b>license</b>: -<br>
     <code>opinion    </code>: ⭐<br>
 </details>
 
 <details>
-    <summary><b>jamovi</b>:</summary>
+    <summary><b>💻 jamovi</b>:</summary>
     <code>source code</code>: https://github.com/jamovi/jamovi<br>
     <code>description</code>: jamovi - open software to bridge the gap between researcher and statistician<br>
     <code>homepage   </code>: https://www.jamovi.org<br>
@@ -3615,7 +3584,7 @@
 </details>
 
 <details>
-    <summary><b>jasp-desktop</b>:</summary>
+    <summary><b>💻 JASP Desktop</b>:</summary>
     <code>source code</code>: https://github.com/jasp-stats/jasp-desktop<br>
     <code>description</code>: JASP aims to be a complete statistical package for both Bayesian and Frequentist statistical methods, that is easy to use and familiar to users of SPSS<br>
     <code>homepage   </code>: jasp-stats.org<br>
@@ -3625,7 +3594,7 @@
 </details>
 
 <details>
-    <summary><b>javascript-obfuscator</b>:</summary>
+    <summary><b>📔 JavaScript obfuscator</b>:</summary>
     <code>source code</code>: https://github.com/javascript-obfuscator/javascript-obfuscator<br>
     <code>description</code>: A powerful obfuscator for JavaScript and Node.js<br>
     <code>homepage   </code>: https://obfuscator.io<br>
@@ -3635,7 +3604,7 @@
 </details>
 
 <details>
-    <summary><b>javascript-rsa</b>:</summary>
+    <summary><b>⚙️ javascript-rsa</b>:</summary>
     <code>source code</code>: https://github.com/ziyan/javascript-rsa<br>
     <code>description</code>: RSA encryption with javascript<br>
     <code>homepage   </code>: -<br>
@@ -3645,7 +3614,7 @@
 </details>
 
 <details>
-    <summary><b>jitsi</b>:</summary>
+    <summary><b>💻 Jitsi Desktop</b>:</summary>
     <code>source code</code>: https://github.com/jitsi/jitsi<br>
     <code>description</code>: Jitsi is an audio/video and chat communicator that supports protocols such as SIP, XMPP/Jabber, IRC and many other useful features.<br>
     <code>homepage   </code>: https://desktop.jitsi.org<br>
@@ -3655,7 +3624,7 @@
 </details>
 
 <details>
-    <summary><b>jitsi-meet</b>:</summary>
+    <summary><b>💻 Jitsi Meet</b>:</summary>
     <code>source code</code>: https://github.com/jitsi/jitsi-meet<br>
     <code>description</code>: Jitsi Meet - Secure, Simple and Scalable Video Conferences that you use as a standalone app or embed in your web application.<br>
     <code>homepage   </code>: https://jitsi.org/meet<br>
@@ -3665,18 +3634,17 @@
 </details>
 
 <details>
-    <summary><b>jn-npp-plugin (Notepad++ plugin)</b>:</summary>
+    <summary><b>⚙️ jN Npp (Notepad++ plugin)</b>:</summary>
     <code>source code</code>: https://github.com/sieukrem/jn-npp-plugin<br>
     <code>description</code>: Plugin for Notepad++ allowing you to automate some tasks using JavaScript<br>
     <code>homepage   </code>: https://github.com/sieukrem/jn-npp-plugin/wiki<br>
     <code>prog lang  </code>: C<br>
     <code>archived   </code>: -<br>
-    <b>license</b>: -<br>
     <code>opinion    </code>: ⭐<br>
 </details>
 
 <details>
-    <summary><b>jodit</b>:</summary>
+    <summary><b>⚙️ Jodit Editor 3</b>:</summary>
     <code>source code</code>: https://github.com/xdan/jodit<br>
     <code>description</code>: Jodit - Best WYSIWYG Editor for You<br>
     <code>homepage   </code>: https://xdsoft.net/jodit/<br>
@@ -3686,7 +3654,7 @@
 </details>
 
 <details>
-    <summary><b>joomla-cms</b>:</summary>
+    <summary><b>☁️ Joomla! CMS</b>:</summary>
     <code>source code</code>: https://github.com/joomla/joomla-cms<br>
     <code>description</code>: Home of the Joomla! Content Management System<br>
     <code>homepage   </code>: https://www.joomla.org<br>
@@ -3696,18 +3664,17 @@
 </details>
 
 <details>
-    <summary><b>jOrgChart</b>:</summary>
+    <summary><b>⚙️ jOrgChart (jQuery plugin)</b>:</summary>
     <code>source code</code>: https://github.com/wesnolte/jOrgChart<br>
     <code>description</code>: A jQuery plugin to draw tree-like structures such as OrgCharts.<br>
     <code>homepage   </code>: -<br>
     <code>prog lang  </code>: JavaScript<br>
     <code>archived   </code>: -<br>
-    <b>license</b>: -<br>
     <code>opinion    </code>: ⭐<br>
 </details>
 
 <details>
-    <summary><b>jpgraph</b>:</summary>
+    <summary><b>⚙️ JpGraph</b>:</summary>
     <code>source code</code>: https://github.com/mitoteam/jpgraph<br>
     <code>description</code>: JpGraph library composer package with PHP 8.2 support<br>
     <code>homepage   </code>: https://packagist.org/packages/mitoteam/jpgraph<br>
@@ -3717,7 +3684,7 @@
 </details>
 
 <details>
-    <summary><b>jqPlot</b>:</summary>
+    <summary><b>⚙️ jqPlot (jQuery plugin)</b>:</summary>
     <code>source code</code>: https://github.com/jqPlot/jqPlot<br>
     <code>description</code>: A Versatile and Expandable jQuery Plotting Plugin<br>
     <code>homepage   </code>: http://www.jqplot.com<br>
@@ -3727,7 +3694,7 @@
 </details>
 
 <details>
-    <summary><b>jquery</b>:</summary>
+    <summary><b>⚙️ jQuery</b>:</summary>
     <code>source code</code>: https://github.com/jquery/jquery<br>
     <code>description</code>: jQuery JavaScript Library<br>
     <code>homepage   </code>: https://jquery.com<br>
@@ -3737,7 +3704,7 @@
 </details>
 
 <details>
-    <summary><b>jquery-calendar-bs4</b>:</summary>
+    <summary><b>⚙️ jquery-calendar-bs4</b>:</summary>
     <code>source code</code>: https://github.com/ArrobeFr/jquery-calendar-bs4<br>
     <code>description</code>: A responsive jquery calendar scheduler built with bootstrap 4 and moment.js<br>
     <code>homepage   </code>: -<br>
@@ -3747,7 +3714,7 @@
 </details>
 
 <details>
-    <summary><b>jQuery-File-Upload</b>:</summary>
+    <summary><b>⚙️ File Upload (jQuery plugin)</b>:</summary>
     <code>source code</code>: https://github.com/blueimp/jQuery-File-Upload<br>
     <code>description</code>: File Upload widget with multiple file selection, drag&drop support, progress bar, validation and preview images, audio and video for jQuery. Supports cross-domain, chunked and resumable file uploads. Works with any server-side platform (Google App Engine, PHP, Python, Ruby on Rails, Java, etc.) that supports standard HTML form file uploads.<br>
     <code>homepage   </code>: https://blueimp.github.io/jQuery-File-Upload/<br>
@@ -3757,18 +3724,17 @@
 </details>
 
 <details>
-    <summary><b>jquery-headerPersist</b>:</summary>
+    <summary><b>⚙️ headerPersist (jQuery plugin)</b>:</summary>
     <code>source code</code>: https://github.com/travishorn/jquery-headerPersist<br>
     <code>description</code>: Locks a header to the top of the page only when user is scrolling within it's parent container.<br>
     <code>homepage   </code>: http://travishorn.github.com/jquery-headerPersist<br>
     <code>prog lang  </code>: HTML<br>
     <code>archived   </code>: -<br>
-    <b>license</b>: -<br>
     <code>opinion    </code>: ⭐<br>
 </details>
 
 <details>
-    <summary><b>jQuery-Timepicker-Addon</b>:</summary>
+    <summary><b>⚙️ Timepicker (jQuery plugin)</b>:</summary>
     <code>source code</code>: https://github.com/trentrichardson/jQuery-Timepicker-Addon<br>
     <code>description</code>: Adds a timepicker to jQueryUI Datepicker<br>
     <code>homepage   </code>: http://trentrichardson.com/examples/timepicker/<br>
@@ -3778,7 +3744,7 @@
 </details>
 
 <details>
-    <summary><b>jquery-treegrid</b>:</summary>
+    <summary><b>⚙️ TreeGrid (jQuery plugin)</b>:</summary>
     <code>source code</code>: https://github.com/maxazan/jquery-treegrid<br>
     <code>description</code>: TreeGrid plugin for jQuery<br>
     <code>homepage   </code>: http://maxazan.github.io/jquery-treegrid<br>
@@ -3788,7 +3754,7 @@
 </details>
 
 <details>
-    <summary><b>jquery-ui</b>:</summary>
+    <summary><b>⚙️ jQuery UI (jQuery plugin)</b>:</summary>
     <code>source code</code>: https://github.com/jquery/jquery-ui<br>
     <code>description</code>: The official jQuery user interface library.<br>
     <code>homepage   </code>: https://jqueryui.com<br>
@@ -3798,7 +3764,7 @@
 </details>
 
 <details>
-    <summary><b>jquery-ui-contextmenu</b>:</summary>
+    <summary><b>⚙️ contextmenu (jQuery UI plugin)</b>:</summary>
     <code>source code</code>: https://github.com/mar10/jquery-ui-contextmenu<br>
     <code>description</code>: jQuery plugin that turns a jQueryUI menu widget into a context menu.<br>
     <code>homepage   </code>: -<br>
@@ -3808,7 +3774,7 @@
 </details>
 
 <details>
-    <summary><b>jquery-ui-month-picker</b>:</summary>
+    <summary><b>⚙️ Month Picker (jQuery UI plugin)</b>:</summary>
     <code>source code</code>: https://github.com/KidSysco/jquery-ui-month-picker<br>
     <code>description</code>: jQuery UI Month Picker Plugin<br>
     <code>homepage   </code>: https://kidsysco.github.io/jquery-ui-month-picker/<br>
@@ -3818,18 +3784,17 @@
 </details>
 
 <details>
-    <summary><b>jquery-week-calendar</b>:</summary>
+    <summary><b>⚙️ jquery-week-calendar (jQuery plugin)</b>:</summary>
     <code>source code</code>: https://github.com/themouette/jquery-week-calendar<br>
     <code>description</code>: A weekly calendar plugin based on jquery and jquery-ui<br>
     <code>homepage   </code>: http://groups.google.com/group/jquery-week-calendar<br>
     <code>prog lang  </code>: JavaScript<br>
     <code>archived   </code>: -<br>
-    <b>license</b>: -<br>
     <code>opinion    </code>: ⭐<br>
 </details>
 
 <details>
-    <summary><b>jquery.appendGrid</b>:</summary>
+    <summary><b>⚙️ appendGrid (jQuery plugin)</b>:</summary>
     <code>source code</code>: https://github.com/hkalbertl/jquery.appendGrid<br>
     <code>description</code>: The dynamic table input JavaScript plugin<br>
     <code>homepage   </code>: https://appendgrid.bsite.net<br>
@@ -3839,7 +3804,7 @@
 </details>
 
 <details>
-    <summary><b>jquery.flowchart</b>:</summary>
+    <summary><b>⚙️ flowchart (jQuery plugin)</b>:</summary>
     <code>source code</code>: https://github.com/sdrdis/jquery.flowchart<br>
     <code>description</code>: JQuery plugin that allows you to draw a flow chart.<br>
     <code>homepage   </code>: http://sebastien.drouyer.com/jquery.flowchart-demo/<br>
@@ -3849,18 +3814,17 @@
 </details>
 
 <details>
-    <summary><b>jQuery.my</b>:</summary>
+    <summary><b>⚙️ jQuery.my (jQuery plugin)</b>:</summary>
     <code>source code</code>: https://github.com/ermouth/jQuery.my<br>
     <code>description</code>: jQuery.my is a plugin that binds form controls with js data structures.<br>
     <code>homepage   </code>: http://jquerymy.com<br>
     <code>prog lang  </code>: JavaScript<br>
     <code>archived   </code>: -<br>
-    <b>license</b>: -<br>
     <code>opinion    </code>: ⭐<br>
 </details>
 
 <details>
-    <summary><b>jquery.poplockit</b>:</summary>
+    <summary><b>⚙️ jquery.poplockit (jQuery plugin)</b>:</summary>
     <code>source code</code>: https://github.com/zamiang/jquery.poplockit<br>
     <code>description</code>: A jQuery plugin for 'locking' short content in place as the user scrolls by longer content.<br>
     <code>homepage   </code>: http://zamiang.github.io/jquery.poplockit/<br>
@@ -3870,7 +3834,7 @@
 </details>
 
 <details>
-    <summary><b>jquery.terminal</b>:</summary>
+    <summary><b>⚙️ jquery.terminal (jQuery plugin)</b>:</summary>
     <code>source code</code>: https://github.com/jcubic/jquery.terminal<br>
     <code>description</code>: jQuery Terminal Emulator - JavaScript library for creating web-based terminals with custom commands<br>
     <code>homepage   </code>: https://terminal.jcubic.pl<br>
@@ -3880,7 +3844,7 @@
 </details>
 
 <details>
-    <summary><b>JqueryFixedScrollBackground</b>:</summary>
+    <summary><b>⚙️ JqueryFixedScrollBackground (jQuery plugin)</b>:</summary>
     <code>source code</code>: https://github.com/ebaumstarck/JqueryFixedScrollBackground<br>
     <code>description</code>: jquery plugin for fixed scroll background<br>
     <code>homepage   </code>: -<br>
@@ -3890,7 +3854,7 @@
 </details>
 
 <details>
-    <summary><b>jQueryGantt</b>:</summary>
+    <summary><b>⚙️ jQueryGantt (jQuery plugin)</b>:</summary>
     <code>source code</code>: https://github.com/robicch/jQueryGantt<br>
     <code>description</code>: jQuery Gantt editor<br>
     <code>homepage   </code>: -<br>
@@ -3900,7 +3864,7 @@
 </details>
 
 <details>
-    <summary><b>js2php</b>:</summary>
+    <summary><b>💾 js2php</b>:</summary>
     <code>source code</code>: https://github.com/endel/js2php<br>
     <code>description</code>: JavaScript (ES6) to PHP source-to-source transpiler.<br>
     <code>homepage   </code>: https://endel.github.io/js2php/<br>
@@ -3910,7 +3874,7 @@
 </details>
 
 <details>
-    <summary><b>jsfuck</b>:</summary>
+    <summary><b>💾 jsfuck</b>:</summary>
     <code>source code</code>: https://github.com/aemkei/jsfuck<br>
     <code>description</code>: Write any JavaScript with 6 Characters: []()!+<br>
     <code>homepage   </code>: jsfuck.com<br>
@@ -3920,7 +3884,7 @@
 </details>
 
 <details>
-    <summary><b>JShrink</b>:</summary>
+    <summary><b>⚙️ JShrink</b>:</summary>
     <code>source code</code>: https://github.com/tedious/JShrink<br>
     <code>description</code>: Javascript Minifier built in PHP <br>
     <code>homepage   </code>: http://www.tedivm.com<br>
@@ -3930,7 +3894,7 @@
 </details>
 
 <details>
-    <summary><b>jsPDF</b>:</summary>
+    <summary><b>⚙️ jsPDF</b>:</summary>
     <code>source code</code>: https://github.com/parallax/jsPDF<br>
     <code>description</code>: Client-side JavaScript PDF generation for everyone.<br>
     <code>homepage   </code>: https://parall.ax/products/jspdf<br>
@@ -3940,7 +3904,7 @@
 </details>
 
 <details>
-    <summary><b>jsplumb</b>:</summary>
+    <summary><b>⚙️ jsPlumb</b>:</summary>
     <code>source code</code>: https://github.com/jsplumb/jsplumb<br>
     <code>description</code>: Visual connectivity for webapps<br>
     <code>homepage   </code>: https://jsplumbtoolkit.com<br>
@@ -3950,7 +3914,7 @@
 </details>
 
 <details>
-    <summary><b>jstree</b>:</summary>
+    <summary><b>⚙️ jsTree (jQuery plugin)</b>:</summary>
     <code>source code</code>: https://github.com/vakata/jstree<br>
     <code>description</code>: jquery tree plugin<br>
     <code>homepage   </code>: http://jstree.com<br>
@@ -3960,7 +3924,7 @@
 </details>
 
 <details>
-    <summary><b>jstree-bootstrap-theme</b>:</summary>
+    <summary><b>⚙️ jsTree Bootstrap Theme</b>:</summary>
     <code>source code</code>: https://github.com/orangehill/jstree-bootstrap-theme<br>
     <code>description</code>: Reponsive jsTree Twitter Bootstrap 3 Compatible Theme<br>
     <code>homepage   </code>: -<br>
@@ -3970,7 +3934,7 @@
 </details>
 
 <details>
-    <summary><b>Kalkun</b>:</summary>
+    <summary><b>☁️ Kalkun SMS Manager</b>:</summary>
     <code>source code</code>: https://github.com/kalkun-sms/Kalkun<br>
     <code>description</code>: Open Source Web based SMS Manager<br>
     <code>homepage   </code>: https://kalkun.sourceforge.io/<br>
@@ -3980,7 +3944,7 @@
 </details>
 
 <details>
-    <summary><b>kanboard</b>:</summary>
+    <summary><b>☁️ Kanboard project management</b>:</summary>
     <code>source code</code>: https://github.com/kanboard/kanboard<br>
     <code>description</code>: Kanban project management software<br>
     <code>homepage   </code>: https://kanboard.org<br>
@@ -3990,7 +3954,7 @@
 </details>
 
 <details>
-    <summary><b>kchmviewer</b>:</summary>
+    <summary><b>💻 KchmViewer</b>:</summary>
     <code>source code</code>: https://github.com/gyunaev/kchmviewer<br>
     <code>description</code>: kchmviewer is a CHM (Winhelp) files viewer written on Qt/KDE. It can be build as a standalone Qt-based application, or a KDE application. The main point of kchmviewer is compatibility with non-English chm files, including most international charsets.<br>
     <code>homepage   </code>: http://www.ulduzsoft.com/linux/kchmviewer/<br>
@@ -4000,7 +3964,7 @@
 </details>
 
 <details>
-    <summary><b>kdenlive</b>:</summary>
+    <summary><b>💻 Kdenlive</b>:</summary>
     <code>source code</code>: https://github.com/KDE/kdenlive<br>
     <code>description</code>: Free and open source video editor, based on MLT Framework and KDE Frameworks 5<br>
     <code>homepage   </code>: https://invent.kde.org/multimedia/kdenlive<br>
@@ -4010,18 +3974,17 @@
 </details>
 
 <details>
-    <summary><b>kdev-php</b>:</summary>
+    <summary><b>⚙️ kdev-php (KDevelop plugin)</b>:</summary>
     <code>source code</code>: https://github.com/KDE/kdev-php<br>
     <code>description</code>: PHP Language Plugin for KDevelop<br>
     <code>homepage   </code>: https://invent.kde.org/kdevelop/kdev-php<br>
     <code>prog lang  </code>: PHP<br>
     <code>archived   </code>: -<br>
-    <b>license</b>: -<br>
     <code>opinion    </code>: ⭐<br>
 </details>
 
 <details>
-    <summary><b>kdevelop</b>:</summary>
+    <summary><b>💻 KDevelop</b>:</summary>
     <code>source code</code>: https://github.com/KDE/kdevelop<br>
     <code>description</code>: Cross-platform IDE for C, C++, Python, QML/JavaScript and PHP<br>
     <code>homepage   </code>: https://invent.kde.org/kdevelop/kdevelop<br>
@@ -4031,7 +3994,7 @@
 </details>
 
 <details>
-    <summary><b>kdiff3</b>:</summary>
+    <summary><b>💻 KDiff3</b>:</summary>
     <code>source code</code>: https://github.com/KDE/kdiff3<br>
     <code>description</code>: Utility for comparing and merging files and directories<br>
     <code>homepage   </code>: https://invent.kde.org/sdk/kdiff3<br>
@@ -4041,7 +4004,7 @@
 </details>
 
 <details>
-    <summary><b>keepassx</b>:</summary>
+    <summary><b>💻 KeePassX</b>:</summary>
     <code>source code</code>: https://github.com/keepassx/keepassx<br>
     <code>description</code>: KeePassX is a cross platform port of the windows application “Keepass Password Safe”.<br>
     <code>homepage   </code>: http://www.keepassx.org/<br>
@@ -4127,7 +4090,6 @@
     <code>homepage   </code>: https://invent.kde.org/education/kstars<br>
     <code>prog lang  </code>: C++<br>
     <code>archived   </code>: -<br>
-    <b>license</b>: -<br>
     <code>opinion    </code>: ⭐<br>
 </details>
 
@@ -4218,7 +4180,6 @@
     <code>homepage   </code>: https://www.leocad.org<br>
     <code>prog lang  </code>: C++<br>
     <code>archived   </code>: -<br>
-    <b>license</b>: -<br>
     <code>opinion    </code>: ⭐<br>
 </details>
 
@@ -4369,7 +4330,6 @@
     <code>homepage   </code>: https://logiccircuit.org/<br>
     <code>prog lang  </code>: C#<br>
     <code>archived   </code>: -<br>
-    <b>license</b>: -<br>
     <code>opinion    </code>: ⭐<br>
 </details>
 
@@ -4390,7 +4350,6 @@
     <code>homepage   </code>: https://trevorsandy.github.io/lpub3d/<br>
     <code>prog lang  </code>: C++<br>
     <code>archived   </code>: -<br>
-    <b>license</b>: -<br>
     <code>opinion    </code>: ⭐<br>
 </details>
 
@@ -4421,7 +4380,6 @@
     <code>homepage   </code>: https://mantisbt.org<br>
     <code>prog lang  </code>: PHP<br>
     <code>archived   </code>: -<br>
-    <b>license</b>: -<br>
     <code>opinion    </code>: ⭐<br>
 </details>
 
@@ -4812,7 +4770,6 @@
     <code>homepage   </code>: http://gr2m.github.io/navigable-table/<br>
     <code>prog lang  </code>: JavaScript<br>
     <code>archived   </code>: -<br>
-    <b>license</b>: -<br>
     <code>opinion    </code>: ⭐<br>
 </details>
 
@@ -4913,7 +4870,6 @@
     <code>homepage   </code>: -<br>
     <code>prog lang  </code>: PHP<br>
     <code>archived   </code>: -<br>
-    <b>license</b>: -<br>
     <code>opinion    </code>: ⭐<br>
 </details>
 
@@ -4934,7 +4890,6 @@
     <code>homepage   </code>: http://pkp.sfu.ca/ocs<br>
     <code>prog lang  </code>: PHP<br>
     <code>archived   </code>: -<br>
-    <b>license</b>: -<br>
     <code>opinion    </code>: ⭐<br>
 </details>
 
@@ -4975,7 +4930,6 @@
     <code>homepage   </code>: https://pkp.sfu.ca/software/ojs<br>
     <code>prog lang  </code>: PHP<br>
     <code>archived   </code>: -<br>
-    <b>license</b>: -<br>
     <code>opinion    </code>: ⭐<br>
 </details>
 
@@ -4986,7 +4940,6 @@
     <code>homepage   </code>: https://invent.kde.org/graphics/okular<br>
     <code>prog lang  </code>: C++<br>
     <code>archived   </code>: -<br>
-    <b>license</b>: -<br>
     <code>opinion    </code>: ⭐<br>
 </details>
 
@@ -5017,7 +4970,6 @@
     <code>homepage   </code>: https://pkp.sfu.ca/software/omp<br>
     <code>prog lang  </code>: PHP<br>
     <code>archived   </code>: -<br>
-    <b>license</b>: -<br>
     <code>opinion    </code>: ⭐<br>
 </details>
 
@@ -5158,7 +5110,6 @@
     <code>homepage   </code>: https://www.os4ed.com<br>
     <code>prog lang  </code>: PHP<br>
     <code>archived   </code>: -<br>
-    <b>license</b>: -<br>
     <code>opinion    </code>: ⭐<br>
 </details>
 
@@ -5239,7 +5190,6 @@
     <code>homepage   </code>: https://pkp.sfu.ca/software/ops<br>
     <code>prog lang  </code>: PHP<br>
     <code>archived   </code>: -<br>
-    <b>license</b>: -<br>
     <code>opinion    </code>: ⭐<br>
 </details>
 
@@ -5290,7 +5240,6 @@
     <code>homepage   </code>: http://pandorafms.com/<br>
     <code>prog lang  </code>: PHP<br>
     <code>archived   </code>: -<br>
-    <b>license</b>: -<br>
     <code>opinion    </code>: ⭐<br>
 </details>
 
@@ -5581,7 +5530,6 @@
     <code>homepage   </code>: -<br>
     <code>prog lang  </code>: PHP<br>
     <code>archived   </code>: -<br>
-    <b>license</b>: -<br>
     <code>opinion    </code>: ⭐<br>
 </details>
 
@@ -5772,7 +5720,6 @@
     <code>homepage   </code>: http://phpcompressor.genasyst.ru/index.php<br>
     <code>prog lang  </code>: PHP<br>
     <code>archived   </code>: -<br>
-    <b>license</b>: -<br>
     <code>opinion    </code>: ⭐<br>
 </details>
 
@@ -5793,7 +5740,6 @@
     <code>homepage   </code>: https://groups.google.com/d/forum/phpdesktop<br>
     <code>prog lang  </code>: C++<br>
     <code>archived   </code>: -<br>
-    <b>license</b>: -<br>
     <code>opinion    </code>: ⭐<br>
 </details>
 
@@ -5814,7 +5760,6 @@
     <code>homepage   </code>: -<br>
     <code>prog lang  </code>: PHP<br>
     <code>archived   </code>: -<br>
-    <b>license</b>: -<br>
     <code>opinion    </code>: ⭐<br>
 </details>
 
@@ -5825,7 +5770,6 @@
     <code>homepage   </code>: https://phpipam.net<br>
     <code>prog lang  </code>: PHP<br>
     <code>archived   </code>: -<br>
-    <b>license</b>: -<br>
     <code>opinion    </code>: ⭐<br>
 </details>
 
@@ -6336,7 +6280,6 @@
     <code>homepage   </code>: http://qmmp.ylsoftware.com/<br>
     <code>prog lang  </code>: C++<br>
     <code>archived   </code>: -<br>
-    <b>license</b>: -<br>
     <code>opinion    </code>: ⭐<br>
 </details>
 
@@ -6537,7 +6480,6 @@
     <code>homepage   </code>: https://invent.kde.org/education/rkward<br>
     <code>prog lang  </code>: C++<br>
     <code>archived   </code>: -<br>
-    <b>license</b>: -<br>
     <code>opinion    </code>: ⭐<br>
 </details>
 
@@ -6628,7 +6570,6 @@
     <code>homepage   </code>: http://www.opencorebanking.com<br>
     <code>prog lang  </code>: JavaScript<br>
     <code>archived   </code>: -<br>
-    <b>license</b>: -<br>
     <code>opinion    </code>: ⭐<br>
 </details>
 
@@ -6639,7 +6580,6 @@
     <code>homepage   </code>: https://www.saltos.org<br>
     <code>prog lang  </code>: PHP<br>
     <code>archived   </code>: -<br>
-    <b>license</b>: -<br>
     <code>opinion    </code>: ⭐<br>
 </details>
 
@@ -6770,7 +6710,6 @@
     <code>homepage   </code>: -<br>
     <code>prog lang  </code>: C#<br>
     <code>archived   </code>: -<br>
-    <b>license</b>: -<br>
     <code>opinion    </code>: ⭐<br>
 </details>
 
@@ -6811,7 +6750,6 @@
     <code>homepage   </code>: -<br>
     <code>prog lang  </code>: PHP<br>
     <code>archived   </code>: -<br>
-    <b>license</b>: -<br>
     <code>opinion    </code>: ⭐<br>
 </details>
 
@@ -6822,7 +6760,6 @@
     <code>homepage   </code>: -<br>
     <code>prog lang  </code>: PHP<br>
     <code>archived   </code>: -<br>
-    <b>license</b>: -<br>
     <code>opinion    </code>: ⭐<br>
 </details>
 
@@ -6863,7 +6800,6 @@
     <code>homepage   </code>: http://simplepie.org/<br>
     <code>prog lang  </code>: PHP<br>
     <code>archived   </code>: -<br>
-    <b>license</b>: -<br>
     <code>opinion    </code>: ⭐<br>
 </details>
 
@@ -6964,7 +6900,6 @@
     <code>homepage   </code>: https://github.com/zz85/space-radar-electron/releases<br>
     <code>prog lang  </code>: JavaScript<br>
     <code>archived   </code>: -<br>
-    <b>license</b>: -<br>
     <code>opinion    </code>: ⭐<br>
 </details>
 
@@ -6975,7 +6910,6 @@
     <code>homepage   </code>: http://speedcrunch.org<br>
     <code>prog lang  </code>: -<br>
     <code>archived   </code>: -<br>
-    <b>license</b>: -<br>
     <code>opinion    </code>: ⭐<br>
 </details>
 
@@ -7056,7 +6990,6 @@
     <code>homepage   </code>: -<br>
     <code>prog lang  </code>: Rich Text Format<br>
     <code>archived   </code>: -<br>
-    <b>license</b>: -<br>
     <code>opinion    </code>: ⭐<br>
 </details>
 
@@ -7267,7 +7200,6 @@
     <code>homepage   </code>: https://vocabularyserver.com<br>
     <code>prog lang  </code>: PHP<br>
     <code>archived   </code>: -<br>
-    <b>license</b>: -<br>
     <code>opinion    </code>: ⭐<br>
 </details>
 
@@ -7338,7 +7270,6 @@
     <code>homepage   </code>: -<br>
     <code>prog lang  </code>: PHP<br>
     <code>archived   </code>: -<br>
-    <b>license</b>: -<br>
     <code>opinion    </code>: ⭐<br>
 </details>
 
@@ -7349,7 +7280,6 @@
     <code>homepage   </code>: https://www.timetrex.com/community-edition<br>
     <code>prog lang  </code>: -<br>
     <code>archived   </code>: -<br>
-    <b>license</b>: -<br>
     <code>opinion    </code>: ⭐<br>
 </details>
 
@@ -7370,7 +7300,6 @@
     <code>homepage   </code>: -<br>
     <code>prog lang  </code>: C<br>
     <code>archived   </code>: -<br>
-    <b>license</b>: -<br>
     <code>opinion    </code>: ⭐<br>
 </details>
 
@@ -7391,7 +7320,6 @@
     <code>homepage   </code>: -<br>
     <code>prog lang  </code>: C++<br>
     <code>archived   </code>: -<br>
-    <b>license</b>: -<br>
     <code>opinion    </code>: ⭐<br>
 </details>
 
@@ -7432,7 +7360,6 @@
     <code>homepage   </code>: -<br>
     <code>prog lang  </code>: PHP<br>
     <code>archived   </code>: -<br>
-    <b>license</b>: -<br>
     <code>opinion    </code>: ⭐<br>
 </details>
 
@@ -7443,7 +7370,6 @@
     <code>homepage   </code>: http://add0n.com/tor-control.html<br>
     <code>prog lang  </code>: JavaScript<br>
     <code>archived   </code>: -<br>
-    <b>license</b>: -<br>
     <code>opinion    </code>: ⭐<br>
 </details>
 
@@ -7454,7 +7380,6 @@
     <code>homepage   </code>: -<br>
     <code>prog lang  </code>: -<br>
     <code>archived   </code>: -<br>
-    <b>license</b>: -<br>
     <code>opinion    </code>: ⭐<br>
 </details>
 
@@ -7525,7 +7450,6 @@
     <code>homepage   </code>: http://niutech.github.io/typescript-compile/demo/demo.html<br>
     <code>prog lang  </code>: JavaScript<br>
     <code>archived   </code>: -<br>
-    <b>license</b>: -<br>
     <code>opinion    </code>: ⭐<br>
 </details>
 
@@ -7566,7 +7490,6 @@
     <code>homepage   </code>: http://anahkiasen.github.com/underscore-php/<br>
     <code>prog lang  </code>: PHP<br>
     <code>archived   </code>: -<br>
-    <b>license</b>: -<br>
     <code>opinion    </code>: ⭐<br>
 </details>
 
@@ -7697,7 +7620,6 @@
     <code>homepage   </code>: -<br>
     <code>prog lang  </code>: C#<br>
     <code>archived   </code>: -<br>
-    <b>license</b>: -<br>
     <code>opinion    </code>: ⭐<br>
 </details>
 
@@ -7708,7 +7630,6 @@
     <code>homepage   </code>: -<br>
     <code>prog lang  </code>: Java<br>
     <code>archived   </code>: -<br>
-    <b>license</b>: -<br>
     <code>opinion    </code>: ⭐<br>
 </details>
 
@@ -7719,7 +7640,6 @@
     <code>homepage   </code>: -<br>
     <code>prog lang  </code>: C#<br>
     <code>archived   </code>: -<br>
-    <b>license</b>: -<br>
     <code>opinion    </code>: ⭐<br>
 </details>
 
@@ -7730,7 +7650,6 @@
     <code>homepage   </code>: http://viewerjs.org<br>
     <code>prog lang  </code>: JavaScript<br>
     <code>archived   </code>: -<br>
-    <b>license</b>: -<br>
     <code>opinion    </code>: ⭐<br>
 </details>
 
@@ -7761,7 +7680,6 @@
     <code>homepage   </code>: https://visualfamilytree.jisco.me<br>
     <code>prog lang  </code>: JavaScript<br>
     <code>archived   </code>: -<br>
-    <b>license</b>: -<br>
     <code>opinion    </code>: ⭐<br>
 </details>
 
@@ -7872,7 +7790,6 @@
     <code>homepage   </code>: -<br>
     <code>prog lang  </code>: Pascal<br>
     <code>archived   </code>: -<br>
-    <b>license</b>: -<br>
     <code>opinion    </code>: ⭐<br>
 </details>
 
@@ -7893,7 +7810,6 @@
     <code>homepage   </code>: http://www.weberp.org<br>
     <code>prog lang  </code>: PHP<br>
     <code>archived   </code>: -<br>
-    <b>license</b>: -<br>
     <code>opinion    </code>: ⭐<br>
 </details>
 
@@ -7934,7 +7850,6 @@
     <code>homepage   </code>: http://wikidpad.sourceforge.net/<br>
     <code>prog lang  </code>: Python<br>
     <code>archived   </code>: -<br>
-    <b>license</b>: -<br>
     <code>opinion    </code>: ⭐<br>
 </details>
 
@@ -7945,7 +7860,6 @@
     <code>homepage   </code>: -<br>
     <code>prog lang  </code>: C<br>
     <code>archived   </code>: -<br>
-    <b>license</b>: -<br>
     <code>opinion    </code>: ⭐<br>
 </details>
 
@@ -7996,7 +7910,6 @@
     <code>homepage   </code>: https://wperp.com/<br>
     <code>prog lang  </code>: JavaScript<br>
     <code>archived   </code>: -<br>
-    <b>license</b>: -<br>
     <code>opinion    </code>: ⭐<br>
 </details>
 
@@ -8037,7 +7950,6 @@
     <code>homepage   </code>: https://www.wxwidgets.org/<br>
     <code>prog lang  </code>: C++<br>
     <code>archived   </code>: -<br>
-    <b>license</b>: -<br>
     <code>opinion    </code>: ⭐<br>
 </details>
 
@@ -8048,7 +7960,6 @@
     <code>homepage   </code>: http://www.x2crm.com<br>
     <code>prog lang  </code>: PHP<br>
     <code>archived   </code>: -<br>
-    <b>license</b>: -<br>
     <code>opinion    </code>: ⭐<br>
 </details>
 
