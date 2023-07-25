@@ -2414,7 +2414,7 @@
 </details>
 
 <details>
-    <summary><b>easytag</b>:</summary>
+    <summary><b>💻 EasyTAG</b>:</summary>
     <code>source code</code>: https://github.com/GNOME/easytag<br>
     <code>description</code>: Read-only mirror of https://gitlab.gnome.org/GNOME/easytag<br>
     <code>homepage   </code>: https://gitlab.gnome.org/GNOME/easytag<br>
@@ -2424,7 +2424,7 @@
 </details>
 
 <details>
-    <summary><b>editable-table</b>:</summary>
+    <summary><b>⚙️ Editable Table</b>:</summary>
     <code>source code</code>: https://github.com/gr2m/editable-table<br>
     <code>description</code>: A web component for editing a collection of records<br>
     <code>homepage   </code>: https://gr2m.github.io/editable-table/<br>
@@ -2434,7 +2434,7 @@
 </details>
 
 <details>
-    <summary><b>eduTrac-SIS</b>:</summary>
+    <summary><b>☁️ eduTrac SIS</b>:</summary>
     <code>source code</code>: https://github.com/parkerj/eduTrac-SIS<br>
     <code>description</code>: eduTrac SIS is the most advanced open source student information system for higher education.<br>
     <code>homepage   </code>: https://www.edutracsis.com/<br>
@@ -2444,7 +2444,7 @@
 </details>
 
 <details>
-    <summary><b>egroupware</b>:</summary>
+    <summary><b>☁️ EGroupware</b>:</summary>
     <code>source code</code>: https://github.com/EGroupware/egroupware<br>
     <code>description</code>: Web based groupware server written in PHP, forum at https://help.egroupware.org/<br>
     <code>homepage   </code>: https://www.egroupware.org/<br>
@@ -2454,7 +2454,7 @@
 </details>
 
 <details>
-    <summary><b>elabftw</b>:</summary>
+    <summary><b>☁️ eLabFTW</b>:</summary>
     <code>source code</code>: https://github.com/elabftw/elabftw<br>
     <code>description</code>: :notebook: eLabFTW is the most popular open source electronic lab notebook for research labs.<br>
     <code>homepage   </code>: https://www.elabftw.net<br>
@@ -2464,7 +2464,7 @@
 </details>
 
 <details>
-    <summary><b>ElasticTabstops</b>:</summary>
+    <summary><b>⚙️ Elastic Tabstops (Notepad++ plugin)</b>:</summary>
     <code>source code</code>: https://github.com/dail8859/ElasticTabstops<br>
     <code>description</code>: Elastic Tabstops plugin for Notepad++<br>
     <code>homepage   </code>: -<br>
@@ -2474,7 +2474,7 @@
 </details>
 
 <details>
-    <summary><b>elFinder</b>:</summary>
+    <summary><b>⚙️ elFinder</b>:</summary>
     <code>source code</code>: https://github.com/Studio-42/elFinder<br>
     <code>description</code>: 📁 Open-source file manager for web, written in JavaScript using jQuery and jQuery UI<br>
     <code>homepage   </code>: https://studio-42.github.io/elFinder/<br>
@@ -2484,7 +2484,7 @@
 </details>
 
 <details>
-    <summary><b>emoji-catalog</b>:</summary>
+    <summary><b>⚙️ Emoji catalog</b>:</summary>
     <code>source code</code>: https://github.com/jawira/emoji-catalog<br>
     <code>description</code>: Get access to +3600 emojis as class constants<br>
     <code>homepage   </code>: -<br>
@@ -2494,7 +2494,7 @@
 </details>
 
 <details>
-    <summary><b>EpesiCRM</b>:</summary>
+    <summary><b>☁️ EpesiCRM</b>:</summary>
     <code>source code</code>: https://github.com/jtylek/EpesiCRM<br>
     <code>description</code>: Epesi BIM • Business Information Manager • Free and Open Source web CRM & Cloud ERP kickstarter RAD for LAMP stack<br>
     <code>homepage   </code>: https://epe.si<br>
@@ -2505,7 +2505,7 @@
 </details>
 
 <details>
-    <summary><b>es6-features</b>:</summary>
+    <summary><b>📔 es6 features</b>:</summary>
     <code>source code</code>: https://github.com/rse/es6-features<br>
     <code>description</code>: ECMAScript 6: Feature Overview & Comparison<br>
     <code>homepage   </code>: http://es6-features.org/<br>
@@ -2515,7 +2515,7 @@
 </details>
 
 <details>
-    <summary><b>es6features</b>:</summary>
+    <summary><b>📔 es6 features</b>:</summary>
     <code>source code</code>: https://github.com/lukehoban/es6features<br>
     <code>description</code>: Overview of ECMAScript 6 features<br>
     <code>homepage   </code>: -<br>
@@ -2525,7 +2525,7 @@
 </details>
 
 <details>
-    <summary><b>esbuild</b>:</summary>
+    <summary><b>💾 esbuild</b>:</summary>
     <code>source code</code>: https://github.com/evanw/esbuild<br>
     <code>description</code>: An extremely fast bundler for the web<br>
     <code>homepage   </code>: https://esbuild.github.io/<br>
@@ -2535,7 +2535,7 @@
 </details>
 
 <details>
-    <summary><b>espocrm</b>:</summary>
+    <summary><b>☁️ EspoCRM</b>:</summary>
     <code>source code</code>: https://github.com/espocrm/espocrm<br>
     <code>description</code>: EspoCRM open source CRM application<br>
     <code>homepage   </code>: https://www.espocrm.com<br>
@@ -2545,7 +2545,7 @@
 </details>
 
 <details>
-    <summary><b>event-loop</b>:</summary>
+    <summary><b>⚙️ Revolt</b>:</summary>
     <code>source code</code>: https://github.com/revoltphp/event-loop<br>
     <code>description</code>: Revolt is a rock-solid event loop for concurrent PHP applications.<br>
     <code>homepage   </code>: -<br>
@@ -2555,7 +2555,7 @@
 </details>
 
 <details>
-    <summary><b>exifcleaner</b>:</summary>
+    <summary><b>💻 ExifCleaner</b>:</summary>
     <code>source code</code>: https://github.com/szTheory/exifcleaner<br>
     <code>description</code>: Cross-platform desktop GUI app to clean image metadata<br>
     <code>homepage   </code>: https://exifcleaner.com<br>
@@ -2565,7 +2565,7 @@
 </details>
 
 <details>
-    <summary><b>expandable-input</b>:</summary>
+    <summary><b>⚙️ Expandable Input (jQuery plugin)</b>:</summary>
     <code>source code</code>: https://github.com/gr2m/expandable-input<br>
     <code>description</code>: A Bootstrap plugin to use <{span|div|...} contenteditable> as auto-expanding inputs.<br>
     <code>homepage   </code>: https://gr2m.github.io/expandable-input<br>
@@ -2576,27 +2576,7 @@
 </details>
 
 <details>
-    <summary><b>ext-fiber</b>:</summary>
-    <code>source code</code>: https://github.com/amphp/ext-fiber<br>
-    <code>description</code>: PHP Fiber extension<br>
-    <code>homepage   </code>: -<br>
-    <code>prog lang  </code>: Assembly<br>
-    <code>archived   </code>: -<br>
-    <code>opinion    </code>: ⭐<br>
-</details>
-
-<details>
-    <summary><b>ext-php-rs</b>:</summary>
-    <code>source code</code>: https://github.com/davidcole1340/ext-php-rs<br>
-    <code>description</code>: Bindings for the Zend API to build PHP extensions natively in Rust.<br>
-    <code>homepage   </code>: -<br>
-    <code>prog lang  </code>: Rust<br>
-    <code>archived   </code>: -<br>
-    <code>opinion    </code>: ⭐<br>
-</details>
-
-<details>
-    <summary><b>extplorer</b>:</summary>
+    <summary><b>⚙️ eXtplorer</b>:</summary>
     <code>source code</code>: https://github.com/soerennb/extplorer<br>
     <code>description</code>: eXtplorer is a PHP-based File Manager<br>
     <code>homepage   </code>: https://extplorer.net<br>
@@ -2606,7 +2586,7 @@
 </details>
 
 <details>
-    <summary><b>FA</b>:</summary>
+    <summary><b>☁️ FrontAccounting</b>:</summary>
     <code>source code</code>: https://github.com/FrontAccountingERP/FA<br>
     <code>description</code>: Official FrontAccounting mirror repository<br>
     <code>homepage   </code>: -<br>
@@ -2617,7 +2597,7 @@
 </details>
 
 <details>
-    <summary><b>falkon</b>:</summary>
+    <summary><b>💻 Falkon</b>:</summary>
     <code>source code</code>: https://github.com/KDE/falkon<br>
     <code>description</code>: Cross-platform Qt-based web browser<br>
     <code>homepage   </code>: https://invent.kde.org/network/falkon<br>
@@ -2627,7 +2607,7 @@
 </details>
 
 <details>
-    <summary><b>fancytree</b>:</summary>
+    <summary><b>⚙️ Fancytree</b>:</summary>
     <code>source code</code>: https://github.com/mar10/fancytree<br>
     <code>description</code>: JavaScript tree view / tree grid plugin with support for keyboard, inline editing, filtering, checkboxes, drag'n'drop, and lazy loading<br>
     <code>homepage   </code>: http://wwwendt.de/tech/fancytree/demo<br>
@@ -2637,7 +2617,7 @@
 </details>
 
 <details>
-    <summary><b>FarManager</b>:</summary>
+    <summary><b>💾 Far Manager</b>:</summary>
     <code>source code</code>: https://github.com/FarGroup/FarManager<br>
     <code>description</code>: File and Archive Manager<br>
     <code>homepage   </code>: https://farmanager.com<br>
@@ -2647,7 +2627,7 @@
 </details>
 
 <details>
-    <summary><b>faveo-helpdesk</b>:</summary>
+    <summary><b>☁️ Faveo Helpdesk</b>:</summary>
     <code>source code</code>: https://github.com/ladybirdweb/faveo-helpdesk<br>
     <code>description</code>: Faveo Open source ticketing system build on Laravel framework<br>
     <code>homepage   </code>: https://www.faveohelpdesk.com/online-demo/<br>
@@ -2657,7 +2637,7 @@
 </details>
 
 <details>
-    <summary><b>fbc</b>:</summary>
+    <summary><b>💻 FreeBASIC</b>:</summary>
     <code>source code</code>: https://github.com/freebasic/fbc<br>
     <code>description</code>: FreeBASIC is a completely free, open-source, multi-platform BASIC compiler, with syntax similar to MS-QuickBASIC, that adds new features such as pointers, object orientation, unsigned data types, inline assembly, and many others.<br>
     <code>homepage   </code>: https://www.freebasic.net<br>
@@ -2668,7 +2648,7 @@
 </details>
 
 <details>
-    <summary><b>FBReader</b>:</summary>
+    <summary><b>💻 FBReader</b>:</summary>
     <code>source code</code>: https://github.com/geometer/FBReader<br>
     <code>description</code>: Official FBReader C++ project repository<br>
     <code>homepage   </code>: http://www.fbreader.org/<br>
@@ -2679,17 +2659,7 @@
 </details>
 
 <details>
-    <summary><b>FeedWriter</b>:</summary>
-    <code>source code</code>: https://github.com/ajaxray/FeedWriter<br>
-    <code>description</code>: PHP Universal Feed Generator<br>
-    <code>homepage   </code>: http://ajaxray.com/blog/php-universal-feed-generator-supports-rss-10-rss-20-and-atom<br>
-    <code>prog lang  </code>: PHP<br>
-    <code>archived   </code>: -<br>
-    <code>opinion    </code>: ⭐<br>
-</details>
-
-<details>
-    <summary><b>fengoffice</b>:</summary>
+    <summary><b>☁️ Feng Office</b>:</summary>
     <code>source code</code>: https://github.com/fengoffice/fengoffice<br>
     <code>description</code>: This is the Feng Office Community Edition repository<br>
     <code>homepage   </code>: https://www.fengoffice.com<br>
@@ -2699,7 +2669,7 @@
 </details>
 
 <details>
-    <summary><b>FFmpeg</b>:</summary>
+    <summary><b>💾 FFmpeg</b>:</summary>
     <code>source code</code>: https://github.com/FFmpeg/FFmpeg<br>
     <code>description</code>: Mirror of https://git.ffmpeg.org/ffmpeg.git<br>
     <code>homepage   </code>: https://ffmpeg.org/<br>
@@ -2709,7 +2679,7 @@
 </details>
 
 <details>
-    <summary><b>FFmpeg-Builds</b>:</summary>
+    <summary><b>💾 FFmpeg Builds</b>:</summary>
     <code>source code</code>: https://github.com/BtbN/FFmpeg-Builds<br>
     <code>description</code>: -<br>
     <code>homepage   </code>: -<br>
@@ -2719,7 +2689,7 @@
 </details>
 
 <details>
-    <summary><b>firefly-iii</b>:</summary>
+    <summary><b>☁️ Firefly III</b>:</summary>
     <code>source code</code>: https://github.com/firefly-iii/firefly-iii<br>
     <code>description</code>: Firefly III: a personal finances manager<br>
     <code>homepage   </code>: https://firefly-iii.org/<br>
@@ -2729,7 +2699,7 @@
 </details>
 
 <details>
-    <summary><b>flarum</b>:</summary>
+    <summary><b>☁️ Flarum</b>:</summary>
     <code>source code</code>: https://github.com/flarum/flarum<br>
     <code>description</code>: Simple forum software for building great communities.<br>
     <code>homepage   </code>: https://flarum.org<br>
@@ -2739,7 +2709,7 @@
 </details>
 
 <details>
-    <summary><b>Fleetco</b>:</summary>
+    <summary><b>☁️ Fleetco</b>:</summary>
     <code>source code</code>: https://github.com/neuharthr/Fleetco<br>
     <code>description</code>: Fleetco is a web based fleet maintenance system written in PHP with MySQL database backend.<br>
     <code>homepage   </code>: -<br>
@@ -2749,7 +2719,7 @@
 </details>
 
 <details>
-    <summary><b>flot</b>:</summary>
+    <summary><b>⚙️ flot</b>:</summary>
     <code>source code</code>: https://github.com/flot/flot<br>
     <code>description</code>: Attractive JavaScript charts for jQuery<br>
     <code>homepage   </code>: http://www.flotcharts.org/<br>
@@ -2759,7 +2729,7 @@
 </details>
 
 <details>
-    <summary><b>flowblade</b>:</summary>
+    <summary><b>💻 Flowblade</b>:</summary>
     <code>source code</code>: https://github.com/jliljebl/flowblade<br>
     <code>description</code>: Video Editor for Linux<br>
     <code>homepage   </code>: -<br>
@@ -2769,7 +2739,7 @@
 </details>
 
 <details>
-    <summary><b>focalboard</b>:</summary>
+    <summary><b>💻 Focalboard</b>:</summary>
     <code>source code</code>: https://github.com/mattermost/focalboard<br>
     <code>description</code>: Focalboard is an open source, self-hosted alternative to Trello, Notion, and Asana.<br>
     <code>homepage   </code>: https://www.focalboard.com<br>
@@ -2779,7 +2749,7 @@
 </details>
 
 <details>
-    <summary><b>Font-Awesome</b>:</summary>
+    <summary><b>⚙️ Font Awesome</b>:</summary>
     <code>source code</code>: https://github.com/FortAwesome/Font-Awesome<br>
     <code>description</code>: The iconic SVG, font, and CSS toolkit<br>
     <code>homepage   </code>: https://fontawesome.com<br>
@@ -2789,7 +2759,7 @@
 </details>
 
 <details>
-    <summary><b>fontello</b>:</summary>
+    <summary><b>⚙️ Fontello</b>:</summary>
     <code>source code</code>: https://github.com/fontello/fontello<br>
     <code>description</code>: Iconic fonts scissors<br>
     <code>homepage   </code>: http://fontello.com<br>
@@ -2799,7 +2769,7 @@
 </details>
 
 <details>
-    <summary><b>fontforge</b>:</summary>
+    <summary><b>💻 FontForge</b>:</summary>
     <code>source code</code>: https://github.com/fontforge/fontforge<br>
     <code>description</code>: Free (libre) font editor for Windows, Mac OS X and GNU+Linux<br>
     <code>homepage   </code>: http://fontforge.github.io/<br>
@@ -2809,7 +2779,7 @@
 </details>
 
 <details>
-    <summary><b>Fork-Awesome</b>:</summary>
+    <summary><b>⚙️ Fork Awesome</b>:</summary>
     <code>source code</code>: https://github.com/ForkAwesome/Fork-Awesome<br>
     <code>description</code>: A fork of the iconic font and CSS toolkit<br>
     <code>homepage   </code>: https://forkaweso.me<br>
@@ -2820,7 +2790,7 @@
 </details>
 
 <details>
-    <summary><b>form</b>:</summary>
+    <summary><b>⚙️ Form (jQuery plugin)</b>:</summary>
     <code>source code</code>: https://github.com/jquery-form/form<br>
     <code>description</code>: jQuery Form Plugin<br>
     <code>homepage   </code>: https://jquery-form.github.io/form/<br>
@@ -2830,7 +2800,7 @@
 </details>
 
 <details>
-    <summary><b>formalms</b>:</summary>
+    <summary><b>☁️ Forma LMS</b>:</summary>
     <code>source code</code>: https://github.com/formalms/formalms<br>
     <code>description</code>: forma.lms mirror repository<br>
     <code>homepage   </code>: http://www.formalms.org<br>
@@ -2841,7 +2811,7 @@
 </details>
 
 <details>
-    <summary><b>FPDF</b>:</summary>
+    <summary><b>⚙️ FPDF</b>:</summary>
     <code>source code</code>: https://github.com/Setasign/FPDF<br>
     <code>description</code>: FPDF is a PHP class which allows to generate PDF files with pure PHP. F from FPDF stands for Free: you may use it for any kind of usage and modify it to suit your needs.<br>
     <code>homepage   </code>: http://www.fpdf.org<br>
@@ -2851,7 +2821,7 @@
 </details>
 
 <details>
-    <summary><b>freac</b>:</summary>
+    <summary><b>💻 fre:ac</b>:</summary>
     <code>source code</code>: https://github.com/enzo1982/freac<br>
     <code>description</code>: The fre:ac audio converter project<br>
     <code>homepage   </code>: https://www.freac.org/<br>
@@ -2861,7 +2831,7 @@
 </details>
 
 <details>
-    <summary><b>FreeCAD</b>:</summary>
+    <summary><b>💻 FreeCAD</b>:</summary>
     <code>source code</code>: https://github.com/FreeCAD/FreeCAD<br>
     <code>description</code>: This is the official source code of FreeCAD, a free and opensource multiplatform 3D parametric modeler.<br>
     <code>homepage   </code>: https://www.freecad.org<br>
@@ -2871,7 +2841,7 @@
 </details>
 
 <details>
-    <summary><b>freemed</b>:</summary>
+    <summary><b>☁️ FreeMED</b>:</summary>
     <code>source code</code>: https://github.com/freemed/freemed<br>
     <code>description</code>: FreeMED Electronic Medical Record / Practice Management System<br>
     <code>homepage   </code>: -<br>
@@ -2881,7 +2851,7 @@
 </details>
 
 <details>
-    <summary><b>freeplane</b>:</summary>
+    <summary><b>💻 Freeplane</b>:</summary>
     <code>source code</code>: https://github.com/freeplane/freeplane<br>
     <code>description</code>: Application for Mind Mapping, Knowledge Management, Project Management. Develop, organize and communicate your ideas and knowledge in the most effective way.<br>
     <code>homepage   </code>: https://www.freeplane.org<br>
@@ -2891,7 +2861,7 @@
 </details>
 
 <details>
-    <summary><b>FreeTube</b>:</summary>
+    <summary><b>💻 FreeTube</b>:</summary>
     <code>source code</code>: https://github.com/FreeTubeApp/FreeTube<br>
     <code>description</code>: An Open Source YouTube app for privacy<br>
     <code>homepage   </code>: https://freetubeapp.io/<br>
@@ -2901,7 +2871,7 @@
 </details>
 
 <details>
-    <summary><b>frescobaldi</b>:</summary>
+    <summary><b>💻 Frescobaldi LilyPond Editor</b>:</summary>
     <code>source code</code>: https://github.com/frescobaldi/frescobaldi<br>
     <code>description</code>: Frescobaldi LilyPond Editor<br>
     <code>homepage   </code>: http://www.frescobaldi.org/<br>
@@ -2911,7 +2881,7 @@
 </details>
 
 <details>
-    <summary><b>fritzing-app</b>:</summary>
+    <summary><b>💻 Fritzing</b>:</summary>
     <code>source code</code>: https://github.com/fritzing/fritzing-app<br>
     <code>description</code>: Fritzing desktop application<br>
     <code>homepage   </code>: http://fritzing.org<br>
@@ -2921,7 +2891,7 @@
 </details>
 
 <details>
-    <summary><b>FrontHrm</b>:</summary>
+    <summary><b>☁️ FrontHrm</b>:</summary>
     <code>source code</code>: https://github.com/notrinos/FrontHrm<br>
     <code>description</code>: NotrinosERP Human Resource Management Module<br>
     <code>homepage   </code>: http://notrinos.com/fa/index.php<br>
@@ -2931,7 +2901,7 @@
 </details>
 
 <details>
-    <summary><b>FUDforum</b>:</summary>
+    <summary><b>☁️ FUDforum</b>:</summary>
     <code>source code</code>: https://github.com/fudforum/FUDforum<br>
     <code>description</code>: FUDforum is a super fast and scalable discussion forum. It is highly customizable and supports unlimited members, forums, posts, topics, polls & attachments. It can import XML Feeds and sync with USENET groups and Mailing Lists (bi-directional).<br>
     <code>homepage   </code>: http://fudforum.org/<br>
@@ -2941,7 +2911,7 @@
 </details>
 
 <details>
-    <summary><b>fuelux</b>:</summary>
+    <summary><b>⚙️ FuelUX</b>:</summary>
     <code>source code</code>: https://github.com/ExactTarget/fuelux<br>
     <code>description</code>: As of March 2019, this repository is read-only as Salesforce has archived the FuelUX open-source UI framework and will no longer be supported.<br>
     <code>homepage   </code>: -<br>
@@ -2951,7 +2921,7 @@
 </details>
 
 <details>
-    <summary><b>fullcalendar</b>:</summary>
+    <summary><b>⚙️ FullCalendar</b>:</summary>
     <code>source code</code>: https://github.com/fullcalendar/fullcalendar<br>
     <code>description</code>: Full-sized drag & drop event calendar in JavaScript<br>
     <code>homepage   </code>: https://fullcalendar.io<br>
@@ -2961,7 +2931,7 @@
 </details>
 
 <details>
-    <summary><b>functional-php</b>:</summary>
+    <summary><b>⚙️ Functional PHP</b>:</summary>
     <code>source code</code>: https://github.com/lstrojny/functional-php<br>
     <code>description</code>: Primitives for functional programming in PHP<br>
     <code>homepage   </code>: -<br>
@@ -3746,7 +3716,7 @@
 </details>
 
 <details>
-    <summary><b>jn-npp-plugin</b>:</summary>
+    <summary><b>jn-npp-plugin (Notepad++ plugin)</b>:</summary>
     <code>source code</code>: https://github.com/sieukrem/jn-npp-plugin<br>
     <code>description</code>: Plugin for Notepad++ allowing you to automate some tasks using JavaScript<br>
     <code>homepage   </code>: https://github.com/sieukrem/jn-npp-plugin/wiki<br>
@@ -4958,7 +4928,7 @@
 </details>
 
 <details>
-    <summary><b>npp-phpautocompletion</b>:</summary>
+    <summary><b>npp-phpautocompletion (Notepad++ plugin)</b>:</summary>
     <code>source code</code>: https://github.com/StanDog/npp-phpautocompletion<br>
     <code>description</code>: Autocompletion for PHP in Notepad++<br>
     <code>homepage   </code>: -<br>
@@ -4968,7 +4938,7 @@
 </details>
 
 <details>
-    <summary><b>NppLSP</b>:</summary>
+    <summary><b>NppLSP (Notepad++ plugin)</b>:</summary>
     <code>source code</code>: https://github.com/dail8859/NppLSP<br>
     <code>description</code>: Notepad++ plugin to support the Language Server Protocol (LSP)<br>
     <code>homepage   </code>: -<br>
@@ -6161,7 +6131,7 @@
 </details>
 
 <details>
-    <summary><b>PlantUmlViewer</b>:</summary>
+    <summary><b>PlantUmlViewer (Notepad++ plugin)</b>:</summary>
     <code>source code</code>: https://github.com/Fruchtzwerg94/PlantUmlViewer<br>
     <code>description</code>: A Notepad++ plugin to generate, view and export PlantUML diagrams<br>
     <code>homepage   </code>: -<br>
@@ -7202,7 +7172,7 @@
 </details>
 
 <details>
-    <summary><b>SurroundSelection</b>:</summary>
+    <summary><b>SurroundSelection (Notepad++ plugin)</b>:</summary>
     <code>source code</code>: https://github.com/dail8859/SurroundSelection<br>
     <code>description</code>: Notepad++ plugin to automatically surround the selection in quotes/brackets/parenthesis<br>
     <code>homepage   </code>: -<br>
