@@ -1,66 +1,68 @@
 # category
+
+## desktop app
 <details>
-    <summary><b>CAD: Architecture</b></summary>
+    <summary><b>desktop: CAD: Architecture</b></summary>
 	<code>Sweet Home 3D</code>  Architectural design app that helps users create a 2D plan of a house, with a 3D preview<br/>
 </details>
 
 <details>
-    <summary><b>CAD: Civil</b></summary>
+    <summary><b>desktop: CAD: Civil</b></summary>
 	<code>LibreCAD</code>  App for 2D design<br/>
 	<code>QCAD    </code>  App for 2D design and drafting<br/>
 </details>
 
 <details>
-    <summary><b>CAD: Electronic</b></summary>
+    <summary><b>desktop: CAD: Electronic</b></summary>
 	<code>KiCad   </code>  Electronic design automation<br/>
 	<code>LibrePCB</code>  Design automation app to draw schematics and design printed circuit boards<br/>
 	<code>TinyCAD </code>  App for drawing circuit diagrams<br/>
 </details>
 
 <details>
-    <summary><b>CAD: Machine</b></summary>
+    <summary><b>desktop: CAD: Machine</b></summary>
 	<code>BRL-CAD </code>  Constructive solid geometry solid modeling computer-aided design system<br/>
 	<code>FreeCAD </code>  General-purpose parametric 3D CAD modeler and a building information modeling app with finite element method support<br/>
 	<code>OpenSCAD</code>  App for creating solid 3D CAD objects<br/>
 </details>
 
 <details>
-    <summary><b>Communication: Text Based</b></summary>
+    <summary><b>desktop: Communication: Text Based</b></summary>
 	<code>Pidgin     </code>  Chat app which lets you log into accounts on multiple chat networks simultaneously<br/>
 	<code>Thunderbird</code>  Email app that's easy to set up and customize<br/>
 </details>
 
 <details>
-    <summary><b>Communication: Video Based</b></summary>
+    <summary><b>desktop: Communication: Video Based</b></summary>
 	<code>Jitsi Meet</code>  Video conferencing and instant messaging app<br/>
 	<code>OBS Studio</code>  Video recording and live streaming app<br/>
 </details>
 
 <details>
-    <summary><b>Dev: Android</b></summary>
+    <summary><b>desktop: Dev: Android</b></summary>
 	<code>APK Studio</code>  IDE for reverse-engineering Android app packages<br/>
 </details>
 
 <details>
-    <summary><b>Dev: Microcontroller</b></summary>
+    <summary><b>desktop: Dev: Microcontroller</b></summary>
 	<code>Arduino</code>  Designs and manufactures single-board microcontrollers and microcontroller kits for building digital devices<br/>
 </details>
 
 <details>
-    <summary><b>Dev: BASIC</b></summary>
+    <summary><b>desktop: Dev: BASIC</b></summary>
 	<code>BASIC-256     </code>  An easy to use version of BASIC designed to teach students the basics of computer programming<br/>
 	<code>VisualFBEditor</code>  IDE for FreeBasic with visual designer, debugger, project support and etc<br/>
 </details>
 
 <details>
-    <summary><b>Dev: Database Server</b></summary>
+    <summary><b>desktop: Dev: Database Server</b></summary>
 	<code>MariaDB   </code>  Relational database made by the original developers of MySQL<br/>
 	<code>MySQL     </code>  Relational database management system<br/>
 	<code>PostgreSQL</code>  Relational database management system emphasizing extensibility and SQL compliance<br/>
 </details>
 
 <details>
-    <summary><b>Dev: Database Tools</b></summary>
+    <summary><b>desktop: Dev: Database Tools</b></summary>
 	<code>CSVed          </code>  An easy and powerful CSV file editor<br/>
 	<code>DatabaseBrowser</code>  <br/>
 	<code>DBeaver        </code>  Database tool for developers, database administrators, analysts, and everyone working with data<br/>
@@ -70,13 +72,13 @@
 </details>
 
 <details>
-    <summary><b>Dev: IDE + Version Control</b></summary>
+    <summary><b>desktop: Dev: IDE + Version Control</b></summary>
 	<code>SmartGit                   </code>  Git GUI client with support for GitHub, BitBucket, GitLab pull requests and comments<br/>
 	<code>Visual Studio Code (VSCode)</code>  Code editor redefined and optimized for building and debugging modern web and cloud app<br/>
 </details>
 
 <details>
-    <summary><b>Dev: Misc</b></summary>
+    <summary><b>desktop: Dev: Misc</b></summary>
 	<code>apachelogsviewer    </code>  <br/>
 	<code>BAT to EXE Converter</code>  Utility tool for programmers who want to convert BAT files to executable code and then encrypt it, make it invisible, or protect it<br/>
 	<code>DevDocs             </code>  Combines multiple API documentations in a fast, organized<br/>
@@ -91,7 +93,7 @@
 </details>
 
 <details>
-    <summary><b>Dev: Modelling</b></summary>
+    <summary><b>desktop: Dev: Modelling</b></summary>
 	<code>draw.io      </code>  Graph drawing app that can be used to create diagrams such as flowcharts, wireframes, UML diagrams, organizational charts, and network diagrams<br/>
 	<code>Modelio      </code>  A modeling solution offering a wide range of functionalities based on the main standards of enterprise architecture, software development and systems engineering<br/>
 	<code>Obeo Designer</code>  <br/>
@@ -100,7 +102,7 @@
 </details>
 
 <details>
-    <summary><b>Dev: PHP IDE/editor</b></summary>
+    <summary><b>desktop: Dev: PHP IDE/editor</b></summary>
 	<code>Eclipse                    </code>  <br/>
 	<code>Netbeans                   </code>  <br/>
 	<code>Notepad++                  </code>  <br/>
@@ -108,24 +110,24 @@
 </details>
 
 <details>
-    <summary><b>Dev: Perl IDE/editor</b></summary>
+    <summary><b>desktop: Dev: Perl IDE/editor</b></summary>
 	<code>Padre</code>  <br/>
 </details>
 
 <details>
-    <summary><b>Dev: Python IDE/editor</b></summary>
+    <summary><b>desktop: Dev: Python IDE/editor</b></summary>
 	<code>Spyder</code>  scientific environment written in Python, for Python, and designed by and for scientists, engineers and data analysts<br/>
 	<code>Thonny</code>  IDE designed for beginners<br/>
 </details>
 
 <details>
-    <summary><b>Dev: Web Server</b></summary>
+    <summary><b>desktop: Dev: Web Server</b></summary>
 	<code>Mongoose</code>  web server, MQTT and Websocket library for embedded devices<br/>
 	<code>php     </code>  <br/>
 </details>
 
 <details>
-    <summary><b>Dev: Server Tools</b></summary>
+    <summary><b>desktop: Dev: Server Tools</b></summary>
 	<code>advancedrestclient</code>  <br/>
 	<code>ConEmu            </code>  Presents multiple consoles and simple GUI app as one customizable GUI window with tabs and a status bar<br/>
 	<code>FileZilla         </code>  FTP and FTPS app<br/>
@@ -135,7 +137,7 @@
 </details>
 
 <details>
-    <summary><b>Dev: Version Control</b></summary>
+    <summary><b>desktop: Dev: Version Control</b></summary>
 	<code>KDiff3    </code>  Compares or merges two or three text input files or directories, shows the differences line by line and character by character<br/>
 	<code>Meld      </code>  Visual diff and merge tool, targeted at developers<br/>
 	<code>Sourcetree</code>  A Git GUI that offers a visual representation of your repositories<br/>
@@ -144,7 +146,7 @@
 </details>
 
 <details>
-    <summary><b>Development</b></summary>
+    <summary><b>desktop: Development</b></summary>
 	<code>apachelogviewer</code>  <br/>
 	<code>battoexe       </code>  <br/>
 	<code>Inno Setup     </code>  <br/>
@@ -154,14 +156,14 @@
 </details>
 
 <details>
-    <summary><b>Editor: Accounting</b></summary>
+    <summary><b>desktop: Editor: Accounting</b></summary>
 	<code>GnuCash         </code>  <br/>
 	<code>Grisbi          </code>  <br/>
 	<code>Money Manager Ex</code>  <br/>
 </details>
 
 <details>
-    <summary><b>Editor: Animation</b></summary>
+    <summary><b>desktop: Editor: Animation</b></summary>
 	<code>Blender  </code>  <br/>
 	<code>OpenToonz</code>  <br/>
 	<code>Pencil2D </code>  <br/>
@@ -170,7 +172,7 @@
 </details>
 
 <details>
-    <summary><b>Editor: Document</b></summary>
+    <summary><b>desktop: Editor: Document</b></summary>
 	<code>BabelPad          </code>  <br/>
 	<code>BlueGriffon       </code>  <br/>
 	<code>CuteMarkEd        </code>  <br/>
@@ -183,14 +185,14 @@
 </details>
 
 <details>
-    <summary><b>Editor: Gantt</b></summary>
+    <summary><b>desktop: Editor: Gantt</b></summary>
 	<code>Focalboard  </code>  <br/>
 	<code>GanttProject</code>  <br/>
 	<code>ProjectLibre</code>  <br/>
 </details>
 
 <details>
-    <summary><b>Editor: Generic Sound</b></summary>
+    <summary><b>desktop: Editor: Generic Sound</b></summary>
 	<code>Ardour   </code>  <br/>
 	<code>Audacity </code>  <br/>
 	<code>Fre:ac   </code>  <br/>
@@ -200,7 +202,7 @@
 </details>
 
 <details>
-    <summary><b>Editor: Graphics</b></summary>
+    <summary><b>desktop: Editor: Graphics</b></summary>
 	<code>Darktable                </code>  <br/>
 	<code>GIMP                     </code>  <br/>
 	<code>Greenfish Icon Editor Pro</code>  <br/>
@@ -211,7 +213,7 @@
 </details>
 
 <details>
-    <summary><b>Editor: Graphics Utils</b></summary>
+    <summary><b>desktop: Editor: Graphics Utils</b></summary>
 	<code>AntiDupl.NET                  </code>  <br/>
 	<code>Awesome Duplicate Photo Finder</code>  <br/>
 	<code>Caesium                       </code>  <br/>
@@ -223,7 +225,7 @@
 </details>
 
 <details>
-    <summary><b>Editor: Metadata</b></summary>
+    <summary><b>desktop: Editor: Metadata</b></summary>
 	<code>BatchPurifier</code>  <br/>
 	<code>EasyTAG      </code>  <br/>
 	<code>Kid3         </code>  <br/>
@@ -231,14 +233,14 @@
 </details>
 
 <details>
-    <summary><b>Editor: Mind map</b></summary>
+    <summary><b>desktop: Editor: Mind map</b></summary>
 	<code>Freeplane           </code>  <br/>
 	<code>TreeSheets          </code>  <br/>
 	<code>View Your Mind (VYM)</code>  <br/>
 </details>
 
 <details>
-    <summary><b>Editor: Music</b></summary>
+    <summary><b>desktop: Editor: Music</b></summary>
 	<code>BRELS MIDI Editor          </code>  <br/>
 	<code>Helio                      </code>  <br/>
 	<code>LMMS                       </code>  <br/>
@@ -250,7 +252,7 @@
 </details>
 
 <details>
-    <summary><b>Editor: Notes</b></summary>
+    <summary><b>desktop: Editor: Notes</b></summary>
 	<code>Boost Note</code>  <br/>
 	<code>Cherrytree</code>  <br/>
 	<code>KeyNote NF</code>  <br/>
@@ -260,25 +262,25 @@
 </details>
 
 <details>
-    <summary><b>Editor: Office</b></summary>
+    <summary><b>desktop: Editor: Office</b></summary>
 	<code>Calligra   </code>  <br/>
 	<code>LibreOffice</code>  <br/>
 	<code>OnlyOffice </code>  <br/>
 </details>
 
 <details>
-    <summary><b>Editor: Publishing</b></summary>
+    <summary><b>desktop: Editor: Publishing</b></summary>
 	<code>Scribus</code>  <br/>
 </details>
 
 <details>
-    <summary><b>Editor: Subtitle</b></summary>
+    <summary><b>desktop: Editor: Subtitle</b></summary>
 	<code>Aegisub      </code>  <br/>
 	<code>Subtitle Edit</code>  <br/>
 </details>
 
 <details>
-    <summary><b>Editor: Video</b></summary>
+    <summary><b>desktop: Editor: Video</b></summary>
 	<code>HandBrake</code>  <br/>
 	<code>Kdenlive </code>  <br/>
 	<code>Kinovea  </code>  <br/>
@@ -289,7 +291,7 @@
 </details>
 
 <details>
-    <summary><b>Editor: Video Utils</b></summary>
+    <summary><b>desktop: Editor: Video Utils</b></summary>
 	<code>CamStudio          </code>  <br/>
 	<code>Inviska MKV Extract</code>  <br/>
 	<code>Jahshaka           </code>  <br/>
@@ -300,7 +302,7 @@
 </details>
 
 <details>
-    <summary><b>Education: All Age</b></summary>
+    <summary><b>desktop: Education: All Age</b></summary>
 	<code>Artha     </code>  <br/>
 	<code>Celestia  </code>  <br/>
 	<code>Gramps    </code>  <br/>
@@ -309,20 +311,20 @@
 </details>
 
 <details>
-    <summary><b>Education: Bibliography</b></summary>
+    <summary><b>desktop: Education: Bibliography</b></summary>
 	<code>Calibre</code>  <br/>
 	<code>JabRef </code>  <br/>
 </details>
 
 <details>
-    <summary><b>Education: Higher</b></summary>
+    <summary><b>desktop: Education: Higher</b></summary>
 	<code>KStars       </code>  <br/>
 	<code>Tagaini Jisho</code>  <br/>
 	<code>Wakan        </code>  <br/>
 </details>
 
 <details>
-    <summary><b>Education: Statistic</b></summary>
+    <summary><b>desktop: Education: Statistic</b></summary>
 	<code>GNU Octave</code>  <br/>
 	<code>gretl     </code>  <br/>
 	<code>jamovi    </code>  <br/>
@@ -334,12 +336,12 @@
 </details>
 
 <details>
-    <summary><b>Education: Utility</b></summary>
+    <summary><b>desktop: Education: Utility</b></summary>
 	<code>Safe Exam Browser</code>  <br/>
 </details>
 
 <details>
-    <summary><b>Media: Games</b></summary>
+    <summary><b>desktop: Media: Games</b></summary>
 	<code>Freeciv     </code>  <br/>
 	<code>LeoCAD      </code>  <br/>
 	<code>OpenTTD     </code>  <br/>
@@ -347,12 +349,12 @@
 </details>
 
 <details>
-    <summary><b>Media: Knowledge + Notes</b></summary>
+    <summary><b>desktop: Media: Knowledge + Notes</b></summary>
 	<code>Zeal</code>  <br/>
 </details>
 
 <details>
-    <summary><b>Media: Manager</b></summary>
+    <summary><b>desktop: Media: Manager</b></summary>
 	<code>CDex     </code>  <br/>
 	<code>digiKam  </code>  <br/>
 	<code>FBReader </code>  <br/>
@@ -361,7 +363,7 @@
 </details>
 
 <details>
-    <summary><b>Media: Player + Viewer</b></summary>
+    <summary><b>desktop: Media: Player + Viewer</b></summary>
 	<code>Allusion  </code>  <br/>
 	<code>aTunes    </code>  <br/>
 	<code>Audacious </code>  <br/>
@@ -381,14 +383,14 @@
 </details>
 
 <details>
-    <summary><b>Utility: Cloud</b></summary>
+    <summary><b>desktop: Utility: Cloud</b></summary>
 	<code>Cyberduck</code>  <br/>
 	<code>FileZilla</code>  <br/>
 	<code>Nextcloud</code>  <br/>
 </details>
 
 <details>
-    <summary><b>Utility: Disc</b></summary>
+    <summary><b>desktop: Utility: Disc</b></summary>
 	<code>cdrtfe              </code>  <br/>
 	<code>InfraRecorder       </code>  <br/>
 	<code>Virtual Volumes View</code>  <br/>
@@ -397,7 +399,7 @@
 </details>
 
 <details>
-    <summary><b>Utility: Display</b></summary>
+    <summary><b>desktop: Utility: Display</b></summary>
 	<code>Don't Sleep </code>  <br/>
 	<code>RBTray      </code>  <br/>
 	<code>Screen Ruler</code>  <br/>
@@ -405,7 +407,7 @@
 </details>
 
 <details>
-    <summary><b>Utility: File</b></summary>
+    <summary><b>desktop: Utility: File</b></summary>
 	<code>7-zip</code>  <br/>
 	<code>Awesome Duplicate Photo Finder</code>  <br/>
 	<code>DiffPDF                       </code>  <br/>
@@ -430,7 +432,7 @@
 </details>
 
 <details>
-    <summary><b>Utility: Font</b></summary>
+    <summary><b>desktop: Utility: Font</b></summary>
 	<code>AMP Font Viewer</code>  <br/>
 	<code>BabelMap       </code>  <br/>
 	<code>Birdfont       </code>  <br/>
@@ -439,7 +441,7 @@
 </details>
 
 <details>
-    <summary><b>Utility: Internet + News</b></summary>
+    <summary><b>desktop: Utility: Internet + News</b></summary>
 	<code>Advanced Onion Router (advor)</code>  <br/>
 	<code>Falkon                       </code>  <br/>
 	<code>Ferdi                        </code>  <br/>
@@ -456,7 +458,7 @@
 </details>
 
 <details>
-    <summary><b>Utility: Misc</b></summary>
+    <summary><b>desktop: Utility: Misc</b></summary>
 	<code>Alarm Cron          </code>  <br/>
 	<code>Free Countdown Timer</code>  <br/>
 	<code>FreeOCR             </code>  <br/>
@@ -468,7 +470,7 @@
 </details>
 
 <details>
-    <summary><b>Utility: Security</b></summary>
+    <summary><b>desktop: Utility: Security</b></summary>
 	<code>Angry IP Scanner (ipscan)</code>  <br/>
 	<code>ClamWin                  </code>  <br/>
 	<code>Eraser                   </code>  <br/>
@@ -480,7 +482,7 @@
 </details>
 
 <details>
-    <summary><b>Utility: System</b></summary>
+    <summary><b>desktop: Utility: System</b></summary>
 	<code>BleachBit                          </code>  <br/>
 	<code>Bulk Crap Uninstaller (BCU)        </code>  <br/>
 	<code>ConEmu                             </code>  <br/>
@@ -500,7 +502,7 @@
 </details>
 
 <details>
-    <summary><b>Utility: Virtualization</b></summary>
+    <summary><b>desktop: Utility: Virtualization</b></summary>
 	<code>MobaLiveCD </code>  <br/>
 	<code>VeraCrypt  </code>  <br/>
 	<code>VirtualBox </code>  <br/>
@@ -508,10 +510,255 @@
 </details>
 
 <details>
-    <summary><b>Utility: Web Crawler</b></summary>
+    <summary><b>desktop: Utility: Web Crawler</b></summary>
 	<code>HTTrack           </code>  <br/>
 	<code>WebChangeMonitor  </code>  <br/>
 	<code>Xenu's Link Sleuth</code>  <br/>
+</details>
+
+
+## web based app
+<details>
+    <summary><b>web: accounting+ERP</b></summary>
+    <code>BizSense       </code>  <br/>
+    <code>Comunion       </code>  <br/>
+    <code>Dolibarr       </code>  <br/>
+    <code>FrontAccounting</code>  <br/>
+    <code>webERP         </code>  <br/>
+</details>
+
+<details>
+    <summary><b>web: asset management</b></summary>
+    <code>Booked              </code>  <br/>
+    <code>Classroom Booking   </code>  <br/>
+    <code>Meeting Room Booking</code>  <br/>
+    <code>OpenRealEstate      </code>  <br/>
+</details>
+
+<details>
+    <summary><b>web: broadcast management</b></summary>
+    <code>Airtime</code>  <br/>
+</details>
+
+<details>
+    <summary><b>web: Business Process Management</b></summary>
+    <code>ProcessMaker</code>  <br/>
+</details>
+
+<details>
+    <summary><b>web: bussiness intelligent</b></summary>
+    <code>epesi</code>  <br/>
+</details>
+
+<details>
+    <summary><b>web: community management</b></summary>
+    <code>HumHub              </code>  <br/>
+    <code>phpBB               </code>  <br/>
+    <code>Simple Machine Forum</code>  <br/>
+</details>
+
+<details>
+    <summary><b>web: customer management</b></summary>
+    <code>Citrus   </code>  <br/>
+    <code>CiviCRM  </code>  <br/>
+    <code>EspoCRM  </code>  <br/>
+    <code>OroCRM   </code>  <br/>
+    <code>PHPList  </code>  <br/>
+    <code>SugarCE  </code>  <br/>
+    <code>Tellmatic</code>  <br/>
+    <code>VTigerCRM</code>  <br/>
+    <code>X2CRM    </code>  <br/>
+    <code>Zurmo    </code>  <br/>
+</details>
+
+<details>
+    <summary><b>web: databases manager</b></summary>
+    <code>adMiner              </code>  <br/>
+    <code>Chive                </code>  <br/>
+    <code>phpMyAdmin           </code>  <br/>
+    <code>PHP-MySQL-ExtJS-Admin</code>  <br/>
+    <code>phpPgAdmin           </code>  <br/>
+    <code>SQliteManager        </code>  <br/>
+</details>
+
+<details>
+    <summary><b>web: development</b></summary>
+    <code>Mantis     </code>  <br/>
+    <code>Phabricator</code>  <br/>
+    <code>Vermis     </code>  <br/>
+</details>
+
+<details>
+    <summary><b>web: document management</b></summary>
+    <code>AvantFAX  </code>  <br/>
+    <code>FileRun   </code>  <br/>
+    <code>LetoDMS   </code>  <br/>
+    <code>OpenDocMan</code>  <br/>
+    <code>PIMCore   </code>  <br/>
+    <code>SeedDMS   </code>  <br/>
+</details>
+
+<details>
+    <summary><b>web: educational+knowledge management</b></summary>
+    <code>BlueSpice                                           </code>  <br/>
+    <code>CK                                                  </code>  <br/>
+    <code>Claroline                                           </code>  <br/>
+    <code>ClaSS                                               </code>  <br/>
+    <code>EduSec                                              </code>  <br/>
+    <code>eduTrac                                             </code>  <br/>
+    <code>eFront                                              </code>  <br/>
+    <code>GeneoTree                                           </code>  <br/>
+    <code>Jibas                                               </code>  <br/>
+    <code>MediaWiki                                           </code>  <br/>
+    <code>Omeka                                               </code>  <br/>
+    <code>Online Examination System                           </code>  <br/>
+    <code>Laboratory Information Management System (Open-LIMS)</code>  <br/>
+    <code>Open-School                                         </code>  <br/>
+    <code>openSIS                                             </code>  <br/>
+    <code>PhpGedView                                          </code>  <br/>
+    <code>WIKINDX                                             </code>  <br/>
+</details>
+
+<details>
+    <summary><b>web: email server + sender</b></summary>
+    <code>biuCentrax   </code>  <br/>
+    <code>ListMessenger</code>  <br/>
+    <code>PHPMailer    </code>  <br/>
+    <code>RoundCube    </code>  <br/>
+    <code>SML2         </code>  <br/>
+    <code>SquirrelMail </code>  <br/>
+</details>
+
+<details>
+    <summary><b>web: files manager</b></summary>
+    <code>elFinder</code>  <br/>
+    <code>eXtplorer</code>  <br/>
+    <code>ext-ux-filebrowserpanel</code>  <br/>
+</details>
+
+<details>
+    <summary><b>web: group management</b></summary>
+    <code>ChurchInfo  </code>  <br/>
+    <code>conjoon     </code>  <br/>
+    <code>FengOffice  </code>  <br/>
+    <code>Group-office</code>  <br/>
+    <code>Open Atrium </code>  <br/>
+    <code>Precurio    </code>  <br/>
+    <code>Taolin      </code>  <br/>
+    <code>Tine 2.0    </code>  <br/>
+</details>
+
+<details>
+    <summary><b>web: help and ticket management</b></summary>
+    <code>Hesk                           </code>  <br/>
+    <code>osTicket                       </code>  <br/>
+    <code>SimpleDesk                     </code>  <br/>
+    <code>Support Incident Tracker (SiT!)</code>  <br/>
+</details>
+
+<details>
+    <summary><b>web: human resource management</b></summary>
+    <code>IceHRM    </code>  <br/>
+    <code>OrangeHRM </code>  <br/>
+    <code>SimpleHRM </code>  <br/>
+    <code>TimeTrex  </code>  <br/>
+    <code>WaypointHR</code>  <br/>
+    <code>Sentrifugo</code>  <br/>
+</details>
+
+<details>
+    <summary><b>web: IT management</b></summary>
+    <code>daloRADIUS          </code>  <br/>
+    <code>GPLI                </code>  <br/>
+    <code>i-doit              </code>  <br/>
+    <code>IntegriaIMS         </code>  <br/>
+    <code>iTop                </code>  <br/>
+    <code>LDAP Account Manager</code>  <br/>
+    <code>TeemIP              </code>  <br/>
+    <code>zPanel              </code>  <br/>
+</details>
+
+<details>
+    <summary><b>web: literature management</b></summary>
+    <code>OpenBiblio                               </code>  <br/>
+    <code>Senayan Library Management System (SLiMS)</code>  <br/>
+</details>
+
+<details>
+    <summary><b>web: medical record management</b></summary>
+    <code>care2x             </code>  <br/>
+    <code>ClearHealth        </code>  <br/>
+    <code>Elixir-Aid         </code>  <br/>
+    <code>FreeMED            </code>  <br/>
+    <code>GaiaEHR            </code>  <br/>
+    <code>NOSH ChartingSystem</code>  <br/>
+    <code>OpenClinic         </code>  <br/>
+    <code>OpenEMR            </code>  <br/>
+    <code>Thirra             </code>  <br/>
+</details>
+
+<details>
+    <summary><b>web: multimedia management</b></summary>
+    <code>ClipBucket</code>  <br/>
+    <code>Coppermine</code>  <br/>
+    <code>Gallery   </code>  <br/>
+    <code>phTagr    </code>  <br/>
+</details>
+
+<details>
+    <summary><b>web: project management</b></summary>
+    <code>92five (better if use version 2 from original vendor)</code>  <br/>
+    <code>Collabtive      </code>  <br/>
+    <code>dotProject      </code>  <br/>
+    <code>Manage Your Team</code>  <br/>
+    <code>ProjeQtOr       </code>  <br/>
+    <code>qdPM            </code>  <br/>
+    <code>SO Planning     </code>  <br/>
+    <code>TaskManager     </code>  <br/>
+    <code>todoyu          </code>  <br/>
+    <code>ZenTao PMS      </code>  <br/>
+</details>
+
+<details>
+    <summary><b>web: shopping cart</b></summary>
+    <code>Axis      </code>  <br/>
+    <code>Magento   </code>  <br/>
+    <code>Prestashop</code>  <br/>
+    <code>TomatoCart</code>  <br/>
+    <code>ZenCart   </code>  <br/>
+</details>
+
+<details>
+    <summary><b>web: survey management</b></summary>
+    <code>LimeSurvey</code>  <br/>
+</details>
+
+<details>
+    <summary><b>web: potential</b></summary>
+    <code>Reportico (PHP Reporting Tool)           </code>  <br/>
+    <code>Kalkun (SMS management)                  </code>  <br/>
+    <code>ISPConfig Hosting Control Panel          </code>  <br/>
+    <code>SuiteCRM                                 </code>  <br/>
+    <code>HuMo-genealogy                           </code>  <br/>
+    <code>PhreeBooks 5                             </code>  <br/>
+    <code>SaltOS                                   </code>  <br/>
+    <code>Fleetco (Fleet Maintenance Management)   </code>  <br/>
+    <code>TEMS (Time and Expense Management)       </code>  <br/>
+    <code>CalemEAM (Open Source EAM/CMMS)          </code>  <br/>
+    <code>open enventory                           </code>  <br/>
+    <code>KADOS (KAnban Dashboard for Online Scrum)</code>  <br/>
+    <code>ownCloud                                 </code>  <br/>
+    <code>Nextcloud                                </code>  <br/>
+    <code>Laundry Management System                </code>  <br/>
+    <code>Human Flow HRMS                          </code>  <br/>
+    <code>TreoPIM (Product Information Management) </code>  <br/>
+    <code>Church Event Management System           </code>  <br/>
+    <code>Courier-Management-System                </code>  <br/>
+</details>
+
+<details>
+    <summary><b>web: WTF</b></summary>
+    <code>OTA Hotel Management / OTA Tour Management / OTA Vehicle Management</code>  <br/>
 </details>
 
 
