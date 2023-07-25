@@ -1990,7 +1990,7 @@
 </details>
 
 <details>
-    <summary><b>darktable</b>:</summary>
+    <summary><b>💻 darktable</b>:</summary>
     <code>source code</code>: https://github.com/darktable-org/darktable<br>
     <code>description</code>: darktable is an open source photography workflow application and raw developer<br>
     <code>homepage   </code>: https://www.darktable.org<br>
@@ -2000,7 +2000,7 @@
 </details>
 
 <details>
-    <summary><b>dashboards</b>:</summary>
+    <summary><b>⚙️ Dashboards by Keen IO</b>:</summary>
     <code>source code</code>: https://github.com/keen/dashboards<br>
     <code>description</code>: Responsive dashboard templates 📊✨<br>
     <code>homepage   </code>: http://keen.github.io/dashboards/<br>
@@ -2010,7 +2010,7 @@
 </details>
 
 <details>
-    <summary><b>datetimepicker</b>:</summary>
+    <summary><b>⚙️ DateTimePicker (jQuery plugin)</b>:</summary>
     <code>source code</code>: https://github.com/xdan/datetimepicker<br>
     <code>description</code>: jQuery Plugin Date and Time Picker<br>
     <code>homepage   </code>: https://xdsoft.net/jqplugins/datetimepicker/<br>
@@ -2020,7 +2020,7 @@
 </details>
 
 <details>
-    <summary><b>DaybydayCRM</b>:</summary>
+    <summary><b>☁️ DaybydayCRM</b>:</summary>
     <code>source code</code>: https://github.com/Bottelet/DaybydayCRM<br>
     <code>description</code>: DaybydayCRM an open-source CRM, to help you keep track of your daily workflow.<br>
     <code>homepage   </code>: https://daybydaycrm.com<br>
@@ -2031,7 +2031,7 @@
 </details>
 
 <details>
-    <summary><b>db</b>:</summary>
+    <summary><b>⚙️ Brick\Db</b>:</summary>
     <code>source code</code>: https://github.com/brick/db<br>
     <code>description</code>: Helper tools for interacting with databases<br>
     <code>homepage   </code>: -<br>
@@ -2041,7 +2041,7 @@
 </details>
 
 <details>
-    <summary><b>dbeaver</b>:</summary>
+    <summary><b>💻 DBeaver</b>:</summary>
     <code>source code</code>: https://github.com/dbeaver/dbeaver<br>
     <code>description</code>: Free universal database tool and SQL client<br>
     <code>homepage   </code>: https://dbeaver.io<br>
@@ -2051,7 +2051,7 @@
 </details>
 
 <details>
-    <summary><b>dbgate</b>:</summary>
+    <summary><b>💻 DbGate - (no)SQL database client</b>:</summary>
     <code>source code</code>: https://github.com/dbgate/dbgate<br>
     <code>description</code>: Database manager for MySQL, PostgreSQL, SQL Server, MongoDB, SQLite and others. Runs under Windows, Linux, Mac or as web application<br>
     <code>homepage   </code>: https://dbgate.org<br>
@@ -2061,7 +2061,7 @@
 </details>
 
 <details>
-    <summary><b>declarative-widgets</b>:</summary>
+    <summary><b>⚙️ Declarative Widgets</b>:</summary>
     <code>source code</code>: https://github.com/tjvantoll/declarative-widgets<br>
     <code>description</code>: :rocket: Declaratively specify options for widget-factory-built widgets<br>
     <code>homepage   </code>: http://jsfiddle.net/tj_vantoll/5Hr4r/<br>
@@ -2071,7 +2071,7 @@
 </details>
 
 <details>
-    <summary><b>deno</b>:</summary>
+    <summary><b>💾 Deno</b>:</summary>
     <code>source code</code>: https://github.com/denoland/deno<br>
     <code>description</code>: A modern runtime for JavaScript and TypeScript.<br>
     <code>homepage   </code>: https://deno.land<br>
@@ -2081,7 +2081,7 @@
 </details>
 
 <details>
-    <summary><b>DesignPatternsPHP</b>:</summary>
+    <summary><b>📔 DesignPatternsPHP</b>:</summary>
     <code>source code</code>: https://github.com/DesignPatternsPHP/DesignPatternsPHP<br>
     <code>description</code>: sample code for several design patterns in PHP 8<br>
     <code>homepage   </code>: -<br>
@@ -2091,7 +2091,7 @@
 </details>
 
 <details>
-    <summary><b>desktop</b>:</summary>
+    <summary><b>💻 GitHub Desktop</b>:</summary>
     <code>source code</code>: https://github.com/desktop/desktop<br>
     <code>description</code>: Focus on what matters instead of fighting with Git.<br>
     <code>homepage   </code>: https://desktop.github.com<br>
@@ -2101,7 +2101,7 @@
 </details>
 
 <details>
-    <summary><b>desktop</b>:</summary>
+    <summary><b>💻 Streamlabs Desktop</b>:</summary>
     <code>source code</code>: https://github.com/stream-labs/desktop<br>
     <code>description</code>: Free and open source streaming software built on OBS and Electron.<br>
     <code>homepage   </code>: https://streamlabs.com<br>
@@ -2111,7 +2111,7 @@
 </details>
 
 <details>
-    <summary><b>DesktopEditors</b>:</summary>
+    <summary><b>💻 ONLYOFFICE Desktop Editors</b>:</summary>
     <code>source code</code>: https://github.com/ONLYOFFICE/DesktopEditors<br>
     <code>description</code>: An office suite that combines text, spreadsheet and presentation editors allowing to create, view and edit local documents<br>
     <code>homepage   </code>: https://www.onlyoffice.com<br>
@@ -2121,7 +2121,7 @@
 </details>
 
 <details>
-    <summary><b>dev</b>:</summary>
+    <summary><b>💻 CodeMirror</b>:</summary>
     <code>source code</code>: https://github.com/codemirror/dev<br>
     <code>description</code>: Development repository for the CodeMirror editor project<br>
     <code>homepage   </code>: https://codemirror.net/<br>
@@ -2131,7 +2131,7 @@
 </details>
 
 <details>
-    <summary><b>Dev-Cpp</b>:</summary>
+    <summary><b>💻 Embarcadero Dev-C++</b>:</summary>
     <code>source code</code>: https://github.com/Embarcadero/Dev-Cpp<br>
     <code>description</code>: A fast, portable, simple, and free C/C++ IDE<br>
     <code>homepage   </code>: https://www.embarcadero.com/free-tools/dev-cpp<br>
@@ -2141,7 +2141,7 @@
 </details>
 
 <details>
-    <summary><b>devdocs</b>:</summary>
+    <summary><b>☁️ DevDocs</b>:</summary>
     <code>source code</code>: https://github.com/freeCodeCamp/devdocs<br>
     <code>description</code>: API Documentation Browser<br>
     <code>homepage   </code>: https://devdocs.io<br>
@@ -2151,7 +2151,7 @@
 </details>
 
 <details>
-    <summary><b>devdocs-desktop</b>:</summary>
+    <summary><b>💻 DevDocs Desktop</b>:</summary>
     <code>source code</code>: https://github.com/egoist/devdocs-desktop<br>
     <code>description</code>: 🗂 A full-featured desktop app for DevDocs.io.<br>
     <code>homepage   </code>: https://devdocs.egoist.sh<br>
@@ -2161,7 +2161,7 @@
 </details>
 
 <details>
-    <summary><b>DevExtreme</b>:</summary>
+    <summary><b>⚙️ DevExtreme</b>:</summary>
     <code>source code</code>: https://github.com/DevExpress/DevExtreme<br>
     <code>description</code>: HTML5 JavaScript Component Suite for Responsive Web Development<br>
     <code>homepage   </code>: https://js.devexpress.com/<br>
@@ -2171,7 +2171,7 @@
 </details>
 
 <details>
-    <summary><b>devoops</b>:</summary>
+    <summary><b>⚙️ DevOOPS Bootstrap 3 Admin theme</b>:</summary>
     <code>source code</code>: https://github.com/nnmware/devoops<br>
     <code>description</code>: DevOOPS Bootstrap 3 Admin theme<br>
     <code>homepage   </code>: -<br>
@@ -2181,7 +2181,7 @@
 </details>
 
 <details>
-    <summary><b>DGuitarSoftware</b>:</summary>
+    <summary><b>💻 DGuitar</b>:</summary>
     <code>source code</code>: https://github.com/mauriciogracia/DGuitarSoftware<br>
     <code>description</code>: DGuitar is a Guitar Pro (*.GP4,*.GP3,GTP) viewer, player that works under Linux,MacOs,Solaris,BSD,Windows and any other Operational System that has Java Runtime Environment 1.4 or later installed. <br>
     <code>homepage   </code>: -<br>
@@ -2192,7 +2192,7 @@
 </details>
 
 <details>
-    <summary><b>dia</b>:</summary>
+    <summary><b>💻 Dia</b>:</summary>
     <code>source code</code>: https://github.com/GNOME/dia<br>
     <code>description</code>: Read-only mirror of https://gitlab.gnome.org/GNOME/dia<br>
     <code>homepage   </code>: https://gitlab.gnome.org/GNOME/dia<br>
@@ -2202,7 +2202,7 @@
 </details>
 
 <details>
-    <summary><b>diagramo</b>:</summary>
+    <summary><b>⚙️ Diagramo</b>:</summary>
     <code>source code</code>: https://github.com/alexgheorghiu/diagramo<br>
     <code>description</code>: Diagramo - pure HTML5 JavaScript diagram / flowchart editor<br>
     <code>homepage   </code>: http://diagramo.com<br>
@@ -2212,7 +2212,7 @@
 </details>
 
 <details>
-    <summary><b>diffractor</b>:</summary>
+    <summary><b>💻 Diffractor</b>:</summary>
     <code>source code</code>: https://github.com/diffractor/diffractor<br>
     <code>description</code>: Issues and releases for Diffractor<br>
     <code>homepage   </code>: https://diffractor.com<br>
@@ -2223,7 +2223,7 @@
 </details>
 
 <details>
-    <summary><b>digikam</b>:</summary>
+    <summary><b>💻 digiKam</b>:</summary>
     <code>source code</code>: https://github.com/KDE/digikam<br>
     <code>description</code>: digiKam is an advanced open-source digital photo management application that runs on Linux, Windows, and MacOS. The application provides a comprehensive set of tools for importing, managing, editing, and sharing photos and raw files.<br>
     <code>homepage   </code>: -<br>
@@ -2233,7 +2233,7 @@
 </details>
 
 <details>
-    <summary><b>director</b>:</summary>
+    <summary><b>⚙️ director</b>:</summary>
     <code>source code</code>: https://github.com/flatiron/director<br>
     <code>description</code>: a tiny and isomorphic URL router for JavaScript<br>
     <code>homepage   </code>: http://github.com/flatiron/director<br>
@@ -2243,7 +2243,7 @@
 </details>
 
 <details>
-    <summary><b>diskusagereports</b>:</summary>
+    <summary><b>☁️ Disk Usage Reports</b>:</summary>
     <code>source code</code>: https://github.com/amekkawi/diskusagereports<br>
     <code>description</code>: Disk Usage Reports is a web-based way to view disk usage on remote computers or servers, or to provide usage reports to users who store files on your server. Reports are stored as static JSON files which are retrieved via single HTML/AJAX web UI. No database or server-side scripting required.<br>
     <code>homepage   </code>: http://diskusagereports.com<br>
@@ -2253,7 +2253,7 @@
 </details>
 
 <details>
-    <summary><b>DocFetcher</b>:</summary>
+    <summary><b>💻 DocFetcher</b>:</summary>
     <code>source code</code>: https://github.com/docfetcher/DocFetcher<br>
     <code>description</code>: DocFetcher <br>
     <code>homepage   </code>: -<br>
@@ -2263,7 +2263,7 @@
 </details>
 
 <details>
-    <summary><b>docker-laravel</b>:</summary>
+    <summary><b>💾 docker-laravel</b>:</summary>
     <code>source code</code>: https://github.com/mtmacdonald/docker-laravel<br>
     <code>description</code>: A Docker container for Laravel web apps<br>
     <code>homepage   </code>: -<br>
@@ -2273,7 +2273,7 @@
 </details>
 
 <details>
-    <summary><b>docker-laravel-nginx</b>:</summary>
+    <summary><b>💾 docker-laravel-nginx</b>:</summary>
     <code>source code</code>: https://github.com/dylanlindgren/docker-laravel-nginx<br>
     <code>description</code>: Docker container for Nginx for use with the Laravel PHP framework<br>
     <code>homepage   </code>: http://www.dylanlindgren.com<br>
@@ -2283,7 +2283,7 @@
 </details>
 
 <details>
-    <summary><b>dolibarr</b>:</summary>
+    <summary><b>☁️ Dolibarr ERP & CRM </b>:</summary>
     <code>source code</code>: https://github.com/Dolibarr/dolibarr<br>
     <code>description</code>: Dolibarr ERP CRM is a modern software package to manage your company or foundation's activity (contacts, suppliers, invoices, orders, stocks, agenda, accounting, ...). It is open source software (written in PHP) and designed for small and medium businesses, foundations and freelancers. You can freely install, use and distribute it as a standalone application or as a web application to use it from every internet access and media.<br>
     <code>homepage   </code>: https://www.dolibarr.org<br>
@@ -2293,7 +2293,7 @@
 </details>
 
 <details>
-    <summary><b>dom-native</b>:</summary>
+    <summary><b>⚙️ DOM Native</b>:</summary>
     <code>source code</code>: https://github.com/dom-native/dom-native<br>
     <code>description</code>: DOM Native is a small utility for streamlining Native Web Components developments (#RealDOM, zero dependencies, < 15kb min, < 5kb gzip)<br>
     <code>homepage   </code>: -<br>
@@ -2303,7 +2303,7 @@
 </details>
 
 <details>
-    <summary><b>dompdf</b>:</summary>
+    <summary><b>⚙️ Dompdf</b>:</summary>
     <code>source code</code>: https://github.com/dompdf/dompdf<br>
     <code>description</code>: HTML to PDF converter for PHP<br>
     <code>homepage   </code>: https://dompdf.github.io/<br>
@@ -2313,7 +2313,7 @@
 </details>
 
 <details>
-    <summary><b>dopamine</b>:</summary>
+    <summary><b>💻 Dopamine</b>:</summary>
     <code>source code</code>: https://github.com/digimezzo/dopamine<br>
     <code>description</code>: The audio player that keeps it simple<br>
     <code>homepage   </code>: -<br>
@@ -2323,7 +2323,7 @@
 </details>
 
 <details>
-    <summary><b>dopamine-windows</b>:</summary>
+    <summary><b>💻 Dopamine (for Windows)</b>:</summary>
     <code>source code</code>: https://github.com/digimezzo/dopamine-windows<br>
     <code>description</code>: Audio player which tries to make organizing and listening to music as simple and pretty as possible.<br>
     <code>homepage   </code>: https://www.digimezzo.com<br>
@@ -2333,7 +2333,7 @@
 </details>
 
 <details>
-    <summary><b>dotProject</b>:</summary>
+    <summary><b>☁️ dotProject</b>:</summary>
     <code>source code</code>: https://github.com/dotproject/dotProject<br>
     <code>description</code>: Stable 2 series<br>
     <code>homepage   </code>: -<br>
@@ -2343,17 +2343,7 @@
 </details>
 
 <details>
-    <summary><b>doublecmd</b>:</summary>
-    <code>source code</code>: https://github.com/double-commander/doublecmd<br>
-    <code>description</code>: Double commander, A twin panel (side by side) cross platform open source file manager<br>
-    <code>homepage   </code>: -<br>
-    <code>prog lang  </code>: Pascal<br>
-    <code>archived   </code>: -<br>
-    <code>opinion    </code>: ⭐<br>
-</details>
-
-<details>
-    <summary><b>doublecmd</b>:</summary>
+    <summary><b>💻 Double commander</b>:</summary>
     <code>source code</code>: https://github.com/doublecmd/doublecmd<br>
     <code>description</code>: Double Commander is a free cross platform open source file manager with two panels side by side.<br>
     <code>homepage   </code>: https://doublecmd.sourceforge.io<br>
@@ -2363,7 +2353,7 @@
 </details>
 
 <details>
-    <summary><b>drawio</b>:</summary>
+    <summary><b>☁️ draw.io</b>:</summary>
     <code>source code</code>: https://github.com/jgraph/drawio<br>
     <code>description</code>: draw.io is a JavaScript, client-side editor for general diagramming and whiteboarding<br>
     <code>homepage   </code>: https://www.drawio.com<br>
@@ -2373,7 +2363,7 @@
 </details>
 
 <details>
-    <summary><b>drawio-desktop</b>:</summary>
+    <summary><b>💻 draw.io desktop</b>:</summary>
     <code>source code</code>: https://github.com/jgraph/drawio-desktop<br>
     <code>description</code>: Official electron build of draw.io<br>
     <code>homepage   </code>: https://www.diagrams.net<br>
@@ -2383,7 +2373,7 @@
 </details>
 
 <details>
-    <summary><b>Drawpile</b>:</summary>
+    <summary><b>💻 Drawpile</b>:</summary>
     <code>source code</code>: https://github.com/drawpile/Drawpile<br>
     <code>description</code>: A collaborative drawing program<br>
     <code>homepage   </code>: http://drawpile.net/<br>
@@ -2393,7 +2383,7 @@
 </details>
 
 <details>
-    <summary><b>drupal</b>:</summary>
+    <summary><b>☁️ Drupal</b>:</summary>
     <code>source code</code>: https://github.com/drupal/drupal<br>
     <code>description</code>: Verbatim mirror of the git.drupal.org repository for Drupal core. Please see the https://github.com/drupal/drupal#contributing. PRs are not accepted on GitHub.<br>
     <code>homepage   </code>: https://drupal.org/project/drupal<br>
@@ -2404,7 +2394,7 @@
 </details>
 
 <details>
-    <summary><b>DuckieTV</b>:</summary>
+    <summary><b>☁️ DuckieTV</b>:</summary>
     <code>source code</code>: https://github.com/SchizoDuckie/DuckieTV<br>
     <code>description</code>: A web application built with AngularJS to track your favorite tv-shows with semi-automagic torrent integration<br>
     <code>homepage   </code>: http://schizoduckie.github.io/DuckieTV/<br>
@@ -2414,7 +2404,7 @@
 </details>
 
 <details>
-    <summary><b>dupeguru</b>:</summary>
+    <summary><b>💻 dupeGuru</b>:</summary>
     <code>source code</code>: https://github.com/arsenetar/dupeguru<br>
     <code>description</code>: Find duplicate files<br>
     <code>homepage   </code>: https://dupeguru.voltaicideas.net<br>
