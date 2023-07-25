@@ -1190,7 +1190,7 @@
 </details>
 
 <details>
-    <summary><b>basic-256</b>:</summary>
+    <summary><b>💻 Basic 256</b>:</summary>
     <code>source code</code>: https://github.com/Ri0n/basic-256<br>
     <code>description</code>: -<br>
     <code>homepage   </code>: -<br>
@@ -1200,7 +1200,7 @@
 </details>
 
 <details>
-    <summary><b>batchfunctionlibrary</b>:</summary>
+    <summary><b>💾 Batch Function Library</b>:</summary>
     <code>source code</code>: https://github.com/ritchielawrence/batchfunctionlibrary<br>
     <code>description</code>: Library of Windows batch functions<br>
     <code>homepage   </code>: https://ritchielawrence.github.io/batchfunctionlibrary/<br>
@@ -1211,7 +1211,7 @@
 </details>
 
 <details>
-    <summary><b>beekeeper-studio</b>:</summary>
+    <summary><b>💻 Beekeeper Studio</b>:</summary>
     <code>source code</code>: https://github.com/beekeeper-studio/beekeeper-studio<br>
     <code>description</code>: Modern and easy to use SQL client for MySQL, Postgres, SQLite, SQL Server, and more. Linux, MacOS, and Windows.<br>
     <code>homepage   </code>: https://www.beekeeperstudio.io<br>
@@ -1221,7 +1221,7 @@
 </details>
 
 <details>
-    <summary><b>birdfont</b>:</summary>
+    <summary><b>💻 Birdfont</b>:</summary>
     <code>source code</code>: https://github.com/johanmattssonm/birdfont<br>
     <code>description</code>: A font editor for creating fonts in TTF, EOT, SVG and BIRDFONT format.<br>
     <code>homepage   </code>: https://birdfont.org<br>
@@ -1232,7 +1232,7 @@
 </details>
 
 <details>
-    <summary><b>birdskitchen</b>:</summary>
+    <summary><b>💻 Birds Kitchen</b>:</summary>
     <code>source code</code>: https://github.com/fredserva/birdskitchen<br>
     <code>description</code>: A Desktop Recipe Manager application using Electron & React.<br>
     <code>homepage   </code>: -<br>
@@ -1242,7 +1242,7 @@
 </details>
 
 <details>
-    <summary><b>blink-mind-desktop</b>:</summary>
+    <summary><b>💻 BlinkMindDesktop</b>:</summary>
     <code>source code</code>: https://github.com/awehook/blink-mind-desktop<br>
     <code>description</code>:  Cross-platform full-featured mind mapping and outline app based on electron.<br>
     <code>homepage   </code>: -<br>
@@ -1252,7 +1252,7 @@
 </details>
 
 <details>
-    <summary><b>BLIS</b>:</summary>
+    <summary><b>☁️ Basic Laboratory Information System (BLIS)</b>:</summary>
     <code>source code</code>: https://github.com/C4G/BLIS<br>
     <code>description</code>: C4G Basic Laboratory Information System<br>
     <code>homepage   </code>: http://blis.cc.gatech.edu/<br>
@@ -1263,7 +1263,7 @@
 </details>
 
 <details>
-    <summary><b>blockbench</b>:</summary>
+    <summary><b>💻 Blockbench</b>:</summary>
     <code>source code</code>: https://github.com/JannisX11/blockbench<br>
     <code>description</code>: Blockbench - A low poly 3D model editor<br>
     <code>homepage   </code>: https://www.blockbench.net<br>
@@ -1273,7 +1273,7 @@
 </details>
 
 <details>
-    <summary><b>bluegriffon</b>:</summary>
+    <summary><b>💻 Bluegriffon</b>:</summary>
     <code>source code</code>: https://github.com/therealglazou/bluegriffon<br>
     <code>description</code>: BlueGriffon, the Web editor<br>
     <code>homepage   </code>: -<br>
@@ -1283,7 +1283,7 @@
 </details>
 
 <details>
-    <summary><b>blur-admin</b>:</summary>
+    <summary><b>⚙️ BlurAdmin (Angular admin panel)</b>:</summary>
     <code>source code</code>: https://github.com/akveo/blur-admin<br>
     <code>description</code>: AngularJS Bootstrap Admin Panel Framework<br>
     <code>homepage   </code>: http://akveo.github.io/blur-admin/<br>
@@ -1293,7 +1293,7 @@
 </details>
 
 <details>
-    <summary><b>BookStack</b>:</summary>
+    <summary><b>☁️ BookStack</b>:</summary>
     <code>source code</code>: https://github.com/BookStackApp/BookStack<br>
     <code>description</code>: A platform to create documentation/wiki content built with PHP & Laravel<br>
     <code>homepage   </code>: https://www.bookstackapp.com/<br>
@@ -1303,7 +1303,7 @@
 </details>
 
 <details>
-    <summary><b>BoostNote-App</b>:</summary>
+    <summary><b>💻 Boost Note</b>:</summary>
     <code>source code</code>: https://github.com/BoostIO/BoostNote-App<br>
     <code>description</code>: Boost Note is a document driven project management tool that maximizes remote DevOps team velocity.<br>
     <code>homepage   </code>: https://boostnote.io<br>
@@ -1313,7 +1313,7 @@
 </details>
 
 <details>
-    <summary><b>boot2docker</b>:</summary>
+    <summary><b>💾 boot2docker</b>:</summary>
     <code>source code</code>: https://github.com/boot2docker/boot2docker<br>
     <code>description</code>: DEPRECATED; see https://github.com/boot2docker/boot2docker/pull/1408<br>
     <code>homepage   </code>: https://github.com/boot2docker/boot2docker/pull/1408<br>
@@ -1323,7 +1323,7 @@
 </details>
 
 <details>
-    <summary><b>bootstrap</b>:</summary>
+    <summary><b>⚙️ Bootstrap</b>:</summary>
     <code>source code</code>: https://github.com/twbs/bootstrap<br>
     <code>description</code>: The most popular HTML, CSS, and JavaScript framework for developing responsive, mobile first projects on the web.<br>
     <code>homepage   </code>: https://getbootstrap.com<br>
@@ -1333,7 +1333,7 @@
 </details>
 
 <details>
-    <summary><b>Bootstrap-3-Typeahead</b>:</summary>
+    <summary><b>⚙️ Bootstrap 3 Typeahead</b>:</summary>
     <code>source code</code>: https://github.com/bassjobsen/Bootstrap-3-Typeahead<br>
     <code>description</code>: The Typeahead plugin from Twitter's Bootstrap 2 ready to use with Bootstrap 3 and Bootstrap 4<br>
     <code>homepage   </code>: -<br>
@@ -1344,7 +1344,7 @@
 </details>
 
 <details>
-    <summary><b>bootstrap-datepicker</b>:</summary>
+    <summary><b>⚙️ bootstrap-datepicker</b>:</summary>
     <code>source code</code>: https://github.com/uxsolutions/bootstrap-datepicker<br>
     <code>description</code>: A datepicker for twitter bootstrap (@twbs)<br>
     <code>homepage   </code>: -<br>
@@ -1354,7 +1354,7 @@
 </details>
 
 <details>
-    <summary><b>bootstrap-datetimepicker</b>:</summary>
+    <summary><b>⚙️ bootstrap-datetimepicker</b>:</summary>
     <code>source code</code>: https://github.com/AuspeXeu/bootstrap-datetimepicker<br>
     <code>description</code>: Both Date and Time picker widget based on twitter bootstrap 3<br>
     <code>homepage   </code>: https://auspexeu.github.io/bootstrap-datetimepicker/<br>
@@ -1364,7 +1364,7 @@
 </details>
 
 <details>
-    <summary><b>bootstrap-duallistbox</b>:</summary>
+    <summary><b>⚙️ Bootstrap Dual Listbox</b>:</summary>
     <code>source code</code>: https://github.com/istvan-ujjmeszaros/bootstrap-duallistbox<br>
     <code>description</code>: Bootstrap Dual Listbox<br>
     <code>homepage   </code>: http://www.virtuosoft.eu/code/bootstrap-duallistbox/<br>
@@ -1374,7 +1374,7 @@
 </details>
 
 <details>
-    <summary><b>bootstrap-material-design</b>:</summary>
+    <summary><b>⚙️ Bootstrap Material Design</b>:</summary>
     <code>source code</code>: https://github.com/mdbootstrap/bootstrap-material-design<br>
     <code>description</code>: Important! A new UI Kit version for the latest Bootstrap 5 is available. Access the latest version via the link below<br>
     <code>homepage   </code>: https://mdbootstrap.com/docs/standard/<br>
@@ -1384,7 +1384,7 @@
 </details>
 
 <details>
-    <summary><b>bootstrap-table</b>:</summary>
+    <summary><b>⚙️ Bootstrap Table</b>:</summary>
     <code>source code</code>: https://github.com/wenzhixin/bootstrap-table<br>
     <code>description</code>: An extended table to integration with some of the most widely used CSS frameworks. (Supports Bootstrap, Semantic UI, Bulma, Material Design, Foundation, Vue.js)<br>
     <code>homepage   </code>: https://bootstrap-table.com/<br>
@@ -1394,7 +1394,7 @@
 </details>
 
 <details>
-    <summary><b>bootstrap-treeview</b>:</summary>
+    <summary><b>⚙️ Bootstrap Tree View</b>:</summary>
     <code>source code</code>: https://github.com/jonmiles/bootstrap-treeview<br>
     <code>description</code>: Tree View for Twitter Bootstrap - <br>
     <code>homepage   </code>: http://jonmiles.github.io/bootstrap-treeview<br>
@@ -1404,7 +1404,7 @@
 </details>
 
 <details>
-    <summary><b>brackets-portable</b>:</summary>
+    <summary><b>💻 Brackets Portable</b>:</summary>
     <code>source code</code>: https://github.com/sagiegurari/brackets-portable<br>
     <code>description</code>: Windows portable version of adobe brackets web development editor.<br>
     <code>homepage   </code>: -<br>
@@ -1414,7 +1414,7 @@
 </details>
 
 <details>
-    <summary><b>brlcad</b>:</summary>
+    <summary><b>💻 BRL-CAD</b>:</summary>
     <code>source code</code>: https://github.com/BRL-CAD/brlcad<br>
     <code>description</code>: BRL-CAD is a powerful cross-platform open source combinatorial solid modeling system<br>
     <code>homepage   </code>: https://brlcad.org<br>
@@ -1424,7 +1424,7 @@
 </details>
 
 <details>
-    <summary><b>Bulk-Crap-Uninstaller</b>:</summary>
+    <summary><b>💻 Bulk Crap Uninstaller</b>:</summary>
     <code>source code</code>: https://github.com/Klocman/Bulk-Crap-Uninstaller<br>
     <code>description</code>: Remove large amounts of unwanted applications quickly.<br>
     <code>homepage   </code>: https://www.bcuninstaller.com/<br>
@@ -1434,7 +1434,7 @@
 </details>
 
 <details>
-    <summary><b>caesium-clt</b>:</summary>
+    <summary><b>💾 Caesium CommandLineTools</b>:</summary>
     <code>source code</code>: https://github.com/Lymphatus/caesium-clt<br>
     <code>description</code>: Caesium Command Line Tools - Lossy/lossless image compression tool <br>
     <code>homepage   </code>: http://saerasoft.com/caesium<br>
@@ -1444,7 +1444,7 @@
 </details>
 
 <details>
-    <summary><b>caesium-image-compressor</b>:</summary>
+    <summary><b>💻 Caesium Image Compressor</b>:</summary>
     <code>source code</code>: https://github.com/Lymphatus/caesium-image-compressor<br>
     <code>description</code>: Caesium is an image compression software that helps you store, send and share digital pictures, supporting JPG, PNG and WebP formats.   You can quickly reduce the file size (and resolution, if you want) by preserving the overall quality of the image.<br>
     <code>homepage   </code>: https://saerasoft.com/caesium<br>
