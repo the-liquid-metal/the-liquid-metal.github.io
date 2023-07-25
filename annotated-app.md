@@ -1,3 +1,519 @@
+# category
+<details>
+    <summary><b>CAD: Architecture</b></summary>
+	<code>Sweet Home 3D</code>
+</details>
+
+<details>
+    <summary><b>CAD: Civil</b></summary>
+	<code>LibreCAD</code>
+	<code>QCAD    </code>
+</details>
+
+<details>
+    <summary><b>CAD: Electronic</b></summary>
+	<code>KiCad   </code>
+	<code>LibrePCB</code>
+	<code>TinyCAD </code>
+</details>
+
+<details>
+    <summary><b>CAD: Machine</b></summary>
+	<code>BRL-CAD </code>
+	<code>FreeCAD </code>
+	<code>OpenSCAD</code>
+</details>
+
+<details>
+    <summary><b>Communication: Text Based</b></summary>
+	<code>Pidgin     </code>
+	<code>Thunderbird</code>
+</details>
+
+<details>
+    <summary><b>Communication: Video Based</b></summary>
+	<code>Jitsi Meet</code>
+	<code>OBS Studio</code>
+</details>
+
+<details>
+    <summary><b>Dev: Android</b></summary>
+	<code>APK Studio</code>
+</details>
+
+<details>
+    <summary><b>Dev: Microcontroller</b></summary>
+	<code>Arduino</code>
+</details>
+
+<details>
+    <summary><b>Dev: BASIC</b></summary>
+	<code>BASIC-256     </code>
+	<code>VisualFBEditor</code>
+</details>
+
+<details>
+    <summary><b>Dev: Database Server</b></summary>
+	<code>MariaDB   </code>
+	<code>MySQL     </code>
+	<code>PostgreSQL</code>
+</details>
+
+<details>
+    <summary><b>Dev: Database Tools</b></summary>
+	<code>CSVed          </code>
+	<code>DatabaseBrowser</code>
+	<code>DBeaver        </code>
+	<code>HeidiSQL       </code>
+	<code>MySQL Workbench</code>
+	<code>SQLiteStudio   </code>
+</details>
+
+<details>
+    <summary><b>Dev: IDE + Version Control</b></summary>
+	<code>SmartGit                   </code>
+	<code>Visual Studio Code (VSCode)</code>
+</details>
+
+<details>
+    <summary><b>Dev: Misc</b></summary>
+	<code>apachelogsviewer    </code>
+	<code>BAT to EXE Converter</code>
+	<code>DevDocs             </code>
+	<code>Inno Setup          </code>
+	<code>NSIS                </code>
+	<code>Poedit              </code>
+	<code>PowerGREP           </code>
+	<code>Resource Hacker     </code>
+	<code>Responsively App    </code>
+	<code>RisohEditor         </code>
+	<code>Zeal                </code>
+</details>
+
+<details>
+    <summary><b>Dev: Modelling</b></summary>
+	<code>draw.io      </code>
+	<code>Modelio      </code>
+	<code>Obeo Designer</code>
+	<code>Papyrus      </code>
+	<code>Pencil       </code>
+</details>
+
+<details>
+    <summary><b>Dev: PHP IDE/editor</b></summary>
+	<code>Eclipse                    </code>
+	<code>Netbeans                   </code>
+	<code>Notepad++                  </code>
+	<code>Visual Studio Code (VSCode)</code>
+</details>
+
+<details>
+    <summary><b>Dev: Perl IDE/editor</b></summary>
+	<code>Padre</code>
+</details>
+
+<details>
+    <summary><b>Dev: Python IDE/editor</b></summary>
+	<code>Spyder</code>
+	<code>Thonny</code>
+</details>
+
+<details>
+    <summary><b>Dev: Web Server</b></summary>
+	<code>Mongoose</code>
+	<code>php     </code>
+</details>
+
+<details>
+    <summary><b>Dev: Server Tools</b></summary>
+	<code>advancedrestclient</code>
+	<code>ConEmu            </code>
+	<code>FileZilla         </code>
+	<code>MSYS2             </code>
+	<code>PuTTY             </code>
+	<code>WinSCP            </code>
+</details>
+
+<details>
+    <summary><b>Dev: Version Control</b></summary>
+	<code>KDiff3    </code>
+	<code>Meld      </code>
+	<code>Sourcetree</code>
+	<code>WinMerge  </code>
+	<code>GitEye    </code>
+</details>
+
+<details>
+    <summary><b>Development</b></summary>
+	<code>apachelogviewer</code>
+	<code>battoexe       </code>
+	<code>Inno Setup     </code>
+	<code>MySQL Workbench</code>
+	<code>NetBeans       </code>
+	<code>SQLiteStudio   </code>
+</details>
+
+<details>
+    <summary><b>Editor: Accounting</b></summary>
+	<code>GnuCash         </code>
+	<code>Grisbi          </code>
+	<code>Money Manager Ex</code>
+</details>
+
+<details>
+    <summary><b>Editor: Animation</b></summary>
+	<code>Blender  </code>
+	<code>OpenToonz</code>
+	<code>Pencil2D </code>
+	<code>Synfig   </code>
+	<code>TupiTube </code>
+</details>
+
+<details>
+    <summary><b>Editor: Document</b></summary>
+	<code>BabelPad          </code>
+	<code>BlueGriffon       </code>
+	<code>CuteMarkEd        </code>
+	<code>Foxit PDF Reader  </code>
+	<code>Okular            </code>
+	<code>PDF-XChange Editor</code>
+	<code>PDF Arranger      </code>
+	<code>PDFTK Builder     </code>
+	<code>Sigil-Ebook       </code>
+</details>
+
+<details>
+    <summary><b>Editor: Gantt</b></summary>
+	<code>Focalboard  </code>
+	<code>GanttProject</code>
+	<code>ProjectLibre</code>
+</details>
+
+<details>
+    <summary><b>Editor: Generic Sound</b></summary>
+	<code>Ardour   </code>
+	<code>Audacity </code>
+	<code>Fre:ac   </code>
+	<code>LameXP   </code>
+	<code>Wavosaur </code>
+	<code>wxMP3gain</code>
+</details>
+
+<details>
+    <summary><b>Editor: Graphics</b></summary>
+	<code>Darktable                </code>
+	<code>GIMP                     </code>
+	<code>Greenfish Icon Editor Pro</code>
+	<code>Inkscape                 </code>
+	<code>Krita                    </code>
+	<code>MyPaint                  </code>
+	<code>sK1                      </code>
+</details>
+
+<details>
+    <summary><b>Editor: Graphics Utils</b></summary>
+	<code>AntiDupl.NET                  </code>
+	<code>Awesome Duplicate Photo Finder</code>
+	<code>Caesium                       </code>
+	<code>PosteRazor                    </code>
+	<code>ScreenToGif                   </code>
+	<code>ShareX                        </code>
+	<code>SmillaEnlarger                </code>
+	<code>XnConvert                     </code>
+</details>
+
+<details>
+    <summary><b>Editor: Metadata</b></summary>
+	<code>BatchPurifier</code>
+	<code>EasyTAG      </code>
+	<code>Kid3         </code>
+	<code>Mp3tag       </code>
+</details>
+
+<details>
+    <summary><b>Editor: Mind map</b></summary>
+	<code>Freeplane           </code>
+	<code>TreeSheets          </code>
+	<code>View Your Mind (VYM)</code>
+</details>
+
+<details>
+    <summary><b>Editor: Music</b></summary>
+	<code>BRELS MIDI Editor          </code>
+	<code>Helio                      </code>
+	<code>LMMS                       </code>
+	<code>MidiEditor                 </code>
+	<code>Mixxx                      </code>
+	<code>MuseScore                  </code>
+	<code>TuxGuitar                  </code>
+	<code>Virtual MIDI Piano Keyboard</code>
+</details>
+
+<details>
+    <summary><b>Editor: Notes</b></summary>
+	<code>Boost Note</code>
+	<code>Cherrytree</code>
+	<code>KeyNote NF</code>
+	<code>PNotes    </code>
+	<code>QOwnNotes </code>
+	<code>WikidPad  </code>
+</details>
+
+<details>
+    <summary><b>Editor: Office</b></summary>
+	<code>Calligra   </code>
+	<code>LibreOffice</code>
+	<code>OnlyOffice </code>
+</details>
+
+<details>
+    <summary><b>Editor: Publishing</b></summary>
+	<code>Scribus</code>
+</details>
+
+<details>
+    <summary><b>Editor: Subtitle</b></summary>
+	<code>Aegisub      </code>
+	<code>Subtitle Edit</code>
+</details>
+
+<details>
+    <summary><b>Editor: Video</b></summary>
+	<code>HandBrake</code>
+	<code>Kdenlive </code>
+	<code>Kinovea  </code>
+	<code>Natron   </code>
+	<code>Olive    </code>
+	<code>OpenShot </code>
+	<code>Shotcut  </code>
+</details>
+
+<details>
+    <summary><b>Editor: Video Utils</b></summary>
+	<code>CamStudio          </code>
+	<code>Inviska MKV Extract</code>
+	<code>Jahshaka           </code>
+	<code>LosslessCut        </code>
+	<code>MKVToolNix         </code>
+	<code>MoviePrint         </code>
+	<code>Video Peek         </code>
+</details>
+
+<details>
+    <summary><b>Education: All Age</b></summary>
+	<code>Artha     </code>
+	<code>Celestia  </code>
+	<code>Gramps    </code>
+	<code>Marble    </code>
+	<code>Stellarium</code>
+</details>
+
+<details>
+    <summary><b>Education: Bibliography</b></summary>
+	<code>Calibre</code>
+	<code>JabRef </code>
+</details>
+
+<details>
+    <summary><b>Education: Higher</b></summary>
+	<code>KStars       </code>
+	<code>Tagaini Jisho</code>
+	<code>Wakan        </code>
+</details>
+
+<details>
+    <summary><b>Education: Statistic</b></summary>
+	<code>GNU Octave</code>
+	<code>gretl     </code>
+	<code>jamovi    </code>
+	<code>JASP      </code>
+	<code>PSPP      </code>
+	<code>RKWard    </code>
+	<code>R         </code>
+	<code>RStudio   </code>
+</details>
+
+<details>
+    <summary><b>Education: Utility</b></summary>
+	<code>Safe Exam Browser</code>
+</details>
+
+<details>
+    <summary><b>Media: Games</b></summary>
+	<code>Freeciv     </code>
+	<code>LeoCAD      </code>
+	<code>OpenTTD     </code>
+	<code>Warzone 2100</code>
+</details>
+
+<details>
+    <summary><b>Media: Knowledge + Notes</b></summary>
+	<code>Zeal</code>
+</details>
+
+<details>
+    <summary><b>Media: Manager</b></summary>
+	<code>CDex     </code>
+	<code>digiKam  </code>
+	<code>FBReader </code>
+	<code>Jajuk    </code>
+	<code>XnView MP</code>
+</details>
+
+<details>
+    <summary><b>Media: Player + Viewer</b></summary>
+	<code>Allusion  </code>
+	<code>aTunes    </code>
+	<code>Audacious </code>
+	<code>Clementine</code>
+	<code>ComicRack </code>
+	<code>Diffractor</code>
+	<code>GridPlayer</code>
+	<code>ImageGlass</code>
+	<code>Kchmviewer</code>
+	<code>MComix    </code>
+	<code>MPC-HC    </code>
+	<code>OpenComic </code>
+	<code>Shotwell  </code>
+	<code>SumatraPDF</code>
+	<code>VLC       </code>
+	<code>WinDjView </code>
+</details>
+
+<details>
+    <summary><b>Utility: Cloud</b></summary>
+	<code>Cyberduck</code>
+	<code>FileZilla</code>
+	<code>Nextcloud</code>
+</details>
+
+<details>
+    <summary><b>Utility: Disc</b></summary>
+	<code>cdrtfe              </code>
+	<code>InfraRecorder       </code>
+	<code>Virtual Volumes View</code>
+	<code>Wise Disk Cleaner   </code>
+	<code>WinCDEmu            </code>
+</details>
+
+<details>
+    <summary><b>Utility: Display</b></summary>
+	<code>Don't Sleep </code>
+	<code>RBTray      </code>
+	<code>Screen Ruler</code>
+	<code>VirtuaWin   </code>
+</details>
+
+<details>
+    <summary><b>Utility: File</b></summary>
+	<code>7-zip</code>
+	<code>Awesome Duplicate Photo Finder</code>
+	<code>DiffPDF                       </code>
+	<code>DocFetcher                    </code>
+	<code>Double Commander              </code>
+	<code>DoubleKiller                  </code>
+	<code>dupeGuru                      </code>
+	<code>Everything                    </code>
+	<code>FileTool                      </code>
+	<code>FreeCommander                 </code>
+	<code>FreeFileSync                  </code>
+	<code>grepWin                       </code>
+	<code>IZArc                         </code>
+	<code>Kickass Undelete              </code>
+	<code>PFrank                        </code>
+	<code>TreeSize Free                 </code>
+	<code>Universal Extractor           </code>
+	<code>WinDirStat                    </code>
+	<code>Wise Data Recovery            </code>
+	<code>YoyoCut                       </code>
+	<code>Remove Empty Directories (RED)</code>
+</details>
+
+<details>
+    <summary><b>Utility: Font</b></summary>
+	<code>AMP Font Viewer</code>
+	<code>BabelMap       </code>
+	<code>Birdfont       </code>
+	<code>FontForge      </code>
+	<code>Font Viewer    </code>
+</details>
+
+<details>
+    <summary><b>Utility: Internet + News</b></summary>
+	<code>Advanced Onion Router (advor)</code>
+	<code>Falkon                       </code>
+	<code>Ferdi                        </code>
+	<code>Firefox                      </code>
+	<code>Free Download Manager        </code>
+	<code>Google Chrome                </code>
+	<code>K-Meleon                     </code>
+	<code>Midori                       </code>
+	<code>Mipony                       </code>
+	<code>qBittorrent                  </code>
+	<code>QuiteRSS                     </code>
+	<code>Xenu's Link Sleuth           </code>
+	<code>Tor Browser                  </code>
+</details>
+
+<details>
+    <summary><b>Utility: Misc</b></summary>
+	<code>Alarm Cron          </code>
+	<code>Free Countdown Timer</code>
+	<code>FreeOCR             </code>
+	<code>gImageReader        </code>
+	<code>NeOCR               </code>
+	<code>Qalculate           </code>
+	<code>SpeedCrunch         </code>
+	<code>Zint                </code>
+</details>
+
+<details>
+    <summary><b>Utility: Security</b></summary>
+	<code>Angry IP Scanner (ipscan)</code>
+	<code>ClamWin                  </code>
+	<code>Eraser                   </code>
+	<code>Hidden Data Detector     </code>
+	<code>KeePassXC                </code>
+	<code>OpenStego                </code>
+	<code>permadelete              </code>
+	<code>SilentEye                </code>
+</details>
+
+<details>
+    <summary><b>Utility: System</b></summary>
+	<code>BleachBit                          </code>
+	<code>Bulk Crap Uninstaller (BCU)        </code>
+	<code>ConEmu                             </code>
+	<code>Ditto                              </code>
+	<code>NirLauncher                        </code>
+	<code>Process Hacker                     </code>
+	<code>Rufus                              </code>
+	<code>Shortcuts Search And Replace       </code>
+	<code>SpeedyFox                          </code>
+	<code>Sumo                               </code>
+	<code>sysinternals Desktops              </code>
+	<code>sysinternals Process Explorer      </code>
+	<code>Wise Program Uninstaller           </code>
+	<code>Wise Registry Cleaner              </code>
+	<code>WSCC                               </code>
+	<code>Your USB Multiboot Installer (YUMI)</code>
+</details>
+
+<details>
+    <summary><b>Utility: Virtualization</b></summary>
+	<code>MobaLiveCD </code>
+	<code>VeraCrypt  </code>
+	<code>VirtualBox </code>
+	<code>WinCDEmu   </code>
+</details>
+
+<details>
+    <summary><b>Utility: Web Crawler</b></summary>
+	<code>HTTrack           </code>
+	<code>WebChangeMonitor  </code>
+	<code>Xenu's Link Sleuth</code>
+</details>
+
   <details>
     <summary><b>92five</b>:</summary>
     <code>source code</code>: https://github.com/chintanbanugaria/92five<br>
@@ -8,6 +524,8 @@
     <code>opinion    </code>: ⭐<br>
   </details>
 
+
+# Detail
   <details>
     <summary><b>abricotine</b>:</summary>
     <code>source code</code>: https://github.com/brrd/abricotine<br>
