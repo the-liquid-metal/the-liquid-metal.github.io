@@ -541,7 +541,7 @@
 </details>
 
 <details>
-    <summary><h4>☁️ Business Process Management</h4></summary>
+    <summary><h4>☁️ Business Process</h4></summary>
     <code>ProcessMaker</code>  <br/>
 </details>
 
@@ -1038,16 +1038,6 @@
 </details>
 
 <details>
-    <summary><b>💻 Atom Portable</b>:</summary>
-    <code>source code</code>: https://github.com/garethflowers/atom-portable<br>
-    <code>description</code>: Portable version of the Atom text editor.<br>
-    <code>homepage   </code>: https://garethflowers.dev/atom-portable/<br>
-    <code>prog lang  </code>: HTML<br>
-    <code>archived   </code>: -<br>
-    <code>opinion    </code>: ⭐<br>
-</details>
-
-<details>
     <summary><b>💻 AtomicEdits</b>:</summary>
     <code>source code</code>: https://github.com/SuboptimalEng/atomic-edits<br>
     <code>description</code>: 🎬 A desktop app that automatically removes silence from videos.<br>
@@ -1399,16 +1389,6 @@
     <code>description</code>: Tree View for Twitter Bootstrap - <br>
     <code>homepage   </code>: http://jonmiles.github.io/bootstrap-treeview<br>
     <code>prog lang  </code>: JavaScript<br>
-    <code>archived   </code>: -<br>
-    <code>opinion    </code>: ⭐<br>
-</details>
-
-<details>
-    <summary><b>💻 Brackets Portable</b>:</summary>
-    <code>source code</code>: https://github.com/sagiegurari/brackets-portable<br>
-    <code>description</code>: Windows portable version of adobe brackets web development editor.<br>
-    <code>homepage   </code>: -<br>
-    <code>prog lang  </code>: HTML<br>
     <code>archived   </code>: -<br>
     <code>opinion    </code>: ⭐<br>
 </details>
@@ -2941,7 +2921,7 @@
 </details>
 
 <details>
-    <summary><b>gaffer</b>:</summary>
+    <summary><b>💻 Gaffer</b>:</summary>
     <code>source code</code>: https://github.com/GafferHQ/gaffer<br>
     <code>description</code>: Gaffer is a node-based application for lookdev, lighting and automation<br>
     <code>homepage   </code>: http://www.gafferhq.org<br>
@@ -2951,7 +2931,7 @@
 </details>
 
 <details>
-    <summary><b>gaiaehr</b>:</summary>
+    <summary><b>☁️ GaiaEHR</b>:</summary>
     <code>source code</code>: https://github.com/gaiaehr/gaiaehr<br>
     <code>description</code>: Open Source Electronic Health Record -- Simple and Intuitive By Design<br>
     <code>homepage   </code>: http://www.gaiaehr.org/<br>
@@ -2961,7 +2941,7 @@
 </details>
 
 <details>
-    <summary><b>gallery3</b>:</summary>
+    <summary><b>☁️ Gallery 3</b>:</summary>
     <code>source code</code>: https://github.com/bwdutton/gallery3<br>
     <code>description</code>: The simplest, most intuitive way to host your photos on your website.<br>
     <code>homepage   </code>: https://galleryrevival.com/<br>
@@ -2971,7 +2951,7 @@
 </details>
 
 <details>
-    <summary><b>gallery3</b>:</summary>
+    <summary><b>☁️ Gallery 3</b>:</summary>
     <code>source code</code>: https://github.com/gallery/gallery3<br>
     <code>description</code>: The simplest, most intuitive way to host your photos on your website.<br>
     <code>homepage   </code>: http://galleryproject.org<br>
@@ -2981,7 +2961,7 @@
 </details>
 
 <details>
-    <summary><b>gantt</b>:</summary>
+    <summary><b>⚙️ dhtmlxGantt</b>:</summary>
     <code>source code</code>: https://github.com/DHTMLX/gantt<br>
     <code>description</code>: GPL version of Javascript Gantt Chart<br>
     <code>homepage   </code>: https://dhtmlx.com/docs/products/dhtmlxGantt/<br>
@@ -2991,7 +2971,7 @@
 </details>
 
 <details>
-    <summary><b>gantt</b>:</summary>
+    <summary><b>⚙️ Frappe Gantt</b>:</summary>
     <code>source code</code>: https://github.com/frappe/gantt<br>
     <code>description</code>: Open Source Javascript Gantt<br>
     <code>homepage   </code>: https://frappe.io/gantt<br>
@@ -3001,7 +2981,7 @@
 </details>
 
 <details>
-    <summary><b>gantt-schedule-timeline-calendar</b>:</summary>
+    <summary><b>⚙️ gantt-schedule-timeline-calendar</b>:</summary>
     <code>source code</code>: https://github.com/neuronetio/gantt-schedule-timeline-calendar<br>
     <code>description</code>: Gantt Gantt Gantt Timeline Schedule Calendar [ javascript gantt, js gantt, projects gantt, timeline, scheduler, gantt timeline, reservation timeline, react gantt, angular gantt, vue gantt, svelte gantt, booking manager ]<br>
     <code>homepage   </code>: https://gantt-schedule-timeline-calendar.neuronet.io<br>
@@ -3011,7 +2991,7 @@
 </details>
 
 <details>
-    <summary><b>ganttproject</b>:</summary>
+    <summary><b>💻 GanttProject</b>:</summary>
     <code>source code</code>: https://github.com/bardsoftware/ganttproject<br>
     <code>description</code>: Official GanttProject repository<br>
     <code>homepage   </code>: http://ganttproject.biz<br>
@@ -3021,17 +3001,7 @@
 </details>
 
 <details>
-    <summary><b>gcc</b>:</summary>
-    <code>source code</code>: https://github.com/gcc-mirror/gcc<br>
-    <code>description</code>: -<br>
-    <code>homepage   </code>: -<br>
-    <code>prog lang  </code>: C<br>
-    <code>archived   </code>: -<br>
-    <code>opinion    </code>: ⭐<br>
-</details>
-
-<details>
-    <summary><b>GDevelop</b>:</summary>
+    <summary><b>💻 GDevelop</b>:</summary>
     <code>source code</code>: https://github.com/4ian/GDevelop<br>
     <code>description</code>: :video_game: Open-source, cross-platform game engine designed to be used by everyone.<br>
     <code>homepage   </code>: https://gdevelop.io<br>
@@ -3041,7 +3011,7 @@
 </details>
 
 <details>
-    <summary><b>gedit</b>:</summary>
+    <summary><b>💻 gedit</b>:</summary>
     <code>source code</code>: https://github.com/GNOME/gedit<br>
     <code>description</code>: Read-only mirror of https://gitlab.gnome.org/GNOME/gedit<br>
     <code>homepage   </code>: https://gitlab.gnome.org/GNOME/gedit<br>
@@ -3051,7 +3021,7 @@
 </details>
 
 <details>
-    <summary><b>gentelella</b>:</summary>
+    <summary><b>⚙️ Gentelella (Bootstrap 4 Admin Template)</b>:</summary>
     <code>source code</code>: https://github.com/ColorlibHQ/gentelella<br>
     <code>description</code>: Free Bootstrap 4 Admin Dashboard Template<br>
     <code>homepage   </code>: https://colorlib.com/polygon/gentelella/index.html<br>
@@ -3061,18 +3031,7 @@
 </details>
 
 <details>
-    <summary><b>gettorbrowser</b>:</summary>
-    <code>source code</code>: https://github.com/TheTorProject/gettorbrowser<br>
-    <code>description</code>: -<br>
-    <code>homepage   </code>: -<br>
-    <code>prog lang  </code>: -<br>
-    <code>archived   </code>: -<br>
-    <b>license</b>: -<br>
-    <code>opinion    </code>: ⭐<br>
-</details>
-
-<details>
-    <summary><b>gImageReader</b>:</summary>
+    <summary><b>💻 gImageReader</b>:</summary>
     <code>source code</code>: https://github.com/manisandro/gImageReader<br>
     <code>description</code>: A Gtk/Qt front-end to tesseract-ocr.<br>
     <code>homepage   </code>: -<br>
@@ -3082,7 +3041,7 @@
 </details>
 
 <details>
-    <summary><b>gimp</b>:</summary>
+    <summary><b>💻 GIMP</b>:</summary>
     <code>source code</code>: https://github.com/GNOME/gimp<br>
     <code>description</code>: Read-only mirror of https://gitlab.gnome.org/GNOME/gimp<br>
     <code>homepage   </code>: https://gitlab.gnome.org/GNOME/gimp<br>
@@ -3092,17 +3051,7 @@
 </details>
 
 <details>
-    <summary><b>git-portable</b>:</summary>
-    <code>source code</code>: https://github.com/garethflowers/git-portable<br>
-    <code>description</code>: Portable version of Git, for Windows<br>
-    <code>homepage   </code>: https://garethflowers.dev/git-portable/<br>
-    <code>prog lang  </code>: HTML<br>
-    <code>archived   </code>: -<br>
-    <code>opinion    </code>: ⭐<br>
-</details>
-
-<details>
-    <summary><b>gitea</b>:</summary>
+    <summary><b>☁️ Gitea</b>:</summary>
     <code>source code</code>: https://github.com/go-gitea/gitea<br>
     <code>description</code>: Git with a cup of tea! Painless self-hosted all-in-one software development service, including Git hosting, code review, team collaboration, package registry and CI/CD<br>
     <code>homepage   </code>: https://about.gitea.com<br>
@@ -3112,7 +3061,7 @@
 </details>
 
 <details>
-    <summary><b>gitlist</b>:</summary>
+    <summary><b>☁️ GitList</b>:</summary>
     <code>source code</code>: https://github.com/klaussilveira/gitlist<br>
     <code>description</code>: An elegant and modern git repository viewer<br>
     <code>homepage   </code>: https://gitlist.org/<br>
@@ -3122,7 +3071,7 @@
 </details>
 
 <details>
-    <summary><b>glaxnimate</b>:</summary>
+    <summary><b>💻 Glaxnimate</b>:</summary>
     <code>source code</code>: https://github.com/mbasaglia/glaxnimate<br>
     <code>description</code>: Simple vector animation program. https://glaxnimate.mattbas.org/<br>
     <code>homepage   </code>: -<br>
@@ -3132,7 +3081,7 @@
 </details>
 
 <details>
-    <summary><b>glpi</b>:</summary>
+    <summary><b>☁️ GLPI (Asset and IT Management Software)</b>:</summary>
     <code>source code</code>: https://github.com/glpi-project/glpi<br>
     <code>description</code>: GLPI is a Free Asset and IT Management Software package, Data center management, ITIL Service Desk, licenses tracking and software auditing.<br>
     <code>homepage   </code>: https://glpi-project.org<br>
@@ -3142,7 +3091,7 @@
 </details>
 
 <details>
-    <summary><b>Glyphr-Studio-Desktop</b>:</summary>
+    <summary><b>💻 Glyphr Studio Desktop</b>:</summary>
     <code>source code</code>: https://github.com/glyphr-studio/Glyphr-Studio-Desktop<br>
     <code>description</code>: A desktop client for Glyphr Studio built in electron<br>
     <code>homepage   </code>: -<br>
@@ -3152,7 +3101,7 @@
 </details>
 
 <details>
-    <summary><b>gnucash</b>:</summary>
+    <summary><b>💻 GnuCash</b>:</summary>
     <code>source code</code>: https://github.com/Gnucash/gnucash<br>
     <code>description</code>: GnuCash Double-Entry Accounting Program.<br>
     <code>homepage   </code>: http://code.gnucash.org/website/<br>
@@ -3162,7 +3111,7 @@
 </details>
 
 <details>
-    <summary><b>gnumeric</b>:</summary>
+    <summary><b>💻 Gnumeric</b>:</summary>
     <code>source code</code>: https://github.com/GNOME/gnumeric<br>
     <code>description</code>: Read-only mirror of https://gitlab.gnome.org/GNOME/gnumeric<br>
     <code>homepage   </code>: https://gitlab.gnome.org/GNOME/gnumeric<br>
@@ -3172,7 +3121,7 @@
 </details>
 
 <details>
-    <summary><b>gnuplot</b>:</summary>
+    <summary><b>💾 Gnuplot</b>:</summary>
     <code>source code</code>: https://github.com/gnuplot/gnuplot<br>
     <code>description</code>: Unofficial mirror of gnuplot's git repository. Please don't open pull requests here, go to https://sourceforge.net/p/gnuplot/gnuplot-main/merge-requests/ instead.<br>
     <code>homepage   </code>: http://gnuplot.info/<br>
@@ -3182,7 +3131,7 @@
 </details>
 
 <details>
-    <summary><b>GNURootDebian</b>:</summary>
+    <summary><b>💾 GNURootDebian</b>:</summary>
     <code>source code</code>: https://github.com/corbinlc/GNURootDebian<br>
     <code>description</code>: This is the repository corresponding to the GNURoot Debian Android app.<br>
     <code>homepage   </code>: http://corbinlc.github.io/GNURootDebian<br>
@@ -3193,7 +3142,7 @@
 </details>
 
 <details>
-    <summary><b>GoJS</b>:</summary>
+    <summary><b>⚙️ GoJS</b>:</summary>
     <code>source code</code>: https://github.com/NorthwoodsSoftware/GoJS<br>
     <code>description</code>: JavaScript diagramming library for interactive flowcharts, org charts, design tools, planning tools, visual languages.<br>
     <code>homepage   </code>: http://gojs.net<br>
@@ -3203,7 +3152,7 @@
 </details>
 
 <details>
-    <summary><b>goldendict</b>:</summary>
+    <summary><b>💻 GoldenDict</b>:</summary>
     <code>source code</code>: https://github.com/goldendict/goldendict<br>
     <code>description</code>: A feature-rich dictionary lookup program, supporting multiple dictionary formats (StarDict/Babylon/Lingvo/Dictd) and online dictionaries, featuring perfect article rendering with the complete markup, illustrations and other content retained, and allowing you to type in words without any accents or correct case.<br>
     <code>homepage   </code>: http://goldendict.org/<br>
@@ -3213,7 +3162,7 @@
 </details>
 
 <details>
-    <summary><b>goxel</b>:</summary>
+    <summary><b>💻 Goxel</b>:</summary>
     <code>source code</code>: https://github.com/guillaumechereau/goxel<br>
     <code>description</code>: Goxel: Free and Open Source 3D Voxel Editor <br>
     <code>homepage   </code>: -<br>
@@ -3223,7 +3172,7 @@
 </details>
 
 <details>
-    <summary><b>gparted</b>:</summary>
+    <summary><b>💾 Gparted</b>:</summary>
     <code>source code</code>: https://github.com/GNOME/gparted<br>
     <code>description</code>: Read-only mirror of https://gitlab.gnome.org/GNOME/gparted<br>
     <code>homepage   </code>: https://gitlab.gnome.org/GNOME/gparted<br>
@@ -3233,7 +3182,7 @@
 </details>
 
 <details>
-    <summary><b>graalphp</b>:</summary>
+    <summary><b>💾 Graalphp</b>:</summary>
     <code>source code</code>: https://github.com/abertschi/graalphp<br>
     <code>description</code>: An efficient PHP implementation built on GraalVM <br>
     <code>homepage   </code>: https://abertschi.ch/blog/2020/building-graalphp/<br>
@@ -3243,7 +3192,7 @@
 </details>
 
 <details>
-    <summary><b>gramps</b>:</summary>
+    <summary><b>💻 Gramps</b>:</summary>
     <code>source code</code>: https://github.com/gramps-project/gramps<br>
     <code>description</code>: Source code for Gramps Genealogical program<br>
     <code>homepage   </code>: https://gramps-project.org/<br>
@@ -3253,7 +3202,7 @@
 </details>
 
 <details>
-    <summary><b>graphql-php</b>:</summary>
+    <summary><b>⚙️ graphql-php</b>:</summary>
     <code>source code</code>: https://github.com/webonyx/graphql-php<br>
     <code>description</code>: PHP implementation of the GraphQL specification based on the reference implementation in JavaScript<br>
     <code>homepage   </code>: https://webonyx.github.io/graphql-php<br>
@@ -3263,7 +3212,7 @@
 </details>
 
 <details>
-    <summary><b>grepWin</b>:</summary>
+    <summary><b>💻 grepWin</b>:</summary>
     <code>source code</code>: https://github.com/stefankueng/grepWin<br>
     <code>description</code>: A powerful and fast search tool using regular expressions<br>
     <code>homepage   </code>: https://tools.stefankueng.com/grepWin.html<br>
@@ -3273,7 +3222,7 @@
 </details>
 
 <details>
-    <summary><b>gretl</b>:</summary>
+    <summary><b>💻 Gretl</b>:</summary>
     <code>source code</code>: https://github.com/gretl-project/gretl<br>
     <code>description</code>: Official mirror of the actively maintained repo on sourceforge<br>
     <code>homepage   </code>: -<br>
@@ -3283,7 +3232,7 @@
 </details>
 
 <details>
-    <summary><b>gridplayer</b>:</summary>
+    <summary><b>💻 GridPlayer</b>:</summary>
     <code>source code</code>: https://github.com/vzhd1701/gridplayer<br>
     <code>description</code>: Play videos side-by-side<br>
     <code>homepage   </code>: -<br>
@@ -3293,7 +3242,7 @@
 </details>
 
 <details>
-    <summary><b>grisbi</b>:</summary>
+    <summary><b>💻 Grisbi</b>:</summary>
     <code>source code</code>: https://github.com/grisbi/grisbi<br>
     <code>description</code>: A very functional personal financial management program with a reasonable set of homefinance features<br>
     <code>homepage   </code>: https://grisbi.org/<br>
@@ -3303,7 +3252,7 @@
 </details>
 
 <details>
-    <summary><b>grocy</b>:</summary>
+    <summary><b>☁️ Grocy</b>:</summary>
     <code>source code</code>: https://github.com/grocy/grocy<br>
     <code>description</code>: ERP beyond your fridge - Grocy is a web-based self-hosted groceries & household management solution for your home<br>
     <code>homepage   </code>: https://grocy.info<br>
@@ -3313,7 +3262,7 @@
 </details>
 
 <details>
-    <summary><b>groupoffice</b>:</summary>
+    <summary><b>☁️ Group Office groupware and CRM</b>:</summary>
     <code>source code</code>: https://github.com/Intermesh/groupoffice<br>
     <code>description</code>: Group Office groupware and CRM<br>
     <code>homepage   </code>: https://www.group-office.com<br>
@@ -3323,9 +3272,9 @@
 </details>
 
 <details>
-    <summary><b>Gutenberg</b>:</summary>
+    <summary><b>⚙️ Gutenberg</b>:</summary>
     <code>source code</code>: https://github.com/BafS/Gutenberg<br>
-    <code>description</code>: Modern framework to print the web correctly.                                               <br>
+    <code>description</code>: Modern framework to print the web correctly.<br>
     <code>homepage   </code>: https://bafs.github.io/Gutenberg<br>
     <code>prog lang  </code>: SCSS<br>
     <code>archived   </code>: -<br>
@@ -3333,7 +3282,7 @@
 </details>
 
 <details>
-    <summary><b>guzzle</b>:</summary>
+    <summary><b>⚙️ Guzzle (PHP HTTP client)</b>:</summary>
     <code>source code</code>: https://github.com/guzzle/guzzle<br>
     <code>description</code>: Guzzle, an extensible PHP HTTP client<br>
     <code>homepage   </code>: https://docs.guzzlephp.org/<br>
@@ -3343,7 +3292,7 @@
 </details>
 
 <details>
-    <summary><b>HandBrake</b>:</summary>
+    <summary><b>💻 HandBrake</b>:</summary>
     <code>source code</code>: https://github.com/HandBrake/HandBrake<br>
     <code>description</code>: HandBrake's main development repository <br>
     <code>homepage   </code>: https://handbrake.fr<br>
@@ -3353,7 +3302,7 @@
 </details>
 
 <details>
-    <summary><b>handsontable</b>:</summary>
+    <summary><b>⚙️ Handsontable</b>:</summary>
     <code>source code</code>: https://github.com/handsontable/handsontable<br>
     <code>description</code>: JavaScript data grid with a spreadsheet look & feel. Works with React, Angular, and Vue. Supported by the Handsontable team ⚡<br>
     <code>homepage   </code>: https://handsontable.com<br>
@@ -3363,7 +3312,7 @@
 </details>
 
 <details>
-    <summary><b>harvester</b>:</summary>
+    <summary><b>☁️ Open Harvester Systems</b>:</summary>
     <code>source code</code>: https://github.com/pkp/harvester<br>
     <code>description</code>: Open Harvester Systems<br>
     <code>homepage   </code>: http://pkp.sfu.ca/harvester<br>
@@ -3374,7 +3323,7 @@
 </details>
 
 <details>
-    <summary><b>healthicons</b>:</summary>
+    <summary><b>⚙️ Health Icons</b>:</summary>
     <code>source code</code>: https://github.com/resolvetosavelives/healthicons<br>
     <code>description</code>: A collection of open source icons for public health projects.<br>
     <code>homepage   </code>: https://healthicons.org<br>
@@ -3384,7 +3333,7 @@
 </details>
 
 <details>
-    <summary><b>HeidiSQL</b>:</summary>
+    <summary><b>💻 HeidiSQL</b>:</summary>
     <code>source code</code>: https://github.com/HeidiSQL/HeidiSQL<br>
     <code>description</code>: A lightweight client for managing MariaDB, MySQL, SQL Server, PostgreSQL, SQLite, Interbase and Firebird, written in Delphi<br>
     <code>homepage   </code>: https://www.heidisql.com/<br>
@@ -3394,7 +3343,7 @@
 </details>
 
 <details>
-    <summary><b>helio-workstation</b>:</summary>
+    <summary><b>💻 Helio, music composition app</b>:</summary>
     <code>source code</code>: https://github.com/helio-fm/helio-workstation<br>
     <code>description</code>: One music sequencer for all major platforms, desktop and mobile<br>
     <code>homepage   </code>: https://helio.fm<br>
@@ -3404,7 +3353,7 @@
 </details>
 
 <details>
-    <summary><b>heroicons</b>:</summary>
+    <summary><b>⚙️ heroicons</b>:</summary>
     <code>source code</code>: https://github.com/tailwindlabs/heroicons<br>
     <code>description</code>: A set of free MIT-licensed high-quality SVG icons for UI development.<br>
     <code>homepage   </code>: https://heroicons.com<br>
@@ -3414,7 +3363,7 @@
 </details>
 
 <details>
-    <summary><b>HiddenPosition</b>:</summary>
+    <summary><b>⚙️ HiddenPosition (jQuery plugin)</b>:</summary>
     <code>source code</code>: https://github.com/garralab/HiddenPosition<br>
     <code>description</code>: Position any element to any element, even if they are hidden<br>
     <code>homepage   </code>: -<br>
@@ -3424,7 +3373,7 @@
 </details>
 
 <details>
-    <summary><b>hotelcommerce</b>:</summary>
+    <summary><b>☁️ hotelcommerce</b>:</summary>
     <code>source code</code>: https://github.com/webkul/hotelcommerce<br>
     <code>description</code>: Hotel & Booking Reservation Ecommerce system on Prestashop<br>
     <code>homepage   </code>: https://store.webkul.com/Qloapps.html<br>
@@ -3434,7 +3383,7 @@
 </details>
 
 <details>
-    <summary><b>hotelmis-ota</b>:</summary>
+    <summary><b>☁️ OTA Hotel Management</b>:</summary>
     <code>source code</code>: https://github.com/bogiesoft/hotelmis-ota<br>
     <code>description</code>: OTA version of Hotel Management Information System<br>
     <code>homepage   </code>: -<br>
@@ -3444,7 +3393,7 @@
 </details>
 
 <details>
-    <summary><b>html2canvas</b>:</summary>
+    <summary><b>⚙️ html2canvas</b>:</summary>
     <code>source code</code>: https://github.com/niklasvh/html2canvas<br>
     <code>description</code>: Screenshots with JavaScript<br>
     <code>homepage   </code>: https://html2canvas.hertzen.com/<br>
@@ -3454,7 +3403,7 @@
 </details>
 
 <details>
-    <summary><b>http-server</b>:</summary>
+    <summary><b>⚙️ amphp http-server</b>:</summary>
     <code>source code</code>: https://github.com/amphp/http-server<br>
     <code>description</code>: A non-blocking HTTP application server for PHP based on Amp.<br>
     <code>homepage   </code>: https://amphp.org/http-server<br>
@@ -3464,7 +3413,7 @@
 </details>
 
 <details>
-    <summary><b>httrack</b>:</summary>
+    <summary><b>💻 HTTrack</b>:</summary>
     <code>source code</code>: https://github.com/xroche/httrack<br>
     <code>description</code>: HTTrack Website Copier, copy websites to your computer (Official repository)<br>
     <code>homepage   </code>: http://www.httrack.com/<br>
@@ -3474,7 +3423,7 @@
 </details>
 
 <details>
-    <summary><b>Hugin</b>:</summary>
+    <summary><b>💻 Hugin</b>:</summary>
     <code>source code</code>: https://github.com/ndevenish/Hugin<br>
     <code>description</code>: (Probably very out of date mirror) Panorama photo stitcher. My Github Mirror.<br>
     <code>homepage   </code>: https://sourceforge.net/projects/hugin/<br>
@@ -3484,7 +3433,7 @@
 </details>
 
 <details>
-    <summary><b>humhub</b>:</summary>
+    <summary><b>⚙️ HumHub</b>:</summary>
     <code>source code</code>: https://github.com/humhub/humhub<br>
     <code>description</code>: HumHub is an Open Source Enterprise Social Network. Easy to install, intuitive to use and extendable with countless freely available modules.<br>
     <code>homepage   </code>: https://www.humhub.com<br>
@@ -3494,7 +3443,7 @@
 </details>
 
 <details>
-    <summary><b>HuMo-genealogy</b>:</summary>
+    <summary><b>☁️ HuMo-genealogy</b>:</summary>
     <code>source code</code>: https://github.com/HuubMons/HuMo-genealogy<br>
     <code>description</code>: HuMo-genealogy online genealogical program using PHP and MySQL database.<br>
     <code>homepage   </code>: https://humo-gen.com<br>
@@ -3504,7 +3453,7 @@
 </details>
 
 <details>
-    <summary><b>hydrogen</b>:</summary>
+    <summary><b>💻 Hydrogen drum machine</b>:</summary>
     <code>source code</code>: https://github.com/hydrogen-music/hydrogen<br>
     <code>description</code>: The advanced drum machine for Linux, macOS, and Windows<br>
     <code>homepage   </code>: http://www.hydrogen-music.org<br>
@@ -3514,7 +3463,7 @@
 </details>
 
 <details>
-    <summary><b>ICEcoder</b>:</summary>
+    <summary><b>☁️ ICEcoder</b>:</summary>
     <code>source code</code>: https://github.com/icecoder/ICEcoder<br>
     <code>description</code>: Browser code editor awesomeness<br>
     <code>homepage   </code>: http://icecoder.net<br>
@@ -3524,7 +3473,7 @@
 </details>
 
 <details>
-    <summary><b>icehrm</b>:</summary>
+    <summary><b>☁️ IceHrm</b>:</summary>
     <code>source code</code>: https://github.com/gamonoid/icehrm<br>
     <code>description</code>: Manage your employees easily with a robust and efficient Human Resource Management System<br>
     <code>homepage   </code>: http://icehrm.com<br>
@@ -4878,31 +4827,11 @@
 </details>
 
 <details>
-    <summary><b>netbeans-portable</b>:</summary>
-    <code>source code</code>: https://github.com/garethflowers/netbeans-portable<br>
-    <code>description</code>: Portable version of the Netbeans IDE<br>
-    <code>homepage   </code>: https://garethflowers.dev/netbeans-portable/<br>
-    <code>prog lang  </code>: HTML<br>
-    <code>archived   </code>: -<br>
-    <code>opinion    </code>: ⭐<br>
-</details>
-
-<details>
     <summary><b>netron</b>:</summary>
     <code>source code</code>: https://github.com/lutzroeder/netron<br>
     <code>description</code>: Visualizer for neural network, deep learning, and machine learning models<br>
     <code>homepage   </code>: https://netron.app<br>
     <code>prog lang  </code>: JavaScript<br>
-    <code>archived   </code>: -<br>
-    <code>opinion    </code>: ⭐<br>
-</details>
-
-<details>
-    <summary><b>nodejs-portable</b>:</summary>
-    <code>source code</code>: https://github.com/garethflowers/nodejs-portable<br>
-    <code>description</code>: Portable version of NodeJS, for Windows<br>
-    <code>homepage   </code>: https://garethflowers.dev/nodejs-portable/<br>
-    <code>prog lang  </code>: HTML<br>
     <code>archived   </code>: -<br>
     <code>opinion    </code>: ⭐<br>
 </details>
@@ -6231,16 +6160,6 @@
 </details>
 
 <details>
-    <summary><b>postgresql-portable</b>:</summary>
-    <code>source code</code>: https://github.com/garethflowers/postgresql-portable<br>
-    <code>description</code>: Portable version of the PostgreSQL Database Server, for Windows.<br>
-    <code>homepage   </code>: https://garethflowers.dev/postgresql-portable/<br>
-    <code>prog lang  </code>: HTML<br>
-    <code>archived   </code>: -<br>
-    <code>opinion    </code>: ⭐<br>
-</details>
-
-<details>
     <summary><b>pramda</b>:</summary>
     <code>source code</code>: https://github.com/kapolos/pramda<br>
     <code>description</code>: Practical Functional Programming in PHP<br>
@@ -7518,16 +7437,6 @@
 </details>
 
 <details>
-    <summary><b>tor-browser-portable</b>:</summary>
-    <code>source code</code>: https://github.com/garethflowers/tor-browser-portable<br>
-    <code>description</code>: Portable version of the Tor Browser, for Windows<br>
-    <code>homepage   </code>: https://garethflowers.dev/tor-browser-portable/<br>
-    <code>prog lang  </code>: JavaScript<br>
-    <code>archived   </code>: -<br>
-    <code>opinion    </code>: ⭐<br>
-</details>
-
-<details>
     <summary><b>tor-bundle</b>:</summary>
     <code>source code</code>: https://github.com/andy-portmen/tor-bundle<br>
     <code>description</code>: Integrates browsers to Tor executable<br>
@@ -7902,16 +7811,6 @@
     <code>description</code>: Visual Studio Code<br>
     <code>homepage   </code>: https://code.visualstudio.com<br>
     <code>prog lang  </code>: TypeScript<br>
-    <code>archived   </code>: -<br>
-    <code>opinion    </code>: ⭐<br>
-</details>
-
-<details>
-    <summary><b>vscode-portable</b>:</summary>
-    <code>source code</code>: https://github.com/garethflowers/vscode-portable<br>
-    <code>description</code>: Portable version of the Visual Studio Code editor.<br>
-    <code>homepage   </code>: https://garethflowers.dev/vscode-portable/<br>
-    <code>prog lang  </code>: HTML<br>
     <code>archived   </code>: -<br>
     <code>opinion    </code>: ⭐<br>
 </details>
