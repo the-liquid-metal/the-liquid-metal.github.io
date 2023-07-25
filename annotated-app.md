@@ -764,7 +764,7 @@
 
 ## Detail
 <details>
-    <summary><b>abricotine</b>:</summary>
+    <summary><b>☁️ Abricotine</b>:</summary>
     <code>source code</code>: https://github.com/brrd/abricotine<br>
     <code>description</code>: Markdown editor with inline preview<br>
     <code>homepage   </code>: -<br>
@@ -774,7 +774,7 @@
 </details>
 
 <details>
-    <summary><b>ace</b>:</summary>
+    <summary><b>☁️ Ace (Ajax.org Cloud9 Editor)</b>:</summary>
     <code>source code</code>: https://github.com/ajaxorg/ace<br>
     <code>description</code>: Ace (Ajax.org Cloud9 Editor)<br>
     <code>homepage   </code>: https://ace.c9.io<br>
@@ -784,7 +784,7 @@
 </details>
 
 <details>
-    <summary><b>ace</b>:</summary>
+    <summary><b>☁️ Ace (Twitter bootstrap 3 admin template)</b>:</summary>
     <code>source code</code>: https://github.com/bopoda/ace<br>
     <code>description</code>: Twitter bootstrap 3 admin template<br>
     <code>homepage   </code>: ace.jeka.by<br>
@@ -794,7 +794,7 @@
 </details>
 
 <details>
-    <summary><b>activitywatch</b>:</summary>
+    <summary><b>💻 ActivityWatch</b>:</summary>
     <code>source code</code>: https://github.com/ActivityWatch/activitywatch<br>
     <code>description</code>: The best free and open-source automated time tracker. Cross-platform, extensible, privacy-focused.<br>
     <code>homepage   </code>: https://activitywatch.net/<br>
@@ -804,7 +804,7 @@
 </details>
 
 <details>
-    <summary><b>admidio</b>:</summary>
+    <summary><b>☁️ Admidio</b>:</summary>
     <code>source code</code>: https://github.com/Admidio/admidio<br>
     <code>description</code>: Admidio is a free open source user management system for websites of organizations and groups. The system has a flexible role model so that it’s possible to reflect the structure and permissions of your organization.<br>
     <code>homepage   </code>: https://www.admidio.org<br>
@@ -814,7 +814,7 @@
 </details>
 
 <details>
-    <summary><b>AdminBSBMaterialDesign</b>:</summary>
+    <summary><b>☁️ AdminBSB - Material Design</b>:</summary>
     <code>source code</code>: https://github.com/gurayyarar/AdminBSBMaterialDesign<br>
     <code>description</code>: AdminBSB - Free admin panel that is based on Bootstrap 3.x with Material Design<br>
     <code>homepage   </code>: https://gurayyarar.github.io/AdminBSBMaterialDesign<br>
@@ -824,7 +824,7 @@
 </details>
 
 <details>
-    <summary><b>adminer</b>:</summary>
+    <summary><b>☁️ Adminer</b>:</summary>
     <code>source code</code>: https://github.com/vrana/adminer<br>
     <code>description</code>: Database management in a single PHP file<br>
     <code>homepage   </code>: https://www.adminer.org/<br>
@@ -835,7 +835,7 @@
 </details>
 
 <details>
-    <summary><b>AdminLTE</b>:</summary>
+    <summary><b>☁️ AdminLTE - Bootstrap 4 Admin Dashboard</b>:</summary>
     <code>source code</code>: https://github.com/ColorlibHQ/AdminLTE<br>
     <code>description</code>: AdminLTE - Free admin dashboard template based on Bootstrap 4<br>
     <code>homepage   </code>: https://adminlte.io<br>
@@ -845,7 +845,7 @@
 </details>
 
 <details>
-    <summary><b>Aegisub</b>:</summary>
+    <summary><b>💻 Aegisub</b>:</summary>
     <code>source code</code>: https://github.com/Aegisub/Aegisub<br>
     <code>description</code>: Cross-platform advanced subtitle editor<br>
     <code>homepage   </code>: http://devel.aegisub.org/<br>
@@ -855,7 +855,7 @@
 </details>
 
 <details>
-    <summary><b>airtime</b>:</summary>
+    <summary><b>☁️ Airtime</b>:</summary>
     <code>source code</code>: https://github.com/sourcefabric/airtime<br>
     <code>description</code>: Airtime is Sourcefabric’s open source radio software for scheduling and remote station management. Airtime provides a reliable audio playout with sub-second precision, an improved interface with modern usability features, advanced user management supporting roles and a Google-style calendar to schedule and move shows and playlists.<br>
     <code>homepage   </code>: http://airtime.sourcefabric.org<br>
@@ -865,7 +865,7 @@
 </details>
 
 <details>
-    <summary><b>akaunting</b>:</summary>
+    <summary><b>☁️ Akaunting</b>:</summary>
     <code>source code</code>: https://github.com/akaunting/akaunting<br>
     <code>description</code>: Free and Online Accounting Software<br>
     <code>homepage   </code>: https://akaunting.com<br>
@@ -875,7 +875,7 @@
 </details>
 
 <details>
-    <summary><b>alarm-cron</b>:</summary>
+    <summary><b>💻 Alarm Cron</b>:</summary>
     <code>source code</code>: https://github.com/bl00mber/alarm-cron<br>
     <code>description</code>: :bell: Set alarms, timers and stopwatches with countdowns and shell commands from the tray<br>
     <code>homepage   </code>: -<br>
@@ -885,7 +885,7 @@
 </details>
 
 <details>
-    <summary><b>AliceVision</b>:</summary>
+    <summary><b>💻 AliceVision</b>:</summary>
     <code>source code</code>: https://github.com/alicevision/AliceVision<br>
     <code>description</code>: Photogrammetric Computer Vision Framework<br>
     <code>homepage   </code>: http://alicevision.org<br>
@@ -895,7 +895,7 @@
 </details>
 
 <details>
-    <summary><b>Allusion</b>:</summary>
+    <summary><b>💻 Allusion</b>:</summary>
     <code>source code</code>: https://github.com/allusion-app/Allusion<br>
     <code>description</code>: A free and open source desktop application for managing your visual library<br>
     <code>homepage   </code>: -<br>
@@ -905,7 +905,7 @@
 </details>
 
 <details>
-    <summary><b>angular.js</b>:</summary>
+    <summary><b>☁️ AngularJS</b>:</summary>
     <code>source code</code>: https://github.com/angular/angular.js<br>
     <code>description</code>: AngularJS - HTML enhanced for web apps!<br>
     <code>homepage   </code>: https://angularjs.org<br>
@@ -915,7 +915,7 @@
 </details>
 
 <details>
-    <summary><b>AntiDupl</b>:</summary>
+    <summary><b>💻 AntiDupl.NET</b>:</summary>
     <code>source code</code>: https://github.com/ermig1979/AntiDupl<br>
     <code>description</code>: A program to search similar and defect pictures on the disk<br>
     <code>homepage   </code>: https://ermig1979.github.io/AntiDupl<br>
@@ -925,7 +925,7 @@
 </details>
 
 <details>
-    <summary><b>aos-AVP</b>:</summary>
+    <summary><b>💻 NOVA opeN sOurce Video plAyer</b>:</summary>
     <code>source code</code>: https://github.com/nova-video-player/aos-AVP<br>
     <code>description</code>: NOVA opeN sOurce Video plAyer: main repository to build them all<br>
     <code>homepage   </code>: -<br>
@@ -935,7 +935,7 @@
 </details>
 
 <details>
-    <summary><b>ap3</b>:</summary>
+    <summary><b>☁️ AhadPOS 3</b>:</summary>
     <code>source code</code>: https://github.com/Ahadmart/ap3<br>
     <code>description</code>: AhadPOS 3 - Software POS (point of sales) berbasis web. Lisensi open source (GPL v2)<br>
     <code>homepage   </code>: -<br>
@@ -946,7 +946,7 @@
 </details>
 
 <details>
-    <summary><b>apkstudio</b>:</summary>
+    <summary><b>💻 APK Studio</b>:</summary>
     <code>source code</code>: https://github.com/vaibhavpandeyvpz/apkstudio<br>
     <code>description</code>: Open-source, cross platform Qt based IDE for reverse-engineering Android application packages.<br>
     <code>homepage   </code>: https://vaibhavpandey.com/apkstudio/<br>
@@ -956,7 +956,7 @@
 </details>
 
 <details>
-    <summary><b>ar-softdelete</b>:</summary>
+    <summary><b>☁️ ActiveRecord Soft Delete (Extension for Yii2)</b>:</summary>
     <code>source code</code>: https://github.com/yii2tech/ar-softdelete<br>
     <code>description</code>: Soft delete behavior for ActiveRecord<br>
     <code>homepage   </code>: -<br>
@@ -966,7 +966,7 @@
 </details>
 
 <details>
-    <summary><b>arc-electron</b>:</summary>
+    <summary><b>💻 Advanced REST Client</b>:</summary>
     <code>source code</code>: https://github.com/advanced-rest-client/arc-electron<br>
     <code>description</code>: Advanced REST Client - Desktop application<br>
     <code>homepage   </code>: -<br>
@@ -976,7 +976,7 @@
 </details>
 
 <details>
-    <summary><b>archetype</b>:</summary>
+    <summary><b>☁️ Archetype</b>:</summary>
     <code>source code</code>: https://github.com/ajthinking/archetype<br>
     <code>description</code>: Edit PHP files programmatically<br>
     <code>homepage   </code>: -<br>
@@ -987,7 +987,7 @@
 </details>
 
 <details>
-    <summary><b>Archimedes</b>:</summary>
+    <summary><b>💻 Archimedes</b>:</summary>
     <code>source code</code>: https://github.com/ArchimedesCAD/Archimedes<br>
     <code>description</code>: Archimedes is a free and open source CAD (Computer Aided Design) software.<br>
     <code>homepage   </code>: http://www.archimedes.org.br/<br>
@@ -998,7 +998,7 @@
 </details>
 
 <details>
-    <summary><b>archon</b>:</summary>
+    <summary><b>☁️ Archon</b>:</summary>
     <code>source code</code>: https://github.com/archonproject/archon<br>
     <code>description</code>: -<br>
     <code>homepage   </code>: https://chrisprom.com/archon/<br>
@@ -1008,7 +1008,7 @@
 </details>
 
 <details>
-    <summary><b>ardour</b>:</summary>
+    <summary><b>💻 Ardour</b>:</summary>
     <code>source code</code>: https://github.com/Ardour/ardour<br>
     <code>description</code>: Mirror of Ardour Source Code<br>
     <code>homepage   </code>: http://ardour.org<br>
@@ -1018,7 +1018,7 @@
 </details>
 
 <details>
-    <summary><b>Arduino</b>:</summary>
+    <summary><b>💻 Arduino</b>:</summary>
     <code>source code</code>: https://github.com/arduino/Arduino<br>
     <code>description</code>: Arduino IDE 1.x<br>
     <code>homepage   </code>: https://www.arduino.cc/en/software<br>
@@ -1028,7 +1028,7 @@
 </details>
 
 <details>
-    <summary><b>artha</b>:</summary>
+    <summary><b>💻 Artha</b>:</summary>
     <code>source code</code>: https://github.com/sria91/artha<br>
     <code>description</code>: Mirror of Artha ~ The Open Thesaurus<br>
     <code>homepage   </code>: -<br>
@@ -1038,7 +1038,7 @@
 </details>
 
 <details>
-    <summary><b>atom-portable</b>:</summary>
+    <summary><b>💻 Atom Portable</b>:</summary>
     <code>source code</code>: https://github.com/garethflowers/atom-portable<br>
     <code>description</code>: Portable version of the Atom text editor.<br>
     <code>homepage   </code>: https://garethflowers.dev/atom-portable/<br>
@@ -1048,7 +1048,7 @@
 </details>
 
 <details>
-    <summary><b>atomic-edits</b>:</summary>
+    <summary><b>💻 AtomicEdits</b>:</summary>
     <code>source code</code>: https://github.com/SuboptimalEng/atomic-edits<br>
     <code>description</code>: 🎬 A desktop app that automatically removes silence from videos.<br>
     <code>homepage   </code>: -<br>
@@ -1058,7 +1058,7 @@
 </details>
 
 <details>
-    <summary><b>atropim</b>:</summary>
+    <summary><b>☁️ AtroPIM</b>:</summary>
     <code>source code</code>: https://github.com/atrocore/atropim<br>
     <code>description</code>: AtroPIM is a modern, flexible, configurable, open-source product information management system (PIM) of a new generation.<br>
     <code>homepage   </code>: https://atropim.com<br>
@@ -1068,7 +1068,7 @@
 </details>
 
 <details>
-    <summary><b>aTunes</b>:</summary>
+    <summary><b>💻 aTunes</b>:</summary>
     <code>source code</code>: https://github.com/PDavid/aTunes<br>
     <code>description</code>: Cross-platform player and audio manager<br>
     <code>homepage   </code>: http://www.atunes.org/<br>
@@ -1078,7 +1078,7 @@
 </details>
 
 <details>
-    <summary><b>audacious</b>:</summary>
+    <summary><b>💻 Audacious</b>:</summary>
     <code>source code</code>: https://github.com/audacious-media-player/audacious<br>
     <code>description</code>: A lightweight and versatile audio player<br>
     <code>homepage   </code>: https://audacious-media-player.org<br>
@@ -1088,7 +1088,7 @@
 </details>
 
 <details>
-    <summary><b>audacity</b>:</summary>
+    <summary><b>💻 Audacity</b>:</summary>
     <code>source code</code>: https://github.com/audacity/audacity<br>
     <code>description</code>: Audio Editor                                     <br>
     <code>homepage   </code>: https://wiki.audacityteam.org/wiki/For_Developers<br>
@@ -1098,7 +1098,7 @@
 </details>
 
 <details>
-    <summary><b>Aura.Sql</b>:</summary>
+    <summary><b>☁️ Aura.Sql</b>:</summary>
     <code>source code</code>: https://github.com/auraphp/Aura.Sql<br>
     <code>description</code>: SQL database access through PDO.<br>
     <code>homepage   </code>: -<br>
@@ -1108,7 +1108,7 @@
 </details>
 
 <details>
-    <summary><b>AutoHotkey</b>:</summary>
+    <summary><b>💻 AutoHotkey</b>:</summary>
     <code>source code</code>: https://github.com/AutoHotkey/AutoHotkey<br>
     <code>description</code>: AutoHotkey - macro-creation and automation-oriented scripting utility for Windows.<br>
     <code>homepage   </code>: https://autohotkey.com/<br>
@@ -1118,7 +1118,7 @@
 </details>
 
 <details>
-    <summary><b>awesome-deno</b>:</summary>
+    <summary><b>📔 Awesome Deno</b>:</summary>
     <code>source code</code>: https://github.com/denolib/awesome-deno<br>
     <code>description</code>: Curated list of awesome things related to Deno<br>
     <code>homepage   </code>: -<br>
@@ -1128,7 +1128,7 @@
 </details>
 
 <details>
-    <summary><b>awesome-dotnet-core</b>:</summary>
+    <summary><b>📔 Awesome .NET Core</b>:</summary>
     <code>source code</code>: https://github.com/thangchung/awesome-dotnet-core<br>
     <code>description</code>: :honeybee: A collection of awesome .NET core libraries, tools, frameworks and software<br>
     <code>homepage   </code>: -<br>
@@ -1139,7 +1139,7 @@
 </details>
 
 <details>
-    <summary><b>awesome-php</b>:</summary>
+    <summary><b>📔 Awesome PHP</b>:</summary>
     <code>source code</code>: https://github.com/ziadoz/awesome-php<br>
     <code>description</code>: A curated list of amazingly awesome PHP libraries, resources and shiny things.<br>
     <code>homepage   </code>: -<br>
@@ -1149,7 +1149,7 @@
 </details>
 
 <details>
-    <summary><b>awesome-php-ffi</b>:</summary>
+    <summary><b>📔 Awesome PHP FFI</b>:</summary>
     <code>source code</code>: https://github.com/gabrielrcouto/awesome-php-ffi<br>
     <code>description</code>: PHP FFI examples and use cases<br>
     <code>homepage   </code>: -<br>
@@ -1160,7 +1160,7 @@
 </details>
 
 <details>
-    <summary><b>babel</b>:</summary>
+    <summary><b>💾 Babel</b>:</summary>
     <code>source code</code>: https://github.com/babel/babel<br>
     <code>description</code>: 🐠 Babel is a compiler for writing next generation JavaScript.<br>
     <code>homepage   </code>: https://babel.dev<br>
@@ -1170,7 +1170,7 @@
 </details>
 
 <details>
-    <summary><b>baobab</b>:</summary>
+    <summary><b>💻 Baobab</b>:</summary>
     <code>source code</code>: https://github.com/GNOME/baobab<br>
     <code>description</code>: Read-only mirror of https://gitlab.gnome.org/GNOME/baobab<br>
     <code>homepage   </code>: https://gitlab.gnome.org/GNOME/baobab<br>
@@ -1180,7 +1180,7 @@
 </details>
 
 <details>
-    <summary><b>baseimage-docker</b>:</summary>
+    <summary><b>💾 Baseimage Docker</b>:</summary>
     <code>source code</code>: https://github.com/phusion/baseimage-docker<br>
     <code>description</code>: A minimal Ubuntu base image modified for Docker-friendliness<br>
     <code>homepage   </code>: http://phusion.github.io/baseimage-docker/<br>
