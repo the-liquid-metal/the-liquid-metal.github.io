@@ -1,67 +1,67 @@
 # Annotated PHP App
 
 <details>
-    <summary><h2>desktop: CAD: Architecture</h2></summary>
+    <summary><h3>desktop: CAD: Architecture</h3></summary>
 	<code>Sweet Home 3D</code>  Architectural design app that helps users create a 2D plan of a house, with a 3D preview<br/>
 </details>
 
 <details>
-    <summary><h2>desktop: CAD: Civil</h2></summary>
+    <summary><h3>desktop: CAD: Civil</h3></summary>
 	<code>LibreCAD</code>  App for 2D design<br/>
 	<code>QCAD    </code>  App for 2D design and drafting<br/>
 </details>
 
 <details>
-    <summary><h2>desktop: CAD: Electronic</h2></summary>
+    <summary><h3>desktop: CAD: Electronic</h3></summary>
 	<code>KiCad   </code>  Electronic design automation<br/>
 	<code>LibrePCB</code>  Design automation app to draw schematics and design printed circuit boards<br/>
 	<code>TinyCAD </code>  App for drawing circuit diagrams<br/>
 </details>
 
 <details>
-    <summary><h2>desktop: CAD: Machine</h2></summary>
+    <summary><h3>desktop: CAD: Machine</h3></summary>
 	<code>BRL-CAD </code>  Constructive solid geometry solid modeling computer-aided design system<br/>
 	<code>FreeCAD </code>  General-purpose parametric 3D CAD modeler and a building information modeling app with finite element method support<br/>
 	<code>OpenSCAD</code>  App for creating solid 3D CAD objects<br/>
 </details>
 
 <details>
-    <summary><h2>desktop: Communication: Text Based</h2></summary>
+    <summary><h3>desktop: Communication: Text Based</h3></summary>
 	<code>Pidgin     </code>  Chat app which lets you log into accounts on multiple chat networks simultaneously<br/>
 	<code>Thunderbird</code>  Email app that's easy to set up and customize<br/>
 </details>
 
 <details>
-    <summary><h2>desktop: Communication: Video Based</h2></summary>
+    <summary><h3>desktop: Communication: Video Based</h3></summary>
 	<code>Jitsi Meet</code>  Video conferencing and instant messaging app<br/>
 	<code>OBS Studio</code>  Video recording and live streaming app<br/>
 </details>
 
 <details>
-    <summary><h2>desktop: Dev: Android</h2></summary>
+    <summary><h3>desktop: Dev: Android</h3></summary>
 	<code>APK Studio</code>  IDE for reverse-engineering Android app packages<br/>
 </details>
 
 <details>
-    <summary><h2>desktop: Dev: Microcontroller</h2></summary>
+    <summary><h3>desktop: Dev: Microcontroller</h3></summary>
 	<code>Arduino</code>  Designs and manufactures single-board microcontrollers and microcontroller kits for building digital devices<br/>
 </details>
 
 <details>
-    <summary><h2>desktop: Dev: BASIC</h2></summary>
+    <summary><h3>desktop: Dev: BASIC</h3></summary>
 	<code>BASIC-256     </code>  An easy to use version of BASIC designed to teach students the basics of computer programming<br/>
 	<code>VisualFBEditor</code>  IDE for FreeBasic with visual designer, debugger, project support and etc<br/>
 </details>
 
 <details>
-    <summary><h2>desktop: Dev: Database Server</h2></summary>
+    <summary><h3>desktop: Dev: Database Server</h3></summary>
 	<code>MariaDB   </code>  Relational database made by the original developers of MySQL<br/>
 	<code>MySQL     </code>  Relational database management system<br/>
 	<code>PostgreSQL</code>  Relational database management system emphasizing extensibility and SQL compliance<br/>
 </details>
 
 <details>
-    <summary><h2>desktop: Dev: Database Tools</h2></summary>
+    <summary><h3>desktop: Dev: Database Tools</h3></summary>
 	<code>CSVed          </code>  An easy and powerful CSV file editor<br/>
 	<code>DatabaseBrowser</code>  <br/>
 	<code>DBeaver        </code>  Database tool for developers, database administrators, analysts, and everyone working with data<br/>
@@ -71,13 +71,13 @@
 </details>
 
 <details>
-    <summary><h2>desktop: Dev: IDE + Version Control</h2></summary>
+    <summary><h3>desktop: Dev: IDE + Version Control</h3></summary>
 	<code>SmartGit                   </code>  Git GUI client with support for GitHub, BitBucket, GitLab pull requests and comments<br/>
 	<code>Visual Studio Code (VSCode)</code>  Code editor redefined and optimized for building and debugging modern web and cloud app<br/>
 </details>
 
 <details>
-    <summary><h2>desktop: Dev: Misc</h2></summary>
+    <summary><h3>desktop: Dev: Misc</h3></summary>
 	<code>apachelogsviewer    </code>  <br/>
 	<code>BAT to EXE Converter</code>  Utility tool for programmers who want to convert BAT files to executable code and then encrypt it, make it invisible, or protect it<br/>
 	<code>DevDocs             </code>  Combines multiple API documentations in a fast, organized<br/>
@@ -92,7 +92,7 @@
 </details>
 
 <details>
-    <summary><h2>desktop: Dev: Modelling</h2></summary>
+    <summary><h3>desktop: Dev: Modelling</h3></summary>
 	<code>draw.io      </code>  Graph drawing app that can be used to create diagrams such as flowcharts, wireframes, UML diagrams, organizational charts, and network diagrams<br/>
 	<code>Modelio      </code>  A modeling solution offering a wide range of functionalities based on the main standards of enterprise architecture, software development and systems engineering<br/>
 	<code>Obeo Designer</code>  <br/>
@@ -101,7 +101,7 @@
 </details>
 
 <details>
-    <summary><h2>desktop: Dev: PHP IDE/editor</h2></summary>
+    <summary><h3>desktop: Dev: PHP IDE/editor</h3></summary>
 	<code>Eclipse                    </code>  <br/>
 	<code>Netbeans                   </code>  <br/>
 	<code>Notepad++                  </code>  <br/>
@@ -109,24 +109,24 @@
 </details>
 
 <details>
-    <summary><h2>desktop: Dev: Perl IDE/editor</h2></summary>
+    <summary><h3>desktop: Dev: Perl IDE/editor</h3></summary>
 	<code>Padre</code>  <br/>
 </details>
 
 <details>
-    <summary><h2>desktop: Dev: Python IDE/editor</h2></summary>
+    <summary><h3>desktop: Dev: Python IDE/editor</h3></summary>
 	<code>Spyder</code>  scientific environment written in Python, for Python, and designed by and for scientists, engineers and data analysts<br/>
 	<code>Thonny</code>  IDE designed for beginners<br/>
 </details>
 
 <details>
-    <summary><h2>desktop: Dev: Web Server</h2></summary>
+    <summary><h3>desktop: Dev: Web Server</h3></summary>
 	<code>Mongoose</code>  web server, MQTT and Websocket library for embedded devices<br/>
 	<code>php     </code>  <br/>
 </details>
 
 <details>
-    <summary><h2>desktop: Dev: Server Tools</h2></summary>
+    <summary><h3>desktop: Dev: Server Tools</h3></summary>
 	<code>advancedrestclient</code>  <br/>
 	<code>ConEmu            </code>  Presents multiple consoles and simple GUI app as one customizable GUI window with tabs and a status bar<br/>
 	<code>FileZilla         </code>  FTP and FTPS app<br/>
@@ -136,7 +136,7 @@
 </details>
 
 <details>
-    <summary><h2>desktop: Dev: Version Control</h2></summary>
+    <summary><h3>desktop: Dev: Version Control</h3></summary>
 	<code>KDiff3    </code>  Compares or merges two or three text input files or directories, shows the differences line by line and character by character<br/>
 	<code>Meld      </code>  Visual diff and merge tool, targeted at developers<br/>
 	<code>Sourcetree</code>  A Git GUI that offers a visual representation of your repositories<br/>
@@ -145,7 +145,7 @@
 </details>
 
 <details>
-    <summary><h2>desktop: Development</h2></summary>
+    <summary><h3>desktop: Development</h3></summary>
 	<code>apachelogviewer</code>  <br/>
 	<code>battoexe       </code>  <br/>
 	<code>Inno Setup     </code>  <br/>
@@ -155,14 +155,14 @@
 </details>
 
 <details>
-    <summary><h2>desktop: Editor: Accounting</h2></summary>
+    <summary><h3>desktop: Editor: Accounting</h3></summary>
 	<code>GnuCash         </code>  <br/>
 	<code>Grisbi          </code>  <br/>
 	<code>Money Manager Ex</code>  <br/>
 </details>
 
 <details>
-    <summary><h2>desktop: Editor: Animation</h2></summary>
+    <summary><h3>desktop: Editor: Animation</h3></summary>
 	<code>Blender  </code>  <br/>
 	<code>OpenToonz</code>  <br/>
 	<code>Pencil2D </code>  <br/>
@@ -171,7 +171,7 @@
 </details>
 
 <details>
-    <summary><h2>desktop: Editor: Document</h2></summary>
+    <summary><h3>desktop: Editor: Document</h3></summary>
 	<code>BabelPad          </code>  <br/>
 	<code>BlueGriffon       </code>  <br/>
 	<code>CuteMarkEd        </code>  <br/>
@@ -184,14 +184,14 @@
 </details>
 
 <details>
-    <summary><h2>desktop: Editor: Gantt</h2></summary>
+    <summary><h3>desktop: Editor: Gantt</h3></summary>
 	<code>Focalboard  </code>  <br/>
 	<code>GanttProject</code>  <br/>
 	<code>ProjectLibre</code>  <br/>
 </details>
 
 <details>
-    <summary><h2>desktop: Editor: Generic Sound</h2></summary>
+    <summary><h3>desktop: Editor: Generic Sound</h3></summary>
 	<code>Ardour   </code>  <br/>
 	<code>Audacity </code>  <br/>
 	<code>Fre:ac   </code>  <br/>
@@ -201,7 +201,7 @@
 </details>
 
 <details>
-    <summary><h2>desktop: Editor: Graphics</h2></summary>
+    <summary><h3>desktop: Editor: Graphics</h3></summary>
 	<code>Darktable                </code>  <br/>
 	<code>GIMP                     </code>  <br/>
 	<code>Greenfish Icon Editor Pro</code>  <br/>
@@ -212,7 +212,7 @@
 </details>
 
 <details>
-    <summary><h2>desktop: Editor: Graphics Utils</h2></summary>
+    <summary><h3>desktop: Editor: Graphics Utils</h3></summary>
 	<code>AntiDupl.NET                  </code>  <br/>
 	<code>Awesome Duplicate Photo Finder</code>  <br/>
 	<code>Caesium                       </code>  <br/>
@@ -224,7 +224,7 @@
 </details>
 
 <details>
-    <summary><h2>desktop: Editor: Metadata</h2></summary>
+    <summary><h3>desktop: Editor: Metadata</h3></summary>
 	<code>BatchPurifier</code>  <br/>
 	<code>EasyTAG      </code>  <br/>
 	<code>Kid3         </code>  <br/>
@@ -232,14 +232,14 @@
 </details>
 
 <details>
-    <summary><h2>desktop: Editor: Mind map</h2></summary>
+    <summary><h3>desktop: Editor: Mind map</h3></summary>
 	<code>Freeplane           </code>  <br/>
 	<code>TreeSheets          </code>  <br/>
 	<code>View Your Mind (VYM)</code>  <br/>
 </details>
 
 <details>
-    <summary><h2>desktop: Editor: Music</h2></summary>
+    <summary><h3>desktop: Editor: Music</h3></summary>
 	<code>BRELS MIDI Editor          </code>  <br/>
 	<code>Helio                      </code>  <br/>
 	<code>LMMS                       </code>  <br/>
@@ -251,7 +251,7 @@
 </details>
 
 <details>
-    <summary><h2>desktop: Editor: Notes</h2></summary>
+    <summary><h3>desktop: Editor: Notes</h3></summary>
 	<code>Boost Note</code>  <br/>
 	<code>Cherrytree</code>  <br/>
 	<code>KeyNote NF</code>  <br/>
@@ -261,25 +261,25 @@
 </details>
 
 <details>
-    <summary><h2>desktop: Editor: Office</h2></summary>
+    <summary><h3>desktop: Editor: Office</h3></summary>
 	<code>Calligra   </code>  <br/>
 	<code>LibreOffice</code>  <br/>
 	<code>OnlyOffice </code>  <br/>
 </details>
 
 <details>
-    <summary><h2>desktop: Editor: Publishing</h2></summary>
+    <summary><h3>desktop: Editor: Publishing</h3></summary>
 	<code>Scribus</code>  <br/>
 </details>
 
 <details>
-    <summary><h2>desktop: Editor: Subtitle</h2></summary>
+    <summary><h3>desktop: Editor: Subtitle</h3></summary>
 	<code>Aegisub      </code>  <br/>
 	<code>Subtitle Edit</code>  <br/>
 </details>
 
 <details>
-    <summary><h2>desktop: Editor: Video</h2></summary>
+    <summary><h3>desktop: Editor: Video</h3></summary>
 	<code>HandBrake</code>  <br/>
 	<code>Kdenlive </code>  <br/>
 	<code>Kinovea  </code>  <br/>
@@ -290,7 +290,7 @@
 </details>
 
 <details>
-    <summary><h2>desktop: Editor: Video Utils</h2></summary>
+    <summary><h3>desktop: Editor: Video Utils</h3></summary>
 	<code>CamStudio          </code>  <br/>
 	<code>Inviska MKV Extract</code>  <br/>
 	<code>Jahshaka           </code>  <br/>
@@ -301,7 +301,7 @@
 </details>
 
 <details>
-    <summary><h2>desktop: Education: All Age</h2></summary>
+    <summary><h3>desktop: Education: All Age</h3></summary>
 	<code>Artha     </code>  <br/>
 	<code>Celestia  </code>  <br/>
 	<code>Gramps    </code>  <br/>
@@ -310,20 +310,20 @@
 </details>
 
 <details>
-    <summary><h2>desktop: Education: Bibliography</h2></summary>
+    <summary><h3>desktop: Education: Bibliography</h3></summary>
 	<code>Calibre</code>  <br/>
 	<code>JabRef </code>  <br/>
 </details>
 
 <details>
-    <summary><h2>desktop: Education: Higher</h2></summary>
+    <summary><h3>desktop: Education: Higher</h3></summary>
 	<code>KStars       </code>  <br/>
 	<code>Tagaini Jisho</code>  <br/>
 	<code>Wakan        </code>  <br/>
 </details>
 
 <details>
-    <summary><h2>desktop: Education: Statistic</h2></summary>
+    <summary><h3>desktop: Education: Statistic</h3></summary>
 	<code>GNU Octave</code>  <br/>
 	<code>gretl     </code>  <br/>
 	<code>jamovi    </code>  <br/>
@@ -335,12 +335,12 @@
 </details>
 
 <details>
-    <summary><h2>desktop: Education: Utility</h2></summary>
+    <summary><h3>desktop: Education: Utility</h3></summary>
 	<code>Safe Exam Browser</code>  <br/>
 </details>
 
 <details>
-    <summary><h2>desktop: Media: Games</h2></summary>
+    <summary><h3>desktop: Media: Games</h3></summary>
 	<code>Freeciv     </code>  <br/>
 	<code>LeoCAD      </code>  <br/>
 	<code>OpenTTD     </code>  <br/>
@@ -348,12 +348,12 @@
 </details>
 
 <details>
-    <summary><h2>desktop: Media: Knowledge + Notes</h2></summary>
+    <summary><h3>desktop: Media: Knowledge + Notes</h3></summary>
 	<code>Zeal</code>  <br/>
 </details>
 
 <details>
-    <summary><h2>desktop: Media: Manager</h2></summary>
+    <summary><h3>desktop: Media: Manager</h3></summary>
 	<code>CDex     </code>  <br/>
 	<code>digiKam  </code>  <br/>
 	<code>FBReader </code>  <br/>
@@ -362,7 +362,7 @@
 </details>
 
 <details>
-    <summary><h2>desktop: Media: Player + Viewer</h2></summary>
+    <summary><h3>desktop: Media: Player + Viewer</h3></summary>
 	<code>Allusion  </code>  <br/>
 	<code>aTunes    </code>  <br/>
 	<code>Audacious </code>  <br/>
@@ -382,14 +382,14 @@
 </details>
 
 <details>
-    <summary><h2>desktop: Utility: Cloud</h2></summary>
+    <summary><h3>desktop: Utility: Cloud</h3></summary>
 	<code>Cyberduck</code>  <br/>
 	<code>FileZilla</code>  <br/>
 	<code>Nextcloud</code>  <br/>
 </details>
 
 <details>
-    <summary><h2>desktop: Utility: Disc</h2></summary>
+    <summary><h3>desktop: Utility: Disc</h3></summary>
 	<code>cdrtfe              </code>  <br/>
 	<code>InfraRecorder       </code>  <br/>
 	<code>Virtual Volumes View</code>  <br/>
@@ -398,7 +398,7 @@
 </details>
 
 <details>
-    <summary><h2>desktop: Utility: Display</h2></summary>
+    <summary><h3>desktop: Utility: Display</h3></summary>
 	<code>Don't Sleep </code>  <br/>
 	<code>RBTray      </code>  <br/>
 	<code>Screen Ruler</code>  <br/>
@@ -406,7 +406,7 @@
 </details>
 
 <details>
-    <summary><h2>desktop: Utility: File</h2></summary>
+    <summary><h3>desktop: Utility: File</h3></summary>
 	<code>7-zip</code>  <br/>
 	<code>Awesome Duplicate Photo Finder</code>  <br/>
 	<code>DiffPDF                       </code>  <br/>
@@ -431,7 +431,7 @@
 </details>
 
 <details>
-    <summary><h2>desktop: Utility: Font</h2></summary>
+    <summary><h3>desktop: Utility: Font</h3></summary>
 	<code>AMP Font Viewer</code>  <br/>
 	<code>BabelMap       </code>  <br/>
 	<code>Birdfont       </code>  <br/>
@@ -440,7 +440,7 @@
 </details>
 
 <details>
-    <summary><h2>desktop: Utility: Internet + News</h2></summary>
+    <summary><h3>desktop: Utility: Internet + News</h3></summary>
 	<code>Advanced Onion Router (advor)</code>  <br/>
 	<code>Falkon                       </code>  <br/>
 	<code>Ferdi                        </code>  <br/>
@@ -457,7 +457,7 @@
 </details>
 
 <details>
-    <summary><h2>desktop: Utility: Misc</h2></summary>
+    <summary><h3>desktop: Utility: Misc</h3></summary>
 	<code>Alarm Cron          </code>  <br/>
 	<code>Free Countdown Timer</code>  <br/>
 	<code>FreeOCR             </code>  <br/>
@@ -469,7 +469,7 @@
 </details>
 
 <details>
-    <summary><h2>desktop: Utility: Security</h2></summary>
+    <summary><h3>desktop: Utility: Security</h3></summary>
 	<code>Angry IP Scanner (ipscan)</code>  <br/>
 	<code>ClamWin                  </code>  <br/>
 	<code>Eraser                   </code>  <br/>
@@ -481,7 +481,7 @@
 </details>
 
 <details>
-    <summary><h2>desktop: Utility: System</h2></summary>
+    <summary><h3>desktop: Utility: System</h3></summary>
 	<code>BleachBit                          </code>  <br/>
 	<code>Bulk Crap Uninstaller (BCU)        </code>  <br/>
 	<code>ConEmu                             </code>  <br/>
@@ -501,7 +501,7 @@
 </details>
 
 <details>
-    <summary><h2>desktop: Utility: Virtualization</h2></summary>
+    <summary><h3>desktop: Utility: Virtualization</h3></summary>
 	<code>MobaLiveCD </code>  <br/>
 	<code>VeraCrypt  </code>  <br/>
 	<code>VirtualBox </code>  <br/>
@@ -509,7 +509,7 @@
 </details>
 
 <details>
-    <summary><h2>desktop: Utility: Web Crawler</h2></summary>
+    <summary><h3>desktop: Utility: Web Crawler</h3></summary>
 	<code>HTTrack           </code>  <br/>
 	<code>WebChangeMonitor  </code>  <br/>
 	<code>Xenu's Link Sleuth</code>  <br/>
