@@ -1454,7 +1454,7 @@
 </details>
 
 <details>
-    <summary><b>CalemEAM</b>:</summary>
+    <summary><b>☁️ CalemEAM</b>:</summary>
     <code>source code</code>: https://github.com/calemcme/CalemEAM<br>
     <code>description</code>: CalemEAM is a commercial open source software provider for enterprise asset management (EAM) and computerized maintenance management systems (CMMS).<br>
     <code>homepage   </code>: http://www.calemeam.com<br>
@@ -1464,7 +1464,7 @@
 </details>
 
 <details>
-    <summary><b>calibre</b>:</summary>
+    <summary><b>💻 calibre</b>:</summary>
     <code>source code</code>: https://github.com/kovidgoyal/calibre<br>
     <code>description</code>: The official source code repository for the calibre ebook manager<br>
     <code>homepage   </code>: https://calibre-ebook.com<br>
@@ -1474,7 +1474,7 @@
 </details>
 
 <details>
-    <summary><b>calligra</b>:</summary>
+    <summary><b>💻 Calligra Suite</b>:</summary>
     <code>source code</code>: https://github.com/KDE/calligra<br>
     <code>description</code>: Office and graphic art suite by KDE<br>
     <code>homepage   </code>: https://invent.kde.org/office/calligra<br>
@@ -1484,7 +1484,7 @@
 </details>
 
 <details>
-    <summary><b>calligraplan</b>:</summary>
+    <summary><b>💻 Calligra Plan</b>:</summary>
     <code>source code</code>: https://github.com/KDE/calligraplan<br>
     <code>description</code>: Project management application<br>
     <code>homepage   </code>: https://invent.kde.org/office/calligraplan<br>
@@ -1494,7 +1494,7 @@
 </details>
 
 <details>
-    <summary><b>care2x</b>:</summary>
+    <summary><b>☁️ Care2x</b>:</summary>
     <code>source code</code>: https://github.com/care2x/care2x<br>
     <code>description</code>: Care2x 2.7 version from sourceforge<br>
     <code>homepage   </code>: -<br>
@@ -1504,7 +1504,7 @@
 </details>
 
 <details>
-    <summary><b>chancejs</b>:</summary>
+    <summary><b>⚙️ Chance</b>:</summary>
     <code>source code</code>: https://github.com/chancejs/chancejs<br>
     <code>description</code>: Chance - Random generator helper for JavaScript<br>
     <code>homepage   </code>: http://chancejs.com<br>
@@ -1514,7 +1514,7 @@
 </details>
 
 <details>
-    <summary><b>Chart.js</b>:</summary>
+    <summary><b>⚙️ Chart.js</b>:</summary>
     <code>source code</code>: https://github.com/chartjs/Chart.js<br>
     <code>description</code>: Simple HTML5 Charts using the <canvas> tag<br>
     <code>homepage   </code>: https://www.chartjs.org/<br>
@@ -1524,7 +1524,7 @@
 </details>
 
 <details>
-    <summary><b>cheatsheets</b>:</summary>
+    <summary><b>📔 cheatsheets</b>:</summary>
     <code>source code</code>: https://github.com/rstacruz/cheatsheets<br>
     <code>description</code>: My cheatsheets<br>
     <code>homepage   </code>: https://devhints.io<br>
@@ -1534,7 +1534,7 @@
 </details>
 
 <details>
-    <summary><b>chikitsa</b>:</summary>
+    <summary><b>☁️ Chikitsa</b>:</summary>
     <code>source code</code>: https://github.com/sanskruti-technologies/chikitsa<br>
     <code>description</code>: Patient Management System<br>
     <code>homepage   </code>: -<br>
@@ -1545,7 +1545,7 @@
 </details>
 
 <details>
-    <summary><b>chive</b>:</summary>
+    <summary><b>☁️ Chive</b>:</summary>
     <code>source code</code>: https://github.com/fusonic/chive<br>
     <code>description</code>: Chive is a free, open source, web-based database management tool, designed to bring joy to web developers - with easy administration and super fast UI.<br>
     <code>homepage   </code>: http://www.chive-project.com<br>
@@ -1555,7 +1555,7 @@
 </details>
 
 <details>
-    <summary><b>chrome</b>:</summary>
+    <summary><b>⚙️ Chrome PHP</b>:</summary>
     <code>source code</code>: https://github.com/chrome-php/chrome<br>
     <code>description</code>: Instrument headless chrome/chromium instances from PHP<br>
     <code>homepage   </code>: -<br>
@@ -1565,7 +1565,7 @@
 </details>
 
 <details>
-    <summary><b>ChurchInfo</b>:</summary>
+    <summary><b>☁️ ChurchInfo</b>:</summary>
     <code>source code</code>: https://github.com/ChurchInfo/ChurchInfo<br>
     <code>description</code>: ChurchInfo is a free church database program to help churches track members, families, groups, pledges and payments. Our feature set is comparable to expensive church management software packages. Our users are supported by an open-source community of people who volunteer their time and energy to make this technology available to all churches.<br>
     <code>homepage   </code>: http://churchdb.org<br>
@@ -1576,7 +1576,17 @@
 </details>
 
 <details>
-    <summary><b>citrusdb</b>:</summary>
+    <summary><b>☁️ ChurchCRM</b>:</summary>
+    <code>source code</code>: https://github.com/ChurchCRM/CRM<br>
+    <code>description</code>: ChurchCRM is an OpenSource Church CRM & Management Software.<br>
+    <code>homepage   </code>: http://www.ChurchCRM.io<br>
+    <code>prog lang  </code>: PHP<br>
+    <code>archived   </code>: -<br>
+    <code>opinion    </code>: ⭐<br>
+</details>
+
+<details>
+    <summary><b>☁️ CitrusDB</b>:</summary>
     <code>source code</code>: https://github.com/paulyasi/citrusdb<br>
     <code>description</code>: open source customer service and billing software, version 3.x development<br>
     <code>homepage   </code>: http://www.citrusdb.org<br>
@@ -1586,7 +1596,7 @@
 </details>
 
 <details>
-    <summary><b>civicrm-core</b>:</summary>
+    <summary><b>☁️ CiviCRM (Core Application and Framework)</b>:</summary>
     <code>source code</code>: https://github.com/civicrm/civicrm-core<br>
     <code>description</code>: CiviCRM (Core Application and Framework)<br>
     <code>homepage   </code>: -<br>
@@ -1596,7 +1606,7 @@
 </details>
 
 <details>
-    <summary><b>civicrm-drupal-8</b>:</summary>
+    <summary><b>☁️ CiviCRM Drupal 8 Module</b>:</summary>
     <code>source code</code>: https://github.com/civicrm/civicrm-drupal-8<br>
     <code>description</code>: Integration module for CiviCRM and Drupal 8<br>
     <code>homepage   </code>: -<br>
@@ -1606,7 +1616,7 @@
 </details>
 
 <details>
-    <summary><b>civicrm-joomla</b>:</summary>
+    <summary><b>☁️ CiviCRM (Joomla Integration)</b>:</summary>
     <code>source code</code>: https://github.com/civicrm/civicrm-joomla<br>
     <code>description</code>: CiviCRM (Joomla Integration)<br>
     <code>homepage   </code>: -<br>
@@ -1617,7 +1627,7 @@
 </details>
 
 <details>
-    <summary><b>civicrm-wordpress</b>:</summary>
+    <summary><b>☁️ CiviCRM (WordPress Integration)</b>:</summary>
     <code>source code</code>: https://github.com/civicrm/civicrm-wordpress<br>
     <code>description</code>: CiviCRM (WordPress Integration)<br>
     <code>homepage   </code>: -<br>
@@ -1628,7 +1638,7 @@
 </details>
 
 <details>
-    <summary><b>Claroline</b>:</summary>
+    <summary><b>☁️ Claroline</b>:</summary>
     <code>source code</code>: https://github.com/claroline/Claroline<br>
     <code>description</code>: Learning management system<br>
     <code>homepage   </code>: https://www.claroline.com<br>
@@ -1638,7 +1648,7 @@
 </details>
 
 <details>
-    <summary><b>classroombookings</b>:</summary>
+    <summary><b>☁️ classroombookings</b>:</summary>
     <code>source code</code>: https://github.com/craigrodway/classroombookings<br>
     <code>description</code>: The open source hassle-free room booking system for schools<br>
     <code>homepage   </code>: https://www.classroombookings.com/<br>
@@ -1648,7 +1658,7 @@
 </details>
 
 <details>
-    <summary><b>clearhealth</b>:</summary>
+    <summary><b>☁️ ClearHealth</b>:</summary>
     <code>source code</code>: https://github.com/clearhealth/clearhealth<br>
     <code>description</code>: Open Source Practice Management and Electronic Medical Records System<br>
     <code>homepage   </code>: www.clear-health.com<br>
@@ -1658,7 +1668,7 @@
 </details>
 
 <details>
-    <summary><b>Clementine</b>:</summary>
+    <summary><b>💻 Clementine Music Player</b>:</summary>
     <code>source code</code>: https://github.com/clementine-player/Clementine<br>
     <code>description</code>: :tangerine: Clementine Music Player<br>
     <code>homepage   </code>: https://www.clementine-player.org/<br>
@@ -1668,7 +1678,7 @@
 </details>
 
 <details>
-    <summary><b>clipbucket</b>:</summary>
+    <summary><b>☁️ ClipBucket</b>:</summary>
     <code>source code</code>: https://github.com/arslancb/clipbucket<br>
     <code>description</code>: Open source video sharing website script, Tune.pk clone, Youtube clone, dailymotion clone. PHP.<br>
     <code>homepage   </code>: http://clipbucket.com<br>
@@ -1678,7 +1688,7 @@
 </details>
 
 <details>
-    <summary><b>cloc</b>:</summary>
+    <summary><b>💾 cloc</b>:</summary>
     <code>source code</code>: https://github.com/AlDanial/cloc<br>
     <code>description</code>: cloc counts blank lines, comment lines, and physical lines of source code in many programming languages.<br>
     <code>homepage   </code>: -<br>
@@ -1688,7 +1698,7 @@
 </details>
 
 <details>
-    <summary><b>clockwork</b>:</summary>
+    <summary><b>☁️ Clockwork</b>:</summary>
     <code>source code</code>: https://github.com/itsgoingd/clockwork<br>
     <code>description</code>: Clockwork - php dev tools in your browser - server-side component<br>
     <code>homepage   </code>: https://underground.works/clockwork<br>
@@ -1698,7 +1708,7 @@
 </details>
 
 <details>
-    <summary><b>clonezilla</b>:</summary>
+    <summary><b>📔 Clonezilla</b>:</summary>
     <code>source code</code>: https://github.com/stevenshiau/clonezilla<br>
     <code>description</code>: Clonezilla is a partition or disk clone tool similar to Norton Ghost®. It saves and restores only used blocks in hard drive. Two types of Clonezilla are available, Clonezilla live and Clonezilla SE (Server Edition).<br>
     <code>homepage   </code>: -<br>
@@ -1708,7 +1718,7 @@
 </details>
 
 <details>
-    <summary><b>closure</b>:</summary>
+    <summary><b>⚙️ Opis Closure</b>:</summary>
     <code>source code</code>: https://github.com/opis/closure<br>
     <code>description</code>: Serialize closures (anonymous functions)<br>
     <code>homepage   </code>: https://opis.io/closure<br>
@@ -1718,7 +1728,7 @@
 </details>
 
 <details>
-    <summary><b>closure-compiler</b>:</summary>
+    <summary><b>💾 Google Closure Compiler</b>:</summary>
     <code>source code</code>: https://github.com/google/closure-compiler<br>
     <code>description</code>: A JavaScript checker and optimizer.<br>
     <code>homepage   </code>: https://developers.google.com/closure/compiler/<br>
@@ -1728,7 +1738,7 @@
 </details>
 
 <details>
-    <summary><b>cmdow</b>:</summary>
+    <summary><b>💾 Cmdow</b>:</summary>
     <code>source code</code>: https://github.com/ritchielawrence/cmdow<br>
     <code>description</code>: Win32 console application for manipulating program windows.<br>
     <code>homepage   </code>: http://ritchielawrence.github.io/cmdow/<br>
@@ -1738,7 +1748,7 @@
 </details>
 
 <details>
-    <summary><b>cms</b>:</summary>
+    <summary><b>☁️ Craft CMS</b>:</summary>
     <code>source code</code>: https://github.com/craftcms/cms<br>
     <code>description</code>: Craft is a flexible, extensible platform for creating bespoke digital experiences.<br>
     <code>homepage   </code>: https://craftcms.com<br>
@@ -1748,7 +1758,7 @@
 </details>
 
 <details>
-    <summary><b>CodeIgniter</b>:</summary>
+    <summary><b>⚙️ CodeIgniter (B.C. Institute of Technology)</b>:</summary>
     <code>source code</code>: https://github.com/bcit-ci/CodeIgniter<br>
     <code>description</code>: Open Source PHP Framework (originally from EllisLab)<br>
     <code>homepage   </code>: https://codeigniter.com/<br>
@@ -1758,7 +1768,7 @@
 </details>
 
 <details>
-    <summary><b>CodeIgniter4</b>:</summary>
+    <summary><b>⚙️ CodeIgniter4</b>:</summary>
     <code>source code</code>: https://github.com/codeigniter4/CodeIgniter4<br>
     <code>description</code>: Open Source PHP Framework (originally from EllisLab)<br>
     <code>homepage   </code>: https://codeigniter.com/<br>
@@ -1768,7 +1778,7 @@
 </details>
 
 <details>
-    <summary><b>codemirror5</b>:</summary>
+    <summary><b>⚙️ CodeMirror</b>:</summary>
     <code>source code</code>: https://github.com/codemirror/codemirror5<br>
     <code>description</code>: In-browser code editor (version 5, legacy)<br>
     <code>homepage   </code>: http://codemirror.net/5/<br>
@@ -1778,7 +1788,7 @@
 </details>
 
 <details>
-    <summary><b>Collabtive</b>:</summary>
+    <summary><b>☁️ Collabtive</b>:</summary>
     <code>source code</code>: https://github.com/philippK-de/Collabtive<br>
     <code>description</code>: Collabtive is web based project management software<br>
     <code>homepage   </code>: https://collabtive.o-dyn.de<br>
@@ -1788,7 +1798,7 @@
 </details>
 
 <details>
-    <summary><b>collision</b>:</summary>
+    <summary><b>⚙️ Collision</b>:</summary>
     <code>source code</code>: https://github.com/nunomaduro/collision<br>
     <code>description</code>: 💥 Collision is a beautiful error reporting tool for command-line applications<br>
     <code>homepage   </code>: https://nunomaduro.com<br>
@@ -1798,7 +1808,7 @@
 </details>
 
 <details>
-    <summary><b>colors.php</b>:</summary>
+    <summary><b>⚙️ colors.php</b>:</summary>
     <code>source code</code>: https://github.com/kevinlebrun/colors.php<br>
     <code>description</code>: An easy way to add colors in your CLI scripts.<br>
     <code>homepage   </code>: -<br>
@@ -1808,7 +1818,7 @@
 </details>
 
 <details>
-    <summary><b>composer</b>:</summary>
+    <summary><b>💾 Composer</b>:</summary>
     <code>source code</code>: https://github.com/composer/composer<br>
     <code>description</code>: Dependency Manager for PHP<br>
     <code>homepage   </code>: https://getcomposer.org/<br>
@@ -1818,7 +1828,7 @@
 </details>
 
 <details>
-    <summary><b>composer-asset-plugin</b>:</summary>
+    <summary><b>⚙️ Composer Asset Plugin</b>:</summary>
     <code>source code</code>: https://github.com/fxpio/composer-asset-plugin<br>
     <code>description</code>: NPM/Bower Dependency Manager for Composer<br>
     <code>homepage   </code>: -<br>
@@ -1828,7 +1838,7 @@
 </details>
 
 <details>
-    <summary><b>ConEmu</b>:</summary>
+    <summary><b>💾 ConEmu</b>:</summary>
     <code>source code</code>: https://github.com/Maximus5/ConEmu<br>
     <code>description</code>: Customizable Windows terminal with tabs, splits, quake-style, hotkeys and more<br>
     <code>homepage   </code>: https://conemu.github.io/<br>
@@ -1838,7 +1848,7 @@
 </details>
 
 <details>
-    <summary><b>console</b>:</summary>
+    <summary><b>💾 ConsoleZ</b>:</summary>
     <code>source code</code>: https://github.com/cbucher/console<br>
     <code>description</code>: This is a modified version of Console 2 for a better experience under Windows Vista/7/8/10 and a better visual rendering.<br>
     <code>homepage   </code>: https://github.com/cbucher/console/wiki<br>
@@ -1848,7 +1858,7 @@
 </details>
 
 <details>
-    <summary><b>contenteditable-autocomplete</b>:</summary>
+    <summary><b>⚙️ contenteditable-autocomplete</b>:</summary>
     <code>source code</code>: https://github.com/gr2m/contenteditable-autocomplete<br>
     <code>description</code>: Autocomplete for contenteditable tags<br>
     <code>homepage   </code>: https://gr2m.github.io/contenteditable-autocomplete<br>
@@ -1859,7 +1869,7 @@
 </details>
 
 <details>
-    <summary><b>core</b>:</summary>
+    <summary><b>💻 LibreOffice</b>:</summary>
     <code>source code</code>: https://github.com/LibreOffice/core<br>
     <code>description</code>: Read-only LibreOffice core repo - no pull request (use gerrit instead https://gerrit.libreoffice.org/) - don't download zip, use https://dev-www.libreoffice.org/bundles/  instead<br>
     <code>homepage   </code>: https://www.libreoffice.org/<br>
@@ -1869,7 +1879,7 @@
 </details>
 
 <details>
-    <summary><b>core</b>:</summary>
+    <summary><b>☁️ ownCloud Core</b>:</summary>
     <code>source code</code>: https://github.com/owncloud/core<br>
     <code>description</code>: :cloud: ownCloud web server core (Files, DAV, etc.)<br>
     <code>homepage   </code>: https://owncloud.com<br>
@@ -1879,7 +1889,7 @@
 </details>
 
 <details>
-    <summary><b>coreui-icons</b>:</summary>
+    <summary><b>⚙️ CoreUI Icons</b>:</summary>
     <code>source code</code>: https://github.com/coreui/coreui-icons<br>
     <code>description</code>: CoreUI Free Icons -  Premium designed free icon set with marks in SVG, Webfont and raster formats<br>
     <code>homepage   </code>: https://coreui.io/icons/<br>
@@ -1889,7 +1899,7 @@
 </details>
 
 <details>
-    <summary><b>countries</b>:</summary>
+    <summary><b>⚙️ countries (mledoze)</b>:</summary>
     <code>source code</code>: https://github.com/mledoze/countries<br>
     <code>description</code>: World countries in JSON, CSV, XML and Yaml. Any help is welcome!<br>
     <code>homepage   </code>: https://mledoze.github.io/countries/<br>
@@ -1899,7 +1909,7 @@
 </details>
 
 <details>
-    <summary><b>countries</b>:</summary>
+    <summary><b>⚙️ countries (rinvex)</b>:</summary>
     <code>source code</code>: https://github.com/rinvex/countries<br>
     <code>description</code>: Rinvex Country is a simple and lightweight package for retrieving country details with flexibility. A whole bunch of data including name, demonym, capital, iso codes, dialling codes, geo data, currencies, flags, emoji, and other attributes for all 250 countries worldwide at your fingertips.<br>
     <code>homepage   </code>: https://rinvex.com<br>
@@ -1909,7 +1919,7 @@
 </details>
 
 <details>
-    <summary><b>cpg1.6.x</b>:</summary>
+    <summary><b>☁️ Coppermine Photo Gallery</b>:</summary>
     <code>source code</code>: https://github.com/coppermine-gallery/cpg1.6.x<br>
     <code>description</code>: -<br>
     <code>homepage   </code>: -<br>
@@ -1919,17 +1929,7 @@
 </details>
 
 <details>
-    <summary><b>CRM</b>:</summary>
-    <code>source code</code>: https://github.com/ChurchCRM/CRM<br>
-    <code>description</code>: ChurchCRM is an OpenSource Church CRM & Management Software.<br>
-    <code>homepage   </code>: http://www.ChurchCRM.io<br>
-    <code>prog lang  </code>: PHP<br>
-    <code>archived   </code>: -<br>
-    <code>opinion    </code>: ⭐<br>
-</details>
-
-<details>
-    <summary><b>crm</b>:</summary>
+    <summary><b>☁️ OroCRM</b>:</summary>
     <code>source code</code>: https://github.com/oroinc/crm<br>
     <code>description</code>: Main OroCRM package with core functionality.<br>
     <code>homepage   </code>: -<br>
@@ -1939,7 +1939,7 @@
 </details>
 
 <details>
-    <summary><b>css.gg</b>:</summary>
+    <summary><b>⚙️ css.gg</b>:</summary>
     <code>source code</code>: https://github.com/astrit/css.gg<br>
     <code>description</code>: 700+ Pure CSS, SVG, PNG & Figma UI Icons Available in SVG Sprite, styled-components, NPM & API and 6000 glyphs<br>
     <code>homepage   </code>: https://css.gg<br>
@@ -1949,7 +1949,7 @@
 </details>
 
 <details>
-    <summary><b>CsvQuery</b>:</summary>
+    <summary><b>⚙️ CSV Query (Notepad++ plugin)</b>:</summary>
     <code>source code</code>: https://github.com/jokedst/CsvQuery<br>
     <code>description</code>: Plugin for Notepad++ that treats CSV files as (read only) SQL tables<br>
     <code>homepage   </code>: -<br>
@@ -1960,7 +1960,7 @@
 </details>
 
 <details>
-    <summary><b>CuteTorrent</b>:</summary>
+    <summary><b>💻 CuteTorrent</b>:</summary>
     <code>source code</code>: https://github.com/CuteTorrent/CuteTorrent<br>
     <code>description</code>: BitTorrent client based on libtorrent-rasterbar with user-friendly interface<br>
     <code>homepage   </code>: https://cutetorrent.info<br>
@@ -1970,7 +1970,7 @@
 </details>
 
 <details>
-    <summary><b>cyberduck</b>:</summary>
+    <summary><b>💻 Cyberduck</b>:</summary>
     <code>source code</code>: https://github.com/iterate-ch/cyberduck<br>
     <code>description</code>: Cyberduck is a libre FTP, SFTP, WebDAV, Amazon S3, Backblaze B2, Microsoft Azure & OneDrive and OpenStack Swift file transfer client for Mac and Windows.<br>
     <code>homepage   </code>: https://cyberduck.io/<br>
@@ -1980,7 +1980,7 @@
 </details>
 
 <details>
-    <summary><b>daloradius</b>:</summary>
+    <summary><b>☁️ daloRADIUS</b>:</summary>
     <code>source code</code>: https://github.com/lirantal/daloradius<br>
     <code>description</code>: daloRADIUS is an advanced RADIUS web management application aimed at managing hotspots and general-purpose ISP deployments. It features user management, graphical reporting, accounting, a billing engine and integrates with GoogleMaps for geo-locating.<br>
     <code>homepage   </code>: http://www.daloradius.com<br>
