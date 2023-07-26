@@ -4714,7 +4714,7 @@
 </details>
 
 <details>
-    <summary><b>n16n-desktop</b>:</summary>
+    <summary><b>💻 NumericalChameleon</b>:</summary>
     <code>source code</code>: https://github.com/jonelo/n16n-desktop<br>
     <code>description</code>: The NumericalChameleon is a free, open source unit converter for the desktop on macOS, Linux, and Windows<br>
     <code>homepage   </code>: -<br>
@@ -4724,7 +4724,7 @@
 </details>
 
 <details>
-    <summary><b>Natron</b>:</summary>
+    <summary><b>💻 Natron video compositor</b>:</summary>
     <code>source code</code>: https://github.com/NatronGitHub/Natron<br>
     <code>description</code>: Open-source video compositing software. Node-graph based. Similar in functionalities to Adobe After Effects and Nuke by The Foundry.<br>
     <code>homepage   </code>: http://NatronGitHub.github.io<br>
@@ -4734,7 +4734,7 @@
 </details>
 
 <details>
-    <summary><b>navigable-table</b>:</summary>
+    <summary><b>⚙️ Navigable Table (jQuery plugin)</b>:</summary>
     <code>source code</code>: https://github.com/gr2m/navigable-table<br>
     <code>description</code>: A Bootstrap plugin for elegant navigating along table inputs<br>
     <code>homepage   </code>: http://gr2m.github.io/navigable-table/<br>
@@ -4744,7 +4744,7 @@
 </details>
 
 <details>
-    <summary><b>netbeans</b>:</summary>
+    <summary><b>💻 Netbeans</b>:</summary>
     <code>source code</code>: https://github.com/apache/netbeans<br>
     <code>description</code>: Apache NetBeans<br>
     <code>homepage   </code>: https://netbeans.apache.org/<br>
@@ -4754,7 +4754,7 @@
 </details>
 
 <details>
-    <summary><b>netron</b>:</summary>
+    <summary><b>💻 Netron viewer for neural network</b>:</summary>
     <code>source code</code>: https://github.com/lutzroeder/netron<br>
     <code>description</code>: Visualizer for neural network, deep learning, and machine learning models<br>
     <code>homepage   </code>: https://netron.app<br>
@@ -4764,7 +4764,7 @@
 </details>
 
 <details>
-    <summary><b>notepad-plus-plus</b>:</summary>
+    <summary><b>💻 Notepad++</b>:</summary>
     <code>source code</code>: https://github.com/notepad-plus-plus/notepad-plus-plus<br>
     <code>description</code>: Notepad++ official repository<br>
     <code>homepage   </code>: https://notepad-plus-plus.org/<br>
@@ -4774,7 +4774,7 @@
 </details>
 
 <details>
-    <summary><b>npackd-cpp</b>:</summary>
+    <summary><b>💻 Npackd</b>:</summary>
     <code>source code</code>: https://github.com/npackd/npackd-cpp<br>
     <code>description</code>: Package manager for Microsoft Windows (GUI and command line utility)<br>
     <code>homepage   </code>: https://www.npackd.org<br>
@@ -4784,7 +4784,7 @@
 </details>
 
 <details>
-    <summary><b>npp-phpautocompletion (Notepad++ plugin)</b>:</summary>
+    <summary><b>Autocompletion for PHP (Notepad++ plugin)</b>:</summary>
     <code>source code</code>: https://github.com/StanDog/npp-phpautocompletion<br>
     <code>description</code>: Autocompletion for PHP in Notepad++<br>
     <code>homepage   </code>: -<br>
@@ -4794,7 +4794,7 @@
 </details>
 
 <details>
-    <summary><b>NppLSP (Notepad++ plugin)</b>:</summary>
+    <summary><b>⚙️ NppLSP (Notepad++ plugin)</b>:</summary>
     <code>source code</code>: https://github.com/dail8859/NppLSP<br>
     <code>description</code>: Notepad++ plugin to support the Language Server Protocol (LSP)<br>
     <code>homepage   </code>: -<br>
@@ -4804,7 +4804,7 @@
 </details>
 
 <details>
-    <summary><b>nsis</b>:</summary>
+    <summary><b>💻 Nullsoft Scriptable Install System (NSIS)</b>:</summary>
     <code>source code</code>: https://github.com/kichik/nsis<br>
     <code>description</code>: ***This is just a mirror of https://sf.net/projects/nsis -- please report issues there*** NSIS (Nullsoft Scriptable Install System) is a professional open source system to create Windows installers. It is designed to be as small and flexible as possible and is therefore very suitable for internet distribution.<br>
     <code>homepage   </code>: https://nsis.sourceforge.io/<br>
@@ -4814,7 +4814,7 @@
 </details>
 
 <details>
-    <summary><b>NSudo</b>:</summary>
+    <summary><b>💾 NSudo - System Administration Toolkit</b>:</summary>
     <code>source code</code>: https://github.com/M2TeamArchived/NSudo<br>
     <code>description</code>: [Deprecated, work in progress alternative: https://github.com/M2Team/NanaRun] Series of System Administration Tools<br>
     <code>homepage   </code>: https://nsudo.m2team.org/<br>
@@ -4824,7 +4824,7 @@
 </details>
 
 <details>
-    <summary><b>nw.js</b>:</summary>
+    <summary><b>⚙️ NW.js</b>:</summary>
     <code>source code</code>: https://github.com/nwjs/nw.js<br>
     <code>description</code>: Call all Node.js modules directly from DOM/WebWorker and enable a new way of writing applications with all Web technologies.<br>
     <code>homepage   </code>: https://nwjs.io<br>
@@ -4834,7 +4834,7 @@
 </details>
 
 <details>
-    <summary><b>obfuscator</b>:</summary>
+    <summary><b>💾 Darsyn Obfuscate</b>:</summary>
     <code>source code</code>: https://github.com/darsyn/obfuscator<br>
     <code>description</code>: Obfuscate PHP source files with basic XOR encryption in userland code at runtime.<br>
     <code>homepage   </code>: -<br>
@@ -4844,7 +4844,7 @@
 </details>
 
 <details>
-    <summary><b>obs-studio</b>:</summary>
+    <summary><b>💻 OBS Studio</b>:</summary>
     <code>source code</code>: https://github.com/obsproject/obs-studio<br>
     <code>description</code>: OBS Studio - Free and open source software for live streaming and screen recording<br>
     <code>homepage   </code>: https://obsproject.com<br>
@@ -4854,7 +4854,7 @@
 </details>
 
 <details>
-    <summary><b>ocs</b>:</summary>
+    <summary><b>☁️ Open Conference System (OCS)</b>:</summary>
     <code>source code</code>: https://github.com/pkp/ocs<br>
     <code>description</code>: Open Conference System<br>
     <code>homepage   </code>: http://pkp.sfu.ca/ocs<br>
@@ -4864,7 +4864,7 @@
 </details>
 
 <details>
-    <summary><b>Octave</b>:</summary>
+    <summary><b>💾 GNU Octave</b>:</summary>
     <code>source code</code>: https://github.com/NexMirror/Octave<br>
     <code>description</code>: Mirror of GNU Octave (hg::https://www.octave.org/hg/octave)<br>
     <code>homepage   </code>: https://www.gnu.org/software/octave/<br>
@@ -4874,7 +4874,7 @@
 </details>
 
 <details>
-    <summary><b>october</b>:</summary>
+    <summary><b>☁️ October CMS</b>:</summary>
     <code>source code</code>: https://github.com/octobercms/october<br>
     <code>description</code>: Self-hosted CMS platform based on the Laravel PHP Framework.<br>
     <code>homepage   </code>: https://octobercms.com/<br>
@@ -4884,7 +4884,7 @@
 </details>
 
 <details>
-    <summary><b>odtphp</b>:</summary>
+    <summary><b>⚙️ odtphp</b>:</summary>
     <code>source code</code>: https://github.com/cybermonde/odtphp<br>
     <code>description</code>: Generate Open Document Text-files from PHP code - Générateur de document ODT à partir de PHP<br>
     <code>homepage   </code>: -<br>
@@ -4894,7 +4894,7 @@
 </details>
 
 <details>
-    <summary><b>ojs</b>:</summary>
+    <summary><b>☁️ Open Journal Systems (OJS)</b>:</summary>
     <code>source code</code>: https://github.com/pkp/ojs<br>
     <code>description</code>: Open Journal Systems is open source software to manage scholarly journals.<br>
     <code>homepage   </code>: https://pkp.sfu.ca/software/ojs<br>
@@ -4904,7 +4904,7 @@
 </details>
 
 <details>
-    <summary><b>okular</b>:</summary>
+    <summary><b>💻 Okular – Universal Document Viewer</b>:</summary>
     <code>source code</code>: https://github.com/KDE/okular<br>
     <code>description</code>: KDE document viewer<br>
     <code>homepage   </code>: https://invent.kde.org/graphics/okular<br>
@@ -4914,7 +4914,7 @@
 </details>
 
 <details>
-    <summary><b>olive</b>:</summary>
+    <summary><b>💻 Olive Video Editor</b>:</summary>
     <code>source code</code>: https://github.com/olive-editor/olive<br>
     <code>description</code>: Free open-source non-linear video editor<br>
     <code>homepage   </code>: https://olivevideoeditor.org/<br>
@@ -4924,7 +4924,7 @@
 </details>
 
 <details>
-    <summary><b>Omeka</b>:</summary>
+    <summary><b>☁️ Omeka</b>:</summary>
     <code>source code</code>: https://github.com/omeka/Omeka<br>
     <code>description</code>: A flexible web publishing platform for the display of library, museum and scholarly collections, archives and exhibitions.<br>
     <code>homepage   </code>: http://omeka.org<br>
@@ -4934,7 +4934,7 @@
 </details>
 
 <details>
-    <summary><b>omp</b>:</summary>
+    <summary><b>☁️ Open Monograph Press (OMP)</b>:</summary>
     <code>source code</code>: https://github.com/pkp/omp<br>
     <code>description</code>: Open Monograph Press is open source software to manage scholarly presses.<br>
     <code>homepage   </code>: https://pkp.sfu.ca/software/omp<br>
@@ -4944,7 +4944,7 @@
 </details>
 
 <details>
-    <summary><b>open-lims</b>:</summary>
+    <summary><b>☁️ Open-LIMS</b>:</summary>
     <code>source code</code>: https://github.com/open-lims/open-lims<br>
     <code>description</code>: Open-LIMS - The Open-Source Laboratory Information Management System<br>
     <code>homepage   </code>: http://www.open-lims.org<br>
@@ -4954,7 +4954,7 @@
 </details>
 
 <details>
-    <summary><b>open-school-CE</b>:</summary>
+    <summary><b>☁️ Open-School</b>:</summary>
     <code>source code</code>: https://github.com/traprajith/open-school-CE<br>
     <code>description</code>: Open-School is an integrated school management system which focuses on excellence and evolution in the field of Education. To achieve this O-S is flexible and innovates the new trends in education management. Open-School is a diverse, demanding, and high quality educational management system where every user can discover and realize their potential to achieve overall development.<br>
     <code>homepage   </code>: https://open-school.org/<br>
@@ -4964,7 +4964,7 @@
 </details>
 
 <details>
-    <summary><b>openbiblio-1.0</b>:</summary>
+    <summary><b>☁️ OpenBiblio</b>:</summary>
     <code>source code</code>: https://github.com/openbiblio/openbiblio-1.0<br>
     <code>description</code>: -<br>
     <code>homepage   </code>: -<br>
@@ -4974,7 +4974,7 @@
 </details>
 
 <details>
-    <summary><b>opencast</b>:</summary>
+    <summary><b>☁️ Opencast</b>:</summary>
     <code>source code</code>: https://github.com/opencast/opencast<br>
     <code>description</code>: The free and open source solution for automated video capture and distribution at scale.<br>
     <code>homepage   </code>: https://opencast.org<br>
@@ -4984,7 +4984,7 @@
 </details>
 
 <details>
-    <summary><b>openclinic</b>:</summary>
+    <summary><b>☁️ OpenClinic</b>:</summary>
     <code>source code</code>: https://github.com/jact/openclinic<br>
     <code>description</code>: OpenClinic is an easy to use, open source, medical records system written in PHP.<br>
     <code>homepage   </code>: -<br>
@@ -4994,7 +4994,7 @@
 </details>
 
 <details>
-    <summary><b>OpenComic</b>:</summary>
+    <summary><b>💻 OpenComic</b>:</summary>
     <code>source code</code>: https://github.com/ollm/OpenComic<br>
     <code>description</code>: Comic and Manga reader, written with Node.js and using Electron<br>
     <code>homepage   </code>: -<br>
@@ -5004,7 +5004,7 @@
 </details>
 
 <details>
-    <summary><b>opencv</b>:</summary>
+    <summary><b>⚙️ Open Source Computer Vision Library (OpenCV)</b>:</summary>
     <code>source code</code>: https://github.com/opencv/opencv<br>
     <code>description</code>: Open Source Computer Vision Library<br>
     <code>homepage   </code>: https://opencv.org<br>
@@ -5014,7 +5014,7 @@
 </details>
 
 <details>
-    <summary><b>opendocman</b>:</summary>
+    <summary><b>☁️ OpenDocMan</b>:</summary>
     <code>source code</code>: https://github.com/opendocman/opendocman<br>
     <code>description</code>: OpenDocMan - Free PHP Document Management System DMS<br>
     <code>homepage   </code>: https://www.opendocman.com<br>
@@ -5024,7 +5024,7 @@
 </details>
 
 <details>
-    <summary><b>openemr</b>:</summary>
+    <summary><b>☁️ OpenEMR</b>:</summary>
     <code>source code</code>: https://github.com/openemr/openemr<br>
     <code>description</code>: The most popular open source electronic health records and medical practice management solution.<br>
     <code>homepage   </code>: https://open-emr.org/<br>
@@ -5034,7 +5034,7 @@
 </details>
 
 <details>
-    <summary><b>OpenJSCAD.org</b>:</summary>
+    <summary><b>☁️ JSCAD</b>:</summary>
     <code>source code</code>: https://github.com/jscad/OpenJSCAD.org<br>
     <code>description</code>: JSCAD is an open source set of modular, browser and command line tools for creating parametric 2D and 3D designs with JavaScript code. It provides a quick, precise and reproducible method for generating 3D models, and is especially useful for 3D printing applications.<br>
     <code>homepage   </code>: https://openjscad.xyz/<br>
@@ -5044,7 +5044,7 @@
 </details>
 
 <details>
-    <summary><b>openoffice</b>:</summary>
+    <summary><b>💻 Apache OpenOffice</b>:</summary>
     <code>source code</code>: https://github.com/apache/openoffice<br>
     <code>description</code>: Apache OpenOffice<br>
     <code>homepage   </code>: https://www.openoffice.org<br>
@@ -5054,7 +5054,7 @@
 </details>
 
 <details>
-    <summary><b>openscad</b>:</summary>
+    <summary><b>💻 OpenSCAD</b>:</summary>
     <code>source code</code>: https://github.com/openscad/openscad<br>
     <code>description</code>: OpenSCAD - The Programmers Solid 3D CAD Modeller  <br>
     <code>homepage   </code>: https://www.openscad.org<br>
@@ -5064,7 +5064,7 @@
 </details>
 
 <details>
-    <summary><b>openshot-qt</b>:</summary>
+    <summary><b>💻 OpenShot</b>:</summary>
     <code>source code</code>: https://github.com/OpenShot/openshot-qt<br>
     <code>description</code>: OpenShot Video Editor is an award-winning free and open-source video editor for Linux, Mac, and Windows, and is dedicated to delivering high quality video editing and animation solutions to the world.<br>
     <code>homepage   </code>: http://www.openshot.org<br>
@@ -5074,7 +5074,7 @@
 </details>
 
 <details>
-    <summary><b>openSIS-Classic</b>:</summary>
+    <summary><b>☁️ openSIS</b>:</summary>
     <code>source code</code>: https://github.com/OS4ED/openSIS-Classic<br>
     <code>description</code>: openSIS is a commercial grade, secure, scalable & intuitive Student Information System, School Management Software from OS4ED. Has all functionalities to run single or multiple institutions in one installation. Web based, php code, MySQL database.<br>
     <code>homepage   </code>: https://www.os4ed.com<br>
@@ -5084,7 +5084,7 @@
 </details>
 
 <details>
-    <summary><b>opensource-socialnetwork</b>:</summary>
+    <summary><b>☁️ Open Source Social Network (OSSN)</b>:</summary>
     <code>source code</code>: https://github.com/opensource-socialnetwork/opensource-socialnetwork<br>
     <code>description</code>: Open Source Social Network (OSSN) is a social networking software written in PHP. It allows you to make a social networking website and helps your members build social relationships, with people who share similar professional or personal interests.  It is available in 17 international languages.<br>
     <code>homepage   </code>: https://www.opensource-socialnetwork.org<br>
@@ -5094,7 +5094,7 @@
 </details>
 
 <details>
-    <summary><b>opensourcepos</b>:</summary>
+    <summary><b>☁️ Open Source Point of Sale</b>:</summary>
     <code>source code</code>: https://github.com/opensourcepos/opensourcepos<br>
     <code>description</code>: Open Source Point of Sale is a web based point of sale application written in PHP using CodeIgniter framework. It uses MySQL as the data back end and has a Bootstrap 3 based user interface.<br>
     <code>homepage   </code>: http://www.opensourcepos.org<br>
@@ -5104,7 +5104,7 @@
 </details>
 
 <details>
-    <summary><b>openstego</b>:</summary>
+    <summary><b>💻 OpenStego</b>:</summary>
     <code>source code</code>: https://github.com/syvaidya/openstego<br>
     <code>description</code>: OpenStego is a steganography application that provides two functionalities: a) Data Hiding: It can hide any data within an image file. b) Watermarking: Watermarking image files with an invisible signature. It can be used to detect unauthorized file copying.<br>
     <code>homepage   </code>: https://www.openstego.com<br>
@@ -5114,7 +5114,7 @@
 </details>
 
 <details>
-    <summary><b>opentimetool</b>:</summary>
+    <summary><b>☁️ openTimetool</b>:</summary>
     <code>source code</code>: https://github.com/steprobst/opentimetool<br>
     <code>description</code>: copy from sourceforge - i'm not the developer<br>
     <code>homepage   </code>: -<br>
@@ -5124,17 +5124,7 @@
 </details>
 
 <details>
-    <summary><b>openTimetool</b>:</summary>
-    <code>source code</code>: https://github.com/uli-heller/openTimetool<br>
-    <code>description</code>: -<br>
-    <code>homepage   </code>: -<br>
-    <code>prog lang  </code>: PHP<br>
-    <code>archived   </code>: -<br>
-    <code>opinion    </code>: ⭐<br>
-</details>
-
-<details>
-    <summary><b>opentoonz</b>:</summary>
+    <summary><b>💻 OpenToonz</b>:</summary>
     <code>source code</code>: https://github.com/opentoonz/opentoonz<br>
     <code>description</code>: OpenToonz - An open-source full-featured 2D animation creation software<br>
     <code>homepage   </code>: https://opentoonz.github.io/<br>
@@ -5144,7 +5134,7 @@
 </details>
 
 <details>
-    <summary><b>open_enventory-modified_for_US</b>:</summary>
+    <summary><b>☁️ Open Enventory</b>:</summary>
     <code>source code</code>: https://github.com/khoivan88/open_enventory-modified_for_US<br>
     <code>description</code>: Open Enventory, free open-source Chemical Inventory and ELN<br>
     <code>homepage   </code>: https://open-enventory.gitbook.io/user-guides/<br>
@@ -5154,7 +5144,7 @@
 </details>
 
 <details>
-    <summary><b>ops</b>:</summary>
+    <summary><b>☁️ Open Preprint Systems (OPS)</b>:</summary>
     <code>source code</code>: https://github.com/pkp/ops<br>
     <code>description</code>: Open Preprint Systems is open source software to manage scholarly preprint servers.<br>
     <code>homepage   </code>: https://pkp.sfu.ca/software/ops<br>
@@ -5164,7 +5154,7 @@
 </details>
 
 <details>
-    <summary><b>orangehrm</b>:</summary>
+    <summary><b>☁️ OrangeHRM</b>:</summary>
     <code>source code</code>: https://github.com/orangehrm/orangehrm<br>
     <code>description</code>: OrangeHRM is a comprehensive Human Resource Management (HRM) System that captures  all the essential functionalities required for any enterprise. <br>
     <code>homepage   </code>: -<br>
@@ -5174,7 +5164,7 @@
 </details>
 
 <details>
-    <summary><b>orangescrum-community</b>:</summary>
+    <summary><b>☁️ Orangescrum</b>:</summary>
     <code>source code</code>: https://github.com/Orangescrum/orangescrum-community<br>
     <code>description</code>: Flexible Project Management web application written in CakePHP<br>
     <code>homepage   </code>: https://www.orangescrum.com<br>
@@ -5184,7 +5174,7 @@
 </details>
 
 <details>
-    <summary><b>osTicket</b>:</summary>
+    <summary><b>☁️ osTicket</b>:</summary>
     <code>source code</code>: https://github.com/osTicket/osTicket<br>
     <code>description</code>: The osTicket open source ticketing system official project repository, for versions 1.8 and later<br>
     <code>homepage   </code>: osticket.com<br>
@@ -5194,7 +5184,7 @@
 </details>
 
 <details>
-    <summary><b>Padre</b>:</summary>
+    <summary><b>💻 Padre</b>:</summary>
     <code>source code</code>: https://github.com/PadreIDE/Padre<br>
     <code>description</code>: Offical repository of the core Padre code<br>
     <code>homepage   </code>: http://padre.perlide.org/<br>
@@ -5204,7 +5194,7 @@
 </details>
 
 <details>
-    <summary><b>pandorafms</b>:</summary>
+    <summary><b>☁️ Pandora FMS</b>:</summary>
     <code>source code</code>: https://github.com/pandorafms/pandorafms<br>
     <code>description</code>: Pandora FMS is a flexible and highly scalable monitoring system ready for big environments. It uses agents (Linux, Windows, AIX, HP-UX, Solaris and BSD systems) and can do both local and remote network monitoring (SNMP v3, TCP checks, WMI, etc).<br>
     <code>homepage   </code>: http://pandorafms.com/<br>
@@ -5214,7 +5204,7 @@
 </details>
 
 <details>
-    <summary><b>paper-css</b>:</summary>
+    <summary><b>⚙️ Paper CSS</b>:</summary>
     <code>source code</code>: https://github.com/cognitom/paper-css<br>
     <code>description</code>: Paper CSS for happy printing<br>
     <code>homepage   </code>: https://www.npmjs.com/package/paper-css<br>
@@ -5224,7 +5214,7 @@
 </details>
 
 <details>
-    <summary><b>parsedown</b>:</summary>
+    <summary><b>⚙️ Parsedown</b>:</summary>
     <code>source code</code>: https://github.com/erusev/parsedown<br>
     <code>description</code>: Better Markdown Parser in PHP<br>
     <code>homepage   </code>: https://parsedown.org<br>
@@ -5234,7 +5224,7 @@
 </details>
 
 <details>
-    <summary><b>PartKeepr</b>:</summary>
+    <summary><b>☁️ PartKeepr</b>:</summary>
     <code>source code</code>: https://github.com/partkeepr/PartKeepr<br>
     <code>description</code>: Open Source Inventory Management<br>
     <code>homepage   </code>: http://www.partkeepr.org<br>
@@ -5244,7 +5234,7 @@
 </details>
 
 <details>
-    <summary><b>PASTE</b>:</summary>
+    <summary><b>☁️ Paste</b>:</summary>
     <code>source code</code>: https://github.com/jordansamuel/PASTE<br>
     <code>description</code>: Paste is a project that started from the files pastebin.com used before it was bought.<br>
     <code>homepage   </code>: https://phpaste.sourceforge.io/<br>
@@ -5254,7 +5244,7 @@
 </details>
 
 <details>
-    <summary><b>pdf-php</b>:</summary>
+    <summary><b>⚙️ ROS PHP PDF</b>:</summary>
     <code>source code</code>: https://github.com/rospdf/pdf-php<br>
     <code>description</code>: Official R&OS PHP Pdf repository<br>
     <code>homepage   </code>: http://pdf-php.sourceforge.net/<br>
@@ -5264,7 +5254,7 @@
 </details>
 
 <details>
-    <summary><b>pdfarranger</b>:</summary>
+    <summary><b>💻 PDF Arranger</b>:</summary>
     <code>source code</code>: https://github.com/pdfarranger/pdfarranger<br>
     <code>description</code>: Small python-gtk application, which helps the user to merge or split PDF documents and rotate, crop and rearrange their pages using an interactive and intuitive graphical interface.<br>
     <code>homepage   </code>: -<br>
@@ -5274,7 +5264,7 @@
 </details>
 
 <details>
-    <summary><b>pdfmake</b>:</summary>
+    <summary><b>⚙️ pdfmake</b>:</summary>
     <code>source code</code>: https://github.com/bpampuch/pdfmake<br>
     <code>description</code>: Client/server side PDF printing in pure JavaScript<br>
     <code>homepage   </code>: http://pdfmake.org<br>
@@ -5284,7 +5274,7 @@
 </details>
 
 <details>
-    <summary><b>pdfsam</b>:</summary>
+    <summary><b>💻 PDF Split And Merge (PDFsam)</b>:</summary>
     <code>source code</code>: https://github.com/torakiki/pdfsam<br>
     <code>description</code>: PDFsam, a desktop application to split, merge, mix, rotate PDF files and extract pages<br>
     <code>homepage   </code>: https://pdfsam.org<br>
@@ -5294,7 +5284,7 @@
 </details>
 
 <details>
-    <summary><b>pdt</b>:</summary>
+    <summary><b>💻 Eclipse PDT</b>:</summary>
     <code>source code</code>: https://github.com/eclipse-pdt/pdt<br>
     <code>description</code>: PHP Development Tools project (PDT)<br>
     <code>homepage   </code>: https://eclipse.org/pdt<br>
@@ -5304,7 +5294,7 @@
 </details>
 
 <details>
-    <summary><b>peachpie</b>:</summary>
+    <summary><b>⚙️ PeachPie Compiler</b>:</summary>
     <code>source code</code>: https://github.com/peachpiecompiler/peachpie<br>
     <code>description</code>: PeachPie - the PHP compiler and runtime for .NET and .NET Core<br>
     <code>homepage   </code>: https://www.peachpie.io<br>
@@ -5314,7 +5304,7 @@
 </details>
 
 <details>
-    <summary><b>peast</b>:</summary>
+    <summary><b>⚙️ PHP ECMAScript Abstract Syntax Tree (Peast)</b>:</summary>
     <code>source code</code>: https://github.com/mck89/peast<br>
     <code>description</code>: JavaScript parser written in PHP that generates AST from your code according to ECMAScript specification<br>
     <code>homepage   </code>: -<br>
@@ -5324,7 +5314,7 @@
 </details>
 
 <details>
-    <summary><b>PeerTube</b>:</summary>
+    <summary><b>☁️ PeerTube</b>:</summary>
     <code>source code</code>: https://github.com/Chocobozzz/PeerTube<br>
     <code>description</code>: ActivityPub-federated video streaming platform using P2P directly in your web browser<br>
     <code>homepage   </code>: https://joinpeertube.org/<br>
@@ -5334,7 +5324,7 @@
 </details>
 
 <details>
-    <summary><b>pencil</b>:</summary>
+    <summary><b>💻 Pencil (GUI prototyping)</b>:</summary>
     <code>source code</code>: https://github.com/evolus/pencil<br>
     <code>description</code>: The Pencil Project's unique mission is to build a free and opensource tool for making diagrams and GUI prototyping that everyone can use. <br>
     <code>homepage   </code>: http://pencil.evolus.vn<br>
@@ -5344,7 +5334,7 @@
 </details>
 
 <details>
-    <summary><b>pencil</b>:</summary>
+    <summary><b>💻 Pencil2D</b>:</summary>
     <code>source code</code>: https://github.com/pencil2d/pencil<br>
     <code>description</code>: Pencil2D is an easy, intuitive tool to make 2D hand-drawn animations. Pencil2D is open source and cross-platform.<br>
     <code>homepage   </code>: http://pencil2d.org<br>
@@ -5354,7 +5344,7 @@
 </details>
 
 <details>
-    <summary><b>Perfect-DateTimePicker</b>:</summary>
+    <summary><b>⚙️ Perfect-DateTimePicker (jQuery plugin)</b>:</summary>
     <code>source code</code>: https://github.com/jiandaoyun/Perfect-DateTimePicker<br>
     <code>description</code>: A jQuery plugin for Date and Time Picker<br>
     <code>homepage   </code>: http://jiandaoyun.github.io/Perfect-DateTimePicker/<br>
@@ -5364,7 +5354,7 @@
 </details>
 
 <details>
-    <summary><b>period</b>:</summary>
+    <summary><b>⚙️ Period</b>:</summary>
     <code>source code</code>: https://github.com/spatie/period<br>
     <code>description</code>: Complex period comparisons<br>
     <code>homepage   </code>: https://spatie.be/open-source<br>
@@ -5374,7 +5364,7 @@
 </details>
 
 <details>
-    <summary><b>permadelete</b>:</summary>
+    <summary><b>💻 Permadelete</b>:</summary>
     <code>source code</code>: https://github.com/DevelopersTree/permadelete<br>
     <code>description</code>: Permanently shreds files, easily.<br>
     <code>homepage   </code>: https://developerstree.github.io/permadelete/<br>
@@ -5384,7 +5374,7 @@
 </details>
 
 <details>
-    <summary><b>pgadmin4</b>:</summary>
+    <summary><b>💻 pgAdmin 4</b>:</summary>
     <code>source code</code>: https://github.com/pgadmin-org/pgadmin4<br>
     <code>description</code>: pgAdmin is the most popular and feature rich Open Source administration and development platform for PostgreSQL, the most advanced Open Source database in the world.<br>
     <code>homepage   </code>: https://www.pgadmin.org<br>
@@ -5394,7 +5384,7 @@
 </details>
 
 <details>
-    <summary><b>PH7</b>:</summary>
+    <summary><b>💾 PH7 - Embedded Implementation of PHP</b>:</summary>
     <code>source code</code>: https://github.com/symisc/PH7<br>
     <code>description</code>: An Embedded Implementation of PHP (C Library)<br>
     <code>homepage   </code>: http://ph7.symisc.net<br>
@@ -5404,7 +5394,7 @@
 </details>
 
 <details>
-    <summary><b>phabricator</b>:</summary>
+    <summary><b>☁️ Phabricator</b>:</summary>
     <code>source code</code>: https://github.com/phacility/phabricator<br>
     <code>description</code>: Effective June 1, 2021: Phabricator is no longer actively maintained.<br>
     <code>homepage   </code>: http://phacility.com/phabricator/<br>
@@ -5414,7 +5404,7 @@
 </details>
 
 <details>
-    <summary><b>phan</b>:</summary>
+    <summary><b>💾 Phan</b>:</summary>
     <code>source code</code>: https://github.com/phan/phan<br>
     <code>description</code>: Phan is a static analyzer for PHP. Phan prefers to avoid false-positives and attempts to prove incorrectness rather than correctness.<br>
     <code>homepage   </code>: https://github.com/phan/phan/wiki<br>
@@ -5424,7 +5414,7 @@
 </details>
 
 <details>
-    <summary><b>phoenix</b>:</summary>
+    <summary><b>☁️ Phoenix code editor</b>:</summary>
     <code>source code</code>: https://github.com/phcode-dev/phoenix<br>
     <code>description</code>: Phoenix is a modern open-source IDE for the web, built for the browser. <br>
     <code>homepage   </code>: https://phcode.dev<br>
@@ -5434,7 +5424,7 @@
 </details>
 
 <details>
-    <summary><b>PHP</b>:</summary>
+    <summary><b>💾 PHP</b>:</summary>
     <code>source code</code>: https://github.com/TheAlgorithms/PHP<br>
     <code>description</code>: All Algorithms implemented in PHP<br>
     <code>homepage   </code>: -<br>
@@ -5444,7 +5434,7 @@
 </details>
 
 <details>
-    <summary><b>php-app-server</b>:</summary>
+    <summary><b>💻 PHP App Server</b>:</summary>
     <code>source code</code>: https://github.com/cubiclesoft/php-app-server<br>
     <code>description</code>: Create lightweight, installable applications written in HTML, CSS, Javascript, and PHP for the Windows, Mac, and Linux desktop operating systems.<br>
     <code>homepage   </code>: -<br>
@@ -5454,17 +5444,7 @@
 </details>
 
 <details>
-    <summary><b>PHP-CPP</b>:</summary>
-    <code>source code</code>: https://github.com/CopernicaMarketingSoftware/PHP-CPP<br>
-    <code>description</code>: Library to build PHP extensions with C++<br>
-    <code>homepage   </code>: http://www.php-cpp.com/<br>
-    <code>prog lang  </code>: C++<br>
-    <code>archived   </code>: -<br>
-    <code>opinion    </code>: ⭐<br>
-</details>
-
-<details>
-    <summary><b>PHP-CS-Fixer</b>:</summary>
+    <summary><b>💾 PHP Coding Standards Fixer (PHP CS Fixer)</b>:</summary>
     <code>source code</code>: https://github.com/PHP-CS-Fixer/PHP-CS-Fixer<br>
     <code>description</code>: A tool to automatically fix PHP Coding Standards issues<br>
     <code>homepage   </code>: https://cs.symfony.com<br>
@@ -5474,7 +5454,7 @@
 </details>
 
 <details>
-    <summary><b>PHP-CSS-Parser</b>:</summary>
+    <summary><b>⚙️ PHP CSS Parser</b>:</summary>
     <code>source code</code>: https://github.com/sabberworm/PHP-CSS-Parser<br>
     <code>description</code>: A Parser for CSS Files written in PHP. Allows extraction of CSS files into a data structure, manipulation of said structure and output as (optimized) CSS<br>
     <code>homepage   </code>: http://www.sabberworm.com/blog/2010/6/10/php-css-parser<br>
@@ -5484,7 +5464,7 @@
 </details>
 
 <details>
-    <summary><b>php-defer</b>:</summary>
+    <summary><b>⚙️ PHP Defer</b>:</summary>
     <code>source code</code>: https://github.com/php-defer/php-defer<br>
     <code>description</code>: Golang's defer statement for PHP<br>
     <code>homepage   </code>: -<br>
@@ -5494,7 +5474,7 @@
 </details>
 
 <details>
-    <summary><b>php-emoji</b>:</summary>
+    <summary><b>📔 PHP array functions with Emojis</b>:</summary>
     <code>source code</code>: https://github.com/b-viguier/php-emoji<br>
     <code>description</code>: -<br>
     <code>homepage   </code>: -<br>
@@ -5504,7 +5484,7 @@
 </details>
 
 <details>
-    <summary><b>php-evil</b>:</summary>
+    <summary><b>⚙️ Evil Eval PHP 8</b>:</summary>
     <code>source code</code>: https://github.com/frontdevops/php-evil<br>
     <code>description</code>: Disable eval instruction in PHP8<br>
     <code>homepage   </code>: -<br>
@@ -5514,7 +5494,7 @@
 </details>
 
 <details>
-    <summary><b>php-excel-templator</b>:</summary>
+    <summary><b>⚙️ PHP Excel Templator</b>:</summary>
     <code>source code</code>: https://github.com/alhimik1986/php-excel-templator<br>
     <code>description</code>: PHP Spreadsheet extension to the export excel file from excel template<br>
     <code>homepage   </code>: -<br>
@@ -5524,7 +5504,7 @@
 </details>
 
 <details>
-    <summary><b>PHP-FFMpeg</b>:</summary>
+    <summary><b>⚙️ PHP-FFMpeg</b>:</summary>
     <code>source code</code>: https://github.com/PHP-FFMpeg/PHP-FFMpeg<br>
     <code>description</code>: An object oriented PHP driver for FFMpeg binary<br>
     <code>homepage   </code>: -<br>
@@ -5534,7 +5514,7 @@
 </details>
 
 <details>
-    <summary><b>php-gtk3</b>:</summary>
+    <summary><b>⚙️ PHP-GTK3</b>:</summary>
     <code>source code</code>: https://github.com/scorninpc/php-gtk3<br>
     <code>description</code>: GTK3  extension for PHP<br>
     <code>homepage   </code>: https://andor.com.br/<br>
@@ -5544,7 +5524,7 @@
 </details>
 
 <details>
-    <summary><b>php-http-enum</b>:</summary>
+    <summary><b>⚙️ HTTP Enums For PHP 8.1</b>:</summary>
     <code>source code</code>: https://github.com/alexanderpas/php-http-enum<br>
     <code>description</code>: Composer package providing HTTP Methods, Status Codes and Reason Phrases for PHP<br>
     <code>homepage   </code>: https://packagist.org/packages/alexanderpas/http-enum<br>
@@ -5554,7 +5534,7 @@
 </details>
 
 <details>
-    <summary><b>php-langspec</b>:</summary>
+    <summary><b>📔 PHP Language Specification</b>:</summary>
     <code>source code</code>: https://github.com/php/php-langspec<br>
     <code>description</code>: PHP Language Specification<br>
     <code>homepage   </code>: http://www.php.net<br>
@@ -5564,7 +5544,7 @@
 </details>
 
 <details>
-    <summary><b>php-markdown</b>:</summary>
+    <summary><b>⚙️ PHP Markdown</b>:</summary>
     <code>source code</code>: https://github.com/michelf/php-markdown<br>
     <code>description</code>: Parser for Markdown and Markdown Extra derived from the original Markdown.pl by John Gruber.<br>
     <code>homepage   </code>: http://michelf.ca/projects/php-markdown/<br>
@@ -5574,7 +5554,7 @@
 </details>
 
 <details>
-    <summary><b>php-mysql-engine</b>:</summary>
+    <summary><b>⚙️ PHP MySQL Engine</b>:</summary>
     <code>source code</code>: https://github.com/vimeo/php-mysql-engine<br>
     <code>description</code>: A MySQL engine written in pure PHP<br>
     <code>homepage   </code>: -<br>
@@ -5584,7 +5564,7 @@
 </details>
 
 <details>
-    <summary><b>php-opencv</b>:</summary>
+    <summary><b>⚙️ PHP-OpenCV</b>:</summary>
     <code>source code</code>: https://github.com/php-opencv/php-opencv<br>
     <code>description</code>: opencv 4.5+ with dnn module for php 7/8<br>
     <code>homepage   </code>: https://github.com/php-opencv/php-opencv-examples<br>
@@ -5594,7 +5574,7 @@
 </details>
 
 <details>
-    <summary><b>php-parser</b>:</summary>
+    <summary><b>⚙️ php-parser</b>:</summary>
     <code>source code</code>: https://github.com/glayzzle/php-parser<br>
     <code>description</code>: :herb: NodeJS PHP Parser - extract AST or tokens<br>
     <code>homepage   </code>: https://php-parser.glayzzle.com/<br>
@@ -5604,7 +5584,7 @@
 </details>
 
 <details>
-    <summary><b>PHP-Parser</b>:</summary>
+    <summary><b>⚙️ PHP-Parser</b>:</summary>
     <code>source code</code>: https://github.com/nikic/PHP-Parser<br>
     <code>description</code>: A PHP parser written in PHP<br>
     <code>homepage   </code>: -<br>
@@ -5614,7 +5594,7 @@
 </details>
 
 <details>
-    <summary><b>php-pm</b>:</summary>
+    <summary><b>💾 PHP Process Manager (PPM)</b>:</summary>
     <code>source code</code>: https://github.com/php-pm/php-pm<br>
     <code>description</code>: PPM is a process manager, supercharger and load balancer for modern PHP applications.<br>
     <code>homepage   </code>: -<br>
@@ -5624,17 +5604,7 @@
 </details>
 
 <details>
-    <summary><b>php-src</b>:</summary>
-    <code>source code</code>: https://github.com/php/php-src<br>
-    <code>description</code>: The PHP Interpreter<br>
-    <code>homepage   </code>: https://www.php.net<br>
-    <code>prog lang  </code>: C<br>
-    <code>archived   </code>: -<br>
-    <code>opinion    </code>: ⭐<br>
-</details>
-
-<details>
-    <summary><b>php-the-right-way</b>:</summary>
+    <summary><b>📔 PHP: The Right Way</b>:</summary>
     <code>source code</code>: https://github.com/codeguy/php-the-right-way<br>
     <code>description</code>: An easy-to-read, quick reference for PHP best practices, accepted coding standards, and links to authoritative tutorials around the Web<br>
     <code>homepage   </code>: https://www.phptherightway.com<br>
@@ -5644,7 +5614,7 @@
 </details>
 
 <details>
-    <summary><b>phpactor</b>:</summary>
+    <summary><b>💾 Phpactor</b>:</summary>
     <code>source code</code>: https://github.com/phpactor/phpactor<br>
     <code>description</code>: Mainly a PHP Language Server with more features than you can shake a stick at<br>
     <code>homepage   </code>: -<br>
@@ -5654,7 +5624,7 @@
 </details>
 
 <details>
-    <summary><b>phpbb</b>:</summary>
+    <summary><b>☁️ phpBB</b>:</summary>
     <code>source code</code>: https://github.com/phpbb/phpbb<br>
     <code>description</code>:  phpBB Development: phpBB is a popular open-source bulletin board written in PHP. This repository also contains the history of version 2.<br>
     <code>homepage   </code>: https://www.phpbb.com<br>
@@ -5664,7 +5634,7 @@
 </details>
 
 <details>
-    <summary><b>phpbrew</b>:</summary>
+    <summary><b>💾 PHPBrew</b>:</summary>
     <code>source code</code>: https://github.com/phpbrew/phpbrew<br>
     <code>description</code>: Brew & manage PHP versions in pure PHP at HOME<br>
     <code>homepage   </code>: https://phpbrew.github.io/phpbrew<br>
@@ -5674,7 +5644,7 @@
 </details>
 
 <details>
-    <summary><b>PHPCI</b>:</summary>
+    <summary><b>💾 PHPCI</b>:</summary>
     <code>source code</code>: https://github.com/dancryer/PHPCI<br>
     <code>description</code>: PHPCI is a free and open source continuous integration tool specifically designed for PHP.<br>
     <code>homepage   </code>: -<br>
@@ -5684,7 +5654,7 @@
 </details>
 
 <details>
-    <summary><b>phpCompressor</b>:</summary>
+    <summary><b>💾 phpCompressor</b>:</summary>
     <code>source code</code>: https://github.com/genasyst/phpCompressor<br>
     <code>description</code>: The main task of compressing PHP code, it is also possible to use as a simple PHP obfuscator. <br>
     <code>homepage   </code>: http://phpcompressor.genasyst.ru/index.php<br>
@@ -5694,7 +5664,7 @@
 </details>
 
 <details>
-    <summary><b>PhpDependencyAnalysis</b>:</summary>
+    <summary><b>💾 PhpDependencyAnalysis</b>:</summary>
     <code>source code</code>: https://github.com/mamuz/PhpDependencyAnalysis<br>
     <code>description</code>: Static code analysis to find violations in a dependency graph<br>
     <code>homepage   </code>: http://mamuz.github.io/PhpDependencyAnalysis/<br>
@@ -5704,7 +5674,7 @@
 </details>
 
 <details>
-    <summary><b>phpdesktop</b>:</summary>
+    <summary><b>⚙️ PHP Desktop</b>:</summary>
     <code>source code</code>: https://github.com/cztomczak/phpdesktop<br>
     <code>description</code>: Develop desktop GUI applications using PHP, HTML5, JavaScript and SQLite<br>
     <code>homepage   </code>: https://groups.google.com/d/forum/phpdesktop<br>
@@ -5714,7 +5684,7 @@
 </details>
 
 <details>
-    <summary><b>phpDocumentor</b>:</summary>
+    <summary><b>💾 phpDocumentor</b>:</summary>
     <code>source code</code>: https://github.com/phpDocumentor/phpDocumentor<br>
     <code>description</code>: Documentation Generator for PHP <br>
     <code>homepage   </code>: https://www.phpdoc.org<br>
@@ -5724,7 +5694,7 @@
 </details>
 
 <details>
-    <summary><b>phpgedview</b>:</summary>
+    <summary><b>☁️ PhpGedView</b>:</summary>
     <code>source code</code>: https://github.com/bitweaver/phpgedview<br>
     <code>description</code>: -<br>
     <code>homepage   </code>: -<br>
@@ -5734,7 +5704,7 @@
 </details>
 
 <details>
-    <summary><b>phpipam</b>:</summary>
+    <summary><b>☁️ PHP IP Address Management (phpIPAM)</b>:</summary>
     <code>source code</code>: https://github.com/phpipam/phpipam<br>
     <code>description</code>: phpipam development repository<br>
     <code>homepage   </code>: https://phpipam.net<br>
@@ -5744,7 +5714,7 @@
 </details>
 
 <details>
-    <summary><b>phpLDAPadmin</b>:</summary>
+    <summary><b>☁️ phpLDAPadmin</b>:</summary>
     <code>source code</code>: https://github.com/leenooks/phpLDAPadmin<br>
     <code>description</code>: phpLDAPadmin - Web based LDAP administration tool<br>
     <code>homepage   </code>: www.phpldapadmin.org<br>
@@ -5754,7 +5724,7 @@
 </details>
 
 <details>
-    <summary><b>phplist3</b>:</summary>
+    <summary><b>☁️ phpList</b>:</summary>
     <code>source code</code>: https://github.com/phpList/phplist3<br>
     <code>description</code>: Fully functional Open Source email marketing manager for creating, sending, integrating, and analysing email campaigns and newsletters.<br>
     <code>homepage   </code>: https://www.phplist.org<br>
@@ -5764,7 +5734,7 @@
 </details>
 
 <details>
-    <summary><b>PHPMailer</b>:</summary>
+    <summary><b>☁️ PHPMailer</b>:</summary>
     <code>source code</code>: https://github.com/PHPMailer/PHPMailer<br>
     <code>description</code>: The classic email sending library for PHP<br>
     <code>homepage   </code>: -<br>
@@ -5774,7 +5744,7 @@
 </details>
 
 <details>
-    <summary><b>phpmyadmin</b>:</summary>
+    <summary><b>☁️ phpMyAdmin</b>:</summary>
     <code>source code</code>: https://github.com/phpmyadmin/phpmyadmin<br>
     <code>description</code>: A web interface for MySQL and MariaDB<br>
     <code>homepage   </code>: https://www.phpmyadmin.net/<br>
@@ -5784,7 +5754,7 @@
 </details>
 
 <details>
-    <summary><b>phppgadmin</b>:</summary>
+    <summary><b>☁️ phpPgAdmin</b>:</summary>
     <code>source code</code>: https://github.com/phppgadmin/phppgadmin<br>
     <code>description</code>: the premier web-based administration tool for postgresql<br>
     <code>homepage   </code>: https://github.com/phppgadmin/phppgadmin<br>
@@ -5794,7 +5764,7 @@
 </details>
 
 <details>
-    <summary><b>PHPPresentation</b>:</summary>
+    <summary><b>⚙️ PHPPresentation</b>:</summary>
     <code>source code</code>: https://github.com/PHPOffice/PHPPresentation<br>
     <code>description</code>: A pure PHP library for reading and writing presentations documents <br>
     <code>homepage   </code>: https://phpoffice.github.io/PHPPresentation<br>
@@ -5804,7 +5774,7 @@
 </details>
 
 <details>
-    <summary><b>PhpProject</b>:</summary>
+    <summary><b>⚙️ PHPProject</b>:</summary>
     <code>source code</code>: https://github.com/PHPOffice/PhpProject<br>
     <code>description</code>: A pure PHP library for reading and writing project management files <br>
     <code>homepage   </code>: -<br>
@@ -5814,7 +5784,7 @@
 </details>
 
 <details>
-    <summary><b>PhpSpreadsheet</b>:</summary>
+    <summary><b>⚙️ PHPSpreadsheet</b>:</summary>
     <code>source code</code>: https://github.com/PHPOffice/PhpSpreadsheet<br>
     <code>description</code>: A pure PHP library for reading and writing spreadsheet files<br>
     <code>homepage   </code>: https://phpspreadsheet.readthedocs.io<br>
@@ -5824,7 +5794,7 @@
 </details>
 
 <details>
-    <summary><b>phpstan</b>:</summary>
+    <summary><b>💾 PHP Static Analysis Tool (PHPStan)</b>:</summary>
     <code>source code</code>: https://github.com/phpstan/phpstan<br>
     <code>description</code>: PHP Static Analysis Tool - discover bugs in your code without running it!<br>
     <code>homepage   </code>: https://phpstan.org/<br>
@@ -5834,7 +5804,7 @@
 </details>
 
 <details>
-    <summary><b>phpsysinfo</b>:</summary>
+    <summary><b>⚙️ phpSysInfo</b>:</summary>
     <code>source code</code>: https://github.com/phpsysinfo/phpsysinfo<br>
     <code>description</code>: phpSysInfo: a customizable PHP script that displays information about your system nicely<br>
     <code>homepage   </code>: http://phpsysinfo.github.io/phpsysinfo<br>
@@ -5844,7 +5814,7 @@
 </details>
 
 <details>
-    <summary><b>phpunit</b>:</summary>
+    <summary><b>⚙️ PHPUnit</b>:</summary>
     <code>source code</code>: https://github.com/sebastianbergmann/phpunit<br>
     <code>description</code>: The PHP Unit Testing framework.<br>
     <code>homepage   </code>: https://phpunit.de/<br>
@@ -5854,7 +5824,7 @@
 </details>
 
 <details>
-    <summary><b>PHPVerbalExpressions</b>:</summary>
+    <summary><b>⚙️ PHPVerbalExpressions</b>:</summary>
     <code>source code</code>: https://github.com/VerbalExpressions/PHPVerbalExpressions<br>
     <code>description</code>: PHP Regular expressions made easy<br>
     <code>homepage   </code>: -<br>
@@ -5864,7 +5834,7 @@
 </details>
 
 <details>
-    <summary><b>PHPVisio</b>:</summary>
+    <summary><b>⚙️ PHPVisio</b>:</summary>
     <code>source code</code>: https://github.com/PHPOffice/PHPVisio<br>
     <code>description</code>: A pure PHP library for reading and writing diagrams files<br>
     <code>homepage   </code>: -<br>
@@ -5874,7 +5844,7 @@
 </details>
 
 <details>
-    <summary><b>phpwkhtmltopdf</b>:</summary>
+    <summary><b>⚙️ PHP WkHtmlToPdf</b>:</summary>
     <code>source code</code>: https://github.com/mikehaertl/phpwkhtmltopdf<br>
     <code>description</code>: A slim PHP wrapper around wkhtmltopdf with an easy to use and clean OOP interface<br>
     <code>homepage   </code>: -<br>
@@ -5884,7 +5854,7 @@
 </details>
 
 <details>
-    <summary><b>PHPWord</b>:</summary>
+    <summary><b>⚙️ PHPWord</b>:</summary>
     <code>source code</code>: https://github.com/PHPOffice/PHPWord<br>
     <code>description</code>: A pure PHP library for reading and writing word processing documents<br>
     <code>homepage   </code>: https://phpword.readthedocs.io<br>
@@ -5894,7 +5864,7 @@
 </details>
 
 <details>
-    <summary><b>phtagr</b>:</summary>
+    <summary><b>☁️ phTagr</b>:</summary>
     <code>source code</code>: https://github.com/xemle/phtagr<br>
     <code>description</code>: Tag, Browse, and Share Your Photos (discontinued)<br>
     <code>homepage   </code>: -<br>
@@ -5904,7 +5874,7 @@
 </details>
 
 <details>
-    <summary><b>pib</b>:</summary>
+    <summary><b>💾 PHP in Browser (PIB)</b>:</summary>
     <code>source code</code>: https://github.com/oraoto/pib<br>
     <code>description</code>: PHP in Browser (powered by WebAssembly)<br>
     <code>homepage   </code>: https://oraoto.github.io/pib/<br>
@@ -5914,7 +5884,7 @@
 </details>
 
 <details>
-    <summary><b>picturama</b>:</summary>
+    <summary><b>💻 Picturama</b>:</summary>
     <code>source code</code>: https://github.com/picturama/picturama<br>
     <code>description</code>: Digital image organizer powered by the web<br>
     <code>homepage   </code>: -<br>
@@ -5924,7 +5894,7 @@
 </details>
 
 <details>
-    <summary><b>pimcore</b>:</summary>
+    <summary><b>☁️ Pimcore</b>:</summary>
     <code>source code</code>: https://github.com/pimcore/pimcore<br>
     <code>description</code>: Open Source Data & Experience Management Platform (PIM, MDM, CDP, DAM, DXP/CMS & Digital Commerce)<br>
     <code>homepage   </code>: http://www.pimcore.org/<br>
@@ -5934,7 +5904,7 @@
 </details>
 
 <details>
-    <summary><b>pivot</b>:</summary>
+    <summary><b>⚙️ Cynteka Pivot Table (jQuery plugin)</b>:</summary>
     <code>source code</code>: https://github.com/ukman/pivot<br>
     <code>description</code>: Repository for Cynteka Pivot Table<br>
     <code>homepage   </code>: -<br>
@@ -5944,7 +5914,7 @@
 </details>
 
 <details>
-    <summary><b>pivottable</b>:</summary>
+    <summary><b>⚙️ PivotTable.js</b>:</summary>
     <code>source code</code>: https://github.com/nicolaskruchten/pivottable<br>
     <code>description</code>: Open-source Javascript Pivot Table (aka Pivot Grid, Pivot Chart, Cross-Tab) implementation with drag'n'drop.<br>
     <code>homepage   </code>: https://pivottable.js.org/<br>
@@ -5954,7 +5924,7 @@
 </details>
 
 <details>
-    <summary><b>Piwigo</b>:</summary>
+    <summary><b>☁️ Piwigo</b>:</summary>
     <code>source code</code>: https://github.com/Piwigo/Piwigo<br>
     <code>description</code>: Manage your photos with Piwigo, a full featured open source photo gallery application for the web. Star us on Github! More than 200 plugins and themes available. Join us and contribute!<br>
     <code>homepage   </code>: https://piwigo.org<br>
@@ -5964,7 +5934,7 @@
 </details>
 
 <details>
-    <summary><b>plantuml</b>:</summary>
+    <summary><b>⚙️ PlantUML</b>:</summary>
     <code>source code</code>: https://github.com/plantuml/plantuml<br>
     <code>description</code>: Generate diagrams from textual description<br>
     <code>homepage   </code>: https://plantuml.com<br>
@@ -5974,7 +5944,7 @@
 </details>
 
 <details>
-    <summary><b>PlantUmlViewer (Notepad++ plugin)</b>:</summary>
+    <summary><b>⚙️ PlantUmlViewer (Notepad++ plugin)</b>:</summary>
     <code>source code</code>: https://github.com/Fruchtzwerg94/PlantUmlViewer<br>
     <code>description</code>: A Notepad++ plugin to generate, view and export PlantUML diagrams<br>
     <code>homepage   </code>: -<br>
@@ -5984,7 +5954,7 @@
 </details>
 
 <details>
-    <summary><b>plates</b>:</summary>
+    <summary><b>⚙️ Plates - native PHP template system</b>:</summary>
     <code>source code</code>: https://github.com/thephpleague/plates<br>
     <code>description</code>: Native PHP template system<br>
     <code>homepage   </code>: https://platesphp.com<br>
@@ -5994,7 +5964,7 @@
 </details>
 
 <details>
-    <summary><b>platform</b>:</summary>
+    <summary><b>⚙️ OroPlatform</b>:</summary>
     <code>source code</code>: https://github.com/oroinc/platform<br>
     <code>description</code>: Main OroPlatform package with core functionality.<br>
     <code>homepage   </code>: -<br>
@@ -6004,7 +5974,7 @@
 </details>
 
 <details>
-    <summary><b>platform-application</b>:</summary>
+    <summary><b>⚙️ OroPlatform Application</b>:</summary>
     <code>source code</code>: https://github.com/oroinc/platform-application<br>
     <code>description</code>: OroPlatform - business application framework that is a backbone of the OroCRM and OroCommerce.<br>
     <code>homepage   </code>: -<br>
@@ -6014,7 +5984,7 @@
 </details>
 
 <details>
-    <summary><b>poedit</b>:</summary>
+    <summary><b>💻 Poedit</b>:</summary>
     <code>source code</code>: https://github.com/vslavik/poedit<br>
     <code>description</code>: Translations editor for Mac, Windows and Unix<br>
     <code>homepage   </code>: https://poedit.net<br>
@@ -6024,7 +5994,7 @@
 </details>
 
 <details>
-    <summary><b>popcorn-desktop</b>:</summary>
+    <summary><b>💻 Popcorn Time Official</b>:</summary>
     <code>source code</code>: https://github.com/popcorn-official/popcorn-desktop<br>
     <code>description</code>: Popcorn Time is a multi-platform, free software BitTorrent client that includes an integrated media player ( Windows / Mac / Linux ) A Butter-Project Fork<br>
     <code>homepage   </code>: https://popcorntime.app<br>
@@ -6034,7 +6004,7 @@
 </details>
 
 <details>
-    <summary><b>popcorn-time-desktop</b>:</summary>
+    <summary><b>💻 Popcorn Time amilajack</b>:</summary>
     <code>source code</code>: https://github.com/amilajack/popcorn-time-desktop<br>
     <code>description</code>: 🍿 🕐 🎞  A Modern Popcorn Time Client<br>
     <code>homepage   </code>: -<br>
@@ -6044,7 +6014,7 @@
 </details>
 
 <details>
-    <summary><b>portaudio</b>:</summary>
+    <summary><b>⚙️ PortAudio</b>:</summary>
     <code>source code</code>: https://github.com/PortAudio/portaudio<br>
     <code>description</code>: PortAudio is a cross-platform, open-source C language library for real-time audio input and output.<br>
     <code>homepage   </code>: -<br>
@@ -6054,7 +6024,7 @@
 </details>
 
 <details>
-    <summary><b>posterazor</b>:</summary>
+    <summary><b>💻 PosteRazor</b>:</summary>
     <code>source code</code>: https://github.com/aportale/posterazor<br>
     <code>description</code>: The PosteRazor cuts a raster image into pieces which can afterwards be printed out and assembled to a poster.<br>
     <code>homepage   </code>: http://posterazor.sourceforge.net/<br>
@@ -6064,7 +6034,7 @@
 </details>
 
 <details>
-    <summary><b>postgres</b>:</summary>
+    <summary><b>💾 PostgreSQL</b>:</summary>
     <code>source code</code>: https://github.com/postgres/postgres<br>
     <code>description</code>: Mirror of the official PostgreSQL GIT repository. Note that this is just a *mirror* - we don't work with pull requests on github. To contribute, please see https://wiki.postgresql.org/wiki/Submitting_a_Patch<br>
     <code>homepage   </code>: https://www.postgresql.org/<br>
@@ -6074,7 +6044,7 @@
 </details>
 
 <details>
-    <summary><b>pramda</b>:</summary>
+    <summary><b>⚙️ Practical Functional Programming in PHP (Pramda)</b>:</summary>
     <code>source code</code>: https://github.com/kapolos/pramda<br>
     <code>description</code>: Practical Functional Programming in PHP<br>
     <code>homepage   </code>: -<br>
@@ -6084,7 +6054,7 @@
 </details>
 
 <details>
-    <summary><b>PrestaShop</b>:</summary>
+    <summary><b>☁️ PrestaShop</b>:</summary>
     <code>source code</code>: https://github.com/PrestaShop/PrestaShop<br>
     <code>description</code>: PrestaShop is the universal open-source software platform to build your e-commerce solution.<br>
     <code>homepage   </code>: https://www.prestashop-project.org/<br>
@@ -6094,7 +6064,7 @@
 </details>
 
 <details>
-    <summary><b>PrivateBin</b>:</summary>
+    <summary><b>☁️ PrivateBin</b>:</summary>
     <code>source code</code>: https://github.com/PrivateBin/PrivateBin<br>
     <code>description</code>: A minimalist, open source online pastebin where the server has zero knowledge of pasted data. Data is encrypted/decrypted in the browser using 256 bits AES.<br>
     <code>homepage   </code>: https://privatebin.info/<br>
@@ -6104,7 +6074,7 @@
 </details>
 
 <details>
-    <summary><b>processmaker</b>:</summary>
+    <summary><b>☁️ ProcessMaker BPM Core</b>:</summary>
     <code>source code</code>: https://github.com/ProcessMaker/processmaker<br>
     <code>description</code>: ProcessMaker BPM Core<br>
     <code>homepage   </code>: -<br>
@@ -6114,7 +6084,7 @@
 </details>
 
 <details>
-    <summary><b>psalm</b>:</summary>
+    <summary><b>💾 Psalm</b>:</summary>
     <code>source code</code>: https://github.com/vimeo/psalm<br>
     <code>description</code>: A static analysis tool for finding errors in PHP applications<br>
     <code>homepage   </code>: https://psalm.dev<br>
@@ -6124,7 +6094,7 @@
 </details>
 
 <details>
-    <summary><b>psiphon-windows</b>:</summary>
+    <summary><b>💻 Psiphon</b>:</summary>
     <code>source code</code>: https://github.com/Psiphon-Inc/psiphon-windows<br>
     <code>description</code>: Psiphon for Windows client<br>
     <code>homepage   </code>: https://psiphon.ca/download.html<br>
@@ -6134,7 +6104,7 @@
 </details>
 
 <details>
-    <summary><b>PuMuKIT</b>:</summary>
+    <summary><b>☁️ PuMuKIT</b>:</summary>
     <code>source code</code>: https://github.com/pumukit/PuMuKIT<br>
     <code>description</code>: PuMuKIT is an Open Source Video Platform that provides unparalleled organization, flexibility, accessibility, and scalability. Well-designed and well-engineered PuMuKIT is the ideal solution for any organization with large collections of video or audio.<br>
     <code>homepage   </code>: https://pumukit.org<br>
@@ -6144,7 +6114,7 @@
 </details>
 
 <details>
-    <summary><b>pwsafe</b>:</summary>
+    <summary><b>💻 PasswordSafe</b>:</summary>
     <code>source code</code>: https://github.com/pwsafe/pwsafe<br>
     <code>description</code>: PasswordSafe - popular secure and convenient password manager<br>
     <code>homepage   </code>: https://pwsafe.org<br>
@@ -6154,7 +6124,7 @@
 </details>
 
 <details>
-    <summary><b>pyrocms</b>:</summary>
+    <summary><b>☁️ PyroCMS</b>:</summary>
     <code>source code</code>: https://github.com/pyrocms/pyrocms<br>
     <code>description</code>: Pyro is an experienced and powerful Laravel PHP CMS.<br>
     <code>homepage   </code>: https://www.pyrocms.com/<br>
@@ -6164,7 +6134,7 @@
 </details>
 
 <details>
-    <summary><b>pyscripter</b>:</summary>
+    <summary><b>💻 PyScripter</b>:</summary>
     <code>source code</code>: https://github.com/pyscripter/pyscripter<br>
     <code>description</code>: Pyscripter is a feature-rich but lightweight Python IDE<br>
     <code>homepage   </code>: -<br>
@@ -6174,20 +6144,10 @@
 </details>
 
 <details>
-    <summary><b>qalculate-gtk</b>:</summary>
-    <code>source code</code>: https://github.com/Qalculate/qalculate-gtk<br>
+    <summary><b>💻 Qalculate!</b>:</summary>
+    <code>source code</code>: https://github.com/Qalculate/qalculate-gtk, https://github.com/Qalculate/qalculate-qt<br>
     <code>description</code>: Qalculate! GTK+ UI<br>
     <code>homepage   </code>: https://qalculate.github.io/<br>
-    <code>prog lang  </code>: C++<br>
-    <code>archived   </code>: -<br>
-    <code>opinion    </code>: ⭐<br>
-</details>
-
-<details>
-    <summary><b>qalculate-qt</b>:</summary>
-    <code>source code</code>: https://github.com/Qalculate/qalculate-qt<br>
-    <code>description</code>: -<br>
-    <code>homepage   </code>: -<br>
     <code>prog lang  </code>: C++<br>
     <code>archived   </code>: -<br>
     <code>opinion    </code>: ⭐<br>
