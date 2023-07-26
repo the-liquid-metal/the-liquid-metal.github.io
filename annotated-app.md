@@ -4014,7 +4014,7 @@
 </details>
 
 <details>
-    <summary><b>keynote-nf</b>:</summary>
+    <summary><b>💻 KeyNote NF</b>:</summary>
     <code>source code</code>: https://github.com/dpradov/keynote-nf<br>
     <code>description</code>: Tabbed notebook with RichText editor, multi-level notes and strong encryption.<br>
     <code>homepage   </code>: -<br>
@@ -4024,7 +4024,7 @@
 </details>
 
 <details>
-    <summary><b>kicad-source-mirror</b>:</summary>
+    <summary><b>💻 KiCad</b>:</summary>
     <code>source code</code>: https://github.com/KiCad/kicad-source-mirror<br>
     <code>description</code>: This is an active mirror of the KiCad development branch, which is hosted at GitLab (updated every time something is pushed). Pull requests on GitHub are not accepted or watched.<br>
     <code>homepage   </code>: https://gitlab.com/kicad/code/kicad<br>
@@ -4034,7 +4034,7 @@
 </details>
 
 <details>
-    <summary><b>kid3</b>:</summary>
+    <summary><b>💻 Kid3</b>:</summary>
     <code>source code</code>: https://github.com/KDE/kid3<br>
     <code>description</code>: Efficient audio tagger that supports a large variety of file formats<br>
     <code>homepage   </code>: https://invent.kde.org/multimedia/kid3<br>
@@ -4044,7 +4044,7 @@
 </details>
 
 <details>
-    <summary><b>Kinovea</b>:</summary>
+    <summary><b>💻 Kinovea</b>:</summary>
     <code>source code</code>: https://github.com/Kinovea/Kinovea<br>
     <code>description</code>: Video solution for sport analysis. Capture, inspect, compare, annotate and measure technical performances. <br>
     <code>homepage   </code>: https://www.kinovea.org<br>
@@ -4054,7 +4054,7 @@
 </details>
 
 <details>
-    <summary><b>koel</b>:</summary>
+    <summary><b>☁️ Koel</b>:</summary>
     <code>source code</code>: https://github.com/koel/koel<br>
     <code>description</code>: 🐦 A personal music streaming server that works.<br>
     <code>homepage   </code>: https://koel.dev<br>
@@ -4064,7 +4064,7 @@
 </details>
 
 <details>
-    <summary><b>kphp</b>:</summary>
+    <summary><b>💾 KPHP (PHP compiler)</b>:</summary>
     <code>source code</code>: https://github.com/VKCOM/kphp<br>
     <code>description</code>: KPHP — a PHP compiler<br>
     <code>homepage   </code>: https://vkcom.github.io/kphp/<br>
@@ -4074,7 +4074,7 @@
 </details>
 
 <details>
-    <summary><b>krita</b>:</summary>
+    <summary><b>💻 Krita</b>:</summary>
     <code>source code</code>: https://github.com/KDE/krita<br>
     <code>description</code>: Krita is a free and open source cross-platform application that offers an end-to-end solution for creating digital art files from scratch built on the KDE and Qt frameworks.<br>
     <code>homepage   </code>: https://invent.kde.org/graphics/krita<br>
@@ -4084,7 +4084,7 @@
 </details>
 
 <details>
-    <summary><b>kstars</b>:</summary>
+    <summary><b>💻 KStars</b>:</summary>
     <code>source code</code>: https://github.com/KDE/kstars<br>
     <code>description</code>: Desktop Planetarium<br>
     <code>homepage   </code>: https://invent.kde.org/education/kstars<br>
@@ -4094,7 +4094,7 @@
 </details>
 
 <details>
-    <summary><b>lam</b>:</summary>
+    <summary><b>☁️ LDAP Account Manager</b>:</summary>
     <code>source code</code>: https://github.com/LDAPAccountManager/lam<br>
     <code>description</code>: LDAP Account Manager<br>
     <code>homepage   </code>: -<br>
@@ -4104,7 +4104,7 @@
 </details>
 
 <details>
-    <summary><b>languages</b>:</summary>
+    <summary><b>⚙️ Rinvex Language</b>:</summary>
     <code>source code</code>: https://github.com/rinvex/languages<br>
     <code>description</code>: Rinvex Language is a simple and lightweight package for retrieving language details with flexibility. A whole bunch of data including name, native, iso codes, language family, language script, language cultures, and other attributes for the 180+ known languages worldwide at your fingertips.<br>
     <code>homepage   </code>: -<br>
@@ -4114,7 +4114,7 @@
 </details>
 
 <details>
-    <summary><b>laravel-gitscrum</b>:</summary>
+    <summary><b>☁️ GitScrum</b>:</summary>
     <code>source code</code>: https://github.com/gitscrum-team/laravel-gitscrum<br>
     <code>description</code>: GitScrum is a Project Management Tool, developed to help entrepreneurs, freelancers, managers, and teams Skyrocket their Productivity with the Agile methodology and Gamification.<br>
     <code>homepage   </code>: https://site.gitscrum.com<br>
@@ -4124,7 +4124,7 @@
 </details>
 
 <details>
-    <summary><b>latte</b>:</summary>
+    <summary><b>⚙️ Latte</b>:</summary>
     <code>source code</code>: https://github.com/nette/latte<br>
     <code>description</code>: ☕ Latte: the safest & truly intuitive templates for PHP. Engine for those who want the most secure PHP sites.<br>
     <code>homepage   </code>: https://latte.nette.org<br>
@@ -4134,17 +4134,7 @@
 </details>
 
 <details>
-    <summary><b>launch4j</b>:</summary>
-    <code>source code</code>: https://github.com/mirror/launch4j<br>
-    <code>description</code>: git://git.code.sf.net/p/launch4j/git<br>
-    <code>homepage   </code>: -<br>
-    <code>prog lang  </code>: Java<br>
-    <code>archived   </code>: -<br>
-    <code>opinion    </code>: ⭐<br>
-</details>
-
-<details>
-    <summary><b>ldview</b>:</summary>
+    <summary><b>💻 LDView</b>:</summary>
     <code>source code</code>: https://github.com/tcobbs/ldview<br>
     <code>description</code>: Real-time 3D viewer for displaying LDraw models<br>
     <code>homepage   </code>: https://tcobbs.github.io/ldview/<br>
@@ -4154,17 +4144,7 @@
 </details>
 
 <details>
-    <summary><b>ldview</b>:</summary>
-    <code>source code</code>: https://github.com/trevorsandy/ldview<br>
-    <code>description</code>: Real-time 3D viewer for displaying LDraw models<br>
-    <code>homepage   </code>: https://tcobbs.github.io/ldview/<br>
-    <code>prog lang  </code>: C++<br>
-    <code>archived   </code>: -<br>
-    <code>opinion    </code>: ⭐<br>
-</details>
-
-<details>
-    <summary><b>learn-php</b>:</summary>
+    <summary><b>📔 Learn modern PHP</b>:</summary>
     <code>source code</code>: https://github.com/odan/learn-php<br>
     <code>description</code>: :elephant: Learn modern PHP<br>
     <code>homepage   </code>: https://odan.github.io/learn-php/<br>
@@ -4174,7 +4154,7 @@
 </details>
 
 <details>
-    <summary><b>leocad</b>:</summary>
+    <summary><b>💻 LeoCAD</b>:</summary>
     <code>source code</code>: https://github.com/leozide/leocad<br>
     <code>description</code>: A CAD application for creating virtual LEGO models<br>
     <code>homepage   </code>: https://www.leocad.org<br>
@@ -4184,7 +4164,7 @@
 </details>
 
 <details>
-    <summary><b>lessphp</b>:</summary>
+    <summary><b>⚙️ lessphp</b>:</summary>
     <code>source code</code>: https://github.com/leafo/lessphp<br>
     <code>description</code>: LESS compiler written in PHP<br>
     <code>homepage   </code>: http://leafo.net/lessphp<br>
@@ -4194,7 +4174,7 @@
 </details>
 
 <details>
-    <summary><b>LetoDMS</b>:</summary>
+    <summary><b>☁️ LetoDMS</b>:</summary>
     <code>source code</code>: https://github.com/trilexcom/LetoDMS<br>
     <code>description</code>: LetoDMS is an open-source document-management-system based on PHP and MySQL published under the GPL.<br>
     <code>homepage   </code>: http://www.letodms.com<br>
@@ -4204,7 +4184,7 @@
 </details>
 
 <details>
-    <summary><b>libphonenumber-for-php</b>:</summary>
+    <summary><b>⚙️ libphonenumber for PHP</b>:</summary>
     <code>source code</code>: https://github.com/giggsey/libphonenumber-for-php<br>
     <code>description</code>: PHP version of Google's phone number handling library<br>
     <code>homepage   </code>: https://giggsey.com/libphonenumber/<br>
@@ -4214,7 +4194,7 @@
 </details>
 
 <details>
-    <summary><b>LibreCAD</b>:</summary>
+    <summary><b>💻 LibreCAD</b>:</summary>
     <code>source code</code>: https://github.com/LibreCAD/LibreCAD<br>
     <code>description</code>: LibreCAD is a cross-platform 2D CAD program written in C++14 using the Qt framework. It can read DXF and DWG files and can write DXF, PDF and SVG files. The user interface is highly customizable, and has dozens of translations.<br>
     <code>homepage   </code>: http://librecad.org/<br>
@@ -4224,7 +4204,7 @@
 </details>
 
 <details>
-    <summary><b>LibrePCB</b>:</summary>
+    <summary><b>💻 LibrePCB</b>:</summary>
     <code>source code</code>: https://github.com/LibrePCB/LibrePCB<br>
     <code>description</code>: A powerful, innovative and intuitive EDA suite for everyone!<br>
     <code>homepage   </code>: https://librepcb.org<br>
@@ -4234,7 +4214,7 @@
 </details>
 
 <details>
-    <summary><b>lightproxy</b>:</summary>
+    <summary><b>💻 lightproxy</b>:</summary>
     <code>source code</code>: https://github.com/alibaba/lightproxy<br>
     <code>description</code>: 💎 Cross platform Web debugging proxy<br>
     <code>homepage   </code>: https://lightproxy.org/<br>
@@ -4244,7 +4224,7 @@
 </details>
 
 <details>
-    <summary><b>LightTable</b>:</summary>
+    <summary><b>💻 Light Table IDE</b>:</summary>
     <code>source code</code>: https://github.com/LightTable/LightTable<br>
     <code>description</code>: The Light Table IDE ⛺<br>
     <code>homepage   </code>: www.lighttable.com<br>
@@ -4254,7 +4234,7 @@
 </details>
 
 <details>
-    <summary><b>limbas</b>:</summary>
+    <summary><b>☁️ Limbas</b>:</summary>
     <code>source code</code>: https://github.com/limbas/limbas<br>
     <code>description</code>: Powerful database framework that fits your needs<br>
     <code>homepage   </code>: https://www.limbas.com/en/<br>
@@ -4264,7 +4244,7 @@
 </details>
 
 <details>
-    <summary><b>LimeSurvey</b>:</summary>
+    <summary><b>☁️ LimeSurvey</b>:</summary>
     <code>source code</code>: https://github.com/LimeSurvey/LimeSurvey<br>
     <code>description</code>: The most popular FOSS online survey tool on the web.<br>
     <code>homepage   </code>: https://www.limesurvey.org<br>
@@ -4274,7 +4254,7 @@
 </details>
 
 <details>
-    <summary><b>lmms</b>:</summary>
+    <summary><b>💻 LMMS</b>:</summary>
     <code>source code</code>: https://github.com/LMMS/lmms<br>
     <code>description</code>: Cross-platform music production software<br>
     <code>homepage   </code>: https://lmms.io<br>
@@ -4284,7 +4264,7 @@
 </details>
 
 <details>
-    <summary><b>locutus</b>:</summary>
+    <summary><b>☁️ Locutus</b>:</summary>
     <code>source code</code>: https://github.com/locutusjs/locutus<br>
     <code>description</code>: Bringing stdlibs of other programming languages to JavaScript for educational purposes<br>
     <code>homepage   </code>: https://locutus.io<br>
@@ -4294,7 +4274,7 @@
 </details>
 
 <details>
-    <summary><b>lodash</b>:</summary>
+    <summary><b>⚙️ Lodash</b>:</summary>
     <code>source code</code>: https://github.com/lodash/lodash<br>
     <code>description</code>: A modern JavaScript utility library delivering modularity, performance, & extras.<br>
     <code>homepage   </code>: https://lodash.com/<br>
@@ -4304,7 +4284,7 @@
 </details>
 
 <details>
-    <summary><b>lode</b>:</summary>
+    <summary><b>💻 Lode</b>:</summary>
     <code>source code</code>: https://github.com/lodeapp/lode<br>
     <code>description</code>: A universal GUI for unit testing built with Electron and Vue.js<br>
     <code>homepage   </code>: https://lode.run<br>
@@ -4314,7 +4294,7 @@
 </details>
 
 <details>
-    <summary><b>Logic-Circuit-Simulator</b>:</summary>
+    <summary><b>☁️ Logic Circuit Simulator</b>:</summary>
     <code>source code</code>: https://github.com/drendog/Logic-Circuit-Simulator<br>
     <code>description</code>: A logic circuit simulator made with p5.js library.<br>
     <code>homepage   </code>: https://drendog.github.io/Logic-Circuit-Simulator/<br>
@@ -4324,7 +4304,7 @@
 </details>
 
 <details>
-    <summary><b>LogicCircuit</b>:</summary>
+    <summary><b>💻 LogicCircuit</b>:</summary>
     <code>source code</code>: https://github.com/eugenelepekhin/LogicCircuit<br>
     <code>description</code>: LogicCircuit – is free, open source educational software for designing and simulating digital logic circuits.<br>
     <code>homepage   </code>: https://logiccircuit.org/<br>
@@ -4334,7 +4314,7 @@
 </details>
 
 <details>
-    <summary><b>lossless-cut</b>:</summary>
+    <summary><b>💻 LosslessCut</b>:</summary>
     <code>source code</code>: https://github.com/mifi/lossless-cut<br>
     <code>description</code>: The swiss army knife of lossless video/audio editing<br>
     <code>homepage   </code>: -<br>
@@ -4344,7 +4324,7 @@
 </details>
 
 <details>
-    <summary><b>lpub3d</b>:</summary>
+    <summary><b>💻 LPub3D</b>:</summary>
     <code>source code</code>: https://github.com/trevorsandy/lpub3d<br>
     <code>description</code>: An LDraw™ editor for LEGO® style digital building instructions.<br>
     <code>homepage   </code>: https://trevorsandy.github.io/lpub3d/<br>
@@ -4354,7 +4334,7 @@
 </details>
 
 <details>
-    <summary><b>luya</b>:</summary>
+    <summary><b>⚙️ LUYA</b>:</summary>
     <code>source code</code>: https://github.com/luyadev/luya<br>
     <code>description</code>: LUYA is a scalable web framework and content management system with the goal to please developers, clients and users alike.<br>
     <code>homepage   </code>: https://luya.io<br>
@@ -4364,7 +4344,7 @@
 </details>
 
 <details>
-    <summary><b>magento2</b>:</summary>
+    <summary><b>☁️ Magento 2</b>:</summary>
     <code>source code</code>: https://github.com/magento/magento2<br>
     <code>description</code>: Prior to making any Submission(s), you must sign an Adobe Contributor License Agreement, available here at: https://opensource.adobe.com/cla.html. All Submissions you make to Adobe Inc. and its affiliates, assigns and subsidiaries (collectively “Adobe”) are subject to the terms of the Adobe Contributor License Agreement.<br>
     <code>homepage   </code>: http://www.magento.com<br>
@@ -4374,7 +4354,7 @@
 </details>
 
 <details>
-    <summary><b>mantisbt</b>:</summary>
+    <summary><b>☁️ Mantis Bug Tracker (MantisBT)</b>:</summary>
     <code>source code</code>: https://github.com/mantisbt/mantisbt<br>
     <code>description</code>: Mantis Bug Tracker (MantisBT)<br>
     <code>homepage   </code>: https://mantisbt.org<br>
@@ -4384,7 +4364,7 @@
 </details>
 
 <details>
-    <summary><b>marble</b>:</summary>
+    <summary><b>💻 Marble Virtual Globe and World Atlas</b>:</summary>
     <code>source code</code>: https://github.com/KDE/marble<br>
     <code>description</code>: Virtual Globe and World Atlas that you can use to learn more about the Earth<br>
     <code>homepage   </code>: https://invent.kde.org/education/marble<br>
@@ -4394,7 +4374,7 @@
 </details>
 
 <details>
-    <summary><b>Markdown-Edit</b>:</summary>
+    <summary><b>💻 Markdown Edit</b>:</summary>
     <code>source code</code>: https://github.com/mike-ward/Markdown-Edit<br>
     <code>description</code>: My attempt at a markdown editor for windows<br>
     <code>homepage   </code>: https://mike-ward.net/Markdown-Edit<br>
@@ -4404,7 +4384,7 @@
 </details>
 
 <details>
-    <summary><b>math-php</b>:</summary>
+    <summary><b>⚙️ MathPHP</b>:</summary>
     <code>source code</code>: https://github.com/markrogoyski/math-php<br>
     <code>description</code>: Powerful modern math library for PHP: Features descriptive statistics and regressions; Continuous and discrete probability distributions; Linear algebra with matrices and vectors, Numerical analysis; special mathematical functions; Algebra<br>
     <code>homepage   </code>: -<br>
@@ -4414,7 +4394,7 @@
 </details>
 
 <details>
-    <summary><b>MathExecutor</b>:</summary>
+    <summary><b>⚙️ MathExecutor</b>:</summary>
     <code>source code</code>: https://github.com/neonxp/MathExecutor<br>
     <code>description</code>: Simple math expresions parser and calculator<br>
     <code>homepage   </code>: -<br>
@@ -4424,7 +4404,7 @@
 </details>
 
 <details>
-    <summary><b>matomo</b>:</summary>
+    <summary><b>☁️ Matomo</b>:</summary>
     <code>source code</code>: https://github.com/matomo-org/matomo<br>
     <code>description</code>: Liberating Web Analytics. Star us on Github? +1. Matomo is the leading open alternative to Google Analytics that gives you full control over your data. Matomo lets you easily collect data from websites & apps and visualise this data and extract insights. Privacy is built-in. We love Pull Requests! <br>
     <code>homepage   </code>: https://matomo.org/<br>
@@ -4434,7 +4414,7 @@
 </details>
 
 <details>
-    <summary><b>mautic</b>:</summary>
+    <summary><b>☁️ Mautic</b>:</summary>
     <code>source code</code>: https://github.com/mautic/mautic<br>
     <code>description</code>: Mautic: Open Source Marketing Automation Software.<br>
     <code>homepage   </code>: https://www.mautic.org<br>
@@ -4444,7 +4424,7 @@
 </details>
 
 <details>
-    <summary><b>mdb-ui-kit</b>:</summary>
+    <summary><b>⚙️ Material Design for Bootstrap</b>:</summary>
     <code>source code</code>: https://github.com/mdbootstrap/mdb-ui-kit<br>
     <code>description</code>: Bootstrap 5 & Material Design UI KIT<br>
     <code>homepage   </code>: https://mdbootstrap.com/docs/standard/<br>
@@ -4454,7 +4434,7 @@
 </details>
 
 <details>
-    <summary><b>mediaChips</b>:</summary>
+    <summary><b>💻 MediaChips</b>:</summary>
     <code>source code</code>: https://github.com/fupdec/mediaChips<br>
     <code>description</code>: Manage your videos, add any metadata to them and play them.<br>
     <code>homepage   </code>: https://mediachips.app<br>
@@ -4464,7 +4444,7 @@
 </details>
 
 <details>
-    <summary><b>mediawiki</b>:</summary>
+    <summary><b>☁️ MediaWiki</b>:</summary>
     <code>source code</code>: https://github.com/wikimedia/mediawiki<br>
     <code>description</code>: 🌻 The collaborative editing software that runs Wikipedia. Mirror from https://gerrit.wikimedia.org/g/mediawiki/core. See https://mediawiki.org/wiki/Developer_access for contributing.<br>
     <code>homepage   </code>: https://www.mediawiki.org<br>
@@ -4474,7 +4454,7 @@
 </details>
 
 <details>
-    <summary><b>medkey</b>:</summary>
+    <summary><b>☁️ Medkey EHR/EMR Hospital Information System</b>:</summary>
     <code>source code</code>: https://github.com/medkey-org/medkey<br>
     <code>description</code>: Medkey Hospital Information System main repository: Practice Management for Practicioners & Hospitals, EHR, Patient Engagement<br>
     <code>homepage   </code>: https://medkey.org<br>
@@ -4484,7 +4464,7 @@
 </details>
 
 <details>
-    <summary><b>meld</b>:</summary>
+    <summary><b>💻 Meld</b>:</summary>
     <code>source code</code>: https://github.com/GNOME/meld<br>
     <code>description</code>: Read-only mirror of https://gitlab.gnome.org/GNOME/meld<br>
     <code>homepage   </code>: https://gitlab.gnome.org/GNOME/meld<br>
@@ -4494,7 +4474,7 @@
 </details>
 
 <details>
-    <summary><b>mermaid</b>:</summary>
+    <summary><b>⚙️ Mermaid</b>:</summary>
     <code>source code</code>: https://github.com/mermaid-js/mermaid<br>
     <code>description</code>: Generation of diagrams like flowcharts or sequence diagrams from text in a similar manner as markdown<br>
     <code>homepage   </code>: http://mermaid.js.org<br>
@@ -4504,7 +4484,7 @@
 </details>
 
 <details>
-    <summary><b>Meshroom</b>:</summary>
+    <summary><b>💻 Meshroom</b>:</summary>
     <code>source code</code>: https://github.com/alicevision/Meshroom<br>
     <code>description</code>: 3D Reconstruction Software<br>
     <code>homepage   </code>: http://alicevision.org<br>
@@ -4514,7 +4494,7 @@
 </details>
 
 <details>
-    <summary><b>MetaLIMS</b>:</summary>
+    <summary><b>☁️ MetaLIMS</b>:</summary>
     <code>source code</code>: https://github.com/cheinle/MetaLIMS<br>
     <code>description</code>: MetaLIMS, A Simple Open-Source Laboratory Information Management System for Small Metagenomic Labs<br>
     <code>homepage   </code>: -<br>
@@ -4524,7 +4504,7 @@
 </details>
 
 <details>
-    <summary><b>metismenu</b>:</summary>
+    <summary><b>⚙️ metisMenu (jQuery plugin)</b>:</summary>
     <code>source code</code>: https://github.com/onokumus/metismenu<br>
     <code>description</code>: A collapsible jQuery menu plugin<br>
     <code>homepage   </code>: https://onokumus.github.io/metismenu/<br>
@@ -4534,7 +4514,7 @@
 </details>
 
 <details>
-    <summary><b>midieditor</b>:</summary>
+    <summary><b>💻 MidiEditor</b>:</summary>
     <code>source code</code>: https://github.com/markusschwenk/midieditor<br>
     <code>description</code>: Provides an interface to edit, record, and play Midi data<br>
     <code>homepage   </code>: -<br>
@@ -4544,7 +4524,7 @@
 </details>
 
 <details>
-    <summary><b>mixxx</b>:</summary>
+    <summary><b>💻 Mixxx</b>:</summary>
     <code>source code</code>: https://github.com/mixxxdj/mixxx<br>
     <code>description</code>: Mixxx is Free DJ software that gives you everything you need to perform live mixes.<br>
     <code>homepage   </code>: http://mixxx.org<br>
@@ -4554,7 +4534,7 @@
 </details>
 
 <details>
-    <summary><b>mlt</b>:</summary>
+    <summary><b>⚙️ MLT Multimedia Framework</b>:</summary>
     <code>source code</code>: https://github.com/mltframework/mlt<br>
     <code>description</code>: MLT Multimedia Framework<br>
     <code>homepage   </code>: https://www.mltframework.org<br>
@@ -4564,17 +4544,7 @@
 </details>
 
 <details>
-    <summary><b>mockup-designer</b>:</summary>
-    <code>source code</code>: https://github.com/fatiherikli/mockup-designer<br>
-    <code>description</code>: The mockup tool that uses your local storage as backend.<br>
-    <code>homepage   </code>: http://fatiherikli.github.com/mockup-designer/<br>
-    <code>prog lang  </code>: JavaScript<br>
-    <code>archived   </code>: -<br>
-    <code>opinion    </code>: ⭐<br>
-</details>
-
-<details>
-    <summary><b>Modelio</b>:</summary>
+    <summary><b>💻 Modelio</b>:</summary>
     <code>source code</code>: https://github.com/ModelioOpenSource/Modelio<br>
     <code>description</code>: Modelio is a modeling solution offering a wide range of functionalities based on the main standards of enterprise architecture, software development and systems engineering.<br>
     <code>homepage   </code>: https://www.modelio.org<br>
@@ -4584,7 +4554,7 @@
 </details>
 
 <details>
-    <summary><b>moebius</b>:</summary>
+    <summary><b>⚙️ Moebius</b>:</summary>
     <code>source code</code>: https://github.com/moebiusphp/moebius<br>
     <code>description</code>: True coroutines for PHP>=8.1 without worrying about event loops and callbacks.<br>
     <code>homepage   </code>: -<br>
@@ -4594,7 +4564,7 @@
 </details>
 
 <details>
-    <summary><b>moment</b>:</summary>
+    <summary><b>⚙️ Moment.js</b>:</summary>
     <code>source code</code>: https://github.com/moment/moment<br>
     <code>description</code>: Parse, validate, manipulate, and display dates in javascript.<br>
     <code>homepage   </code>: momentjs.com<br>
@@ -4604,7 +4574,7 @@
 </details>
 
 <details>
-    <summary><b>moment.php</b>:</summary>
+    <summary><b>⚙️ moment.php</b>:</summary>
     <code>source code</code>: https://github.com/fightbulc/moment.php<br>
     <code>description</code>: Parse, validate, manipulate, and display dates in PHP w/ i18n support. Inspired by moment.js<br>
     <code>homepage   </code>: -<br>
@@ -4614,7 +4584,7 @@
 </details>
 
 <details>
-    <summary><b>monica</b>:</summary>
+    <summary><b>☁️ Monica personal relationship management system</b>:</summary>
     <code>source code</code>: https://github.com/monicahq/monica<br>
     <code>description</code>: Personal CRM. Remember everything about your friends, family and business relationships.<br>
     <code>homepage   </code>: https://www.monicahq.com<br>
@@ -4624,7 +4594,7 @@
 </details>
 
 <details>
-    <summary><b>mono</b>:</summary>
+    <summary><b>⚙️ Mono .NET</b>:</summary>
     <code>source code</code>: https://github.com/mono/mono<br>
     <code>description</code>: Mono open source ECMA CLI, C# and .NET implementation.<br>
     <code>homepage   </code>: https://www.mono-project.com<br>
@@ -4634,7 +4604,7 @@
 </details>
 
 <details>
-    <summary><b>monolog</b>:</summary>
+    <summary><b>⚙️ Monolog - Logging for PHP</b>:</summary>
     <code>source code</code>: https://github.com/Seldaek/monolog<br>
     <code>description</code>: Sends your logs to files, sockets, inboxes, databases and various web services<br>
     <code>homepage   </code>: https://seldaek.github.io/monolog/<br>
@@ -4644,7 +4614,7 @@
 </details>
 
 <details>
-    <summary><b>moodle</b>:</summary>
+    <summary><b>☁️ Moodle</b>:</summary>
     <code>source code</code>: https://github.com/moodle/moodle<br>
     <code>description</code>: Moodle - the world's open source learning platform<br>
     <code>homepage   </code>: https://moodle.org/<br>
@@ -4654,7 +4624,7 @@
 </details>
 
 <details>
-    <summary><b>movemouse</b>:</summary>
+    <summary><b>💻 Move Mouse</b>:</summary>
     <code>source code</code>: https://github.com/sw3103/movemouse<br>
     <code>description</code>: Move Mouse is a simple piece of software that is designed to simulate user activity.<br>
     <code>homepage   </code>: http://www.movemouse.co.uk/<br>
@@ -4664,7 +4634,7 @@
 </details>
 
 <details>
-    <summary><b>MoviePrint_v004</b>:</summary>
+    <summary><b>💻 MoviePrint</b>:</summary>
     <code>source code</code>: https://github.com/fakob/MoviePrint_v004<br>
     <code>description</code>: MoviePrint | A tool which lets you create screenshots of entire movies in an instant.<br>
     <code>homepage   </code>: -<br>
@@ -4674,7 +4644,7 @@
 </details>
 
 <details>
-    <summary><b>mpc-hc</b>:</summary>
+    <summary><b>💻 Media Player Classic - Home Cinema (MPC-HC)</b>:</summary>
     <code>source code</code>: https://github.com/clsid2/mpc-hc<br>
     <code>description</code>: Media Player Classic<br>
     <code>homepage   </code>: -<br>
@@ -4684,7 +4654,7 @@
 </details>
 
 <details>
-    <summary><b>mrbs-code</b>:</summary>
+    <summary><b>☁️ Meeting Room Booking System (MRBS)</b>:</summary>
     <code>source code</code>: https://github.com/meeting-room-booking-system/mrbs-code<br>
     <code>description</code>: MRBS application code<br>
     <code>homepage   </code>: -<br>
@@ -4694,7 +4664,7 @@
 </details>
 
 <details>
-    <summary><b>mtee</b>:</summary>
+    <summary><b>💾 Mtee</b>:</summary>
     <code>source code</code>: https://github.com/ritchielawrence/mtee<br>
     <code>description</code>: Win32 stdout stream splitter<br>
     <code>homepage   </code>: http://ritchielawrence.github.io/mtee<br>
@@ -4704,7 +4674,7 @@
 </details>
 
 <details>
-    <summary><b>multiavatar-php</b>:</summary>
+    <summary><b>☁️ Multicultural Avatar Generator in PHP</b>:</summary>
     <code>source code</code>: https://github.com/multiavatar/multiavatar-php<br>
     <code>description</code>: Multicultural Avatar Generator in PHP<br>
     <code>homepage   </code>: https://multiavatar.com<br>
@@ -4714,7 +4684,7 @@
 </details>
 
 <details>
-    <summary><b>muse</b>:</summary>
+    <summary><b>💻 MusE MIDI/Audio sequencer</b>:</summary>
     <code>source code</code>: https://github.com/muse-sequencer/muse<br>
     <code>description</code>: MusE is a digital audio workstation with support for both Audio and MIDI<br>
     <code>homepage   </code>: https://muse-sequencer.github.io/<br>
@@ -4724,7 +4694,7 @@
 </details>
 
 <details>
-    <summary><b>MuseScore</b>:</summary>
+    <summary><b>💻 MuseScore</b>:</summary>
     <code>source code</code>: https://github.com/musescore/MuseScore<br>
     <code>description</code>: MuseScore is an open source and free music notation software. For support, contribution, bug reports, visit MuseScore.org. Fork and make pull requests!<br>
     <code>homepage   </code>: https://musescore.org<br>
@@ -4734,7 +4704,7 @@
 </details>
 
 <details>
-    <summary><b>mypaint</b>:</summary>
+    <summary><b>💻 MyPaint</b>:</summary>
     <code>source code</code>: https://github.com/mypaint/mypaint<br>
     <code>description</code>: MyPaint is a simple drawing and painting program that works well with Wacom-style graphics tablets.<br>
     <code>homepage   </code>: https://mypaint.app<br>
