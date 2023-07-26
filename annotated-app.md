@@ -6544,7 +6544,7 @@
 </details>
 
 <details>
-    <summary><b>ScreenRuler</b>:</summary>
+    <summary><b>💻 Screen Ruler</b>:</summary>
     <code>source code</code>: https://github.com/Bluegrams/ScreenRuler<br>
     <code>description</code>: Configurable screen measuring tool for Windows<br>
     <code>homepage   </code>: https://sf.net/p/screenruler<br>
@@ -6554,7 +6554,7 @@
 </details>
 
 <details>
-    <summary><b>ScreenToGif</b>:</summary>
+    <summary><b>💻 ScreenToGif</b>:</summary>
     <code>source code</code>: https://github.com/NickeManarin/ScreenToGif<br>
     <code>description</code>: 🎬 ScreenToGif allows you to record a selected area of your screen, edit and save it as a gif or video.<br>
     <code>homepage   </code>: http://www.screentogif.com<br>
@@ -6564,9 +6564,9 @@
 </details>
 
 <details>
-    <summary><b>scribus</b>:</summary>
+    <summary><b>💻 Scribus</b>:</summary>
     <code>source code</code>: https://github.com/scribusproject/scribus<br>
-    <code>description</code>: Mirror of official Scribus SVN (however you should really use SVN at svn://scribus.net) (http://bugs.scribus.net ← Submit PRs & Bugs)<br>
+    <code>description</code>: Mirror of official Scribus SVN<br>
     <code>homepage   </code>: http://scribus.net<br>
     <code>prog lang  </code>: C++<br>
     <code>archived   </code>: -<br>
@@ -6574,7 +6574,7 @@
 </details>
 
 <details>
-    <summary><b>scssphp</b>:</summary>
+    <summary><b>⚙️ scssphp</b>:</summary>
     <code>source code</code>: https://github.com/leafo/scssphp<br>
     <code>description</code>: SCSS compiler written in PHP<br>
     <code>homepage   </code>: -<br>
@@ -6584,7 +6584,7 @@
 </details>
 
 <details>
-    <summary><b>seb-win-refactoring</b>:</summary>
+    <summary><b>💻 Safe Exam Browser</b>:</summary>
     <code>source code</code>: https://github.com/SafeExamBrowser/seb-win-refactoring<br>
     <code>description</code>: Safe Exam Browser for Windows.<br>
     <code>homepage   </code>: https://www.safeexambrowser.org/news_en.html<br>
@@ -6594,7 +6594,7 @@
 </details>
 
 <details>
-    <summary><b>selectize.js</b>:</summary>
+    <summary><b>⚙️ selectize.js</b>:</summary>
     <code>source code</code>: https://github.com/selectize/selectize.js<br>
     <code>description</code>: Selectize is the hybrid of a textbox and select box. It's jQuery based, and it has autocomplete and native-feeling keyboard navigation; useful for tagging, contact lists, etc.<br>
     <code>homepage   </code>: https://selectize.dev/<br>
@@ -6604,7 +6604,7 @@
 </details>
 
 <details>
-    <summary><b>sentrifugo</b>:</summary>
+    <summary><b>☁️ Sentrifugo Human Resource Management System (HRMS)</b>:</summary>
     <code>source code</code>: https://github.com/sapplica/sentrifugo<br>
     <code>description</code>: Sentrifugo is a FREE and powerful Human Resource Management System (HRMS) that can be easily configured to meet your organizational needs.<br>
     <code>homepage   </code>: http://www.sentrifugo.com/<br>
@@ -6614,7 +6614,7 @@
 </details>
 
 <details>
-    <summary><b>Seo-Panel</b>:</summary>
+    <summary><b>☁️ Seo Panel</b>:</summary>
     <code>source code</code>: https://github.com/seopanel/Seo-Panel<br>
     <code>description</code>: World's first seo control panel for multiple websites<br>
     <code>homepage   </code>: https://www.seopanel.in<br>
@@ -6624,7 +6624,7 @@
 </details>
 
 <details>
-    <summary><b>server</b>:</summary>
+    <summary><b>☁️ Nextcloud Server</b>:</summary>
     <code>source code</code>: https://github.com/nextcloud/server<br>
     <code>description</code>: ☁️ Nextcloud server, a safe home for all your data<br>
     <code>homepage   </code>: https://nextcloud.com<br>
@@ -6634,7 +6634,7 @@
 </details>
 
 <details>
-    <summary><b>Shaman.Dokan.Archive</b>:</summary>
+    <summary><b>💾 7zip mounter</b>:</summary>
     <code>source code</code>: https://github.com/antiufo/Shaman.Dokan.Archive<br>
     <code>description</code>: Mounts 7z/zip/rar files on Windows<br>
     <code>homepage   </code>: -<br>
@@ -6644,7 +6644,7 @@
 </details>
 
 <details>
-    <summary><b>ShareX</b>:</summary>
+    <summary><b>💻 ShareX</b>:</summary>
     <code>source code</code>: https://github.com/ShareX/ShareX<br>
     <code>description</code>: ShareX is a free and open source program that lets you capture or record any area of your screen and share it with a single press of a key. It also allows uploading images, text or other types of files to many supported destinations you can choose from.<br>
     <code>homepage   </code>: https://getsharex.com<br>
@@ -6654,7 +6654,7 @@
 </details>
 
 <details>
-    <summary><b>shotcut</b>:</summary>
+    <summary><b>💻 Shotcut</b>:</summary>
     <code>source code</code>: https://github.com/mltframework/shotcut<br>
     <code>description</code>: cross-platform (Qt), open-source (GPLv3) video editor<br>
     <code>homepage   </code>: https://www.shotcut.org<br>
@@ -6664,7 +6664,7 @@
 </details>
 
 <details>
-    <summary><b>shotwell</b>:</summary>
+    <summary><b>💻 Shotwell Photo Manager</b>:</summary>
     <code>source code</code>: https://github.com/GNOME/shotwell<br>
     <code>description</code>: Read-only mirror of https://gitlab.gnome.org/GNOME/shotwell<br>
     <code>homepage   </code>: https://gitlab.gnome.org/GNOME/shotwell<br>
@@ -6674,7 +6674,7 @@
 </details>
 
 <details>
-    <summary><b>simancil</b>:</summary>
+    <summary><b>☁️ simancil</b>:</summary>
     <code>source code</code>: https://github.com/v13nr/simancil<br>
     <code>description</code>: PT. Netsindo Sentra Computama<br>
     <code>homepage   </code>: -<br>
@@ -6684,7 +6684,7 @@
 </details>
 
 <details>
-    <summary><b>SIMIKMAN</b>:</summary>
+    <summary><b>☁️ SIMIKMAN</b>:</summary>
     <code>source code</code>: https://github.com/radigi2207/SIMIKMAN<br>
     <code>description</code>: php mikrotik codeigniter (SIMIKMAN)<br>
     <code>homepage   </code>: -<br>
@@ -6694,7 +6694,7 @@
 </details>
 
 <details>
-    <summary><b>similar_vision</b>:</summary>
+    <summary><b>💻 Similar Vision</b>:</summary>
     <code>source code</code>: https://github.com/stereomatchingkiss/similar_vision<br>
     <code>description</code>: An app used to find similar images/videos within image/video set. Based on Qt5, opencv3 and boost<br>
     <code>homepage   </code>: -<br>
@@ -6704,7 +6704,7 @@
 </details>
 
 <details>
-    <summary><b>simple-video-cutter</b>:</summary>
+    <summary><b>💻 Simple video cutter</b>:</summary>
     <code>source code</code>: https://github.com/bartekmotyl/simple-video-cutter<br>
     <code>description</code>: Windows-based tool for efficient browsing and cutting video footage<br>
     <code>homepage   </code>: -<br>
@@ -6714,7 +6714,7 @@
 </details>
 
 <details>
-    <summary><b>SimpleDesk</b>:</summary>
+    <summary><b>☁️ SimpleDesk</b>:</summary>
     <code>source code</code>: https://github.com/SimpleMachines/SimpleDesk<br>
     <code>description</code>: SimpleDesk<br>
     <code>homepage   </code>: https://www.simpledesk.net<br>
@@ -6724,7 +6724,7 @@
 </details>
 
 <details>
-    <summary><b>simplepie</b>:</summary>
+    <summary><b>⚙️ SimplePie</b>:</summary>
     <code>source code</code>: https://github.com/simplepie/simplepie<br>
     <code>description</code>: A simple Atom/RSS parsing library for PHP.<br>
     <code>homepage   </code>: http://simplepie.org/<br>
@@ -6734,7 +6734,7 @@
 </details>
 
 <details>
-    <summary><b>sitracker</b>:</summary>
+    <summary><b>☁️ Support Incident Tracker (SiT!)</b>:</summary>
     <code>source code</code>: https://github.com/sitracker/sitracker<br>
     <code>description</code>: The SiT! (Support Incident Tracker) project.<br>
     <code>homepage   </code>: http://sitracker.org<br>
@@ -6744,7 +6744,7 @@
 </details>
 
 <details>
-    <summary><b>sk1-wx</b>:</summary>
+    <summary><b>💻 sK1 2.0</b>:</summary>
     <code>source code</code>: https://github.com/sk1project/sk1-wx<br>
     <code>description</code>: sK1 2.0 cross-platform vector graphics editor<br>
     <code>homepage   </code>: https://sk1project.net<br>
@@ -6754,7 +6754,7 @@
 </details>
 
 <details>
-    <summary><b>slims9_bulian</b>:</summary>
+    <summary><b>☁️ SLiMS 9 Bulian</b>:</summary>
     <code>source code</code>: https://github.com/slims/slims9_bulian<br>
     <code>description</code>: SLiMS 9 Bulian official source code repository.<br>
     <code>homepage   </code>: https://slims.web.id<br>
@@ -6764,7 +6764,7 @@
 </details>
 
 <details>
-    <summary><b>SMF</b>:</summary>
+    <summary><b>☁️ Simple Machines Forum (SMF)</b>:</summary>
     <code>source code</code>: https://github.com/SimpleMachines/SMF<br>
     <code>description</code>: Simple Machines Forum — SMF in short — is free and open-source community forum software, delivering professional grade features in a package that allows you to set up your own online community within minutes!<br>
     <code>homepage   </code>: https://www.simplemachines.org/<br>
@@ -6774,7 +6774,7 @@
 </details>
 
 <details>
-    <summary><b>SMF3.0</b>:</summary>
+    <summary><b>☁️ Simple Machines Forum (SMF) 3.0</b>:</summary>
     <code>source code</code>: https://github.com/SimpleMachines/SMF3.0<br>
     <code>description</code>: SMF<br>
     <code>homepage   </code>: http://www.simplemachines.org<br>
@@ -6784,7 +6784,7 @@
 </details>
 
 <details>
-    <summary><b>smilla-enlarger</b>:</summary>
+    <summary><b>💻 SmillaEnlarger</b>:</summary>
     <code>source code</code>: https://github.com/lupoDharkael/smilla-enlarger<br>
     <code>description</code>: QT5 port of Smilla Enlarger<br>
     <code>homepage   </code>: -<br>
@@ -6794,7 +6794,7 @@
 </details>
 
 <details>
-    <summary><b>snipe-it</b>:</summary>
+    <summary><b>☁️ Snipe-IT - Asset Management System</b>:</summary>
     <code>source code</code>: https://github.com/snipe/snipe-it<br>
     <code>description</code>: A free open source IT asset/license management system<br>
     <code>homepage   </code>: https://snipeitapp.com<br>
@@ -6804,7 +6804,7 @@
 </details>
 
 <details>
-    <summary><b>SoftEtherVPN</b>:</summary>
+    <summary><b>💻 SoftEther VPN</b>:</summary>
     <code>source code</code>: https://github.com/SoftEtherVPN/SoftEtherVPN<br>
     <code>description</code>: Cross-platform multi-protocol VPN software. Pull requests are welcome. The stable version is available at https://github.com/SoftEtherVPN/SoftEtherVPN_Stable.<br>
     <code>homepage   </code>: -<br>
@@ -6814,7 +6814,7 @@
 </details>
 
 <details>
-    <summary><b>SolidInvoice</b>:</summary>
+    <summary><b>☁️ SolidInvoice</b>:</summary>
     <code>source code</code>: https://github.com/SolidInvoice/SolidInvoice<br>
     <code>description</code>: Simple and elegant invoicing solution.<br>
     <code>homepage   </code>: https://solidinvoice.co<br>
@@ -6824,7 +6824,7 @@
 </details>
 
 <details>
-    <summary><b>space-radar</b>:</summary>
+    <summary><b>💻 Space Radar</b>:</summary>
     <code>source code</code>: https://github.com/zz85/space-radar<br>
     <code>description</code>: Disk And Memory Space Visualization App built with Electron & d3.js<br>
     <code>homepage   </code>: https://github.com/zz85/space-radar-electron/releases<br>
@@ -6834,7 +6834,7 @@
 </details>
 
 <details>
-    <summary><b>SpeedCrunch</b>:</summary>
+    <summary><b>💻 SpeedCrunch</b>:</summary>
     <code>source code</code>: https://github.com/speedcrunch/SpeedCrunch<br>
     <code>description</code>: A fast, high-precision and powerful cross-platform desktop calculator.<br>
     <code>homepage   </code>: http://speedcrunch.org<br>
@@ -6844,7 +6844,7 @@
 </details>
 
 <details>
-    <summary><b>spyder</b>:</summary>
+    <summary><b>💻 Spyder - Scientific Python Development Environment</b>:</summary>
     <code>source code</code>: https://github.com/spyder-ide/spyder<br>
     <code>description</code>: Official repository for Spyder - The Scientific Python Development Environment<br>
     <code>homepage   </code>: https://www.spyder-ide.org<br>
@@ -6854,7 +6854,7 @@
 </details>
 
 <details>
-    <summary><b>sqlitestudio</b>:</summary>
+    <summary><b>💻 SQLiteStudio</b>:</summary>
     <code>source code</code>: https://github.com/pawelsalawa/sqlitestudio<br>
     <code>description</code>: A free, open source, multi-platform SQLite database manager.<br>
     <code>homepage   </code>: https://sqlitestudio.pl<br>
@@ -6864,7 +6864,7 @@
 </details>
 
 <details>
-    <summary><b>squirrelmail</b>:</summary>
+    <summary><b>☁️ SqirrelMail</b>:</summary>
     <code>source code</code>: https://github.com/RealityRipple/squirrelmail<br>
     <code>description</code>:  🌰️🐿️ SquirrelMail GitHub Repository (PHP 7-OK!)<br>
     <code>homepage   </code>: -<br>
@@ -6874,7 +6874,7 @@
 </details>
 
 <details>
-    <summary><b>startbootstrap-sb-admin-2</b>:</summary>
+    <summary><b>⚙️ Start Bootstrap - SB Admin 2</b>:</summary>
     <code>source code</code>: https://github.com/StartBootstrap/startbootstrap-sb-admin-2<br>
     <code>description</code>: A free, open source, Bootstrap admin theme created by Start Bootstrap<br>
     <code>homepage   </code>: https://startbootstrap.com/themes/sb-admin-2/<br>
@@ -6884,7 +6884,7 @@
 </details>
 
 <details>
-    <summary><b>Studio</b>:</summary>
+    <summary><b>☁️ Jahshaka Studio</b>:</summary>
     <code>source code</code>: https://github.com/jahshaka/Studio<br>
     <code>description</code>: Jahshaka Virtual Reality Content Creation Studio<br>
     <code>homepage   </code>: http://www.jahshaka.com<br>
@@ -6894,7 +6894,7 @@
 </details>
 
 <details>
-    <summary><b>SubtitleComposer</b>:</summary>
+    <summary><b>💻 Subtitle Composer</b>:</summary>
     <code>source code</code>: https://github.com/maxrd2/SubtitleComposer<br>
     <code>description</code>: Subtitle Composer - KF5/Qt Video Subtitle Editor<br>
     <code>homepage   </code>: -<br>
@@ -6904,7 +6904,7 @@
 </details>
 
 <details>
-    <summary><b>subtitleedit</b>:</summary>
+    <summary><b>💻 Subtitle Edit</b>:</summary>
     <code>source code</code>: https://github.com/SubtitleEdit/subtitleedit<br>
     <code>description</code>: the subtitle editor :)<br>
     <code>homepage   </code>: http://www.nikse.dk/SubtitleEdit/Help<br>
@@ -6914,7 +6914,7 @@
 </details>
 
 <details>
-    <summary><b>SugarCRM-Community-Edition</b>:</summary>
+    <summary><b>☁️ SugarCRM Community Edition</b>:</summary>
     <code>source code</code>: https://github.com/matthewpoer/SugarCRM-Community-Edition<br>
     <code>description</code>: A collection of legacy SugarCRM Community Edition installers, upgrade packages, documentation, etc. collected from the SourceForge project prior to the files being removed from the site.<br>
     <code>homepage   </code>: -<br>
@@ -6924,7 +6924,7 @@
 </details>
 
 <details>
-    <summary><b>SuiteCRM</b>:</summary>
+    <summary><b>☁️ SuiteCRM</b>:</summary>
     <code>source code</code>: https://github.com/salesagility/SuiteCRM<br>
     <code>description</code>: SuiteCRM - Open source CRM for the world<br>
     <code>homepage   </code>: https://www.suitecrm.com<br>
@@ -6934,7 +6934,7 @@
 </details>
 
 <details>
-    <summary><b>super-expressive-php</b>:</summary>
+    <summary><b>⚙️ Super Expressive PHP</b>:</summary>
     <code>source code</code>: https://github.com/bassim/super-expressive-php<br>
     <code>description</code>: super-expressive-php is a php library that allows you to build regular expressions in almost natural language<br>
     <code>homepage   </code>: -<br>
@@ -6944,7 +6944,7 @@
 </details>
 
 <details>
-    <summary><b>super_closure</b>:</summary>
+    <summary><b>⚙️ PHP SuperClosure</b>:</summary>
     <code>source code</code>: https://github.com/jeremeamia/super_closure<br>
     <code>description</code>: Serialize closures. Not maintained. Consider using opis/closure.<br>
     <code>homepage   </code>: -<br>
@@ -6954,7 +6954,7 @@
 </details>
 
 <details>
-    <summary><b>SurroundSelection (Notepad++ plugin)</b>:</summary>
+    <summary><b>⚙️ SurroundSelection (Notepad++ plugin)</b>:</summary>
     <code>source code</code>: https://github.com/dail8859/SurroundSelection<br>
     <code>description</code>: Notepad++ plugin to automatically surround the selection in quotes/brackets/parenthesis<br>
     <code>homepage   </code>: -<br>
@@ -6964,7 +6964,7 @@
 </details>
 
 <details>
-    <summary><b>symfony</b>:</summary>
+    <summary><b>⚙️ Symfony</b>:</summary>
     <code>source code</code>: https://github.com/symfony/symfony<br>
     <code>description</code>: The Symfony PHP framework<br>
     <code>homepage   </code>: https://symfony.com<br>
@@ -6974,7 +6974,7 @@
 </details>
 
 <details>
-    <summary><b>synfig</b>:</summary>
+    <summary><b>💻 Synfig Studio</b>:</summary>
     <code>source code</code>: https://github.com/synfig/synfig<br>
     <code>description</code>: This is the Official source code repository of the Synfig project<br>
     <code>homepage   </code>: https://synfig.org<br>
@@ -6984,7 +6984,7 @@
 </details>
 
 <details>
-    <summary><b>systeminformer</b>:</summary>
+    <summary><b>💻 System Informer</b>:</summary>
     <code>source code</code>: https://github.com/winsiderss/systeminformer<br>
     <code>description</code>: A free, powerful, multi-purpose tool that helps you monitor system resources, debug software and detect malware. Brought to you by Winsider Seminars & Solutions, Inc. @ http://www.windows-internals.com<br>
     <code>homepage   </code>: https://systeminformer.sourceforge.io<br>
@@ -6994,7 +6994,7 @@
 </details>
 
 <details>
-    <summary><b>tabler</b>:</summary>
+    <summary><b>⚙️ Tabler HTML Dashboard UI Kit built on Bootstrap</b>:</summary>
     <code>source code</code>: https://github.com/tabler/tabler<br>
     <code>description</code>: Tabler is free and open-source HTML Dashboard UI Kit built on Bootstrap<br>
     <code>homepage   </code>: https://tabler.io<br>
@@ -7004,7 +7004,7 @@
 </details>
 
 <details>
-    <summary><b>tabler-icons</b>:</summary>
+    <summary><b>⚙️ Tabler icons</b>:</summary>
     <code>source code</code>: https://github.com/tabler/tabler-icons<br>
     <code>description</code>: A set of over 4500 free MIT-licensed high-quality SVG icons for you to use in your web projects.<br>
     <code>homepage   </code>: https://tabler-icons.io<br>
@@ -7014,7 +7014,7 @@
 </details>
 
 <details>
-    <summary><b>tagainijisho</b>:</summary>
+    <summary><b>💻 Tagaini Jisho</b>:</summary>
     <code>source code</code>: https://github.com/Gnurou/tagainijisho<br>
     <code>description</code>: A free Japanese dictionary and learning assistant<br>
     <code>homepage   </code>: http://www.tagaini.net<br>
@@ -7024,7 +7024,7 @@
 </details>
 
 <details>
-    <summary><b>tagspaces</b>:</summary>
+    <summary><b>💻 TagSpaces</b>:</summary>
     <code>source code</code>: https://github.com/tagspaces/tagspaces<br>
     <code>description</code>: TagSpaces is an offline, open source, document manager with tagging support<br>
     <code>homepage   </code>: https://www.tagspaces.org<br>
@@ -7034,7 +7034,7 @@
 </details>
 
 <details>
-    <summary><b>taolin</b>:</summary>
+    <summary><b>⚙️ Taolin</b>:</summary>
     <code>source code</code>: https://github.com/vad/taolin<br>
     <code>description</code>: An open source Enterprise 2.0 web desktop<br>
     <code>homepage   </code>: http://taolin.fbk.eu<br>
@@ -7044,7 +7044,7 @@
 </details>
 
 <details>
-    <summary><b>task-manager</b>:</summary>
+    <summary><b>☁️ Task Manager</b>:</summary>
     <code>source code</code>: https://github.com/Eoxia/task-manager<br>
     <code>description</code>: Task Manager allows you to manage project tasks and the time spent on them. It also allows the client and the provider to communicate easily on projects as well as to follow up on the tasks carried out.<br>
     <code>homepage   </code>: https://taskmanager.fr/<br>
@@ -7054,7 +7054,7 @@
 </details>
 
 <details>
-    <summary><b>TaskBoard</b>:</summary>
+    <summary><b>☁️ TaskBoard</b>:</summary>
     <code>source code</code>: https://github.com/kiswa/TaskBoard<br>
     <code>description</code>: A Kanban-inspired app for keeping track of things that need to get done. (Don't forget to read the Wiki page!)<br>
     <code>homepage   </code>: http://taskboard.matthewross.me<br>
@@ -7064,7 +7064,7 @@
 </details>
 
 <details>
-    <summary><b>taskcoach</b>:</summary>
+    <summary><b>💻 Task Coach</b>:</summary>
     <code>source code</code>: https://github.com/wdmchaft/taskcoach<br>
     <code>description</code>: Your friendly task manager<br>
     <code>homepage   </code>: http://www.taskcoach.org/<br>
@@ -7074,7 +7074,7 @@
 </details>
 
 <details>
-    <summary><b>taskunifier-app</b>:</summary>
+    <summary><b>💻 TaskUnifier</b>:</summary>
     <code>source code</code>: https://github.com/leclercb/taskunifier-app<br>
     <code>description</code>: TaskUnifier - Task Management Application<br>
     <code>homepage   </code>: https://www.taskunifier.app<br>
@@ -7084,7 +7084,7 @@
 </details>
 
 <details>
-    <summary><b>TastyIgniter</b>:</summary>
+    <summary><b>☁️ TastyIgniter</b>:</summary>
     <code>source code</code>: https://github.com/tastyigniter/TastyIgniter<br>
     <code>description</code>: :fire: Powerful, yet easy to use, open-source online ordering, table reservation and management system for restaurants<br>
     <code>homepage   </code>: https://tastyigniter.com<br>
@@ -7094,7 +7094,7 @@
 </details>
 
 <details>
-    <summary><b>TCPDF</b>:</summary>
+    <summary><b>⚙️ TCPDF</b>:</summary>
     <code>source code</code>: https://github.com/tecnickcom/TCPDF<br>
     <code>description</code>: Official clone of PHP library to generate PDF documents and barcodes<br>
     <code>homepage   </code>: https://tcpdf.org<br>
@@ -7104,7 +7104,7 @@
 </details>
 
 <details>
-    <summary><b>teemip-standalone</b>:</summary>
+    <summary><b>☁️ TeemIp IP Address Management (IPAM)</b>:</summary>
     <code>source code</code>: https://github.com/TeemIp/teemip-standalone<br>
     <code>description</code>: Set of files specific to TeemIp's standalone version<br>
     <code>homepage   </code>: -<br>
@@ -7114,7 +7114,7 @@
 </details>
 
 <details>
-    <summary><b>tellmatic</b>:</summary>
+    <summary><b>☁️ tellmatic</b>:</summary>
     <code>source code</code>: https://github.com/tellmatic/tellmatic<br>
     <code>description</code>: tellmatic - the newsletter machine - quality open source newsletter for bussines and community<br>
     <code>homepage   </code>: -<br>
@@ -7124,7 +7124,7 @@
 </details>
 
 <details>
-    <summary><b>TemaTres-Vocabulary-Server</b>:</summary>
+    <summary><b>☁️ TemaTres Vocabulary Server</b>:</summary>
     <code>source code</code>: https://github.com/tematres/TemaTres-Vocabulary-Server<br>
     <code>description</code>: Web application for management formal representations of knowledge, like controlled vocabularies, taxonomies, thesauri and glossaries <br>
     <code>homepage   </code>: https://vocabularyserver.com<br>
@@ -7134,7 +7134,7 @@
 </details>
 
 <details>
-    <summary><b>tempus-dominus</b>:</summary>
+    <summary><b>⚙️ Tempus Dominus Date/Time Picker</b>:</summary>
     <code>source code</code>: https://github.com/Eonasdan/tempus-dominus<br>
     <code>description</code>: A powerful Date/time picker widget.<br>
     <code>homepage   </code>: https://getdatepicker.com<br>
@@ -7144,7 +7144,7 @@
 </details>
 
 <details>
-    <summary><b>tesseract</b>:</summary>
+    <summary><b>💾 Tesseract OCR Engine</b>:</summary>
     <code>source code</code>: https://github.com/tesseract-ocr/tesseract<br>
     <code>description</code>: Tesseract Open Source OCR Engine (main repository)<br>
     <code>homepage   </code>: https://tesseract-ocr.github.io/<br>
@@ -7154,7 +7154,7 @@
 </details>
 
 <details>
-    <summary><b>tesseract-ocr-for-php</b>:</summary>
+    <summary><b>⚙️ Tesseract OCR for PHP</b>:</summary>
     <code>source code</code>: https://github.com/thiagoalessio/tesseract-ocr-for-php<br>
     <code>description</code>: A wrapper to work with Tesseract OCR inside PHP.<br>
     <code>homepage   </code>: https://packagist.org/packages/thiagoalessio/tesseract_ocr<br>
@@ -7164,7 +7164,7 @@
 </details>
 
 <details>
-    <summary><b>thonny</b>:</summary>
+    <summary><b>💻 Thonny Python IDE</b>:</summary>
     <code>source code</code>: https://github.com/thonny/thonny<br>
     <code>description</code>: Python IDE for beginners<br>
     <code>homepage   </code>: https://thonny.org<br>
@@ -7174,7 +7174,7 @@
 </details>
 
 <details>
-    <summary><b>tiki</b>:</summary>
+    <summary><b>☁️ Tiki! wiki</b>:</summary>
     <code>source code</code>: https://github.com/tikiorg/tiki<br>
     <code>description</code>: Tiki's Git repository has been moved to https://gitlab.com/tikiwiki/tiki. Check our development workflow at https://dev.tiki.org/Git-and-SVN-combined-workflow. This mirror git repository is deprecated and is not likely do be around for much longer. This mirror was build and maintained thanks to https://github.com/dpocock/sync2git. <br>
     <code>homepage   </code>: -<br>
@@ -7184,7 +7184,7 @@
 </details>
 
 <details>
-    <summary><b>tiled</b>:</summary>
+    <summary><b>💻 Tiled</b>:</summary>
     <code>source code</code>: https://github.com/mapeditor/tiled<br>
     <code>description</code>: Flexible level editor<br>
     <code>homepage   </code>: https://www.mapeditor.org/<br>
@@ -7194,7 +7194,7 @@
 </details>
 
 <details>
-    <summary><b>Time-and-Expense-Management-System</b>:</summary>
+    <summary><b>☁️ Time and Expense Management System</b>:</summary>
     <code>source code</code>: https://github.com/santanumajumdar/Time-and-Expense-Management-System<br>
     <code>description</code>: Time and Expense Management System Version 1.0<br>
     <code>homepage   </code>: -<br>
@@ -7204,7 +7204,7 @@
 </details>
 
 <details>
-    <summary><b>TimeTrex</b>:</summary>
+    <summary><b>☁️ TimeTrex</b>:</summary>
     <code>source code</code>: https://github.com/timetrex/TimeTrex<br>
     <code>description</code>: TimeTrex Workforce Management is a complete web-based payroll and time management suite which offers employee scheduling, time & attendance (timeclock, timesheet), job costing, human resource management (HRM), invoicing and payroll all in tightly integrated package. [Timesheet,payroll,timeclock,payroll,timesheet,hrm,human resource management, workforce management]<br>
     <code>homepage   </code>: https://www.timetrex.com/community-edition<br>
