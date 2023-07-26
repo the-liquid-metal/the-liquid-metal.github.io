@@ -6154,7 +6154,7 @@
 </details>
 
 <details>
-    <summary><b>qBittorrent</b>:</summary>
+    <summary><b>💻 qBittorrent</b>:</summary>
     <code>source code</code>: https://github.com/qbittorrent/qBittorrent<br>
     <code>description</code>: qBittorrent BitTorrent client<br>
     <code>homepage   </code>: https://www.qbittorrent.org<br>
@@ -6164,7 +6164,7 @@
 </details>
 
 <details>
-    <summary><b>qcad</b>:</summary>
+    <summary><b>💻 QCAD</b>:</summary>
     <code>source code</code>: https://github.com/qcad/qcad<br>
     <code>description</code>: QCAD - The Open Source 2D CAD. QCAD is a cross-platform CAD solution for Windows, macOS and Linux. It supports the DXF format and optionally the DWG format (through a proprietary plugin).<br>
     <code>homepage   </code>: https://qcad.org<br>
@@ -6174,7 +6174,7 @@
 </details>
 
 <details>
-    <summary><b>qdirstat</b>:</summary>
+    <summary><b>💻 QDirStat</b>:</summary>
     <code>source code</code>: https://github.com/shundhammer/qdirstat<br>
     <code>description</code>: QDirStat - Qt-based directory statistics (KDirStat without any KDE - from the original KDirStat author)<br>
     <code>homepage   </code>: -<br>
@@ -6184,17 +6184,17 @@
 </details>
 
 <details>
-    <summary><b>qdpm</b>:</summary>
+    <summary><b>☁️ qdPM</b>:</summary>
     <code>source code</code>: https://github.com/qdpm/qdpm<br>
     <code>description</code>: Project Management<br>
-    <code>homepage   </code>: -<br>
+    <code>homepage   </code>: https://qdpm.net/<br>
     <code>prog lang  </code>: -<br>
     <code>archived   </code>: -<br>
     <code>opinion    </code>: ⭐<br>
 </details>
 
 <details>
-    <summary><b>qimgv</b>:</summary>
+    <summary><b>💻 qimgv</b>:</summary>
     <code>source code</code>: https://github.com/easymodo/qimgv<br>
     <code>description</code>: Image viewer. Fast, easy to use. Optional video support.<br>
     <code>homepage   </code>: -<br>
@@ -6204,7 +6204,7 @@
 </details>
 
 <details>
-    <summary><b>qmmp</b>:</summary>
+    <summary><b>💻 Qt-based multimedia player (Qmmp)</b>:</summary>
     <code>source code</code>: https://github.com/djdron/qmmp<br>
     <code>description</code>: Qmmp - Qt-based multimedia player<br>
     <code>homepage   </code>: http://qmmp.ylsoftware.com/<br>
@@ -6214,7 +6214,7 @@
 </details>
 
 <details>
-    <summary><b>qooxdoo</b>:</summary>
+    <summary><b>⚙️ Qooxdoo</b>:</summary>
     <code>source code</code>: https://github.com/qooxdoo/qooxdoo<br>
     <code>description</code>: qooxdoo - Universal JavaScript Framework<br>
     <code>homepage   </code>: http://qooxdoo.org<br>
@@ -6224,7 +6224,7 @@
 </details>
 
 <details>
-    <summary><b>QOwnNotes</b>:</summary>
+    <summary><b>💻 QOwnNotes</b>:</summary>
     <code>source code</code>: https://github.com/pbek/QOwnNotes<br>
     <code>description</code>: QOwnNotes is a plain-text file notepad and todo-list manager with markdown support and Nextcloud / ownCloud integration.<br>
     <code>homepage   </code>: https://www.qownnotes.org/<br>
@@ -6234,7 +6234,7 @@
 </details>
 
 <details>
-    <summary><b>qr-code</b>:</summary>
+    <summary><b>⚙️ QR Code</b>:</summary>
     <code>source code</code>: https://github.com/endroid/qr-code<br>
     <code>description</code>: QR Code Generator<br>
     <code>homepage   </code>: https://endroid.nl<br>
@@ -6244,7 +6244,7 @@
 </details>
 
 <details>
-    <summary><b>qtractor</b>:</summary>
+    <summary><b>💻 Qtractor - Audio/MIDI multi-track sequencer</b>:</summary>
     <code>source code</code>: https://github.com/rncbc/qtractor<br>
     <code>description</code>: Qtractor - An Audio/MIDI multi-track sequencer<br>
     <code>homepage   </code>: https://qtractor.org<br>
@@ -6254,7 +6254,7 @@
 </details>
 
 <details>
-    <summary><b>quickviewer</b>:</summary>
+    <summary><b>💻 QuickViewer</b>:</summary>
     <code>source code</code>: https://github.com/kanryu/quickviewer<br>
     <code>description</code>: A image/comic viewer application for Windows, Mac and Linux, it can show images very fast<br>
     <code>homepage   </code>: https://kanryu.github.io/quickviewer/<br>
@@ -6264,7 +6264,7 @@
 </details>
 
 <details>
-    <summary><b>quiterss</b>:</summary>
+    <summary><b>💻 QuiteRSS</b>:</summary>
     <code>source code</code>: https://github.com/QuiteRSS/quiterss<br>
     <code>description</code>: Free news feeds reader<br>
     <code>homepage   </code>: https://quiterss.org<br>
@@ -6274,7 +6274,7 @@
 </details>
 
 <details>
-    <summary><b>racktables</b>:</summary>
+    <summary><b>💻 RackTables datacenter management</b>:</summary>
     <code>source code</code>: https://github.com/RackTables/racktables<br>
     <code>description</code>: RackTables current development repository<br>
     <code>homepage   </code>: https://racktables.org/<br>
@@ -6284,7 +6284,7 @@
 </details>
 
 <details>
-    <summary><b>railessentials</b>:</summary>
+    <summary><b>💻 RailEssentials</b>:</summary>
     <code>source code</code>: https://github.com/cbries/railessentials<br>
     <code>description</code>: RailEssentials is a software for controlling your Model Trains especially when ESU's ECoS 50210/50200 is used. RailEssentials provides a Track-designer, an Analyzer for automatic detection of all possible Routes between directly connected Blocks, and an Event-system (e.g. by use of S88-Feedback-Bus) for setup a fully automatic drive of all your trains. Furthermore, any Train can be manually controlled, their functions are allowed to be switched directly on and off by the user interface.<br>
     <code>homepage   </code>: http://www.railessentials.net<br>
@@ -6294,7 +6294,7 @@
 </details>
 
 <details>
-    <summary><b>RawTherapee</b>:</summary>
+    <summary><b>💻 RawTherapee</b>:</summary>
     <code>source code</code>: https://github.com/Beep6581/RawTherapee<br>
     <code>description</code>: A powerful cross-platform raw photo processing program<br>
     <code>homepage   </code>: http://rawtherapee.com/<br>
@@ -6304,7 +6304,7 @@
 </details>
 
 <details>
-    <summary><b>rbac</b>:</summary>
+    <summary><b>💻 PHP-RBAC</b>:</summary>
     <code>source code</code>: https://github.com/OWASP/rbac<br>
     <code>description</code>: PHP-RBAC is an authorization library for PHP. It provides developers with NIST Level 2 Standard Role Based Access Control and more, in the fastest implementation yet.<br>
     <code>homepage   </code>: http://phprbac.net/<br>
@@ -6314,7 +6314,7 @@
 </details>
 
 <details>
-    <summary><b>reactos</b>:</summary>
+    <summary><b>💻 ReactOS</b>:</summary>
     <code>source code</code>: https://github.com/reactos/reactos<br>
     <code>description</code>: A free Windows-compatible Operating System<br>
     <code>homepage   </code>: https://reactos.org/<br>
@@ -6324,7 +6324,7 @@
 </details>
 
 <details>
-    <summary><b>reactphp</b>:</summary>
+    <summary><b>⚙️ ReactPHP</b>:</summary>
     <code>source code</code>: https://github.com/reactphp/reactphp<br>
     <code>description</code>: Event-driven, non-blocking I/O with PHP.<br>
     <code>homepage   </code>: https://reactphp.org<br>
@@ -6334,7 +6334,7 @@
 </details>
 
 <details>
-    <summary><b>rector</b>:</summary>
+    <summary><b>💾 Rector</b>:</summary>
     <code>source code</code>: https://github.com/rectorphp/rector<br>
     <code>description</code>: Instant Upgrades and Automated Refactoring of any PHP 5.3+ code<br>
     <code>homepage   </code>: https://getrector.org<br>
@@ -6344,7 +6344,7 @@
 </details>
 
 <details>
-    <summary><b>Red-Cherries-Accounting</b>:</summary>
+    <summary><b>☁️ Red Cherries Accounting</b>:</summary>
     <code>source code</code>: https://github.com/Artifectx/Red-Cherries-Accounting<br>
     <code>description</code>: Red Cherries Accounting is a web based accounting software solution for Small and Medium Enterprices (SME) to manage financial information. Copyright (C) 2021 Artifectx Solutions (Pvt) Ltd<br>
     <code>homepage   </code>: -<br>
@@ -6354,7 +6354,7 @@
 </details>
 
 <details>
-    <summary><b>regex-colorizer</b>:</summary>
+    <summary><b>⚙️ Regex Colorizer</b>:</summary>
     <code>source code</code>: https://github.com/slevithan/regex-colorizer<br>
     <code>description</code>: Highlighter for JavaScript regex syntax<br>
     <code>homepage   </code>: https://stevenlevithan.com/regex/colorizer/<br>
@@ -6364,7 +6364,7 @@
 </details>
 
 <details>
-    <summary><b>reportico</b>:</summary>
+    <summary><b>⚙️ Reportico</b>:</summary>
     <code>source code</code>: https://github.com/reportico-web/reportico<br>
     <code>description</code>: Reportico Open Source PHP report Designer<br>
     <code>homepage   </code>: -<br>
@@ -6374,7 +6374,7 @@
 </details>
 
 <details>
-    <summary><b>requirejs</b>:</summary>
+    <summary><b>⚙️ RequireJS</b>:</summary>
     <code>source code</code>: https://github.com/requirejs/requirejs<br>
     <code>description</code>: A file and module loader for JavaScript<br>
     <code>homepage   </code>: https://requirejs.org/<br>
@@ -6384,7 +6384,7 @@
 </details>
 
 <details>
-    <summary><b>responsively-app</b>:</summary>
+    <summary><b>💻 Responsively App</b>:</summary>
     <code>source code</code>: https://github.com/responsively-org/responsively-app<br>
     <code>description</code>: A modified web browser that helps in responsive web development. A web developer's must have dev-tool.<br>
     <code>homepage   </code>: https://responsively.app<br>
@@ -6394,7 +6394,7 @@
 </details>
 
 <details>
-    <summary><b>RisohEditor</b>:</summary>
+    <summary><b>💻 RisohEditor</b>:</summary>
     <code>source code</code>: https://github.com/katahiromz/RisohEditor<br>
     <code>description</code>: Another free Win32 resource editor<br>
     <code>homepage   </code>: https://katahiromz.web.fc2.com/re/en<br>
@@ -6404,7 +6404,7 @@
 </details>
 
 <details>
-    <summary><b>rkward</b>:</summary>
+    <summary><b>💻 RKWard</b>:</summary>
     <code>source code</code>: https://github.com/KDE/rkward<br>
     <code>description</code>: Easily extensible and easy-to-use IDE/GUI for R<br>
     <code>homepage   </code>: https://invent.kde.org/education/rkward<br>
@@ -6414,7 +6414,7 @@
 </details>
 
 <details>
-    <summary><b>roadrunner</b>:</summary>
+    <summary><b>💾 RoadRunner</b>:</summary>
     <code>source code</code>: https://github.com/roadrunner-server/roadrunner<br>
     <code>description</code>: 🤯 High-performance PHP application server, process manager written in Go and powered with plugins<br>
     <code>homepage   </code>: https://roadrunner.dev<br>
@@ -6424,7 +6424,7 @@
 </details>
 
 <details>
-    <summary><b>robo</b>:</summary>
+    <summary><b>💾 RoboTask</b>:</summary>
     <code>source code</code>: https://github.com/consolidation/robo<br>
     <code>description</code>: Modern task runner for PHP<br>
     <code>homepage   </code>: http://robo.li<br>
@@ -6434,7 +6434,7 @@
 </details>
 
 <details>
-    <summary><b>rosariosis</b>:</summary>
+    <summary><b>☁️ RosarioSIS</b>:</summary>
     <code>source code</code>: https://github.com/francoisjacquet/rosariosis<br>
     <code>description</code>: RosarioSIS Student Information System for school management.<br>
     <code>homepage   </code>: https://www.rosariosis.org<br>
@@ -6444,7 +6444,7 @@
 </details>
 
 <details>
-    <summary><b>roundcubemail</b>:</summary>
+    <summary><b>☁️ Roundcube Webmail</b>:</summary>
     <code>source code</code>: https://github.com/roundcube/roundcubemail<br>
     <code>description</code>: The Roundcube Webmail suite<br>
     <code>homepage   </code>: https://roundcube.net<br>
@@ -6454,7 +6454,7 @@
 </details>
 
 <details>
-    <summary><b>RSSOwl</b>:</summary>
+    <summary><b>💻 RSSOwl</b>:</summary>
     <code>source code</code>: https://github.com/rssowl/RSSOwl<br>
     <code>description</code>: RSS Owl is a powerful application to organize, search and read your RSS, RDF & Atom news feeds in a comfortable way. Highlights are saved searches, google reader sync, notifications, filters, fast fulltext search and a flexible, clean user interface.<br>
     <code>homepage   </code>: http://www.rssowl.org<br>
@@ -6464,7 +6464,7 @@
 </details>
 
 <details>
-    <summary><b>rstudio</b>:</summary>
+    <summary><b>💻 RStudio</b>:</summary>
     <code>source code</code>: https://github.com/rstudio/rstudio<br>
     <code>description</code>: RStudio is an integrated development environment (IDE) for R<br>
     <code>homepage   </code>: https://posit.co/products/open-source/rstudio/<br>
@@ -6474,7 +6474,7 @@
 </details>
 
 <details>
-    <summary><b>rufus</b>:</summary>
+    <summary><b>💻 Rufus</b>:</summary>
     <code>source code</code>: https://github.com/pbatard/rufus<br>
     <code>description</code>: The Reliable USB Formatting Utility<br>
     <code>homepage   </code>: https://rufus.ie<br>
@@ -6484,7 +6484,7 @@
 </details>
 
 <details>
-    <summary><b>Rukovoditel</b>:</summary>
+    <summary><b>☁️ Rukovoditel</b>:</summary>
     <code>source code</code>: https://github.com/Rukovoditel/Rukovoditel<br>
     <code>description</code>: -<br>
     <code>homepage   </code>: -<br>
@@ -6494,7 +6494,7 @@
 </details>
 
 <details>
-    <summary><b>safeosms</b>:</summary>
+    <summary><b>☁️ SAFE Open Source Microfinace Suite</b>:</summary>
     <code>source code</code>: https://github.com/patadejaguar/safeosms<br>
     <code>description</code>: SAFE Open Source Microfinace Suite<br>
     <code>homepage   </code>: http://www.opencorebanking.com<br>
@@ -6504,7 +6504,7 @@
 </details>
 
 <details>
-    <summary><b>SaltOS</b>:</summary>
+    <summary><b>☁️ SaltOS</b>:</summary>
     <code>source code</code>: https://github.com/josepsanzcamp/SaltOS<br>
     <code>description</code>: The latest source code of the nightly version of the SaltOS project<br>
     <code>homepage   </code>: https://www.saltos.org<br>
@@ -6514,7 +6514,7 @@
 </details>
 
 <details>
-    <summary><b>scc</b>:</summary>
+    <summary><b>💾 Sloc Cloc and Code (scc)</b>:</summary>
     <code>source code</code>: https://github.com/boyter/scc<br>
     <code>description</code>: Sloc, Cloc and Code: scc is a very fast accurate code counter with complexity calculations and COCOMO estimates written in pure Go<br>
     <code>homepage   </code>: -<br>
@@ -6524,7 +6524,7 @@
 </details>
 
 <details>
-    <summary><b>scipy</b>:</summary>
+    <summary><b>⚙️ SciPy</b>:</summary>
     <code>source code</code>: https://github.com/scipy/scipy<br>
     <code>description</code>: SciPy library main repository<br>
     <code>homepage   </code>: https://scipy.org<br>
@@ -6534,7 +6534,7 @@
 </details>
 
 <details>
-    <summary><b>score</b>:</summary>
+    <summary><b>💻 ossia score</b>:</summary>
     <code>source code</code>: https://github.com/ossia/score<br>
     <code>description</code>: ossia score, an interactive sequencer for the intermedia arts<br>
     <code>homepage   </code>: https://ossia.io<br>
@@ -6596,7 +6596,7 @@
 <details>
     <summary><b>selectize.js</b>:</summary>
     <code>source code</code>: https://github.com/selectize/selectize.js<br>
-    <code>description</code>: Selectize is the hybrid of a textbox and <select> box. It's jQuery based, and it has autocomplete and native-feeling keyboard navigation; useful for tagging, contact lists, etc.<br>
+    <code>description</code>: Selectize is the hybrid of a textbox and select box. It's jQuery based, and it has autocomplete and native-feeling keyboard navigation; useful for tagging, contact lists, etc.<br>
     <code>homepage   </code>: https://selectize.dev/<br>
     <code>prog lang  </code>: SCSS<br>
     <code>archived   </code>: -<br>
