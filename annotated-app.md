@@ -7214,7 +7214,7 @@
 </details>
 
 <details>
-    <summary><b>tine20</b>:</summary>
+    <summary><b>☁️ Tine 2.0</b>:</summary>
     <code>source code</code>: https://github.com/tine20/tine20<br>
     <code>description</code>: Tine 2.0 main repository<br>
     <code>homepage   </code>: -<br>
@@ -7224,7 +7224,7 @@
 </details>
 
 <details>
-    <summary><b>TinyCAD</b>:</summary>
+    <summary><b>💻 TinyCAD</b>:</summary>
     <code>source code</code>: https://github.com/matt123p/TinyCAD<br>
     <code>description</code>: Open Source circuit capture program<br>
     <code>homepage   </code>: -<br>
@@ -7234,7 +7234,7 @@
 </details>
 
 <details>
-    <summary><b>tinyfilemanager</b>:</summary>
+    <summary><b>☁️ Tiny File Manager</b>:</summary>
     <code>source code</code>: https://github.com/prasathmani/tinyfilemanager<br>
     <code>description</code>: Single-file PHP file manager, browser and manage your files efficiently and easily with tinyfilemanager<br>
     <code>homepage   </code>: https://tinyfilemanager.github.io<br>
@@ -7244,7 +7244,7 @@
 </details>
 
 <details>
-    <summary><b>ToDoList_8.2</b>:</summary>
+    <summary><b>💻 ToDoList 8.2</b>:</summary>
     <code>source code</code>: https://github.com/abstractspoon/ToDoList_8.2<br>
     <code>description</code>: -<br>
     <code>homepage   </code>: -<br>
@@ -7254,7 +7254,7 @@
 </details>
 
 <details>
-    <summary><b>todoyu</b>:</summary>
+    <summary><b>☁️ todoyu</b>:</summary>
     <code>source code</code>: https://github.com/todoyuo/todoyu<br>
     <code>description</code>: web2.0 project- & task-management, timetracking, team organizing, resource management, calendar, interface for your clients and lots more! <br>
     <code>homepage   </code>: -<br>
@@ -7264,7 +7264,7 @@
 </details>
 
 <details>
-    <summary><b>Todoyu-PHP7.x</b>:</summary>
+    <summary><b>☁️ Todoyu-PHP7.x</b>:</summary>
     <code>source code</code>: https://github.com/e-dimensionz/Todoyu-PHP7.x<br>
     <code>description</code>: [STABLE & WORKING] Todoyu ported to work with PHP7 and newer MySQL<br>
     <code>homepage   </code>: https://e-dimensionz.com<br>
@@ -7274,7 +7274,7 @@
 </details>
 
 <details>
-    <summary><b>tokei</b>:</summary>
+    <summary><b>💾 Tokei</b>:</summary>
     <code>source code</code>: https://github.com/XAMPPRocky/tokei<br>
     <code>description</code>: Count your code, quickly.<br>
     <code>homepage   </code>: -<br>
@@ -7284,7 +7284,7 @@
 </details>
 
 <details>
-    <summary><b>TomatoCart-v2</b>:</summary>
+    <summary><b>☁️ TomatoCart V2.0</b>:</summary>
     <code>source code</code>: https://github.com/tomatocart/TomatoCart-v2<br>
     <code>description</code>: TomatoCart V2.0 - Designed for offering great user experience for all digital devices<br>
     <code>homepage   </code>: -<br>
@@ -7294,7 +7294,7 @@
 </details>
 
 <details>
-    <summary><b>tor-bundle</b>:</summary>
+    <summary><b>💾 tor-bundle</b>:</summary>
     <code>source code</code>: https://github.com/andy-portmen/tor-bundle<br>
     <code>description</code>: Integrates browsers to Tor executable<br>
     <code>homepage   </code>: http://add0n.com/tor-control.html<br>
@@ -7304,17 +7304,7 @@
 </details>
 
 <details>
-    <summary><b>torbrowser-releases</b>:</summary>
-    <code>source code</code>: https://github.com/torproject/torbrowser-releases<br>
-    <code>description</code>: It is used for distributiong tor browser releases through GetTor - Updated July 2022<br>
-    <code>homepage   </code>: -<br>
-    <code>prog lang  </code>: -<br>
-    <code>archived   </code>: -<br>
-    <code>opinion    </code>: ⭐<br>
-</details>
-
-<details>
-    <summary><b>treesheets</b>:</summary>
+    <summary><b>💻 TreeSheets</b>:</summary>
     <code>source code</code>: https://github.com/aardappel/treesheets<br>
     <code>description</code>: TreeSheets : Free Form Data Organizer (see strlen.com/treesheets)<br>
     <code>homepage   </code>: -<br>
@@ -7324,7 +7314,7 @@
 </details>
 
 <details>
-    <summary><b>treopim</b>:</summary>
+    <summary><b>☁️ TreoPIM</b>:</summary>
     <code>source code</code>: https://github.com/treolabs/treopim<br>
     <code>description</code>: Please use AtroPIM instead of TreoPIM! TreoPIM is discontinued.<br>
     <code>homepage   </code>: https://atropim.com/<br>
@@ -7334,7 +7324,7 @@
 </details>
 
 <details>
-    <summary><b>tsup</b>:</summary>
+    <summary><b>💾 tsup</b>:</summary>
     <code>source code</code>: https://github.com/egoist/tsup<br>
     <code>description</code>: The simplest and fastest way to bundle your TypeScript libraries.<br>
     <code>homepage   </code>: https://tsup.egoist.dev<br>
@@ -7344,7 +7334,7 @@
 </details>
 
 <details>
-    <summary><b>tuleap</b>:</summary>
+    <summary><b>☁️ Tuleap</b>:</summary>
     <code>source code</code>: https://github.com/Enalean/tuleap<br>
     <code>description</code>: Tuleap is a Free & Open Source Suite to improve management of software developments and collaboration. With a single web-based solution, project managers, developers & quality managers can easily build, deploy software projects.<br>
     <code>homepage   </code>: https://tuleap.org<br>
@@ -7354,7 +7344,7 @@
 </details>
 
 <details>
-    <summary><b>tupitube.desk</b>:</summary>
+    <summary><b>💻 TupiTube Desk</b>:</summary>
     <code>source code</code>: https://github.com/xtingray/tupitube.desk<br>
     <code>description</code>: TupiTube Desk Source Code<br>
     <code>homepage   </code>: -<br>
@@ -7364,7 +7354,7 @@
 </details>
 
 <details>
-    <summary><b>tus-php</b>:</summary>
+    <summary><b>⚙️ tus-php</b>:</summary>
     <code>source code</code>: https://github.com/ankitpokhrel/tus-php<br>
     <code>description</code>: 🚀 A pure PHP server and client for the tus resumable upload protocol v1.0.0<br>
     <code>homepage   </code>: https://tus.io<br>
@@ -7374,7 +7364,7 @@
 </details>
 
 <details>
-    <summary><b>typescript-compile</b>:</summary>
+    <summary><b>⚙️ TypeScript Compile</b>:</summary>
     <code>source code</code>: https://github.com/niutech/typescript-compile<br>
     <code>description</code>: Automatically compile TypeScript to JavaScript on the fly<br>
     <code>homepage   </code>: http://niutech.github.io/typescript-compile/demo/demo.html<br>
@@ -7384,7 +7374,7 @@
 </details>
 
 <details>
-    <summary><b>UglifyJS</b>:</summary>
+    <summary><b>💾 UglifyJS 3</b>:</summary>
     <code>source code</code>: https://github.com/mishoo/UglifyJS<br>
     <code>description</code>:  JavaScript parser / mangler / compressor / beautifier toolkit<br>
     <code>homepage   </code>: http://lisperator.net/uglifyjs/<br>
@@ -7394,7 +7384,7 @@
 </details>
 
 <details>
-    <summary><b>umbrello</b>:</summary>
+    <summary><b>💻 Umbrello UML Modeller</b>:</summary>
     <code>source code</code>: https://github.com/KDE/umbrello<br>
     <code>description</code>: GUI for diagramming Unified Modelling Language (UML)<br>
     <code>homepage   </code>: https://invent.kde.org/sdk/umbrello<br>
@@ -7404,7 +7394,7 @@
 </details>
 
 <details>
-    <summary><b>underscore</b>:</summary>
+    <summary><b>⚙️ Underscore.js</b>:</summary>
     <code>source code</code>: https://github.com/jashkenas/underscore<br>
     <code>description</code>: JavaScript's utility _ belt<br>
     <code>homepage   </code>: https://underscorejs.org<br>
@@ -7414,7 +7404,7 @@
 </details>
 
 <details>
-    <summary><b>underscore-php</b>:</summary>
+    <summary><b>⚙️ Underscore.php</b>:</summary>
     <code>source code</code>: https://github.com/Anahkiasen/underscore-php<br>
     <code>description</code>: A redacted PHP port of Underscore.js with additional functions and goodies – Available for Composer and Laravel<br>
     <code>homepage   </code>: http://anahkiasen.github.com/underscore-php/<br>
@@ -7424,7 +7414,7 @@
 </details>
 
 <details>
-    <summary><b>UniExtract2</b>:</summary>
+    <summary><b>💻 Universal Extractor 2 (UniExtract2)</b>:</summary>
     <code>source code</code>: https://github.com/Bioruebe/UniExtract2<br>
     <code>description</code>: Universal Extractor 2 is a tool to extract files from any type of archive or installer.<br>
     <code>homepage   </code>: -<br>
@@ -7434,7 +7424,7 @@
 </details>
 
 <details>
-    <summary><b>Unifiedtransform</b>:</summary>
+    <summary><b>☁️ Unifiedtransform</b>:</summary>
     <code>source code</code>: https://github.com/changeweb/Unifiedtransform<br>
     <code>description</code>: A school management Software<br>
     <code>homepage   </code>: https://changeweb.github.io/Unifiedtransform/<br>
@@ -7444,7 +7434,7 @@
 </details>
 
 <details>
-    <summary><b>uniter</b>:</summary>
+    <summary><b>⚙️ uniter - PHP in the browser and Node.js</b>:</summary>
     <code>source code</code>: https://github.com/asmblah/uniter<br>
     <code>description</code>: 🎉 PHP in the browser and Node.js => Docs: https://phptojs.com/<br>
     <code>homepage   </code>: https://asmblah.github.io/uniter/<br>
@@ -7454,7 +7444,7 @@
 </details>
 
 <details>
-    <summary><b>updatescanner</b>:</summary>
+    <summary><b>⚙️ Update Scanner</b>:</summary>
     <code>source code</code>: https://github.com/sneakypete81/updatescanner<br>
     <code>description</code>: Firefox addon to monitor web pages for updates.<br>
     <code>homepage   </code>: http://sneakypete81.github.io/updatescanner/<br>
@@ -7464,7 +7454,7 @@
 </details>
 
 <details>
-    <summary><b>uuid</b>:</summary>
+    <summary><b>⚙️ uuid</b>:</summary>
     <code>source code</code>: https://github.com/ramsey/uuid<br>
     <code>description</code>: :snowflake: A PHP library for generating universally unique identifiers (UUIDs).<br>
     <code>homepage   </code>: https://uuid.ramsey.dev<br>
@@ -7474,7 +7464,7 @@
 </details>
 
 <details>
-    <summary><b>vala</b>:</summary>
+    <summary><b>💾 vala</b>:</summary>
     <code>source code</code>: https://github.com/GNOME/vala<br>
     <code>description</code>: Read-only mirror of https://gitlab.gnome.org/GNOME/vala<br>
     <code>homepage   </code>: https://gitlab.gnome.org/GNOME/vala<br>
@@ -7484,7 +7474,7 @@
 </details>
 
 <details>
-    <summary><b>vengi</b>:</summary>
+    <summary><b>💻 vengi</b>:</summary>
     <code>source code</code>: https://github.com/mgerhardy/vengi<br>
     <code>description</code>: voxel art tools - editor, thumbnailer and format converter<br>
     <code>homepage   </code>: https://mgerhardy.github.io/vengi/<br>
@@ -7494,7 +7484,7 @@
 </details>
 
 <details>
-    <summary><b>Ventoy</b>:</summary>
+    <summary><b>💻 Ventoy</b>:</summary>
     <code>source code</code>: https://github.com/ventoy/Ventoy<br>
     <code>description</code>: A new bootable USB solution.<br>
     <code>homepage   </code>: https://www.ventoy.net<br>
@@ -7504,7 +7494,7 @@
 </details>
 
 <details>
-    <summary><b>VeraCrypt</b>:</summary>
+    <summary><b>💻 VeraCrypt</b>:</summary>
     <code>source code</code>: https://github.com/veracrypt/VeraCrypt<br>
     <code>description</code>: Disk encryption with strong security based on TrueCrypt<br>
     <code>homepage   </code>: https://www.veracrypt.fr<br>
@@ -7514,7 +7504,7 @@
 </details>
 
 <details>
-    <summary><b>Vermis</b>:</summary>
+    <summary><b>☁️ Vermis</b>:</summary>
     <code>source code</code>: https://github.com/koweb/Vermis<br>
     <code>description</code>: Lightweight issue tracker and project management tool for software developers and project managers. Designed as a web application written in PHP.<br>
     <code>homepage   </code>: -<br>
@@ -7524,7 +7514,7 @@
 </details>
 
 <details>
-    <summary><b>vesuvius</b>:</summary>
+    <summary><b>☁️ Sahana Vesuvius</b>:</summary>
     <code>source code</code>: https://github.com/sahana/vesuvius<br>
     <code>description</code>: Sahana Vesuvius<br>
     <code>homepage   </code>: http://sahanafoundation.org/products/vesuvius/<br>
@@ -7534,7 +7524,7 @@
 </details>
 
 <details>
-    <summary><b>Video-Hub-App</b>:</summary>
+    <summary><b>💻 Video Hub App 3</b>:</summary>
     <code>source code</code>: https://github.com/whyboris/Video-Hub-App<br>
     <code>description</code>: Official repository for Video Hub App<br>
     <code>homepage   </code>: https://videohubapp.com<br>
@@ -7544,7 +7534,7 @@
 </details>
 
 <details>
-    <summary><b>videoduplicatefinder</b>:</summary>
+    <summary><b>💻 Video Duplicate Finder</b>:</summary>
     <code>source code</code>: https://github.com/0x90d/videoduplicatefinder<br>
     <code>description</code>: Video Duplicate Finder - Crossplatform<br>
     <code>homepage   </code>: -<br>
@@ -7554,7 +7544,7 @@
 </details>
 
 <details>
-    <summary><b>VietOCR3</b>:</summary>
+    <summary><b>💻 VietOCR3</b>:</summary>
     <code>source code</code>: https://github.com/nguyenq/VietOCR3<br>
     <code>description</code>: Java GUI frontend for Tesseract OCR engine<br>
     <code>homepage   </code>: -<br>
@@ -7564,7 +7554,7 @@
 </details>
 
 <details>
-    <summary><b>VietOCR3.NET</b>:</summary>
+    <summary><b>💻 VietOCR3.NET</b>:</summary>
     <code>source code</code>: https://github.com/nguyenq/VietOCR3.NET<br>
     <code>description</code>: .NET GUI frontend for Tesseract OCR engine<br>
     <code>homepage   </code>: -<br>
@@ -7574,7 +7564,7 @@
 </details>
 
 <details>
-    <summary><b>ViewerJS</b>:</summary>
+    <summary><b>⚙️ ViewerJS</b>:</summary>
     <code>source code</code>: https://github.com/webodf/ViewerJS<br>
     <code>description</code>: ViewerJS: Document Reader in JavaScript<br>
     <code>homepage   </code>: http://viewerjs.org<br>
@@ -7584,7 +7574,7 @@
 </details>
 
 <details>
-    <summary><b>viewi</b>:</summary>
+    <summary><b>⚙️ Viewi</b>:</summary>
     <code>source code</code>: https://github.com/viewi/viewi<br>
     <code>description</code>: A powerful tool for building full-stack and completely reactive web applications with PHP<br>
     <code>homepage   </code>: https://viewi.net<br>
@@ -7594,7 +7584,7 @@
 </details>
 
 <details>
-    <summary><b>virtphp</b>:</summary>
+    <summary><b>💾 virtPHP</b>:</summary>
     <code>source code</code>: https://github.com/virtphp/virtphp<br>
     <code>description</code>: virtPHP is a tool to create isolated PHP environments.<br>
     <code>homepage   </code>: http://virtphp.org<br>
@@ -7604,7 +7594,7 @@
 </details>
 
 <details>
-    <summary><b>VisualFamilyTree</b>:</summary>
+    <summary><b>💻 VisualFamilyTree</b>:</summary>
     <code>source code</code>: https://github.com/Jisco/VisualFamilyTree<br>
     <code>description</code>: With this app you can create a family tree with extensive information and pictures about the individual family members.<br>
     <code>homepage   </code>: https://visualfamilytree.jisco.me<br>
@@ -7614,7 +7604,7 @@
 </details>
 
 <details>
-    <summary><b>VisualFBEditor</b>:</summary>
+    <summary><b>💻 Visual FB Editor</b>:</summary>
     <code>source code</code>: https://github.com/XusinboyBekchanov/VisualFBEditor<br>
     <code>description</code>: IDE for FreeBasic<br>
     <code>homepage   </code>: -<br>
@@ -7624,7 +7614,7 @@
 </details>
 
 <details>
-    <summary><b>Vivaldi-browser</b>:</summary>
+    <summary><b>💻 Vivaldi Browser</b>:</summary>
     <code>source code</code>: https://github.com/ric2b/Vivaldi-browser<br>
     <code>description</code>: Source code for the Vivali browser, taken from<br>
     <code>homepage   </code>: https://vivaldi.com/source<br>
@@ -7634,7 +7624,7 @@
 </details>
 
 <details>
-    <summary><b>vlc</b>:</summary>
+    <summary><b>💻 VLC</b>:</summary>
     <code>source code</code>: https://github.com/videolan/vlc<br>
     <code>description</code>: VLC media player - All pull requests are ignored, please follow https://wiki.videolan.org/Sending_Patches_VLC/<br>
     <code>homepage   </code>: http://www.videolan.org/vlc<br>
@@ -7644,7 +7634,7 @@
 </details>
 
 <details>
-    <summary><b>vokoscreenNG</b>:</summary>
+    <summary><b>💻 vokoscreenNG</b>:</summary>
     <code>source code</code>: https://github.com/vkohaupt/vokoscreenNG<br>
     <code>description</code>: vokoscreenNG is a powerful screencast creator in many languages to record the screen, an area or a window (Linux only). Recording of audio from multiple sources is supported. With the built-in camera support, you can make your video more personal. Other tools such as systray, magnifying glass, countdown, timer, Showclick and Halo support will help <br>
     <code>homepage   </code>: https://linuxecke.volkoh.de/vokoscreen/vokoscreen.html<br>
@@ -7654,7 +7644,7 @@
 </details>
 
 <details>
-    <summary><b>vscode</b>:</summary>
+    <summary><b>💻 Visual Studio Code (VSCode)</b>:</summary>
     <code>source code</code>: https://github.com/microsoft/vscode<br>
     <code>description</code>: Visual Studio Code<br>
     <code>homepage   </code>: https://code.visualstudio.com<br>
@@ -7664,7 +7654,7 @@
 </details>
 
 <details>
-    <summary><b>vscodium</b>:</summary>
+    <summary><b>💻 VSCodium</b>:</summary>
     <code>source code</code>: https://github.com/VSCodium/vscodium<br>
     <code>description</code>: binary releases of VS Code without MS branding/telemetry/licensing<br>
     <code>homepage   </code>: https://vscodium.com<br>
@@ -7674,7 +7664,7 @@
 </details>
 
 <details>
-    <summary><b>vtenext</b>:</summary>
+    <summary><b>☁️ vtenext</b>:</summary>
     <code>source code</code>: https://github.com/VTECRM/vtenext<br>
     <code>description</code>: vtenext the CRM for the Digital Innovation. It allows you to engage your customers into your business processes using a specific technology. It can also be used to manage processes generated by internal customers.<br>
     <code>homepage   </code>: -<br>
@@ -7684,7 +7674,7 @@
 </details>
 
 <details>
-    <summary><b>vtigercrm</b>:</summary>
+    <summary><b>☁️ vtiger CRM</b>:</summary>
     <code>source code</code>: https://github.com/vtiger-crm/vtigercrm<br>
     <code>description</code>: vtiger CRM<br>
     <code>homepage   </code>: -<br>
@@ -7694,7 +7684,7 @@
 </details>
 
 <details>
-    <summary><b>vym</b>:</summary>
+    <summary><b>💻 View Your Mind (VYM)</b>:</summary>
     <code>source code</code>: https://github.com/Osndok/vym<br>
     <code>description</code>: GUI mind-mapping tool - \"View Your Mind\" - Mirror from upstream (SourceForge)<br>
     <code>homepage   </code>: -<br>
@@ -7704,7 +7694,7 @@
 </details>
 
 <details>
-    <summary><b>w2ui</b>:</summary>
+    <summary><b>⚙️ w2ui</b>:</summary>
     <code>source code</code>: https://github.com/vitmalina/w2ui<br>
     <code>description</code>: UI widgets for modern apps. Data table, forms, toolbars, sidebar, tabs, tooltips, popups. All under 120kb (gzipped).<br>
     <code>homepage   </code>: http://w2ui.com<br>
@@ -7714,7 +7704,7 @@
 </details>
 
 <details>
-    <summary><b>wakan</b>:</summary>
+    <summary><b>💻 Wakan - Japanese and Chinese learning tool</b>:</summary>
     <code>source code</code>: https://github.com/himselfv/wakan<br>
     <code>description</code>: Japanese and Chinese learning tool with dictionary<br>
     <code>homepage   </code>: -<br>
@@ -7724,7 +7714,7 @@
 </details>
 
 <details>
-    <summary><b>wasmer-php</b>:</summary>
+    <summary><b>💾 Wasmer PHP</b>:</summary>
     <code>source code</code>: https://github.com/wasmerio/wasmer-php<br>
     <code>description</code>: 🐘🕸️ WebAssembly runtime for PHP<br>
     <code>homepage   </code>: https://wasmerio.github.io/wasmer-php/wasm/<br>
@@ -7734,7 +7724,7 @@
 </details>
 
 <details>
-    <summary><b>webERP</b>:</summary>
+    <summary><b>☁️ webERP</b>:</summary>
     <code>source code</code>: https://github.com/webERP-team/webERP<br>
     <code>description</code>: webERP Accounting and Business Administration ERP system<br>
     <code>homepage   </code>: http://www.weberp.org<br>
@@ -7744,7 +7734,7 @@
 </details>
 
 <details>
-    <summary><b>webfont-medical-icons</b>:</summary>
+    <summary><b>⚙️ WebFont Medical Icons</b>:</summary>
     <code>source code</code>: https://github.com/samcome/webfont-medical-icons<br>
     <code>description</code>: WebFont Medical Icons - 72 ICONS (X2)  specialized in the Clinical & Medical world  FREE and easy to use!<br>
     <code>homepage   </code>: http://samcome.github.io/webfont-medical-icons<br>
@@ -7754,7 +7744,7 @@
 </details>
 
 <details>
-    <summary><b>webtorrent</b>:</summary>
+    <summary><b>☁️ WebTorrent Web</b>:</summary>
     <code>source code</code>: https://github.com/webtorrent/webtorrent<br>
     <code>description</code>: ⚡️ Streaming torrent client for the web<br>
     <code>homepage   </code>: https://webtorrent.io<br>
@@ -7764,7 +7754,7 @@
 </details>
 
 <details>
-    <summary><b>webtorrent-desktop</b>:</summary>
+    <summary><b>💻 WebTorrent Desktop</b>:</summary>
     <code>source code</code>: https://github.com/webtorrent/webtorrent-desktop<br>
     <code>description</code>: ❤️ Streaming torrent app for Mac, Windows, and Linux<br>
     <code>homepage   </code>: https://webtorrent.io/desktop<br>
@@ -7774,7 +7764,7 @@
 </details>
 
 <details>
-    <summary><b>WikidPad</b>:</summary>
+    <summary><b>💻 WikidPad</b>:</summary>
     <code>source code</code>: https://github.com/WikidPad/WikidPad<br>
     <code>description</code>: WikidPad is a single user desktop wiki<br>
     <code>homepage   </code>: http://wikidpad.sourceforge.net/<br>
@@ -7784,7 +7774,7 @@
 </details>
 
 <details>
-    <summary><b>win-apache-php</b>:</summary>
+    <summary><b>💾 win-apache-php</b>:</summary>
     <code>source code</code>: https://github.com/pniaps/win-apache-php<br>
     <code>description</code>: Apache with multiple PHP versions for Windows<br>
     <code>homepage   </code>: -<br>
@@ -7794,7 +7784,7 @@
 </details>
 
 <details>
-    <summary><b>winLAME</b>:</summary>
+    <summary><b>💻 winLAME</b>:</summary>
     <code>source code</code>: https://github.com/vividos/winLAME<br>
     <code>description</code>: winLAME is an easy to use encoder for many audio formats, including MP3, Opus, Ogg Vorbis and more. (this is the Git repository mirror of the SourceForge.net Git repository)<br>
     <code>homepage   </code>: -<br>
@@ -7804,7 +7794,7 @@
 </details>
 
 <details>
-    <summary><b>winmerge</b>:</summary>
+    <summary><b>💻 WinMerge</b>:</summary>
     <code>source code</code>: https://github.com/WinMerge/winmerge<br>
     <code>description</code>: WinMerge is an Open Source differencing and merging tool for Windows. WinMerge can compare both folders and files, presenting differences in a visual text format that is easy to understand and handle.<br>
     <code>homepage   </code>: https://winmerge.org/<br>
@@ -7814,7 +7804,7 @@
 </details>
 
 <details>
-    <summary><b>winscp</b>:</summary>
+    <summary><b>💻 WinSCP</b>:</summary>
     <code>source code</code>: https://github.com/winscp/winscp<br>
     <code>description</code>: WinSCP is a popular free SFTP and FTP client for Windows, a powerful file manager that will improve your productivity. It supports also Amazon S3, FTPS, SCP and WebDAV protocols. Power users can automate WinSCP using .NET assembly.<br>
     <code>homepage   </code>: https://winscp.net<br>
@@ -7824,7 +7814,7 @@
 </details>
 
 <details>
-    <summary><b>WordPress</b>:</summary>
+    <summary><b>☁️ WordPress</b>:</summary>
     <code>source code</code>: https://github.com/WordPress/WordPress<br>
     <code>description</code>: WordPress, Git-ified. This repository is just a mirror of the WordPress subversion repository. Please do not send pull requests. Submit pull requests to https://github.com/WordPress/wordpress-develop and patches to https://core.trac.wordpress.org/ instead.<br>
     <code>homepage   </code>: https://wordpress.org<br>
@@ -7834,7 +7824,7 @@
 </details>
 
 <details>
-    <summary><b>wp-erp</b>:</summary>
+    <summary><b>☁️ WP ERP</b>:</summary>
     <code>source code</code>: https://github.com/wp-erp/wp-erp<br>
     <code>description</code>: An open-source ERP (Enterprise Resource Planning) solution for WordPress<br>
     <code>homepage   </code>: https://wperp.com/<br>
@@ -7844,7 +7834,7 @@
 </details>
 
 <details>
-    <summary><b>wp-hotelier</b>:</summary>
+    <summary><b>☁️ WP Hotelier</b>:</summary>
     <code>source code</code>: https://github.com/wp-hotelier/wp-hotelier<br>
     <code>description</code>: Manage your hotel bookings with WordPress. https://wphotelier.com/<br>
     <code>homepage   </code>: -<br>
@@ -7854,7 +7844,7 @@
 </details>
 
 <details>
-    <summary><b>wxFormBuilder</b>:</summary>
+    <summary><b>💻 wxFormBuilder</b>:</summary>
     <code>source code</code>: https://github.com/wxFormBuilder/wxFormBuilder<br>
     <code>description</code>: A wxWidgets GUI Builder<br>
     <code>homepage   </code>: https://github.com/wxFormBuilder/wxFormBuilder/releases<br>
@@ -7864,7 +7854,7 @@
 </details>
 
 <details>
-    <summary><b>wxphp</b>:</summary>
+    <summary><b>⚙️ wxwidgets for PHP (wxPHP)</b>:</summary>
     <code>source code</code>: https://github.com/wxphp/wxphp<br>
     <code>description</code>: Build cross-platform software with rich native GUIs using the combined power of the PHP language and the wxWidgets library.<br>
     <code>homepage   </code>: -<br>
@@ -7874,7 +7864,7 @@
 </details>
 
 <details>
-    <summary><b>wxWidgets</b>:</summary>
+    <summary><b>⚙️ wxWidgets</b>:</summary>
     <code>source code</code>: https://github.com/wxWidgets/wxWidgets<br>
     <code>description</code>: Cross-Platform C++ GUI Library<br>
     <code>homepage   </code>: https://www.wxwidgets.org/<br>
@@ -7884,7 +7874,7 @@
 </details>
 
 <details>
-    <summary><b>X2CRM</b>:</summary>
+    <summary><b>☁️ X2CRM</b>:</summary>
     <code>source code</code>: https://github.com/X2Engine/X2CRM<br>
     <code>description</code>: X2CRM Open Source CRM - PHP<br>
     <code>homepage   </code>: http://www.x2crm.com<br>
@@ -7894,7 +7884,7 @@
 </details>
 
 <details>
-    <summary><b>xdm</b>:</summary>
+    <summary><b>💻 Xtreme Download Manager (XDM)</b>:</summary>
     <code>source code</code>: https://github.com/subhra74/xdm<br>
     <code>description</code>: Powerfull download accelerator and video downloader<br>
     <code>homepage   </code>: https://xtremedownloadmanager.com/<br>
@@ -7904,7 +7894,7 @@
 </details>
 
 <details>
-    <summary><b>xregexp</b>:</summary>
+    <summary><b>⚙️ XRegExp</b>:</summary>
     <code>source code</code>: https://github.com/slevithan/xregexp<br>
     <code>description</code>: Extended JavaScript regular expressions<br>
     <code>homepage   </code>: http://xregexp.com/<br>
@@ -7914,7 +7904,7 @@
 </details>
 
 <details>
-    <summary><b>yakpro-po</b>:</summary>
+    <summary><b>💾 YAK Pro - PHP Obfuscator</b>:</summary>
     <code>source code</code>: https://github.com/pk-fr/yakpro-po<br>
     <code>description</code>: YAK Pro - Php Obfuscator<br>
     <code>homepage   </code>: http://www.php-obfuscator.com<br>
@@ -7924,7 +7914,7 @@
 </details>
 
 <details>
-    <summary><b>YetiForceCRM</b>:</summary>
+    <summary><b>☁️ YetiForceCRM</b>:</summary>
     <code>source code</code>: https://github.com/YetiForceCompany/YetiForceCRM<br>
     <code>description</code>: Our team created for you one of the most innovative CRM systems that supports mainly business processes and allows for customization according to your needs. Be ahead of your competition and implement YetiForce!<br>
     <code>homepage   </code>: https://yetiforce.com<br>
@@ -7934,7 +7924,7 @@
 </details>
 
 <details>
-    <summary><b>yii</b>:</summary>
+    <summary><b>⚙️ yii</b>:</summary>
     <code>source code</code>: https://github.com/yiisoft/yii<br>
     <code>description</code>: Yii PHP Framework 1.1.x<br>
     <code>homepage   </code>: http://www.yiiframework.com<br>
@@ -7944,7 +7934,7 @@
 </details>
 
 <details>
-    <summary><b>yii2</b>:</summary>
+    <summary><b>⚙️ yii2</b>:</summary>
     <code>source code</code>: https://github.com/yiisoft/yii2<br>
     <code>description</code>: Yii 2: The Fast, Secure and Professional PHP Framework<br>
     <code>homepage   </code>: http://www.yiiframework.com<br>
@@ -7954,7 +7944,7 @@
 </details>
 
 <details>
-    <summary><b>yii2-admin</b>:</summary>
+    <summary><b>⚙️ yii2-admin</b>:</summary>
     <code>source code</code>: https://github.com/mdmsoft/yii2-admin<br>
     <code>description</code>: Auth manager for Yii2 (RBAC Manager)<br>
     <code>homepage   </code>: -<br>
@@ -7964,7 +7954,7 @@
 </details>
 
 <details>
-    <summary><b>yii2-mikrotik</b>:</summary>
+    <summary><b>⚙️ yii2-mikrotik</b>:</summary>
     <code>source code</code>: https://github.com/bahirul/yii2-mikrotik<br>
     <code>description</code>: Yii2 Mikrotik API Template<br>
     <code>homepage   </code>: -<br>
@@ -7974,7 +7964,7 @@
 </details>
 
 <details>
-    <summary><b>You-Dont-Need-jQuery</b>:</summary>
+    <summary><b>📔 You-Dont-Need-jQuery</b>:</summary>
     <code>source code</code>: https://github.com/camsong/You-Dont-Need-jQuery<br>
     <code>description</code>: Examples of how to do query, style, dom, ajax, event etc like jQuery with plain javascript.<br>
     <code>homepage   </code>: -<br>
@@ -7984,7 +7974,7 @@
 </details>
 
 <details>
-    <summary><b>You-Dont-Need-Lodash-Underscore</b>:</summary>
+    <summary><b>📔 You-Dont-Need-Lodash-Underscore</b>:</summary>
     <code>source code</code>: https://github.com/you-dont-need/You-Dont-Need-Lodash-Underscore<br>
     <code>description</code>: List of JavaScript methods which you can use natively + ESLint Plugin<br>
     <code>homepage   </code>: -<br>
@@ -7994,7 +7984,7 @@
 </details>
 
 <details>
-    <summary><b>yt-dlp</b>:</summary>
+    <summary><b>💾 yt-dlp</b>:</summary>
     <code>source code</code>: https://github.com/yt-dlp/yt-dlp<br>
     <code>description</code>: A youtube-dl fork with additional features and fixes<br>
     <code>homepage   </code>: https://discord.gg/H5MNcFW63r<br>
@@ -8004,7 +7994,7 @@
 </details>
 
 <details>
-    <summary><b>zeal</b>:</summary>
+    <summary><b>💻 Zeal</b>:</summary>
     <code>source code</code>: https://github.com/zealdocs/zeal<br>
     <code>description</code>: Offline documentation browser inspired by Dash<br>
     <code>homepage   </code>: https://zealdocs.org<br>
@@ -8014,7 +8004,7 @@
 </details>
 
 <details>
-    <summary><b>zencart</b>:</summary>
+    <summary><b>☁️ Zen Cart</b>:</summary>
     <code>source code</code>: https://github.com/zencart/zencart<br>
     <code>description</code>: Zen Cart® is a full-function e-commerce application for your website.<br>
     <code>homepage   </code>: https://github.com/zencart/zencart/releases<br>
@@ -8024,7 +8014,7 @@
 </details>
 
 <details>
-    <summary><b>zentaopms</b>:</summary>
+    <summary><b>☁️ ZenTaoPMS</b>:</summary>
     <code>source code</code>: https://github.com/easysoft/zentaopms<br>
     <code>description</code>: Zentao is an agile(scrum) project management system/tool, Free Upgrade Forever!​<br>
     <code>homepage   </code>: http://www.zentao.pm<br>
@@ -8034,7 +8024,7 @@
 </details>
 
 <details>
-    <summary><b>Zettlr</b>:</summary>
+    <summary><b>💻 Zettlr</b>:</summary>
     <code>source code</code>: https://github.com/Zettlr/Zettlr<br>
     <code>description</code>: Your One-Stop Publication Workbench<br>
     <code>homepage   </code>: https://www.zettlr.com<br>
@@ -8044,7 +8034,7 @@
 </details>
 
 <details>
-    <summary><b>zim-desktop-wiki</b>:</summary>
+    <summary><b>💻 Zim - Desktop Wiki Editor</b>:</summary>
     <code>source code</code>: https://github.com/zim-desktop-wiki/zim-desktop-wiki<br>
     <code>description</code>: Main repository of the zim desktop wiki project<br>
     <code>homepage   </code>: http://zim-wiki.org<br>
@@ -8054,7 +8044,7 @@
 </details>
 
 <details>
-    <summary><b>zoneminder</b>:</summary>
+    <summary><b>☁️ ZoneMinder</b>:</summary>
     <code>source code</code>: https://github.com/ZoneMinder/zoneminder<br>
     <code>description</code>: ZoneMinder is a free, open source Closed-circuit television software application developed for Linux which supports IP, USB and Analog cameras. <br>
     <code>homepage   </code>: http://www.zoneminder.com/<br>
@@ -8064,7 +8054,7 @@
 </details>
 
 <details>
-    <summary><b>zotero</b>:</summary>
+    <summary><b>💻 Zotero</b>:</summary>
     <code>source code</code>: https://github.com/zotero/zotero<br>
     <code>description</code>: Zotero is a free, easy-to-use tool to help you collect, organize, annotate, cite, and share your research sources.<br>
     <code>homepage   </code>: https://www.zotero.org<br>
@@ -8074,7 +8064,7 @@
 </details>
 
 <details>
-    <summary><b>zpanel</b>:</summary>
+    <summary><b>☁️ ZPanel</b>:</summary>
     <code>source code</code>: https://github.com/zpanel/zpanel<br>
     <code>description</code>: This repository is used to store ZPanel 6.x.x code, ZPanel is a web hosting control panel written in PHP. This is our new git repository that replaces our old SVN repository held over at Sourceforge.net.<br>
     <code>homepage   </code>: http://www.zpanelcp.com/<br>
@@ -8084,7 +8074,7 @@
 </details>
 
 <details>
-    <summary><b>zpanelx</b>:</summary>
+    <summary><b>☁️ ZPanelX</b>:</summary>
     <code>source code</code>: https://github.com/zpanel/zpanelx<br>
     <code>description</code>: ZPanel is a web hosting control panel written in PHP for Windows and *NIX host OS's.<br>
     <code>homepage   </code>: http://www.zpanelcp.com<br>
@@ -8094,7 +8084,7 @@
 </details>
 
 <details>
-    <summary><b>Zurmo</b>:</summary>
+    <summary><b>☁️ Zurmo</b>:</summary>
     <code>source code</code>: https://github.com/zurmo/Zurmo<br>
     <code>description</code>: -<br>
     <code>homepage   </code>: -<br>
