@@ -50,8 +50,8 @@
 
 <details>
     <summary><h4>💻 Dev: BASIC</h4></summary>
-    <code>BASIC-256     </code>  An easy to use version of BASIC designed to teach students the basics of computer programming<br/>
-    <code>VisualFBEditor</code>  IDE for FreeBasic with visual designer, debugger, project support and etc<br/>
+    <code>BASIC-256       </code>  An easy to use version of BASIC designed to teach students the basics of computer programming<br/>
+    <code>Visual FB Editor</code>  IDE for FreeBasic with visual designer, debugger, project support and etc<br/>
 </details>
 
 <details>
@@ -103,7 +103,7 @@
 
 <details>
     <summary><h4>💻 Dev: PHP IDE/editor</h4></summary>
-    <code>Eclipse                    </code>  <br/>
+    <code>Eclipse PDT                </code>  <br/>
     <code>Netbeans                   </code>  <br/>
     <code>Notepad++                  </code>  <br/>
     <code>Visual Studio Code (VSCode)</code>  <br/>
@@ -116,8 +116,8 @@
 
 <details>
     <summary><h4>💻 Dev: Python IDE/editor</h4></summary>
-    <code>Spyder</code>  scientific environment written in Python, for Python, and designed by and for scientists, engineers and data analysts<br/>
-    <code>Thonny</code>  IDE designed for beginners<br/>
+    <code>Spyder - Scientific IDE</code>  scientific environment written in Python, for Python, and designed by and for scientists, engineers and data analysts<br/>
+    <code>Thonny - Python IDE    </code>  IDE designed for beginners<br/>
 </details>
 
 <details>
@@ -128,12 +128,12 @@
 
 <details>
     <summary><h4>💻 Dev: Server Tools</h4></summary>
-    <code>advancedrestclient</code>  <br/>
-    <code>ConEmu            </code>  Presents multiple consoles and simple GUI app as one customizable GUI window with tabs and a status bar<br/>
-    <code>FileZilla         </code>  FTP and FTPS app<br/>
-    <code>MSYS2             </code>  A collection of tools and libraries providing you with an easy-to-use environment for building, installing and running native Windows software<br/>
-    <code>PuTTY             </code>  Terminal emulator, serial console and network file transfer app. It supports several network protocols, including SCP, SSH, Telnet, rlogin, and raw socket connection<br/>
-    <code>WinSCP            </code>  SSH File Transfer Protocol, File Transfer Protocol, WebDAV, Amazon S3, and secure copy protocol client for Microsoft Windows<br/>
+    <code>Advanced REST Client</code>  <br/>
+    <code>ConEmu              </code>  Presents multiple consoles and simple GUI app as one customizable GUI window with tabs and a status bar<br/>
+    <code>FileZilla           </code>  FTP and FTPS app<br/>
+    <code>MSYS2               </code>  A collection of tools and libraries providing you with an easy-to-use environment for building, installing and running native Windows software<br/>
+    <code>PuTTY               </code>  Terminal emulator, serial console and network file transfer app. It supports several network protocols, including SCP, SSH, Telnet, rlogin, and raw socket connection<br/>
+    <code>WinSCP              </code>  SSH File Transfer Protocol, File Transfer Protocol, WebDAV, Amazon S3, and secure copy protocol client for Microsoft Windows<br/>
 </details>
 
 <details>
@@ -164,11 +164,11 @@
 
 <details>
     <summary><h4>💻 Editor: Animation</h4></summary>
-    <code>Blender  </code>  <br/>
-    <code>OpenToonz</code>  <br/>
-    <code>Pencil2D </code>  <br/>
-    <code>Synfig   </code>  <br/>
-    <code>TupiTube </code>  <br/>
+    <code>Blender      </code>  <br/>
+    <code>OpenToonz    </code>  <br/>
+    <code>Pencil2D     </code>  <br/>
+    <code>Synfig Studio</code>  <br/>
+    <code>TupiTube Desk</code>  <br/>
 </details>
 
 <details>
@@ -177,7 +177,7 @@
     <code>BlueGriffon       </code>  <br/>
     <code>CuteMarkEd        </code>  <br/>
     <code>Foxit PDF Reader  </code>  <br/>
-    <code>Okular            </code>  <br/>
+    <code>Okular – Universal Document Viewer</code>  <br/>
     <code>PDF-XChange Editor</code>  <br/>
     <code>PDF Arranger      </code>  <br/>
     <code>PDFTK Builder     </code>  <br/>
@@ -209,14 +209,14 @@
     <code>Inkscape                 </code>  <br/>
     <code>Krita                    </code>  <br/>
     <code>MyPaint                  </code>  <br/>
-    <code>sK1                      </code>  <br/>
+    <code>sK1 2.0                  </code>  <br/>
 </details>
 
 <details>
     <summary><h4>💻 Editor: Graphics Utils</h4></summary>
     <code>AntiDupl.NET                  </code>  <br/>
     <code>Awesome Duplicate Photo Finder</code>  <br/>
-    <code>Caesium                       </code>  <br/>
+    <code>Caesium Image Compressor      </code>  <br/>
     <code>PosteRazor                    </code>  <br/>
     <code>ScreenToGif                   </code>  <br/>
     <code>ShareX                        </code>  <br/>
@@ -241,14 +241,14 @@
 
 <details>
     <summary><h4>💻 Editor: Music</h4></summary>
-    <code>BRELS MIDI Editor          </code>  <br/>
-    <code>Helio                      </code>  <br/>
-    <code>LMMS                       </code>  <br/>
-    <code>MidiEditor                 </code>  <br/>
-    <code>Mixxx                      </code>  <br/>
-    <code>MuseScore                  </code>  <br/>
-    <code>TuxGuitar                  </code>  <br/>
-    <code>Virtual MIDI Piano Keyboard</code>  <br/>
+    <code>BRELS MIDI Editor            </code>  <br/>
+    <code>Helio - music composition app</code>  <br/>
+    <code>LMMS                         </code>  <br/>
+    <code>MidiEditor                   </code>  <br/>
+    <code>Mixxx                        </code>  <br/>
+    <code>MuseScore                    </code>  <br/>
+    <code>TuxGuitar                    </code>  <br/>
+    <code>Virtual MIDI Piano Keyboard  </code>  <br/>
 </details>
 
 <details>
@@ -263,9 +263,9 @@
 
 <details>
     <summary><h4>💻 Editor: Office</h4></summary>
-    <code>Calligra   </code>  <br/>
-    <code>LibreOffice</code>  <br/>
-    <code>OnlyOffice </code>  <br/>
+    <code>Calligra Suite</code>  <br/>
+    <code>LibreOffice   </code>  <br/>
+    <code>OnlyOffice    </code>  <br/>
 </details>
 
 <details>
@@ -281,13 +281,13 @@
 
 <details>
     <summary><h4>💻 Editor: Video</h4></summary>
-    <code>HandBrake</code>  <br/>
-    <code>Kdenlive </code>  <br/>
-    <code>Kinovea  </code>  <br/>
-    <code>Natron   </code>  <br/>
-    <code>Olive    </code>  <br/>
-    <code>OpenShot </code>  <br/>
-    <code>Shotcut  </code>  <br/>
+    <code>HandBrake              </code>  <br/>
+    <code>Kdenlive               </code>  <br/>
+    <code>Kinovea                </code>  <br/>
+    <code>Natron video compositor</code>  <br/>
+    <code>Olive Video Editor     </code>  <br/>
+    <code>OpenShot               </code>  <br/>
+    <code>Shotcut                </code>  <br/>
 </details>
 
 <details>
@@ -303,24 +303,24 @@
 
 <details>
     <summary><h4>💻 Education: All Age</h4></summary>
-    <code>Artha     </code>  <br/>
-    <code>Celestia  </code>  <br/>
-    <code>Gramps    </code>  <br/>
-    <code>Marble    </code>  <br/>
-    <code>Stellarium</code>  <br/>
+    <code>Artha                               </code>  <br/>
+    <code>Celestia                            </code>  <br/>
+    <code>Gramps                              </code>  <br/>
+    <code>Marble Virtual Globe and World Atlas</code>  <br/>
+    <code>Stellarium                          </code>  <br/>
 </details>
 
 <details>
     <summary><h4>💻 Education: Bibliography</h4></summary>
-    <code>Calibre</code>  <br/>
-    <code>JabRef </code>  <br/>
+    <code>Calibre                       </code>  <br/>
+    <code>JabRef Bibliography Management</code>  <br/>
 </details>
 
 <details>
     <summary><h4>💻 Education: Higher</h4></summary>
-    <code>KStars       </code>  <br/>
-    <code>Tagaini Jisho</code>  <br/>
-    <code>Wakan        </code>  <br/>
+    <code>KStars                                    </code>  <br/>
+    <code>Tagaini Jisho                             </code>  <br/>
+    <code>Wakan - Japanese and Chinese learning tool</code>  <br/>
 </details>
 
 <details>
@@ -364,22 +364,22 @@
 
 <details>
     <summary><h4>💻 Media: Player + Viewer</h4></summary>
-    <code>Allusion  </code>  <br/>
-    <code>aTunes    </code>  <br/>
-    <code>Audacious </code>  <br/>
-    <code>Clementine</code>  <br/>
-    <code>ComicRack </code>  <br/>
-    <code>Diffractor</code>  <br/>
-    <code>GridPlayer</code>  <br/>
-    <code>ImageGlass</code>  <br/>
-    <code>Kchmviewer</code>  <br/>
-    <code>MComix    </code>  <br/>
-    <code>MPC-HC    </code>  <br/>
-    <code>OpenComic </code>  <br/>
-    <code>Shotwell  </code>  <br/>
-    <code>SumatraPDF</code>  <br/>
-    <code>VLC       </code>  <br/>
-    <code>WinDjView </code>  <br/>
+    <code>Allusion                                   </code>  <br/>
+    <code>aTunes                                     </code>  <br/>
+    <code>Audacious                                  </code>  <br/>
+    <code>Clementine Music Player                    </code>  <br/>
+    <code>ComicRack                                  </code>  <br/>
+    <code>Diffractor                                 </code>  <br/>
+    <code>GridPlayer                                 </code>  <br/>
+    <code>ImageGlass                                 </code>  <br/>
+    <code>Kchmviewer                                 </code>  <br/>
+    <code>MComix                                     </code>  <br/>
+    <code>Media Player Classic - Home Cinema (MPC-HC)</code>  <br/>
+    <code>OpenComic                                  </code>  <br/>
+    <code>Shotwell Photo Manager                     </code>  <br/>
+    <code>SumatraPDF                                 </code>  <br/>
+    <code>VLC                                        </code>  <br/>
+    <code>WinDjView                                  </code>  <br/>
 </details>
 
 <details>
@@ -409,26 +409,26 @@
 <details>
     <summary><h4>💻 Utility: File</h4></summary>
     <code>7-zip</code>  <br/>
-    <code>Awesome Duplicate Photo Finder</code>  <br/>
-    <code>DiffPDF                       </code>  <br/>
-    <code>DocFetcher                    </code>  <br/>
-    <code>Double Commander              </code>  <br/>
-    <code>DoubleKiller                  </code>  <br/>
-    <code>dupeGuru                      </code>  <br/>
-    <code>Everything                    </code>  <br/>
-    <code>FileTool                      </code>  <br/>
-    <code>FreeCommander                 </code>  <br/>
-    <code>FreeFileSync                  </code>  <br/>
-    <code>grepWin                       </code>  <br/>
-    <code>IZArc                         </code>  <br/>
-    <code>Kickass Undelete              </code>  <br/>
-    <code>PFrank                        </code>  <br/>
-    <code>TreeSize Free                 </code>  <br/>
-    <code>Universal Extractor           </code>  <br/>
-    <code>WinDirStat                    </code>  <br/>
-    <code>Wise Data Recovery            </code>  <br/>
-    <code>YoyoCut                       </code>  <br/>
-    <code>Remove Empty Directories (RED)</code>  <br/>
+    <code>Awesome Duplicate Photo Finder     </code>  <br/>
+    <code>DiffPDF                            </code>  <br/>
+    <code>DocFetcher                         </code>  <br/>
+    <code>Double Commander                   </code>  <br/>
+    <code>DoubleKiller                       </code>  <br/>
+    <code>dupeGuru                           </code>  <br/>
+    <code>Everything                         </code>  <br/>
+    <code>FileTool                           </code>  <br/>
+    <code>FreeCommander                      </code>  <br/>
+    <code>FreeFileSync                       </code>  <br/>
+    <code>grepWin                            </code>  <br/>
+    <code>IZArc                              </code>  <br/>
+    <code>Kickass Undelete                   </code>  <br/>
+    <code>PFrank                             </code>  <br/>
+    <code>TreeSize Free                      </code>  <br/>
+    <code>Universal Extractor 2 (UniExtract2)</code>  <br/>
+    <code>WinDirStat                         </code>  <br/>
+    <code>Wise Data Recovery                 </code>  <br/>
+    <code>YoyoCut                            </code>  <br/>
+    <code>Remove Empty Directories (RED)     </code>  <br/>
 </details>
 
 <details>
@@ -514,6 +514,120 @@
     <code>HTTrack           </code>  <br/>
     <code>WebChangeMonitor  </code>  <br/>
     <code>Xenu's Link Sleuth</code>  <br/>
+</details>
+
+<details>
+    <summary><h4>💻 not yet categorized</h4></summary>
+    <code>ActivityWatch                              </code>  <br/>
+    <code>AliceVision                                </code>  <br/>
+    <code>Apache OpenOffice                          </code>  <br/>
+    <code>Archimedes                                 </code>  <br/>
+    <code>AtomicEdits                                </code>  <br/>
+    <code>AutoHotkey                                 </code>  <br/>
+    <code>Baobab                                     </code>  <br/>
+    <code>Beekeeper Studio                           </code>  <br/>
+    <code>Birds Kitchen                              </code>  <br/>
+    <code>BlinkMindDesktop                           </code>  <br/>
+    <code>Blockbench                                 </code>  <br/>
+    <code>Calligra Plan                              </code>  <br/>
+    <code>CodeMirror                                 </code>  <br/>
+    <code>CuteTorrent                                </code>  <br/>
+    <code>DbGate - (no)SQL database client           </code>  <br/>
+    <code>DGuitar                                    </code>  <br/>
+    <code>Dia                                        </code>  <br/>
+    <code>Dopamine                                   </code>  <br/>
+    <code>Drawpile                                   </code>  <br/>
+    <code>Embarcadero Dev-C++                        </code>  <br/>
+    <code>ExifCleaner                                </code>  <br/>
+    <code>Flowblade                                  </code>  <br/>
+    <code>FreeBASIC                                  </code>  <br/>
+    <code>FreeTube                                   </code>  <br/>
+    <code>Frescobaldi LilyPond Editor                </code>  <br/>
+    <code>Fritzing                                   </code>  <br/>
+    <code>Gaffer                                     </code>  <br/>
+    <code>GDevelop                                   </code>  <br/>
+    <code>gedit                                      </code>  <br/>
+    <code>GitHub Desktop                             </code>  <br/>
+    <code>Glaxnimate                                 </code>  <br/>
+    <code>Glyphr Studio Desktop                      </code>  <br/>
+    <code>Gnumeric                                   </code>  <br/>
+    <code>GoldenDict                                 </code>  <br/>
+    <code>Goxel                                      </code>  <br/>
+    <code>Hugin                                      </code>  <br/>
+    <code>Hydrogen drum machine                      </code>  <br/>
+    <code>JabRef Bibliography Management             </code>  <br/>
+    <code>Jitsi                                      </code>  <br/>
+    <code>KDevelop                                   </code>  <br/>
+    <code>KeePassX                                   </code>  <br/>
+    <code>LDView                                     </code>  <br/>
+    <code>Light Table IDE                            </code>  <br/>
+    <code>lightproxy                                 </code>  <br/>
+    <code>Lode                                       </code>  <br/>
+    <code>LogicCircuit                               </code>  <br/>
+    <code>LPub3D                                     </code>  <br/>
+    <code>Marble Virtual Globe and World Atlas       </code>  <br/>
+    <code>Markdown Edit                              </code>  <br/>
+    <code>MediaChips                                 </code>  <br/>
+    <code>Meshroom                                   </code>  <br/>
+    <code>Move Mouse                                 </code>  <br/>
+    <code>MusE MIDI/Audio sequencer                  </code>  <br/>
+    <code>Natron video compositor                    </code>  <br/>
+    <code>Netron viewer for neural network           </code>  <br/>
+    <code>NOVA opeN sOurce Video plAyer              </code>  <br/>
+    <code>Npackd                                     </code>  <br/>
+    <code>NumericalChameleon                         </code>  <br/>
+    <code>Olive Video Editor                         </code>  <br/>
+    <code>ossia score                                </code>  <br/>
+    <code>PasswordSafe                               </code>  <br/>
+    <code>PDF Split And Merge (PDFsam)               </code>  <br/>
+    <code>pgAdmin 4                                  </code>  <br/>
+    <code>PHP App Server                             </code>  <br/>
+    <code>PHP-RBAC                                   </code>  <br/>
+    <code>Picturama                                  </code>  <br/>
+    <code>Popcorn Time amilajack                     </code>  <br/>
+    <code>Popcorn Time Official                      </code>  <br/>
+    <code>Psiphon                                    </code>  <br/>
+    <code>PyScripter                                 </code>  <br/>
+    <code>QDirStat                                   </code>  <br/>
+    <code>qimgv                                      </code>  <br/>
+    <code>Qt-based multimedia player (Qmmp)          </code>  <br/>
+    <code>Qtractor - Audio/MIDI multi-track sequencer</code>  <br/>
+    <code>QuickViewer                                </code>  <br/>
+    <code>RackTables datacenter management           </code>  <br/>
+    <code>RailEssentials                             </code>  <br/>
+    <code>RawTherapee                                </code>  <br/>
+    <code>ReactOS                                    </code>  <br/>
+    <code>RSSOwl                                     </code>  <br/>
+    <code>Similar Vision                             </code>  <br/>
+    <code>Simple video cutter                        </code>  <br/>
+    <code>SoftEther VPN                              </code>  <br/>
+    <code>Space Radar                                </code>  <br/>
+    <code>Streamlabs Desktop                         </code>  <br/>
+    <code>Subtitle Composer                          </code>  <br/>
+    <code>System Informer                            </code>  <br/>
+    <code>TagSpaces                                  </code>  <br/>
+    <code>Task Coach                                 </code>  <br/>
+    <code>TaskUnifier                                </code>  <br/>
+    <code>Tiled                                      </code>  <br/>
+    <code>ToDoList 8.2                               </code>  <br/>
+    <code>Umbrello UML Modeller                      </code>  <br/>
+    <code>vengi                                      </code>  <br/>
+    <code>Ventoy                                     </code>  <br/>
+    <code>Video Duplicate Finder                     </code>  <br/>
+    <code>Video Hub App 3                            </code>  <br/>
+    <code>VietOCR3                                   </code>  <br/>
+    <code>VietOCR3.NET                               </code>  <br/>
+    <code>VisualFamilyTree                           </code>  <br/>
+    <code>Vivaldi Browser                            </code>  <br/>
+    <code>vokoscreenNG                               </code>  <br/>
+    <code>VSCodium                                   </code>  <br/>
+    <code>WebTorrent                                 </code>  <br/>
+    <code>winLAME                                    </code>  <br/>
+    <code>wxFormBuilder                              </code>  <br/>
+    <code>Xtreme Download Manager (XDM)              </code>  <br/>
+    <code>Zettlr                                     </code>  <br/>
+    <code>Zim - Desktop Wiki Editor                  </code>  <br/>
+    <code>Zotero                                     </code>  <br/>
 </details>
 
 
