@@ -520,19 +520,19 @@
 ### web based app
 <details>
     <summary><h4>☁️ accounting+ERP</h4></summary>
-    <code>BizSense       </code>  <br/>
-    <code>Comunion       </code>  <br/>
-    <code>Dolibarr       </code>  <br/>
-    <code>FrontAccounting</code>  <br/>
-    <code>webERP         </code>  <br/>
+    <code>BizSense           </code>  <br/>
+    <code>Comunion           </code>  <br/>
+    <code>Dolibarr ERP & CRM </code>  <br/>
+    <code>FrontAccounting    </code>  <br/>
+    <code>webERP             </code>  <br/>
 </details>
 
 <details>
     <summary><h4>☁️ asset</h4></summary>
-    <code>Booked              </code>  <br/>
-    <code>Classroom Booking   </code>  <br/>
-    <code>Meeting Room Booking</code>  <br/>
-    <code>OpenRealEstate      </code>  <br/>
+    <code>Booked                            </code>  <br/>
+    <code>Classroom Booking                 </code>  <br/>
+    <code>Meeting Room Booking System (MRBS)</code>  <br/>
+    <code>OpenRealEstate                    </code>  <br/>
 </details>
 
 <details>
@@ -542,33 +542,33 @@
 
 <details>
     <summary><h4>☁️ Business Process</h4></summary>
-    <code>ProcessMaker</code>  <br/>
+    <code>ProcessMaker BPM Core</code>  <br/>
 </details>
 
 <details>
     <summary><h4>☁️ bussiness intelligent</h4></summary>
-    <code>epesi</code>  <br/>
+    <code>EpesiCRM</code>  <br/>
 </details>
 
 <details>
     <summary><h4>☁️ community</h4></summary>
-    <code>HumHub              </code>  <br/>
-    <code>phpBB               </code>  <br/>
-    <code>Simple Machine Forum</code>  <br/>
+    <code>HumHub                    </code>  <br/>
+    <code>phpBB                     </code>  <br/>
+    <code>Simple Machine Forum (SMF)</code>  <br/>
 </details>
 
 <details>
     <summary><h4>☁️ customer</h4></summary>
-    <code>Citrus   </code>  <br/>
-    <code>CiviCRM  </code>  <br/>
-    <code>EspoCRM  </code>  <br/>
-    <code>OroCRM   </code>  <br/>
-    <code>PHPList  </code>  <br/>
-    <code>SugarCE  </code>  <br/>
-    <code>Tellmatic</code>  <br/>
-    <code>VTigerCRM</code>  <br/>
-    <code>X2CRM    </code>  <br/>
-    <code>Zurmo    </code>  <br/>
+    <code>Citrus    </code>  <br/>
+    <code>CiviCRM   </code>  <br/>
+    <code>EspoCRM   </code>  <br/>
+    <code>OroCRM    </code>  <br/>
+    <code>PHPList   </code>  <br/>
+    <code>SugarCE   </code>  <br/>
+    <code>Tellmatic </code>  <br/>
+    <code>VTiger CRM</code>  <br/>
+    <code>X2CRM     </code>  <br/>
+    <code>Zurmo     </code>  <br/>
 </details>
 
 <details>
@@ -583,9 +583,9 @@
 
 <details>
     <summary><h4>☁️ development</h4></summary>
-    <code>Mantis     </code>  <br/>
-    <code>Phabricator</code>  <br/>
-    <code>Vermis     </code>  <br/>
+    <code>Mantis Bug Tracker (MantisBT)</code>  <br/>
+    <code>Phabricator                  </code>  <br/>
+    <code>Vermis                       </code>  <br/>
 </details>
 
 <details>
@@ -605,7 +605,7 @@
     <code>Claroline                                           </code>  <br/>
     <code>ClaSS                                               </code>  <br/>
     <code>EduSec                                              </code>  <br/>
-    <code>eduTrac                                             </code>  <br/>
+    <code>eduTrac SIS                                         </code>  <br/>
     <code>eFront                                              </code>  <br/>
     <code>GeneoTree                                           </code>  <br/>
     <code>Jibas                                               </code>  <br/>
@@ -621,12 +621,12 @@
 
 <details>
     <summary><h4>☁️ email server + sender</h4></summary>
-    <code>biuCentrax   </code>  <br/>
-    <code>ListMessenger</code>  <br/>
-    <code>PHPMailer    </code>  <br/>
-    <code>RoundCube    </code>  <br/>
-    <code>SML2         </code>  <br/>
-    <code>SquirrelMail </code>  <br/>
+    <code>biuCentrax       </code>  <br/>
+    <code>ListMessenger    </code>  <br/>
+    <code>PHPMailer        </code>  <br/>
+    <code>RoundCube Webmail</code>  <br/>
+    <code>SML2             </code>  <br/>
+    <code>SquirrelMail     </code>  <br/>
 </details>
 
 <details>
@@ -640,7 +640,7 @@
     <summary><h4>☁️ group</h4></summary>
     <code>ChurchInfo  </code>  <br/>
     <code>conjoon     </code>  <br/>
-    <code>FengOffice  </code>  <br/>
+    <code>Feng Office </code>  <br/>
     <code>Group-office</code>  <br/>
     <code>Open Atrium </code>  <br/>
     <code>Precurio    </code>  <br/>
@@ -658,24 +658,24 @@
 
 <details>
     <summary><h4>☁️ human resource</h4></summary>
-    <code>IceHRM    </code>  <br/>
-    <code>OrangeHRM </code>  <br/>
-    <code>SimpleHRM </code>  <br/>
-    <code>TimeTrex  </code>  <br/>
-    <code>WaypointHR</code>  <br/>
-    <code>Sentrifugo</code>  <br/>
+    <code>IceHRM                                            </code>  <br/>
+    <code>OrangeHRM                                         </code>  <br/>
+    <code>SimpleHRM                                         </code>  <br/>
+    <code>TimeTrex                                          </code>  <br/>
+    <code>WaypointHR                                        </code>  <br/>
+    <code>Sentrifugo Human Resource Management System (HRMS)</code>  <br/>
 </details>
 
 <details>
     <summary><h4>☁️ IT</h4></summary>
-    <code>daloRADIUS          </code>  <br/>
-    <code>GPLI                </code>  <br/>
-    <code>i-doit              </code>  <br/>
-    <code>IntegriaIMS         </code>  <br/>
-    <code>iTop                </code>  <br/>
-    <code>LDAP Account Manager</code>  <br/>
-    <code>TeemIP              </code>  <br/>
-    <code>zPanel              </code>  <br/>
+    <code>daloRADIUS                         </code>  <br/>
+    <code>GPLI                               </code>  <br/>
+    <code>i-doit                             </code>  <br/>
+    <code>IntegriaIMS                        </code>  <br/>
+    <code>IT Operations Portal (iTop)        </code>  <br/>
+    <code>LDAP Account Manager               </code>  <br/>
+    <code>TeemIP IP Address Management (IPAM)</code>  <br/>
+    <code>zPanel                             </code>  <br/>
 </details>
 
 <details>
@@ -701,7 +701,7 @@
     <summary><h4>☁️ multimedia</h4></summary>
     <code>ClipBucket</code>  <br/>
     <code>Coppermine</code>  <br/>
-    <code>Gallery   </code>  <br/>
+    <code>Gallery 3 </code>  <br/>
     <code>phTagr    </code>  <br/>
 </details>
 
@@ -716,16 +716,16 @@
     <code>SO Planning     </code>  <br/>
     <code>TaskManager     </code>  <br/>
     <code>todoyu          </code>  <br/>
-    <code>ZenTao PMS      </code>  <br/>
+    <code>ZenTaoPMS       </code>  <br/>
 </details>
 
 <details>
     <summary><h4>☁️ shopping cart</h4></summary>
-    <code>Axis      </code>  <br/>
-    <code>Magento   </code>  <br/>
-    <code>Prestashop</code>  <br/>
-    <code>TomatoCart</code>  <br/>
-    <code>ZenCart   </code>  <br/>
+    <code>Axis           </code>  <br/>
+    <code>Magento 2      </code>  <br/>
+    <code>Prestashop     </code>  <br/>
+    <code>TomatoCart V2.0</code>  <br/>
+    <code>ZenCart        </code>  <br/>
 </details>
 
 <details>
@@ -735,25 +735,130 @@
 
 <details>
     <summary><h4>☁️ potential</h4></summary>
-    <code>Reportico (PHP Reporting Tool)           </code>  <br/>
-    <code>Kalkun (SMS management)                  </code>  <br/>
-    <code>ISPConfig Hosting Control Panel          </code>  <br/>
-    <code>SuiteCRM                                 </code>  <br/>
-    <code>HuMo-genealogy                           </code>  <br/>
-    <code>PhreeBooks 5                             </code>  <br/>
-    <code>SaltOS                                   </code>  <br/>
-    <code>Fleetco (Fleet Maintenance Management)   </code>  <br/>
-    <code>TEMS (Time and Expense Management)       </code>  <br/>
-    <code>CalemEAM (Open Source EAM/CMMS)          </code>  <br/>
-    <code>open enventory                           </code>  <br/>
-    <code>KADOS (KAnban Dashboard for Online Scrum)</code>  <br/>
-    <code>ownCloud                                 </code>  <br/>
-    <code>Nextcloud                                </code>  <br/>
-    <code>Laundry Management System                </code>  <br/>
-    <code>Human Flow HRMS                          </code>  <br/>
-    <code>TreoPIM (Product Information Management) </code>  <br/>
-    <code>Church Event Management System           </code>  <br/>
-    <code>Courier-Management-System                </code>  <br/>
+    <code>Abricotine                                    </code>  <br/>
+    <code>Ace (Ajax.org Cloud9 Editor)                  </code>  <br/>
+    <code>Admidio                                       </code>  <br/>
+    <code>AhadPOS 3                                     </code>  <br/>
+    <code>Akaunting                                     </code>  <br/>
+    <code>Archon                                        </code>  <br/>
+    <code>AtroPIM                                       </code>  <br/>
+    <code>Basic Laboratory Information System (BLIS)    </code>  <br/>
+    <code>BookStack                                     </code>  <br/>
+    <code>CalemEAM (Open Source EAM/CMMS)               </code>  <br/>
+    <code>Chikitsa                                      </code>  <br/>
+    <code>Church Event Management System                </code>  <br/>
+    <code>ChurchCRM                                     </code>  <br/>
+    <code>CitrusDB                                      </code>  <br/>
+    <code>Clockwork                                     </code>  <br/>
+    <code>Courier-Management-System                     </code>  <br/>
+    <code>Craft CMS                                     </code>  <br/>
+    <code>DaybydayCRM                                   </code>  <br/>
+    <code>DevDocs                                       </code>  <br/>
+    <code>Disk Usage Reports                            </code>  <br/>
+    <code>draw.io                                       </code>  <br/>
+    <code>Drupal                                        </code>  <br/>
+    <code>DuckieTV                                      </code>  <br/>
+    <code>EGroupware                                    </code>  <br/>
+    <code>eLabFTW                                       </code>  <br/>
+    <code>Faveo Helpdesk                                </code>  <br/>
+    <code>Firefly III                                   </code>  <br/>
+    <code>Flarum                                        </code>  <br/>
+    <code>Fleetco (Fleet Maintenance Management)        </code>  <br/>
+    <code>Forma LMS                                     </code>  <br/>
+    <code>FrontHrm                                      </code>  <br/>
+    <code>FUDforum                                      </code>  <br/>
+    <code>Gitea                                         </code>  <br/>
+    <code>GitList                                       </code>  <br/>
+    <code>GitScrum                                      </code>  <br/>
+    <code>GLPI (Asset and IT Management Software)       </code>  <br/>
+    <code>Grocy                                         </code>  <br/>
+    <code>Group Office groupware and CRM                </code>  <br/>
+    <code>hotelcommerce                                 </code>  <br/>
+    <code>Human Flow HRMS                               </code>  <br/>
+    <code>HuMo-genealogy                                </code>  <br/>
+    <code>ICEcoder                                      </code>  <br/>
+    <code>ILIAS Learning Management System              </code>  <br/>
+    <code>inoERP                                        </code>  <br/>
+    <code>Invoice Ninja                                 </code>  <br/>
+    <code>InvoicePlane                                  </code>  <br/>
+    <code>ISPConfig Hosting Control Panel               </code>  <br/>
+    <code>Jahshaka Studio                               </code>  <br/>
+    <code>Joomla! CMS                                   </code>  <br/>
+    <code>JSCAD                                         </code>  <br/>
+    <code>KADOS (KAnban Dashboard for Online Scrum)     </code>  <br/>
+    <code>Kalkun (SMS management)                       </code>  <br/>
+    <code>Kanboard project management                   </code>  <br/>
+    <code>Koel                                          </code>  <br/>
+    <code>Laundry Management System                     </code>  <br/>
+    <code>Limbas                                        </code>  <br/>
+    <code>Locutus                                       </code>  <br/>
+    <code>Logic Circuit Simulator                       </code>  <br/>
+    <code>Matomo                                        </code>  <br/>
+    <code>Mautic                                        </code>  <br/>
+    <code>Medkey EHR/EMR Hospital Information System    </code>  <br/>
+    <code>MetaLIMS                                      </code>  <br/>
+    <code>Monica personal relationship management system</code>  <br/>
+    <code>Moodle                                        </code>  <br/>
+    <code>Nextcloud                                     </code>  <br/>
+    <code>October CMS                                   </code>  <br/>
+    <code>Open Conference System (OCS)                  </code>  <br/>
+    <code>open enventory                                </code>  <br/>
+    <code>Open Harvester Systems                        </code>  <br/>
+    <code>Open Journal Systems (OJS)                    </code>  <br/>
+    <code>Open Monograph Press (OMP)                    </code>  <br/>
+    <code>Open Preprint Systems (OPS)                   </code>  <br/>
+    <code>Open Source Point of Sale                     </code>  <br/>
+    <code>Open Source Social Network (OSSN)             </code>  <br/>
+    <code>Opencast                                      </code>  <br/>
+    <code>openTimetool                                  </code>  <br/>
+    <code>Orangescrum                                   </code>  <br/>
+    <code>ownCloud                                      </code>  <br/>
+    <code>Pandora FMS                                   </code>  <br/>
+    <code>PartKeepr                                     </code>  <br/>
+    <code>Paste                                         </code>  <br/>
+    <code>PeerTube                                      </code>  <br/>
+    <code>Phoenix code editor                           </code>  <br/>
+    <code>PHP IP Address Management (phpIPAM)           </code>  <br/>
+    <code>phpLDAPadmin                                  </code>  <br/>
+    <code>PhreeBooks 5                                  </code>  <br/>
+    <code>Piwigo                                        </code>  <br/>
+    <code>PrivateBin                                    </code>  <br/>
+    <code>PuMuKIT                                       </code>  <br/>
+    <code>PyroCMS                                       </code>  <br/>
+    <code>Red Cherries Accounting                       </code>  <br/>
+    <code>Reportico (PHP Reporting Tool)                </code>  <br/>
+    <code>RosarioSIS                                    </code>  <br/>
+    <code>Rukovoditel                                   </code>  <br/>
+    <code>SAFE Open Source Microfinace Suite            </code>  <br/>
+    <code>Sahana Vesuvius                               </code>  <br/>
+    <code>SaltOS                                        </code>  <br/>
+    <code>Seo Panel                                     </code>  <br/>
+    <code>simancil                                      </code>  <br/>
+    <code>SIMIKMAN                                      </code>  <br/>
+    <code>Snipe-IT - Asset Management System            </code>  <br/>
+    <code>SolidInvoice                                  </code>  <br/>
+    <code>SqirrelMail                                   </code>  <br/>
+    <code>SugarCRM Community Edition                    </code>  <br/>
+    <code>SuiteCRM                                      </code>  <br/>
+    <code>Task Manager                                  </code>  <br/>
+    <code>TaskBoard                                     </code>  <br/>
+    <code>TastyIgniter                                  </code>  <br/>
+    <code>TemaTres Vocabulary Server                    </code>  <br/>
+    <code>TEMS (Time and Expense Management)            </code>  <br/>
+    <code>Tiki! wiki                                    </code>  <br/>
+    <code>Time and Expense Management System            </code>  <br/>
+    <code>Tiny File Manager                             </code>  <br/>
+    <code>TreoPIM (Product Information Management)      </code>  <br/>
+    <code>Tuleap                                        </code>  <br/>
+    <code>Unifiedtransform                              </code>  <br/>
+    <code>vtenext                                       </code>  <br/>
+    <code>WebTorrent Web                                </code>  <br/>
+    <code>WordPress                                     </code>  <br/>
+    <code>WP ERP                                        </code>  <br/>
+    <code>WP Hotelier                                   </code>  <br/>
+    <code>YetiForceCRM                                  </code>  <br/>
+    <code>Zen Cart                                      </code>  <br/>
+    <code>ZoneMinder                                    </code>  <br/>
 </details>
 
 <details>
