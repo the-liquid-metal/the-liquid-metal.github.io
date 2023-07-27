@@ -466,7 +466,7 @@
     <code>NeOCR               </code>  <br/>
     <code>Qalculate           </code>  <br/>
     <code>SpeedCrunch         </code>  <br/>
-    <code>Zint                </code>  <br/>
+    <code>Zint Barcode Studio </code>  <br/>
 </details>
 
 <details>
@@ -520,96 +520,160 @@
     <summary><h4>💻 not yet categorized</h4></summary>
     <code>ActivityWatch                              </code>  <br/>
     <code>AliceVision                                </code>  <br/>
+    <code>aMSN                                       </code>  <br/>
     <code>Apache OpenOffice                          </code>  <br/>
     <code>Archimedes                                 </code>  <br/>
+    <code>ASCII Generator 2.0                        </code>  <br/>
     <code>AtomicEdits                                </code>  <br/>
     <code>AutoHotkey                                 </code>  <br/>
     <code>Baobab                                     </code>  <br/>
+    <code>BarcodeTester                              </code>  <br/>
+    <code>Bauble                                     </code>  <br/>
     <code>Beekeeper Studio                           </code>  <br/>
     <code>Birds Kitchen                              </code>  <br/>
     <code>BlinkMindDesktop                           </code>  <br/>
     <code>Blockbench                                 </code>  <br/>
     <code>Calligra Plan                              </code>  <br/>
     <code>CodeMirror                                 </code>  <br/>
+    <code>ConvertAll                                 </code>  <br/>
+    <code>ConvertAll                                 </code>  <br/>
     <code>CuteTorrent                                </code>  <br/>
     <code>DbGate - (no)SQL database client           </code>  <br/>
     <code>DGuitar                                    </code>  <br/>
     <code>Dia                                        </code>  <br/>
+    <code>DiffImg                                    </code>  <br/>
     <code>Dopamine                                   </code>  <br/>
     <code>Drawpile                                   </code>  <br/>
+    <code>Duplicate Image Finder                     </code>  <br/>
+    <code>DVDStyler                                  </code>  <br/>
+    <code>Earth's Core                               </code>  <br/>
     <code>Embarcadero Dev-C++                        </code>  <br/>
+    <code>EssentialPIM                               </code>  <br/>
     <code>ExifCleaner                                </code>  <br/>
     <code>Flowblade                                  </code>  <br/>
+    <code>Foto Mosaik Edda                           </code>  <br/>
+    <code>Free timetabling software                  </code>  <br/>
     <code>FreeBASIC                                  </code>  <br/>
+    <code>FreeMat                                    </code>  <br/>
+    <code>FreeMind                                   </code>  <br/>
     <code>FreeTube                                   </code>  <br/>
     <code>Frescobaldi LilyPond Editor                </code>  <br/>
     <code>Fritzing                                   </code>  <br/>
     <code>Gaffer                                     </code>  <br/>
     <code>GDevelop                                   </code>  <br/>
     <code>gedit                                      </code>  <br/>
+    <code>GenealogyJ                                 </code>  <br/>
+    <code>Get Color SF                               </code>  <br/>
+    <code>GetIcon                                    </code>  <br/>
+    <code>GFP                                        </code>  <br/>
     <code>GitHub Desktop                             </code>  <br/>
     <code>Glaxnimate                                 </code>  <br/>
     <code>Glyphr Studio Desktop                      </code>  <br/>
     <code>Gnumeric                                   </code>  <br/>
+    <code>GNUPlot                                    </code>  <br/>
     <code>GoldenDict                                 </code>  <br/>
+    <code>Google Chrome                              </code>  <br/>
+    <code>Google Earth                               </code>  <br/>
+    <code>Google Earth                               </code>  <br/>
     <code>Goxel                                      </code>  <br/>
+    <code>GRAMPS                                     </code>  <br/>
+    <code>GreatNews                                  </code>  <br/>
     <code>Hugin                                      </code>  <br/>
     <code>Hydrogen drum machine                      </code>  <br/>
+    <code>IconsExtract                               </code>  <br/>
+    <code>ImagePrinter                               </code>  <br/>
     <code>JabRef Bibliography Management             </code>  <br/>
     <code>Jitsi                                      </code>  <br/>
+    <code>Jmol                                       </code>  <br/>
+    <code>Jukes                                      </code>  <br/>
     <code>KDevelop                                   </code>  <br/>
     <code>KeePassX                                   </code>  <br/>
     <code>LDView                                     </code>  <br/>
     <code>Light Table IDE                            </code>  <br/>
     <code>lightproxy                                 </code>  <br/>
+    <code>Links                                      </code>  <br/>
     <code>Lode                                       </code>  <br/>
     <code>LogicCircuit                               </code>  <br/>
     <code>LPub3D                                     </code>  <br/>
+    <code>Lynx                                       </code>  <br/>
     <code>Marble Virtual Globe and World Atlas       </code>  <br/>
     <code>Markdown Edit                              </code>  <br/>
     <code>MediaChips                                 </code>  <br/>
     <code>Meshroom                                   </code>  <br/>
+    <code>MikTex                                     </code>  <br/>
     <code>Move Mouse                                 </code>  <br/>
+    <code>Mozilla SunBird                            </code>  <br/>
+    <code>MS Office Viewer                           </code>  <br/>
     <code>MusE MIDI/Audio sequencer                  </code>  <br/>
+    <code>NASA World Wind                            </code>  <br/>
     <code>Natron video compositor                    </code>  <br/>
     <code>Netron viewer for neural network           </code>  <br/>
     <code>NOVA opeN sOurce Video plAyer              </code>  <br/>
     <code>Npackd                                     </code>  <br/>
     <code>NumericalChameleon                         </code>  <br/>
+    <code>Octave                                     </code>  <br/>
     <code>Olive Video Editor                         </code>  <br/>
+    <code>OpenStat                                   </code>  <br/>
+    <code>Opera                                      </code>  <br/>
     <code>ossia score                                </code>  <br/>
     <code>PasswordSafe                               </code>  <br/>
+    <code>PAST                                       </code>  <br/>
+    <code>PDF Creator                                </code>  <br/>
     <code>PDF Split And Merge (PDFsam)               </code>  <br/>
+    <code>PDF to Word doc                            </code>  <br/>
+    <code>Periodic Table                             </code>  <br/>
+    <code>Periodic Table                             </code>  <br/>
     <code>pgAdmin 4                                  </code>  <br/>
+    <code>PhotoME                                    </code>  <br/>
     <code>PHP App Server                             </code>  <br/>
     <code>PHP-RBAC                                   </code>  <br/>
+    <code>PianoBooster                               </code>  <br/>
     <code>Picturama                                  </code>  <br/>
+    <code>Planner                                    </code>  <br/>
     <code>Popcorn Time amilajack                     </code>  <br/>
     <code>Popcorn Time Official                      </code>  <br/>
+    <code>Posteriza                                  </code>  <br/>
+    <code>PowerSoundEditor                           </code>  <br/>
     <code>Psiphon                                    </code>  <br/>
     <code>PyScripter                                 </code>  <br/>
     <code>QDirStat                                   </code>  <br/>
     <code>qimgv                                      </code>  <br/>
+    <code>QK Barcode Generator                       </code>  <br/>
     <code>Qt-based multimedia player (Qmmp)          </code>  <br/>
     <code>Qtractor - Audio/MIDI multi-track sequencer</code>  <br/>
     <code>QuickViewer                                </code>  <br/>
     <code>RackTables datacenter management           </code>  <br/>
     <code>RailEssentials                             </code>  <br/>
+    <code>Rasterbator                                </code>  <br/>
     <code>RawTherapee                                </code>  <br/>
     <code>ReactOS                                    </code>  <br/>
     <code>RSSOwl                                     </code>  <br/>
+    <code>Safari                                     </code>  <br/>
+    <code>Sakura Editor                              </code>  <br/>
+    <code>Salaat Time                                </code>  <br/>
+    <code>SatuVISI Indict                            </code>  <br/>
+    <code>Scilab                                     </code>  <br/>
+    <code>Shollu                                     </code>  <br/>
     <code>Similar Vision                             </code>  <br/>
+    <code>Simple OCR                                 </code>  <br/>
     <code>Simple video cutter                        </code>  <br/>
     <code>SoftEther VPN                              </code>  <br/>
     <code>Space Radar                                </code>  <br/>
+    <code>Stardict                                   </code>  <br/>
+    <code>Stardict                                   </code>  <br/>
     <code>Streamlabs Desktop                         </code>  <br/>
     <code>Subtitle Composer                          </code>  <br/>
     <code>System Informer                            </code>  <br/>
     <code>TagSpaces                                  </code>  <br/>
     <code>Task Coach                                 </code>  <br/>
     <code>TaskUnifier                                </code>  <br/>
+    <code>TexnicCenter                               </code>  <br/>
+    <code>The Guide                                  </code>  <br/>
+    <code>The Hadith Software                        </code>  <br/>
+    <code>TightVNC                                   </code>  <br/>
     <code>Tiled                                      </code>  <br/>
     <code>ToDoList 8.2                               </code>  <br/>
+    <code>UltraVNC                                   </code>  <br/>
     <code>Umbrello UML Modeller                      </code>  <br/>
     <code>vengi                                      </code>  <br/>
     <code>Ventoy                                     </code>  <br/>
@@ -617,13 +681,19 @@
     <code>Video Hub App 3                            </code>  <br/>
     <code>VietOCR3                                   </code>  <br/>
     <code>VietOCR3.NET                               </code>  <br/>
+    <code>ViewGED                                    </code>  <br/>
+    <code>Virtual Moon Atlas                         </code>  <br/>
+    <code>VirtualDub                                 </code>  <br/>
+    <code>Visual Similarity Duplicate Image Finder   </code>  <br/>
     <code>VisualFamilyTree                           </code>  <br/>
     <code>Vivaldi Browser                            </code>  <br/>
     <code>vokoscreenNG                               </code>  <br/>
     <code>VSCodium                                   </code>  <br/>
+    <code>Weather3D                                  </code>  <br/>
     <code>WebTorrent                                 </code>  <br/>
     <code>winLAME                                    </code>  <br/>
     <code>wxFormBuilder                              </code>  <br/>
+    <code>XMind                                      </code>  <br/>
     <code>Xtreme Download Manager (XDM)              </code>  <br/>
     <code>Zettlr                                     </code>  <br/>
     <code>Zim - Desktop Wiki Editor                  </code>  <br/>
