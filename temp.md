@@ -696,565 +696,85 @@ LMMS, Okular, Olive, digiKam, darktable, Frescobaldi, GanttProject, KiCad, diagr
 	<A HREF="https://github.com/freeCodeCamp/devdocs">freeCodeCamp/devdocs: API Documentation Browser</A><BR/>
 
 <BR/><BR/><BR/>
-<H2>PHP web apps</H2>
-	<A HREF="https://github.com/chintanbanugaria/92five">92five: project management - chintanbanugaria/92five</A><BR/>
-	<A HREF="https://92fiveapp.com/">92five: project management - info</A>
+<H2>PHP web apps (not yet integrated with "annotated-app.md")</H2>
+	x <A HREF="https://github.com/chintanbanugaria/92five">92five: project management - chintanbanugaria/92five</A><BR/>
+	x <A HREF="https://92fiveapp.com/">92five: project management - info</A>
 	<BR/><BR/>
-	<A HREF="https://github.com/Admidio/admidio">Admidio: user management system - Admidio/admidio</A><BR/>
-	<A HREF="https://www.admidio.org/">Admidio: user management system - info</A>
+	x <A HREF="https://github.com/Ahadmart/ap3">AhadPOS 3: POS (point of sales) - Ahadmart/ap3</A>
 	<BR/><BR/>
-	<A HREF="https://www.adminer.org/">Adminer: database management in a single PHP file - info</A><BR/>
-	<A HREF="https://github.com/vrana/adminer">Adminer: database management in a single PHP file - vrana/adminer</A>
+	x <A HREF="https://github.com/Ahadmart/ahadSDM">AhadSDM: software untuk manage SDM - Ahadmart/ahadSDM</A>
 	<BR/><BR/>
-	<A HREF="https://github.com/Ahadmart/ap3">AhadPOS 3: POS (point of sales) - Ahadmart/ap3</A>
+	x <A HREF="http://www.avantfax.com/">AvantFAX: HylaFAX fax manager - info</A><BR/>
+	x <A HREF="https://sourceforge.net/projects/avantfax/">AvantFAX: HylaFAX fax manager - info</A>
 	<BR/><BR/>
-	<A HREF="https://github.com/Ahadmart/ahadSDM">AhadSDM: software untuk manage SDM - Ahadmart/ahadSDM</A>
+	x <A HREF="http://www.biucentrax.com/">biucentrax: mail center app - info</A>
 	<BR/><BR/>
-	<A HREF="https://www.sourcefabric.org/software/airtime">Airtime: radio scheduling and remote station manager - info</A><BR/>
-	<A HREF="https://github.com/sourcefabric/airtime">Airtime: radio scheduling and remote station manager - sourcefabric/airtime</A>
+	x <A HREF="https://bluespice.com/">BlueSpice: enterprise wiki app - info</A>
 	<BR/><BR/>
-	<A HREF="https://github.com/akaunting/akaunting">Akaunting: accounting app - akaunting/akaunting</A><BR/>
-	<A HREF="https://akaunting.com/">Akaunting: accounting app - info</A>
+	x <A HREF="https://www.bookedscheduler.com/">Booked: - info</A>
 	<BR/><BR/>
-	<A HREF="https://github.com/archonproject/archon">Archon: archive manager - archonproject/archon</A><BR/>
-	<A HREF="https://archon.org/">Archon: archive manager - info</A>
+	x <A HREF="https://clicksnbricks.net/">Clicks`n`Bricks: CRM, POS, workorder &amp; inventory manager - info</A><BR/>
+	x <A HREF="https://sourceforge.net/projects/clicksnbricks/">Clicks`n`Bricks: CRM, POS, workorder &amp; inventory manager - info</A>
 	<BR/><BR/>
-	<A HREF="http://www.avantfax.com/">AvantFAX: HylaFAX fax manager - info</A>
+	x <A HREF="http://couriermanageme.sourceforge.net/">Courier Management System: - info</A><BR/>
+	x <A HREF="https://sourceforge.net/projects/couriermanageme/files/">Courier Management System: - info</A>
 	<BR/><BR/>
-	<A HREF="https://github.com/axis/axiscommerce">Axis Commerce [DOWN]: ecommerce app - axis/axiscommerce</A><BR/>
-	<A HREF="http://axiscommerce.com/">Axis Commerce [DOWN]: ecommerce app - info</A>
+	x <A HREF="https://github.com/EduSec/EduSec">EduSec: college manager - EduSec/EduSec</A><BR/>
+	x <A HREF="http://www.rudrasoftech.com/">EduSec: college manager - info</A><BR/>
 	<BR/><BR/>
-	<A HREF="http://www.biucentrax.com/">biucentrax: mail center app - info</A>
+	x <A HREF="http://elixiraid.com/">Elixir Aid: hospital manager - info</A><BR/>
+	x <A HREF="https://sourceforge.net/projects/elixir-aid-hospital-management/">Elixir Aid: hospital manager - info</A>
 	<BR/><BR/>
-	<A HREF="https://bluespice.com/">BlueSpice: enterprise wiki app - info</A>
+	x <A HREF="https://www.geneotree.com/">GeneoTree: gedcom Viewer - info</A><BR/>
+	x <A HREF="https://sourceforge.net/projects/geneotree/files/">GeneoTree: gedcom Viewer - info</A>
+	x <A HREF="https://www.hesk.com/">HESK: free help desk app - info</A>
 	<BR/><BR/>
-	<A HREF="https://www.bookedscheduler.com/">Booked: - info</A>
+	x <A HREF="http://humanflow.in/">Human Flow HRMS: human resource manager - info</A>
 	<BR/><BR/>
-	<A HREF="https://github.com/BookStackApp/BookStack">BookStack: documentation/wiki content app - BookStackApp/BookStack</A><BR/>
-	<A HREF="https://www.bookstackapp.com/">BookStack: documentation/wiki content app - info</A>
+	x <A HREF="https://github.com/i-doit">i-doit: configuration, IT infrastructure &amp; inventory, network documentation, IT address manager &amp; ITSM Tool - i-doit</A><BR/>
+	x <A HREF="https://www.i-doit.org/">i-doit: configuration, IT infrastructure &amp; inventory, network documentation, IT address manager &amp; ITSM Tool - info</A>
 	<BR/><BR/>
-	<A HREF="https://github.com/C4G/BLIS">C4G-BLIS: basic laboratory app - C4G/BLIS</A><BR/>
-	<A HREF="http://blis.cc.gatech.edu/index.php">C4G-BLIS: basic laboratory app - info</A>
+	x <A HREF="https://www.ispconfig.org/">ISPConfig Hosting Control Panel: - info</A><BR/>
+	x <A HREF="https://sourceforge.net/projects/ispconfig/files/">ISPConfig Hosting Control Panel: - ispconfig</A>
 	<BR/><BR/>
-	<A HREF="https://github.com/calemcme/CalemEAM">CalemEAM: EAM/CMMS app - calemcme/CalemEAM</A><BR/>
-	<A HREF="http://www.calemeam.com/">CalemEAM: EAM/CMMS app - info</A>
+	x <A HREF="http://www.kados.info/welcome-on-kados-site/">KADOS: scrum app - info</A><BR/>
+	x <A HREF="http://svn.code.sf.net/p/kados/code/">KADOS: scrum app - repo</A>
 	<BR/><BR/>
-	<A HREF="https://github.com/care2x/care2x">CARE2X: hospital manager - care2x/care2x</A><BR/>
-	<A HREF="http://www.care2x.org/">CARE2X: hospital manager - info</A>
+	x <A HREF="https://www.listmessenger.com/">ListMessenger</A>
 	<BR/><BR/>
-	<A HREF="https://chikitsa.net/">Chikitsa: clinic/hospital manager - info</A><BR/>
-	<A HREF="https://github.com/sanskruti-technologies/chikitsa">Chikitsa: clinic/hospital manager - sanskruti-technologies/chikitsa</A>
+	x <A HREF="https://mrbs.sourceforge.io/">Meeting Room Booking System: - info</A><BR/>
+	x <A HREF="http://tompi.github.io/mrbs/">Meeting Room Booking System: - info</A><BR/>
+	x <A HREF="https://github.com/tompi/mrbs">Meeting Room Booking System: - tompi/mrbs</A><BR/>
+	x <A HREF="https://sourceforge.net/projects/mrbs/files/mrbs/">Meeting Room Booking System: - tompi/mrbs</A>
 	<BR/><BR/>
-	<A HREF="https://github.com/fusonic/chive">chive: database manager - fusonic/chive</A><BR/>
-	<A HREF="https://www.chive-project.com/">chive: database manager - info</A>
+	x <A HREF="https://manageyourteam.net/">MyT: project manager - info</A>
 	<BR/><BR/>
-	<A HREF="https://github.com/ChurchInfo/ChurchInfo">ChurchInfo: track members, families, groups, pledges and payments app - ChurchInfo/ChurchInfo</A><BR/>
-	<A HREF="http://www.churchdb.org/">ChurchInfo: track members, families, groups, pledges and payments app - info</A>
+	x <A HREF="http://oes.sourceforge.net/">Online Examination System [DEAD]: - info</A>
 	<BR/><BR/>
-	<A HREF="https://launchpad.net/citrusdb">CitrusDB: customer service and billing app - citrusdb in Launchpad</A><BR/>
-	<A HREF="http://citrusdb.org/">CitrusDB: customer service and billing app - info</A><BR/>
-	<A HREF="https://github.com/paulyasi/citrusdb">CitrusDB: customer service and billing app - paulyasi/citrusdb</A>
+	x <A HREF="http://openises.sourceforge.net/">Open ISES: emergency services app - info</A><BR/>
+	x <A HREF="https://sourceforge.net/projects/openises/">Open ISES: emergency services app - info</A>
 	<BR/><BR/>
-	<A HREF="https://github.com/civicrm/civicrm-core">CiviCRM: constituent relationship manager - civicrm/civicrm-core</A><BR/>
-	<A HREF="https://github.com/civicrm/civicrm-drupal-8">CiviCRM: constituent relationship manager - civicrm/civicrm-drupal-8</A><BR/>
-	<A HREF="https://github.com/civicrm/civicrm-joomla">CiviCRM: constituent relationship manager - civicrm/civicrm-joomla</A><BR/>
-	<A HREF="https://github.com/civicrm/civicrm-wordpress">CiviCRM: constituent relationship manager - civicrm/civicrm-wordpress</A><BR/>
-	<A HREF="https://civicrm.org/">CiviCRM: constituent relationship manager - info</A>
+	x <A HREF="https://open-real-estate.info/">Open Real Estate CMS is a free script for real estate agencies</A>
 	<BR/><BR/>
-	<A HREF="https://github.com/claroline/Claroline">Claroline: Learning management system - claroline/Claroline</A><BR/>
-	<A HREF="https://claroline.net/">Claroline: Learning management system - info</A>
+	x <A HREF="https://www.projeqtor.org/en/">ProjeQtOr: project manager - info</A>
 	<BR/><BR/>
-	<A HREF="https://github.com/craigrodway/classroombookings">Classroombookings: school room booking app - craigrodway/classroombookings</A><BR/>
-	<A HREF="https://www.classroombookings.com/">Classroombookings: school room booking app - info</A>
+	x <A HREF="https://www.seeddms.org/index.php?id=2">SeedDMS: document manager - info</A>
 	<BR/><BR/>
-	<A HREF="https://clicksnbricks.net/">Clicks`n`Bricks: CRM, POS, workorder &amp; inventory manager - info</A>
+	x <A HREF="http://www.simplehrmlive.com/">SimpleHRM: human resource manager - info</A>
 	<BR/><BR/>
-	<A HREF="https://github.com/arslancb/clipbucket">ClipBucket: video sharing, Tune.pk clone, Youtube clone, dailymotion clone app - arslancb/clipbucket</A><BR/>
-	<A HREF="https://clipbucket.com/">ClipBucket: video sharing, Tune.pk clone, Youtube clone, dailymotion clone app - info</A>
+	x <A HREF="https://www.soplanning.org/en/">SO Planning: projects and tasks app - info</A>
 	<BR/><BR/>
-	<A HREF="https://collabtive.o-dyn.de/">Collabtive: project manager - info</A><BR/>
-	<A HREF="https://www.collabtive.com/">Collabtive: project manager - info</A><BR/>
-	<A HREF="https://github.com/philippK-de/Collabtive">Collabtive: project manager - philippK-de/Collabtive</A>
+	x <A HREF="https://www.softaculous.com/softaculous/apps">Softaculous</A>
 	<BR/><BR/>
-	<A HREF="https://github.com/coppermine-gallery/cpg1.6.x">Coppermine: photo gallery app - coppermine-gallery/cpg1.6.x</A><BR/>
-	<A HREF="https://coppermine-gallery.net/">Coppermine: photo gallery app - info</A>
+	x <A HREF="https://selection.waypointhr.com/">WaypointHR [DEAD]: human resource manager - info</A>
 	<BR/><BR/>
-	<A HREF="http://couriermanageme.sourceforge.net/">Courier Management System: - info</A>
+	x <A HREF="https://webcollab.sourceforge.io/">WebCollab: project manager - info</A>
 	<BR/><BR/>
-	<A HREF="http://daloradius.com/">daloRADIUS: hotspots and ISP deployment manager - info</A><BR/>
-	<A HREF="https://github.com/lirantal/daloradius">daloRADIUS: hotspots and ISP deployment manager - lirantal/daloradius</A>
+	x <A HREF="http://webtareas.sourceforge.net/general/home.php">webTareas: project manager - info</A><BR/>
+	x <A HREF="https://github.com/fisharebest/webtrees">webtrees: genealogy app - fisharebest/webtrees</A><BR/>
+	x <A HREF="https://www.webtrees.net/index.php/en/">webtrees: genealogy app - info</A><BR/>
+	x <A HREF="https://webtrees.net/">webtrees: genealogy app - info</A>
 	<BR/><BR/>
-	<A HREF="https://github.com/Bottelet/DaybydayCRM">DaybydayCRM: CRM, track daily workflow - Bottelet/DaybydayCRM</A><BR/>
-	<A HREF="https://daybydaycrm.com/">DaybydayCRM: CRM, track daily workflow - info</A>
+	x <A HREF="https://wikindx.sourceforge.io/">Wikindx: bibliographic, quotations/notes management and article authoring system - info</A>
 	<BR/><BR/>
-	<A HREF="https://github.com/amekkawi/diskusagereports">Disk Usage Reports: remote computers/servers disk usage viewer - amekkawi/diskusagereports</A><BR/>
-	<A HREF="http://diskusagereports.com/">Disk Usage Reports: remote computers/servers disk usage viewer - info</A>
-	<BR/><BR/>
-	<A HREF="https://github.com/Dolibarr/dolibarr">Dolibarr: ERP &amp; CRM - Dolibarr/dolibarr</A><BR/>
-	<A HREF="https://www.dolibarr.org/">Dolibarr: ERP &amp; CRM - info</A>
-	<BR/><BR/>
-	<A HREF="https://github.com/dotproject/dotProject">dotProject: project manager - dotProject/dotProject</A><BR/>
-	<A HREF="https://dotproject.net/">dotProject: project manager - info</A>
-	<BR/><BR/>
-	<A HREF="https://github.com/EduSec/EduSec">EduSec: college manager - EduSec/EduSec</A><BR/>
-	<A HREF="http://www.rudrasoftech.com/">EduSec: college manager - info</A><BR/>
-	<A HREF="https://www.edutracsis.com/">eduTrac: student manager - info</A><BR/>
-	<A HREF="https://github.com/parkerj/eduTrac-SIS">eduTrac: student manager - parkerj/eduTrac-SIS</A>
-	<BR/><BR/>
-	<A HREF="https://github.com/elabftw/elabftw">eLabFTW: laboratory notebook app - elabftw/elabftw</A><BR/>
-	<A HREF="https://www.elabftw.net/">eLabFTW: laboratory notebook app - info</A>
-	<BR/><BR/>
-	<A HREF="http://elixiraid.com/">Elixir Aid: hospital manager - info</A>
-	<BR/><BR/>
-	<A HREF="https://epe.si/">EPESI: business information manager - info</A><BR/>
-	<A HREF="https://github.com/jtylek/EpesiCRM">EPESI: business information manager - jtylek/EpesiCRM</A>
-	<BR/><BR/>
-	<A HREF="https://github.com/espocrm/espocrm">EspoCRM: customer relation manager - espocrm/espocrm</A><BR/>
-	<A HREF="https://www.espocrm.com/">EspoCRM: customer relation manager - info</A>
-	<BR/><BR/>
-	<A HREF="https://www.faveohelpdesk.com/">Faveo Help Desk: ticket &amp; help desk manager - info</A><BR/>
-	<A HREF="https://github.com/ladybirdweb/faveo-helpdesk">Faveo Help Desk: ticket &amp; help desk manager - ladybirdweb/faveo-helpdesk</A>
-	<BR/><BR/>
-	<A HREF="https://github.com/fengoffice/fengoffice">Feng Office: project manager - fengoffice/fengoffice</A><BR/>
-	<A HREF="https://www.fengoffice.com/web/">Feng Office: project manager - info</A>
-	<BR/><BR/>
-	<A HREF="https://www.fleetco.space/">Fleetco: fleet maintenance manager - info</A><BR/>
-	<A HREF="https://github.com/neuharthr/Fleetco">Fleetco: fleet maintenance manager - neuharthr/Fleetco</A>
-	<BR/><BR/>
-	<A HREF="https://www.formalms.org/">FormaLMS: Learning Management System - info</A>
-	<BR/><BR/>
-	<A HREF="https://github.com/freemed/freemed">FreeMED: medical record &amp; practice manager - freemed/freemed</A><BR/>
-	<A HREF="https://freemedsoftware.org/">FreeMED: medical record &amp; practice manager - info</A>
-	<BR/><BR/>
-	<A HREF="https://github.com/FrontAccountingERP/FA">FrontAccounting: accounting app - FrontAccountingERP/FA</A><BR/>
-	<A HREF="https://frontaccounting.com/">FrontAccounting: accounting app - info</A>
-	<BR/><BR/>
-	<A HREF="https://github.com/notrinos/FrontHrm">FrontHrm: FrontAccounting HRM Module - notrinos/FrontHrm</A>
-	<BR/><BR/>
-	<A HREF="https://github.com/gaiaehr/gaiaehr">GaiaEHR [DEAD]:  Electronic Health Record - gaiaehr/gaiaehr</A><BR/>
-	<A HREF="http://www.gaiaehr.org/">GaiaEHR [DEAD]:  Electronic Health Record - info</A>
-	<BR/><BR/>
-	<A HREF="https://github.com/bwdutton/gallery3">Gallery: photo album organizer - bwdutton/gallery3</A><BR/>
-	<A HREF="https://github.com/gallery/gallery3">Gallery: photo album organizer - gallery/gallery3</A><BR/>
-	<A HREF="http://galleryproject.org/">Gallery: photo album organizer - info</A><BR/>
-	<A HREF="https://galleryrevival.com/">Gallery: photo album organizer - info</A>
-	<BR/><BR/>
-	<A HREF="https://www.geneotree.com/">GeneoTree: gedcom Viewer - info</A>
-	<BR/><BR/>
-	<A HREF="https://github.com/glpi-project/glpi">GLPI ITSM: asset and IT manager, ITIL Service Desk, licenses tracking and software auditing - glpi-project/glpi</A><BR/>
-	<A HREF="https://glpi-project.org/">GLPI ITSM: asset and IT manager, ITIL Service Desk, licenses tracking and software auditing - info</A>
-	<BR/><BR/>
-	<A HREF="https://www.group-office.com/">Group Office: CRM and groupware - info</A><BR/>
-	<A HREF="https://github.com/Intermesh/groupoffice">Group Office: CRM and groupware - Intermesh/groupoffice</A>
-	<BR/><BR/>
-	<A HREF="https://www.hesk.com/">HESK: free help desk app - info</A>
-	<BR/><BR/>
-	<A HREF="http://humanflow.in/">Human Flow HRMS: human resource manager - info</A>
-	<BR/><BR/>
-	<A HREF="https://github.com/humhub/humhub">HumHub: social network app - humhub/humhub</A><BR/>
-	<A HREF="https://www.humhub.com/en">HumHub: social network app - info</A>
-	<BR/><BR/>
-	<A HREF="https://github.com/HuubMons/HuMo-genealogy">HuMo-genealogy: genealogy app - HuubMons/HuMo-genealogy</A><BR/>
-	<A HREF="http://www.humo-gen.com/humo-gen/">HuMo-genealogy: genealogy app - info</A>
-	<BR/><BR/>
-	<A HREF="https://github.com/i-doit">i-doit: configuration, IT infrastructure &amp; inventory, network documentation, IT address manager &amp; ITSM Tool - i-doit</A><BR/>
-	<A HREF="https://www.i-doit.org/">i-doit: configuration, IT infrastructure &amp; inventory, network documentation, IT address manager &amp; ITSM Tool - info</A>
-	<BR/><BR/>
-	<A HREF="https://github.com/gamonoid/icehrm">ICE HRM: human resource manager - gamonoid/icehrm</A><BR/>
-	<A HREF="https://icehrm.com/">ICE HRM: human resource manager - info</A>
-	<BR/><BR/>
-	<A HREF="https://github.com/icecoder/ICEcoder">ICEcoder: code editor - icecoder/ICEcoder</A><BR/>
-	<A HREF="https://www.icecoder.net/">ICEcoder: code editor - info</A>
-	<BR/><BR/>
-	<A HREF="http://inoideas.org/">inoERP: enterprise manager - info</A><BR/>
-	<A HREF="https://github.com/inoerp/inoERP">inoERP: enterprise manager - inoERP/inoERP</A>
-	<BR/><BR/>
-	<A HREF="https://www.invoiceninja.com/">Invoice Ninja: invoice app - info</A><BR/>
-	<A HREF="https://github.com/invoiceninja/invoiceninja">Invoice Ninja: invoice app - invoiceninja/invoiceninja</A>
-	<BR/><BR/>
-	<A HREF="https://www.ispconfig.org/">ISPConfig Hosting Control Panel: - info</A><BR/>
-	<A HREF="https://github.com/ispconfig">ISPConfig Hosting Control Panel: - ispconfig</A>
-	<BR/><BR/>
-	<A HREF="https://github.com/Combodo/iTop">iTop: ITSM &amp; CMDB OpenSource - Combodo/iTop</A><BR/>
-	<A HREF="https://www.combodo.com/?lang=en">iTop: ITSM &amp; CMDB OpenSource - info</A>
-	<BR/><BR/>
-	<A HREF="http://www.kados.info/welcome-on-kados-site/">KADOS: scrum app - info</A><BR/>
-	<A HREF="http://svn.code.sf.net/p/kados/code/">KADOS: scrum app - repo</A>
-	<BR/><BR/>
-	<A HREF="https://github.com/back2arie/Kalkun">Kalkun: SMS manager - back2arie/Kalkun</A><BR/>
-	<A HREF="http://kalkun.sourceforge.net/">Kalkun: SMS manager - info</A>
-	<BR/><BR/>
-	<A HREF="https://kanboard.org/">Kanboard: Kanban app - info</A><BR/>
-	<A HREF="https://github.com/kanboard/kanboard">Kanboard: Kanban app - kanboard/kanboard</A>
-	<BR/><BR/>
-	<A HREF="https://koel.dev/">koel: personal music streaming app - info</A><BR/>
-	<A HREF="https://github.com/koel/koel">koel: personal music streaming app - koel/koel</A>
-	<BR/><BR/>
-	<A HREF="https://www.ldap-account-manager.org/lamcms/">LDAP Account Manager: - info</A><BR/>
-	<A HREF="https://github.com/LDAPAccountManager/lam">LDAP Account Manager: - LDAPAccountManager/lam</A>
-	<BR/><BR/>
-	<A HREF="https://www.letodms.com/">LetoDMS: document manager - info</A><BR/>
-	<A HREF="https://github.com/trilexcom/LetoDMS">LetoDMS: document manager - trilexcom/LetoDMS</A>
-	<BR/><BR/>
-	<A HREF="http://www.limbas.org/wiki/Hauptseite/en">limbas: database framework for creating database-driven business applications - info</A><BR/>
-	<A HREF="https://github.com/limbas/limbas">limbas: database framework for creating database-driven business applications - limbas/limbas</A>
-	<BR/><BR/>
-	<A HREF="https://www.limesurvey.org/">LimeSurvey: survey app - info</A><BR/>
-	<A HREF="https://github.com/LimeSurvey/LimeSurvey">LimeSurvey: survey app - LimeSurvey/LimeSurvey</A>
-	<BR/><BR/>
-	<A HREF="https://www.listmessenger.com/">ListMessenger</A>
-	<BR/><BR/>
-	<A HREF="https://magento.com/">Magento: ecommerce app - info</A><BR/>
-	<A HREF="https://github.com/magento/magento2">Magento: ecommerce app - magento/magento2</A>
-	<BR/><BR/>
-	<A HREF="https://www.mantisbt.org/">Mantis: bug tracker - info</A><BR/>
-	<A HREF="https://github.com/mantisbt/mantisbt">Mantis: bug tracker - mantisbt/mantisbt</A>
-	<BR/><BR/>
-	<A HREF="https://matomo.org/">Matomo: Google Analytics alternative app - info</A><BR/>
-	<A HREF="https://github.com/matomo-org/matomo">Matomo: Google Analytics alternative app - matomo-org/matomo</A>
-	<BR/><BR/>
-	<A HREF="https://www.mediawiki.org/wiki/Download">MediaWiki: wiki app - download</A><BR/>
-	<A HREF="https://github.com/wikimedia/mediawiki">MediaWiki: wiki app - wikimedia/mediawiki</A>
-	<BR/><BR/>
-	<A HREF="https://medkey.org/en/">Medkey: Hospital manager - info</A><BR/>
-	<A HREF="https://github.com/medkey-org/medkey">Medkey: Hospital manager - medkey-org/medkey</A>
-	<BR/><BR/>
-	<A HREF="https://mrbs.sourceforge.io/">Meeting Room Booking System: - info</A><BR/>
-	<A HREF="http://tompi.github.io/mrbs/">Meeting Room Booking System: - info</A><BR/>
-	<A HREF="https://github.com/tompi/mrbs">Meeting Room Booking System: - tompi/mrbs</A>
-	<BR/><BR/>
-	<A HREF="https://github.com/cheinle/MetaLIMS">MetaLIMS: small metagenomic laboratory manager - cheinle/MetaLIMS</A><BR/>
-	<A HREF="https://www.limswiki.org/index.php/MetaLIMS">MetaLIMS: small metagenomic laboratory manager - info</A>
-	<BR/><BR/>
-	<A HREF="https://moodle.org/">Moodle: learning platform - info</A><BR/>
-	<A HREF="https://github.com/moodle/moodle">Moodle: learning platform - moodle/moodle</A>
-	<BR/><BR/>
-	<A HREF="https://manageyourteam.net/">MyT: project manager - info</A>
-	<BR/><BR/>
-	<A HREF="https://nextcloud.com/">Nextcloud: file cloud app - info</A><BR/>
-	<A HREF="https://github.com/nextcloud/server">Nextcloud: file cloud app - nextcloud/server</A>
-	<BR/><BR/>
-	<A HREF="https://pkp.sfu.ca/ocs/">OCS (Open Conference Systems): scholarly conference manager - info</A><BR/>
-	<A HREF="https://github.com/pkp/ocs">OCS (Open Conference Systems): scholarly conference manager - pkp/ocs</A>
-	<BR/><BR/>
-	<A HREF="https://pkp.sfu.ca/ohs/">OHS (Open Harvester Systems): metadata indexing app - info</A><BR/>
-	<A HREF="https://github.com/pkp/harvester">OHS (Open Harvester Systems): metadata indexing app - pkp/harvester</A>
-	<BR/><BR/>
-	<A HREF="https://pkp.sfu.ca/ojs/">OJS (Open Journal Systems): scholarly journal manager and publisher - info</A><BR/>
-	<A HREF="https://github.com/pkp/ojs">OJS (Open Journal Systems): scholarly journal manager and publisher - pkp/ojs</A>
-	<BR/><BR/>
-	<A HREF="https://omeka.org/">Omeka: display of library, museum and scholarly collections, archives and exhibitions publisher - info</A><BR/>
-	<A HREF="https://github.com/omeka/Omeka">Omeka: display of library, museum and scholarly collections, archives and exhibitions publisher - omeka/Omeka</A>
-	<BR/><BR/>
-	<A HREF="https://pkp.sfu.ca/omp/">OMP (Open Monograph Press): scholarly book manager and publisher - info</A><BR/>
-	<A HREF="https://github.com/pkp/omp">OMP (Open Monograph Press): scholarly book manager and publisher - pkp/omp</A>
-	<BR/><BR/>
-	<A HREF="http://oes.sourceforge.net/">Online Examination System [DEAD]: - info</A>
-	<BR/><BR/>
-	<A HREF="http://www.open-enventory.de/index_en.html">open enventory: laboratory journal system app - info</A><BR/>
-	<A HREF="https://github.com/khoivan88/open_enventory-modified_for_US">open enventory: laboratory journal system app - khoivan88/open_enventory-modified_for_US</A>
-	<BR/><BR/>
-	<A HREF="http://openises.sourceforge.net/">Open ISES: emergency services app - info</A>
-	<BR/><BR/>
-	<A HREF="https://open-real-estate.info/">Open Real Estate CMS is a free script for real estate agencies</A>
-	<BR/><BR/>
-	<A HREF="https://open-school.org/">Open School: school manager - info</A><BR/>
-	<A HREF="https://github.com/traprajith/open-school-CE">Open School: school manager - traprajith/open-school-CE</A>
-	<BR/><BR/>
-	<A HREF="https://www.opensourcepos.org/">Open Source Point of Sale: - info</A><BR/>
-	<A HREF="https://github.com/opensourcepos/opensourcepos">Open Source Point of Sale: - opensourcepos/opensourcepos</A>
-	<BR/><BR/>
-	<A HREF="https://github.com/open-lims/open-lims">Open-LIMS: laboratory manager - open-lims/open-lims</A>
-	<BR/><BR/>
-	<A HREF="http://obiblio.sourceforge.net/">OpenBiblio: automated library OPAC, circulation, cataloging, and staff administration app - info</A><BR/>
-	<A HREF="https://bitbucket.org/mstetson/obiblio/src/default/">OpenBiblio: automated library OPAC, circulation, cataloging, and staff administration app - mstetson/obiblio - Bitbucket</A><BR/>
-	<A HREF="https://github.com/openbiblio/openbiblio-1.0">OpenBiblio: automated library OPAC, circulation, cataloging, and staff administration app - openbiblio/openbiblio-1.0</A>
-	<BR/><BR/>
-	<A HREF="http://openclinic.sourceforge.net/">OpenClinic: medical records app - info</A><BR/>
-	<A HREF="https://github.com/jact/openclinic">OpenClinic: medical records app - jact/openclinic</A>
-	<BR/><BR/>
-	<A HREF="https://www.opendocman.com/">OpenDocMan: document manager - info</A><BR/>
-	<A HREF="https://github.com/opendocman/opendocman">OpenDocMan: document manager - OpenDocMan/OpenDocMan</A>
-	<BR/><BR/>
-	<A HREF="https://www.open-emr.org/">OpenEMR: electronic health records and medical practice manager - info</A><BR/>
-	<A HREF="https://github.com/openemr/openemr">OpenEMR: electronic health records and medical practice manager - openemr/openemr</A>
-	<BR/><BR/>
-	<A HREF="https://opensis.com/">openSIS: school manager - info</A><BR/>
-	<A HREF="http://opensis.sourceforge.net/">openSIS: school manager - info</A><BR/>
-	<A HREF="https://github.com/OS4ED/openSIS-Responsive-Design">openSIS: school manager - OS4ED/openSIS-Responsive-Design</A>
-	<BR/><BR/>
-	<A HREF="https://opentimetool.de/">openTimetool: project time tracking app - info</A><BR/>
-	<A HREF="https://github.com/steprobst/opentimetool">openTimetool: project time tracking app - steprobst/opentimetool</A><BR/>
-	<A HREF="https://github.com/uli-heller/openTimetool">openTimetool: project time tracking app - uli-heller/openTimetool</A>
-	<BR/><BR/>
-	<A HREF="https://www.orangehrm.com/">OrangeHRM: human resource manager - info</A><BR/>
-	<A HREF="https://github.com/orangehrm/orangehrm">OrangeHRM: human resource manager - OrangeHRM/OrangeHRM</A>
-	<BR/><BR/>
-	<A HREF="https://www.orangescrum.com/">OrangeScrum: project &amp; task manager - info</A><BR/>
-	<A HREF="https://github.com/Orangescrum/orangescrum">OrangeScrum: project &amp; task manager - Orangescrum/orangescrum</A>
-	<BR/><BR/>
-	<A HREF="https://github.com/oroinc/platform-application">OroCRM - oroinc/platform-application</A><BR/>
-	<A HREF="https://oroinc.com/orocrm/">OroCRM: customer relationship manager - info</A><BR/>
-	<A HREF="https://github.com/oroinc/crm">OroCRM: customer relationship manager - oroinc/crm</A>
-	<BR/><BR/>
-	<A HREF="https://github.com/oroinc/platform">oroinc/platform: Main OroPlatform package with core functionality.</A>
-	<BR/><BR/>
-	<A HREF="https://osticket.com/">osTicket: Support Ticketing System - info</A><BR/>
-	<A HREF="https://github.com/osTicket/osTicket">osTicket: Support Ticketing System - osTicket/osTicket</A>
-	<BR/><BR/>
-	<A HREF="https://github.com/bogiesoft/hotelmis-ota">OTA Hotel Management: - bogiesoft/hotelmis-ota</A><BR/>
-	<A HREF="https://www.e-bridgedirect.com/registrationweb/otahotel.php">OTA Hotel Management: - info</A>
-	<BR/><BR/>
-	<A HREF="https://pandorafms.com/">Pandora FMS: monitoring system app - info</A><BR/>
-	<A HREF="https://github.com/pandorafms/pandorafms">Pandora FMS: monitoring system app - pandorafms/pandorafms</A>
-	<BR/><BR/>
-	<A HREF="https://www.partkeepr.org/">PartKeepr: inventory manager - info</A><BR/>
-	<A HREF="https://github.com/partkeepr/PartKeepr">PartKeepr: inventory manager - PartKeepr/PartKeepr</A>
-	<BR/><BR/>
-	<A HREF="https://phpaste.sourceforge.io/">Paste: pastebin.com clone app - info</A><BR/>
-	<A HREF="https://github.com/jordansamuel/PASTE">Paste: pastebin.com clone app - jordansamuel/PASTE</A>
-	<BR/><BR/>
-	<A HREF="https://www.phacility.com/phabricator/">phabricator: software engineering platform - info</A><BR/>
-	<A HREF="https://github.com/phacility/phabricator">phabricator: software engineering platform - phacility/phabricator</A>
-	<BR/><BR/>
-	<A HREF="https://www.phpbb.com/">phpBB: forum app - info</A><BR/>
-	<A HREF="https://github.com/phpbb/phpbb">phpBB: forum app - phpbb/phpbb</A>
-	<BR/><BR/>
-	<A HREF="https://github.com/bitweaver/phpgedview">PhpGedView: genealogy manager - bitweaver/phpgedview</A><BR/>
-	<A HREF="http://www.phpgedview.net/">PhpGedView: genealogy manager - info</A><BR/>
-	<A HREF="http://phpgedview.sourceforge.net/">PhpGedView: genealogy manager - web</A>
-	<BR/><BR/>
-	<A HREF="https://phpipam.net/">phpipam: IP address manager - info</A><BR/>
-	<A HREF="https://github.com/phpipam/phpipam">phpipam: IP address manager - phpipam/phpipam</A>
-	<BR/><BR/>
-	<A HREF="http://phpldapadmin.sourceforge.net/wiki/index.php/Main_Page">phpLDAPadmin: LDAP manager - info</A><BR/>
-	<A HREF="https://github.com/leenooks/phpLDAPadmin">phpLDAPadmin: LDAP manager - leenooks/phpLDAPadmin</A>
-	<BR/><BR/>
-	<A HREF="https://www.phplist.com/">phpList: email marketing manager - info</A><BR/>
-	<A HREF="https://github.com/phpList/phplist3">phpList: email marketing manager - phpList/phplist3</A>
-	<BR/><BR/>
-	<A HREF="https://www.phpmyadmin.net/">phpMyAdmin: MySQL and MariaDB manager - info</A><BR/>
-	<A HREF="https://github.com/phpmyadmin/phpmyadmin">phpMyAdmin: MySQL and MariaDB manager - phpmyadmin/phpmyadmin</A>
-	<BR/><BR/>
-	<A HREF="http://phppgadmin.sourceforge.net/doku.php">phpPgAdmin: PostgreSQL manager - info</A><BR/>
-	<A HREF="https://github.com/phppgadmin/phppgadmin">phpPgAdmin: PostgreSQL manager - phppgadmin/phppgadmin</A>
-	<BR/><BR/>
-	<A HREF="https://phpsysinfo.github.io/phpsysinfo/">phpSysInfo: displays information about system - info</A><BR/>
-	<A HREF="https://github.com/phpsysinfo/phpsysinfo">phpSysInfo: displays information about system - phpsysinfo/phpsysinfo</A>
-	<BR/><BR/>
-	<A HREF="https://www.phreesoft.com/">PhreeBooks: ERP, accounting app - info</A><BR/>
-	<A HREF="https://github.com/phreebooks/PhreeBooksERP">PhreeBooks: ERP, accounting app - phreebooks/PhreeBooksERP</A>
-	<BR/><BR/>
-	<A HREF="https://www.phtagr.org/">phTagr: Tag, Browse, and Share Photos app - info</A><BR/>
-	<A HREF="https://github.com/xemle/phtagr">phTagr: Tag, Browse, and Share Photos app - xemle/phtagr</A>
-	<BR/><BR/>
-	<A HREF="https://pimcore.com/en">pimcore: digital experience Platform (DXP, MDM/PIM, CDP, DAM, CMS/UX &amp; eCommerce) - info</A><BR/>
-	<A HREF="https://github.com/pimcore/pimcore">pimcore: digital experience Platform (DXP, MDM/PIM, CDP, DAM, CMS/UX &amp; eCommerce) - pimcore/pimcore</A>
-	<BR/><BR/>
-	<A HREF="https://www.prestashop.com/en">PrestaShop: ecommerce app - info</A><BR/>
-	<A HREF="https://github.com/PrestaShop/PrestaShop">PrestaShop: ecommerce app - PrestaShop/PrestaShop</A>
-	<BR/><BR/>
-	<A HREF="https://www.processmaker.com/">ProcessMaker: business process manager - info</A><BR/>
-	<A HREF="https://github.com/ProcessMaker/processmaker">ProcessMaker: business process manager - ProcessMaker/ProcessMaker</A>
-	<BR/><BR/>
-	<A HREF="https://www.projeqtor.org/en/">ProjeQtOr: project manager - info</A>
-	<BR/><BR/>
-	<A HREF="https://pumukit.org/">PuMuKIT: video platform - info</A><BR/>
-	<A HREF="https://github.com/pumukit/PuMuKIT">PuMuKIT: video platform - pumukit/PuMuKIT</A>
-	<BR/><BR/>
-	<A HREF="https://www.pyrocms.com/">PyroCMS: content manager - info</A><BR/>
-	<A HREF="https://github.com/pyrocms/pyrocms">PyroCMS: content manager - PyroCMS/PyroCMS</A>
-	<BR/><BR/>
-	<A HREF="http://qdpm.net/">qdPM: project manager - info</A><BR/>
-	<A HREF="https://github.com/qdpm/qdpm">qdPM: project manager - qdpm/qdpm</A>
-	<BR/><BR/>
-	<A HREF="https://www.racktables.org/">RackTables: datacenter asset manager - info</A><BR/>
-	<A HREF="https://github.com/RackTables/racktables">RackTables: datacenter asset manager - RackTables/RackTables</A>
-	<BR/><BR/>
-	<A HREF="https://github.com/Artifectx/Red-Cherries-Accounting">Red Cherries Accounting: small/medium enterprices accounting app - Artifectx/Red-Cherries-Accounting</A><BR/>
-	<A HREF="https://redcherriessoft.com/Os_home">Red Cherries Accounting: small/medium enterprices accounting app - info</A>
-	<BR/><BR/>
-	<A HREF="https://roundcube.net/">Roundcube: mail app - info</A><BR/>
-	<A HREF="https://github.com/roundcube/roundcubemail">Roundcube: mail app - roundcube/roundcubemail</A>
-	<BR/><BR/>
-	<A HREF="https://www.rukovoditel.net/">Rukovoditel: project manager, CRM - Rukovoditel</A><BR/>
-	<A HREF="https://github.com/Rukovoditel/Rukovoditel">Rukovoditel: project manager, CRM - Rukovoditel/Rukovoditel</A>
-	<BR/><BR/>
-	<A HREF="https://www.sipakal.com/">SAFE OSMS: microfinace app - info</A><BR/>
-	<A HREF="https://github.com/patadejaguar/safeosms">SAFE OSMS: microfinace app - patadejaguar/safeosms</A>
-	<BR/><BR/>
-	<A HREF="http://sahanafoundation.org/products/vesuvius/">Sahana Vesuvius: disaster preparedness and response needs - info</A><BR/>
-	<A HREF="https://github.com/sahana/vesuvius">Sahana Vesuvius: disaster preparedness and response needs - sahana/vesuvius</A>
-	<BR/><BR/>
-	<A HREF="https://www.saltos.org/portal/en/home">SaltOS: CRM, ERP - info</A><BR/>
-	<A HREF="https://github.com/josepsanzcamp/SaltOS">SaltOS: CRM, ERP - josepsanzcamp/SaltOS</A>
-	<BR/><BR/>
-	<A HREF="https://www.seeddms.org/index.php?id=2">SeedDMS: document manager - info</A>
-	<BR/><BR/>
-	<A HREF="http://www.sentrifugo.com/">Sentrifugo HRMS: human resource manager - info</A><BR/>
-	<A HREF="https://github.com/sapplica/sentrifugo">Sentrifugo HRMS: human resource manager - sapplica/sentrifugo</A>
-	<BR/><BR/>
-	<A HREF="https://www.seopanel.org/">SEO Panel: search engine optimization manager - info</A><BR/>
-	<A HREF="https://github.com/seopanel/Seo-Panel">SEO Panel: search engine optimization manager - seopanel/Seo-Panel</A>
-	<BR/><BR/>
-	<A HREF="http://www.simancil.com/">SiMancil: Manajemen Usaha Kecil - info</A><BR/>
-	<A HREF="https://github.com/v13nr/simancil">SiMancil: Manajemen Usaha Kecil - v13nr/simancil</A>
-	<BR/><BR/>
-	<A HREF="https://www.simpledesk.net/">Simple Desk: ticket based help desk - info</A><BR/>
-	<A HREF="https://github.com/SimpleMachines/SimpleDesk">Simple Desk: ticket based help desk - SimpleMachines/SimpleDesk</A>
-	<BR/><BR/>
-	<A HREF="https://www.simplemachines.org/">Simple Machines Forum: forum app - info</A><BR/>
-	<A HREF="https://github.com/SimpleMachines/SMF2.1">Simple Machines Forum: forum app - SimpleMachines/SMF2.1</A><BR/>
-	<A HREF="https://github.com/SimpleMachines/SMF3.0">Simple Machines Forum: forum app - SimpleMachines/SMF3.0</A>
-	<BR/><BR/>
-	<A HREF="http://www.simplehrmlive.com/">SimpleHRM: human resource manager - info</A>
-	<BR/><BR/>
-	<A HREF="https://sitracker.org/">SiT!: Support Incident Tracker - info</A><BR/>
-	<A HREF="https://github.com/sitracker/sitracker">SiT!: Support Incident Tracker - sitracker/sitracker</A>
-	<BR/><BR/>
-	<A HREF="https://slims.web.id/web/">SLiMS: library manager - info</A><BR/>
-	<A HREF="https://github.com/slims/slims9_bulian">SLiMS: library manager - slims/slims9_bulian</A>
-	<BR/><BR/>
-	<A HREF="https://snipeitapp.com/">Snipe-IT: IT asset/license manager - info</A><BR/>
-	<A HREF="https://github.com/snipe/snipe-it">Snipe-IT: IT asset/license manager - snipe/snipe-it</A>
-	<BR/><BR/>
-	<A HREF="https://www.soplanning.org/en/">SO Planning: projects and tasks app - info</A>
-	<BR/><BR/>
-	<A HREF="https://www.softaculous.com/softaculous/apps">Softaculous</A>
-	<BR/><BR/>
-	<A HREF="https://solidinvoice.co/">SolidInvoice: invoice app - info</A><BR/>
-	<A HREF="https://github.com/SolidInvoice/SolidInvoice">SolidInvoice: invoice app - SolidInvoice/SolidInvoice</A>
-	<BR/><BR/>
-	<A HREF="http://squirrelmail.org/">SquirrelMail: mail app - info</A><BR/>
-	<A HREF="https://github.com/RealityRipple/squirrelmail">SquirrelMail: mail app - RealityRipple/squirrelmail</A>
-	<BR/><BR/>
-	<A HREF="https://www.sugarcrm.com/">SugarCRM: customer relationship manager - info</A><BR/>
-	<A HREF="https://github.com/matthewpoer/SugarCRM-Community-Edition">SugarCRM: customer relationship manager - matthewpoer/SugarCRM-Community-Edition</A>
-	<BR/><BR/>
-	<A HREF="https://suitecrm.com/">SuiteCRM: customer relationship manager - info</A><BR/>
-	<A HREF="https://github.com/salesagility/SuiteCRM">SuiteCRM: customer relationship manager - salesagility/SuiteCRM</A>
-	<BR/><BR/>
-	<A HREF="http://taolin.fbk.eu/">taolin: web desktop app - info</A><BR/>
-	<A HREF="https://github.com/vad/taolin">taolin: web desktop app - vad/taolin</A>
-	<BR/><BR/>
-	<A HREF="https://taskboard.matthewross.me/">TaskBoard: Kanban app - info</A><BR/>
-	<A HREF="https://github.com/kiswa/TaskBoard">TaskBoard: Kanban app - kiswa/TaskBoard</A>
-	<BR/><BR/>
-	<A HREF="https://github.com/Eoxia/task-manager">TaskManager: project task app - Eoxia/task-manager</A><BR/>
-	<A HREF="https://taskmanager.fr/">TaskManager: project task app - info</A>
-	<BR/><BR/>
-	<A HREF="https://www.teemip.net/">TeemIp: IP address manager and DDI - info</A><BR/>
-	<A HREF="https://github.com/TeemIp/teemip-standalone">TeemIp: IP address manager and DDI - TeemIp/teemip-standalone</A>
-	<BR/><BR/>
-	<A HREF="https://www.tellmatic.org/">tellmatic: newsletter app - info</A><BR/>
-	<A HREF="https://github.com/tellmatic/tellmatic">tellmatic: newsletter app - tellmatic/tellmatic</A>
-	<BR/><BR/>
-	<A HREF="https://www.vocabularyserver.com/">TemaTres: Ontologies/Taxonomies/Thesauri/Glossaries app - info</A><BR/>
-	<A HREF="https://github.com/tematres/TemaTres-Vocabulary-Server">TemaTres: Ontologies/Taxonomies/Thesauri/Glossaries app - tematres/TemaTres-Vocabulary-Server</A>
-	<BR/><BR/>
-	<A HREF="http://www.temsonline.com/">TEMS: time and expense manager - info</A><BR/>
-	<A HREF="https://github.com/santanumajumdar/Time-and-Expense-Management-System">TEMS: time and expense manager - santanumajumdar/Time-and-Expense-Management-System</A>
-	<BR/><BR/>
-	<A HREF="https://info.tiki.org/">Tiki Wiki: CMS, groupware - info</A><BR/>
-	<A HREF="https://gitlab.com/tikiwiki/tiki">Tiki Wiki: CMS, groupware - Tiki · GitLab</A>
-	<BR/><BR/>
-	<A HREF="https://www.timetrex.com/">TimeTrex: time and attendance manager - info</A><BR/>
-	<A HREF="https://github.com/timetrex/TimeTrex">TimeTrex: time and attendance manager - timetrex/TimeTrex</A>
-	<BR/><BR/>
-	<A HREF="https://www.tine20.com/">Tine 2.0: groupware app - info</A><BR/>
-	<A HREF="https://github.com/tine20/tine20">Tine 2.0: groupware app - tine20/tine20</A>
-	<BR/><BR/>
-	<A HREF="http://www.todoyu.com/">todoyu:  task manager - info</A><BR/>
-	<A HREF="https://github.com/todoyuo/todoyu">todoyu:  task manager - todoyuo/todoyu</A>
-	<BR/><BR/>
-	<A HREF="https://tomatocart.com/">TomatoCart [DEAD]: ecommerce app - info</A><BR/>
-	<A HREF="https://github.com/tomatocart/TomatoCart-v2">TomatoCart [DEAD]: ecommerce app - tomatocart/TomatoCart-v2</A>
-	<BR/><BR/>
-	<A HREF="https://treopim.com/">TreoPIM: product information manager - info</A><BR/>
-	<A HREF="https://github.com/treolabs/treopim">TreoPIM: product information manager - treolabs/treopim</A>
-	<BR/><BR/>
-	<A HREF="https://github.com/Enalean/tuleap">Tuleap: project manager &amp; software development - Enalean/tuleap</A><BR/>
-	<A HREF="https://www.tuleap.org/">Tuleap: project manager &amp; software development - info</A>
-	<BR/><BR/>
-	<A HREF="https://github.com/changeweb/Unifiedtransform">Unifiedtransform: school manager - changeweb/Unifiedtransform</A><BR/>
-	<A HREF="https://changeweb.github.io/Unifiedtransform/">Unifiedtransform: school manager - info</A>
-	<BR/><BR/>
-	<A HREF="http://vermis.ognisco.com/">Vermis:  issue tracker and project manager - info</A><BR/>
-	<A HREF="https://github.com/koweb/Vermis">Vermis:  issue tracker and project manager - koweb/Vermis</A>
-	<BR/><BR/>
-	<A HREF="https://www.vtenext.com/en/">VTENEXT: CRM, BPM - info</A><BR/>
-	<A HREF="https://github.com/VTECRM/vtenext">VTENEXT: CRM, BPM - VTECRM/vtenext</A>
-	<BR/><BR/>
-	<A HREF="https://www.vtiger.com/">Vtiger CRM: customer relationship manager - info</A><BR/>
-	<A HREF="https://github.com/vtiger-crm/vtigercrm">Vtiger CRM: customer relationship manager - vtiger-crm/vtigercrm</A>
-	<BR/><BR/>
-	<A HREF="https://selection.waypointhr.com/">WaypointHR [DEAD]: human resource manager - info</A>
-	<BR/><BR/>
-	<A HREF="https://webcollab.sourceforge.io/">WebCollab: project manager - info</A>
-	<BR/><BR/>
-	<A HREF="https://www.weberp.org/">webERP: accounting &amp; business manager - info</A><BR/>
-	<A HREF="https://github.com/webERP-team/webERP">webERP: accounting &amp; business manager - webERP-team/webERP</A>
-	<BR/><BR/>
-	<A HREF="http://webtareas.sourceforge.net/general/home.php">webTareas: project manager - info</A><BR/>
-	<A HREF="https://github.com/fisharebest/webtrees">webtrees: genealogy app - fisharebest/webtrees</A><BR/>
-	<A HREF="https://www.webtrees.net/index.php/en/">webtrees: genealogy app - info</A><BR/>
-	<A HREF="https://webtrees.net/">webtrees: genealogy app - info</A>
-	<BR/><BR/>
-	<A HREF="https://wikindx.sourceforge.io/">Wikindx: bibliographic, quotations/notes management and article authoring system - info</A>
-	<BR/><BR/>
-	<A HREF="https://wperp.com/">WP ERP:  HR, CRM and Accounting for WordPress - info</A><BR/>
-	<A HREF="https://github.com/wp-erp/wp-erp">WP ERP:  HR, CRM and Accounting for WordPress - wp-erp/wp-erp</A>
-	<BR/><BR/>
-	<A HREF="https://x2crm.com/">X2CRM: CRM, Marketing Automation and Workflow - info</A><BR/>
-	<A HREF="https://github.com/X2Engine/X2CRM">X2CRM: CRM, Marketing Automation and Workflow - X2Engine/X2CRM</A>
-	<BR/><BR/>
-	<A HREF="https://yetiforce.com/en/">YetiForce CRM: customer relationship manager - info</A><BR/>
-	<A HREF="https://github.com/YetiForceCompany/YetiForceCRM">YetiForce CRM: customer relationship manager - YetiForceCompany/YetiForceCRM</A>
-	<BR/><BR/>
-	<A HREF="https://www.zen-cart.com/">Zen Cart: ecommerce app - info</A><BR/>
-	<A HREF="https://github.com/zencart/zencart">Zen Cart: ecommerce app - zencart/zencart</A>
-	<BR/><BR/>
-	<A HREF="https://github.com/easysoft/zentaopms">ZenTao: project manager - easysoft/zentaopms</A><BR/>
-	<A HREF="https://www.zentao.pm/">ZenTao: project manager - info</A>
-	<BR/><BR/>
-	<A HREF="http://zpanelcp.sourceforge.net/">ZPanel: web hosting panel app - info</A><BR/>
-	<A HREF="https://github.com/zpanel/zpanel">ZPanel: web hosting panel app - zpanel/zpanel</A><BR/>
-	<A HREF="https://github.com/zpanel/zpanelx">ZPanel: web hosting panel app - zpanel/zpanelx</A>
-	<BR/><BR/>
-	<A HREF="https://bitbucket.org/gravity4_it/zurmo/src/default/">Zurmo CRM: customer relationship manager - gravity4_it/zurmo</A><BR/>
-	<A HREF="http://zurmo.org/">Zurmo CRM: customer relationship manager - info</A><BR/>
-	<A HREF="https://github.com/zurmo/Zurmo">Zurmo CRM: customer relationship manager - zurmo/Zurmo</A>
-	<BR/><BR/>
-	<A HREF="https://github.com/ChurchCRM/CRM">ChurchCRM: Church CRM &amp; Management - ChurchCRM/CRM</A><BR/>
-	<A HREF="https://churchcrm.io/">ChurchCRM: Church CRM &amp; Management - info</A><BR/>
-	<A HREF="http://churchcrm.io/">ChurchCRM - An OpenSource CRM System Built for Churches</A>
-	<BR/><BR/>
-	<A HREF="https://github.com/clearhealth/clearhealth">clearhealth/clearhealth: Open Source Practice Management and Electronic Medical Records System</A>
-	<BR/><BR/>
-	<A HREF="http://ck-erp.net/drupal/">CK-ERP: - info</A>
-	<BR/><BR/>
-	<A HREF="https://www.drupal.org/">Drupal - Open Source CMS | Drupal.org</A><BR/>
-	<A HREF="https://github.com/drupal/drupal">drupal/drupal: Verbatim mirror of the git.drupal.org repository for Drupal core. Please see the https://github.com/drupal/drupal#contributing. PRs are not accepted on GitHub.</A>
-	<BR/><BR/>
-	<A HREF="https://github.com/formalms/formalms">formalms/formalms: forma.lms mirror repository</A>
-	<BR/><BR/>
-	<A HREF="https://github.com/e-dimensionz/Todoyu-PHP7.x">e-dimensionz/Todoyu-PHP7.x: [STABLE &amp; WORKING] Todoyu ported to work with PHP7 and newer MySQL</A>
-	<BR/><BR/>
-	<A HREF="https://www.joomla.org/">Joomla Content Management System (CMS) - try it! It&#39;s free!</A><BR/>
-	<A HREF="https://github.com/joomla/joomla-cms">joomla/joomla-cms: Home of the Joomla! Content Management System</A>
-	<BR/><BR/>
-	<A HREF="https://tiki.org/HomePage">HomePage</A>
-	<BR/><BR/>
-	<A HREF="https://www.mautic.org/">Open Source Marketing Automation - Mautic Community</A>
-	<BR/><BR/>
-	<A HREF="https://github.com/WordPress/WordPress">WordPress/WordPress: WordPress, Git-ified. This repository is just a mirror of the WordPress subversion repository. Please do not send pull requests. Submit pull requests to https://github.com/WordPress/wordpress-develop and patches to https://core.trac.wordpress.org/ instead.</A>
-	<BR/><BR/>
-	<A HREF="https://github.com/tikiorg/tiki">tikiorg/tiki: Tiki&#39;s Git repository has been moved to https://gitlab.com/tikiwiki/tiki. Check our development workflow at https://dev.tiki.org/Git-and-SVN-combined-workflow. This mirror git repository is deprecated and is not likely do be around for much longer. This mirror was build and maintained thanks to https://github.com/dpocock/sync2git.</A>
-	<BR/><BR/>
-	<A HREF="https://github.com/mautic/mautic">mautic/mautic: Mautic: Open Source Marketing Automation Software.</A>
-	<BR/><BR/>
-	<A HREF="https://wordpress.org/">Blog Tool, Publishing Platform, and CMS — WordPress.org</A>
-	<BR/><BR/>
-	<A HREF="https://github.com/owncloud/core">ownCloud: file cloud app - owncloud/core</A><BR/>
-	<A HREF="https://owncloud.org/">ownCloud: file cloud app - info</A><BR/>
-	<A HREF="https://owncloud.com/">ownCloud: file cloud app - info</A><BR/>
+	x <A HREF="http://ck-erp.net/drupal/">CK-ERP: - info</A>
