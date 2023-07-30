@@ -5,7 +5,7 @@ LMMS, Okular, Olive, digiKam, darktable, Frescobaldi, GanttProject, KiCad, diagr
 
 <p>Gunakan <code>CTRL + F</code> dan ketik app yang ingin dicari</p>
 
-<H2>desktop apps</H2>
+<H2>desktop apps (not yet integrated with "annotated-app.md")</H2>
 	x <A HREF="https://github.com/7z">7-Zip: file archiver with a high compression ratio - 7-Zip/???</A><BR/>
 	x <A HREF="https://www.7-zip.org/">7-Zip: file archiver with a high compression ratio - info</A>
 	<BR/><BR/>
@@ -69,7 +69,7 @@ LMMS, Okular, Olive, digiKam, darktable, Frescobaldi, GanttProject, KiCad, diagr
 	x <A HREF="https://vmpk.sourceforge.io/">VMPK: Virtual MIDI Piano Keyboard - info</A>
 
 <BR/><BR/><BR/>
-<H2>JS desktop apps</H2>
+<H2>JS desktop apps (not yet integrated with "annotated-app.md")</H2>
 	x <A HREF="https://github.com/brrd/abricotine">Abricotine: markdown editor - brrd/abricotine</A><BR/>
 	<BR/><BR/>
 	x <A HREF="https://github.com/BoostIO/BoostNote.next">Boost Note: powerful, lightspeed collaborative workspace for developer teams - BoostIO/BoostNote.next</A><BR/>
